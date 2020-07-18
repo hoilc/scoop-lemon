@@ -1,0 +1,41 @@
+{
+    "New Manifest Table Line": {
+        "scope": "md, markdown",
+        "prefix": "tableLine",
+        // ! - Manifest Name
+        // 2 - Scoop install name
+        // 3 - Extension
+        // 4 - Tested
+        // 5 - Checkver
+        // 6 - Autoupdate
+        // 7 - Autoupdate Hash Extraction
+        "body": "$0|[$1 **(${2:${1/[\\s]//g}})**](./bucket/$2.${3|json,yml|})|${4|❌,✔|}|${5|❌,✔,♻|}|${6|❌,✔,♻|} (${7|❌,✔,⛔,♻|})|",
+    },
+    "Moved Manifests Table line": {
+        "scope": "md, markdown",
+        "prefix": "movedTableLine",
+        // 1 - Manifest Name
+        // 2 - User
+        // 3 - Repository
+        // 4 - Manifest Name In Remote Repository
+        // 5 - Manifest Extension
+        // 6 - Local Commit Hash
+        // 7 - Remote Commit Hash
+        // 8 - Pull Request ID
+        // 20 - Full Repository URL
+        // 21 - user/repository
+        "body": "$0|[${1:Manifest Name}](${20:https://github.com/${21:${2|lukesampson,ScoopInstaller|}/${3|Main,scoop-extras|}}}/blob/master/bucket/${1/[\\s]/-/g}.${5|json,yml,yaml|})|[${6/^(.{7}).*$/${1}/}](https://github.com/Ash258/scoop-Ash258/commit/${6:COMMIT_ID})|[${7/^(.{7}).*$/${1}/}](${20}/commit/${7:REMOTE_COMMIT_ID}) ([${21}#${8:PR ID}](${20}/pull/${8}))|",
+    },
+    "New MiTeC Table Line": {
+        "scope": "md, markdown",
+        "prefix": "mitecTableLine",
+        // ! - Manifest Name
+        // 2 - Scoop install name
+        // 3 - Extension
+        // 4 - Tested
+        // 5 - Checkver
+        // 6 - Autoupdate
+        // 7 - Autoupdate Hash Extraction
+        "body": "|[MiTeC ${1:$CLIPBOARD} **(${3:${1/[\\s]//g}})**](./bucket/$3.json})|✔|✔|✔ (⛔)| $2",
+    },
+}

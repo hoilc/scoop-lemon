@@ -1,0 +1,69 @@
+{
+    "files.associations": {
+        "*.wsb": "xml",
+    },
+    "json.schemas": [
+        {
+            "url": "https://cdn.jsdelivr.net/gh/lukesampson/scoop@master/schema.json",
+            "fileMatch": [
+                ".vscode/Template.jsonc",
+                "TODO/*.json",
+                "bucket/*.json",
+            ],
+        },
+    ],
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.orderedList.marker": "one",
+    "markdown.extension.tableFormatter.enabled": true,
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.toc.levels": "2..6",
+    "markdown.extension.toc.plaintext": false,
+    "markdown.extension.toc.unorderedList.marker": "-",
+    "markdown.extension.toc.updateOnSave": false,
+    "powershell.codeFormatting.preset": "OTBS",
+    "terminals.terminals": [
+        {
+            "name": "Powershell",
+            "shellPath": "powershell.exe",
+            "shellArgs": [
+                "-NoLogo",
+                "-NoExit",
+            ],
+            "focus": true,
+            "open": true,
+        },
+        {
+            "name": "Powershell Core",
+            "shellPath": "pwsh.exe",
+            "shellArgs": [
+                "-NoLogo",
+                "-NoExit",
+            ],
+            "focus": true,
+            "open": true,
+        },
+    ],
+    "[yaml]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.autoIndent": true,
+    },
+    "yaml.completion": true,
+    "yaml.format.bracketSpacing": true,
+    "yaml.format.enable": false,
+    "yaml.format.singleQuote": true,
+    "yaml.hover": true,
+    "yaml.schemas": {
+        "http://json.schemastore.org/appveyor": "appveyor.y*ml",
+        "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
+        "https://cdn.jsdelivr.net/gh/lukesampson/scoop@develop/schema.json": [
+            ".vscode/Template.yml",
+            "TODO/*.y*ml",
+            "bucket/*.y*ml",
+        ],
+    },
+    "yaml.validate": true,
+}
