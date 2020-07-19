@@ -11,6 +11,7 @@
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\Settings\\\")) { New-Item -Path \"$dir\\Settings\\\" -ItemType Directory | Out-Null }",
     "persist": "Settings",
+    "bin": "StaxRip.exe",
     "shortcuts": [
         [
             "StaxRip.exe",
