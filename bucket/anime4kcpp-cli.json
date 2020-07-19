@@ -1,0 +1,27 @@
+{
+    "version": "2.2.1",
+    "description": "Anime4KCPP (CLI) provides an optimized bloc97's Anime4K algorithm version 0.9, it aims to be a high performance tools to process both image and video.",
+    "homepage": "https://github.com/TianZerL/Anime4KCPP",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v2.2.1/Anime4KCPP_CLI-2.2.1-Win64-msvc.7z",
+            "hash": "ede169b9693f5efe4e4165c91239c9a68a0ef7b638a76a2c6ded29dcd2d92407"
+        }
+    },
+    "bin": [
+        [
+            "Anime4KCPP_CLI.exe",
+            "Anime4KCPP"
+        ]
+    ],
+    "extract_dir": "CLI\\Anime4KCPP_CLI",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v$version/Anime4KCPP_CLI-$version-Win64-msvc.7z"
+            }
+        }
+    }
+}
