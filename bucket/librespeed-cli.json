@@ -1,0 +1,28 @@
+{
+    "version": "1.0.7",
+    "description": "A command line interface for LibreSpeed speed test backends, written in Go.",
+    "homepage": "https://github.com/librespeed/speedtest-cli",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/librespeed/speedtest-cli/releases/download/v1.0.7/librespeed-cli_1.0.7_windows_amd64.zip",
+            "hash": "635ed0d4a1575c36d00a09c0dd08023ac6e99198b3336656bedcaa0b6d546f07"
+        },
+        "32bit": {
+            "url": "https://github.com/librespeed/speedtest-cli/releases/download/v1.0.7/librespeed-cli_1.0.7_windows_386.zip",
+            "hash": "1965d7bf4e90db32b5e49dd638d585523f86b762a10229bc0abb20429030b380"
+        }
+    },
+    "bin": "librespeed-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/librespeed/speedtest-cli/releases/download/v$version/librespeed-cli_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/librespeed/speedtest-cli/releases/download/v$version/librespeed-cli_$version_windows_386.zip"
+            }
+        }
+    }
+}
