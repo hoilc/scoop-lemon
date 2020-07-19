@@ -6,15 +6,17 @@
         "identifier": "Freeware",
         "url": "http://www.selur.de/licence"
     },
-    "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2020.07.17.1_SETUP.exe",
-    "hash": "cf2534e1062c0840136224b5d23d2cfb05a3f67fcf345d8599e1b1e327850cf0",
-    "innosetup": true,
-    "installer": {
-        "script": [
-            "if (!(Test-Path \"$persist_dir\\misc.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\misc.ini\" -Value '[General]', 'settingPath=.\\\\settings' }",
-            "if (!(Test-Path \"$persist_dir\\settings\\\")) { New-Item -Path \"$dir\\settings\\\" -ItemType Directory | Out-Null }"
-        ]
+    "architecture": {
+        "64bit": {
+            "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2020.07.17.1_SETUP.exe",
+            "hash": "cf2534e1062c0840136224b5d23d2cfb05a3f67fcf345d8599e1b1e327850cf0"
+        }
     },
+    "innosetup": true,
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\misc.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\misc.ini\" -Value '[General]', 'settingPath=.\\\\settings' }",
+        "if (!(Test-Path \"$persist_dir\\settings\\\")) { New-Item -Path \"$dir\\settings\\\" -ItemType Directory | Out-Null }"
+    ],
     "persist": [
         "misc.ini",
         "settings"
@@ -31,6 +33,10 @@
         "regex": "rev\\s*([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
+        "architecture": {
+            "64bit": {
+                "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
+            }
+        }
     }
 }
