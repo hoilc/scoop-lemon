@@ -1,0 +1,28 @@
+{
+    "version": "0.8.1",
+    "description": "A Trojan proxy written in Go.",
+    "homepage": "https://github.com/p4gefau1t/trojan-go",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.1/trojan-go-windows-amd64.zip",
+            "hash": "f7b5877bad561b6ae8b8731b3cfeb4396ada088e993967c436088bec1ba80eb1"
+        },
+        "32bit": {
+            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.8.1/trojan-go-windows-386.zip",
+            "hash": "cfb10dfb05f946d09709feede9bbde6dd09242a84d325c8d8e6d11a8ed70bb8c"
+        }
+    },
+    "bin": "trojan-go.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-386.zip"
+            }
+        }
+    }
+}
