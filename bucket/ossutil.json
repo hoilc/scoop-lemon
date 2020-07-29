@@ -1,0 +1,42 @@
+{
+    "version": "1.6.18",
+    "description": "A user friendly command line tool to access AliCloud OSS.",
+    "homepage": "https://github.com/aliyun/ossutil",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "ossutil64.exe",
+                    "ossutil"
+                ]
+            ],
+            "extract_dir": "ossutil64",
+            "url": "http://gosspublic.alicdn.com/ossutil/1.6.18/ossutil64.zip",
+            "hash": "2216170464707c64e8bab1ad8dbbc3e20313615dea1d9f2d97a22c254071c5ee"
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "ossutil32.exe",
+                    "ossutil"
+                ]
+            ],
+            "extract_dir": "ossutil32",
+            "url": "http://gosspublic.alicdn.com/ossutil/1.6.18/ossutil32.zip",
+            "hash": "d65d109e3f66c4ef9b4c4e32eed065ece7e9a62b2e67afe8733b92124cd2e6e4"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\*.bat\" -Force -Recurse",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://gosspublic.alicdn.com/ossutil/$version/ossutil64.zip"
+            },
+            "32bit": {
+                "url": "http://gosspublic.alicdn.com/ossutil/$version/ossutil32.zip"
+            }
+        }
+    }
+}
