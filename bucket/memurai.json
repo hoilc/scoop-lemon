@@ -15,7 +15,23 @@
         "memurai-cli.exe",
         "memurai-check-rdb.exe",
         "memurai-check-aof.exe",
-        "memurai.exe"
+        "memurai.exe",
+        [
+            "memurai-cli.exe",
+            "redis-cli"
+        ],
+        [
+            "memurai-check-rdb.exe",
+            "redis-check-rdb"
+        ],
+        [
+            "memurai-check-aof.exe",
+            "redis-check-aof"
+        ],
+        [
+            "memurai.exe",
+            "redis-server"
+        ]
     ],
     "notes": "The sample configuration of Memurai server located in $dir\\Sample\\memurai.conf",
     "checkver": {
