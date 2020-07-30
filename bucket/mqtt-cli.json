@@ -1,0 +1,28 @@
+{
+    "version": "1.2.0",
+    "description": "A useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1.",
+    "homepage": "https://github.com/hivemq/mqtt-cli",
+    "license": "Apache-2.0",
+    "url": "https://github.com/hivemq/mqtt-cli/releases/download/v1.2.0/mqtt-cli-1.2.0.jar#/mqtt-cli.jar",
+    "hash": "51641aa4f42e69034bbaf544189f82e0fa878d5906b083cd7ac4f2dd1806c6e7",
+    "pre_install": "Set-Content \"$dir\\mqtt-cli.bat\" (@('@echo off', 'java.exe -jar %~dp0\\mqtt-cli.jar %*') -join \"`r`n\") -Encoding Ascii",
+    "bin": [
+        "mqtt-cli.bat",
+        [
+            "mqtt-cli.bat",
+            "mqtt"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/hivemq/mqtt-cli/releases/download/v$version/mqtt-cli-$version.jar#/mqtt-cli.jar"
+    }
+}
