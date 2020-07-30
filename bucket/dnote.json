@@ -19,8 +19,7 @@
             "64bit": {
                 "url": "https://github.com/dnote/dnote/releases/download/cli-v$version/dnote_$version_windows_amd64.tar.gz",
                 "hash": {
-                    "url": "$baseurl/dnote_$version_checksums.txt",
-                    "regex": "([a-fA-F0-9]+){64}\\s*$basename"
+                    "url": "$baseurl/dnote_$version_checksums.txt"
                 }
             }
         }
