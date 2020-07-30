@@ -1,0 +1,21 @@
+{
+    "version": "0.8.0",
+    "description": "A small, self-contained cross-platform CLI tool that allows you to just grab the binary and serve some file(s) via HTTP.",
+    "homepage": "https://github.com/svenstaro/miniserve",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/svenstaro/miniserve/releases/download/v0.8.0/miniserve-v0.8.0-windows-x86_64.exe#/miniserve.exe",
+            "hash": "8a44f27ee6146535f9cb540965df951ac50c658f91b69d3637a372d01b8a2f69"
+        }
+    },
+    "bin": "miniserve.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/svenstaro/miniserve/releases/download/v$version/miniserve-v$version-windows-x86_64.exe#/miniserve.exe"
+            }
+        }
+    }
+}
