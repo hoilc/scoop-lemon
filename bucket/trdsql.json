@@ -1,0 +1,32 @@
+{
+    "version": "0.7.6",
+    "description": "A CLI tool that can execute SQL queries on CSV, LTSV, JSON and TBLN, then output to various formats.",
+    "homepage": "https://github.com/noborus/trdsql",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "trdsql_v0.7.6_windows_amd64",
+            "url": "https://github.com/noborus/trdsql/releases/download/v0.7.6/trdsql_v0.7.6_windows_amd64.zip",
+            "hash": "3478d05299c5bbad07fcf93bc9a24ceaf56b302f1804518bbfab4d4df7fcdb42"
+        },
+        "32bit": {
+            "extract_dir": "trdsql_v0.7.6_windows_386",
+            "url": "https://github.com/noborus/trdsql/releases/download/v0.7.6/trdsql_v0.7.6_windows_386.zip",
+            "hash": "f9e4fb4fa873f7877912d41c96f7dfe101f4679498d8960b03d91a8ee6ce838b"
+        }
+    },
+    "bin": "trdsql.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "extract_dir": "trdsql_v$version_windows_amd64",
+                "url": "https://github.com/noborus/trdsql/releases/download/v$version/trdsql_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "extract_dir": "trdsql_v$version_windows_386",
+                "url": "https://github.com/noborus/trdsql/releases/download/v$version/trdsql_v$version_windows_386.zip"
+            }
+        }
+    }
+}
