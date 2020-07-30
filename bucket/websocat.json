@@ -1,0 +1,28 @@
+{
+    "version": "1.6.0",
+    "description": "A command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions.",
+    "homepage": "https://github.com/vi/websocat",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vi/websocat/releases/download/v1.6.0/websocat_win64.exe#/websocat.exe",
+            "hash": "4dda63d9eca7de80b0573f0fdc047e4a7bbce535707c1900e3fc2292f73c33eb"
+        },
+        "32bit": {
+            "url": "https://github.com/vi/websocat/releases/download/v1.6.0/websocat_win32.exe#/websocat.exe",
+            "hash": "12324dfe282e6bee124ddf1dbc6f26df888b3656e69869d36302667a728b30ef"
+        }
+    },
+    "bin": "websocat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vi/websocat/releases/download/v$version/websocat_win64.exe#/websocat.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/vi/websocat/releases/download/v$version/websocat_win32.exe#/websocat.exe"
+            }
+        }
+    }
+}
