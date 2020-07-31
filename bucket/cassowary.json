@@ -1,0 +1,31 @@
+{
+    "version": "0.11.0",
+    "description": "A modern HTTP/S, intuitive & cross-platform load testing tool built in Go for developers, testers and sysadmins.",
+    "homepage": "https://github.com/rogerwelin/cassowary",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rogerwelin/cassowary/releases/download/v0.11.0/cassowary_0.11.0_Windows_x86_64.tar.gz",
+            "hash": "15c1a7f65a8bc26d61f54cd625bfc60ef621bf475283f5ddc63a1e0cd37a2a3a"
+        },
+        "32bit": {
+            "url": "https://github.com/rogerwelin/cassowary/releases/download/v0.11.0/cassowary_0.11.0_Windows_i386.tar.gz",
+            "hash": "bf63e1cf40fea40b34f64102fcb677f10424604caeb4dd68ce7e6fd40a134780"
+        }
+    },
+    "bin": "cassowary.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rogerwelin/cassowary/releases/download/v$version/cassowary_$version_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/rogerwelin/cassowary/releases/download/v$version/cassowary_$version_Windows_i386.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
