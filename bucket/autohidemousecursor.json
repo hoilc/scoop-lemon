@@ -1,0 +1,40 @@
+{
+    "version": "3.55",
+    "description": "A small tool that allows you to hide the mouse cursor, if this does not move.",
+    "homepage": "http://www.softwareok.com/?seite=Microsoft/AutoHideMouseCursor",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_x64_Portable.zip",
+            "hash": "eeffdd291a0f6cf3902e2425c3a8a88c29822515047ef7ec1738765f4354cba2"
+        },
+        "32bit": {
+            "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_Portable.zip",
+            "hash": "9e01e20191bfbcc3315960c8a55e657f0825642520a8cedf5abbd0b6b4435e27"
+        }
+    },
+    "shortcuts": [
+        [
+            "AutoHideMouseCursor.exe",
+            "AutoHideMouseCursor"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'AutoHideMouseCursor*.exe' | Select-Object -First 1 | Rename-Item -NewName 'AutoHideMouseCursor.exe'",
+        "if (!(Test-Path \"$persist_dir\\AutoHideMouseCursor.ini\\\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideMouseCursor.ini\" -Value $null }"
+    ],
+    "persist": "AutoHideMouseCursor.ini",
+    "checkver": {
+        "regex": "AutoHideMouseCursor ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_x64_Portable.zip"
+            },
+            "32bit": {
+                "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_Portable.zip"
+            }
+        }
+    }
+}
