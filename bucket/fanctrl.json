@@ -1,0 +1,32 @@
+{
+    "version": "1.2.1",
+    "description": "A software that allows you to automatically control the fan speed on your PC.",
+    "homepage": "https://github.com/lich426/FanCtrl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lich426/FanCtrl/releases/download/v1.2.1/FanCtrl_v1.2.1.zip",
+            "hash": "c411f7192f83cd0604252cb88027b3c8d32bad293362ee39419b97787e87cd94"
+        }
+    },
+    "pre_install": "@('Control.json', 'OSD.json', 'Option.json') | ForEach-Object { if (!(Test-Path \"$persist_dir\\$_\")) { Set-Content -Encoding ASCII -Path \"$dir\\$_\" -Value '{}' } }",
+    "persist": [
+        "Control.json",
+        "OSD.json",
+        "Option.json"
+    ],
+    "shortcuts": [
+        [
+            "FanCtrl.exe",
+            "FanCtrl"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lich426/FanCtrl/releases/download/v$version/FanCtrl_v$version.zip"
+            }
+        }
+    }
+}
