@@ -1,0 +1,29 @@
+{
+    "version": "10.0d",
+    "description": "A small and simple sticky notes utility.",
+    "homepage": "https://www.zhornsoftware.co.uk/stickies/index.html",
+    "license": "Freeware",
+    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_0d.exe#/dl.7z",
+    "hash": "77300d6313f9f89e62ab2b5205c142811499b78eb1edd9ffbc6f4391a7d0bb87",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\stickies.db\")) { Set-Content -Encoding ASCII -Path \"$dir\\stickies.db\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\backups\\\")) { New-Item -Path \"$dir\\backups\\\" -ItemType Directory | Out-Null }"
+    ],
+    "persist": [
+        "stickies.db",
+        "backups"
+    ],
+    "shortcuts": [
+        [
+            "stickies.exe",
+            "Stickies"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.zhornsoftware.co.uk/stickies/versions.html",
+        "regex": "v([\\d.]+[a-z]*)\\s*-"
+    },
+    "autoupdate": {
+        "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_$underscoreVersion.exe#/dl.7z"
+    }
+}
