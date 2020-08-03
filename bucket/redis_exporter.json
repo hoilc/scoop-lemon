@@ -2,7 +2,7 @@
     "version": "1.9.0",
     "description": "A Prometheus exporter for Redis metrics.",
     "homepage": "https://github.com/oliver006/redis_exporter",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.9.0/redis_exporter-v1.9.0.windows-amd64.zip",
