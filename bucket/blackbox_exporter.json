@@ -1,6 +1,6 @@
 {
     "version": "0.17.0",
-    "description": "A Prometheus allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP.",
+    "description": "A Prometheus exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP.",
     "homepage": "https://github.com/prometheus/blackbox_exporter",
     "license": "Apache-2.0",
     "architecture": {
