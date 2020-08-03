@@ -6,11 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.18.0/snmp_exporter-0.18.0.windows-amd64.tar.gz",
-            "hash": "16f59ddd671897502e88e6d54d8da3112ffc3c79def3c3cc6cf061d639a0c9d6"
+            "hash": "16f59ddd671897502e88e6d54d8da3112ffc3c79def3c3cc6cf061d639a0c9d6",
+            "extract_dir": "snmp_exporter-0.18.0.windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.18.0/snmp_exporter-0.18.0.windows-386.tar.gz",
-            "hash": "2dd98258d2dfa4ef6521d6e932d2b258e8dfc5db4df582db6ef2bfc3cc5a5d47"
+            "hash": "2dd98258d2dfa4ef6521d6e932d2b258e8dfc5db4df582db6ef2bfc3cc5a5d47",
+            "extract_dir": "snmp_exporter-0.18.0.windows-386"
         }
     },
     "persist": "snmp.yml",

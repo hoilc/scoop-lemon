@@ -6,11 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.9.0/graphite_exporter-0.9.0.windows-amd64.tar.gz",
-            "hash": "5397bcb3f40b4fd494aa7e608cc9733d04b4faed92d5129793129330aaef41ec"
+            "hash": "5397bcb3f40b4fd494aa7e608cc9733d04b4faed92d5129793129330aaef41ec",
+            "extract_dir": "graphite_exporter-0.9.0.windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.9.0/graphite_exporter-0.9.0.windows-386.tar.gz",
-            "hash": "77668d83d6afc98771c91225c374cd388ac4ffbe244a8595a06b761ef23a4676"
+            "hash": "77668d83d6afc98771c91225c374cd388ac4ffbe244a8595a06b761ef23a4676",
+            "extract_dir": "graphite_exporter-0.9.0.windows-386"
         }
     },
     "bin": "graphite_exporter.exe",

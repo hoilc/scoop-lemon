@@ -6,11 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.12.1/mysqld_exporter-0.12.1.windows-amd64.tar.gz",
-            "hash": "3b0922be20436ababfcf3f091500e55967230b1802b5eb799d52ecae6fa58239"
+            "hash": "3b0922be20436ababfcf3f091500e55967230b1802b5eb799d52ecae6fa58239",
+            "extract_dir": "mysqld_exporter-0.12.1.windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.12.1/mysqld_exporter-0.12.1.windows-386.tar.gz",
-            "hash": "d9e67f74484bf7080aed601a489d1e57450465afb86e53145daa95aa9c5b7f4d"
+            "hash": "d9e67f74484bf7080aed601a489d1e57450465afb86e53145daa95aa9c5b7f4d",
+            "extract_dir": "mysqld_exporter-0.12.1.windows-386"
         }
     },
     "bin": "mysqld_exporter.exe",
