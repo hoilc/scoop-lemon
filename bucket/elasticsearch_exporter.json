@@ -1,0 +1,35 @@
+{
+    "version": "1.1.0",
+    "description": "A Prometheus exporter for Redis metrics.",
+    "homepage": "https://github.com/justwatchcom/elasticsearch_exporter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v1.1.0/elasticsearch_exporter-1.1.0.windows-amd64.tar.gz",
+            "hash": "e628a1d3ffbd79f476c2a36e3c27f29eee37101ba055da83315321abfddacb39",
+            "extract_dir": "elasticsearch_exporter-1.1.0.windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v1.1.0/elasticsearch_exporter-1.1.0.windows-386.tar.gz",
+            "hash": "601ef8ffe095d920e284d10446c98d3af6c7fba769dcb5be44913e7a3572c5ca",
+            "extract_dir": "elasticsearch_exporter-1.1.0.windows-386"
+        }
+    },
+    "bin": "elasticsearch_exporter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v$version/elasticsearch_exporter-$version.windows-amd64.tar.gz",
+                "extract_dir": "elasticsearch_exporter-$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v$version/elasticsearch_exporter-$version.windows-386.tar.gz",
+                "extract_dir": "elasticsearch_exporter-$version.windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
