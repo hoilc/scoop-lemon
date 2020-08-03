@@ -1,0 +1,34 @@
+{
+    "version": "0.11.0",
+    "description": "A Prometheus exporter that scrapes HAProxy stats and exports them via HTTP for Prometheus consumption.",
+    "homepage": "https://github.com/prometheus/haproxy_exporter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/prometheus/haproxy_exporter/releases/download/v0.11.0/haproxy_exporter-0.11.0.windows-amd64.tar.gz",
+            "hash": "8695a332f1134b79cbeb9af2dec4246aabc179a1688511d24d44c6accf9bf521"
+        },
+        "32bit": {
+            "url": "https://github.com/prometheus/haproxy_exporter/releases/download/v0.11.0/haproxy_exporter-0.11.0.windows-386.tar.gz",
+            "hash": "4003bc92fea782693260b18a84304c64736dd9c7031f7df829686dc79245b2f6"
+        }
+    },
+    "bin": "haproxy_exporter.exe",
+    "notes": "Since HAProxy 2.0.0, the official source includes a Prometheus exporter module that can be built into your binary with a single flag during build time and offers an exporter-free Prometheus endpoint.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prometheus/haproxy_exporter/releases/download/v$version/haproxy_exporter-$version.windows-amd64.tar.gz",
+                "extract_dir": "haproxy_exporter-$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/prometheus/haproxy_exporter/releases/download/v$version/haproxy_exporter-$version.windows-386.tar.gz",
+                "extract_dir": "haproxy_exporter-$version.windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
