@@ -2,7 +2,7 @@
     "version": "1.1.0",
     "description": "A Prometheus exporter for Redis metrics.",
     "homepage": "https://github.com/justwatchcom/elasticsearch_exporter",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v1.1.0/elasticsearch_exporter-1.1.0.windows-amd64.tar.gz                ",
