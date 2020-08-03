@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v1.1.0/elasticsearch_exporter-1.1.0.windows-amd64.tar.gz                ",
+            "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v1.1.0/elasticsearch_exporter-1.1.0.windows-amd64.tar.gz",
             "hash": "e628a1d3ffbd79f476c2a36e3c27f29eee37101ba055da83315321abfddacb39",
             "extract_dir": "elasticsearch_exporter-1.1.0.windows-amd64"
         },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v$version/elasticsearch_exporter-$version.windows-amd64.tar.gz                ",
+                "url": "https://github.com/justwatchcom/elasticsearch_exporter/releases/download/v$version/elasticsearch_exporter-$version.windows-amd64.tar.gz",
                 "extract_dir": "elasticsearch_exporter-$version.windows-amd64"
             },
             "32bit": {
