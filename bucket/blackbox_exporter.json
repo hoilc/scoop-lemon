@@ -14,13 +14,7 @@
         }
     },
     "persist": "blackbox.yml",
-    "bin": [
-        "blackbox_exporter.exe",
-        [
-            "blackbox_exporter.exe",
-            "blackbox-exporter"
-        ]
-    ],
+    "bin": "blackbox_exporter.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

@@ -14,13 +14,7 @@
         }
     },
     "persist": "snmp.yml",
-    "bin": [
-        "snmp_exporter.exe",
-        [
-            "snmp_exporter.exe",
-            "snmp-exporter"
-        ]
-    ],
+    "bin": "snmp_exporter.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

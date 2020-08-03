@@ -13,13 +13,7 @@
             "hash": "fe8b517818d8c4c659c8f890b8694b59d0591c4f9f46a0b3ff7f831231ae1224"
         }
     },
-    "bin": [
-        "statsd_exporter.exe",
-        [
-            "statsd_exporter.exe",
-            "statsd-exporter"
-        ]
-    ],
+    "bin": "statsd_exporter.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

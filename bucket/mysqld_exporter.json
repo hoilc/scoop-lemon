@@ -13,13 +13,7 @@
             "hash": "d9e67f74484bf7080aed601a489d1e57450465afb86e53145daa95aa9c5b7f4d"
         }
     },
-    "bin": [
-        "mysqld_exporter.exe",
-        [
-            "mysqld_exporter.exe",
-            "mysqld-exporter"
-        ]
-    ],
+    "bin": "mysqld_exporter.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

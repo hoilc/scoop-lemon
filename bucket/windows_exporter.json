@@ -13,13 +13,7 @@
             "hash": "576e56d1549b49194f4d14dc855e01a5b23f0761cbbd199647fc87641aac49ef"
         }
     },
-    "bin": [
-        "windows_exporter.exe",
-        [
-            "windows_exporter.exe",
-            "windows-exporter"
-        ]
-    ],
+    "bin": "windows_exporter.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
