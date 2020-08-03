@@ -1,0 +1,35 @@
+{
+    "version": "1.9.0",
+    "description": "A Prometheus exporter for metrics in the InfluxDB format used since 0.9.0.",
+    "homepage": "https://github.com/oliver006/redis_exporter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.9.0/redis_exporter-v1.9.0.windows-amd64.zip",
+            "hash": "729c10c482a5542a29786af290faa7eb80f8bcd43b6c5184122a47a5f78d4b7a",
+            "extract_dir": "redis_exporter-v1.9.0.windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.9.0/redis_exporter-v1.9.0.windows-386.zip",
+            "hash": "63a61200f51c51501662cdb46da2dbd0adf66952e508668bbf1d673e22fa88aa",
+            "extract_dir": "redis_exporter-v1.9.0.windows-386"
+        }
+    },
+    "bin": "redis_exporter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/oliver006/redis_exporter/releases/download/v$version/redis_exporter-v$version.windows-amd64.zip",
+                "extract_dir": "redis_exporter-v$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/oliver006/redis_exporter/releases/download/v$version/redis_exporter-v$version.windows-386.zip",
+                "extract_dir": "redis_exporter-v$version.windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
