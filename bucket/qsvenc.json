@@ -1,5 +1,5 @@
 {
-    "version": "4.06",
+    "version": "4.07",
     "description": "Investigate performance and image quality of HW encoder (QSV) of Intel",
     "homepage": "https://github.com/rigaya/QSVEnc",
     "license": "MIT",
@@ -11,13 +11,13 @@
                     "QSVEnc"
                 ]
             ],
-            "url": "https://github.com/rigaya/QSVEnc/releases/download/4.06/QSVEncC_4.06_x64.7z",
-            "hash": "d4a94db9402f7ada7e51e35d0fda97865a6f0cf046336abb00b64ce654e98beb"
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/4.07/QSVEncC_4.07_x64.7z",
+            "hash": "a54de80a381280a63b083387b8f05fa0c686ee44fc0c11c42522a6e927a53787"
         },
         "32bit": {
             "bin": "QSVEncC.exe",
-            "url": "https://github.com/rigaya/QSVEnc/releases/download/4.06/QSVEncC_4.06_Win32.7z",
-            "hash": "7367fb68813f4078fb3e45a3103ef856357f92e665cea830b325a5ee974f719d"
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/4.07/QSVEncC_4.07_Win32.7z",
+            "hash": "4a3524a955450aa11177e24347226661a6aec74ec73587161b6510aa5da85046"
         }
     },
     "checkver": "github",
