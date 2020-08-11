@@ -25,7 +25,7 @@
             ]
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\ColorConsole.ini\\\")) { Set-Content -Encoding ASCII -Path \"$dir\\ColorConsole.ini\" -Value $null }",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\ColorConsole.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\ColorConsole.ini\" -Value $null }",
     "persist": "ColorConsole.ini",
     "checkver": {
         "regex": "ColorConsole ([\\d.]+)"

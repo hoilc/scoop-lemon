@@ -11,7 +11,7 @@
             "AutoHideDesktopIcons"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\AutoHideDesktopIcons_p.ini\\\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideDesktopIcons_p.ini\" -Value $null }",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\AutoHideDesktopIcons_p.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideDesktopIcons_p.ini\" -Value $null }",
     "persist": "AutoHideDesktopIcons_p.ini",
     "checkver": {
         "regex": "AutoHideDesktopIcons ([\\d.]+)"

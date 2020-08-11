@@ -21,7 +21,7 @@
     ],
     "pre_install": [
         "Get-ChildItem \"$dir\" 'AutoHideMouseCursor*.exe' | Select-Object -First 1 | Rename-Item -NewName 'AutoHideMouseCursor.exe'",
-        "if (!(Test-Path \"$persist_dir\\AutoHideMouseCursor.ini\\\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideMouseCursor.ini\" -Value $null }"
+        "if (!(Test-Path \"$persist_dir\\AutoHideMouseCursor.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\AutoHideMouseCursor.ini\" -Value $null }"
     ],
     "persist": "AutoHideMouseCursor.ini",
     "checkver": {
