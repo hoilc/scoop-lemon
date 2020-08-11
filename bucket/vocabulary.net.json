@@ -1,0 +1,29 @@
+{
+    "version": "5.1.7412",
+    "description": "A tool that helps you learning multi-language vocabulary.",
+    "homepage": "https://fishcodelib.com/Elem.htm",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://fishcodelib.com/EULA.htm"
+    },
+    "url": "https://fishcodelib.com/files/Elem2.zip",
+    "hash": "177ce80b915efd39a72f36c0bfa2ed137dd7593c19637aaa72fd63e65d0f7832",
+    "shortcuts": [
+        [
+            "Elem2.exe",
+            "Vocabulary .NET"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Elem2.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\Elem2.xml\" -Value $null }",
+    "persist": "Elem2.xml",
+    "uninstaller": {
+        "script": "if(Test-Path \"$dir\\*.db3\") { Copy-Item \"$dir\\*.db3\" \"$persist_dir\\\" | Out-Null }"
+    },
+    "checkver": {
+        "url": "https://fishcodelib.com/pads/Elem2.xml",
+        "regex": "<Program_Version>([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://fishcodelib.com/files/Elem2.zip"
+    }
+}

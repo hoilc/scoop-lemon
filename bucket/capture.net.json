@@ -1,0 +1,26 @@
+{
+    "version": "14.1.7463.2",
+    "description": "An integrated, multi-functional, powerful and general-purpose System, Design, File, Desktop and Develop All-In-One utility tool.",
+    "homepage": "https://fishcodelib.com/Capture.htm",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://fishcodelib.com/EULA.htm"
+    },
+    "url": "https://fishcodelib.com/files/CaptureNet3.zip",
+    "hash": "f76ee88f3a309baa75b1586de759add0a051a412d8f45b31a464e4b943e29bbe",
+    "shortcuts": [
+        [
+            "Capture.exe",
+            "Capture .NET"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Capture.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\Capture.xml\" -Value $null }",
+    "persist": "Capture.xml",
+    "checkver": {
+        "url": "https://fishcodelib.com/3/Capture3.xml",
+        "regex": "([\\d.]+)</ver>"
+    },
+    "autoupdate": {
+        "url": "https://fishcodelib.com/files/CaptureNet3.zip"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "version": "10.0.7436.1",
+    "description": "A tiny and smart multilingual dictionary that integrates Google, Bing and Yandex services.",
+    "homepage": "https://fishcodelib.com/Dictionary.htm",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://fishcodelib.com/EULA.htm"
+    },
+    "url": "https://fishcodelib.com/files/DictionaryNet.zip",
+    "hash": "ff7e9bbace6c44e886415183ce83d3b1763beabdec34fda449c6e0a88da40391",
+    "shortcuts": [
+        [
+            "Dictionary.exe",
+            "Dictionary .NET"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Dictionary.exe.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\Dictionary.exe.xml\" -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><fishDictionary />' }",
+    "persist": "Dictionary.exe.xml",
+    "uninstaller": {
+        "script": "if(Test-Path \"$dir\\Dictionary.exe.db3\") { Copy-Item \"$dir\\Dictionary.exe.db3\" \"$persist_dir\\Dictionary.exe.db3\" | Out-Null }"
+    },
+    "checkver": {
+        "url": "https://fishcodelib.com/version.xml",
+        "regex": "dictionary.*?ver=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://fishcodelib.com/files/DictionaryNet.zip"
+    }
+}

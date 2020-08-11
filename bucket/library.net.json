@@ -1,0 +1,35 @@
+{
+    "version": "19.5.7433.19294",
+    "description": "Library .NET v3 Professional Edition is an information and document management system that can store, organize and manage any information in an easy-to-use outline.",
+    "homepage": "https://fishcodelib.com/CodeLib.htm",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://fishcodelib.com/EULA.htm"
+    },
+    "url": "https://fishcodelib.com/files/CodeLib3.zip",
+    "hash": "545d9fefbb4c7e1e019403bb847df7e0a230fc30be105e7342cf3f1d95277128",
+    "shortcuts": [
+        [
+            "CodeLib.exe",
+            "Library .NET"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\CodeLib.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\CodeLib.xml\" -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><CodeLib></CodeLib>' }",
+        "if (!(Test-Path \"$persist_dir\\CodeLib_layout.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\CodeLib_layout.xml\" -Value $null }"
+    ],
+    "persist": [
+        "CodeLib.xml",
+        "CodeLib_layout.xml"
+    ],
+    "uninstaller": {
+        "script": "if(Test-Path \"$dir\\*.mdb\") { Copy-Item \"$dir\\*.mdb\" \"$persist_dir\\\" | Out-Null }"
+    },
+    "checkver": {
+        "url": "https://fishcodelib.com/3/Edition3.xml",
+        "regex": "([\\d.]+)</ver>"
+    },
+    "autoupdate": {
+        "url": "https://fishcodelib.com/files/CodeLib3.zip"
+    }
+}
