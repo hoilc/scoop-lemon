@@ -1,0 +1,25 @@
+{
+    "version": "2.0.2",
+    "description": "A safe, dynamic tracing tool for the Java platform.",
+    "homepage": "https://github.com/btraceio/btrace",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/btraceio/btrace/releases/download/v2.0.2/btrace-2.0.2-bin.zip",
+    "hash": "6c1645c9805ce2866ac45a4b6c4ae0be7c4798e081cf6c4c8ea4a5e074d91e2d",
+    "bin": [
+        "bin\\btrace.bat",
+        "bin\\btracer.bat",
+        "bin\\btracec.bat"
+    ],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/btraceio/btrace/releases/download/v$version/btrace-$version-bin.zip"
+    }
+}
