@@ -28,6 +28,7 @@
             "sudo $dir\\wind.exe action:uninstall"
         ]
     },
+    "depends": "sudo",
     "suggest": {
         "windctl": "windctl"
     },
