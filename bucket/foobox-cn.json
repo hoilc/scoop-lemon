@@ -1,0 +1,32 @@
+{
+    "version": "6.1.5.3",
+    "description": "基于 CUI 的 foobar2000 界面配置，适合大界面使用，善于管理曲目数量大的媒体库 ，对音乐各种封面提供丰富的支持，并扩展了一些网络功能。",
+    "homepage": "https://github.com/dream7180/foobox-cn",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.foobar2000.org/license"
+    },
+    "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.5.3/Foobox-6.1.5.3.zip",
+    "hash": "981b5b964323663bbb6bc4ee0b60560548ffb6b74893f8a3b0964a6b46b4f7a2",
+    "shortcuts": [
+        [
+            "foobar2000.exe",
+            "Foobox"
+        ]
+    ],
+    "pre_install": "Expand-7zipArchive \"$dir\\Foobox-*.exe\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Foobox-*.exe\" -Force -Recurse",
+    "persist": [
+        "configuration",
+        "library",
+        "playlists-v1.4",
+        "index-data"
+    ],
+    "checkver": {
+        "url": "https://github.com/dream7180/foobox-cn/releases/latest",
+        "re": "Foobox-([\\d.]+[a-z]?).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/dream7180/foobox-cn/releases/download/$version/Foobox-$version.zip"
+    }
+}
