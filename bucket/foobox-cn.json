@@ -1,6 +1,6 @@
 {
     "version": "6.1.5.3",
-    "description": "基于 CUI 的 foobar2000 界面配置，适合大界面使用，善于管理曲目数量大的媒体库 ，对音乐各种封面提供丰富的支持，并扩展了一些网络功能。",
+    "description": "基于 CUI 的 foobar2000 界面配置",
     "homepage": "https://github.com/dream7180/foobox-cn",
     "license": {
         "identifier": "Freeware",
@@ -15,12 +15,14 @@
         ]
     ],
     "pre_install": "Expand-7zipArchive \"$dir\\Foobox-*.exe\" \"$dir\"",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Foobox-*.exe\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\Foobox-*.exe\" -Force -Recurse",
     "persist": [
         "configuration",
         "library",
         "playlists-v1.4",
-        "index-data"
+        "index-data",
+        "Lyrics",
+        "MusicArt"
     ],
     "checkver": {
         "url": "https://github.com/dream7180/foobox-cn/releases/latest",

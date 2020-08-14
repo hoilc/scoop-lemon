@@ -20,7 +20,9 @@
         "configuration",
         "library",
         "playlists-v1.4",
-        "index-data"
+        "index-data",
+        "Lyrics",
+        "MusicArt"
     ],
     "checkver": {
         "url": "https://github.com/dream7180/foobox-en/releases/latest",
