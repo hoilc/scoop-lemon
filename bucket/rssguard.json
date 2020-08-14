@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://github.com/martinrotter/rssguard/releases/latest",
-        "re": "rssguard-(?<version>[\\d.]+)-(?<commit>[\\d\\w.]+)-win64\\.7z"
+        "regex": "rssguard-(?<version>[\\d.]+)-(?<commit>[\\d\\w.]+)-win64\\.7z"
     },
     "autoupdate": {
         "architecture": {

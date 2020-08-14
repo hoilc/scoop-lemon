@@ -15,7 +15,7 @@
     "notes": "The configuration directory of X2Go Client is %HOME%\\.x2go\\",
     "checkver": {
         "url": "https://code.x2go.org/releases/binary-win32/x2goclient/releases/",
-        "re": "(?<version>[\\d.]+)-(?<date>[\\d\\w.]+)/",
+        "regex": "(?<version>[\\d.]+)-(?<date>[\\d\\w.]+)/",
         "reverse": true
     },
     "autoupdate": {

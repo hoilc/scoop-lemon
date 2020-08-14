@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/latest",
-        "re": "qbittorrent_([\\d.]+)_x64_setup\\.exe"
+        "regex": "qbittorrent_([\\d.]+)_x64_setup\\.exe"
     },
     "autoupdate": {
         "architecture": {

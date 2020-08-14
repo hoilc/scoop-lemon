@@ -25,7 +25,7 @@
     },
     "checkver": {
         "url": "https://github.com/TianZerL/Anime4KCPP/releases/latest",
-        "re": "Anime4KCPP_GUI-(?<guiversion>[\\d.]+)-(?<version>[\\d.]+)-Win64-msvc\\.7z"
+        "regex": "Anime4KCPP_GUI-(?<guiversion>[\\d.]+)-(?<version>[\\d.]+)-Win64-msvc\\.7z"
     },
     "autoupdate": {
         "architecture": {

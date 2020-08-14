@@ -27,7 +27,7 @@
     "persist": "fsm.ini",
     "checkver": {
         "url": "https://chocolatey.org/packages/linux-reader",
-        "re": "Linux Reader\\s*([\\d.]+)"
+        "regex": "Linux Reader\\s*([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://eu.diskinternals.com/download/Linux_Reader.exe#/dl.7z"

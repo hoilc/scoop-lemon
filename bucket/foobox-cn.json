@@ -26,7 +26,7 @@
     ],
     "checkver": {
         "url": "https://github.com/dream7180/foobox-cn/releases/latest",
-        "re": "Foobox-([\\d.]+[a-z]?).zip"
+        "regex": "Foobox-([\\d.]+[a-z]?).zip"
     },
     "autoupdate": {
         "url": "https://github.com/dream7180/foobox-cn/releases/download/$version/Foobox-$version.zip"
