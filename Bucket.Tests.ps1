@@ -65,7 +65,7 @@ Describe 'Changed manifests installation' {
     }
 
     $env:PATH = "$env:PATH;$env:SCOOP\shims"
-    . "$env:SCOOP_HOME\bin\refresh.ps1"
+    # . "$env:SCOOP_HOME\bin\refresh.ps1"
     $INSTALL_FILES_EXCLUSIONS = @(
         '.vscode',
         'TODO',
