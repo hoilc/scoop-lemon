@@ -1,0 +1,21 @@
+{
+    "version": "1.0.15.0",
+    "description": "WinFi Lite is a powerful WiFi Analyzer for Windows 10.",
+    "homepage": "https://www.helge-keck.com/",
+    "license": "Freeware",
+    "url": "https://www.helge-keck.com/downloads/WinFi-1.0.15.0.exe",
+    "hash": "2220758a43afe6ffcf009eadce5593c5a10d6a09b3e85f5bde0c26cd86dbe0c9",
+    "shortcuts": [
+        [
+            "WinFi.exe",
+            "WinFi Lite"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.helge-keck.com/download.html",
+        "regex": "WinFi-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://www.helge-keck.com/downloads/WinFi-$version.exe"
+    }
+}
