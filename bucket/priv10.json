@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://github.com/DavidXanatos/priv10/releases/latest",
-        "re": "PrivateWin10-Setup-v([\\d.]+[a-z]?).zip"
+        "regex": "PrivateWin10-Setup-v([\\d.]+[a-z]?).zip"
     },
     "autoupdate": {
         "url": "https://github.com/DavidXanatos/priv10/releases/download/v$version/PrivateWin10-Setup-v$version.zip"
