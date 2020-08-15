@@ -1,0 +1,30 @@
+{
+    "version": "3.7.5",
+    "description": "Initiate a traceroute request from a Windows device with a link visualization.",
+    "homepage": "https://en.ipip.net/product/client.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.ipip.net/17mon/besttrace.exe",
+            "hash": "9aece4ddf726a59b508f3ae087281ce4d072768656d3abc8b1eb15ee1d391053"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "17monipdb.exe",
+            "Best Trace"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.ipip.net/product/client.html",
+        "regex": "(?sm)Windows</h4>\\s*<span>V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.ipip.net/17mon/besttrace.exe"
+            }
+        }
+    }
+}
