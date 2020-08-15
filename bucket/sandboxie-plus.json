@@ -1,0 +1,44 @@
+{
+    "version": "0.3.5",
+    "description": "The open-source version of Sandboxie, a sandbox-based isolation software for 32- and 64-bit Windows NT-based operating systems.",
+    "homepage": "https://github.com/sandboxie-plus/Sandboxie",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus64-v0.3.5.zip",
+            "hash": "bbd48edb4524122d5c49783be98d5780ede7ddedd5b75981a56b10006abf613d",
+            "extract_dir": "SbiePlus64"
+        },
+        "32bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus32-v0.3.5.zip",
+            "hash": "c27e5f44d15c0eac1dc7fb5bc01c0e289907633f51ee32d7e76695d475e8cbcd",
+            "extract_dir": "SbiePlus32"
+        }
+    },
+    "shortcuts": [
+        [
+            "SandMan.exe",
+            "Sandboxie Plus"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Sandbox.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Sandboxie-Plus.ini\", \"$dir\\Sandboxie.ini\", \"$dir\\Sandbox.ini\" -Value $null }",
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\Sandboxie-Plus.ini\", \"$dir\\Sandboxie.ini\", \"$dir\\Sandbox.ini\" -Destination \"$persist_dir\\\" | Out-Null"
+    },
+    "persist": [
+        "Sandboxie-Plus.ini",
+        "Sandboxie.ini",
+        "Sandbox.ini"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/SbiePlus64-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/SbiePlus32-v$version.zip"
+            }
+        }
+    }
+}
