@@ -19,7 +19,7 @@
     },
     "checkver": {
         "url": "https://search.maven.org/solrsearch/select/?q=g:com.taobao.arthas+AND+a:arthas-packaging",
-        "jp": "$.response.docs[0].latestVersion"
+        "jsonpath": "$.response.docs[0].latestVersion"
     },
     "autoupdate": {
         "url": "https://maven.aliyun.com/repository/public/com/taobao/arthas/arthas-packaging/$version/arthas-packaging-$version-bin.zip",
