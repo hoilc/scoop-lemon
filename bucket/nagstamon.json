@@ -1,0 +1,45 @@
+{
+    "version": "3.4.1",
+    "description": "A status monitor for the desktop, which connects to multiple Nagios, Icinga, Opsview, Centreon, Op5 Monitor/Ninja, Checkmk and Thruk monitoring servers.",
+    "homepage": "https://nagstamon.ifw-dresden.de/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nagstamon.ifw-dresden.de/files/stable/Nagstamon-3.4.1-win64.zip",
+            "hash": "6d7e1f169ebc5f247f4cd58db161c882aa53528d42e31dcea6d082c8887790af",
+            "extract_dir": "Nagstamon-3.4.1-win64"
+        },
+        "32bit": {
+            "url": "https://nagstamon.ifw-dresden.de/files/stable/Nagstamon-3.4.1-win32.zip",
+            "hash": "024274b99c9b282bec4c467030e400194607cfe76a124a8996217d85bbbfc5d2",
+            "extract_dir": "Nagstamon-3.4.1-win32"
+        }
+    },
+    "bin": "Nagstamon.exe",
+    "shortcuts": [
+        [
+            "Nagstamon.exe",
+            "Nagstamon"
+        ]
+    ],
+    "notes": "The default configuration directory of Nagstamon is %HOME%\\.nagstamon\\",
+    "checkver": {
+        "url": "https://nagstamon.ifw-dresden.de/download/",
+        "regex": "stable\\s*version\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nagstamon.ifw-dresden.de/files/stable/Nagstamon-$version-win64.zip",
+                "extract_dir": "Nagstamon-$version-win64"
+            },
+            "32bit": {
+                "url": "https://nagstamon.ifw-dresden.de/files/stable/Nagstamon-$version-win32.zip",
+                "extract_dir": "Nagstamon-$version-win32"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
