@@ -1,5 +1,5 @@
 {
-    "version": "10.0.7436.1",
+    "version": "10.1.7534.1",
     "description": "A tiny and smart multilingual dictionary that integrates Google, Bing and Yandex services.",
     "homepage": "https://fishcodelib.com/Dictionary.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/DictionaryNet.zip",
-    "hash": "ff7e9bbace6c44e886415183ce83d3b1763beabdec34fda449c6e0a88da40391",
+    "hash": "58b6078c5f3f39d655346c7869fc666f092b2f8b7d04b65bc1796c6a445090a4",
     "shortcuts": [
         [
             "Dictionary.exe",
