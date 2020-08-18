@@ -1,18 +1,18 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "A Prometheus exporter for Redis metrics.",
     "homepage": "https://github.com/oliver006/redis_exporter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.9.0/redis_exporter-v1.9.0.windows-amd64.zip",
-            "hash": "729c10c482a5542a29786af290faa7eb80f8bcd43b6c5184122a47a5f78d4b7a",
-            "extract_dir": "redis_exporter-v1.9.0.windows-amd64"
+            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.10.0/redis_exporter-v1.10.0.windows-amd64.zip",
+            "hash": "1e3cf7d6580fb84508972fed655006ec8a6ed7307029595f657db0c750e0c266",
+            "extract_dir": "redis_exporter-v1.10.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.9.0/redis_exporter-v1.9.0.windows-386.zip",
-            "hash": "63a61200f51c51501662cdb46da2dbd0adf66952e508668bbf1d673e22fa88aa",
-            "extract_dir": "redis_exporter-v1.9.0.windows-386"
+            "url": "https://github.com/oliver006/redis_exporter/releases/download/v1.10.0/redis_exporter-v1.10.0.windows-386.zip",
+            "hash": "85db389cbfaf7cf10d69cdea640af3df136b9d5d97ab3c9b135951cf092fa01e",
+            "extract_dir": "redis_exporter-v1.10.0.windows-386"
         }
     },
     "bin": "redis_exporter.exe",
