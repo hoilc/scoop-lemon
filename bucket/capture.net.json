@@ -1,5 +1,5 @@
 {
-    "version": "14.1.7463.2",
+    "version": "14.1.7536.48",
     "description": "An integrated, multi-functional, powerful and general-purpose System, Design, File, Desktop and Develop All-In-One utility tool.",
     "homepage": "https://fishcodelib.com/Capture.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/CaptureNet3.zip",
-    "hash": "f76ee88f3a309baa75b1586de759add0a051a412d8f45b31a464e4b943e29bbe",
+    "hash": "f0d086100094606ee8d242ab3eff83548e14af23ff21db90302a8575d28c1c7d",
     "shortcuts": [
         [
             "Capture.exe",
