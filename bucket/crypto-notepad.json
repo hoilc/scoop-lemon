@@ -1,0 +1,22 @@
+{
+    "version": "1.6.7",
+    "description": "Simple notepad for Windows with encryption features.",
+    "homepage": "https://crypto-notepad.github.io/",
+    "license": "MIT",
+    "url": "https://github.com/Crypto-Notepad/Crypto-Notepad/releases/download/v1.6.7/Crypto.Notepad.zip",
+    "hash": "c1f9eb428f91321004e9e2ecbf44649ef002abaa156a7f07610e3f799456fd46",
+    "shortcuts": [
+        [
+            "Crypto Notepad.exe",
+            "Crypto Notepad"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Crypto Notepad.settings\")) { Set-Content -Encoding ASCII -Path \"$dir\\Crypto Notepad.settings\" -Value $null }",
+    "persist": "Crypto Notepad.settings",
+    "checkver": {
+        "github": "https://github.com/Crypto-Notepad/Crypto-Notepad"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Crypto-Notepad/Crypto-Notepad/releases/download/v$version/Crypto.Notepad.zip"
+    }
+}
