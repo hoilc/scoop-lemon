@@ -12,6 +12,7 @@
             "AntiDupl.NET"
         ]
     ],
+    "bin": "AntiDupl.NET.exe",
     "persist": "user",
     "checkver": {
         "github": "https://github.com/ermig1979/AntiDupl"
