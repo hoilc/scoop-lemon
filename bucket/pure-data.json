@@ -23,6 +23,12 @@
         "bin\\pdsend.exe",
         "bin\\pdreceive.exe"
     ],
+    "shortcuts": [
+        [
+            "bin\\pd.exe",
+            "Pure Data"
+        ]
+    ],
     "checkver": {
         "url": "https://puredata.info/downloads/pure-data/releases",
         "regex": "/pure-data/releases/([\\d.-]+)"
