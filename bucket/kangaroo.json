@@ -15,7 +15,7 @@
             "Kangaroo"
         ]
     ],
-    "notes": "The configuration directory of Kangaroo is %HOME%\\.kangaroo\\",
+    "persist": ".kangaroo",
     "checkver": {
         "github": "https://github.com/dbkangaroo/kangaroo"
     },
