@@ -1,5 +1,5 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "A network event stream processing system, in Clojure.",
     "homepage": "https://github.com/riemann/riemann",
     "license": "EPL-1.0",
