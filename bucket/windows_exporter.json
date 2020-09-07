@@ -1,16 +1,16 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A Prometheus exporter for Windows machines.",
     "homepage": "https://github.com/prometheus-community/windows_exporter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-amd64.exe#/windows_exporter.exe",
-            "hash": "e2270573a272cf708bb9ddf511a55e9be7aa3b11dbdf23339bb3b99308bc46e5"
+            "url": "https://github.com/prometheus-community/windows_exporter/releases/download/v0.14.0/windows_exporter-0.14.0-amd64.exe#/windows_exporter.exe",
+            "hash": "1be7806258e264e7f52e068f953985b30ef77d2a787d5314cac29a6bf8d45281"
         },
         "32bit": {
-            "url": "https://github.com/prometheus-community/windows_exporter/releases/download/v0.13.0/windows_exporter-0.13.0-386.exe#/windows_exporter.exe",
-            "hash": "576e56d1549b49194f4d14dc855e01a5b23f0761cbbd199647fc87641aac49ef"
+            "url": "https://github.com/prometheus-community/windows_exporter/releases/download/v0.14.0/windows_exporter-0.14.0-386.exe#/windows_exporter.exe",
+            "hash": "958365b807096b0dc4f59630f3a85b0a6c76b5633e5203dac84543aeec9172ad"
         }
     },
     "bin": "windows_exporter.exe",
