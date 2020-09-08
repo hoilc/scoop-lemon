@@ -11,7 +11,9 @@
         }
     },
     "bin": "osm.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/openservicemesh/osm"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
