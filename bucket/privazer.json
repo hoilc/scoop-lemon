@@ -1,10 +1,10 @@
 {
-    "version": "4.0.9",
+    "version": "4.0.10",
     "description": "A PC cleaner & Privacy tool.",
     "homepage": "https://privazer.com",
     "license": "Freeware",
     "url": "https://privazer.com/PrivaZer.exe",
-    "hash": "2d962d0e43e6ad875af48abe556dc01054a7a1d60819612b7008f59869ff7082",
+    "hash": "d8634a76d643543b1ce45f8031efca65e554d7b4318987b9857a37b740a7501c",
     "pre_install": "if (!(Test-Path \"$persist_dir\\PrivaZer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\PrivaZer.ini\" -Value $null }",
     "persist": "PrivaZer.ini",
     "bin": "PrivaZer.exe",
