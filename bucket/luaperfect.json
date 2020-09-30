@@ -1,0 +1,32 @@
+{
+    "version": "1.034",
+    "description": "A pure C++ Lua IDE project, aimed to be the fastest and lightest Lua IDE in the world.",
+    "homepage": "https://luaperfect.net/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://134.175.92.147/Versions/LuaPerfect_V1.034.zip",
+            "hash": "09a3adf33c5bc84331696d3c9ee5e534d1c877ed262df18fb451844db63f9b61"
+        }
+    },
+    "extract_dir": "LuaPerfect_V1.034\\LuaPerfect",
+    "shortcuts": [
+        [
+            "LuaPerfect.exe",
+            "LuaPerfect"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://luaperfect.net/article/ReleaseNotes/",
+        "regex": "LuaPerfect_V([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://134.175.92.147/Versions/LuaPerfect_V$version.zip",
+                "extract_dir": "LuaPerfect_V$version\\LuaPerfect"
+            }
+        }
+    }
+}
