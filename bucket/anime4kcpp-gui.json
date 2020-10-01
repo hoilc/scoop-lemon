@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "Anime4KCPP (GUI) provides an optimized bloc97's Anime4K algorithm version 0.9, it aims to be a high performance tools to process both image and video.",
     "homepage": "https://github.com/TianZerL/Anime4KCPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v2.3.0/Anime4KCPP_GUI-1.10.0-2.3.0-Win64-msvc.7z",
-            "hash": "b20407cb795e5c4ce5efcb9ae22dd0d5634ef1c11e484aa9870a76297abd1ccf"
+            "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v2.4.0/Anime4KCPP_GUI-1.11.0-2.4.0-Win64-msvc.7z",
+            "hash": "1f60dde416e6a2365945cf83fb7f3cfc050f1b5054c7028402ac1156967dd7ca"
         }
     },
     "persist": "settings.ini",
