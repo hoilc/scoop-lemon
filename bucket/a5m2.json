@@ -21,7 +21,6 @@
         ]
     ],
     "checkver": {
-        "url": "https://a5m2.mmatsubara.com/",
         "regex": "Version\\s*([\\d.]+)"
     },
     "autoupdate": {
