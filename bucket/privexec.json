@@ -1,18 +1,18 @@
 {
-    "version": "3.0.1",
+    "version": "4.0.0-rc1",
     "description": "Run the program with the specified permission level on Windows.",
     "homepage": "https://github.com/M2Team/Privexec",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/M2Team/Privexec/releases/download/3.0.1/Privexec-3.0.1-win-x64.zip",
-            "hash": "deebfd880b00489efcf045f43703225202f39912bcc685a04a8febc22a5de58e",
-            "extract_dir": "Privexec-3.0.1-win-x64"
+            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0-rc1/Privexec-4.0.0-win-x64.zip",
+            "hash": "1bbf304db14d2f3a9734fb8f1e0877a47d6ba84d42bbd0efa58e8e30bb95848c",
+            "extract_dir": "Privexec-4.0.0-win-x64"
         },
         "32bit": {
-            "url": "https://github.com/M2Team/Privexec/releases/download/3.0.1/Privexec-3.0.1-win-x86.zip",
-            "hash": "67b5aaaa0ba00bb0bd9457f61977184d51ad07e69d421b709e456deb564b2013",
-            "extract_dir": "Privexec-3.0.1-win-x86"
+            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0-rc1/Privexec-4.0.0-win-x86.zip",
+            "hash": "5e9f65d0f92f01cf6f505bcd8b67bd98aa5b4c84455736e8697e8ff278f398c0",
+            "extract_dir": "Privexec-4.0.0-win-x86"
         }
     },
     "shortcuts": [
@@ -27,16 +27,19 @@
     ],
     "bin": "wsudo.exe",
     "persist": "Privexec.json",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/M2Team/Privexec/releases/latest",
+        "regex": "/releases/tag/([\\w-.]+)\""
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/M2Team/Privexec/releases/download/$version/Privexec-$version-win-x64.zip",
-                "extract_dir": "Privexec-$version-win-x64"
+                "url": "https://github.com/M2Team/Privexec/releases/download/$version/Privexec-$matchHead-win-x64.zip",
+                "extract_dir": "Privexec-$matchHead-win-x64"
             },
             "32bit": {
-                "url": "https://github.com/M2Team/Privexec/releases/download/$version/Privexec-$version-win-x86.zip",
-                "extract_dir": "Privexec-$version-win-x86"
+                "url": "https://github.com/M2Team/Privexec/releases/download/$version/Privexec-$matchHead-win-x86.zip",
+                "extract_dir": "Privexec-$matchHead-win-x86"
             }
         }
     }
