@@ -1,18 +1,18 @@
 {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "description": "A Prometheus exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP.",
     "homepage": "https://github.com/prometheus/blackbox_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/blackbox_exporter/releases/download/v0.17.0/blackbox_exporter-0.17.0.windows-amd64.tar.gz",
-            "hash": "80493a5baaacd236ade4ba593a1f0c9dfd53207518fc8c6b4a5a563af1ca2b59",
-            "extract_dir": "blackbox_exporter-0.17.0.windows-amd64"
+            "url": "https://github.com/prometheus/blackbox_exporter/releases/download/v0.18.0/blackbox_exporter-0.18.0.windows-amd64.tar.gz",
+            "hash": "6739f2144d8522dcc55f59a4faf6dcefcb3635ec854e22218308cbf59bc73f67",
+            "extract_dir": "blackbox_exporter-0.18.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/blackbox_exporter/releases/download/v0.17.0/blackbox_exporter-0.17.0.windows-386.tar.gz",
-            "hash": "9d89342fe27e2bdd46ade6630d6f06310e7ae526f36abf9726d6574b63cb5f8c",
-            "extract_dir": "blackbox_exporter-0.17.0.windows-386"
+            "url": "https://github.com/prometheus/blackbox_exporter/releases/download/v0.18.0/blackbox_exporter-0.18.0.windows-386.tar.gz",
+            "hash": "fc1fa1f1376a19b60363cf6834b3a08cc9dbef9a67264f5389ccfe89056c5411",
+            "extract_dir": "blackbox_exporter-0.18.0.windows-386"
         }
     },
     "persist": "blackbox.yml",
