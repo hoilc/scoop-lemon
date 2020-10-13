@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0-rc36",
+    "version": "3.0.0-rc38",
     "description": "A tool for extracting metrics from application logs to be exported into a timeseries database or timeseries calculator for alerting and dashboarding.",
     "homepage": "https://github.com/google/mtail",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc36/mtail_v3.0.0-rc36_windows_amd64.exe#/mtail.exe",
-            "hash": "0ee0e1bc735cc1f5705456a1cd6b03a6fd88a1885d778bc139afe070c8fb0099"
+            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc38/mtail_v3.0.0-rc38_windows_amd64.exe#/mtail.exe",
+            "hash": "82143c9a7c515f31756321a06de85ab754e18518b8d2059b8694c69e2ce08769"
         }
     },
     "bin": "mtail.exe",
