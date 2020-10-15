@@ -1,17 +1,17 @@
 {
-    "version": "4.0.0-rc3",
+    "version": "4.0.0",
     "description": "Run the program with the specified permission level on Windows.",
     "homepage": "https://github.com/M2Team/Privexec",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0-rc3/Privexec-4.0.0-win-x64.zip",
-            "hash": "711c8d3b539b49c9678c95401739bb1f0935af8894d71b26ab8ff8bbfba92d08",
+            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0/Privexec-4.0.0-win-x64.zip",
+            "hash": "6fa4873a698750827f3d27e4cd02aed519402fdbf008226be19432a5fd9c9744",
             "extract_dir": "Privexec-4.0.0-win-x64"
         },
         "32bit": {
-            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0-rc3/Privexec-4.0.0-win-x86.zip",
-            "hash": "2818335d31ee6e92ece3efb303e37dec4ef6bd177ab0d147d5e1c4da6e3efd4c",
+            "url": "https://github.com/M2Team/Privexec/releases/download/4.0.0/Privexec-4.0.0-win-x86.zip",
+            "hash": "55102c4b7a317a918f2914f572276ad3aa9cf0aa715c6dea2cdfb8413a2a5625",
             "extract_dir": "Privexec-4.0.0-win-x86"
         }
     },
