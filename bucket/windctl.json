@@ -1,20 +1,18 @@
 {
-    "version": "2.5.4",
+    "version": "2.5.5",
     "description": "The command-line controller for Wind, a daemon service which is designed to create a systemd for Windows.",
     "homepage": "https://github.com/ragnaroks/Wind",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ragnaroks/Wind/releases/download/v2.5.4/windctl.7z",
-            "hash": "4c9d8108e7bf898fbf16a448e2cbc5588e792d3174aadb0bebe2338f0e99b86f"
+            "url": "https://github.com/ragnaroks/Wind/releases/download/v2.5.5/windctl.7z",
+            "hash": "da0c93eabfc587db4a5fac541d093c886231769d6b01e51cd869b696b8f2589e"
         }
     },
     "persist": "Data",
     "bin": "windctl.exe",
     "suggest": {
-        "wind": [
-            "wind"
-        ]
+        "wind": "wind"
     },
     "checkver": "github",
     "autoupdate": {
