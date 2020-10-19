@@ -1,0 +1,22 @@
+{
+    "version": "3.0.31.2998",
+    "description": "A communication platform for enterprises that includes convenient communication and office automation tools.",
+    "homepage": "https://work.weixin.qq.com/",
+    "license": "Freeware",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WXWork_3.0.31.2998.exe#/dl.7z",
+    "hash": "080b616e109adaf766b304e022bdc61677d3c23104ae6e619fb11f720beb6048",
+    "shortcuts": [
+        [
+            "WXWork.exe",
+            "企业微信"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
+    "checkver": {
+        "url": "https://pc.qq.com/detail/14/detail_22554.html",
+        "regex": "WXWork_([\\d.]+)_\\d+.exe"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/wework/work_weixin/WXWork_$version.exe#/dl.7z"
+    }
+}
