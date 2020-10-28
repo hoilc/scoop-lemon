@@ -1,5 +1,5 @@
 {
-    "version": "12.7.7592.1",
+    "version": "12.8.7607.1",
     "description": "A simple, easy and intuitive multiple database migration and sync tool.",
     "homepage": "https://fishcodelib.com/DBMigration.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/DBMigration.zip",
-    "hash": "6fb519ce1ec9224c59abc2188fdb1e0a22fe650de663fa5e23373908a256e809",
+    "hash": "f12bea2c226b9e4b7853afefba6390b189167578f9f8745112375042f027ef05",
     "shortcuts": [
         [
             "DBMigration.exe",
