@@ -1,10 +1,10 @@
 {
-    "version": "1.2.2",
+    "version": "2.0.0",
     "description": "A local DNS proxy for Windows which improves the performance of your computer by caching the responses coming from your DNS servers and helps you fight unwanted ads through a custom HOSTS file.",
     "homepage": "https://mayakron.altervista.org/support/acrylic/Home.htm",
     "license": "GPL-2.0-only",
-    "url": "https://sourceforge.net/projects/acrylic/files/Acrylic/1.2.2/Acrylic-Portable.zip",
-    "hash": "sha1:86a26c3e2df7c1548a36661c4c45b97fc0bb3dc3",
+    "url": "https://sourceforge.net/projects/acrylic/files/Acrylic/2.0.0/Acrylic-Portable.zip",
+    "hash": "sha1:cceb07608be53d52e5ed1380ed9cbf8e13ae37bc",
     "shortcuts": [
         [
             "AcrylicUI.exe",
