@@ -1,18 +1,18 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "A log processor and forwarder which allows you to collect data/logs from different sources, unify and send them to multiple destinations.",
     "homepage": "https://fluentbit.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://fluentbit.io/releases/1.6/td-agent-bit-1.6.2-win64.zip",
-            "hash": "6bf1ba8137332d6abde130730b2a4acaad42a3baa5b4ac69312b79b3726519ee",
-            "extract_dir": "td-agent-bit-1.6.2-win64"
+            "url": "https://fluentbit.io/releases/1.6/td-agent-bit-1.6.3-win64.zip",
+            "hash": "cc5963180890637094560112aad97337f2f50305cfa512f364039062ed419e1d",
+            "extract_dir": "td-agent-bit-1.6.3-win64"
         },
         "32bit": {
-            "url": "https://fluentbit.io/releases/1.6/td-agent-bit-1.6.2-win32.zip",
-            "hash": "333d86360c3e138817a4ea6ef10a134dd8ce6fbb0e0552e99958f32cb7adc45f",
-            "extract_dir": "td-agent-bit-1.6.2-win32"
+            "url": "https://fluentbit.io/releases/1.6/td-agent-bit-1.6.3-win32.zip",
+            "hash": "8d5387ededf49cf6986696e31150992e7f3b8f06b6f7cd07fd69687384a31abd",
+            "extract_dir": "td-agent-bit-1.6.3-win32"
         }
     },
     "bin": "bin\\fluent-bit.exe",
