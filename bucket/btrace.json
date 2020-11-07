@@ -1,10 +1,10 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "A safe, dynamic tracing tool for the Java platform.",
     "homepage": "https://github.com/btraceio/btrace",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/btraceio/btrace/releases/download/v2.0.2/btrace-2.0.2-bin.zip",
-    "hash": "6c1645c9805ce2866ac45a4b6c4ae0be7c4798e081cf6c4c8ea4a5e074d91e2d",
+    "url": "https://github.com/btraceio/btrace/releases/download/v2.0.3/btrace-2.0.3-bin.zip",
+    "hash": "4143d799ad57b7e644bcf5603a608c8fc7a60e670967b41b5a110ec71d59345d",
     "bin": [
         "bin\\btrace.bat",
         "bin\\btracer.bat",
