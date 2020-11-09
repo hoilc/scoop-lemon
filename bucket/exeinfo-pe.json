@@ -1,10 +1,10 @@
 {
-    "version": "0.0.6.2",
+    "version": "0.0.6.3",
     "description": "Packer, compressor detector / unpack info / internal exe tools.",
     "homepage": "http://www.exeinfo.xn.pl/",
     "license": "Freeware",
     "url": "http://exeinfo.orgfree.com/exeinfope.zip",
-    "hash": "245c4dc6fd4a7f7743ddc56bccca9d22e69aa35a87a49e1da4780a4097462d52",
+    "hash": "caa862f75337841d04e9fece3c9ce10b69f09225c34d1156c4a34f8435fd70a5",
     "extract_dir": "ExeinfoPe",
     "shortcuts": [
         [
