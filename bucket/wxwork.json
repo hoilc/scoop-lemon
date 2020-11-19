@@ -1,10 +1,10 @@
 {
-    "version": "3.0.36.2004",
+    "version": "3.0.36.2008",
     "description": "A communication platform for enterprises that includes convenient communication and office automation tools.",
     "homepage": "https://work.weixin.qq.com/",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/wework/work_weixin/WXWork_3.0.36.2004.exe#/dl.7z",
-    "hash": "b1a9d27dcaee7a81352dbdb6d91d9febe6d31c777e917bfb4707e8cbed9a0443",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WXWork_3.0.36.2008.exe#/dl.7z",
+    "hash": "aa4c98146959b79b2dbf0ffcbd5324205927ee358a61e86ac0e1237a7635b5a3",
     "shortcuts": [
         [
             "WXWork.exe",
