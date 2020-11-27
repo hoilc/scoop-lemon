@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "A proxy which redirect traffic to a SOCKS proxy with pcap written in Rust, designed to accelerate games in game consoles.",
     "homepage": "https://github.com/zhxie/pcap2socks",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhxie/pcap2socks/releases/download/v0.6.0/pcap2socks-v0.6.0-windows-amd64.zip",
-            "hash": "3440ddada016d3d76bcb6faabeeccabe0744b754aa3a20f99d7e6d207582aa7c"
+            "url": "https://github.com/zhxie/pcap2socks/releases/download/v0.6.1/pcap2socks-v0.6.1-windows-amd64.zip",
+            "hash": "f1f66e26faf60483ee793f73e3f7eeda0ede434b831199a5c16f87cea947d61e"
         }
     },
     "bin": "pcap2socks.exe",
