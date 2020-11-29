@@ -1,10 +1,10 @@
 {
-    "version": "4.6.6.11",
+    "version": "4.6.6.12",
     "description": "Access files and folders on Ext, UFS, HFS, ReiserFS, or APFS file systems from Windows.",
     "homepage": "https://www.diskinternals.com/linux-reader/",
     "license": "Freeware",
     "url": "https://eu.diskinternals.com/download/Linux_Reader.exe#/dl.7z",
-    "hash": "ccc830a281befd4e4b40b1e99ad26683f326064eb667d4ab244d1875110ad4fc",
+    "hash": "e0fe99986196b6ff3944b05d463fd69c1a460d86fa8dc1b004d46b9d83c4a8f6",
     "architecture": {
         "64bit": {
             "shortcuts": [
