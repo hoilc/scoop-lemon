@@ -1,10 +1,10 @@
 {
-    "version": "4.44",
+    "version": "4.51",
     "description": "A lightweight tool that enable automatic hiding and showing feature of the desktop icons.",
     "homepage": "http://www.softwareok.com/?seite=Microsoft/AutoHideDesktopIcons",
     "license": "Freeware",
     "url": "http://www.softwareok.com/Download/AutoHideDesktopIcons_Portable.zip",
-    "hash": "b1b14abc7b932c41a6bcca4843b17bc91fd4e893288a3f2bb1785350e617e39d",
+    "hash": "a9277da6d493fc2b809cf6558f2847f6cc61b71df23f050b8de92978459b3f4c",
     "shortcuts": [
         [
             "AutoHideDesktopIcons_p.exe",
