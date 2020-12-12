@@ -1,0 +1,19 @@
+{
+    "version": "1.8.1",
+    "description": "SmartSystemMenu extends system menu of all windows in the system.",
+    "homepage": "https://github.com/AlexanderPro/SmartSystemMenu",
+    "license": "MIT",
+    "url": "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/1.8.1/SmartSystemMenu_v1.8.1.zip",
+    "hash": "376eaf34e9b6f7764179f6689f530df7c74d9d11b0041239ae32140342753e6a",
+    "shortcuts": [
+        [
+            "SmartSystemMenu.exe",
+            "SmartSystemMenu"
+        ]
+    ],
+    "persist": "SmartSystemMenu.xml",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/AlexanderPro/SmartSystemMenu/releases/download/$version/SmartSystemMenu_v$version.zip"
+    }
+}
