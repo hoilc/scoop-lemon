@@ -1,12 +1,12 @@
 {
-    "version": "0.11.1",
+    "version": "0.12.0",
     "description": "A simple command line notebook for programmers.",
     "homepage": "https://www.getdnote.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dnote/dnote/releases/download/cli-v0.11.1/dnote_0.11.1_windows_amd64.tar.gz",
-            "hash": "eaf64f55e6f564c147d1c04f75e7b64513abc59c41b10b7534d564620d46bc2f"
+            "url": "https://github.com/dnote/dnote/releases/download/cli-v0.12.0/dnote_0.12.0_windows_amd64.tar.gz",
+            "hash": "52f86be1f83b66a7dff7a2119c7ba7277a5bbd05659b21b3d5ca6def91f1f519"
         }
     },
     "bin": "dnote.exe",
