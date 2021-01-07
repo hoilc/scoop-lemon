@@ -1,12 +1,12 @@
 {
-    "version": "v0.5.14",
+    "version": "v0.5.15-rc.1",
     "description": "一个支持多种直播平台的直播录制工具",
     "homepage": "https://github.com/hr3lxphr6j/bililive-go",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hr3lxphr6j/bililive-go/releases/download/v0.5.14/bililive-windows-amd64.zip",
-            "hash": "b6aebd0c78b8069a82a510ad4772064a1d8832aeae12aaa3cad28780531424bb",
+            "url": "https://github.com/hr3lxphr6j/bililive-go/releases/download/v0.5.15-rc.1/bililive-windows-amd64.zip",
+            "hash": "c177b65437eebc916e57f30c9ed47b3b5c24855d4df31c050325ffc7d09d4989",
             "bin": [
                 [
                     "bililive-windows-amd64.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/hr3lxphr6j/bililive-go/releases/download/v0.5.14/bililive-windows-386.zip",
-            "hash": "ef14c4dc7a97d57194b545276d921243de71807d50a7fc67ce71ad77dce98eed",
+            "url": "https://github.com/hr3lxphr6j/bililive-go/releases/download/v0.5.15-rc.1/bililive-windows-386.zip",
+            "hash": "11fb2c6c97c85bef53218f1d7dbb5e1aa10997b4d2084df1387779c2428f2cd4",
             "bin": [
                 [
                     "bililive-windows-386.exe",
