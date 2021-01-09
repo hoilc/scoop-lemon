@@ -1,5 +1,5 @@
 {
-    "version": "19.6.7670.25750",
+    "version": "19.6.7679.21660",
     "description": "Library .NET v3 Professional Edition is an information and document management system that can store, organize and manage any information in an easy-to-use outline.",
     "homepage": "https://fishcodelib.com/CodeLib.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/CodeLib3.zip",
-    "hash": "e89794b26c5407a17f598a588cff037d3e68284441f4055e7cbc131917a75940",
+    "hash": "26121169e7f37dad3aaa5f18dc59644416160cd666f1761517095cec8f916c1c",
     "shortcuts": [
         [
             "CodeLib.exe",
