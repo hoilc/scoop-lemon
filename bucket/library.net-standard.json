@@ -1,5 +1,5 @@
 {
-    "version": "19.6.7670.25868",
+    "version": "19.6.7679.22130",
     "description": "Library .NET v3 Standard Edition is an information and document management system that can store, organize and manage any information in an easy-to-use outline.",
     "homepage": "https://fishcodelib.com/CodeLib.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/CodeLib3STD.zip",
-    "hash": "d090589e46a3ebaa2a46f2875578eb060c8b3739c2e5e7faefcbd7964af5e051",
+    "hash": "837c9f32ea2c11e1b2631ea7af907b2083e9c46683748ed37029e0a27486320f",
     "shortcuts": [
         [
             "CodeLib.exe",
