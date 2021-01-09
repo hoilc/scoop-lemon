@@ -1,0 +1,21 @@
+{
+    "version": "0.11.1",
+    "description": "A filesystem in userspace (FUSE) with transparent encryption (when writing) and decryption (when reading).",
+    "homepage": "https://github.com/netheril96/securefs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/netheril96/securefs/releases/download/0.11.1/securefs-win64.zip",
+            "hash": "85360ecc01cd67ef95139f7a9bf31050634a41ecc885587c519875f584bd7209"
+        }
+    },
+    "bin": "securefs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/netheril96/securefs/releases/download/$version/securefs-win64.zip"
+            }
+        }
+    }
+}
