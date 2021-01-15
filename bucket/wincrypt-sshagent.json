@@ -1,12 +1,12 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "WinCrypt SSH Agent allows other programs to access SSH keys stored in your Windows Certificate Store for authentication.",
     "homepage": "https://github.com/buptczq/WinCryptSSHAgent",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/buptczq/WinCryptSSHAgent/releases/download/v1.1.4/WinCryptSSHAgent.exe",
-            "hash": "a09868e11be17ff3e4e2a6dc2c2cfb558b34f656b69b9714032062f79052ea75"
+            "url": "https://github.com/buptczq/WinCryptSSHAgent/releases/download/v1.1.5/WinCryptSSHAgent.exe",
+            "hash": "a4611493818b180e6d1cb97b0692b07226b8c385d22d186b9628e7cfda8eab48"
         }
     },
     "shortcuts": [
