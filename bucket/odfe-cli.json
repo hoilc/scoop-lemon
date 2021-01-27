@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "description": "ODFE Command Line Interface is an open source tool that lets you manage your Open Distro for Elasticsearch cluster from the command line and automate tasks.",
+    "homepage": "https://github.com/opendistro-for-elasticsearch/odfe-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-windows-x64.zip",
+            "hash": "1bbc56b3740deb13bf1694e52ae1a004bea0707a46b936ca335c29eaf3cb9735"
+        },
+        "32bit": {
+            "url": "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-windows-x86.zip",
+            "hash": "0372f44df9bda97efcb068aaec67438fa760fe1a4d5d0acbc4e4deabd38be53f"
+        }
+    },
+    "bin": "odfe-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-$version-windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-$version-windows-x86.zip"
+            }
+        }
+    }
+}
