@@ -10,7 +10,10 @@
         }
     },
     "bin": "kubeseal.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/bitnami-labs/sealed-secrets/releases",
+        "regex": "v([\\d.]+)/kubeseal.exe"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
