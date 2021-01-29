@@ -1,12 +1,12 @@
 {
-    "version": "2.5.5",
+    "version": "2.5.6",
     "description": "A daemon service which is designed to create a systemd for Windows.",
     "homepage": "https://github.com/ragnaroks/Wind",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ragnaroks/Wind/releases/download/v2.5.5/wind.7z",
-            "hash": "cdf894f7d449ed5f07cffb72014cf03fc0dd47a8f55c4b96a9b797e5a22fea87"
+            "url": "https://github.com/ragnaroks/Wind/releases/download/v2.5.6/wind-win-x64.7z",
+            "hash": "ed1b745c6d778a768628a9c981abf4d6618919c0b1005bcdb310c0fe8895154e"
         }
     },
     "persist": [
@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ragnaroks/Wind/releases/download/v$version/wind.7z"
+                "url": "https://github.com/ragnaroks/Wind/releases/download/v$version/wind-win-x64.7z"
             }
         }
     }
