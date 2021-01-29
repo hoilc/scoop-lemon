@@ -8,17 +8,20 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://monkeysaudio.com/files/MAC_607_x64.exe",
+            "url": "https://monkeysaudio.com/files/MAC_607_x64.exe#/dl.7z",
             "hash": "296e7144c89583ab01474550389ff886e87f77ed769293790c22ef2ffe452680"
         },
         "32bit": {
-            "url": "https://monkeysaudio.com/files/MAC_607.exe",
+            "url": "https://monkeysaudio.com/files/MAC_607.exe#/dl.7z",
             "hash": "249d674bcdceea005655e467d58a8ec94ece95d47fa51b162da7f021fd5b9675"
         }
     },
-    "innosetup": true,
     "persist": "File Lists",
     "bin": "MAC.exe",
+    "post_install": [
+        "Move-Item \"$dir\\`$SYSDIR\\*\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$SYSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "Monkey's Audio.exe",
@@ -32,10 +35,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://monkeysaudio.com/files/MAC_$cleanVersion_x64.exe"
+                "url": "https://monkeysaudio.com/files/MAC_$cleanVersion_x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://monkeysaudio.com/files/MAC_$cleanVersion.exe"
+                "url": "https://monkeysaudio.com/files/MAC_$cleanVersion.exe#/dl.7z"
             }
         }
     }
