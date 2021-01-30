@@ -1,10 +1,10 @@
 {
-    "version": "5.3.9",
+    "version": "5.4.0",
     "description": "Pulover's Macro Creator is a Free Automation Tool and Script Generator based on AutoHotkey language.",
     "homepage": "https://www.macrocreator.com/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Pulover/PuloversMacroCreator/releases/download/v5.3.9/PuloversMacroCreator-Portable.zip",
-    "hash": "2f4aa50f4a8de69b2723f4a5f681b7408d3ddb6296e4e7745a558ab5ba07f9ed",
+    "url": "https://github.com/Pulover/PuloversMacroCreator/releases/download/v5.4.0/PuloversMacroCreator-Portable.zip",
+    "hash": "e5d1af7dcc40d37f554a808224d932dac328f99c3db23c4a184c19e015f94670",
     "architecture": {
         "64bit": {
             "extract_dir": "MacroCreatorPortable\\x64\\MacroCreator"
