@@ -1,5 +1,5 @@
 {
-    "version": "2020.12.13.1",
+    "version": "2021.01.31.1",
     "description": "A multi platform (Linux/Mac OS X/Windows) Qt based frontend for a bunch of other tools which can convert nearly every input to x265/x264/Xvid/VP8 + ac3/ogg/mp3/aac/flac inside an mp4/m2ts/mkv/webm container, a Blu-ray or an AVCHD structure.",
     "homepage": "http://www.selur.de/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2020.12.13.1_SETUP.exe",
-            "hash": "9180f8f49463bb0b447c49543b5c5561282d895147dbf4b33559f0d953b3e5eb"
+            "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2021.01.31.1_SETUP.exe",
+            "hash": "cb18381f0372dbdc10364ec14b698cf0f4c556d18b407345a77e7c36e18346e4"
         }
     },
     "innosetup": true,
