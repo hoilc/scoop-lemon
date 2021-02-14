@@ -1,5 +1,5 @@
 {
-    "version": "5.28",
+    "version": "5.29",
     "description": "Investigate performance and image quality of HW encoder (NVENC) of NVIDIA.",
     "homepage": "https://github.com/rigaya/NVEnc",
     "license": "MIT",
@@ -11,13 +11,13 @@
                     "NVEncC"
                 ]
             ],
-            "url": "https://github.com/rigaya/NVEnc/releases/download/5.28/NVEncC_5.28_x64.7z",
-            "hash": "d427c3144ecba0689f262342f47caa472876c769dc22856b6488226edee37707"
+            "url": "https://github.com/rigaya/NVEnc/releases/download/5.29/NVEncC_5.29_x64.7z",
+            "hash": "0396c1e01ccc77d814773847fda5ec1f7ef142911bc5e519ac59c2f6ad9f3089"
         },
         "32bit": {
             "bin": "NVEncC.exe",
-            "url": "https://github.com/rigaya/NVEnc/releases/download/5.28/NVEncC_5.28_Win32.7z",
-            "hash": "a22c7585c237bf8d05982c2b2a288302cb369434a3090f43fc74fac0724ad210"
+            "url": "https://github.com/rigaya/NVEnc/releases/download/5.29/NVEncC_5.29_Win32.7z",
+            "hash": "f0212cbb3116dba133720d8429755c5d9949ed77bd0590715a665ff303b80b78"
         }
     },
     "checkver": "github",
