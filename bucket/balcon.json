@@ -1,10 +1,10 @@
 {
-    "version": "1.71",
+    "version": "1.73",
     "description": "Command line utility for Balabolka, a Text-To-Speech (TTS) program uses various versions of Microsoft Speech API (SAPI).",
     "homepage": "http://www.cross-plus-a.com/bconsole.htm",
     "license": "Freeware",
     "url": "http://balabolka.site/balcon.zip",
-    "hash": "6f917898b82e4a5860b16a3f73b2e190917a070d4e3be213ec62c74cb76e7404",
+    "hash": "ae159c1de5c83629eed0146dc77cbcfb059669647b7b2673cbf20f5c26f9865e",
     "bin": "balcon.exe",
     "checkver": {
         "url": "http://www.cross-plus-a.com/balcon/changelog.txt",
