@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "LAN Party VPN - Run VPN on top of Discord.",
     "homepage": "https://github.com/gyf304/lpvpn",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gyf304/lpvpn/releases/download/v1.0.0/lpvpn-v1.0.0-windows-x86_64.exe#/lpvpn.exe",
-            "hash": "aeef1332482d7f6519ab01a2f260460c1f9f40011aa65b3f8940b88ec4b0a207"
+            "url": "https://github.com/gyf304/lpvpn/releases/download/v1.0.1/lpvpn-v1.0.1-windows-x86_64.exe#/lpvpn.exe",
+            "hash": "6ffbdea12ae286423e9435a19ee18f8970d3b698838090c696ea7b3f509e7faf"
         },
         "32bit": {
-            "url": "https://github.com/gyf304/lpvpn/releases/download/v1.0.0/lpvpn-v1.0.0-windows-x86.exe#/lpvpn.exe",
-            "hash": "6d22035ef7941e711096006a4daa62dcd75b1059cff42b28a3c431c50327b495"
+            "url": "https://github.com/gyf304/lpvpn/releases/download/v1.0.1/lpvpn-v1.0.1-windows-x86.exe#/lpvpn.exe",
+            "hash": "5f1024db9a97c9719e59746ff44c0e58c64a447fd45a594f028f6fb802ed853c"
         }
     },
     "bin": "lpvpn.exe",
