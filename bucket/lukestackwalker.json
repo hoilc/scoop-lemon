@@ -1,0 +1,22 @@
+{
+    "version": "0.9.9",
+    "description": "Luke Stackwalker is a C/C++ code profiler that runs on Windows.",
+    "homepage": "http://lukestackwalker.sourceforge.net/",
+    "license": "BSD-3-Clause",
+    "url": "https://sourceforge.net/projects/lukestackwalker/files/lukestackwalker/0.9.9/LukeStackWalkerSetup-0.9.9.exe#/dl.7z",
+    "hash": "sha1:acab9f468b07164c316ab3194bf33203222e11ce",
+    "shortcuts": [
+        [
+            "luke_sw.exe",
+            "Luke Stackwalker"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/lukestackwalker/rss",
+        "regex": "LukeStackWalkerSetup-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/lukestackwalker/files/lukestackwalker/$version/LukeStackWalkerSetup-$version.exe#/dl.7z"
+    }
+}
