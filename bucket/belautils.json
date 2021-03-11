@@ -1,0 +1,54 @@
+{
+    "version": "1.8.4",
+    "description": "Tools reimplemented using Bela library, a Modern C++ development experience library.",
+    "homepage": "https://github.com/fcharlie/BelaUtils",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fcharlie/BelaUtils/releases/download/1.8.4/BelaUtils-1.8.4-win-x64.zip",
+            "extract_dir": "BelaUtils-1.8.4-win-x64\\bin",
+            "hash": "cf3dbdc3511e6b8ce8b4d57697c5656c15b3e18b7f177df1821be8dfbfc540d6"
+        },
+        "32bit": {
+            "url": "https://github.com/fcharlie/BelaUtils/releases/download/1.8.4/BelaUtils-1.8.4-win-x86.zip",
+            "extract_dir": "BelaUtils-1.8.4-win-x86\\bin",
+            "hash": "637e6f4bf6f2780559f3255072c83bf71dcc9677b2661cc08fd77cfcdb1ad45a"
+        }
+    },
+    "shortcuts": [
+        [
+            "caelum.exe",
+            "Caelum PE Analyzer,"
+        ],
+        [
+            "kisasum-ui.exe",
+            "Kisasum Hash Utilities"
+        ],
+        [
+            "krycekium.exe",
+            "Krycekium MSI unpacker"
+        ]
+    ],
+    "bin": [
+        "bona.exe",
+        "caelum.exe",
+        "hastyhex.exe",
+        "kisasum.exe",
+        "kisasum-ui.exe",
+        "krycekium.exe",
+        "wind.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fcharlie/BelaUtils/releases/download/$version/BelaUtils-$version-win-x64.zip",
+                "extract_dir": "BelaUtils-$version-win-x64\\bin"
+            },
+            "32bit": {
+                "url": "https://github.com/fcharlie/BelaUtils/releases/download/$version/BelaUtils-$version-win-x86.zip",
+                "extract_dir": "BelaUtils-$version-win-x86\\bin"
+            }
+        }
+    }
+}
