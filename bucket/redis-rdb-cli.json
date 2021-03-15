@@ -1,10 +1,10 @@
 {
-    "version": "0.6.2",
+    "version": "0.6.3",
     "description": "A tool that can parse, filter, split, merge rdb and analyze memory usage offline.",
     "homepage": "https://github.com/leonchen83/redis-rdb-cli",
     "license": "Apache-2.0",
-    "url": "https://github.com/leonchen83/redis-rdb-cli/releases/download/v0.6.2/redis-rdb-cli-release.zip",
-    "hash": "124234defb882ae959bbc2635a2de6f3494e025b7f4bb4a971655f7d85e98c61",
+    "url": "https://github.com/leonchen83/redis-rdb-cli/releases/download/v0.6.3/redis-rdb-cli-release.zip",
+    "hash": "3a44d1176a378bc43d5e251f8ab5225fc7143c5740588d531857910df7a35a9e",
     "extract_dir": "redis-rdb-cli",
     "bin": [
         "bin\\rct.cmd",
