@@ -1,17 +1,17 @@
 {
-    "version": "0.35.5",
+    "version": "0.36.0",
     "description": "A simple DNS proxy server that supports all existing DNS protocols including DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.",
     "homepage": "https://github.com/AdguardTeam/dnsproxy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.35.5/dnsproxy-windows-amd64-v0.35.5.zip",
-            "hash": "660942006c681c0d1993a56f972f853afd2a6818ac7df126fa869a91cd598ea5",
+            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.36.0/dnsproxy-windows-amd64-v0.36.0.zip",
+            "hash": "8330eb66b7993d3fc1a490efe1612c7d56e49eb2a7b624cc64c0c208b27816f8",
             "extract_dir": "windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.35.5/dnsproxy-windows-386-v0.35.5.zip",
-            "hash": "2abe11ba44f136eeb997928c92b11eaaac118371eeea1d65f2fb8a9adac5edfc",
+            "url": "https://github.com/AdguardTeam/dnsproxy/releases/download/v0.36.0/dnsproxy-windows-386-v0.36.0.zip",
+            "hash": "8b85af39fdf9654a47b6096c36942d6c333d14e356c2b79b08b29583f41e404d",
             "extract_dir": "windows-386"
         }
     },
