@@ -1,13 +1,13 @@
 {
-    "version": "0.12.0",
+    "version": "0.13.0",
     "description": "The compiler for Teal, a typed dialect of Lua.",
     "homepage": "https://github.com/teal-language/tl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/teal-language/tl/releases/download/v0.12.0/tl-0.12.0-windows-x86_64.zip",
-            "hash": "7aebeeffb1d08066cf75fcd247eaf53eeb2d4a782afed25ebf9fe6c300106746",
-            "extract_dir": "tl-0.12.0-windows-x86_64"
+            "url": "https://github.com/teal-language/tl/releases/download/v0.13.0/tl-0.13.0-windows-x86_64.zip",
+            "hash": "080b3feef8bd2617adfabd4d00c428ba06da3b57de18513a741205b0cca76b9b",
+            "extract_dir": "tl-0.13.0-windows-x86_64"
         }
     },
     "bin": "tl.exe",
