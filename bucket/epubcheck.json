@@ -1,11 +1,11 @@
 {
-    "version": "4.2.4",
+    "version": "4.2.5",
     "description": "A tool to validate the conformance of EPUB publications against the EPUB specifications.",
     "homepage": "https://github.com/w3c/epubcheck",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/w3c/epubcheck/releases/download/v4.2.4/epubcheck-4.2.4.zip",
-    "hash": "11550a96f0695cb475026664f0015133e88d8a58f9f8b31180515f8e7ae2b7d2",
-    "extract_dir": "epubcheck-4.2.4",
+    "url": "https://github.com/w3c/epubcheck/releases/download/v4.2.5/epubcheck-4.2.5.zip",
+    "hash": "2f725b7f491bd7e215fe3fb5492d0554207c838c35165cc195963ddcde39c887",
+    "extract_dir": "epubcheck-4.2.5",
     "bin": "epubcheck.jar",
     "suggest": {
         "JDK": [
