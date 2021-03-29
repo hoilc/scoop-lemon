@@ -23,11 +23,5 @@
             }
         }
     },
-    "bin": "pd.exe",
-    "checkver": {
-        "regex": "Process Dump v([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://www.split-code.com/files/pd_v$underscoreVersion.zip"
-    }
+    "bin": "pd.exe"
 }
