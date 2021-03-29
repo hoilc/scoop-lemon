@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/staxrip/staxrip/releases/download/v2.3.0/StaxRip-v2.3.0-x64.7z",
+            "extract_dir": "StaxRip-v2.3.0-x64",
             "hash": "0eb1f65095055ef8039005df61b800f62a3952bbd86727499b8fb962b6d0fc4a"
         }
     },
@@ -22,7 +23,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z"
+                "url": "https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z",
+                "extract_dir": "StaxRip-v$version-x64"
             }
         }
     }
