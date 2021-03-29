@@ -9,14 +9,14 @@
             "hash": "fcac80276aac3a10982f450b86e4d2a79a4840009f1d56c4fa413329e3fb9fdb"
         }
     },
-    "extract_dir": "Hibernation-Recon-v1.2.1.77_Beta",
+    "extract_dir": "Hibernation-Recon-v1.2.1.77",
     "shortcuts": [
         [
             "HibernationRecon.exe",
             "Hibernation Recon"
         ]
     ],
-    "bin": "hibrec_cli.exe",
+    "bin": "hibrec.exe",
     "checkver": {
         "url": "https://arsenalrecon.com/downloads/",
         "regex": "(?sm)Hibernation Recon v([\\d.]+).*?/download/(?<id>\\d+)/"
@@ -27,6 +27,6 @@
                 "url": "https://arsenalrecon.com/download/$matchId/#/dl.zip"
             }
         },
-        "extract_dir": "Hibernation-Recon-v$version_Beta"
+        "extract_dir": "Hibernation-Recon-v$version"
     }
 }
