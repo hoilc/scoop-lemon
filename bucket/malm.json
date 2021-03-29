@@ -23,11 +23,5 @@
             }
         }
     },
-    "bin": "malm.exe",
-    "checkver": {
-        "regex": "MALM v([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://www.split-code.com/files/malm-v$underscoreVersion.zip"
-    }
+    "bin": "malm.exe"
 }
