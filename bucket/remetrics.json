@@ -1,0 +1,21 @@
+{
+    "version": "1.32",
+    "description": "ReMetrics is a Windows window design setting tool on Windows 8.1/10.",
+    "homepage": "http://tatsu.life.coocan.jp/MySoft/WinCust/index.html",
+    "license": "MIT",
+    "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-1.32/ReMetrics132.zip",
+    "hash": "4fb4fbe9239f6a3ddf317c7dcd60b8ad66708922a48f0a029e22c4e2afcf18fd",
+    "shortcuts": [
+        [
+            "ReMetrics.exe",
+            "ReMetrics"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Tatsu-syo/ReMetrics/releases/latest",
+        "regex": "/releases/tag/TAG-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Tatsu-syo/ReMetrics/releases/download/TAG-$version/ReMetrics$cleanVersion.zip"
+    }
+}
