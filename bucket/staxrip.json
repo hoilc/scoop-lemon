@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/staxrip/staxrip/releases/download/$version/StaxRip-x64-$version-stable.7z"
+                "url": "https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z"
             }
         }
     }
