@@ -13,6 +13,10 @@
             "hash": "79437dda12f9c095f2694b1a871ce2216f33b9ca4214690ad552fba1e868a2a0"
         }
     },
+    "persist": [
+        "portable",
+        "downloads"
+    ],
     "extract_dir": "bin",
     "shortcuts": [
         [
