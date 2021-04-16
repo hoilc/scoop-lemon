@@ -1,5 +1,5 @@
 {
-    "version": "0.17.1",
+    "version": "0.18.0",
     "description": "The kubectl plugin for KubeDB by AppsCode.",
     "homepage": "https://kubedb.com/docs/latest/setup/install/kubectl_plugin/",
     "license": {
