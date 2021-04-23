@@ -1,0 +1,25 @@
+{
+    "version": "2.0.2",
+    "description": "A simple and naive traceroute tool with GeoIP function.",
+    "homepage": "https://t.me/s/WorstTraceChannel",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://pkg.wtrace.app/windows/worsttrace.exe",
+            "hash": "192012aee2a4d9e9aaaf03160bcb0ce9c682bb0d2a0343c1888b7e3d090c8d50"
+        }
+    },
+    "bin": "worsttrace.exe",
+    "checkver": {
+        "url": "https://pkg.wtrace.app/update/",
+        "regex": "([\\d.]+)/",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://pkg.wtrace.app/windows/worsttrace.exe"
+            }
+        }
+    }
+}
