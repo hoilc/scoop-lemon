@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.2",
     "description": "Helper to interface with Windows ssh-agent.exe service from WSL, replacement for ssh-agent-wsl.",
     "homepage": "https://github.com/rupor-github/wsl-ssh-agent",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v1.5.0/wsl-ssh-agent.7z",
-            "hash": "7620a527625fb80d8e72d867166ecaf41128cbd8ba6248cc1c0803ccb5f3f580"
+            "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v1.5.2/wsl-ssh-agent.zip",
+            "hash": "39e6765a6836484707c26f3372561380b1e619492dc91bf8ebeec37aaee8f3d7"
         }
     },
     "bin": "wsl-ssh-agent-gui.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v$version/wsl-ssh-agent.7z"
+                "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v$version/wsl-ssh-agent.zip"
             }
         }
     }
