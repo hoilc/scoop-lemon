@@ -1,0 +1,21 @@
+{
+    "version": "0.0.4",
+    "description": "A DNAT tool that works on OSI Layer 4.",
+    "homepage": "https://github.com/dushixiang/4dnat",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dushixiang/4dnat/releases/download/v0.0.4/4dnat_windows_amd64.exe#/4dnat.exe",
+            "hash": "7866299801148d06dea25a55da085209c0479197183a757aaf8d3254ed07fff6"
+        }
+    },
+    "bin": "4dnat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dushixiang/4dnat/releases/download/v$version/4dnat_windows_amd64.exe#/4dnat.exe"
+            }
+        }
+    }
+}
