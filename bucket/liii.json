@@ -1,16 +1,16 @@
 {
-    "version": "0.1.1.7",
+    "version": "0.1.1.8",
     "description": "A open-source file sharing utility capable of downloading torrents with minimal impact on the system's resources.",
     "homepage": "https://codecpack.co/download/LIII-BitTorrent-Client.html",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aliakseis/LIII/releases/download/0.1.1.7/bin-x64.zip",
-            "hash": "43635181b77b48c723a0174b8bf69687c500c6766e0147e6dd1d0b5721218039"
+            "url": "https://github.com/aliakseis/LIII/releases/download/0.1.1.8/bin-x64.zip",
+            "hash": "de0d1296bbcf54565a882edb55d506291e65e1a3df709d5712e868d6e01cf5c9"
         },
         "32bit": {
-            "url": "https://github.com/aliakseis/LIII/releases/download/0.1.1.7/bin.zip",
-            "hash": "4b3265ca8c981db4d079730a6000954da834d90d2802a25725a43b5608cc1509"
+            "url": "https://github.com/aliakseis/LIII/releases/download/0.1.1.8/bin.zip",
+            "hash": "400fda330960b233a7abe05e2670e484cc79c34075a64797b4070217e89dd854"
         }
     },
     "persist": [
