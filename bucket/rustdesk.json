@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version.exe"
+                "url": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version.exe#/rustdesk.exe"
             }
         }
     }
