@@ -1,12 +1,12 @@
 {
-    "version": "1.7.1.210331",
+    "version": "1.8.1.210430",
     "description": "A SQL client and admin tool for popular databases (SQLite / MySQL / PostgreSQL / ...) on Windows / MacOS / Linux.",
     "homepage": "https://dbkangaroo.github.io/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v1.7.1.210331/kangaroo-1.7.1.210331-AMD64.7z",
-            "hash": "6ce0c826cd43ad81fe2b4a6a93b290e2e8991df3235ff2eaf442940af117482f"
+            "url": "https://github.com/dbkangaroo/kangaroo/releases/download/v1.8.1.210430/kangaroo-1.8.1.210430-AMD64.7z",
+            "hash": "5c269bd948bd8d675ae09ca1ae3c663fb80908d72c31127c38fcc7917662d8fb"
         }
     },
     "shortcuts": [
