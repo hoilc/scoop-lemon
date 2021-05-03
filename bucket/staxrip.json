@@ -1,13 +1,13 @@
 {
-    "version": "2.4.0",
+    "version": "2.5.0",
     "description": "Avideo encoding GUI for Windows, it executes and controls console apps like x265, mkvmerge and ffmpeg and uses the scripting based frame servers AviSynth and VapourSynth for video processing.",
     "homepage": "https://github.com/staxrip/staxrip",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/staxrip/staxrip/releases/download/v2.4.0/StaxRip-v2.4.0-x64.7z",
-            "extract_dir": "StaxRip-v2.4.0-x64",
-            "hash": "df106964d00133f873c0d831b7b7b77314620d921e7a0fcf03cf67b1eb75997c"
+            "url": "https://github.com/staxrip/staxrip/releases/download/v2.5.0/StaxRip-v2.5.0-x64.7z",
+            "extract_dir": "StaxRip-v2.5.0-x64",
+            "hash": "12059f4cac1bd0deb5dbc875f2f88c8905d418325216268579db7b94111a354d"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\Settings\\\")) { New-Item -Path \"$dir\\Settings\\\" -ItemType Directory | Out-Null }",
