@@ -1,0 +1,30 @@
+{
+    "version": "0.7.1",
+    "description": "A TCP/UDP relay & SOCKS5/HTTP proxy tool optimized for poor network environments (satellite networks, connections from China to foreign servers, etc.) powered by a custom version of QUIC protocol.",
+    "homepage": "https://github.com/HyNetwork/hysteria",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HyNetwork/hysteria/releases/download/v0.7.1/hysteria-windows-amd64.exe#/hysteria.exe",
+            "hash": "5911ce3f9334bd23581ee5ae01c72da610f199ea7e9646e20164745d50155251"
+        },
+        "32bit": {
+            "url": "https://github.com/HyNetwork/hysteria/releases/download/v0.7.1/hysteria-windows-386.exe#/hysteria.exe",
+            "hash": "0b841a0008d0e937c4762c2e36c647ac9ffc5aa2ea692adbb1c81c9e376c80e1"
+        }
+    },
+    "bin": "hysteria.exe",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.json\" -Value \"{}\" }",
+    "persist": "config.json",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-amd64.exe#/hysteria.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-386.exe#/hysteria.exe"
+            }
+        }
+    }
+}
