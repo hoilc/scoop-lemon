@@ -9,7 +9,7 @@
             "hash": "3263ceee6521afaf723c5163bb3a917fc8423e87eb97829c2e777771c1426fa2"
         }
     },
-    "pre_install": "Rename-Item -Path \"$dir\\ipinfo_*.exe\" -NewName 'ipinfo.exe'",
+    "pre_install": "Get-ChildItem \"$dir\" 'ipinfo_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ipinfo.exe'",
     "bin": "ipinfo.exe",
     "checkver": {
         "url": "https://github.com/ipinfo/cli/releases",
