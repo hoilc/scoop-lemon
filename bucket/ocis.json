@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "ownCloud Infinite Scale is a modern file-sync and share platform.",
     "homepage": "https://github.com/owncloud/ocis",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/owncloud/ocis/releases/download/v1.5.0/ocis-1.5.0-windows-amd64.exe#/ocis.exe",
-            "hash": "386bfaeff862f2552cb4a3373e0be20d342d36711b2413a6bca185463afa68a6"
+            "url": "https://github.com/owncloud/ocis/releases/download/v1.6.0/ocis-1.6.0-windows-amd64.exe#/ocis.exe",
+            "hash": "4d1fb5005366d8f46b5aab7ee8952310442649316ff91d9fb55592e611a650fa"
         }
     },
     "bin": "ocis.exe",
