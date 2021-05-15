@@ -14,7 +14,7 @@
         }
     },
     "persist": "config.yml",
-    "pre_install": "Get-ChildItem \"$dir\" 'overture-windows-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'overture'",
+    "pre_install": "Get-ChildItem \"$dir\" 'overture-windows-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'overture.exe'",
     "bin": "overture.exe",
     "checkver": "github",
     "autoupdate": {
