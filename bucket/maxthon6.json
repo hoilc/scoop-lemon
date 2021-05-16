@@ -5,7 +5,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.maxthon.com/mx6/maxthon_portable_6.1.2.1000_x64.zip",
+            "url": "https://dl.maxthon.cn/mx6/maxthon_portable_6.1.2.1000_x64.zip",
             "hash": "5ab753ba441fbc0bed068599c5a38535a123174e61bae0ce15d659be84198760"
         }
     },
