@@ -1,11 +1,11 @@
 {
-    "version": "3.3.138",
+    "version": "3.4.141",
     "description": "Arsenal Image Mounter mounts the contents of disk images as complete disks in Microsoft Windows.",
     "homepage": "https://arsenalrecon.com/weapons/image-mounter",
     "license": "Shareware",
-    "url": "https://arsenalrecon.com/download/29973/#/dl.zip",
-    "hash": "2c9a2964cd168fe5170907d23f321ffc40622843d0da6d04ff6d438fbac336bc",
-    "extract_dir": "Arsenal-Image-Mounter-v3.3.138",
+    "url": "https://arsenalrecon.com/download/30112/#/dl.zip",
+    "hash": "4b5549cd314ef53cd227b936e83afa0aee797b73820a8049087a6185d8c70826",
+    "extract_dir": "Arsenal-Image-Mounter-v3.4.141",
     "shortcuts": [
         [
             "ArsenalImageMounter.exe",
