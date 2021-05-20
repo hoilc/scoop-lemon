@@ -1,12 +1,12 @@
 {
-    "version": "1.0.17.42",
+    "version": "1.0.17.43",
     "description": "A start menu alternative that offers a clear, personalized menu in the system tray.",
     "homepage": "https://github.com/Hofknecht/SystemTrayMenu",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hofknecht/SystemTrayMenu/releases/download/v1.0.17.42/SystemTrayMenu-1.0.17.42.zip",
-            "hash": "7a5086d4318e2868e98fb5aaaaba17380f801b109e987a0c044c5aa9381b9a9d"
+            "url": "https://github.com/Hofknecht/SystemTrayMenu/releases/download/v1.0.17.43/SystemTrayMenu-1.0.17.43.zip",
+            "hash": "19a2a615c0735f9aaac98e91f20adc33409e7a3564bfd738951886923740bc55"
         }
     },
     "shortcuts": [
