@@ -1,18 +1,18 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "A CLI tool that can execute SQL queries on CSV, LTSV, JSON and TBLN, then output to various formats.",
     "homepage": "https://github.com/noborus/trdsql",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "extract_dir": "trdsql_v0.8.0_windows_amd64",
-            "url": "https://github.com/noborus/trdsql/releases/download/v0.8.0/trdsql_v0.8.0_windows_amd64.zip",
-            "hash": "d56132b08b4c07e7e05df5a6b18387e5859014b57109b4f79f5bc85fcf715d64"
+            "extract_dir": "trdsql_v0.9.0_windows_amd64",
+            "url": "https://github.com/noborus/trdsql/releases/download/v0.9.0/trdsql_v0.9.0_windows_amd64.zip",
+            "hash": "01eb967de90f4c8cd6cef0a83243e9b71c21a1db64872e923ffc5f88f24e2b07"
         },
         "32bit": {
-            "extract_dir": "trdsql_v0.8.0_windows_386",
-            "url": "https://github.com/noborus/trdsql/releases/download/v0.8.0/trdsql_v0.8.0_windows_386.zip",
-            "hash": "95998513b2923f7c22eb3f7499e5cc8d3babf71e41d586e9de9b43dded682e55"
+            "extract_dir": "trdsql_v0.9.0_windows_386",
+            "url": "https://github.com/noborus/trdsql/releases/download/v0.9.0/trdsql_v0.9.0_windows_386.zip",
+            "hash": "60eb19e881c7e85a5bdebe3c8e2f20bf7941b900546efdfbf1f66fba539cb5db"
         }
     },
     "bin": "trdsql.exe",
