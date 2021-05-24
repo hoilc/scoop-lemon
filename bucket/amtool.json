@@ -1,18 +1,18 @@
 {
-    "version": "0.21.0",
+    "version": "0.22.0",
     "description": "A cli tool for interacting with the Alertmanager API.",
     "homepage": "https://github.com/prometheus/alertmanager",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/alertmanager/releases/download/v0.21.0/alertmanager-0.21.0.windows-amd64.tar.gz",
-            "extract_dir": "alertmanager-0.21.0.windows-amd64",
-            "hash": "12c9a77d904bd7982e7ceacfbe9106e725e31536913c491e7b2703f9ddff4aa2"
+            "url": "https://github.com/prometheus/alertmanager/releases/download/v0.22.0/alertmanager-0.22.0.windows-amd64.tar.gz",
+            "extract_dir": "alertmanager-0.22.0.windows-amd64",
+            "hash": "46f5101d1c14d00c28ba178467170fb50e02823a9c22a8d8867fdb91e8e59cbd"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/alertmanager/releases/download/v0.21.0/alertmanager-0.21.0.windows-386.tar.gz",
-            "extract_dir": "alertmanager-0.21.0.windows-386",
-            "hash": "16797370f99db1d10aec642c4f266eb7d051bfaa874d17caf3041141a64cd26f"
+            "url": "https://github.com/prometheus/alertmanager/releases/download/v0.22.0/alertmanager-0.22.0.windows-386.tar.gz",
+            "extract_dir": "alertmanager-0.22.0.windows-386",
+            "hash": "957ae54019e6bc1239ca558255f4a049ef1f001aea7bcdf61baf7fdd12d76aab"
         }
     },
     "post_install": "Remove-Item \"$dir\\alertmanager*\" -Force -Recurse",
