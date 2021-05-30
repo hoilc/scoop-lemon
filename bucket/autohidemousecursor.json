@@ -1,16 +1,16 @@
 {
-    "version": "4.22",
+    "version": "4.33",
     "description": "A small tool that allows you to hide the mouse cursor, if this does not move.",
     "homepage": "http://www.softwareok.com/?seite=Microsoft/AutoHideMouseCursor",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_x64_Portable.zip",
-            "hash": "e6f1ebc6cb1ec81962f7624c90da28e766cc7f2358de2f68bda2d70611abd228"
+            "hash": "a0ee869d438bd390bbefa7a70f283a741422051a3ed8f37d81e2dec9b1da0e89"
         },
         "32bit": {
             "url": "http://www.softwareok.com/Download/AutoHideMouseCursor_Portable.zip",
-            "hash": "8767c4268b3ff7fecd703e7b3e5a32455181bacc2eb7c3a7e123e295a16adf24"
+            "hash": "5fe2f937ddd3ba2121487c6e6ab2bbe45212ed0919896323b1d31ffb4c35c7f5"
         }
     },
     "shortcuts": [
