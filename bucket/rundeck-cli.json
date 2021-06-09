@@ -1,11 +1,11 @@
 {
-    "version": "1.3.6",
+    "version": "1.3.8",
     "description": "The official CLI tool for Rundeck.",
     "homepage": "https://github.com/rundeck/rundeck-cli",
     "license": "Apache-2.0",
-    "url": "https://github.com/rundeck/rundeck-cli/releases/download/v1.3.6/rd-1.3.6.zip",
-    "hash": "46168b28daa3b76860701e6f32e7cb64b9fa4025cbfd5501e07fa3eb221b6f51",
-    "extract_dir": "rd-1.3.6",
+    "url": "https://github.com/rundeck/rundeck-cli/releases/download/v1.3.8/rd-1.3.8.zip",
+    "hash": "6ca71fb94934d36ca9070d0448d237abd5a0a5f49378bc0e52ce1172f6d0d138",
+    "extract_dir": "rd-1.3.8",
     "bin": [
         "bin\\rd.bat",
         [
