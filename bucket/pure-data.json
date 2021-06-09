@@ -13,8 +13,8 @@
             "extract_dir": "pd-0.51-4"
         },
         "32bit": {
-            "url": "http://msp.ucsd.edu/Software/pd-0.51-1-i386.msw.zip",
-            "hash": "9e474bfc29aeda40999aee470c7d754deabed666db5bc00c17b98a1527e63db2",
+            "url": "http://msp.ucsd.edu/Software/pd-0.51-4-i386.msw.zip",
+            "hash": "7a35127be741162b0c520d1a537de1b237b2c0fc5352aaf3b411856e2c4b0a77",
             "extract_dir": "pd-0.51-4-i386"
         }
     },
@@ -40,7 +40,7 @@
                 "extract_dir": "pd-$version"
             },
             "32bit": {
-                "url": "http://msp.ucsd.edu/Software/pd-0.51-1-i386.msw.zip",
+                "url": "http://msp.ucsd.edu/Software/pd-$version-i386.msw.zip",
                 "extract_dir": "pd-$version-i386"
             }
         }
