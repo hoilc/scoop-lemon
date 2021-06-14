@@ -1,5 +1,5 @@
 {
-    "version": "0.8.4",
+    "version": "0.9.0",
     "description": "Open Service Mesh is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments.",
     "homepage": "https://openservicemesh.io/",
     "license": "MIT",
