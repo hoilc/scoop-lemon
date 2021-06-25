@@ -1,15 +1,15 @@
 {
-    "version": "1.2.1.77",
+    "version": "1.2.1.79",
     "description": "The exploitation of Windows hibernation files to \"look back in time\" and uncover compelling evidence is crucial to digital forensics practitioners.",
     "homepage": "https://arsenalrecon.com/products/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://arsenalrecon.com/download/30100/#/dl.zip",
-            "hash": "fcac80276aac3a10982f450b86e4d2a79a4840009f1d56c4fa413329e3fb9fdb"
+            "url": "https://arsenalrecon.com/download/30138/#/dl.zip",
+            "hash": "6548dcdcdca3146765a96a3c73cb7f05a0e21183e80101e18779cb9bd44f8962"
         }
     },
-    "extract_dir": "Hibernation-Recon-v1.2.1.77",
+    "extract_dir": "Hibernation-Recon-v1.2.1.79",
     "shortcuts": [
         [
             "HibernationRecon.exe",
