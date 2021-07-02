@@ -5,12 +5,12 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/James1201/Fanhuaji-GUI-Release/releases/download/1.6.0/Fanhuaji-1.6.0-win64.7z",
+            "url": "https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201/releases/download/1.6.0/Fanhuaji-1.6.0-win64.7z",
             "hash": "fcc64651d57ce18251bf56e2200f0d61c7a5ef4a479722b98dd27b2fff016198"
         },
         "32bit": {
-            "url": "https://github.com/James1201/Fanhuaji-GUI-Release/releases/download/1.6.0/Fanhuaji-1.6.0-win32.7z",
-            "hash": "ef8517b7dd260503eebf1922961dcf653f6fa668baf5f2709ea4d93c58540c43"
+            "url": "https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201/releases/download/1.6.0/Fanhuaji-1.6.0-win64.7z",
+            "hash": "fcc64651d57ce18251bf56e2200f0d61c7a5ef4a479722b98dd27b2fff016198"
         }
     },
     "extract_dir": "Fanhuaji",
@@ -23,15 +23,15 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Sandbox.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\fanhuaji.userprofile.xml\" -Value '<?xml version=\"1.0\" encoding=\"UTF-8\"?><Preference></Preference>' }",
     "persist": "fanhuaji.userprofile.xml",
     "checkver": {
-        "github": "https://github.com/James1201/Fanhuaji-GUI-Release"
+        "github": "https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/James1201/Fanhuaji-GUI-Release/releases/download/$version/Fanhuaji-$version-win64.7z"
+                "url": "https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201/releases/download/$version/Fanhuaji-$version-win64.7z"
             },
             "32bit": {
-                "url": "https://github.com/James1201/Fanhuaji-GUI-Release/releases/download/$version/Fanhuaji-$version-win32.7z"
+                "url": "https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201/releases/download/$version/Fanhuaji-$version-win64.7z"
             }
         }
     }
