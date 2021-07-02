@@ -8,7 +8,7 @@
     "extract_dir": "tcptunnel-0.8",
     "bin": "tcptunnel.exe",
     "checkver": {
-        "github": "https://github.com/vakuum/tcptunnel"
+        "regex": "tcptunnel-([\\d.]+).zip"
     },
     "autoupdate": {
         "url": "http://www.vakuumverpackt.de/tcptunnel/tcptunnel-$version.zip",
