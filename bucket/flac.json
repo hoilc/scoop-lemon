@@ -1,0 +1,35 @@
+{
+    "version": "1.3.3-27c61570",
+    "description": "An FLAC command line encoder/decoder and metadata editor.",
+    "homepage": "https://xiph.org/flac/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.rarewares.org/files/lossless/flac-V1.3.3-27c61570-x64.zip",
+            "hash": "bb1aa79e120878341ed1f058f322739ea9d376cbe08a96a41761832422ee8fc7"
+        },
+        "32bit": {
+            "url": "https://www.rarewares.org/files/lossless/flac-V1.3.3-27c61570-x86.zip",
+            "hash": "997ff0320e0fc10458ef4e4447d2ff832e970dff04236eb4f9f6e21ce97cccb8"
+        }
+    },
+    "bin": [
+        "flac.exe",
+        "metaflac.exe"
+    ],
+    "checkver": {
+        "url": "https://rarewares.org/lossless.php#flac-bundle",
+        "regex": "flac-V(?<flac>[\\d.]+)-(?<commit>[\\da-f]+)-x86.zip",
+        "replace": "${flac}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarewares.org/files/lossless/flac-V$matchFlac-$matchCommit-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.rarewares.org/files/lossless/flac-V$matchFlac-$matchCommit-x86.zip"
+            }
+        }
+    }
+}
