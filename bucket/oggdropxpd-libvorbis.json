@@ -1,7 +1,7 @@
 {
     "version": "1.9.2-1.3.7",
     "description": "A drag-and-drop Ogg Vorbis encoder/decoder/player using libVorbis, libOgg, and SoXR.",
-    "homepage": "https://rarewares.org/ogg-oggdropxpd.php",
+    "homepage": "https://rarewares.org/ogg-oggdropxpd.php#oggdrop-libvorbis",
     "license": "Freeware",
     "architecture": {
         "64bit": {
