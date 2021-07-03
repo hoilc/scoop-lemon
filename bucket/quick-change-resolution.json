@@ -1,0 +1,38 @@
+{
+    "version": "1.0",
+    "description": "A small utility that allows you to quickly change the display resolution.",
+    "homepage": "https://www.pazera-software.com/products/quick-change-resolution/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.pazera-software.com/files/QuickChangeResolution_64bit_PORTABLE.zip",
+            "hash": "f411c056a02bff98ef7d223b14dcfabc9636b65b50885e3758864cd055793495"
+        },
+        "32bit": {
+            "url": "https://www.pazera-software.com/files/QuickChangeResolution_32bit_PORTABLE.zip",
+            "hash": "ef2d26de855d97bd2f7aaafddd1ebc2ed1ecc2d6373e2767a9c9866ffc91b091"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\QuickChangeResolution.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\QuickChangeResolution.ini\" -Value $null }",
+    "persist": "QuickChangeResolution.ini",
+    "bin": "QuickChangeResolution.exe",
+    "shortcuts": [
+        [
+            "QuickChangeResolution.exe",
+            "QuickChangeResolution"
+        ]
+    ],
+    "checkver": {
+        "regex": "Version:</div>([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.pazera-software.com/files/QuickChangeResolution_64bit_PORTABLE.zip"
+            },
+            "32bit": {
+                "url": "https://www.pazera-software.com/files/QuickChangeResolution_32bit_PORTABLE.zip"
+            }
+        }
+    }
+}
