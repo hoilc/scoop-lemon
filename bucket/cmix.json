@@ -9,6 +9,7 @@
             "hash": "a7cdddbb1fc10666eb8101efbba92297924f986f50c7c419e3606eea2a866e3e"
         }
     },
+    "extract_dir": "cmix",
     "bin": "cmix.exe",
     "checkver": {
         "github": "https://github.com/byronknoll/cmix"
