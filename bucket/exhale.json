@@ -1,5 +1,5 @@
 {
-    "version": "1.1.6",
+    "version": "1.1.6-057bb87e",
     "description": "A lightweight library and application to encode uncompressed WAVE-format audio files into MPEG-4-format files complying with the ISO/IEC 23003-3 (MPEG-D) Unified Speech and AudioCoding (USAC, also known as Extended High-Efficiency AAC) standard.",
     "homepage": "https://gitlab.com/ecodis/exhale",
     "license": "BSD-3-Clause",
@@ -16,15 +16,16 @@
     "bin": "exhale.exe",
     "checkver": {
         "url": "https://rarewares.org/aac-encoders.php",
-        "regex": "exhale-V([\\d.]+)-(?<commit>[\\da-f]+)_x64.zip"
+        "regex": "exhale-V(?<exhale>[\\d.]+)-(?<commit>[\\da-f]+)_x64.zip",
+        "replace": "${exhale}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.rarewares.org/files/aac/exhale-V$version-$matchCommit_x64.zip"
+                "url": "https://www.rarewares.org/files/aac/exhale-V$matchExhale-$matchCommit_x64.zip"
             },
             "32bit": {
-                "url": "https://www.rarewares.org/files/aac/exhale-V$version-$matchCommit_x86.zip"
+                "url": "https://www.rarewares.org/files/aac/exhale-V$matchExhale-$matchCommit_x86.zip"
             }
         }
     }
