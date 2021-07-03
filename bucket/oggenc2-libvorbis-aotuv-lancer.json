@@ -15,7 +15,6 @@
     },
     "bin": "oggenc2.exe",
     "checkver": {
-        "url": "https://rarewares.org/ogg-oggenc.php",
         "regex": "oggenc(?<oggenc>[\\d.]+)-(?<libvorbis>[\\d.]+)-aoTuV(?<aotuv>b?[\\d.]+)-LancerSSE3-x64-(?<lancerdate>\\d+).zip",
         "replace": "${oggenc}-${libvorbis}-${aotuv}-${lancerdate}"
     },

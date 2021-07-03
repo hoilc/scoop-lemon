@@ -15,7 +15,6 @@
     },
     "bin": "oggenc2.exe",
     "checkver": {
-        "url": "https://rarewares.org/ogg-oggenc.php",
         "regex": "oggenc(?<oggenc>[\\d.]+)-(?<libvorbis>[\\d.]+)-x64.zip",
         "replace": "${oggenc}-${libvorbis}"
     },
