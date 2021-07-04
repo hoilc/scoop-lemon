@@ -1,10 +1,10 @@
 {
-    "version": "1.2",
+    "version": "3.1",
     "description": "Make copy more easily.",
     "homepage": "https://github.com/CopyPlusPlus/CopyPlusPlus-NetFramework",
-    "license": "Freeware",
-    "url": "https://github.com/CopyPlusPlus/CopyPlusPlus-NetFramework/releases/download/v1.2/Copy++.exe",
-    "hash": "c1c55bdb69ec9368a517d5667e4090cc3d1a50638ac08364a0e005fbdc76b16e",
+    "license": "MIT",
+    "url": "https://github.com/CopyPlusPlus/CopyPlusPlus-NetFramework/releases/download/v3.1/Copy++.exe",
+    "hash": "3f7018dd41dfa2f067313e4008b5a55ac62d7508bddbc1bf1a92fc8b9e3144f9",
     "shortcuts": [
         [
             "Copy++.exe",
