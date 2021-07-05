@@ -1,16 +1,16 @@
 {
-    "version": "1.4.3.7",
+    "version": "1.4.3.8",
     "description": "An implementation of the gocryptfs encrypted overlay filesystem in C++ for Windows.",
     "homepage": "https://github.com/bailey27/cppcryptfs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.7/cppcryptfs.exe",
-            "hash": "c24421c146a1c9c124bf3bd8a384b014cd3ab306fc2d8644fa083ab1a0e131c5"
+            "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.8/cppcryptfs.exe",
+            "hash": "7412ccd466bfec313560361ae627dd260a103a4fb28206ca26424a89397907c6"
         },
         "32bit": {
-            "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.7/cppcryptfs32.exe#/cppcryptfs.exe",
-            "hash": "0038cf8c3ac9f63449c898b1eb75ac2c0ee3b233e647dbfe70fcbffef0f161b8"
+            "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.8/cppcryptfs32.exe#/cppcryptfs.exe",
+            "hash": "ff8db972d49fe755a536811dd3c5aeb405bca5b260600920ac198376e8e1a4c0"
         }
     },
     "shortcuts": [
