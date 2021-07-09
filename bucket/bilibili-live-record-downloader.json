@@ -1,16 +1,16 @@
 {
-    "version": "3.8.0",
+    "version": "3.8.1",
     "description": "Bilibili live recording and replay downloading software",
     "homepage": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.8.0/BilibiliLiveRecordDownLoader-Win64-3.8.0.7z",
-            "hash": "5d50b717bb43c37cfe406dd57abcb0893be812051ea80cc9dfa775c6f410f8ac"
+            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.8.1/BilibiliLiveRecordDownLoader-Win64-3.8.1.7z",
+            "hash": "0d2598dcb44694b182e80959981e172ddc11c0441bba0fb68134a1d530432c2b"
         },
         "32bit": {
-            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.8.0/BilibiliLiveRecordDownLoader-Win32-3.8.0.7z",
-            "hash": "2f18fd4b29711054423ece2ecf1d657a497305f499ca6d8d396eb4c245140eff"
+            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.8.1/BilibiliLiveRecordDownLoader-Win32-3.8.1.7z",
+            "hash": "2717884ff5fb1d3b36714103db84ea847837e366095bf0dda34d0b15845460c2"
         }
     },
     "extract_dir": "BilibiliLiveRecordDownLoader",
