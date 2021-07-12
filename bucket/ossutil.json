@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3",
+    "version": "1.7.5",
     "description": "A user friendly command line tool to access AliCloud OSS.",
     "homepage": "https://github.com/aliyun/ossutil",
     "license": "MIT",
@@ -12,8 +12,8 @@
                 ]
             ],
             "extract_dir": "ossutil64",
-            "url": "http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64.zip",
-            "hash": "b86ddb1269692eff972e85cf3f7b0b2cc9c83c4de5f96ccc3ab0b59573238b1a"
+            "url": "http://gosspublic.alicdn.com/ossutil/1.7.5/ossutil64.zip",
+            "hash": "7b69ad103c230e23ec918568229d802db83527744229fbda1e0721fc46f03fc3"
         },
         "32bit": {
             "bin": [
@@ -23,8 +23,8 @@
                 ]
             ],
             "extract_dir": "ossutil32",
-            "url": "http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil32.zip",
-            "hash": "3e16dc77c4ccd7210857f8615e10e924b64661a497042d2fce39bffd6c4b469a"
+            "url": "http://gosspublic.alicdn.com/ossutil/1.7.5/ossutil32.zip",
+            "hash": "c6227ea2a8290a836e05be30511d49c4264a0117f75297b7ca1b205d090a445a"
         }
     },
     "post_install": "Remove-Item \"$dir\\*.bat\" -Force -Recurse",
