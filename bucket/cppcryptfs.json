@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.8/cppcryptfs.exe",
-            "hash": "7412ccd466bfec313560361ae627dd260a103a4fb28206ca26424a89397907c6"
+            "hash": "fd1d17d40a1fc1316baf1da9537daac5ac3c7edb11705bc0851b080eeff7a47e"
         },
         "32bit": {
             "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.8/cppcryptfs32.exe#/cppcryptfs.exe",
-            "hash": "ff8db972d49fe755a536811dd3c5aeb405bca5b260600920ac198376e8e1a4c0"
+            "hash": "e06626b5049dbec36965f449bef9b7338b8e944becaf8c4b21bd0b2e203e5cb4"
         }
     },
     "shortcuts": [
