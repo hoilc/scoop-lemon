@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/rustdesk/rustdesk/releases/download/1.1.6/rustdesk-1.1.6.exe#/rustdesk.exe",
-            "hash": "872cb6485303c7530a33b2dd049b10aa6e092cb3edbb2d800fa40c7f1f4ce641"
+            "hash": "5ee9b867f0678589ed452b5af8b82215d94135f4d7385da33ca53fe90282acab"
         }
     },
     "shortcuts": [
