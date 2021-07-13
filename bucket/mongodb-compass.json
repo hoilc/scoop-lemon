@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.26.1-win32-x64.zip",
-            "hash": "fa7d4c697003b89848935c74b88c3cd35ecf9bddfbddd0733b9a800a579feec5"
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.28.1-win32-x64.zip",
+            "hash": "1c8cc6f69b440a03c013cce748a5fbf52e5ba89aa36229ac8341311cafa14c6f"
         }
     },
     "shortcuts": [
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.26.1-win32-x64.zip"
+                "url": "https://downloads.mongodb.com/compass/mongodb-compass-$version-win32-x64.zip"
             }
         }
     }
