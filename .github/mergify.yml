@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: auto merge for hash fix
+    conditions:
+      - author=github-actions
+      - check-success=continuous-integration/appveyor/branch
+      - check-success=continuous-integration/appveyor/pr
+      - title~=^.*Fix hash$
+    actions:
+      merge:
+        method: squash
