@@ -1,10 +1,10 @@
 {
-    "version": "9.60",
+    "version": "9.70",
     "description": "Application virtualization system for Windows.",
     "homepage": "https://enigmaprotector.com/en/aboutvb.html",
     "license": "Freeware",
     "url": "https://enigmaprotector.com/assets/files/enigmavb.exe#/install.exe",
-    "hash": "ddc71ef152421ad5c5e08f0645f160e365f7951effe8e627d055693de5df2ac4",
+    "hash": "cfdba3d2fcb934a74da1151a20a798f4e724e1b23b8e2157b3c948c990a5c57b",
     "innosetup": true,
     "bin": "enigmavbconsole.exe",
     "shortcuts": [
