@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openservicemesh/osm/releases/download/v0.3.0/osm-v0.3.0-windows-amd64.zip",
-            "hash": "021079c03a674a1e5e471db15dbd4fba1b5a2453e6ec8e08b0f8416a9847074b",
+            "url": "https://github.com/openservicemesh/osm/releases/download/v0.9.1/osm-v0.9.1-windows-amd64.zip",
+            "hash": "f574e0bc0dabc8415254248b090c771808ff4ffebbe8d52b9a6d8fbe6c20540e",
             "extract_dir": "windows-amd64"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/openservicemesh/osm/releases/download/v0.3.0/osm-v0.3.0-windows-amd64.zip"
+                "url": "https://github.com/openservicemesh/osm/releases/download/v$version/osm-v$version-windows-amd64.zip"
             }
         },
         "hash": {
