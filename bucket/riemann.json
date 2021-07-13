@@ -3,8 +3,8 @@
     "description": "A network event stream processing system, in Clojure.",
     "homepage": "https://github.com/riemann/riemann",
     "license": "EPL-1.0",
-    "url": "https://github.com/riemann/riemann/releases/download/0.3.5/riemann-0.3.5-standalone.jar#/riemann.jar",
-    "hash": "e7791f5eac75e015acbb2be2d62c148b0daa0306733e9c538814afdcf2426102",
+    "url": "https://github.com/riemann/riemann/releases/download/0.3.6/riemann-0.3.6-standalone.jar#/riemann.jar",
+    "hash": "1cf6d6f56bc90dee2a6f63427f95d2f2aa2eab0341c438ec81448b25f8553927",
     "bin": "riemann.jar",
     "suggest": {
         "JDK": [
@@ -16,6 +16,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/riemann/riemann/releases/download/0.3.5/riemann-0.3.5-standalone.jar#/riemann.jar"
+        "url": "https://github.com/riemann/riemann/releases/download/$version/riemann-$version-standalone.jar#/riemann.jar"
     }
 }
