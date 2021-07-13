@@ -1,0 +1,35 @@
+on:
+  push:
+    branches: master
+  schedule:
+    - cron: '0 0 * * *'
+name: Sync Gitee Mirror
+jobs:
+  run:
+    name: Sync Gitee Mirror
+    runs-on: ubuntu-latest
+    steps:
+      - uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          all_but_latest: true
+          access_token: ${{ github.token }}
+      - name: Cache Repo
+        uses: actions/cache@v2
+        id: cache
+        with:
+          path: ${{ github.workspace }}/hub-mirror-cache
+          key: ${{ github.repository }}-${{ github.sha }}
+          restore-keys: ${{ github.repository }}-
+      - name: Mirror Repo
+        uses: Yikun/hub-mirror-action@v1.1
+        with:
+          src: github/hoilc
+          dst: gitee/hoilc
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: 'scoop-lemon'
+          cache_path: ${{ github.workspace }}/hub-mirror-cache
+          account_type: user
+          force_update: true
+          clone_style: ssh
+          timeout: '10m'
