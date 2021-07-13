@@ -1,0 +1,33 @@
+{
+    "version": "1.7.3.0",
+    "description": "A GUI for quick CPU Resource Assignment and Priority adjustment, along with other minor tweaks.",
+    "homepage": "https://github.com/rcmaehl/NotCPUCores",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores.exe",
+            "hash": "f903d3cf2d8cea51a27589b1494f93c5bfede1678f5ee7f12a611ff1b1964b16"
+        },
+        "32bit": {
+            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores_x86.exe#/NotCPUCores.exe",
+            "hash": "6101be2330f0a79eb26d9639eade1268617f2dbb89a873e006157d328e7e03b4"
+        }
+    },
+    "shortcuts": [
+        [
+            "NotCPUCores.exe",
+            "NotCPUCores"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores_x86.exe#/NotCPUCores.exe"
+            }
+        }
+    }
+}
