@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn.ipip.net/17mon/besttrace.exe",
-            "hash": "97e47aadf0e16b70779f719fda4915bab8a11f8baf65d3475f4303e510d3d319"
+            "hash": "5bcc4c99e8752cdf913df8ad7ef4884e16eb8c1e2decde17c1ef36ff2f22f085"
         }
     },
     "innosetup": true,
