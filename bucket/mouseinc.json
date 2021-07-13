@@ -1,10 +1,10 @@
 {
-    "version": "2.10.21",
+    "version": "2.11.2",
     "description": "Simple but powerful mouse gestures for Windows.",
     "homepage": "https://shuax.com/project/mouseinc/",
     "license": "Freeware",
-    "url": "https://dl.shuax.com/MouseInc2.10.21.7z",
-    "hash": "fdb6dc659dc583fc3c7de911910defdae80b2c593180b6039f36d348ef345bb5",
+    "url": "https://update.shuax.com/MouseInc2.11.2.7z",
+    "hash": "a3d0f8cfd070b3c87ed95b2ac0a1f7c724768b55083dfff286e5fa8297d0e05a",
     "pre_install": "if(Test-Path \"$persist_dir\\MouseInc.json\") { Copy-Item \"$persist_dir\\MouseInc.json\" \"$dir\\MouseInc.json\"  | Out-Null }",
     "uninstaller": {
         "script": [
@@ -23,6 +23,6 @@
         "regex": "MouseInc ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://dl.shuax.com/MouseInc$version.7z"
+        "url": "https://update.shuax.com/MouseInc$version.7z"
     }
 }
