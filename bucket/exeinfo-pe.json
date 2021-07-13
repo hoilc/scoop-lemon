@@ -3,7 +3,7 @@
     "description": "Packer, compressor detector / unpack info / internal exe tools.",
     "homepage": "http://www.exeinfo.xn.pl/",
     "license": "Freeware",
-    "url": "http://exeinfo.orgfree.com/exeinfope.zip",
+    "url": "https://github.com/ExeinfoASL/ASL/raw/master/exeinfope.zip",
     "hash": "05d3c6eb98907e9e83be0b01e2fdb7a4094aa764799ac4a9e30f643dc94cf903",
     "extract_dir": "ExeinfoPe",
     "shortcuts": [
@@ -13,10 +13,10 @@
         ]
     ],
     "checkver": {
-        "url": "http://exeinfo.orgfree.com/index.htm",
-        "regex": "ersion\\s*:\\s*([\\d.]+)"
+        "url": "https://github.com/ExeinfoASL/ASL",
+        "regex": "Version\\s*:\\s*([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://exeinfo.orgfree.com/exeinfope.zip"
+        "url": "https://github.com/ExeinfoASL/ASL/raw/master/exeinfope.zip"
     }
 }
