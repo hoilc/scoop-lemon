@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: auto merge for hash fix
     conditions:
-      - author=github-actions
+      - author=github-actions[bot]
       - check-success=continuous-integration/appveyor/branch
       - check-success=continuous-integration/appveyor/pr
       - title~=^.*Fix hash$
