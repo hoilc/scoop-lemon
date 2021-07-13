@@ -1,0 +1,31 @@
+{
+    "version": "1.27.4.0",
+    "description": "A simple tabbed application launcher.",
+    "homepage": "https://maxlauncher.sourceforge.io/",
+    "license": "MS-RL",
+    "url": "https://sourceforge.net/projects/maxlauncher/files/MaxLauncher/1.27.4.0/maxlauncher_1.27.4.0_portable.zip",
+    "hash": "sha1:b8d3c96867c81a1e57c3da85f519691b0119f1d8",
+    "bin": "MaxLauncher.exe",
+    "shortcuts": [
+        [
+            "MaxLauncher.exe",
+            "MaxLauncher"
+        ]
+    ],
+    "pre_install": [
+        "[xml]$config= Get-Content \"$dir\\portable.cfg\"",
+        "$config.PortableConfig.ApplicationConfigFile= '.\\Data'",
+        "$config.PortableConfig.ShortcutsDirectory= '.\\Data'",
+        "$config.PortableConfig.FavoritesConfigFile= '.\\Data'",
+        "$config.PortableConfig.IconCacheFile= '.\\Data'",
+        "$config.Save(\"$dir\\portable.cfg\")"
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/maxlauncher/rss",
+        "regex": "maxlauncher_([\\d.]+)_portable.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/maxlauncher/files/MaxLauncher/$version/maxlauncher_$version_portable.zip"
+    }
+}
