@@ -1,12 +1,12 @@
 {
-    "version": "0.9.4",
+    "version": "0.9.5",
     "description": "A utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations.",
     "homepage": "https://github.com/derailed/popeye",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derailed/popeye/releases/download/v0.9.4/popeye_Windows_x86_64.tar.gz",
-            "hash": "416eea213b53691dc43eb44b293345e0e25447d127fc8581430f2e9816d67324"
+            "url": "https://github.com/derailed/popeye/releases/download/v0.9.5/popeye_Windows_x86_64.tar.gz",
+            "hash": "bc4c1a863cba29a63ddda923f6a1363d59f2ea68efb1255523893d7dc9a1ee2a"
         }
     },
     "bin": "popeye.exe",
