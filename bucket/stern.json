@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/stern/stern/releases/download/v1.19.0/stern_1.19.0_windows_amd64.tar.gz",
+            "extract_dir": "stern_1.19.0_windows_amd64",
             "hash": "e4c4ddc3f622804f473c258806433c28b3d5fa96c37cd8494e25449e011bb2f6"
         }
     },
