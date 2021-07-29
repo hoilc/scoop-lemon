@@ -1,16 +1,16 @@
 {
-    "version": "2.3.1",
+    "version": "2.3.2",
     "description": "Detection Script to help identify why your PC isn't Windows 11 Release Ready.",
     "homepage": "https://github.com/rcmaehl/WhyNotWin11",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rcmaehl/WhyNotWin11/releases/download/2.3.1/WhyNotWin11.exe",
-            "hash": "cdbd81f393207950c771bfdffdadb77519f0a0aeed9d4f87bb2d27dce0676458"
+            "url": "https://github.com/rcmaehl/WhyNotWin11/releases/download/2.3.2/WhyNotWin11.exe",
+            "hash": "09eb7ca262f414f6b1815af4fb409ddbbcc9dc83a172e66432e277501de417ae"
         },
         "32bit": {
-            "url": "https://github.com/rcmaehl/WhyNotWin11/releases/download/2.3.1/WhyNotWin11_x86.exe#/WhyNotWin11.exe",
-            "hash": "ce848bf2b7418b8233d0feab567bf070148dc6c106b615eccd258d6861060395"
+            "url": "https://github.com/rcmaehl/WhyNotWin11/releases/download/2.3.2/WhyNotWin11_x86.exe#/WhyNotWin11.exe",
+            "hash": "b75d122ec2a98a73c58bc33b6564adfdc032f0f5959d95d601de101e3b410363"
         }
     },
     "shortcuts": [
