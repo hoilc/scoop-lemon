@@ -1,12 +1,12 @@
 {
-    "version": "210714",
+    "version": "210731",
     "description": "A video editor designed for simple cutting, filtering and encoding tasks.",
     "homepage": "http://avidemux.sourceforge.net/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "http://www.avidemux.org/nightly/win64/avidemux_r210714_win64Qt5_67.zip",
-            "hash": "1802d24ca0ffd1d7abe2651c843a62ebfe943d7625cd9dec5f2fa8929ed21e85",
+            "url": "http://www.avidemux.org/nightly/win64/avidemux_r210731_win64Qt5_69.zip",
+            "hash": "e98ad9b9523e284c7d2029071a0797bdf01b8527c3d074884115349551c552aa",
             "extract_dir": "avidemux_64"
         }
     },
