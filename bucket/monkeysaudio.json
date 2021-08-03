@@ -1,5 +1,5 @@
 {
-    "version": "6.50",
+    "version": "6.51",
     "description": "Monkey’s Audio is a fast and easy way to compress digital music.",
     "homepage": "https://monkeysaudio.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://monkeysaudio.com/files/MAC_650_x64.exe#/dl.7z",
-            "hash": "9247fde3d4cbb3519bce8527964b9b95eb1a782c07ce6781e5bdcc5a4139bc47"
+            "url": "https://monkeysaudio.com/files/MAC_651_x64.exe#/dl.7z",
+            "hash": "2fb67602f5be695c810794ab7100fd08e6202e554a241b21ae302b9f8c9eabbd"
         },
         "32bit": {
-            "url": "https://monkeysaudio.com/files/MAC_650.exe#/dl.7z",
-            "hash": "2ca2f6c72db1154890506567be8badf8c2aab7b4b4948dc4a379b01116a8a968"
+            "url": "https://monkeysaudio.com/files/MAC_651.exe#/dl.7z",
+            "hash": "3d5e4baffce21eb5dbf69152755116dd1ce71d377e60b71392f638bda9447720"
         }
     },
     "persist": "File Lists",
