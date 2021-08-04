@@ -1,12 +1,12 @@
 {
-    "version": "4.3.6.10",
+    "version": "4.3.7.10",
     "description": "qBittorrent Enhanced Edition is based on qBittorrent, it's aimed at block a leeching clients automatically.",
     "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.6.10/qbittorrent_4.3.6.10_x64_setup.exe#/dl.7z",
-            "hash": "254ecc20fe480003c8053bed997b7901958aa7f53127cdd4e718628bb0175d48"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.7.10/qbittorrent_4.3.7.10_x64_setup.exe#/dl.7z",
+            "hash": "28a1f47b04521e259af9ea21aebc65dbab6eb1d43f35a3f2d8eb80a46029827c"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\profile\\\")) { New-Item -Path \"$dir\\profile\\\" -ItemType Directory | Out-Null }",
