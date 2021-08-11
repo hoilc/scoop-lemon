@@ -1,16 +1,16 @@
 {
-    "version": "0.60.0",
+    "version": "0.61.0",
     "description": "Lets you check if your device is ready for the above Windows 11/Sun Valley requirements.",
     "homepage": "https://github.com/builtbybel/ReadySunValley",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/ReadySunValley/releases/download/0.60.0/ReadySunValley_x64.zip",
-            "hash": "e08b470cfcbf790ff1050b0bb6d50e11231a2e8af7223a9385e49e0b7d35e62c"
+            "url": "https://github.com/builtbybel/ReadySunValley/releases/download/0.61.0/ReadySunValley_x64.zip",
+            "hash": "e98fc6307daeabcd6795587cfb143de50eab1acb7b08ca40ee0565a446c38bf3"
         },
         "32bit": {
-            "url": "https://github.com/builtbybel/ReadySunValley/releases/download/0.60.0/ReadySunValley_x86.zip",
-            "hash": "4befbccc3aac9a57b9f53d55d61eec3bc80439ac886808ed60c2b6ead07dac41"
+            "url": "https://github.com/builtbybel/ReadySunValley/releases/download/0.61.0/ReadySunValley_x86.zip",
+            "hash": "a718c981ccc19b0133b14ee27accfae0dd970f7b9c4c4ab2685024f33fa6f583"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'ReadySunValley_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ReadySunValley.exe'",
