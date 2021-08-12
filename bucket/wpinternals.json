@@ -1,6 +1,6 @@
 {
     "version": "2.9.2",
-    "description": "A Tool to unlock the bootloader and enable Root Access on Windows Phones.",
+    "description": "A tool to unlock the bootloader and enable Root Access on Windows Phones.",
     "homepage": "https://github.com/ReneLergner/WPinternals",
     "license": "MIT",
     "architecture": {
