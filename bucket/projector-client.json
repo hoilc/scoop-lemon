@@ -1,0 +1,29 @@
+{
+    "version": "1.0.1",
+    "description": "A client for Projector, a technology to run and access Swing GUI applications remotely.",
+    "homepage": "https://github.com/JetBrains/projector-client",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JetBrains/projector-client/releases/download/launcher-v1.0.1/projector-win32-x64-launcher-v1.0.1.zip",
+            "extract_dir": "projector-win32-x64",
+            "hash": "19e711948dbbb66456554c10c72a817941edf559aa6844942d28f5f546a78949"
+        }
+    },
+    "shortcuts": [
+        [
+            "projector.exe",
+            "Projector"
+        ]
+    ],
+    "checkver": {
+        "regex": "launcher-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JetBrains/projector-client/releases/download/launcher-v$version/projector-win32-x64-launcher-v$version.zip"
+            }
+        }
+    }
+}
