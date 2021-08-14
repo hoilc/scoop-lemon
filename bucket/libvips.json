@@ -1,16 +1,16 @@
 {
-    "version": "8.11.2",
+    "version": "8.11.3",
     "description": "A fast image processing tool with low memory needs.",
     "homepage": "https://github.com/libvips/build-win64-mxe",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libvips/build-win64-mxe/releases/download/v8.11.2/vips-dev-w64-all-8.11.2.zip",
-            "hash": "f7c9c7167471f9f17e9270d2eebe2fa07ef529e2f1af25035086b174099e7f0f"
+            "url": "https://github.com/libvips/build-win64-mxe/releases/download/v8.11.3/vips-dev-w64-all-8.11.3.zip",
+            "hash": "62ed327cae6a36051a15b4b6fa95d6c1b9fef241bef362d6fbe6e07403f88313"
         },
         "32bit": {
-            "url": "https://github.com/libvips/build-win64-mxe/releases/download/v8.11.2/vips-dev-w32-all-8.11.2.zip",
-            "hash": "fde258f444a6f2b8391c2b7673ee25ebde8f8fe38811afb52896e3e75c525ac0"
+            "url": "https://github.com/libvips/build-win64-mxe/releases/download/v8.11.3/vips-dev-w32-all-8.11.3.zip",
+            "hash": "af6249fc1091cf92fc55c055ba8707860415ceabfea754d30a34cadfd5d00b74"
         }
     },
     "extract_dir": "vips-dev-8.11",
