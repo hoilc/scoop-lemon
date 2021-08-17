@@ -1,0 +1,36 @@
+{
+    "version": "0.14.0",
+    "description": "A forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features.",
+    "homepage": "https://github.com/nadoo/glider",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nadoo/glider/releases/download/v0.14.0/glider_0.14.0_windows_amd64.zip",
+            "extract_dir": "glider_0.14.0_windows_amd64",
+            "hash": "072f36a897fea343b65c349a2d92e8c86bcc1d3616f264afdd198a7074526b0d"
+        },
+        "32bit": {
+            "url": "https://github.com/nadoo/glider/releases/download/v0.14.0/glider_0.14.0_windows_386.zip",
+            "extract_dir": "glider_0.14.0_windows_386",
+            "hash": "b21b92bab63b52d89cfacb62d788a6b333afe920ff37c93e67c7eedf96c418d3"
+        }
+    },
+    "bin": "glider.exe",
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nadoo/glider/releases/download/v$version/glider_$version_windows_amd64.zip",
+                "extract_dir": "glider_$version_windows_amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/nadoo/glider/releases/download/v$version/glider_$version_windows_386.zip",
+                "extract_dir": "glider_$version_windows_386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/glider_$version_checksums.txt"
+        }
+    }
+}
