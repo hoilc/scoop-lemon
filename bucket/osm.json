@@ -1,12 +1,12 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "Open Service Mesh is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments.",
     "homepage": "https://openservicemesh.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openservicemesh/osm/releases/download/v0.9.1/osm-v0.9.1-windows-amd64.zip",
-            "hash": "f574e0bc0dabc8415254248b090c771808ff4ffebbe8d52b9a6d8fbe6c20540e",
+            "url": "https://github.com/openservicemesh/osm/releases/download/v0.9.2/osm-v0.9.2-windows-amd64.zip",
+            "hash": "ecddd396980e243366cad3bbbace57d81b4991e3977083f8bf2548bbc8c0a9ec",
             "extract_dir": "windows-amd64"
         }
     },
