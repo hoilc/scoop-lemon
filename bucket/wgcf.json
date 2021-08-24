@@ -1,15 +1,15 @@
 {
-    "version": "2.2.6",
+    "version": "2.2.7",
     "description": "An unofficial, cross-platform CLI for Cloudflare Warp.",
     "homepage": "https://github.com/ViRb3/wgcf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ViRb3/wgcf/releases/download/v2.2.6/wgcf_2.2.6_windows_amd64.exe#/wgcf.exe",
+            "url": "https://github.com/ViRb3/wgcf/releases/download/v2.2.7/wgcf_2.2.7_windows_amd64.exe#/wgcf.exe",
             "hash": "3901e0dd80f664bd5737ea93f9e9bbfbab0b2d5ba3323939604c0c86aec85e83"
         },
         "32bit": {
-            "url": "https://github.com/ViRb3/wgcf/releases/download/v2.2.6/wgcf_2.2.6_windows_386.exe#/wgcf.exe",
+            "url": "https://github.com/ViRb3/wgcf/releases/download/v2.2.7/wgcf_2.2.7_windows_386.exe#/wgcf.exe",
             "hash": "90c586ddab7ea46980b36dabd6e730d8eb2a0a65eb08f2c20eed22e5b2a6a1bb"
         }
     },
