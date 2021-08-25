@@ -9,11 +9,9 @@
             "hash": "fd3c41f796539bb3bf53b8f0d5b0b8524bd461ab3620adf3a54f9db6aec2cb2b"
         }
     },
-    "extract_dir": ".\\redis-shake-v2.1.0",
     "pre_install": [
         "Rename-Item -Path \"$dir\\redis-shake.windows\" -NewName 'redis-shake.exe'",
-        "Remove-Item \"$dir\\.*\", \"$dir\\*.sh\", \"$dir\\*.linux\", \"$dir\\*.darwin\" -Force",
-        "Remove-Item \"$dir\\PaxHeader\" -Force -Recurse"
+        "Remove-Item \"$dir\\*.linux\", \"$dir\\*.darwin\" -Force"
     ],
     "bin": "redis-shake.exe",
     "persist": "redis-shake.conf",
