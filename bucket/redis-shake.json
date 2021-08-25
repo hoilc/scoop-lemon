@@ -1,15 +1,15 @@
 {
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "A tool for synchronizing data between two redis databases.",
     "homepage": "https://github.com/alibaba/RedisShake",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alibaba/RedisShake/releases/download/release-v2.0.3-20200724/redis-shake-v2.0.3.tar.gz",
-            "hash": "55de3645f9cf7518a8ce30c03b40ede1232b36ff3961848c195b83ccac3b60cc"
+            "url": "https://github.com/alibaba/RedisShake/releases/download/release-v2.1.0-20210819/release-v2.1.0-20210819.tar.gz",
+            "hash": "fd3c41f796539bb3bf53b8f0d5b0b8524bd461ab3620adf3a54f9db6aec2cb2b"
         }
     },
-    "extract_dir": ".\\redis-shake-v2.0.3",
+    "extract_dir": ".\\redis-shake-v2.1.0",
     "pre_install": [
         "Rename-Item -Path \"$dir\\redis-shake.windows\" -NewName 'redis-shake.exe'",
         "Remove-Item \"$dir\\.*\", \"$dir\\*.sh\", \"$dir\\*.linux\", \"$dir\\*.darwin\" -Force",
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alibaba/RedisShake/releases/download/release-v$matchVersion-$matchDate/redis-shake-v$matchVersion.tar.gz"
+                "url": "https://github.com/alibaba/RedisShake/releases/download/release-v$matchVersion-$matchDate/release-v$matchVersion-$matchDate.tar.gz"
             }
         },
         "extract_dir": ".\\redis-shake-v$matchVersion"
