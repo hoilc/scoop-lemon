@@ -1,10 +1,10 @@
 {
-    "version": "1.3.3",
+    "version": "1.4.0",
     "description": "A tool to highlight cursor on the screen.",
     "homepage": "https://github.com/cuiliang/ClickShow",
     "license": "MIT",
-    "url": "https://github.com/cuiliang/ClickShow/releases/download/1.3.3/ClickShow.exe",
-    "hash": "b8e6a438e8446d9a454c2d9e185e991b8fdd3585f2f400282d679c778d0649fd",
+    "url": "https://github.com/cuiliang/ClickShow/releases/download/1.4.0/ClickShow1.4.0.zip",
+    "hash": "11dcb3477db602a612eca1af87dff85dfc3172e4f2f02b255a9220a3e4b67374",
     "bin": "ClickShow.exe",
     "shortcuts": [
         [
@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/cuiliang/ClickShow/releases/download/$version/ClickShow.exe"
+        "url": "https://github.com/cuiliang/ClickShow/releases/download/$version/ClickShow$version.zip"
     }
 }
