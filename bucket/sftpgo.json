@@ -1,0 +1,35 @@
+{
+    "version": "2.1.0",
+    "description": "Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob.",
+    "homepage": "https://github.com/drakkan/sftpgo",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_portable_x86_64.zip",
+    "hash": "91cc2c263c59a8ba9d82dd12d221d1f44c3e43c7b6ffe0657bda12fcdabf70e6",
+    "bin": "sftpgo.exe",
+    "env_set": {
+        "SFTPGO_CONFIG_DIR": "$dir\\config"
+    },
+    "persist": [
+        "config"
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\config\\sftpgo.db\") -and !(Test-Path \"$dir\\config\\sftpgo.json\")) {",
+        "    Copy-Item -Path \"$dir\\sftpgo.db\" \"$dir\\config\"",
+        "    Copy-Item -Path \"$dir\\sftpgo.json\" \"$dir\\config\"",
+        "}",
+        "Remove-Item -Path \"$dir\\config\\templates\" -Recurse 2> $null",
+        "Remove-Item -Path \"$dir\\config\\static\" -Recurse 2> $null",
+        "Move-Item -Path \"$dir\\templates\" \"$dir\\config\"",
+        "Move-Item -Path \"$dir\\static\" \"$dir\\config\"",
+        "Remove-Item -Path \"$dir\\sftpgo.db\"",
+        "Remove-Item -Path \"$dir\\sftpgo.json\""
+    ],
+    "notes": [
+        "When installing for the first time, the configuration files will be placed in the persisted config folder under the home directory.",
+        "However, every time the software is installed or updated, the templates folder under the config folder will be overwritten."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable_x86_64.zip"
+    }
+}
