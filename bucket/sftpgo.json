@@ -23,7 +23,7 @@
     "post_install": [
         "if (! (Test-Path \"$dir\\config\\sftpgo.json\")) { Copy-Item -Path \"$dir\\sftpgo.json\" -Destination \"$dir\\config\\sftpgo.json\" }",
         "if (! (Test-Path \"$dir\\config\\sftpgo.db\")) { Copy-Item -Path \"$dir\\sftpgo.json\" -Destination \"$dir\\config\\sftpgo.db\" }",
-        "Remove-Item \"$dir\\sftpgo.json\", \"$dir\\sftpgo.json\" -Force"
+        "Remove-Item \"$dir\\sftpgo.json\", \"$dir\\sftpgo.db\" -Force"
     ],
     "checkver": "github",
     "autoupdate": {
