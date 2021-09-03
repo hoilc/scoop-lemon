@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "A tool for synchronizing data between two redis databases.",
     "homepage": "https://github.com/alibaba/RedisShake",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alibaba/RedisShake/releases/download/release-v2.1.0-20210819/release-v2.1.0-20210819.tar.gz",
-            "hash": "fd3c41f796539bb3bf53b8f0d5b0b8524bd461ab3620adf3a54f9db6aec2cb2b"
+            "url": "https://github.com/alibaba/RedisShake/releases/download/release-v2.1.1-20210903/release-v2.1.1-20210903.tar.gz",
+            "hash": "e584713a3fd292c9110d8bfbe93e017620a967a59473605f0aa646839e6a09bd"
         }
     },
     "pre_install": [
