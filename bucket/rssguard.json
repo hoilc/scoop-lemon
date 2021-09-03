@@ -9,8 +9,8 @@
             "hash": "97f239504f9adaa9a19198e9a00f4aa58872a6d401d518af79b96510468129fb"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\data\\\")) { New-Item -Path \"$dir\\data\\\" -ItemType Directory | Out-Null }",
-    "persist": "data",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\data4\\\")) { New-Item -Path \"$dir\\data4\\\" -ItemType Directory | Out-Null }",
+    "persist": "data4",
     "shortcuts": [
         [
             "rssguard.exe",
