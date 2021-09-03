@@ -1,0 +1,26 @@
+{
+    "version": "0.1.3",
+    "description": "A copy-and-translate tool written by Rust.",
+    "homepage": "https://github.com/zu1k/copy-translator",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zu1k/copy-translator/releases/download/v0.1.3/copy-translator.exe",
+            "hash": "1ef1995b6261cbd06dc8219c12b3ff53edd333d79e8b4c56edc76e0e56381df0"
+        }
+    },
+    "shortcuts": [
+        [
+            "copy-translator.exe",
+            "Copy Translator"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zu1k/copy-translator/releases/download/v$version/copy-translator.exe"
+            }
+        }
+    }
+}
