@@ -1,10 +1,10 @@
 {
-    "version": "1.29.0.0",
+    "version": "1.30.0.0",
     "description": "A simple tabbed application launcher.",
     "homepage": "https://maxlauncher.sourceforge.io/",
     "license": "MS-RL",
-    "url": "https://sourceforge.net/projects/maxlauncher/files/MaxLauncher/1.29.0.0/maxlauncher_1.29.0.0_portable.zip",
-    "hash": "sha1:5908b25f9c912bb05b192b14f18bdf75d4f94c35",
+    "url": "https://sourceforge.net/projects/maxlauncher/files/MaxLauncher/1.30.0.0/maxlauncher_1.30.0.0_portable.zip",
+    "hash": "sha1:fb8185e92b11860b2cc2ebaa78778caf3dd97937",
     "bin": "MaxLauncher.exe",
     "shortcuts": [
         [
