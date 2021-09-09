@@ -1,5 +1,5 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "The kubectl plugin for KubeDB by AppsCode.",
     "homepage": "https://kubedb.com/docs/latest/setup/install/kubectl_plugin/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubedb/cli/releases/download/v0.20.0/kubectl-dba-windows-amd64.zip",
-            "hash": "3acecb0532c94986fc4083ab7a3a9a4864bcc64754413f843dc9df0a64b885c6"
+            "url": "https://github.com/kubedb/cli/releases/download/v0.21.0/kubectl-dba-windows-amd64.zip",
+            "hash": "39f9442f0954be3768d0a3120fdd5ba727dc1c2a472ab085fff1b4ef81d87c78"
         }
     },
     "bin": "kubectl-dba.exe",
