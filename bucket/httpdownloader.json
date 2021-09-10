@@ -31,7 +31,8 @@
     ],
     "notes": "Download browser extensions at https://erickutcher.github.io/#HTTP_Downloader",
     "checkver": {
-        "github": "https://github.com/erickutcher/httpdownloader"
+        "url": "https://github.com/erickutcher/httpdownloader/releases",
+        "regex": "/v([\\d.]+)/HTTP_Downloader_64.zip"
     },
     "autoupdate": {
         "architecture": {
