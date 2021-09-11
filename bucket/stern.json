@@ -1,13 +1,13 @@
 {
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "Multi pod and container log tailing for Kubernetes.",
     "homepage": "https://github.com/stern/stern",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stern/stern/releases/download/v1.20.0/stern_1.20.0_windows_amd64.tar.gz",
-            "extract_dir": "stern_1.20.0_windows_amd64",
-            "hash": "bbbb67455953c083768da60e6326bf2270c27be8a36323c9fce3100d6b484df8"
+            "url": "https://github.com/stern/stern/releases/download/v1.20.1/stern_1.20.1_windows_amd64.tar.gz",
+            "extract_dir": "stern_1.20.1_windows_amd64",
+            "hash": "3ed6ccd050a72b68faf2f8f931969aabbd4b69fa69e1abe7ca4aaa2cf4889c22"
         }
     },
     "bin": "stern.exe",
