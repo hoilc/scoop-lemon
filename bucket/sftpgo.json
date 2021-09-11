@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob.",
     "homepage": "https://github.com/drakkan/sftpgo",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_portable_x86_64.zip",
-            "hash": "91cc2c263c59a8ba9d82dd12d221d1f44c3e43c7b6ffe0657bda12fcdabf70e6"
+            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_portable_x86_64.zip",
+            "hash": "d36931aa501f063cf5fac00f6ac3a92a54e7399ab458bde6fe4292f540822a12"
         }
     },
     "bin": "sftpgo.exe",
