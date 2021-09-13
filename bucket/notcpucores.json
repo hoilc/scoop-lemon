@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3.0",
+    "version": "1.7.3.1",
     "description": "A GUI for quick CPU Resource Assignment and Priority adjustment, along with other minor tweaks.",
     "homepage": "https://github.com/rcmaehl/NotCPUCores",
     "license": "LGPL-3.0-only",
