@@ -5,12 +5,12 @@
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores.exe",
-            "hash": "f903d3cf2d8cea51a27589b1494f93c5bfede1678f5ee7f12a611ff1b1964b16"
+            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.1/NotCPUCores.exe",
+            "hash": "e634d9bc283b029d47a7590beacdba1c714c30e5d3d3772e3881ac606bc4583a"
         },
         "32bit": {
-            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores_x86.exe#/NotCPUCores.exe",
-            "hash": "6101be2330f0a79eb26d9639eade1268617f2dbb89a873e006157d328e7e03b4"
+            "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.1/NotCPUCores_x86.exe#/NotCPUCores.exe",
+            "hash": "d181bcce89819979adf1f8dac1fbf368da63689fd9eb7218d0d671b458337c7e"
         }
     },
     "shortcuts": [
@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores.exe"
+                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/$version/NotCPUCores.exe"
             },
             "32bit": {
-                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/1.7.3.0/NotCPUCores_x86.exe#/NotCPUCores.exe"
+                "url": "https://github.com/rcmaehl/NotCPUCores/releases/download/$version/NotCPUCores_x86.exe#/NotCPUCores.exe"
             }
         }
     }
