@@ -17,9 +17,6 @@
     },
     "bin": "BaiduPCS-Go.exe",
     "persist": "config",
-    "post_install": [
-        "if (! (Test-Path \"$dir\\config\")) { New-Item -Path \"$dir\\config\" -ItemType Directory }"
-    ],
     "env_set": {
         "BAIDUPCS_GO_CONFIG_DIR": "$dir\\config"
     },
