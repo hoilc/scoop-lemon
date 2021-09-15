@@ -1,0 +1,33 @@
+{
+    "version": "2.9.0",
+    "description": "A community branch of WizQTClient, that is a cross-platform cloud based note-taking client",
+    "homepage": "https://altairwei.github.io/WizNotePlus/",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/altairwei/WizNotePlus/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/altairwei/WizNotePlus/releases/download/v2.9.0/WizNotePlus-windows-v2.9.0.zip",
+            "hash": "5edc4311d402f6b3d673b0230850855a12496ed710e95ae53eb3944a33601f04"
+        }
+    },
+    "extract_dir": "WizNote",
+    "shortcuts": [
+        [
+            "bin\\WizNote.exe",
+            "WizNotePlus"
+        ]
+    ],
+    "notes": "WizNotePlus is NOT portable. The data is located in %HOME%\\WizNote\\.",
+    "checkver": {
+        "github": "https://github.com/altairwei/WizNotePlus"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/altairwei/WizNotePlus/releases/download/v$version/WizNotePlus-windows-v$version.zip"
+            }
+        }
+    }
+}
