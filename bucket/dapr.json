@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "The command-line tools for Dapr, which allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, launches and manages Dapr instances.",
     "homepage": "https://github.com/dapr/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dapr/cli/releases/download/v1.3.0/dapr_windows_amd64.zip",
-            "hash": "b0d17f6dc081dfaafbdbebac2c8646d8d2f56aebe272ea3b054c421d32b80163"
+            "url": "https://github.com/dapr/cli/releases/download/v1.4.0/dapr_windows_amd64.zip",
+            "hash": "5dd863c96e3815deaf2a8b2f07fb23af4837b66505694a228deaf692573fc446"
         }
     },
     "bin": "dapr.exe",
