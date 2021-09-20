@@ -1,16 +1,16 @@
 {
-    "version": "0.1.27",
+    "version": "0.2.0",
     "description": "WebDAV for Aliyun Driver",
     "homepage": "https://github.com/messense/aliyundrive-webdav",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.1.27/aliyundrive-webdav-windows-x64.zip",
-            "hash": "7f7066c0e17dc2fbbfae8c93fedb0f981cea13c49d342536251041eec1fa8f44"
+            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.2.0/aliyundrive-webdav-windows-x64.zip",
+            "hash": "b682a7343d74ab920df561a5397d0b58acb24212fe8a08651ba5effa52912cea"
         },
         "32bit": {
-            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.1.27/aliyundrive-webdav-windows-x86.zip",
-            "hash": "dad22518a5b49bcf5cc00f96d73cf68ca79aae67a57cd7e85f195c78cf730ccb"
+            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v0.2.0/aliyundrive-webdav-windows-x86.zip",
+            "hash": "bf31a7c07a11dd994a85d8a9fe23fd19e107f6ef5af6ca61e465307ddc449040"
         }
     },
     "bin": "aliyundrive-webdav.exe",
