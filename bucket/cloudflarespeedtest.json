@@ -1,16 +1,16 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Select the best IP for Cloudflare CDN, that means low latency and high speed.",
     "homepage": "https://github.com/XIU2/CloudflareSpeedTest",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.5.0/CloudflareST_windows_amd64.zip",
-            "hash": "7efd0c145ff1d956586de7b79031e860971ce466e5cf7a2da785144d446a436d"
+            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.5.1/CloudflareST_windows_amd64.zip",
+            "hash": "9704e37231c660cfb3e0753f271ce67c05dd487ba9efc18979962d19bc7e7c5a"
         },
         "32bit": {
-            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.5.0/CloudflareST_windows_386.zip",
-            "hash": "0118442ecb7c2863bba940a44f286d8454cef6c7902edec8727791f5406b1ea7"
+            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.5.1/CloudflareST_windows_386.zip",
+            "hash": "fad450fd33ea96156388b9e315d95b5c23c1c699b2cec495b178e1a689738d41"
         }
     },
     "bin": [
