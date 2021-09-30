@@ -1,17 +1,17 @@
 {
-    "version": "0.10.2",
+    "version": "0.10.3",
     "description": "Use mouse and terminal to manage K8s cluster.",
     "homepage": "https://github.com/TNK-Studio/lazykube",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TNK-Studio/lazykube/releases/download/v0.10.2/lazykube_windows_amd64.zip",
-            "hash": "85ab238ecfc4ed9a0bf1ee96883ff204292c013a038062c20d9ea9a442ab77a5",
+            "url": "https://github.com/TNK-Studio/lazykube/releases/download/v0.10.3/lazykube_windows_amd64.zip",
+            "hash": "27ff26e3cc6adf2a7997faf78538973facc9c135deb7a4c46aa6572d39866cda",
             "extract_dir": "lazykube_windows_amd64"
         },
         "32bit": {
-            "url": "https://github.com/TNK-Studio/lazykube/releases/download/v0.10.2/lazykube_windows_386.zip",
-            "hash": "521f9c86ee9220cf578a986b8423a3d3de806db969cb332a9c1d2133ae5d0118",
+            "url": "https://github.com/TNK-Studio/lazykube/releases/download/v0.10.3/lazykube_windows_386.zip",
+            "hash": "02aca7b571fca77d072077025afcd36e62ebf59d88943fa69760321ae3288399",
             "extract_dir": "lazykube_windows_386"
         }
     },
