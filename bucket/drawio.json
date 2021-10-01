@@ -1,20 +1,20 @@
 {
-    "version": "15.3.8",
+    "version": "15.4.0",
     "description": "A diagramming app for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
     "homepage": "https://www.diagrams.net/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.3.8/draw.io-15.3.8-windows-installer.exe#/dl.7z",
-            "hash": "216a3c3029ff6776f5952329d40d87346ca77c2e76f5e50d045991d270ef33eb",
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.4.0/draw.io-15.4.0-windows-installer.exe#/dl.7z",
+            "hash": "3579a82c35be845c30512ea7a4a9a0cc773fbdda22e8a76ab0707e2dee17071b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
             ]
         },
         "32bit": {
-            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.3.8/draw.io-ia32-15.3.8-windows-32bit-installer.exe#/dl.7z",
-            "hash": "ab11813f038b03edceef706d490d52108fc7e1ddffe93ce7c90b41dc0eea5ffd",
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.4.0/draw.io-ia32-15.4.0-windows-32bit-installer.exe#/dl.7z",
+            "hash": "fedca4fc49ef9581bc8a87cb884a05e91097d6d63e5a6c5f48c6fb97cbbc2896",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
