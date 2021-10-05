@@ -1,15 +1,15 @@
 {
-    "version": "15.4",
+    "version": "15.5",
     "description": "A encoding software for converting images, videos, and audio files, allowing you to choose from a large number of functions.",
     "homepage": "https://www.shutterencoder.com/en/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.shutterencoder.com/Shutter%20Encoder%2015.4%20Windows%2064bits.zip",
-            "hash": "b19cd764c07fa6c391d5df5795c48513d2101b66467e10ccd44e13df8f8ffe22"
+            "url": "https://www.shutterencoder.com/Shutter%20Encoder%2015.5%20Windows%2064bits.zip",
+            "hash": "01253a3982ff841223c8526a7f9968c02a7b654545536f5b3d7d870f6baf5768"
         }
     },
-    "extract_dir": "Shutter Encoder 15.4 Windows 64bits",
+    "extract_dir": "Shutter Encoder 15.5 Windows 64bits",
     "shortcuts": [
         [
             "Shutter Encoder.exe",
