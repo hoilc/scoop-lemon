@@ -1,16 +1,16 @@
 {
-    "version": "1.2.8",
+    "version": "1.2.9",
     "description": "Game Backup Monitor automatically backups your saved games with optional cloud support.",
     "homepage": "http://mikemaximus.github.io/gbm-web/index.html",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MikeMaximus/gbm/releases/download/v1.2.8/GBM.v1.2.8.64-bit.7z",
-            "hash": "398074ae41e5d13b308331b5c06aa92ba4454eec65ea91dcf32723169382d609"
+            "url": "https://github.com/MikeMaximus/gbm/releases/download/v1.2.9/GBM.v1.2.9.64-bit.7z",
+            "hash": "0c5662808e274e7ef16b75cdb21f1335fa391d6d0f149ea939ec557af72a7c1f"
         },
         "32bit": {
-            "url": "https://github.com/MikeMaximus/gbm/releases/download/v1.2.8/GBM.v1.2.8.32-bit.7z",
-            "hash": "4f7580b5c02e626c855f5b138b88e612936b08701a68242e3442135d743aad06"
+            "url": "https://github.com/MikeMaximus/gbm/releases/download/v1.2.9/GBM.v1.2.9.32-bit.7z",
+            "hash": "f98ae6f845ed11e764e1701876aa5747ce8b320c9eae974594affe2b63a412ee"
         }
     },
     "shortcuts": [
