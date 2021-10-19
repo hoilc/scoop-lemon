@@ -1,10 +1,10 @@
 {
-    "version": "5.0.97-beta.49",
+    "version": "5.0.97-beta.50",
     "description": "Open-source reference management software to manage bibliographic data and related research materials.",
     "homepage": "https://www.zotero.org/",
     "license": "AGPL-3.0-only",
-    "url": "https://download.zotero.org/client/beta/5.0.97-beta.49%2B9432cb7e7/Zotero-5.0.97-beta.49%2B9432cb7e7_setup.exe#/dl.7z",
-    "hash": "b7a7357ce568b1f418dc009f79337b7feccdb7c61fe5f889e9d35f5d5782d6d1",
+    "url": "https://download.zotero.org/client/beta/5.0.97-beta.50%2B5f61ac23a/Zotero-5.0.97-beta.50%2B5f61ac23a_setup.exe#/dl.7z",
+    "hash": "3676bdadb76b55ad63b735690d7f040cd1aae363fc8f14e3848d8f46be652ee2",
     "extract_dir": "core",
     "bin": "zotero.exe",
     "shortcuts": [
