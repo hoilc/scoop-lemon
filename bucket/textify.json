@@ -1,10 +1,10 @@
 {
-    "version": "1.8.6",
+    "version": "1.8.7",
     "description": "A small tool which allows to copy text from dialogs and controls which don’t allow it otherwise.",
     "homepage": "https://rammichael.com/textify",
     "license": "GPL-3.0-only",
     "url": "https://rammichael.com/downloads/textify_setup.exe#/dl.7z",
-    "hash": "ffc72df0ea88ca76bbec2d2d63a38fe7bceaa9597fc6aa6fba3d4a2d28b40e82",
+    "hash": "1e8afb50ae9081133d942b312e2f05faee118d38ae1db7c5675071a2d59d071d",
     "shortcuts": [
         [
             "Textify.exe",
