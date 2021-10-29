@@ -1,5 +1,5 @@
 {
-    "version": "5.1.7535",
+    "version": "5.2.7972",
     "description": "A tool that helps you learning multi-language vocabulary.",
     "homepage": "https://fishcodelib.com/Elem.htm",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://fishcodelib.com/EULA.htm"
     },
     "url": "https://fishcodelib.com/files/Elem2.zip",
-    "hash": "4e98889ddcbf93671dc68a9d2586202409e296a2ea87fd8d4188758beb92a311",
+    "hash": "5747199437463db76f258b7097b1f9cc0a81d5768a6b48f7c5c2c64702fca651",
     "shortcuts": [
         [
             "Elem2.exe",
