@@ -1,12 +1,12 @@
 {
-    "version": "0.20.17",
+    "version": "0.20.18",
     "description": "A free and open-source replacement for the Epic Games Launcher.",
     "homepage": "https://github.com/derrod/legendary",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derrod/legendary/releases/download/0.20.17/legendary.exe",
-            "hash": "672f6aaaa5b21c43dadc4a9b70c3a7bb34a69125d1d7b882ec13785b660987b9"
+            "url": "https://github.com/derrod/legendary/releases/download/0.20.18/legendary.exe",
+            "hash": "f3f394fdb44333c2a3a483c28d39a4372372982d285ba02034584b36d871caa0"
         }
     },
     "bin": "legendary.exe",
