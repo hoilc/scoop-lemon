@@ -1,16 +1,16 @@
 {
-    "version": "2.0.21.1",
+    "version": "2.2.1.3",
     "description": "An open-source big data platform designed and optimized for the Internet of Things (IoT).",
     "homepage": "https://www.taosdata.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.taosdata.com/assets-download/TDengine-client-2.0.21.1-Windows-x64.exe",
-            "hash": "8f4ead96a3b0239f1d8194500c7c54e94ee879ea463b43ddaeb368c8a550a28c"
+            "url": "https://www.taosdata.com/assets-download/TDengine-client-2.2.1.3-Windows-x64.exe",
+            "hash": "c08053a0de561a620434eb7b2343de4cf976b3365556f659861f73351c3ceaaf"
         },
         "32bit": {
-            "url": "https://www.taosdata.com/assets-download/TDengine-client-2.0.21.1-Windows-x86.exe",
-            "hash": "6aae412815516288c99a0562990a38ddc3484d492a90ce012f1c6aa90fe6e80d"
+            "url": "https://www.taosdata.com/assets-download/TDengine-client-2.2.1.3-Windows-x86.exe",
+            "hash": "955ff3c3cacdc1bab117e45a328c75af2e59f3484f3b5eabedfe73334dae13cc"
         }
     },
     "innosetup": true,
@@ -20,8 +20,8 @@
     ],
     "persist": "cfg",
     "checkver": {
-        "url": "https://github.com/taosdata/TDengine/releases/latest",
-        "regex": "ver-([\\d.]+)"
+        "url": "https://www.taosdata.com/en/getting-started/",
+        "regex": "TDengine-client-([\\d.]+)-Windows-x64.exe"
     },
     "autoupdate": {
         "architecture": {
