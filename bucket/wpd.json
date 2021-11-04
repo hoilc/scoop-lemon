@@ -1,5 +1,5 @@
 {
-    "version": "1.4.1834",
+    "version": "1.5.2042",
     "description": "A small but powerful portable tool to customize privacy related settings in Windows.",
     "homepage": "https://wpd.app/",
     "license": "Freeware",
@@ -13,9 +13,13 @@
     ],
     "bin": "WPD.exe",
     "checkver": {
-        "regex": "Stable\\s+<strong>([\\d.]+)"
+        "regex": "<span id=\"version\">([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://wpd.app/get/latest.zip"
+        "url": "https://wpd.app/get/latest.zip",
+        "hash": {
+            "url": "https://wpd.app/download/",
+            "regex": "$sha256"
+        }
     }
 }
