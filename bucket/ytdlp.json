@@ -1,5 +1,5 @@
 {
-    "version": "2021.10.22",
+    "version": "2021.11.10.1",
     "description": "A youtube-dl fork with additional features and fixes",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "Unlicense",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.10.22/yt-dlp.exe",
-            "hash": "2a889f85b67d97e82301b15fcf396f8f3f4654739e48e1bac4bd1c43558b2491"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.11.10.1/yt-dlp.exe",
+            "hash": "0359fbb4777b364575fdd9e0b7562cedbdbe02303d81aecf3aa4be4f4227444b"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.10.22/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "8ac7809b79027b264c8f8c767f2c72fd6d3e8ebf19f8ed207ef73eba2ba264e5"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.11.10.1/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "7b496ae8520e56ebef2c15150ad2fca4c97b604ba31c176cb626ff5e37a00c70"
         }
     },
     "bin": "yt-dlp.exe",
