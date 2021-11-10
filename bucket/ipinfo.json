@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data).",
     "homepage": "https://github.com/ipinfo/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-2.3.0/ipinfo_2.3.0_windows_amd64.zip",
-            "hash": "b504102d2eb1c4641fb195c11476f4bb5626945ec19b5deaa72ecc18ec8e1118"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-2.3.1/ipinfo_2.3.1_windows_amd64.zip",
+            "hash": "aa7c0c51d142f6b96cc6bace39c4f8fceaaffb7a91ecbe0d082b7025ef2ebf9f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'ipinfo_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ipinfo.exe'",
