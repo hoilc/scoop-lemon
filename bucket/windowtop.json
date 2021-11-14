@@ -1,12 +1,12 @@
 {
-    "version": "5.1.9.1",
+    "version": "5.6.7",
     "description": "Set current window on top, make it dark, apply transpareny, shrink it, and more!",
     "homepage": "https://windowtop.info/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gileli121/WindowTop/releases/download/v5.x.x/WindowTop.5.1.9.1.-.Portable.zip",
-            "hash": "83503ec58abf94063d792764493795373b7c1b2db9e9c75fe16b4e350930910b"
+            "url": "https://github.com/gileli121/WindowTop/releases/download/v5.6/WindowTop.v5.6.7.Portable.zip",
+            "hash": "19e9e6c9704614a9ab06f2d7f27cb33433b999c24a296ee4af2c47547a17f6ab"
         }
     },
     "shortcuts": [
@@ -16,13 +16,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/gileli121/WindowTop/releases/tag/v5.x.x",
+        "url": "https://github.com/BiGilSoft/WindowTop/releases",
         "regex": "WindowTop v([\\d.]+) Portable"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gileli121/WindowTop/releases/download/v5.x.x/WindowTop.$version.-.Portable.zip"
+                "url": "https://github.com/gileli121/WindowTop/releases/download/v$majorVersion.$minorVersion/WindowTop.v$version.Portable.zip"
             }
         }
     }
