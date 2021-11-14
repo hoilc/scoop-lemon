@@ -4,7 +4,7 @@
     },
     "json.schemas": [
         {
-            "url": "https://cdn.jsdelivr.net/gh/lukesampson/scoop@master/schema.json",
+            "url": "https://narcissu.keybase.pub/scoop/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
                 "TODO/*.json",
