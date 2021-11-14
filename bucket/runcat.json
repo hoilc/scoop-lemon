@@ -1,0 +1,31 @@
+{
+    "version": "1.9",
+    "description": "https://github.com/Kyome22/RunCat_for_windows",
+    "homepage": "https://github.com/Kyome22/RunCat_for_windows",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/1.9/RunCat_x64_without_netcore.zip",
+            "hash": "476bbe5e0f43f61309502200347f2905fe1c8d47584cad4d42109312b490ba32"
+        }
+    },
+    "shortcuts": [
+        [
+            "RunCat.exe",
+            "RunCat"
+        ]
+    ],
+    "suggest": {
+        "dotnet core SDK": "dotnet-sdk"
+    },
+    "checkver": {
+        "github": "https://github.com/Kyome22/RunCat_for_windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat_x64_without_netcore.zip"
+            }
+        }
+    }
+}
