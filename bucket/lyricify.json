@@ -1,10 +1,10 @@
 {
-    "version": "3.6.0",
+    "version": "3.6.0.4",
     "description": "An app to provide auto-scrolling lyrics for Spotify, iTunes, Music Center, QQ Music, Netease Cloud Music, and YesPlayMusic.",
     "homepage": "https://github.com/WXRIW/Lyricify-App",
     "license": "Freeware",
-    "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v3.6.0/Lyricify.Ver.3.6.0-release.zip",
-    "hash": "94bce64b9e5547bc68be49259a85741474c49da645781c03fb259c0cc4d46502",
+    "url": "https://github.com/WXRIW/Lyricify-App/releases/download/v3.6.0.4/Lyricify.Ver.3.6.0.4-release.zip",
+    "hash": "def994de0f0c558357204b3b1c528ca86222caaff28953343e2176bcab182ae2",
     "bin": "Lyricify.exe",
     "shortcuts": [
         [
