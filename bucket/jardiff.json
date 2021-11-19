@@ -1,5 +1,5 @@
 {
-    "version": "4.2.6",
+    "version": "1.6.0",
     "description": "A tool for comparing JAR files, including Scala pickled signatures and method code.",
     "homepage": "https://github.com/scala/jardiff",
     "license": "Apache-2.0",
