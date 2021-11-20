@@ -1,21 +1,21 @@
 {
-    "version": "6.1.5.3",
+    "version": "6.1.6.7_final",
     "description": "基于 CUI 的 foobar2000 界面配置",
     "homepage": "https://github.com/dream7180/foobox-cn",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.foobar2000.org/license"
     },
-    "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.5.3/Foobox-6.1.5.3.zip",
-    "hash": "981b5b964323663bbb6bc4ee0b60560548ffb6b74893f8a3b0964a6b46b4f7a2",
+    "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.x/foobox_6.1.6.7_final.zip",
+    "hash": "af59460ccf5dac45d67f2d1928ace9d4bccdad8fafe7d44477ca021ce3e92cec",
     "shortcuts": [
         [
             "foobar2000.exe",
             "Foobox"
         ]
     ],
-    "pre_install": "Expand-7zipArchive \"$dir\\Foobox-*.exe\" \"$dir\"",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\Foobox-*.exe\" -Force -Recurse",
+    "pre_install": "Expand-7zipArchive \"$dir\\*oobox*.exe\" \"$dir\"",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\*oobox*.exe\" -Force -Recurse",
     "persist": [
         "configuration",
         "library",
@@ -26,9 +26,9 @@
     ],
     "checkver": {
         "url": "https://github.com/dream7180/foobox-cn/releases/latest",
-        "regex": "Foobox-([\\d.]+[a-z]?).zip"
+        "regex": "/download/(?<tag>.*?)/foobox_(.*?).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/dream7180/foobox-cn/releases/download/$version/Foobox-$version.zip"
+        "url": "https://github.com/dream7180/foobox-cn/releases/download/$matchTag/foobox_$version.zip"
     }
 }
