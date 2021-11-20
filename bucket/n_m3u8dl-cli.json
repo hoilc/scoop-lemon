@@ -1,10 +1,10 @@
 {
-    "version": "2.9.7",
+    "version": "2.9.8",
     "description": "A m3u8 downloader with easy-to-use GUI.",
     "homepage": "https://github.com/nilaoda/N_m3u8DL-CLI",
     "license": "MIT",
-    "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/2.9.7/N_m3u8DL-CLI_v2.9.7_with_ffmpeg_and_SimpleG.zip",
-    "hash": "c988732f6f768aede3e022c601621a28a2f68399040be30691731f8db55ca541",
+    "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/2.9.8/N_m3u8DL-CLI_v2.9.8_with_ffmpeg_and_SimpleG.zip",
+    "hash": "8dce439b5a6c2ae2b5bc8d15c8e5d8c308fac0c3db27df9a438591ad36fd0d96",
     "bin": "N_m3u8DL-CLI.exe",
     "shortcuts": [
         [
@@ -12,9 +12,7 @@
             "N_m3u8DL-CLI SimpleGUI"
         ]
     ],
-    "pre_install": [
-        "Get-ChildItem \"$dir\" 'N_m3u8DL-CLI_v*.exe' | Select-Object -First 1 | Rename-Item -NewName 'N_m3u8DL-CLI.exe'"
-    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'N_m3u8DL-CLI_v*.exe' | Select-Object -First 1 | Rename-Item -NewName 'N_m3u8DL-CLI.exe'",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/$version/N_m3u8DL-CLI_v$version_with_ffmpeg_and_SimpleG.zip"
