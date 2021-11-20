@@ -1,0 +1,26 @@
+{
+    "version": "1.5.7.192",
+    "description": "Extend the function of ASF (ArchiSteamFarm), add several practical commands",
+    "homepage": "https://github.com/chr233/ASFEnhance",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chr233/ASFEnhance/releases/download/1.5.7.192/ASFEnhance-en-US.dll",
+            "hash": "934273b8e8179329f17f1f4a05bc352f43436325fbbfd4c35df129d00d35cbe7"
+        }
+    },
+    "installer": {
+        "script": "Copy-Item \"$dir\\ASFEnhance-en-US.dll\" \"$(appdir archisteamfarm $global)\\current\\plugins\""
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir archisteamfarm $global)\\current\\plugins\\ASFEnhance-en-US.dll\""
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chr233/ASFEnhance/releases/download/$version/ASFEnhance-en-US.dll"
+            }
+        }
+    }
+}
