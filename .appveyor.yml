@@ -21,6 +21,7 @@ init:
       if(!(Test-Path "$env:SCOOP_HOME")) {
         git clone -q --depth=1 'https://github.com/lukesampson/scoop' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
+        git clone -q --depth=1 'https://github.com/hoilc/scoop-lemon' "$env:SCOOP\buckets\lemon"
       }
 for:
   - matrix:
