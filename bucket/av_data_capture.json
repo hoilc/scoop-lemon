@@ -1,12 +1,12 @@
 {
-    "version": "5.0.4",
+    "version": "5.0.5",
     "description": "A metadata scraper for JAV.",
     "homepage": "https://github.com/yoshiko2/AV_Data_Capture",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yoshiko2/AV_Data_Capture/releases/download/5.0.4/AV_Data_Capture-CLI-5.0.4-Windows-amd64.zip",
-            "hash": "06e74a3a13c7c1ffbab0fa02e4859170318ada938280ad779866349321a9851d"
+            "url": "https://github.com/yoshiko2/AV_Data_Capture/releases/download/5.0.5/AV_Data_Capture-CLI-5.0.5-Windows-amd64.zip",
+            "hash": "d4de7bb3f24e9678d58cad9229418227a495d603d39f9baf7fbbcb72d7260d04"
         }
     },
     "bin": "AV_Data_Capture.exe",
