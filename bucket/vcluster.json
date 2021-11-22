@@ -1,16 +1,16 @@
 {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "description": "Create fully functional virtual Kubernetes clusters.",
     "homepage": "https://www.vcluster.com",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/loft-sh/vcluster/releases/download/v0.4.4/vcluster-windows-amd64.exe#/vcluster.exe",
-            "hash": "6d898619958b756a2fb602921be6c64127c7bd2a9c36da51ae046850a4e1f36c"
+            "url": "https://github.com/loft-sh/vcluster/releases/download/v0.4.5/vcluster-windows-amd64.exe#/vcluster.exe",
+            "hash": "63f89682b3fccf7b7c26866436391f0ce268084b1f0ec8edf0acab9e0b2e4dc7"
         },
         "32bit": {
-            "url": "https://github.com/loft-sh/vcluster/releases/download/v0.4.4/vcluster-windows-386.exe#/vcluster.exe",
-            "hash": "9ef71c4eca2174185cc512f87aa19d6cfc0402bf4f23caf5b21dda4b8e13f86f"
+            "url": "https://github.com/loft-sh/vcluster/releases/download/v0.4.5/vcluster-windows-386.exe#/vcluster.exe",
+            "hash": "b59bb221674d3634157d48c1769d6eb1a591e64ba16d271292deb2dad0a905d0"
         }
     },
     "bin": "vcluster.exe",
