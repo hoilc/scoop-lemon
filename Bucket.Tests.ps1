@@ -28,6 +28,8 @@ function install() {
         $command += " --arch $architecture"
     }
 
+    log "Command: $command"
+
     $result = @(Invoke-Expression "$command *>&1")
     $exit = $LASTEXITCODE
 
@@ -84,11 +86,10 @@ Describe 'Changed manifests installation' {
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
-        scoop config SCOOP_REPO 'https://github.com/Ash258/Scoop-Core'
-        scoop update
         scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-        log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
+        # log @(scoop install 7zip sudo innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
         scoop config 'MSIEXTRACT_USE_LESSMSI' $true
+        scoop config '7ZIPEXTRACT_USE_EXTERNAL' $true
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
