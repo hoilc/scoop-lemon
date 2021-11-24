@@ -10,7 +10,10 @@
         }
     },
     "bin": "soar.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/XiaoMi/soar/releases",
+        "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
