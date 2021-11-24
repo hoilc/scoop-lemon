@@ -1,5 +1,5 @@
 {
-    "version": "1.29.4",
+    "version": "1.29.5",
     "description": "The GUI (Readonly Edition) for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.",
     "homepage": "https://www.mongodb.com/products/compass",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mongodb.com/compass/mongodb-compass-readonly-1.29.4-win32-x64.zip",
-            "hash": "c29150c1fb1e65d34b6a16a014a24dd9961ec03743cdd525cba1ff25629a0ae5"
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-readonly-1.29.5-win32-x64.zip",
+            "hash": "10d7182bf37b73b4f61f9150868403bebc3c9a91986ac8cb7a27c769a0961915"
         }
     },
     "shortcuts": [
