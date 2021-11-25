@@ -1,0 +1,25 @@
+{
+    "version": "1.0.4.2",
+    "description": "Redis可视化管理与监控",
+    "homepage": "http://www.redisant.cn/",
+    "license": "Shareware",
+    "url": "http://www.redisant.cn/package/RedisAssistant-1.0.4.2.exe",
+    "hash": "05251fcf6a5bd8672b682c818e13806f8b7d0cc52fe40b7e080f63dd68705123",
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Redis Assistant.exe",
+            "Redis Assistant"
+        ]
+    ],
+    "notes": "Redis Assistant is NOT portable.",
+    "checkver": {
+        "regex": "\\(Version ([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "url": "http://www.redisant.cn/package/RedisAssistant-$version.exe"
+    }
+}
