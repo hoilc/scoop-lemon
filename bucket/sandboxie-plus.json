@@ -1,20 +1,19 @@
 {
-    "version": "0.3.5",
+    "version": "0.9.8d",
     "description": "The open-source version of Sandboxie, a sandbox-based isolation software for 32- and 64-bit Windows NT-based operating systems.",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus64-v0.3.5.zip",
-            "hash": "bbd48edb4524122d5c49783be98d5780ede7ddedd5b75981a56b10006abf613d",
-            "extract_dir": "SbiePlus64"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8d/Sandboxie-Plus-x64-v0.9.8.4.exe",
+            "hash": "b8a325d5f7fc88c2ce7ce9a9375851e8ce88221087e9e6236083743080ffb523"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus32-v0.3.5.zip",
-            "hash": "c27e5f44d15c0eac1dc7fb5bc01c0e289907633f51ee32d7e76695d475e8cbcd",
-            "extract_dir": "SbiePlus32"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8d/Sandboxie-Plus-x86-v0.9.8.4.exe",
+            "hash": "0573395556935b54a714be7eff81b903bac4d442ccb3bd1f76a264095bbde5ca"
         }
     },
+    "innosetup": true,
     "shortcuts": [
         [
             "SandMan.exe",
@@ -30,14 +29,17 @@
         "Sandboxie.ini",
         "Sandbox.ini"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/latest",
+        "regex": "/download/([\\d\\w.]+?)/Sandboxie-Plus-x64-v(?<versionNumber>[\\d\\w.]+?).exe"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/SbiePlus64-v$version.zip"
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8d/Sandboxie-Plus-x64-v0.9.8.4.exe"
             },
             "32bit": {
-                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/SbiePlus32-v$version.zip"
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8d/Sandboxie-Plus-x86-v0.9.8.4.exe"
             }
         }
     }
