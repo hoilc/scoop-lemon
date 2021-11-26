@@ -4,8 +4,7 @@
     "homepage": "https://zmk.ink/typesetter/index.html",
     "license": "Freeware",
     "url": "https://narcissu.keybase.pub/scoop/gidot-typesetter/GidotTypesetter_3.1.1.2.zip",
-    "hash": "8a3ca983e7f38d3e5092c4ccaede312727603eab326478092cf67b647e735c72",
-    "extract_dir": "排版助手",
+    "hash": "cc0862a95f2b1d40b7edad7ac35e0297016fdc5ce7d02f07cd013648ad27d7b8",
     "shortcuts": [
         [
             "gidot typesetter.exe",
@@ -13,5 +12,6 @@
         ]
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.ini\" -Value '[typesetter]' }",
-    "persist": "config.ini"
+    "persist": "config.ini",
+    "notes": "The application is repackaged to support installation by Scoop."
 }
