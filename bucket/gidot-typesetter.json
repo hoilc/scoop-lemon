@@ -1,0 +1,17 @@
+{
+    "version": "3.1.1.2",
+    "description": "文章自动排版，让编辑的工作从此变得简单",
+    "homepage": "https://zmk.ink/typesetter/index.html",
+    "license": "Freeware",
+    "url": "https://narcissu.keybase.pub/scoop/gidot-typesetter/GidotTypesetter_3.1.1.2.zip",
+    "hash": "8a3ca983e7f38d3e5092c4ccaede312727603eab326478092cf67b647e735c72",
+    "extract_dir": "排版助手",
+    "shortcuts": [
+        [
+            "gidot typesetter.exe",
+            "Gidot Typesetter"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.ini\" -Value '[typesetter]' }",
+    "persist": "config.ini"
+}
