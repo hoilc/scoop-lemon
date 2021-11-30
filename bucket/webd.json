@@ -1,0 +1,32 @@
+{
+    "version": "20211130",
+    "description": "轻量级自建网盘软件，无依赖，速度快，资源占用低",
+    "homepage": "https://webd.cf",
+    "license": "Unknown",
+    "url": "https://gwgw.ga/webd/20211130/webd-20211130-win32.7z",
+    "hash": "sha1:1216338e591b60e1deabcb3a063cb71a5a743db3",
+    "extract_dir": "webd",
+    "shortcuts": [
+        [
+            "webd.exe",
+            "webd"
+        ]
+    ],
+    "persist": [
+        "web",
+        "webd.conf"
+    ],
+    "notes": "Edit the default configuration file $dir\\webd.conf before starting.",
+    "checkver": {
+        "url": "https://gwgw.ga/webd/flst.txt",
+        "regex": "(\\d{8})",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://gwgw.ga/webd/$version/webd-$version-win32.7z",
+        "hash": {
+            "url": "$baseurl/sha1sums.txt",
+            "regex": "$sha1\\s*$basename"
+        }
+    }
+}
