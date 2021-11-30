@@ -5,6 +5,7 @@
     "license": "Unknown",
     "url": "https://gwgw.ga/webd/20211130/webd-20211130-win32.7z",
     "hash": "sha1:ac783696b6b1511fd22c9689a25f54281c785a3a",
+    "extract_dir": "webd",
     "bin": "webd.exe",
     "shortcuts": [
         [
