@@ -1,10 +1,10 @@
 {
-    "version": "1.0.4.3",
+    "version": "1.0.5.0",
     "description": "Redis可视化管理与监控",
     "homepage": "http://www.redisant.cn/",
     "license": "Shareware",
-    "url": "http://www.redisant.cn/package/RedisAssistant-1.0.4.3.exe",
-    "hash": "1b97d05f24f03835267117a2ae9a283809317dbf9441b9edebb9bae68a5ec942",
+    "url": "http://www.redisant.cn/package/RedisAssistant-1.0.5.0.exe",
+    "hash": "8d63ea4c0212ab9107ffd2d8c58f996517fb4528cd899b6d98ea6f791d055338",
     "suggest": {
         "dotnet-runtime": "windowsdesktop-runtime"
     },
