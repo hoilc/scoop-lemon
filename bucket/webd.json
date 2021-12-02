@@ -1,10 +1,10 @@
 {
-    "version": "20211130",
+    "version": "20211202",
     "description": "轻量级自建网盘软件，无依赖，速度快，资源占用低",
     "homepage": "https://webd.cf",
     "license": "Unknown",
-    "url": "https://gwgw.ga/webd/20211130/webd-20211130-win32.7z",
-    "hash": "sha1:1216338e591b60e1deabcb3a063cb71a5a743db3",
+    "url": "https://gwgw.ga/webd/20211202/webd-20211202-win32.7z",
+    "hash": "sha1:da9146fde0c4b14ada3fa49c2759f475baee1a55",
     "extract_dir": "webd",
     "shortcuts": [
         [
