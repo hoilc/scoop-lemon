@@ -12,10 +12,10 @@
             "hash": "a244cd07429d4f907ae07e3c81542c05337afeacfdb792b4fc143adf44776e21"
         }
     },
-    "extract_dir": "WizNote",
+    "extract_dir": "WizNotePlus",
     "shortcuts": [
         [
-            "bin\\WizNote.exe",
+            "bin\\WizNotePlus.exe",
             "WizNotePlus"
         ]
     ],
