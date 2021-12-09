@@ -5,6 +5,7 @@
     "license": "Freeware",
     "url": "https://www.winitor.com/tools/pestudio/current/pestudio.zip",
     "hash": "d0cc2700bd132d4889a4bbb146c91f383d85c0f74452a6d75e4337e1177f2af0",
+    "extract_dir": "pestudio",
     "shortcuts": [
         [
             "pestudio.exe",
