@@ -1,8 +1,8 @@
 on:
-  push:
-    branches: master
+#   push:
+#     branches: master
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */8 * * *'
 name: Sync Gitee Mirror
 jobs:
   run:
