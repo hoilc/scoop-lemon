@@ -18,6 +18,7 @@ jobs:
     - uses: EndBug/add-and-commit@v7
       with:
         add: 'README.md'
+        branch: master
         author_name: hoilc
         author_email: hoilc@foxmail.com
         message: 'chore: update app index'
