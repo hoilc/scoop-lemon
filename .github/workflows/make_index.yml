@@ -1,0 +1,23 @@
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [closed]
+name: Make Index
+jobs:
+  makeIndex:
+    name: makeIndex
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - uses: actions/checkout@master
+    - run: |
+        python makeindex.py
+    - uses: EndBug/add-and-commit@v7
+      with:
+        add: 'README.md'
+        author_name: hoilc
+        author_email: hoilc@foxmail.com
+        message: 'chore: update app index'
