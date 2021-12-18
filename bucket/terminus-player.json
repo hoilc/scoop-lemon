@@ -2,7 +2,7 @@
     "version": "181021",
     "description": "A free Media Player for Emby and Jellyfin.",
     "homepage": "https://github.com/Terminus-Media/jellyfin-media-player",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Terminus-Media/jellyfin-media-player/releases/download/v181021/TerminusPlayer-1.6.1-windows-x64_release_181021.exe",
