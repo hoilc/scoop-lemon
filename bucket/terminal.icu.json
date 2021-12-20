@@ -23,7 +23,7 @@
     "notes": "Terminal.icu is NOT portable.",
     "checkver": {
         "url": "https://api.terminal.icu/server/electron/version",
-        "jsonpath": "$.version"
+        "regex": "terminal.icu%20Setup%20([\\d.]+).exe"
     },
     "autoupdate": {
         "architecture": {
