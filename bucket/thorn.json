@@ -5,7 +5,7 @@
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://static.thorn.press/updates/Thorn v0.4.1.exe#/dl.7z",
+            "url": "https://static.thorn.press/updates/Thorn%20v0.4.1.exe#/dl.7z",
             "hash": "sha512:7df816fd2ce27e8ae3f5ebf27135c61f03d0238ff1b1f1b6a5592c38cfdcfd38f29103419bb5e91fb2a48aca2da66419f4028eef4dcccafb1cbc049e74bc876c",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
