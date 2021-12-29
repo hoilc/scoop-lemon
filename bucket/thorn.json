@@ -1,6 +1,6 @@
 {
     "version": "0.4.1",
-    "description": "Thorn是一款简单的写作应用，提供丝滑的创作体验",
+    "description": "Thorn 是一款简单的写作应用，提供丝滑的创作体验",
     "homepage": "https://app.thorn.press/",
     "license": "Shareware",
     "architecture": {
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://static.thorn.press/updates/Thorn v$version.exe#/dl.7z",
+                "url": "https://static.thorn.press/updates/Thorn%20v$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s*$base64"
