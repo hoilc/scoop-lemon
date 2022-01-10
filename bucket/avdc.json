@@ -1,12 +1,12 @@
 {
-    "version": "3.964",
+    "version": "3.963",
     "description": "GUI Version for AV_Data_Capture, a metadata scraper for JAV.",
     "homepage": "https://github.com/moyy996/AVDC",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moyy996/AVDC/releases/download/3.964/AVDC-3.964.zip",
-            "hash": "b986832c23cb49fd3627548a78cc4691df95ff342b6f578c1d2174bc09406efd"
+            "url": "https://github.com/moyy996/AVDC/releases/download/3.963/AVDC-3.963.zip",
+            "hash": "fa16fc17e60f89615ff8f3f72fd3d337bfe83e6427aa6311442ec2fc5cc40a53"
         }
     },
     "shortcuts": [
