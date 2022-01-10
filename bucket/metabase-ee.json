@@ -6,7 +6,7 @@
         "identifier": "Metabase Commercial License",
         "url": "https://www.metabase.com/license/commercial/"
     },
-    "url": "https://downloads.metabase.com/v1.41.5/metabase.jar",
+    "url": "https://downloads.metabase.com/enterprise/v1.41.5/metabase.jar",
     "hash": "cee2a4c697e1a50333b13e092bf82db11c056cba8094ebffdc0ab3fc25550d81",
     "bin": "metabase.jar",
     "suggest": {
@@ -31,7 +31,7 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://downloads.metabase.com/v$version/metabase.jar",
+        "url": "https://downloads.metabase.com/enterprise/v$version/metabase.jar",
         "hash": {
             "url": "https://github.com/metabase/metabase/releases/tag/v$version",
             "regex": "<code>$sha256"
