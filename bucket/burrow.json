@@ -1,12 +1,12 @@
 {
-    "version": "1.3.8",
+    "version": "1.4.0",
     "description": "A monitoring companion for Apache Kafka that provides consumer lag checking as a service without the need for specifying thresholds.",
     "homepage": "https://github.com/linkedin/Burrow",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/linkedin/Burrow/releases/download/v1.3.8/Burrow_1.3.8_windows_amd64.tar.gz",
-            "hash": "e3de576c497b94bb49e5acf323548c38623f743ebf2d439b8f188cf9a62abe9e"
+            "url": "https://github.com/linkedin/Burrow/releases/download/v1.4.0/Burrow_1.4.0_windows_amd64.tar.gz",
+            "hash": "278804152edf2f7bb3665e74dbfb7f049a3d28ce09f367fd3b183b950c349be8"
         }
     },
     "persist": "config",
