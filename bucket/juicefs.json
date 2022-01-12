@@ -10,7 +10,10 @@
         }
     },
     "bin": "juicefs.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/juicedata/juicefs/releases",
+        "regex": "juicefs-([\\d.]+)-windows-amd64"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
