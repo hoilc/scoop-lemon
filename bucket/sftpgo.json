@@ -1,12 +1,19 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob.",
     "homepage": "https://github.com/drakkan/sftpgo",
     "license": "AGPL-3.0",
+    "url": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_portable.zip",
+    "hash": "fc6f40d0ba06b78a35839860a9e9d377f0392a1be962235cdaf88aaa722dd44e",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_portable_x86_64.zip",
-            "hash": "e8df32fbd29994475728384b17183da55775cd2abd4d4bca2d4afdd603544a82"
+            "pre_install": "Remove-Item \"$dir\\x86\", \"$dir\\arm64\" -Force -Recurse"
+        },
+        "32bit": {
+            "pre_install": [
+                "Copy-Item -Path \"$dir\\x86\\sftpgo.exe\" -Destination \"$dir\\sftpgo.exe\" -Force",
+                "Remove-Item \"$dir\\x86\", \"$dir\\arm64\" -Force -Recurse"
+            ]
         }
     },
     "bin": "sftpgo.exe",
@@ -22,15 +29,11 @@
     ],
     "post_install": [
         "if (! (Test-Path \"$dir\\config\\sftpgo.json\")) { Copy-Item -Path \"$dir\\sftpgo.json\" -Destination \"$dir\\config\\sftpgo.json\" }",
-        "if (! (Test-Path \"$dir\\config\\sftpgo.db\")) { Copy-Item -Path \"$dir\\sftpgo.json\" -Destination \"$dir\\config\\sftpgo.db\" }",
+        "if (! (Test-Path \"$dir\\config\\sftpgo.db\")) { Copy-Item -Path \"$dir\\sftpgo.db\" -Destination \"$dir\\config\\sftpgo.db\" }",
         "Remove-Item \"$dir\\sftpgo.json\", \"$dir\\sftpgo.db\" -Force"
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable_x86_64.zip"
-            }
-        }
+        "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable.zip"
     }
 }
