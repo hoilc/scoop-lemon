@@ -1,12 +1,12 @@
 {
-    "version": "1.1",
+    "version": "1.2",
     "description": "一个优秀的图像查看, 处理及管理工具, 使用 VC++ 开发, 小巧快速",
     "homepage": "https://github.com/dream7180/Shutter-cn",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dream7180/Shutter-cn/releases/download/v1.1/Shutter-1.1.7z",
-            "hash": "a5f207a267274906129cc09be5a845e2edebdc182203c9ff0501d757494a3973"
+            "url": "https://github.com/dream7180/Shutter-cn/releases/download/v1.2/Shutter-Win64_1.2.7z",
+            "hash": "8dc1ae4c6604f8218ba896ada01389f8a2f50d41e32ddb457e4e3117718800ad"
         }
     },
     "extract_dir": "Shutter",
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dream7180/Shutter-cn/releases/download/v$version/Shutter-$version.7z"
+                "url": "https://github.com/dream7180/Shutter-cn/releases/download/v$version/Shutter-Win64_$version.7z"
             }
         }
     }
