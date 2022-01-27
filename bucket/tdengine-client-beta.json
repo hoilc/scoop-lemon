@@ -14,10 +14,7 @@
         }
     },
     "innosetup": true,
-    "bin": [
-        "taos.exe",
-        "taosdemo.exe"
-    ],
+    "bin": "taos.exe",
     "persist": "cfg",
     "checkver": {
         "url": "https://tdengine.com/assets/globalscripts/packages.php?type=1",
