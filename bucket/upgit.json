@@ -27,7 +27,10 @@
     },
     "bin": "upgit.exe",
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.toml\")) { Copy-Item \"$dir\\config.sample.toml\" \"$dir\\config.toml\"  | Out-Null }",
-    "persist": "config.toml",
+    "persist": [
+        "config.toml",
+        "extensions"
+    ],
     "notes": "Edit the configuration file $dir\\config.toml before using upgit.",
     "checkver": "github",
     "autoupdate": {
