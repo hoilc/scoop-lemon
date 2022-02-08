@@ -6,8 +6,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/pluveto/upgit/releases/download/v0.2.10/upgit_win_amd64.exe#/upgit.exe https://github.com/pluveto/upgit/raw/v0.2.10/config.sample.toml",
-                "https://github.com/pluveto/upgit/raw/v0.2.9/config.sample.toml"
+                "https://github.com/pluveto/upgit/releases/download/v0.2.10/upgit_win_amd64.exe#/upgit.exe",
+                "https://github.com/pluveto/upgit/raw/v0.2.10/config.sample.toml"
             ],
             "hash": [
                 "af7b8d3a07f3244e925b9b0937691ac581ec254b68c6936f6ef0718134f36764",
@@ -16,8 +16,8 @@
         },
         "32bit": {
             "url": [
-                "https://github.com/pluveto/upgit/releases/download/v0.2.10/upgit_win_386.exe#/upgit.exe https://github.com/pluveto/upgit/raw/v0.2.10/config.sample.toml",
-                "https://github.com/pluveto/upgit/raw/v0.2.9/config.sample.toml"
+                "https://github.com/pluveto/upgit/releases/download/v0.2.10/upgit_win_386.exe#/upgit.exe",
+                "https://github.com/pluveto/upgit/raw/v0.2.10/config.sample.toml"
             ],
             "hash": [
                 "4bd2f3e4dfd31275e49017c5a29d4b6b01985a8b2233d93266cfde77b4c1a91a",
