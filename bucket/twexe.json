@@ -3,6 +3,7 @@
     "description": "Single File Tiddlywiki5 executable.",
     "homepage": "https://ihm4u.github.io/twexe/",
     "license": {
+        "identifier": "Freeware",
         "url": "https://github.com/ihm4u/twexe/blob/gh-pages/LICENSE"
     },
     "url": "https://ihm4u.github.io/twexe/rel/i386-win32/twexe.exe",
