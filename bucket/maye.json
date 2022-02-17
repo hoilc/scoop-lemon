@@ -17,7 +17,7 @@
         ]
     ],
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\cfg.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\cfg.ini\" -Value '[cfg]\nautoStart=0\nnewVersionCheck=0\npriorityRelativePath=1' }",
+        "if (!(Test-Path \"$persist_dir\\cfg.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\cfg.ini\" -Value ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('W2NmZ10NCmF1dG9TdGFydD0wDQpuZXdWZXJzaW9uQ2hlY2s9MA0KcHJpb3JpdHlSZWxhdGl2ZVBhdGg9MQ0K'))) }",
         "if (!(Test-Path \"$persist_dir\\JDB.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\JDB.json\" -Value '{}' }"
     ],
     "persist": [
