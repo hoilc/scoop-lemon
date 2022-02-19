@@ -16,7 +16,7 @@
             "hash": "1aa9dd596ee2d0f458c719592dbb5123fd34d77faaeefa78a7d646ac3f53ba85"
         }
     },
-    "bin": "odfe-cli.exe",
+    "bin": "kubeconform.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
