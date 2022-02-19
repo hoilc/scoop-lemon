@@ -9,8 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: PullRequestHandler
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: ScoopInstaller/Scoop-GithubActions@main
       env:
-        SHOVEL: '1'
         GITH_EMAIL: hoilc@foxmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

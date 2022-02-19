@@ -9,9 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: PullRequestHandler
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: ScoopInstaller/Scoop-GithubActions@main
       if: startsWith(github.event.comment.body, '/verify')
       env:
-        SHOVEL: '1'
         GITH_EMAIL: hoilc@foxmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

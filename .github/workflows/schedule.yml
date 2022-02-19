@@ -11,8 +11,9 @@ jobs:
       with:
         persist-credentials: false
     - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: ScoopInstaller/Scoop-GithubActions@main
       env:
         GITH_EMAIL: hoilc@foxmail.com
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SKIP_UPDATED: '1'
+        SCOOP_CHECKVER_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
