@@ -1,6 +1,6 @@
 {
     "version": "1.0.5.0",
-    "description": "ZooKeeper可视化管理与监控",
+    "description": "ZooKeeper可视化管理与监控，以树状结构展示节点，监控服务器状态，支持多种数据格式",
     "homepage": "http://www.redisant.cn/za",
     "license": "Shareware",
     "url": "https://download.redisant.com/package/ZA-1.0.5.0.exe",
