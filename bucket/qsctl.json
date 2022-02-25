@@ -2,7 +2,7 @@
     "version": "2.4.4",
     "description": "QingStor 对象存储提供的客户端高级命令行工具，用于管理 QingStor 对象存储资源",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qsctl/",
-    "license": "Freeware",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/qingstor/qsctl/releases/download/v2.4.4/qsctl_v2.4.4_windows_amd64.tar.gz",
