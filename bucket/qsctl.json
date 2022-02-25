@@ -1,25 +1,23 @@
 {
-    "version": "2.4.3",
+    "version": "2.4.4",
     "description": "QingStor 对象存储提供的客户端高级命令行工具，用于管理 QingStor 对象存储资源",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qsctl/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://attack-on-titan.gd2.qingstor.com/qsctl/v2.4.3/qsctl_v2.4.3_windows_amd64.tar.gz",
-            "hash": "f5e5c5f3ffb5bddc6cef0adcab5ee943fc65370fbafefd741e29c0ae8a5d42ff"
+            "url": "https://github.com/qingstor/qsctl/releases/download/v2.4.4/qsctl_v2.4.4_windows_amd64.tar.gz",
+            "hash": "aa2144306d73a772fd9be08f87540784b14949e2456ab1a018776af4e4202565"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'qsctl_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'qsctl.exe'",
     "bin": "qsctl.exe",
     "checkver": {
-        "url": "https://releases.qingstor.dev/data.json",
-        "regex": "qsctl_v([\\d.]+)_windows_amd64",
-        "reverse": true
+        "github": "https://github.com/qingstor/qsctl"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://attack-on-titan.gd2.qingstor.com/qsctl/v$version/qsctl_v$version_windows_amd64.tar.gz"
+                "url": "https://github.com/qingstor/qsctl/releases/download/v$version/qsctl_v$version_windows_amd64.tar.gz"
             }
         }
     }
