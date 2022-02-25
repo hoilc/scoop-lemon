@@ -2,7 +2,7 @@
     "version": "2.0.19",
     "description": "QingStor 对象存储提供的用于在不同的存储端点 (Endpoint) 间高效迁移数据的工具",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qscamel/",
-    "license": "Freeware",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/qingstor/qscamel/releases/download/v2.0.19/qscamel_v2.0.19_windows_amd64.tar.gz",
