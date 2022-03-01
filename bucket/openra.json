@@ -15,7 +15,10 @@
     },
     "bin": [
         "OpenRA.Utility.exe",
-        "OpenRA.Server.exe"
+        "OpenRA.Server.exe",
+        "RedAlert.exe",
+        "TiberianDawn.exe",
+        "Dune2000.exe"
     ],
     "shortcuts": [
         [
