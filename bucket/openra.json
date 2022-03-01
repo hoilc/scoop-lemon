@@ -13,6 +13,10 @@
             "hash": "e2618c27a948212378e774bf4ac8c386a0ea81fda69d28f0a816e6a0286d679f"
         }
     },
+    "bin": [
+        "OpenRA.Utility.exe",
+        "OpenRA.Server.exe"
+    ],
     "shortcuts": [
         [
             "RedAlert.exe",
