@@ -13,14 +13,21 @@
             ]
         }
     },
-    "bin": "NextSSH.exe",
+    "bin": [
+        [
+            "NextSSH.exe",
+            "NextSSH",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
     "shortcuts": [
         [
             "NextSSH.exe",
-            "NextSSH"
+            "NextSSH",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "notes": "NextSSH is NOT portable.",
+    "persist": "User Data",
     "checkver": {
         "url": "https://xzhshch.com/nextssh/Release.html",
         "regex": "NextSSH%20Setup%20([\\d.]+).exe"

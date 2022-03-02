@@ -13,16 +13,18 @@
     "bin": [
         [
             "Yank Note.exe",
-            "yank-note"
+            "Yank Note",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "Yank Note.exe",
-            "Yank Note"
+            "Yank Note",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "notes": "Thorn is NOT portable. Built-in auto-updater has been disabled.",
+    "persist": "User Data",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
