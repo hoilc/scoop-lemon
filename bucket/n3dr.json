@@ -1,7 +1,7 @@
 {
     "version": "6.5.1",
     "description": "Nexus3 Disaster Recovery (N3DR) is a tool that is capable of downloading all artifacts from a Nexus3 server and to migrate them to another Nexus3 server.",
-    "homepage": "https://github.com/030/n3dr",
+    "homepage": "https://n3dr.releasesoftwaremoreoften.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -10,7 +10,9 @@
         }
     },
     "bin": "n3dr.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/030/n3dr"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
