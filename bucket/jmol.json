@@ -26,6 +26,14 @@
         ]
     ],
     "persist": "jspecview.properties",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
     "checkver": {
         "url": "https://sourceforge.net/projects/jmol/rss",
         "regex": "Jmol-([\\d.]+)-binary.zip"
