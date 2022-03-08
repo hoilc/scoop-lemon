@@ -23,7 +23,7 @@ function install() {
         [String] $architecture
     )
 
-    $command = "scoop install $manifest --no-cache --independent"
+    $command = "scoop install $manifest --no-cache"
     if ($architecture -ne 'URL') {
         $command += " --arch $architecture"
     }
