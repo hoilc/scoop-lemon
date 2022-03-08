@@ -19,7 +19,7 @@
     "bin": [
         "wx3270.exe",
         "x3270if.exe",
-        "s3270if.exe",
+        "s3270.exe",
         "TraceHelper.exe",
         "pr3287.exe"
     ],
