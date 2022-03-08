@@ -11,9 +11,9 @@
         "url": "https://github.com/xatupal/KeeTheme/releases/download/v$version/KeeTheme.plgx"
     },
     "installer": {
-        "script": "Copy-Item \"$dir\\KeeTheme.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""
+        "script": "if (installed 'keepass' $global) {Copy-Item \"$dir\\KeeTheme.plgx\" \"$(appdir keepass $global)\\current\\Plugins\"} else { error 'Please install `keepass` first, then reinstall `keepass-plugin-keepassotp`.'}"
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeeTheme.plgx\""
+        "script": "if (installed 'keepass' $global) {Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeeTheme.plgx\"}"
     }
 }

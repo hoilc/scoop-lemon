@@ -11,9 +11,9 @@
         "url": "https://github.com/Rookiestyle/KeePassOTP/releases/download/v$version/KeePassOTP.plgx"
     },
     "installer": {
-        "script": "Copy-Item \"$dir\\KeePassOTP.plgx\" \"$(appdir keepass $global)\\current\\Plugins\""
+        "script": "if (installed 'keepass' $global) {Copy-Item \"$dir\\KeePassOTP.plgx\" \"$(appdir keepass $global)\\current\\Plugins\"} else { error 'Please install `keepass` first, then reinstall `keepass-plugin-keepassotp`.'}"
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeePassOTP.plgx\""
+        "script": "if (installed 'keepass' $global) {Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeePassOTP.plgx\"}"
     }
 }
