@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/sigstore/rekor/releases/download/v0.5.0/rekor-cli-windows-amd64.exe#/rekor-cli.exe",
-            "hash": "12f7bb46a35f8ac732670aa9c434ac12c71a109f1c9ac91b6412949a3b9d0694"
+            "hash": "af2342f28d9aba6b9c443c9cdc217357d7fd318fac57389e96dd62be0b34005a"
         }
     },
     "bin": "rekor-cli.exe",
@@ -20,7 +20,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/rekor_checksums.txt"
+            "url": "$baseurl/rekor_checksums.txt",
+            "regex": "$sha256\\s+rekor-cli-windows-amd64.exe[\\s$]"
         }
     }
 }
