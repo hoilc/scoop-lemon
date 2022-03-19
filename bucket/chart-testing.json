@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/helm/chart-testing/releases/download/v3.5.1/chart-testing_3.5.1_windows_amd64.zip",
-            "hash": "327c1a58062af3f53f93be5ae4ff4a7d1a24e0fb0afca4e17b647d63aca73b7a"
+            "hash": "822403c2d2585ba3abf4be2a5dd7fbb018f76b4c52b09bc711528984e20bfb82"
         }
     },
     "bin": "ct.exe",
@@ -18,7 +18,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename[\\s$]"
         }
     }
 }
