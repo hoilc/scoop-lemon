@@ -15,7 +15,13 @@
             "extract_dir": "td-agent-bit-1.8.15-win32"
         }
     },
-    "bin": "bin\\fluent-bit.exe",
+    "bin": [
+        "td-agent-bit.exe",
+        [
+            "td-agent-bit.exe",
+            "fluent-bit"
+        ]
+    ],
     "persist": "conf",
     "checkver": {
         "github": "https://github.com/fluent/fluent-bit"
