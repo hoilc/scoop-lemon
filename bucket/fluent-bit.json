@@ -16,9 +16,9 @@
         }
     },
     "bin": [
-        "td-agent-bit.exe",
+        "bin\\td-agent-bit.exe",
         [
-            "td-agent-bit.exe",
+            "bin\\td-agent-bit.exe",
             "fluent-bit"
         ]
     ],
