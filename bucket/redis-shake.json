@@ -9,7 +9,7 @@
             "hash": "396ef5a09f98786126486d1cd863eef233d01a89a69b9e17ef16684fc4eaff13"
         }
     },
-    "extract_dir": "release-v2.1.2-20220329",
+    "extract_dir": "bin",
     "pre_install": [
         "Rename-Item -Path \"$dir\\redis-shake.windows\" -NewName 'redis-shake.exe'",
         "Remove-Item \"$dir\\*.linux\", \"$dir\\*.darwin\" -Force"
@@ -25,7 +25,6 @@
             "64bit": {
                 "url": "https://github.com/alibaba/RedisShake/releases/download/release-v$matchVersion-$matchDate/release-v$matchVersion-$matchDate.tar.gz"
             }
-        },
-        "extract_dir": "release-v$matchVersion-$matchDate"
+        }
     }
 }
