@@ -5,12 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022-04-03/XboxDownload.zip#/dl.zip.dontautoexpand",
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022-04-03/XboxDownload.zip",
             "hash": "e3267569643b1b3192a499407be3cd34a4561e046b8b1ac33a8e327bff1405e4"
         }
     },
     "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\dl.zip.dontautoexpand\" -DestinationPath \"$dir\" -Removal",
         "Move-Item -Path \"$dir\\Xbox*\\*\" -Destination \"$dir\"",
         "Get-ChildItem -Directory -Path \"$dir\" -Filter 'Xbox*' | Remove-Item -Force -Recurse"
     ],
@@ -28,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/skydevil88/XboxDownload/releases/download/$version/XboxDownload.zip#/dl.zip.dontautoexpand"
+                "url": "https://github.com/skydevil88/XboxDownload/releases/download/$version/XboxDownload.zip"
             }
         }
     }
