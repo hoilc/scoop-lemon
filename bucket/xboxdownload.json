@@ -13,7 +13,6 @@
         "Move-Item -Path \"$dir\\Xbox*\\*\" -Destination \"$dir\"",
         "Get-ChildItem -Directory -Path \"$dir\" -Filter 'Xbox*' | Remove-Item -Force -Recurse"
     ],
-    "extract_dir": "Xbox下载助手",
     "shortcuts": [
         [
             "XboxDownload.exe",
