@@ -1,17 +1,17 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Delicately-TUICed high-performance proxy built on top of the QUIC protocol.",
     "homepage": "https://github.com/EAimTY/tuic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/EAimTY/tuic/releases/download/0.4.0/tuic-server-0.4.0-x86_64-windows-msvc.exe#/tuic-server.exe",
-                "https://github.com/EAimTY/tuic/releases/download/0.4.0/tuic-client-0.4.0-x86_64-windows-msvc.exe#/tuic-client.exe"
+                "https://github.com/EAimTY/tuic/releases/download/0.5.0/tuic-server-0.5.0-x86_64-windows-msvc.exe#/tuic-server.exe",
+                "https://github.com/EAimTY/tuic/releases/download/0.5.0/tuic-client-0.5.0-x86_64-windows-msvc.exe#/tuic-client.exe"
             ],
             "hash": [
-                "1528cac6add5e10b434d4ad8512a0d8d93ae5d7f2a660e638b99002f40cdb6a2",
-                "16be6760ba7afbc65ecd9b854381a1f8c2632bc4d21482d15876a1c1a8d0af24"
+                "05a3e8b9f6d7e4caebeea7f3729049c5ba277936af37f422066d7a4b2a89eaa1",
+                "9f33855cd56b7d41ff8105e682ca1e9b1b655e8eec0d8eb1b191a553837e4635"
             ]
         }
     },
