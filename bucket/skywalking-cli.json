@@ -1,6 +1,6 @@
 {
     "version": "0.10.0",
-    "description": "A command interaction tool for the SkyWalking user or OPS team..",
+    "description": "A command interaction tool for the SkyWalking user or OPS team.",
     "homepage": "https://github.com/apache/skywalking-cli",
     "license": "Apache-2.0",
     "url": "https://dlcdn.apache.org/skywalking/cli/0.10.0/skywalking-cli-0.10.0-bin.tgz",
