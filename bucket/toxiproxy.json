@@ -17,7 +17,7 @@
     },
     "bin": [
         "toxiproxy-server.exe",
-        "toxiproxy-client.exe"
+        "toxiproxy-cli.exe"
     ],
     "checkver": "github",
     "autoupdate": {
