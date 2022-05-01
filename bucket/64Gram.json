@@ -1,6 +1,6 @@
 {
-    "version": "1.0.5",
-    "description": "Unofficial Telegram Desktop (Windows 64bit/x64)",
+    "version": "1.0.34",
+    "description": "Unofficial Telegram Desktop with some enhancements.",
     "homepage": "https://64gr.am",
     "license": {
         "identifier": "GPL-3.0-with-OpenSSL-exception",
@@ -17,7 +17,12 @@
         }
     },
     "persist": "tdata",
-    "bin": "Telegram.exe",
+    "bin": [
+        [
+            "Telegram.exe",
+            "64Gram"
+        ]
+    ],
     "shortcuts": [
         [
             "Telegram.exe",
