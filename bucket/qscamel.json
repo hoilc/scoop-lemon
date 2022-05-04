@@ -1,16 +1,16 @@
 {
-    "version": "2.0.18",
+    "version": "2.0.20",
     "description": "QingStor 对象存储提供的用于在不同的存储端点 (Endpoint) 间高效迁移数据的工具",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qscamel/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qingstor/qscamel/releases/download/v2.0.18/qscamel_v2.0.18_windows_amd64.tar.gz",
-            "hash": "2407b22310f9566220039994c68e9ed90e2424e85749009eb86923bdfc8b9e7c"
+            "url": "https://github.com/qingstor/qscamel/releases/download/v2.0.20/qscamel_v2.0.20_windows_amd64.tar.gz",
+            "hash": "53e66d00319c90e736c00f514a23a0aaa4dfdb893979d077502bf9ff01817b59"
         },
         "32bit": {
-            "url": "https://github.com/qingstor/qscamel/releases/download/v2.0.18/qscamel_v2.0.18_windows_i386.tar.gz",
-            "hash": "4be1bfe64fbfc37e3c5feb40fff11a86259166fb0b0fb27e7a38ad9625701744"
+            "url": "https://github.com/qingstor/qscamel/releases/download/v2.0.20/qscamel_v2.0.20_windows_i386.tar.gz",
+            "hash": "f01d062c98ff9137459bf4812d438e1387d0afcb02cfa2c875730e4f61aff250"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'qscamel_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'qscamel.exe'",
