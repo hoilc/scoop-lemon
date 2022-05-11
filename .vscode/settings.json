@@ -49,7 +49,7 @@
             "comments": false,
             "strings": true,
         },
-        "editor.autoIndent": true,
+        "editor.autoIndent": "full",
     },
     "yaml.completion": true,
     "yaml.format.bracketSpacing": true,
