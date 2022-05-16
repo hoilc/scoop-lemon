@@ -12,14 +12,14 @@
     "innosetup": true,
     "bin": [
         [
-            "WingetUI Store.exe",
+            "WingetUI.exe",
             "WingetUI"
         ]
     ],
     "shortcuts": [
         [
-            "WingetUI Store.exe",
-            "WingetUI Store"
+            "WingetUI.exe",
+            "WingetUI"
         ]
     ],
     "checkver": "github",
