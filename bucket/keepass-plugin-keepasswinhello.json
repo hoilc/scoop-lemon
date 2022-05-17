@@ -1,11 +1,11 @@
 {
-    "version": "3.2",
+    "version": "3.1.1",
     "description": "Quick unlock KeePass 2 database using biometrics with Windows Hello.",
     "homepage": "https://github.com/sirAndros/KeePassWinHello",
     "license": "MIT",
     "depends": "extras/keepass",
-    "url": "https://github.com/sirAndros/KeePassWinHello/releases/download/v3.2/KeePassWinHelloPlugin.plgx",
-    "hash": "40c2e85c39e58aa72a4c06c30a56dda5bfdbf16866b451f9f6c548ae75571d5f",
+    "url": "https://github.com/sirAndros/KeePassWinHello/releases/download/v3.1.1/KeePassWinHelloPlugin.plgx",
+    "hash": "7c676b32f63a90a11e1f1b052dfee19061cd425c39c54ef25bc030085a4d4cc1",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/sirAndros/KeePassWinHello/releases/download/v$version/KeePassWinHelloPlugin.plgx"
