@@ -30,8 +30,10 @@
         "}"
     ],
     "bin": [
-        "qv2ray.exe",
-        "qv2ray-nightly"
+        [
+            "qv2ray.exe",
+            "qv2ray-nightly"
+        ]
     ],
     "shortcuts": [
         [
