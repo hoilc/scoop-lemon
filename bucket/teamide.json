@@ -1,12 +1,12 @@
 {
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Team IDE 团队在线开发工具， 集成SSH、FTP、MySql、Redis、Zookeeper、Kafka、Elasticsearch等管理工具",
     "homepage": "https://github.com/team-ide/teamide",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/team-ide/teamide/releases/download/1.1.3/teamide-windows-x64.zip",
-            "hash": "388d1bc4d1b43d554a9be2309ceb86b6cacc69678027b13e4f24cd10c0300f49",
+            "url": "https://github.com/team-ide/teamide/releases/download/1.1.4/teamide-windows-x64.zip",
+            "hash": "4054703948fc37a0b15f427be773c633ab3b7b5bf43091b2aa683d9400782012",
             "extract_dir": "teamide-windows-x64"
         }
     },
