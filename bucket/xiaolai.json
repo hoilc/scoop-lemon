@@ -4,12 +4,12 @@
     "homepage": "https://github.com/lxgw/kose-font",
     "license": "OFL-1.1",
     "url": [
-        "https://github.com/lxgw/kose-font/blob/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
-        "https://github.com/lxgw/kose-font/blob/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
+        "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
+        "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
     ],
     "hash": [
-        "68814bc6a4c83d0e97b047bbb8d8f78b599169ad61c09fd2a53eeb3c8b1b2cd4",
-        "1393f388d54c67c878dd07e829a3e257e8fe7984396ddde8ac0b4a518c9233f1"
+        "e33746183dcf4934a673b466785d280033ffe2ad8ab3fe24241636ce16755a2e",
+        "77cd7b1fab8a472f436e0fe04ffe62e5e3bc0bb9f35897e3ab7b9a8d16b4788a"
     ],
     "checkver": {
         "url": "https://raw.githubusercontent.com/lxgw/kose-font/master/history.md",
@@ -17,8 +17,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/lxgw/kose-font/blob/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
-            "https://github.com/lxgw/kose-font/blob/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
+            "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
+            "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
         ]
     },
     "installer": {
@@ -59,7 +59,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'Tiejili' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Xiaolai SC' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
