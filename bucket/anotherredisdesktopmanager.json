@@ -1,6 +1,6 @@
 {
     "version": "1.5.6",
-    "description": "AnotherRedisDesktopManager is a faster and stable redis desktop manager [GUI client]， which won't crash when loading massive keys.",
+    "description": "Another Redis Desktop Manager is a faster and stable redis desktop manager [GUI client]， which won't crash when loading massive keys.",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "architecture": {
