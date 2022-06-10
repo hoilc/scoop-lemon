@@ -1,10 +1,10 @@
 {
-    "version": "35.0.0",
+    "version": "35.1.0",
     "description": "aardio 编程语言，专注于桌面软件快速开发",
     "homepage": "https://www.aardio.com/",
     "license": "Freeware",
     "url": "https://ide.update.aardio.com/releases/aardio.7z",
-    "hash": "a596c9445e5b7a07dbb9cdadce83af3512efe417c7c5d37b980ff7ab64c255c4",
+    "hash": "ee55305e75b6ae39c6e47bc5b6488e8908707d58018e342753a5653dc8f45ea7",
     "bin": "aardio.exe",
     "shortcuts": [
         [
