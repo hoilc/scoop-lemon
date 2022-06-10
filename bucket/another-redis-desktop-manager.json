@@ -20,8 +20,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.5.6/latest.yml",
-        "regex": "Another-Redis-Desktop-Manager.([\\d.]+).exe"
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases",
+        "regex": "/tree/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
