@@ -4,7 +4,7 @@
     "homepage": "https://imtip.aardio.com/",
     "license": "MIT",
     "url": "https://imtip.aardio.com/update/ImTip.7z",
-    "hash": "143a8dfff3ae277d7e6eef43018ce0ae78811250b27bc23e1757d808daac0408",
+    "hash": "68e13586fe01db54602a0b2a91e615ebc83c18d36005188ce9b20ee47f5edd97",
     "bin": "ImTip.exe",
     "shortcuts": [
         [
