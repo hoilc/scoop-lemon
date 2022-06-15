@@ -51,9 +51,6 @@
                     "http://iscute.cn/asset/chfs.ini"
                 ]
             }
-        },
-        "hash": {
-            "url": "$baseurl/checksums.txt"
         }
     }
 }
