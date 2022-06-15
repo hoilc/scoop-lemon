@@ -1,0 +1,27 @@
+{
+    "version": "0.17.0",
+    "description": "A simple file server. Support static serve, search, upload, webdav...",
+    "homepage": "https://github.com/sigoden/duf",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sigoden/duf/releases/download/v0.17.0/duf-v0.17.0-x86_64-pc-windows-msvc.zip",
+            "hash": "2d0132f7d8e38defbc2d0cc9b503be01e059bf12197147c0b2e73f1342e9f69b"
+        }
+    },
+    "bin": [
+        "duf.exe",
+        [
+            "duf.exe",
+            "duf-file-server"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sigoden/duf/releases/download/v$version/duf-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
