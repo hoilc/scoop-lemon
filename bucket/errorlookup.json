@@ -1,10 +1,10 @@
 {
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "A simple tool for retrieving information about Windows errors codes.",
     "homepage": "https://www.henrypp.org/product/errorlookup",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/henrypp/errorlookup/releases/download/v.2.4.1/errorlookup-2.4.1-bin.zip",
-    "hash": "3d7907743b6733ea304344789d9c7981ee741571dc43bc01567dc0f5fe1270f6",
+    "url": "https://github.com/henrypp/errorlookup/releases/download/v.2.4.2/errorlookup-2.4.2-bin.zip",
+    "hash": "5c077e8f3542fb164b46499e3edc635f348d13743422cac130476c0b72118377",
     "architecture": {
         "64bit": {
             "extract_dir": "errorlookup\\64"
