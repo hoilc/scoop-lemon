@@ -1,12 +1,12 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "A distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav.",
     "homepage": "https://github.com/sigoden/dufs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/dufs/releases/download/v0.19.0/dufs-v0.19.0-x86_64-pc-windows-msvc.zip",
-            "hash": "84c5c88f3637d1f8240f4f40ea5ecf5953c4eb52ec48b4be1896feafb19f30bd"
+            "url": "https://github.com/sigoden/dufs/releases/download/v0.20.0/dufs-v0.20.0-x86_64-pc-windows-msvc.zip",
+            "hash": "d68a075760d98ccbe4aeaf23e9534c0683e32de2e85639ab288bf3c7f9e185c4"
         }
     },
     "bin": "dufs.exe",
