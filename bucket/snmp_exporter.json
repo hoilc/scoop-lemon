@@ -1,18 +1,18 @@
 {
-    "version": "0.20.0",
+    "version": "0.19.0",
     "description": "A Prometheus exporter that exposes information gathered from SNMP for use by the Prometheus monitoring system.",
     "homepage": "https://github.com/prometheus/snmp_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.20.0/snmp_exporter-0.20.0.windows-amd64.tar.gz",
-            "hash": "6561ec39b23202a6d6e2e5a23ff135f33f251d469143a7ebdcc0adb391c1f680",
-            "extract_dir": "snmp_exporter-0.20.0.windows-amd64"
+            "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.19.0/snmp_exporter-0.19.0.windows-amd64.tar.gz",
+            "hash": "f954a818963e89e836e7a967f4a81db7ab33395bf4490aa531ad0dbfdb412ae0",
+            "extract_dir": "snmp_exporter-0.19.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.20.0/snmp_exporter-0.20.0.windows-386.tar.gz",
-            "hash": "2797e1f0340f52c207b76b6df88078ee8efe24472fbad39c7289f2fd4ad22b9e",
-            "extract_dir": "snmp_exporter-0.20.0.windows-386"
+            "url": "https://github.com/prometheus/snmp_exporter/releases/download/v0.19.0/snmp_exporter-0.19.0.windows-386.tar.gz",
+            "hash": "88f5cd1a86e4afab3001a179ca79ef9f1fee541a97b8a08b2799cb45f6426993",
+            "extract_dir": "snmp_exporter-0.19.0.windows-386"
         }
     },
     "persist": "snmp.yml",
