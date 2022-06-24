@@ -20,6 +20,7 @@
             "Paperlib"
         ]
     ],
+    "notes": "Chrome Extension: https://chrome.google.com/webstore/detail/paperlib/kgnpnfbjckgddlednhoblgfdfohhapng",
     "checkver": {
         "url": "https://paperlib.app/distribution/electron-win/latest.yml",
         "regex": "Paperlib_([\\d.]+).exe"
