@@ -1,12 +1,12 @@
 {
-    "version": "1.7.4",
+    "version": "1.7.5",
     "description": "A simple academic paper management tool for computer science.",
     "homepage": "https://paperlib.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GeoffreyChen777/paperlib/releases/download/release-electron-1.7.4/Paperlib_1.7.4.exe#/dl.7z",
-            "hash": "sha512:7dccbe432272cf3054b09d99f8fc0defcab8b97b0c090692577892fe9470ca93e4a1d05af5e48a257ecedefca3e0b295402121789947d466310ff383fc627a74",
+            "url": "https://github.com/GeoffreyChen777/paperlib/releases/download/release-electron-1.7.5/Paperlib_1.7.5.exe#/dl.7z",
+            "hash": "sha512:989af1e4b9901a4b1ec942f22b5d81fc2578b298805dbafbaf30b8be45342549115c989654f70c39aa1c8e93c718e90b963a16077926e8a751739df39b2b15d9",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
