@@ -4,7 +4,7 @@
     "homepage": "https://wubi.aardio.com/",
     "license": "MIT",
     "url": "https://wubi.aardio.com/update/WubiLex.7z",
-    "hash": "3106d6cbdabb90b5c28ea427887e905a13602f1d70c1ef5cd78701a49caf0e81",
+    "hash": "f9d2c8235e1f10005870956eb1b05adfebb5cd1a103fcd96aec7da7924707439",
     "bin": "wubiLex.exe",
     "shortcuts": [
         [
