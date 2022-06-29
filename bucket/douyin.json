@@ -1,10 +1,10 @@
 {
-    "version": "1.0.8.1660",
+    "version": "1.0.0.1",
     "description": "抖音是一款可在智能手机上浏览的短视频社交应用程序",
     "homepage": "https://www.douyin.com/",
     "license": "Proprietary",
-    "url": "https://lsw-fast.lenovo.com.cn/appstore/advert/apps/72e42e0f-df51-41e0-ae90-d7dc5a317989/douyin-v1.0.8-win32-ia32-lenovo.exe#dl.7z",
-    "hash": "d86b88f00dfebe17c6d470d4de9d41895261e648eb6cbe2b1ab019ea925fd867",
+    "url": "https://lsw-fast.lenovo.com.cn/appstore/advert/apps/8254ed35-7b1c-483e-8e89-3278f74f51f6/douyin-v1.0.1-win32-ia32.exe#dl.7z",
+    "hash": "9dc72dcdc8cce4bd7ef0f8f69d1473f362fa13fe610224fb2fca5b91f3b09939",
     "pre_install": "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\app.7z\", \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
     "bin": [
