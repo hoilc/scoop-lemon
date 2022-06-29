@@ -7,6 +7,7 @@ jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
+    timeout-minutes: 15
     steps:
     - uses: actions/checkout@master
       with:
