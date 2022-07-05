@@ -1,12 +1,12 @@
 {
-    "version": "5.13.1",
+    "version": "5.14.0",
     "description": "Set current window on top, make it dark, apply transpareny, shrink it, and more!",
     "homepage": "https://windowtop.info/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gileli121/WindowTop/releases/download/v5.13.1/WindowTop.v5.13.1.Portable.zip",
-            "hash": "de2d5a07091d5dc4ee15118bc566af835c91c69e91a2b3afca523d4b79a6bff1"
+            "url": "https://github.com/gileli121/WindowTop/releases/download/v5.14.0/WindowTop.v5.14.0.Portable.zip",
+            "hash": "28ba7c61ce07bf19c842d5a41724967e9934feda37c6bf41eda2710cb8969f61"
         }
     },
     "shortcuts": [
