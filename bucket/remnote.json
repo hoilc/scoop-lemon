@@ -1,10 +1,10 @@
 {
-    "version": "1.8.6",
+    "version": "1.8.7",
     "description": "The all-in-one tool for thinking and learning.",
     "homepage": "https://www.remnote.com/",
     "license": "Shareware",
-    "url": "https://download.remnote.io/RemNote%20Setup%201.8.6.exe#/dl.7z",
-    "hash": "sha512:874017541145bd1adc968d6e1374e62daad1a2b2dd01bacdf41882288608fd45b5f0d8992fcf881a906ca676398646a300d23f5f084eb35f601c45e461b511fb",
+    "url": "https://download.remnote.io/RemNote%20Setup%201.8.7.exe#/dl.7z",
+    "hash": "sha512:310ab6c5707f02924436885b12d752b848ef866d336d28103cc4c81b9df7a2e48e617e67beca59d2e5d8d0f37d297691ad5f9a60620d30ed21d0cd08be2c4318",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
