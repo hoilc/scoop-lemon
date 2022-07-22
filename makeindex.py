@@ -551,7 +551,7 @@ def main():
             # print("skipping %s: not matched" % file)
             continue
 
-        with open(file, 'r') as f:
+        with open(file, 'r', encoding='utf-8') as f:
             j = json.load(f)
             row = {}
             (name, _) = os.path.splitext(os.path.basename(file))
@@ -578,15 +578,15 @@ def main():
     table = [
         '<!-- The following table was inserted by makeindex.py -->',
         '<!-- Your edits will be lost the next time makeindex.py is run -->',
-        '|Name|Version|Description|License|',
-        '|----|-------|-----------|-------|'
+        '|Name|Version|Description|',
+        '|----|-------|-----------|'
     ]
 
     newlist = [(key, rows[key]) for key in sorted(rows.keys())]
 
     for (name, row) in newlist:
-        table.append('|[%s](%s "%s")|%s|%s|%s|' % (
-            name, row['homepage'], row['homepage'], row['version'], row['description'], row['license']))
+        table.append('|[%s](%s "%s")|%s|%s|' % (
+            name, row['homepage'], row['homepage'], row['version'], row['description']))
 
     out = []
 
