@@ -12,6 +12,7 @@
             "hash": "7f2a9f8c4cb8e25794704e2d285384bdb7d69a05c1c1fa522c3644b6b14a2b28"
         }
     },
+    "extract_dir": "yuzu-early-access",
     "bin": [
         [
             "yuzu.exe",
