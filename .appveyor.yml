@@ -26,8 +26,6 @@ init:
         git clone -q --depth=1 'https://github.com/lukesampson/scoop' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
       }
-      curl.exe -sSL -o "$env:SCOOP_HOME/supporting/validator/bin/Newtonsoft.Json.dll" https://github.com/ScoopInstaller/Scoop/raw/v0.2.2/supporting/validator/bin/Newtonsoft.Json.dll
-      curl.exe -sSL -o "$env:SCOOP_HOME/supporting/validator/bin/Scoop.Validator.dll" https://github.com/ScoopInstaller/Scoop/raw/v0.2.2/supporting/validator/bin/Scoop.Validator.dll
 for:
   - matrix:
       only:
