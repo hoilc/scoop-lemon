@@ -1,16 +1,16 @@
 {
-    "version": "1.0.4-beta.6",
+    "version": "1.0.4-beta.5",
     "description": "A fast, stable, cross-platform and efficient intranet penetration and port forwarding tool.",
     "homepage": "https://github.com/editso/fuso",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/editso/fuso/releases/download/v1.0.4-beta.6/x86_64-pc-windows-msvc.zip",
-            "hash": "b63a8093417ead20eca062caa0b63ac246dfdc8b4bb8118b39e59d0ed1d632fe"
+            "url": "https://github.com/editso/fuso/releases/download/v1.0.4-beta.5/x86_64-pc-windows-msvc.zip",
+            "hash": "5c26767f60ce8f86114393a1ed7669016312f7dc6b45781e70e8d22e39214d34"
         },
         "32bit": {
-            "url": "https://github.com/editso/fuso/releases/download/v1.0.4-beta.6/i686-pc-windows-msvc.zip",
-            "hash": "80f6ef861eeb74d8e3f920cb7ef12008665f261a78a58902ffa817e42c3b5b4f"
+            "url": "https://github.com/editso/fuso/releases/download/v1.0.4-beta.5/i686-pc-windows-msvc.zip",
+            "hash": "db96db3d748e34eccecc6fe553ce4a89a966f7305da032ad16e867ba63e1f8d0"
         }
     },
     "bin": [
