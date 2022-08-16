@@ -1,12 +1,12 @@
 {
-    "version": "2022.08.15",
+    "version": "2022.08.16",
     "description": "Xbox 下载助手，支持Xbox、微软商店、PSN、NS、EA Desktop & Origin、战网国际服、Epic 下载加速。",
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022.08.15/XboxDownload.zip",
-            "hash": "8e5541699f941bdf6933ce120ef6e8267aebb55a41e0c8fcde3200fe1a1e5b47"
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022.08.16/XboxDownload.zip",
+            "hash": "5b9b464ad3ede5f5c4965935d47e8350788a2a9c2afd19a4d22f75e96cd6efbc"
         }
     },
     "pre_install": [
