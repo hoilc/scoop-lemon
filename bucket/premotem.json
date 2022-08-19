@@ -1,16 +1,16 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1.5",
     "description": "PRemoteM is a modern personal remote session manager and launcher.",
     "homepage": "https://github.com/1Remote/PRemoteM",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1Remote/PRemoteM/releases/download/0.7.0/PRemoteM.0.7.0-x64.zip",
-            "hash": "54ec357cc0717cbbf44530c489c8bb29d4efd05f0d37c635409222cd77f29d4e"
+            "url": "https://github.com/1Remote/PRemoteM/releases/download/0.7.1.5/PRemoteM.0.7.1.5-x64.zip",
+            "hash": "d652d0847e4c3cd5b535310fadc2ec1059e5656da20db18df4af5a243541b9a7"
         },
         "32bit": {
-            "url": "https://github.com/1Remote/PRemoteM/releases/download/0.7.0/PRemoteM.0.7.0-x86.zip",
-            "hash": "9a3cc46ccab89a3fb2ca4337f5592cd82071cb601623c1fee0ef9a4e1bfe1a38"
+            "url": "https://github.com/1Remote/PRemoteM/releases/download/0.7.1.5/PRemoteM.0.7.1.5-x86.zip",
+            "hash": "b78cccdee6829212ec04bbf84035d48b6ac4c7891a0665267d8cc838c9547afd"
         }
     },
     "shortcuts": [
