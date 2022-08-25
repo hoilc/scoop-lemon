@@ -21,7 +21,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/kimlimjustin/xplorer"
+        "url": "https://github.com/kimlimjustin/xplorer/releases",
+        "regex": "Xplorer_([\\d.]+)_x64.msi"
     },
     "autoupdate": {
         "architecture": {
