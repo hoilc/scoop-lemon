@@ -4,3 +4,4 @@ page.html
 /checkver*
 .idea
 *.iml
+.env
