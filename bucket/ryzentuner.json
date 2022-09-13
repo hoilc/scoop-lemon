@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/zqhong/RyzenTuner/releases",
+        "url": "https://api.github.com/repos/zqhong/RyzenTuner/releases/latest",
         "regex": "RyzenTuner-v([\\d.]+)-(?<date>\\d+).zip"
     },
     "autoupdate": {
