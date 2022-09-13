@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "description": "A tool that supports adjusting the power limit of Ryzen mobile processors and the QoS level and priority of Windows processes.",
+    "homepage": "https://github.com/zqhong/RyzenTuner",
+    "license": "MIT",
+    "url": "https://github.com/zqhong/RyzenTuner/releases/download/v1.2.1/RyzenTuner-v1.2.1-20220825203119.zip",
+    "hash": "cd2c4264c4294b9458e38ed2171aef8329ca234006500a58566bef4f460bc335",
+    "shortcuts": [
+        [
+            "RyzenTuner.exe",
+            "RyzenTuner"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/zqhong/RyzenTuner/releases",
+        "regex": "RyzenTuner-v([\\d.]+)-(?<date>\\d+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zqhong/RyzenTuner/releases/download/v$version/RyzenTuner-v$version-$matchDate.zip"
+    }
+}
