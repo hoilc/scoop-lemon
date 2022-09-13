@@ -9,7 +9,7 @@
             "hash": "370e5e1fa05c47f3910a5f68e1eba536ac59eb1af24be6e49de53c44cb33226f"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\" 'keyviz-v*.exe' | Select-Object -First 1 | Expand-InnoArchive -Destination \"$dir\" -Removal",
+    "pre_install": "Get-ChildItem \"$dir\" 'keyviz-v*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -Destination \"$dir\" -Removal",
     "shortcuts": [
         [
             "keyviz.exe",
