@@ -5,6 +5,7 @@
     "license": "Apache-2.0",
     "url": "https://github.com/GoogleContainerTools/jib/releases/download/v0.11.0-cli/jib-jre-0.11.0.zip",
     "hash": "2bf35ea359fd6b9ec730a516380f82b76b93c0cb6dd791a9ae7384bdda389348",
+    "extract_dir": "jib-0.11.0",
     "bin": "bin\\jib.bat",
     "suggest": {
         "JDK": [
@@ -20,6 +21,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/GoogleContainerTools/jib/releases/download/v$version-cli/jib-jre-$version.zip",
+        "extract_dir": "jib-$version",
         "hash": {
             "url": "$url.sha256"
         }
