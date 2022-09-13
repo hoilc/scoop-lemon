@@ -12,9 +12,11 @@
     "shortcuts": [
         [
             "鼠鼠下载器.exe",
-            "鼠鼠下载器"
+            "鼠鼠下载器",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "github": "https://github.com/MoyuScript/double-mouse-downloader"
     },
