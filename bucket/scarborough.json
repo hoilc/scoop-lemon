@@ -1,12 +1,12 @@
 {
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "Planet 的克隆版本，兼容更多系统，内嵌简单的评论和阅读统计",
     "homepage": "https://github.com/scbrf/scbrf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scbrf/scbrf/releases/download/v0.0.13/scarborough-0.0.13.Setup.exe#/dl.7z",
-            "hash": "07b3bb93a35ff991bdb5a0196d96396cceb499b4370083acbf4fe127340d2540"
+            "url": "https://github.com/scbrf/scbrf/releases/download/v0.0.14/scarborough-0.0.14.Setup.exe#/dl.7z",
+            "hash": "ef323b16519cb1f81f3b157a4a68ba43557b20e32a6dd3c7a8c40b1a565106a8"
         }
     },
     "pre_install": [
