@@ -1,16 +1,16 @@
 {
-    "version": "2022-09-05",
+    "version": "2022-10-22",
     "description": "A transport stream muxer for remuxing/muxing elementary streams, EVO/VOB/MPG, MKV/MKA, MP4/MOV, TS, M2TS to TS to M2TS.",
     "homepage": "https://github.com/justdan96/tsMuxer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2022-09-05-03-47-43/w64.zip",
-            "hash": "5918988b5981b5c71addfb6768cf4d62c44c838437d90d6a36dc4238c0de74a2"
+            "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2022-10-22-03-25-47/w64.zip",
+            "hash": "ec1ed7574f86d24e0b85f166aca51a8d77da41b2125bb61a57d974c084346ad9"
         },
         "32bit": {
-            "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2022-09-05-03-47-43/w32.zip",
-            "hash": "66f1bf0110086171507cb76dcccd6d201e5de88cc94da26e190e32cc91d1ef56"
+            "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2022-10-22-03-25-47/w32.zip",
+            "hash": "30f9716a9b0dc01f76890ab3805c185ea116875dfaae57eb00a69eb00bb9c28b"
         }
     },
     "bin": "tsMuxeR.exe",
