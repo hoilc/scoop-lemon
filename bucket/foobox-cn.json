@@ -14,8 +14,8 @@
             "Foobox"
         ]
     ],
-    "pre_install": "Expand-7zipArchive \"$dir\\*oobox*.exe\" \"$dir\"",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\", \"$dir\\*oobox*.exe\" -Force -Recurse",
+    "extract_dir": "foobar2000",
+    "post_install": "Remove-Item \"$dir\\uninstall*\" -Force -Recurse",
     "persist": [
         "configuration",
         "library",
