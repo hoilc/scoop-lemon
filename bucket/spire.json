@@ -11,8 +11,8 @@
     },
     "extract_dir": "spire-1.4.4",
     "bin": [
-        "spire-server.exe",
-        "spire-agent.exe"
+        "bin\\spire-server.exe",
+        "bin\\spire-agent.exe"
     ],
     "persist": "conf",
     "checkver": "github",
