@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/Sound-Linux-More/falabaac/releases/download/2.1.1/falabaac-2.1.1-win32.zip",
     "hash": "1fe19b6c5bf39f3d29a62482282358e002e4f6ecc59e19c2c38f3514148fbcf2",
+    "extract_dir": "falabaac-2.1.1-win32",
     "bin": "falabaac.exe",
     "checkver": "github",
     "autoupdate": {
