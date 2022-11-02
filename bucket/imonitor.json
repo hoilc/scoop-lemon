@@ -1,6 +1,6 @@
 {
     "version": "2.2.0",
-    "description": "iMonitor (Endpoint Behavior Analysis System) is a endpoint behavior monitoring and analysis software based on iMonitorSDK.",
+    "description": "iMonitor (冰镜) is a endpoint behavior monitoring and analysis software based on iMonitorSDK.",
     "homepage": "https://imonitorsdk.com/imonitor",
     "license": "AGPL-3.0-only",
     "architecture": {
