@@ -16,6 +16,7 @@
         }
     },
     "bin": "categraf.exe",
+    "persist": "conf",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
