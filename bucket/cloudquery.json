@@ -1,12 +1,12 @@
 {
-    "version": "2.0.9",
+    "version": "2.0.12",
     "description": "The open-source cloud asset inventory powered by SQL.",
     "homepage": "https://cloudquery.io/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudquery/cloudquery/releases/download/cli-v2.0.9/cloudquery_windows_amd64.zip",
-            "hash": "f7d12ba18ada46a98e1f243f0d242a25b058d4c0e5489cd502083ec7f9bba359"
+            "url": "https://github.com/cloudquery/cloudquery/releases/download/cli-v2.0.12/cloudquery_windows_amd64.zip",
+            "hash": "2596cb616c4d0bd607e79769349278c567997822f9167d8f9c6540b81bd8ae08"
         }
     },
     "bin": "cloudquery.exe",
