@@ -23,7 +23,7 @@ init:
   - ps: |
       (Get-PSProvider 'FileSystem').Home = 'C:\projects\'
       if(!(Test-Path "$env:SCOOP_HOME")) {
-        git clone -q --depth=1 'https://github.com/lukesampson/scoop' "$env:SCOOP_HOME"
+        git clone -q --depth=1 -b v0.3.0 'https://github.com/lukesampson/scoop' "$env:SCOOP_HOME"
         git clone -q --depth=1 'https://github.com/ScoopInstaller/Main' "$env:SCOOP\buckets\main"
       }
 for:
