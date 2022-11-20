@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0-dev.876+f663cc0",
+    "version": "2.3.0-dev.878+f92dd45",
     "description": "(Nightly Version) Command-line tools for EdgeDB.",
     "homepage": "https://www.edgedb.com/docs/cli/index",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc.nightly/edgedb-cli-2.3.0-dev.876+f663cc0.exe#/edgedb.exe",
-            "hash": "20e537ea6b46d8331a7f19eb24d8720316821cc61f6432d26a7459d5d69873c8"
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc.nightly/edgedb-cli-2.3.0-dev.878+f92dd45.exe#/edgedb.exe",
+            "hash": "a92586f75bdf0321398e3f4b7b4dc4cb4e7a994af794656fd804b9c58173b090"
         }
     },
     "bin": "edgedb.exe",
