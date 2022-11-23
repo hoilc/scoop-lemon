@@ -1,16 +1,16 @@
 {
-    "version": "0.1.4",
+    "version": "0.2.0",
     "description": "通过 FTP 协议使用 QingStor 对象存储服务",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qsftpd/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qingstor/qsftpd/releases/download/v0.1.4/qsftpd-v0.1.4-windows_amd64.zip",
-            "hash": "e50a2deadcdf517df926aae621fdf088fa53e2c53fb8cb4632c2a209ffb809ed"
+            "url": "https://github.com/qingstor/qsftpd/releases/download/v0.2.0/qsftpd-v0.2.0-windows_amd64.zip",
+            "hash": "453b2111b900889665b9927426411d3f3b42f2251c54fbca68a2c966cf2374a9"
         },
         "32bit": {
-            "url": "https://github.com/qingstor/qsftpd/releases/download/v0.1.4/qsftpd-v0.1.4-windows_386.zip",
-            "hash": "fb1bf033ce274988fb6b55c8683c6e113be1c5471471c162e8a397a8bc741d50",
+            "url": "https://github.com/qingstor/qsftpd/releases/download/v0.2.0/qsftpd-v0.2.0-windows_386.zip",
+            "hash": "fe921538861d067542d97e174f0628f4fed9871bbd67f7f99047f86ccae8cc1f",
             "pre_install": "Rename-Item -Path \"$dir\\qsftpd_386.exe\" -NewName 'qsftpd.exe'"
         }
     },
