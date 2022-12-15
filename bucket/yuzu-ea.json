@@ -1,5 +1,5 @@
 {
-    "version": "EA3215",
+    "version": "EA3216",
     "description": "Early Access channel of yuzu, an experimental emulator for the Nintendo Switch.",
     "homepage": "https://yuzu-emu.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kryptuq/Yuzu-Early-Access-files/releases/download/EA3215/yuzu-early-access-EA3215.zip",
-            "hash": "379cc7ec367e17b0216cac429c807eca2f5a4f2d0d8c30d1e680ea7869954820"
+            "url": "https://github.com/Kryptuq/Yuzu-Early-Access-files/releases/download/EA3216/yuzu-early-access-EA3216.zip",
+            "hash": "434d6b1ad07e7c5f512395a3b0157fe912200f9500725aeefae40ff6c3a81496"
         }
     },
     "extract_dir": "yuzu-early-access",
