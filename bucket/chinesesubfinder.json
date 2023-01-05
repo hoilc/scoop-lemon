@@ -1,12 +1,12 @@
 {
-    "version": "0.46.1",
+    "version": "0.46.2",
     "description": "自动化中文字幕下载",
     "homepage": "https://github.com/allanpk716/ChineseSubFinder",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/allanpk716/ChineseSubFinder/releases/download/v0.46.1/chinesesubfinder-0.46.1-Windows-x86_64.tar.gz",
-            "hash": "cbe23af7eb61c6d258b1c7fefeb29a9405f85bdc88d12c57c93c2815906b3431"
+            "url": "https://github.com/allanpk716/ChineseSubFinder/releases/download/v0.46.2/chinesesubfinder-0.46.2-Windows-x86_64.tar.gz",
+            "hash": "ebdb6eab93946583e0597caa8196084be571e0e12f5669887b694a62045d0d6b"
         }
     },
     "bin": "chinesesubfinder.exe",
