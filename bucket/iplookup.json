@@ -1,10 +1,10 @@
 {
-    "version": "1.7.3",
+    "version": "1.7.2",
     "description": "An application for displaying list of IP addresses your computer, include external address.",
     "homepage": "https://www.henrypp.org/product/iplookup",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/henrypp/iplookup/releases/download/v.1.7.3/iplookup-1.7.3-bin.zip",
-    "hash": "9a6b5f61cf6c1184112ba319b25b19e22d7f3c5a389a6464a0545463dc51ab02",
+    "url": "https://github.com/henrypp/iplookup/releases/download/v.1.7.2/iplookup-1.7.2-bin.zip",
+    "hash": "e91b4e7b57412aef4a2b47169b113b55eeb7b7b7e25068dce8d1d21f0a074467",
     "architecture": {
         "64bit": {
             "extract_dir": "iplookup\\64"
