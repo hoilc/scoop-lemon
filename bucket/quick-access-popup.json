@@ -1,5 +1,5 @@
 {
-    "version": "11.6",
+    "version": "11.6.1",
     "description": "A multi-purpose launcher and folder switcher that creates a customizable popup with favorites folders/documents paths and various actions to speed up your work.",
     "homepage": "https://www.quickaccesspopup.com/",
     "license": "Freeware",
@@ -22,7 +22,7 @@
         }
     },
     "url": "https://www.quickaccesspopup.com/download/quickaccesspopup.zip",
-    "hash": "ba73b954cdce6ce6b6faa6842ae7e35b6bdd78c4c0661aa91472373ac631982e",
+    "hash": "c8bd37fe81d112a1ff9de17bfa18f04393528fde028304c3e4e24ec40fbf1ed4",
     "bin": "QAPmessenger.exe",
     "shortcuts": [
         [
