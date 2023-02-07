@@ -23,4 +23,4 @@ jobs:
         branch: master
         author_name: hoilc
         author_email: hoilc@foxmail.com
-        message: 'chore: update app index'
+        message: '(chore): update app index'
