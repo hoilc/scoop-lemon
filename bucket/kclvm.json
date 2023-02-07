@@ -10,15 +10,15 @@
         }
     },
     "bin": [
-        "kclvm.exe",
-        "kclvm-cli.exe",
-        "kcl.exe",
-        "kcl-vet.exe",
-        "kcl-test.exe",
-        "kcl-plugin.exe",
-        "kcl-lint.exe",
-        "kcl-fmt.exe",
-        "kcl-doc.exe"
+        "bin\\kclvm.exe",
+        "bin\\kclvm-cli.exe",
+        "bin\\kcl.exe",
+        "bin\\kcl-vet.exe",
+        "bin\\kcl-test.exe",
+        "bin\\kcl-plugin.exe",
+        "bin\\kcl-lint.exe",
+        "bin\\kcl-fmt.exe",
+        "bin\\kcl-doc.exe"
     ],
     "checkver": {
         "github": "https://github.com/KusionStack/KCLVM"
