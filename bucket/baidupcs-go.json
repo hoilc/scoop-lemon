@@ -13,6 +13,11 @@
             "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.0/BaiduPCS-Go-v3.9.0-windows-x86.zip",
             "hash": "4344449c3e8e531955b677ef9136846b00e51523adaf3e28370cef4ae555fc5d",
             "extract_dir": "BaiduPCS-Go-v3.9.0-windows-x86"
+        },
+        "arm64": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.0/BaiduPCS-Go-v3.9.0-windows-arm.zip",
+            "hash": "8ddcdd42adee409c9fe9fc0b9fad10c18a906de684e54a2c8a4e939a1004af62",
+            "extract_dir": "BaiduPCS-Go-v3.9.0-windows-arm"
         }
     },
     "bin": "BaiduPCS-Go.exe",
@@ -33,6 +38,10 @@
             "32bit": {
                 "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x86.zip",
                 "extract_dir": "BaiduPCS-Go-v$version-windows-x86"
+            },
+            "arm64": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-arm.zip",
+                "extract_dir": "BaiduPCS-Go-v$version-windows-arm"
             }
         }
     }
