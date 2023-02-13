@@ -1,16 +1,16 @@
 {
-    "version": "1.7.1",
+    "version": "1.8.0",
     "description": "Jellyfin Desktop Client based on Plex Media Player",
     "homepage": "https://github.com/jellyfin/jellyfin-media-player",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.7.1/JellyfinMediaPlayer-1.7.1-windows-x64.exe",
-            "hash": "27151aee03cefea6d220348b3275b9474aa169a850745d9066b0f4290a5ff24e"
+            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.8.0/JellyfinMediaPlayer-1.8.0-windows-x64.exe",
+            "hash": "9d339212b330995db04439b138d99e865ae422d9f58f3bc180c95c5c48d8c45f"
         },
         "32bit": {
-            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.7.1/JellyfinMediaPlayer-1.7.1-windows-x86.exe",
-            "hash": "6fc7e1f5313f17170d48297d0f9c5a05107cf81ccc1db14286ab73377db364d4"
+            "url": "https://github.com/jellyfin/jellyfin-media-player/releases/download/v1.8.0/JellyfinMediaPlayer-1.8.0-windows-x86.exe",
+            "hash": "e362193d3789882d07f941ca98f99d7c9e628aa0d0b9bb06b1aca7eab56aa11c"
         }
     },
     "shortcuts": [
