@@ -1,11 +1,11 @@
 {
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "简体中文等距更纱黑体+Nerd图标字体库，中英文宽度完美2:1，图标长宽经过调整，不会出现对齐问题，适合作为终端字体",
     "homepage": "https://github.com/laishulu/Sarasa-Mono-SC-Nerd",
     "license": "OFL-1.1",
-    "url": "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/archive/refs/tags/v3.0.0.zip",
-    "hash": "6d5fbc177cb2c9b14859b39a89a004cffc18d2021c72c3c440290c6b1775fdbf",
-    "extract_dir": "Sarasa-Mono-SC-Nerd-3.0.0",
+    "url": "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/archive/refs/tags/v4.0.0.zip",
+    "hash": "54087110845642474d6779c3631278a1d75855f86d1c5cda62dcf1d81f248283",
+    "extract_dir": "Sarasa-Mono-SC-Nerd-4.0.0",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/laishulu/Sarasa-Mono-SC-Nerd/archive/refs/tags/v$version.zip",
