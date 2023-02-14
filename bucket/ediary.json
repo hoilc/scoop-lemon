@@ -1,12 +1,12 @@
 {
-    "version": "4.0-beta5",
+    "version": "4.0-beta6",
     "description": "A easy-to-use and powerfull diary software.",
     "homepage": "http://www.haoxg.net/ediary/",
     "license": "Freeware",
-    "url": "http://www.haoxg.net/ediary/download/ediary-4.0-beta5-copy.zip",
-    "hash": "718296343325dca40e31dda5ec131a8c40c8c62aaab9af122af0cfe3cc07174b",
+    "url": "http://www.haoxg.net/ediary/download/ediary-4.0-beta6-copy.zip",
+    "hash": "3fc788775b8150241c9987ee8eff1b27f968a87165effd65c922a6419f6d75e0",
     "bin": "eDiary.exe",
-    "extract_dir": "eDiary-4.0-beta5",
+    "extract_dir": "eDiary-4.0-beta6",
     "shortcuts": [
         [
             "eDiary.exe",
