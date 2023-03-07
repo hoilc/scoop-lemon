@@ -1,16 +1,16 @@
 {
-    "version": "0.42.0",
+    "version": "0.42.1",
     "description": "Prometheus rule linter",
     "homepage": "https://github.com/cloudflare/pint",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudflare/pint/releases/download/v0.42.0/pint-0.42.0-windows-amd64.tar.gz",
-            "hash": "7ffaf212cbe72b3ffa5c5874ef49bdb28d6c55f53734364e1762bc8157d03283"
+            "url": "https://github.com/cloudflare/pint/releases/download/v0.42.1/pint-0.42.1-windows-amd64.tar.gz",
+            "hash": "5a3d7cb7172e1350ed08088ec87f7edff51a1398af4f3341e9890db0b078ff7a"
         },
         "32bit": {
-            "url": "https://github.com/cloudflare/pint/releases/download/v0.42.0/pint-0.42.0-windows-386.tar.gz",
-            "hash": "9bc21cd0ca7cb302842877b892a0492b11f6d6d566b9f9a6e93e5227f22c5d3a"
+            "url": "https://github.com/cloudflare/pint/releases/download/v0.42.1/pint-0.42.1-windows-386.tar.gz",
+            "hash": "5ea5266dbf7efc040910d4ec47ea1ad2f4a3c568d6c0d4d5a0819715ec39a7a4"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'pint-windows-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pint.exe'",
