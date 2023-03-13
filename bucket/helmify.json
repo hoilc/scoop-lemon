@@ -1,16 +1,16 @@
 {
-    "version": "0.3.27",
+    "version": "0.3.28",
     "description": "A CLI tool that creates Helm charts from kubernetes yamls.",
     "homepage": "https://github.com/arttor/helmify",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/arttor/helmify/releases/download/v0.3.27/helmify_0.3.27_Windows_64-bit.zip",
-            "hash": "41e84153f5a865a0d07eef93325b34df2d12a2760be6337b2a889bb183b88f7b"
+            "url": "https://github.com/arttor/helmify/releases/download/v0.3.28/helmify_0.3.28_Windows_64-bit.zip",
+            "hash": "d47ab7e75045a9b22a978e2e46e5587cb4aeb7e487e4385e2e13080286dde713"
         },
         "32bit": {
-            "url": "https://github.com/arttor/helmify/releases/download/v0.3.27/helmify_0.3.27_Windows_32-bit.zip",
-            "hash": "8d9f025ad528d7d0b8d236ad7dab3abfecbcd6fd7b24bcbb5249524675e10441"
+            "url": "https://github.com/arttor/helmify/releases/download/v0.3.28/helmify_0.3.28_Windows_32-bit.zip",
+            "hash": "185d35c372bdf8995fdc74d6ad495413a0dbdcdaaf3ad48ae47cab3144934af1"
         }
     },
     "bin": "helmify.exe",
