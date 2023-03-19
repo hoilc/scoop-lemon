@@ -1,12 +1,12 @@
 {
-    "version": "39.2",
+    "version": "39.3",
     "description": "The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster.",
     "homepage": "https://kubeshark.co/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubeshark/kubeshark/releases/download/39.2/kubeshark.exe",
-            "hash": "4917bdcfd758e19af84918ed6007de90c1cfe24d80fb80df25cd2e418df9d163"
+            "url": "https://github.com/kubeshark/kubeshark/releases/download/39.3/kubeshark.exe",
+            "hash": "899f2c9d4f62a5ad10cd0f3035d931b685d4b2bd9c53b9e13cdfa39c95a8d364"
         }
     },
     "bin": "kubeshark.exe",
