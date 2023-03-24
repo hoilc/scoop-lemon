@@ -1,16 +1,16 @@
 {
-    "version": "0.26.10",
+    "version": "0.26.9",
     "description": "A lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.",
     "homepage": "https://github.com/ehang-io/nps",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ehang-io/nps/releases/download/v0.26.10/windows_amd64_server.tar.gz",
-            "hash": "cab20b2bf43fdbf7c5c89169cdee43b4600682f76ee4282435134b2e6c81168f"
+            "url": "https://github.com/ehang-io/nps/releases/download/v0.26.9/windows_amd64_server.tar.gz",
+            "hash": "740996cfdb6fc935a234330ae1a2f65e69679e2bf285beb74a443359da259653"
         },
         "32bit": {
-            "url": "https://github.com/ehang-io/nps/releases/download/v0.26.10/windows_386_server.tar.gz",
-            "hash": "c07c55d2cb724f57ed52e20513fa441bad62ab394151550ebf078a46fcb66541"
+            "url": "https://github.com/ehang-io/nps/releases/download/v0.26.9/windows_386_server.tar.gz",
+            "hash": "e2e66c89dd6fa8ba6b4fbc604e08bc6cde974e707b970e53feef302828e6b696"
         }
     },
     "bin": "nps.exe",
