@@ -1,12 +1,12 @@
 {
-    "version": "0.7.3",
+    "version": "0.7.4",
     "description": "A CI/CD framework that allows you to develop pipelines locally and run them anywhere.",
     "homepage": "https://earthly.dev/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/earthly/earthly/releases/download/v0.7.3/earthly-windows-amd64.exe#/earthly.exe",
-            "hash": "4b674eeb8ade12310f5a37c3e1d0134b175fe8480bef3a69fd1f9fffba79198d"
+            "url": "https://github.com/earthly/earthly/releases/download/v0.7.4/earthly-windows-amd64.exe#/earthly.exe",
+            "hash": "f6ded4d038e615681cdfe0fa03c7f431cbc07b1117728a1cf208259a4e9c9cf8"
         }
     },
     "bin": "earthly.exe",
