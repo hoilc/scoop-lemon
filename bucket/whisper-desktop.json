@@ -15,6 +15,10 @@
             "Whisper Desktop"
         ]
     ],
+    "notes": [
+        "The Whisper model 'medium' is recommended.",
+        "Run 'scoop install whisper-model-ggml-medium' to download it."
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

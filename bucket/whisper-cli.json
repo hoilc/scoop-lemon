@@ -11,6 +11,10 @@
     },
     "pre_install": "Rename-Item -Path \"$dir\\main.exe\" -NewName 'whisper.exe'",
     "bin": "whisper.exe",
+    "notes": [
+        "The Whisper model 'medium' is recommended.",
+        "Run 'scoop install whisper-model-ggml-medium' to download it."
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
