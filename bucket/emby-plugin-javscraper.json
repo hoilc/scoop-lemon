@@ -1,0 +1,21 @@
+{
+    "version": "1.2022.1024.2104",
+    "description": "Emby的一个日本电影刮削器插件，可以从某些网站抓取影片信息",
+    "homepage": "https://github.com/bjrjustin/Emby.Plugins.JavScraper",
+    "license": "Freeware",
+    "url": "https://github.com/bjrjustin/Emby.Plugins.JavScraper/releases/download/v1.2022.1024.2104/Emby.JavScraper@v1.2022.1024.2104.zip",
+    "hash": "e34a392084a628c5571925d24b5e27917cf204341534d7b7ade9b73510a0e413",
+    "suggest": {
+        "emby": "lemon/emby"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/bjrjustin/Emby.Plugins.JavScraper/releases/download/v$version/Emby.JavScraper@v$version.zip"
+    },
+    "installer": {
+        "script": "if (installed 'emby' $global) {Copy-Item -Force \"$dir\\JavScraper.dll\" \"$(appdir emby $global)\\current\\programdata\\plugins\\\"} else { error 'Cannot find Emby installation'; Exit}"
+    },
+    "uninstaller": {
+        "script": "if (installed 'emby' $global) {Remove-Item -Force \"$(appdir emby $global)\\current\\programdata\\plugins\\JavScraper.dll\"}"
+    }
+}
