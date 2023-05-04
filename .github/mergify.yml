@@ -1,10 +1,12 @@
 pull_request_rules:
   - name: auto merge for hash fix
     conditions:
-      - author=github-actions[bot]
-      - check-success=Test Manifests / Powershell 5 (push)
-      - check-success=Test Manifests / Powershell 5 (pull_request)
-      - title~=^.*Fix hash$
+      - and:
+        - author=github-actions[bot]
+        - title~=^.*Fix hash$
+        - or:
+          - check-success=Test Manifests / Powershell 5 (push)
+          - check-success=Test Manifests / Powershell 5 (pull_request)
     actions:
       merge:
         method: squash
