@@ -80,15 +80,14 @@ Describe 'Changed manifests installation' {
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
     New-Item 'INSTALL.log' -Type File -Force
-    $commit = if ($env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT) { $env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT } else { $env:APPVEYOR_REPO_COMMIT }
+    $commit = if ($env:GITHUB_PULL_REQUEST_HEAD_SHA) { $env:GITHUB_PULL_REQUEST_HEAD_SHA } else { $env:GITHUB_SHA }
     # TODO: YAML
     $changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
         scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-        log @(scoop install sudo innounp dark *>&1) # Install default apps for manifest manipultion / installation
-        scoop config '7ZIPEXTRACT_USE_EXTERNAL' $true
+        log @(scoop install -g sudo 7zip innounp dark lessmsi *>&1) # Install default apps for manifest manipultion / installation
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests
