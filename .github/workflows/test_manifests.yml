@@ -2,6 +2,9 @@ name: Test Manifests
 
 on:
   pull_request:
+    types:
+    - opened
+    - reopened
     paths:
     - 'bucket/**'
   push:
