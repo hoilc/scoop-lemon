@@ -56,7 +56,7 @@ jobs:
         }
         exit $result
       env:
-        GITHUB_PULL_REQUEST_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        GITHUB_PULL_REQUEST_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
