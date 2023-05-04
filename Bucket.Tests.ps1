@@ -80,9 +80,11 @@ Describe 'Changed manifests installation' {
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
     New-Item 'INSTALL.log' -Type File -Force
-    $commit = if ($env:GITHUB_PULL_REQUEST_BASE_SHA) { $env:GITHUB_PULL_REQUEST_BASE_SHA } else { $env:GITHUB_SHA }
-    # TODO: YAML
-    $changedFiles = Get-GitChangedFile -Commit $commit -Include '*.json'
+    if ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
+        $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PULL_REQUEST_BASE_SHA -Include '*.json'
+    } else {
+        $changedFiles = Get-GitChangedFile -Commit $env:GITHUB_SHA -Include '*.json'
+    }
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
 
     if ($changedFiles.Count -gt 0) {
