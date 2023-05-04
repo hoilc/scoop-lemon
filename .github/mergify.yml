@@ -2,8 +2,8 @@ pull_request_rules:
   - name: auto merge for hash fix
     conditions:
       - author=github-actions[bot]
-      - check-success=continuous-integration/appveyor/branch
-      - check-success=continuous-integration/appveyor/pr
+      - check-success=Test Manifests / Powershell 5 (push)
+      - check-success=Test Manifests / Powershell 5 (pull_request)
       - title~=^.*Fix hash$
     actions:
       merge:
