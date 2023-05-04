@@ -8,6 +8,8 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@master
+      with:
+        ssh-key: "${{secrets.DEPLOY_KEY}}"
     - name: IssueHandler
       uses: ScoopInstaller/Scoop-GithubActions@main
       if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
