@@ -10,6 +10,8 @@ jobs:
     - uses: actions/checkout@master
       with:
         ssh-key: "${{secrets.DEPLOY_KEY}}"
+    - run: |
+        git config --unset http.https://github.com/.extraheader
     - name: IssueHandler
       uses: ScoopInstaller/Scoop-GithubActions@main
       if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
