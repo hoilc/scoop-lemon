@@ -12,7 +12,7 @@
         }
     },
     "pre_install": [
-        "if ($env:CI -eq \"true\") { Exit }",
+        "if ($env:CI -eq \"true\") { return }",
         "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
         "if ($architecture -eq \"64bit\") { $deppkgs = Get-ChildItem -Path $dir\\Dependencies\\*,$dir\\Dependencies\\x64\\* -Include *.appx,*.msix 2>$null }",
         "if ($architecture -eq \"arm64\") { $deppkgs = Get-ChildItem -Path $dir\\Dependencies\\*,$dir\\Dependencies\\arm64\\* -Include *.appx,*.msix 2>$null }",
