@@ -24,7 +24,7 @@
         "Get-ChildItem \"$dir\\*.msixbundle\" | Add-AppxPackage -ForceTargetApplicationShutdown -AllowUnsigned"
     ],
     "pre_uninstall": [
-        "if ($env:CI -eq \"true\") { Exit }",
+        "if ($env:CI -eq \"true\") { return }",
         "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
         "$package = Get-AppxPackage '17588BrandonWong.LyricEase'",
         "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
