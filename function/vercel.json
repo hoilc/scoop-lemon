@@ -1,5 +1,10 @@
 {
-    "rewrites": [
-        { "source": "/:path*", "destination": "/api/:path*" }
-    ]
+    "redirects": [{
+        "source": "/",
+        "destination": "https://github.com/hoilc/scoop-lemon"
+    }],
+    "rewrites": [{
+        "source": "/:path*",
+        "destination": "/api/:path*"
+    }]
 }
