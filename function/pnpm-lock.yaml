@@ -1,0 +1,59 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  node-fetch:
+    specifier: ^3.3.1
+    version: registry.npmmirror.com/node-fetch@3.3.1
+
+packages:
+
+  registry.npmmirror.com/data-uri-to-buffer@4.0.1:
+    resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz}
+    name: data-uri-to-buffer
+    version: 4.0.1
+    engines: {node: '>= 12'}
+    dev: false
+
+  registry.npmmirror.com/fetch-blob@3.2.0:
+    resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fetch-blob/-/fetch-blob-3.2.0.tgz}
+    name: fetch-blob
+    version: 3.2.0
+    engines: {node: ^12.20 || >= 14.13}
+    dependencies:
+      node-domexception: registry.npmmirror.com/node-domexception@1.0.0
+      web-streams-polyfill: registry.npmmirror.com/web-streams-polyfill@3.2.1
+    dev: false
+
+  registry.npmmirror.com/formdata-polyfill@4.0.10:
+    resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz}
+    name: formdata-polyfill
+    version: 4.0.10
+    engines: {node: '>=12.20.0'}
+    dependencies:
+      fetch-blob: registry.npmmirror.com/fetch-blob@3.2.0
+    dev: false
+
+  registry.npmmirror.com/node-domexception@1.0.0:
+    resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz}
+    name: node-domexception
+    version: 1.0.0
+    engines: {node: '>=10.5.0'}
+    dev: false
+
+  registry.npmmirror.com/node-fetch@3.3.1:
+    resolution: {integrity: sha512-cRVc/kyto/7E5shrWca1Wsea4y6tL9iYJE5FBCius3JQfb/4P4I295PfhgbJQBLTx6lATE4z+wK0rPM4VS2uow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-fetch/-/node-fetch-3.3.1.tgz}
+    name: node-fetch
+    version: 3.3.1
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      data-uri-to-buffer: registry.npmmirror.com/data-uri-to-buffer@4.0.1
+      fetch-blob: registry.npmmirror.com/fetch-blob@3.2.0
+      formdata-polyfill: registry.npmmirror.com/formdata-polyfill@4.0.10
+    dev: false
+
+  registry.npmmirror.com/web-streams-polyfill@3.2.1:
+    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/web-streams-polyfill/-/web-streams-polyfill-3.2.1.tgz}
+    name: web-streams-polyfill
+    version: 3.2.1
+    engines: {node: '>= 8'}
+    dev: false
