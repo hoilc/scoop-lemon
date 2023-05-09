@@ -16,5 +16,4 @@
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\Set.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Set.ini\" -Value $null }",
     "persist": "Set.ini"
-
 }
