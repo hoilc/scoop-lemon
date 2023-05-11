@@ -9,7 +9,7 @@
             "extract_dir": "1.9.2",
             "hash": "5f81afed14b9c36f32d4bdb6601a59626118d55d6a92b2cdec21c12f6673d1b4",
             "pre_install": [
-                "Get-ChildItem \"$dir\" 'tts-vue_*.exe' | Select-Object -First 1 | Expand-7zipArchive -DestinationPath \"$dir\"",
+                "Get-ChildItem \"$dir\" 'tts-vue_*.exe' | Select-Object -First 1 -Property FullName | Expand-7zipArchive -DestinationPath \"$dir\"",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\tts-vue_*.exe\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
             ]
