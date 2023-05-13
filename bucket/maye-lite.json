@@ -30,6 +30,7 @@
         "cfg.json",
         "JDB.json"
     ],
+    "notes": "The configuration file: $dir\\cfg.json",
     "checkver": {
         "url": "https://api.github.com/repos/25H/MayeLite/releases/latest",
         "regex": "MayeLite.([\\d.]+)-(?<date>\\d+).zip"
