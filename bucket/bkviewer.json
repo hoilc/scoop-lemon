@@ -9,6 +9,7 @@
             "hash": "fd5b44e68942a11754b0348902fcc590cb36514cf947fec361c4664972ae0445"
         }
     },
+    "bin": "bkviewer.exe",
     "shortcuts": [
         [
             "bkviewer.exe",
