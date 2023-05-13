@@ -24,8 +24,7 @@
     ],
     "persist": [
         "Users",
-        "Config.ini",
-        "Data"
+        "Config.ini"
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\Config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config.ini\" -Value $null }",
     "checkver": {
