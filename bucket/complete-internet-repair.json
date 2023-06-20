@@ -3,9 +3,9 @@
     "description": "Complete Internet Repair is a Windows Power Tool to quickly repair internet connections.",
     "homepage": "https://www.rizonesoft.com/downloads/complete-internet-repair/",
     "license": "Freeware",
-    "url": "https://www.rizonesoft.com/mimnaa/10669/#/dl.zip",
+    "url": "https://www.rizonesoft.com/mimnaa/10672/#/dl.zip",
     "extract_dir": "ComIntRep_6099",
-    "hash": "e49a4bae5b90d0f8ddc7a5e1dffb3b83c14350f50b5fe2fa6f611237aea307e1",
+    "hash": "79a83a6dbeebc81e0ea410e67f886ae46c62f059a49c82b0924915f43673517b",
     "architecture": {
         "64bit": {
             "shortcuts": [
@@ -26,7 +26,7 @@
     },
     "persist": "ComIntRep.ini",
     "checkver": {
-        "regex": "title=\"Version ([\\d.]+)\".*?/mimnaa/(?<id>\\d+)/"
+        "regex": "download-data-id-(?<id>\\d+)-data-filesize\">Portable version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.rizonesoft.com/mimnaa/$matchId/#/dl.zip",
