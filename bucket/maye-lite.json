@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/25H/MayeLite/releases/download/11.8.0.230619/MayeLite-11.8.0.230619.zip",
+            "extract_dir": "MayeLite-11.8.0.230619",
             "hash": "4eecb970681d7a2b162aa35bb2e155eb7646a275201fd83db7787872df340045"
         }
     },
@@ -35,6 +36,11 @@
         "github": "https://github.com/25H/MayeLite/"
     },
     "autoupdate": {
-        "url": "https://github.com/25H/MayeLite/releases/download/$version/MayeLite-$version.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/25H/MayeLite/releases/download/$version/MayeLite-$version.zip",
+                "extract_dir": "MayeLite-$version"
+            }
+        }
     }
 }
