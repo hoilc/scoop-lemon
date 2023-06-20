@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/netheril96/securefs/releases/download/0.14.2/securefs-windows-amd64.zip",
-            "hash": "93be534c7b5e3cafb6ead56e9d791182706349d500afcbe8d316ef6d8d13066e",
-            "extract_dir": "securefs-windows-amd64\\win"
+            "hash": "93be534c7b5e3cafb6ead56e9d791182706349d500afcbe8d316ef6d8d13066e"
         }
     },
     "bin": "securefs.exe",
