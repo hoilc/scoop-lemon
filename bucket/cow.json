@@ -1,16 +1,16 @@
 {
-    "version": "0.9.8",
+    "version": "0.9.7",
     "description": "COW (Climb Over the Wall) can automatically identify blocked sites and use parent proxies to access.",
     "homepage": "https://github.com/cyfdecyf/cow",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.8/cow-win64-0.9.8.zip",
-            "hash": "abe537c512832a46ee824826c8dfe69c208eccdefdc28d9b1fad16dcf3baa1fc"
+            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.7/cow-win64-0.9.7.zip",
+            "hash": "d9096672cd82712a31930a005fddb97d8fc7eaa23d4eb0cb75e23125b91cdf4d"
         },
         "32bit": {
-            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.8/cow-win32-0.9.8.zip",
-            "hash": "20d4de2c7b20cef4ff6cd1b047f0c283e12a87d70aa7e3c06e669abc77d35c3d"
+            "url": "https://github.com/cyfdecyf/cow/releases/download/0.9.7/cow-win32-0.9.7.zip",
+            "hash": "c5c937855ad1923e130f0c4d1f65056b17554ce8f2e500a0c6f7dfc283497ff8"
         }
     },
     "pre_install": [
