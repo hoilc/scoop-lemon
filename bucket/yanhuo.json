@@ -1,12 +1,12 @@
 {
-    "version": "2.8.35",
+    "version": "2.8.36",
     "description": "焰火十二卷（实时色彩工具箱）是一款免费且实用的色彩编辑器",
     "homepage": "https://eigenmiao.com/yanhuo/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eigenmiao/Rickrack/releases/download/v2.8.35/Rickrack_v2.8.35_zh_windows_AMD64.exe#/dl.7z",
-            "hash": "3ab9b5f1b4e34b4ccd77e53a2d28d5dc7fd7c44a5f23f4232ca483684a0affd4"
+            "url": "https://github.com/eigenmiao/Rickrack/releases/download/v2.8.36/Rickrack_v2.8.36_zh_windows_AMD64.exe#/dl.7z",
+            "hash": "edffaaacb8d0f3bb927850bad8bc4c556cb5c8918534679d768b978f7e5bfbd9"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
