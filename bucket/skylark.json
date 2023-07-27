@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/adonais/skylark/releases/download/20230722145808/skylark_x64-v3.0.12.7z",
+            "extract_dir": "skylark_x64",
             "hash": "eb74cd55a5204ea94aec5c78e82bd6832be105db6db92810527ea385ce5937be"
         },
         "32bit": {
             "url": "https://github.com/adonais/skylark/releases/download/20230722145808/skylark_x86-v3.0.12.7z",
+            "extract_dir": "skylark_x86",
             "hash": "e70f16b5b73e0ebadf0315651458c0009865eeeeac5f5a2a8214aace5ecd5e81"
         }
     },
-    "extract_dir": "skylark_x64",
     "bin": "skylark.exe",
     "shortcuts": [
         [
