@@ -1,12 +1,12 @@
 {
-    "version": "0.5.33",
+    "version": "0.5.35",
     "description": "A tool for building modern cloud native development environments.",
     "homepage": "https://jumppad.dev/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.33/jumppad_0.5.33_windows_x86_64.zip",
-            "hash": "3cb4ea65942098151b599810a5c7101ebad91dca5f22199388ce6c0f2486da51"
+            "url": "https://github.com/jumppad-labs/jumppad/releases/download/v0.5.35/jumppad_0.5.35_windows_x86_64.zip",
+            "hash": "2dafdf9a1044ac341866b0da7cf283bf62bfa7a1fa29c8666219b99c9c6ca585"
         }
     },
     "bin": "jumppad.exe",
