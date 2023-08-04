@@ -1,12 +1,12 @@
 {
-    "version": "Alpha0.10.2",
+    "version": "Alpha0.10.1",
     "description": "腾讯交互翻译融合了腾讯人工智能实验室自研的交互式机器翻译、神经网络机器翻译、 统计机器翻译、语义理解、信息检索等技术，帮助用户更快、更好地完成翻译任务",
     "homepage": "https://transmart.qq.com/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.transmart.qq.com/installation_pro/TranSmart_Alpha0.10.2(20230803)_windows.exe",
-            "hash": "e461cf3c8f7024f82a420ad44038164477ed73e4f13ff1c08bf6751c268f1d34"
+            "url": "https://cdn.transmart.qq.com/installation_pro/TranSmart_Alpha0.10.1(20230713)_windows.exe",
+            "hash": "4938fc7a83f1cc6469181e06998901bec323d0e5b2b4b3ad4593cbd7a6d2ea0c"
         }
     },
     "innosetup": true,
