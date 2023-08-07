@@ -1,16 +1,16 @@
 {
-    "version": "0.3.4",
+    "version": "0.3.3",
     "description": "A cross-platform network file transfer application designed to make transferring any file to any device as painless as possible.",
     "homepage": "https://nitroshare.net/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://launchpad.net/nitroshare/0.3/0.3.4/+download/nitroshare-0.3.4-windows-x86_64.exe",
-            "hash": "0816aa1147f66d09b5af96170ab34361516a58a98d98470025b285ade71ca358"
+            "url": "https://launchpad.net/nitroshare/0.3/0.3.3/+download/nitroshare-0.3.3-windows-x86_64.exe",
+            "hash": "ae8e522028a36eaa75ea73e1f5347cb963aacdbd3a60b9e48a0bba1a2c7981e9"
         },
         "32bit": {
-            "url": "https://launchpad.net/nitroshare/0.3/0.3.4/+download/nitroshare-0.3.4-windows-x86.exe",
-            "hash": "ff1f14ebf19e456b6ab5ffa67ae3c004242ea4f6ac7266cf9587a1bea6a2f97f"
+            "url": "https://launchpad.net/nitroshare/0.3/0.3.3/+download/nitroshare-0.3.3-windows-x86.exe",
+            "hash": "97f0b40b8a30baef804369864f48d48e49e64e11a07756b172ffcf7a0fcb094d"
         }
     },
     "innosetup": true,
