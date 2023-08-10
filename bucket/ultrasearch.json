@@ -1,12 +1,12 @@
 {
-    "version": "4",
-    "description": "UltraSearch Free searches files and folders on local NTFS drives and provides the results within just a few seconds.",
+    "version": "4.01",
+    "description": "UltraSearch searches files and folders on local NTFS drives and provides the results within just a few seconds.",
     "homepage": "https://www.jam-software.com/ultrasearch_free",
-    "license": "Freeware",
+    "license": "Shareware",
     "architecture": {
         "64bit": {
             "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Portable.zip",
-            "hash": "2dcb9d06fa15651b73e47b0cbf3f8b371fa9a91f5067726972573f537e864848"
+            "hash": "784f8e9f26c4a88b186e4ee4719b46b7bd1472132bc62967efa5c4d5715fb339"
         }
     },
     "bin": "UltraSearch.exe",
@@ -18,8 +18,8 @@
     ],
     "persist": "Settings.xml",
     "checkver": {
-        "url": "https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=670",
-        "regex": "UltraSearch Free v([\\d.]+)"
+        "url": "https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=671",
+        "regex": "UltraSearch v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
