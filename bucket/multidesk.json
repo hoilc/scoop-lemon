@@ -7,17 +7,13 @@
     "hash": "5e11fea54d16a7dbc0f92e4259ce9fb7a3de19f34595694eabcec8c30b50d4f1",
     "architecture": {
         "64bit": {
-            "installer": {
-                "script": [
-                    "Remove-Item -Force \"$dir\\MultiDesk.exe\"",
-                    "Rename-Item -Path \"$dir\\MultiDesk.x64.exe\" -NewName 'MultiDesk.exe'"
-                ]
-            }
+            "pre_install": [
+                "Remove-Item -Force \"$dir\\MultiDesk.exe\"",
+                "Rename-Item -Path \"$dir\\MultiDesk.x64.exe\" -NewName 'MultiDesk.exe'"
+            ]
         },
         "32bit": {
-            "installer": {
-                "script": "Remove-Item -Force \"$dir\\MultiDesk.x64.exe\""
-            }
+            "pre_install": "Remove-Item -Force \"$dir\\MultiDesk.x64.exe\""
         }
     },
     "bin": "MultiDesk.exe",
@@ -27,11 +23,9 @@
             "MultiDesk"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\MultiDesk.multidesk\")) { Set-Content -Encoding ASCII -Path \"$dir\\MultiDesk.multidesk\" -Value $null }",
-    "persist": "MultiDesk.multidesk",
-    "uninstaller": {
-        "script": "if(Test-Path \"$dir\\*.multidesk\") { Copy-Item \"$dir\\*.multidesk\" \"$persist_dir\\\" | Out-Null }"
-    },
+    "post_install": "if (Test-Path \"$persist_dir\\*.multidesk\") { Copy-Item \"$persist_dir\\*.multidesk\" \"$dir\\\" | Out-Null }",
+    "persist": "placeholder",
+    "pre_uninstall": "if(Test-Path \"$dir\\*.multidesk\") { Copy-Item \"$dir\\*.multidesk\" \"$persist_dir\\\" | Out-Null }",
     "checkver": {
         "url": "https://www.syvik.com/multidesk/download.en.html",
         "regex": "<h5>MultiDesk ([\\d.]+)</h5>"
