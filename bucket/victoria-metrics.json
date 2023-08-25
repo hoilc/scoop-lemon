@@ -1,7 +1,7 @@
 {
     "version": "1.93.1",
     "description": "A fast, cost-effective and scalable monitoring solution and time series database.",
-    "homepage": "https://docs.victoriametrics.com/VictoriaLogs/",
+    "homepage": "https://docs.victoriametrics.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
