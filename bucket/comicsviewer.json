@@ -1,8 +1,8 @@
 {
     "version": "4.04",
-    "description": "专为看漫画而开发的图像浏览器，内置许多漫画专用功能",
+    "description": "ComicsViewer是一款专为看漫画而开发的图像浏览器，内置许多漫画专用功能",
     "homepage": "https://www.cnblogs.com/stronghorse/",
-    "license": "Freeware",
+    "license": "Friendware",
     "architecture": {
         "64bit": {
             "url": "https://scoop-lemon.4everland.store/comicsviewer/ComicsViewer_chn_4.04.zip",

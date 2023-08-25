@@ -1,6 +1,6 @@
 {
     "version": "4.04",
-    "description": "An image viewer specially tailored to viewing scanned comics.",
+    "description": "ComicsViewer is an image viewer specially tailored to viewing scanned comics.",
     "homepage": "https://www.cnblogs.com/stronghorse/",
     "license": "Freeware",
     "architecture": {
