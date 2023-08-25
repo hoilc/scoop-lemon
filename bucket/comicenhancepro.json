@@ -1,6 +1,6 @@
 {
     "version": "6.09",
-    "description": "ComicEnhancer Pro是一款批量图像增强工具，能够修正扫描质量较低的漫画或书页",
+    "description": "ComicEnhancer Pro (CEP) 是一款批量图像增强工具，能够修正扫描质量较低的漫画或书页",
     "homepage": "https://www.cnblogs.com/stronghorse/",
     "license": "Friendware",
     "architecture": {
