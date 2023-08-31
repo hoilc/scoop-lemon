@@ -32,9 +32,6 @@
             "32bit": {
                 "url": "https://pazera-software.com/files/builds/vorbis-tools-$version_win32.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/checksums.txt"
         }
     }
 }
