@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "description": "A cross-platform software for text translation.",
+    "homepage": "https://pot-app.com/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.0.0/pot_2.0.0_x86-setup.exe#/dl.7z",
+            "hash": "56e7ad0d9d07e2654c5183c0f80672424f7df57b9c6ae9e8e29310e35e9776f8"
+        },
+        "32bit": {
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.0.0/pot_2.0.0_x64-setup.exe#/dl.7z",
+            "hash": "60af41c06dd908953cd228e472bd7c352eeff4a878f9a33a0e58a045de0a81b6"
+        },
+        "arm64": {
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.0.0/pot_2.0.0_arm64-setup.exe#/dl.7z",
+            "hash": "a5770a957074e5dda6a535873d2321710387e45e7635c0d3e29fbeded6e99ad1"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
+    "bin": "pot.exe",
+    "shortcuts": [
+        [
+            "pot.exe",
+            "Pot"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/pot-app/pot-desktop"
+    },
+    "notes": "Pot is NOT portable.",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pot-app/pot-desktop/releases/download/$version/pot_$version_x86-setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/pot-app/pot-desktop/releases/download/$version/pot_$version_x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/pot-app/pot-desktop/releases/download/$version/pot_$version_arm64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
