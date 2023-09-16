@@ -1,24 +1,24 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "4.6.13",
+    "version": "4.6.14",
     "description": "第三方哔哩哔哩UWP客户端",
     "homepage": "https://github.com/ywmoyue/biliuwp-lite",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_x64.zip",
-            "hash": "df5a7ac8ef576218bd487da4f3b72f53accfd1ba57184a8064c5eec68662178a",
-            "extract_dir": "BiliLite.Packages_4.6.13.0_x64_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.14/BiliLite.Packages_4.6.14.0_x64.zip",
+            "hash": "16b5360809a47f08e5d1ed2c60438eea8666c6b17d70211997d9aabb36ff4580",
+            "extract_dir": "BiliLite.Packages_4.6.14.0_x64_Test"
         },
         "32bit": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_x86.zip",
-            "hash": "ee6af0fd95ceab1ff7ac15a30c25ba9ba31dbce2bcb9a1945f1f95382fac7f88",
-            "extract_dir": "BiliLite.Packages_4.6.13.0_x86_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.14/BiliLite.Packages_4.6.14.0_x86.zip",
+            "hash": "cc449b9b57aecd0ef8cb558f04e273f9cda9aaf261851ea116df813388c06249",
+            "extract_dir": "BiliLite.Packages_4.6.14.0_x86_Test"
         },
         "arm64": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.13/BiliLite.Packages_4.6.13.0_ARM64.zip",
-            "hash": "157296a5de976211a1c289368a6bdb2ba778174b17b6962ebceb54974261a3ef",
-            "extract_dir": "BiliLite.Packages_4.6.13.0_ARM64_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.6.14/BiliLite.Packages_4.6.14.0_ARM64.zip",
+            "hash": "508d1ec38d972c45d0348fc997a6e77e01f50edb7df5f8a029352d6c34505b0d",
+            "extract_dir": "BiliLite.Packages_4.6.14.0_ARM64_Test"
         }
     },
     "pre_install": [
