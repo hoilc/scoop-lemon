@@ -1,16 +1,16 @@
 {
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "A cross-platform software for text translation.",
     "homepage": "https://pot-app.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.4.1/pot_2.4.1_x86-setup.exe#/dl.7z",
-            "hash": "89ea6580ed4180e6dfe41b220bb27c2225ca0fabd1e1f598bcfb6873a081be8b"
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.4.2/pot_2.4.2_x86-setup.exe#/dl.7z",
+            "hash": "a245353c5a64cb46dee291df249b9c7b1ec65cafb7fc60431f9d8ce018acb650"
         },
         "32bit": {
-            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.4.1/pot_2.4.1_x64-setup.exe#/dl.7z",
-            "hash": "6238860a3f1d20857563c511de570240864e1593df7cd33b6a5976d189b6879c"
+            "url": "https://github.com/pot-app/pot-desktop/releases/download/2.4.2/pot_2.4.2_x64-setup.exe#/dl.7z",
+            "hash": "4f42fd709c402207d718650c6ba7d6263dd8b3b6a73270e3944c9a2e97899af3"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
