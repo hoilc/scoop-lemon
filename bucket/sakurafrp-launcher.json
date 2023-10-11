@@ -11,9 +11,12 @@
         },
         "32bit": {
             "pre_install": "Get-ChildItem \"$dir\" '*,1.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',2') }"
+        },
+        "arm64": {
+            "pre_install": "Get-ChildItem \"$dir\" '*,3.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',3') }"
         }
     },
-    "post_install": "Remove-Item \"$dir\\frpc,*.exe\", \"$dir\\frpc.exe,*.sig\", \"$dir\\Updater.exe\"  -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\*,*.exe\", \"$dir\\*,*.sig\"  -Force -Recurse",
     "innosetup": true,
     "shortcuts": [
         [
