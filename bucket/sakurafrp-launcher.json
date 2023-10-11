@@ -4,7 +4,7 @@
     "homepage": "https://www.natfrp.com/",
     "license": "Shareware",
     "url": "https://nya.globalslb.net/natfrp/client/launcher-windows/3.0.2.0/SakuraLauncher.exe#/dl.exe",
-    "hash": "md5:b904f99d4cf45a998b2d228e5d3d1a4a",
+    "hash": "md5:0c4d0e64664c8ab9f40babaee5b75680",
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" '*,2.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',2') }"
