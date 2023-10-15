@@ -1,0 +1,38 @@
+{
+    "version": "3.1.9.0",
+    "description": "UUP Media Creator is a set of tools designed to help you scan, fetch updates from Microsoft own Unified Update Platform (UUP), and allow you to create medium out of it.",
+    "homepage": "https://github.com/gus33000/UUPMediaCreator",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v3.1.9.0/win-x64-binaries.zip",
+            "hash": "a9163743d6896585998221099058351c25523796c7354c9c05a26690066737c4"
+        },
+        "32bit": {
+            "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v3.1.9.0/win-x86-binaries.zip",
+            "hash": "bb93a9b6928fb49dc12d2ecbde25eb153f0e1354de6bf10efaa7dd69e1457171"
+        },
+        "arm64": {
+            "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v3.1.9.0/win-arm64-binaries.zip",
+            "hash": "e587870d137ab5d1e1554f90361dd31a457828fa6523f460e10d85a1db27ec78"
+        }
+    },
+    "bin": [
+        "UUPDownload.exe",
+        "UUPMediaConverter.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v$version/win-x64-binaries.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v$version/win-x86-binaries.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/gus33000/UUPMediaCreator/releases/download/v$version/win-arm64-binaries.zip"
+            }
+        }
+    }
+}
