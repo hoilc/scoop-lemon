@@ -1,10 +1,10 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.999.3",
     "description": "Windows Feature Control GUI based on ViVe / ViVeTool.",
     "homepage": "https://github.com/PeterStrick/ViVeTool-GUI",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v1.6.2/ViVeTool.GUI.1.6.2.0.Portable.zip",
-    "hash": "47dafe76b6209d24be5c57bcab721bd95cad824b40a3057c4fd08485a9089995",
+    "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v1.6.999.3/v1.7_PRE_RELEASE_HOTFIX.zip",
+    "hash": "8235e17ad5bdea40716bc7c0e452ac08b45dae2cef87835574e326f8301ea140",
     "shortcuts": [
         [
             "ViVeTool_GUI.exe",
@@ -13,9 +13,9 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/PeterStrick/ViVeTool-GUI/releases/latest",
-        "regex": "/releases/download/v([\\d.]+)/ViVeTool.GUI.(?<full>[\\d.]+).Portable"
+        "regex": "/releases/download/v([\\d.]+)/(?<filename>[^/]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v$version/ViVeTool.GUI.$matchFull.Portable.zip"
+        "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v$version/$matchFilename.zip"
     }
 }
