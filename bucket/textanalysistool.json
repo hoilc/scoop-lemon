@@ -11,6 +11,7 @@
             "TextAnalysisTool.NET"
         ]
     ],
+    "bin": "TextAnalysisTool.NET.exe",
     "checkver": {
         "regex": "Version <code>([^<>]+)</code>"
     },
