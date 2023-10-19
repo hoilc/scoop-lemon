@@ -1,4 +1,5 @@
 {
+    "##": "http://www.flat2d.com/azpainter2.html",
     "version": "1.07",
     "description": "A viewer for AzPainter2 files (* .apd) and AzDrawing2 files (* .adw).",
     "homepage": "http://hp.vector.co.jp/authors/VA033749/soft/index.html#APDView",
