@@ -1,0 +1,17 @@
+{
+    "version": "1.07",
+    "description": "A viewer for AzPainter2 files (* .apd) and AzDrawing2 files (* .adw).",
+    "homepage": "http://hp.vector.co.jp/authors/VA033749/soft/index.html#APDView",
+    "license": "Freeware",
+    "url": "http://hp.vector.co.jp/authors/VA033749/soft/arc/apdview107.zip",
+    "hash": "75c03cdd187f2236a0fef64769f88e1c2fb5328ffa8b7153b546421615b7f160",
+    "bin": "APDView.exe",
+    "shortcuts": [
+        [
+            "APDView.exe",
+            "APDView"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\apdview.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\apdview.ini\" -Value $null }",
+    "persist": "apdview.ini"
+}
