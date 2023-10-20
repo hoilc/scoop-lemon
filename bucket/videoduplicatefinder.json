@@ -24,7 +24,7 @@
         "ffmpeg": "ffmpeg"
     },
     "checkver": {
-        "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=branch%3Amaster",
+        "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=branch%3Amaster+is%3Asuccess",
         "regex": "#(\\d+):",
         "replace": "3.0.$1"
     },
