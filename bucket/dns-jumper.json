@@ -8,6 +8,7 @@
     },
     "url": "https://www.sordum.org/files/download/dns-jumper/DnsJumper.zip",
     "hash": "721f65f7ccd7939cffb3136449596125bff90293f281666e618e8efa556d899e",
+    "extract_dir": "DnsJumper",
     "shortcuts": [
         [
             "DnsJumper.exe",
