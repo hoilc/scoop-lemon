@@ -6,9 +6,7 @@ pull_request_rules:
           - author=github-actions[bot]
           - author=hoilc
         - title~=^.*Fix hash$
-        - or:
-          - check-success=Test Manifests / Powershell 5 (push)
-          - check-success=Test Manifests / Powershell 5 (pull_request)
+        - check-success~=Powershell.*
     actions:
       merge:
         method: squash
