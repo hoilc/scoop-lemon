@@ -2,7 +2,9 @@ pull_request_rules:
   - name: auto merge for hash fix
     conditions:
       - and:
-        - author=github-actions[bot]
+        - or:
+          - author=github-actions[bot]
+          - author=hoilc
         - title~=^.*Fix hash$
         - or:
           - check-success=Test Manifests / Powershell 5 (push)
