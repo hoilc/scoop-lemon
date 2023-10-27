@@ -8,6 +8,7 @@
     },
     "url": "https://www.sordum.org/files/download/host-editor/HostsEditor.zip",
     "hash": "35cc3590ed8d1db1cc2cf968eabb577a2c800da9ec0904044247851c1204d29d",
+    "extract_dir": "HostsEditor_v1.5",
     "architecture": {
         "64bit": {
             "shortcuts": [
@@ -31,6 +32,7 @@
         "regex": "BlueLife Hosts Editor v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/host-editor/HostsEditor.zip"
+        "url": "https://www.sordum.org/files/download/host-editor/HostsEditor.zip",
+        "extract_dir": "HostsEditor_v$version"
     }
 }
