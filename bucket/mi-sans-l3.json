@@ -3,7 +3,7 @@
     "description": "(L3 扩展字体，以支持GB 18030-2022 所收录的生僻字) Mi Sans 字体笔型平直有力，设计更加简约，减少视觉负担，更有利于屏幕显示，供全社会免费商用",
     "homepage": "https://hyperos.mi.com/font/rare-word",
     "license": "Freeware",
-    "url": "https://hyperos.mi.com/font-download/MiSans.zip",
+    "url": "https://hyperos.mi.com/font-download/MiSans_L3.zip",
     "extract_dir": "MiSans L3",
     "hash": "467fe0171ec9ea21d925aba9c032b1a775a3e756c458f075e7a2ee57568b0c79",
     "installer": {
