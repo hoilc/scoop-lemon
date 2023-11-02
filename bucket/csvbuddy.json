@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "installer": {
-                "script": "Rename-Item -Path \"$dir\\CSVBuddy-*-64-bit.exe\" -NewName 'imgdrivecmd.exe'"
+                "script": "Get-ChildItem \"$dir\" 'CSVBuddy-*-64-bit.exe' | Select-Object -First 1 | Rename-Item -NewName 'CSVBuddy.exe'"
             }
         },
         "32bit": {
             "installer": {
-                "script": "Rename-Item -Path \"$dir\\CSVBuddy-*-32-bit.exe\" -NewName 'CSVBuddy.exe'"
+                "script": "Get-ChildItem \"$dir\" 'CSVBuddy-*-32-bit.exe' | Select-Object -First 1 | Rename-Item -NewName 'CSVBuddy.exe'"
             }
         }
     },
@@ -26,7 +26,7 @@
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\CSVBuddy.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\CSVBuddy.ini\" -Value $null }",
-        "Rename-Item -Path \"$dir\\CSVMessenger*.exe\" -NewName 'CSVMessenger.exe'"
+        "Get-ChildItem \"$dir\" 'CSVMessenger*.exe' | Select-Object -First 1 | Rename-Item -NewName 'CSVMessenger.exe'"
     ],
     "post_install": "Remove-Item -Force \"$dir\\CSVBuddy-*.exe\"",
     "persist": "CSVBuddy.ini",
