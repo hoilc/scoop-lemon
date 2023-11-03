@@ -17,7 +17,10 @@
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\qwiktapes.db\")) { Set-Content -Encoding ASCII -Path \"$dir\\qwiktapes.db\" -Value $null }",
     "persist": "qwiktapes.db",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/4silvertooth/QwikTape/releases/latest",
+        "regex": "/QwikTape/tree/v([^/]+?)\""
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
