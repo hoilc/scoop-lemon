@@ -15,7 +15,8 @@
     },
     "bin": [
         "crane.exe",
-        "gcrane.exe"
+        "gcrane.exe",
+        "krane.exe"
     ],
     "checkver": {
         "github": "https://github.com/google/go-containerregistry"
