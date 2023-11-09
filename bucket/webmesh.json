@@ -1,0 +1,43 @@
+{
+    "version": "0.16.3",
+    "description": "A simple, distributed, zero-configuration WireGuard mesh solution.",
+    "homepage": "https://webmeshproj.github.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/webmeshproj/webmesh/releases/download/v0.16.3/webmesh_Windows_x86_64.zip",
+            "hash": "14450db939519ef8b60092378e7b06afe3c4adf032fb42507f101ae2b29a549a"
+        },
+        "32bit": {
+            "url": "https://github.com/webmeshproj/webmesh/releases/download/v0.16.3/webmesh_Windows_i386.zip",
+            "hash": "c68b51036ecb5059290da7c076988de483fcad013c36d991e017e805688bbe32"
+        },
+        "arm64": {
+            "url": "https://github.com/webmeshproj/webmesh/releases/download/v0.16.3/webmesh_Windows_arm64.zip",
+            "hash": "d861082225b8e34593e75c41b6fe14c4d9e63c014f239f2cf50ef7985e54689b"
+        }
+    },
+    "bin": [
+        "wmctl.exe",
+        "webmesh-node.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/webmeshproj/webmesh"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/webmeshproj/webmesh/releases/download/v$version/webmesh_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/webmeshproj/webmesh/releases/download/v$version/webmesh_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/webmeshproj/webmesh/releases/download/v$version/webmesh_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
