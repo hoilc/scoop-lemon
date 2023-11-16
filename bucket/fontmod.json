@@ -15,6 +15,7 @@
     ],
     "checkver": "github",
     "persist": "fonts",
+    "notes": "Usage see: https://github.com/ysc3839/FontMod",
     "autoupdate": {
         "url": [
             "https://github.com/ysc3839/FontMod/releases/download/v$version/FontMod32.dll",
