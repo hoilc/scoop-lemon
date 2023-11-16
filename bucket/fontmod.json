@@ -17,9 +17,9 @@
     "persist": "fonts",
     "autoupdate": {
         "url": [
-            "https://github.com/ysc3839/FontMod/releases/download/v3.0.1/FontMod32.dll",
-            "https://github.com/ysc3839/FontMod/releases/download/v3.0.1/FontMod64.dll",
-            "https://github.com/ysc3839/FontMod/releases/download/v3.0.1/FontModARM64.dll"
+            "https://github.com/ysc3839/FontMod/releases/download/v$version/FontMod32.dll",
+            "https://github.com/ysc3839/FontMod/releases/download/v$version/FontMod64.dll",
+            "https://github.com/ysc3839/FontMod/releases/download/v$version/FontModARM64.dll"
         ]
     }
 }
