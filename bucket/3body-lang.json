@@ -1,12 +1,12 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.5",
     "description": "三体编程语言 Three Body Language written in Rust",
     "homepage": "https://github.com/rustq/3body-lang",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rustq/3body-lang/releases/download/0.4.3/3body-x86_64-pc-windows-msvc.exe#/3body.exe",
-            "hash": "39710f2bb13d9e7c626dcc11297597a12cacac96b73eec9aa675d424a7f63c2a"
+            "url": "https://github.com/rustq/3body-lang/releases/download/0.4.5/3body-x86_64-pc-windows-msvc.exe#/3body.exe",
+            "hash": "9e87dbdc5681fc075357a17e79d46fe64edf180bef6171fdb5ceb35b7e3dd288"
         }
     },
     "bin": "3body.exe",
