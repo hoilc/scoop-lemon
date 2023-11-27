@@ -2,7 +2,7 @@
     "version": "0.4.1",
     "description": "A third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.",
     "homepage": "https://github.com/dragonflylee/switchfin",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/dragonflylee/switchfin/releases/download/0.4.1/Switchfin-windows-x86_64-d3d11.7z",
