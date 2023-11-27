@@ -1,5 +1,5 @@
 {
-    "version": "2023-06-13",
+    "version": "2023-11-03",
     "description": "Pick up colors from your screen, change and work with them in many models and learn all about colors.",
     "homepage": "https://www.sttmedia.com/pipette",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sttmedia.com/licence"
     },
     "url": "https://www.sttmedia.com/downloads/PipetteWin.zip",
-    "hash": "3c2075b55a18105f2e536a6686620f411a0772201cce0da999bc37f2420550c5",
+    "hash": "984481461dc45c30a91d6a723fdc89b49b88c728acb3cf46ee27aecbcd1f1b66",
     "shortcuts": [
         [
             "Pipette.exe",
