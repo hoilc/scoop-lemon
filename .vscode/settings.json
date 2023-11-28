@@ -4,7 +4,7 @@
     },
     "json.schemas": [
         {
-            "url": "file:///Users/Lemon/Downloads/schema.json",
+            "url": "https://scoop-lemon.4everland.store/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
                 "TODO/*.json",
