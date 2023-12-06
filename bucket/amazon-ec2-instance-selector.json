@@ -1,6 +1,6 @@
 {
     "version": "2.4.1",
-    "description": "A CLI tool and go library which recommends instance types based on resource criteria like vcpus and memory.",
+    "description": "Amazon EC2 Instance Selector is a CLI tool which recommends EC2 instance types based on resource criteria like vcpus and memory.",
     "homepage": "https://github.com/aws/amazon-ec2-instance-selector",
     "license": "Apache-2.0",
     "architecture": {
