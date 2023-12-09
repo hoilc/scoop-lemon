@@ -21,7 +21,7 @@
     },
     "post_install": [
         "Remove-Item \"$dir\\unins*\"",
-        "Get-ChildItem \"$dir\" 'WinToUSB.ini' -Recurse | ForEach-Object { (Get-Content -Raw $_) -replace 'AutoCheckUpdate=1','AutoCheckUpdate=0' | Set-Content -Encoding Unicode  $_ }"
+        "Get-ChildItem \"$dir\" 'WinToUSB.ini' -Recurse | ForEach-Object { (Get-Content -Raw $_.Fullname) -replace 'AutoCheckUpdate=1','AutoCheckUpdate=0' | Set-Content -Encoding Unicode  $_.Fullname }"
     ],
     "innosetup": true,
     "shortcuts": [
