@@ -1,12 +1,12 @@
 {
-    "version": "6.3.2.1",
+    "version": "6.3.3.0",
     "description": "Pixel phone flashing GUI utility with features.",
     "homepage": "https://github.com/badabing2005/PixelFlasher",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/badabing2005/PixelFlasher/releases/download/v6.3.2.1/PixelFlasher.exe",
-            "hash": "3afe0ac36ce48d6c6d787227b7284edb8d16c3ceb3fa1bcddf86c443f7fc309b"
+            "url": "https://github.com/badabing2005/PixelFlasher/releases/download/v6.3.3.0/PixelFlasher.exe",
+            "hash": "b7f0eb38539f4299a1615c2bc869e878b8300671cda7eb87345c469beb457f59"
         }
     },
     "suggest": {
