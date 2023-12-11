@@ -15,7 +15,7 @@
     "bin": "devtunnel.exe",
     "checkver": {
         "url": "https://tunnelsassetsprod.blob.core.windows.net/cli/cli-version.json",
-        "jsonpath": ".version"
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
