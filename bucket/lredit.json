@@ -3,8 +3,12 @@
     "description": "A Python based text editor with flexible customization.",
     "homepage": "https://sites.google.com/site/craftware/lredit",
     "license": "MIT",
-    "url": "https://github.com/crftwr/lredit/releases/download/v1.83/lredit_183.zip",
-    "hash": "afd5b5a242e8f8963183e3bccc488d39f035926f730e591677d0f7c625a23ce2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/crftwr/lredit/releases/download/v1.83/lredit_183.zip",
+            "hash": "afd5b5a242e8f8963183e3bccc488d39f035926f730e591677d0f7c625a23ce2"
+        }
+    },
     "extract_dir": "lredit",
     "bin": "lredit.exe",
     "shortcuts": [
@@ -27,6 +31,10 @@
         "github": "https://github.com/crftwr/lredit"
     },
     "autoupdate": {
-        "url": "https://github.com/crftwr/lredit/releases/download/v$version/lredit_$cleanVersion.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/crftwr/lredit/releases/download/v$version/lredit_$cleanVersion.zip"
+            }
+        }
     }
 }
