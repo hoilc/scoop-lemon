@@ -1,0 +1,17 @@
+{
+    "version": "5.0.9.21",
+    "description": "一款优秀的批量更名软件和批量文件处理工具",
+    "homepage": "http://www.ffhome.com/works/1406.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JasonGrass/scoop-lemon/files/13681905/FFRenamePro_x64_5.0.9.21.zip",
+            "hash": "7b56dca4c06d83084fc28ff79c38137a369b0cd79d157772870b7938265f0e69"
+        },
+        "32bit": {
+            "url": "https://github.com/JasonGrass/scoop-lemon/files/13681904/FFRenamePro_x86_5.0.9.21.zip",
+            "hash": "22c2916922b9e30776737d9ea1d0ff76e213f392f64348936a43268aefbc1c84"
+        }
+    },
+    "bin": "FFRenamePro.exe"
+}
