@@ -5,12 +5,9 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JasonGrass/scoop-lemon/files/13682022/FFRenamePro_x64_5.0.9.21.zip",
-            "hash": "39fbd47227edd8a81f9b3417e6f3ac968f42d22de42967cf2efc64f69d914925"
-        },
-        "32bit": {
-            "url": "https://github.com/JasonGrass/scoop-lemon/files/13682034/FFRenamePro_x86_5.0.9.21.zip",
-            "hash": "e05d8cd5231fc7b420b80bd9e443fbfc348a8d9d4c63ec957b06dab79b819f37"
+            "url": "https://www.yuanxiapi.cn/api/lanzou/?type=down&url=https://ffhome.lanzouy.com/ioE3C0c4ha6f#/dl.zip",
+            "extract_dir": "FFRenamePro_x64",
+            "hash": "b5eaff6c1978288e3d1d9e96e4ce9cba539f39fce9991cd48a28bd2f6298404a"
         }
     },
     "bin": "FFRenamePro.exe",
@@ -19,5 +16,17 @@
             "FFRenamePro.exe",
             "FFRename Pro"
         ]
-    ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\FFRenamePro.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FFRenamePro.ini\" -Value '[Interface Config]', 'ShowWelcomeFormNextTime=0', 'VersionUpdateInfoFormNotShowFlag40=1', '[General Config]', 'UsedTimes=1' }",
+    "persist": "FFRenamePro.ini",
+    "checkver": {
+        "regex": "(?sm) ([\\d.]+) for Windows 64-bit.*?蓝奏云.*?com/(?<lanzou>[\\w]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.yuanxiapi.cn/api/lanzou/?type=down&url=https://ffhome.lanzouy.com/$matchLanzou#/dl.zip"
+            }
+        }
+    }
 }
