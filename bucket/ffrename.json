@@ -13,5 +13,11 @@
             "hash": "e05d8cd5231fc7b420b80bd9e443fbfc348a8d9d4c63ec957b06dab79b819f37"
         }
     },
-    "bin": "FFRenamePro.exe"
+    "bin": "FFRenamePro.exe",
+    "shortcuts": [
+        [
+            "FFRenamePro.exe",
+            "FFRename Pro"
+        ]
+    ]
 }
