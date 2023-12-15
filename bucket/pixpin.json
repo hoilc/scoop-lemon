@@ -1,0 +1,30 @@
+{
+    "version": "1.0.9.1",
+    "description": "功能强大使用简单的截图/贴图工具，帮助你提高效率",
+    "homepage": "https://pixpinapp.com/",
+    "license": "Freeware",
+    "url": "https://download.pixpinapp.com/PixPin_1.0.9.1.exe",
+    "hash": "7b48058e063808504f3b6c0f08cd13781f6b97db4cf72925122a185e6df72f0d",
+    "innosetup": true,
+    "bin": "PixPin.exe",
+    "shortcuts": [
+        [
+            "PixPin.exe",
+            "PixPin"
+        ]
+    ],
+    "pre_install": [
+        "if (Test-Path \"$dir\\LocalStorage.data\") { Copy-Item \"$dir\\LocalStorage.data\" \"$persist_dir\" -Force }"
+    ],
+    "persist": [
+        "Data",
+        "Config"
+    ],
+    "checkver": {
+        "url": "https://download.pixpinapp.com/",
+        "regex": "PixPin_([\\d+\\.]+)\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://download.pixpinapp.com/PixPin_$version.exe"
+    }
+}
