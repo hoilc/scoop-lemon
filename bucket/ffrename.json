@@ -5,12 +5,12 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JasonGrass/scoop-lemon/files/13681905/FFRenamePro_x64_5.0.9.21.zip",
-            "hash": "7b56dca4c06d83084fc28ff79c38137a369b0cd79d157772870b7938265f0e69"
+            "url": "https://github.com/JasonGrass/scoop-lemon/files/13682022/FFRenamePro_x64_5.0.9.21.zip",
+            "hash": "39fbd47227edd8a81f9b3417e6f3ac968f42d22de42967cf2efc64f69d914925"
         },
         "32bit": {
-            "url": "https://github.com/JasonGrass/scoop-lemon/files/13681904/FFRenamePro_x86_5.0.9.21.zip",
-            "hash": "22c2916922b9e30776737d9ea1d0ff76e213f392f64348936a43268aefbc1c84"
+            "url": "https://github.com/JasonGrass/scoop-lemon/files/13682034/FFRenamePro_x86_5.0.9.21.zip",
+            "hash": "e05d8cd5231fc7b420b80bd9e443fbfc348a8d9d4c63ec957b06dab79b819f37"
         }
     },
     "bin": "FFRenamePro.exe"
