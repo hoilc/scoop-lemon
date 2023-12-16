@@ -1,10 +1,14 @@
 {
-    "version": "1.0.9.1",
+    "version": "1.1.3.0",
     "description": "功能强大使用简单的截图/贴图工具，帮助你提高效率",
     "homepage": "https://pixpinapp.com/",
     "license": "Freeware",
-    "url": "https://download.pixpinapp.com/PixPin_1.0.9.1.exe",
-    "hash": "7b48058e063808504f3b6c0f08cd13781f6b97db4cf72925122a185e6df72f0d",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.pixpinapp.com/PixPin_1.1.3.0.exe",
+            "hash": "a1552bd9c59fbd03755f9b39a4e88ace7b7c559142bf941d4b9fb2d1c466a9ba"
+        }
+    },
     "innosetup": true,
     "bin": "PixPin.exe",
     "shortcuts": [
@@ -13,18 +17,20 @@
             "PixPin"
         ]
     ],
-    "pre_install": [
-        "if (Test-Path \"$dir\\LocalStorage.data\") { Copy-Item \"$dir\\LocalStorage.data\" \"$persist_dir\" -Force }"
-    ],
+    "post_install": "if (!(Test-Path \"$dir\\Config\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config\\config.json\" -Value '{\"System.Update.AutoCheckUpdate\":{\"subConf\":{\"checkBeta\":false},\"value\":false}}' }",
     "persist": [
+        "History",
         "Data",
         "Config"
     ],
     "checkver": {
-        "url": "https://download.pixpinapp.com/",
-        "regex": "PixPin_([\\d+\\.]+)\\.exe"
+        "regex": "PixPin_([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://download.pixpinapp.com/PixPin_$version.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://download.pixpinapp.com/PixPin_$version.exe"
+            }
+        }
     }
 }
