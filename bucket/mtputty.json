@@ -21,6 +21,12 @@
         "mtputty.sessions.xml",
         "Scripts"
     ],
+    "suggest": {
+        "putty": [
+            "putty",
+            "kitty"
+        ]
+    },
     "checkver": {
         "url": "https://ttyplus.com/multi-tabbed-putty/changelog/",
         "regex": "Ver ([\\d.]+)"
