@@ -1,16 +1,16 @@
 {
-    "version": "0.17.1",
+    "version": "0.17.2",
     "description": "A kubernetes log viewer.",
     "homepage": "https://github.com/boz/kail",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/boz/kail/releases/download/v0.17.1/kail_v0.17.1_windows_amd64.tar.gz",
-            "hash": "a19ac02a24664eb809dc82b147a3bdcbd5817bc11a0dc833440fa5be86e2bdf9"
+            "url": "https://github.com/boz/kail/releases/download/v0.17.2/kail_v0.17.2_windows_amd64.tar.gz",
+            "hash": "c4deb9979b52f002d85ffead003ab2332e46419b67f93174cfa1ece6428bed7c"
         },
         "arm64": {
-            "url": "https://github.com/boz/kail/releases/download/v0.17.1/kail_v0.17.1_windows_arm64.tar.gz",
-            "hash": "ffea49a7c978cc3576c4751c39e1985cb1c966b39eedc8576ba904253f8ce893"
+            "url": "https://github.com/boz/kail/releases/download/v0.17.2/kail_v0.17.2_windows_arm64.tar.gz",
+            "hash": "6f8a992c26d7f794a0a6934e06b2fa7bd8cdac5ab61f4f3a6a4490ffc0619de1"
         }
     },
     "bin": "kail.exe",
