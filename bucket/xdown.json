@@ -1,10 +1,10 @@
 {
-    "version": "2.0.7.4",
+    "version": "2.0.7.5",
     "description": "免费无广告的文件下载与分享工具",
     "homepage": "http://xdown.org/",
     "license": "Freeware",
-    "url": "http://dl.xdown.org/windows/i386/xdown-2.0.7.4.zip",
-    "hash": "8da39d5cea3acfff438220b655a6823555e30e37bda5342e807d8112960082b1",
+    "url": "http://dl.xdown.org/windows/i386/xdown-2.0.7.5.zip",
+    "hash": "7d87712aed774b5f75938be44fd53144abe3ff9e4167ac70e50870bd0bb5965f",
     "extract_dir": "xdown",
     "persist": "profile",
     "shortcuts": [
