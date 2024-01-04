@@ -1,13 +1,13 @@
 {
-    "version": "1.2.6",
+    "version": "24.0102",
     "description": "数字图书馆下载工具",
     "homepage": "https://github.com/deweizhu/bookget",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deweizhu/bookget/releases/download/v1.2.6/bookget-1.2.6.windows-amd64.7z",
-            "extract_dir": "bookget-1.2.6.windows-amd64",
-            "hash": "751ee1f7d9f53deed132870312a00d27bc4627b16ce473c937737400621e0c14"
+            "url": "https://github.com/deweizhu/bookget/releases/download/24.0102/bookget-24.0102.windows-amd64.7z",
+            "extract_dir": "bookget-24.0102.windows-amd64",
+            "hash": "ccf2c7c0c5a5e98f3ae37e5924b239100d847d36919f30cbb79a881583e411df"
         }
     },
     "bin": "bookget.exe",
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deweizhu/bookget/releases/download/v$version/bookget-$version.windows-amd64.7z",
+                "url": "https://github.com/deweizhu/bookget/releases/download/$version/bookget-$version.windows-amd64.7z",
                 "extract_dir": "bookget-$version.windows-amd64"
             }
         }
