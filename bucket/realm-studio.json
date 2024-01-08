@@ -2,7 +2,7 @@
     "version": "14.1.2",
     "description": "A developer tool for easily managing the Realm Database and Realm Platform.",
     "homepage": "https://realm.io/products/realm-studio/",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://static.realm.io/downloads/realm-studio/Realm%20Studio-14.1.2-win.zip",
