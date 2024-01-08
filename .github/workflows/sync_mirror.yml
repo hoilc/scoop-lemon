@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */8 * * *'
-name: Sync JihuLab Mirror
+name: Sync Mirror
 jobs:
   run:
-    name: Sync JihuLab Mirror
+    name: Sync AtomGit Mirror
     runs-on: ubuntu-latest
     steps:
 #       - uses: styfle/cancel-workflow-action@0.9.0
@@ -20,6 +20,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@jihulab.com:hoilc/scoop-lemon.git
+            git@atomgit.com:hoilc/scoop-lemon.git
           ssh_private_key:
-            ${{ secrets.JIHULAB_SSH_DEPLOY_KEY }}
+            ${{ secrets.ATOMGIT_SSH_KEY }}
