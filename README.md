@@ -21,7 +21,7 @@ scoop install lemon/<app_name>
 <br/>
 
 ```
-scoop bucket add lemon https://jihulab.com/hoilc/scoop-lemon
+scoop bucket add lemon https://atomgit.com/hoilc/scoop-lemon
 ```
 
 </details>
