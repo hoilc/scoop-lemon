@@ -1,6 +1,7 @@
 # scoop-lemon Bucket
-[![Build status](https://img.shields.io/appveyor/ci/hoilc/scoop-lemon/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/hoilc/scoop-lemon/branch/master)
+
 [![Excavator](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml)
+[![Sync Mirror](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml)
 
 ## Usage
 
