@@ -23,5 +23,19 @@
     "persist": [
         "config.ini",
         "media"
-    ]
+    ],
+    "checkver": {
+        "url": "https://scoop-lemon.4everland.store/sclock/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.4everland.store/sclock/S_CLOCK_v$version_X64.7z"
+            },
+            "32bit": {
+                "url": "https://scoop-lemon.4everland.store/sclock/S_CLOCK_v$version_X86.7z"
+            }
+        }
+    }
 }
