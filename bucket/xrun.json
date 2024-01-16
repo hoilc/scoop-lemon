@@ -17,5 +17,16 @@
         ]
     ],
     "persist": "config.ini",
-    "notes": "Config file: $dir\\config.ini"
+    "notes": "Config file: $dir\\config.ini",
+    "checkver": {
+        "url": "https://scoop-lemon.4everland.store/xrun/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.4everland.store/xrun/xRun_v$version_x64.7z"
+            }
+        }
+    }
 }
