@@ -1,23 +1,23 @@
 {
-    "version": "0.2.46",
+    "version": "0.2.54",
     "description": "An lightweight and open source webdav server that offers some core features to meet the needs of both individual users and organizations.",
     "homepage": "https://github.com/pluveto/flydav",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.46/flydav-app-windows-amd64.zip",
+            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.54/flydav-app-windows-amd64.zip",
             "extract_dir": "dist\\windows_amd64",
-            "hash": "3c571616746a821fd611ce697cd704f852ba017257fce00e4e1464d9479b15fc"
+            "hash": "c4bccc49f171f074c4431195db85e626a4b8478bc4da15e646d8852f8acabc68"
         },
         "32bit": {
-            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.46/flydav-app-windows-386.zip",
+            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.54/flydav-app-windows-386.zip",
             "extract_dir": "dist\\windows_386",
-            "hash": "623fdfcdb6fc9dd9a5aaed41418332391b84f147a87a87ef700368e09261cb96"
+            "hash": "3f954f0f5100afb26f4164bdb273f20f582462990ba176e91d226b998f338cea"
         },
         "arm64": {
-            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.46/flydav-app-windows-arm64.zip",
+            "url": "https://github.com/pluveto/flydav/releases/download/v0.2.54/flydav-app-windows-arm64.zip",
             "extract_dir": "dist\\windows_arm64",
-            "hash": "91497f0794097c360b7509db8688f56d0f3213a0413cd629cf8d39e12ab51b87"
+            "hash": "eb5428841881da32d53f61e3832c3548f139e7f46721dcdc4167d409c6629619"
         }
     },
     "bin": "flydav.exe",
