@@ -9,7 +9,7 @@
             "hash": "afb2c9774c96a399dce324f21d709b1950dec31e8169005ae5139ba498471c3e"
         }
     },
-    "extract_dir": "qoi-ci",
+    "extract_dir": "qoi-fu",
     "bin": "png2qoi.exe",
     "checkver": {
         "url": "https://github.com/pfusik/qoi-fu/releases/latest",
