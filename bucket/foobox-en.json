@@ -1,0 +1,24 @@
+{
+    "version": "7.20",
+    "description": "A DUI (Default User Interface) layout for foobar2000, providing friendly & modern UI and extensive capability for library management, artwork support etc.",
+    "homepage": "https://github.com/dream7180/foobox-en",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/dream7180/foobox-en/releases/download/7.20/foobar2000-2.1.1.en.foobox_7.20.20240118.exe#/dl.7z",
+    "hash": "a65b091b94e2c13937a3f507144e6de3739f68766401aed2637bd102929c1b36",
+    "shortcuts": [
+        [
+            "foobar2000.exe",
+            "Foobox"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\profile\")) { Rename-Item -Path \"$dir\\`$_13_\" -NewName 'profile' }",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "persist": "profile",
+    "checkver": {
+        "url": "https://api.github.com/repos/dream7180/foobox-en/releases/latest",
+        "regex": "/releases/download/([\\d.]+)/(?<filename>[^/\"]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/dream7180/foobox-en/releases/download/$version/$matchFilename#/dl.7z"
+    }
+}
