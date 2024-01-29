@@ -9,6 +9,7 @@
             "hash": "a52bb09254d00b94a799b87fae9d0dd090421c9042d98430d2db0be1f920f81b"
         }
     },
+    "extract_dir": "Riot",
     "bin": "Riot.exe",
     "shortcuts": [
         [
