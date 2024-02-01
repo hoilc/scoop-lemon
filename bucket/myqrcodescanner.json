@@ -1,16 +1,16 @@
 {
-    "version": "1.51",
+    "version": "1.52",
     "description": "Scan codes from screenshot and camera.",
     "homepage": "https://github.com/1357310795/QrCodeScanner",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1357310795/QrCodeScanner/releases/download/1.51/MyQrCodeScanner-v1.51-x64.zip",
-            "hash": "4a305dde4f6311f3d161ad9965a91f9ffe8c52d8d1856f8042d19d9d01bb02fb"
+            "url": "https://github.com/1357310795/QrCodeScanner/releases/download/1.52/MyQrCodeScanner-v1.52-x64.zip",
+            "hash": "991a2529514bed2f474cabfa88bba6d8ecb803bcd5eb6936b90ac117797ea764"
         },
         "32bit": {
-            "url": "https://github.com/1357310795/QrCodeScanner/releases/download/1.51/MyQrCodeScanner-v1.51-x86.zip",
-            "hash": "3dbb5fa77167dd089e6df044d80a8f85ca4342060d2d5a83cecd83df61abe038"
+            "url": "https://github.com/1357310795/QrCodeScanner/releases/download/1.52/MyQrCodeScanner-v1.52-x86.zip",
+            "hash": "e2b57fdda15e66c095a962564394bc0b5c4c704dad0ccd9b1b87c0866910fd7e"
         }
     },
     "shortcuts": [
