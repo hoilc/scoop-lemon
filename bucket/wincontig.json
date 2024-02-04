@@ -6,15 +6,16 @@
     "architecture": {
         "64bit": {
             "installer": {
-                "script": [
-                    "Remove-Item -Force \"$dir\\WinContig.exe\"",
-                    "Rename-Item -Path \"$dir\\WinContig64.exe\" -NewName 'WinContig.exe'"
-                ]
+                "script": "Remove-Item -Force \"$dir\\WinContig32.exe\""
+
             }
         },
         "32bit": {
             "installer": {
-                "script": "Remove-Item -Force \"$dir\\WinContig64.exe\""
+                "script": [
+                    "Remove-Item -Force \"$dir\\WinContig.exe\"",
+                    "Rename-Item -Path \"$dir\\WinContig32.exe\" -NewName 'WinContig.exe'"
+                ]
             }
         }
     },
