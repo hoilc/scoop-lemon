@@ -1,12 +1,12 @@
 {
-    "version": "1.2.291",
+    "version": "1.2.292",
     "description": "A CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism.",
     "homepage": "https://werf.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://tuf.werf.io/targets/releases/1.2.291/windows-amd64/bin/werf.exe",
-            "hash": "b9d3cba411f33b88de130b5310e1cbd29bdd234020f63e36a77d8b8fe01a39a2"
+            "url": "https://tuf.werf.io/targets/releases/1.2.292/windows-amd64/bin/werf.exe",
+            "hash": "a5266858f1ff11f31c47df336770886a81f78ef08084147b6ef72861c0582030"
         }
     },
     "bin": "werf.exe",
