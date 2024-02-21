@@ -1,5 +1,5 @@
 {
-    "version": "20231025",
+    "version": "00010101",
     "description": "A command line utility to search for duplicate files and optionally delete or hard link them to save disk space.",
     "homepage": "http://www.ltr-data.se/opencode.html#fdf",
     "license": {
