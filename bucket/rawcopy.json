@@ -1,5 +1,5 @@
 {
-    "version": "20231025",
+    "version": "00010101",
     "description": "A command line tool to read and write files and devices.",
     "homepage": "http://www.ltr-data.se/opencode.html#rawcopy",
     "license": {
