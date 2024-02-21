@@ -1,5 +1,5 @@
 {
-    "version": "20230306",
+    "version": "00010101",
     "description": " 国密版curl，支持国密SSL协议（TLCP），支持单向认证/双向认证",
     "homepage": "https://www.gmcurl.cn/",
     "license": "Freeware",
