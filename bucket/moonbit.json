@@ -1,5 +1,5 @@
 {
-    "version": "20240219",
+    "version": "00010101",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "Proprietary",
