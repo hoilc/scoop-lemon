@@ -23,6 +23,7 @@
         "Settings",
         "Downloads"
     ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
     "checkver": {
         "url": "https://api.github.com/repos/kvirc/KVIrc/releases/latest",
         "regex": "/releases/download/([\\d.]+)/KVIrc-(?<full>.+?)-x86"
