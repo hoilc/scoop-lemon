@@ -1,5 +1,5 @@
 {
-    "version": "20240219",
+    "version": "00010101",
     "description": "Easily connect to your PostgreSQL, MySQL, MSSQL, SQLite databases, manage Table and execute Query.",
     "homepage": "https://dataflare.app/",
     "license": "Freeware",
