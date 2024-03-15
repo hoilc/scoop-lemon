@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://scryerprologrelease.blob.core.windows.net/release-094/scryer-prolog_windows-latest_x86_64-pc-windows-msvc.zip",
-            "extract_dir": "scryer-prolog_windows-latest_x86_64-pc-windows-msvc",
             "hash": "a9f651ea280aba0ec71d630e6b0a0d3fbfe1b9a874355733d1b1904892e4aa70"
         }
     },
