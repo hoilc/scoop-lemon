@@ -1,16 +1,16 @@
 {
-    "version": "0.4.41",
+    "version": "0.4.43",
     "description": "A tool to discover, validate and evaluate your kubernetes storage options.",
     "homepage": "https://github.com/kastenhq/kubestr",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kastenhq/kubestr/releases/download/v0.4.41/kubestr_0.4.41_Windows_amd64.tar.gz",
-            "hash": "9b6fa4bd5e7230abad85c4ab915a909896053e05c9f2c0729346c42c2f426460"
+            "url": "https://github.com/kastenhq/kubestr/releases/download/v0.4.43/kubestr_0.4.43_Windows_amd64.tar.gz",
+            "hash": "c5f8480929ef60fe8943c6891b84bf6207bb396c1b44824211f6883b8b87f99f"
         },
         "arm64": {
-            "url": "https://github.com/kastenhq/kubestr/releases/download/v0.4.41/kubestr_0.4.41_Windows_arm64.tar.gz",
-            "hash": "01988aebbb7d1b0831e7d70465e69a6327ffc740dcc2517ce1cba3ad07de2036"
+            "url": "https://github.com/kastenhq/kubestr/releases/download/v0.4.43/kubestr_0.4.43_Windows_arm64.tar.gz",
+            "hash": "c62a57e9ec0ba9e761d78db76c0ebe00485abbbb20241096d0201c92acaced00"
         }
     },
     "bin": "kubestr.exe",
