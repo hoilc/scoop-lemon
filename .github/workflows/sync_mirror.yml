@@ -28,17 +28,18 @@ jobs:
         git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i $GITHUB_WORKSPACE/.git_ssh_key"
         git fetch
         git checkout master
-        # merge original
-        git remote add original $GITHUB_WORKSPACE/original
-        git fetch original
-        git merge original/master -Xtheirs -m "(chore): merge original [scoop skip]"
         # substitute
         sed -i 's,"url": "https://github.com/,"url": "https://mirror.ghproxy.com/https://github.com/,g' $GITHUB_WORKSPACE/original/bucket/*.json
         # sync
         rsync -av --delete --cvs-exclude $GITHUB_WORKSPACE/original/ .
-        # push
+        # commit
         git add -A
         git commit -m "(chore): update mirror [scoop skip]" || true
+        # add history
+        git remote add original $GITHUB_WORKSPACE/original
+        git fetch original
+        git rebase original/master -Xtheirs
+        # push
         git push
       env:
         SSH_KEY: ${{ secrets.CODEBERG_SSH_KEY }}
