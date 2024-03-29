@@ -33,7 +33,7 @@ jobs:
         # sync
         rsync -av --delete --cvs-exclude $GITHUB_WORKSPACE/original/ .
         # push
-        git add bucket
+        git add -A
         git commit -m "(chore): update mirror [scoop skip]" || true
         git push
       env:
