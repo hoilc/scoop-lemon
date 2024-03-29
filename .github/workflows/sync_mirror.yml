@@ -11,25 +11,29 @@ jobs:
     - uses: actions/checkout@v4
       with:
         ref: master
-        fetch-depth: 1
+        fetch-depth: 0
         path: original
     - run: |
         # setup key
         echo "$SSH_KEY" > .git_ssh_key
         chmod 600 .git_ssh_key
-        # substitute
-        sed -i 's,"url": "https://github.com/,"url": "https://mirror.ghproxy.com/https://github.com/,g' original/bucket/*.json
         # setup repo
         set -x
         mkdir mirror
         cd mirror
         git init --initial-branch=master
         git remote add origin git@codeberg.org:hoilc/scoop-lemon.git
-        git config user.name 'hoilc'
+        git config user.name 'github-actions[bot]'
         git config user.email 'hoilc@foxmail.com'
         git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i $GITHUB_WORKSPACE/.git_ssh_key"
         git fetch
         git checkout master
+        # merge original
+        git remote add original $GITHUB_WORKSPACE/original
+        git fetch original
+        git merge original/master -Xtheirs -m "(chore): merge original [scoop skip]"
+        # substitute
+        sed -i 's,"url": "https://github.com/,"url": "https://mirror.ghproxy.com/https://github.com/,g' $GITHUB_WORKSPACE/original/bucket/*.json
         # sync
         rsync -av --delete --cvs-exclude $GITHUB_WORKSPACE/original/ .
         # push
