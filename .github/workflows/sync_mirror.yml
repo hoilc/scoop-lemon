@@ -31,7 +31,7 @@ jobs:
         git fetch
         git checkout master
         # sync
-        rsync -av --delete $GITHUB_WORKSPACE/original/ .
+        rsync -av --delete --cvs-exclude $GITHUB_WORKSPACE/original/ .
         # push
         git add bucket
         git commit -m "(chore): update mirror [scoop skip]" || true
