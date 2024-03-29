@@ -22,7 +22,7 @@ scoop install lemon/<app_name>
 <br/>
 
 ```
-scoop bucket add lemon https://atomgit.com/hoilc/scoop-lemon
+scoop bucket add lemon https://codeberg.org/hoilc/scoop-lemon.git
 ```
 
 </details>

@@ -1,25 +1,40 @@
 on:
-#   push:
-#     branches: master
   workflow_dispatch:
   schedule:
-    - cron: '0 */8 * * *'
+  - cron: '0 */8 * * *'
 name: Sync Mirror
 jobs:
   run:
-    name: Sync AtomGit Mirror
+    name: Sync Mirror
     runs-on: ubuntu-latest
     steps:
-#       - uses: styfle/cancel-workflow-action@0.9.0
-#         with:
-#           all_but_latest: true
-#           access_token: ${{ github.token }}
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@atomgit.com:hoilc/scoop-lemon.git
-          ssh_private_key:
-            ${{ secrets.ATOMGIT_SSH_KEY }}
+    - uses: actions/checkout@v4
+      with:
+        ref: master
+        fetch-depth: 1
+        path: original
+    - run: |
+        # setup key
+        echo "$SSH_KEY" > .git_ssh_key
+        chmod 600 .git_ssh_key
+        # substitute
+        sed -i 's,"url": "https://github.com/,"url": "https://mirror.ghproxy.com/https://github.com/,g' original/bucket/*.json
+        # setup repo
+        set -x
+        mkdir mirror
+        cd mirror
+        git init --initial-branch=master
+        git remote add origin git@codeberg.org:hoilc/scoop-lemon.git
+        git config user.name 'hoilc'
+        git config user.email 'hoilc@foxmail.com'
+        git config core.sshCommand "ssh -o StrictHostKeyChecking=no -i $GITHUB_WORKSPACE/.git_ssh_key"
+        git fetch
+        git checkout master
+        # sync
+        rsync -av --delete $GITHUB_WORKSPACE/original/bucket .
+        # push
+        git add bucket
+        git commit -m "(chore): update mirror [scoop skip]" || true
+        git push
+      env:
+        SSH_KEY: ${{ secrets.CODEBERG_SSH_KEY }}
