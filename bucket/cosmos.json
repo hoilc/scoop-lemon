@@ -10,7 +10,7 @@
         }
     },
     "extract_dir": "bin",
-    "note": "PATH is untouched.",
+    "notes": "PATH is untouched.",
     "checkver": {
         "url": "https://cosmo.zip/pub/cosmos/v/",
         "regex": "href=\"([\\d.]+)/\"",
