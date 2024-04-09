@@ -1,16 +1,16 @@
 {
-    "version": "0.1.30",
+    "version": "0.1.31",
     "description": "An extremely fast Python package installer and resolver, written in Rust.",
     "homepage": "https://github.com/astral-sh/uv",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/astral-sh/uv/releases/download/0.1.30/uv-x86_64-pc-windows-msvc.zip",
-            "hash": "0f8a4b6d093a91b638ac1c9683ed484c491e19911249ce64c26cd31501a90206"
+            "url": "https://github.com/astral-sh/uv/releases/download/0.1.31/uv-x86_64-pc-windows-msvc.zip",
+            "hash": "980833bbbbcffb3cf0e2abaf8963cdccfcb4cd378ed980a4168be124efda5c0a"
         },
         "32bit": {
-            "url": "https://github.com/astral-sh/uv/releases/download/0.1.30/uv-i686-pc-windows-msvc.zip",
-            "hash": "9c057e5bb6e86da7477fddea1f942cc605c7b780071875fb9b4c3b1931083199"
+            "url": "https://github.com/astral-sh/uv/releases/download/0.1.31/uv-i686-pc-windows-msvc.zip",
+            "hash": "84b3a4480643c722d7b5a53b219d9e4546b428b9acd5bf003584e3d458b61a4a"
         }
     },
     "bin": "uv.exe",
