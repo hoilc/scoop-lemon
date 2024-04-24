@@ -1,20 +1,20 @@
 {
-    "version": "3.0.0-rc59",
+    "version": "3.0.0-rc61",
     "description": "A tool for extracting metrics from application logs to be exported into a timeseries database or timeseries calculator for alerting and dashboarding.",
     "homepage": "https://github.com/google/mtail",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc59/mtail_3.0.0-rc59_windows_amd64.tar.gz",
-            "hash": "71bf219af79a5a82c1db6044c2ccbadb87a19c84f246e7bb8d131778ba939486"
+            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc61/mtail_3.0.0-rc61_windows_amd64.tar.gz",
+            "hash": "5181c38b0a9443ccf86640d2c78f1dd433e4a5272444b69b639a7367036706fc"
         },
         "32bit": {
-            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc59/mtail_3.0.0-rc59_windows_386.tar.gz",
-            "hash": "d6f529507a5b18813ad99b234a0c83cd714d8674e4e84b8135ae8c5a765926c4"
+            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc61/mtail_3.0.0-rc61_windows_386.tar.gz",
+            "hash": "552c235cdc12ee1c573492fd73f5111f4fa4938d509ae7ed1fa4c2131bb001a8"
         },
         "arm64": {
-            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc59/mtail_3.0.0-rc59_windows_arm64.tar.gz",
-            "hash": "05c65b248c0d0cb94d56526e127bf4a5dd551e1d2b58c662287c79ac5d2c3180"
+            "url": "https://github.com/google/mtail/releases/download/v3.0.0-rc61/mtail_3.0.0-rc61_windows_arm64.tar.gz",
+            "hash": "ca1c78a6f0f8b7eebe95e4c824c6dd059264c989a584b285e4216225ec0399c4"
         }
     },
     "bin": "mtail.exe",
