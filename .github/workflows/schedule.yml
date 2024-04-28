@@ -19,5 +19,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SKIP_UPDATED: '1'
         SCOOP_GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        SCOOP_BRANCH: 'develop'
+        SCOOP_BRANCH: 'master'
         THROW_ERROR: '0'
