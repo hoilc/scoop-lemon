@@ -11,7 +11,7 @@
         },
         "32bit": {
             "url": "https://launchpad.net/simulide/1.1.0/1.1.0-sr0/+download/SimulIDE_1.1.0-SR0_Win32.zip",
-            "extract_dir": "SimulIDE_1.1.0-SR0_Win64",
+            "extract_dir": "SimulIDE_1.1.0-SR0_Win32",
             "hash": "md5:93d97794cf4858cc363965aaff11ce50"
         }
     },
@@ -33,7 +33,7 @@
             },
             "32bit": {
                 "url": "https://launchpad.net/simulide/$matchSeries/$version/+download/SimulIDE_$matchFileversion_Win32.zip",
-                "extract_dir": "SimulIDE_$matchFileversion_Win64"
+                "extract_dir": "SimulIDE_$matchFileversion_Win32"
             }
         },
         "hash": {
