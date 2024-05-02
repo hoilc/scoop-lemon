@@ -24,7 +24,9 @@
         "Config"
     ],
     "checkver": {
-        "regex": "PixPin_([\\d.]+).exe"
+        "url": "https://accounts.viewdepth.cn/deepviewapi/public/pixpin/info",
+        "regex": "\\\\\"version\\\\\":\\\\\"([\\d.]+)",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
