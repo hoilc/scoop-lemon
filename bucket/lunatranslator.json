@@ -34,7 +34,7 @@
         "script": [
             "try { $detail = Invoke-WebRequest 'https://github.com/HIllya51/LunaTranslator/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
             "$atom = [xml]$detail.Content",
-            "$result =  $atom.feed.entry[0].id + '-' + ([DateTime]$atom.feed.entry[0].updated).ToString('yyyyMMddHHmm')",
+            "$result =  $atom.feed.entry[0].id + '-' + ([DateTime]$atom.feed.entry[0].updated).ToUniversalTime().AddHours(8).ToString('yyyyMMddHHmm')",
             "return $result"
         ],
         "regex": "v((?<main>[\\d.]+)-\\d+)"
