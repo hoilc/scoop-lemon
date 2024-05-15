@@ -1,16 +1,16 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.1",
     "description": "讯飞星火大模型终端工具",
     "homepage": "https://github.com/iflytek/spark-ai-cli",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iflytek/spark-ai-cli/releases/download/v0.1.2/aispark-windows-amd64.exe.gz",
-            "hash": "a4761d4476107e77c071292ff968d246543581dbb63a6f89fb1d5fc37f85fe7d"
+            "url": "https://github.com/iflytek/spark-ai-cli/releases/download/v0.1.1/aispark-windows-amd64.exe.gz",
+            "hash": "a612113f27a03d5b141656b8459aae42f3e2d6d01f26a1183279baa26540b285"
         },
         "arm64": {
-            "url": "https://github.com/iflytek/spark-ai-cli/releases/download/v0.1.2/aispark-windows-arm64.exe.gz",
-            "hash": "450aeea6a94645e3214032bd0c7ca8dc35751f2130701243c164f2716b1f4c49"
+            "url": "https://github.com/iflytek/spark-ai-cli/releases/download/v0.1.1/aispark-windows-arm64.exe.gz",
+            "hash": "cde503e448bc92a6e9874f31b6a6770f5726a3a12eaa08ac688af856b7beb208"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'aispark*.exe' | Select-Object -First 1 | Rename-Item -NewName 'aispark.exe'",
