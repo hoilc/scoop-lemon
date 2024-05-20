@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v2.0.10/win-x64_self-contained.zip",
-            "hash": "71f8e1c760748be9a9c288cd406605c0514feff5248ce1481e4e50049167875f"
+            "hash": "15c0772b0487ca619975a4d80694fe6afa22b002249c05f41688b2ee25038c27"
         }
     },
     "bin": "wtq.exe",
