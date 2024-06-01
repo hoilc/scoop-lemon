@@ -12,27 +12,27 @@
     "bin": [
         [
             "main.exe",
-            "whisper"
+            "whisper-cpp"
         ],
         [
             "bench.exe",
-            "whisper-bench"
+            "whisper-cpp-bench"
         ],
         [
             "command.exe",
-            "whisper-command"
+            "whisper-cpp-command"
         ],
         [
             "quantize.exe",
-            "whisper-quantize"
+            "whisper-cpp-quantize"
         ],
         [
             "server.exe",
-            "whisper-server"
+            "whisper-cpp-server"
         ],
         [
             "stream.exe",
-            "whisper-stream"
+            "whisper-cpp-stream"
         ]
     ],
     "checkver": {
