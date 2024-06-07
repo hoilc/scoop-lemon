@@ -1,12 +1,12 @@
 {
-    "version": "15.0.1",
+    "version": "15.1.0",
     "description": "A developer tool for easily managing the Realm Database and Realm Platform.",
     "homepage": "https://realm.io/products/realm-studio/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://static.realm.io/downloads/realm-studio/Realm%20Studio-15.0.1-win.zip",
-            "hash": "2748eeff349112de58bff334710eaa5a3059854c7214a819180a94079b4a9603"
+            "url": "https://static.realm.io/downloads/realm-studio/Realm%20Studio-15.1.0-win.zip",
+            "hash": "33e8ef8b7922d2bd226632de95b15fa28f70e2d6f83808f2482db93c91fff49c"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
