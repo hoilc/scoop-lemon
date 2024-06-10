@@ -26,6 +26,7 @@
     "checkver": {
         "github": "https://github.com/redpanda-data/connect"
     },
+    "notes": "benthos has been renamed to redpanda-connect. Consider installing lemon/redpanda-connect",
     "autoupdate": {
         "architecture": {
             "64bit": {
