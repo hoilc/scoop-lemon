@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cert-manager/cmctl/releases/download/v2.0.0/cmctl_windows_amd64.exe#/cmctl.exe",
             "hash": "f60e0dc98e6fd9c055a0f40dd3405d31c55e1dc3b7aabe9149d882947d24d840"
+        },
+        "arm64": {
+            "url": "https://github.com/cert-manager/cmctl/releases/download/v2.0.0/cmctl_windows_arm64.exe#/cmctl.exe",
+            "hash": "79b2f825e8062533db0dbec4ff13f3b825f6653a6405e0ee4ddcf9b1b80969cd"
         }
     },
     "bin": "cmctl.exe",
