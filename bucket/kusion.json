@@ -1,12 +1,12 @@
 {
-    "version": "0.12.0-rc.2",
+    "version": "0.12.0-rc.3",
     "description": "Kusion is the engine of KusionStack for parsing user's intentions described in Konfig and making them effect in infrastructures.",
     "homepage": "https://github.com/KusionStack/kusion",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KusionStack/kusion/releases/download/v0.12.0-rc.2/kusion_0.12.0-rc.2_windows_amd64.zip",
-            "hash": "9cad36930f857905ba9338410fc81caa46d408be51e654f61309fb6434f0d4e7"
+            "url": "https://github.com/KusionStack/kusion/releases/download/v0.12.0-rc.3/kusion_0.12.0-rc.3_windows_amd64.zip",
+            "hash": "7de56d1d850dda255805611cd5cc2174eb1604723d5cd4bbd0ee5d7b12e2d281"
         }
     },
     "bin": "kusion.exe",
