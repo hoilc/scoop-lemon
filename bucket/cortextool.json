@@ -1,12 +1,12 @@
 {
-    "version": "0.11.1",
+    "version": "0.11.2",
     "description": "A tool for interacting with the various user-facing APIs provided by Cortex.",
     "homepage": "https://github.com/grafana/cortex-tools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/cortex-tools/releases/download/v0.11.1/cortextool-windows-amd64.exe.zip",
-            "hash": "b1179b205c3a64ef1aa5526c4a15ebdf45b2520a72877863cb582bb26e6a0426"
+            "url": "https://github.com/grafana/cortex-tools/releases/download/v0.11.2/cortextool-windows-amd64.exe.zip",
+            "hash": "04c45b5713ad6801d86d78a7cbeeb89df494187bb6fd1d793c6b1afe969fe7b0"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'cortextool-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'cortextool.exe'",
