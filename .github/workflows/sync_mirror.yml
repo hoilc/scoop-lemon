@@ -31,7 +31,7 @@ jobs:
         # merge original
         git remote add original $GITHUB_WORKSPACE/original
         git fetch original
-        git merge original/master -Xtheirs
+        git merge original/master -Xtheirs || true
         git diff --name-only --diff-filter=U | xargs git rm || true
         git commit -m "(chore): merge original [scoop skip]" || true
         # substitute
