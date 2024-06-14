@@ -31,7 +31,9 @@ jobs:
         # merge original
         git remote add original $GITHUB_WORKSPACE/original
         git fetch original
-        git merge original/master -Xtheirs -m "(chore): merge original [scoop skip]"
+        git merge original/master -Xtheirs
+        git diff --name-only --diff-filter=U | xargs git rm || true
+        git commit -m "(chore): merge original [scoop skip]" || true
         # substitute
         sed -i 's,"url": "https://github.com/,"url": "https://mirror.ghproxy.com/https://github.com/,g' $GITHUB_WORKSPACE/original/bucket/*.json
         # sync
