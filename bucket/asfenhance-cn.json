@@ -1,13 +1,13 @@
 {
-    "version": "2.1.8.1",
+    "version": "2.1.8.2",
     "description": "扩展ASF的功能, 增加几条实用命令",
     "homepage": "https://github.com/chr233/ASFEnhance",
     "license": "AGPL-3.0-only",
     "depends": "lemon/archisteamfarm",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chr233/ASFEnhance/releases/download/2.1.8.1/ASFEnhance-zh-Hans.zip",
-            "hash": "1cb5a076b639b2cd32a929d673e7e7b9b7413d05bd9a51eb14348206a5d4a4fa"
+            "url": "https://github.com/chr233/ASFEnhance/releases/download/2.1.8.2/ASFEnhance-zh-Hans.zip",
+            "hash": "b2967f38b931edf194851a179d4c0c0655400b763613e843bda754c38b9262ee"
         }
     },
     "installer": {
