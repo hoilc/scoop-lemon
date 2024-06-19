@@ -10,8 +10,7 @@
         }
     },
     "bin": "lucky.exe",
-    "pre_install": "if (!(Test-Path \"$persist_dir\\lucky.conf\")) { Set-Content -Encoding ASCII -Path \"$dir\\lucky.conf\" -Value $null }",
-    "persist": "lucky.conf",
+    "persist": "luckyConf",
     "checkver": {
         "github": "https://github.com/gdy666/lucky"
     },
