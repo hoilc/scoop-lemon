@@ -1,12 +1,12 @@
 {
-    "version": "0.7.4",
+    "version": "0.8.0",
     "description": "A homebrew lightweight image viewer.",
     "homepage": "https://github.com/BLumia/pineapple-pictures",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BLumia/pineapple-pictures/releases/download/0.7.4/pineapple-pictures-0.7.4-Windows-qt6.5-x86_64.zip",
-            "hash": "c2c668a3f3eeda394b00750d39584b4e3104fd97c914c71daa8fb9cc0a29d88a"
+            "url": "https://github.com/BLumia/pineapple-pictures/releases/download/0.8.0/pineapple-pictures-0.8.0-Windows-qt6.7-x86_64.zip",
+            "hash": "f011aedeca116ab3d1e7f4e3b480dae135b05e56e3ba8abfe0dfa4d4334cc28e"
         }
     },
     "bin": "ppic.exe",
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BLumia/pineapple-pictures/releases/download/$version/pineapple-pictures-$version-Windows-qt6.5-x86_64.zip"
+                "url": "https://github.com/BLumia/pineapple-pictures/releases/download/$version/pineapple-pictures-$version-Windows-qt6.7-x86_64.zip"
             }
         },
         "hash": {
