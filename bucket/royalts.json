@@ -1,16 +1,16 @@
 {
-    "version": "7.02.50617.0",
+    "version": "7.02.50703.0",
     "description": "Comprehensive Remote Management Solution",
     "homepage": "https://www.royalapps.com/ts/win",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://download.royalapps.com/royalts/royalts_7.02.50617.0_x64.zip",
-            "hash": "b4587652601192efb495644662ed233edd787910efd52cde8a60193f9afce824"
+            "url": "https://download.royalapps.com/royalts/royalts_7.02.50703.0_x64.zip",
+            "hash": "fde88a823fb09493e69fe6a009da7109a0e4a29651bc3fb0dbafc8fb19000e02"
         },
         "arm64": {
-            "url": "https://download.royalapps.com/royalts/royalts_7.02.50617.0_x64.zip",
-            "hash": "b4587652601192efb495644662ed233edd787910efd52cde8a60193f9afce824"
+            "url": "https://download.royalapps.com/royalts/royalts_7.02.50703.0_x64.zip",
+            "hash": "fde88a823fb09493e69fe6a009da7109a0e4a29651bc3fb0dbafc8fb19000e02"
         }
     },
     "post_install": [
