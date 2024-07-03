@@ -1,12 +1,12 @@
 {
-    "version": "1.6.3",
+    "version": "1.6.4",
     "description": "FlashPad是一款轻便的笔记工具。随时按下快捷键(缺省为Alt+Z)可调出它",
     "homepage": "http://www.haoxg.net/tools.html#flashpad",
     "license": "Freeware",
-    "url": "http://www.haoxg.net/download/flashpad-1.6.3.zip",
-    "hash": "50895b9930f48780114140566d41b7ee5f03ae2bd20f8ce337b05f67b8aab1de",
+    "url": "http://www.haoxg.net/download/flashpad-1.6.4.zip",
+    "hash": "be1d6ffd0e81a3986f6b6d15a3d15f9c51dbfd8daf496f969aac5fe102b35cb2",
     "bin": "FlashPad.exe",
-    "extract_dir": "FlashPad-1.6.3",
+    "extract_dir": "FlashPad-1.6.4",
     "shortcuts": [
         [
             "FlashPad.exe",
