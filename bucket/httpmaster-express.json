@@ -1,13 +1,13 @@
 {
-    "version": "5.8.6",
+    "version": "5.8.7",
     "description": "A professional test tool for HTTP applications, with special focus on RESTful web services and web API applications.",
     "homepage": "https://www.httpmaster.net",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.httpmaster.net/license/express_license"
     },
-    "url": "https://www.httpmaster.net/downloads/httpmaster_exp_5.8.6.msi",
-    "hash": "aad27ed11d6c8427d4d0b86375eb381624d808df02cad683c964e55fae34488a",
+    "url": "https://www.httpmaster.net/downloads/httpmaster_exp_5.8.7.msi",
+    "hash": "63e665cc2fba49f509f1929c22bcf7ca7110174cc3150bbcefe1e74f48a9b916",
     "shortcuts": [
         [
             "HttpMaster.Windows.exe",
