@@ -1,5 +1,5 @@
 {
-    "version": "20240626",
+    "version": "20240706",
     "description": "The next-generation version of CHIRP, a free, open-source tool for programming your amateur radio that supports a large number of manufacturers and models.",
     "homepage": "https://chirp.danplanet.com/projects/chirp/wiki/Home",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://trac.chirp.danplanet.com/chirp_next/next-20240626/chirp-next-20240626-win64.zip",
-            "hash": "sha1:df785d33927cb1fd618a2b133d17ee56babbf8d2"
+            "url": "https://trac.chirp.danplanet.com/chirp_next/next-20240706/chirp-next-20240706-win64.zip",
+            "hash": "sha1:f81e0660173b22063c3f0856ac9c8de9502bba64"
         }
     },
     "bin": [
