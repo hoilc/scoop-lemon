@@ -1,16 +1,16 @@
 {
-    "version": "1560",
+    "version": "1561",
     "description": "A free implementation of the Remote Desktop Protocol (RDP).",
     "homepage": "https://www.freerdp.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1560/arch=win64,label=vs2017/artifact/*zip*/archive.zip",
-            "hash": "acd613a184bcbbd67cbb14fa9a0a8a6d23671b5b492d2af8fda3e299d66fbc91"
+            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1561/arch=win64,label=vs2017/artifact/*zip*/archive.zip",
+            "hash": "c9c2a7d148846f30617316dd61f5a911f0a41507f778ff6e2c53af1790cb9e33"
         },
         "32bit": {
-            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1560/arch=win32,label=vs2017/artifact/*zip*/archive.zip",
-            "hash": "77ec45218abed425689b0e1b2a5e4fc711f8ac5847756e17f762812ea1201f70"
+            "url": "https://ci.freerdp.com/job/freerdp-nightly-windows/1561/arch=win32,label=vs2017/artifact/*zip*/archive.zip",
+            "hash": "493e0839466f0b8c44f7f7514598b478782dda1528ddbeefe0b223a7357f6c44"
         }
     },
     "extract_dir": "archive\\install\\bin",
