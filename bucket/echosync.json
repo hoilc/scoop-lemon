@@ -1,5 +1,5 @@
 {
-    "version": "7.5.0.4",
+    "version": "7.5.1.0",
     "description": "A simple and fast software for differential file synchronization.",
     "homepage": "https://www.luminescence-software.org/en/echosync",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.luminescence-software.org/download/echosync/Echosync-Portable-7504.exe#/dl.7z",
-            "hash": "425b44445102b0828f42c66738d5802efc1eb8138ae1012bb3f8263aa8705130"
+            "url": "https://www.luminescence-software.org/download/echosync/Echosync-Portable-7510.exe#/dl.7z",
+            "hash": "b7a8ccaa44f91f99ccf3d7c41dac020fd16f48fa566b418be66893f6015a6cd0"
         }
     },
     "extract_dir": "Echosync75",
