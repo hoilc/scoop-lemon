@@ -1,0 +1,48 @@
+{
+    "##": "The shortcut will be created when adding the Appx package",
+    "version": "1.10.6",
+    "description": "胡桃工具箱是一个实用的开源多功能原神工具箱 / Snap Hutao is a multifunctional open-source Genshin Impact toolkit",
+    "homepage": "https://hut.ao/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.qhy04.cc/https://github.com/DGP-Studio/Snap.Hutao/releases/download/1.10.6/Snap.Hutao.1.10.6.msix#/Snap.Hutao.msix",
+            "hash": "979639caa50e272b0585de0898dae4a3544c5b75a6f33914a482bcd748c4cc23"
+        }
+    },
+    "pre_install": [
+        "if ($env:CI -eq \"true\") { Return }",
+        "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
+        "$minimumBuildNumber = 19045",
+        "if ($currentBuildNumber -lt $minimumBuildNumber) {",
+        "    error \"Minimum Required OS is Windows 10 Build 19045 (22H2)\"",
+        "    exit 1",
+        "}",
+        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+        "Add-AppxPackage \"$dir\\Snap.Hutao.msix\" -ForceTargetApplicationShutdown"
+    ],
+    "pre_uninstall": [
+        "if ($env:CI -eq \"true\") { Return }",
+        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+        "$package = Get-AppxPackage '60568DGPStudio.SnapHutao'",
+        "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
+        "if ($purge) {",
+        "    Remove-AppxPackage $package",
+        "} else {",
+        "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
+        "}"
+    ],
+    "checkver": {
+        "github": "https://github.com/DGP-Studio/Snap.Hutao"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/DGP-Studio/Snap.Hutao/releases/download/$version/Snap.Hutao.$version.msix#/Snap.Hutao.msix"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
