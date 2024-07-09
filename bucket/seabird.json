@@ -1,12 +1,12 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "A native Kubernetes desktop client that makes it super easy to explore your cluster's resources.",
     "homepage": "https://github.com/getseabird/seabird",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getseabird/seabird/releases/download/v0.3.2/seabird_windows_amd64.msi",
-            "hash": "112b48603fb57e62b40c219dcbd1aceb1ecb0d047912b88c43f4ad48cc36d6ff"
+            "url": "https://github.com/getseabird/seabird/releases/download/v0.3.3/seabird_windows_amd64.msi",
+            "hash": "83f0ad69b7c66d0c76245245b357ddf516a8a3e3945fd1485c9fbfab3008c2b7"
         }
     },
     "shortcuts": [
