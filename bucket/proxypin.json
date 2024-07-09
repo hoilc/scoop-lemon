@@ -1,12 +1,12 @@
 {
-    "version": "1.0.9",
+    "version": "V1.1.0",
     "description": "开源免费的跨平台抓包软件，支持手机扫码连接",
     "homepage": "https://github.com/wanghongenpin/network_proxy_flutter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wanghongenpin/network_proxy_flutter/releases/download/1.0.9/ProxyPin-Windows.zip",
-            "hash": "65b2e1c969529a8a7476f677bf0dce8f5ddb482426701b06bfcbd02bcf4da8e0"
+            "url": "https://github.com/wanghongenpin/network_proxy_flutter/releases/download/V1.1.0/ProxyPin-Windows.zip",
+            "hash": "e96c337698015a5ca1d65518110e95cf686eeca097fc91570239e9c5e3ecaf51"
         }
     },
     "extract_dir": "ProxyPin",
