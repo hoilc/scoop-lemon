@@ -1,0 +1,35 @@
+{
+    "version": "1.6.9",
+    "description": "A Windows desktop toolbar.",
+    "homepage": "https://github.com/ATGH15102AFMLD/Linkbar",
+    "license": "MIT",
+    "url": "https://github.com/ATGH15102AFMLD/Linkbar/releases/download/v1.6.9/Linkbar_1_6_9.zip",
+    "hash": "907e4d757a0d51cb164da26489497193b4514b2d9b2b3324306def7b971b3a7f",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Remove-Item -Force \"$dir\\Linkbar.exe\"",
+                    "Rename-Item -Path \"$dir\\Linkbar64.exe\" -NewName 'Linkbar.exe'"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "Remove-Item -Force \"$dir\\Linkbar64.exe\""
+            }
+        }
+    },
+    "bin": "Linkbar.exe",
+    "shortcuts": [
+        [
+            "Linkbar.exe",
+            "Linkbar"
+        ]
+    ],
+    "persist": "Shared bars",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ATGH15102AFMLD/Linkbar/releases/download/v$version/Linkbar_$underscoreVersion.zip"
+    }
+}
