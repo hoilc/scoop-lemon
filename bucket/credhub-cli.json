@@ -1,12 +1,12 @@
 {
-    "version": "2.9.33",
+    "version": "2.9.34",
     "description": "CredHub CLI provides a command line interface to interact with CredHub servers.",
     "homepage": "https://github.com/cloudfoundry/credhub-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudfoundry/credhub-cli/releases/download/2.9.33/credhub-windows-amd64-2.9.33.tgz",
-            "hash": "48e892d83aad8517bc8cb9de3a5ed0998fb402a2b8beef55d18b526a66288227"
+            "url": "https://github.com/cloudfoundry/credhub-cli/releases/download/2.9.34/credhub-windows-amd64-2.9.34.tgz",
+            "hash": "5856905d54d00ff6acd7ff007ef05ac02eb6cd6e4979d34c35f676ec1f977f75"
         }
     },
     "bin": "credhub.exe",
