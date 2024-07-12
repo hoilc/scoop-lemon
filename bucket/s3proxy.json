@@ -1,0 +1,26 @@
+{
+    "version": "2.2.0",
+    "description": "Access other storage backends via the S3 API.",
+    "homepage": "https://github.com/gaul/s3proxy",
+    "license": "Apache-2.0",
+    "url": "https://p.85627052.xyz/https://github.com/gaul/s3proxy/releases/download/s3proxy-2.2.0/s3proxy#/s3proxy.jar",
+    "hash": "dc1408dc3780e22b53fc34b97c6d0ee3a6a595cc3b120955cd98676a4bcb397b",
+    "bin": "s3proxy.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
+    "notes": "You need to have JRE 11 installed on your computer to use S3Proxy.",
+    "checkver": {
+        "url": "https://github.com/gaul/s3proxy/releases.atom",
+        "regex": "Repository/\\d+/s3proxy-(.+?)<"
+    },
+    "persist": "conf",
+    "autoupdate": {
+        "url": "https://github.com/gaul/s3proxy/releases/download/s3proxy-$version/s3proxy#/s3proxy.jar"
+    }
+}
