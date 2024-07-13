@@ -1,12 +1,12 @@
 {
-    "version": "0.1.22",
+    "version": "0.1.23",
     "description": "A single binary, single command SQL database explorer, supports local SQLite DB files, libSQL servers, PostgreSQL and MySQL.",
     "homepage": "https://github.com/frectonz/sql-studio",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/frectonz/sql-studio/releases/download/0.1.22/sql-studio-x86_64-pc-windows-msvc.zip",
-            "hash": "656fca015ce5c0c15cb3bdc2892c8ab815f3cb6885ad0c217d3868925491ee13"
+            "url": "https://github.com/frectonz/sql-studio/releases/download/0.1.23/sql-studio-x86_64-pc-windows-msvc.zip",
+            "hash": "9fce64afb5cf7dbb874c6a0d64486eedc94e0679715a99e38e7445c728655263"
         }
     },
     "bin": "sql-studio.exe",
