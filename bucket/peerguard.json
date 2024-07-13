@@ -1,16 +1,16 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "P2P network library in Go. Committed to direct communication between devices.",
     "homepage": "https://github.com/rkonfj/peerguard",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rkonfj/peerguard/releases/download/v0.6.0/pgcli-v0.6.0-windows-amd64.zip",
-            "hash": "8add5bb533e5d00bbff940f615a775d283caef19c7fec34966e633094c6c72fa"
+            "url": "https://github.com/rkonfj/peerguard/releases/download/v0.6.1/pgcli-v0.6.1-windows-amd64.zip",
+            "hash": "560b9e9b98df7335465988bc501e656d099e7166d4f384157de73f5575dcf3ed"
         },
         "arm64": {
-            "url": "https://github.com/rkonfj/peerguard/releases/download/v0.6.0/pgcli-v0.6.0-windows-arm64.zip",
-            "hash": "e8b8c1468d9f2846b340fd804002c4748ee14bd58e59784a309425a5c8e6f8cd"
+            "url": "https://github.com/rkonfj/peerguard/releases/download/v0.6.1/pgcli-v0.6.1-windows-arm64.zip",
+            "hash": "4c2458f29e272cc1c75d2f8f0e76729fe7387b374f93285e6d6af4dab4c7e912"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'pgcli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pgcli.exe'",
