@@ -1,0 +1,23 @@
+{
+    "version": "0.1.2",
+    "description": "Typikon lets you use markdown to write your online books.",
+    "homepage": "https://typikonbook.github.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/auula/typikon/releases/download/v0.1.2/typikon-v0.1.2-windows-amd64.zip",
+            "hash": "3bf21a5e2e1ad5ab977ae987fb263df11e5d663f68bd4f33e9c76ce6171c9d95"
+        }
+    },
+    "bin": "typikon.exe",
+    "checkver": {
+        "github": "https://github.com/auula/typikon"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/auula/typikon/releases/download/v$version/typikon-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
