@@ -1,0 +1,36 @@
+{
+    "version": "1.4",
+    "description": "Removable Access Tool (a.k.a. Ratool) is a freeware application which aids in the control of external storage devices such as USB flash drives.",
+    "homepage": "https://www.sordum.org/8104/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.sordum.org/eula/"
+    },
+    "url": "https://www.sordum.org/files/download/ratool/Ratool.zip",
+    "hash": "3046bdd91502e5adb9b0d041a8439f5283d7df17aa7f6d210980e5a567d9d419",
+    "extract_dir": "Ratool_v1.4",
+    "shortcuts": [
+        [
+            "Ratool.exe",
+            "Removable Access Tool"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Remove-Item -Force \"$dir\\Ratool.exe\"",
+                "Rename-Item -Path \"$dir\\Ratool_x64.exe\" -NewName 'Ratool.exe'"
+            ]
+        },
+        "32bit": {
+            "pre_install": "Remove-Item -Force \"$dir\\Ratool_x64.exe\""
+        }
+    },
+    "checkver": {
+        "regex": "Ratool v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/ratool/Ratool.zip",
+        "extract_dir": "Ratool_v$version"
+    }
+}
