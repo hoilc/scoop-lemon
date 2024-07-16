@@ -1,12 +1,12 @@
 {
-    "version": "6.3",
+    "version": "6.4",
     "description": "A plain-text file format and a command line tool for time tracking.",
     "homepage": "https://klog.jotaen.net",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jotaen/klog/releases/download/v6.3/klog-windows.zip",
-            "hash": "b70a52e212fcf6cab89dc0c103338e080aa7830a6671b2df321f8f01840e94b4"
+            "url": "https://github.com/jotaen/klog/releases/download/v6.4/klog-windows.zip",
+            "hash": "7a0bc8d3bef57544189023de88536031582246a3f4b2e9a3743d1353e642dc88"
         }
     },
     "bin": "klog.exe",
