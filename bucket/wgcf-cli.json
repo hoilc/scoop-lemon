@@ -1,0 +1,39 @@
+{
+    "version": "0.3.6",
+    "description": "A command-line tool for Cloudflare-WARP API, built using Cobra.",
+    "homepage": "https://github.com/ArchiveNetwork/wgcf-cli",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v0.3.6/wgcf-cli-windows-64.tar.zstd",
+            "hash": "sha512:80d85984e07a19ef8a226c390ecdf9c1b195d4bb91e637f90999038efdb0d3eed075dbdd8d40b7dd1bbfc3713c283db62c5f704400b41fe73827c964618c8cd0"
+        },
+        "32bit": {
+            "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v0.3.6/wgcf-cli-windows-32.tar.zstd",
+            "hash": "sha512:586211b34421d3b86568064c8df48a8eeb8fcaa552123407d5e9c338d9202c45aa9292773ee34e7ca3654b79c2902f088bb708ea8fc39a3a27b0aeb6b3050b7d"
+        },
+        "arm64": {
+            "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v0.3.6/wgcf-cli-windows-arm64-v8a.tar.zstd",
+            "hash": "sha512:49074e071a734f666e0e925d0090f864419137a166bfc08728aa5d190731ef9d52064d679a4847866b1ae1ab6983788af1155fc7ad7ab4c5a0ae943f32c35fe1"
+        }
+    },
+    "bin": "wgcf-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v$version/wgcf-cli-windows-64.tar.zstd"
+            },
+            "32bit": {
+                "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v$version/wgcf-cli-windows-32.tar.zstd"
+            },
+            "arm64": {
+                "url": "https://github.com/ArchiveNetwork/wgcf-cli/releases/download/v$version/wgcf-cli-windows-arm64-v8a.tar.zstd"
+            }
+        },
+        "hash": {
+            "url": "$url.dgst",
+            "regex": "$sha512"
+        }
+    }
+}
