@@ -1,0 +1,40 @@
+{
+    "version": "3.4.0",
+    "description": "Beaver Notes is an open-source note taking app built for Privacy and Efficiency.",
+    "homepage": "https://www.beavernotes.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.4.0/Beaver-notes.Setup.3.4.0.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "9d7fdffb052dc0aa699124adf607a13b0de5a0fc33bab2099cccc837af1a3963"
+        },
+        "arm64": {
+            "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.4.0/Beaver-notes.Setup.3.4.0.arm64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+            "hash": "541b67e7766608b0b385d459f715e9f554cdf81eae5ebbfdc18290a7d00d0b31"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "shortcuts": [
+        [
+            "Beaver-notes.exe",
+            "Beaver Notes",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://github.com/Beaver-Notes/Beaver-Notes"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver-notes.Setup.$version.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver-notes.Setup.$version.arm64.exe#/dl.7z"
+            }
+        }
+    }
+}
