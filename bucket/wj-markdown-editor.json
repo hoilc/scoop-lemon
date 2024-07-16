@@ -1,12 +1,12 @@
 {
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "一款支持webdav的开源桌面端markdown编辑器",
     "homepage": "https://github.com/nlbwqmz/wj-markdown-editor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nlbwqmz/wj-markdown-editor/releases/download/1.4.2/wj-markdown-editor-win32-x64-1.4.2.zip",
-            "hash": "dcb316acde6e7607ca5e27a3c5a2504591b082564b25177c2bcf33a77bf44719"
+            "url": "https://github.com/nlbwqmz/wj-markdown-editor/releases/download/1.4.3/wj-markdown-editor-win32-x64-1.4.3.zip",
+            "hash": "15ae34f22c254cbc3ce0cea7109286d4597c109b6d52cce2ac5c16d0138b7ef7"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
