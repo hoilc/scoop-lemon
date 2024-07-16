@@ -15,7 +15,7 @@
             "hash": "541b67e7766608b0b385d459f715e9f554cdf81eae5ebbfdc18290a7d00d0b31"
         }
     },
-    "post_install": "Remove-Item \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
     "shortcuts": [
         [
             "Beaver-notes.exe",
