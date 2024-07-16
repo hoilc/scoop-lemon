@@ -16,7 +16,7 @@
         [
             "MongoDBCompassIsolatedEdition.exe",
             "MongoDB Compass Isolated Edition",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

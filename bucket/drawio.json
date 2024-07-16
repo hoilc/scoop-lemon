@@ -25,14 +25,14 @@
         [
             "draw.io.exe",
             "draw.io",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "draw.io.exe",
             "Draw.io",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

@@ -14,14 +14,14 @@
         [
             "Min.exe",
             "Min",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "Min.exe",
             "Min",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

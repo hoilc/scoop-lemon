@@ -20,14 +20,14 @@
         [
             "NordPass.exe",
             "NordPass",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "NordPass.exe",
             "NordPass",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

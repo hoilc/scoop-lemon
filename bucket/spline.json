@@ -17,14 +17,14 @@
         [
             "Spline.exe",
             "Spline",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "Spline.exe",
             "Spline",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

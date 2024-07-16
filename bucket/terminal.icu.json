@@ -17,14 +17,14 @@
         [
             "terminal.icu.exe",
             "terminal.icu",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "terminal.icu.exe",
             "Terminal.icu",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",

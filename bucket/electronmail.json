@@ -17,14 +17,14 @@
         [
             "ElectronMail.exe",
             "ElectronMail",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "ElectronMail.exe",
             "ElectronMail",
-            "--user-data-dir=\"User Data\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "env_set": {
