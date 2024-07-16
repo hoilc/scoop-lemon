@@ -22,14 +22,14 @@
         [
             "obs-browser-plus.exe",
             "obs-browser-plus",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "obs-browser-plus.exe",
             "OBS Browser+",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

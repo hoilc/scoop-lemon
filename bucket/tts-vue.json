@@ -19,14 +19,14 @@
         [
             "tts-vue.exe",
             "tts-vue",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "tts-vue.exe",
             "TTS-Vue",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

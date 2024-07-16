@@ -18,14 +18,14 @@
         [
             "cosbrowser.exe",
             "cosbrowser",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "cosbrowser.exe",
             "COSBrowser",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

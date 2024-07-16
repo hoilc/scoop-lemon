@@ -16,7 +16,7 @@
         [
             "MongoDBCompassReadonly.exe",
             "MongoDB Compass Readonly Edition",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

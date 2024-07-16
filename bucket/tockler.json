@@ -20,14 +20,14 @@
         [
             "Tockler.exe",
             "Tockler",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "Tockler.exe",
             "Tockler",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

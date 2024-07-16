@@ -14,14 +14,14 @@
         [
             "Feishin.exe",
             "Feishin",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "Feishin.exe",
             "Feishin",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

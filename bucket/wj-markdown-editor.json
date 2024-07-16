@@ -14,7 +14,7 @@
         [
             "wj-markdown-editor.exe",
             "wj-markdown-editor",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",

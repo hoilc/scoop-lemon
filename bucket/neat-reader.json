@@ -13,14 +13,14 @@
         [
             "NeatReader.exe",
             "NeatReader",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "shortcuts": [
         [
             "NeatReader.exe",
             "Neat Reader",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",
