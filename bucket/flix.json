@@ -1,0 +1,30 @@
+{
+    "version": "0.5.3",
+    "description": "Flix 快传，像聊天一样传文件",
+    "homepage": "https://flix.center/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://verification.ifreedomer.com/flix/flix_win.beta.v0.5.3.zip",
+            "hash": "4ec4e117332237caa5cdadd9c91ea2e4e372dce5880ca7e30725d22c7ca2e097"
+        }
+    },
+    "extract_dir": "flix",
+    "shortcuts": [
+        [
+            "flix.exe",
+            "Flix"
+        ]
+    ],
+    "checkver": {
+        "url": "https://fl1x.mashiro.asia/assets/download.js",
+        "regex": "flix_win.(?<prefix>.*?)v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://verification.ifreedomer.com/flix/flix_win.$matchPrefixv$version.zip"
+            }
+        }
+    }
+}
