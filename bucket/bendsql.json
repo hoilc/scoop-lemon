@@ -1,12 +1,12 @@
 {
-    "version": "0.18.3",
+    "version": "0.19.0",
     "description": "A command line tool for Databend.",
     "homepage": "https://docs.databend.com/guides/sql-clients/bendsql",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/datafuselabs/bendsql/releases/download/v0.18.3/bendsql-x86_64-pc-windows-msvc.zip",
-            "hash": "f8f50099a6fc68c3701b5e40a74898feddb84e3b4a90112ed6bf7e269f2137b1"
+            "url": "https://github.com/datafuselabs/bendsql/releases/download/v0.19.0/bendsql-x86_64-pc-windows-msvc.zip",
+            "hash": "b86b0bef25c8803754fb9d6dca7fe866ce889999b858d1523f33ee3c21f9800c"
         }
     },
     "extract_dir": "target\\x86_64-pc-windows-msvc\\release",
