@@ -1,18 +1,18 @@
 {
-    "version": "0.8.3",
+    "version": "0.9.0",
     "description": "The CLI for KubeBlocks, an open source system software that runs and manages data infrastructure on K8s.",
     "homepage": "https://kubeblocks.io/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/apecloud/kbcli/releases/download/v0.8.3/kbcli-windows-amd64-v0.8.3.zip",
+            "url": "https://github.com/apecloud/kbcli/releases/download/v0.9.0/kbcli-windows-amd64-v0.9.0.zip",
             "extract_dir": "windows-amd64",
-            "hash": "d49099e89564fb1d6cc5e875b7a00b7b0d4e81b041af0dd5a65d6001eacee5c9"
+            "hash": "0095ede299ce165c49e9d00f8af3de1c17aa8787528617f24dc00413b5fd4aa1"
         },
         "arm64": {
-            "url": "https://github.com/apecloud/kbcli/releases/download/v0.8.3/kbcli-windows-arm64-v0.8.3.zip",
+            "url": "https://github.com/apecloud/kbcli/releases/download/v0.9.0/kbcli-windows-arm64-v0.9.0.zip",
             "extract_dir": "windows-arm64",
-            "hash": "41aa834c37843dc425358d908d97fe42d9ba5944264ab3b421ac7abf84361db1"
+            "hash": "1f3b296d8242ed674336b5e9f585984e11857aff3cf9620318b8735fa02709cc"
         }
     },
     "bin": "kbcli.exe",
