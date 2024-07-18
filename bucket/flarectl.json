@@ -1,16 +1,16 @@
 {
-    "version": "0.99.0",
+    "version": "0.100.0",
     "description": "A CLI application for interacting with a Cloudflare account.",
     "homepage": "https://github.com/cloudflare/cloudflare-go/tree/master/cmd/flarectl",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v0.99.0/flarectl_0.99.0_windows_amd64.tar.gz",
-            "hash": "54c1bb795a7f5d35fd5d9e6aa5cb4a3b3e07434f265787c1ddd34087875da3d8"
+            "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v0.100.0/flarectl_0.100.0_windows_amd64.tar.gz",
+            "hash": "ecc4d95be49bef6255c32cac25b602eace8aaf97b6975d8261fcdf172974a0c1"
         },
         "arm64": {
-            "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v0.99.0/flarectl_0.99.0_windows_arm64.tar.gz",
-            "hash": "4c47f52cd365c2c88f71583d6ab5e8e22688607103c26243faf737e66aa02e90"
+            "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v0.100.0/flarectl_0.100.0_windows_arm64.tar.gz",
+            "hash": "0c1f775cd802994409943abaafc25ed1b853b1af2846ad00c9be8d393d0c2310"
         }
     },
     "bin": "flarectl.exe",
