@@ -1,16 +1,16 @@
 {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "description": "A lightweight tool for simplifying the cluster management of K3s, it can help you run K3s everywhere.",
     "homepage": "https://github.com/cnrancher/autok3s",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.2/autok3s_windows_amd64.exe#/autok3s.exe",
-            "hash": "d0f7d294e14e8360f91616918396bd764adfa01e7f72fa4c0f7d401e87385671"
+            "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_amd64.exe#/autok3s.exe",
+            "hash": "850cd26c83c8b98a7a32b032abf23d8da8bc84ab34ef4149192480add29ca6c8"
         },
         "32bit": {
-            "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.2/autok3s_windows_386.exe#/autok3s.exe",
-            "hash": "605622972adb9964018ad122d077bc116756d4e6b54d016e96af5a4cb384034d"
+            "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_386.exe#/autok3s.exe",
+            "hash": "78480f63a9043d03953e2274aa1bbe61fce53eb901f4164f212b454fbcfe4a5e"
         }
     },
     "bin": "autok3s.exe",
