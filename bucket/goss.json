@@ -1,12 +1,12 @@
 {
-    "version": "0.4.7",
+    "version": "0.4.8",
     "description": "A YAML based serverspec alternative tool for validating a server’s configuration.",
     "homepage": "https://goss.rocks/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goss-org/goss/releases/download/v0.4.7/goss-windows-amd64.exe#/goss.exe",
-            "hash": "b23d7142af403f4676d0abffc61e8add6f5a70a56e97e1eb37be1734993b2e64"
+            "url": "https://github.com/goss-org/goss/releases/download/v0.4.8/goss-windows-amd64.exe#/goss.exe",
+            "hash": "968bc072e1a83adc50b069ea6b4f83211ee7f19c29f0ef06c10292508bcdeaf5"
         }
     },
     "bin": "goss.exe",
