@@ -1,12 +1,12 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "The CLI for Iroh, a protocol for syncing & moving bytes.",
     "homepage": "https://iroh.computer/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/n0-computer/iroh/releases/download/v0.20.0/iroh-v0.20.0-x86_64-pc-windows-msvc.zip",
-            "hash": "63de2836c38a27f6167a6b5d818a18702711d71a237e06389000340f6ae66549"
+            "url": "https://github.com/n0-computer/iroh/releases/download/v0.21.0/iroh-v0.21.0-x86_64-pc-windows-msvc.zip",
+            "hash": "491e332fb1e7fda1a0ca5dba481186f40a4a948a11c5c18b2570d6ad408141d8"
         }
     },
     "bin": "iroh.exe",
