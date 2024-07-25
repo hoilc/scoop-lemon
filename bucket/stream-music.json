@@ -1,13 +1,13 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "1.2.9.1",
+    "version": "1.3.0.5",
     "description": "音流 (Stream Music) 是一款 NAS 音乐播放器，可以连接到 Subsonic/Navidrome/Jellyfin/Emby/AudioStation 等音乐服务",
     "homepage": "https://music.aqzscn.cn/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://oss.aqzscn.cn/stream-music/versions/1.2.9/stream_music_1.2.9.1.msix#/stream_music.msix",
-            "hash": "0a8e5680c50f6ebc5c3e6db18ace7fb006d15e34eea73132f6148d239ada1a1b"
+            "url": "https://oss.aqzscn.cn/stream-music/versions/1.3.0/stream_music_1.3.0.5.msix#/stream_music.msix",
+            "hash": "d0b73f1f50e081fe74c96992ead5bc8963f727ef7a8376d91cf036463c207ac6"
         }
     },
     "pre_install": [
