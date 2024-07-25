@@ -1,12 +1,12 @@
 {
-    "version": "0.4.7",
+    "version": "0.4.8",
     "description": "A terminal emulation and remote desktop software that supports multiple backend protocols.",
     "homepage": "https://quardcrt.rtfd.io",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/QQxiaoming/quardCRT/releases/download/V0.4.7/quardCRT_windows_V047_x86_64_msvc_setup.exe",
-            "hash": "d75212ad4d5f42c1153d7306f38497daf4e39dc4fef892ab6c911bd529d06082"
+            "url": "https://github.com/QQxiaoming/quardCRT/releases/download/V0.4.8/quardCRT_windows_V048_x86_64_msvc_setup.exe",
+            "hash": "2b8872fa8cfb81d9d3c72bf23edbab25d02032d11be95b0695289f9c505bfc2c"
         }
     },
     "innosetup": true,
