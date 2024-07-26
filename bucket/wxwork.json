@@ -1,10 +1,10 @@
 {
-    "version": "4.1.27.8111",
+    "version": "4.1.28.6005",
     "description": "企业微信是腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验，丰富免费的OA应用，并与微信消息、小程序、微信支付等互通，助力企业高效办公和管理",
     "homepage": "https://work.weixin.qq.com/",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.27.8111.exe#/dl.7z",
-    "hash": "8fcdffb4e10b24cf23e150f96a98a0a20b348b7d3e905efbae37924a383b9ea0",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.28.6005.exe#/dl.7z",
+    "hash": "fe454acaf5455b49414167a6c3000f8ebd9070fb708c9dabdbeee7cd2b6c68c8",
     "shortcuts": [
         [
             "WXWork.exe",
