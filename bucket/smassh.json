@@ -1,12 +1,12 @@
 {
-    "version": "3.1.3",
+    "version": "3.1.4",
     "description": "A TUI based typing test application inspired by MonkeyType.",
     "homepage": "https://github.com/kraanzu/smassh",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kraanzu/smassh/releases/download/v3.1.3/windows-smassh.exe#/smassh.exe",
-            "hash": "dd838f1084d6a61b51756a425ef65804e32637b1d4eca4b3f62cefa904fe6cf6"
+            "url": "https://github.com/kraanzu/smassh/releases/download/v3.1.4/windows-smassh.exe#/smassh.exe",
+            "hash": "783793c166b26074ab394a727fa829a14bad667e2111c4d1512826672281ff7e"
         }
     },
     "bin": "smassh.exe",
