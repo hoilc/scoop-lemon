@@ -1,0 +1,21 @@
+{
+    "version": "2.1alpha",
+    "description": "L-SMASH Muxer GUI 2 is a graphic interface for L-SMASH Muxer/Remuxer, It can support muxing/remuxing of video, audio and chapter.",
+    "homepage": "https://github.com/amefs/lsmash-muxer-gui",
+    "license": "Freeware",
+    "url": "https://github.com/amefs/lsmash-muxer-gui/releases/download/v2.1alpha/l-smash-GUI-2.7z",
+    "hash": "0f406c5657356d7b47cd5d665d0005f727af8865b0d6f477784d556e7763829a",
+    "shortcuts": [
+        [
+            "lsmash-gui-2.exe",
+            "L-SMASH Muxer GUI"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/amefs/lsmash-muxer-gui/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/amefs/lsmash-muxer-gui/releases/download/v$version/l-smash-GUI-2.7z"
+    }
+}
