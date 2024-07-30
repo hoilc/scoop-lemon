@@ -1,16 +1,16 @@
 {
-    "version": "20240716",
+    "version": "20240730",
     "description": "A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64.",
     "homepage": "https://github.com/xtaci/kcptun",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xtaci/kcptun/releases/download/v20240716/kcptun-windows-amd64-20240716.tar.gz",
-            "hash": "b54fd47e8c58606dce4efa02c9c7a884bc0a8ccdc3530c6bb73dd6e58f76bf3c"
+            "url": "https://github.com/xtaci/kcptun/releases/download/v20240730/kcptun-windows-amd64-20240730.tar.gz",
+            "hash": "c7c2c5be2029c88c3367a089e0973da8f65c8677203f39b80b43cc0f337447bf"
         },
         "32bit": {
-            "url": "https://github.com/xtaci/kcptun/releases/download/v20240716/kcptun-windows-386-20240716.tar.gz",
-            "hash": "b44885f6fc4acf375b381b1583339d64c1aead5061897cf05202cf07e241c124"
+            "url": "https://github.com/xtaci/kcptun/releases/download/v20240730/kcptun-windows-386-20240730.tar.gz",
+            "hash": "1c2863265d7ab66d0e9f6ccbd1ce64fcda5dfc889934869007a0505d022a059b"
         }
     },
     "installer": {
