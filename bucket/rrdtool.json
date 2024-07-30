@@ -1,18 +1,18 @@
 {
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "The OpenSource industry standard, high performance data logging and graphing system for time series data.",
     "homepage": "https://oss.oetiker.ch/rrdtool/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oetiker/rrdtool-1.x/releases/download/v1.8.0/rrdtool-1.8.0-x64_vcpkg.zip",
-            "extract_dir": "rrdtool-1.8.0-x64_vcpkg",
-            "hash": "f1ffb2926aa6045a93fbf0fe53a3be1f34ea1d2c4d3667b3eee5490e8ececeb7"
+            "url": "https://github.com/oetiker/rrdtool-1.x/releases/download/v1.9.0/rrdtool-1.9.0-x64_vcpkg.zip",
+            "extract_dir": "rrdtool-1.9.0-x64_vcpkg",
+            "hash": "cd67253186cf58aa57a764b0aa3d9cdf4b4107f0116e67a4a4ee6885e42b1f37"
         },
         "32bit": {
-            "url": "https://github.com/oetiker/rrdtool-1.x/releases/download/v1.8.0/rrdtool-1.8.0-x86_vcpkg.zip",
-            "extract_dir": "rrdtool-1.8.0-x86_vcpkg",
-            "hash": "59857035c416fb5e5ea3d5a8caabb274ba02e8a9bc4e84574a0727104d7b6604"
+            "url": "https://github.com/oetiker/rrdtool-1.x/releases/download/v1.9.0/rrdtool-1.9.0-x86_vcpkg.zip",
+            "extract_dir": "rrdtool-1.9.0-x86_vcpkg",
+            "hash": "c0c764ce53f19f7421a4f1dbe2e75d29c5ddf8eb5d986a3423d1749550029a42"
         }
     },
     "bin": [
