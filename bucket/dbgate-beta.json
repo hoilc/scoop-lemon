@@ -1,16 +1,16 @@
 {
-    "version": "5.3.2-beta.2",
+    "version": "5.3.2-beta.3",
     "description": "(BETA version) A database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others.",
     "homepage": "https://dbgate.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dbgate/dbgate/releases/download/v5.3.2-beta.2/dbgate-5.3.2-beta.2-win_x64.zip",
-            "hash": "dc75ba73a4794bf06e0fd5f6f35a05d26b1c906dbefb73fa1abf70f7a010a7ac"
+            "url": "https://github.com/dbgate/dbgate/releases/download/v5.3.2-beta.3/dbgate-5.3.2-beta.3-win_x64.zip",
+            "hash": "7a4e36417388043cfa657d5ec2b0dcf5bd6b727356c5d1c17422cb38bfb3e284"
         },
         "arm64": {
-            "url": "https://github.com/dbgate/dbgate/releases/download/v5.3.2-beta.2/dbgate-5.3.2-beta.2-win_arm64.zip",
-            "hash": "484aa2ef9f3b62bd27871e138ac4183eb075588a2b73b21e0c287573b2ac681a"
+            "url": "https://github.com/dbgate/dbgate/releases/download/v5.3.2-beta.3/dbgate-5.3.2-beta.3-win_arm64.zip",
+            "hash": "51a2867dd409140284fa2b69135462c5928eea7a76ca4f2a3302e9045178903e"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
