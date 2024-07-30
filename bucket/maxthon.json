@@ -1,16 +1,16 @@
 {
-    "version": "7.2.2.3001",
+    "version": "7.2.2.3200",
     "description": "A state-of-the-art,multi-platform web browser that offers users a seamless browsing and sharing experience.",
     "homepage": "https://www.maxthon.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl-cn.maxthon.com/mx7/maxthon_portable_7.2.2.3001_x64.zip",
-            "hash": "6e260e9417f99d2e1634376df513d61994dd9dc848577bc09ffeab0e064a5068"
+            "url": "https://dl.mxfast.com/7.2.2.3200/maxthon_portable_7.2.2.3200_x64.zip",
+            "hash": "36451a27139644f48709178d824d9018bff08201bdbd60116b6cc6127995b3cd"
         },
         "32bit": {
-            "url": "https://dl-cn.maxthon.com/mx7/maxthon_portable_7.2.2.3001_x86.zip",
-            "hash": "56cc40b73ef6afc9bd970151adb555246578860bb0b5698f6bade1b462783bb4"
+            "url": "https://dl.mxfast.com/7.2.2.3200/maxthon_portable_7.2.2.3200_x86.zip",
+            "hash": "22b9b7344d3d72a969392b68d7f0bd9af191e9efd2eb7e1a92cffa1d422a9b93"
         }
     },
     "shortcuts": [
@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl-cn.maxthon.com/mx7/maxthon_portable_$version$matchSuffix_x64.zip"
+                "url": "https://dl.mxfast.com/$version/maxthon_portable_$version$matchSuffix_x64.zip"
             },
             "32bit": {
-                "url": "https://dl-cn.maxthon.com/mx7/maxthon_portable_$version$matchSuffix_x86.zip"
+                "url": "https://dl.mxfast.com/$version/maxthon_portable_$version$matchSuffix_x86.zip"
             }
         }
     }
