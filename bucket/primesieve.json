@@ -1,16 +1,16 @@
 {
-    "version": "12.3",
+    "version": "12.4",
     "description": "A command-line program for quickly generating prime numbers.",
     "homepage": "https://github.com/kimwalisch/primesieve",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kimwalisch/primesieve/releases/download/v12.3/primesieve-12.3-win-x64.zip",
-            "hash": "e4470725f0ed4ee114877e41778b814c4d045baf7a857a9ad5d5d749f6f35a27"
+            "url": "https://github.com/kimwalisch/primesieve/releases/download/v12.4/primesieve-12.4-win-x64.zip",
+            "hash": "db08638fd243620a00089e741c8e878a54e999769fa2bb16d88b09c1129a5f39"
         },
         "arm64": {
-            "url": "https://github.com/kimwalisch/primesieve/releases/download/v12.3/primesieve-12.3-win-arm64.zip",
-            "hash": "6ef36bbcb4df13526c0eeab73869633e3dbe9c9c885e85d2f6275a465d1f8dbd"
+            "url": "https://github.com/kimwalisch/primesieve/releases/download/v12.4/primesieve-12.4-win-arm64.zip",
+            "hash": "9afd3cd9b38c3edc1e7e36951467df28adb48d981e3589ba74a5888cec7f8f73"
         }
     },
     "bin": "primesieve.exe",
