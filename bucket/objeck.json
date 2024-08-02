@@ -1,5 +1,5 @@
 {
-    "version": "2024.7.1",
+    "version": "2024.8.0",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/objeck/objeck-lang/releases/download/v2024.7.1/objeck-windows-x64_2024.7.1.zip",
-            "hash": "c3990501f88020f6d5828b4d4b3f98027e7f11beaac9f89a5426d3ecf2d208ec"
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2024.8.0/objeck-windows-x64_2024.8.0.zip",
+            "hash": "bfca9eb78474a7d79f74ef85276328cb77e4d56a5cb4a7a43bb29613bfac11f6"
         }
     },
     "extract_dir": "objeck-lang",
