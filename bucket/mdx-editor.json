@@ -1,12 +1,12 @@
 {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "description": "A versatile WeChat typesetting editor, also serving as a cross-platform Markdown note-taking software.",
     "homepage": "https://github.com/maqi1520/mdx-editor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maqi1520/mdx-editor/releases/download/v0.9.7/MDX.Editor_0.9.7_x64-setup.exe#/dl.7z",
-            "hash": "23b7367e6b7834ff5f01a0473ff2666c07b87a0bbb0c014ece437b995bd31b48"
+            "url": "https://github.com/maqi1520/mdx-editor/releases/download/v0.9.8/MDX.Editor_0.9.8_x64-setup.exe#/dl.7z",
+            "hash": "21195d1cac96208cdfb86063bf8f81a4095d39e1a4f63463d5c0a98fe6dea560"
         }
     },
     "shortcuts": [
