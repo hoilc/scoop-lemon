@@ -1,12 +1,12 @@
 {
-    "version": "1.9.1.60",
+    "version": "2.0.0.0",
     "description": "A GUI software use rimage to compress images batchly without affecting the look and feel.",
     "homepage": "https://github.com/Mikachu2333/rimage_gui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/1.9.1.60/rimage_gui.exe",
-            "hash": "688979a34048d39b395e738780b8a98d2e5594216abe7b6960ac24ebc0b1938d"
+            "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/2.0.0.0/rimage_gui.exe",
+            "hash": "551179d6c2905674666dfd898c9abd7fc5992bc4adc3d8cd925bff919009703b"
         }
     },
     "shortcuts": [
