@@ -1,16 +1,16 @@
 {
-    "version": "8.26",
+    "version": "8.27",
     "description": "简单好用的多功能苹果设备管理助手。轻松备份、恢复、删除、储存、各种设备资料，一键传输您的视频、照片、音乐、通讯录、短信等各种文件，支持管理应用、照片、音乐、铃声、视频以及其他多媒体文件，为iOS用户提供智能化一键刷机、验机功能。",
     "homepage": "https://www.i4.cn/pro_pc.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://d-app6.i4.cn/i4tools/V8/8.26/i4Tools8_v8.26_Setup_x64.exe#/dl.7z",
-            "hash": "8ce68562ae94d17dc7bdc06f6a371cf2c78b246bcebb2dbc054c6586012154e1"
+            "url": "https://d-app6.i4.cn/i4tools/V8/8.27/i4Tools8_v8.27_Setup_x64.exe#/dl.7z",
+            "hash": "f9ba4fba4f2768012c310044bb79a60e9486f5e1ae390076d14734c3496ae0c3"
         },
         "32bit": {
-            "url": "https://d-app6.i4.cn/i4tools/V8/8.26/i4Tools8_v8.26_Setup_x86.exe#/dl.7z",
-            "hash": "4e8c890613643c88b3620e0b98fafd356c037db2e6de768b85aa4846ab73ac25"
+            "url": "https://d-app6.i4.cn/i4tools/V8/8.27/i4Tools8_v8.27_Setup_x86.exe#/dl.7z",
+            "hash": "8de7678f1075e52d1c5f1c5efea80624a26a1c05dc7c91f62c336aa630cfe412"
         }
     },
     "bin": "i4Tools.exe",
