@@ -1,33 +1,22 @@
 {
-    "version": "1.7.18",
+    "version": "1.7.19",
     "description": "A user friendly command line tool to access AliCloud OSS.",
     "homepage": "https://github.com/aliyun/ossutil",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "bin": [
-                [
-                    "ossutil64.exe",
-                    "ossutil"
-                ]
-            ],
-            "extract_dir": "ossutil64",
-            "url": "http://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64.zip",
-            "hash": "6604343a846717a8ac4dbd77536cc6f802f4d1e6d2d51aa88524e92b8d6a0e42"
+            "url": "https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil-v1.7.19-windows-amd64.zip",
+            "extract_dir": "ossutil-v1.7.19-windows-amd64",
+            "hash": "8e9176aedc87d230ccd97dc7236b16564f2a068609ed301acdc73dc27faf7e77"
         },
         "32bit": {
-            "bin": [
-                [
-                    "ossutil32.exe",
-                    "ossutil"
-                ]
-            ],
-            "extract_dir": "ossutil32",
-            "url": "http://gosspublic.alicdn.com/ossutil/1.7.18/ossutil32.zip",
-            "hash": "78ac03087489e72d616dcaf53d1c8c1887705f1dfdd9e7701172d27b522263a3"
+            "url": "https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil-v1.7.19-windows-386.zip",
+            "extract_dir": "ossutil-v1.7.19-windows-386",
+            "hash": "772469ef02b91e893f7211acf732c2c07cd93214552ed7cf84157d3d9b9fb799"
         }
     },
-    "post_install": "Remove-Item \"$dir\\*.bat\" -Force -Recurse",
+    "bin": "ossutil.exe",
+    "post_install": "Remove-Item \"$dir\\*.bat\", \"$dir\\ossutil64.exe\", \"$dir\\ossutil32.exe\" -Force -ErrorAction Ignore",
     "checkver": {
         "url": "https://github.com/aliyun/ossutil/releases/latest",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
@@ -35,10 +24,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://gosspublic.alicdn.com/ossutil/$version/ossutil64.zip"
+                "url": "https://gosspublic.alicdn.com/ossutil/$version/ossutil-v$version-windows-amd64.zip",
+                "extract_dir": "ossutil-v$version-windows-amd64"
             },
             "32bit": {
-                "url": "http://gosspublic.alicdn.com/ossutil/$version/ossutil32.zip"
+                "url": "https://gosspublic.alicdn.com/ossutil/$version/ossutil-v$version-windows-386.zip",
+                "extract_dir": "ossutil-v$version-windows-386"
             }
         }
     }
