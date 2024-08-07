@@ -19,9 +19,6 @@
             "64bit": {
                 "url": "https://github.com/wa-lang/wa/releases/download/v$version/wa_v$version_windows-amd64.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/wa-v$version.checksums.txt"
         }
     }
 }
