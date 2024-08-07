@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "简单易用的 JAR/CLASS 字节码混淆工具",
     "homepage": "https://github.com/jar-analyzer/jar-obfuscator",
     "license": "MIT",
-    "url": "https://github.com/jar-analyzer/jar-obfuscator/releases/download/0.1.1/jar-obfuscator-0.1.1.jar#/jar-obfuscator.jar",
-    "hash": "c8310038053922643f2dd0de4f92446f39737878e7acf141d8ff02341e4be7a2",
+    "url": "https://github.com/jar-analyzer/jar-obfuscator/releases/download/0.2.0/jar-obfuscator-0.2.0.jar#/jar-obfuscator.jar",
+    "hash": "f7b7c299dd8304a31a363e06573b7e3c6d87f1324534e78cd967214098bfe35c",
     "bin": "jar-obfuscator.jar",
     "suggest": {
         "JDK": [
