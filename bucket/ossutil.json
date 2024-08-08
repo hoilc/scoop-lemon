@@ -18,8 +18,8 @@
     "bin": "ossutil.exe",
     "post_install": "Remove-Item \"$dir\\*.bat\", \"$dir\\ossutil64.exe\", \"$dir\\ossutil32.exe\" -Force -ErrorAction Ignore",
     "checkver": {
-        "url": "https://github.com/aliyun/ossutil/releases/latest",
-        "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
+        "url": "https://gosspublic.alicdn.com/ossutil/version.txt",
+        "regex": "ossutil version: v?(.+)"
     },
     "autoupdate": {
         "architecture": {
