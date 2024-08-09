@@ -1,0 +1,30 @@
+{
+    "version": "1.12.5",
+    "description": "一站式批量化视频处理工具",
+    "homepage": "https://271374667.github.io/VideoFusion/",
+    "license": "LGPL-2.1-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/271374667/VideoFusion/releases/download/v1.12.5/VideoFusion.v1.12.5.7z",
+            "extract_dir": "VideoFusion v1.12.5",
+            "hash": "33c427f97e3a3d4db85eaccf5be32ea1c0c6aea2cc3399e8fb5ece6f88e1b6f8"
+        }
+    },
+    "shortcuts": [
+        [
+            "video_fusion.exe",
+            "VideoFusion"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/271374667/VideoFusion"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/271374667/VideoFusion/releases/download/v$version/VideoFusion.v$version.7z",
+                "extract_dir": "VideoFusion v$version"
+            }
+        }
+    }
+}
