@@ -1,0 +1,28 @@
+{
+    "version": "0.0.5",
+    "description": "A powerful open-source clipboard manager.",
+    "homepage": "https://github.com/ayangweb/EcoPaste/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ayangweb/EcoPaste/releases/download/v0.0.5/EcoPaste_0.0.5_x64_zh-CN.msi",
+            "hash": "bb044a981004675a3dedf4ddd7852a6b923824b859fa363b0f014752bd6f155f"
+        }
+    },
+    "extract_dir": "PFiles\\EcoPaste",
+    "shortcuts": [
+        [
+            "EcoPaste.exe",
+            "EcoPaste"
+        ]
+    ],
+    "notes": "EcoPaste is NOT portable.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ayangweb/EcoPaste/releases/download/v$version/EcoPaste_$version_x64_zh-CN.msi"
+            }
+        }
+    }
+}
