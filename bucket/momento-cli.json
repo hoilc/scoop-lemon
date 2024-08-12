@@ -1,12 +1,12 @@
 {
-    "version": "0.45.2",
+    "version": "0.46.0",
     "description": "The command-line tool for managing Momento Serverless Cache.",
     "homepage": "https://www.gomomento.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/momentohq/momento-cli/releases/download/v0.45.2/momento-cli-0.45.2.windows_x64.zip",
-            "hash": "640085cb278a8d5c0a74c6dfe2d05e3cfaa3dd4bdf91e09e924c9b153f9e5f09"
+            "url": "https://github.com/momentohq/momento-cli/releases/download/v0.46.0/momento-cli-0.46.0.windows_x64.zip",
+            "hash": "8be167c925100cbeb9be892aa05a364828310ab28e4326f04677e5626523e56e"
         }
     },
     "bin": "momento.exe",
