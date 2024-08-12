@@ -1,10 +1,10 @@
 {
-    "version": "2.1.8",
+    "version": "2.1.9",
     "description": "Qmmp (Qt-based Multimedia Player) is an audio-player whose user interface is similar to winamp or xmms.",
     "homepage": "http://qmmp.ylsoftware.com/",
     "license": "GPL-2.0-only",
-    "url": "http://qmmp.ylsoftware.com/files/windows/2.1/qmmp-2.1.8-win32.exe#/dl.7z",
-    "hash": "5d27d6e39d90f464bb0948e94748fe6cfa6dea0aefec851654398c12721b302e",
+    "url": "http://qmmp.ylsoftware.com/files/windows/2.1/qmmp-2.1.9-win32.exe#/dl.7z",
+    "hash": "45c2b6036e04cdedf49ff01236c0e0d662013fa4e263a60d24e0a1a8a858d542",
     "shortcuts": [
         [
             "qmmp.exe",
