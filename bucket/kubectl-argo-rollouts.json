@@ -1,12 +1,12 @@
 {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "description": "A kubectl plugin for Argo Rollouts to enrich the experience with Rollouts, Experiments, and Analysis.",
     "homepage": "https://argoproj.github.io/argo-rollouts/features/kubectl-plugin/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/argoproj/argo-rollouts/releases/download/v1.7.1/kubectl-argo-rollouts-windows-amd64#/kubectl-argo-rollouts.exe",
-            "hash": "05c7cc29e53ddb076b0fbcbb5dd3a915ed058346dfba2d32f8405c0ea9c20a6f"
+            "url": "https://github.com/argoproj/argo-rollouts/releases/download/v1.7.2/kubectl-argo-rollouts-windows-amd64#/kubectl-argo-rollouts.exe",
+            "hash": "b2cd11342e9839bd7e54d7be2011bf157eb630d93a444daffbd1ded41cc45c3f"
         }
     },
     "bin": "kubectl-argo-rollouts.exe",
