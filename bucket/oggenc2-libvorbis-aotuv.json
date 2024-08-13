@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.rarewares.org/files/ogg/oggenc2.88-1.3.7-aoTuVb6.03-x64.zip",
-            "hash": "9ac2638697625f089cf670c1c0a2724f703ac4fb776aba4d1ff578b9f710b9c6"
+            "hash": "d7dbac06804ac983ac86f0b5f86b4b7435a1a867ded2e17fadfef4f20224490e"
         },
         "32bit": {
             "url": "https://www.rarewares.org/files/ogg/oggenc2.88-1.3.7-aoTuVb6.03-P4.zip",
-            "hash": "3f387998ce4ac64f1101cc2cd94aa6dad13235dccf6a1b45e317e1b13e99e8da"
+            "hash": "bb86e3c64bd385142d0f7c2c47426558dbc2874041b1e38865d8f106f9a6e3ca"
         }
     },
     "bin": "oggenc2.exe",
