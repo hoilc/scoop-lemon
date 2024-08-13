@@ -1,0 +1,19 @@
+{
+    "version": "2.2.2",
+    "description": "A plugin for KeePass 2.x which adds multiple options to connect via RDP to the URL of an entry.",
+    "homepage": "https://github.com/iSnackyCracky/KeePassRDP",
+    "license": "GPL-3.0-only",
+    "depends": "extras/keepass",
+    "url": "https://github.com/iSnackyCracky/KeePassRDP/releases/download/v2.2.2/KeePassRDP_v2.2.2.zip",
+    "hash": "aaaffe3b47bb36dc7edc298891690674c1c2003d3d7bac316ad37e13351b82e5",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/iSnackyCracky/KeePassRDP/releases/download/v$version/KeePassRDP_v$version.zip"
+    },
+    "installer": {
+        "script": "if (installed 'keepass' $global) {Copy-Item \"$dir\\KeePassRDP.plgx\" \"$(appdir keepass $global)\\current\\Plugins\"} else { error 'Please install `keepass` first, then reinstall `keepass-plugin-keepassrdp`.'}"
+    },
+    "uninstaller": {
+        "script": "if (installed 'keepass' $global) {Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeePassRDP.plgx\"}"
+    }
+}
