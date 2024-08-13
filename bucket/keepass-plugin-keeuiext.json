@@ -1,0 +1,21 @@
+{
+    "version": "1.2",
+    "description": "A plugin for KeePass 2.x which provides various user interface options.",
+    "homepage": "https://keepass.info/plugins.html#keeuiext",
+    "license": "Freeware",
+    "depends": "extras/keepass",
+    "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.2.zip",
+    "hash": "e0bf1918d58b5fad79b35e306436aa887208e670bc4d492f22aac57e52c61c9f",
+    "checkver": {
+        "regex": "KeeUIExt-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-$version.zip"
+    },
+    "installer": {
+        "script": "if (installed 'keepass' $global) {Copy-Item \"$dir\\KeeUIExt.plgx\" \"$(appdir keepass $global)\\current\\Plugins\"} else { error 'Please install `keepass` first, then reinstall `keepass-plugin-keeuiext`.'}"
+    },
+    "uninstaller": {
+        "script": "if (installed 'keepass' $global) {Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeeUIExt.plgx\"}"
+    }
+}
