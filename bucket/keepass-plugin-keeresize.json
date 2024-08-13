@@ -1,0 +1,21 @@
+{
+    "version": "1.13",
+    "description": "A plugin for KeePass 2.x which makes several dialogs resizable.",
+    "homepage": "https://keepass.info/extensions/v2/keeresize/",
+    "license": "Liteware",
+    "depends": "extras/keepass",
+    "url": "https://keepass.info/extensions/v2/keeresize/KeeResize-1.13.zip",
+    "hash": "105fcd1c65c5ee24cfe1bcfa73fd98830d928b5c0e14060ed61a1cf6f452a56e",
+    "checkver": {
+        "regex": "KeeResize-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://keepass.info/extensions/v2/keeresize/KeeResize-$version.zip"
+    },
+    "installer": {
+        "script": "if (installed 'keepass' $global) {Copy-Item -Path \"$dir\\KeeResize.plgx\", \"$dir\\KeeResize.spk\" -Destination \"$(appdir keepass $global)\\current\\Plugins\"} else { error 'Please install `keepass` first, then reinstall `keepass-plugin-keeresize`.'}"
+    },
+    "uninstaller": {
+        "script": "if (installed 'keepass' $global) {Remove-Item \"$(appdir keepass $global)\\current\\Plugins\\KeeResize.plgx\", \"$(appdir keepass $global)\\current\\Plugins\\KeeResize.spk\", \"$(appdir keepass $global)\\current\\Plugins\\KeeResize*.dll\"}"
+    }
+}
