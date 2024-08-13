@@ -1,0 +1,30 @@
+{
+    "##": "#updateManually",
+    "version": "1.2",
+    "description": "PMLite是一款免费的图像校正和漂白工具",
+    "homepage": "https://www.52pojie.cn/thread-1880475-1-1.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.4everland.store/pm-lite/PMLite-1.2_standalone.rar",
+            "hash": "63a22692458d5ba6cdd20278a4de8e4c0427144e13f939cc2d3fd8ac04cb493b"
+        }
+    },
+    "shortcuts": [
+        [
+            "PMLite-standalone.exe",
+            "PM Lite"
+        ]
+    ],
+    "checkver": {
+        "url": "https://scoop-lemon.4everland.store/pm-lite/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.4everland.store/pm-lite/PMLite-$version_standalone.rar"
+            }
+        }
+    }
+}
