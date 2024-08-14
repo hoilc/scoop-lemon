@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sabhiram/go-wol/releases/download/v2.0.1/wol_windows_amd64.exe#/wol.exe"
+                "url": "https://github.com/sabhiram/go-wol/releases/download/v$version/wol_windows_amd64.exe#/wol.exe"
             }
         }
     }
