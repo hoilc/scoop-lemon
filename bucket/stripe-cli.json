@@ -5,12 +5,12 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.8.10/stripe_1.8.10_windows_x86_64.zip",
-            "hash": "0d058f8ce9f8d610bcd048a88421a471488167b9a99c8f621387647978ccf2df"
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.21.2/stripe_1.21.2_windows_x86_64.zip",
+            "hash": "9611a6236505b2549cf2d5f2bc4ed831bade645a088f96c70a1406bae4e6918d"
         },
         "32bit": {
-            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.8.10/stripe_1.8.10_windows_i386.zip",
-            "hash": "1c52a8815deedf7e35adac8ef0c56eab464d9a909bff258868e96fc3ccf65633"
+            "url": "https://github.com/stripe/stripe-cli/releases/download/v1.21.2/stripe_1.21.2_windows_i386.zip",
+            "hash": "1baacaeee96ca88dff9dbbf7145955d51cf877faa682f67a9433a340ac8cb4bf"
         }
     },
     "bin": "stripe.exe",
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stripe/stripe-cli/releases/download/v1.8.10/stripe_1.8.10_windows_x86_64.zip"
+                "url": "https://github.com/stripe/stripe-cli/releases/download/v$version/stripe_$version_windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/stripe/stripe-cli/releases/download/v1.8.10/stripe_1.8.10_windows_i386.zip"
+                "url": "https://github.com/stripe/stripe-cli/releases/download/v$version/stripe_$version_windows_i386.zip"
             }
         },
         "hash": {
