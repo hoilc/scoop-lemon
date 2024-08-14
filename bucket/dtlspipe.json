@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.7.0/dtlspipe.windows-amd64.exe#/dtlspipe.exe",
-            "hash": "3641fc79d591774efe47bab41f6e1d298d88ff7368441ba3a1b7af48201944d0"
+            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.8.1/dtlspipe.windows-amd64.exe#/dtlspipe.exe",
+            "hash": "0a412bda0feacba87ac8dd2c2ba05e5c4bf9411efe864e450ae915b430c8eb39"
         },
         "32bit": {
-            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.7.0/dtlspipe.windows-386.exe#/dtlspipe.exe",
-            "hash": "3ea25f07d142b3bb32f6fda070c5d7f7546897b6c86307037ad388c00eb2bc1c"
+            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.8.1/dtlspipe.windows-386.exe#/dtlspipe.exe",
+            "hash": "46251cd24fa1f24052504f0d3f56f6b0d76ef7257a45f320a251868936ca2797"
         }
     },
     "bin": "dtlspipe.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.7.0/dtlspipe.windows-amd64.exe#/dtlspipe.exe"
+                "url": "https://github.com/Snawoot/dtlspipe/releases/download/v$version/dtlspipe.windows-amd64.exe#/dtlspipe.exe"
             },
             "32bit": {
-                "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.7.0/dtlspipe.windows-386.exe#/dtlspipe.exe"
+                "url": "https://github.com/Snawoot/dtlspipe/releases/download/v$version/dtlspipe.windows-386.exe#/dtlspipe.exe"
             }
         }
     }
