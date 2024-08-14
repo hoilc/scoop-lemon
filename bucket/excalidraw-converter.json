@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sindrel/excalidraw-converter/releases/download/v1.4.2/excalidraw-converter_1.4.2_windows_amd64.zip"
+                "url": "https://github.com/sindrel/excalidraw-converter/releases/download/v$version/excalidraw-converter_$version_windows_amd64.zip"
             }
         },
         "hash": {
