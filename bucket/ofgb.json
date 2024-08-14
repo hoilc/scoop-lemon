@@ -5,8 +5,8 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xM4ddy/OFGB/releases/download/v0.3/OFGB.exe",
-            "hash": "caa320ecc600e7bd0b07be58cd9b1eaa908e606cfad0e62c564a700a4c6de668"
+            "url": "https://github.com/xM4ddy/OFGB/releases/download/v0.4/OFGB.exe",
+            "hash": "1cf97ccebcdf33ce37199fcef01c348faed81077eb340e36da35171cbb7ba1ae"
         }
     },
     "shortcuts": [
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xM4ddy/OFGB/releases/download/v0.3/OFGB.exe"
+                "url": "https://github.com/xM4ddy/OFGB/releases/download/v$version/OFGB.exe"
             }
         }
     }
