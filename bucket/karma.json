@@ -5,16 +5,16 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-amd64.exe.tar.gz",
-            "hash": "sha512:ea2b7dc0aff4a70d951a7e445722e4b3cbf94b2cd33191728ebbeb706231bf3e81f11dc77e4fd6e561e8085b24715399b28b8e684570e5e40302c11d3a51491a"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.120/karma-windows-amd64.exe.tar.gz",
+            "hash": "sha512:d83501f7d57b214841b280d24e41e0756036e0f101a6bcdecd697fcf1035a7bf013999aa335c450419c2feeb2ce97c83f3b59b74967e34d38f95d5b3d7669569"
         },
         "32bit": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-386.exe.tar.gz",
-            "hash": "sha512:2a33a7d12b9c8cdcea346bebeb03794c15b8231fa6e0b6f5990cf62f0beb7278880364fa89319e54113fb9e9ff312e20ee32458c4584d0889332f0df7a204ff9"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.120/karma-windows-386.exe.tar.gz",
+            "hash": "sha512:f8ff33321ba48aa9b8eaccdd4a061526c8b9a7e58e413a398b7aaffd8991bab37a375357874b864a1dbb57e324eac61169ac4286a996d70c668ca9f91bb6b966"
         },
         "arm64": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-arm64.exe.tar.gz",
-            "hash": "sha512:8be8c1f7ba948754e72511fd5cbce6c1f11f4bff5118a0badb3970a4f7d7441e0000076b37ba2b13d4f0096427a4c10df27cb6202a85a07ad61fbaf5ac8ea03c"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.120/karma-windows-arm64.exe.tar.gz",
+            "hash": "sha512:a14470a692d25ea668183a62eb3c8ddb40f34881febbc14cc260018742640183ea31290a76d871c79f0cd50e78904e578a6cd6d98943ef52ccf762222d780a2c"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'karma-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'karma.exe'",
@@ -23,13 +23,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-amd64.exe.tar.gz"
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-amd64.exe.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-386.exe.tar.gz"
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-386.exe.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/prymitive/karma/releases/download/v0.114/karma-windows-arm64.exe.tar.gz"
+                "url": "https://github.com/prymitive/karma/releases/download/v$version/karma-windows-arm64.exe.tar.gz"
             }
         },
         "hash": {
