@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_amd64.zip"
+                "url": "https://github.com/sjzar/ips/releases/download/v$version/ips_v$version_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_386.zip"
+                "url": "https://github.com/sjzar/ips/releases/download/v$version/ips_v$version_windows_386.zip"
             },
             "arm64": {
-                "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_arm64.zip"
+                "url": "https://github.com/sjzar/ips/releases/download/v$version/ips_v$version_windows_arm64.zip"
             }
         },
         "hash": {
