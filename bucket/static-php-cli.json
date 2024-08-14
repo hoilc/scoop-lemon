@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/2.2.3/spc-windows-x64.exe#/spc.exe",
-            "hash": "3079754f3c05058be777109dfb088c5de5cde5ea620b5d6b6e2b4355ce127952"
+            "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/2.3.2/spc-windows-x64.exe#/spc.exe",
+            "hash": "2e278476c0516c16cea01603b22536327821208e8e06fa960f363839f90df11b"
         }
     },
     "bin": "spc.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/2.2.3/spc-windows-x64.exe#/spc.exe"
+                "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/$version/spc-windows-x64.exe#/spc.exe"
             }
         }
     }
