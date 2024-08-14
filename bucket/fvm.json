@@ -5,12 +5,16 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fluttertools/fvm/releases/download/2.3.1/fvm-2.3.1-windows-x64.zip",
-            "hash": "0eaea9b18a14f1394b68052e406973eb95093407a3ee39adb17423a66fd20972"
+            "url": "https://github.com/fluttertools/fvm/releases/download/3.1.7/fvm-3.1.7-windows-x64.zip",
+            "hash": "9de0dac7b38a07e5f6e66cddc690e82594dddbd8b98a5756a6e710cd4c12e225"
         },
         "32bit": {
-            "url": "https://github.com/fluttertools/fvm/releases/download/2.3.1/fvm-2.3.1-windows-ia32.zip",
-            "hash": "c0ad9396f115f0d355711077165c7cf11a243e50be767fd9df8f2eda479f5835"
+            "url": "https://github.com/fluttertools/fvm/releases/download/3.1.7/fvm-3.1.7-windows-ia32.zip",
+            "hash": "fb9f3a0aa94027c1c2670c7d774838ff5984bfc46e3dc29f36d5855eb81dce92"
+        },
+        "arm64": {
+            "url": "https://github.com/fluttertools/fvm/releases/download/3.1.7/fvm-3.1.7-windows-arm64.zip",
+            "hash": "dd9fd44bb126875393926ebec82e7ee93845639c93cb8c5e6cb2c22e8a9e4605"
         }
     },
     "extract_dir": "fvm\\src",
@@ -22,15 +26,18 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/fluttertools/fvm"
+        "github": "https://github.com/leoafarias/fvm"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fluttertools/fvm/releases/download/2.3.1/fvm-2.3.1-windows-x64.zip"
+                "url": "https://github.com/fluttertools/fvm/releases/download/$version/fvm-$version-windows-x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/fluttertools/fvm/releases/download/2.3.1/fvm-2.3.1-windows-ia32.zip"
+                "url": "https://github.com/fluttertools/fvm/releases/download/$version/fvm-$version-windows-ia32.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/fluttertools/fvm/releases/download/$version/fvm-$version-windows-arm64.zip"
             }
         }
     }
