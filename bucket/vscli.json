@@ -5,13 +5,13 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michidk/vscli/releases/download/v0.2.0/vscli-x86_64-pc-windows-msvc.zip",
-            "hash": "7f2f7477766f1333f6726306be0afc7135580f09a536c73058b85703ef532ae8",
+            "url": "https://github.com/michidk/vscli/releases/download/v0.3.0/vscli-x86_64-pc-windows-msvc.zip",
+            "hash": "cd190740896549a98738b33811b2bc81d12226cf051b70b46980b7a1818175bb",
             "extract_dir": "vscli-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://github.com/michidk/vscli/releases/download/v0.2.0/vscli-i686-pc-windows-msvc.zip",
-            "hash": "4d34e715bf24938613de2e4eeb241e14ddd8e3e7b0184f566683af1c64a0d094",
+            "url": "https://github.com/michidk/vscli/releases/download/v0.3.0/vscli-i686-pc-windows-msvc.zip",
+            "hash": "b3344a32e535b7624e668c764c6a3df217f3d423c95444e8756082c518f0063f",
             "extract_dir": "vscli-i686-pc-windows-msvc"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/michidk/vscli/releases/download/v0.2.0/vscli-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/michidk/vscli/releases/download/v$version/vscli-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/michidk/vscli/releases/download/v0.2.0/vscli-i686-pc-windows-msvc.zip"
+                "url": "https://github.com/michidk/vscli/releases/download/v$version/vscli-i686-pc-windows-msvc.zip"
             }
         }
     }
