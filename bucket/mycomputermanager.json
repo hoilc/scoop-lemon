@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/1357310795/MyComputerManager/releases/download/v1.03/MyComputerManager-x64.exe#/MyComputerManager.exe"
+                "url": "https://github.com/1357310795/MyComputerManager/releases/download/v$version/MyComputerManager-x64.exe#/MyComputerManager.exe"
             }
         }
     }
