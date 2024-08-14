@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-v1.0.0-windows-amd64.exe#/coscli.exe"
+                "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-v$version-windows-amd64.exe#/coscli.exe"
             },
             "32bit": {
-                "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-v1.0.0-windows-386.exe#/coscli.exe"
+                "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-v$version-windows-386.exe#/coscli.exe"
             }
         }
     }
