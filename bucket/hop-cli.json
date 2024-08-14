@@ -5,12 +5,12 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hopinc/cli/releases/download/v0.2.60/hop-x86_64-Windows.zip",
-            "hash": "b30314006e2ae14744d8273e9851db618262b68159f41f3f3967c9888d88ab54"
+            "url": "https://github.com/hopinc/cli/releases/download/v0.2.61/hop-x86_64-Windows.zip",
+            "hash": "d93bd90818da5278ed36d37e0160b954c1daec62c8e9036ea7b595b614c0adcc"
         },
         "32bit": {
-            "url": "https://github.com/hopinc/cli/releases/download/v0.2.60/hop-i686-Windows.zip",
-            "hash": "30d9106d66a0f8b7efec9ccf227a93c69b932a0cfd77babc09526561fe28ea56"
+            "url": "https://github.com/hopinc/cli/releases/download/v0.2.61/hop-i686-Windows.zip",
+            "hash": "f715e000c1bc3fbafabeecb294c964e03e6f172411f324bd5124a4dc3f28edfa"
         }
     },
     "bin": "hop.exe",
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hopinc/cli/releases/download/v0.2.60/hop-x86_64-Windows.zip"
+                "url": "https://github.com/hopinc/cli/releases/download/v$version/hop-x86_64-Windows.zip"
             },
             "32bit": {
-                "url": "https://github.com/hopinc/cli/releases/download/v0.2.60/hop-i686-Windows.zip"
+                "url": "https://github.com/hopinc/cli/releases/download/v$version/hop-i686-Windows.zip"
             }
         },
         "hash": {
