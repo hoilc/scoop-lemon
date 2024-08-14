@@ -5,16 +5,16 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_x86_64.zip",
-            "hash": "2048eeb7e8217ff5082b295013cd67dcd0879205a0939bbfff56407adef8c84f"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.4.1/clash-speedtest_Windows_x86_64.zip",
+            "hash": "ae3e30d2daddb89c2f6d131de0142ac71b4d95c30bdec49d708fbb3165e1e414"
         },
         "32bit": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_i386.zip",
-            "hash": "e8b7be58d21640cf65d9292dbaf31d869927837a359138a0ddc7b2cdbafd847f"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.4.1/clash-speedtest_Windows_i386.zip",
+            "hash": "f278845582a1512a200f51d14c1406a5762d004cbe9d514f24205179239fe4a0"
         },
         "arm64": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_arm64.zip",
-            "hash": "119c45c636fa50bfdcbf1a67f5fed1fa52865f4bd864e7fc0643e2b101e53769"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.4.1/clash-speedtest_Windows_arm64.zip",
+            "hash": "6e8145caa9c691fdfaf9610b3a226b4405fd9f2344789a3bc6ebd0bbd0967a5c"
         }
     },
     "bin": "clash-speedtest.exe",
@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_x86_64.zip"
+                "url": "https://github.com/faceair/clash-speedtest/releases/download/v$version/clash-speedtest_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_i386.zip"
+                "url": "https://github.com/faceair/clash-speedtest/releases/download/v$version/clash-speedtest_Windows_i386.zip"
             },
             "arm64": {
-                "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.2.0/clash-speedtest_Windows_arm64.zip"
+                "url": "https://github.com/faceair/clash-speedtest/releases/download/v$version/clash-speedtest_Windows_arm64.zip"
             }
         },
         "hash": {
