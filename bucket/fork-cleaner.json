@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.3.1/fork-cleaner_2.3.1_windows_amd64.zip"
+                "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v$version/fork-cleaner_$version_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.3.1/fork-cleaner_2.3.1_windows_arm64.zip"
+                "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v$version/fork-cleaner_$version_windows_arm64.zip"
             }
         },
         "hash": {
