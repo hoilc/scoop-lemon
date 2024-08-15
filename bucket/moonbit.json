@@ -1,5 +1,5 @@
 {
-    "version": "20240814",
+    "version": "20240815",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "Proprietary",
@@ -12,9 +12,9 @@
                 "https://cli.moonbitlang.com/windows/moonrun.exe"
             ],
             "hash": [
-                "ab5efdc07e235921d483e5262852ef37010b27e1e8ce9e923326fc6163f1e78c",
-                "023f0b99183eacab25f8c110b42d6bc82964897a2b10324b81652a42ee94687b",
-                "b7a94846a79dc531dea367cf21b7c65898eabaf5274184c605bff979e9f10e7f",
+                "33457cd05d943901556f4e50c093d57a490a176b5ca9db8a308743dc92e984cc",
+                "fcc1b08711b24dacb897ceccbea0c8cbc3d3620113b48209c40e62edfd179583",
+                "722f8e0d2526883ba5680fbbe290997e0003220cee48598cac1b515e7622b33d",
                 "bb8fc8b1371aefa27989548b16e6969b91e07b99ae042fe382e6313aa60d5683"
             ]
         }
