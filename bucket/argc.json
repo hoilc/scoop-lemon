@@ -1,16 +1,16 @@
 {
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "A bash cli framework, also a task runner.",
     "homepage": "https://github.com/sigoden/argc",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/argc/releases/download/v1.20.0/argc-v1.20.0-x86_64-pc-windows-msvc.zip",
-            "hash": "9af767d5f0f8f5058203829680b3e81e8b328aadeb99ab0614d05b99a27cac45"
+            "url": "https://github.com/sigoden/argc/releases/download/v1.20.1/argc-v1.20.1-x86_64-pc-windows-msvc.zip",
+            "hash": "f77d9248111254e6cc402b94e56716de0a9ff37ae341e462bbca750467eef5f7"
         },
         "32bit": {
-            "url": "https://github.com/sigoden/argc/releases/download/v1.20.0/argc-v1.20.0-i686-pc-windows-msvc.zip",
-            "hash": "c6e5961fbf7c86e6671c11f906c600ba39794aa7d8692eaaef93c178b1d4a06a"
+            "url": "https://github.com/sigoden/argc/releases/download/v1.20.1/argc-v1.20.1-i686-pc-windows-msvc.zip",
+            "hash": "0de3b63a44b0b74a02f653b50a479c96b0165f7368e678f6569cc4e8e081b62d"
         }
     },
     "bin": "argc.exe",
