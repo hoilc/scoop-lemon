@@ -1,16 +1,16 @@
 {
-    "version": "2.5.0",
+    "version": "2.5.1",
     "description": "(Version 2.x) A feature-packed proxy & relay tool optimized for lossy, unstable connections.",
     "homepage": "https://github.com/HyNetwork/hysteria",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/apernet/hysteria/releases/download/app%2Fv2.5.0/hysteria-windows-amd64-avx.exe#/hysteria.exe",
-            "hash": "f2b8ed0b5afcb036d07270bcd7d699bf1d0f6a92a42aeb52f98aa43019fb7262"
+            "url": "https://github.com/apernet/hysteria/releases/download/app%2Fv2.5.1/hysteria-windows-amd64-avx.exe#/hysteria.exe",
+            "hash": "efdab49c5d2d9fb7d8dcaa4413efdea681e45efdf78f6777c4ec8ea83447e805"
         },
         "32bit": {
-            "url": "https://github.com/apernet/hysteria/releases/download/app%2Fv2.5.0/hysteria-windows-386.exe#/hysteria.exe",
-            "hash": "7ed4478629ce30f56a9899f2bacc5ecbf6b8dd943a727cd62e704b1d4a08055e"
+            "url": "https://github.com/apernet/hysteria/releases/download/app%2Fv2.5.1/hysteria-windows-386.exe#/hysteria.exe",
+            "hash": "de36c6ec9b7ca423c56e4470986f7c68809e90f39162bd1f66f8f93fd64211f3"
         }
     },
     "bin": "hysteria.exe",
