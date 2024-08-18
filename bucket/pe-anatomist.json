@@ -1,10 +1,10 @@
 {
-    "version": "0.2.13012.1820",
+    "version": "0.2.13218.1416",
     "description": "PE Anatomist shows almost all known data structures inside PE, OBJ or LIB files and makes some analytics.",
     "homepage": "https://rammerlabs.alidml.ru/en/index.html",
     "license": "MIT",
     "url": "https://rammerlabs.alidml.ru/download/peanatomist/current#/PEAnatomist.zip",
-    "hash": "51255cb8c133778c35b985efd6a121dcd4160b8e3d771856da7e2ec82d1fe9ed",
+    "hash": "f0605154aff8447bcf6bb3396bbf47285e53832e3c7da8cd52650ca195660ec9",
     "pre_install": "if (!(Test-Path \"$persist_dir\\PEAnatomist.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\PEAnatomist.cfg\" -Value $null }",
     "persist": "PEAnatomist.cfg",
     "shortcuts": [
