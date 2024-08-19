@@ -1,20 +1,20 @@
 {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "description": "An analysis tool of the Redis RDB files, which is implemented by C#.",
     "homepage": "https://github.com/catcherwong/rdb-tools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.3/rdb-cli.0.9.3.win-x64.zip",
-            "hash": "87c5f179139ea00b93405a984dc3edba2b7c84b305492dc8132c3cb88db29969"
+            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.4/rdb-cli.0.9.4.win-x64.zip",
+            "hash": "65310e8d280c5b1face563515763282941dc6810274d32283f71b699f6409a72"
         },
         "32bit": {
-            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.3/rdb-cli.0.9.3.win-x86.zip",
-            "hash": "35c7b26796f6f12e658222720ace81a59363c03504b4cc167a0513f8fa2932e0"
+            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.4/rdb-cli.0.9.4.win-x86.zip",
+            "hash": "aaea9fbf72d37c5f619a1dc47312cac7c595afa94ad1fe8b91c3aa2715ec7691"
         },
         "arm64": {
-            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.3/rdb-cli.0.9.3.win-arm64.zip",
-            "hash": "50ba9c69647bf2e9513fd80d6ec5fa6d67a46fe35670ce368669af431e568104"
+            "url": "https://github.com/catcherwong/rdb-tools/releases/download/0.9.4/rdb-cli.0.9.4.win-arm64.zip",
+            "hash": "0a0ffbe95c2dc58d49f5c0bf172ef3cfcb5160ed51fccde96f952f7be9a19d10"
         }
     },
     "bin": "rdb-cli.exe",
