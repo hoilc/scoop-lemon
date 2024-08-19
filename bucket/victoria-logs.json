@@ -15,7 +15,7 @@
     "notes": "Example: victoria-logs.exe -storageDataPath=$dir\\victoria-logs-data\\",
     "checkver": {
         "url": "https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml",
-        "regex": "appVersion: v(.*?)-victorialogs"
+        "regex": "appVersion: v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
