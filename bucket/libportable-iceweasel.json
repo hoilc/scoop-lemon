@@ -1,12 +1,12 @@
 {
-    "version": "129.0.1",
+    "version": "129.0.2",
     "description": "Portable Runtime For Iceweasel (Firefox), an independent browser derived from Firefox/Mozilla community code.",
     "homepage": "https://sourceforge.net/projects/libportable",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/129.x/x86_64/Iceweasel-v129.0.1.en_US_win64_clang_pgo.7z",
-            "hash": "sha1:69c109439071218e2f003cd22ec4b40f875fe6cd",
+            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/129.x/x86_64/Iceweasel-v129.0.2.en_US_win64_clang_pgo.7z",
+            "hash": "sha1:9d98ffb93ef2b7d4fb4a0e0ea0895ee1b16044c0",
             "extract_dir": "Iceweasel_x64"
         }
     },
