@@ -1,0 +1,27 @@
+{
+    "version": "3.3.0",
+    "description": "A cross-platform software for keeping your notes in a tree.",
+    "homepage": "http://jenyay.net/Outwiker/English",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/Jenyay/outwiker/releases/download/3.3.0-stable/outwiker_3.3.0_win_all_plugins.7z",
+    "hash": "1140c125d242dba7ab4d52d9ad97cba124ef37f7be27cf9b016e5839ad73b895",
+    "shortcuts": [
+        [
+            "outwiker.exe",
+            "OutWiker"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\outwiker.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\outwiker.ini\" -Value $null }",
+    "persist": [
+        "outwiker.ini",
+        "snippets",
+        "spell"
+    ],
+    "checkver": {
+        "url": "https://github.com/Jenyay/outwiker/releases.atom",
+        "regex": "Repository/\\d+/(.+?)-stable<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Jenyay/outwiker/releases/download/$version-stable/outwiker_$version_win_all_plugins.7z"
+    }
+}
