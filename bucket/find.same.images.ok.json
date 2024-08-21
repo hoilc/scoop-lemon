@@ -19,7 +19,7 @@
             "FSI_OK.exe",
             "Find.Same.Images.OK"
         ]
-    ]
+    ],
     "pre_install": "Get-ChildItem \"$dir\" 'FSI_OK*.exe' | Select-Object -First 1 | Rename-Item -NewName 'FSI_OK.exe'",
     "persist": "Find.Same.Images.OK.ini",
     "checkver": {
