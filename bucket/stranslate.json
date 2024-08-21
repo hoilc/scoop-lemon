@@ -1,12 +1,12 @@
 {
-    "version": "1.1.8.810",
+    "version": "1.1.9.821",
     "description": "WPF 开发的一款即开即用、即用即走的翻译工具",
     "homepage": "https://github.com/ZGGSONG/STranslate",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ZGGSONG/STranslate/releases/download/1.1.8.810/STranslate_1.1.8.810_win-x64.zip",
-            "hash": "cba086f1229ec069067420cd2fb2f045b7459a1f557fb8159cb2089314781e19"
+            "url": "https://github.com/ZGGSONG/STranslate/releases/download/1.1.9.821/STranslate_1.1.9.821_win-x64.zip",
+            "hash": "027a89708ef5eb87e8dd7d044f709772bdc25a5f57da47a24130100d043e6b88"
         }
     },
     "shortcuts": [
