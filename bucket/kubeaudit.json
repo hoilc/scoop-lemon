@@ -1,16 +1,16 @@
 {
-    "version": "0.22.1",
+    "version": "0.22.2",
     "description": "A command line tool helps you audit your Kubernetes clusters against common security controls.",
     "homepage": "https://github.com/Shopify/kubeaudit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Shopify/kubeaudit/releases/download/v0.22.1/kubeaudit_0.22.1_windows_amd64.tar.gz",
-            "hash": "cbf42596f2fe795400ad689cb2e1192cc2c032434fbb82b71bea7bb24f6228c1"
+            "url": "https://github.com/Shopify/kubeaudit/releases/download/v0.22.2/kubeaudit_0.22.2_windows_amd64.tar.gz",
+            "hash": "e70c5314e2bf2b88605c8470c37843459798f80cc1df22ea0255b91778534924"
         },
         "32bit": {
-            "url": "https://github.com/Shopify/kubeaudit/releases/download/v0.22.1/kubeaudit_0.22.1_windows_386.tar.gz",
-            "hash": "da945baf22169422b5e28d0f70256ea96081d3bf3de27417020d86ba5383a592"
+            "url": "https://github.com/Shopify/kubeaudit/releases/download/v0.22.2/kubeaudit_0.22.2_windows_386.tar.gz",
+            "hash": "6e1aeaad45acfff5a06b6ab7c47ecb85d36fd384101d7fb4b57a7467d704859a"
         }
     },
     "bin": "kubeaudit.exe",
