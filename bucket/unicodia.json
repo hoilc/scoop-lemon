@@ -17,7 +17,7 @@
     ],
     "pre_install": [
         "[xml]$config= Get-Content \"$dir\\Unicodia.xml\"",
-        "$config.program.portable = 1",
+        "$config.program.portable = \"1\"",
         "$config.Save(\"$dir\\Unicodia.xml\")",
         "if (!(Test-Path \"$persist_dir\\config.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.xml\" -Value '<?xml version=\"1.0\"?><config></config>' }"
     ],
