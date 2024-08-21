@@ -1,0 +1,29 @@
+{
+    "version": "5.83.1",
+    "description": "An easy to use and accurate software uninstaller for Windows.",
+    "homepage": "https://northglide.com/sideslide.html",
+    "license": "Freeware",
+    "url": "https://www.northglide.com/SideSlide_v5.83.1_Portable.zip",
+    "hash": "809d53df5bcdeeb5dc038c74848de50a4a68a2cd573219e7d926291e749044b9",
+    "extract_dir": "SideSlide",
+    "shortcuts": [
+        [
+            "SideSlide.exe",
+            "SideSlide"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\SideSlide.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\SideSlide.ini\" -Value '108', '[CheckForUpdatesOnStartup]', '0', '[Stretch]', '1', '[Background]', '1708806' }",
+    "persist": [
+        "SideSlide.ini",
+        "Containers",
+        "iconcache",
+        "Skin"
+    ],
+    "checkver": {
+        "url": "https://northglide.com/sideslidepad.xml",
+        "regex": "<Program_Version>([\\d.]+)</Program_Version>"
+    },
+    "autoupdate": {
+        "url": "https://www.northglide.com/SideSlide_v$version_Portable.zip"
+    }
+}
