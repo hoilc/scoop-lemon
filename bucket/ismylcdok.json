@@ -6,25 +6,20 @@
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/IsMyLcdOK_x64.zip",
-            "hash": "eb39d11de5bd268aac234a94dd1f013176e00ab031e304fac1fb6e85fa887c84",
-            "shortcuts": [
-                [
-                    "IsMyLcdOK_x64.exe",
-                    "IsMyLcdOK"
-                ]
-            ]
+            "hash": "eb39d11de5bd268aac234a94dd1f013176e00ab031e304fac1fb6e85fa887c84"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/IsMyLcdOK.zip",
-            "hash": "889d0e9b43ca443f826f86a5510a68dffbf1dcbcbdaaaa6b07440f5ee7dbbbe3",
-            "shortcuts": [
-                [
-                    "IsMyLcdOK.exe",
-                    "IsMyLcdOK"
-                ]
-            ]
+            "hash": "889d0e9b43ca443f826f86a5510a68dffbf1dcbcbdaaaa6b07440f5ee7dbbbe3"
         }
     },
+    "shortcuts": [
+        [
+            "IsMyLcdOK.exe",
+            "IsMyLcdOK"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'IsMyLcdOK*.exe' | Select-Object -First 1 | Rename-Item -NewName 'IsMyLcdOK.exe'",
     "checkver": {
         "regex": "IsMyLcdOK ([\\d.]+)"
     },

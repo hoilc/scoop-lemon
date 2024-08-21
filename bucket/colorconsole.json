@@ -6,26 +6,23 @@
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_x64_Portable.zip",
-            "hash": "9e3e26d71a6fc2d2da7d7ea1ddae7a59b1e4acf276ae9f185ebee4ea7a6baa51",
-            "shortcuts": [
-                [
-                    "ColorConsole_x64_p.exe",
-                    "ColorConsole"
-                ]
-            ]
+            "hash": "9e3e26d71a6fc2d2da7d7ea1ddae7a59b1e4acf276ae9f185ebee4ea7a6baa51"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_Portable.zip",
-            "hash": "e28faa12aa0644287dc299cae2207064be3675bd3f472f5b683549dbe671587d",
-            "shortcuts": [
-                [
-                    "ColorConsole_Portable.exe",
-                    "ColorConsole"
-                ]
-            ]
+            "hash": "e28faa12aa0644287dc299cae2207064be3675bd3f472f5b683549dbe671587d"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\ColorConsole.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\ColorConsole.ini\" -Value $null }",
+    "shortcuts": [
+        [
+            "ColorConsole.exe",
+            "ColorConsole"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'ColorConsole*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ColorConsole.exe'",
+        "if (!(Test-Path \"$persist_dir\\ColorConsole.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\ColorConsole.ini\" -Value $null }"
+    ],
     "persist": "ColorConsole.ini",
     "checkver": {
         "regex": "ColorConsole ([\\d.]+)"

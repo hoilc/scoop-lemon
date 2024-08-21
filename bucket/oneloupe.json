@@ -6,26 +6,23 @@
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/OneLoupe_x64.zip",
-            "hash": "c4bdb302cd0875e250a0be18d870d86ba491a4ebeb941282d1d208c82c36e598",
-            "shortcuts": [
-                [
-                    "OneLoupe_x64.exe",
-                    "OneLoupe"
-                ]
-            ]
+            "hash": "c4bdb302cd0875e250a0be18d870d86ba491a4ebeb941282d1d208c82c36e598"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/OneLoupe_Unicode.zip",
-            "hash": "170163a4c68e03b90e6a4f5bdea425c7c4eb32c27b2117af7ff5db5a6e54e563",
-            "shortcuts": [
-                [
-                    "OneLoupe_uc.exe",
-                    "OneLoupe"
-                ]
-            ]
+            "hash": "170163a4c68e03b90e6a4f5bdea425c7c4eb32c27b2117af7ff5db5a6e54e563"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\OneLoupe.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\OneLoupe.ini\" -Value $null }",
+    "shortcuts": [
+        [
+            "OneLoupe.exe",
+            "OneLoupe"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'OneLoupe*.exe' | Select-Object -First 1 | Rename-Item -NewName 'OneLoupe.exe'",
+        "if (!(Test-Path \"$persist_dir\\OneLoupe.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\OneLoupe.ini\" -Value $null }"
+    ],
     "persist": "OneLoupe.ini",
     "checkver": {
         "regex": "OneLoupe ([\\d.]+)"

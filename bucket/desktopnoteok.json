@@ -6,26 +6,23 @@
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/DesktopNoteOK_x64.zip",
-            "hash": "8f5c4a1135869d575d314124fe75271bc4e97d1f5acd5925cd280fcc9521cc57",
-            "shortcuts": [
-                [
-                    "DNOK_x64.exe",
-                    "DesktopNoteOK"
-                ]
-            ]
+            "hash": "8f5c4a1135869d575d314124fe75271bc4e97d1f5acd5925cd280fcc9521cc57"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/DesktopNoteOK.zip",
-            "hash": "31607eac188062507028c81785e287a99e24489c629e90de1713f73d8516cdfe",
-            "shortcuts": [
-                [
-                    "DNOK.exe",
-                    "DesktopNoteOK"
-                ]
-            ]
+            "hash": "31607eac188062507028c81785e287a99e24489c629e90de1713f73d8516cdfe"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\DesktopNoteOK.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\DesktopNoteOK.ini\" -Value $null }",
+    "shortcuts": [
+        [
+            "DNOK.exe",
+            "DesktopNoteOK"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'DNOK*.exe' | Select-Object -First 1 | Rename-Item -NewName 'DNOK.exe'",
+        "if (!(Test-Path \"$persist_dir\\DesktopNoteOK.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\DesktopNoteOK.ini\" -Value $null }"
+    ],
     "persist": "DesktopNoteOK.ini",
     "checkver": {
         "regex": "DesktopNoteOK ([\\d.]+)"

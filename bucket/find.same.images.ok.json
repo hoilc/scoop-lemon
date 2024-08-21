@@ -6,26 +6,21 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.eu/Download/Find.Same.Images.OK_Portable_x64.zip",
-            "hash": "c77119f7e1ca1a05530fd748e3f829b91a355c19ca8f59e8441afe12c8eec880",
-            "shortcuts": [
-                [
-                    "FSI_OK_x64.exe",
-                    "Find.Same.Images.OK"
-                ]
-            ]
+            "hash": "c77119f7e1ca1a05530fd748e3f829b91a355c19ca8f59e8441afe12c8eec880"
         },
         "32bit": {
             "url": "https://www.softwareok.eu/Download/Find.Same.Images.OK_Portable.zip",
-            "hash": "ddf6accb33efa1034d1cad81b509717a804d857fe3265977b6869a5ef421ff05",
-            "shortcuts": [
-                [
-                    "FSI_OK_x32.exe",
-                    "Find.Same.Images.OK"
-                ]
-            ]
+            "hash": "ddf6accb33efa1034d1cad81b509717a804d857fe3265977b6869a5ef421ff05"
         }
     },
     "extract_dir": "Find.Same.Images.OK",
+    "shortcuts": [
+        [
+            "FSI_OK.exe",
+            "Find.Same.Images.OK"
+        ]
+    ]
+    "pre_install": "Get-ChildItem \"$dir\" 'FSI_OK*.exe' | Select-Object -First 1 | Rename-Item -NewName 'FSI_OK.exe'",
     "persist": "Find.Same.Images.OK.ini",
     "checkver": {
         "regex": "Find.Same.Images.OK ([\\d.]+)"
