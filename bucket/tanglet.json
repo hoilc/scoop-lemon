@@ -1,0 +1,29 @@
+{
+    "version": "1.6.5",
+    "description": "A word finding game where you try to list as many words as you can before the time runs out.",
+    "homepage": "https://gottcode.org/tanglet/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://gottcode.org/tanglet/Tanglet_1.6.5.zip",
+            "hash": "dc70216fc8f66484a4ee0abe7fb6bbef807f0e9fb4c2b87c2d615a7631988db1"
+        }
+    },
+    "shortcuts": [
+        [
+            "Tanglet.exe",
+            "Tanglet"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/gottcode/tanglet"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gottcode.org/tanglet/Tanglet_$version.zip"
+            }
+        }
+    }
+}
