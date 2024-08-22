@@ -1,0 +1,43 @@
+{
+    "version": "3.04",
+    "description": "Simple x264/x265 Launcher is a lightweight front-end for the x264 (H.264) and x265 (HEVC) encoders with Avisynth and VapourSynth support.",
+    "homepage": "https://github.com/lordmulder/Simple-x264-Launcher",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lordmulder/Simple-x264-Launcher/releases/download/v3.04/x264_launcher.2024-07-14.zip",
+            "hash": "78baeea842835d727015b694c1dfc11f84ab9c653ad01e5ee716fe5c6e1fb75a"
+        }
+    },
+    "shortcuts": [
+        [
+            "x264_launcher_portable.exe",
+            "Simple x264 Launcher"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'x264_launcher.exe' | Select-Object -First 1 | Rename-Item -NewName 'x264_launcher_portable.exe'",
+        "if (!(Test-Path \"$persist_dir\\preferences.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\preferences.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\templates.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\templates.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\queue.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\queue.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\last.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\last.ini\" -Value $null }"
+    ],
+    "persist": [
+        "preferences.ini",
+        "templates.ini",
+        "queue.ini",
+        "last.ini",
+        "extra"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/lordmulder/Simple-x264-Launcher/releases/latest",
+        "regex": "/releases/download/v([\\d.]+)/x264_launcher.(?<date>[\\d-]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lordmulder/Simple-x264-Launcher/releases/download/v$version/x264_launcher.$matchDate.zip"
+            }
+        }
+    }
+}
