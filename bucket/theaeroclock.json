@@ -1,0 +1,40 @@
+{
+    "version": "8.61.1",
+    "description": "A simple but at the same time beautiful desktop clock with alpha transparency and different textures.",
+    "homepage": "https://softwareok.com/?seite=Freeware/TheAeroClock",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://softwareok.com/Download/TheAeroClock_x64.zip",
+            "hash": "3a7ed24f5a14bb74411cae8c8b0f54b076d562e293601846e58c2979716ebb3c"
+        },
+        "32bit": {
+            "url": "https://softwareok.com/Download/TheAeroClock.zip",
+            "hash": "fb9dd5b0e0fc7eab45e6c3097d301aaa617ed391ed165344a52342b1425fd621"
+        }
+    },
+    "shortcuts": [
+        [
+            "TheAeroClock.exe",
+            "TheAeroClock"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'TheAeroClock*.exe' | Select-Object -First 1 | Rename-Item -NewName 'TheAeroClock.exe'",
+        "if (!(Test-Path \"$persist_dir\\TheAeroClock.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\TheAeroClock.ini\" -Value $null }"
+    ],
+    "persist": "TheAeroClock.ini",
+    "checkver": {
+        "regex": "TheAeroClock ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://softwareok.com/Download/TheAeroClock_x64.zip"
+            },
+            "32bit": {
+                "url": "https://softwareok.com/Download/TheAeroClock.zip"
+            }
+        }
+    }
+}
