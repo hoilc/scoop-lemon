@@ -3,8 +3,28 @@
     "description": "A Simple GUI for MediaInfo, displays technical information about media files.",
     "homepage": "https://github.com/lordmulder/mediainfo-gui",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/lordmulder/mediainfo-gui/releases/download/v2.47/MediaInfo-GUI.2024-08-17.zip",
-    "hash": "dc57ec018319492ff02fe2294a74a04ab4e75e219e01f7af8a9c7e4afc231e84",
+    "url": [
+        "https://github.com/lordmulder/mediainfo-gui/releases/download/v2.47/MediaInfo-GUI.2024-08-17.zip",
+        "https://github.com/lordmulder/mediainfo-gui/releases/download/v2.47/MediaInfo-CLI.2024-08-17.zip"
+    ],
+    "hash": [
+        "dc57ec018319492ff02fe2294a74a04ab4e75e219e01f7af8a9c7e4afc231e84",
+        "245d14f02f56a176a9b0fe0184a410fb3d3faaf4b0ce1253ee64493b7c9859bb"
+    ],
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "MediaInfo.x64-sse2.exe",
+                "MediaInfo"
+            ]
+        },
+        "32bit": {
+            "bin": [
+                "MediaInfo.x86-sse2.exe",
+                "MediaInfo"
+            ]
+        }
+    },
     "shortcuts": [
         [
             "MediaInfoXP.exe",
@@ -16,6 +36,9 @@
         "regex": "/releases/download/v([\\d.]+)/MediaInfo-GUI.(?<date>[\\d-]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/lordmulder/mediainfo-gui/releases/download/v$version/MediaInfo-GUI.$matchDate.zip"
+        "url": [
+            "https://github.com/lordmulder/mediainfo-gui/releases/download/v$version/MediaInfo-GUI.$matchDate.zip",
+            "https://github.com/lordmulder/mediainfo-gui/releases/download/v$version/MediaInfo-CLI.$matchDate.zip"
+        ]
     }
 }
