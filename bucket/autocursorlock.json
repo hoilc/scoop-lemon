@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Locks the cursor to a specified window while the window is in focus.",
     "homepage": "https://github.com/James-LG/AutoCursorLock",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/James-LG/AutoCursorLock/releases/download/v2.0.0/autocursorlock-v2.0.0.zip",
-            "hash": "a923d1e9c8fff7bd0198e4b2fd17fe9e74b45a43b3e0128f60abac7d6a5bab35"
+            "url": "https://github.com/James-LG/AutoCursorLock/releases/download/v2.0.1/autocursorlock-v2.0.1.zip",
+            "hash": "b2da16de5edabf2e897e24758f26578f82457f886b715f851e0aadf22ba8ed56"
         }
     },
     "shortcuts": [
