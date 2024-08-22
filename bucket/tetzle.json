@@ -1,0 +1,29 @@
+{
+    "version": "3.0.0",
+    "description": "A jigsaw puzzle game that uses tetrominoes for the pieces.",
+    "homepage": "https://gottcode.org/tetzle/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://gottcode.org/tetzle/Tetzle_3.0.0.zip",
+            "hash": "2bafcf0bc227cc7918a09234fe6ce18d50a5cd336787a72fa4f8e054e98e1afa"
+        }
+    },
+    "shortcuts": [
+        [
+            "Tetzle.exe",
+            "Tetzle"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/gottcode/tetzle"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gottcode.org/tetzle/Tetzle_$version.zip"
+            }
+        }
+    }
+}
