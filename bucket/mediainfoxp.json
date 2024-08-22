@@ -14,14 +14,18 @@
     "architecture": {
         "64bit": {
             "bin": [
-                "MediaInfo.x64-sse2.exe",
-                "MediaInfo"
+                [
+                    "MediaInfo.x64-sse2.exe",
+                    "MediaInfo"
+                ]
             ]
         },
         "32bit": {
             "bin": [
-                "MediaInfo.x86-sse2.exe",
-                "MediaInfo"
+                [
+                    "MediaInfo.x86-sse2.exe",
+                    "MediaInfo"
+                ]
             ]
         }
     },
