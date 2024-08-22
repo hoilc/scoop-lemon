@@ -1,0 +1,40 @@
+{
+    "version": "7.81.1",
+    "description": "A small tool to securely delete the data.",
+    "homepage": "https://softwareok.com/?seite=Microsoft/BlankAndSecure",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://softwareok.com/Download/BlankAndSecure_x64.zip",
+            "hash": "7207295a8c0bb9183045b96e559c83fc5897980683f1022c07dc0cd3a21613fe"
+        },
+        "32bit": {
+            "url": "https://softwareok.com/Download/BlankAndSecure.zip",
+            "hash": "004a49f87c211309a50f35492f355d808604c85ff5d78fc929d3eeb452a5bbfb"
+        }
+    },
+    "shortcuts": [
+        [
+            "BlankAndSecure.exe",
+            "BlankAndSecure"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'BlankAndSecure*.exe' | Select-Object -First 1 | Rename-Item -NewName 'BlankAndSecure.exe'",
+        "if (!(Test-Path \"$persist_dir\\BlankAndSecure.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\BlankAndSecure.ini\" -Value $null }"
+    ],
+    "persist": "BlankAndSecure.ini",
+    "checkver": {
+        "regex": "BlankAndSecure ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://softwareok.com/Download/BlankAndSecure_x64.zip"
+            },
+            "32bit": {
+                "url": "https://softwareok.com/Download/BlankAndSecure.zip"
+            }
+        }
+    }
+}
