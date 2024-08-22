@@ -1,0 +1,21 @@
+{
+    "version": "2.47",
+    "description": "A Simple GUI for MediaInfo, displays technical information about media files.",
+    "homepage": "https://github.com/lordmulder/mediainfo-gui",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/lordmulder/mediainfo-gui/releases/download/v2.47/MediaInfo-GUI.2024-08-17.zip",
+    "hash": "dc57ec018319492ff02fe2294a74a04ab4e75e219e01f7af8a9c7e4afc231e84",
+    "shortcuts": [
+        [
+            "MediaInfoXP.exe",
+            "MediaInfoXP"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/lordmulder/mediainfo-gui/releases/latest",
+        "regex": "/releases/download/v([\\d.]+)/MediaInfo-GUI.(?<date>[\\d-]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lordmulder/mediainfo-gui/releases/download/v$version/MediaInfo-GUI.$matchDate.zip"
+    }
+}
