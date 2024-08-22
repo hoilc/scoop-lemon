@@ -1,0 +1,40 @@
+{
+    "version": "9.55.1",
+    "description": "A small program to prevent system shutdown, standby, hibernate, turn Off and restart.",
+    "homepage": "https://softwareok.com/?seite=Microsoft/DontSleep",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://softwareok.com/Download/DontSleep_x64_Portable.zip",
+            "hash": "0d3b6ad6a274e0a42294852b1c58dc72199e1dcd9c10f36c599e07f6a1bc3e78"
+        },
+        "32bit": {
+            "url": "https://softwareok.com/Download/DontSleep_Portable.zip",
+            "hash": "081a20fb7930b3804dc6449159d6b73b132d0e4477269ff98a2115d3af7a80c9"
+        }
+    },
+    "shortcuts": [
+        [
+            "DontSleep.exe",
+            "DontSleep"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'DontSleep*.exe' | Select-Object -First 1 | Rename-Item -NewName 'DontSleep.exe'",
+        "if (!(Test-Path \"$persist_dir\\DontSleep.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\DontSleep.ini\" -Value $null }"
+    ],
+    "persist": "DontSleep.ini",
+    "checkver": {
+        "regex": "DontSleep ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://softwareok.com/Download/DontSleep_x64_Portable.zip"
+            },
+            "32bit": {
+                "url": "https://softwareok.com/Download/DontSleep_Portable.zip"
+            }
+        }
+    }
+}
