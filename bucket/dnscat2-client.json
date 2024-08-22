@@ -1,0 +1,20 @@
+{
+    "version": "0.07",
+    "description": "A DNS tunnel designed to create an encrypted command-and-control (C&C) channel over the DNS protocol.",
+    "homepage": "https://github.com/iagox86/dnscat2",
+    "license": "BSD-3-Clause",
+    "url": "https://downloads.skullsecurity.org/dnscat2/dnscat2-v0.07-client-win32.zip#/dl.zip.dontautoexpand",
+    "hash": "be19a8bc79b7a2edc3ec64e69e3d1f9cc4d7ace7d7fb5e3528458e51b6ca0dbe",
+    "bin": "dnscat.exe",
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\dl.zip.dontautoexpand\" -DestinationPath \"$dir\" -Removal -Switches '-ppassword'",
+        "Get-ChildItem \"$dir\" 'dnscat*.exe' | Select-Object -First 1 | Rename-Item -NewName 'dnscat.exe'"
+    ],
+    "checkver": {
+        "url": "https://github.com/iagox86/dnscat2/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://downloads.skullsecurity.org/dnscat2/dnscat2-v$version-client-win32.zip#/dl.zip.dontautoexpand"
+    }
+}
