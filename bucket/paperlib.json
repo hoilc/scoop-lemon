@@ -1,12 +1,12 @@
 {
-    "version": "3.1.8",
+    "version": "3.1.9",
     "description": "An open-source academic paper management tool.",
     "homepage": "https://paperlib.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-3.1.8/Paperlib_3.1.8.exe#/dl.7z",
-            "hash": "sha512:96e9c34c4245ac70e02930d0348e529ba5fda5a1839a1fbaac33c363c0bf9b716a17de8129f6c4419dad8a95a4f15047281d815057f33120800b1ec06b8361f3",
+            "url": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-3.1.9/Paperlib_3.1.9.exe#/dl.7z",
+            "hash": "sha512:2222d8b4a912cc23813045c47d5472942c5c547fcdebe2236d524ef606f64498a7e9593051e64b682b416845230e25c2e9af45e60bd3448c5552f50e96f1f896",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
