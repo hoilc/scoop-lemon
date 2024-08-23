@@ -1,16 +1,16 @@
 {
-    "version": "0.27.1",
+    "version": "0.28.0",
     "description": "A cross-platform, multi-language package manager and workflow tool built on the foundation of the conda ecosystem.",
     "homepage": "https://pixi.sh",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prefix-dev/pixi/releases/download/v0.27.1/pixi-x86_64-pc-windows-msvc.zip",
-            "hash": "459d559f0424aab1bdb44122bed8df2d4365c297d6ec8da4af5d980929282575"
+            "url": "https://github.com/prefix-dev/pixi/releases/download/v0.28.0/pixi-x86_64-pc-windows-msvc.zip",
+            "hash": "75141a905ba68eb2dd67396b33b51964aca9eebb7d0ac085108e1bfac79e88e2"
         },
         "arm64": {
-            "url": "https://github.com/prefix-dev/pixi/releases/download/v0.27.1/pixi-aarch64-pc-windows-msvc.zip",
-            "hash": "f7267e3fae8aa92485cbbed25c8ba6e42d720bd54ec8c7c984cc3947fe26565d"
+            "url": "https://github.com/prefix-dev/pixi/releases/download/v0.28.0/pixi-aarch64-pc-windows-msvc.zip",
+            "hash": "904f02e4d35082be42e3a615a8da7c6d4a87bdc97275a9c7cd0623599dcf61a7"
         }
     },
     "bin": "pixi.exe",
