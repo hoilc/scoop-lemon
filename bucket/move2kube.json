@@ -1,12 +1,12 @@
 {
-    "version": "0.3.13",
+    "version": "0.3.14",
     "description": "A command-line tool that accelerates the process of re-platforming to Kubernetes/Openshift.",
     "homepage": "https://move2kube.konveyor.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/konveyor/move2kube/releases/download/v0.3.13/move2kube-v0.3.13-windows-amd64.zip",
-            "hash": "9a7dc6c3bbe720a99564fc09061995d5882ff49382e6a7fa0672dc9afeee6b8f"
+            "url": "https://github.com/konveyor/move2kube/releases/download/v0.3.14/move2kube-v0.3.14-windows-amd64.zip",
+            "hash": "154c7a73b667f51894d9c1ff5ab291f1760d2d8ce377f895535aef74d4253cb9"
         }
     },
     "extract_dir": "move2kube",
