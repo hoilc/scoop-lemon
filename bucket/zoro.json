@@ -1,16 +1,16 @@
 {
-    "version": "20211230",
+    "version": "20240828",
     "description": "Zoro can help you expose local server to external network with zero-configuration. Support both TCP/UDP, of course support HTTP.",
     "homepage": "https://github.com/txthinking/zoro",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/txthinking/zoro/releases/download/v20211230/zoro_windows_amd64.exe#/zoro.exe",
-            "hash": "f31a98d9dac7cd48247f39bb9b070c461dae3abe9915227a99aaa323a1ea75ad"
+            "url": "https://github.com/txthinking/zoro/releases/download/v20240828/zoro_windows_amd64.exe#/zoro.exe",
+            "hash": "47c444981a48516f3504ea556f6d58510ba5763113aa20cbb7c35792935db204"
         },
         "32bit": {
-            "url": "https://github.com/txthinking/zoro/releases/download/v20211230/zoro_windows_386.exe#/zoro.exe",
-            "hash": "bebf523a751df80370902fa01151754f879e64f9fb217953678217c55cb4cd12"
+            "url": "https://github.com/txthinking/zoro/releases/download/v20240828/zoro_windows_386.exe#/zoro.exe",
+            "hash": "755ebe7e42ae5586cba64c67e6a46995847bd44e6e7d5269d3b370a8201090b9"
         }
     },
     "bin": "zoro.exe",
