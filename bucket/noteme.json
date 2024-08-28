@@ -1,0 +1,17 @@
+{
+    "version": "1.1.0",
+    "description": "A tool to quickly send mail to yourself.",
+    "homepage": "https://www.donationcoder.com/forum/index.php?topic=28912.0",
+    "license": "Donationware",
+    "url": "http://downloads.vandragt.com/noteme/Setup-NoteMe.exe",
+    "hash": "c3c5378604fe5b97886026e64eff0774c43f515ec7e9fe6fcef6f284958c59e6",
+    "innosetup": true,
+    "bin": "NoteMe.exe",
+    "shortcuts": [
+        [
+            "NoteMe.exe",
+            "NoteMe"
+        ]
+    ],
+    "notes": "NoteMe is NOT portable."
+}
