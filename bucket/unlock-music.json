@@ -1,16 +1,16 @@
 {
-    "version": "0.2.0-beta.2",
+    "version": "0.2.0-beta.3",
     "description": "A CLI tool that unlocks encrypted music file.",
     "homepage": "https://git.unlock-music.dev/um/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.0-beta.2/um-windows-amd64.tar.gz",
-            "hash": "0bd63cff49fcec6201a16e1cb8cb702bdfc45631ef9b96a6e8a02d56c3daf4eb"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.0-beta.3/um-windows-amd64.tar.gz",
+            "hash": "94154b08d924dc637dd65efac6a54de871b731aa2b6687b3052ab38929ed5f51"
         },
         "32bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.0-beta.2/um-windows-386.tar.gz",
-            "hash": "15fb5eb29c5127ca2f0b2c43db4fa57ee5ed6562d20388858a64594e17814739"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.0-beta.3/um-windows-386.tar.gz",
+            "hash": "7a5c0e7acad35ecb0814913cbf26ee71a799910c888e4a31101bb2fd02a96bc0"
         }
     },
     "bin": "um.exe",
