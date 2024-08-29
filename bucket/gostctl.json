@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "description": "The official GUI client for GOST API management",
+    "homepage": "https://github.com/go-gost/gostctl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/go-gost/gostctl/releases/download/v0.1.0/gostctl-0.1.0-windows-amd64.zip",
+            "hash": "e1bb935932d2dcbe406ba8caad2b17cf6661024a866d883b676a1371017e9092"
+        },
+        "arm64": {
+            "url": "https://github.com/go-gost/gostctl/releases/download/v0.1.0/gostctl-0.1.0-windows-arm64.zip",
+            "hash": "7e3c93c1864f8ad2caabcfed598ab139232f07e767d5dd2e37a77c1c87dab9be"
+        }
+    },
+    "shortcuts": [
+        [
+            "gostctl.exe",
+            "GOST"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'gostctl-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'gostctl.exe'",
+    "notes": "gostctl is NOT portable.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/go-gost/gostctl/releases/download/v$version/gostctl-$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/go-gost/gostctl/releases/download/v$version/gostctl-$version-windows-arm64.zip"
+            }
+        }
+    }
+}
