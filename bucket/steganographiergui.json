@@ -1,0 +1,32 @@
+{
+    "version": "1.2.1",
+    "description": "隐写者是一款将文件或文件夹隐写到视频文件的工具",
+    "homepage": "https://github.com/cenglin123/SteganographierGUI",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v1.2.1/SteganographierGUI_v1.2.1.zip",
+            "extract_dir": "SteganographierGUI_v1.2.1",
+            "hash": "3122efa5133f43b0fe57c9363c82fc2b9e6b7344d23c3972abe390840df0c463"
+        }
+    },
+    "shortcuts": [
+        [
+            "隐写者.exe",
+            "隐写者"
+        ]
+    ],
+    "persist": [
+        "modules\\PW.txt",
+        "cover_video"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v$version/SteganographierGUI_v$version.zip",
+                "extract_dir": "SteganographierGUI_v$version"
+            }
+        }
+    }
+}
