@@ -1,16 +1,16 @@
 {
-    "version": "3025",
+    "version": "3031",
     "description": "(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/10598390795/whisper-bin-x64.zip",
-            "hash": "bb3db3dbef7cdafa4db729c1a7a36df585ba3c4b468ead6e7ce098fcc1c54b6e"
+            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/10631494041/whisper-bin-x64.zip",
+            "hash": "7b04c5e637df300d39f6a0a7119e16ff2e9e44c4a6d558e46b16f02c0d918cbc"
         },
         "32bit": {
-            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/10598390795/whisper-bin-Win32.zip",
-            "hash": "fcfe6d9382d1ff0aad733f63daec5c2e5332fba5236836675142a1861ae83d5b"
+            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/10631494041/whisper-bin-Win32.zip",
+            "hash": "94596f9ded2f650d4e06f8d81c7560a75768ce57907a71f49f867e22f7265e38"
         }
     },
     "bin": [
