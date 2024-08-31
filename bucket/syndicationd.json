@@ -1,13 +1,13 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Syndicationd (synd) is a TUI feed viewer, based on feed-rs and ratatui.",
     "homepage": "https://docs.syndicationd.ymgyt.io/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.0/synd-term-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/ymgyt/syndicationd/releases/download/synd-term-v0.3.1/synd-term-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "synd-term-x86_64-pc-windows-msvc",
-            "hash": "9ad63462680848b61452de13945e89753715c267cee326b245b5a54b5bbc364b"
+            "hash": "7a54c4a21e58a6fc577933300065a21b17c90e2625f4876bf0b51d9033dc7f16"
         }
     },
     "bin": "synd.exe",
