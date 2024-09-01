@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve v1.53/msieve153_win64.zip",
+            "extract_dir": "msieve153",
             "hash": "sha1:f5a1368f947d868124eeb18192dde703ee20d03e"
         }
     },
