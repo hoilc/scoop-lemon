@@ -1,0 +1,23 @@
+{
+    "version": "1.3",
+    "description": "A programs to help with solving Steganography challenges.",
+    "homepage": "http://www.caesum.com/handbook/stego.htm",
+    "license": "Freeware",
+    "url": "http://www.caesum.com/handbook/Stegsolve.jar",
+    "hash": "007b49606678f39962edadb875e5ae4ac588ea0588c51deefcde3c8dc4fae55a",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\Stegsolve.bat\" -Value '@start javaw.exe -jar \"%~dp0Stegsolve.jar\"'",
+    "shortcuts": [
+        [
+            "Stegsolve.bat",
+            "Stegsolve"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/zulu-jdk"
+        ]
+    }
+}
