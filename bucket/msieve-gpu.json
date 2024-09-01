@@ -1,0 +1,27 @@
+{
+    "version": "1.53",
+    "description": "(GPU Version) A tool implementing a suite of algorithms to factor large integers.",
+    "homepage": "https://sourceforge.net/projects/msieve/",
+    "license": "Public Domain",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v1.53/msieve153_win64_gpu.zip",
+            "extract_dir": "msieve153_gpu",
+            "hash": "sha1:539569cae5eee7d538643b63fc98122e52a7f951"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'msieve*.exe' | Select-Object -First 1 | Rename-Item -NewName 'msieve.exe'",
+    "bin": "msieve.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/msieve/rss",
+        "regex": "Msieve v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v$version/msieve$cleanVersion_win64_gpu.zip",
+                "extract_dir": "msieve$cleanVersion_gpu"
+            }
+        }
+    }
+}

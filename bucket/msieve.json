@@ -1,0 +1,27 @@
+{
+    "version": "1.53",
+    "description": "A tool implementing a suite of algorithms to factor large integers.",
+    "homepage": "https://sourceforge.net/projects/msieve/",
+    "license": "Public Domain",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v1.53/msieve153_win64.zip",
+            "extract_dir": "msieve153",
+            "hash": "sha1:f5a1368f947d868124eeb18192dde703ee20d03e"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'msieve*.exe' | Select-Object -First 1 | Rename-Item -NewName 'msieve.exe'",
+    "bin": "msieve.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/msieve/rss",
+        "regex": "Msieve v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v$version/msieve$cleanVersion_win64.zip",
+                "extract_dir": "msieve$cleanVersion"
+            }
+        }
+    }
+}
