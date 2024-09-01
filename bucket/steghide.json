@@ -1,0 +1,17 @@
+{
+    "version": "0.5.1",
+    "description": "A steganography program that is able to hide data in various kinds of image and audio files.",
+    "homepage": "https://sourceforge.net/projects/steghide",
+    "license": "GPL-2.0-only",
+    "url": "https://sourceforge.net/projects/steghide/files/steghide/0.5.1/steghide-0.5.1-win32.zip",
+    "hash": "sha1:813db8c9b6e54c56c63043f23d20e8869dce5ee3",
+    "extract_dir": "steghide",
+    "bin": "steghide.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/steghide/rss",
+        "regex": "steghide-([\\d.]+)-win32.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/steghide/files/steghide/$version/steghide-$version-win32.zip"
+    }
+}
