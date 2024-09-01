@@ -5,7 +5,7 @@
     "license": "Public Domain",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve v1.53/msieve153_win64_gpu.zip",
+            "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v1.53/msieve153_win64_gpu.zip",
             "extract_dir": "msieve153_gpu",
             "hash": "sha1:539569cae5eee7d538643b63fc98122e52a7f951"
         }
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve v$version/msieve$cleanVersion_win64_gpu.zip",
+                "url": "https://sourceforge.net/projects/msieve/files/msieve/Msieve%20v$version/msieve$cleanVersion_win64_gpu.zip",
                 "extract_dir": "msieve$cleanVersion_gpu"
             }
         }
