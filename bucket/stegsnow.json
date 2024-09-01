@@ -6,12 +6,5 @@
     "url": "https://darkside.com.au/snow/snwdos32.zip",
     "hash": "25cd198c72951541da2e2cb04ae2b5523ee908603b1fa48f1d7c094794c3c8d7",
     "pre_install": "Get-ChildItem \"$dir\" 'SNOW.exe' | Select-Object -First 1 | Rename-Item -NewName 'stegsnow.exe'",
-    "bin": "stegsnow.exe",
-    "checkver": {
-        "regex": ".",
-        "replace": "19981122"
-    },
-    "autoupdate": {
-        "url": "https://darkside.com.au/snow/snwdos32.zip"
-    }
+    "bin": "stegsnow.exe"
 }
