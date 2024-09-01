@@ -1,0 +1,18 @@
+{
+    "version": "1.62",
+    "description": "bmp2png / png2bmp is a pair of simple command-line utilities that convert between Windows BMP format and PNG format.",
+    "homepage": "https://cetus.sakura.ne.jp/softlab/b2p-home/",
+    "license": "Freeware",
+    "url": "https://cetus.sakura.ne.jp/softlab/b2p-home/archives/b2p162w.zip",
+    "hash": "344e14336c8133c922d5febce7bb80b491ffba93e056a8756558c76aabcf2959",
+    "bin": [
+        "BMP2PNG.EXE",
+        "PNG2BMP.EXE"
+    ],
+    "checkver": {
+        "regex": "The latest version is ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://cetus.sakura.ne.jp/softlab/b2p-home/archives/b2p$cleanVersionw.zip"
+    }
+}
