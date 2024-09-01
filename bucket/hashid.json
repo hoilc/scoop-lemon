@@ -1,6 +1,6 @@
 {
     "version": "3.1.4",
-    "description": "A command line tool for interacting with cloud storage services.",
+    "description": "hash-identifier is a tool to identify the different types of hashes used to encrypt data and especially passwords.",
     "homepage": "https://psypanda.github.io/hashID/",
     "license": "GPL-3.0-only",
     "url": "https://github.com/psypanda/hashID/archive/refs/tags/v3.1.4.zip",
