@@ -1,0 +1,20 @@
+{
+    "version": "3.1.4",
+    "description": "hash-identifier is a tool to identify the different types of hashes used to encrypt data and especially passwords.",
+    "homepage": "https://psypanda.github.io/hashID/",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/psypanda/hashID/archive/refs/tags/v3.1.4.zip",
+    "hash": "ee708e0ee352a16d764e438c8948117671f8f6e59880c7dd3ef6e5700ac2d5ef",
+    "extract_dir": "hashID-3.1.4",
+    "bin": "hashid.py",
+    "suggest": {
+        "python3": "python"
+    },
+    "checkver": {
+        "github": "https://github.com/psypanda/hashID"
+    },
+    "autoupdate": {
+        "url": "https://github.com/psypanda/hashID/archive/refs/tags/v$version.zip",
+        "extract_dir": "hashID-$version"
+    }
+}
