@@ -1,0 +1,17 @@
+{
+    "version": "1.2",
+    "description": "A command-line utility that can help you to figure out what algorithm another application uses when it resizes images.",
+    "homepage": "https://entropymine.com/resamplescope/",
+    "license": "GPL-3.0-only",
+    "url": "https://entropymine.com/resamplescope/releases/rscope-1.2.zip",
+    "hash": "eddf5ae59f779edd0dff220e083512ebd5c88bcb9f28a09b11746148d2fb6f39",
+    "extract_dir": "rscope-1.2\\x86",
+    "bin": "rscope.exe",
+    "checkver": {
+        "regex": "rscope-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://entropymine.com/resamplescope/releases/rscope-$version.zip",
+        "extract_dir": "rscope-$version\\x86"
+    }
+}
