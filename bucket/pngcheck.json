@@ -1,0 +1,17 @@
+{
+    "version": "3.0.3",
+    "description": "A tool to test PNG image files for corruption, display size, type, compression info.",
+    "homepage": "http://www.libpng.org/pub/png/apps/pngcheck.html",
+    "license": "MIT",
+    "url": "https://sourceforge.net/projects/png-mng/files/pngcheck/3.0.3/pngcheck-3.0.3-win32.zip",
+    "hash": "sha1:d1eb7c55815e5fac219b0564ece5a8a31bf45a29",
+    "pre_install": "Get-ChildItem \"$dir\" 'pngcheck*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pngcheck.exe'",
+    "bin": "pngcheck.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/png-mng/rss",
+        "regex": "pngcheck-([\\d.]+)-win32.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/png-mng/files/pngcheck/$version/pngcheck-$version-win32.zip"
+    }
+}
