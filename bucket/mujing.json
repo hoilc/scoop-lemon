@@ -1,0 +1,27 @@
+{
+    "version": "2.5.0",
+    "description": "幕境是一个通过电影、美剧、文档等生成词库，为单词提供具体语境的辅助工具",
+    "homepage": "https://github.com/tangshimin/MuJing",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tangshimin/MuJing/releases/download/v2.5.0/MuJing-2.5.0.msi",
+            "hash": "3124ffd6c03e55fddb55d514c8f704b91176dfb5e9edce29f091f52c6f4b9163"
+        }
+    },
+    "shortcuts": [
+        [
+            "MuJing.exe",
+            "MuJing"
+        ]
+    ],
+    "notes": "MuJing is NOT portable.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tangshimin/MuJing/releases/download/v$version/MuJing-$version.msi"
+            }
+        }
+    }
+}
