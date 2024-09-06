@@ -1,5 +1,5 @@
 {
-    "version": "3.7.0",
+    "version": "3.7.1",
     "description": "A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.",
     "homepage": "https://localstack.cloud/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/localstack/localstack-cli/releases/download/v3.7.0/localstack-cli-3.7.0-windows-amd64-onefile.zip",
-            "hash": "ff98970c2b15e488b5bc900fcba86425cc989527c64af7e083801ecb22653ca7"
+            "url": "https://github.com/localstack/localstack-cli/releases/download/v3.7.1/localstack-cli-3.7.1-windows-amd64-onefile.zip",
+            "hash": "f71150d3d93ba76611a108139e60259f5790030835cb12b180e11c6dccb7c8b8"
         }
     },
     "bin": "localstack.exe",
