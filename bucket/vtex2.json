@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "A VTF (Valve Texture Format) converter and editor",
     "homepage": "https://github.com/StrataSource/vtex2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/StrataSource/vtex2/releases/download/v0.2.0/vtex2.windows-amd64.zip",
-            "hash": "1724cc54c97f8bbac7c5530c7cca1e9e3d393dba7b40168ba3168babb58c6d92"
+            "url": "https://github.com/StrataSource/vtex2/releases/download/v0.3.0/vtex2.windows-amd64.zip",
+            "hash": "10a519daf29e1641d6c12f4e00e71a3cc68965ac738f06661b1859d1968c6c5a"
         }
     },
     "bin": "vtex2.exe",
