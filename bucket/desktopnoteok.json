@@ -1,16 +1,16 @@
 {
-    "version": "3.99.1",
+    "version": "4.11",
     "description": "For quick creation of desktop notes on the Windows desktop, with beautiful random options and various customization options.",
     "homepage": "http://www.softwareok.eu/?seite=Freeware/DesktopNoteOK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/DesktopNoteOK_x64.zip",
-            "hash": "8f5c4a1135869d575d314124fe75271bc4e97d1f5acd5925cd280fcc9521cc57"
+            "hash": "756f3dd97cfdb2eccd3423c87bceb6c7d17dbb6f593cbc7bad8747c91c7eea6f"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/DesktopNoteOK.zip",
-            "hash": "31607eac188062507028c81785e287a99e24489c629e90de1713f73d8516cdfe"
+            "hash": "25dc064120eebb7032a49b44049eaf10098f37a3d2a4d7a285b3a01ebf10b9fa"
         }
     },
     "shortcuts": [
