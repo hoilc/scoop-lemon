@@ -1,20 +1,20 @@
 {
-    "version": "3.0.4",
+    "version": "3.1.0",
     "description": "A tool to find misconfigured S3 buckets across S3-compatible APIs.",
     "homepage": "https://github.com/sa7mon/S3Scanner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.0.4/S3Scanner_Windows_x86_64.zip",
-            "hash": "78d49dab98cfd6fe7b86089b6d3885925e57d800cb065cd6280b573577957924"
+            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.1.0/S3Scanner_Windows_x86_64.zip",
+            "hash": "5f2337d494af15450b21d5c0ebfb961f4cf9426e31bc42cb65c213d5676acb30"
         },
         "32bit": {
-            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.0.4/S3Scanner_Windows_i386.zip",
-            "hash": "cf299fc2754fcaf095194f06254cd11f8237b28ca7606db68332314249681a74"
+            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.1.0/S3Scanner_Windows_i386.zip",
+            "hash": "bcfdc68faa796283ee1bc536f6af2afc07bae79a4fb404f77b932e026f53081b"
         },
         "arm64": {
-            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.0.4/S3Scanner_Windows_arm64.zip",
-            "hash": "df102a307d0f2de846a4cd39a59d4a50e35d5af7926e7f3662fef70aee8b9c7d"
+            "url": "https://github.com/sa7mon/S3Scanner/releases/download/v3.1.0/S3Scanner_Windows_arm64.zip",
+            "hash": "1085c657e3ef8ff10db84896f21479d3f25a31f79b82e30f1a754cd7dc41c51e"
         }
     },
     "bin": "S3Scanner.exe",
