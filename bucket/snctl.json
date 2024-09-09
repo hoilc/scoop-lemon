@@ -1,13 +1,13 @@
 {
-    "version": "0.19.2",
+    "version": "0.19.3",
     "description": "A Command Line Interface (CLI) tool for StreamNative Cloud.",
     "homepage": "https://docs.streamnative.io/cloud/stable/reference/snctl-reference",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/downloads.streamnative.cloud/snctl/v0.19.2/snctl_0.19.2_windows_amd64.zip",
-            "extract_dir": "snctl_0.19.2_windows_amd64",
-            "hash": "5470280de87d9e29ef6d701501aefe9baaa7dcf9a78c029f2839231c8d6bd3f7"
+            "url": "https://storage.googleapis.com/downloads.streamnative.cloud/snctl/v0.19.3/snctl_0.19.3_windows_amd64.zip",
+            "extract_dir": "snctl_0.19.3_windows_amd64",
+            "hash": "ad8358de6d3879d5d28e940537c2b7dcfeaad1aafbba73cad6d3047ce644d32c"
         }
     },
     "bin": "snctl.exe",
