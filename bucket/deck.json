@@ -1,12 +1,12 @@
 {
-    "version": "1.39.6",
+    "version": "1.40.0",
     "description": "A command line tool for managing Konnect and Kong Gateway configuration declaratively.",
     "homepage": "https://docs.konghq.com/deck/overview",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kong/deck/releases/download/v1.39.6/deck_1.39.6_windows_amd64.tar.gz",
-            "hash": "88b5e7050e1e618ee12f83717782754f54817f17914c0200cfffcc3683724368"
+            "url": "https://github.com/Kong/deck/releases/download/v1.40.0/deck_1.40.0_windows_amd64.tar.gz",
+            "hash": "4fbb72245bd8d5b84569e8ba7aacc9d79d0c79a8f22f3118ef25d9d7cf6c07b3"
         }
     },
     "bin": "deck.exe",
