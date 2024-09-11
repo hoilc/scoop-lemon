@@ -1,0 +1,20 @@
+{
+    "version": "1.92",
+    "description": "A command line tool to recover H.264/AVC stream from unfinalized MP4/MOV files without (or empty) header.",
+    "homepage": "https://www.videohelp.com/software/recover-mp4-to-h264",
+    "license": "Freeware",
+    "url": "https://www.videohelp.com/download/recover_mp4_192.zip",
+    "hash": "bccbc8a6f0d5ef7d72564dce4f4aa059738be985598502114bb389f60f284247",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Remove-Item -Force \"$dir\\recover_mp4_x86.exe\""
+        },
+        "32bit": {
+            "pre_install": [
+                "Remove-Item -Force \"$dir\\recover_mp4.exe\"",
+                "Rename-Item -Path \"$dir\\recover_mp4_x86.exe\" -NewName 'recover_mp4.exe'"
+            ]
+        }
+    },
+    "bin": "recover_mp4.exe"
+}
