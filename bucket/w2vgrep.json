@@ -1,0 +1,21 @@
+{
+    "version": "0.7.0",
+    "description": "A command-line tool that performs semantic searches on text input using word embeddings.",
+    "homepage": "https://github.com/arunsupe/semantic-grep",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/arunsupe/semantic-grep/releases/download/v0.7.0/w2vgrep.windows.amd64#/w2vgrep.exe",
+            "hash": "89c655a95b594461998559e0afa85ee877577f7d6eea924843a4febc559bfd15"
+        }
+    },
+    "bin": "w2vgrep.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/arunsupe/semantic-grep/releases/download/v$version/w2vgrep.windows.amd64#/w2vgrep.exe"
+            }
+        }
+    }
+}
