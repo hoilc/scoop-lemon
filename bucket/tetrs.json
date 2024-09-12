@@ -1,0 +1,23 @@
+{
+    "version": "0.2.3",
+    "description": "A tetromino game in terminal.",
+    "homepage": "https://github.com/Strophox/tetrs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Strophox/tetrs/releases/download/v0.2.3/x86_64-pc-windows-gnu.zip",
+            "extract_dir": "x86_64-pc-windows-gnu",
+            "hash": "4722ce6866ce90f578aaccc56c6a6e0e7c5ab2c2c6d3d75c84d595cd43cd69ad"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'tetrs_tui.exe' | Select-Object -First 1 | Rename-Item -NewName 'tetrs.exe'",
+    "bin": "tetrs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Strophox/tetrs/releases/download/v$version/x86_64-pc-windows-gnu.zip"
+            }
+        }
+    }
+}
