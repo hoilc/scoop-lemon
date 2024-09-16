@@ -1,10 +1,10 @@
 {
-    "version": "7.0.1.0",
+    "version": "7.0.2.0",
     "description": "Biniware Run is a portable Windows productivity tool which provides you fast access to your favorite website addresses, files and folders from one single place.",
     "homepage": "https://biniware.com/brun",
     "license": "Donationware",
     "url": "https://biniware.com/download/brun/v4/brun.exe",
-    "hash": "03ff845136f0a28a0ff6afbef8a916d1d70b405f0d99257cf72cf0bdcc543645",
+    "hash": "9f02b6dc648e6ea46ddc300a4779c719da672e38b3223ebacfb2de3b0166a2a4",
     "bin": "brun.exe",
     "shortcuts": [
         [
