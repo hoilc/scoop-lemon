@@ -1,12 +1,12 @@
 {
-    "version": "20",
+    "version": "21",
     "description": "A lossless data compression program aimed at optimizing compression ratio at the cost of high CPU/memory usage.",
     "homepage": "http://www.byronknoll.com/cmix.html",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "http://www.byronknoll.com/cmix-v20-windows.zip",
-            "hash": "08b772bb67551fc58643e02dd15f9193f2b2120fc693a7ab74942768737b3c65"
+            "url": "http://www.byronknoll.com/cmix-v21-windows.zip",
+            "hash": "9893b03c4695785b9562085faf9aeecd51f0373b0c2044b4a0058d880d782104"
         }
     },
     "extract_dir": "cmix",
