@@ -1,16 +1,16 @@
 {
-    "version": "1.6.3",
+    "version": "2.2.1",
     "description": "A simple and beautiful screenshot software tool.",
     "homepage": "https://github.com/XMuli/SunnyPages",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/XMuli/SunnyPages/releases/download/v1.6.3/Sunny_protable_1.6.3_x64.zip",
-            "hash": "43e7f7d1da8febcbc4a44fd703f9fcf476d7990fd065583a2126409b62776d78"
+            "url": "https://github.com/XMuli/SunnyPages/releases/download/v2.2.1/Sunny_protable_2.2.1_x64.zip",
+            "hash": "2914723070daf6490e6c0b0138f39b009cc7ad1f8b2bb3420eec9cd745ec3a4b"
         },
         "32bit": {
-            "url": "https://github.com/XMuli/SunnyPages/releases/download/v1.6.3/Sunny_protable_1.6.3_x86.zip",
-            "hash": "bd528a4fec967ac72465f0c92fbb1ebdb4b9cc773ebc0f75d6eb0838617de3b6"
+            "url": "https://github.com/XMuli/SunnyPages/releases/download/v2.2.1/Sunny_protable_2.2.1_x86.zip",
+            "hash": "8e1be06405aae9d076b9ef2f4b27bc04ba2b9723823d85c516ce56736e1d6b34"
         }
     },
     "shortcuts": [
