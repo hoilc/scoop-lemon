@@ -11,15 +11,15 @@
     ],
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk",
-            "java/adoptopenjdk-hotspot",
-            "java/zulu"
+            "java/temurin17-jdk",
+            "java/temurin11-jdk",
+            "java/zulu17-jdk",
+            "java/zulu11-jdk"
         ]
     },
     "checkver": {
-        "url": "https://search.maven.org/solrsearch/select/?q=g:com.taobao.arthas+AND+a:arthas-packaging",
-        "jsonpath": "$.response.docs[0].latestVersion"
+        "url": "https://repo1.maven.org/maven2/com/taobao/arthas/arthas-packaging/maven-metadata.xml",
+        "regex": "<latest>([\\d.]+)</latest>"
     },
     "autoupdate": {
         "url": "https://maven.aliyun.com/repository/public/com/taobao/arthas/arthas-packaging/$version/arthas-packaging-$version-bin.zip",
