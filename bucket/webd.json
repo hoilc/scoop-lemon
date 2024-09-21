@@ -1,10 +1,10 @@
 {
-    "version": "20240223",
+    "version": "20240711",
     "description": "轻量级自建网盘软件，无依赖，速度快，资源占用低",
     "homepage": "https://webd.cf",
     "license": "Unknown",
-    "url": "https://cnt2.cf/webd/20240223/webd-20240223-win32.7z",
-    "hash": "sha1:39349b7bf208e78f8ec140b0388b7fdb97306f5c",
+    "url": "https://webd.cf/webd/webd_dl/20240223/webd-20240711-win32.7z",
+    "hash": "0273464dc11c060e842967fae380fd381f3a9e257245769869edf8c71017d771",
     "extract_dir": "webd",
     "shortcuts": [
         [
