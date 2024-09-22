@@ -1,12 +1,12 @@
 {
-    "version": "3.7.1",
+    "version": "3.9.2",
     "description": "Prebuilt Actually Portable Executables for popular open source projects.",
     "homepage": "https://cosmo.zip/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cosmo.zip/pub/cosmos/zip/cosmos-3.7.1.zip",
-            "hash": "013d609d6d4e5af8156b12c242e72343d05e5fa06d114bf04c6000adedf8c497"
+            "url": "https://cosmo.zip/pub/cosmos/zip/cosmos-3.9.2.zip",
+            "hash": "d0c4a56cff7958f0c846e5f08a2fbc2880ed095bdaac65fcde0980386d955fd6"
         }
     },
     "extract_dir": "bin",
