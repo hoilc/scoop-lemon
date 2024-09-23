@@ -1,27 +1,27 @@
 {
-    "version": "0.0.6",
+    "version": "0.1.0",
     "description": "A powerful open-source clipboard manager.",
     "homepage": "https://github.com/ayangweb/EcoPaste/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ayangweb/EcoPaste/releases/download/v0.0.6/EcoPaste_0.0.6_x64_zh-CN.msi",
-            "hash": "df4a84b77f5636560988b1d1e51b8ca14882387bdc7170b0a786bd0f0cea1792"
+            "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.1.0/EcoPaste_0.1.0_x64-setup.exe#/dl.7z",
+            "hash": "d85aaeadde3ed4dcbd2753733ef03e1c4bf0a8650048e58bd390e5a4f585e2a0"
         }
     },
-    "extract_dir": "PFiles\\EcoPaste",
     "shortcuts": [
         [
             "EcoPaste.exe",
             "EcoPaste"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\"  -Force -Recurse",
     "notes": "EcoPaste is NOT portable.",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ayangweb/EcoPaste/releases/download/v$version/EcoPaste_$version_x64_zh-CN.msi"
+                "url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v$version/EcoPaste_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
