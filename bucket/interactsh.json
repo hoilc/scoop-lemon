@@ -1,20 +1,20 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "An OOB interaction gathering client.",
     "homepage": "https://github.com/projectdiscovery/interactsh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.0/interactsh-client_1.2.0_windows_amd64.zip",
-            "hash": "77b3bbe0a9fab3ea9904e69b3027c58812e0e362ba42ca4dfdcf65a937d85025"
+            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.1/interactsh-client_1.2.1_windows_amd64.zip",
+            "hash": "9845ff77e0358ca6513a7711bc40e141b731cdd76984328071bedc7d7b199327"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.0/interactsh-client_1.2.0_windows_386.zip",
-            "hash": "94257e94a1b9a9884f0f011d80ce0709f2eb56cf91df20fdc31bb63f390dd96e"
+            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.1/interactsh-client_1.2.1_windows_386.zip",
+            "hash": "6f8fa01694a5df9b40b22fa7ac59ae84a2401eecc9a532f2dc032b7e7a531c38"
         },
         "arm64": {
-            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.0/interactsh-client_1.2.0_windows_arm64.zip",
-            "hash": "c51a00d40eba05e5fff202cff64469b29cbcee50e449b165405819d5a9e6fcb2"
+            "url": "https://github.com/projectdiscovery/interactsh/releases/download/v1.2.1/interactsh-client_1.2.1_windows_arm64.zip",
+            "hash": "deac68a08d73d4cd2f8bcfbf59464e309b2b3d99504f89276926a5efa57554b6"
         }
     },
     "bin": "interactsh-client.exe",
