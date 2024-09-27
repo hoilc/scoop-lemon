@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "A rerminal-based HTTP/REST client.",
     "homepage": "https://slumber.lucaspickering.me",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LucasPickering/slumber/releases/download/v2.0.0/slumber-x86_64-pc-windows-msvc.zip",
-            "hash": "bce39bb4040bd93f7f378aea450a59bce7189ed1eec1c389372ff28c9dd74996"
+            "url": "https://github.com/LucasPickering/slumber/releases/download/v2.1.0/slumber-x86_64-pc-windows-msvc.zip",
+            "hash": "6cb02ce8e0a5a0505bead9b54f3ff13f54d1797a6d6d2d84324f71ebfed0c957"
         }
     },
     "bin": "slumber.exe",
