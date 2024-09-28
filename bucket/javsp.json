@@ -1,12 +1,12 @@
 {
-    "version": "1.7.3",
+    "version": "1.8",
     "description": "汇总多站点数据的AV元数据刮削器",
     "homepage": "https://github.com/Yuukiy/JavSP",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Yuukiy/JavSP/releases/download/v1.7.3/JavSP-v1.7.3-Windows-amd64.zip",
-            "hash": "fb133b943cb7bcf29291443081074bdab76d337f31e2bef2bfa1725c1b2c2484"
+            "url": "https://github.com/Yuukiy/JavSP/releases/download/v1.8/JavSP-v1.8-Windows-amd64.zip",
+            "hash": "05a20badb26808a83f47926e9e76e0003280c7da929f1ce080e569c95445801a"
         }
     },
     "bin": "javsp.exe",
