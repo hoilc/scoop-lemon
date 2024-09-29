@@ -30,12 +30,12 @@
     ],
     "checkver": {
         "url": "http://www.selur.de/downloads",
-        "regex": "rev\\s*([\\d.]+)"
+        "regex": "Hybrid_([\\d.]+)_SETUP.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
+                "url": "https://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
             }
         }
     }
