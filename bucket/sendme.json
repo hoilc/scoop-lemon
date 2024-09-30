@@ -1,12 +1,12 @@
 {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "description": "A tool to send files and directories, based on iroh.",
     "homepage": "https://github.com/n0-computer/sendme",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/n0-computer/sendme/releases/download/v0.16.0/sendme-v0.16.0-windows-x86_64.zip",
-            "hash": "6aa51e7e8ec497507055a7b26ff5555ef6eeb0e97da2cd920436b5d6f9f10f0d"
+            "url": "https://github.com/n0-computer/sendme/releases/download/v0.17.0/sendme-v0.17.0-windows-x86_64.zip",
+            "hash": "9b2a1c2cac61bea8d3c62b998ec810e5a4414c6d2a88095728036f41b685a7f5"
         }
     },
     "bin": "sendme.exe",
