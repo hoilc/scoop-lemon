@@ -1,10 +1,10 @@
 {
-    "version": "7.34",
+    "version": "7.35",
     "description": "foobox 是一个 foobar2000 默认用户界面 (DUI) 的皮肤配置，具有简洁而美观实用的特点，善于管理曲目数量大的媒体库 ，对音乐各种封面提供丰富的支持",
     "homepage": "https://github.com/dream7180/foobox-cn",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/dream7180/foobox-cn/releases/download/7.34/foobox_x64.cn.v7.34-1.exe#/dl.7z",
-    "hash": "81844d810b11a0f1d2ba931b7005bd92b8fa02f2ab404d8c9b2024f58837e370",
+    "url": "https://github.com/dream7180/foobox-cn/releases/download/7.35/foobox_x64.cn.v7.35-1.exe#/dl.7z",
+    "hash": "d30611e25c4f650252266ecfd9b30b48bcb3eea0a72c2aa9860e992e8ba2815f",
     "shortcuts": [
         [
             "foobar2000.exe",
