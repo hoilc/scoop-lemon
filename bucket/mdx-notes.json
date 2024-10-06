@@ -1,0 +1,30 @@
+{
+    "version": "1.0.1",
+    "description": "A versatile WeChat typesetting notes, also serving as a cross-platform Markdown note-taking software.",
+    "homepage": "https://github.com/maqi1520/mdx-notes",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/maqi1520/mdx-notes/releases/download/v1.0.1/MDX.Notes_1.0.1_x64-setup.exe#/dl.7z",
+            "hash": "1e6c09ba6b0d182cd729d4e59018c7cdaf916f335df9834ad0108947588464a2"
+        }
+    },
+    "shortcuts": [
+        [
+            "tauri-app.exe",
+            "MDX Notes"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
+    "checkver": {
+        "url": "https://github.com/maqi1520/mdx-notes/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/maqi1520/mdx-notes/releases/download/v$version/MDX.Notes_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
