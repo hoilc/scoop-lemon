@@ -1,18 +1,18 @@
 {
-    "version": "1.0.0-dev.240902",
+    "version": "1.0.0-dev.241007",
     "description": "一款免费、开源、简洁、纯净、无广告的小说阅读器",
     "homepage": "https://read-cat.top/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/read-cat/read-cat/releases/download/v1.0.0-dev.240902/ReadCat-win32-x64-1.0.0-dev.9c53702b.tar.gz",
-            "extract_dir": "ReadCat-win32-x64-1.0.0-dev.9c53702b",
-            "hash": "29775b136293cd7818890c8e5f7f4f116f0f39f8fcbd79ddd219aca9d917b838"
+            "url": "https://github.com/read-cat/read-cat/releases/download/v1.0.0-dev.241007/ReadCat-win32-x64-1.0.0-dev.576badb2.tar.gz",
+            "extract_dir": "ReadCat-win32-x64-1.0.0-dev.576badb2",
+            "hash": "d511e018d9b3c3f8d223a0815b6c4675e110558f03dabaac1905609718dea840"
         },
         "32bit": {
-            "url": "https://github.com/read-cat/read-cat/releases/download/v1.0.0-dev.240902/ReadCat-win32-ia32-windows7-1.0.0-dev.9c53702b.tar.gz",
-            "extract_dir": "ReadCat-win32-ia32-windows7-1.0.0-dev.9c53702b",
-            "hash": "be63a22655a774db0b0ab0802c741c72a76144b3e81d75b78dd1b504143a6347"
+            "url": "https://github.com/read-cat/read-cat/releases/download/v1.0.0-dev.241007/ReadCat-win32-ia32-windows7-1.0.0-dev.576badb2.tar.gz",
+            "extract_dir": "ReadCat-win32-ia32-windows7-1.0.0-dev.576badb2",
+            "hash": "11231a2bff2330486870879a80dfab8e3c54fef0c0f39cabf487b10c45cf7879"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
