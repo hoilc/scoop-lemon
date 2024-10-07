@@ -1,5 +1,5 @@
 {
-    "version": "0.0.93",
+    "version": "0.0.94",
     "description": "A global DNS propagation checker that gives pretty output.",
     "homepage": "https://github.com/unfrl/dug",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/unfrl/dug/releases/download/0.0.93/dug.exe",
-            "hash": "da9063aeedd18e1f486fbcd2017267b2b1bac650be5bacfd59fccc5bbb61501e"
+            "url": "https://github.com/unfrl/dug/releases/download/0.0.94/dug.exe",
+            "hash": "2f89afc0346060bb3fd3836daea1628147e0d8146b12b908b3024f84f4f573b5"
         }
     },
     "bin": "dug.exe",
