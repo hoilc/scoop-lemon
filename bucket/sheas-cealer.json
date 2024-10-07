@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SpaceTimee/Sheas-Cealer/releases/download/1.1.2/Sheas-Cealer-Zip-1.1.2.zip",
-            "extract_dir": "Sheas Cealer Zip 1.1.2",
             "hash": "3df5237a26e7e20a4127d6e110e66dccd3b2126b3e6866412992b3bea302e9f8"
         }
     },
@@ -21,8 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SpaceTimee/Sheas-Cealer/releases/download/$version/Sheas-Cealer-Zip-$version.zip",
-                "extract_dir": "Sheas Cealer Zip $version"
+                "url": "https://github.com/SpaceTimee/Sheas-Cealer/releases/download/$version/Sheas-Cealer-Zip-$version.zip"
             }
         }
     }
