@@ -1,0 +1,39 @@
+{
+    "version": "1.11.0",
+    "description": "Open source screen sharing for developers.",
+    "homepage": "https://screego.net/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/screego/server/releases/download/v1.11.0/screego_1.11.0_windows_amd64.zip",
+            "hash": "f29185dceaa64dd38466d175a355fbce018579634ebdc8e1076c121a8c4ec2ee"
+        },
+        "32bit": {
+            "url": "https://github.com/screego/server/releases/download/v1.11.0/screego_1.11.0_windows_i386.zip",
+            "hash": "0490fa4da2e2b0514ffa3a67e76fadf50eec330eb209cc680074ed4ae7c3c075"
+        },
+        "arm64": {
+            "url": "https://github.com/screego/server/releases/download/v1.11.0/screego_1.11.0_windows_arm64.zip",
+            "hash": "5235c4471ef7cec9ead6bcb13045ee121af50955ca38897f81dbadbfa6a5c8dc"
+        }
+    },
+    "bin": "screego.exe",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\screego.config\")) { Set-Content -Encoding ASCII -Path \"$dir\\screego.config\" -Value $null }",
+    "persist": "screego.config",
+    "checkver": {
+        "github": "https://github.com/screego/server"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_arm64.zip"
+            }
+        }
+    }
+}
