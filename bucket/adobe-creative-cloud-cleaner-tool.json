@@ -1,10 +1,10 @@
 {
-    "version": "4.3.0.680",
+    "version": "4.3.0.834",
     "description": "A utility for experienced users to clean up corrupted installations of Adobe software.",
     "homepage": "https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html",
     "license": "Unknown",
     "url": "https://swupmf.adobe.com/webfeed/CleanerTool/win/AdobeCreativeCloudCleanerTool.exe#/dl.7z",
-    "hash": "65277770adfdaf90072932e99e012b848a29df387e7f9f145992aee7d80d7b7f",
+    "hash": "2d1ccad05cb52f72fcf182cc73f0da6024d8f66becda6554954c73dfa1f280f9",
     "pre_install": "Rename-Item -Path \"$dir\\ACToolMain.exe\" -NewName 'AdobeCreativeCloudCleanerTool.exe'",
     "bin": "AdobeCreativeCloudCleanerTool.exe",
     "checkver": {
