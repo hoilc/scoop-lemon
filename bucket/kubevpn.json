@@ -1,20 +1,20 @@
 {
-    "version": "2.2.18",
+    "version": "2.2.19",
     "description": "A cloud native development tool that can connect to the Kubernetes network locally",
     "homepage": "https://github.com/wencaiwulue/kubevpn",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.18/kubevpn_v2.2.18_windows_386.zip",
-            "hash": "6ffb6fb940af7ef55dfe982603af8aecdffa9857cf42ff5e579a02c0d64fb849"
+            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.19/kubevpn_v2.2.19_windows_386.zip",
+            "hash": "21bb62f95167e0fd1f781d477fc3805cfa37fa8b7896f2ca0df094467334ea16"
         },
         "32bit": {
-            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.18/kubevpn_v2.2.18_windows_amd64.zip",
-            "hash": "7d913156132682bebed24f0f2cca65a3b4527621fdc55c35e520fdb0039235ef"
+            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.19/kubevpn_v2.2.19_windows_amd64.zip",
+            "hash": "ecaf80de409fb939dbf017a02347fa6990a40bcf538db89a2af9375f63a4ab10"
         },
         "arm64": {
-            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.18/kubevpn_v2.2.18_windows_arm64.zip",
-            "hash": "34992df71969ee88919900f629609dd39e64966fefc7549c5f0bc4c98cfec987"
+            "url": "https://github.com/wencaiwulue/kubevpn/releases/download/v2.2.19/kubevpn_v2.2.19_windows_arm64.zip",
+            "hash": "b27591eaa37efd62300680a9375602acc186d887fcf862b94ae266c15a7bf6cc"
         }
     },
     "bin": "bin\\kubevpn.exe",
