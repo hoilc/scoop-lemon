@@ -1,0 +1,21 @@
+{
+    "version": "1.7.0",
+    "description": "(CLI Version) A cross-platform music tagger.",
+    "homepage": "https://github.com/Marekkon5/onetagger",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Marekkon5/onetagger/releases/download/1.7.0/OneTagger-windows-cli.exe#/onetagger-cli.exe",
+            "hash": "11240e11afdf187f4be9593a4674889ed05e45d0a426d2dd59d8a2c1cb59a788"
+        }
+    },
+    "bin": "onetagger-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Marekkon5/onetagger/releases/download/$version/OneTagger-windows-cli.exe#/onetagger-cli.exe"
+            }
+        }
+    }
+}
