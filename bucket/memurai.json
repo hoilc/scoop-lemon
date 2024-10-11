@@ -1,12 +1,12 @@
 {
-    "version": "4.1.3",
+    "version": "4.1.4",
     "description": "Memurai Developer Edition is a Redis-compatible cache and datastore for Windows.",
     "homepage": "https://www.memurai.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dist.memurai.com/releases/Memurai-Developer/4.1.3/Memurai-Developer-v4.1.3.msi",
-            "hash": "f6ee3ad95a3efdf4f6311fff4dfceb817af5bbb1f3fe4b3c218f5f012a7e12ff"
+            "url": "https://dist.memurai.com/releases/Memurai-Developer/4.1.4/Memurai-Developer-v4.1.4.msi",
+            "hash": "7bba7c77d2d42839711b2dc0a1c8e6136ef43722a99e020411e11be850bf7265"
         }
     },
     "extract_dir": "Memurai",
