@@ -1,5 +1,5 @@
 {
-    "version": "1.98",
+    "version": "1.99",
     "description": "Find all active devices on your network. Discover the ip address and available services for each network device.",
     "homepage": "https://www.the-sz.com/products/portscan/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/portscan/PortScan.zip",
-    "hash": "ce5f1ef30086d6457d49ccf1440d22bbb992a17002c114bbb5ff24352adca8ef",
+    "hash": "5af57cc135e86ee0fa178e5ab43fae4e4f5d0cd6c2af17fde8eb868ffdee432d",
     "bin": "PortScan.exe",
     "shortcuts": [
         [
