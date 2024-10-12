@@ -1,0 +1,38 @@
+{
+    "version": "0.19.0",
+    "description": "A command line utility for using RAM related features in Alibaba Cloud Container Service For Kubernetes (ACK)",
+    "homepage": "https://github.com/AliyunContainerService/ack-ram-tool",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v0.19.0/ack-ram-tool_0.19.0_Windows_x86_64.tar.gz",
+            "hash": "1a9042c29c6925eabf8e9315de584af18a4e6137af7c09e67ab4bb07ecf38024"
+        },
+        "32bit": {
+            "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v0.19.0/ack-ram-tool_0.19.0_Windows_i386.tar.gz",
+            "hash": "bef7cf4d1d5f0046af42a8de84f27c46f6d033f3bca78579a71b090181b94011"
+        },
+        "arm64": {
+            "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v0.19.0/ack-ram-tool_0.19.0_Windows_arm64.tar.gz",
+            "hash": "2d50f6ac6127d4dceab8327ce5348acaedf87c2424aef78c1ce4abce321d2e62"
+        }
+    },
+    "bin": "ack-ram-tool.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v$version/ack-ram-tool_$version_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v$version/ack-ram-tool_$version_Windows_i386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://ack-ram-tool.oss-cn-hangzhou.aliyuncs.com/dist/v$version/ack-ram-tool_$version_Windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
