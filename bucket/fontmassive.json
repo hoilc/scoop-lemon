@@ -1,0 +1,51 @@
+{
+    "version": "3.7",
+    "description": "A font manager that allows previewing typefaces in a single list.",
+    "homepage": "http://fontmassive.com/fm.php",
+    "license": {
+        "identifier": "Donationware",
+        "url": "http://fontmassive.com/donate.php"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://fontmassive.com/download.php?prog=FontMassive64#/dl.zip",
+            "hash": "975643a746ef6c503fc5bc9bad8412d4cc2e39eb62186049ec33ad0b700eb97b"
+        },
+        "32bit": {
+            "url": "http://fontmassive.com/download.php?prog=FontMassive#/dl.zip",
+            "hash": "936bf0100a5ed327efa07632c6981f4d9615f0fae684b66aa250c374df8c952a"
+        }
+    },
+    "extract_dir": "FontMassive Pack",
+    "shortcuts": [
+        [
+            "FontMassive.exe",
+            "FontMassive"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\FM3_data\")) { New-Item -ItemType \"directory\" -Path \"$persist_dir\\FM3_data\" }",
+        "if (!(Test-Path \"$persist_dir\\FM3_data\\colorstyles.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FM3_data\\colorstyles.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\FM3_data\\settings.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FM3_data\\settings.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\FM3_data\\tags.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FM3_data\\tags.ini\" -Value $null }"
+    ],
+    "persist": [
+        "FM3_data\\colorstyles.ini",
+        "FM3_data\\settings.ini",
+        "FM3_data\\tags.ini"
+    ],
+    "checkver": {
+        "url": "http://fontmassive.com/data/fm/History_ru.txt",
+        "regex": "=== ([\\d.]+) \\("
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://fontmassive.com/download.php?prog=FontMassive64#/dl.zip"
+            },
+            "32bit": {
+                "url": "http://fontmassive.com/download.php?prog=FontMassive#/dl.zip"
+            }
+        }
+    }
+}
