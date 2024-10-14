@@ -2,7 +2,10 @@
     "version": "3.7",
     "description": "A font manager that allows previewing typefaces in a single list.",
     "homepage": "http://fontmassive.com/fm.php",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Donationware",
+        "url": "http://fontmassive.com/donate.php"
+    },
     "architecture": {
         "64bit": {
             "url": "http://fontmassive.com/download.php?prog=FontMassive64#/dl.zip",
