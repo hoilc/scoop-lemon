@@ -1,20 +1,20 @@
 {
-    "version": "2.11.5",
+    "version": "2.12.0",
     "description": "(V2 Version) GO Simple Tunnel - a simple tunnel written in golang.",
     "homepage": "https://v2.gost.run/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-windows-amd64-2.11.5.zip",
-            "hash": "c91d37a088beb7cfced16c0de916aaa252b712985c55fffd257a493129214146"
+            "url": "https://github.com/ginuerzh/gost/releases/download/v2.12.0/gost_2.12.0_windows_amd64.zip",
+            "hash": "2ebe0cb6ac5e966647b222a1f5ac1ae4ce1f340e190f5f69e381c4f694526d43"
         },
         "32bit": {
-            "url": "https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-windows-386-2.11.5.zip",
-            "hash": "81a7c9ae206282cb7d03c620c1e169337fd85eb11cd3da2694126d74db269a98"
+            "url": "https://github.com/ginuerzh/gost/releases/download/v2.12.0/gost_2.12.0_windows_386.zip",
+            "hash": "f7732f53c1acaeaee1265ed7b48250ddc59f713c1d4f93e3dfb73387c4544fd8"
         },
         "arm64": {
-            "url": "https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-windows-arm64-2.11.5.zip",
-            "hash": "649b39d7917a9058023726ea709c8c9e145d58703830a4b2f5a971c67dc0ff46"
+            "url": "https://github.com/ginuerzh/gost/releases/download/v2.12.0/gost_2.12.0_windows_arm64.zip",
+            "hash": "6fa65251f64b498653a25a462bcaa945c4262083814af77b4077fc9e940b2a2e"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'gost-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'gost.exe'",
@@ -27,13 +27,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost-windows-amd64-$version.zip"
+                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost_$version_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost-windows-386-$version.zip"
+                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost_$version_windows_386.zip"
             },
             "arm64": {
-                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost-windows-arm64-$version.zip"
+                "url": "https://github.com/ginuerzh/gost/releases/download/v$version/gost_$version_windows_arm64.zip"
             }
         }
     }
