@@ -1,0 +1,22 @@
+{
+    "version": "2.0.7",
+    "description": "Cloud native universal secret manager for developers.",
+    "homepage": "https://github.com/tellerops/teller",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tellerops/teller/releases/download/v2.0.7/teller-x86_64-windows.zip",
+            "extract_dir": "teller-x86_64-windows",
+            "hash": "44d03d51a065c71bf9228effdc985017983f7d51738fa437c1076cbf1a2c3853"
+        }
+    },
+    "bin": "teller.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tellerops/teller/releases/download/v$version/teller-x86_64-windows.zip"
+            }
+        }
+    }
+}
