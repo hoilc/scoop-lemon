@@ -1,0 +1,31 @@
+{
+    "version": "4.7.0",
+    "description": "批量下载B站收藏夹中视频音频",
+    "homepage": "https://github.com/HIM049/BADownloaderUI",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HIM049/BADownloaderUI/releases/download/4.7.0/BADownloaderUI-4.7.0-win.exe#/BADownloaderUI.exe",
+            "hash": "b4ca06828e62647e67167c60c09476d7d8061d65e0ce7b132093dcc4f1736b2c"
+        }
+    },
+    "shortcuts": [
+        [
+            "BADownloaderUI.exe",
+            "Bili Audio Downloader"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.json\" -Value '{\"config_version\": 9999}' }",
+    "persist": [
+        "Download",
+        "config.json"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HIM049/BADownloaderUI/releases/download/$version/BADownloaderUI-$version-win.exe#/BADownloaderUI.exe"
+            }
+        }
+    }
+}
