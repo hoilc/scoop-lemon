@@ -1,12 +1,12 @@
 {
-    "version": "2.6.2",
+    "version": "2.6.3",
     "description": "A simple, high performance relay server written in rust.",
     "homepage": "https://github.com/zhboner/realm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhboner/realm/releases/download/v2.6.2/realm-x86_64-pc-windows-gnu.tar.gz",
-            "hash": "782cca5ec056dbb0b05c8fb7c6bf7043de10a0a88e63142676a2861f1b29724e"
+            "url": "https://github.com/zhboner/realm/releases/download/v2.6.3/realm-x86_64-pc-windows-gnu.tar.gz",
+            "hash": "c7b072c980d7fef0d439a60965f10dd6ffcbd71506f96ed18d223d54eb934b7d"
         }
     },
     "bin": "realm.exe",
