@@ -1,12 +1,12 @@
 {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "基于 AniList 与 Bangumi 的自动化命名工具，用来重命名网络下载的番剧文件夹",
     "homepage": "https://github.com/nuthx/bangumi-renamer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nuthx/bangumi-renamer/releases/download/2.0.2/BangumiRenamer_windows.zip",
-            "hash": "54e5d26c523c5eb0346188ebf959c80879398a5e6b22e1b3530e495645b4d774"
+            "url": "https://github.com/nuthx/bangumi-renamer/releases/download/2.1.0/BangumiRenamer_windows.zip",
+            "hash": "92d85baec5cc95b88589b5eb43a5e45a0244f78b08bacfdc45a0312e0b0166a0"
         }
     },
     "bin": "BangumiRenamer.exe",
