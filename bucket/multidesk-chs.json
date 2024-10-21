@@ -1,10 +1,10 @@
 {
-    "version": "13.4",
+    "version": "13.6",
     "description": "(免费版) 支持标签页的远程桌面客户端",
     "homepage": "https://www.syvik.com/multidesk/index.cn.html",
     "license": "Donationware",
-    "url": "https://www.syvik.com/multidesk/multidesk_13_4.free.chs.zip",
-    "hash": "6a76a823c165f392be7cb9c20c77b323e7afc1292cc4e8f11db72c33bd13e6c3",
+    "url": "https://www.syvik.com/multidesk/multidesk_13_6.free.chs.zip",
+    "hash": "e0c9c5f93ff1cf960f3a974003fbe0faa698d96cd246ba4df791a15cb01beb27",
     "architecture": {
         "64bit": {
             "pre_install": [
