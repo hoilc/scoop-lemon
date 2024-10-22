@@ -21,7 +21,7 @@
     ],
     "notes": "Metatogger is NOT portable.",
     "checkver": {
-        "url": "https://rsshub.app/winstall/SylvainRougeaux.Metatogger",
+        "url": "https://rsshub.rssforever.com/winstall/SylvainRougeaux.Metatogger",
         "regex": "winstall:SylvainRougeaux.Metatogger:([\\d.]+)"
     },
     "autoupdate": {

@@ -22,7 +22,7 @@
     ],
     "persist": "Profiles",
     "checkver": {
-        "url": "https://rsshub.app/winstall/SylvainRougeaux.Echosync",
+        "url": "https://rsshub.rssforever.com/winstall/SylvainRougeaux.Echosync",
         "regex": "winstall:SylvainRougeaux.Echosync:([\\d.]+)"
     },
     "autoupdate": {
