@@ -1,16 +1,20 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.7",
     "description": "A CLI tool that unlocks encrypted music file.",
     "homepage": "https://git.unlock-music.dev/um/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.4/um-windows-amd64.tar.gz",
-            "hash": "4a61dc450aaf216d088a2e141a8763e2b14b8e0e0a90e803bac07cdea1c9d413"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.7/um-windows-amd64-v0.2.7.zip",
+            "hash": "8569bbdcdefa39a699dc93532e8888b09439e41501f4192d3e9c01f803ddf9da"
         },
         "32bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.4/um-windows-386.tar.gz",
-            "hash": "f3beba7c3325cf2121500f7c797c60a8483a13241332f94b07dbbb072577183c"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.7/um-windows-386-v0.2.7.zip",
+            "hash": "85d322b7530e9b69cecc1556e9c5940196c803386782aef8702c82015c450d6e"
+        },
+        "arm64": {
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.7/um-windows-arm64-v0.2.7.zip",
+            "hash": "7e175b9da09c4ca453f1a0a67741f4dd3019ac1ee45c413601aca759c1efe035"
         }
     },
     "bin": "um.exe",
@@ -22,11 +26,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-amd64.tar.gz"
+                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-amd64-v$version.zip"
             },
             "32bit": {
-                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-386.tar.gz"
+                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-386-v$version.zip"
+            },
+            "arm64": {
+                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-arm64-v$version.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
         }
     }
 }
