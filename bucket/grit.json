@@ -1,13 +1,13 @@
 {
-    "version": "0.1.0-alpha.1729566713",
+    "version": "0.1.0-alpha.1729746628",
     "description": "A developer tool to put software maintenance on autopilot.",
     "homepage": "https://docs.grit.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1729566713/marzano-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1729746628/marzano-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "marzano-x86_64-pc-windows-msvc",
-            "hash": "93661be2512e499a7f7ae78c9bc7459f51dcf477d2e315f27b1ffa576bc796bd"
+            "hash": "c32d852fe7221b8cd2d7a01f4bd1197cd6994ae25495f5393b025c831ae3c76c"
         }
     },
     "bin": [
