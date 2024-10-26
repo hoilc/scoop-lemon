@@ -1,12 +1,12 @@
 {
-    "version": "4.8.1",
+    "version": "4.8.2",
     "description": "批量下载B站收藏夹中视频音频",
     "homepage": "https://github.com/HIM049/BADownloaderUI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIM049/BADownloaderUI/releases/download/4.8.1/BADownloaderUI-4.8.1-win.exe#/BADownloaderUI.exe",
-            "hash": "d74eeb04e07dca0db286f8d15d66290991b8625fd5f4306479ca49cd4325e598"
+            "url": "https://github.com/HIM049/BADownloaderUI/releases/download/4.8.2/BADownloaderUI-4.8.2-win.exe#/BADownloaderUI.exe",
+            "hash": "7363bf6d25f5b54cfb21d83679209924c7d63c2ac4fae1da80a13f315bee44dd"
         }
     },
     "shortcuts": [
