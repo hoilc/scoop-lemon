@@ -1,10 +1,10 @@
 {
-    "version": "10.18.2",
+    "version": "10.19.0",
     "description": "A development tool to help programmers write Java code that adheres to a coding standard.",
     "homepage": "https://checkstyle.org/cmdline.html",
     "license": "LGPL-2.1-only",
-    "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.18.2/checkstyle-10.18.2-all.jar#!/checkstyle.jar",
-    "hash": "5516c227e5d824b06b0fdd2d3242667af3aed3bb7b2bc2ef719f7a3528df95be",
+    "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.19.0/checkstyle-10.19.0-all.jar#!/checkstyle.jar",
+    "hash": "7105ef60964a0bd882575309580977eef59167d44182b1e20d41f759e8c6a14b",
     "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\checkstyle-gui.bat\" -Value '@start javaw.exe -cp \"%~dp0checkstyle.jar\" com.puppycrawl.tools.checkstyle.gui.Main'",
     "bin": "checkstyle.jar",
     "shortcuts": [
