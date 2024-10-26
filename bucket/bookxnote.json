@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0.2003",
+    "version": "3.0.0.2005",
     "description": "全新设计的电子书阅读学习笔记软件，以不同的思维方式重塑我们的学习过程",
     "homepage": "http://www.bookxnote.com/",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-3.0.0.2003-20241008.zip",
-            "hash": "857311c562afe6acf5cd681788f41738c0a4a324e689109579e7c1529314f075"
+            "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-3.0.0.2005-20241026.zip",
+            "hash": "494bc9122e75b837e0f7d427a5a6252bc3b1116f60987561da743f0bbadb526d"
         }
     },
     "pre_install": [
