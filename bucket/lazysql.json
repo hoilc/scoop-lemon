@@ -1,20 +1,20 @@
 {
-    "version": "0.2.9",
+    "version": "0.3.0",
     "description": "A cross-platform TUI database management tool written in Go.",
     "homepage": "https://github.com/jorgerojas26/lazysql",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.2.9/lazysql_Windows_x86_64.zip",
-            "hash": "7938384eee7bde19192b7ddd851adc701c4351e6225b3f8c8b05cbfc31912048"
+            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.3.0/lazysql_Windows_x86_64.zip",
+            "hash": "d8384cfd51af26e8c8ca978f203d6b747f3616cb22b2cb80c7e45f3ccaef9cfa"
         },
         "32bit": {
-            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.2.9/lazysql_Windows_i386.zip",
-            "hash": "88f576987743594410cf5d29996083fb5294a83059a05262bacb8318d592d52f"
+            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.3.0/lazysql_Windows_i386.zip",
+            "hash": "8a07bbcd76a1003ed856d3f512227e90bc889379422fa954ce844d142f957c25"
         },
         "arm64": {
-            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.2.9/lazysql_Windows_arm64.zip",
-            "hash": "4fda317061f22ce1cb7bbe5b9ba35fad7e687f6c22d7299641cf5d2dc25c4fa4"
+            "url": "https://github.com/jorgerojas26/lazysql/releases/download/v0.3.0/lazysql_Windows_arm64.zip",
+            "hash": "88f107fbc9923c9a2e8f894d5900693914ea518f0bdebf878369e11ab429f3b1"
         }
     },
     "bin": "lazysql.exe",
