@@ -1,12 +1,12 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A versatile WeChat typesetting notes, also serving as a cross-platform Markdown note-taking software.",
     "homepage": "https://github.com/maqi1520/mdx-notes",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maqi1520/mdx-notes/releases/download/v1.0.2/MDX.Notes_1.0.2_x64-setup.exe#/dl.7z",
-            "hash": "1c53a4690a1a45099e3c6e08eddf1936fdb97bf14cce48c485835d689538e84b"
+            "url": "https://github.com/maqi1520/mdx-notes/releases/download/v1.0.3/MDX.Notes_1.0.3_x64-setup.exe#/dl.7z",
+            "hash": "bd465f96744ee466d9d94d856d1feae4afb3e23f9071743229772b1db9d9a9b9"
         }
     },
     "shortcuts": [
