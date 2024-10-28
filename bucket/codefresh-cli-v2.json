@@ -1,0 +1,27 @@
+{
+    "version": "1.10.3",
+    "description": "The new Codefresh (GitOps) CLI tool.",
+    "homepage": "https://codefresh.io/docs/docs/installation/gitops/upgrade-gitops-cli/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.10.3/azd-windows-amd64.zip",
+            "hash": "a9b6d00508afa524a6a602715dba60df6fcd2a8fbdf2d1c5db3991c906c5c471"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'cf-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'cf.exe'",
+    "bin": "cf.exe",
+    "checkver": {
+        "github": "https://github.com/codefresh-io/cli-v2"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/codefresh-io/cli-v2/releases/download/v$version/cf-windows-amd64.tar.gz",
+                "hash": {
+                    "url": "$baseurl/cf-windows-amd64.sha256"
+                }
+            }
+        }
+    }
+}
