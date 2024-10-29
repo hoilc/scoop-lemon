@@ -1,18 +1,18 @@
 {
-    "version": "0.15.2",
+    "version": "0.16.0",
     "description": "A Prometheus exporter for metrics exported in the Graphite plaintext protocol.",
     "homepage": "https://github.com/prometheus/graphite_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.15.2/graphite_exporter-0.15.2.windows-amd64.tar.gz",
-            "hash": "7679bdfa11bc2aee8765c9486f9d54bb8431254036536e52a2d1ea48254f7d2b",
-            "extract_dir": "graphite_exporter-0.15.2.windows-amd64"
+            "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.16.0/graphite_exporter-0.16.0.windows-amd64.tar.gz",
+            "hash": "290bfc56ac789e8fe19551bc53ed979a06d30b9d00bab17ae4d97d075645cf3e",
+            "extract_dir": "graphite_exporter-0.16.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.15.2/graphite_exporter-0.15.2.windows-386.tar.gz",
-            "hash": "2f083dd2e0c95198472113dc1ff2e03224c84754dc75449cdc8cd19a96fe6fd1",
-            "extract_dir": "graphite_exporter-0.15.2.windows-386"
+            "url": "https://github.com/prometheus/graphite_exporter/releases/download/v0.16.0/graphite_exporter-0.16.0.windows-386.tar.gz",
+            "hash": "0a01c9ccbf1c42f7ab4323b1ab2c13020c40fae9fd916daaee0ff1663f885172",
+            "extract_dir": "graphite_exporter-0.16.0.windows-386"
         }
     },
     "bin": "graphite_exporter.exe",
