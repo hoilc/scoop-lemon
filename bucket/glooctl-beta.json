@@ -1,12 +1,12 @@
 {
-    "version": "1.17.15",
+    "version": "1.18.0-beta30",
     "description": "The unified CLI for Gloo, a feature-rich, Kubernetes-native, next-generation API gateway built on Envoy.",
     "homepage": "https://docs.solo.io/gloo-edge/latest/reference/cli/glooctl/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/solo-io/gloo/releases/download/v1.17.15/glooctl-windows-amd64.exe#/glooctl.exe",
-            "hash": "38fb7a75cb8380102647735984bc9cd8d3ac996ddc44ce90026d183137c33cd5"
+            "url": "https://github.com/solo-io/gloo/releases/download/v1.18.0-beta30/glooctl-windows-amd64.exe#/glooctl.exe",
+            "hash": "b4cef80544e9de644edf9d13632604fe9c0f148e9a9941cb0dfd9d200dd70382"
         }
     },
     "bin": "glooctl.exe",
