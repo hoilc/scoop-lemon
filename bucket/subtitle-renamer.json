@@ -1,12 +1,12 @@
 {
-    "version": "1.7",
+    "version": "1.8",
     "description": "基于 Python 的视频字幕批量重命名工具，用于重命名动画与电影字幕",
     "homepage": "https://github.com/nuthx/subtitle-renamer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nuthx/subtitle-renamer/releases/download/1.7/SubtitleRenamer_windows.zip",
-            "hash": "36f34a3faf48cdeb915cba80ee44a7d96a8a3bb183c935b3d1e33ef3e26d0f7b"
+            "url": "https://github.com/nuthx/subtitle-renamer/releases/download/1.8/SubtitleRenamer_windows.zip",
+            "hash": "23b6634bfe16c623eca56c71c7f97ba207a5d44625c0b9fc4a141997cbcc03e2"
         }
     },
     "shortcuts": [
