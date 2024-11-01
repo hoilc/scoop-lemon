@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_amd64.exe#/autok3s.exe",
-            "hash": "850cd26c83c8b98a7a32b032abf23d8da8bc84ab34ef4149192480add29ca6c8"
+            "hash": "9486134f871a4998371df206747463de67f296ab05f40f817605ac0d00dc7fc5"
         },
         "32bit": {
             "url": "https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_386.exe#/autok3s.exe",
-            "hash": "78480f63a9043d03953e2274aa1bbe61fce53eb901f4164f212b454fbcfe4a5e"
+            "hash": "527784b1fdfab6473f7feb3fbf6e309607a2d43f50e96a6e45f590aedab43927"
         }
     },
     "bin": "autok3s.exe",
