@@ -1,12 +1,12 @@
 {
-    "version": "1.6.8",
+    "version": "1.7.0",
     "description": "Another Redis Desktop Manager is a faster and stable redis desktop manager [GUI client]， which won't crash when loading massive keys.",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.6.8/Another-Redis-Desktop-Manager.1.6.8.exe#/dl.7z",
-            "hash": "sha512:b2ce800613452c4f06e3765368059785c1deca3b82ec594699b61a866dff3f4c80223afb52ce81a51ba0a5767a093605062dc6dbaa692ca78a52a33271df8403",
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.0/Another-Redis-Desktop-Manager.1.7.0.exe#/dl.7z",
+            "hash": "sha512:e97250cfa557b014a647a3ada9e23b376939237dfc9ad4335ed06b4768fb855db6d0f7da2425763acd66dbcf0346adace54f1b957cd938b4f035f04d5d4bd6d1",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
