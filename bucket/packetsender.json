@@ -1,12 +1,12 @@
 {
-    "version": "8.7.1",
+    "version": "8.8.9",
     "description": "A network utility to allow sending and receiving TCP, UDP, and SSL (encrypted TCP) packets.",
     "homepage": "https://github.com/dannagle/PacketSender",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dannagle/PacketSender/releases/download/v8.7.1/PacketSenderPortable_v8.7.1.zip",
-            "hash": "61c8b6d65aec3a6b75a03ee7ec60c4c322b84b8f09f312e5c9c628426fe6972f"
+            "url": "https://github.com/dannagle/PacketSender/releases/download/v8.8.9/PacketSenderPortable_v8.8.9.zip",
+            "hash": "57495dcd82e74b2de05d9b60e04d66782d5ff18584d8e789f3d1a5a8b90cc484"
         }
     },
     "post_install": "if(!(Test-Path \"$persist_dir\\\")) { New-Item -Path \"$persist_dir\\\" -ItemType Directory | Out-Null }",
