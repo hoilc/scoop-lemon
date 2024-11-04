@@ -1,11 +1,11 @@
 {
-    "version": "1.0",
-    "description": "OPPO Sans (1.0) 是一款适合高清屏幕使用且字符集完整的字体，允许个人或企业免费使用",
-    "homepage": "https://www.coloros.com/index/newsDetail?id=72",
+    "version": "3.0",
+    "description": "OPPO Sans 是一款适合高清屏幕使用且字符集完整的字体，允许个人或企业免费使用",
+    "homepage": "https://www.coloros.com/article/A00000050/",
     "license": "Freeware",
-    "url": "https://scoop-lemon.4everland.store/oppo-sans/font-opposans.zip",
-    "extract_dir": "Font-OPPOSans",
-    "hash": "62b1fd121a13e84212fadcc801a1b397927c9d8224351f5b4b93bbcb42b3ad14",
+    "url": "https://scoop-lemon.4everland.store/oppo-sans/font-opposans_v3.0.zip",
+    "notes": "The font is repackaged to support installation by Scoop.",
+    "hash": "198cec5e74461c4d04e24a7c432877b896fced6bb277ca83e0356d926a1fbca6",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
