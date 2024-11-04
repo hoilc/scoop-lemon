@@ -1,20 +1,20 @@
 {
-    "version": "0.2.9",
+    "version": "0.2.10",
     "description": "A CLI tool that unlocks encrypted music file.",
     "homepage": "https://git.unlock-music.dev/um/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.9/um-windows-amd64-v0.2.9.zip",
-            "hash": "a4775b75e2cdd5b56a053f3716fb12285284c178f26d69ee24be55890f451525"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.10/um-windows-amd64-v0.2.10.zip",
+            "hash": "ff7e5c420ffbd433219f9fb59116831c5124a0a1ef9fb702346b148646b4cc63"
         },
         "32bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.9/um-windows-386-v0.2.9.zip",
-            "hash": "c4c11c4ba8b3f1ada3e07a593f76b22e2c221f88f1b056cdcae6343ad73019ef"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.10/um-windows-386-v0.2.10.zip",
+            "hash": "d00dfebbef7e4ddc47f08572cb9fa76b6b9d55c4b6095f09fa4fc65da48965e0"
         },
         "arm64": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.9/um-windows-arm64-v0.2.9.zip",
-            "hash": "335457570089b588af3c5745665d945ae696901419e218ebfa8d37ef17c184cd"
+            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.10/um-windows-arm64-v0.2.10.zip",
+            "hash": "49ce1936c563825662202bf0c596b8efa7efd827a4f27fd9559ed1a0f1057422"
         }
     },
     "bin": "um.exe",
