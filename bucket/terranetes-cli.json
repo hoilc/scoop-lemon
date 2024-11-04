@@ -11,7 +11,8 @@
     },
     "bin": "tnctl.exe",
     "checkver": {
-        "github": "https://github.com/appvia/terranetes-controller"
+        "url": "https://github.com/appvia/terranetes-controller/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
