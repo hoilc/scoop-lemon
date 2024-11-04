@@ -1,22 +1,16 @@
 {
-    "version": "0.1.0-alpha.1729746628",
+    "version": "0.1.0-alpha.1730315451",
     "description": "A developer tool to put software maintenance on autopilot.",
     "homepage": "https://docs.grit.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1729746628/marzano-x86_64-pc-windows-msvc.tar.gz",
-            "extract_dir": "marzano-x86_64-pc-windows-msvc",
-            "hash": "c32d852fe7221b8cd2d7a01f4bd1197cd6994ae25495f5393b025c831ae3c76c"
+            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1730315451/grit-x86_64-pc-windows-msvc.tar.gz",
+            "extract_dir": "grit-x86_64-pc-windows-msvc",
+            "hash": "0bd34bd5ad6ecb80915105277406da84711494c4d20a3444c52ab010ad36e3ef"
         }
     },
-    "bin": [
-        "marzano.exe",
-        [
-            "marzano.exe",
-            "grit"
-        ]
-    ],
+    "bin": "grit.exe",
     "checkver": {
         "url": "https://github.com/getgrit/gritql/releases.atom",
         "regex": "Repository/\\d+/v?(.+?)<"
@@ -24,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/getgrit/gritql/releases/download/v$version/marzano-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/getgrit/gritql/releases/download/v$version/grit-x86_64-pc-windows-msvc.tar.gz"
             }
         },
         "hash": {
