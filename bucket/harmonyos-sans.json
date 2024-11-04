@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://scoop-lemon.4everland.store/harmonyos-sans/HarmonyOS-Sans_v1.9.zip",
     "extract_dir": "HarmonyOS Sans",
-    "hash": "c8ac95f3715631f3787336e9689571c12ae818a0059713a726313605ce0eb8d3",
+    "hash": "900de856e53757d2330072c3d47b3263231b10853e249694226e4fe2e722398e",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
