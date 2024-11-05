@@ -1,20 +1,20 @@
 {
-    "version": "1.10.1",
+    "version": "1.11.0",
     "description": "Switch windows of same app with alt + ` on Windows.",
     "homepage": "https://github.com/sigoden/window-switcher",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.10.1/window-switcher-v1.10.1-windows-64.zip",
-            "hash": "112e1d33888a9136f4c53fb601b540f91642455f2a8161956d8769dd45f99fe4"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.11.0/window-switcher-v1.11.0-windows-64.zip",
+            "hash": "be6a4bd3f2ac757fecc30a64c4cc62e3fd199fa1e1c53c9bab24a6f0188115ed"
         },
         "32bit": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.10.1/window-switcher-v1.10.1-windows-32.zip",
-            "hash": "3a74b6207daf7e3ebdf641569d6a824e2793f77f3adea10ca28ce6e00a208cf1"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.11.0/window-switcher-v1.11.0-windows-32.zip",
+            "hash": "7458bcfd200788bd15ac11efc091d6509d2f06229e3f966b858c3365add85999"
         },
         "arm64": {
-            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.10.1/window-switcher-v1.10.1-windows-arm64.zip",
-            "hash": "484638f62d7e40fcd05127abae6e2e3e5f8806b2a6f90261c0f1f95168f1b41a"
+            "url": "https://github.com/sigoden/window-switcher/releases/download/v1.11.0/window-switcher-v1.11.0-windows-arm64.zip",
+            "hash": "f75f8627670fe20a717896a19689d046ffc93a17cf30a8794bde7c097222d2cc"
         }
     },
     "shortcuts": [
