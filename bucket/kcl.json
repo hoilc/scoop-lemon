@@ -1,16 +1,16 @@
 {
-    "version": "0.10.7",
+    "version": "0.10.8",
     "description": "Kusion Configuration Language (KCL) is an open source constraint-based record and functional language.",
     "homepage": "https://kcl-lang.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kcl-lang/cli/releases/download/v0.10.7/kcl-v0.10.7-windows-amd64.zip",
-            "hash": "67b59fa262637d0da657665283c03109892b33b1196709990490f8447f211a7e"
+            "url": "https://github.com/kcl-lang/cli/releases/download/v0.10.8/kcl-v0.10.8-windows-amd64.zip",
+            "hash": "4ba1b75806ac64351b04419387301fa8a7c8ba81f23d7c6f7c47cb747329bb5a"
         },
         "arm64": {
-            "url": "https://github.com/kcl-lang/cli/releases/download/v0.10.7/kcl-v0.10.7-windows-amd64.zip",
-            "hash": "67b59fa262637d0da657665283c03109892b33b1196709990490f8447f211a7e"
+            "url": "https://github.com/kcl-lang/cli/releases/download/v0.10.8/kcl-v0.10.8-windows-amd64.zip",
+            "hash": "4ba1b75806ac64351b04419387301fa8a7c8ba81f23d7c6f7c47cb747329bb5a"
         }
     },
     "bin": "kcl.exe",
