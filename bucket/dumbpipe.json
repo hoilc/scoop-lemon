@@ -1,12 +1,12 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "A dumb pipe to connect two machines with a QUIC connection.",
     "homepage": "https://www.dumbpipe.dev/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.19.0/dumbpipe-v0.19.0-windows-x86_64.zip",
-            "hash": "36005b3e2e836648b7e22e267106d1ca6b5e307ec438012adbfb180ddd8260f0"
+            "url": "https://github.com/n0-computer/dumbpipe/releases/download/v0.20.0/dumbpipe-v0.20.0-windows-x86_64.zip",
+            "hash": "505a445653bb8b6206c58bb0cd98d63b746db0806e48a510cc1b9da0f573b649"
         }
     },
     "bin": "dumbpipe.exe",
