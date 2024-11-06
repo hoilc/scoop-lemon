@@ -1,0 +1,20 @@
+{
+    "version": "20230206.0",
+    "description": "A tunnel which improves your network quality on a high-latency lossy link by using Forward Error Correction.",
+    "homepage": "https://github.com/wangyu-/UDPspeeder",
+    "license": "MIT",
+    "url": "https://github.com/wangyu-/UDPspeeder/releases/download/20230206.0/speederv2_binaries.tar.gz",
+    "hash": "b64dd376a948995cb5da17d8eb171338ccd0553b9380e5164f8cb5ac4131bcaa",
+    "pre_install": "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+    "bin": [
+        "speederv2.exe",
+        [
+            "speederv2.exe",
+            "udpspeeder"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wangyu-/UDPspeeder/releases/download/$version/speederv2_binaries.tar.gz"
+    }
+}
