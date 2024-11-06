@@ -5,13 +5,13 @@
     "license": "MIT",
     "url": "https://github.com/wangyu-/UDPspeeder/releases/download/20230206.0/speederv2_binaries.tar.gz",
     "hash": "b64dd376a948995cb5da17d8eb171338ccd0553b9380e5164f8cb5ac4131bcaa",
-    "pre_install": "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+        "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace 'speederv2','udpspeeder') }"
+    ],
     "bin": [
-        "speederv2.exe",
-        [
-            "speederv2.exe",
-            "udpspeeder"
-        ]
+        "udpspeeder.exe",
+        "udpspeeder_wepoll.exe"
     ],
     "checkver": "github",
     "autoupdate": {
