@@ -1,10 +1,10 @@
 {
-    "version": "1.10.1",
+    "version": "1.10.2",
     "description": "A GUI tool to inspect and unpack InnoSetup archives.",
     "homepage": "https://www.rathlev-home.de/index-e.html?tools/prog-e.html#unpack",
     "license": "GPL-2.0-or-later|MPL-1.0",
     "url": "https://www.rathlev-home.de/tools/download/innounpacker.zip",
-    "hash": "4f6dd4024d239d5b7b5e75176ce43b610cf3ec1feff7ca124ba094f089b83ae7",
+    "hash": "d9d1babdd8f5a46a09da2b052f9594a4753586c037206a6a0afed7f9808c4b9d",
     "bin": "InnoUnpack.exe",
     "shortcuts": [
         [
