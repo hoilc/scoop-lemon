@@ -1,0 +1,21 @@
+{
+    "version": "220fbe6",
+    "description": "Ping with UDP protocol.",
+    "homepage": "https://github.com/wangyu-/UDPping",
+    "license": "MIT",
+    "url": "https://github.com/wangyu-/UDPping/archive/220fbe6191c0a10042b677dea64f2ecae419a360.zip",
+    "hash": "6cdde48663833b85b277ceca25789e6fadde9ea7d5528f283182d6a41051578b",
+    "extract_dir": "UDPping-220fbe6191c0a10042b677dea64f2ecae419a360",
+    "bin": "udpping.py",
+    "suggest": {
+        "python3": "python"
+    },
+    "checkver": {
+        "url": "https://github.com/wangyu-/UDPping",
+        "regex": "\"currentOid\":\\s*\"([0-9a-f]{7})(?<tail>[0-9a-f]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/wangyu-/UDPping/archive/$version$matchTail.zip",
+        "extract_dir": "UDPping-$version$matchTail"
+    }
+}
