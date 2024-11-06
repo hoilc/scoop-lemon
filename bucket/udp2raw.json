@@ -1,0 +1,20 @@
+{
+    "version": "20230206.0",
+    "description": "A tunnel which turns UDP traffic into encrypted FakeTCP/UDP/ICMP traffic by using Raw Socket.",
+    "homepage": "https://github.com/wangyu-/udp2raw",
+    "license": "MIT",
+    "url": "https://github.com/wangyu-/udp2raw-multiplatform/releases/download/20230206.0/udp2raw_mp_binaries.tar.gz",
+    "hash": "7992e1427679bca5b96298203e52f3bfa5aface8ed534e2c19e34766b246ccea",
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+        "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '_mp') }"
+    ],
+    "bin": "udp2raw.exe",
+    "notes": "This application requires Npcap to function. Download Npcap here, https://npcap.com/#download",
+    "checkver": {
+        "github": "https://github.com/wangyu-/udp2raw-multiplatform"
+    },
+    "autoupdate": {
+        "url": "https://github.com/wangyu-/udp2raw-multiplatform/releases/download/$version/udp2raw_mp_binaries.tar.gz"
+    }
+}
