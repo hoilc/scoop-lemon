@@ -1,0 +1,20 @@
+{
+    "version": "20200818.0",
+    "description": "A lightweight high-performance port mapping/forwarding utility using epoll, supports both TCP and UDP.",
+    "homepage": "https://github.com/wangyu-/tinyPortMapper",
+    "license": "MIT",
+    "url": "https://github.com/wangyu-/tinyPortMapper/releases/download/20200818.0/tinymapper_binaries.tar.gz",
+    "hash": "baa5987d3122a14c3752dbbf1cee5f47f0dc147b527771dc60986261dd54eadb",
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+        "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace 'tinymapper','tinyportmapper') }"
+    ],
+    "bin": [
+        "tinyportmapper.exe",
+        "tinyportmapper_wepoll.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wangyu-/tinyPortMapper/releases/download/$version/tinymapper_binaries.tar.gz"
+    }
+}
