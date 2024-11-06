@@ -9,7 +9,10 @@
         "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
         "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '_mp') }"
     ],
-    "bin": "udp2raw.exe",
+    "bin": [
+        "udp2raw.exe",
+        "udp2raw_wepoll.exe"
+    ],
     "notes": "This application requires Npcap to function. Download Npcap here, https://npcap.com/#download",
     "checkver": {
         "github": "https://github.com/wangyu-/udp2raw-multiplatform"
