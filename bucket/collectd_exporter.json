@@ -1,18 +1,18 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A Prometheus exporter for collectd.",
     "homepage": "https://github.com/prometheus/collectd_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/collectd_exporter/releases/download/v0.6.0/collectd_exporter-0.6.0.windows-amd64.tar.gz",
-            "hash": "f1ad811882a5615527cb23006df473bd196091d383f52393c362d16f86007be2",
-            "extract_dir": "collectd_exporter-0.6.0.windows-amd64"
+            "url": "https://github.com/prometheus/collectd_exporter/releases/download/v0.7.0/collectd_exporter-0.7.0.windows-amd64.tar.gz",
+            "hash": "7fa8ab06276c77d261f67e545cd9f5c0b745ed315c210ad322f75e434db1ec22",
+            "extract_dir": "collectd_exporter-0.7.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/collectd_exporter/releases/download/v0.6.0/collectd_exporter-0.6.0.windows-386.tar.gz",
-            "hash": "44237c7bfb1d77348c39a184c9ca2dd4c5106fa5b7d99366079fe33a16f2f2e2",
-            "extract_dir": "collectd_exporter-0.6.0.windows-386"
+            "url": "https://github.com/prometheus/collectd_exporter/releases/download/v0.7.0/collectd_exporter-0.7.0.windows-386.tar.gz",
+            "hash": "cbcde6968929795add8fb44a286f5df88ee661b21db25bf9d5daf86d0abba7fb",
+            "extract_dir": "collectd_exporter-0.7.0.windows-386"
         }
     },
     "bin": "collectd_exporter.exe",
