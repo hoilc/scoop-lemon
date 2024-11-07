@@ -1,12 +1,12 @@
 {
-    "version": "0.40.0",
+    "version": "0.41.0",
     "description": "An open source user-friendly database for logs from VictoriaMetrics.",
     "homepage": "https://docs.victoriametrics.com/VictoriaLogs/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v0.40.0-victorialogs/victoria-logs-windows-amd64-v0.40.0-victorialogs.zip",
-            "hash": "18f4611d8f2309e0d8c4521cee67da611a532484d1a4582505262cc3ccdc281c"
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v0.41.0-victorialogs/victoria-logs-windows-amd64-v0.41.0-victorialogs.zip",
+            "hash": "7b27b419678823c8139fc50474f3e62a488663534b1a707463b858825fba7375"
         }
     },
     "bin": "victoria-logs.exe",
