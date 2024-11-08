@@ -1,18 +1,18 @@
 {
-    "version": "4.3.3",
+    "version": "4.3.4",
     "description": "A easy-to-use and powerfull diary software.",
     "homepage": "http://www.haoxg.net/ediary/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.3-win64-copy.zip",
-            "extract_dir": "eDiary-4.3.3-win64",
-            "hash": "d737b3bef41802654f4bd4883cd5771bd7493d91b2a7eddb0dca9fdcb8bfd00b"
+            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.4-win64-copy.zip",
+            "extract_dir": "eDiary-4.3.4-win64",
+            "hash": "4ede3548dd307478b4a34960f99231fb48d49c4afc169d1cda756bcd1c5502ea"
         },
         "32bit": {
-            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.3-win32-copy.zip",
-            "extract_dir": "eDiary-4.3.3-win32",
-            "hash": "08d3379b37fc3eb0a2ce374bc0c3590698cfe423fab7448deba8806e24439a58"
+            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.4-win32-copy.zip",
+            "extract_dir": "eDiary-4.3.4-win32",
+            "hash": "a60d76172191330b30baa3383225865f3cfc02329a27d0abb459acccfe68f46d"
         }
     },
     "bin": "eDiary.exe",
