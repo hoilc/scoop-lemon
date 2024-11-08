@@ -1,13 +1,13 @@
 {
-    "version": "0.1.0-alpha.1730986307",
+    "version": "0.1.0-alpha.1731025746",
     "description": "A developer tool to put software maintenance on autopilot.",
     "homepage": "https://docs.grit.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1730986307/grit-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/getgrit/gritql/releases/download/v0.1.0-alpha.1731025746/grit-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "grit-x86_64-pc-windows-msvc",
-            "hash": "a45cf2945d145f65baf48ce26c4924af8ecd47a655a2e10d430a192ffd20328e"
+            "hash": "8c46972fdf3ed57ed2746d91b766ae1352fa33ab27ad6e7581dc3592294387bd"
         }
     },
     "bin": "grit.exe",
