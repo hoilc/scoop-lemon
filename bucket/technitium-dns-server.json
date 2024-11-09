@@ -1,10 +1,10 @@
 {
-    "version": "13.1",
+    "version": "13.1.1",
     "description": "Technitium DNS Server is a self-hosted DNS server for privacy & security.",
     "homepage": "https://technitium.com/dns/",
     "license": "GPL-3.0-only",
     "url": "https://download.technitium.com/dns/DnsServerPortable.tar.gz",
-    "hash": "934ce18a77c84ffc07d2bb993142d72a90ae5e3bd0f4adb2e572be11be48b1aa",
+    "hash": "9992efd1aa93dc29e20c651f2ebe7848804da9aab696f9688b79190931720b95",
     "suggest": {
         "dotnet-runtime": "windowsdesktop-runtime"
     },
