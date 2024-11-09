@@ -1,16 +1,20 @@
 {
-    "version": "0.4.3",
+    "version": "0.5.3",
     "description": "A third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.",
     "homepage": "https://github.com/dragonflylee/switchfin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.4.3/Switchfin-windows-x64-cd79611.7z",
-            "hash": "48a46cacba7ad7498cea3df028e55d1ba5823faa10acbbd44f12a6a543bbeef1"
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.5.3/Switchfin-windows-x64.7z",
+            "hash": "a5a0c914516ce5e9c355c4b2e0063d7b893c905e53f36b0037b9ccad264d89cc"
         },
         "32bit": {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.4.3/Switchfin-windows-x86-cd79611.7z",
-            "hash": "6321fcac9274937fbaa2039a464edd66c7f154b896f2667fd6aec1b8d9d33866"
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.5.3/Switchfin-windows-x86.7z",
+            "hash": "59fad2c140110f50a7c876fc50758d4cc33025d5bf22d3a6257f1fb4aa385ca9"
+        },
+        "arm64": {
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.5.3/Switchfin-windows-arm64.7z",
+            "hash": "8036809c3099ae98a47984e513295de371af757af6d11515ad4e4daeca8816f3"
         }
     },
     "shortcuts": [
@@ -19,17 +23,17 @@
             "Switchfin"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/dragonflylee/switchfin/releases",
-        "regex": "/releases/download/([\\d.]+)/Switchfin-windows-x64-(?<commit>.+?).7z"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dragonflylee/switchfin/releases/download/$version/Switchfin-windows-x64-$matchCommit.7z"
+                "url": "https://github.com/dragonflylee/switchfin/releases/download/$version/Switchfin-windows-x64.7z"
             },
             "32bit": {
-                "url": "https://github.com/dragonflylee/switchfin/releases/download/$version/Switchfin-windows-x86-$matchCommit.7z"
+                "url": "https://github.com/dragonflylee/switchfin/releases/download/$version/Switchfin-windows-x86.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/dragonflylee/switchfin/releases/download/$version/Switchfin-windows-arm64.7z"
             }
         }
     }
