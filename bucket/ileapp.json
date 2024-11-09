@@ -1,17 +1,17 @@
 {
-    "version": "1.19.5",
+    "version": "2.0.0",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v1.19.5/ileapp_Windows.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v1.19.5/ileappGUI_Windows.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2.0.0/iLEAPP-2.0.0-Windows.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2.0.0/iLEAPP_GUI-2.0.0-Windows.zip"
             ],
             "hash": [
-                "9b62afb6e79f7d11ea807c0ed6a555884496cbf87e0d11e711e415ec67f72bac",
-                "ca14be84a47926f42397a13c75411c7db14577c9b44de60360f0e2405e238f94"
+                "30d929a696fc0dbaf2b452e11739e5e1cacc94e8289490a880e9aa4538d4b8b2",
+                "7db308e89a9f6ed7626df78862fa174d5ef8acc762a474fd193de3597563de0e"
             ]
         }
     },
@@ -27,8 +27,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileapp_Windows.zip",
-                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileappGUI_Windows.zip"
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/iLEAPP-$version-Windows.zip",
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/iLEAPP_GUI-$version-Windows.zip"
                 ]
             }
         }
