@@ -1,5 +1,5 @@
 {
-    "version": "1.38",
+    "version": "1.39",
     "description": "Dissect Applications & HTML pages + Spy Windows Messages",
     "homepage": "https://www.the-sz.com/products/spyex/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/spyex/SpyEx.zip",
-    "hash": "5336c84cff00763ba4ded38b31616426134c654a736e7cd74db759d9acb8a945",
+    "hash": "d21052ceea6eabbb703ef63d817ecdacc4f11ffb54190c314e04c7f0494f3a3b",
     "bin": "SpyEx.exe",
     "shortcuts": [
         [
