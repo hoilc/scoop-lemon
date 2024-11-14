@@ -1,5 +1,5 @@
 {
-    "version": "3.7",
+    "version": "3.8",
     "description": "A font manager that allows previewing typefaces in a single list.",
     "homepage": "http://fontmassive.com/fm.php",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "http://fontmassive.com/download.php?prog=FontMassive64#/dl.zip",
-            "hash": "975643a746ef6c503fc5bc9bad8412d4cc2e39eb62186049ec33ad0b700eb97b"
+            "hash": "de0d28feeb447ae048a77e2d6a742cb6facbea88d6ccb6de6837b14e177a8cad"
         },
         "32bit": {
             "url": "http://fontmassive.com/download.php?prog=FontMassive#/dl.zip",
-            "hash": "936bf0100a5ed327efa07632c6981f4d9615f0fae684b66aa250c374df8c952a"
+            "hash": "9431bd48e4e0d1c12bbe45cd2b86d2285a31ccba0b1ae8bf697d796b97a0cad0"
         }
     },
     "extract_dir": "FontMassive Pack",
