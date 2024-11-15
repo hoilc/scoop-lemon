@@ -1,12 +1,12 @@
 {
-    "version": "148",
+    "version": "149",
     "description": "A console application for NVIDIA GPUs for high-performance image encoding and decoding.",
     "homepage": "https://github.com/CESNET/GPUJPEG",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
             "url": "https://github.com/CESNET/GPUJPEG/releases/download/continuous/GPUJPEG.zip",
-            "hash": "1edb174c6062a4c7314af86a2ed6614102185bc855f864f1af35b2085af540d6"
+            "hash": "1bb264bc502e69d5c2839c77247bd8acbee71d696a834d97ae703de6cd63cae4"
         }
     },
     "extract_dir": "GPUJPEG",
