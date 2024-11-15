@@ -1,12 +1,12 @@
 {
-    "version": "2.19.6",
+    "version": "2.20.0",
     "description": "Local development against a remote Kubernetes or OpenShift cluster.",
     "homepage": "https://www.telepresence.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://app.getambassador.io/download/tel2/windows/amd64/2.19.6/telepresence.zip",
-            "hash": "2378388f83a77f05f38a9f36547f3000dfed0bcf580fa7b2b12c1ca5e6af674d"
+            "url": "https://app.getambassador.io/download/tel2/windows/amd64/2.20.0/telepresence.zip",
+            "hash": "c3dd3a9340ba4b44813b36b611d29e98ceb91be8d16af2206c88060679372b61"
         }
     },
     "post_install": "Remove-Item \"$dir\\*.msi\", \"$dir\\*.ps1\" -Force -Recurse",
