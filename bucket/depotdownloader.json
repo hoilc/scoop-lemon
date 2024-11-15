@@ -1,0 +1,31 @@
+{
+    "version": "2.7.4",
+    "description": "A Steam depot downloader utilizing the SteamKit2 library.",
+    "homepage": "https://github.com/SteamRE/DepotDownloader",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-x64.zip",
+            "hash": "43e97b959495f1ea1a91f7b2c502d3fe87ca954e687caae7ae4a5893993cf4d8"
+        },
+        "arm64": {
+            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-arm64.zip",
+            "hash": "8a60c12c22c9cfaff9a4104e9c69410cf3c5a30dd35a75a5f9736da718555def"
+        }
+    },
+    "bin": "DepotDownloader.exe",
+    "checkver": {
+        "url": "https://github.com/SteamRE/DepotDownloader/releases.atom",
+        "regex": "Repository/\\d+/DepotDownloader_(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-arm64.zip"
+            }
+        }
+    }
+}
