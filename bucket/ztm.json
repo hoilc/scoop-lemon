@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.9.0",
     "description": "ZTM (Zero Trust Mesh) is privacy first, open source, decentralized network software, based on HTTP/2 tunnel.",
     "homepage": "https://github.com/flomesh-io/ztm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/flomesh-io/ztm/releases/download/v0.3.0/ztm-app-v0.3.0-win_x86_64.exe#/dl.7z",
-            "hash": "b99ef2465fc0bf9fe20424aa6f27f35260a27f376ff0ecfac480f82f12aafd2f"
+            "url": "https://github.com/flomesh-io/ztm/releases/download/v0.9.0/ztm-app-v0.9.0-win_x86_64.exe#/dl.7z",
+            "hash": "37b70e293c79da1ce655bed2c7bd6d7c01f9c416b40c99fe66d1ea5b88fee266"
         }
     },
     "shortcuts": [
