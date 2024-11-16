@@ -1,10 +1,10 @@
 {
-    "version": "2024-06-08",
+    "version": "2024-11-14",
     "description": "A cross-platform cryptography tool.",
     "homepage": "https://muldersoft.com/#slunkcrypt",
     "license": "CC0-1.0",
-    "url": "https://bitbucket.org/muldersoft/slunkcrypt/downloads/slunkcrypt.2024-06-08.windows.zip",
-    "hash": "0e1b495646e1f285bc974ddf6392f66fec8e5d4e1ff3bf657a74c2f6f8a053dc",
+    "url": "https://bitbucket.org/muldersoft/slunkcrypt/downloads/slunkcrypt.2024-11-14.windows.zip",
+    "hash": "096ad7c56f12c4452dbbad8393b8dd46751c482a14ba260e21db8a59b833a10a",
     "architecture": {
         "64bit": {
             "bin": [
