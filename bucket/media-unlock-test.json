@@ -1,20 +1,20 @@
 {
-    "version": "1.4.15-1731593644",
+    "version": "1.4.16-1731738906",
     "description": "MediaUnlockTest 更快的流媒体检测工具",
     "homepage": "https://github.com/HsukqiLee/MediaUnlockTest",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.15-1731593644/unlock-test_windows_amd64.exe#/unlock-test.exe",
-            "hash": "53646ef30d3c701acc85224abfe6ec4b75fef5d0075a20be1c0922d09ff6a818"
+            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.16-1731738906/unlock-test_windows_amd64.exe#/unlock-test.exe",
+            "hash": "07de75d0472e03915cd111114e53f1ec246044e7c5eb110cd9220c34f6249255"
         },
         "32bit": {
-            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.15-1731593644/unlock-test_windows_386.exe#/unlock-test.exe",
-            "hash": "57c19e3619c60ee7501978e3c92aff3840d5512743bd72373b4f796b01e66f73"
+            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.16-1731738906/unlock-test_windows_386.exe#/unlock-test.exe",
+            "hash": "5f5526e8eba73d7fb25899b2350a35ff3e51af1f54134b8aeba99ec49ea7ee02"
         },
         "arm64": {
-            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.15-1731593644/unlock-test_windows_arm64.exe#/unlock-test.exe",
-            "hash": "b41682b3de712ab1230a972aac14c1e6487d103218b6e6662d3fcdc6095a4911"
+            "url": "https://github.com/HsukqiLee/MediaUnlockTest/releases/download/v1.4.16-1731738906/unlock-test_windows_arm64.exe#/unlock-test.exe",
+            "hash": "dd85fc6069d16c200769e4f938e5ecaef3dea95846a7279c7ccf2e75142c065b"
         }
     },
     "bin": "unlock-test.exe",
