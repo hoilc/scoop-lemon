@@ -1,5 +1,5 @@
 {
-    "version": "3.2.1",
+    "version": "3.3.0",
     "description": "A command-line tool that allows users to run LogQL queries against a Loki server.",
     "homepage": "https://grafana.com/docs/loki/latest/getting-started/logcli/",
     "license": "Apache-2.0",
@@ -11,8 +11,8 @@
                     "logcli"
                 ]
             ],
-            "url": "https://github.com/grafana/loki/releases/download/v3.2.1/logcli-windows-amd64.exe.zip",
-            "hash": "ccccaa6cadfb95be54196dddbaa8ecc0c9767103b5e09a0e4ea88b7c4e073afd"
+            "url": "https://github.com/grafana/loki/releases/download/v3.3.0/logcli-windows-amd64.exe.zip",
+            "hash": "f6b292fb9ac6d24f8d8c556890cf3706c3eefe6b593024e2e992b1d38909e691"
         }
     },
     "checkver": {
