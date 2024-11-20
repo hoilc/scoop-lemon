@@ -1,12 +1,12 @@
 {
-    "version": "1.1.5",
+    "version": "v1.1.6",
     "description": "开源免费的跨平台抓包软件，支持手机扫码连接",
     "homepage": "https://github.com/wanghongenpin/proxypin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wanghongenpin/proxypin/releases/download/V1.1.5/ProxyPin-Windows.zip",
-            "hash": "40ecd0cdd4cec8e09a6deb3d65398c5cdb14414b6011a3b65d5a069ef8dd02ac"
+            "url": "https://github.com/wanghongenpin/proxypin/releases/download/v1.1.6/ProxyPin-Windows.zip",
+            "hash": "e44d2862fc86ae86ca7df0ab297f99cfe298526cf40ac8f6f0667ff78539adc6"
         }
     },
     "extract_dir": "ProxyPin",
