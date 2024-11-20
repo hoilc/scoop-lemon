@@ -1,0 +1,51 @@
+{
+    "version": "0.6.1",
+    "description": "A toolkit that enables setting up a cluster of thousands of Kubernetes Nodes in seconds.",
+    "homepage": "https://kwok.sigs.k8s.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.6.1/kwok-windows-amd64.exe#/kwok.exe",
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.6.1/kwokctl-windows-amd64.exe#/kwokctl.exe"
+            ],
+            "hash": [
+                "3771377b85fd57a3848a528d99a4574bc9ab5d28c31fa159983bce80d528a513",
+                "7a602b5aae18a3b9fe11633ddc310b5e63f06a1b770c79bd4d6263994fd74842"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.6.1/kwok-windows-arm64.exe#/kwok.exe",
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.6.1/kwokctl-windows-arm64.exe#/kwokctl.exe"
+            ],
+            "hash": [
+                "f9674cb0858b8b754464b82d27a7c1c15d5abc231909330b7fcd52285da19167",
+                "29922b9d3b6c1662b93cd49c21c7677037a641a92154a6e3dc57cc8ef1048ec5"
+            ]
+        }
+    },
+    "bin": [
+        "kwok.exe",
+        "kwokctl.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/kubernetes-sigs/kwok"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/kubernetes-sigs/kwok/releases/download/v$version/kwok-windows-amd64.exe#/kwok.exe",
+                    "https://github.com/kubernetes-sigs/kwok/releases/download/v$version/kwokctl-windows-amd64.exe#/kwokctl.exe"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/kubernetes-sigs/kwok/releases/download/v$version/kwok-windows-arm64.exe#/kwok.exe",
+                    "https://github.com/kubernetes-sigs/kwok/releases/download/v$version/kwokctl-windows-arm64.exe#/kwokctl.exe"
+                ]
+            }
+        }
+    }
+}
