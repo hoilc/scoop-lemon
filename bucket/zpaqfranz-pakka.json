@@ -1,0 +1,21 @@
+{
+    "version": "44",
+    "description": "A Windows GUI for zpaqfranz.",
+    "homepage": "https://github.com/fcorbelli/zpaqfranz/wiki/PAKKA-Windows-32-bit-extractor",
+    "license": "Freeware",
+    "url": "http://www.francocorbelli.it/pakka/build/44/pakka_latest.zip",
+    "hash": "2b7de63cdde2ff224b5c57dee8b3c89bf0f75b50b81fae87c98c100a13183872",
+    "shortcuts": [
+        [
+            "pakka.exe",
+            "PAKKA"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.francocorbelli.it/pakka/build/latest/versione.txt",
+        "regex": "([\\d]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.francocorbelli.it/pakka/build/$version/pakka_latest.zip"
+    }
+}
