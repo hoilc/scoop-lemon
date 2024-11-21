@@ -1,0 +1,23 @@
+{
+    "version": "2024-06-05",
+    "description": "A lossless data compressor with neural networks.",
+    "homepage": "https://bellard.org/nncp/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://bellard.org/nncp/nncp-2024-06-05-win64.zip",
+            "hash": "8c18fdf3ac334f7257fc44b53c1b31f1da935f3752d0eff0697305b1c3b9128f"
+        }
+    },
+    "bin": "nncp.exe",
+    "checkver": {
+        "regex": "nncp-([\\d.-]+)-win64.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://bellard.org/nncp/nncp-$version-win64.zip"
+            }
+        }
+    }
+}
