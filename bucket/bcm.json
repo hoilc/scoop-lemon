@@ -1,0 +1,23 @@
+{
+    "version": "2.03",
+    "description": "An ultimate BWT-based file compressor.",
+    "homepage": "https://compressme.net/#downloads",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://compressme.net/bcm203.zip",
+            "hash": "51b3408b0d0c4a66dc3eb579c9a4ee2298ecab1a1b1c23e45bd745b0e36b170b"
+        }
+    },
+    "bin": "bcm.exe",
+    "checkver": {
+        "regex": "BCM v([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://compressme.net/bcm$cleanVersion.zip"
+            }
+        }
+    }
+}
