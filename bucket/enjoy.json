@@ -1,14 +1,15 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.2",
     "description": "Enjoy is an AI assistant that helps with learning foreign languages.",
     "homepage": "https://1000h.org/enjoy-app/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v0.7.0/Enjoy-win32-x64-0.7.0.zip",
-            "hash": "272779a7a4cd5f480b9b107a54a95df7e6e0bec5001d5739b101d941b2587ba3"
+            "url": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v0.7.2/enjoy-0.7.2-full.nupkg",
+            "hash": "e87a0b8506460b5c725a1863f402ed5fafc19bfb6630c1a89e4890fdd75ffeeb"
         }
     },
+    "extract_dir": "lib\\net45",
     "shortcuts": [
         [
             "enjoy.exe",
@@ -22,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v$version/Enjoy-win32-x64-$version.zip"
+                "url": "https://github.com/ZuodaoTech/everyone-can-use-english/releases/download/v$version/enjoy-$version-full.nupkg"
             }
         }
     }
