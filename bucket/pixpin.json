@@ -5,11 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.exe",
-            "hash": "ab8bb59cd871f2bc9422b9a8ea1f5c2055800c3b010dac23ad18984c93d736c3"
+            "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.zip",
+            "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007"
         }
     },
-    "innosetup": true,
+    "extract_dir": "PixPin",
     "bin": "PixPin.exe",
     "shortcuts": [
         [
@@ -24,14 +24,13 @@
         "Config"
     ],
     "checkver": {
-        "url": "https://accounts.viewdepth.cn/deepviewapi/public/pixpin/info",
-        "regex": "\\\\\"version\\\\\":\\\\\"([\\d.]+)",
-        "reverse": true
+        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=0&sys=win",
+        "jsonpath": "$.ver_info.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.pixpinapp.com/PixPin_$version.exe"
+                "url": "https://download.pixpinapp.com/PixPin_$version.zip"
             }
         }
     }
