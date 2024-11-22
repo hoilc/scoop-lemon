@@ -1,5 +1,5 @@
 {
-    "version": "7.5.3.1",
+    "version": "7.6.0.0",
     "description": "A simple and fast software for differential file synchronization.",
     "homepage": "https://www.luminescence-software.org/en/echosync",
     "license": {
@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.luminescence-software.org/download/echosync/Echosync-Portable-7531.exe#/dl.7z",
-            "hash": "c7a143a1715c40022f0901e71f1e33c6dbe72e68bd257c0fba92346bb0ba928e"
+            "url": "https://www.luminescence-software.org/download/echosync/Echosync-Portable-7600.exe#/dl.7z",
+            "hash": "e8710d42291c5f60cb22a1e6919eb606f6eb1269fdaec40ab2a401275f9e02ba"
         }
     },
-    "extract_dir": "Echosync75",
+    "extract_dir": "Echosync76",
     "bin": "Echocli.exe",
     "shortcuts": [
         [
@@ -22,8 +22,8 @@
     ],
     "persist": "Profiles",
     "checkver": {
-        "url": "https://rsshub.rssforever.com/winstall/SylvainRougeaux.Echosync",
-        "regex": "winstall:SylvainRougeaux.Echosync:([\\d.]+)"
+        "url": "https://api.luminescence-software.org/get_latest_version.php?software=echosync",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
