@@ -36,8 +36,8 @@
     ],
     "persist": "Support",
     "checkver": {
-        "url": "https://github.com/OpenRA/OpenRA/releases",
-        "regex": "OpenRA-release-([\\d.]+)-x64"
+        "url": "https://github.com/OpenRA/OpenRA/releases.atom",
+        "regex": "Repository/\\d+/release-(.+?)<"
     },
     "autoupdate": {
         "architecture": {
