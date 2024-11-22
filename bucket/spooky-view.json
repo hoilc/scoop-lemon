@@ -1,20 +1,20 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Spooky View is a Windows application to make any window transparent.",
     "homepage": "https://github.com/littletijn/spooky-view/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.6/SpookyView_1.0.6_x64_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "cff4fa1a3538b5d059c2023379171d1b3c1c58429af8ac1f3fb5cf91d42b439f"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.0.7_x64_Signed_Portable.exe#/SpookyView.exe",
+            "hash": "e81b2f04e5311067d543f0fd0945a402dc76bf2d6a42d66f82127e6be6a15d23"
         },
         "32bit": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.6/SpookyView_1.0.6_x86_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "e7861e683ac8db0d2a999530cec483489e1875b51c2659c57c9b1315f296fb61"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.07_x86_Signed_Portable.exe#/SpookyView.exe",
+            "hash": "669e399d1d5098b4266a7d918e4b7aadd8128b34ac80a1aaa1cb46afa5421307"
         },
         "arm64": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.6/SpookyView_1.0.6_ARM64_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "ab0ece5297a096ed45356731b6737ae8726209766e2569e315e29103c3200be9"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.0.7_ARM64_Signed_Portable.exe#/SpookyView.exe",
+            "hash": "50346089096049672ee0508b807e3d27beddd81c64f63ebae32cd2baf469db52"
         }
     },
     "shortcuts": [
