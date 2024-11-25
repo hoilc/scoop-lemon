@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup.exe#/dl.7z",
-            "hash": "5d00768e89959383a9e1f36a1ff9a4ae592930522cdba17eb817c7b5edced314"
+            "hash": "a8fae065a72037ffd95f62674aa8a3a459d410941976c050e05c19c4c09d4167"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
