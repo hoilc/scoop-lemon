@@ -5,7 +5,7 @@
     "license": "Friendware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/comicenhancepro/ComicEnhancerPro_eng_v6.09.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/comicenhancepro/ComicEnhancerPro_eng_v6.09.zip",
             "hash": "3a396d683cf34b0d849b3ba9aced5571e5a47b9e83c9a9d220a82dc24a06e371"
         }
     },

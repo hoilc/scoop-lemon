@@ -5,11 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/athena-a/Athena-A413_x64_HZ.7z",
+            "url": "https://scoop-lemon.tari.xyz/hosted/athena-a/Athena-A413_x64_HZ.7z",
             "hash": "49929752d72307a5fd8948bda50f805759a4235f308384f362bff13c971a450c"
         },
         "32bit": {
-            "url": "https://scoop-lemon.4everland.store/athena-a/Athena-A413_HZ.7z",
+            "url": "https://scoop-lemon.tari.xyz/hosted/athena-a/Athena-A413_HZ.7z",
             "hash": "03622a0f5585dd5202e87e291f87505608ccc4174089861365614180ff31d5d8"
         }
     },

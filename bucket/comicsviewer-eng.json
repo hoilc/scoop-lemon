@@ -5,7 +5,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/comicsviewer/ComicsViewer_eng_4.04.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/comicsviewer/ComicsViewer_eng_4.04.zip",
             "hash": "67db0d023ce81d27375fd60e71a69c691da4bd5ddfac0c014972833e9e329ea1"
         }
     },

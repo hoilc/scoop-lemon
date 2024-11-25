@@ -3,7 +3,7 @@
     "description": "PdgCntEditor是一款支持PDF、DjVu、PDG文件的目录（书签）编辑器",
     "homepage": "https://www.cnblogs.com/stronghorse/",
     "license": "Friendware",
-    "url": "https://scoop-lemon.4everland.store/pdgcnteditor/PdgCntEditor_chn_3.17.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/pdgcnteditor/PdgCntEditor_chn_3.17.zip",
     "hash": "ca0426c5b3e1eba97426d78b51e82f83aee834dd3112b0a9d63d2896a722b735",
     "bin": "PdgCntEditor.exe",
     "shortcuts": [

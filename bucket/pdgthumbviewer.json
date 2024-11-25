@@ -5,7 +5,7 @@
     "license": "Friendware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/pdgthumbviewer/PdgThumbViewer_3.05.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/pdgthumbviewer/PdgThumbViewer_3.05.zip",
             "hash": "c0b89ad7ee42e4cba422002a0663f7724c7d41b75420a621543b55bcd7db1ba6"
         }
     },
@@ -25,13 +25,13 @@
         "PdgThumbViewer.pwd"
     ],
     "checkver": {
-        "url": "https://scoop-lemon.4everland.store/pdgthumbviewer/latest.yml",
+        "url": "https://scoop-lemon.tari.xyz/hosted/pdgthumbviewer/latest.yml",
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://scoop-lemon.4everland.store/pdgthumbviewer/PdgThumbViewer_$version.zip"
+                "url": "https://scoop-lemon.tari.xyz/hosted/pdgthumbviewer/PdgThumbViewer_$version.zip"
             }
         }
     }

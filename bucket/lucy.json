@@ -19,7 +19,7 @@
             }
         }
     },
-    "url": "https://scoop-lemon.4everland.store/lucy/Lucy_v1.8.6.rar",
+    "url": "https://scoop-lemon.tari.xyz/hosted/lucy/Lucy_v1.8.6.rar",
     "hash": "b062d825d3568ac52c5462f11544d2953f0301720cac4bb84f2ad1cd66342a88",
     "pre_install": "if (!(Test-Path \"$persist_dir\\conf.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\conf.ini\" -Value $null }",
     "persist": [
@@ -35,10 +35,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoop-lemon.4everland.store/lucy/latest.yml",
+        "url": "https://scoop-lemon.tari.xyz/hosted/lucy/latest.yml",
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://scoop-lemon.4everland.store/lucy/Lucy_v$version.rar"
+        "url": "https://scoop-lemon.tari.xyz/hosted/lucy/Lucy_v$version.rar"
     }
 }

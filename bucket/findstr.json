@@ -5,7 +5,7 @@
     "license": "Friendware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/findstr/FindStr_chn_7.03.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/findstr/FindStr_chn_7.03.zip",
             "hash": "46b5578d3c3986b1feac8b0be928ef50009f1326344f8f86d29ce172b773d649"
         }
     },

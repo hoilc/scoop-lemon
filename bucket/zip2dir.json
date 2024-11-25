@@ -5,7 +5,7 @@
     "license": "Friendware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/zip2dir/Zip2Dir_chn_3.02.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/zip2dir/Zip2Dir_chn_3.02.zip",
             "hash": "ddb04a1e1cc46798c7ab7d51d9344707063762b220d99166d2ff5331120cba9a"
         }
     },
@@ -22,13 +22,13 @@
         "ZIP2DIR.pwd"
     ],
     "checkver": {
-        "url": "https://scoop-lemon.4everland.store/zip2dir/latest.yml",
+        "url": "https://scoop-lemon.tari.xyz/hosted/zip2dir/latest.yml",
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://scoop-lemon.4everland.store/zip2dir/Zip2Dir_chn_$version.zip"
+                "url": "https://scoop-lemon.tari.xyz/hosted/zip2dir/Zip2Dir_chn_$version.zip"
             }
         }
     }

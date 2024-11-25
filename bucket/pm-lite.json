@@ -6,7 +6,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.4everland.store/pm-lite/PMLite-1.2.1_standalone.rar",
+            "url": "https://scoop-lemon.tari.xyz/hosted/pm-lite/PMLite-1.2.1_standalone.rar",
             "hash": "0860539a07495bd9919e64b6788a9005c03b25509fa5394530e711c867ebd819"
         }
     },
@@ -17,13 +17,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoop-lemon.4everland.store/pm-lite/latest.yml",
+        "url": "https://scoop-lemon.tari.xyz/hosted/pm-lite/latest.yml",
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://scoop-lemon.4everland.store/pm-lite/PMLite-$version_standalone.rar"
+                "url": "https://scoop-lemon.tari.xyz/hosted/pm-lite/PMLite-$version_standalone.rar"
             }
         }
     }

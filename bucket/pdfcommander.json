@@ -4,14 +4,14 @@
     "description": "PDFCommander是一款免费的PDF水印删除工具",
     "homepage": "https://www.52pojie.cn/thread-1943717-1-1.html",
     "license": "Freeware",
-    "url": "https://scoop-lemon.4everland.store/pdfcommander/PDFCommander-v1.20.7z",
+    "url": "https://scoop-lemon.tari.xyz/hosted/pdfcommander/PDFCommander-v1.20.7z",
     "hash": "7ff400d21d21d966cf9f7512bbeaf22e25556c99d3e0db93b578a03a5781d289",
     "bin": "PDFCommander.exe",
     "checkver": {
-        "url": "https://scoop-lemon.4everland.store/pdfcommander/latest.yml",
+        "url": "https://scoop-lemon.tari.xyz/hosted/pdfcommander/latest.yml",
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://scoop-lemon.4everland.store/pdfcommander/PDFCommander-v$version.7z"
+        "url": "https://scoop-lemon.tari.xyz/hosted/pdfcommander/PDFCommander-v$version.7z"
     }
 }
