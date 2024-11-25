@@ -1,20 +1,21 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "A command-line tool to play songs in the terminal.",
     "homepage": "https://github.com/PrajwalVandana/maestro-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PrajwalVandana/maestro-cli/releases/download/2.0.4/maestro-windows.zip",
-            "hash": "dd59f125365adf65726fee35be16307e2013786152460c0ef4a9cfaf1cb33cc5"
+            "url": "https://github.com/PrajwalVandana/maestro-cli/releases/download/2.0.5/maestro-installer.exe#/dl.7z",
+            "hash": "99ee02ffa62f393b6cf7ae5680f4dd07aafda54aa2dcc07b5eb3276750315664"
         }
     },
+    "extract_dir": "$PROGRAMFILES64\\maestro-bundle",
     "bin": "maestro.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PrajwalVandana/maestro-cli/releases/download/$version/maestro-windows.zip"
+                "url": "https://github.com/PrajwalVandana/maestro-cli/releases/download/$version/maestro-installer.exe#/dl.7z"
             }
         }
     }
