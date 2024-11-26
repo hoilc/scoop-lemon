@@ -1,12 +1,12 @@
 {
-    "version": "194.2",
+    "version": "194.3",
     "description": "Faster-Whisper standalone executables with additional features.",
     "homepage": "https://github.com/Purfview/whisper-standalone-win",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Purfview/whisper-standalone-win/releases/download/Faster-Whisper-XXL/Faster-Whisper-XXL_r194.2_windows.7z",
-            "hash": "b865a558fcbae989975c35bb6c93d4f898a073a273783b24d600992e53024e85"
+            "url": "https://github.com/Purfview/whisper-standalone-win/releases/download/Faster-Whisper-XXL/Faster-Whisper-XXL_r194.3_windows.7z",
+            "hash": "60baf9dbef1cb57e63b71533007598cccce63cf256a61fc93955c7b04fd61392"
         }
     },
     "extract_dir": "Faster-Whisper-XXL",
