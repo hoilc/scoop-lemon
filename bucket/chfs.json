@@ -25,6 +25,7 @@
             ]
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'chfs-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'chfs.exe'",
     "bin": "chfs.exe",
     "checkver": {
         "regex": "chfs-windows-x64-([\\d.]+).zip"
