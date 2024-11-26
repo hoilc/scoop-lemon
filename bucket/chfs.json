@@ -6,22 +6,22 @@
     "architecture": {
         "64bit": {
             "url": [
-                "http://iscute.cn/tar/chfs/3.1/chfs-windows-x64-3.1.zip",
-                "http://iscute.cn/asset/chfs.ini"
+                "https://scoop-lemon.tari.xyz/hosted/chfs/chfs-windows-x64-3.1.zip",
+                "https://scoop-lemon.tari.xyz/hosted/chfs/chfs_v3.1.ini#/chfs.ini"
             ],
             "hash": [
-                "aa105ca307f74195a9d2364e415f3824738944bf3c8ddacc5be9d1e56702ef22",
-                "7bf21742ee875853d20d4a2ecea325060f0d262263248aab2bd5e88d0d495696"
+                "252fd34b162bc92ab6a1d2f193831b0693efe8c22bc56bdf73e709ed05f1744a",
+                "11a2e3a6248e3486e4a14d9c53a85cb3e50798294682f8161328675c8c53636e"
             ]
         },
         "32bit": {
             "url": [
-                "http://iscute.cn/tar/chfs/3.1/chfs-windows-x86-3.1.zip",
-                "http://iscute.cn/asset/chfs.ini"
+                "https://scoop-lemon.tari.xyz/hosted/chfs/chfs-windows-x86-3.1.zip",
+                "https://scoop-lemon.tari.xyz/hosted/chfs/chfs_v3.1.ini#/chfs.ini"
             ],
             "hash": [
-                "a2dd1480bc7a3276a84c0583dcd799ae2c0d903398293a228e6babd956823228",
-                "7bf21742ee875853d20d4a2ecea325060f0d262263248aab2bd5e88d0d495696"
+                "7aefd42c6e1e3c5970dfe4e0bc3793e88535b0876bba3cad9c67e801c1518cfc",
+                "11a2e3a6248e3486e4a14d9c53a85cb3e50798294682f8161328675c8c53636e"
             ]
         }
     },
