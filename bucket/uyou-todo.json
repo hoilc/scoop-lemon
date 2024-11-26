@@ -1,16 +1,16 @@
 {
-    "version": "3.0.3",
+    "version": "3.1.0",
     "description": "A todo list with electron.",
     "homepage": "https://github.com/tonylu110/uyou-todo-electron",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.0.3/uyou.ToDo-3.0.3-x64.zip",
-            "hash": "abf53d21f5f688a866ecfb900e1c689e5eee9f11a617d093d943299b7ce1aaac"
+            "url": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.0/uyou.ToDo-3.1.0-x64.zip",
+            "hash": "fa585410754e51fe25b8117195fa5c4237de19d7cd466a983bc818d4d6b33b33"
         },
         "arm64": {
-            "url": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.0.3/uyou.ToDo-3.0.3-arm64.zip",
-            "hash": "5a940f7bc5b10612b3890984a92b88486c2bdab5a21e942d9733baa0e7844d3b"
+            "url": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.0/uyou.ToDo-3.1.0-arm64.zip",
+            "hash": "06103f815210b75ff7ac2f60c55b9910fb8c13aa0553a8f7e0f16e525a1295a3"
         }
     },
     "post_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
