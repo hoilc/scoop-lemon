@@ -1,16 +1,16 @@
 {
-    "version": "217",
+    "version": "218",
     "description": "(Nightly Build) A commandline downloader for Bilibili.",
     "homepage": "https://github.com/nilaoda/BBDown",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/11995397156/BBDown_win-x64.zip",
-            "hash": "118c4559d9fce1c4e0c43be3ea5a3938d96b0fa9bc51d8657672b8d8650662fe"
+            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/12056393812/BBDown_win-x64.zip",
+            "hash": "d75c9efe8446a10ead6aeb0d89533b2c7531f3d69d3571600d0a9407c2ac787a"
         },
         "arm64": {
-            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/11995397156/BBDown_win-arm64.zip",
-            "hash": "fc44532113d7c8a04cdaa992457ffef093b612ae2d0e8f03e3d096c17554276f"
+            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/12056393812/BBDown_win-arm64.zip",
+            "hash": "97e9939c18d2f35091f4dc72ee2152dfa8ee86ddeaf4c829b68eb62b4f8edbd2"
         }
     },
     "bin": "BBDown.exe",
