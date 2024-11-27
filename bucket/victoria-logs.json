@@ -13,6 +13,11 @@
     "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
     "persist": "victoria-logs-data",
     "notes": "Example: victoria-logs.exe -storageDataPath=$dir\\victoria-logs-data\\",
+    "suggest": {
+        "vlogsqcli": [
+            "vlogsqcli"
+        ]
+    },
     "checkver": {
         "url": "https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml",
         "regex": "appVersion: v([\\d.]+)"

@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "description": "An interactive command-line tool for querying VictoriaLogs.",
+    "homepage": "https://docs.victoriametrics.com/victorialogs/querying/vlogscli/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.0.0-victorialogs/vlogscli-windows-amd64-v1.0.0-victorialogs.zip",
+            "hash": "ca33adf8ae8eda23a3742c818e56d37fd8145465ba2f43efe897c84a86eba892"
+        }
+    },
+    "bin": "vlogscli.exe",
+    "pre_install": "Get-ChildItem \"$dir\" 'vlogscli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'vlogscli.exe'",
+    "checkver": {
+        "url": "https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml",
+        "regex": "appVersion: v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v$version-victorialogs/vlogscli-windows-amd64-v$version-victorialogs.zip",
+                "hash": {
+                    "url": "$baseurl/vlogscli-windows-amd64-v$version-victorialogs_checksums.txt"
+                }
+            }
+        }
+    }
+}
