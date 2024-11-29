@@ -13,6 +13,7 @@
             "hash": "97e9939c18d2f35091f4dc72ee2152dfa8ee86ddeaf4c829b68eb62b4f8edbd2"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'BBDown_*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
     "bin": "BBDown.exe",
     "suggest": {
         "ffmpeg": "ffmpeg"
