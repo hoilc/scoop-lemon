@@ -1,16 +1,16 @@
 {
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "An open source, community-driven fork of Vault managed by the Linux Foundation.",
     "homepage": "https://openbao.org",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openbao/openbao/releases/download/v2.0.3/bao_2.0.3_Windows_x86_64.zip",
-            "hash": "c56643b2ea907549b683614161a8d4bd62c853e505ca30c4dd02f87d4802e40e"
+            "url": "https://github.com/openbao/openbao/releases/download/v2.1.0/bao_2.1.0_Windows_x86_64.zip",
+            "hash": "b99c215ac2c3d42f704deed214ec9b48cd455831cad48a1346ad44803dee6534"
         },
         "arm64": {
-            "url": "https://github.com/openbao/openbao/releases/download/v2.0.3/bao_2.0.3_Windows_arm64.zip",
-            "hash": "3cc37bf91d3e8e0ef23b48c476241a9fc0982da1cab4fc1eed75775cf99ff81c"
+            "url": "https://github.com/openbao/openbao/releases/download/v2.1.0/bao_2.1.0_Windows_arm64.zip",
+            "hash": "37917588db30a51616d9812c81d6793c122726f4bf8f83dd3684ee33e4f17cfb"
         }
     },
     "bin": "bao.exe",
