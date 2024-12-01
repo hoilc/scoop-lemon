@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Maplespe/DWMBlurGlass/releases/download/$version/Release_x64.zip"
+                "url": "https://github.com/Maplespe/DWMBlurGlass/releases/download/$version/DWMBlurGlass.$version_x64.zip"
             }
         }
     }
