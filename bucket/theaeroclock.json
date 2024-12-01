@@ -1,16 +1,16 @@
 {
-    "version": "8.66.5",
+    "version": "8.68",
     "description": "A simple but at the same time beautiful desktop clock with alpha transparency and different textures.",
     "homepage": "https://softwareok.com/?seite=Freeware/TheAeroClock",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/TheAeroClock_x64.zip",
-            "hash": "3744c9538ea10eba8fd0cb2ec779970178454bcf21775cce98170f18b2e14b76"
+            "hash": "bc2b89b4367e4497be7d8bb7084bb03aabe63d7a9be938448d0c2330c80aa6ad"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/TheAeroClock.zip",
-            "hash": "026f7387b37d0e077000b9ce951682d470ec6a85d318afea4fa89b3de827a341"
+            "hash": "4c0529dc5da0286184ca3da6fb451b8f02ad9facf45da602b19735c6edad9c86"
         }
     },
     "shortcuts": [
