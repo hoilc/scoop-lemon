@@ -1,12 +1,12 @@
 {
-    "version": "2.13.0",
+    "version": "2.13.1",
     "description": "B站录播姬命令行版（BiliBili Stream Recorder CLI），哔哩哔哩直播自动录制工具",
     "homepage": "https://rec.danmuji.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Bililive/BililiveRecorder/releases/download/v2.13.0/BililiveRecorder-CLI-win-x64.zip",
-            "hash": "7d3595700f98a7ad6323ec0dc9ed5fd1cf35a788952900bb2159ce210b6b712f"
+            "url": "https://github.com/Bililive/BililiveRecorder/releases/download/v2.13.1/BililiveRecorder-CLI-win-x64.zip",
+            "hash": "cf795e949fe3e3fdb303c651daa3bc31fe38149a83794179a2f3606a64c1e916"
         }
     },
     "extract_dir": "win-x64",
