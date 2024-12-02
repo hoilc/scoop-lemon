@@ -26,6 +26,9 @@
             "32bit": {
                 "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-windows-386.exe#/coscli.exe"
             }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.log"
         }
     }
 }
