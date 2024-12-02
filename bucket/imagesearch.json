@@ -1,12 +1,12 @@
 {
-    "version": "1.22",
+    "version": "1.25",
     "description": "本地硬盘千万级图库以图搜图",
     "homepage": "https://github.com/ldqk/ImageSearch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ldqk/ImageSearch/releases/download/1.22/ImageSearch_win_x64_1.22.exe#/ImageSearch.exe",
-            "hash": "9371f836efc1b009e95d5be63b7a9b9480f551c5ceda8ffdceb6f1bbbb39aa37"
+            "url": "https://github.com/ldqk/ImageSearch/releases/download/1.25/ImageSearch_win-x64_1.25.7z",
+            "hash": "2f690bdff628ee60110f3d6b952542c72c1ff1fea07cbcca55f9d18b8b338783"
         }
     },
     "shortcuts": [
@@ -15,7 +15,11 @@
             "ImageSearch"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\index.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\index.json\" -Value '{}' }",
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'ImageSearch_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ImageSearch.exe'",
+        "Get-ChildItem \"$dir\" '以图搜图*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ImageSearch.exe'",
+        "if (!(Test-Path \"$persist_dir\\index.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\index.json\" -Value '{}' }"
+    ],
     "persist": [
         "index.json",
         "logs"
@@ -24,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ldqk/ImageSearch/releases/download/$version/ImageSearch_x64_$version.exe#/ImageSearch.exe"
+                "url": "https://github.com/ldqk/ImageSearch/releases/download/$version/ImageSearch_win-x64_$version.7z"
             }
         }
     }
