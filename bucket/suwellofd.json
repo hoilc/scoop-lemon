@@ -1,10 +1,10 @@
 {
-    "version": "5.0.24.0620",
+    "version": "5.0.24.1114",
     "description": "数科OFD阅读器是一款OFD格式文件打开工具，支持OFD格式转换、OFD发票，OFD公文等",
     "homepage": "http://www.suwell.cn/product/",
     "license": "Freeware",
-    "url": "http://www.suwell.cn/Upload/File/202406/suwellofdapp-5.0.24.0620-setup_20240627135007_8992.exe#/dl.7z",
-    "hash": "8d97441d58b06d5c0cbf32bc74502a634846635e95c6bda00e138fe744c2d3a4",
+    "url": "http://www.suwell.cn/Upload/File/202411/suwellofdapp_5.0.24.1114_setup_20241115153324_7897.exe#/dl.7z",
+    "hash": "3c2791d07e382f46b1e73136d4363ad64351a129d36cf827fb73b90748dd3f82",
     "extract_dir": "suwellofdapp_pro",
     "shortcuts": [
         [
@@ -14,9 +14,9 @@
     ],
     "post_install": "Remove-Item \"$dir\\AppUpdate*\" -Force",
     "checkver": {
-        "regex": "/Upload/File/(?<date>\\d+)/suwellofdapp-([\\d.]+)-setup_(?<time>\\d+)_(?<build>\\d+).exe"
+        "regex": "/Upload/File/(?<date>\\d+)/suwellofdapp_([\\d.]+)_setup_(?<time>\\d+)_(?<build>\\d+).exe"
     },
     "autoupdate": {
-        "url": "http://www.suwell.cn/Upload/File/$matchDate/suwellofdapp-$version-setup_$matchTime_$matchBuild.exe#/dl.7z"
+        "url": "http://www.suwell.cn/Upload/File/$matchDate/suwellofdapp_$version_setup_$matchTime_$matchBuild.exe#/dl.7z"
     }
 }
