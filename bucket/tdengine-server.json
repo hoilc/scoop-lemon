@@ -16,15 +16,5 @@
         "udfd.exe"
     ],
     "persist": "cfg",
-    "checkver": {
-        "url": "https://docs.tdengine.com/assets/globalscripts/packages_v3.php?type=3",
-        "regex": "TDengine-client-([\\d.]+)-Windows-x64.exe"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://tdengine.com/assets-download/$majorVersion.0/TDengine-server-$version-Windows-x64.exe"
-            }
-        }
-    }
+    "notes": "The future version of the TDengine OSS server is no longer supported Windows."
 }
