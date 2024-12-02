@@ -1,16 +1,16 @@
 {
-    "version": "2.2.1",
+    "version": "2.4.0",
     "description": "A simple and beautiful screenshot software tool.",
-    "homepage": "https://github.com/XMuli/SunnyPages",
+    "homepage": "https://sunny.xmuli.tech",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/XMuli/SunnyPages/releases/download/v2.2.1/Sunny_protable_2.2.1_x64.zip",
-            "hash": "2914723070daf6490e6c0b0138f39b009cc7ad1f8b2bb3420eec9cd745ec3a4b"
+            "url": "https://sourceforge.net/projects/sunnypages/files/v2.4/sunny_protable_2.4.0_x64.zip",
+            "hash": "sha1:3449229c10bf3890a744f7dcc65bed705d960f51"
         },
         "32bit": {
-            "url": "https://github.com/XMuli/SunnyPages/releases/download/v2.2.1/Sunny_protable_2.2.1_x86.zip",
-            "hash": "8e1be06405aae9d076b9ef2f4b27bc04ba2b9723823d85c516ce56736e1d6b34"
+            "url": "https://sourceforge.net/projects/sunnypages/files/v2.4/sunny_protable_2.4.0_x86.zip",
+            "hash": "sha1:ebe2f955e886af82da21507bc13fcfc580c4f5fa"
         }
     },
     "shortcuts": [
@@ -20,14 +20,17 @@
         ]
     ],
     "persist": "xconfig.json",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/sunnypages/rss",
+        "regex": "/files/v(?<tag>[\\d.]+)/sunny_protable_([\\d.]+)_x64.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/XMuli/SunnyPages/releases/download/v$version/Sunny_protable_$version_x64.zip"
+                "url": "https://sourceforge.net/projects/sunnypages/files/v$matchTag/sunny_protable_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/XMuli/SunnyPages/releases/download/v$version/Sunny_protable_$version_x86.zip"
+                "url": "https://sourceforge.net/projects/sunnypages/files/v$matchTag/sunny_protable_$version_x86.zip"
             }
         }
     }
