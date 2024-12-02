@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "DWMBlurGlass adds custom effects to the global system title bar, supports Windows 10 and Windows 11.",
     "homepage": "https://github.com/Maplespe/DWMBlurGlass",
     "license": "LGPL-3.0-only|GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Maplespe/DWMBlurGlass/releases/download/2.2.0/Release_x64.zip",
-            "hash": "86763ddde432758376a354370c2cb99364ee0a2c81784aa87105aed95bba5fbe"
+            "url": "https://github.com/Maplespe/DWMBlurGlass/releases/download/2.3.0/DWMBlurGlass.2.3.0_x64.zip",
+            "hash": "b66e2fda0fb2310e7144a805e1eb22808da69cf2239a6a5e74e5d3e57d66aa43"
         }
     },
     "extract_dir": "Release",
