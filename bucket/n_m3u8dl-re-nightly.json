@@ -1,0 +1,35 @@
+{
+    "version": "237",
+    "description": "(Nightly Build) A modern and powerful stream downloader for MPD/M3U8/ISM.",
+    "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/12106696223/win-x64.zip",
+            "hash": "3dc72e596a26bc160f1fc442774e727d3689ed59fb74ebccfb2c9588662a557b"
+        },
+        "arm64": {
+            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/12106696223/win-arm64.zip",
+            "hash": "780aceb6ba655b264b63b406ed597ada9654cd4bfe473a557e7317fcbbc5f079"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'N_m3u8DL-RE_*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "bin": "N_m3u8DL-RE.exe",
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "checkver": {
+        "url": "https://github.com/nilaoda/N_m3u8DL-RE/actions?query=branch%3Amain+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/$matchRun/win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/$matchRun/win-arm64.zip"
+            }
+        }
+    }
+}
