@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.44.1/kbld-windows-amd64.exe#/kbld.exe",
             "hash": "2dd3a23b6d37c6d40b690390d7045bc3403c5e3660b6bd0472be4da19ece7c7a"
+        },
+        "arm64": {
+            "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.44.1/kbld-windows-arm64.exe#/kbld.exe",
+            "hash": "a45c1fd7274722596ae89c51f9a44cb66de56a57adca2df2985c66e48322cd86"
         }
     },
     "bin": "kbld.exe",
@@ -17,6 +21,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v$version/kbld-windows-amd64.exe#/kbld.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v$version/kbld-windows-arm64.exe#/kbld.exe"
             }
         },
         "hash": {
