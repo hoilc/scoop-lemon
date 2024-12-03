@@ -1,13 +1,13 @@
 {
-    "version": "2.3.1.0",
+    "version": "2.3.1.1",
     "description": "Extend the function of ASF (ArchiSteamFarm), add several practical commands",
     "homepage": "https://github.com/chr233/ASFEnhance",
     "license": "AGPL-3.0-only",
     "depends": "lemon/archisteamfarm",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chr233/ASFEnhance/releases/download/2.3.1.0/ASFEnhance.zip",
-            "hash": "3cdc77fa693fe4ecbfd0339ea48f842e78dd03954e238671f743495cdecfb7db"
+            "url": "https://github.com/chr233/ASFEnhance/releases/download/2.3.1.1/ASFEnhance.zip",
+            "hash": "8eb9d79c7eb4c73b72c842a132841466feada6694ac24970a10309eb338f5ff2"
         }
     },
     "installer": {
