@@ -1,16 +1,16 @@
 {
-    "version": "1.16.2",
+    "version": "1.16.3",
     "description": "Portable file server with accelerated resumable uploads, dedup, WebDAV, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file, no deps.",
     "homepage": "https://github.com/9001/copyparty",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/9001/copyparty/releases/download/v1.16.2/copyparty.exe",
-            "hash": "d0949291c6a8040b0384be74d6f18e1b3aaf19478e45d418ec5599465bb738b4"
+            "url": "https://github.com/9001/copyparty/releases/download/v1.16.3/copyparty.exe",
+            "hash": "f49e496eb1f15615879fe56adf39bb0e4950dd6ba73b7d007d298f7553c8a0fc"
         },
         "32bit": {
-            "url": "https://github.com/9001/copyparty/releases/download/v1.16.2/copyparty32.exe#/copyparty.exe",
-            "hash": "cade657a6b82cfb1b07588b7929de6e24af5e660418a5ac6e4bebaa725ca0285"
+            "url": "https://github.com/9001/copyparty/releases/download/v1.16.3/copyparty32.exe#/copyparty.exe",
+            "hash": "f1c0a73c61c1fe0bf4f58fbde57b4b3538261ce4329156c9099e563b95854699"
         }
     },
     "bin": "copyparty.exe",
