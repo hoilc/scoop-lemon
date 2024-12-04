@@ -1,0 +1,24 @@
+{
+    "version": "0.0.2",
+    "description": "A powerful command-line tool facilitates seamless interaction with the Harbor container registry.",
+    "homepage": "https://github.com/goharbor/harbor-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/goharbor/harbor-cli/releases/download/v0.0.2/harbor_0.0.2_windows_amd64.zip",
+            "hash": "ea7d97d1ca40cbb4445a83a121033ba418771f3e373c7f2553e56383b66a0b28"
+        }
+    },
+    "bin": "harbor.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/goharbor/harbor-cli/releases/download/v$version/harbor_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
