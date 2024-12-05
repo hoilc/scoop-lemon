@@ -1,12 +1,12 @@
 {
-    "version": "5.5.6",
+    "version": "6.0.0",
     "description": "A database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others.",
     "homepage": "https://dbgate.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dbgate/dbgate/releases/download/v5.5.6/dbgate-5.5.6-win_x64.zip",
-            "hash": "65afad3afc1fb3c9f2989a7b8d86ae3969cd9506a0ae3815c2c2e0af6b5ab3e1"
+            "url": "https://github.com/dbgate/dbgate/releases/download/v6.0.0/dbgate-6.0.0-win_x64.zip",
+            "hash": "0d2569e6d84ccbfdf85cf071dfe2c4c1db3156ace4fd2b3a2eb59db76ae6e82b"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
