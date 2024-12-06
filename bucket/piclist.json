@@ -5,14 +5,14 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6-x64.exe#/dl.7z",
+            "url": "https://release.piclist.cn/latest/PicList-Setup-2.9.6-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "sha512:385cc9d88654d48be62ac807da5984370365f4694b3f1006c456e985779a9f82a79662adc761a635f22ea25c2a650aeee7b0dabbbf796059438e3ba10f32d631"
+            "hash": "0ec0076ecdbca67713c9f25871e5ec5f3f8388d5895da87182849bfa5b634868"
         },
         "32bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6-ia32.exe#/dl.7z",
+            "url": "https://release.piclist.cn/latest/PicList-Setup-2.9.6-ia32.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "sha512:face434d4f0701e0889d3a22b76a2709dafa36d66186d4f3e02d6e66f5ac92e45d2e29d24afacd98e1d0432818f02eb07419d530c7319b33048e731bbcd30fdf"
+            "hash": "ddc13c62435df2796f194eecfe9f613b9ab3adab9862bc98315fed55059e6cf8"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
@@ -30,15 +30,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-x64.exe#/dl.7z"
+                "url": "https://release.piclist.cn/latest/PicList-Setup-$version-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-ia32.exe#/dl.7z"
+                "url": "https://release.piclist.cn/latest/PicList-Setup-$version-ia32.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "$basename\\s+sha512:\\s$base64"
         }
     }
 }
