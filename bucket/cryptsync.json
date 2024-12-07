@@ -1,16 +1,16 @@
 {
-    "version": "1.4.10",
+    "version": "1.4.11",
     "description": "A small utility that synchronizes two folders while encrypting the contents in one folder. That means one of the two folders has all files unencrypted (the files you work with) and the other folder has all the files encrypted.",
     "homepage": "https://tools.stefankueng.com/CryptSync.html",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stefankueng/CryptSync/releases/download/1.4.10/CryptSync64-1.4.10.msi",
-            "hash": "c0f2fbac7e17b1cb687523bd257d0dd7ff51acb40f308f0f6544c112e0bb75e7"
+            "url": "https://github.com/stefankueng/CryptSync/releases/download/1.4.11/CryptSync64-1.4.11.msi",
+            "hash": "167e4f2596b4d99e053fed53cac253c826d32462a0005f289964cbaf61366c72"
         },
         "32bit": {
-            "url": "https://github.com/stefankueng/CryptSync/releases/download/1.4.10/CryptSync-1.4.10.msi",
-            "hash": "9a439c7f692eb69732c1c57946414c3ed483483c661c9edf8102155ccde39c24"
+            "url": "https://github.com/stefankueng/CryptSync/releases/download/1.4.11/CryptSync-1.4.11.msi",
+            "hash": "3456a8accbff83de5a0503f34ece991b2925494125bf3350beab14e379e5fc2f"
         }
     },
     "extract_dir": "PFiles\\CryptSync",
