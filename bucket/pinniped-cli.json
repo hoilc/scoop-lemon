@@ -1,12 +1,12 @@
 {
-    "version": "0.35.0",
+    "version": "0.36.0",
     "description": "A command-line tool for Pinniped, an easy, secure way to log in to your Kubernetes clusters.",
     "homepage": "https://pinniped.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/pinniped/releases/download/v0.35.0/pinniped-cli-windows-amd64.exe#/pinniped.exe",
-            "hash": "84feebbe7694e249cec5209c783c66889369f6b4255edb3cd57e26a8a3ad6303"
+            "url": "https://github.com/vmware-tanzu/pinniped/releases/download/v0.36.0/pinniped-cli-windows-amd64.exe#/pinniped.exe",
+            "hash": "6af0f4bff6cf4625a5a796216146bb5e98713d8c2e539ce17a4ffc60f5ee6198"
         }
     },
     "bin": "pinniped.exe",
