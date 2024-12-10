@@ -1,5 +1,5 @@
 {
-    "version": "20241209",
+    "version": "20241210",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "Proprietary",
@@ -13,8 +13,8 @@
             ],
             "hash": [
                 "e41858eed4624062403ea7fd0e587a1cbad8495831c63374dcf78b3072e9136c",
-                "cb1a2101e139eea83d8a37af405d179c8c72e39ebf6449d4a30b621ebad30f35",
-                "96b19e54b4274fa5443814ab366525a913288619ced4fb3075428e2db5b2c485",
+                "9588847ecd3228e0bf1f19f6a316f3d2ac3fb2cf7b66c5c98781408fa7403848",
+                "09657e07d81380f99f7057196829ed3126e0b7c7db351eb12b5b283a9b4656f3",
                 "05aed6945aa4ba599addea1c83c7a01653e37e4aef836d4cc91e27110cc4f383"
             ]
         }
