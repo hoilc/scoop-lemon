@@ -1,0 +1,30 @@
+{
+    "version": "1.6.2024.1111",
+    "description": "Wim文件的图形视窗处理工具",
+    "homepage": "http://bbs.wuyou.net/forum.php?mod=viewthread&tid=106907",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/WimTool%20-%20V1.6.2024.1111.rar",
+    "hash": "d40234922b05f59db31c1ea35eb7f279e7b2fb1c3d5dffe2c830ab472edce9e5",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "WimTool\\x64"
+        },
+        "32bit": {
+            "extract_dir": "WimTool\\x86"
+        }
+    },
+    "bin": "WimTool.exe",
+    "shortcuts": [
+        [
+            "WimTool.exe",
+            "WimTool"
+        ]
+    ],
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/wimtool/WimTool%20-%20V$version.rar"
+    }
+}
