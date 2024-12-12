@@ -1,12 +1,12 @@
 {
-    "version": "0.13.46",
+    "version": "0.13.47",
     "description": "An automation platform for Kubernetes development and testing..",
     "homepage": "https://garden.io/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/garden-io/garden/releases/download/0.13.46/garden-0.13.46-windows-amd64.zip",
-            "hash": "8c58ea9bbfbc5015f715122e81d32fae029ec178e21f91986cccdd8f8754d9d0"
+            "url": "https://github.com/garden-io/garden/releases/download/0.13.47/garden-0.13.47-windows-amd64.zip",
+            "hash": "9c6cf35ab79189da4fd23f5ff742a14211c609ce77c0f9d24988593c0e1a077a"
         }
     },
     "extract_dir": "windows-amd64",
