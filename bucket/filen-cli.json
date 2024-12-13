@@ -1,0 +1,23 @@
+{
+    "version": "0.0.24",
+    "description": "A headless command line interface client to directly access and manage your data in Filen.",
+    "homepage": "https://filen.io/products/cli",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/FilenCloudDienste/filen-cli/releases/download/v0.0.24/filen-cli-v0.0.24-win-x64.exe#/filen.exe",
+            "hash": "4872644a98e1edb26805be58281e1f7512d4b35b7a4534998a1890d063a5c040"
+        }
+    },
+    "bin": "filen.exe",
+    "checkver": {
+        "github": "https://github.com/FilenCloudDienste/filen-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/FilenCloudDienste/filen-cli/releases/download/v$version/filen-cli-v$version-win-x64.exe#/filen.exe"
+            }
+        }
+    }
+}
