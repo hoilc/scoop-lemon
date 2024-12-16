@@ -1,12 +1,12 @@
 {
-    "version": "3.1.5",
+    "version": "3.1.6",
     "description": "用于访问和管理火山引擎对象存储（TOS）的命令行工具",
     "homepage": "https://www.volcengine.com/docs/6349/148775",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://tos-tools.tos-cn-beijing.volces.com/windows/tosutil#/tosutil.exe",
-            "hash": "2388da0ab4135bd5623e48f4a7405a5232c0a790b94764e469d85ac53407fad4"
+            "hash": "15983ae18506d373fe8656fe3a272b4be9584c1fd1ea0cc9016a2bf5ee766750"
         }
     },
     "bin": "tosutil.exe",
