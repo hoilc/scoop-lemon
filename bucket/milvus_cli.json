@@ -1,12 +1,12 @@
 {
-    "version": "0.4.2",
+    "version": "1.0.1",
     "description": "Milvus Command Line Interface based on Milvus Python SDK.",
     "homepage": "https://github.com/zilliztech/milvus_cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zilliztech/milvus_cli/releases/download/v0.4.2/milvus_cli.exe",
-            "hash": "4f008f177f546e64063aa3eaf30ca969f0fffd707bd966d10030f838be95560a"
+            "url": "https://github.com/zilliztech/milvus_cli/releases/download/v1.0.1/milvus_cli.exe",
+            "hash": "2965b390e359a657af8c1373ba0e01b9ad54f0b3499cde6d14f2153b41c6558a"
         }
     },
     "bin": "milvus_cli.exe",
