@@ -1,0 +1,41 @@
+{
+    "version": "1.9.3",
+    "description": "TOS Browser 是火山引擎对象存储 TOS 提供的图形化管理工具",
+    "homepage": "https://www.volcengine.com/docs/6349/148776",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12250224/1.9.3/win32-x64/TOS_Browser_Public-v1.9.3-win32-x64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "2fdcdd059b065f0fe4acf61b1c7eb71c993624b8eb267d1475cb235815a50e48"
+        },
+        "32bit": {
+            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12250224/1.9.3/win32-ia32/TOS_Browser_Public-v1.9.3-win32-ia32.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+            "hash": "241107fa3df38167004f0643fb8e506f920dd84a6d0a2b1af5875bc22738a200"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "TOS Browser.exe",
+            "TOS Browser",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://tron.jiyunhudong.com/api/sdk/check_update?pid=7122772962347849988&uid=0000495fe6a582d43f8a8f9fd2a618a806b08e005e5c6fede5d554e96cfb1111&branch=master&buildId=12250000&sdkVersion=1.2.0",
+        "regex": "/releases/(?<build>\\d+)/([\\d.]+)/win32-x64/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/$matchBuild/$version/win32-x64/TOS_Browser_Public-v$version-win32-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/$matchBuild/$version/win32-ia32/TOS_Browser_Public-v$version-win32-ia32.exe#/dl.7z"
+            }
+        }
+    }
+}
