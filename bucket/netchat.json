@@ -1,5 +1,5 @@
 {
-    "version": "7.14",
+    "version": "7.15",
     "description": "Chat with other users in the same subnet.",
     "homepage": "https://www.the-sz.com/products/netchat/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/netchat/NetChat.zip",
-    "hash": "193af6139ead404a1c920f2cad8bdde6332c03ca6cb31e469444256e00d4af7b",
+    "hash": "462d4ea991a257fc6b8b448cac0aa45e1391337b21d3d19c0cb0577bc7ea5fd1",
     "bin": "NetChat.exe",
     "shortcuts": [
         [
