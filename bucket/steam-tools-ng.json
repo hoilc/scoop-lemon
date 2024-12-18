@@ -1,0 +1,30 @@
+{
+    "version": "4.0",
+    "description": "Some useful tools to use with steam client or compatible programs and websites.",
+    "homepage": "https://github.com/calendulish/steam-tools-ng",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/calendulish/steam-tools-ng/releases/download/v4.0/steam-tools-ng-WIN64-Python-3.12.zip",
+            "extract_dir": "steam-tools-ng-WIN64-Python-3.12",
+            "hash": "a51570be3694f705f77cc0d0f1c2cca87073b6a087abd8b1bf559481a1d6b5de"
+        }
+    },
+    "bin": "steam-tools-ng.exe",
+    "shortcuts": [
+        [
+            "steam-tools-ng-gui.exe",
+            "Steam Tools NG"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\lib\\steam_tools_ng\\portable_mode.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\lib\\steam_tools_ng\\portable_mode.txt\" -Value $null }",
+    "persist": "lib\\steam_tools_ng\\config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/calendulish/steam-tools-ng/releases/download/v$version/steam-tools-ng-WIN64-Python-3.12.zip"
+            }
+        }
+    }
+}
