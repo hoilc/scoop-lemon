@@ -1,16 +1,16 @@
 {
-    "version": "6.0.1-beta.5",
+    "version": "6.0.1-beta.6",
     "description": "(BETA version) A database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others.",
     "homepage": "https://dbgate.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dbgate/dbgate/releases/download/v6.0.1-beta.5/dbgate-6.0.1-beta.5-win_x64.zip",
-            "hash": "e043a277cf360ec6a17c4ff5fa23fbd8e5ca8c4159d0b375b1872074723c962b"
+            "url": "https://github.com/dbgate/dbgate/releases/download/v6.0.1-beta.6/dbgate-6.0.1-beta.6-win_x64.zip",
+            "hash": "3177eeff9dda7e3e849e3bdb01bec4e8770a59bd0ee8ff5a0181460d1e9a1fe2"
         },
         "arm64": {
-            "url": "https://github.com/dbgate/dbgate/releases/download/v6.0.1-beta.5/dbgate-6.0.1-beta.5-win_arm64.zip",
-            "hash": "9238076d311dc6c734a7bdc167f0390f9a3e1903a3855833d41e10efedfd5e7e"
+            "url": "https://github.com/dbgate/dbgate/releases/download/v6.0.1-beta.6/dbgate-6.0.1-beta.6-win_arm64.zip",
+            "hash": "6ebaa2a1cfff645c16f9138d86507b727f8bbfcef9424a3186d5d12d667a9349"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
