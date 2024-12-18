@@ -12,7 +12,7 @@
     },
     "bin": [
         "dwarfs.exe",
-        "dwarfsbench.exe",
+        "pxattr.exe",
         "dwarfsck.exe",
         "dwarfsextract.exe",
         "mkdwarfs.exe"
