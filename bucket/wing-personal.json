@@ -1,14 +1,14 @@
 {
-    "version": "10.0.7.0",
+    "version": "10.0.8.0",
     "description": "A free Python IDE designed for students and hobbyists, that omits many features found in Wing Pro.",
     "homepage": "https://wingware.com/downloads/wing-personal",
     "license": {
         "identifier": "Freweware",
         "url": "https://wingware.com/license/wingper"
     },
-    "url": "https://wingware.com/pub/wing-personal/10.0.7.0/wing-personal-10.0.7.0-win.zip",
-    "hash": "aef8e95f198367252666ed2e5bbbe51fff1ea7f68810ef55ad9b703e37e3bb6f",
-    "extract_dir": "Wing Personal 10.0.7",
+    "url": "https://wingware.com/pub/wing-personal/10.0.8.0/wing-personal-10.0.8.0-win.zip",
+    "hash": "35ef913546bf2dd27f4d9d681363efac072858bba6631870511b13de1f6a1fed",
+    "extract_dir": "Wing Personal 10.0.8",
     "bin": "bin\\wing-personal.exe",
     "shortcuts": [
         [
