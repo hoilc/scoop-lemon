@@ -15,15 +15,15 @@
     },
     "bin": [
         [
-            "main.exe",
+            "whisper-cli.exe",
             "whisper-cpp"
         ],
         [
-            "bench.exe",
+            "whisper-bench.exe",
             "whisper-cpp-bench"
         ],
         [
-            "command.exe",
+            "whisper-command.exe",
             "whisper-cpp-command"
         ],
         [
@@ -31,12 +31,16 @@
             "whisper-cpp-quantize"
         ],
         [
-            "server.exe",
+            "whisper-server.exe",
             "whisper-cpp-server"
         ],
         [
-            "stream.exe",
+            "whisper-stream.exe",
             "whisper-cpp-stream"
+        ],
+        [
+            "whisper-talk-llama.exe",
+            "whisper-cpp-talk-llama"
         ]
     ],
     "checkver": {
