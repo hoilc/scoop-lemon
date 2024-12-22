@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
             "hash": "28d0d85ea7ad28d4c6759667bcb2782626565a19ffade307dd064fe8313b0815"
         }
     },
