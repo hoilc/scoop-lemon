@@ -11,8 +11,8 @@
     },
     "bin": "tosutil.exe",
     "checkver": {
-        "url": "https://www.volcengine.com/docs/6349/152742",
-        "regex": "<p>更新说明</p>.*?<p>([\\d.]+)</p>"
+        "url": "https://raw.githubusercontent.com/hoilc/winget-pkg-versions/main/manifests/b/ByteDance.tosutil.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
