@@ -1,16 +1,16 @@
 {
-    "version": "4.12.1",
+    "version": "4.12.2",
     "description": "猫眼浏览器是一款以简约安全为目标Chrome内核增强版浏览器",
     "homepage": "https://www.catsxp.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_132_4_12_1.zip",
-            "hash": "d1399bd77b7b12eaaa8d8de551d9586a853906b07b6800af6ae25f41349052d8"
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x64/portable_x64_release_132_4_12_2.zip",
+            "hash": "1aa2d1f6ff339337ea2226f5007e6e99df5f4a5da1dbe7f6c7082395308b044d"
         },
         "32bit": {
-            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_132_4_12_1.zip",
-            "hash": "bf1ba194a9aa1b2393ab510d094f090e58d52abfacb058944db76afcc3c258b3"
+            "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x86/portable_x86_release_132_4_12_2.zip",
+            "hash": "03549682a1cd3494f2a0736ee3a69320942c84238a071a3631d35165ddfb817a"
         }
     },
     "shortcuts": [
@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "regex": "(?sm)<li>(?:版本|Ver)：([\\d.]+)</li>\\s*<li>(?:内核|Kernel)：(?<kernelmajor>\\d+)[\\d.]+</li>"
+        "regex": "(?sm)<li>(?:版本|Ver)[：:] ?([\\d.]+)</li>\\s*<li>(?:内核|Kernel)[：:] ?(?<kernelmajor>\\d+)[\\d.]+</li>"
     },
     "persist": [
         "User Data",
@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x64/portable_x64_release_$matchKernelmajor_$underscoreVersion.zip"
+                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x64/portable_x64_release_$matchKernelmajor_$underscoreVersion.zip"
             },
             "32bit": {
-                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/x86/portable_x86_release_$matchKernelmajor_$underscoreVersion.zip"
+                "url": "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x86/portable_x86_release_$matchKernelmajor_$underscoreVersion.zip"
             }
         }
     }
