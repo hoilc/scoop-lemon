@@ -1,7 +1,7 @@
 {
     "version": "1.40",
     "description": "MouseGestureL.ahk is a general-purpose mouse gesture software.",
-    "homepage": "https://hp.vector.co.jp/authors/VA018351/en/mglahk.html",
+    "homepage": "http://pyonkichi.g1.xrea.com/mglahk.html",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
