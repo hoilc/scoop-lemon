@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "A lightweight proxy for capturing HTTP(S) and WS(S) traffic.",
     "homepage": "https://github.com/sigoden/proxyfor",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/proxyfor/releases/download/v0.4.0/proxyfor-v0.4.0-x86_64-pc-windows-msvc.zip",
-            "hash": "6b6f1582ec7535438ca80dd1c363e8d2de35fee2840b6a943cd33da3496e84e1"
+            "url": "https://github.com/sigoden/proxyfor/releases/download/v0.5.0/proxyfor-v0.5.0-x86_64-pc-windows-msvc.zip",
+            "hash": "0bdff7fd23db97feebace190031a1c6006f514450c44015ff4337b0f1517b88f"
         },
         "arm64": {
-            "url": "https://github.com/sigoden/proxyfor/releases/download/v0.4.0/proxyfor-v0.4.0-aarch64-pc-windows-msvc.zip",
-            "hash": "6167ad80a0d864864406c5696c0968429ac2773e5e87c3bb849884d8f506af23"
+            "url": "https://github.com/sigoden/proxyfor/releases/download/v0.5.0/proxyfor-v0.5.0-aarch64-pc-windows-msvc.zip",
+            "hash": "53b7d9e4402acf1d055ac5a6b98e3ef6f57e3a83393c9004feb6fc7f844ae4af"
         }
     },
     "bin": "proxyfor.exe",
