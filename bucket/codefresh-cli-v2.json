@@ -1,12 +1,12 @@
 {
-    "version": "0.1.68",
+    "version": "0.1.69",
     "description": "The new Codefresh (GitOps) CLI tool.",
     "homepage": "https://codefresh.io/docs/docs/installation/gitops/upgrade-gitops-cli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/codefresh-io/cli-v2/releases/download/v0.1.68/cf-windows-amd64.tar.gz",
-            "hash": "be9d82747bc7d1bb3d435acf5511ab31063778350229676cb77e2277d272d330"
+            "url": "https://github.com/codefresh-io/cli-v2/releases/download/v0.1.69/cf-windows-amd64.tar.gz",
+            "hash": "e493eb746157c89b7e9ce98bc7be7acd78433a38734fa320b57cb9811128af23"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'cf-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'cf.exe'",
