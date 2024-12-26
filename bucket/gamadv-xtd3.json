@@ -1,12 +1,12 @@
 {
-    "version": "7.02.03",
+    "version": "7.02.04",
     "description": "A free, open source command line tool for Google Workspace (formerly G Suite) Administrators to manage domain and user settings quickly and easily.",
     "homepage": "https://github.com/taers232c/GAMADV-XTD3",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/taers232c/GAMADV-XTD3/releases/download/v7.02.03/gamadv-xtd3-7.02.03-windows-x86_64.zip",
-            "hash": "b44ad4ab77126c6862e92ff1193ba01074f882ab8b92894285ad26f5901ebf1e"
+            "url": "https://github.com/taers232c/GAMADV-XTD3/releases/download/v7.02.04/gamadv-xtd3-7.02.04-windows-x86_64.zip",
+            "hash": "7dbfaa586865a8d64dacce0fe7325c577173453d612f226bb349a3dbc6287c6d"
         }
     },
     "extract_dir": "gamadv-xtd3",
