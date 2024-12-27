@@ -1,16 +1,16 @@
 {
-    "version": "0.32.0",
+    "version": "0.32.1",
     "description": "Manage your kubeconfig more easily.",
     "homepage": "https://kubecm.cloud/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Windows_x86_64.tar.gz",
-            "hash": "dd46f7dbafae21b08b55034d034a12b95e04acf047dba7dc645b7ca6b4cfead0"
+            "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Windows_x86_64.tar.gz",
+            "hash": "f91e3e150b840480c0ba523ae499eddfd56adb67de5bdf6e9be12658b7180ca8"
         },
         "32bit": {
-            "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Windows_i386.tar.gz",
-            "hash": "1f4987b5bff5c2964bbd1747128e754731203b878b00bcd65e305e88e805eb04"
+            "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Windows_i386.tar.gz",
+            "hash": "82d06caaec36d0e2b84e73ee8b92705347a0665091be8b3bf6d4756a162d5bb9"
         }
     },
     "bin": "kubecm.exe",
