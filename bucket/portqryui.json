@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "description": "The user interface for the PortQry command line port scanner.",
+    "homepage": "https://www.microsoft.com/en-us/download/details.aspx?id=24009",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.microsoft.com/download/3/f/4/3f4c6a54-65f0-4164-bdec-a3411ba24d3a/portqryui.exe#/dl.7z",
+            "hash": "d462dd1ad77b37e9e681f9a779550b3918af4925ec6f3d0014e6880b69b98126"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'PORTQR*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "shortcuts": [
+        [
+            "portqueryui.exe",
+            "Port Query UI"
+        ]
+    ],
+    "persist": "config.xml"
+}
