@@ -1,12 +1,12 @@
 {
-    "version": "2.6.31",
+    "version": "2.6.32",
     "description": "Team IDE 团队在线开发工具， 集成SSH、FTP、MySql、Redis、Zookeeper、Kafka、Elasticsearch等管理工具",
     "homepage": "https://github.com/team-ide/teamide",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/team-ide/teamide/releases/download/v2.6.31/TeamIDE-win-2.6.31.zip",
-            "hash": "b93fb40d62a95cae5fa8cd25d514d48afd4650026b80dfc7ba74a7ed4227f9b4"
+            "url": "https://github.com/team-ide/teamide/releases/download/v2.6.32/TeamIDE-win-2.6.32.zip",
+            "hash": "9609f51e510e596ce21c0abc06e64a916a4f1c295da394e0b71a9d6262ba7345"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
