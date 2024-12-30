@@ -1,10 +1,10 @@
 {
-    "version": "2.1.10",
+    "version": "2.1.11",
     "description": "A piece of full-featured PDF management software.",
     "homepage": "https://www.pdfgear.com/",
     "license": "Freeware",
-    "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.10.exe",
-    "hash": "3bdcffe8dc24ac44a4cec1326e64f42aacc3a888804044eb20b007c36c7f861b",
+    "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.11.exe",
+    "hash": "a4713bce8eea1dab744939629487b19b0f25b4ae360eacbaaa2d2d323876ee05",
     "innosetup": true,
     "shortcuts": [
         [
