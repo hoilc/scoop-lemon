@@ -1,10 +1,10 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "简体中文终端更纱黑体+Nerd图标字体库，中英文宽度2:1，图标长宽经过调整，不会出现对齐问题，适合作为终端字体",
     "homepage": "https://github.com/laishulu/Sarasa-Term-SC-Nerd",
     "license": "OFL-1.1",
-    "url": "https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases/download/v2.3.0/SarasaTermSCNerd.ttf.7z",
-    "hash": "c6f59523ab21211f0375393fa4b01af7a9e08dc077828554dbf1bc829fe2b244",
+    "url": "https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases/download/v2.3.1/SarasaTermSCNerd.ttf.7z",
+    "hash": "44483b749ed826111c150e37f92209927709bb53ec5021129701cc7d97eda0a9",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases/download/v$version/SarasaTermSCNerd.ttf.7z"
