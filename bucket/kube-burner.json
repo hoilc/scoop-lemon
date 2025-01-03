@@ -1,16 +1,16 @@
 {
-    "version": "1.12.0",
+    "version": "1.12.1",
     "description": "A Kubernetes performance and scale test orchestration framework written in golang.",
     "homepage": "https://cloud-bulldozer.github.io/kube-burner/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloud-bulldozer/kube-burner/releases/download/v1.12.0/kube-burner-V1.12.0-windows-x86_64.zip",
-            "hash": "851df5ed3e5445783de62f39e0be8b2966510bf2b50a2d063fa17384124a6bed"
+            "url": "https://github.com/cloud-bulldozer/kube-burner/releases/download/v1.12.1/kube-burner-V1.12.1-windows-x86_64.zip",
+            "hash": "3f8dd462b4e9b33207a134b0d53980eef51cc98a10658d63a317e055adbef963"
         },
         "arm64": {
-            "url": "https://github.com/cloud-bulldozer/kube-burner/releases/download/v1.12.0/kube-burner-V1.12.0-windows-arm64.zip",
-            "hash": "aee55df1ef90d019a0a9e753738dd1b39eebac58740ade996cc1c6310ccb22dd"
+            "url": "https://github.com/cloud-bulldozer/kube-burner/releases/download/v1.12.1/kube-burner-V1.12.1-windows-arm64.zip",
+            "hash": "9a7c449efc8d0482ded81715132e401c3f38ace4322ae09268a5eb682dd004aa"
         }
     },
     "bin": "kube-burner.exe",
