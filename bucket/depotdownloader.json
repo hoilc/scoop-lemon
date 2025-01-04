@@ -1,5 +1,5 @@
 {
-    "version": "2.7.4",
+    "version": "3.0.0",
     "description": "A Steam depot downloader utilizing the SteamKit2 library.",
     "homepage": "https://github.com/SteamRE/DepotDownloader",
     "license": "GPL-2.0-only",
