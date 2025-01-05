@@ -1,5 +1,5 @@
 {
-    "version": "1.20",
+    "version": "1.21",
     "description": "A viewer that shows all Services, Characteristics & Descriptors and their details of Bluetooth Low Energy / BLE / Bluetooth Smart devices.",
     "homepage": "https://www.the-sz.com/products/bedford/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/bedford/Bedford.zip",
-    "hash": "a5ac2d4ccd6fc01ca4c49a62490fe5d8a9f7bd969313f40ded922618f0265f1b",
+    "hash": "35ab8aa195c25e9ca8f6b9a5e9b261d7be225f3fd29693cef940c37bd3748175",
     "bin": "Bedford.exe",
     "shortcuts": [
         [
