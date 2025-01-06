@@ -1,12 +1,12 @@
 {
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "A simple, top-down game in which mazes are randomly generated using one of a choice of several different algorithms.",
     "homepage": "https://gottcode.org/cutemaze/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/cutemaze/CuteMaze_1.3.3.zip",
-            "hash": "23477f6eb026853d707bf95a170d380925ae032c31b1155d5c33557513af6e7c"
+            "url": "https://gottcode.org/cutemaze/CuteMaze_1.3.4.zip",
+            "hash": "451bb211dffca638b651b8e3f0f6e7eebf2551caa554f855822c31d367955ad6"
         }
     },
     "shortcuts": [
