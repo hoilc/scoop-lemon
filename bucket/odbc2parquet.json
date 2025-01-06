@@ -1,16 +1,16 @@
 {
-    "version": "6.3.2",
+    "version": "7.0.0",
     "description": "A command line tool to query an ODBC data source and write the result into a parquet file.",
     "homepage": "https://github.com/pacman82/odbc2parquet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pacman82/odbc2parquet/releases/download/v6.3.2/odbc2parquet-win-x86_64.zip",
-            "hash": "123f9ffa1df2081b92a17297f42b14232d73a88a2308a51d7825b204649dad1a"
+            "url": "https://github.com/pacman82/odbc2parquet/releases/download/v7.0.0/odbc2parquet-win-x86_64.zip",
+            "hash": "4a8e770c4a4729f3922171d063a187daf22959b9e66009ca689dc2a2b44ab21e"
         },
         "32bit": {
-            "url": "https://github.com/pacman82/odbc2parquet/releases/download/v6.3.2/odbc2parquet-win-x86.zip",
-            "hash": "d957c6027844223136359c2b3cd2330842f9b5b975e769b601cd23ba66bb514f"
+            "url": "https://github.com/pacman82/odbc2parquet/releases/download/v7.0.0/odbc2parquet-win-x86.zip",
+            "hash": "fea46bae984b0be91203d69ad75402349d55d87e2c1d4cc6903675a2ec710cb7"
         }
     },
     "bin": "odbc2parquet.exe",
