@@ -1,11 +1,11 @@
 {
-    "version": "3.9.2",
+    "version": "4.0.2",
     "description": "(Cosmopolitan Executable) A parallel implementation of gzip.",
     "homepage": "https://zlib.net/pigz/",
     "license": "Zlib",
     "architecture": {
         "64bit": {
-            "url": "https://cosmo.zip/pub/cosmos/v/3.9.2/bin/pigz#/pigz.exe",
+            "url": "https://cosmo.zip/pub/cosmos/v/4.0.2/bin/pigz#/pigz.exe",
             "hash": "9f9ac4815d10ac6e17f14416e8bfc7e7953ad6e085b0e71e77cf913fad52fd59"
         }
     },
