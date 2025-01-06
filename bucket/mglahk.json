@@ -1,5 +1,5 @@
 {
-    "version": "1.40",
+    "version": "1.41",
     "description": "MouseGestureL.ahk is a general-purpose mouse gesture software.",
     "homepage": "http://pyonkichi.g1.xrea.com/mglahk.html",
     "license": "GPL-2.0-or-later",
@@ -11,8 +11,8 @@
             "pre_install": "Copy-Item \"$dir\\AutoHotkey\\AutoHotkeyU32.exe\" \"$dir\\MouseGestureL.exe\" | Out-Null"
         }
     },
-    "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/MGLahk140.zip",
-    "hash": "109cf876ecb17e7fca4e95a2cf654ba6ef0580369dd3795a9626590eacaae4d4",
+    "url": "http://pyonkichi.g1.xrea.com/archives/MGLahk141.zip",
+    "hash": "fb0baf655f05026592e3b3132af523a40e9666ee08e467c345aa9f7ef60d4ef9",
     "persist": [
         "Config",
         "Plugins"
@@ -27,6 +27,6 @@
         "regex": "MouseGestureL.ahk Ver.\\s+([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/MGLahk$cleanVersion.zip"
+        "url": "http://pyonkichi.g1.xrea.com/archives/MGLahk$cleanVersion.zip"
     }
 }
