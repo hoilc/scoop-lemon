@@ -1,12 +1,12 @@
 {
-    "version": "3.9.2",
+    "version": "4.0.2",
     "description": "(Cosmopolitan Executable) A ultra-lightweight embedded scripting language optimized for microcontrollers.",
     "homepage": "https://github.com/berry-lang/berry",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://cosmo.zip/pub/cosmos/v/3.9.2/bin/berry#/berry.exe",
-            "hash": "e9b61daf5c1593683b397b25c78993c3d7178eda25c1e0e5c67546d120c9eadf"
+            "url": "https://cosmo.zip/pub/cosmos/v/4.0.2/bin/berry#/berry.exe",
+            "hash": "5db0b7f02db9a3ff39c8abd3acbef12f02dc588c9d652fbbb753e161313aec1d"
         }
     },
     "bin": "berry.exe",
