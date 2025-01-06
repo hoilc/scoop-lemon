@@ -1,12 +1,12 @@
 {
-    "version": "3.9.2",
+    "version": "4.0.2",
     "description": "(Cosmopolitan Executable) An open source utility that provides fast incremental file transfer.",
     "homepage": "https://rsync.samba.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cosmo.zip/pub/cosmos/v/3.9.2/bin/rsync#/rsync.exe",
-            "hash": "67e6c0c86a34b3bda7738082821f63a7e4082329f0453c8d04eaa6b9e69ffc3b"
+            "url": "https://cosmo.zip/pub/cosmos/v/4.0.2/bin/rsync#/rsync.exe",
+            "hash": "655445c3be5cc8dd8d79dfedbdeb04d488e80a7d67530ff21e7cf0d0fab7c6b8"
         }
     },
     "bin": "rsync.exe",
