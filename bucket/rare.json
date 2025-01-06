@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Dummerle/Rare/releases/download/1.11.2/Rare-1.11.2.0-windows.zip",
+            "extract_dir": "Rare-1.11.2.0",
             "hash": "600da60b221a84bd77135576fa430fef2944db4583178ff80c000465d925a79e"
         }
     },
@@ -24,7 +25,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Dummerle/Rare/releases/download/$version/Rare-$matchFull-windows.zip"
+                "url": "https://github.com/Dummerle/Rare/releases/download/$version/Rare-$matchFull-windows.zip",
+                "extract_dir": "Rare-$matchFull"
             }
         }
     }
