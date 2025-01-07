@@ -1,20 +1,20 @@
 {
-    "version": "0.26.0",
+    "version": "0.26.1",
     "description": "An open-source package manager for Kubernetes.",
     "homepage": "https://glasskube.dev",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.0/glasskube_v0.26.0_windows_x86_64.zip",
-            "hash": "f13eb135bad42a330af5ec53e175b1fcbe9348d8dc6db7f543641bb55a5af4ea"
+            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.1/glasskube_v0.26.1_windows_x86_64.zip",
+            "hash": "1479074f3e94eaf95917fa2a44d53c1f7a14b2910471bde1954b76904914c141"
         },
         "32bit": {
-            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.0/glasskube_v0.26.0_windows_i386.zip",
-            "hash": "5c1b511f09ef1e080d429166cabb0f4bbdd58bbdaab9fd72a23fea47e6412771"
+            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.1/glasskube_v0.26.1_windows_i386.zip",
+            "hash": "0e30ed08523ae892a87a238095dfdd50b7a8b01360cf31b9c8740cacae05f5cf"
         },
         "arm64": {
-            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.0/glasskube_v0.26.0_windows_arm64.zip",
-            "hash": "5a4d5aaacc096d37dca6f7d0268f2ce7610bad9b0e04f8f99ce148e51b5427a8"
+            "url": "https://github.com/glasskube/glasskube/releases/download/v0.26.1/glasskube_v0.26.1_windows_arm64.zip",
+            "hash": "4bf54c5db6b828da24a86c98f85f786a1c89ed56fcad70de0c238efc5f243dc1"
         }
     },
     "bin": "glasskube.exe",
