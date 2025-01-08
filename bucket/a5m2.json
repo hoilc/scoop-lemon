@@ -1,16 +1,16 @@
 {
-    "version": "2.19.0",
+    "version": "2.20.0",
     "description": "A5:SQL Mk-2 is a SQL development environment & ER diagram tool.",
     "homepage": "https://a5m2.mmatsubara.com/index.en.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.19.0_x64.zip",
-            "hash": "221541cdcee7190b4b58e5f6694604f1d05495d264d53711e0bc3bcab7421379"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.20.0_x64.zip",
+            "hash": "3ada1e2d53550aad6b34c14cfb537614b88aed6c591f28ccbf5d1d97dc2a5ab1"
         },
         "32bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.19.0_x86.zip",
-            "hash": "554a346419e2830c531140077712dadf30599ac0072ddc0724331dd2813134ac"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.20.0_x86.zip",
+            "hash": "8a08cb5c0a6fb4ebcaf6c847d396a1075bfa2cc62d1e9cbcadc8d79802b7df7b"
         }
     },
     "persist": "Portable",
