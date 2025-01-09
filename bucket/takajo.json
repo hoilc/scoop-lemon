@@ -1,0 +1,24 @@
+{
+    "version": "2.7.1",
+    "description": "A fast forensics analyzer for Hayabusa results written in Nim.",
+    "homepage": "https://github.com/Yamato-Security/takajo",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Yamato-Security/takajo/releases/download/v2.7.1/takajo-2.7.1-win-x64.zip",
+            "extract_dir": "takajo-2.7.1-win-x64",
+            "hash": "7c20b7866f4e98cd562b020a5c27fb71952640594d94b89781b246dca97f8134"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'takajo-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'takajo.exe'",
+    "bin": "takajo.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Yamato-Security/takajo/releases/download/v$version/takajo-$version-win-x64.zip",
+                "extract_dir": "takajo-$version-win-x64"
+            }
+        }
+    }
+}
