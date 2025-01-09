@@ -1,0 +1,29 @@
+{
+    "version": "0.3.0",
+    "description": "A command line based web scraper.",
+    "homepage": "https://github.com/bjesus/pipet",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bjesus/pipet/releases/download/0.3.0/pipet-windows-amd64.zip",
+            "hash": "bbfd4f3bb27ccef0340fcb24d2a69712f75848fc4988d8dd866cdc83446d344c"
+        },
+        "arm64": {
+            "url": "https://github.com/bjesus/pipet/releases/download/0.3.0/pipet-windows-arm64.zip",
+            "hash": "c5c725dc985213397fe4c9bea015688f88b026cf7737777ac91ef0edc54294cd"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'pipet-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pipet.exe'",
+    "bin": "pipet.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bjesus/pipet/releases/download/$version/pipet-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/bjesus/pipet/releases/download/$version/pipet-windows-arm64.zip"
+            }
+        }
+    }
+}
