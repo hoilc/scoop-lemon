@@ -1,0 +1,40 @@
+{
+    "version": "0.9.0",
+    "description": "A command-line web scraping tool designed for those without advanced programming skills.",
+    "homepage": "https://flyscrape.com/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/philippta/flyscrape/releases/download/v0.9.0/flyscrape_0.9.0_windows_amd64.zip",
+            "hash": "a95cd1d6c6a7d734d73e88bd52c515720496730b315a9032f6ad3394408e602d"
+        },
+        "32bit": {
+            "url": "https://github.com/philippta/flyscrape/releases/download/v0.9.0/flyscrape_0.9.0_windows_386.zip",
+            "hash": "c000cf8de6357855aa651bc68daef2ea9b62c0473f1183ca31c1b2ef7ba128df"
+        },
+        "arm64": {
+            "url": "https://github.com/philippta/flyscrape/releases/download/v0.9.0/flyscrape_0.9.0_windows_arm64.zip",
+            "hash": "822e2b390a8395546f7370cce9562e35a3e6501fa47c75e9ac0bf163c94f1acd"
+        }
+    },
+    "bin": "flyscrape.exe",
+    "checkver": {
+        "github": "https://github.com/philippta/flyscrape"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/philippta/flyscrape/releases/download/v$version/flyscrape_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/philippta/flyscrape/releases/download/v$version/flyscrape_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/philippta/flyscrape/releases/download/v$version/flyscrape_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/flyscrape_$version_checksums.txt"
+        }
+    }
+}
