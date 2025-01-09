@@ -1,0 +1,28 @@
+{
+    "version": "3.0.5",
+    "description": "A golang, web screenshot utility using Chrome Headless.",
+    "homepage": "https://github.com/sensepost/gowitness",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sensepost/gowitness/releases/download/3.0.5/gowitness-3.0.5-windows-amd64.exe#/gowitness.exe",
+            "hash": "45284210727f2d22774e07313db974a0fe9e9108687a7c091218e7e98b041bea"
+        },
+        "arm64": {
+            "url": "https://github.com/sensepost/gowitness/releases/download/3.0.5/gowitness-3.0.5-windows-arm64.exe#/gowitness.exe",
+            "hash": "5f1a8899e93a5dc47e658afc06d7c196748a82877592a2f191fbd942154a9012"
+        }
+    },
+    "bin": "gowitness.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sensepost/gowitness/releases/download/$version/gowitness-$version-windows-amd64.exe#/gowitness.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/sensepost/gowitness/releases/download/$version/gowitness-$version-windows-arm64.exe#/gowitness.exe"
+            }
+        }
+    }
+}
