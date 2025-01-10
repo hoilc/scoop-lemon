@@ -9,10 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/objeck/objeck-lang/releases/download/v2025.1.1/objeck-windows-x64_2025.1.1.zip",
+            "extract_dir": "objeck-lang-x64",
             "hash": "cd1edc0eb87b290209094bf2a2bae2371e3ed6b663a84c324a0592c1d6050abd"
+        },
+        "arm64": {
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2025.1.1/objeck-windows-arm64_2025.1.1.zip",
+            "extract_dir": "objeck-lang-arm64",
+            "hash": "bb7964dc145c4b3a47dff5b38d45d178b0264e43b10f64cbd6257738ec1c0ba3"
         }
     },
-    "extract_dir": "objeck-lang",
     "shortcuts": [
         [
             "app\\ObLauncher.exe",
@@ -36,6 +41,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-x64_$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-arm64_$version.zip"
             }
         }
     }
