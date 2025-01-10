@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://annystudio.com/jcpicker.exe",
-            "hash": "0dc19170157fe7dc204bf2dee3bf16cb0a6f5371e47da7299f10009840d40fdf"
+            "hash": "4192930cbb78bdbe091b6ca316b3ab148be62f396d53c70c79cae385d235a9ce"
         },
         "32bit": {
             "url": "https://annystudio.com/jcpicker_32bit.exe#/jcpicker.exe",
-            "hash": "71fcde2ecacf435a9e95c5cf90e5c549e1012010f4a7a1af7676fe1adbf32b40"
+            "hash": "a2b0fdff5bf9f4c093e5c97dd3fa5d7ad5f077a238560b35b4867ce33bcda14e"
         }
     },
     "shortcuts": [
@@ -28,7 +28,7 @@
         "jcpicker.txt"
     ],
     "checkver": {
-        "regex": "Just Color Picker ([\\d.]+) for Windows"
+        "regex": "Just Color Picker ([\\d.]+) portable"
     },
     "autoupdate": {
         "architecture": {
