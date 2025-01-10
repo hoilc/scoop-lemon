@@ -15,7 +15,8 @@
     },
     "bin": "flarectl.exe",
     "checkver": {
-        "github": "https://github.com/cloudflare/cloudflare-go"
+        "url": "https://github.com/cloudflare/cloudflare-go/releases.atom",
+        "regex": "Repository/\\d+/v(0[\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
