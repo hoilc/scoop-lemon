@@ -1,5 +1,5 @@
 {
-    "version": "0.15.113041",
+    "version": "0.16.126843",
     "description": "(Unstable Branch) A command-line client for Jottacloud.",
     "homepage": "https://docs.jottacloud.com/en/collections/178055-jottacloud-command-line-tool",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://repo.jotta.us/archives-unstable//windows/amd64/jotta-cli_0.15.113041_windows_amd64.zip",
-            "hash": "8ce99598f8c1a45b94adcd1c09f43f6f427be9e2a1d6dc243c94053fe89371bb"
+            "url": "https://repo.jotta.us/archives-unstable//windows/amd64/jotta-cli_0.16.126843_windows_amd64.zip",
+            "hash": "06c26b7d30099f0c8e98b31d3aebf69901c3919733190f3de9e974c5260f8dab"
         }
     },
     "bin": [
