@@ -1,12 +1,12 @@
 {
-    "version": "3446",
+    "version": "3449",
     "description": "(CUDA Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12745973309/whisper-cublas-12.2.0-bin-x64.zip",
-            "hash": "9201d7dac851508f480dd8429750e42b0a871dd609d64eef102aaa6504981647"
+            "url": "https://nightly.link/ggerganov/whisper.cpp/actions/runs/12763160381/whisper-cublas-12.2.0-bin-x64.zip",
+            "hash": "4e1e5be1b840cd15e5a218a69179945f343efd715907d9d8858fa285331e3fff"
         }
     },
     "bin": [
