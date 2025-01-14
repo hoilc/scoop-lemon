@@ -1,10 +1,10 @@
 {
-    "version": "10.1d",
+    "version": "10.2a",
     "description": "A small and simple sticky notes utility.",
     "homepage": "https://www.zhornsoftware.co.uk/stickies/index.html",
     "license": "Freeware",
-    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_1d.exe#/dl.7z",
-    "hash": "ac2af052cc05baa75abc12631f9bb3b8b08996d94059c70015dd46a47cf1b913",
+    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_2a.exe#/dl.7z",
+    "hash": "23ec60b840bf652f2158248b451d645d98dbb2ac71d6267cc2bbaca11eeae5e5",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\stickies.db\")) { Set-Content -Encoding ASCII -Path \"$dir\\stickies.db\" -Value $null }",
         "if (!(Test-Path \"$persist_dir\\backups\\\")) { New-Item -Path \"$dir\\backups\\\" -ItemType Directory | Out-Null }"
