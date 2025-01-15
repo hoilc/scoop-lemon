@@ -1,13 +1,13 @@
 {
-    "version": "1.52.5",
+    "version": "1.52.6",
     "description": "Metabase Enterprise Edition is the easy way for everyone in your company to ask questions and learn from data.",
     "homepage": "https://www.metabase.com/enterprise/",
     "license": {
         "identifier": "Metabase Commercial License",
         "url": "https://www.metabase.com/license/commercial/"
     },
-    "url": "https://downloads.metabase.com/enterprise/v1.52.5/metabase.jar",
-    "hash": "4e7940e2bb82d6e04ed7b52d7e86c6f205d28876504b7ad4807ab937d7f7df94",
+    "url": "https://downloads.metabase.com/enterprise/v1.52.6/metabase.jar",
+    "hash": "746ed106b9baef9f6603d07bc78f5ce519d5f790eab16daa475af9100831044c",
     "bin": "metabase.jar",
     "suggest": {
         "JDK": [
