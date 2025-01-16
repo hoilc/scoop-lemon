@@ -1,20 +1,20 @@
 {
-    "version": "0.15.6",
+    "version": "0.15.7",
     "description": "A cross-platform system tray app that manages and synchronizes kubectl port-forward configurations with ease.",
     "homepage": "https://kftray.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.6/kftray_0.15.6_x64-setup.exe#/dl.7z",
-            "hash": "af19fa88495ebbac03b588ccc043a1834c265011accc25b25742d7cfe610f6a7"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.7/kftray_0.15.7_x64-setup.exe#/dl.7z",
+            "hash": "93c117319bc3d08ad4b894fbc3c2b3f0c5af970cd4e113411da57ce71ac1a30f"
         },
         "32bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.6/kftray_0.15.6_x86-setup.exe#/dl.7z",
-            "hash": "32621a00f0c86f839bc5bd05fbb3a1652971d6b4676b043b52cc91905c866a2b"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.7/kftray_0.15.7_x86-setup.exe#/dl.7z",
+            "hash": "2090444de0b025e88437ab9a49075643ddefd7c4010fa983fe2a77ce6b19cec4"
         },
         "arm64": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.6/kftray_0.15.6_arm64-setup.exe#/dl.7z",
-            "hash": "2466fed6ca58589c4ea891241208cc1e3d64c9e2d8f35d1cfbf28a52960ab8e2"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.15.7/kftray_0.15.7_arm64-setup.exe#/dl.7z",
+            "hash": "5de7385b259035e057c44b6df44c0947166581cf8de08be3d6c4313334e4820a"
         }
     },
     "shortcuts": [
