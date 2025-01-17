@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hanshuaikang/Nping/releases/download/v0.2.2/nping-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "nping-x86_64-pc-windows-gnu",
+            "extract_dir": "nping-x86_64-pc-windows-msv",
             "hash": "837cca5c96e32807ee0b761a9b188852ece315daeadba9eadb3ed9e0a4ce4079"
         }
     },
