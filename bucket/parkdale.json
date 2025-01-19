@@ -1,5 +1,5 @@
 {
-    "version": "3.06",
+    "version": "3.07",
     "description": "Measure the read and write speed from your harddisks, cd-rom devices and network servers.",
     "homepage": "https://www.the-sz.com/products/parkdale/",
     "license": {
@@ -11,7 +11,7 @@
         "https://www.the-sz.com/products/parkdale_cmd/ParkdaleCmd.zip"
     ],
     "hash": [
-        "3ece85824bd890f40816dfd017ad03b934fcc785ff6ca7895aaae33cd08474de",
+        "b6da41dae158ad8b6ba62b1cb6d5f7e6daf11a1c754885ce6bd2c39e01eac560",
         "6cd82328ef4fac99c3a1a44d9d3bc711185085584a35103381ce27be8cd62e85"
     ],
     "bin": "ParkdaleCmd.exe",
