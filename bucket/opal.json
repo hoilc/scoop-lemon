@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "A free application that can play relaxing music in the background.",
     "homepage": "https://codedead.com/software/opal",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CodeDead/opal/releases/download/v1.4.0/Opal-win-portable.zip",
-            "hash": "a4acf5443e81228cd4b5faa923f84e6a54d0105942ba31e2d69af90bc21c3173"
+            "url": "https://github.com/CodeDead/opal/releases/download/v1.5.0/Opal-win-portable.zip",
+            "hash": "139f2242d61b620f11eeefd0fb1918d7418252b31efd5d81979827e460b22565"
         }
     },
     "shortcuts": [
