@@ -1,16 +1,16 @@
 {
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "A utility wrapping Spacelift's GraphQL API for easy programmatic access in command-line contexts.",
     "homepage": "https://spacelift.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.8.0/spacectl_1.8.0_windows_amd64.zip",
-            "hash": "95af3ae706597822a61686d0fe718837ddfb2a861e86c550e5883d7c11aedcc7"
+            "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.9.0/spacectl_1.9.0_windows_amd64.zip",
+            "hash": "086c14e6e876437e0b49775b9bea56f945f5680bc27daaa4bd338286dab1cb41"
         },
         "arm64": {
-            "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.8.0/spacectl_1.8.0_windows_arm64.zip",
-            "hash": "3b83327e45e6da211b352b26fe29f091962b090f61d899324e9613fd4aa3cada"
+            "url": "https://github.com/spacelift-io/spacectl/releases/download/v1.9.0/spacectl_1.9.0_windows_arm64.zip",
+            "hash": "5fc7c0cbf59a9db0c2c03e2b6753dd7149860b92872820cd70c82cea2b646e34"
         }
     },
     "bin": "spacectl.exe",
