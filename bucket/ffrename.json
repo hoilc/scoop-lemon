@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://www.yuanxiapi.cn/api/lanzou/?type=down&url=https://ffhome.lanzouy.com/ioE3C0c4ha6f#/dl.zip",
             "extract_dir": "FFRenamePro_x64",
-            "hash": "b5eaff6c1978288e3d1d9e96e4ce9cba539f39fce9991cd48a28bd2f6298404a"
+            "hash": "a74c728f46538e239afe280bf6238578d8cdd639eee8ea2e1e6b8389c7bef151"
         }
     },
     "bin": "FFRenamePro.exe",
