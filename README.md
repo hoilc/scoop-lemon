@@ -2,6 +2,7 @@
 
 [![Excavator](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml)
 [![Sync Mirror](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml)
+[<img src="https://api.gitsponsors.com/api/badge/img?id=280706885" height="20">](https://api.gitsponsors.com/api/badge/link?p=fyfklFcgwPXPdVf9m6QVxABAqc4aYAVHTVnrX/e7dndPZOgIcUdsMHsRDPQtGRmxin+FZ5FB3M1+qQUMaQGqBqsxr6F6EN7PRG9hTf3ogYB9Ezus0IOpB+fxJmmeEoy7)
 
 ## Usage
 
