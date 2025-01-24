@@ -1,16 +1,16 @@
 {
-    "version": "0.51.0",
+    "version": "0.52.0",
     "description": "A self-hosted and secure open source development environment manager.",
     "homepage": "https://daytona.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.daytona.io/daytona/v0.51.0/daytona-windows-amd64.exe#/daytona.exe",
-            "hash": "bedc2df4531212c32c88a95c3182705026c8507d4a179fee38c479d6a552861b"
+            "url": "https://download.daytona.io/daytona/v0.52.0/daytona-windows-amd64.exe#/daytona.exe",
+            "hash": "ba64897bf8b2436e60e01f059606e55e03f679473e90558222e57040a3a299bd"
         },
         "arm64": {
-            "url": "https://download.daytona.io/daytona/v0.51.0/daytona-windows-arm64.exe#/daytona.exe",
-            "hash": "654f13e3afedc5eafcbebe57f0c03b0a6e96165341c5037f01c28fc72c9e9d1f"
+            "url": "https://download.daytona.io/daytona/v0.52.0/daytona-windows-arm64.exe#/daytona.exe",
+            "hash": "f8987c4ddc85d5a8036fec1c8ac2d1f710929e3fe2fb88a6359628331534ec17"
         }
     },
     "bin": "daytona.exe",
