@@ -1,12 +1,12 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "A cross platform audio tagger and metadata editor to dump and modify metadata for a wide variety of formats.",
     "homepage": "https://github.com/sandreas/tone/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandreas/tone/releases/download/v0.2.4/tone-0.2.4-win-x64.zip",
-            "hash": "30518fc1484a6b02e1c99aada7d3173daae2b71b1cad1c7a6e536cca676ab915"
+            "url": "https://github.com/sandreas/tone/releases/download/v0.2.5/tone-0.2.5-win-x64.zip",
+            "hash": "c6549406aad02be7d97488ff3273ff898cacbdfcd79ca121c5cfdb2a8f61ae88"
         }
     },
     "bin": "tone.exe",
