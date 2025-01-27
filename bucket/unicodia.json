@@ -1,12 +1,12 @@
 {
-    "version": "2.9.5",
+    "version": "2.9.6",
     "description": "An encyclopedia of Unicode characters.",
     "homepage": "https://mercury13.github.io/unicodia/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mercury13/unicodia/releases/download/v2.9.5/Unicodia-w64-2.9.5.7z",
-            "hash": "d33f6b3757857aefccdd8ac53c37cd2586e02e571b962eb2ebf44a174ca8ddf4"
+            "url": "https://github.com/Mercury13/unicodia/releases/download/v2.9.6/Unicodia-w64-2.9.6.7z",
+            "hash": "01cd7bbb015011ad9556da0d16e780bc9cdaf7351d8a8003f0c9c30d65b34093"
         }
     },
     "shortcuts": [
