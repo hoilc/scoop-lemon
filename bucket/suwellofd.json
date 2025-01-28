@@ -1,10 +1,10 @@
 {
-    "version": "5.0.24.1114",
+    "version": "5.0.25.0108",
     "description": "数科OFD阅读器是一款OFD格式文件打开工具，支持OFD格式转换、OFD发票，OFD公文等",
     "homepage": "http://www.suwell.cn/product/",
     "license": "Freeware",
-    "url": "http://www.suwell.cn/Upload/File/202412/suwellofdapp-5.0.24.1114-setup_20241211191203_5436.exe#/dl.7z",
-    "hash": "209a39e092026bc18f8c0def4046dfa0709ba82a6a63be0646eccc1ce4f29f41",
+    "url": "http://www.suwell.cn/Upload/File/202501/suwellofdapp-5.0.25.0108-setup_20250110160943_9778.exe#/dl.7z",
+    "hash": "afd1d182f3ac7c1254ed9f65614ee2c21dcc7f0367fe92a295b4f4457550ceaa",
     "extract_dir": "suwellofdapp_pro",
     "shortcuts": [
         [
