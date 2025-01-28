@@ -1,5 +1,5 @@
 {
-    "version": "1.45.1",
+    "version": "1.45.2",
     "description": "The GUI for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.",
     "homepage": "https://www.mongodb.com/products/compass",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.1-win32-x64.zip",
-            "hash": "18e0fc776e010954e788e5ed89f0d87e74d6d5d95fe7cd69551f461e8fdafe2f"
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.2-win32-x64.zip",
+            "hash": "565cb58fb4b95a9cb8e29c58c4c8ddbf3cf1d99100a457ab8a11032b58a48570"
         }
     },
     "shortcuts": [
