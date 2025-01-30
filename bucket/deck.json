@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Kong/deck/releases/download/v1.43.1/deck_1.43.1_windows_amd64.tar.gz",
-            "hash": "5a64505e59c7dd2deac14c800724faffa9ee5a96864ea5bdb46d25e9a7553660"
+            "hash": "8475198dcf3e02148d5034d9d0ce42ae18dbb070fc4bbdf0d569ce2881d4a978"
         }
     },
     "bin": "deck.exe",
