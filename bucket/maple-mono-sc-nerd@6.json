@@ -1,20 +1,10 @@
 {
-    "version": "7.0-beta36",
-    "description": "Open source monospace font with round corner for IDE and command line.",
+    "version": "6.4",
+    "description": "(Version 6.x) 开源圆角的等宽和控制台字体",
     "homepage": "https://github.com/subframe7536/Maple-font",
     "license": "OFL-1.1",
-    "url": "https://github.com/subframe7536/maple-font/releases/download/v7.0-beta36/MapleMono-TTF.zip",
-    "hash": "2774a3ac6ab66e46bfaaea98d3cd71bff696eabcb8c103eab7fc7bae461a534c",
-    "checkver": {
-        "url": "https://github.com/subframe7536/Maple-font/releases.atom",
-        "regex": "Repository/\\d+/v(.+?)<"
-    },
-    "autoupdate": {
-        "url": "https://github.com/subframe7536/maple-font/releases/download/v$version/MapleMono-TTF.zip",
-        "hash": {
-            "url": "$baseurl/MapleMono-TTF.sha256"
-        }
-    },
+    "url": "https://github.com/subframe7536/Maple-font/releases/download/v6.4/MapleMono-SC-NF.zip",
+    "hash": "49b5d692ba4b254aeaf89b758771813fd99de536d8a4f721762474a040cc0206",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -53,7 +43,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'Maple Mono' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Maple Mono SC NF' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
