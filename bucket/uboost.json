@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "UDP forwarding with encryption and FEC.",
+    "homepage": "https://github.com/skywind3000/uboost",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/skywind3000/uboost/releases/download/1.0.0/uboost-windows-amd64.exe#/uboost.exe",
+            "hash": "8e4a2c14ff65aec0b9e7a43ef4c0632c063a0bff2bfcdc5d120f2f7b21827a13"
+        }
+    },
+    "bin": "uboost.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/skywind3000/uboost/releases/download/$version/uboost-windows-amd64.exe#/uboost.exe"
+            }
+        }
+    }
+}
