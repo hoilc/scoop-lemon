@@ -1,9 +1,9 @@
 {
     "version": "1.6.4",
     "description": "FlashPad是一款轻便的笔记工具。随时按下快捷键(缺省为Alt+Z)可调出它",
-    "homepage": "http://www.haoxg.net/tools.html#flashpad",
+    "homepage": "https://www.haoxg.net/tools.php#flashpad",
     "license": "Freeware",
-    "url": "http://www.haoxg.net/download/flashpad-1.6.4.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/flashpad/flashpad-1.6.4.zip",
     "hash": "be1d6ffd0e81a3986f6b6d15a3d15f9c51dbfd8daf496f969aac5fe102b35cb2",
     "bin": "FlashPad.exe",
     "extract_dir": "FlashPad-1.6.4",
@@ -17,12 +17,5 @@
         "Data",
         "Config.ini"
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\Config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config.ini\" -Value '[Config]','RunOnStartup=False' }",
-    "checkver": {
-        "regex": "flashpad-([\\d.]+).zip"
-    },
-    "autoupdate": {
-        "url": "http://www.haoxg.net/download/flashpad-$version.zip",
-        "extract_dir": "FlashPad-$version"
-    }
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config.ini\" -Value '[Config]','RunOnStartup=False' }"
 }
