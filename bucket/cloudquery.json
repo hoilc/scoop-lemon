@@ -1,12 +1,12 @@
 {
-    "version": "6.14.1",
+    "version": "6.15.0",
     "description": "The open source high performance ELT framework powered by Apache Arrow.",
     "homepage": "https://cloudquery.io/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudquery/cloudquery/releases/download/cli-v6.14.1/cloudquery_windows_amd64.zip",
-            "hash": "058b4cf6b69d4c97e4cec2ee3b8c2a334f3d146f5b380e3271053e39967ea347"
+            "url": "https://github.com/cloudquery/cloudquery/releases/download/cli-v6.15.0/cloudquery_windows_amd64.zip",
+            "hash": "0d8820657dd361b1b25960f70c910ff9dbe4ed363d72444001d0992d48cf4aec"
         }
     },
     "bin": "cloudquery.exe",
