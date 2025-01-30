@@ -1,17 +1,10 @@
 {
     "version": "6.4",
-    "description": "Open source monospace/nerd font with round corner for IDE and command line.",
+    "description": "(Version 6.x) Open source monospace/nerd font with round corner for IDE and command line.",
     "homepage": "https://github.com/subframe7536/Maple-font",
     "license": "OFL-1.1",
     "url": "https://github.com/subframe7536/Maple-font/releases/download/v6.4/MapleMono-NF.zip",
     "hash": "7f2fa17546190d6e6790c562ae1926cacded22459eccf0eb9693719d1325e165",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/subframe7536/Maple-font/releases/download/v$version/MapleMono-NF.zip",
-        "hash": {
-            "url": "$baseurl/MapleMono-NF.sha1"
-        }
-    },
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -50,7 +43,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'Sarasa Mono SC Nerd' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Maple Mono NF' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
