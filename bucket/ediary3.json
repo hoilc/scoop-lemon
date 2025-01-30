@@ -3,7 +3,7 @@
     "description": "(Version 3.x) A easy-to-use and powerfull diary software.",
     "homepage": "http://www.haoxg.net/ediary/",
     "license": "Freeware",
-    "url": "http://www.haoxg.net/ediary/download/ediary-3.4.1-copy.zip",
+    "url": "https://www.haoxg.net/download/ediary/windows/ediary-3.4.1-copy.zip",
     "hash": "7dfab531acb00eea98f37147ee78b44d41aa5b43eb2018dfe08c80aa068da284",
     "bin": "eDiary.exe",
     "extract_dir": "eDiary-3.4.1",
