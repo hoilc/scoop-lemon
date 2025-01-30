@@ -1,18 +1,18 @@
 {
-    "version": "4.3.4",
+    "version": "4.3.5",
     "description": "A easy-to-use and powerfull diary software.",
     "homepage": "http://www.haoxg.net/ediary/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.4-win64-copy.zip",
-            "extract_dir": "eDiary-4.3.4-win64",
-            "hash": "4ede3548dd307478b4a34960f99231fb48d49c4afc169d1cda756bcd1c5502ea"
+            "url": "https://down.haoxg.net/download/ediary/windows/ediary-4.3.5-win64-copy.zip",
+            "extract_dir": "eDiary-4.3.5-win64",
+            "hash": "8992b51dc0e704f632adc300871247eba6771d305e5c4b987b9683e75fb5c74c"
         },
         "32bit": {
-            "url": "http://www.haoxg.net/ediary/download/ediary-4.3.4-win32-copy.zip",
-            "extract_dir": "eDiary-4.3.4-win32",
-            "hash": "a60d76172191330b30baa3383225865f3cfc02329a27d0abb459acccfe68f46d"
+            "url": "https://down.haoxg.net/download/ediary/windows/ediary-4.3.5-win32-copy.zip",
+            "extract_dir": "eDiary-4.3.5-win32",
+            "hash": "be508d89e62968308db2c413e61689d81270a92cbd94ab25ce8a6d848ef91ea3"
         }
     },
     "bin": "eDiary.exe",
@@ -29,17 +29,17 @@
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\Config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Config.ini\" -Value $null }",
     "checkver": {
-        "url": "http://www.haoxg.net/ediary/download_windows.html",
+        "url": "https://www.haoxg.net/download.php",
         "regex": "ediary-(.*?)-win64-copy.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://www.haoxg.net/ediary/download/ediary-$version-win64-copy.zip",
+                "url": "https://down.haoxg.net/download/ediary/windows/ediary-$version-win64-copy.zip",
                 "extract_dir": "eDiary-$version-win64"
             },
             "32bit": {
-                "url": "http://www.haoxg.net/ediary/download/ediary-$version-win32-copy.zip",
+                "url": "https://down.haoxg.net/download/ediary/windows/ediary-$version-win32-copy.zip",
                 "extract_dir": "eDiary-$version-win32"
             }
         }
