@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild/rssguard-devbuild-d0697daec-win10.7z",
-            "hash": "4c564da80b1ed7bfae2c84e1018386f8a811af173d9aa836b46289904e0c3ada"
+            "hash": "a3fc142b255a486c1293ffeaad9b1078e8ed25867a43f0010b3fe47e1fddf7e6"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\data4\\\")) { New-Item -Path \"$dir\\data4\\\" -ItemType Directory | Out-Null }",
