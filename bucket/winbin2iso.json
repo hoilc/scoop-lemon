@@ -1,16 +1,16 @@
 {
-    "version": "6.41",
+    "version": "6.44",
     "description": "A small program that converts BIN CD or DVD images to ISO images.",
     "homepage": "https://softwareok.com/?seite=Freeware/WinBin2Iso",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/WinBin2Iso_Portable_x64.zip",
-            "hash": "6b124ca7df479ed92f99beb2f50c06525514560f4e58af7316e07e37c3f06878"
+            "hash": "a1a9481f69af514f199d7c3f7c871da2d93ab0d11a330ed4d8e7bb83eb1626ea"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/WinBin2Iso_Portable_Unicode.zip",
-            "hash": "0a174188dafc6a005fa68175a63fb62310d80c2bd48a060ed4a7301134e9331a"
+            "hash": "db5dd1a1072df35b5ab9124877acc0e3add80f41259d387eb8776238dfb360a9"
         }
     },
     "shortcuts": [
