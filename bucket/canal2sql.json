@@ -1,10 +1,10 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "MySQL Binlog解析工具，支持在线和离线解析Binlog，输出标准SQL",
     "homepage": "https://github.com/zhuchao941/canal2sql",
     "license": "Freeware",
-    "url": "https://github.com/zhuchao941/canal2sql/releases/download/v1.1.4/canal2sql-1.1.4.jar#/canal2sql.jar",
-    "hash": "7fe11ccee60df3d571e396049d7b8ea02383f8a670a7a639f070998b3dc18502",
+    "url": "https://github.com/zhuchao941/canal2sql/releases/download/v1.1.5/canal2sql-1.1.5.jar#/canal2sql.jar",
+    "hash": "9b7858a006730af3fefc538b40d38d69a7c09f2daf61640ab55bab5c409cfae3",
     "bin": "canal2sql.jar",
     "suggest": {
         "JDK": [
