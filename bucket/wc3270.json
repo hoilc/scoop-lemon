@@ -1,5 +1,5 @@
 {
-    "version": "4.4ga3",
+    "version": "4.4ga4",
     "description": "The Windows console version of x3270, an IBM 3270 terminal emulator for the X Window System and Windows.",
     "homepage": "http://x3270.bgp.nu/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "http://prdownloads.sourceforge.net/x3270/wc3270-4.4ga3-noinstall-64.zip",
-            "hash": "287ed3214d35d24a3ee22b82ff6b219edc2e531ca6827185a8892fdf8fda12a2"
+            "url": "http://prdownloads.sourceforge.net/x3270/wc3270-4.4ga4-noinstall-64.zip",
+            "hash": "4f9080a57d68a91a95f0188228b8a00ec562dd9703cdf475cdcd91605020192d"
         },
         "32bit": {
-            "url": "http://prdownloads.sourceforge.net/x3270/wc3270-4.4ga3-noinstall-32.zip",
-            "hash": "315d6b8c07c0c53007df73055ef0d78213bf4cf0e7627e668d1902cdbb62c90a"
+            "url": "http://prdownloads.sourceforge.net/x3270/wc3270-4.4ga4-noinstall-32.zip",
+            "hash": "ad3da631900b9919933e2a63886e4ecf100323ce909f0ac9434058d4712bfee3"
         }
     },
     "bin": [
