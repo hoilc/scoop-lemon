@@ -1,12 +1,12 @@
 {
-    "version": "b6a8fbc",
+    "version": "c80ac8d",
     "description": "A simple tool to give your locally running HTTP(s) servers a public URL.",
     "homepage": "https://tunnelmole.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://tunnelmole.com/downloads/tmole.exe",
-            "hash": "4cc30bb70f1a768066dc1f7d9dabab91bf479e9d3353d1f46125a2942853cbaa"
+            "hash": "a3c1fab5fa940077637331fe66be977231c533a40ab3d26e6bc19b405e2b3238"
         }
     },
     "bin": "tmole.exe",
