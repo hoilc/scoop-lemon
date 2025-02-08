@@ -1,16 +1,18 @@
 {
-    "version": "3.9",
+    "version": "3.10",
     "description": "A lightweight Java class file viewer.",
     "homepage": "https://github.com/ClassViewer/ClassViewer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v3.9/ClassViewer-3.9-windows-x86_64.7z",
-            "hash": "7869124f8a23cdd5132ac36ac6252e1d99c9071363d1a3ecc1b7c0946b3545c3"
+            "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v3.10/ClassViewer-3.10-windows-x86_64.zip",
+            "extract_dir": "ClassViewer-3.10-windows-x86_64",
+            "hash": "ab1667ffca156c5aa02d339f0a4402fce73c400ded3224853bc9b36b047b6106"
         },
-        "32bit": {
-            "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v3.9/ClassViewer-3.9-windows-x86.7z",
-            "hash": "b24a8f22ff1d4509c3c2f44426dee4bca0705a1bda6b2aad89264fb55330479e"
+        "arm64": {
+            "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v3.10/ClassViewer-3.10-windows-aarch64.zip",
+            "extract_dir": "ClassViewer-3.10-windows-aarch64",
+            "hash": "007b92ae89a04279ae5d6a47e3b4fb3fdbddf63ce0998f78a995e86cb14f3c02"
         }
     },
     "extract_dir": "ClassViewer",
@@ -25,10 +27,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v$version/ClassViewer-$version-windows-x86_64.7z"
+                "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v$version/ClassViewer-$version-windows-x86_64.zip",
+                "extract_dir": "ClassViewer-$version-windows-x86_64"
             },
-            "32bit": {
-                "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v$version/ClassViewer-$version-windows-x86.7z"
+            "arm64": {
+                "url": "https://github.com/ClassViewer/ClassViewer/releases/download/v$version/ClassViewer-$version-windows-aarch64.zip",
+                "extract_dir": "ClassViewer-$version-windows-aarch64"
             }
         }
     }
