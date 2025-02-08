@@ -15,7 +15,6 @@
             "hash": "007b92ae89a04279ae5d6a47e3b4fb3fdbddf63ce0998f78a995e86cb14f3c02"
         }
     },
-    "extract_dir": "ClassViewer",
     "bin": "ClassViewer.exe",
     "shortcuts": [
         [
