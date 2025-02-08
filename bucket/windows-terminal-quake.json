@@ -1,12 +1,12 @@
 {
-    "version": "2.0.13-202502062329",
+    "version": "2.0.13-202502072302",
     "description": "Turn any app into a Quake-style toggleable app.",
     "homepage": "https://wtq.flyingpie.nl/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/flyingpie/windows-terminal-quake/releases/download/v2.0.13/win-x64_self-contained.zip",
-            "hash": "7a1613bb185b669f2f6a2bf2afd14df344459cf9753cd2bc816c5fe9a0f8dcde"
+            "hash": "964795921fde6729a811d434433def15f81862b31276eca50c7d0e56d9523c39"
         }
     },
     "bin": "wtq.exe",
@@ -21,7 +21,7 @@
         "script": [
             "try { $detail = Invoke-WebRequest 'https://github.com/flyingpie/windows-terminal-quake/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
             "$atom = [xml]$detail.Content",
-            "$latest = $atom.feed.entry | Select-Object -First 1",
+            "$latest = $atom.feed.entry | Where-Object { $_.id -like '*v2.*' } | Select-Object -First 1",
             "$result =  $latest.id + '-' + ([DateTime]$latest.updated).ToUniversalTime().ToString('yyyyMMddHHmm')",
             "return $result"
         ],
