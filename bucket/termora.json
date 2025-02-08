@@ -20,6 +20,7 @@
             "Termora"
         ]
     ],
+    "notes": "Termora is NOT portable.",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
