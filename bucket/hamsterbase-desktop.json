@@ -1,5 +1,5 @@
 {
-    "version": "0.14.0",
+    "version": "0.15.0",
     "description": "(Desktop Version) A self-hosted, local-first web archive application.",
     "homepage": "https://hamsterbase.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hamsterbase/hamsterbase/releases/download/0.14.0/hamsterbase-desktop-0.14.0-win-x64.zip",
-            "hash": "7c56c0cfc57150925937f55a77d30c1489d8561f75422dd2c0eff9e03ed57e95"
+            "url": "https://github.com/hamsterbase/hamsterbase/releases/download/0.15.0/hamsterbase-desktop-0.15.0-win-x64.zip",
+            "hash": "e31819f2680eaa73c7bcbaa436ba65fb5d1b3ed107dda428148dcddf0f388b21"
         }
     },
     "shortcuts": [
