@@ -1,20 +1,20 @@
 {
-    "version": "0.6.11",
+    "version": "0.6.12",
     "description": "Nacos server re-implemented in Rust.",
     "homepage": "https://github.com/heqingpan/rnacos",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.11/rnacos-x86_64-pc-windows-msvc-v0.6.11.zip",
-            "hash": "e6453ce3dedfafefdd96cf60a860da3537e70b958049df44cd376eb90c9caa60"
+            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.12/rnacos-x86_64-pc-windows-msvc-v0.6.12.zip",
+            "hash": "e02bd7b9bb5b09c3bc3c1cde5e3d2e2b2e7f5dec6e34629b4ae4a403545f315b"
         },
         "32bit": {
-            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.11/rnacos-i686-pc-windows-msvc-v0.6.11.zip",
-            "hash": "fe5d84854222e83d970be04d54ffbfc39cb4ba5dc38e356c6fdc42443b8091c1"
+            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.12/rnacos-i686-pc-windows-msvc-v0.6.12.zip",
+            "hash": "012002460c1dfe59153fad07699cef5596e3df08a4c61e0b732dd5f988998a7d"
         },
         "arm64": {
-            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.11/rnacos-aarch64-pc-windows-msvc-v0.6.11.zip",
-            "hash": "4cfdf11b0a4f36bed9cd8ee3f8ffee10cba164f7b7be455eb53b8cc43a024ff7"
+            "url": "https://github.com/heqingpan/rnacos/releases/download/v0.6.12/rnacos-aarch64-pc-windows-msvc-v0.6.12.zip",
+            "hash": "bcaa7e4f889bd2b3c93a2a2de5b969a2b4f0d626a363c76f0eb9f0ea581d1945"
         }
     },
     "bin": "rnacos.exe",
