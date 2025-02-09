@@ -1,0 +1,32 @@
+{
+    "##": "#updateManually",
+    "version": "5.6.2.0",
+    "description": "Windows To Go Assistant (WTGA) provides a convenient and quick method to deploy Windows To Go on USB devices.",
+    "homepage": "https://github.com/nkc3g4/wtg-assistant",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/wtg-assistant/wtga5620.zip",
+            "hash": "70c1612d3887362679e2ec10ea7e2116933c008a387b725df9c2f3e95ac25471"
+        }
+    },
+    "extract_dir": "WTGA",
+    "shortcuts": [
+        [
+            "wintogo.exe",
+            "WTG Assistant"
+        ]
+    ],
+    "persist": "settings.ini",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/nkc3g4/wtg-assistant/refs/heads/mainline/wintogo/Properties/AssemblyInfo.cs",
+        "regex": "AssemblyVersion\\(\"([\\d.]+)\"\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/wtg-assistant/wtga$cleanVersion.zip"
+            }
+        }
+    }
+}
