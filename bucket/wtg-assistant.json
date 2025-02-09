@@ -17,7 +17,11 @@
             "WTG Assistant"
         ]
     ],
-    "persist": "settings.ini",
+    "persist": [
+        "settings.ini",
+        "logs",
+        "Drivers"
+    ],
     "checkver": {
         "url": "https://raw.githubusercontent.com/nkc3g4/wtg-assistant/refs/heads/mainline/wintogo/Properties/AssemblyInfo.cs",
         "regex": "AssemblyVersion\\(\"([\\d.]+)\"\\)"
