@@ -1,12 +1,12 @@
 {
-    "version": "1.1.11",
+    "version": "1.1.12",
     "description": "AssetRipper is a tool for extracting assets from Unity serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and asset bundles (*.unity3d, *.bundle, etc.) and converting them into the native Unity engine format.",
     "homepage": "https://assetripper.github.io/AssetRipper/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AssetRipper/AssetRipper/releases/download/1.1.11/AssetRipper_win_x64.zip",
-            "hash": "6e7ed875e566ffcd891d6d04400dfe53d13b2925ef562665957304a8c9e5b58e"
+            "url": "https://github.com/AssetRipper/AssetRipper/releases/download/1.1.12/AssetRipper_win_x64.zip",
+            "hash": "355d02d70d4d74870a41a9a8def7f6f8ab4c0cdbdc5c6a7a86cd958aed4d7380"
         }
     },
     "shortcuts": [
