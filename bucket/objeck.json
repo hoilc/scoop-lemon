@@ -1,5 +1,5 @@
 {
-    "version": "2025.1.1",
+    "version": "2025.1.2",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,11 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/objeck/objeck-lang/releases/download/v2025.1.1/objeck-windows-x64_2025.1.1.zip",
-            "hash": "cd1edc0eb87b290209094bf2a2bae2371e3ed6b663a84c324a0592c1d6050abd"
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.1.2/objeck-windows-x64_2025.1.2.zip",
+            "extract_dir": "objeck-lang-x64",
+            "hash": "sha1:b2ce9309ed0ab1a51514dcc30447b5c4481a6f28"
+        },
+        "arm64": {
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.1.2/objeck-windows-arm64_2025.1.2.zip",
+            "extract_dir": "objeck-lang-arm64",
+            "hash": "sha1:80836a351033b228896c50248089ee24d36bf076"
         }
     },
-    "extract_dir": "objeck-lang",
     "shortcuts": [
         [
             "app\\ObLauncher.exe",
@@ -35,7 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-x64_$version.zip"
+                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-x64_$version.zip"
+            },
+            "arm64": {
+                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-arm64_$version.zip"
             }
         }
     }
