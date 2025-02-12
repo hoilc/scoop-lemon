@@ -1,5 +1,5 @@
 {
-    "version": "0.16.126924",
+    "version": "0.16.129390",
     "description": "A command-line client for Jottacloud.",
     "homepage": "https://docs.jottacloud.com/en/collections/178055-jottacloud-command-line-tool",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://repo.jotta.us/archives/windows/amd64/jotta-cli_0.16.126924_windows_amd64.zip",
-            "hash": "3453bbb57bb05138fe7853568f5cf138875637cd38a2d8075edd36356c018981"
+            "url": "https://repo.jotta.us/archives/windows/amd64/jotta-cli_0.16.129390_windows_amd64.zip",
+            "hash": "83ed9d7807e85025d9c2fb94be75116b4ac9cdeba1b43c8462f14fa412cba82b"
         }
     },
     "bin": [
