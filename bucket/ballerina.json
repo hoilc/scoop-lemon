@@ -1,11 +1,11 @@
 {
-    "version": "2201.10.3",
+    "version": "2201.11.0",
     "description": "An open-source programming language for the cloud that makes it easier to use, combine, and create network services.",
     "homepage": "https://ballerina.io/",
     "license": "Apache-2.0",
-    "url": "https://dist.ballerina.io/downloads/2201.10.3/ballerina-2201.10.3-swan-lake.zip",
-    "hash": "460af1d118b88728398f428f2385805e9c72784e839b411c1d15396b0a478d96",
-    "extract_dir": "ballerina-2201.10.3-swan-lake",
+    "url": "https://dist.ballerina.io/downloads/2201.11.0/ballerina-2201.11.0-swan-lake.zip",
+    "hash": "f279f8225e236ebab38b9ca54860980888e396553c0df12135dc21b465ea8ef4",
+    "extract_dir": "ballerina-2201.11.0-swan-lake",
     "bin": "bin\\bal.bat",
     "suggest": {
         "JDK 11+": [
