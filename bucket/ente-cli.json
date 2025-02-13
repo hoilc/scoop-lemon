@@ -1,5 +1,5 @@
 {
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "A Command Line Utility for exporting data from Ente, an alternative to Apple and Google Photos.",
     "homepage": "https://github.com/ente-io/ente/tree/main/cli",
     "license": "AGPL-3.0-only",
