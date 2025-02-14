@@ -1,12 +1,12 @@
 {
-    "version": "1.12.0",
+    "version": "1.13.0",
     "description": "Amazon EC2 Metadata Mock (AEMM) is a tool to simulate Amazon EC2 instance metadata service for local testing.",
     "homepage": "https://github.com/aws/amazon-ec2-metadata-mock",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aws/amazon-ec2-metadata-mock/releases/download/v1.12.0/ec2-metadata-mock-windows-amd64.zip",
-            "hash": "01c59c7fb6a523f6bea655494d9a6213f790fd8c438cfce77b6db5f7da0d1ba9"
+            "url": "https://github.com/aws/amazon-ec2-metadata-mock/releases/download/v1.13.0/ec2-metadata-mock-windows-amd64.zip",
+            "hash": "a5c3a69e87e935b87e470081ec616bf5574b1193dc0587d3d006919fa8189ef2"
         }
     },
     "bin": "ec2-metadata-mock.exe",
