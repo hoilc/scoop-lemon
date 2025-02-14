@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "Amazon EC2 Instance Selector is a CLI tool which recommends EC2 instance types based on resource criteria like vcpus and memory.",
     "homepage": "https://github.com/aws/amazon-ec2-instance-selector",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aws/amazon-ec2-instance-selector/releases/download/v3.0.0/ec2-instance-selector-windows-amd64#/ec2-instance-selector.exe",
-            "hash": "4ae21285a90bcb9a8f84afdd9a83367205d65539d9368df397e06b886b372ae2"
+            "url": "https://github.com/aws/amazon-ec2-instance-selector/releases/download/v3.1.0/ec2-instance-selector-windows-amd64#/ec2-instance-selector.exe",
+            "hash": "f73b82bebc45b9878b3d2197dbdd98ad3834fccc22ec115cb3de0b5f2a4a56ae"
         }
     },
     "bin": "ec2-instance-selector.exe",
