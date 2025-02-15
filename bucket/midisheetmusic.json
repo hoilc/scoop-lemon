@@ -1,0 +1,21 @@
+{
+    "version": "2.6.2",
+    "description": "Midi Sheet Music is a free program that converts MIDI files to sheet music.",
+    "homepage": "http://midisheetmusic.com/",
+    "license": "Freeware",
+    "url": "http://midisheetmusic.com/downloads/MidiSheetMusic-2.6.2.exe#/MidiSheetMusic.exe",
+    "hash": "416859c091833af3a1ee4ec134c9b40cec8f68be8575bd67f302439072086479",
+    "shortcuts": [
+        [
+            "MidiSheetMusic.exe",
+            "Midi Sheet Music"
+        ]
+    ],
+    "checkver": {
+        "url": "http://midisheetmusic.com/download.html",
+        "regex": "MidiSheetMusic-([\\d.]+?).exe"
+    },
+    "autoupdate": {
+        "url": "http://midisheetmusic.com/downloads/MidiSheetMusic-$version.exe#/MidiSheetMusic.exe"
+    }
+}
