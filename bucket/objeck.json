@@ -1,5 +1,5 @@
 {
-    "version": "2025.2.0",
+    "version": "2025.2.1",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.0/objeck-windows-x64_2025.2.0.zip",
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.1/objeck-windows-x64_2025.2.1.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "sha1:39d810a09b3a23bfa3fe689b27bd418b427ff50c"
+            "hash": "sha1:abc09a4fc4c377224107560a263b4bf36cdd38e1"
         },
         "arm64": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.0/objeck-windows-arm64_2025.2.0.zip",
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.1/objeck-windows-arm64_2025.2.1.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "sha1:23dc24d912681fd859459313bb516d287d57291c"
+            "hash": "sha1:ceb30c5b017c13b278aab97cc5071eee10b47800"
         }
     },
     "shortcuts": [
