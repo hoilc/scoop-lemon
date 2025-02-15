@@ -1,20 +1,20 @@
 {
-    "version": "3.6",
+    "version": "3.7",
     "description": "A client blocker compatible with qBittorrent/Transmission (Beta)/BitComet (Beta, Partial) which is prohibited to include but not limited to clients such as Xunlei.",
     "homepage": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.6/qBittorrent-ClientBlocker-3.6-windows-amd64.zip",
-            "hash": "c0cde74fe7fd1dc3d6d36ea77d23b6bf549779cbcbe9fbc4abb2a68bd5a734c7"
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.7/qBittorrent-ClientBlocker-3.7-windows-amd64.zip",
+            "hash": "8e1844ca87c1da0c5cfabc1c0039d4193dcfa54a86c2b06e61f9cc9b893f21ee"
         },
         "32bit": {
-            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.6/qBittorrent-ClientBlocker-3.6-windows-386.zip",
-            "hash": "7a7e5ba5017efcfbd213dc25d40cd5a91399fad32a67e3830fb0696c15a25a73"
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.7/qBittorrent-ClientBlocker-3.7-windows-386.zip",
+            "hash": "0c2576631702c0b610f6c9b95df088f93fb037b5319b30bd0c51baf336222fee"
         },
         "arm64": {
-            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.6/qBittorrent-ClientBlocker-3.6-windows-arm64.zip",
-            "hash": "68583c9bc9944293ed13a0280b00a28bbb3e2c6be888e92aaa9c373908db1d08"
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.7/qBittorrent-ClientBlocker-3.7-windows-arm64.zip",
+            "hash": "35f7f68fcfb4c8803f8f0091e566d897aec91f8e7a2e332260f46cf1182f533e"
         }
     },
     "bin": "qBittorrent-ClientBlocker.exe",
