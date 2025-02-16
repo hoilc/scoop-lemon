@@ -1,12 +1,12 @@
 {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "description": "An open source plain text editor designed for writing novels.",
     "homepage": "https://novelwriter.io",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vkbo/novelWriter/releases/download/v2.6.1/novelwriter-2.6.1-amd64-setup.exe",
-            "hash": "1bf0f01d1cc7ee59d415b18e1b82c352f9bffdf7d5db44aa46f05b1be33e2780"
+            "url": "https://github.com/vkbo/novelWriter/releases/download/v2.6.2/novelwriter-2.6.2-amd64-setup.exe",
+            "hash": "b6822aee7a9b54a3cac3ea459d25c64986ba8e5c33068c0298f4721f3f5b3bcc"
         }
     },
     "innosetup": true,
