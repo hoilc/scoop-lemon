@@ -1,34 +1,34 @@
 {
-    "version": "469",
+    "version": "479",
     "description": "A low level CD dumper utility.",
     "homepage": "https://github.com/superg/redumper",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superg/redumper/releases/download/build_469/redumper-2025.02.09_build469-win64.zip",
-            "extract_dir": "redumper-2025.02.09_build469-win64\\bin",
-            "hash": "1bd5b6219a28aace5927becd29728a5d7366ebde37981e6b875a246ff32dfd4b"
+            "url": "https://github.com/superg/redumper/releases/download/build_479/redumper-2025.02.10_build479-Windows64.zip",
+            "extract_dir": "redumper-2025.02.10_build479-Windows64\\bin",
+            "hash": "b0af61df145941d6eb4ea7403c413438e9fec8d98f3c9aa480117d61307f8cde"
         },
         "32bit": {
-            "url": "https://github.com/superg/redumper/releases/download/build_469/redumper-2025.02.09_build469-win32.zip",
-            "extract_dir": "redumper-2025.02.09_build469-win32\\bin",
-            "hash": "085f691cb1beac7ae43ccb665ef8b0990075d554d746480246c89a173f3a81f8"
+            "url": "https://github.com/superg/redumper/releases/download/build_479/redumper-2025.02.10_build479-Windows32.zip",
+            "extract_dir": "redumper-2025.02.10_build479-Windows32\\bin",
+            "hash": "36c0df5b01ddcb8673e55b2b7d4cf7f2bcefe78771bb0f4090a9f23c8d98edb2"
         }
     },
     "bin": "redumper.exe",
     "checkver": {
         "url": "https://api.github.com/repos/superg/redumper/releases/latest",
-        "regex": "redumper-(?<date>\\d{4}.\\d{2}.\\d{2})_build(\\d+)-win64.zip"
+        "regex": "redumper-(?<date>\\d{4}.\\d{2}.\\d{2})_build(\\d+)-Windows64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/superg/redumper/releases/download/build_$version/redumper-$matchDate_build$version-win64.zip",
-                "extract_dir": "redumper-$matchDate_build$version-win64\\bin"
+                "url": "https://github.com/superg/redumper/releases/download/build_$version/redumper-$matchDate_build$version-Windows64.zip",
+                "extract_dir": "redumper-$matchDate_build$version-Windows64\\bin"
             },
             "32bit": {
-                "url": "https://github.com/superg/redumper/releases/download/build_$version/redumper-$matchDate_build$version-win32.zip",
-                "extract_dir": "redumper-$matchDate_build$version-win32\\bin"
+                "url": "https://github.com/superg/redumper/releases/download/build_$version/redumper-$matchDate_build$version-Windows32.zip",
+                "extract_dir": "redumper-$matchDate_build$version-Windows32\\bin"
             }
         }
     }
