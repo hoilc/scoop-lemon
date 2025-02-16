@@ -1,17 +1,17 @@
 {
-    "version": "2.0.4",
+    "version": "2.1.0",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2.0.4/ileapp-v2.0.4-Windows.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2.0.4/ileappGUI-v2.0.4-Windows.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2.1.0/ileapp-v2.1.0-Windows.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2.1.0/ileappGUI-v2.1.0-Windows.zip"
             ],
             "hash": [
-                "de2327cc93c23d32ff206516af8a7305f672f1298bbea6b3130c1bf4224ef3b8",
-                "5a1ed1e99677b73e4517ebeeb75c9e9bc0c347f97e1ecc7710acbecabaead56e"
+                "af507b4e7719bcc07edc0bff8cea14e779f92fab671cba02ef42d8d187179e50",
+                "47691a0719e84235720b9fb7bbfe1311e7a545a27e071f5bd95bb2f1a7acd18c"
             ]
         }
     },
