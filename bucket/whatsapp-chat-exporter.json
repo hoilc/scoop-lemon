@@ -1,12 +1,12 @@
 {
-    "version": "0.10.5",
+    "version": "0.11.2",
     "description": "A customizable Android and iPhone Whatsapp database parser that will give you the history of your Whatsapp conversations in HTML and JSON.",
     "homepage": "https://github.com/KnugiHK/WhatsApp-Chat-Exporter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KnugiHK/WhatsApp-Chat-Exporter/releases/download/0.10.5/wtsexporter_x64.exe#/wtsexporter.exe",
-            "hash": "485a7bdd3dc43d27deeffab68f3b2300ac5aee9f1b3146e6e4280e5c473835b1"
+            "url": "https://github.com/KnugiHK/WhatsApp-Chat-Exporter/releases/download/0.11.2/wtsexporter_x64.exe#/wtsexporter.exe",
+            "hash": "e20f2da8311673c85806418ae7d7530ce16dfbb880cfc5e48dc38d0fbc59918e"
         }
     },
     "bin": "wtsexporter.exe",
