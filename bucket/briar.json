@@ -1,12 +1,12 @@
 {
-    "version": "0.6.2-beta",
+    "version": "0.6.3-beta",
     "description": "A peer-to-peer messaging app that bypasses centralized servers.",
     "homepage": "https://briarproject.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://desktop.briarproject.org/msis/0.6.2-beta/Briar-Desktop-0.6.2-beta.msi",
-            "hash": "a78d267a0e2dd083263eab4c2a22823861c0cf6733aa1a4bfbf05af273df5088"
+            "url": "https://desktop.briarproject.org/msis/0.6.3-beta/Briar-Desktop-0.6.3-beta.msi",
+            "hash": "c8eb2f0f51389e26bb6c1007928e38c8aec8dbaa3192fa9e81d22d44ada74ad1"
         }
     },
     "extract_dir": "Briar",
