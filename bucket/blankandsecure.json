@@ -1,16 +1,16 @@
 {
-    "version": "7.97",
+    "version": "8.11",
     "description": "A small tool to securely delete the data.",
     "homepage": "https://softwareok.com/?seite=Microsoft/BlankAndSecure",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/BlankAndSecure_x64.zip",
-            "hash": "73150449bc7cc1b649ce8ba8e7a6602ab8eabe7934ecf78c4ce380f5282868dd"
+            "hash": "9ca0527c161fb12c9c6a0da97e95c1b94d07a222dd30e704255c94e9b805b8c0"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/BlankAndSecure.zip",
-            "hash": "38dcd6a235a7292e874f2ba0a234fe582037b71b50159564b0264ced7de0352a"
+            "hash": "13f6ac955865511af5f32e0a940efa55c3ed4e4e1b0f8970181adf15426fa272"
         }
     },
     "shortcuts": [
