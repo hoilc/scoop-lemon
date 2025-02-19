@@ -1,16 +1,16 @@
 {
-    "version": "0.57.2",
+    "version": "0.57.3",
     "description": "A diagnostic tool that makes it easier to understand the state of a Kubernetes cluster by running a set of Kubernetes conformance tests and other plugins in an accessible and non-destructive manner.",
     "homepage": "https://sonobuoy.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.2/sonobuoy_0.57.2_windows_amd64.tar.gz",
-            "hash": "69b77086179ccaef92688b8ce3a5fe4f85d05fda4c5d112e90d128f3eb549087"
+            "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.3/sonobuoy_0.57.3_windows_amd64.tar.gz",
+            "hash": "e17cd8a80714ee4ae93b889bd29cae3296bfa4b54f8a6518742fbf20f9a5cf70"
         },
         "32bit": {
-            "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.2/sonobuoy_0.57.2_windows_386.tar.gz",
-            "hash": "ed1e1fed3bef9216a64ca9480ce35000e20d285262fd010cb92ec569e6553a9f"
+            "url": "https://github.com/vmware-tanzu/sonobuoy/releases/download/v0.57.3/sonobuoy_0.57.3_windows_386.tar.gz",
+            "hash": "33ad3bd448d73fb8baf8a2c0a63bbb5d2d7e2887a5702bd22caf12f0d5531b22"
         }
     },
     "bin": "sonobuoy.exe",
