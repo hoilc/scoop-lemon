@@ -34,7 +34,7 @@ jobs:
         repository: ScoopInstaller/Main
         path: 'scoop/buckets/main'
     - name: Cache PS Modules
-      uses: potatoqualitee/psmodulecache@v5.1
+      uses: potatoqualitee/psmodulecache@v6.2.1
       with:
         modules-to-cache: Pester:4.10.1, PSScriptAnalyzer, BuildHelpers
         shell: powershell
