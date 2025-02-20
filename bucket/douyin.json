@@ -1,10 +1,10 @@
 {
-    "version": "5.4.0",
+    "version": "5.5.0",
     "description": "抖音是一款可在智能手机上浏览的短视频社交应用程序",
     "homepage": "https://www.douyin.com/",
     "license": "Proprietary",
-    "url": "https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/12279727/5.4.0/win32-ia32/douyin-v5.4.0-win32-ia32-douyin.exe#/dl.7z",
-    "hash": "7884f38836e9d58556ce7ee469f8009473c8024e09f0e6dba4c8a117aac95b25",
+    "url": "https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/12292359/5.5.0/win32-ia32/douyin-v5.5.0-win32-ia32-douyin.exe#/dl.7z",
+    "hash": "631cb1179498bed357e79188e9578d08fca87cfa484a092a44dcbd13b8765468",
     "pre_install": "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\app.7z\", \"$dir\\`$*\", \"$dir\\uninst*\", \"$dir\\resources\\app-update.yml\", \"$dir\\installer_downloader*\", \"$dir\\app_shell_updater*\" -Force -Recurse",
     "shortcuts": [
