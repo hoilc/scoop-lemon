@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_win-x64_20241201.zip",
-            "hash": "60fc135df4ef75a4e12e23f17a06e9433862d081be10a70313212eac62ef9edd"
+            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_win-x64_20241203.zip",
+            "hash": "876b3208bd466e433a22ddea98330b8a5078c95306ba2fb74e4bfc8950d07b24"
         },
         "arm64": {
-            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_win-arm64_20241201.zip",
-            "hash": "1e19e3971a777b920fdad90e8eab01c6c5b79ff4c7364dda60be68f2db1c2823"
+            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_win-arm64_20241203.zip",
+            "hash": "e08b52379c408c0b0c8ead3d0061f70985fd64ce82e2c7fc23dd75c98172b8fc"
         }
     },
     "bin": "N_m3u8DL-RE.exe",
