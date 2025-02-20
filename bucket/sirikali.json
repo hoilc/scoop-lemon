@@ -24,7 +24,8 @@
     ],
     "persist": [
         "backends",
-        "translations"
+        "bin",
+        "local"
     ],
     "checkver": {
         "github": "https://github.com/mhogomchungu/sirikali"
