@@ -1,20 +1,20 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "An IP geolocation databases tool.",
     "homepage": "https://github.com/sjzar/ips",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_amd64.zip",
-            "hash": "90dad126937b4bca83cdded5da585bb30019fbb987b1ec3cd9bc33e4eef0ccd7"
+            "url": "https://github.com/sjzar/ips/releases/download/v0.3.4/ips_v0.3.4_windows_amd64.zip",
+            "hash": "4159dca00896a55fa56658c84b5b1e032f9ba132080db4515b1323af5437b06d"
         },
         "32bit": {
-            "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_386.zip",
-            "hash": "f63c140258f855842d95864c6526981d27b021743ba54ee1dde05f1ef6cd272d"
+            "url": "https://github.com/sjzar/ips/releases/download/v0.3.4/ips_v0.3.4_windows_386.zip",
+            "hash": "32a225e7c6afbef69a41f23ed9c9319e1571131fcf7bae6111feb79d2d14eab4"
         },
         "arm64": {
-            "url": "https://github.com/sjzar/ips/releases/download/v0.3.3/ips_v0.3.3_windows_arm64.zip",
-            "hash": "5db8ca0825f9121b69f17cc6060c2da517ff50cbc3115622b549b55e770e320e"
+            "url": "https://github.com/sjzar/ips/releases/download/v0.3.4/ips_v0.3.4_windows_arm64.zip",
+            "hash": "c68090d7f7ad581a50034126425a967abb91afc812a20063388ae5412104f76f"
         }
     },
     "bin": "ips.exe",
