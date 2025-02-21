@@ -1,18 +1,18 @@
 {
-    "version": "0.17.0",
+    "version": "0.17.1",
     "description": "A Prometheus exporter for MySQL server metrics.",
     "homepage": "https://github.com/prometheus/mysqld_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.17.0/mysqld_exporter-0.17.0.windows-amd64.tar.gz",
-            "hash": "2114981adc0f0a5dc249e912d0e1cd2aef0b8580e3597cc82fb2af835c687f9a",
-            "extract_dir": "mysqld_exporter-0.17.0.windows-amd64"
+            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.17.1/mysqld_exporter-0.17.1.windows-amd64.tar.gz",
+            "hash": "ff9ac6f1a3155b9a39c0599d7b6024cf2b127955d9bfad0a219f2f30d6ad8cab",
+            "extract_dir": "mysqld_exporter-0.17.1.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.17.0/mysqld_exporter-0.17.0.windows-386.tar.gz",
-            "hash": "3f94b72836239d1dc5de412d517b0f3091b347ad5c0810c7b7e3a284640f85eb",
-            "extract_dir": "mysqld_exporter-0.17.0.windows-386"
+            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.17.1/mysqld_exporter-0.17.1.windows-386.tar.gz",
+            "hash": "6f0d5f74c2d4cd60799fb84b8bd94b26d9e40874ea784690699d31fccc784380",
+            "extract_dir": "mysqld_exporter-0.17.1.windows-386"
         }
     },
     "bin": "mysqld_exporter.exe",
