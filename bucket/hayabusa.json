@@ -1,20 +1,20 @@
 {
-    "version": "3.0.1",
+    "version": "3.1.0",
     "description": "A sigma-based threat hunting and fast forensics timeline generator for Windows event logs.",
     "homepage": "https://github.com/Yamato-Security/hayabusa",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.0.1/hayabusa-3.0.1-win-x64-live-response.zip",
-            "hash": "10cbcfc0bfd2dd21abd47d0fb00cb5ff1a244fa90e7fe4564a8dc98aa07ce5d1"
+            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.1.0/hayabusa-3.1.0-win-x64-live-response.zip",
+            "hash": "73cd86b70ebbd4983e2c1c5553276b58034436e18ac64967f996aeeeab60a89b"
         },
         "32bit": {
-            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.0.1/hayabusa-3.0.1-win-x86-live-response.zip",
-            "hash": "81fe2ca5d3e5459d1f3d22840b075c939da6b81bd2d60603b525b49fc51a2710"
+            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.1.0/hayabusa-3.1.0-win-x86-live-response.zip",
+            "hash": "19919f727f08bf1eeb0157108d3f57f15e308f8ca678d54c76697fb82710dcac"
         },
         "arm64": {
-            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.0.1/hayabusa-3.0.1-win-aarch64-live-response.zip",
-            "hash": "aabd37f97e7e9752ec999abb8a5179a8242dce2abb035122dd94d3f3cc9ad7df"
+            "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.1.0/hayabusa-3.1.0-win-aarch64-live-response.zip",
+            "hash": "f6585d849f2a32152352df250de03f1cac712a4c0302601879063946e56b91bb"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'hayabusa-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'hayabusa.exe'",
