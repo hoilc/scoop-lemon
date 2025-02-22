@@ -1,10 +1,10 @@
 {
-    "version": "6.16.3",
+    "version": "6.17",
     "description": "Privacy Eraser is an easy to use solution for protecting your privacy by deleting your browsing history and other computer activities.",
     "homepage": "https://www.cybertronsoft.com/products/privacy-eraser/",
     "license": "Liteware",
     "url": "https://www.cybertronsoft.com/download/privacy-eraser-portable.zip",
-    "hash": "6925c3ef4b26d1c40087aaaaffe1dc03a67d6ab9ea3205fa42e271db14aaad68",
+    "hash": "78b9226b89b31c383a0ebd89214bd34336b325805572e60cd913d708295504ef",
     "architecture": {
         "64bit": {
             "shortcuts": [
