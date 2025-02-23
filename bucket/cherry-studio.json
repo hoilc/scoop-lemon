@@ -1,5 +1,5 @@
 {
-    "version": "0.9.29",
+    "version": "0.9.30",
     "description": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers",
     "homepage": "https://cherry-ai.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cherrystudio.ocool.online/Cherry-Studio-0.9.29-setup.exe",
-            "hash": "f3abb3dd5704f79bb3410d4c21ac663c0050f4b9949d3ff3212929789096cf77"
+            "url": "https://cherrystudio.ocool.online/Cherry-Studio-0.9.30-setup.exe",
+            "hash": "9bb2e70b70d79cb695930e548e3256d4c75c169d538127e1073005c6411b86b4"
         }
     },
     "installer": {
