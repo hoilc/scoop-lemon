@@ -1,17 +1,17 @@
 {
-    "version": "1.0.0",
-    "description": "Delicately-TUICed high-performance proxy built on top of the QUIC protocol.",
-    "homepage": "https://github.com/EAimTY/tuic",
+    "version": "1.4.5",
+    "description": "(Extended Life Version) A delicately-TUICed high-performance proxy built on top of the QUIC protocol.",
+    "homepage": "https://github.com/Itsusinn/tuic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/EAimTY/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-pc-windows-msvc.exe#/tuic-server.exe",
-                "https://github.com/EAimTY/tuic/releases/download/tuic-client-1.0.0/tuic-client-1.0.0-x86_64-pc-windows-msvc.exe#/tuic-client.exe"
+                "https://github.com/Itsusinn/tuic/releases/download/v1.4.5/tuic-server-x86_64-windows.exe#/tuic-server.exe",
+                "https://github.com/Itsusinn/tuic/releases/download/v1.4.5/tuic-client-x86_64-windows.exe#/tuic-client.exe"
             ],
             "hash": [
-                "09c3bf3790117bf4c0d0505ada439800f19b68a52a018ca2cda7e7f8125adeb6",
-                "28abb1bab9c06450b2bb4292f4cdd725daec56181a71f098dfcb2e8b3ab12ba3"
+                "c0de8031edb590b4c28865a12a5de05dd4ef449c3cb63a23035956b847e7a143",
+                "842e5acf8588dd7e9884de5bc85d3079d3cc4ff493e09d754fd1741143ca0587"
             ]
         }
     },
@@ -19,21 +19,15 @@
         "tuic-server.exe",
         "tuic-client.exe"
     ],
-    "checkver": {
-        "url": "https://github.com/EAimTY/tuic/releases",
-        "regex": "\"/EAimTY/tuic/tree/tuic-server-([^/]+?)\""
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/EAimTY/tuic/releases/download/tuic-server-$version/tuic-server-$version-x86_64-pc-windows-msvc.exe#/tuic-server.exe",
-                    "https://github.com/EAimTY/tuic/releases/download/tuic-client-$version/tuic-client-$version-x86_64-pc-windows-msvc.exe#/tuic-client.exe"
+                    "https://github.com/Itsusinn/tuic/releases/download/v$version/tuic-server-x86_64-windows.exe#/tuic-server.exe",
+                    "https://github.com/Itsusinn/tuic/releases/download/v$version/tuic-client-x86_64-windows.exe#/tuic-client.exe"
                 ]
             }
-        },
-        "hash": {
-            "url": "$url.sha256sum"
         }
     }
 }
