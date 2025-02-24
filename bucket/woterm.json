@@ -1,11 +1,11 @@
 {
-    "version": "10.1.2",
+    "version": "10.1.3",
     "description": "A cross platform remote access management tool, out of the box, no configuration, safe and stable.",
     "homepage": "https://www.woterm.com/",
     "license": "Liteware",
-    "url": "http://down.woterm.com/window/woterm-windows-v10.1.2-202502071020.tar.gz",
-    "hash": "28b489dd699ab915a3b85f1a6154953fbc9cc5d1b3bdc507f55409f62397d42a",
-    "extract_dir": "woterm-windows-v10.1.2-202502071020",
+    "url": "http://down.woterm.com/window/woterm-windows-v10.1.3-202502241547.tar.gz",
+    "hash": "9beb2e8ea10defef7c44fa322d4dd73226f5c0bfb71f2927cf83e6f6aea629d3",
+    "extract_dir": "woterm-windows-v10.1.3-202502241547",
     "bin": "bin\\woterm.exe",
     "shortcuts": [
         [
