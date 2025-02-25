@@ -1,12 +1,12 @@
 {
-    "version": "6.1",
+    "version": "7.0",
     "description": "A tool to detect dead links and redirections.",
     "homepage": "https://www.aignes.com/deadlink.htm",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.aignes.com/download/dlsetup.exe",
-            "hash": "8a3c1a1a56922e0666f9da744584452f2c59784f1bb9d9dbda3db985f134d3a4"
+            "hash": "153781d548d0a55fb16e593ef9e6ad21eccbf1a9c7f7593277c7ec6b88101db6"
         }
     },
     "innosetup": true,
