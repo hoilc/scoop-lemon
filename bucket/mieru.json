@@ -1,12 +1,12 @@
 {
-    "version": "3.11.2",
+    "version": "3.12.0",
     "description": "A socks5 / HTTP / HTTPS proxy.",
     "homepage": "https://github.com/enfein/mieru",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/enfein/mieru/releases/download/v3.11.2/mieru_3.11.2_windows_amd64.zip",
-            "hash": "fb40506823155adc74a9a88feae1e237869e51dd0e662f29bc0f8148dfb047f7"
+            "url": "https://github.com/enfein/mieru/releases/download/v3.12.0/mieru_3.12.0_windows_amd64.zip",
+            "hash": "4649bacd3db0ddf4b596cb7ac6c6258d60347899c163981cb7ffc82a27aff8a7"
         }
     },
     "bin": "mieru.exe",
