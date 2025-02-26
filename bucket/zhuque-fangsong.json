@@ -1,10 +1,10 @@
 {
-    "version": "0.210",
+    "version": "0.211",
     "description": "朱雀仿宋 (Zhuque Fangsong) 是一套开源仿宋字库，志在提供高质量的、支持多语言的正文仿宋解决方案",
     "homepage": "https://github.com/TrionesType/zhuque",
     "license": "OFL-1.1",
-    "url": "https://github.com/TrionesType/zhuque/releases/download/v0.210/ZhuqueFangsong-v0.210.zip",
-    "hash": "17afd2e7a196ec4a3139f2fea0a174285aac148c76f5a9bc7eb7d72039a9b87a",
+    "url": "https://github.com/TrionesType/zhuque/releases/download/v0.211/ZhuqueFangsong-v0.211.zip",
+    "hash": "4141782e9f36bc669d042422505f5c506df47930ee7bfa82342d8cec631f8f10",
     "checkver": {
         "url": "https://github.com/TrionesType/zhuque/releases",
         "regex": "\"/TrionesType/zhuque/tree/v([\\d.]+)\""
