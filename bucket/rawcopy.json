@@ -1,5 +1,5 @@
 {
-    "version": "20240626",
+    "version": "20250212",
     "description": "A command line tool to read and write files and devices.",
     "homepage": "http://www.ltr-data.se/opencode.html#rawcopy",
     "license": {
@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "http://static.ltr-data.se/files/win64/rawcopy64.zip",
-            "hash": "a3fcab75cbb892c5fbedeb7263b7d5e84b992f01c3ec1b346ae92a5d65b94862"
+            "hash": "6100fe5f76d2926971c56dbf6b27a6cc5f6ec2dd8e0da49eed65265a0a6aa111"
         },
         "32bit": {
             "url": "http://static.ltr-data.se/files/rawcopy.zip",
-            "hash": "959c268f9bc176ad04c639cf7073034744cd78c8b45ecdeb8df45853432e49d6"
+            "hash": "77e9a86c20216e4cb698b353a080ba3261842717588e7aefdef2ee19538dda61"
         },
         "arm64": {
             "url": "http://static.ltr-data.se/files/winarm64/rawcopy.zip",
-            "hash": "ee82fc815f0a388fa85177140d54a18b88158c2570d507c0d443db6198ef2cfb"
+            "hash": "964de7b1b971d3128404e08380224ad0166020af9ce53a2e647f093c3802095a"
         }
     },
     "bin": "rawcopy.exe",
