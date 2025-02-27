@@ -1,5 +1,5 @@
 {
-    "version": "20230104",
+    "version": "20221223",
     "description": "A streaming backup/archive tool which uses the same backup methods as the ntbackup or robocopy.",
     "homepage": "http://static.ltr-data.se/files/strarc.txt",
     "license": {
