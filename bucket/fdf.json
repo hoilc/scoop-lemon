@@ -1,5 +1,5 @@
 {
-    "version": "20240321",
+    "version": "20250213",
     "description": "A command line utility to search for duplicate files and optionally delete or hard link them to save disk space.",
     "homepage": "http://www.ltr-data.se/opencode.html#fdf",
     "license": {
@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "http://static.ltr-data.se/files/win64/fdf64.zip",
-            "hash": "f0654318c6bf49846830b926f0efb6802e5c4a655e3498f12969dafc718f46ff"
+            "hash": "abd7097a21151ec6e082299a2c11202256e208cce4a233b8847966fa8d5687eb"
         },
         "32bit": {
             "url": "http://static.ltr-data.se/files/fdf.zip",
-            "hash": "0e87b5245e3eaf7d1b0a1f6334d058f5602701a259fd392723e83e398c62d608"
+            "hash": "d186c7bcc76f4b2dfd1f3081d5952d4c737dd18e4b4d732b5740dff481a34843"
         },
         "arm64": {
             "url": "http://static.ltr-data.se/files/winarm64/fdf.zip",
-            "hash": "f342808aaa4b795dba9ab60286a2a7f831c939c490aad4f5acebc86368e9c0bc"
+            "hash": "3cc7284885e95732871a14ed7ddfa8b4976370deb7d3e588e0d3778e743376fa"
         }
     },
     "bin": "fdf.exe",
