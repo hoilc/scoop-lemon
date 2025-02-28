@@ -10,12 +10,12 @@
         "64bit": {
             "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.2/objeck-windows-x64_2025.2.2.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "sha1:abaced96d0ebd8005429695d361c217d946abc5f"
+            "hash": "sha1:402043e573e035063b6e785e9a0d41f0175f8a1e"
         },
         "arm64": {
             "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.2.2/objeck-windows-arm64_2025.2.2.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "sha1:dd12f853f651bab97b8ca17f506a242525f0cda4"
+            "hash": "sha1:1865df8499bc44ebb195e2f18bf34b8337d0c08c"
         }
     },
     "shortcuts": [
