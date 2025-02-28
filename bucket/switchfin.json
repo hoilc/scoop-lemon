@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/dragonflylee/switchfin/releases/download/0.6.2/Switchfin-windows-x64.7z",
-            "hash": "2e8984c2b75254097c31f617d8cc31d67ca87a7572cb49017f25f33aad943e3a"
+            "hash": "196f92691fc21de2e7aa1bf12484dbb52f76371719bc6639bd57c95bc2809f80"
         },
         "32bit": {
             "url": "https://github.com/dragonflylee/switchfin/releases/download/0.6.2/Switchfin-windows-x86.7z",
-            "hash": "807d4b72e03fe0a7987683c67495a4274e33b4d792d369f07c142afd17f36632"
+            "hash": "dc90f47568288cdea0af5631d708f3e27cc6a033bfded2def105bcd1462490b0"
         },
         "arm64": {
             "url": "https://github.com/dragonflylee/switchfin/releases/download/0.6.2/Switchfin-windows-arm64.7z",
