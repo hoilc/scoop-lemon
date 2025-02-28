@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Azure/azqr/releases/download/v.2.4.0/azqr-windows-latest-amd64.exe#/azqr.exe",
-            "hash": "ec2431dc58ead09ec16a146aa869a688d2776b77d02981f312f347c9fd6eae54"
+            "hash": "7917ca3bfe5ae22af99fb4610f3675df67ec0244a0b5e808277d2263abe2d106"
         }
     },
     "bin": "azqr.exe",
