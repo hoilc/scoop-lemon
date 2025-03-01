@@ -1,12 +1,12 @@
 {
-    "version": "6.1.2.3",
+    "version": "6.1.3.3",
     "description": "C# application with primary purpose of idling Steam cards from multiple accounts simultaneously.",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.2.3/ASF-win-x64.zip",
-            "hash": "sha512:aa5ccde89de29b6bc1df4ef408aa1322578b895b09588cc74dbc7a30c1be8ff483037eb300d4303baf21d376bb7bd9461fd59206d4966277f478706f2b381e04"
+            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.3.3/ASF-win-x64.zip",
+            "hash": "sha512:88581e941dbf9cd0ba6e15cbc685233a3e0792532b6e04e84bd7148283b5996966629f049257f6c6323ecfc85930993c6c22e64af75e55a19a81650dff337ccc"
         }
     },
     "suggest": {
