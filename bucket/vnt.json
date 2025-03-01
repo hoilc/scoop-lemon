@@ -1,0 +1,37 @@
+{
+    "version": "1.2.16",
+    "description": "An efficient VPN / 简便高效的异地组网、内网穿透工具",
+    "homepage": "https://rustvnt.com/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vnt-dev/vnt/releases/download/v1.2.16/vnt-x86_64-pc-windows-msvc-v1.2.16.tar.gz",
+            "hash": "fa729769a38fa48d55eaaff4e4fea39809f789e4f7797ef099f1857cf6331e21"
+        },
+        "32bit": {
+            "url": "https://github.com/vnt-dev/vnt/releases/download/v1.2.16/vnt-i686-pc-windows-msvc-v1.2.16.tar.gz",
+            "hash": "d7355c262da5877f411d377b8bd76b935c51935a6cbfb7c35da9234866c901ef"
+        }
+    },
+    "bin": [
+        "vnt-cli.exe",
+        "vn-link-cli.exe"
+    ],
+    "suggest": {
+        "wintun-libs": "lemon/wintun-libs"
+    },
+    "post_install": "if (installed 'wintun-libs' $global) {Copy-Item \"$(appdir wintun-libs $global)\\current\\wintun.dll\" \"$dir\\\" } else { error 'It is recommended to install `lemon/wintun-libs` first, then reinstall `lemon/vnt`.'}",
+    "checkver": {
+        "github": "https://github.com/vnt-dev/vnt"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vnt-dev/vnt/releases/download/v$version/vnt-x86_64-pc-windows-msvc-v$version.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/vnt-dev/vnt/releases/download/v$version/vnt-i686-pc-windows-msvc-v$version.tar.gz"
+            }
+        }
+    }
+}
