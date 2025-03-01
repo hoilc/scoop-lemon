@@ -1,12 +1,12 @@
 {
-    "version": "3.1.6",
+    "version": "3.1.7",
     "description": "A GUI Store for the most common cli package managers, sych as Winget and Scoop.",
     "homepage": "https://github.com/martinet101/WinGetUI",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinet101/WinGetUI/releases/download/3.1.6/WingetUI.Installer.exe",
-            "hash": "d77959b5268b4850f8b98de02d7b7bf6ce25a7ea7a9a15ec764065f03f10ca97"
+            "url": "https://github.com/martinet101/WinGetUI/releases/download/3.1.7/WingetUI.Installer.exe",
+            "hash": "507a59a0df140ac35785f81750bf7954e788b33ceab916acd51571ee048fbcf3"
         }
     },
     "innosetup": true,
