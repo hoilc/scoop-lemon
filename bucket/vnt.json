@@ -17,6 +17,7 @@
         "vnt-cli.exe",
         "vn-link-cli.exe"
     ],
+    "persist": "env",
     "suggest": {
         "wintun-libs": "lemon/wintun-libs"
     },
