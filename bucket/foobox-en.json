@@ -1,10 +1,10 @@
 {
-    "version": "7.40",
+    "version": "7.41",
     "description": "A DUI (Default User Interface) layout for foobar2000, providing friendly & modern UI and extensive capability for library management, artwork support etc.",
     "homepage": "https://github.com/dream7180/foobox-en",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/dream7180/foobox-en/releases/download/7.40/foobox_x64.en.v7.40-1.exe#/dl.7z",
-    "hash": "a5fafca51bf0101fb68847fceefceea4f5571d1b370ba22728d1852e28fb6313",
+    "url": "https://github.com/dream7180/foobox-en/releases/download/7.41/foobox_x64.en.v7.41-1.exe#/dl.7z",
+    "hash": "6af64c0f974b1f14cb6679f19f60299832af0f374e620639a798d35b2b2a5468",
     "shortcuts": [
         [
             "foobar2000.exe",
