@@ -10,10 +10,10 @@
             "hash": "ba911083a26922d29a6a5612b5086a1180b0754e5e07dfbcd3b57388a0f49198"
         }
     },
-    "bin": "cli\\bin\\xpipe.exe",
+    "bin": "bin\\xpipe.exe",
     "shortcuts": [
         [
-            "app\\xpiped.exe",
+            "xpiped.exe",
             "XPipe"
         ]
     ],
