@@ -1,18 +1,18 @@
 {
-    "version": "0.17.0",
+    "version": "0.17.1",
     "description": "A Prometheus exporter for PostgreSQL server metrics.",
     "homepage": "https://github.com/prometheus-community/postgres_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus-community/postgres_exporter/releases/download/v0.17.0/postgres_exporter-0.17.0.windows-amd64.zip",
-            "hash": "7eefcc150bf32672374235c200ce946dd2e22174f46ea29f1d8e46d0a308dd5f",
-            "extract_dir": "postgres_exporter-0.17.0.windows-amd64"
+            "url": "https://github.com/prometheus-community/postgres_exporter/releases/download/v0.17.1/postgres_exporter-0.17.1.windows-amd64.zip",
+            "hash": "3fdd711dbb7162b51f10cfb27532454dd92a87ec82de9e860cffac8a6f4a219e",
+            "extract_dir": "postgres_exporter-0.17.1.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus-community/postgres_exporter/releases/download/v0.17.0/postgres_exporter-0.17.0.windows-386.zip",
-            "hash": "ba53a904d7f8fe344d41f107f1d6d3fa8533f937f29f6669c59e78181bd19e4d",
-            "extract_dir": "postgres_exporter-0.17.0.windows-386"
+            "url": "https://github.com/prometheus-community/postgres_exporter/releases/download/v0.17.1/postgres_exporter-0.17.1.windows-386.zip",
+            "hash": "8ed8c13ffc1c2122d40d8dd08d209861679199246848e7bfefcf4e6b66331913",
+            "extract_dir": "postgres_exporter-0.17.1.windows-386"
         }
     },
     "bin": "postgres_exporter.exe",
