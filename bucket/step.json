@@ -1,15 +1,15 @@
 {
-    "version": "0.28.3",
+    "version": "0.28.5",
     "description": "A toolkit for working with your public key infrastructure (PKI).",
     "homepage": "https://smallstep.com/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/smallstep/cli/releases/download/v0.28.3/step_windows_0.28.3_amd64.zip",
-            "hash": "aea4f8d085f775d4aafebcc914aba0e660ff161b1cd27b5aa7402a0ae914a773"
+            "url": "https://github.com/smallstep/cli/releases/download/v0.28.5/step_windows_0.28.5_amd64.zip",
+            "hash": "393da5f8bbbee1affcc82a8267eb10be74375cef557653f5a36753e489549850"
         }
     },
-    "extract_dir": "step_0.28.3\\bin",
+    "extract_dir": "step_0.28.5\\bin",
     "bin": "step.exe",
     "checkver": {
         "github": "https://github.com/smallstep/cli"
