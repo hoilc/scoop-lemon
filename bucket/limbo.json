@@ -1,12 +1,12 @@
 {
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "A project to build the modern evolution of SQLite.",
     "homepage": "https://github.com/tursodatabase/limbo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tursodatabase/limbo/releases/download/v0.0.15/limbo_cli-x86_64-pc-windows-msvc.zip",
-            "hash": "790763ca1ab64cbfc51107599f78289514cd8910f0c032cda4fcc71a5087cd31"
+            "url": "https://github.com/tursodatabase/limbo/releases/download/v0.0.16/limbo_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "86d569db5b9f0be0dc4671d69d1b4d8bac3bdb12e187534ac48d0f808b9375fd"
         }
     },
     "bin": "limbo.exe",
