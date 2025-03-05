@@ -1,20 +1,20 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "订阅转换合并，节点可用性，测速，重命名，导出为mihomo/clash订阅工具",
     "homepage": "https://github.com/bestruirui/BestSub",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.1/BestSub_Windows_x86_64.zip",
-            "hash": "b4038b8db6a6efdadf7a01aec6965a12a40ac8c70d6a104f4c8b2317cf94366c"
+            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.2/BestSub_Windows_x86_64.zip",
+            "hash": "3cdb37d3f7b24f745db99b5520c3d6bbe8de7c4df5d3ff70a9ba7851d74555f6"
         },
         "32bit": {
-            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.1/BestSub_Windows_i386.zip",
-            "hash": "6bad781910c68d6ac70abe4a418ede6b717eafe95531935c4db33b88c2947651"
+            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.2/BestSub_Windows_i386.zip",
+            "hash": "94c2a23aaa3b5a03cb93a44043925d30a571ed479f77b6437dfc6acec1175255"
         },
         "arm64": {
-            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.1/BestSub_Windows_aarch64.zip",
-            "hash": "ebebe7f0954b19fc4ad8586eda77cc2d875e98bd588c876cb75d825ec80a2107"
+            "url": "https://github.com/bestruirui/BestSub/releases/download/v0.2.2/BestSub_Windows_aarch64.zip",
+            "hash": "323d3ee550c90c6b11ca02adac3439d8f16080afd9a9645cb6a4a9f38b7866da"
         }
     },
     "bin": "BestSub.exe",
