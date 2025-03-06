@@ -1,10 +1,10 @@
 {
-    "version": "1.11.0",
+    "version": "1.11.1",
     "description": "A modern, general purpose JVM language decompiler focused on providing the best quality, speed, and usability.",
     "homepage": "https://vineflower.org/",
     "license": "Apache-2.0",
-    "url": "https://github.com/Vineflower/vineflower/releases/download/1.11.0/vineflower-1.11.0.jar#/vineflower.jar",
-    "hash": "fdb629f43151221e05ad5337d93c322e46bc275162344942ae92a7cea6f81129",
+    "url": "https://github.com/Vineflower/vineflower/releases/download/1.11.1/vineflower-1.11.1.jar#/vineflower.jar",
+    "hash": "a615d07ddbbcd489369674f40e42df639c32be95410890b38f173d5c1e2ea39c",
     "bin": "vineflower.jar",
     "suggest": {
         "JDK 11+": [
