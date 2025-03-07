@@ -1,12 +1,12 @@
 {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "A Google Authenticator migration decoder that converts otpauth-migration://offline?data=... to plain otpauth links.",
     "homepage": "https://github.com/dim13/otpauth",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dim13/otpauth/releases/download/v0.5.3/otpauth-v0.5.3-windows-amd64.tgz",
-            "hash": "c116f48f80439065ae72d3efdb7c83fd0e99a85d5ecddff5c8262e6dda70efe7"
+            "url": "https://github.com/dim13/otpauth/releases/download/v0.5.4/otpauth-v0.5.4-windows-amd64.tgz",
+            "hash": "d8126fb03057af2716b98dc8c5e605881e64ec1b0da93f98ff917184152fc501"
         }
     },
     "bin": "otpauth.exe",
