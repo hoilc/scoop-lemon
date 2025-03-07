@@ -1,11 +1,11 @@
 {
-    "version": "1.2",
+    "version": "1.3",
     "description": "A plugin for KeePass 2.x which provides various user interface options.",
     "homepage": "https://keepass.info/plugins.html#keeuiext",
     "license": "Freeware",
     "depends": "extras/keepass",
-    "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.2.zip",
-    "hash": "e0bf1918d58b5fad79b35e306436aa887208e670bc4d492f22aac57e52c61c9f",
+    "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.3.zip",
+    "hash": "e47b692dc03bfb36d7dcb6e6e511a9fae305fd68b83ac218af04044c8bbb3fe2",
     "checkver": {
         "regex": "KeeUIExt-([\\d.]+).zip"
     },
