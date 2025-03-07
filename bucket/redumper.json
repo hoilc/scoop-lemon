@@ -1,18 +1,18 @@
 {
-    "version": "489",
+    "version": "490",
     "description": "A low level CD dumper utility.",
     "homepage": "https://github.com/superg/redumper",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superg/redumper/releases/download/build_489/redumper-2025.03.02_build489-Windows64.zip",
-            "extract_dir": "redumper-2025.03.02_build489-Windows64\\bin",
-            "hash": "21419c1370fc0ab3ddd916ab7084832dfe16fcfda7a71fcb83d54b65f17a27e8"
+            "url": "https://github.com/superg/redumper/releases/download/build_490/redumper-2025.03.07_build490-Windows64.zip",
+            "extract_dir": "redumper-2025.03.07_build490-Windows64\\bin",
+            "hash": "843eb1c4b175651de25d358a981797ecbc45f4b5404f05b6ba0f801d3e82764e"
         },
         "32bit": {
-            "url": "https://github.com/superg/redumper/releases/download/build_489/redumper-2025.03.02_build489-Windows32.zip",
-            "extract_dir": "redumper-2025.03.02_build489-Windows32\\bin",
-            "hash": "c5bc3a13a903f2292f105f6eda5055318ac8ebd5b1693469519819b6cd33b81b"
+            "url": "https://github.com/superg/redumper/releases/download/build_490/redumper-2025.03.07_build490-Windows32.zip",
+            "extract_dir": "redumper-2025.03.07_build490-Windows32\\bin",
+            "hash": "0afedfba9710e59c313108391a5fdac3e896f54f1f17261c4c45717f16a02943"
         }
     },
     "bin": "redumper.exe",
