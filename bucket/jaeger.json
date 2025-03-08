@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jaegertracing/jaeger/releases/download/v1.67.0/jaeger-1.67.0-windows-amd64.zip",
-            "extract_dir": "jaeger-1.52.0-windows-amd64",
+            "extract_dir": "jaeger-1.67.0-windows-amd64",
             "hash": "fba849285ae830fc3fd1fe862ad60ad742854220ecba8d7479fbaf6133141ec1"
         }
     },
@@ -24,7 +24,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/jaegertracing/jaeger/releases/download/v$version/jaeger-$version-windows-amd64.zip",
-                "extract_dir": "jaeger-1.52.0-windows-amd64"
+                "extract_dir": "jaeger-$version-windows-amd64"
             }
         }
     }
