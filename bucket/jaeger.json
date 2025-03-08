@@ -14,8 +14,7 @@
         "jaeger-ingester.exe",
         "jaeger-all-in-one.exe",
         "jaeger-query.exe",
-        "jaeger-collector.exe",
-        "jaeger-agent.exe"
+        "jaeger-collector.exe"
     ],
     "checkver": {
         "github": "https://github.com/jaegertracing/jaeger"
