@@ -1,16 +1,16 @@
 {
-    "version": "0.0.31-beta",
+    "version": "0.0.32-beta",
     "description": "A tunnel solution that allows you to expose local http, tcp or websocket connections to the public internet.",
     "homepage": "https://portr.dev/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/amalshaji/portr/releases/download/0.0.31-beta/portr_0.0.31-beta_Windows_x86_64.zip",
-            "hash": "98765627a10836026b966bff63e3a178c9af477291933f8dffd9ad72e353528b"
+            "url": "https://github.com/amalshaji/portr/releases/download/0.0.32-beta/portr_0.0.32-beta_Windows_x86_64.zip",
+            "hash": "dead797c52dc15917b0f00d90205b5a4a4b4f5e81cf3fcc3408ba51ceec1b8da"
         },
         "arm64": {
-            "url": "https://github.com/amalshaji/portr/releases/download/0.0.31-beta/portr_0.0.31-beta_Windows_arm64.zip",
-            "hash": "c41c9860fb96ac45655076150b56b33abd1f8eefe3e2b9fee26559d4837b0a7d"
+            "url": "https://github.com/amalshaji/portr/releases/download/0.0.32-beta/portr_0.0.32-beta_Windows_arm64.zip",
+            "hash": "f9aa44f46dc09d8fcfb4ded78c6d62d667d443204854d72cb6faf9ffadb13c28"
         }
     },
     "bin": "portr.exe",
