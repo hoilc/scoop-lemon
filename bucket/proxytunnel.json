@@ -1,0 +1,21 @@
+{
+    "version": "1.12.3",
+    "description": "Stealth tunneling through HTTP(S) proxies.",
+    "homepage": "https://github.com/proxytunnel/proxytunnel",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/proxytunnel/proxytunnel/releases/download/v1.12.3/proxytunnel-v1.12.3-x86_64-windows-msys.zip",
+            "hash": "7d83403b7cd9b4eec67025f5efbb5dff466fb0d3e36e06840c5211bea36df002"
+        }
+    },
+    "bin": "proxytunnel.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/proxytunnel/proxytunnel/releases/download/v$version/proxytunnel-v$version-x86_64-windows-msys.zip"
+            }
+        }
+    }
+}
