@@ -1,20 +1,20 @@
 {
-    "version": "1.9.8",
+    "version": "1.9.9",
     "description": "A camera streaming application with support RTSP, WebRTC, HomeKit, FFmpeg, RTMP, etc.",
     "homepage": "https://github.com/AlexxIT/go2rtc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.8/go2rtc_win64.zip",
-            "hash": "cbac0dedafc36379253379567dfab1586d022e679e30652a3ffd26b0628cc065"
+            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.9/go2rtc_win64.zip",
+            "hash": "3259a04c402cd22b39092119151140d91b7d9898591c8d94422c6f84eddf7380"
         },
         "32bit": {
-            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.8/go2rtc_win32.zip",
-            "hash": "a19d284644f4f01ae0694e64783c6ca5c1c32a5504ddfc09b088796fd69420f0"
+            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.9/go2rtc_win32.zip",
+            "hash": "55820b598bc3851e49e07a7035811ac5648fc7e615b2a83055caf6aa02a89d55"
         },
         "arm64": {
-            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.8/go2rtc_win_arm64.zip",
-            "hash": "572488e8619b53d7d7c8860bd8f3c9cefc8f438c456a912ee4e7e2a1763d9487"
+            "url": "https://github.com/AlexxIT/go2rtc/releases/download/v1.9.9/go2rtc_win_arm64.zip",
+            "hash": "234f4a2b5d5e5f9124858e886ce8ecb6a8438bd895f848c3171795f923febb58"
         }
     },
     "bin": "go2rtc.exe",
