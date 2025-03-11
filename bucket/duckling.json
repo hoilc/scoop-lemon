@@ -1,12 +1,12 @@
 {
-    "version": "0.0.41",
+    "version": "0.0.39",
     "description": "A fast viewer for CSV/Parquet files and databases such as DuckDB, SQLite, PostgreSQL, MySQL, Clickhouse, etc.",
     "homepage": "https://github.com/l1xnan/duckling",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/l1xnan/duckling/releases/download/v0.0.41/Duckling_0.0.41_x64-setup.exe#/dl.7z",
-            "hash": "56fd6efb90e2ee3ee0911a9a458c99be74e24c315b3aaddbe762bdbe40a721a9"
+            "url": "https://github.com/l1xnan/duckling/releases/download/v0.0.39/Duckling_0.0.39_x64-setup.exe#/dl.7z",
+            "hash": "f9307bbb95943709bc32ad1af54fd2c16dc2b6c77fdbf278d09dcf224243806c"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
