@@ -1,12 +1,12 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Scan a directory for changed files and tail them.",
     "homepage": "https://github.com/alexellis/fstail",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alexellis/fstail/releases/download/0.1.2/fstail.exe",
-            "hash": "b3b561987ba81189f8ae2dd5818abb7e547e828fe1b364b7f17f5eb37225db0f"
+            "url": "https://github.com/alexellis/fstail/releases/download/0.1.3/fstail.exe",
+            "hash": "db38f4159f4a8b8bcf780ca6ee826fdf79c880a2129e4d19ff9f9b5dd86f39bd"
         }
     },
     "bin": "fstail.exe",
