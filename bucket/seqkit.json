@@ -1,16 +1,16 @@
 {
-    "version": "2.9.0",
+    "version": "2.10.0",
     "description": "A cross-platform and ultrafast toolkit for FASTA/Q file manipulation.",
     "homepage": "https://github.com/shenwei356/seqkit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shenwei356/seqkit/releases/download/v2.9.0/seqkit_windows_amd64.exe.tar.gz",
-            "hash": "3941c6a2aa8e433b8a8424fc99c9ab1ab41101ab7f439a17f5727d0f2492c988"
+            "url": "https://github.com/shenwei356/seqkit/releases/download/v2.10.0/seqkit_windows_amd64.exe.tar.gz",
+            "hash": "7a0794aa6214aed6580cee9408b7297159c45a11d2ba76b9bb6e65592ee82b71"
         },
         "32bit": {
-            "url": "https://github.com/shenwei356/seqkit/releases/download/v2.9.0/seqkit_windows_386.exe.tar.gz",
-            "hash": "ffc1219b73e1f339b7883467373d5fb3313e146b1ccc0a0a2f6722d6e7d54bbe"
+            "url": "https://github.com/shenwei356/seqkit/releases/download/v2.10.0/seqkit_windows_386.exe.tar.gz",
+            "hash": "7e2a436dc5101ee32f9b306b355b077cee47bad18ce2876719a247fa8bd53cd7"
         }
     },
     "bin": "seqkit.exe",
