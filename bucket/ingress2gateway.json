@@ -1,20 +1,20 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Ingress2gateway helps translate Ingress and provider-specific resources (CRDs) to Gateway API resources.",
     "homepage": "https://github.com/kubernetes-sigs/ingress2gateway",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.3.0/ingress2gateway_Windows_x86_64.zip",
-            "hash": "0ec6c8454f87cb73b75b8ff3010abfab6a4fa31f79a659711b6a4603be028303"
+            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.4.0/ingress2gateway_Windows_x86_64.zip",
+            "hash": "dd59f3c59ed44c48130dcf911438790eaa36fd0c47be76e6426cf70d856ace9e"
         },
         "32bit": {
-            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.3.0/ingress2gateway_Windows_i386.zip",
-            "hash": "9726e7d9de01ba5dc053fc81846185918fcb81d8a8c9ee18a2295f6fd083753c"
+            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.4.0/ingress2gateway_Windows_i386.zip",
+            "hash": "1cd9cce6f151c3850d2aa0aab70a39786d8550418143e90b0a67dd495db6c68d"
         },
         "arm64": {
-            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.3.0/ingress2gateway_Windows_arm64.zip",
-            "hash": "00d5e0c3f628da54ae71f470d1955e8e175a10f545c517ed9bb361158596be55"
+            "url": "https://github.com/kubernetes-sigs/ingress2gateway/releases/download/v0.4.0/ingress2gateway_Windows_arm64.zip",
+            "hash": "7a299a3d7a161cc7474b90a898e93a07364efe6b130b4831238522e34f15393b"
         }
     },
     "bin": "ingress2gateway.exe",
