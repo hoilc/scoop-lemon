@@ -1,12 +1,12 @@
 {
-    "version": "4.0-beta4",
+    "version": "4.0-beta5",
     "description": "A model-driven Operator Lifecycle Manager (OLM) that improves the experience of running Kubernetes operators.",
     "homepage": "https://juju.is/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://launchpad.net/juju/4.0/4.0-beta4/+download/juju-setup-4.0-beta4.exe",
-            "hash": "md5:5fda464e4432f6e35a5291f76147e16b"
+            "url": "https://launchpad.net/juju/4.0/4.0-beta5/+download/juju-setup-4.0-beta5.exe",
+            "hash": "md5:860595adc8bee6168b83e9246de751ef"
         }
     },
     "innosetup": true,
