@@ -1,12 +1,12 @@
 {
-    "version": "2.15.1",
+    "version": "2.15.2",
     "description": "A command line tool which is designed to write, test and deploy high-quality smart contracts to the Stacks blockchain and Bitcoin.",
     "homepage": "https://github.com/hirosystems/clarinet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hirosystems/clarinet/releases/download/v2.15.1/clarinet-windows-x64.msi",
-            "hash": "24733971501c536659a474c484df4ed2558f49b9e03a6398544d65995008fb19"
+            "url": "https://github.com/hirosystems/clarinet/releases/download/v2.15.2/clarinet-windows-x64.msi",
+            "hash": "11fecb4b04ea811b5f9495f49ed369451126c5047182b43cb82ec8dfc11fa8cf"
         }
     },
     "extract_dir": "PFiles\\clarinet\\bin",
