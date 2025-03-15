@@ -1,13 +1,13 @@
 {
-    "version": "15.4",
+    "version": "15.5",
     "description": "A new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine.",
     "homepage": "https://xpipe.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xpipe-io/xpipe/releases/download/15.4/xpipe-portable-windows-x86_64.zip",
-            "extract_dir": "xpipe-15.4",
-            "hash": "abaaf4ad181a889e7024f92e9eabd80b18b01e2aafc4ab2f9f2bf587b4f5d43b"
+            "url": "https://github.com/xpipe-io/xpipe/releases/download/15.5/xpipe-portable-windows-x86_64.zip",
+            "extract_dir": "xpipe-15.5",
+            "hash": "7ce2f333c321d0c3b5bcb5b3df3bef13619bbaf602a448a36bddd6865eab205a"
         }
     },
     "bin": "bin\\xpipe.exe",
