@@ -1,10 +1,10 @@
 {
-    "version": "7.0-beta36",
+    "version": "7.0",
     "description": "Open source monospace/nerd font with round corner for IDE and command line.",
     "homepage": "https://github.com/subframe7536/Maple-font",
     "license": "OFL-1.1",
-    "url": "https://github.com/subframe7536/maple-font/releases/download/v7.0-beta36/MapleMono-NF-unhinted.zip",
-    "hash": "d4dc9980d35b1af1511f42a953ab14b16f5843d8dbe9a74564fa2d91a4796857",
+    "url": "https://github.com/subframe7536/maple-font/releases/download/v7.0/MapleMono-NF-unhinted.zip",
+    "hash": "e4fe360470e722fe19378ac3b4458509611cf8d7cf774a874f654e5b62619fe4",
     "checkver": {
         "url": "https://github.com/subframe7536/Maple-font/releases.atom",
         "regex": "Repository/\\d+/v(.+?)<"
