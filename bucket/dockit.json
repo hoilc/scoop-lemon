@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "A modern GUI clients for Elasticsearch, OpenSearch and etc.",
     "homepage": "https://dockit.geekfun.club/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/geek-fun/dockit/releases/download/v0.5.0/DocKit_0.5.0_x64-setup.exe#/dl.7z",
-            "hash": "d26dac9bcd83d4c6e3293b63405499cf0dae0116cc37bb36e8b386cc980c96f9"
+            "url": "https://github.com/geek-fun/dockit/releases/download/v0.6.0/DocKit_0.6.0_x64-setup.exe#/dl.7z",
+            "hash": "e1e4e0ff19896b86531be2759436bd88fccd11cc6c18fdaa9b8ccd51bfd6a613"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Force -Recurse",
