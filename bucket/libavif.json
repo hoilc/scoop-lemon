@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "avifenc/avifdec is the AV1 Image File Format (AVIF) encoder/decoder.",
     "homepage": "https://github.com/AOMediaCodec/libavif",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AOMediaCodec/libavif/releases/download/v1.2.0/windows-artifacts.zip",
-            "hash": "a4164eea7cee432e285bf2658e880b062557955ffe7883fe2d23e54ab599d632"
+            "url": "https://github.com/AOMediaCodec/libavif/releases/download/v1.2.1/windows-artifacts.zip",
+            "hash": "60713a0eb2704671e11e61897b1f35cbc0efaab25312b2d4b6f300769ba4472a"
         }
     },
     "bin": [
