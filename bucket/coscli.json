@@ -1,16 +1,16 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "COSCLI 是腾讯云对象存储（Cloud Object Storage，COS）提供的客户端命令行工具，支持配置多个存储桶和跨桶操作",
     "homepage": "https://github.com/tencentyun/coscli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-windows-amd64.exe#/coscli.exe",
-            "hash": "91ecab74d4204a0a1a2b0f3621de8ac4a17242beaa4bfce7099be3479cfa5679"
+            "hash": "b915301a35bd3b02f29d6747abd2ebdb690bb477a02b0379c879f6136c70ddb4"
         },
         "32bit": {
             "url": "https://cosbrowser.cloud.tencent.com/software/coscli/coscli-windows-386.exe#/coscli.exe",
-            "hash": "4a4c7e96ad2f5cad0b5fc0f5f94677beb208f71f7d103cea3374908793ac531e"
+            "hash": "7629e139e3e38f6fea1a9574c730385e834cfe6746bf237ad4031999fed01b4c"
         }
     },
     "bin": "coscli.exe",
