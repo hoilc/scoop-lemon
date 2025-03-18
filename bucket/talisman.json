@@ -1,20 +1,20 @@
 {
-    "version": "1.32.1",
+    "version": "1.32.2",
     "description": "A tool that installs a hook to your repository to ensure that potential secrets or sensitive information do not leave the developer's workstation.",
     "homepage": "https://thoughtworks.github.io/talisman/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.1/talisman_windows_amd64.exe#/talisman.exe",
-            "hash": "ee7c79624a0d53d384314720147ab9464e0e1c22e86b9f5fa3536ad485236e74"
+            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.2/talisman_windows_amd64.exe#/talisman.exe",
+            "hash": "d106d6c2b3691ccecc6936495e543980a4ec554998d2b0115e06e98af5327d10"
         },
         "32bit": {
-            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.1/talisman_windows_386.exe#/talisman.exe",
-            "hash": "b85b57bd9703390a89fdf134ab564ce68202a4816fae3f30a262d7d3c7a29350"
+            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.2/talisman_windows_386.exe#/talisman.exe",
+            "hash": "0f9ab5f93642dd0053636c02134cf6a5ad170071d51b4a3778e40111ed2de0ac"
         },
         "arm64": {
-            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.1/talisman_windows_arm64.exe#/talisman.exe",
-            "hash": "d7e7c03e15cb7934c8c398b9f2327bd4acd86ae2a5bf180dbd69928d98016edb"
+            "url": "https://github.com/thoughtworks/talisman/releases/download/v1.32.2/talisman_windows_arm64.exe#/talisman.exe",
+            "hash": "0ae1e9d2b702a5171d1375c3b05b59db4b47b94894fd4c70d01170daf7d3b593"
         }
     },
     "bin": "talisman.exe",
