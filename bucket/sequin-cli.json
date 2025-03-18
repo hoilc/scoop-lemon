@@ -1,16 +1,16 @@
 {
-    "version": "0.6.72",
+    "version": "0.6.73",
     "description": "An open source message stream built on Postgres.",
     "homepage": "https://github.com/sequinstream/sequin",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sequinstream/sequin/releases/download/v0.6.72/sequin-cli-v0.6.72-windows-amd64.zip",
-            "hash": "94b4f78306db3b1428a5ab239438079496145eb9bbb65003f51cf369cf5327c6"
+            "url": "https://github.com/sequinstream/sequin/releases/download/v0.6.73/sequin-cli-v0.6.73-windows-amd64.zip",
+            "hash": "72ca15c1ac7d4da5c2b5e51cd483ab4a1ef9af209fdae3658dc0e3eb408d4cd9"
         },
         "32bit": {
-            "url": "https://github.com/sequinstream/sequin/releases/download/v0.6.72/sequin-cli-v0.6.72-windows-386.zip",
-            "hash": "48b0780c3fbbdb49ee6ffc8fdd30499a129e7a17ce64dd6f84f377de2bc49eaa"
+            "url": "https://github.com/sequinstream/sequin/releases/download/v0.6.73/sequin-cli-v0.6.73-windows-386.zip",
+            "hash": "ce02e67fa624c7ae8c7446c148ea21e8b15e573f5241f29da0eb8f4bec92773c"
         }
     },
     "bin": "sequin-cli.exe",
