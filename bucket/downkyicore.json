@@ -1,16 +1,16 @@
 {
-    "version": "1.0.16",
+    "version": "1.0.17",
     "description": "哔哩下载姬（跨平台版）downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）",
     "homepage": "https://github.com/yaobiao131/downkyicore",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.16/DownKyi-1.0.16-1.win-x64.zip",
-            "hash": "ef74200ef9e3bacfd15311d5a7edfdd1c93bd1f5606cfeb93badbf659b1e9635"
+            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.17/DownKyi-1.0.17-1.win-x64.zip",
+            "hash": "59dc9d357b90de9033ed558743f3e8fbb2c65c4faa590bccdd2d4754d7fdf02e"
         },
         "32bit": {
-            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.16/DownKyi-1.0.16-1.win-x86.zip",
-            "hash": "61190d1cceb4005c5bdab0534f1447b77291a8a6f40c807292116034bb9806d9"
+            "url": "https://github.com/yaobiao131/downkyicore/releases/download/v1.0.17/DownKyi-1.0.17-1.win-x86.zip",
+            "hash": "0d39e8865d30f652a964c339c37a2572a2576c89d210ec9afc141e12237c40e7"
         }
     },
     "shortcuts": [
