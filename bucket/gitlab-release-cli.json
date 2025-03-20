@@ -1,16 +1,16 @@
 {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "GitLab Release command-line tool is an application written in Golang to interact with GitLab's Releases API.",
     "homepage": "https://gitlab.com/gitlab-org/release-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://gitlab.com/api/v4/projects/gitlab-org%2Frelease-cli/packages/generic/release-cli/latest/release-cli-windows-amd64.exe#/release-cli.exe",
-            "hash": "531475cfaccb9485a87151e37e0eeb1517629c96fdf3f3aa1493f23265b742dc"
+            "hash": "51e20d9ed5f575ae7b76357397d381b7f657ce181b85ca73e93abfa2de8610b0"
         },
         "32bit": {
             "url": "https://gitlab.com/api/v4/projects/gitlab-org%2Frelease-cli/packages/generic/release-cli/latest/release-cli-windows-386.exe#/release-cli.exe",
-            "hash": "f0375a3cb1fe9c088e427f889068c3822120c020981d9f49603b5748b8bf53b7"
+            "hash": "c3c38033dd6dc13bc5762ea0217e70c71939217db28ae82665b622a6cbbccd48"
         }
     },
     "bin": "release-cli.exe",
