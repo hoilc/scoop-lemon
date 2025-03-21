@@ -1,18 +1,18 @@
 {
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "A command line interface for the Anchor.dev certificate management platform.",
     "homepage": "https://github.com/anchordotdev/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anchordotdev/cli/releases/download/v0.1.9/anchor_Windows_x86_64.zip",
+            "url": "https://github.com/anchordotdev/cli/releases/download/v0.1.10/anchor_Windows_x86_64.zip",
             "extract_dir": "anchor_Windows_x86_64",
-            "hash": "11e385899e2876137ecc9dcaf4de4eb94a621e90910a00d9551ace444407b5f4"
+            "hash": "4dbaf1a1d31c09f9fafacf6bf7d8f1e20270e90bccf2f4e300d6c48f0cafa72c"
         },
         "32bit": {
-            "url": "https://github.com/anchordotdev/cli/releases/download/v0.1.9/anchor_Windows_i386.zip",
+            "url": "https://github.com/anchordotdev/cli/releases/download/v0.1.10/anchor_Windows_i386.zip",
             "extract_dir": "anchor_Windows_i386",
-            "hash": "2fd35b96dae5cbb452b5d534cfe7237cb4c0c95e49ed732f676e17b35d6010d3"
+            "hash": "190714280b7e1996aca3fa7058cfdd0b56fe02e5eefed5e75f6fc817cb7427de"
         }
     },
     "bin": "anchor.exe",
