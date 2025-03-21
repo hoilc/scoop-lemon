@@ -1,13 +1,13 @@
 {
-    "version": "1.6.8",
+    "version": "1.7.0",
     "description": "A utility for file format and metadata analysis, data extraction, decompression, and image format decoding.",
     "homepage": "https://entropymine.com/deark/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://entropymine.com/deark/releases/deark-1.6.8.tar.gz",
-            "extract_dir": "deark-1.6.8\\x64",
-            "hash": "ad4846a0eb4a8247e9893f42a8ab2b89750a0fea060d60626684746bf511f6a4"
+            "url": "https://entropymine.com/deark/releases/deark-1.7.0.tar.gz",
+            "extract_dir": "deark-1.7.0\\x64",
+            "hash": "7c3752c2c783cd6c4e22e527f1d72dbee9166883a156d25fbf98f73a8c44c8be"
         }
     },
     "bin": "deark.exe",
