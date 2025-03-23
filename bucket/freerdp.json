@@ -16,7 +16,8 @@
     "extract_dir": "archive\\install\\bin",
     "bin": [
         "freerdp-proxy.exe",
-        "sdl-freerdp.exe",
+        "sdl2-freerdp.exe",
+        "sdl3-freerdp.exe",
         "sfreerdp-server.exe",
         "wfreerdp.exe",
         "winpr-hash.exe",
