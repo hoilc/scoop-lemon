@@ -1,20 +1,20 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.1",
     "description": "A utility that manages the aws-auth config map for EKS Kubernetes clusters",
     "homepage": "https://github.com/keikoproj/aws-auth",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.5.0/aws-auth_v0.5.0_windows_amd64.tar.gz",
-            "hash": "89c5fb31f1454209127fcd46740183502facb9be848434d49ff57655dd867387"
+            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.6.1/aws-auth_v0.6.1_windows_amd64.tar.gz",
+            "hash": "2f0ce13b1a882f667daabc6f380ab53d8d52e63cf667a513146aae9d3d1e2db2"
         },
         "32bit": {
-            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.5.0/aws-auth_v0.5.0_windows_386.tar.gz",
-            "hash": "2f87fb29f507aa626d38aff6a2aa5b050550258c98b62d84c5ad3f20ae3e5108"
+            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.6.1/aws-auth_v0.6.1_windows_386.tar.gz",
+            "hash": "6f56aa69e6471091dfc2c148463110cef88adaf52a80e97a7dcf09be087dfe92"
         },
         "arm64": {
-            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.5.0/aws-auth_v0.5.0_windows_arm64.tar.gz",
-            "hash": "036388863a3cec7d45e3601b1290374023798fd626cf1a8f236add0393c46a74"
+            "url": "https://github.com/keikoproj/aws-auth/releases/download/v0.6.1/aws-auth_v0.6.1_windows_arm64.tar.gz",
+            "hash": "fdd6f24b4aef88901bb514361f3f7e0eedfdf51e9f3617da96e2b6e2d9f9b5fc"
         }
     },
     "bin": "aws-auth.exe",
