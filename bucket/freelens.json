@@ -14,11 +14,10 @@
     "shortcuts": [
         [
             "Freelens.exe",
-            "Freelens",
-            "--user-data-dir=\"User Data\""
+            "Freelens"
         ]
     ],
-    "persist": "User Data",
+    "notes": "Freelens is NOT portable.",
     "checkver": {
         "github": "https://github.com/freelensapp/freelens"
     },
