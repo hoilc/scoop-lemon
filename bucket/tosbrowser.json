@@ -1,18 +1,18 @@
 {
-    "version": "1.9.9",
+    "version": "1.10.3",
     "description": "TOS Browser 是火山引擎对象存储 TOS 提供的图形化管理工具",
     "homepage": "https://www.volcengine.com/docs/6349/148776",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12292715/1.9.9/win32-x64/TOS_Browser_Public-v1.9.9-win32-x64.exe#/dl.7z",
+            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12307847/1.10.3/win32-x64/TOS_Browser_Public-v1.10.3-win32-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "5605f3f37bbd42153eb08891facb89471c29de16905afd2d55417880bab13108"
+            "hash": "f90b20393691f11b25d4ffd572956ee5be9d0deb913c744b0451c26320f23808"
         },
         "32bit": {
-            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12292715/1.9.9/win32-ia32/TOS_Browser_Public-v1.9.9-win32-ia32.exe#/dl.7z",
+            "url": "https://lf3-cdn-tos.bytegoofy.com/obj/tron-demo/7122772962347849988/releases/12307847/1.10.3/win32-ia32/TOS_Browser_Public-v1.10.3-win32-ia32.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "b04800e51779e76de25c4281943fab9caef7c0ccd6bc9ef77e71badeee3162ef"
+            "hash": "2c3d8c2b23a5d39dbde03f56f1cb6d0cf09836f626374bf73b3888260d4705d0"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
