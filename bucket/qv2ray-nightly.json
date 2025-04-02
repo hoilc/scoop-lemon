@@ -1,5 +1,5 @@
 {
-    "version": "c1c65816",
+    "version": "2ba19b08",
     "description": "(Nightly Build) A cross platform connection manager for V2Ray and other backends.",
     "homepage": "https://github.com/dyhkwong/Qv2ray",
     "license": "GPL-3.0-or-later",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/dyhkwong/Qv2ray/workflows/build/main/Qv2ray-c1c65816ab7c6be9d3ea5197798ca071bfae89f2-Windows.7z.zip",
-            "hash": "4acb86fe18998bcbd8cab176431d925d03522e23af4ff67e1e9e11ffd8ac9c11"
+            "url": "https://nightly.link/dyhkwong/Qv2ray/workflows/build/main/Qv2ray-2ba19b084705eaaae7828ce15dd0f9db835ad60a-Windows.7z.zip",
+            "hash": "a6f861e1252e14b11fdead447ac36936cee91daa1dd25e9e80d77038909e47b0"
         }
     },
     "pre_install": [
