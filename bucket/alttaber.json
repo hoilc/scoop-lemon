@@ -1,12 +1,12 @@
 {
-    "version": "0.4.2",
+    "version": "0.5.0",
     "description": "A MacOS-style Alt-Tab window/app switcher replacement for Windows.",
     "homepage": "https://github.com/MrBeanCpp/AltTaber",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MrBeanCpp/AltTaber/releases/download/v0.4.2/AltTaber.zip",
-            "hash": "edb4ece51faac7f30605dfbad46ca638572e4af13e4e07a1d99ae5aff2898878"
+            "url": "https://github.com/MrBeanCpp/AltTaber/releases/download/v0.5.0/AltTaber.zip",
+            "hash": "b1aa6d696afff17c751c2c68d2c8e43edf81f60ec8acb211ee8604e046e59792"
         }
     },
     "extract_dir": "AltTaber",
