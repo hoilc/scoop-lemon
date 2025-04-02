@@ -1,16 +1,16 @@
 {
-    "version": "0.56.0",
+    "version": "0.57.0",
     "description": "CLI to update multiple repositories in bulk",
     "homepage": "https://github.com/lindell/multi-gitter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lindell/multi-gitter/releases/download/v0.56.0/multi-gitter_0.56.0_Windows_x86_64.tar.gz",
-            "hash": "2b3fd0357e2373c2e7b860704034c8b422ec62c5e07aa87c1d9bda8c6623317a"
+            "url": "https://github.com/lindell/multi-gitter/releases/download/v0.57.0/multi-gitter_0.57.0_Windows_x86_64.tar.gz",
+            "hash": "d3079235105063261624c2c7c372c05c48aed1dd52a7ba26d697e2a069cca957"
         },
         "32bit": {
-            "url": "https://github.com/lindell/multi-gitter/releases/download/v0.56.0/multi-gitter_0.56.0_Windows_i386.tar.gz",
-            "hash": "a5165d63b3c5730536305ea4c3be2c3671b099dfbe3e08c9b035a82bd748b704"
+            "url": "https://github.com/lindell/multi-gitter/releases/download/v0.57.0/multi-gitter_0.57.0_Windows_i386.tar.gz",
+            "hash": "b35a92e2157c1c3587ea1eeb6b843ae25f3d97c1d274ec4cd53ec3e1c969c4ba"
         }
     },
     "bin": "multi-gitter.exe",
