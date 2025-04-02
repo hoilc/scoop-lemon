@@ -1,16 +1,16 @@
 {
-    "version": "7.15",
+    "version": "7.16",
     "description": "A command-line program that counts the number of primes ≤ x (maximum 1031) using highly optimized algorithms.",
     "homepage": "https://github.com/kimwalisch/primecount",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kimwalisch/primecount/releases/download/v7.15/primecount-7.15-win-x64.zip",
-            "hash": "b2b90beb221eda340356babad2a11b5e9e6d24e0418a812689da80ca896521cc"
+            "url": "https://github.com/kimwalisch/primecount/releases/download/v7.16/primecount-7.16-win-x64.zip",
+            "hash": "1aa0ba2c5f599ce58f37aea924a8e1a9aba35e169520bd98cbc3f17a0497d5de"
         },
         "arm64": {
-            "url": "https://github.com/kimwalisch/primecount/releases/download/v7.15/primecount-7.15-win-arm64.zip",
-            "hash": "6a9630d71766f7427e9d99eab2c8b90068bd6821eb923f23367d396041bf50cc"
+            "url": "https://github.com/kimwalisch/primecount/releases/download/v7.16/primecount-7.16-win-arm64.zip",
+            "hash": "dc4d77c00bdcd35da0891a7c33ba5461642b331d48544dfe1aac6d4d55b2047b"
         }
     },
     "bin": "primecount.exe",
