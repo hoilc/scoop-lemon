@@ -1,13 +1,13 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "2.1.38.5988",
+    "version": "2.1.38.6000",
     "description": "基于UWP的第三方网易云音乐播放器",
     "homepage": "https://github.com/HyPlayer/HyPlayer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HyPlayer/HyPlayer/releases/download/2.1.38.5988/HyPlayer_2.1.38.5988_x64_ARM64.msixbundle#/HyPlayer.msixbundle",
-            "hash": "c0f83157a304a903fbdc14003ffe98e8bff8cb85b544a37d562a648a70f55911"
+            "url": "https://github.com/HyPlayer/HyPlayer/releases/download/2.1.38.6000/HyPlayer_2.1.38.6000_x64_ARM64.msixbundle#/HyPlayer.msixbundle",
+            "hash": "b8d3c5123525fe9d49c262e711bec26aee90394efcc066c91cac6d33e64a8880"
         }
     },
     "pre_install": [
