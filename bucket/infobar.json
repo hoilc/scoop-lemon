@@ -1,10 +1,10 @@
 {
-    "version": "4.6.1",
+    "version": "4.6.2",
     "description": "A versatile tool not only for programmers but also for ordinary geeks.",
     "homepage": "https://mitec.cz/infobar.html",
     "license": "Proprietary",
     "url": "https://mitec.cz/Downloads/InfoBar_Setup.exe",
-    "hash": "39908642512dea536622527a0dc2f949714ec2f7e58443bccd9c6076d5086ce0",
+    "hash": "6808673eb693870150e06b650e27b89785c8a21a01b2b067891685563e549a3a",
     "innosetup": true,
     "architecture": {
         "64bit": {
