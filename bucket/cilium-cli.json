@@ -1,16 +1,16 @@
 {
-    "version": "0.18.2",
+    "version": "0.18.3",
     "description": "A CLI to install, manage & troubleshoot Kubernetes clusters running Cilium.",
     "homepage": "https://github.com/cilium/cilium-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cilium/cilium-cli/releases/download/v0.18.2/cilium-windows-amd64.zip",
-            "hash": "baa651d5902152afd41a965dcb1ab9c3f42c03fe709d310e48045a0d1a2aebbc"
+            "url": "https://github.com/cilium/cilium-cli/releases/download/v0.18.3/cilium-windows-amd64.zip",
+            "hash": "3dd6173fc879a7494793a7a94724dfaff572b3baa2edb971fdd34b1e0c1e98ac"
         },
         "arm64": {
-            "url": "https://github.com/cilium/cilium-cli/releases/download/v0.18.2/cilium-windows-arm64.zip",
-            "hash": "d0f07efee307253e264b7da215035fffdf4ee71d05c37e1fd6c1931b4d023059"
+            "url": "https://github.com/cilium/cilium-cli/releases/download/v0.18.3/cilium-windows-arm64.zip",
+            "hash": "3850cbc6162550531d20353f5e403729fa911b08ebed32bb56b5b4144d381644"
         }
     },
     "bin": "cilium.exe",
