@@ -19,7 +19,7 @@
         }
     },
     "url": "https://www.mdtzone.it/Files/WContig.zip",
-    "hash": "4d498366c8444e5c0edb56a4e0fa9acf40ed603cc3fd3b675dbb6888ca700eef",
+    "hash": "856c2223becdf4f5ec0fcd50d673af3db693b9f496f4fa10c3ece748ac0c38d0",
     "pre_install": "if (!(Test-Path \"$persist_dir\\WinContig.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\WinContig.ini\" -Value $null }",
     "persist": "WinContig.ini",
     "shortcuts": [
