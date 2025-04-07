@@ -1,16 +1,16 @@
 {
-    "version": "2.7.1",
+    "version": "2.8.0",
     "description": "Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi to Beancount).",
     "homepage": "https://github.com/deb-sig/double-entry-generator",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.7.1/double-entry-generator_2.7.1_Windows_x86_64.tar.gz",
-            "hash": "171e9414b493617b78e19feb33bd8880c47070a692417e3dd9c865ee1b2c60a8"
+            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.8.0/double-entry-generator_Windows_x86_64.tar.gz",
+            "hash": "0efb71b139f8cc6fdb26bf63842bd4eda799691eca7c6fd4852563a62c737a44"
         },
         "32bit": {
-            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.7.1/double-entry-generator_2.7.1_Windows_i386.tar.gz",
-            "hash": "7f70dfadebab245ffdf76971438ad00aee4946d29baf9f9b500e2eb67f8f392a"
+            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.8.0/double-entry-generator_Windows_i386.tar.gz",
+            "hash": "3a2aba4626a7f6fdc91361be79b3b148ca64f07c86acdab3a8b00c9a17cfa5c1"
         }
     },
     "bin": "double-entry-generator.exe",
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v$version/double-entry-generator_$version_Windows_x86_64.tar.gz"
+                "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v$version/double-entry-generator_Windows_x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v$version/double-entry-generator_$version_Windows_i386.tar.gz"
+                "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v$version/double-entry-generator_Windows_i386.tar.gz"
             }
         },
         "hash": {
