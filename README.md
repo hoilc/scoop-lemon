@@ -2,6 +2,8 @@
 
 [![Excavator](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/schedule.yml)
 [![Sync Mirror](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml/badge.svg)](https://github.com/hoilc/scoop-lemon/actions/workflows/sync_mirror.yml)
+[![Manifests](https://img.shields.io/github/directory-file-count/hoilc/scoop-lemon/bucket?type=file&extension=json&style=flat&label=Manifests)](https://github.com/hoilc/scoop-lemon/tree/master/bucket)
+[![Repo Size](https://img.shields.io/github/repo-size/hoilc/scoop-lemon?style=flat&label=Repo%20Size)](https://github.com/hoilc/scoop-lemon)
 
 ## Usage
 
