@@ -1,0 +1,19 @@
+{
+    "version": "2.2.0",
+    "description": "Traymond（增强版）是一款能将任意窗口最小化到系统托盘的 Windows 桌面工具",
+    "homepage": "https://github.com/tabris17/traymond",
+    "license": "MIT",
+    "url": "https://github.com/tabris17/traymond/releases/download/v2.2.0/Traymond.exe",
+    "hash": "7e55df65e8f65d63673602b53835b62ea3de5c4a4eac9ae5e32147f3795cdb6c",
+    "shortcuts": [
+        [
+            "Traymond.exe",
+            "Traymond"
+        ]
+    ],
+    "notes": "Traymond is NOT portable.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tabris17/traymond/releases/download/v$version/Traymond.exe"
+    }
+}
