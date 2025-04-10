@@ -1,0 +1,33 @@
+{
+    "version": "2.1.0",
+    "description": "A GUI based Jump List viewer.",
+    "homepage": "https://ericzimmerman.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip",
+            "hash": "7c01f2ab828e4a3da3c06f2f3ab904ea2e266f2efd82f7b83ba6c872e95b4f62"
+        }
+    },
+    "extract_dir": "JumpListExplorer",
+    "shortcuts": [
+        [
+            "JumpListExplorer.exe",
+            "JumpList Explorer"
+        ]
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "JumpList ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip"
+            }
+        }
+    }
+}

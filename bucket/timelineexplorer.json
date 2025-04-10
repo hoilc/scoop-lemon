@@ -1,0 +1,33 @@
+{
+    "version": "2.1.0",
+    "description": "A GUI based Jump List viewer.",
+    "homepage": "https://ericzimmerman.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip",
+            "hash": "46dad856892d5eb21a3a2c4168a0634ed51e5879a9286ea77157260282ddfe6c"
+        }
+    },
+    "extract_dir": "TimelineExplorer",
+    "shortcuts": [
+        [
+            "TimelineExplorer.exe",
+            "Timeline Explorer"
+        ]
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "Timeline ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip"
+            }
+        }
+    }
+}
