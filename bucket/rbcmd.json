@@ -1,0 +1,16 @@
+{
+    "version": "1.6.1",
+    "description": "A Recycle Bin artifact (INFO2/$I) parser for Windows.",
+    "homepage": "https://github.com/EricZimmerman/RBCmd",
+    "license": "MIT",
+    "url": "https://download.ericzimmermanstools.com/RBCmd.zip",
+    "hash": "ef2b161fed23b9019184abf5ccd92ea907b1d6b4b04a7c689c6c18895f17c718",
+    "bin": "RBCmd.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "RBCmd.*?\\[([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "url": "https://download.ericzimmermanstools.com/RBCmd.zip"
+    }
+}

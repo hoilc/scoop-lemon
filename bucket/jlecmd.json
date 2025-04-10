@@ -1,0 +1,16 @@
+{
+    "version": "1.5.1",
+    "description": "JLECmd, or Jump List Explorer Command line edition, is a tool to decode information contained in custom and automatic destinations jump list files found on Windows operating systems.",
+    "homepage": "https://github.com/EricZimmerman/JLECmd",
+    "license": "MIT",
+    "url": "https://download.ericzimmermanstools.com/JLECmd.zip",
+    "hash": "d14e590253a1004d357220680bb5b5a22101a7e24ae005557f4a90234634bffe",
+    "bin": "JLECmd.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "JLECmd.*?\\[([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "url": "https://download.ericzimmermanstools.com/JLECmd.zip"
+    }
+}

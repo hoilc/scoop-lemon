@@ -1,0 +1,37 @@
+{
+    "version": "2.1.0",
+    "description": "A registry viewer with searching, multi-hive support, plugins and more.",
+    "homepage": "https://ericzimmerman.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip",
+            "hash": "847e9a673bb170b681b061f58e498b3cca38b4923d192d2345b47f3bbf423369"
+        }
+    },
+    "extract_dir": "RegistryExplorer",
+    "shortcuts": [
+        [
+            "RegistryExplorer.exe",
+            "Registry Explorer"
+        ]
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "persist": [
+        "Settings",
+        "Bookmarks\\User"
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "Registry ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip"
+            }
+        }
+    }
+}

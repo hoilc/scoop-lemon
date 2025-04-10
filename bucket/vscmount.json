@@ -1,0 +1,27 @@
+{
+    "version": "1.5.0",
+    "description": "Mount all VSCs on a drive letter to a given mount point.",
+    "homepage": "https://ericzimmerman.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.ericzimmermanstools.com/net9/VSCMount.zip",
+            "hash": "6b263ea122a8fe3404a7bff68c7ac316c69f9d9f5c093bf439e06bcea0ffc8b5"
+        }
+    },
+    "bin": "VSCMount.exe",
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "VSCMount.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.ericzimmermanstools.com/net9/VSCMount.zip"
+            }
+        }
+    }
+}

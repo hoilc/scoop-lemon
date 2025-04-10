@@ -1,0 +1,16 @@
+{
+    "version": "1.5.1",
+    "description": "A RecentFileCache parser for Windows.",
+    "homepage": "https://github.com/EricZimmerman/RecentFileCacheParser",
+    "license": "MIT",
+    "url": "https://download.ericzimmermanstools.com/RecentFileCacheParser.zip",
+    "hash": "5b96b059f7baaae651497bde75ab9bb8718391f10b54ce43c45d8ba279ed3d41",
+    "bin": "RecentFileCacheParser.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "RecentFileCacheParser.*?\\[([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "url": "https://download.ericzimmermanstools.com/RecentFileCacheParser.zip"
+    }
+}

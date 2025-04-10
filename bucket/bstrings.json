@@ -1,0 +1,16 @@
+{
+    "version": "1.5.3",
+    "description": "A better strings utility.",
+    "homepage": "https://github.com/EricZimmerman/bstrings",
+    "license": "MIT",
+    "url": "https://download.ericzimmermanstools.com/bstrings.zip",
+    "hash": "192fe79d0343b5b0a9d45fd3151c4b948a40d61aea8d16bca51ad50f151b8c1a",
+    "bin": "bstrings.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "bstrings.*?\\[([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "url": "https://download.ericzimmermanstools.com/bstrings.zip"
+    }
+}

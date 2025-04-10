@@ -1,0 +1,33 @@
+{
+    "version": "2.1.0",
+    "description": "A graphical $MFT viewer",
+    "homepage": "https://ericzimmerman.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.ericzimmermanstools.com/net9/MFTExplorer.zip",
+            "hash": "43fbcf955417acc200939935f9f691051f8a47eb662efdd1827c7ee5c97b89a8"
+        }
+    },
+    "extract_dir": "MFTExplorer",
+    "shortcuts": [
+        [
+            "MFTExplorer.exe",
+            "MFTExplorer"
+        ]
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "MFTExplorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.ericzimmermanstools.com/net9/MFTExplorer.zip"
+            }
+        }
+    }
+}
