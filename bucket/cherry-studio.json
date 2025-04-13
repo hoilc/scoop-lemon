@@ -18,7 +18,7 @@
     },
     "installer": {
         "script": [
-            "Get-ChildItem \"$dir\\`$PLUGINSDIR\\\" 'app-*.7z' | Select-Object -First 1 | Expand-7zipArchive -DestinationPath \"$dir\\\" -Removal",
+            "Get-ChildItem \"$dir\\`$PLUGINSDIR\\\" 'app-*.7z' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\\\" -Removal",
             "$appDataPath = \"$env:APPDATA\\CherryStudio\"",
             "$persistPath = \"$persist_dir\\CherryStudio\"",
             "if (-Not (Test-Path $persistPath)) {",
