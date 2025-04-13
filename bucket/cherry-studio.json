@@ -1,5 +1,5 @@
 {
-    "version": "1.1.18",
+    "version": "1.2.2",
     "description": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers",
     "homepage": "https://cherry-ai.com/",
     "license": {
@@ -8,26 +8,33 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cherrystudio.ocool.online/Cherry-Studio-1.1.18-setup.exe",
-            "hash": "f6851d4d69840587f59ba4a78c0dd126c6867686050e165e13363b1bd27d6526"
+            "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-x64-setup.exe#/dl.7z",
+            "hash": "72c9b864a1c65d7c0fa7bccd5bee76385de76e096d83949a267615d2b49853e8"
+        },
+        "arm64": {
+            "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v1.2.2/Cherry-Studio-1.2.2-arm64-setup.exe#/dl.7z",
+            "hash": "461110825f38d17b2be1cc97b377f7e859a94cc7de9888c03d59bec2f309bd3a"
         }
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\Cherry-Studio-$version-setup.exe\" \"$dir\\temp\\\" -Removal",
-            "Expand-7zipArchive \"$dir\\temp\\`$PLUGINSDIR\\app-64.7z\" \"$dir\\\" -Removal",
-            "Remove-Item \"$dir\\temp\" -Recurse",
+            "Get-ChildItem \"$dir\\`$PLUGINSDIR\\\" 'app-*.7z' | Select-Object -First 1 | Expand-7zipArchive -DestinationPath \"$dir\\\" -Removal",
             "$appDataPath = \"$env:APPDATA\\CherryStudio\"",
             "$persistPath = \"$persist_dir\\CherryStudio\"",
-            "if (Test-Path $appDataPath) {",
-            "    Remove-Item $appDataPath -Recurse -Force",
-            "}",
             "if (-Not (Test-Path $persistPath)) {",
-            "    New-Item -Path \"$persistPath\" -ItemType Directory",
+            "    New-Item -Path \"$persistPath\" -ItemType Directory | Out-Null",
+            "    if (Test-Path $appDataPath) {",
+            "        Write-Host -NoNewline \"\nCopying existing data...\"",
+            "        Copy-Item \"$appDataPath\\*\" \"$persistPath\" -Recurse -Force",
+            "    }",
             "}",
-            "New-Item -ItemType Junction -Path \"$appDataPath\" -Target \"$persistPath\""
+            "if (Test-Path $appDataPath) {",
+            "    Remove-Item $appDataPath -Recurse -Force | Out-Null",
+            "}",
+            "New-Item -ItemType Junction -Path \"$appDataPath\" -Target \"$persistPath\" | Out-Null"
         ]
     },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
     "notes": "You'd better turn off update detection in Settings->About Us in Cherry Studio and use scoop to manage updates, otherwise it will cause some errors.",
     "shortcuts": [
         [
@@ -38,6 +45,7 @@
     "persist": "CherryStudio",
     "uninstaller": {
         "script": [
+            "Remove-Item $env:APPDATA\\CherryStudio -Force -Recurse",
             "if (Test-Path \"$env:LOCALAPPDATA\\cherrystudio-updater\" -PathType Container) {",
             "    Remove-Item -Recurse -Force \"$env:LOCALAPPDATA\\cherrystudio-updater\"",
             "}"
@@ -49,7 +57,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cherrystudio.ocool.online/Cherry-Studio-$version-setup.exe"
+                "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://gitcode.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-arm64-setup.exe#/dl.7z"
             }
         }
     }
