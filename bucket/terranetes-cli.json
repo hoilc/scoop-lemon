@@ -1,12 +1,12 @@
 {
-    "version": "terranetes-controller-0.8.3",
+    "version": "0.5.5",
     "description": "A toolset for both the platform team and developers to work seemlessly with the Terranetes framework.",
     "homepage": "https://terranetes.appvia.io/terranetes-controller/cli/tnctl/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/appvia/terranetes-controller/releases/download/vterranetes-controller-0.8.3/tnctl-windows-amd64.exe#/tnctl.exe",
-            "hash": "11e6ac9ced34eb66a1a12d740267d056678e698591145cc66a56a47456d84ff0"
+            "url": "https://github.com/appvia/terranetes-controller/releases/download/v0.5.5/tnctl-windows-amd64.exe#/tnctl.exe",
+            "hash": "cdbc2e4c2a1dec333150c94d6ec088dc7fbe40d71f0b02c75eaa39643afc77bc"
         }
     },
     "bin": "tnctl.exe",
