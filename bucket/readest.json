@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/chrox/readest/releases/download/v0.9.33/Readest_0.9.33_x64-setup.exe#/dl.7z",
-            "hash": "7d7654e9ec0f8bfdf2ac5c66e8011410fd943fd69c190391ac496f16373f8a7e"
+            "hash": "6e27e40a87983afda00b61eef22c3afe64fc8e6dab83d23648be667d7ef8c6f0"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
