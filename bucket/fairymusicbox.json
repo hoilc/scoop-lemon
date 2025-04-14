@@ -1,0 +1,27 @@
+{
+    "version": "3.1.3",
+    "description": "FairyMusicBox 是一款专门针对真实的机械音乐盒设计的编曲软件",
+    "homepage": "http://fairymusicbox.com/",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/fairymusicbox/FairyMusicBox-3.1.3-Installer.zip",
+    "hash": "1e6b4f7188cf39a9ff8c8290d82ae2c10efc97b9436084d327037a199d352f34",
+    "shortcuts": [
+        [
+            "FairyMusicBox.exe",
+            "FairyMusicBox"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'FairyMusicBox-*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "post_install": "Remove-Item \"$dir\\Uninstall*\" -Force -Recurse",
+    "notes": "FairyMusicBox is NOT portable.",
+    "checkver": {
+        "script": [
+            "$data = Invoke-RestMethod -Headers @{'v'='3.1.3';'lc'='0';'ld'='0';'cid'='8b73ba2f2f507424d8a994d552ed0000'} 'http://www.fmbapp.com/api/app/launch-check'",
+            "return $data.data.latest_version"
+        ],
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/fairymusicbox/FairyMusicBox-$version-Installer.zip"
+    }
+}
