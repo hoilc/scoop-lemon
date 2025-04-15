@@ -1,0 +1,31 @@
+{
+    "version": "0.28",
+    "description": "A tiny mp4 time code editor.",
+    "homepage": "https://github.com/nu774/mp4fpsmod",
+    "license": {
+        "identifier": "Public Domain",
+        "url": "https://github.com/nu774/mp4fpsmod/raw/refs/heads/master/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nu774/mp4fpsmod/releases/download/v0.28/mp4fpsmod_0.28_win64.zip",
+            "hash": "fc3f76274c919f12626941f3734f74dda418cc9dd9861cd3cf14666c47b4cb09"
+        },
+        "32bit": {
+            "url": "https://github.com/nu774/mp4fpsmod/releases/download/v0.28/mp4fpsmod_0.28_win32.zip",
+            "hash": "d5456fdcff31851115cac2627e8ccd9c7aa3b63f6f90ec11f1bae6ff9888537a"
+        }
+    },
+    "bin": "mp4fpsmod.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nu774/mp4fpsmod/releases/download/v$version/mp4fpsmod_$version_win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/nu774/mp4fpsmod/releases/download/v$version/mp4fpsmod_$version_win32.zip"
+            }
+        }
+    }
+}
