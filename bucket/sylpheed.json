@@ -3,7 +3,7 @@
     "description": "A simple, lightweight but featureful, and easy-to-use e-mail client.",
     "homepage": "https://sylpheed.sraoss.jp/en/",
     "license": "GPL-3.0-only",
-    "url": "https://osdn.net/frs/redir.php?f=sylpheed%2F77769%2Fsylpheed-3.8beta1-win32.zip#/dl.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/sylpheed/sylpheed-3.8beta1-win32.zip",
     "extract_dir": "Sylpheed-3.8beta1",
     "hash": "77149eb8e0fd5383794c8a45edb2d5b1e05d41a4f956529a33791a9e756aebba",
     "bin": "sylpheed.exe",
@@ -22,11 +22,11 @@
         "etc\\gtk-2.0"
     ],
     "checkver": {
-        "url": "https://osdn.net/projects/sylpheed/releases/rss",
-        "regex": "/projects/sylpheed/downloads/(?<release>[\\d.]+)/sylpheed-([^-]+)-win32.zip"
+        "url": "https://sylpheed.sraoss.jp/en/download.html",
+        "regex": "/sylpheed/win32/(?<release>[^/]+)/sylpheed-([^-]+)-win32.zip"
     },
     "autoupdate": {
-        "url": "https://osdn.net/frs/redir.php?f=sylpheed%2F$matchRelease%2Fsylpheed-$version-win32.zip#/dl.zip",
+        "url": "https://sylpheed.sraoss.jp/sylpheed/win32/$matchRelease/sylpheed-$version-win32.zip",
         "extract_dir": "Sylpheed-$version"
     }
 }
