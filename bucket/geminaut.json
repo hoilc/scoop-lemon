@@ -1,0 +1,29 @@
+{
+    "version": "0.8.13",
+    "description": "A user friendly GUI client for the Gemini protocol.",
+    "homepage": "https://www.marmaladefoo.com/pages/geminaut",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.marmaladefoo.com/vanilla/marmaladefoo/uploads/geminaut/GemiNaut_v0.8.13.msi",
+            "hash": "8e772a22255745d8033f38751898ff7d09f1e2575eea7d7368272cb7246666f8"
+        }
+    },
+    "shortcuts": [
+        [
+            "GemiNaut.exe",
+            "GemiNaut"
+        ]
+    ],
+    "notes": "GemiNaut is NOT portable.",
+    "checkver": {
+        "regex": "\"Download GemiNaut ([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.marmaladefoo.com/vanilla/marmaladefoo/uploads/geminaut/GemiNaut_v$version.msi"
+            }
+        }
+    }
+}
