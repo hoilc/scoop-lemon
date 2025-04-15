@@ -1,13 +1,13 @@
 {
-    "version": "24.2.0",
+    "version": "24.2.1",
     "description": "(JVM Standalone) A high-performance embeddable Python 3 runtime for Java.",
     "homepage": "https://www.graalvm.org/python/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oracle/graalpython/releases/download/graal-24.2.0/graalpy-jvm-24.2.0-windows-amd64.zip",
-            "extract_dir": "graalpy-24.2.0-windows-amd64",
-            "hash": "566d178f82c0684ca3cab9dd5c14b2915abe076f57f239bf927facf98ae0e8ce"
+            "url": "https://github.com/oracle/graalpython/releases/download/graal-24.2.1/graalpy-jvm-24.2.1-windows-amd64.zip",
+            "extract_dir": "graalpy-24.2.1-windows-amd64",
+            "hash": "02939e1ac13f6d792cc0aae6228129d891a03fca388e01b6db033101dc8aa19a"
         }
     },
     "bin": [
