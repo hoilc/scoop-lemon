@@ -1,0 +1,25 @@
+{
+    "version": "144",
+    "description": "A command-line tool to automatically download all releases purchased with a Bandcamp account.",
+    "homepage": "https://framagit.org/Ezwen/bandcamp-collection-downloader",
+    "license": "AGPL-3.0-only",
+    "url": "https://framagit.org/api/v4/projects/30670/jobs/artifacts/master/download?job=build#/dl.zip",
+    "hash": "f61c55711019ee9d8db0af3523dfacb2e0a8c8ade1edb2a04633488d24bce891",
+    "extract_dir": "build\\libs",
+    "bin": "bandcamp-collection-downloader.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://framagit.org/api/v4/projects/30670/pipelines?ref=master&status=success",
+        "jsonpath": "$.[0].iid"
+    },
+    "autoupdate": {
+        "url": "https://framagit.org/api/v4/projects/30670/jobs/artifacts/master/download?job=build#/dl.zip"
+    }
+}
