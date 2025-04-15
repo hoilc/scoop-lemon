@@ -1,28 +1,31 @@
 {
-    "version": "4644085",
+    "version": "20250411-c2c7801",
     "description": "一款用于访问管理华为云对象存储服务（Object Storage Service，OBS）的命令行工具",
     "homepage": "https://support.huaweicloud.com/utiltg-obs/obs_11_0001.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip",
-            "hash": "46440850e63600b31888f2c7c8e79db99f01d4ddd4e2b8a1e01af282ee4be93a",
-            "extract_dir": "obsutil_windows_amd64_5.5.12"
+            "hash": "1741e4dfc59b95d49b1ed7cc4997ab6b497e60ea1bdc971211d32c7bdaf4c77e"
         }
     },
+    "pre_install": [
+        "Move-Item \"$dir\\obsutil_windows_*\\obsutil.exe\" \"$dir\"",
+        "Remove-Item \"$dir\\obsutil_windows_*\" -Force -Recurse"
+    ],
     "bin": "obsutil.exe",
     "checkver": {
-        "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip.sha256",
-        "regex": "([0-9a-f]{7})"
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().AddHours(8).ToString(\"yyyyMMdd\") + '-' + $detail.Headers.ETag.SubString(1, 7) }"
+        ],
+        "regex": "([\\d\\w-]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_windows_amd64.zip"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
