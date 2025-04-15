@@ -1,0 +1,30 @@
+{
+    "version": "0.111",
+    "description": "jSQL Injection is a Java application for automatic SQL database injection.",
+    "homepage": "https://github.com/ron190/jsql-injection",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/ron190/jsql-injection/releases/download/v0.111/jsql-injection-v0.111.jar#/jsql-injection.jar",
+    "hash": "4d05a1943d716d6e57c5dcb9c9fe8fe9a00c1e4a1d338a847cff42191b3bdcc0",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\jsql-injection.bat\" -Value '@start javaw.exe -jar \"%~dp0jsql-injection.jar\"'",
+    "shortcuts": [
+        [
+            "jsql-injection.bat",
+            "jSQL Injection"
+        ]
+    ],
+    "suggest": {
+        "JDK 11+": [
+            "java/temurin17-jdk",
+            "java/temurin11-jdk",
+            "java/zulu17-jdk",
+            "java/zulu11-jdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/ron190/jsql-injection/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ron190/jsql-injection/releases/download/v$version/jsql-injection-v$version.jar#/jsql-injection.jar"
+    }
+}
