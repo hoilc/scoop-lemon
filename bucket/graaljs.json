@@ -1,13 +1,13 @@
 {
-    "version": "24.2.0",
+    "version": "24.2.1",
     "description": "A high-performance, ECMAScript compliant, and embeddable JavaScript runtime for Java.",
     "homepage": "https://www.graalvm.org/javascript/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oracle/graaljs/releases/download/graal-24.2.0/graaljs-24.2.0-windows-amd64.zip",
-            "extract_dir": "graaljs-24.2.0-windows-amd64",
-            "hash": "6fe74b97d633b6cc92c2e763df09011d6a3ce89cd320610d0d595912646f5f4c"
+            "url": "https://github.com/oracle/graaljs/releases/download/graal-24.2.1/graaljs-24.2.1-windows-amd64.zip",
+            "extract_dir": "graaljs-24.2.1-windows-amd64",
+            "hash": "0711197bdc93f73352a023de1c992961dd239805df62fc4fe9670c6074e3a892"
         }
     },
     "bin": "bin\\js.exe",
