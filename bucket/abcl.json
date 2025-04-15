@@ -7,6 +7,7 @@
         "url": "https://github.com/armedbear/abcl/raw/refs/heads/master/COPYING"
     },
     "url": "https://armedbear.common-lisp.dev/releases/1.9.2/abcl-bin-1.9.2.zip",
+    "extract_dir": "abcl-bin-1.9.2",
     "hash": "4809c1f84645527de04676cc4ea3dbafd00a73c05e3006ac8e32828d49f2522a",
     "bin": "abcl.jar",
     "suggest": {
