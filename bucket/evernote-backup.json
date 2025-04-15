@@ -1,12 +1,12 @@
 {
-    "version": "1.10.0",
+    "version": "1.11.0",
     "description": "Backup & export all Evernote notes and notebooks.",
     "homepage": "https://github.com/vzhd1701/evernote-backup",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vzhd1701/evernote-backup/releases/download/v1.10.0/bin_evernote_backup_1.10.0_win_x64.zip",
-            "hash": "e18226cb0efe09bbf5a4512437568af07ca2b3c43a47e36fc5ada721d172dc10"
+            "url": "https://github.com/vzhd1701/evernote-backup/releases/download/v1.11.0/bin_evernote_backup_1.11.0_win_x64.zip",
+            "hash": "b86107cc487db5466d8915d2baa035569ef9a32729dccc85c384383ed526e3c8"
         }
     },
     "bin": "evernote-backup.exe",
