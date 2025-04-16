@@ -24,8 +24,7 @@
             "if (-Not (Test-Path $persistPath)) {",
             "    New-Item -Path \"$persistPath\" -ItemType Directory | Out-Null",
             "    if (Test-Path $appDataPath) {",
-            "        Write-Host -NoNewline \"
-Copying existing data...\"",
+            "        Write-Host -NoNewline \"Copying existing data...\"",
             "        Copy-Item \"$appDataPath\\*\" \"$persistPath\" -Recurse -Force",
             "    }",
             "}",
