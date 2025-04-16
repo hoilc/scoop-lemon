@@ -1,0 +1,25 @@
+{
+    "version": "4.0.0",
+    "description": "A screen color filter which helps with dyslexia and eye strain.",
+    "homepage": "https://www.east-tec.com/colorveil/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.east-tec.com/colorveil/license/"
+    },
+    "url": "https://download.east-tec.com/colorveil/colorveil-portable.zip",
+    "hash": "2a43fcfd33fb8e38d965d2ca4b7e0bc4aef84c62278070569ad611617dc8ff7c",
+    "shortcuts": [
+        [
+            "ColorVeil.exe",
+            "ColorVeil"
+        ]
+    ],
+    "persist": "ColorVeil.settings",
+    "checkver": {
+        "url": "https://www.east-tec.com/colorveil/download/windows/",
+        "regex": "The latest version of ColorVeil is <strong>([\\d.]+)</strong>"
+    },
+    "autoupdate": {
+        "url": "https://download.east-tec.com/colorveil/colorveil-portable.zip"
+    }
+}
