@@ -1,0 +1,30 @@
+{
+    "version": "3.3.1000",
+    "description": "A lightweight Windows application that reports the Serial Presence Detect (SPD) data of RAM modules.",
+    "homepage": "https://www.passmark.com/products/rammon/index.php",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.passmark.com/downloads/rammon.exe",
+            "hash": "281990d7add3dac1e2118a672f558b94516cd3e50a71058edd6860729a412a5f"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "RAMMon64.exe",
+            "RAMMon"
+        ]
+    ],
+    "checkver": {
+        "regex": "V(?<main>[\\d.]+) \\(Build (?<build>\\d+)\\)",
+        "replace": "${main}.${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.passmark.com/downloads/rammon.exe"
+            }
+        }
+    }
+}
