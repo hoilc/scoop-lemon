@@ -1,0 +1,16 @@
+{
+    "version": "2.1.0",
+    "description": "A free touch typing tutor.",
+    "homepage": "https://www.tipp10.com/",
+    "license": "Freeware",
+    "url": "https://www.tipp10.com/en/download/tipp10_win_portable_v2-1-0.zip",
+    "extract_dir": "tipp10_win_portable_v2-1-0",
+    "hash": "0c2f493738d7d81ed4a5a39541ac845ec2c78ba5d55e7763033a383256c73eb2",
+    "shortcuts": [
+        [
+            "tipp10.exe",
+            "Tipp10"
+        ]
+    ],
+    "persist": "portable"
+}
