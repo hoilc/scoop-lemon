@@ -1,0 +1,14 @@
+{
+    "version": "1.5",
+    "description": "JBIG2图像查看器，支持PDF图像的无损导出和替换",
+    "homepage": "https://www.cnblogs.com/Charltsing/p/JBIG2.html",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/jbig2viewer/JBIG2Viewer_v1.5.rar",
+    "hash": "2b8ad851452fbc5341f20b76ac23b3054de873c9562b4a43fab0eb6703314cee",
+    "shortcuts": [
+        [
+            "JBIG2Viewer.exe",
+            "JBIG2Viewer"
+        ]
+    ]
+}
