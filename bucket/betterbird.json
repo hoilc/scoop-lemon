@@ -1,12 +1,12 @@
 {
-    "version": "128.9.0esr-bb24",
+    "version": "128.9.2esr-bb25",
     "description": "A fine-tuned version of Mozilla Thunderbird.",
     "homepage": "https://www.betterbird.eu/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.betterbird.eu/downloads/WindowsPortable/BetterbirdPortable-128.9.0esr-bb24.en-US.win64.zip",
-            "hash": "139461594aa0f398dc42d2ea69516d41e006cc189a76d77da6b26546f84c8362"
+            "url": "https://www.betterbird.eu/downloads/WindowsPortable/BetterbirdPortable-128.9.2esr-bb25.en-US.win64.zip",
+            "hash": "90b24c36c1bdc977c86536bd7f30d3897f752c5ca66e2d86cb79fb9e6b2cda00"
         }
     },
     "shortcuts": [
