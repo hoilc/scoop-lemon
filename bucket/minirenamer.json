@@ -1,11 +1,11 @@
 {
     "##": "#updateManually",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "轻巧灵活的批量重命名工具",
     "homepage": "https://abc100.net/106/",
     "license": "Freeware",
-    "url": "https://scoop-lemon.tari.xyz/hosted/minirenamer/MiniRenamer_v2.2.1.rar",
-    "hash": "5eb8f3f522107874ab6dc0f77c6a44e1f3c634788181ec2aef76b5536ce29b54",
+    "url": "https://scoop-lemon.tari.xyz/hosted/minirenamer/MiniRenamer_v2.2.2.zip",
+    "hash": "42888f359527d0e25d737e4d3cc5056b794d94b5f11f10d3ea165b1e38a27d63",
     "shortcuts": [
         [
             "MiniRenamer.exe",
@@ -22,6 +22,6 @@
         "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://scoop-lemon.tari.xyz/hosted/minirenamer/MiniRenamer_v$version.rar"
+        "url": "https://scoop-lemon.tari.xyz/hosted/minirenamer/MiniRenamer_v$version.zip"
     }
 }
