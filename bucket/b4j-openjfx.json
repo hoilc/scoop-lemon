@@ -1,0 +1,35 @@
+{
+    "version": "19.0.2",
+    "description": "OpenJDK with OpenJFX for B4J.",
+    "homepage": "https://www.b4x.com/b4j.html",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://openjdk.java.net/legal/gplv2+ce.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.b4x.com/b4j/files/jdk-19.0.2.zip",
+            "hash": "4aa44974510819e9500ce737d7c7d5d6895c7a12311fd2bb131eea34e4e6e281"
+        }
+    },
+    "checkver": {
+        "regex": "b4j/files/jdk-([\\d.]+).zip"
+    },
+    "suggest": {
+        "B4J": [
+            "lemon/b4j"
+        ]
+    },
+    "notes": [
+        "Open B4J, Choose Tools > Configure Paths",
+        "javac.exe: $dir\\bin\\javac.exe"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.b4x.com/b4j/files/jdk-$version.zip",
+                "extract_dir": "jdk-$version"
+            }
+        }
+    }
+}
