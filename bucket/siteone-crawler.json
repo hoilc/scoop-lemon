@@ -1,0 +1,31 @@
+{
+    "version": "1.0.8",
+    "description": "A powerful and easy-to-use website analyzer, cloner, and converter designed for developers.",
+    "homepage": "https://crawler.siteone.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/janreges/siteone-crawler/releases/download/v1.0.8/siteone-crawler-v1.0.8-win-x64.zip",
+            "extract_dir": "siteone-crawler-v1.0.8-win-x64",
+            "hash": "a6bfa2a9956740e4c1b8c8bafe254dfac0e83cd9111a3a69b48eac40e9af6c88"
+        }
+    },
+    "bin": [
+        [
+            "bin\\swoole-cli.exe",
+            "siteone-crawler",
+            "$dir\\src\\crawler.php"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/janreges/siteone-crawler"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/janreges/siteone-crawler/releases/download/v$version/siteone-crawler-v$version-win-x64.zip",
+                "extract_dir": "siteone-crawler-v$version-win-x64"
+            }
+        }
+    }
+}
