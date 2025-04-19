@@ -1,0 +1,31 @@
+{
+    "version": "1.0.8",
+    "description": "GUI for SiteOne Crawler, A powerful and easy-to-use website analyzer, cloner, and converter.",
+    "homepage": "https://crawler.siteone.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/janreges/siteone-crawler-gui/releases/download/v1.0.8/SiteOne-Crawler-win-x64-1.0.8.msi",
+            "hash": "9872d1986a273f62a999d89988324ab9aace4601539622e6775675d73a5a3eda"
+        }
+    },
+    "extract_dir": "SiteOne-Crawler",
+    "shortcuts": [
+        [
+            "SiteOne-Crawler.exe",
+            "SiteOne Crawler",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://github.com/janreges/siteone-crawler-gui"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/janreges/siteone-crawler-gui/releases/download/v$version/SiteOne-Crawler-win-x64-$version.msi"
+            }
+        }
+    }
+}
