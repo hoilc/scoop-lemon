@@ -20,12 +20,7 @@
             "B4J"
         ]
     ],
-    "suggest": {
-        "OpenJFX": [
-            "lemon/b4j-openjfx"
-        ]
-    },
-    "notes": "B4J is NOT portable.",
+    "notes": "B4J depends on JDK with OpenJFX. It is recommended to install 'lemon/b4j-openjfx'.",
     "checkver": {
         "regex": "(?sm)Latest Versions.*>B4J v([\\d.]+)<"
     },
