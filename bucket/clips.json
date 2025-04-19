@@ -1,0 +1,37 @@
+{
+    "version": "6.4.2",
+    "description": "A forward-chaining rule-based programming language written in C that also provides procedural and object-oriented programming facilities.",
+    "homepage": "https://clipsrules.net/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/clipsrules/files/CLIPS/6.4.2/clips_windows_64_bit_installer_642.msi",
+            "hash": "sha1:8f21b30c5de715e801db3352455666048784abcc"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/clipsrules/files/CLIPS/6.4.2/clips_windows_32_bit_installer_642.msi",
+            "hash": "sha1:24e7d6a387c270732e87b7c1e629687f2ce7dee1"
+        }
+    },
+    "bin": "CLIPSDOS.exe",
+    "shortcuts": [
+        [
+            "CLIPSIDE.exe",
+            "CLIPS IDE"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/clipsrules/rss?path=/CLIPS",
+        "regex": "/CLIPS/([\\d.]+)/clips_windows_64_bit"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/clipsrules/files/CLIPS/$version/clips_windows_64_bit_installer_$cleanVersion.msi"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/clipsrules/files/CLIPS/$version/clips_windows_32_bit_installer_$cleanVersion.msi"
+            }
+        }
+    }
+}
