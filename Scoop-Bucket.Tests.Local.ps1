@@ -187,8 +187,12 @@ Describe 'Manifest Validation' {
                 $manifest = parse_json $file.FullName
                 $url = arch_specific 'url' $manifest '32bit'
                 $url64 = arch_specific 'url' $manifest '64bit'
+                $urlarm64 = arch_specific 'url' $manifest 'arm64'
                 if (-not $url) {
                     $url = $url64
+                }
+                if (-not $url) {
+                    $url = $urlarm64
                 }
                 $url | Should -Not -BeNullOrEmpty
             }
