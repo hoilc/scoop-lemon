@@ -1,12 +1,12 @@
 {
-    "version": "2.0.300",
+    "version": "2.1.346",
     "description": "A simple patcher that removes the annoying restrictions preventing you from installing Windows 11 (24H2) on unsupported hardware.",
     "homepage": "https://github.com/builtbybel/Flyby11",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/Flyby11/releases/download/2.0.300/Flyby11.zip",
-            "hash": "47e394260f15d12c170cbde015ac12cbf6d8c5b8bd7d365a61a3ef955bec53c9"
+            "url": "https://github.com/builtbybel/Flyby11/releases/download/2.1.346/Flyby11.zip",
+            "hash": "8d4e42ca2898c83ea26387f3bbe92520a41379d7e2bdc0ae20a9a5e91d1df07b"
         }
     },
     "shortcuts": [
