@@ -1,12 +1,12 @@
 {
-    "version": "b5158",
+    "version": "b5159",
     "description": "(CPU-AVX512 Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5158/llama-b5158-bin-win-avx512-x64.zip",
-            "hash": "a309ed7b52a0dee846d62337997d41178b7738d55c5ad9581c7c37c6095bd15c"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5159/llama-b5159-bin-win-avx512-x64.zip",
+            "hash": "092b8326fa9382bfd01feca1bda8f3b3f56b88031edf9ba66a3351008222970d"
         }
     },
     "bin": [
