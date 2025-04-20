@@ -1,0 +1,33 @@
+{
+    "version": "3.0.0-beta.1",
+    "description": "一个简约的音乐播放器 / A minimalist music player",
+    "homepage": "https://github.com/imsyy/SPlayer",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.1/SPlayer-3.0.0-beta.1-setup.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "a4b8dea81e40cea61a02be3cf02f8ce870a399551e04c4733921ba9414ab5821"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "SPlayer.exe",
+            "SPlayer",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://github.com/imsyy/SPlayer/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/imsyy/SPlayer/releases/download/v$version/SPlayer-$version-setup.exe#/dl.7z"
+            }
+        }
+    }
+}

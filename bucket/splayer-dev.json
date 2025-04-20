@@ -1,0 +1,36 @@
+{
+    "version": "171",
+    "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
+    "homepage": "https://github.com/imsyy/SPlayer",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            },
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/14550238785/SPlayer-dev.zip",
+            "hash": "63d0def55569289c6098f60286e694a04a012992d9d03b73a7aa6825d1ad595a"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'SPlayer-*-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "post_install": "Remove-Item \"$dir\\SPlayer?*.exe\", \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "SPlayer.exe",
+            "SPlayer Dev",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://github.com/imsyy/SPlayer/actions/workflows/build.yml?query=branch%3Adev+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-dev.zip"
+            }
+        }
+    }
+}
