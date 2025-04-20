@@ -1,0 +1,33 @@
+{
+    "version": "11.0.1",
+    "description": "Magically remove elements from photos.",
+    "homepage": "https://www.theinpaint.com/",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.theinpaint.com/windows/files/Inpaint-11.0.1.zip",
+            "hash": "f727c6f7e443dbf8afec094b0b99f812c141f928fcad13ba758da9164b0eb307"
+        }
+    },
+    "extract_dir": "InpaintFiles",
+    "shortcuts": [
+        [
+            "Inpaint.exe",
+            "Inpaint"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://download.theinpaint.com/windows/files/Inpaint.zip' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "return $detail.Headers.Location"
+        ],
+        "regex": "Inpaint-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.theinpaint.com/windows/files/Inpaint-$version.zip"
+            }
+        }
+    }
+}
