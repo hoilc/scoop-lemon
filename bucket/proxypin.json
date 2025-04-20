@@ -1,15 +1,15 @@
 {
-    "version": "v1.1.7",
+    "version": "1.1.8",
     "description": "开源免费的跨平台抓包软件，支持手机扫码连接",
     "homepage": "https://github.com/wanghongenpin/proxypin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wanghongenpin/proxypin/releases/download/v1.1.7/ProxyPin-Windows.zip",
-            "hash": "a3fb7fedab2c52bacd3d65660f2de445674c49c5cea03d9eccf06069e1a76623"
+            "url": "https://github.com/wanghongenpin/proxypin/releases/download/v1.1.8/ProxyPin-windows-setup.exe",
+            "hash": "70da17011272afa8f7b2d168994bda57ac93e86617e845f944be7449ce3a52f3"
         }
     },
-    "extract_dir": "ProxyPin",
+    "innosetup": true,
     "shortcuts": [
         [
             "ProxyPin.exe",
@@ -19,12 +19,12 @@
     "notes": "ProxyPin is NOT portable.",
     "checkver": {
         "url": "https://github.com/wanghongenpin/proxypin/releases/latest",
-        "regex": "/proxypin/tree/(?<prefix>V?)([^/]+?)\""
+        "regex": "/proxypin/tree/(?<prefix>[Vv]?)([^/]+?)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wanghongenpin/proxypin/releases/download/$matchPrefix$version/ProxyPin-Windows.zip"
+                "url": "https://github.com/wanghongenpin/proxypin/releases/download/$matchPrefix$version/ProxyPin-windows-setup.exe"
             }
         }
     }
