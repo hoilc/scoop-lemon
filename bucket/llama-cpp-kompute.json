@@ -1,12 +1,12 @@
 {
-    "version": "b5164",
+    "version": "b5165",
     "description": "(Kompute Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5164/llama-b5164-bin-win-kompute-x64.zip",
-            "hash": "09356ff30e5e2bcab0c76218b025c7a33a75fc42961a4abd8553edb377b84093"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5165/llama-b5165-bin-win-kompute-x64.zip",
+            "hash": "8babe3d767706e0be72388afd4de3a19b3d044d43ed11251c2ee3b81c3ae3f0f"
         }
     },
     "bin": [
