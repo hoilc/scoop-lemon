@@ -31,8 +31,8 @@
         "if (!(Test-Path \"$persist_dir\\state.bin\")) { Set-Content -Encoding ASCII -Path \"$dir\\state.bin\" -Value $null }",
         "if (!(Test-Path \"$persist_dir\\keymap.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\keymap.txt\" -Value $null }"
     ],
-    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\" '*.p42' | Move-Item -Force -Destination $dir }",
-    "pre_uninstall": "Get-ChildItem \"$dir\" '*.p42' | Move-Item -Force -Destination $persist_dir",
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\" '*.p42', '*.layout', '*.gif' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\" '*.p42', '*.layout', '*.gif' | Move-Item -Force -Destination $persist_dir",
     "persist": [
         "print.bin",
         "state.bin",
