@@ -1,20 +1,20 @@
 {
-    "version": "0.2.7",
+    "version": "0.3.0",
     "description": "Overlay networks based on WebRTC.",
     "homepage": "https://github.com/pojntfx/weron",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pojntfx/weron/releases/download/v0.2.7/weron.windows-x86_64.exe#/weron.exe",
-            "hash": "bc6881491818b38e7f31a8a8c083c28ec7ced6b9c596a9d3dbf03f8dde82ca16"
+            "url": "https://github.com/pojntfx/weron/releases/download/v0.3.0/weron.windows-x86_64.exe#/weron.exe",
+            "hash": "2880e8a4297e394d73be02791b5e48f2324c1b2c521c930f877757b7c4c03c65"
         },
         "32bit": {
-            "url": "https://github.com/pojntfx/weron/releases/download/v0.2.7/weron.windows-i686.exe#/weron.exe",
-            "hash": "c83339c0f7583ae2be1ae1040575b31d918a16e884c4cc547f5c4f32757a1262"
+            "url": "https://github.com/pojntfx/weron/releases/download/v0.3.0/weron.windows-i686.exe#/weron.exe",
+            "hash": "6ab3f2e90168fa7b8f9603e52e9819db060e6a103e76d2e55059cd32cadbc924"
         },
         "arm64": {
-            "url": "https://github.com/pojntfx/weron/releases/download/v0.2.7/weron.windows-aarch64.exe#/weron.exe",
-            "hash": "e20bcfff696ea67f714a1bc54deba7e8074dfa7c69ee607bdb8d0aacc3e164ee"
+            "url": "https://github.com/pojntfx/weron/releases/download/v0.3.0/weron.windows-aarch64.exe#/weron.exe",
+            "hash": "8e7f3c93cbcdd37bc5fd1174d9ac4f0e48e46210108d44176c9d1c5657dfd9b2"
         }
     },
     "bin": "weron.exe",
