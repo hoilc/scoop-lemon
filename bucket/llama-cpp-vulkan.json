@@ -1,12 +1,12 @@
 {
-    "version": "b5166",
+    "version": "b5169",
     "description": "(Vulkan Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5166/llama-b5166-bin-win-vulkan-x64.zip",
-            "hash": "c4cc06e2ac1d2e0e55d7fd8e0c46dba7c58e1915195090283f5a9efbd389797c"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5169/llama-b5169-bin-win-vulkan-x64.zip",
+            "hash": "8131cfb112d28627c9ceb26a7701e2026a6b1b1db818fb3de8ead9562af0a82b"
         }
     },
     "bin": [
