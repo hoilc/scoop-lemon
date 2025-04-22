@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows.zip",
+            "extract_dir": "Plus42Windows",
             "hash": "8b62326f52a13c31e9f568d4aca61e8e280ba24e6358a1e84fe9f2627a869ae5"
         },
         "32bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows-32bit.zip",
+            "extract_dir": "Plus42Windows-32bit",
             "hash": "01c296c6cc7b44fd86a6e86c04157877f9146f25bca2f0dce4ed85d21200f5ed"
         }
     },
-    "extract_dir": "Plus42Windows",
     "shortcuts": [
         [
             "Plus42Binary.exe",
