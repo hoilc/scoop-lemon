@@ -1,10 +1,10 @@
 {
-    "version": "6.3.8",
+    "version": "6.3.8-2",
     "description": "A GUI for ExifTool.",
     "homepage": "https://github.com/FrankBijnen/ExifToolGui",
     "license": "GPL-3.0-only",
-    "url": "https://download2.portableapps.com/portableapps/ExifToolGUIPortable/ExifToolGUIPortable_6.3.8.paf.exe#/dl.7z",
-    "hash": "6dfa8b3d9b490afd263f79ea3415e5eafb7332b093c11ad1817ef23722a4c97c",
+    "url": "https://download2.portableapps.com/portableapps/ExifToolGUIPortable/ExifToolGUIPortable_6.3.8-2.paf.exe#/dl.7z",
+    "hash": "d93823f74c9ba739f4969dfd049c0130d407610152af276a9f9ca03cd635f027",
     "architecture": {
         "64bit": {
             "extract_dir": "App\\ExifToolGUI64",
