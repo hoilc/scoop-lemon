@@ -1,0 +1,43 @@
+{
+    "version": "0.1.0",
+    "description": "BongoCat 是一个可爱地互动桌面宠物应用，让你的桌面充满乐趣",
+    "homepage": "https://github.com/ayangweb/BongoCat",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.1.0/BongoCat_0.1.0_x64-setup.exe",
+            "hash": "a963cfd9d2b2a3d4fdeb0c0345195c7203977cd3ea03afe5c0bb61e008a4bb14"
+        },
+        "32bit": {
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.1.0/BongoCat_0.1.0_x86-setup.exe",
+            "hash": "bec9fde03e11e3d1602f2fd44bce6eed84712a95c5a5e08bf50100ea7337543f"
+        },
+        "arm64": {
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.1.0/BongoCat_0.1.0_arm64-setup.exe",
+            "hash": "18d96ba0494face2fc9734c030f8dba218d5201908d67fb014bd9aea1c6e8287"
+        }
+    },
+    "shortcuts": [
+        [
+            "bongo-cat.exe",
+            "BongoCat"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.ayangweb.BongoCat\", \"$env:LOCALAPPDATA\\com.ayangweb.BongoCat\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "BongoCat is NOT portable. Settings are stored in '%APPDATA%\\com.ayangweb.BongoCat', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x64-setup.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x86-setup.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_arm64-setup.exe"
+            }
+        }
+    }
+}
