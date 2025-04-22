@@ -1,0 +1,53 @@
+{
+    "version": "1.2.8",
+    "description": "An advanced scientific programmable calculator, based on Free42.",
+    "homepage": "https://thomasokken.com/plus42/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://thomasokken.com/plus42/download/Plus42Windows.zip",
+            "hash": "8b62326f52a13c31e9f568d4aca61e8e280ba24e6358a1e84fe9f2627a869ae5"
+        },
+        "32bit": {
+            "url": "https://thomasokken.com/plus42/download/Plus42Windows-32bit.zip",
+            "hash": "01c296c6cc7b44fd86a6e86c04157877f9146f25bca2f0dce4ed85d21200f5ed"
+        }
+    },
+    "extract_dir": "Plus42Windows",
+    "shortcuts": [
+        [
+            "Plus42Binary.exe",
+            "Plus42 Binary"
+        ],
+        [
+            "Plus42Decimal.exe",
+            "Plus42 Decimal"
+        ]
+    ],
+    "pre_install": [
+        "Set-Content -Encoding ASCII -Path \"$dir\\portable\" -Value $null",
+        "if (!(Test-Path \"$persist_dir\\print.bin\")) { Set-Content -Encoding ASCII -Path \"$dir\\print.bin\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\state.bin\")) { Set-Content -Encoding ASCII -Path \"$dir\\state.bin\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\keymap.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\keymap.txt\" -Value $null }"
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\" '*.p42' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\" '*.p42' | Move-Item -Force -Destination $persist_dir",
+    "persist": [
+        "print.bin",
+        "state.bin",
+        "keymap.txt"
+    ],
+    "checkver": {
+        "regex": "The latest release is .* <b>([^<>]+)</b>( for Windows)?"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://thomasokken.com/plus42/download/Plus42Windows.zip"
+            },
+            "32bit": {
+                "url": "https://thomasokken.com/plus42/download/Plus42Windows-32bit.zip"
+            }
+        }
+    }
+}
