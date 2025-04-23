@@ -1,12 +1,12 @@
 {
-    "version": "1.3.1.420",
+    "version": "1.3.2.423",
     "description": "A simple file auto-classification tool makes it easy to create automatic workflows with files / 一个简单的文件自动分类整理工具，轻松创建文件的自动工作流程",
     "homepage": "https://easytidy.luckyits.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SaboZhang/EasyTidy/releases/download/1.3.1.420/EasyTidy_1.3.1.420_win-x64_7z.7z",
-            "hash": "d86843fdd0fe69492e9e000881d228eba84bfbde6a745a404e6134bf4ce47684"
+            "url": "https://github.com/SaboZhang/EasyTidy/releases/download/1.3.2.423/EasyTidy_1.3.2.423_win-x64_7z.7z",
+            "hash": "bbb04bd8272ce69c12a674bfd1edd7bb9df85025c42ba700168cb350a8a58936"
         }
     },
     "extract_dir": "EasyTidy",
