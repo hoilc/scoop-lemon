@@ -1,12 +1,12 @@
 {
-    "version": "b5170",
+    "version": "b5171",
     "description": "(SYCL Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5170/llama-b5170-bin-win-sycl-x64.zip",
-            "hash": "49caff3361c0e89f79a68b01e1232dd2bb9bb88a5762c840ceb96fa5e50e905e"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5171/llama-b5171-bin-win-sycl-x64.zip",
+            "hash": "8daac44d0763bebb72fced9de8dedc29f6ad8b6d562a5d08d2e4c954ee122202"
         }
     },
     "bin": [
