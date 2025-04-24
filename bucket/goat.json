@@ -1,0 +1,30 @@
+{
+    "version": "1.4.0",
+    "description": "An integration testing tool for HTTP APIs using a simple script language.",
+    "homepage": "https://studio-b12.github.io/goat/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/studio-b12/goat/releases/download/v1.4.0/goat-windows-amd64.exe#/goat.exe",
+            "hash": "0d18d159e9817059be2b23b9644c101c7b9194c95fbefa6fce03cd4414829f07"
+        },
+        "arm64": {
+            "url": "https://github.com/studio-b12/goat/releases/download/v1.4.0/goat-windows-arm64.exe#/goat.exe",
+            "hash": "d34f7f7194a7db38d0dc794c8c651abb7e0953769dd6b6d864fa5b1fa8d543b2"
+        }
+    },
+    "bin": "goat.exe",
+    "checkver": {
+        "github": "https://github.com/studio-b12/goat"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/studio-b12/goat/releases/download/v$version/goat-windows-amd64.exe#/goat.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/studio-b12/goat/releases/download/v$version/goat-windows-arm64.exe#/goat.exe"
+            }
+        }
+    }
+}
