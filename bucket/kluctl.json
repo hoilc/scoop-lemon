@@ -1,0 +1,26 @@
+{
+    "version": "2.26.0",
+    "description": "The missing glue that puts together your deployments into one large declarative Kubernetes deployment.",
+    "homepage": "https://kluctl.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kluctl/kluctl/releases/download/v2.26.0/kluctl_v2.26.0_windows_amd64.zip",
+            "hash": "d151fefd0dffcb3ef3e04e81abedcc3f7a689b6c2255257a3c96221a6ddf91b1"
+        }
+    },
+    "bin": "kluctl.exe",
+    "checkver": {
+        "github": "https://github.com/kluctl/kluctl"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kluctl/kluctl/releases/download/v$version/kluctl_v$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/kluctl_v$version_checksums.txt"
+        }
+    }
+}
