@@ -1,0 +1,31 @@
+{
+    "version": "1.6.17",
+    "description": "The Transifex command-line client.",
+    "homepage": "https://github.com/transifex/cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-amd64.zip",
+            "hash": "41ee29302f063b28e6f5724c7a690c158880b674f7b69aac08550f4de209626a"
+        },
+        "32bit": {
+            "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-386.zip",
+            "hash": "3f080cfd766f47bca3f98a959e51a583788cef44be01a36142512a6fa59d25d4"
+        }
+    },
+    "bin": "tx.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
