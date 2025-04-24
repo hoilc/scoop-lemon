@@ -1,0 +1,28 @@
+{
+    "version": "1.2.1",
+    "description": "An efficient open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.",
+    "homepage": "https://cvc5.github.io/",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://github.com/cvc5/cvc5/raw/refs/heads/main/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cvc5/cvc5/releases/download/cvc5-1.2.1/cvc5-Win64-x86_64-static.zip",
+            "extract_dir": "cvc5-Win64-x86_64-static",
+            "hash": "a5cfbb258fa5421f9e8ba11aad968b1b542e5913a8907b0bddcdb2a91313fca8"
+        }
+    },
+    "bin": "bin\\cvc5.exe",
+    "checkver": {
+        "url": "https://github.com/cvc5/cvc5/releases.atom",
+        "regex": "Repository/\\d+/cvc5-(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cvc5/cvc5/releases/download/cvc5-$version/cvc5-Win64-x86_64-static.zip"
+            }
+        }
+    }
+}
