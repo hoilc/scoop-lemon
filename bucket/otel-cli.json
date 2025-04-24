@@ -1,0 +1,38 @@
+{
+    "version": "0.4.5",
+    "description": "A command-line tool for sending OpenTelemetry traces.",
+    "homepage": "https://github.com/equinix-labs/otel-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_windows_amd64.zip",
+            "hash": "129d7e5dfc3f0bf23797c7309e79c2b5d9d5ecd31c1cefb31c41c820d4288810"
+        },
+        "32bit": {
+            "url": "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_windows_386.zip",
+            "hash": "ce17410f6c1b90019c5dbe51b470add4204c33027dcb2b143d9209f5ff94b22d"
+        },
+        "arm64": {
+            "url": "https://github.com/equinix-labs/otel-cli/releases/download/v0.4.5/otel-cli_0.4.5_windows_arm64.zip",
+            "hash": "cdd60a837c6246666d4854455c9c879abe19880820c74c602688f817a297c6c5"
+        }
+    },
+    "bin": "otel-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/equinix-labs/otel-cli/releases/download/v$version/otel-cli_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/equinix-labs/otel-cli/releases/download/v$version/otel-cli_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/equinix-labs/otel-cli/releases/download/v$version/otel-cli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
