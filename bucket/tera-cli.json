@@ -1,0 +1,24 @@
+{
+    "version": "0.5.0",
+    "description": "A command line utility on top of the tera templating engine.",
+    "homepage": "https://github.com/chevdor/tera-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chevdor/tera-cli/releases/download/v0.5.0/tera-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "sha512:a6c661e1f401cabfe94727407c393b61823a83bc727238cf57b771764c283896c8bd9b3c0bd26e6b3b74120167ee3ab640213dcd50eff7192037eda31b4712b9"
+        }
+    },
+    "bin": "tera.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chevdor/tera-cli/releases/download/v$version/tera-cli-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$baseurl/tera-cli-x86_64-pc-windows-msvc.sha512"
+                }
+            }
+        }
+    }
+}
