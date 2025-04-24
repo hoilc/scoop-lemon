@@ -1,0 +1,18 @@
+{
+    "version": "2.4.1",
+    "description": "An automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.",
+    "homepage": "https://cs.nyu.edu/acsys/cvc3/index.html",
+    "license": "Freeware",
+    "url": "https://cs.nyu.edu/acsys/cvc3/releases/2.4.1/win32/cvc3-2.4.1-win32-optimized.zip",
+    "hash": "228ad363d799688f7d4fa0ab72763ed45c46ea21057a3809f18204971b17587b",
+    "extract_dir": "cvc3-2.4.1-win32-optimized",
+    "bin": "bin\\cvc3.exe",
+    "checkver": {
+        "url": "https://cs.nyu.edu/acsys/cvc3/download.html",
+        "regex": "cvc3-([\\d.]+)-win32-optimized"
+    },
+    "autoupdate": {
+        "url": "https://cs.nyu.edu/acsys/cvc3/releases/$version/win32/cvc3-$version-win32-optimized.zip",
+        "extract_dir": "cvc3-$version-win32-optimized"
+    }
+}
