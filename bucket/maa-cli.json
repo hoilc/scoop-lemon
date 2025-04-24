@@ -1,0 +1,33 @@
+{
+    "version": "0.5.4",
+    "description": "MAA命令行工具 | A simple CLI for MAA.",
+    "homepage": "https://github.com/MaaAssistantArknights/maa-cli",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.5.4/maa_cli-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "maa_cli-x86_64-pc-windows-msvc",
+            "hash": "a8fae385c4aba81d390ea883b591433973fc9996d309b9200cc1739269d9d7bc"
+        },
+        "arm64": {
+            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.5.4/maa_cli-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "maa_cli-aarch64-pc-windows-msvc",
+            "hash": "35dce027ddc39404087cd6e5c448b10dc3c8c92a5fac3b697739405f4fb3d599"
+        }
+    },
+    "bin": "maa.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
