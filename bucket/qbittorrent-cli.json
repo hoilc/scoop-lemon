@@ -1,0 +1,28 @@
+{
+    "version": "1.8.24285.1",
+    "description": "A cross-platform command line interface for remote qBittorrent instances.",
+    "homepage": "https://github.com/fedarovich/qbittorrent-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24285.1/qbt-win-x64-1.8.24285.1.zip",
+            "hash": "c1dc17835226885933596d35f8e65c48d08b481c9fd1b3be85e09d62b5ef10b4"
+        },
+        "32bit": {
+            "url": "https://github.com/fedarovich/qbittorrent-cli/releases/download/v1.8.24285.1/qbt-win-x86-1.8.24285.1.zip",
+            "hash": "12e609097e288972536624338e1afb7ce74f879a877f3c53b5d7b488bf1d538e"
+        }
+    },
+    "bin": "qbt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fedarovich/qbittorrent-cli/releases/download/v$version/qbt-win-x64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/fedarovich/qbittorrent-cli/releases/download/v$version/qbt-win-x86-$version.zip"
+            }
+        }
+    }
+}
