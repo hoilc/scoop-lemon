@@ -27,7 +27,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/pomerium_checksums.txt"
+            "url": "$baseurl/pomerium-cli_checksums.txt"
         }
     }
 }
