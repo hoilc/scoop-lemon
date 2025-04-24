@@ -1,0 +1,24 @@
+{
+    "version": "0.41.0",
+    "description": "WAsmcloud SHell - a comprehensive command-line tool for wasmCloud development.",
+    "homepage": "https://wasmcloud.com/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/wash-v0.41.0/wash-x86_64-pc-windows-msvc.exe#/wash.exe",
+            "hash": "dec5234008073f5f9a95e92551808ba19dcf17eab88b64b3b4ae6357bf49e490"
+        }
+    },
+    "bin": "wash.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/wasmCloud/homebrew-wasmcloud/refs/heads/main/Formula/wash.rb",
+        "regex": "version \"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wasmCloud/wasmCloud/releases/download/wash-v$version/wash-x86_64-pc-windows-msvc.exe#/wash.exe"
+            }
+        }
+    }
+}
