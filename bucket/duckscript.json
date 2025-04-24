@@ -1,0 +1,23 @@
+{
+    "version": "0.11.1",
+    "description": "A simple, extendable and embeddable scripting language.",
+    "homepage": "https://sagiegurari.github.io/duckscript/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sagiegurari/duckscript/releases/download/0.11.1/duckscript-v0.11.1-x86_64-pc-windows-msvc.zip",
+            "hash": "581db06e418d45c386a3796010216f8b39a756abaf09521d06a5ad09da5bdc00"
+        }
+    },
+    "bin": "duck.exe",
+    "checkver": {
+        "github": "https://github.com/sagiegurari/duckscript"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sagiegurari/duckscript/releases/download/$version/duckscript-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
