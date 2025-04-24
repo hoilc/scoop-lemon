@@ -1,0 +1,21 @@
+{
+    "version": "1.2.0",
+    "description": "A minimalist computer RPG written in Rust.",
+    "homepage": "https://github.com/facundoolano/rpg-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/facundoolano/rpg-cli/releases/download/1.2.0/rpg-cli-1.2.0-windows.exe#/rpg.exe",
+            "hash": "a2222800a5b60e26f517e44a3686d4c711d4bd1e882715f502f7688a4992c69f"
+        }
+    },
+    "bin": "rpg.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/facundoolano/rpg-cli/releases/download/$version/rpg-cli-$version-windows.exe#/rpg.exe"
+            }
+        }
+    }
+}
