@@ -1,0 +1,23 @@
+{
+    "version": "0.8.14",
+    "description": "A powerful SQL migration toolkit for Rust.",
+    "homepage": "https://github.com/rust-db/refinery",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rust-db/refinery/releases/download/0.8.14/refinery-0.8.14-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "refinery-0.8.14-x86_64-pc-windows-msvc",
+            "hash": "6141e912c6c19d3ac640286c3d28c3ba942e35fdc382eac8a6d0c98e05af8c60"
+        }
+    },
+    "bin": "refinery.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rust-db/refinery/releases/download/$version/refinery-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "refinery-$version-x86_64-pc-windows-msvc"
+            }
+        }
+    }
+}
