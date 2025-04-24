@@ -1,0 +1,30 @@
+{
+    "version": "0.9.3",
+    "description": "A CLI tool for rustypaste, a minimal file upload/pastebin service.",
+    "homepage": "https://github.com/orhun/rustypaste-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.9.3/rustypaste-cli-0.9.3-x86_64-pc-windows-msvc.zip",
+            "hash": "65addad7bf49499afce2172e9b24d46508b982d8c937ed4abbf6be645c113306"
+        },
+        "32bit": {
+            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.9.3/rustypaste-cli-0.9.3-i686-pc-windows-msvc.zip",
+            "hash": "e51ca43934c9f680ce91312d233713edd712d1ee1f7cbda909276ec0fbb040c0"
+        }
+    },
+    "extract_dir": "rustypaste-cli-0.9.3",
+    "bin": "rpaste.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/orhun/rustypaste-cli/releases/download/v$version/rustypaste-cli-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/orhun/rustypaste-cli/releases/download/v$version/rustypaste-cli-$version-i686-pc-windows-msvc.zip"
+            }
+        },
+        "extract_dir": "rustypaste-cli-$version"
+    }
+}
