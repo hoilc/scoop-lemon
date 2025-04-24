@@ -1,0 +1,25 @@
+{
+    "version": "0.5.0",
+    "description": "A CLI to generate and inspect biscuit tokens.",
+    "homepage": "https://www.biscuitsec.org/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/eclipse-biscuit/biscuit-cli/releases/download/0.5.0/biscuit-0.5.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "biscuit-0.5.0-x86_64-pc-windows-msvc",
+            "hash": "4c879612e1055879faa84a2207caa3f54ef3cfe68ad1a9470199b2270842d9d4"
+        }
+    },
+    "bin": "biscuit.exe",
+    "checkver": {
+        "github": "https://github.com/eclipse-biscuit/biscuit-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/eclipse-biscuit/biscuit-cli/releases/download/$version/biscuit-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "biscuit-$version-x86_64-pc-windows-msvc"
+            }
+        }
+    }
+}
