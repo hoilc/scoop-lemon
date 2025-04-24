@@ -1,0 +1,32 @@
+{
+    "version": "0.12.0",
+    "description": "A command-line tool for Advent of Code.",
+    "homepage": "https://github.com/scarvalhojr/aoc-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/0.12.0/aoc-cli-0.12.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "aoc-cli-0.12.0-x86_64-pc-windows-msvc",
+            "hash": "c9f9f5ca00a515c563d466cb0525da8301d55cb00b0b34829be4f2ab5a8d704e"
+        },
+        "32bit": {
+            "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/0.12.0/aoc-cli-0.12.0-i686-pc-windows-msvc.zip",
+            "extract_dir": "aoc-cli-0.12.0-i686-pc-windows-msvc",
+            "hash": "67cff0fc6b7452edfa7be3f7291ba55cbedfbb2677e1b55fd665a960ef11f936"
+        }
+    },
+    "bin": "aoc.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/$version/aoc-cli-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "aoc-cli-$version-x86_64-pc-windows-msvc"
+            },
+            "32bit": {
+                "url": "https://github.com/scarvalhojr/aoc-cli/releases/download/$version/aoc-cli-$version-i686-pc-windows-msvc.zip",
+                "extract_dir": "aoc-cli-$version-i686-pc-windows-msvc"
+            }
+        }
+    }
+}
