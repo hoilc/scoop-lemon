@@ -1,0 +1,28 @@
+{
+    "version": "1.48",
+    "description": "A command-line interface for Picocrypt, a small secure encryption tool.",
+    "homepage": "https://github.com/Picocrypt/CLI",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Picocrypt/CLI/releases/download/1.48/picocrypt-windows-amd64.exe#/picocrypt.exe",
+            "hash": "8827e29c042f3f0e89ab01ce6de5aa3164208309ecbaeb80beeb01f9ad71ff48"
+        },
+        "arm64": {
+            "url": "https://github.com/Picocrypt/CLI/releases/download/1.48/picocrypt-windows-arm64.exe#/picocrypt.exe",
+            "hash": "5b4c25d9569c8f10b08edfedb25eb26e75aa0d03e83d217a3f12f74fe8e8a3f0"
+        }
+    },
+    "bin": "picocrypt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Picocrypt/CLI/releases/download/$version/picocrypt-windows-amd64.exe#/picocrypt.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Picocrypt/CLI/releases/download/$version/picocrypt-windows-arm64.exe#/picocrypt.exe"
+            }
+        }
+    }
+}
