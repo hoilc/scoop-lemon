@@ -1,0 +1,21 @@
+{
+    "version": "1.8.0",
+    "description": "A terminal client for the Miniflux self-hosted RSS reader.",
+    "homepage": "https://github.com/spencerwi/cliflux",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/spencerwi/cliflux/releases/download/v1.8.0/cliflux.exe",
+            "hash": "69d60656ca76096e485089529e9fa6088a76f1c70bfea887d8ee937a6cc8d87b"
+        }
+    },
+    "bin": "cliflux.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/spencerwi/cliflux/releases/download/v$version/cliflux.exe"
+            }
+        }
+    }
+}
