@@ -1,0 +1,40 @@
+{
+    "version": "0.1.5",
+    "description": "The CLI tool to interact with Paralus, an all-in-one Kubernetes access manager.",
+    "homepage": "https://www.paralus.io/docs/usage/cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/paralus/cli/releases/download/v0.1.5/pctl_0.1.5_windows_amd64.zip",
+            "hash": "93b86c4b1879c901921ffbd28707e19f858e839e78172b7b4ef97628a5e75c2a"
+        },
+        "32bit": {
+            "url": "https://github.com/paralus/cli/releases/download/v0.1.5/pctl_0.1.5_windows_i386.zip",
+            "hash": "b6d002cbd72c0a4f946c668540a2833a1ae27b66b179b10ce1bc7455f2f17c1b"
+        },
+        "arm64": {
+            "url": "https://github.com/paralus/cli/releases/download/v0.1.5/pctl_0.1.5_windows_arm64.zip",
+            "hash": "c73b071c21fe32d31467610ae3b4b145d217f2178b0ad36398d87c22337e54a9"
+        }
+    },
+    "bin": "pctl.exe",
+    "checkver": {
+        "github": "https://github.com/paralus/cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/paralus/cli/releases/download/v$version/pctl_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/paralus/cli/releases/download/v$version/pctl_$version_windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/paralus/cli/releases/download/v$version/pctl_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
