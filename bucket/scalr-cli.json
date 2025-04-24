@@ -1,0 +1,38 @@
+{
+    "version": "0.17.0",
+    "description": "A command-line tool for Scalr, a remote operations backend for Terraform and OpenTofu.",
+    "homepage": "https://github.com/Scalr/scalr-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.0/scalr-cli_0.17.0_windows_amd64.zip",
+            "hash": "c6b6c81b2105f1e6b846636be5486aeb78d4cbcd7da592b8b36e94ada481fdb0"
+        },
+        "32bit": {
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.0/scalr-cli_0.17.0_windows_386.zip",
+            "hash": "48142691d875eb3ff5c2ce34a916ce4bfc075f0bf3fe48897f7c8f91a77faeaa"
+        },
+        "arm64": {
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.0/scalr-cli_0.17.0_windows_arm64.zip",
+            "hash": "d1e0323836ad03a196902c4eb7cf9fc74d76c22b94e9311b0d31f66b9349d05a"
+        }
+    },
+    "bin": "scalr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Scalr/scalr-cli/releases/download/v$version/scalr-cli_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Scalr/scalr-cli/releases/download/v$version/scalr-cli_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Scalr/scalr-cli/releases/download/v$version/scalr-cli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/scalr-cli_$version_SHA256SUMS"
+        }
+    }
+}
