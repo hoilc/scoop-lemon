@@ -1,0 +1,24 @@
+{
+    "version": "0.8.3",
+    "description": "A collection of tools for interacting with XDVDFS/XISO images.",
+    "homepage": "https://github.com/antangelo/xdvdfs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/antangelo/xdvdfs/releases/download/v0.8.3/xdvdfs-windows-1cc850bf1b3487fad7ec7c9eed01d83e8fc75ba4.zip",
+            "hash": "008b1b3a63f1ecb00d1ed51ab154053fd0f7c41c68e973455bbe77ab989a7cc5"
+        }
+    },
+    "bin": "xdvdfs.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/antangelo/xdvdfs/releases/latest",
+        "regex": "/releases/download/v([\\d.]+)/xdvdfs-windows-(?<commit>[a-f0-9]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/antangelo/xdvdfs/releases/download/v$version/xdvdfs-windows-$matchCommit.zip"
+            }
+        }
+    }
+}
