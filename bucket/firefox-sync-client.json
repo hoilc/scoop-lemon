@@ -1,0 +1,35 @@
+{
+    "version": "1.9.0",
+    "description": "A commandline utility to list/view/edit/delete entries in a firefox-sync account.",
+    "homepage": "https://github.com/Mikescher/firefox-sync-client",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v1.9.0/ffsclient_win-amd64.exe#/ffsclient.exe",
+            "hash": "9315cc3b7f9113b87aba1aa6ce5d2f3b9e866704960356ea834fc186b240fb46"
+        },
+        "32bit": {
+            "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v1.9.0/ffsclient_win-386.exe#/ffsclient.exe",
+            "hash": "80eda9eda22a81bfcd13a8466e95b2e4b6fce1483efc2146dce66cc6c9dde84a"
+        },
+        "arm64": {
+            "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v1.9.0/ffsclient_win-arm64.exe#/ffsclient.exe",
+            "hash": "9cc55f3d950b55d1653cc6863cddf0fe741236f2749ae25a83d8d00330236031"
+        }
+    },
+    "bin": "ffsclient.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v$version/ffsclient_win-amd64.exe#/ffsclient.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v$version/ffsclient_win-386.exe#/ffsclient.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Mikescher/firefox-sync-client/releases/download/v$version/ffsclient_win-arm64.exe#/ffsclient.exe"
+            }
+        }
+    }
+}
