@@ -1,0 +1,21 @@
+{
+    "version": "1.2.5",
+    "description": "Cleanup stale Git branches of pull requests.",
+    "homepage": "https://github.com/swsnr/git-gone",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/swsnr/git-gone/releases/download/v1.2.5/git-gone-windows-latest.zip",
+            "hash": "361e3486d457b57d04f5503dbdac0f7774a43c943659ee9fcd1451024e51047d"
+        }
+    },
+    "bin": "git-gone.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/swsnr/git-gone/releases/download/v$version/git-gone-windows-latest.zip"
+            }
+        }
+    }
+}
