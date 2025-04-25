@@ -1,0 +1,30 @@
+{
+    "version": "3.0.0",
+    "description": "A multi-process .NET version of Torrentzip.",
+    "homepage": "https://www.romvault.com/trrntzip/",
+    "license": "Freeware",
+    "url": [
+        "https://www.romvault.com/trrntzip/download/TrrntZipUI300.zip",
+        "https://www.romvault.com/trrntzip/download/TrrntZip.NET300.zip"
+    ],
+    "hash": [
+        "d663d100b5783c798fb8d9b7a6a49eb8fc56ce57473a64cfb9eaa5541bcf175b",
+        "5c4c3b34a23a522fb41debe6b50c49762995f5a11c752b669ad5083505d858bb"
+    ],
+    "bin": "TrrntZipCMD.exe",
+    "shortcuts": [
+        [
+            "TrrntZipUI.exe",
+            "TrrntZipUI"
+        ]
+    ],
+    "checkver": {
+        "regex": "TrrntZipUI\\s+V([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": [
+            "https://www.romvault.com/trrntzip/download/TrrntZipUI$cleanVersion.zip",
+            "https://www.romvault.com/trrntzip/download/TrrntZip.NET$cleanVersion.zip"
+        ]
+    }
+}
