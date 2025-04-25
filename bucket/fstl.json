@@ -1,0 +1,28 @@
+{
+    "version": "0.11.0",
+    "description": "A fast STL file viewer.",
+    "homepage": "https://github.com/fstl-app/fstl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fstl-app/fstl/releases/download/v0.11.0/fstl-0.11.0-win64.exe#/dl.7z",
+            "hash": "721ddf53a966e3cde604e039f28af3f7f86a099b585bcf5e30951c144ac96f17"
+        }
+    },
+    "extract_dir": "bin",
+    "bin": "fstl.exe",
+    "shortcuts": [
+        [
+            "fstl.exe",
+            "fstl"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fstl-app/fstl/releases/download/v$version/fstl-$version-win64.exe#/dl.7z"
+            }
+        }
+    }
+}
