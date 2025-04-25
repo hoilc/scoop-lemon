@@ -1,0 +1,29 @@
+{
+    "version": "2.0",
+    "description": "Extract information from password-protected .7z archives such that you can crack these \"hashes\" with hashcat.",
+    "homepage": "https://github.com/philsmd/7z2hashcat",
+    "license": "Public Domain",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/philsmd/7z2hashcat/releases/download/2.0/7z2hashcat64-2.0.zip",
+            "hash": "4699b497afd78fe3bd74ca67ef51323b48351e56b4927dcf6c4a42800f89ddb2"
+        },
+        "32bit": {
+            "url": "https://github.com/philsmd/7z2hashcat/releases/download/2.0/7z2hashcat32-2.0.zip",
+            "hash": "3b67fec52b2c97d44db23d852f6f8975b2c0b02824d493fae6f7a79b5993ee30"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" '7z2hashcat*.exe' | Select-Object -First 1 | Rename-Item -NewName '7z2hashcat.exe'",
+    "bin": "7z2hashcat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/philsmd/7z2hashcat/releases/download/$version/7z2hashcat64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/philsmd/7z2hashcat/releases/download/$version/7z2hashcat32-$version.zip"
+            }
+        }
+    }
+}
