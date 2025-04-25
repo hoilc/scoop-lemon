@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0-beta.2",
+    "description": "Look up records for one or more IPs/networks in one or more .mmdb databases.",
+    "homepage": "https://github.com/maxmind/mmdbinspect",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_amd64.zip",
+            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_amd64",
+            "hash": "371444b62be3a5a5c4ab2ffb669ff78da0701bb68bc46c3725814f115b79cbef"
+        },
+        "32bit": {
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_386.zip",
+            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_386",
+            "hash": "aab6c7e26039826a1c7520ba090071953d09eef611f17dee143ae8a6f52a41b4"
+        },
+        "arm64": {
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_arm64.zip",
+            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_arm64",
+            "hash": "68e4ba63a2903a923485e0913f5ea7d23b6c55ac0f99e1c5a147019dbdeb887c"
+        }
+    },
+    "bin": "mmdbinspect.exe",
+    "checkver": {
+        "url": "https://github.com/maxmind/mmdbinspect/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/maxmind/mmdbinspect/releases/download/v$version/mmdbinspect_$version_windows_amd64.zip",
+                "extract_dir": "mmdbinspect_$version_windows_amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/maxmind/mmdbinspect/releases/download/v$version/mmdbinspect_$version_windows_386.zip",
+                "extract_dir": "mmdbinspect_$version_windows_386"
+            },
+            "arm64": {
+                "url": "https://github.com/maxmind/mmdbinspect/releases/download/v$version/mmdbinspect_$version_windows_arm64.zip",
+                "extract_dir": "mmdbinspect_$version_windows_arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
