@@ -1,0 +1,21 @@
+{
+    "version": "1.5.0",
+    "description": "Sync personal and work git repositories from multiple providers.",
+    "homepage": "https://github.com/orf/git-workspace",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/orf/git-workspace/releases/download/v1.5.0/git-workspace-Windows-x86_64.zip",
+            "hash": "66a4e5a26d4dbffaddbc95bdbf30b0d9ff282981128849e37edd3799c70f4419"
+        }
+    },
+    "bin": "git-workspace.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/orf/git-workspace/releases/download/v$version/git-workspace-Windows-x86_64.zip"
+            }
+        }
+    }
+}
