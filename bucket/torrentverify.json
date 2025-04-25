@@ -1,0 +1,18 @@
+{
+    "version": "0.1.1",
+    "description": "List torrent file contents and checks downloaded data.",
+    "homepage": "https://github.com/Wintermute0110/torrentverify",
+    "license": "Freeware",
+    "url": "https://github.com/Wintermute0110/torrentverify/archive/refs/tags/v0.1.1.zip",
+    "hash": "9d2d9bf3990149b74c14dc042bc208765788dd121d8d120d88ed45adeb61dd72",
+    "extract_dir": "torrentverify-0.1.1",
+    "bin": "torrentverify.py",
+    "suggest": {
+        "python3": "python"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Wintermute0110/torrentverify/archive/refs/tags/v$version.zip",
+        "extract_dir": "torrentverify-$version"
+    }
+}
