@@ -1,0 +1,21 @@
+{
+    "version": "1.3",
+    "description": "A derivative of 7zip that produces invariant .7z archives for torrenting.",
+    "homepage": "https://github.com/BubblesInTheTub/torrent7z",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BubblesInTheTub/torrent7z/releases/download/1.3/t7z.exe",
+            "hash": "940282b71c2b79471aac8d6342166bec6cd8060088bb94adeaf78631d44e26c7"
+        }
+    },
+    "bin": "t7z.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BubblesInTheTub/torrent7z/releases/download/$version/t7z.exe"
+            }
+        }
+    }
+}
