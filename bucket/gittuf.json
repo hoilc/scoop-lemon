@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/gittuf/gittuf/releases/download/v0.10.0/gittuf_0.10.0_windows_amd64.exe#/gittuf.exe",
-            "hash": "f6708225b0c0af0eb5f9c9f21772d0c7a0f3a91ea2fc3da59a5c208fb2918e3d"
+            "hash": "b1442dc40a6653bcad4df4978a29ebdf0e38b8501c895221f61b93164dc89dee"
         },
         "arm64": {
             "url": "https://github.com/gittuf/gittuf/releases/download/v0.10.0/gittuf_0.10.0_windows_arm64.exe#/gittuf.exe",
-            "hash": "6112c8f84ff329d7a42eb6a38fd0cb8b7f758c07a067aad2a31922930b0dab16"
+            "hash": "53735f9d336302e26a6d038c19f1f01140bf4d1bfc08b6c76445b5c9e4179996"
         }
     },
     "bin": "gittuf.exe",
@@ -25,9 +25,6 @@
             "arm64": {
                 "url": "https://github.com/gittuf/gittuf/releases/download/v$version/gittuf_$version_windows_arm64.exe#/gittuf.exe"
             }
-        },
-        "hash": {
-            "url": "$baseurl/gittuf_$version_checksums.txt"
         }
     }
 }
