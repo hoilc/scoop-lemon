@@ -1,0 +1,43 @@
+{
+    "version": "6.11.2",
+    "description": "A Qt-based, lightweight and cross-platform IDE specially designed for competitive programming.",
+    "homepage": "https://cpeditor.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.11.2/cpeditor-6.11.2-windows-x64-portable.zip",
+            "hash": "e928e2f68a9b091fe4051464c99e3e8c1ec69f69a58f538739239041851ba6f3"
+        },
+        "32bit": {
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.11.2/cpeditor-6.11.2-windows-x86-portable.zip",
+            "hash": "f32958b9cd7d260f75c50cf30de53d95b7e4d29a841d7f0cd5128a7eb691e147"
+        }
+    },
+    "bin": "cpeditor.exe",
+    "shortcuts": [
+        [
+            "cpeditor.exe",
+            "CP Editor"
+        ]
+    ],
+    "pre_uninstall": "Copy-Item \"$dir\\cp_editor_settings.ini\", \"$dir\\cp_editor_session.json\" \"$persist_dir\\data\\\" -Force -ErrorAction SilentlyContinue",
+    "pre_install": "if (Test-Path \"$persist_dir\\data\\cp_editor_settings.ini\") { Copy-Item \"$persist_dir\\data\\cp_editor_settings.ini\", \"$persist_dir\\data\\cp_editor_session.json\" \"$dir\\\" -Force -ErrorAction SilentlyContinue }",
+    "post_install": "if (!(Test-Path \"$dir\\cp_editor_settings.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\cp_editor_settings.ini\" -Value '[General]','check_update=false' }",
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/cpeditor/cpeditor"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cpeditor/cpeditor/releases/download/$version/cpeditor-$version-windows-x64-portable.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/cpeditor/cpeditor/releases/download/$version/cpeditor-$version-windows-x86-portable.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/cpeditor-$version-sha256-checksums.txt"
+        }
+    }
+}
