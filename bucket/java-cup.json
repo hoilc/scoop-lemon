@@ -1,0 +1,38 @@
+{
+    "version": "0.11b-20160615",
+    "description": "An LALR parser generator for Java.",
+    "homepage": "http://www2.cs.tum.edu/projects/cup/index.php",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "http://www2.cs.tum.edu/projects/cup/licence.html"
+    },
+    "url": "http://www2.cs.tum.edu/projects/cup/releases/java-cup-bin-11b-20160615.tar.gz",
+    "hash": "3f01d657882380c1e5dc1593d9db7b5ded853429b7e52bc517f9bcbb4a65decc",
+    "bin": [
+        [
+            "java-cup-11b.jar",
+            "java-cup"
+        ]
+    ],
+    "suggest": {
+        "JDK 11+": [
+            "java/temurin17-jdk",
+            "java/temurin11-jdk",
+            "java/zulu17-jdk",
+            "java/zulu11-jdk"
+        ]
+    },
+    "checkver": {
+        "regex": "java-cup-bin-(?<subversion>[^-]+)-(?<date>[\\d]+).tar.gz",
+        "replace": "0.${subversion}-${date}"
+    },
+    "autoupdate": {
+        "url": "http://www2.cs.tum.edu/projects/cup/releases/java-cup-bin-$matchSubversion-$matchDate.tar.gz",
+        "bin": [
+            [
+                "java-cup-$matchSubversion.jar",
+                "java-cup"
+            ]
+        ]
+    }
+}
