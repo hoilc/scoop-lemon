@@ -1,0 +1,47 @@
+{
+    "version": "1.4.1",
+    "description": "A simple utility for converting the MaxMind GeoIP2 and GeoLite2 CSVs to different formats.",
+    "homepage": "https://github.com/maxmind/geoip2-csv-converter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.1/geoip2-csv-converter_1.4.1_windows_amd64.zip",
+            "extract_dir": "geoip2-csv-converter_1.4.1_windows_amd64",
+            "hash": "dd1af69af794cc6a4938a4169a9b8ff486f1efea58006dc998198d5ddce84f4f"
+        },
+        "32bit": {
+            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.1/geoip2-csv-converter_1.4.1_windows_386.zip",
+            "extract_dir": "geoip2-csv-converter_1.4.1_windows_386",
+            "hash": "ff6494548cf93ed7a85d50432ca4c827ba54f5960fb9199b12f99b745f8b171e"
+        },
+        "arm64": {
+            "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v1.4.1/geoip2-csv-converter_1.4.1_windows_arm64.zip",
+            "extract_dir": "geoip2-csv-converter_1.4.1_windows_arm64",
+            "hash": "267d2ded4f323021e209ca9dc1fc1117568d84b5a2b0460e9eb03e64ea772b52"
+        }
+    },
+    "bin": "geoip2-csv-converter.exe",
+    "checkver": {
+        "url": "https://github.com/maxmind/geoip2-csv-converter/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_amd64.zip",
+                "extract_dir": "geoip2-csv-converter_$version_windows_amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_386.zip",
+                "extract_dir": "geoip2-csv-converter_$version_windows_386"
+            },
+            "arm64": {
+                "url": "https://github.com/maxmind/geoip2-csv-converter/releases/download/v$version/geoip2-csv-converter_$version_windows_arm64.zip",
+                "extract_dir": "geoip2-csv-converter_$version_windows_arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
