@@ -1,0 +1,24 @@
+{
+    "version": "2.10.0",
+    "description": "A tool that blends TDD (Test Driven Development) + TCR (test && commit || revert) to make sure to develop the right thing.",
+    "homepage": "https://git-gamble.is-cool.dev",
+    "license": "0BSD",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitlab.com/pinage404/git-gamble/-/releases/version%2F2.10.0/downloads/git-gamble.exe",
+            "hash": "4aa5cb60fe70d5a480348d400cf08bcd200fe89517f70ed6bca7ef121c708c10"
+        }
+    },
+    "bin": "git-gamble.exe",
+    "checkver": {
+        "url": "https://gitlab.com/api/v4/projects/pinage404%2Fgit-gamble/releases/?per_page=1",
+        "regex": "\"version/([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitlab.com/pinage404/git-gamble/-/releases/version%2F$version/downloads/git-gamble.exe"
+            }
+        }
+    }
+}
