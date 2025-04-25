@@ -1,0 +1,21 @@
+{
+    "version": "1.6.1",
+    "description": "Backup all your github & gitlab repositories.",
+    "homepage": "https://github.com/ChappIO/git-backup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ChappIO/git-backup/releases/download/v1.6.1/git-backup-windows-x64.exe#/git-backup.exe",
+            "hash": "03e20d4f050d095e095895e930651292a696f5e9e8533aae6e772af234634b96"
+        }
+    },
+    "bin": "git-backup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ChappIO/git-backup/releases/download/v$version/git-backup-windows-x64.exe#/git-backup.exe"
+            }
+        }
+    }
+}
