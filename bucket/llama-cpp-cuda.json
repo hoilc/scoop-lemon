@@ -1,16 +1,16 @@
 {
-    "version": "b5186",
+    "version": "b5187",
     "description": "(CUDA 12 Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5186/llama-b5186-bin-win-cuda-cu12.4-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5186/cudart-llama-bin-win-cu12.4-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5187/llama-b5187-bin-win-cuda-cu12.4-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5187/cudart-llama-bin-win-cu12.4-x64.zip"
             ],
             "hash": [
-                "d920fd7a59c2af6ac24cee013648193bc0e6bc08759b9de6cd6f93f63c3eb78a",
+                "4addd274cc4df3321c279748aff5aecae6c7597b313ddacd29313679e4511d09",
                 "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
             ]
         }
