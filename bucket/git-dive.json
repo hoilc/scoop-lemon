@@ -1,0 +1,21 @@
+{
+    "version": "0.1.6",
+    "description": "Dive into a file's history to find root cause.",
+    "homepage": "https://github.com/gitext-rs/git-dive",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gitext-rs/git-dive/releases/download/v0.1.6/git-dive-v0.1.6-x86_64-pc-windows-msvc.zip",
+            "hash": "61669927a9583638f5475e2908facbf7ad40060ee06f5010eb96d2ca8ea77233"
+        }
+    },
+    "bin": "git-dive.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gitext-rs/git-dive/releases/download/v$version/git-dive-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
