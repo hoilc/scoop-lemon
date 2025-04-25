@@ -1,0 +1,21 @@
+{
+    "version": "0.5.1",
+    "description": "A transparent TCP to SOCKSv5/HTTP proxy written in Rust.",
+    "homepage": "https://github.com/sorz/moproxy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sorz/moproxy/releases/download/v0.5.1/moproxy.exe.xz",
+            "hash": "37593959dedf80f3513aed40b3fc2bad247cc2b238c4301eca455447803b9484"
+        }
+    },
+    "bin": "moproxy.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sorz/moproxy/releases/download/v$version/moproxy.exe.xz"
+            }
+        }
+    }
+}
