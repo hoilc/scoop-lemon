@@ -1,12 +1,12 @@
 {
-    "version": "b5190",
+    "version": "b5191",
     "description": "(OpenBLAS Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5190/llama-b5190-bin-win-openblas-x64.zip",
-            "hash": "558f96687d4cb68b7d0d8df8367d7f846a2860789192b819939b6c6d4cab3d18"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5191/llama-b5191-bin-win-openblas-x64.zip",
+            "hash": "56b4bcecc5b0ba6dba8571c24a6f90fc61dc3849198ce48dbc6f31e63557a5db"
         }
     },
     "bin": [
