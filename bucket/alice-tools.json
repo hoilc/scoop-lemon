@@ -1,0 +1,29 @@
+{
+    "version": "0.13.0",
+    "description": "Tools for extracting/editing files from AliceSoft games.",
+    "homepage": "https://github.com/nunuhara/alice-tools",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nunuhara/alice-tools/releases/download/0.13.0/alice-tools-0.13.0.zip",
+            "extract_dir": "alice-tools-0.13.0",
+            "hash": "894c72e31135fc34c845671803e899f0085f8e2aedd3e8b3fa0232acc4361c25"
+        }
+    },
+    "bin": "alice.exe",
+    "shortcuts": [
+        [
+            "galice.exe",
+            "alice-tools"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nunuhara/alice-tools/releases/download/$version/alice-tools-$version.zip",
+                "extract_dir": "alice-tools-$version"
+            }
+        }
+    }
+}
