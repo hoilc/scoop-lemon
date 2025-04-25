@@ -1,0 +1,21 @@
+{
+    "version": "1.14",
+    "description": "A tool to dump Java serialization streams in a more human readable form.",
+    "homepage": "https://github.com/NickstaDB/SerializationDumper",
+    "license": "MIT",
+    "url": "https://github.com/NickstaDB/SerializationDumper/releases/download/v1.14/SerializationDumper-v1.14.jar#/SerializationDumper.jar",
+    "hash": "14a28514a74909279081f4fceb1402ebc72cf12904316b03edc02c307275d823",
+    "bin": "SerializationDumper.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/NickstaDB/SerializationDumper/releases/download/v$version/SerializationDumper-v$version.jar#/SerializationDumper.jar"
+    }
+}
