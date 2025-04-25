@@ -1,0 +1,21 @@
+{
+    "version": "1.4.0",
+    "description": "Quickly and easily list, fetch and generate .gitignore templates.",
+    "homepage": "https://github.com/sondr3/git-ignore",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sondr3/git-ignore/releases/download/v1.4.0/git-ignore-x86_64-pc-windows-msvc.zip",
+            "hash": "a9ad680aaec04e2df54090da23d98b47aa952b6e270f6d53a73ad7c23d1e8f6a"
+        }
+    },
+    "bin": "git-ignore.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sondr3/git-ignore/releases/download/v$version/git-ignore-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
