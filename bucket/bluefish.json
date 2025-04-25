@@ -1,0 +1,33 @@
+{
+    "version": "2.2.17",
+    "description": "A powerful editor targeted towards programmers and webdevelopers.",
+    "homepage": "https://bluefish.openoffice.nl/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.bennewitz.com/bluefish/stable/binaries/windows_x64/Bluefish%202.2.17%20Setup.exe#/dl.7z",
+            "hash": "9c07e7d61ce445573bd46d3d222359f2d374cc5cbe26c4e7f78d6aff1f0e0120"
+        }
+    },
+    "bin": "bluefish.exe",
+    "shortcuts": [
+        [
+            "bluefish.exe",
+            "Bluefish"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:USERPROFILE\\.bluefish\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "Bluefish is NOT portable. Settings are stored in '%USERPROFILE%\\.bluefish', and will be purged during uninstallation.",
+    "checkver": {
+        "url": "https://www.bennewitz.com/bluefish/stable/binaries/windows_x64/",
+        "regex": "Bluefish ([\\d.]+) Setup.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.bennewitz.com/bluefish/stable/binaries/windows_x64/Bluefish%20$version%20Setup.exe#/dl.7z"
+            }
+        }
+    }
+}
