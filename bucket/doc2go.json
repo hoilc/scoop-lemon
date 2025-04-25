@@ -1,0 +1,40 @@
+{
+    "version": "0.8.1",
+    "description": "A command line tool that generates static HTML documentation from your Go code.",
+    "homepage": "https://abhinav.github.io/doc2go",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/abhinav/doc2go/releases/download/v0.8.1/doc2go-windows-amd64.tar.gz",
+            "hash": "a203bef0b54c747a6b010c5515e257eea610cfc5a5fadc83a7d2b181c96e0663"
+        },
+        "32bit": {
+            "url": "https://github.com/abhinav/doc2go/releases/download/v0.8.1/doc2go-windows-386.tar.gz",
+            "hash": "542f8d042f0de38b9d176b1391fc2c8df34e579cb837978808aeebfd60d5830a"
+        },
+        "arm64": {
+            "url": "https://github.com/abhinav/doc2go/releases/download/v0.8.1/doc2go-windows-arm64.tar.gz",
+            "hash": "129a7b08a93a216fdeb6e08d601f548c270d42d7899f0fc0e01eed955dc00650"
+        }
+    },
+    "bin": "doc2go.exe",
+    "checkver": {
+        "github": "https://github.com/abhinav/doc2go"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/abhinav/doc2go/releases/download/v$version/doc2go-windows-amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/abhinav/doc2go/releases/download/v$version/doc2go-windows-386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/abhinav/doc2go/releases/download/v$version/doc2go-windows-arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
