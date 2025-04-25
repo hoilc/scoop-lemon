@@ -1,0 +1,28 @@
+{
+    "version": "1.2.0",
+    "description": "A command-line tool that allows developers to analyze their local Git repositories and generate a visual contributions graph.",
+    "homepage": "https://github.com/knbr13/gitcs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/knbr13/gitcs/releases/download/v1.2.0/gitcs_windows_amd64.exe#/gitcs.exe",
+            "hash": "3a4f0fdadf076795a5d6e1581ca6e403db745560125d2a7061047e25a25b6d75"
+        },
+        "32bit": {
+            "url": "https://github.com/knbr13/gitcs/releases/download/v1.2.0/gitcs_windows_386.exe#/gitcs.exe",
+            "hash": "74d697e94bfcfad86f5062dec0915ad92d9d301008af7cc2776563a6e8f728b3"
+        }
+    },
+    "bin": "gitcs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/knbr13/gitcs/releases/download/v$version/gitcs_windows_amd64.exe#/gitcs.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/knbr13/gitcs/releases/download/v$version/gitcs_windows_386.exe#/gitcs.exe"
+            }
+        }
+    }
+}
