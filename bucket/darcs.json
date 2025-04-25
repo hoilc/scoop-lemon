@@ -1,0 +1,24 @@
+{
+    "version": "2.16.3",
+    "description": "A free and open source, cross-platform version control system.",
+    "homepage": "https://darcs.net/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "http://darcs.net/binaries/windows/darcs-2.16.3.exe#/darcs.exe",
+            "hash": "9003fe97e154db1bb4e028c0e93d8cc4eae9fa69a9752b04a2e6c24a5be1764b"
+        }
+    },
+    "bin": "darcs.exe",
+    "checkver": {
+        "url": "https://darcs.net/Binaries",
+        "regex": "/windows/darcs-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://darcs.net/binaries/windows/darcs-$version.exe#/darcs.exe"
+            }
+        }
+    }
+}
