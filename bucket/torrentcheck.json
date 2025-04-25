@@ -1,0 +1,24 @@
+{
+    "version": "0.9e",
+    "description": "TorrentCheck checks if the files on a computer match a torrent.",
+    "homepage": "https://pleasuredome.miraheze.org/wiki/TorrentCheck",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/torrentcheck/TorrentCheck-v09e-Win64.zip",
+            "hash": "2f4f25e87cc356eedbd806cc77dce8a5d201545b3ff4ae7555b943bf4614f30d"
+        },
+        "arm64": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/torrentcheck/TorrentCheck-v09e-Win32.zip",
+            "hash": "33534cf10438dbd710d2b0e624902cec38ebca459c069c842a31c6cead7d7ced"
+        }
+    },
+    "shortcuts": [
+        [
+            "TorrentCheck.exe",
+            "TorrentCheck"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\TorrentCheck\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "TorrentCheck is NOT portable. Settings are stored in '%APPDATA%\\TorrentCheck', and will be purged during uninstallation."
+}
