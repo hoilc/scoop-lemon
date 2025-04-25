@@ -1,0 +1,27 @@
+{
+    "version": "3.1-beta",
+    "description": "A pattern-matching, patch-attacking, batch-catching secret snatcher.",
+    "homepage": "https://github.com/tillson/git-hound",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tillson/git-hound/releases/download/v3.1-beta/git-hound_windows_amd64.zip",
+            "hash": "e4c2e71e082d3d7c3ad7a323faf5cbe9a5f0f1dc03ea70569c35397d5b20850a"
+        }
+    },
+    "bin": "git-hound.exe",
+    "checkver": {
+        "url": "https://github.com/tillson/git-hound/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tillson/git-hound/releases/download/v$version/git-hound_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/git-hound_$version_checksums.txt"
+        }
+    }
+}
