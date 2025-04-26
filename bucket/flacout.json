@@ -1,0 +1,19 @@
+{
+    "version": "2014-07-03",
+    "description": "Optimizes the size of .FLAC audio files losslessly.",
+    "homepage": "https://advsys.net/Ken/utils.htm#flacout",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://advsys.net/ken/utils.htm#pngoutkziplicense"
+    },
+    "url": "https://advsys.net/ken/util/flacout.exe",
+    "hash": "e7c5bc1f416b2463b51a8c5d70f2880c2aae8a074d1013b2e49a39beb27abe47",
+    "bin": "flacout.exe",
+    "checkver": {
+        "regex": "(?sm)>FLACOUT.EXE<.*?(\\d{2})/(\\d{2})/(\\d{4})",
+        "replace": "${3}-${1}-${2}"
+    },
+    "autoupdate": {
+        "url": "https://advsys.net/ken/util/flacout.exe"
+    }
+}

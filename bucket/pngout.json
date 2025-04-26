@@ -1,0 +1,19 @@
+{
+    "version": "2015-02-13",
+    "description": "Optimizes the size of .PNG files losslessly.",
+    "homepage": "https://advsys.net/ken/utils.htm#pngout",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://advsys.net/ken/utils.htm#pngoutkziplicense"
+    },
+    "url": "https://advsys.net/ken/util/pngout.exe",
+    "hash": "843f0be42e86680c1663c4ef58eb0677ace15fc29ab23897c83f4b7e5af3ef36",
+    "bin": "pngout.exe",
+    "checkver": {
+        "regex": "(?sm)>PNGOUT.EXE<.*?(\\d{2})/(\\d{2})/(\\d{4})",
+        "replace": "${3}-${1}-${2}"
+    },
+    "autoupdate": {
+        "url": "https://advsys.net/ken/util/pngout.exe"
+    }
+}
