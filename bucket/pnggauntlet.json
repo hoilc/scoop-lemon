@@ -1,0 +1,23 @@
+{
+    "version": "3.1.2",
+    "description": "A PNG compression app to create the small PNGs, without sacrificing any image quality.",
+    "homepage": "https://pnggauntlet.com/",
+    "license": "Freeware",
+    "url": "https://pnggauntlet.com/PNGGauntlet-3.1.2.exe#/dl.7z",
+    "hash": "1155cb66555764d497962d7857eb61d3ea13d5e6ca4c847fb0a4bbc46b802e83",
+    "shortcuts": [
+        [
+            "PngGauntlet.exe",
+            "PNGGauntlet"
+        ]
+    ],
+    "pre_install": "Expand-MsiArchive \"$dir\\Installer\\PNGGauntletSetup.msi\" -DestinationPath \"$dir\" -ExtractDir 'PFiles\\PNGGauntlet' -Removal",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Benjamin_Hollis\\PngGauntlet.exe_StrongName_pzlhlsj2t4i4e5ym4uf2tg4ffi52zszg\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "PNGGauntlet is NOT portable. Settings are stored in '%LOCALAPPDATA%\\Benjamin_Hollis\\PngGauntlet.exe_StrongName_pzlhlsj2t4i4e5ym4uf2tg4ffi52zszg', and will be purged during uninstallation.",
+    "checkver": {
+        "regex": "PNGGauntlet-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://pnggauntlet.com/PNGGauntlet-$version.exe#/dl.7z"
+    }
+}
