@@ -1,0 +1,23 @@
+{
+    "version": "1.9.5",
+    "description": "A lightweight deployment tool to set up KubeVela.",
+    "homepage": "https://github.com/kubevela/velad",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kubevela/velad/releases/download/v1.9.5/velad-v1.9.5-windows-amd64.zip",
+            "extract_dir": "windows-amd64",
+            "hash": "b8ce8178635862860c26ac761f2912875861b369272384804b3e68e5b654032b"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'velad' | Select-Object -First 1 | Rename-Item -NewName 'velad.exe'",
+    "bin": "velad.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kubevela/velad/releases/download/v$version/velad-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
