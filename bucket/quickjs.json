@@ -1,12 +1,12 @@
 {
-    "version": "2024-01-13",
+    "version": "2025-04-26",
     "description": "A small and embeddable Javascript engine.",
     "homepage": "https://bellard.org/quickjs/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-x86_64-2024-01-13.zip",
-            "hash": "8a2af46c2a585d95291120111fd88aeadcd730ca1467b2cea444e790a94ac3c9"
+            "url": "https://bellard.org/quickjs/binary_releases/quickjs-win-x86_64-2025-04-26.zip",
+            "hash": "093e0ea8f38c38600dfe251dad82eb9097e3a67e7e56a23b5099ae3fb6a3bf06"
         }
     },
     "bin": "qjs.exe",
