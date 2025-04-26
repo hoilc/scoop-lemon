@@ -1,0 +1,32 @@
+{
+    "version": "0.6.0",
+    "description": "Yet another Go REPL that works nicely.",
+    "homepage": "https://github.com/x-motemen/gore",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/x-motemen/gore/releases/download/v0.6.0/gore_v0.6.0_windows_amd64.zip",
+            "extract_dir": "gore_v0.6.0_windows_amd64",
+            "hash": "d22b2a7964dff10cb5f88a84f39d0a9068ae95a3dc450b241351b1b951fcdbfe"
+        },
+        "arm64": {
+            "url": "https://github.com/x-motemen/gore/releases/download/v0.6.0/gore_v0.6.0_windows_arm64.zip",
+            "extract_dir": "gore_v0.6.0_windows_arm64",
+            "hash": "de2ec198e62ef54eaa64e4af399da21e0a3f7867821adee17b7fe72c16ba98c0"
+        }
+    },
+    "bin": "gore.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/x-motemen/gore/releases/download/v$version/gore_v$version_windows_amd64.zip",
+                "extract_dir": "gore_v$version_windows_amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/x-motemen/gore/releases/download/v$version/gore_v$version_windows_arm64.zip",
+                "extract_dir": "gore_v$version_windows_arm64"
+            }
+        }
+    }
+}
