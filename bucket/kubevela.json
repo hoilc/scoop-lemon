@@ -12,7 +12,7 @@
         "arm64": {
             "url": "https://github.com/kubevela/kubevela/releases/download/v1.10.2/vela-v1.10.2-windows-arm64.zip",
             "extract_dir": "windows-arm64",
-            "hash": "d5322d89a743968a405aff60e751475dcab30066ee2bdfc9d5698e50ace818f7"
+            "hash": "f0e137fb948838f39ae1c75d327a3064f9527ff94af202dc495b4beaddd904bf"
         }
     },
     "bin": [
@@ -33,9 +33,6 @@
             "arm64": {
                 "url": "https://github.com/kubevela/kubevela/releases/download/v$version/vela-v$version-windows-arm64.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/sha256sums.txt"
         }
     }
 }
