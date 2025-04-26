@@ -1,0 +1,49 @@
+{
+    "version": "2.1.147",
+    "description": "Kubernetes-native testing framework for test execution and orchestration.",
+    "homepage": "https://testkube.io/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/kubeshop/testkube/raw/refs/heads/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.147/testkube_2.1.147_Windows_x86_64.tar.gz",
+            "hash": "ec759628b7eaaab764681e24169c4390992a9dc1558456d6628f1b6229829e2c"
+        },
+        "32bit": {
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.147/testkube_2.1.147_Windows_i386.tar.gz",
+            "hash": "feef64313f219875fbc0683a528245c097009722979519c398064c50f86d1d9b"
+        },
+        "arm64": {
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.147/testkube_2.1.147_Windows_arm64.tar.gz",
+            "hash": "02488a9eae8b3ca31eda53ffab1e4471b0ec9ad35cd4cf578db8ecd46e05ade4"
+        }
+    },
+    "bin": [
+        "kubectl-testkube.exe",
+        [
+            "kubectl-testkube.exe",
+            "testkube"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kubeshop/testkube/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kubeshop/testkube/releases/download/v$version/testkube_$version_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/kubeshop/testkube/releases/download/v$version/testkube_$version_Windows_i386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/kubeshop/testkube/releases/download/v$version/testkube_$version_Windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
