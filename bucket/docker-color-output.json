@@ -1,0 +1,21 @@
+{
+    "version": "2.6.1",
+    "description": "A lightweight tool that enhances Docker's command output by adding vibrant, customizable colors.",
+    "homepage": "https://github.com/devemio/docker-color-output",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/devemio/docker-color-output/releases/download/2.6.1/docker-color-output-windows-amd64.exe#/docker-color-output.exe",
+            "hash": "d1536a34a500b0d312012ff4bed4105d23021131bc9aca4301df1a8ed0eaa24b"
+        }
+    },
+    "bin": "docker-color-output.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/devemio/docker-color-output/releases/download/$version/docker-color-output-windows-amd64.exe#/docker-color-output.exe"
+            }
+        }
+    }
+}
