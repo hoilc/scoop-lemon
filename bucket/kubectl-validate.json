@@ -1,0 +1,38 @@
+{
+    "version": "0.0.4",
+    "description": "A project to support the local validation of resources for native Kubernetes types and CRDs.",
+    "homepage": "https://github.com/kubernetes-sigs/kubectl-validate",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v0.0.4/kubectl-validate_windows_amd64.tar.gz",
+            "hash": "72462c9b2e0c576bbad3923137f751338c82d4d5e7cad01388bc2a4076af6bf7"
+        },
+        "32bit": {
+            "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v0.0.4/kubectl-validate_windows_386.tar.gz",
+            "hash": "d352d357d32a60e6c341602ad9d58ba33dd7ebd1fb37caa992051d91765d8292"
+        },
+        "arm64": {
+            "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v0.0.4/kubectl-validate_windows_386.tar.gz",
+            "hash": "d352d357d32a60e6c341602ad9d58ba33dd7ebd1fb37caa992051d91765d8292"
+        }
+    },
+    "bin": "kubectl-validate.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v$version/kubectl-validate_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v$version/kubectl-validate_windows_386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/kubernetes-sigs/kubectl-validate/releases/download/v$version/kubectl-validate_windows_386.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
