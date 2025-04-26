@@ -1,0 +1,38 @@
+{
+    "version": "0.3.12",
+    "description": "Enrich `go test` outputs with text decorations.",
+    "homepage": "https://github.com/kyoh86/richgo",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kyoh86/richgo/releases/download/v0.3.12/richgo_0.3.12_windows_amd64.zip",
+            "hash": "cdea6c88aae107614acbf63ceb3f9a5d2cc650cf1bce710eba1ebdeccdfda059"
+        },
+        "32bit": {
+            "url": "https://github.com/kyoh86/richgo/releases/download/v0.3.12/richgo_0.3.12_windows_386.zip",
+            "hash": "378dc7976e1751027dcb09d1f8754f48cce57cdf7206d6dba5249a9882212a2d"
+        },
+        "arm64": {
+            "url": "https://github.com/kyoh86/richgo/releases/download/v0.3.12/richgo_0.3.12_windows_arm64.zip",
+            "hash": "fe81bfdc1c8e7dc476e7075b565fc559e4e6e2d74719bd456bbe324ad80cda6c"
+        }
+    },
+    "bin": "richgo.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kyoh86/richgo/releases/download/v$version/richgo_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/kyoh86/richgo/releases/download/v$version/richgo_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/kyoh86/richgo/releases/download/v$version/richgo_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/richgo_$version_checksums.txt"
+        }
+    }
+}
