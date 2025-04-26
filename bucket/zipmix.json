@@ -1,0 +1,19 @@
+{
+    "version": "2016-05-01",
+    "description": "Takes the best compressed versions of equivalent files from two ZIP files.",
+    "homepage": "https://advsys.net/ken/utils.htm#zipmix",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://advsys.net/ken/utils.htm#pngoutkziplicense"
+    },
+    "url": "https://advsys.net/ken/util/zipmix.exe",
+    "hash": "6c63680fb7e3ee25061534bc6f9f9d34a976e38d80ca5f2163f104bb92d73dc4",
+    "bin": "zipmix.exe",
+    "checkver": {
+        "regex": "(?sm)>ZIPMIX.EXE<.*?(\\d{2})/(\\d{2})/(\\d{4})",
+        "replace": "${3}-${1}-${2}"
+    },
+    "autoupdate": {
+        "url": "https://advsys.net/ken/util/zipmix.exe"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "version": "2007-04-14",
+    "description": "Ken Silverman's PKZIP-compatible compressor focusing on space over speed.",
+    "homepage": "https://advsys.net/ken/utils.htm#kzip",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://advsys.net/ken/utils.htm#pngoutkziplicense"
+    },
+    "url": "https://advsys.net/ken/util/kzip.exe",
+    "hash": "29b2d16c3cd13bad9de480cd5d70638f8be1dd6bb752094b34c93174d79af399",
+    "bin": "kzip.exe",
+    "checkver": {
+        "regex": "(?sm)>KZIP.EXE<.*?(\\d{2})/(\\d{2})/(\\d{4})",
+        "replace": "${3}-${1}-${2}"
+    },
+    "autoupdate": {
+        "url": "https://advsys.net/ken/util/kzip.exe"
+    }
+}
