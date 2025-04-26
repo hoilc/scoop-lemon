@@ -1,0 +1,31 @@
+{
+    "version": "6.13.0",
+    "description": "A lightweight observability agent for Sensu, a complete solution for monitoring and observability at scale.",
+    "homepage": "https://docs.sensu.io/sensu-go/latest/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.13.0/sensu-go_6.13.0_windows_amd64.zip",
+            "hash": "84ddc4a56331c64ae07942113ca5c6c14606af4742cd454bf4351f76928102a7"
+        },
+        "32bit": {
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.13.0/sensu-go_6.13.0_windows_386.zip",
+            "hash": "e97ad452d55fd56af842ceeab643be678051bdd43ba43f136e7e858e4c6766c5"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'sensuctl.exe' | Remove-Item",
+    "bin": "sensu-agent.exe",
+    "checkver": {
+        "github": "https://github.com/sensu/sensu-go"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/$version/sensu-go_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/$version/sensu-go_$version_windows_386.zip"
+            }
+        }
+    }
+}

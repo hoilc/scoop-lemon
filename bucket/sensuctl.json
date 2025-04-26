@@ -1,8 +1,8 @@
 {
     "version": "6.13.0",
-    "description": "An open source monitoring tool for ephemeral infrastructure and distributed applications.",
-    "homepage": "https://docs.sensu.io/sensu-go/latest/",
-    "license": "Proprietary",
+    "description": "The command line tool for managing resources within Sensu, a complete solution for monitoring and observability at scale.",
+    "homepage": "https://docs.sensu.io/sensu-go/latest/sensuctl/",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.13.0/sensu-go_6.13.0_windows_amd64.zip",
@@ -13,10 +13,8 @@
             "hash": "e97ad452d55fd56af842ceeab643be678051bdd43ba43f136e7e858e4c6766c5"
         }
     },
-    "bin": [
-        "sensuctl.exe",
-        "sensu-agent.exe"
-    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'sensu-agent.exe' | Remove-Item",
+    "bin": "sensuctl.exe",
     "checkver": {
         "github": "https://github.com/sensu/sensu-go"
     },
