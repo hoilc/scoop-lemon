@@ -29,11 +29,10 @@
             ]
         }
     },
-    "extract_dir": "bin",
     "bin": [
-        "kubectl-kcp.exe",
-        "kubectl-ws.exe",
-        "kubectl-create-workspace.exe"
+        "bin\\kubectl-kcp.exe",
+        "bin\\kubectl-ws.exe",
+        "bin\\kubectl-create-workspace.exe"
     ],
     "checkver": {
         "github": "https://github.com/kcp-dev/kcp"
