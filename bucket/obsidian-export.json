@@ -1,0 +1,27 @@
+{
+    "version": "25.3.0",
+    "description": "A CLI program to export an Obsidian vault to regular Markdown.",
+    "homepage": "https://github.com/zoni/obsidian-export",
+    "license": {
+        "identifier": "BSD-2-Clause",
+        "url": "https://github.com/zoni/obsidian-export/raw/refs/heads/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zoni/obsidian-export/releases/download/v25.3.0/obsidian-export-x86_64-pc-windows-msvc.zip",
+            "hash": "aec115113f450dd1ea23a51b1f61e43a77c7700a4bb71d4926ba173c34ec7b60"
+        }
+    },
+    "bin": "obsidian-export.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zoni/obsidian-export/releases/download/v$version/obsidian-export-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
