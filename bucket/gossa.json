@@ -1,0 +1,21 @@
+{
+    "version": "1.1.2",
+    "description": "A fast and simple multimedia fileserver.",
+    "homepage": "https://github.com/pldubouilh/gossa",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pldubouilh/gossa/releases/download/v1.1.2/gossa-windows.exe#/gossa.exe",
+            "hash": "521744f46a99cd2bc85acd42ce4339865fb809004a199b44930bb47c42c5182b"
+        }
+    },
+    "bin": "gossa.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pldubouilh/gossa/releases/download/v$version/gossa-windows.exe#/gossa.exe"
+            }
+        }
+    }
+}
