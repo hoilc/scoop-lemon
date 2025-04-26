@@ -1,0 +1,38 @@
+{
+    "version": "1.1.2",
+    "description": "A CLI tool for managing hostfiles.",
+    "homepage": "https://github.com/goodhosts/cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/goodhosts/cli/releases/download/v1.1.2/goodhosts-1.1.2-windows-amd64.tar.gz",
+            "hash": "10a86ae318a9b1902f70e53ebf2bb36a14437c2e8fda8e4a8c85b491c7fa4adf"
+        },
+        "32bit": {
+            "url": "https://github.com/goodhosts/cli/releases/download/v1.1.2/goodhosts-1.1.2-windows-386.tar.gz",
+            "hash": "ad35b6f8401c1696b4915b321f99fd80040d2ba1ddd755d49408f782bf0da99f"
+        },
+        "arm64": {
+            "url": "https://github.com/goodhosts/cli/releases/download/v1.1.2/goodhosts-1.1.2-windows-arm64.tar.gz",
+            "hash": "3edfed47a8f89cf4a8e53009482d4fbafdde2a409be5cbbb6ac4a57c49c4e756"
+        }
+    },
+    "bin": "goodhosts.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/goodhosts/cli/releases/download/v$version/goodhosts-$version-windows-amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/goodhosts/cli/releases/download/v$version/goodhosts-$version-windows-386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/goodhosts/cli/releases/download/v$version/goodhosts-$version-windows-arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
