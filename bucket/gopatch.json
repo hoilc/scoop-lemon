@@ -1,0 +1,38 @@
+{
+    "version": "0.4.0",
+    "description": "Refactoring and code transformation tool for Go.",
+    "homepage": "https://github.com/uber-go/gopatch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/uber-go/gopatch/releases/download/v0.4.0/gopatch_Windows_x86_64.tar.gz",
+            "hash": "d251d6802c13d93560618e32937e761116301a24684d0266694143b9719c57f8"
+        },
+        "32bit": {
+            "url": "https://github.com/uber-go/gopatch/releases/download/v0.4.0/gopatch_Windows_i386.tar.gz",
+            "hash": "930aa33f0fe7b0f87330a24a579dd081d205af5101a06d19cc267f8d56c03bd0"
+        },
+        "arm64": {
+            "url": "https://github.com/uber-go/gopatch/releases/download/v0.4.0/gopatch_Windows_arm64.tar.gz",
+            "hash": "060360bf86304327ecbb3e3f7bef83ad4b1ef2048c88a309804638dc4ce921d5"
+        }
+    },
+    "bin": "gopatch.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/uber-go/gopatch/releases/download/v$version/gopatch_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/uber-go/gopatch/releases/download/v$version/gopatch_Windows_i386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/uber-go/gopatch/releases/download/v$version/gopatch_Windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
