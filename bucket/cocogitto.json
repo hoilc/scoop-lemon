@@ -1,0 +1,24 @@
+{
+    "version": "6.3.0",
+    "description": "Set of cli tools for the conventional commit and semver specifications.",
+    "homepage": "https://docs.cocogitto.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cocogitto/cocogitto/releases/download/6.3.0/cocogitto-6.3.0-x86_64-pc-windows-msvc.tar.gz",
+            "extract_dir": "x86_64-pc-windows-msvc",
+            "hash": "df66dc5cc1bc79c0b44ef2ef631824c59e00b00951c8add61d7c6b076ef907f2"
+        }
+    },
+    "bin": "cog.exe",
+    "checkver": {
+        "github": "https://github.com/cocogitto/cocogitto"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cocogitto/cocogitto/releases/download/6.3.0/cocogitto-6.3.0-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
