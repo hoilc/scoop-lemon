@@ -1,0 +1,21 @@
+{
+    "version": "0.21.0",
+    "description": "PureScript package manager and build tool.",
+    "homepage": "https://github.com/purescript/spago",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/purescript/spago/releases/download/0.21.0/Windows.tar.gz",
+            "hash": "20325fdc82561dcb034554727563d2d5329fba7d95eab5787c6ed0b8c2679531"
+        }
+    },
+    "bin": "spago.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/purescript/spago/releases/download/$version/Windows.tar.gz"
+            }
+        }
+    }
+}
