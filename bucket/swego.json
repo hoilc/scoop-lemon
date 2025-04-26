@@ -1,0 +1,38 @@
+{
+    "version": "1.14",
+    "description": "A simple webserver like the python SimpleHTTPServer but with many features.",
+    "homepage": "https://github.com/nodauf/Swego",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nodauf/Swego/releases/download/v1.14/Swego_1.14_windows_amd64.tar.gz",
+            "hash": "eac52ff125cc7f84063f5d18c3cef9252404a95f00c518d4ff83bd95391db14d"
+        },
+        "32bit": {
+            "url": "https://github.com/nodauf/Swego/releases/download/v1.14/Swego_1.14_windows_386.tar.gz",
+            "hash": "f9eb2f75b0ae78c9741b2e285dea3b74388c0de6cbc55c1198a86707d7936da1"
+        },
+        "arm64": {
+            "url": "https://github.com/nodauf/Swego/releases/download/v1.14/Swego_1.14_windows_arm64.tar.gz",
+            "hash": "a4ab2ed35a2dcfd1ebce648d8d51ed7fabb5877e87cebf9563979abcbdef7edf"
+        }
+    },
+    "bin": "Swego.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nodauf/Swego/releases/download/v$version/Swego_$version_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/nodauf/Swego/releases/download/v$version/Swego_$version_windows_386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/nodauf/Swego/releases/download/v$version/Swego_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/Swego_$version_checksums.txt"
+        }
+    }
+}
