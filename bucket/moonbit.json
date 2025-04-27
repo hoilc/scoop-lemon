@@ -1,45 +1,61 @@
 {
-    "version": "20241223",
+    "version": "20250424-140cd2b-ece80be",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
-    "license": "Proprietary",
+    "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://cli.moonbitlang.com/windows/moon.exe",
-                "https://cli.moonbitlang.com/windows/moonc.exe",
-                "https://cli.moonbitlang.com/windows/moonfmt.exe",
-                "https://cli.moonbitlang.com/windows/moonrun.exe"
+                "https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip",
+                "https://cli.moonbitlang.com/cores/core-latest.zip"
             ],
             "hash": [
-                "783773f45ccab744d51e216fab0496e97f8cede70a2031b0be76be956b0581c4",
-                "aa4a84effa442479311d32217734feed1b07cf0f77b0dddb9270b45112a96ca7",
-                "2dbe62473de3ae4ca427955baf0483ffaf80c280ac0c28f31f984d693cd68bdd",
-                "3638c8bb2f65592bcaf04d36e52657cf6cc3740cd78efe9da9a4ffb82cb089c8"
+                "2743f65b345cfc1536f5949490b621a2c872aaada444a2f26a49d61f663c7515",
+                "37fd312b82a618149400dc8a2ba3a7297a5e62bc8b5f0dee605ee6a21cdf5768"
             ]
         }
     },
     "bin": [
-        "moon.exe",
-        "moonc.exe",
-        "moonfmt.exe",
-        "moonrun.exe"
+        "bin\\moon.exe",
+        "bin\\moonc.exe",
+        "bin\\moonfmt.exe",
+        "bin\\mooninfo.exe",
+        "bin\\moonrun.exe",
+        "bin\\mooncake.exe",
+        "bin\\moondoc.exe",
+        "bin\\moon_cove_report.exe"
+    ],
+    "env_set": {
+        "MOON_HOME": "$dir"
+    },
+    "post_install": [
+        "Write-Host \"\"",
+        "Write-Host \"Bundling core ...\"",
+        "Push-Location \"$dir\\lib\\core\"",
+        "& \"$dir\\bin\\moon.exe\" bundle --all",
+        "& \"$dir\\bin\\moon.exe\" bundle --target wasm-gc --quiet",
+        "Pop-Location"
+    ],
+    "pre_install": "Move-Item \"$dir\\core\" \"$dir\\lib\\core\"",
+    "persist": [
+        "registry",
+        "tmp"
     ],
     "checkver": {
         "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://cli.moonbitlang.com/windows/moon.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
+            "try { $binDetail = Invoke-WebRequest -Method HEAD 'https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "try { $coreDetail = Invoke-WebRequest -Method HEAD 'https://cli.moonbitlang.com/cores/core-latest.zip' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "$binDate = ([DateTime][String]$binDetail.Headers.'Last-Modified').ToUniversalTime().AddHours(8).ToString(\"yyyyMMdd\")",
+            "if (($binDetail.StatusCode -eq 200) -And ($coreDetail.StatusCode -eq 200)) { return $binDate + '-' + $binDetail.Headers.ETag.SubString(1, 7) + '-' + $coreDetail.Headers.ETag.SubString(1, 7) } else { return '' }"
         ],
-        "regex": "(\\d{8})"
+        "regex": "(\\d{8}-.*)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://cli.moonbitlang.com/windows/moon.exe",
-                    "https://cli.moonbitlang.com/windows/moonc.exe",
-                    "https://cli.moonbitlang.com/windows/moonfmt.exe",
-                    "https://cli.moonbitlang.com/windows/moonrun.exe"
+                    "https://cli.moonbitlang.com/binaries/latest/moonbit-windows-x86_64.zip",
+                    "https://cli.moonbitlang.com/cores/core-latest.zip"
                 ]
             }
         }
