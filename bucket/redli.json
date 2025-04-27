@@ -9,6 +9,7 @@
             "hash": "959301dc59d93bfa7c5d2a277c76e72a0a0b64e8687ef85cfb03327e8ba4f7e7"
         },
         "arm64": {
+            "pre_install": "Get-ChildItem \"$dir\" 'redli_arm64.exe' | Select-Object -First 1 | Rename-Item -NewName 'redli.exe'",
             "url": "https://github.com/IBM-Cloud/redli/releases/download/v0.15.0/redli_0.15.0_windows_arm64.tar.gz",
             "hash": "d87d5ef487d5cc929bc71ecbca8b3d6f49d94bf3cbf0344eac645b657c991c01"
         }
