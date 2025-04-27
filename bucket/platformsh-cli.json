@@ -1,0 +1,26 @@
+{
+    "version": "5.0.23",
+    "description": "The official command-line interface for Platform.sh.",
+    "homepage": "https://platform.sh/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/platformsh/cli/releases/download/5.0.23/platform_5.0.23_windows_amd64.zip",
+            "hash": "cf5163ac90fcdbe019f096a78cc16128b8b55df8df25383a0009e8b71f73d22f"
+        }
+    },
+    "bin": "platform.exe",
+    "checkver": {
+        "github": "https://github.com/platformsh/cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/platformsh/cli/releases/download/$version/platform_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
