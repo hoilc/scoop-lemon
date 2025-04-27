@@ -1,0 +1,21 @@
+{
+    "version": "027",
+    "description": "Synology Cloud Sync Decryption Tool is a desktop tool to decrypt data encrypted by Cloud Sync.",
+    "homepage": "https://kb.synology.com/DSM/help/SynologyCloudSyncDecryptionTool/synologycloudsyncdecryptiontool",
+    "license": "Proprietary",
+    "url": "https://global.synologydownload.com/download/Utility/SynologyCloudSyncDecryptionTool/027/Windows/SynologyCloudSyncDecryptionTool-027.zip",
+    "hash": "72d36c21abc4985d9696ae96d2402f1012bf6c644f87602629a3935a5ba1fd3e",
+    "shortcuts": [
+        [
+            "SynologyCloudSyncDecryptionTool.exe",
+            "Synology Cloud Sync Decryption Tool"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.synology.com/api/releaseNote/findChangeLog?identify=SynologyCloudSyncDecryptionTool&lang=zh-cn&model=&dsm_major=",
+        "regex": "\"version\":\\s*\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://global.synologydownload.com/download/Utility/SynologyCloudSyncDecryptionTool/$version/Windows/SynologyCloudSyncDecryptionTool-$version.zip"
+    }
+}
