@@ -1,0 +1,29 @@
+{
+    "version": "0.7.1",
+    "description": "A powerful interactive tool that lets you create mathematical notation for word processing, web pages, desktop publishing, presentations in TeX, LaTeX.",
+    "homepage": "https://equalx.sourceforge.io/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/equalx/files/EqualX-0.7/Installer-Equalx-0.7.0_64.exe",
+            "hash": "sha1:88a92a119e613bd091eef80cf6e944c6052974ef"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/equalx/files/EqualX-0.7/Installer-EqualX-0.7.1.exe",
+            "hash": "sha1:87982b823b363136bc3335d3ecbebe89dbab87ad"
+        }
+    },
+    "shortcuts": [
+        [
+            "equalx.exe",
+            "EqualX"
+        ]
+    ],
+    "suggest": {
+        "MiKTeX": "main/miktex"
+    },
+    "notes": [
+        "EqualX use a TeXLive distribution system.",
+        "The recommended TeX distribution for for Windows is MiKTeX."
+    ]
+}
