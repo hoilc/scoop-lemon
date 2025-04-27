@@ -1,0 +1,38 @@
+{
+    "version": "0.147.0",
+    "description": "Command line interface that helps you interact with Yandex Cloud services.",
+    "homepage": "https://cloud.yandex.ru/docs/cli/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.147.0/windows/amd64/yc.exe",
+            "hash": "beaf57370d96f4b16a412c7467fa0d61da69d09850b54b544919bb7e97a79904"
+        },
+        "32bit": {
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.147.0/windows/386/yc.exe",
+            "hash": "d8affe8a914c1883cd22fc0b8bee5edeec4d11f0aa69763742340a87045a126c"
+        }
+    },
+    "bin": [
+        "yc.exe",
+        [
+            "yc.exe",
+            "docker-credential-yc",
+            "--no-user-output container docker-credential"
+        ]
+    ],
+    "checkver": {
+        "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/stable",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/$version/windows/amd64/yc.exe"
+            },
+            "32bit": {
+                "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/$version/windows/386/yc.exe"
+            }
+        }
+    }
+}
