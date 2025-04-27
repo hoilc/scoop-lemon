@@ -1,0 +1,32 @@
+{
+    "version": "0.5.2",
+    "description": "Go client to communicate with Chaos DB API.",
+    "homepage": "https://github.com/projectdiscovery/chaos-client",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/chaos-client/releases/download/v0.5.2/chaos-client_0.5.2_windows_amd64.zip",
+            "hash": "c6bd81092717f9367ec68ccd3e620c1f95a8b02db9778e19d59577da44c08041"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/chaos-client/releases/download/v0.5.2/chaos-client_0.5.2_windows_386.zip",
+            "hash": "7a0070ab39a66688a25e3a7b01607effbb8a8adb30a6ec83af33e32a390beca7"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'chaos-client.exe' | Select-Object -First 1 | Rename-Item -NewName 'chaos.exe'",
+    "bin": "chaos.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/chaos-client/releases/download/v$version/chaos-client_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/chaos-client/releases/download/v$version/chaos-client_$version_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/chaos-client_$version_checksums.txt"
+        }
+    }
+}
