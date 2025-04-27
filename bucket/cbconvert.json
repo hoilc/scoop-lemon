@@ -1,0 +1,29 @@
+{
+    "version": "1.1.0",
+    "description": "A Comic Book converter that convert comics to different formats to fit your various devices.",
+    "homepage": "https://github.com/gen2brain/cbconvert",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gen2brain/cbconvert/releases/download/v1.1.0/cbconvert-1.1.0-windows-x86_64.zip",
+            "extract_dir": "cbconvert-1.1.0",
+            "hash": "11c2c272953d1cd3c9c1a99cab72da01c316337c0a442b56dcc5845b36f7bd50"
+        }
+    },
+    "bin": "cbconvert.exe",
+    "shortcuts": [
+        [
+            "cbconvert-gui.exe",
+            "CBconvert"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gen2brain/cbconvert/releases/download/v$version/cbconvert-$version-windows-x86_64.zip",
+                "extract_dir": "cbconvert-$version"
+            }
+        }
+    }
+}
