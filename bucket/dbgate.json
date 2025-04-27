@@ -1,30 +1,30 @@
 {
     "version": "6.3.3",
-    "description": "A database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others.",
+    "description": "(Community Edition) A database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others.",
     "homepage": "https://dbgate.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/dbgate/dbgate/releases/download/v6.3.3/dbgate-6.3.3-win_x64.zip",
             "hash": "ab05da5cc72fbcf56695d950d80f3cd4883e3198250d0458cf3656dd1a4d6ffe"
+        },
+        "arm64": {
+            "url": "https://github.com/dbgate/dbgate/releases/download/v6.3.3/dbgate-6.3.3-win_arm64.zip",
+            "hash": "5921eabb1c37ef931e57d12001c50902ca5432e8f0e35d38e501dc0e06d6e50c"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse",
-    "bin": [
-        [
-            "dbgate.exe",
-            "dbgate",
-            "--user-data-dir=\"$dir\\User Data\""
-        ]
-    ],
     "shortcuts": [
         [
             "dbgate.exe",
             "DbGate",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\" --workspace-dir workspace"
         ]
     ],
-    "persist": "User Data",
+    "persist": [
+        "User Data",
+        "workspace"
+    ],
     "checkver": {
         "github": "https://github.com/dbgate/dbgate"
     },
@@ -32,6 +32,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/dbgate/dbgate/releases/download/v$version/dbgate-$version-win_x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/dbgate/dbgate/releases/download/v$version/dbgate-$version-win_arm64.zip"
             }
         }
     }
