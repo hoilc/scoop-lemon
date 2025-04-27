@@ -1,0 +1,28 @@
+{
+    "version": "6.4.0",
+    "description": "A command line interface (CLI) for Apache CloudStack.",
+    "homepage": "https://github.com/apache/cloudstack-cloudmonkey",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/apache/cloudstack-cloudmonkey/releases/download/6.4.0/cmk.windows.x86-64.exe#/cmk.exe",
+            "hash": "467cb6ffd2687e1c63946fffc11168bb8a4bcd9234e5dee652a9f05747e9e5d9"
+        },
+        "32bit": {
+            "url": "https://github.com/apache/cloudstack-cloudmonkey/releases/download/6.4.0/cmk.windows.x86.exe#/cmk.exe",
+            "hash": "21e042b8b8506f3f8b2bb7378e0c7ec155bcae49285f6b5e326afe64169117c2"
+        }
+    },
+    "bin": "cmk.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/apache/cloudstack-cloudmonkey/releases/download/$version/cmk.windows.x86-64.exe#/cmk.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/apache/cloudstack-cloudmonkey/releases/download/$version/cmk.windows.x86.exe#/cmk.exe"
+            }
+        }
+    }
+}
