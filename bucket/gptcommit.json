@@ -1,0 +1,21 @@
+{
+    "version": "0.5.17",
+    "description": "A git prepare-commit-msg hook for authoring commit messages with GPT-3.",
+    "homepage": "https://github.com/zurawiki/gptcommit",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.5.17/gptcommit-x86_64-pc-windows-msvc.zip",
+            "hash": "d163dd0a582c1600e6b05ef0c62023f6e4491b461899c0e7ebd4a94010736df9"
+        }
+    },
+    "bin": "gptcommit.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zurawiki/gptcommit/releases/download/v$version/gptcommit-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
