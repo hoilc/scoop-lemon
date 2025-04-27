@@ -1,0 +1,24 @@
+{
+    "version": "2.2.1",
+    "description": "A SurrealDB migration tool, with a user-friendly CLI.",
+    "homepage": "https://github.com/Odonno/surrealdb-migrations/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v2.2.1/surrealdb-migrations_v2.2.1_x86_64-pc-windows-gnu.zip",
+            "hash": "afed50a16c5ff3049685f4ae698af3b2794d65c3db3f36563d109f8deb7b811e"
+        }
+    },
+    "bin": "surrealdb-migrations.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v2.2.1/surrealdb-migrations_v2.2.1_x86_64-pc-windows-gnu.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256sum"
+        }
+    }
+}
