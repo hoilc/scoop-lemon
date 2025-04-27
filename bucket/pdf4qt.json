@@ -1,0 +1,40 @@
+{
+    "version": "1.5.0.0",
+    "description": "An open-source PDF editor.",
+    "homepage": "https://github.com/JakubMelka/PDF4QT",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.0.0/PDF4QT-Windows-1.5.0.0.zip",
+            "hash": "8c16429e1ec611ea5bb10ddaa81ab4dec428eee671226b382e2c08e934cd748d"
+        }
+    },
+    "shortcuts": [
+        [
+            "Pdf4QtViewer.exe",
+            "PDF4QT Viewer"
+        ],
+        [
+            "Pdf4QtEditor.exe",
+            "PDF4QT Editor"
+        ],
+        [
+            "Pdf4QtDiff.exe",
+            "PDF4QT Diff"
+        ],
+        [
+            "Pdf4QtPageMaster.exe",
+            "PDF4QT PageMaster"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\MelkaJ\", \"$env:LOCALAPPDATA\\MelkaJ\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "PDF4QT is NOT portable. Settings are stored in '%APPDATA%\\MelkaJ', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JakubMelka/PDF4QT/releases/download/v$version/PDF4QT-Windows-$version.zip"
+            }
+        }
+    }
+}
