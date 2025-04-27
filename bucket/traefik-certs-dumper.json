@@ -1,0 +1,38 @@
+{
+    "version": "2.10.0",
+    "description": "Dump ACME data from Traefik to certificates.",
+    "homepage": "https://github.com/ldez/traefik-certs-dumper",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v2.10.0/traefik-certs-dumper_v2.10.0_windows_amd64.zip",
+            "hash": "9f16f6956825fbb586e0a2dfdfedf550aa1d0aaa0a97a9fcd18ad1ebd3dafd29"
+        },
+        "32bit": {
+            "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v2.10.0/traefik-certs-dumper_v2.10.0_windows_386.zip",
+            "hash": "1cbe1933c2c1b220c10f95bbc54a4ef7fb0b3d7ece0c9888b3b255844b4502a0"
+        },
+        "arm64": {
+            "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v2.10.0/traefik-certs-dumper_v2.10.0_windows_arm64.zip",
+            "hash": "3a0c4ec3f6c910a59481740994937edbc480c2b580f429d1e8341d45dbfd980a"
+        }
+    },
+    "bin": "traefik-certs-dumper.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ldez/traefik-certs-dumper/releases/download/v$version/traefik-certs-dumper_v$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/traefik-certs-dumper_$version_checksums.txt"
+        }
+    }
+}
