@@ -31,10 +31,8 @@
     "post_install": [
         "Write-Host \"\"",
         "Write-Host \"Bundling core ...\"",
-        "Push-Location \"$dir\\lib\\core\"",
-        "& \"$dir\\bin\\moon.exe\" bundle --all",
-        "& \"$dir\\bin\\moon.exe\" bundle --target wasm-gc --quiet",
-        "Pop-Location"
+        "& \"$dir\\bin\\moon.exe\" bundle --all -C \"$dir\\lib\\core\"",
+        "& \"$dir\\bin\\moon.exe\" bundle --target wasm-gc --quiet -C \"$dir\\lib\\core\""
     ],
     "pre_install": "Move-Item \"$dir\\core\" \"$dir\\lib\\core\"",
     "persist": [
