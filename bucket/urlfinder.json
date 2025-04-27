@@ -1,0 +1,31 @@
+{
+    "version": "0.0.3",
+    "description": "A high-speed tool for passively gathering URLs, optimized for efficient and comprehensive web asset discovery without active scanning.",
+    "homepage": "https://github.com/projectdiscovery/urlfinder",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/urlfinder/releases/download/v0.0.3/urlfinder_0.0.3_windows_amd64.zip",
+            "hash": "f49cbfe4253d147d9a094cd8c336016311d79e64cc22d6a8336be48ef1cb6fb1"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/urlfinder/releases/download/v0.0.3/urlfinder_0.0.3_windows_386.zip",
+            "hash": "bc3b87481db9911e42794a3daf034d7f1502b7efad7790ddf9b08bc05bbcf478"
+        }
+    },
+    "bin": "urlfinder.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/urlfinder/releases/download/v$version/urlfinder_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/urlfinder/releases/download/v$version/urlfinder_$version_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/urlfinder_$version_checksums.txt"
+        }
+    }
+}
