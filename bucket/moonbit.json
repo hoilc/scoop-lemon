@@ -28,13 +28,12 @@
     "env_set": {
         "MOON_HOME": "$dir"
     },
+    "pre_install": "Move-Item \"$dir\\core\" \"$dir\\lib\\core\"",
     "post_install": [
         "Write-Host \"\"",
-        "Write-Host \"Bundling core ...\"",
-        "& \"$dir\\bin\\moon.exe\" bundle --all -C \"$dir\\lib\\core\" 2>$null",
-        "& \"$dir\\bin\\moon.exe\" bundle --target wasm-gc --quiet -C \"$dir\\lib\\core\" 2>$null"
+        "$bundleAllStatus = Invoke-ExternalCommand \"$dir\\bin\\moon.exe\" @('bundle', '--all', '-C', \"$dir\\lib\\core\") -Activity \"Bundling core ...\" -LogPath \"$dir\\bundle_core.log\"",
+        "$bundleWasmGcStatus =  Invoke-ExternalCommand \"$dir\\bin\\moon.exe\" @('bundle', '--target', 'wasm-gc', '--quiet', '-C', \"$dir\\lib\\core\") -Activity \"Bundling core to wasm-gc ...\" -LogPath \"$dir\\bundle_core_wasm_gc.log\""
     ],
-    "pre_install": "Move-Item \"$dir\\core\" \"$dir\\lib\\core\"",
     "persist": [
         "registry",
         "tmp"
