@@ -1,12 +1,12 @@
 {
-    "version": "2.4.7",
+    "version": "2.4.8",
     "description": "QingStor 对象存储提供的客户端高级命令行工具，用于管理 QingStor 对象存储资源",
     "homepage": "https://docsv3.qingcloud.com/storage/object-storage/manual/tool/qsctl/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qingstor/qsctl/releases/download/v2.4.7/qsctl_v2.4.7_windows_amd64.tar.gz",
-            "hash": "7697706ed9410dea741d14a974a1b9f78298331be436779f9c2e4b48bd7269c3"
+            "url": "https://github.com/qingstor/qsctl/releases/download/v2.4.8/qsctl_v2.4.8_windows_amd64.tar.gz",
+            "hash": "5753d8bc695566eb54d4060b41cc16dc8dc200c9c04a25a95fa215e75e758dde"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'qsctl_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'qsctl.exe'",
