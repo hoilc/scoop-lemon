@@ -1,0 +1,30 @@
+{
+    "##": "#updateManually",
+    "version": "1.1.2",
+    "description": "体积小巧的剪切板管理工具",
+    "homepage": "https://abc100.net/835/",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/zpaste/zPaste_v1.1.2.zip",
+    "hash": "dfe68361445d45b375bffacb3897f6d6f7ae6035e5f1ac042071223c78bfa8ca",
+    "shortcuts": [
+        [
+            "zPaste.exe",
+            "zPaste"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\zPaste.db\")) { Set-Content -Encoding ASCII -Path \"$dir\\zPaste.db\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\zPaste.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\zPaste.ini\" -Value $null }"
+    ],
+    "persist": [
+        "zPaste.db",
+        "zPaste.ini"
+    ],
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/zpaste/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/zpaste/zPaste_v$version.zip"
+    }
+}
