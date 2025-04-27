@@ -1,12 +1,12 @@
 {
-    "version": "1.0.28",
+    "version": "1.0.29",
     "description": "AILZ80ASM is a Z80 assembler written in C# that runs in a .NET 6 environment.",
     "homepage": "https://github.com/AILight/AILZ80ASM",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AILight/AILZ80ASM/releases/download/v1.0.28/AILZ80ASM.win-x64.v1.0.28.zip",
-            "hash": "bf50c761511cf8a2d3aec48895c91a5c4646b7c3ca2bef44ad877c07ad65e8d8"
+            "url": "https://github.com/AILight/AILZ80ASM/releases/download/v1.0.29/AILZ80ASM.win-x64.v1.0.29.zip",
+            "hash": "4a8e985260dc0065ceb6db85b7dd5d117b52ae7d0710f1e8ff6cc111db7cc3a8"
         }
     },
     "bin": "AILZ80ASM.exe",
