@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0.0",
+    "version": "1.5.1.0",
     "description": "An open-source PDF editor.",
     "homepage": "https://github.com/JakubMelka/PDF4QT",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.0.0/PDF4QT-Windows-1.5.0.0.zip",
-            "hash": "8c16429e1ec611ea5bb10ddaa81ab4dec428eee671226b382e2c08e934cd748d"
+            "url": "https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.1.0/PDF4QT-Windows-1.5.1.0.zip",
+            "hash": "95593bd31eeb7b901b67af9810dbb7def70b1afa067d8de8f065e57f853c758b"
         }
     },
     "shortcuts": [
