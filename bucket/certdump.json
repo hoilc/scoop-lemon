@@ -1,0 +1,21 @@
+{
+    "version": "1.1.5",
+    "description": "Dump certificates from PE files in different formats.",
+    "homepage": "https://github.com/secana/CertDump",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/secana/CertDump/releases/download/v1.1.5/CertDump.exe",
+            "hash": "dbe7c94386c6ab141277d151126f6636d5222a63eea2815c7921f8da14ae3b24"
+        }
+    },
+    "bin": "CertDump.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/secana/CertDump/releases/download/v$version/CertDump.exe"
+            }
+        }
+    }
+}
