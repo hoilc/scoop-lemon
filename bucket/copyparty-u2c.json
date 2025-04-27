@@ -7,7 +7,8 @@
     "hash": "f6154208026e73459194887dd58bad30e804891c3fb6b062fef49d0b1f275f21",
     "bin": "u2c.exe",
     "checkver": {
-        "github": "https://github.com/9001/copyparty"
+        "url": "https://github.com/9001/copyparty/releases.atom",
+        "regex": "/releases/download/v([\\d.]+)/u2c.exe"
     },
     "autoupdate": {
         "url": "https://github.com/9001/copyparty/releases/download/v$version/u2c.exe"
