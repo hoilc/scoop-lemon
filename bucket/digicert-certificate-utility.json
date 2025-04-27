@@ -1,0 +1,24 @@
+{
+    "version": "20180829",
+    "description": "An indispensable tool for administrators that uses SSL Certificates for Websites and servers or Code Signing Certificates for trusted software.",
+    "homepage": "https://www.digicert.com/support/tools/certificate-utility-for-windows",
+    "license": "Proprietary",
+    "url": "https://www.digicert.com/StaticFiles/DigiCertUtil.zip",
+    "hash": "8e1d2aebf2c08506e6ec768bfad8b44541f28cb3a3247184fd8159d04a997e88",
+    "shortcuts": [
+        [
+            "DigiCertUtil.exe",
+            "DigiCert Certificate Utility"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://www.digicert.com/StaticFiles/DigiCertUtil.zip' -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
+        ],
+        "regex": "(\\d{8})"
+    },
+    "autoupdate": {
+        "url": "https://www.digicert.com/StaticFiles/DigiCertUtil.zip"
+    }
+}
