@@ -1,0 +1,24 @@
+{
+    "version": "0.9.3",
+    "description": "A kubectl plugin that provides common management and troubleshooting tools for the Rook Ceph storage.",
+    "homepage": "https://github.com/rook/kubectl-rook-ceph",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.9.3/kubectl-rook-ceph_v0.9.3_windows_amd64.tar.gz",
+            "hash": "439f81b8125b497df4ebd3b716c811315b0dedbbfbfdeb1a76039fa5a8871c28"
+        }
+    },
+    "bin": "kubectl-rook-ceph.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v$version/kubectl-rook-ceph_v$version_windows_amd64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/kubectl-rook-ceph_$version_checksums.txt"
+        }
+    }
+}
