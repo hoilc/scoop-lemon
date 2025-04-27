@@ -1,0 +1,31 @@
+{
+    "version": "0.0.7",
+    "description": "Navigate the CVE jungle with ease.",
+    "homepage": "https://github.com/projectdiscovery/cvemap",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/cvemap/releases/download/v0.0.7/cvemap_0.0.7_windows_amd64.zip",
+            "hash": "8247e7fbcd652c7511738ef5f70b45cd999dc268072acdd926e6faeea826f3a3"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/cvemap/releases/download/v0.0.7/cvemap_0.0.7_windows_386.zip",
+            "hash": "1e9cce2d312fec4b56bf5e9cee4ec9f3cdfdc0498cb808af1fe4e9c02e504d25"
+        }
+    },
+    "bin": "cvemap.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/cvemap/releases/download/v$version/cvemap_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/cvemap/releases/download/v$version/cvemap_$version_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/cvemap_$version_checksums.txt"
+        }
+    }
+}
