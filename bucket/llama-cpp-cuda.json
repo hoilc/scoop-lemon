@@ -29,13 +29,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
