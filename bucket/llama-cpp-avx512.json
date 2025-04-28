@@ -1,12 +1,12 @@
 {
-    "version": "b5202",
+    "version": "b5207",
     "description": "(CPU-AVX512 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5202/llama-b5202-bin-win-avx512-x64.zip",
-            "hash": "5e7609bd9621f4e735efe8fa4b2452a801dcdde714fa692ef171f0cf020fb2c3"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5207/llama-b5207-bin-win-avx512-x64.zip",
+            "hash": "e3850b7c2a14d63a1a8ba48aef1b0c5347007889fd02c75bc69e256846eedcc1"
         }
     },
     "bin": [
