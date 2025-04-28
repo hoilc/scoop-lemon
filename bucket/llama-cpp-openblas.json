@@ -1,12 +1,12 @@
 {
-    "version": "b5201",
+    "version": "b5202",
     "description": "(OpenBLAS Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5201/llama-b5201-bin-win-openblas-x64.zip",
-            "hash": "a4a242779d90185d2f35fff93703b263d1a5c878f603bb7ca80df2e52a0c59cc"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5202/llama-b5202-bin-win-openblas-x64.zip",
+            "hash": "79e239443aa2aaa1dd43af6ed08b01c8404cab4620dbbd2b4f0cd216cd63b8c8"
         }
     },
     "bin": [
