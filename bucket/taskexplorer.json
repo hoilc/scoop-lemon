@@ -1,0 +1,35 @@
+{
+    "version": "1.6.2",
+    "description": "Task Explorer is an advanced Task Manager tool with emphasis on, not just monitoring what applications are running, but on finding out what applications are doing.",
+    "homepage": "https://github.com/DavidXanatos/TaskExplorer",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v1.6.2/TaskExplorer-v1.6.2.exe",
+    "hash": "0e55f16e1df841c02a805af1d19cfa123ee75b07ba07e031577ba6ac752a8a91",
+    "innosetup": true,
+    "architecture": {
+        "64bit": {
+            "extract_dir": "x64"
+        },
+        "32bit": {
+            "extract_dir": "x86"
+        },
+        "arm64": {
+            "extract_dir": "ARM64"
+        }
+    },
+    "shortcuts": [
+        [
+            "TaskExplorer.exe",
+            "Task Explorer"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\TaskExplorer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\TaskExplorer.ini\" -Value $null }",
+    "uninstaller": {
+        "script": "if(Test-Path \"$dir\\TaskExplorer.ini\") { Copy-Item \"$dir\\TaskExplorer.ini\" \"$persist_dir\\TaskExplorer.ini\" | Out-Null }"
+    },
+    "persist": "TaskExplorer.ini",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v$version/TaskExplorer-v$version.exe"
+    }
+}
