@@ -18,15 +18,11 @@
     ],
     "notes": "Edit the default configuration file $dir\\webd.conf before starting.",
     "checkver": {
-        "url": "https://cnt2.cf/webd/flst.txt",
-        "regex": "(\\d{8})",
-        "reverse": true
+        "url": "https://webd.cf/webd/webd_dl/changelog.txt",
+        "regex": "(\\d{4})/(\\d{2})/(\\d{2})",
+        "replace": "${1}${2}${3}"
     },
     "autoupdate": {
-        "url": "https://cnt2.cf/webd/$version/webd-$version-win32.7z",
-        "hash": {
-            "url": "$baseurl/sha1sums.txt",
-            "regex": "$sha1\\s*$basename"
-        }
+        "url": "https://webd.cf/webd/webd_dl/$version/webd-$version-win32.7z"
     }
 }
