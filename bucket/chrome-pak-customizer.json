@@ -1,0 +1,28 @@
+{
+    "version": "2.0",
+    "description": "A simple command-line tool to pack and unpack pak files in chrome or chromium-based browser.",
+    "homepage": "https://github.com/myfreeer/chrome-pak-customizer",
+    "license": "LGPL-2.1-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/myfreeer/chrome-pak-customizer/releases/download/2.0/pak_mingw64.exe#/pak.exe",
+            "hash": "42c89fbff91098cc9a4dadd6837a2d1208ae22fefa94462cdef161a004866807"
+        },
+        "32bit": {
+            "url": "https://github.com/myfreeer/chrome-pak-customizer/releases/download/2.0/pak_mingw32.exe#/pak.exe",
+            "hash": "a448c039622e0011051df4d6da0c7027f5252a23ae78f73478afab41a5bfdd94"
+        }
+    },
+    "bin": "pak.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/myfreeer/chrome-pak-customizer/releases/download/$version/pak_mingw64.exe#/pak.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/myfreeer/chrome-pak-customizer/releases/download/$version/pak_mingw32.exe#/pak.exe"
+            }
+        }
+    }
+}
