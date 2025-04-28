@@ -1,16 +1,16 @@
 {
-    "version": "7.3.1.4800",
+    "version": "7.3.1.5000",
     "description": "A state-of-the-art,multi-platform web browser that offers users a seamless browsing and sharing experience.",
     "homepage": "https://www.maxthon.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.mxfast.com/7.3.1.4800/maxthon_portable_7.3.1.4800_beta_x64.zip",
-            "hash": "eb0c6083b7d901aba952ed964b36589bd5e88c965e8e86b19cd2452ce69dd09d"
+            "url": "https://dl.mxfast.com/7.3.1.5000/maxthon_portable_7.3.1.5000_beta_x64.zip",
+            "hash": "72e888fe369cf2e22be9799d0e92a0a9981c5dc70d659eb5daad825e3998ddf7"
         },
         "32bit": {
-            "url": "https://dl.mxfast.com/7.3.1.4800/maxthon_portable_7.3.1.4800_beta_x86.zip",
-            "hash": "e247de83883bddd283c834a51957f38479363450151d11e1b3631628cd3d16b9"
+            "url": "https://dl.mxfast.com/7.3.1.5000/maxthon_portable_7.3.1.5000_beta_x86.zip",
+            "hash": "72e888fe369cf2e22be9799d0e92a0a9981c5dc70d659eb5daad825e3998ddf7"
         }
     },
     "shortcuts": [
