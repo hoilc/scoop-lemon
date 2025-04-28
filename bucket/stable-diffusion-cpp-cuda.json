@@ -1,7 +1,7 @@
 {
     "version": "master-d7c7a34",
-    "description": "(CUDA 12 Backend) Stable Diffusion and Flux in pure C/C++.",
-    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "description": "(CUDA 12 Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
+    "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
