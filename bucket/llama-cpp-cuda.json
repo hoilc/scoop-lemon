@@ -1,6 +1,6 @@
 {
     "version": "b5201",
-    "description": "(CUDA 12 Backend) LLM inference in C/C++.",
+    "description": "(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
