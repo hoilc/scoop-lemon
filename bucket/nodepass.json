@@ -1,20 +1,20 @@
 {
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.",
     "homepage": "https://github.com/yosebyte/nodepass",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.3/nodepass_1.1.3_windows_amd64.zip",
-            "hash": "96b50c005bf07376a7a7deaaa0cc0a496be047b6d44128d40d0b41c0566ee2da"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.4/nodepass_1.1.4_windows_amd64.tar.gz",
+            "hash": "79be1f0617d80d11b6d3cab341d3dd1985155f9b7b41a7f915445b614f10377f"
         },
         "32bit": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.3/nodepass_1.1.3_windows_386.zip",
-            "hash": "b904e1886deacb69a3b71ec4f32e5a15512253be9862836802864fb546401165"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.4/nodepass_1.1.4_windows_386.tar.gz",
+            "hash": "7f2e8353a034034275aac6929813d28f08b82ca22a8a1c4f79c806d990285e3e"
         },
         "arm64": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.3/nodepass_1.1.3_windows_arm64.zip",
-            "hash": "376a3b3d6d94e329eb274964d4a5892d5a545083640cb8ae6795c75cb4bd12bb"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.1.4/nodepass_1.1.4_windows_arm64.tar.gz",
+            "hash": "5bd33e68178477a1a2eb89deae25a31710fe3e91acd8e7f540cbc23de7833ff5"
         }
     },
     "bin": "nodepass.exe",
@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_amd64.zip"
+                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_amd64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_386.zip"
+                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_386.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_arm64.zip"
+                "url": "https://github.com/yosebyte/nodepass/releases/download/v$version/nodepass_$version_windows_arm64.tar.gz"
             }
         },
         "hash": {
