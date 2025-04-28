@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1104",
+    "version": "1.0.1130",
     "description": "A Flutter project which provide charts to display Linux server status and tools to manage server.",
     "homepage": "https://github.com/lollipopkit/flutter_server_box",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lollipopkit/flutter_server_box/releases/download/v1.0.1104/ServerBox_1104_windows_amd64.zip",
-            "hash": "21ad795016f1127670209b613e92cd7962a546f747f8ebe15db4c398fdd3d311"
+            "url": "https://github.com/lollipopkit/flutter_server_box/releases/download/v1.0.1130/ServerBox_1128_windows_amd64.zip",
+            "hash": "a20f43ebf8f9aadeb86fc43430a65aa481e7e9de531310ffcec158f8f3c2f29a"
         }
     },
     "shortcuts": [
