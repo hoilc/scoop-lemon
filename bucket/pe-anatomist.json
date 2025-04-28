@@ -1,10 +1,11 @@
 {
-    "version": "0.2.13218.1416",
+    "##": "#updateManually",
+    "version": "0.2.13413.1440",
     "description": "PE Anatomist shows almost all known data structures inside PE, OBJ or LIB files and makes some analytics.",
     "homepage": "https://rammerlabs.alidml.ru/en/index.html",
     "license": "MIT",
-    "url": "https://rammerlabs.alidml.ru/download/peanatomist/current#/PEAnatomist.zip",
-    "hash": "f0605154aff8447bcf6bb3396bbf47285e53832e3c7da8cd52650ca195660ec9",
+    "url": "https://scoop-lemon.tari.xyz/hosted/pe-anatomist/PEAnatomist_v0.2.13413.1440.zip",
+    "hash": "e0b4d9243ef3ef1478ba47c6b26b602f1b88f625576540e5223247c5ca419102",
     "pre_install": "if (!(Test-Path \"$persist_dir\\PEAnatomist.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\PEAnatomist.cfg\" -Value $null }",
     "persist": "PEAnatomist.cfg",
     "shortcuts": [
@@ -14,9 +15,10 @@
         ]
     ],
     "checkver": {
-        "regex": "Current version of the program: ([\\d.]+)"
+        "url": "https://scoop-lemon.tari.xyz/hosted/pe-anatomist/latest.yml",
+        "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://rammerlabs.alidml.ru/download/peanatomist/current#/PEAnatomist.zip"
+        "url": "https://scoop-lemon.tari.xyz/hosted/pe-anatomist/PEAnatomist_v$version.zip"
     }
 }
