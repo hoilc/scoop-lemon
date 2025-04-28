@@ -1,0 +1,24 @@
+{
+    "version": "master-d7c7a34",
+    "description": "(CPU-AVX512 Backend) Stable Diffusion and Flux in pure C/C++.",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-d7c7a34/sd-master-d7c7a34-bin-win-avx512-x64.zip",
+            "hash": "db1e3cffce470ff4b851aacb27a107ae6858bef092d7e4f1d1f13c8cb772e631"
+        }
+    },
+    "bin": "sd.exe",
+    "checkver": {
+        "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-avx512-x64.zip"
+            }
+        }
+    }
+}

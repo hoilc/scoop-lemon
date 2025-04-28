@@ -1,0 +1,24 @@
+{
+    "version": "master-d7c7a34",
+    "description": "(Vulkan Backend) Stable Diffusion and Flux in pure C/C++.",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-d7c7a34/sd-master-d7c7a34-bin-win-vulkan-x64.zip",
+            "hash": "daed07ae52e70ea7de4b69cd384c47960223fe82ca84ed644bede134ad04c1a6"
+        }
+    },
+    "bin": "sd.exe",
+    "checkver": {
+        "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-vulkan-x64.zip"
+            }
+        }
+    }
+}

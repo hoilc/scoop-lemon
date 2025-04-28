@@ -1,0 +1,33 @@
+{
+    "version": "master-d7c7a34",
+    "description": "(CUDA 12 Backend) Stable Diffusion and Flux in pure C/C++.",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-d7c7a34/sd-master-d7c7a34-bin-win-cuda12-x64.zip",
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-d7c7a34/cudart-sd-bin-win-cu12-x64.zip"
+            ],
+            "hash": [
+                "c4963e52ce3f7e4325f31ef1a6037107cf0eb3568ff4020cc7b79469329d7347",
+                "cacc1f7e1e7b53ba310a6769893b8184de2afd5690aa2233d1416e84d3efccd6"
+            ]
+        }
+    },
+    "bin": "sd.exe",
+    "checkver": {
+        "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-cuda12-x64.zip",
+                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/cudart-sd-bin-win-cu12-x64.zip"
+                ]
+            }
+        }
+    }
+}
