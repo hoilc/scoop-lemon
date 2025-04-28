@@ -1,0 +1,35 @@
+{
+    "version": "0.2.7",
+    "description": "Stable Diffusion GUI (sd.cpp.gui.wx) is a cross-platform GUI for Stable Diffusion C++, built using wxWidgets.",
+    "homepage": "https://github.com/fszontagh/sd.cpp.gui.wx",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fszontagh/sd.cpp.gui.wx/releases/download/v0.2.7/StableDiffusionGUI-0.2.7-win64.exe#/dl.7z",
+            "hash": "00d3a8129f3d92f1788747f167d343f6eaaca235a466eba0adb082de5ef37fa9"
+        }
+    },
+    "shortcuts": [
+        [
+            "stablediffusiongui.exe",
+            "Stable Diffusion GUI (sd.cpp.gui.wx)"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\stablediffusiongui\\sd_ui_data\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "sd.cpp.gui.wx is NOT portable. Settings are stored in '%APPDATA%\\stablediffusiongui\\sd_ui_data', and will be purged during uninstallation.",
+    "checkver": {
+        "url": "https://github.com/fszontagh/sd.cpp.gui.wx/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fszontagh/sd.cpp.gui.wx/releases/download/v$version/StableDiffusionGUI-$version-win64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
