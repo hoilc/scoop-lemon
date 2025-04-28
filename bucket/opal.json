@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/CodeDead/opal/releases/download/v1.5.0/Opal-win-portable.zip",
-            "hash": "139f2242d61b620f11eeefd0fb1918d7418252b31efd5d81979827e460b22565"
+            "hash": "c5fa8d2bea8b347fa38f14f1ae2234e66244551984d3570fa51adae38af87c48"
         }
     },
     "shortcuts": [
