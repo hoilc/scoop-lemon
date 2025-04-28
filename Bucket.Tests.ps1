@@ -75,7 +75,8 @@ Describe 'Changed manifests installation' {
         'E2B',
         'unlocker',
         'Spotify',
-        'TrainerManager'
+        'TrainerManager',
+        'deprecated'
     ) -join '|'
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
