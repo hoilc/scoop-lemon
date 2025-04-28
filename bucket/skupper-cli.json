@@ -1,16 +1,12 @@
 {
-    "version": "1.8.3",
+    "version": "2.0.0",
     "description": "The command-line tool for Skupper, an implementation of a Virtual Application Network, enabling rich hybrid cloud communication.",
     "homepage": "http://skupper.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skupperproject/skupper/releases/download/1.8.3/skupper-cli-1.8.3-windows-amd64.zip",
-            "hash": "e60c5e1bd6306e471c7bfdba35e83fd8c4acd4ba948926d1a6105671cdf158f4"
-        },
-        "32bit": {
-            "url": "https://github.com/skupperproject/skupper/releases/download/1.8.3/skupper-cli-1.8.3-windows-i386.zip",
-            "hash": "5ad8dab9bb31b383ccc3b3ac4fa74c859d1ccfe74c68affb82b269121bb59011"
+            "url": "https://github.com/skupperproject/skupper/releases/download/2.0.0/skupper-cli-2.0.0-windows-amd64.zip",
+            "hash": "d1bdb73e9b5b7b906e75db8f22ecd2abef69568d8cca5baf44800e1403554fb9"
         }
     },
     "bin": "skupper.exe",
@@ -21,9 +17,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/skupperproject/skupper/releases/download/$version/skupper-cli-$version-windows-amd64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/skupperproject/skupper/releases/download/$version/skupper-cli-$version-windows-i386.zip"
             }
         }
     }
