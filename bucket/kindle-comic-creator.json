@@ -15,11 +15,5 @@
         ]
     ],
     "bin": "striptool.exe",
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
-    "checkver": {
-        "regex": "Kindle Comic Creator v([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://kc2.s3.amazonaws.com/KindleComicCreatorInstall.exe#/dl.7z"
-    }
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
 }
