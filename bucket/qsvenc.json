@@ -1,8 +1,11 @@
 {
     "version": "7.89",
-    "description": "Investigate performance and image quality of HW encoder (QSV) of Intel",
+    "description": "Investigate performance and image quality of HW encoder (QSV) of Intel.",
     "homepage": "https://github.com/rigaya/QSVEnc",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/rigaya/QSVEnc/raw/refs/heads/master/license.txt"
+    },
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" 'QSVEncC64.exe' | Select-Object -First 1 | Rename-Item -NewName 'QSVEncC.exe'",
