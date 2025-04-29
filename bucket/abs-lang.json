@@ -1,0 +1,30 @@
+{
+    "version": "2.7.2",
+    "description": "A programming language that works best when you're scripting on your terminal.",
+    "homepage": "https://www.abs-lang.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/abs-lang/abs/releases/download/2.7.2/abs-windows-amd64.exe#/abs.exe",
+            "hash": "476ab3cc26145722cc4f507a8ad4f8ee270ac90a00e099d7016d809bd3ba1e51"
+        },
+        "32bit": {
+            "url": "https://github.com/abs-lang/abs/releases/download/2.7.2/abs-windows-386.exe#/abs.exe",
+            "hash": "bc2cab1a8e29a0c66ba8a63cde927347b5118f5f8232a206d3db5ca1ef3f2dc3"
+        }
+    },
+    "bin": "abs.exe",
+    "checkver": {
+        "github": "https://github.com/abs-lang/abs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/abs-lang/abs/releases/download/$version/abs-windows-amd64.exe#/abs.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/abs-lang/abs/releases/download/$version/abs-windows-386.exe#/abs.exe"
+            }
+        }
+    }
+}
