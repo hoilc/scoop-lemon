@@ -1,12 +1,12 @@
 {
-    "version": "b5223",
+    "version": "b5225",
     "description": "(Kompute Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5223/llama-b5223-bin-win-kompute-x64.zip",
-            "hash": "cf12136b6193d0f8aaaad27bae72a9e64a14f9bb884b4541ccc93293b4d36144"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5225/llama-b5225-bin-win-kompute-x64.zip",
+            "hash": "0504946b63e0c4e799a632ca092809d1463e26c4e38ff3a612f214cdc0abdbb2"
         }
     },
     "bin": [
