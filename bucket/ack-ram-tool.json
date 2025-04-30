@@ -19,8 +19,7 @@
     },
     "bin": "ack-ram-tool.exe",
     "checkver": {
-        "url": "https://github.com/AliyunContainerService/ack-ram-tool/releases.atom",
-        "regex": "Repository/\\d+/v([\\d.]+)<"
+        "github": "https://github.com/AliyunContainerService/ack-ram-tool"
     },
     "autoupdate": {
         "architecture": {
