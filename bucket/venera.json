@@ -1,0 +1,28 @@
+{
+    "version": "1.4.2",
+    "description": "A comic reader that support reading local and network comics.",
+    "homepage": "https://github.com/venera-app/venera",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/venera-app/venera/releases/download/v1.4.2/Venera-1.4.2-windows.zip",
+            "hash": "565e09cae6254678a0c9efbd70ac27196ea16903ef9bb15d36d600a8ab85d0cb"
+        }
+    },
+    "shortcuts": [
+        [
+            "venera.exe",
+            "Venera"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.github.wgh136\\venera\", \"$env:LOCALAPPDATA\\com.github.wgh136\\venera\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "Venera is NOT portable. Settings are stored in '%APPDATA%\\com.github.wgh136\\venera', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/venera-app/venera/releases/download/v$version/Venera-$version-windows.zip"
+            }
+        }
+    }
+}
