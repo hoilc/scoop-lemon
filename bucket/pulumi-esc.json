@@ -1,16 +1,16 @@
 {
-    "version": "0.13.2",
+    "version": "0.14.1",
     "description": "A CLI tool for managing and consuming environments, secrets and configuration using Pulumi ESC.",
     "homepage": "https://www.pulumi.com/product/esc/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pulumi/esc/releases/download/v0.13.2/esc-v0.13.2-windows-x64.zip",
-            "hash": "4524616800cff138f0ca8a71c582a5b5fafdd7da9260715f327da71eb35db0d2"
+            "url": "https://github.com/pulumi/esc/releases/download/v0.14.1/esc-v0.14.1-windows-x64.zip",
+            "hash": "f1aede972a3f37fedcbd48dd5748cad9a509cf92d56845796b7c7f7d91d343c0"
         },
         "arm64": {
-            "url": "https://github.com/pulumi/esc/releases/download/v0.13.2/esc-v0.13.2-windows-arm64.zip",
-            "hash": "e1516890dd52095159bac38d37f1c60ba265720b1399efa2e1a4f20222224bd0"
+            "url": "https://github.com/pulumi/esc/releases/download/v0.14.1/esc-v0.14.1-windows-arm64.zip",
+            "hash": "76e22be8b5b11d818615a10dd114a8c8f0ee1530fd0baa8cbfff6852bae39588"
         }
     },
     "extract_dir": "esc\\bin",
