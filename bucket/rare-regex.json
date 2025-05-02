@@ -1,16 +1,16 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "description": "A fast text scanner/regex extractor and realtime summarizer.",
     "homepage": "https://rare.zdyn.net/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zix99/rare/releases/download/0.4.3/rare_0.4.3_Windows_x86_64.zip",
-            "hash": "c3ceaca24337227e76aaf3bcd8c82946c6f45da5461bd87b6984b262befb2a7d"
+            "url": "https://github.com/zix99/rare/releases/download/0.4.4/rare_0.4.4_Windows_x86_64.zip",
+            "hash": "99b5ed2ab72e74b1c914201947a0a91dc18402fc71ae44fad530e3c9c176dbe9"
         },
         "arm64": {
-            "url": "https://github.com/zix99/rare/releases/download/0.4.3/rare_0.4.3_Windows_arm64.zip",
-            "hash": "6458f57d3636ba3100c7457bfc8cc7470eb6c7fbdc605605601c4092d9b8595a"
+            "url": "https://github.com/zix99/rare/releases/download/0.4.4/rare_0.4.4_Windows_arm64.zip",
+            "hash": "8c9401308581a12ef2267228066803696cd7d8fda293f7b97b5369b70c2e8e47"
         }
     },
     "bin": "rare.exe",
