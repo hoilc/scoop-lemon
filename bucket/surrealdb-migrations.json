@@ -1,5 +1,5 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "A SurrealDB migration tool, with a user-friendly CLI.",
     "homepage": "https://github.com/Odonno/surrealdb-migrations/",
     "license": "MIT",
