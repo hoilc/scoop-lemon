@@ -1,0 +1,27 @@
+{
+    "version": "1.11.0",
+    "description": "A viewer for .slint files from the Slint Project.",
+    "homepage": "https://crates.io/crates/slint-viewer",
+    "license": {
+        "identifier": "GPL-3.0-only|LicenseRef-Slint-Royalty-free-2.0|LicenseRef-Slint-Software-3.0",
+        "url": "https://github.com/slint-ui/slint/raw/refs/heads/master/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/slint-ui/slint/releases/download/v1.11.0/slint-viewer-windows.zip",
+            "hash": "8911cd2054386e952b3e385bd7712453d87dedc90955db0518c81178bb0244b1"
+        }
+    },
+    "extract_dir": "slint-viewer",
+    "bin": "slint-viewer.exe",
+    "checkver": {
+        "github": "https://github.com/slint-ui/slint"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/slint-ui/slint/releases/download/v$version/slint-viewer-windows.zip"
+            }
+        }
+    }
+}
