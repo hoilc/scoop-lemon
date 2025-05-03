@@ -1,0 +1,31 @@
+{
+    "version": "0.0.8",
+    "description": "一个试图缓解嵌套的TLS握手指纹(TLS in TLS)问题的协议",
+    "homepage": "https://github.com/anytls/anytls-go",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/anytls/anytls-go/releases/download/v0.0.8/anytls_0.0.8_windows_amd64.zip",
+            "hash": "d3e29c0ca3bc0c5a40ec8c46a25d2ae534f5621db4184874ade520be8dd9c502"
+        },
+        "arm64": {
+            "url": "https://github.com/anytls/anytls-go/releases/download/v0.0.8/anytls_0.0.8_windows_arm64.zip",
+            "hash": "aff71feecac78ae2de327eff753aa455b58880c8e512d12d11e6073fd62d9a49"
+        }
+    },
+    "bin": [
+        "anytls-client.exe",
+        "anytls-server.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/anytls/anytls-go/releases/download/v$version/anytls_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/anytls/anytls-go/releases/download/v$version/anytls_$version_windows_arm64.zip"
+            }
+        }
+    }
+}
