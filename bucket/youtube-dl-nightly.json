@@ -1,10 +1,10 @@
 {
-    "version": "2025.04.08",
+    "version": "2025.05.04",
     "description": "Nightly builds for youtube-dl, A command-line program to download videos from YouTube.com and other video sites",
     "homepage": "https://github.com/ytdl-org/youtube-dl",
     "license": "Unlicense",
-    "url": "https://github.com/ytdl-org/ytdl-nightly/releases/download/2025.04.08/youtube-dl.exe",
-    "hash": "eee8baef5f36ed2bcd59222fc378fc6d2f2d36c3e8da7a1e620eabca16151dfd",
+    "url": "https://github.com/ytdl-org/ytdl-nightly/releases/download/2025.05.04/youtube-dl.exe",
+    "hash": "2b5af3508e9f16729bcde0f7a06401f01c292d570c989018976df59ad3f244d9",
     "bin": "youtube-dl.exe",
     "checkver": {
         "github": "https://github.com/ytdl-org/ytdl-nightly"
