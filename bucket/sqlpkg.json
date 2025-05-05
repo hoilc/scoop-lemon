@@ -1,0 +1,33 @@
+{
+    "version": "0.3.0",
+    "description": "An unofficial SQLite package manager.",
+    "homepage": "https://sqlpkg.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nalgeon/sqlpkg-cli/releases/download/v0.3.0/sqlpkg-cli_0.3.0_windows_amd64.tar.gz",
+            "hash": "8d3399986cd22f7460e7e97779511dbde6bd37639f977a887b8ae5628f22751d"
+        },
+        "arm64": {
+            "url": "https://github.com/nalgeon/sqlpkg-cli/releases/download/v0.3.0/sqlpkg-cli_0.3.0_windows_arm64.tar.gz",
+            "hash": "7551afb2df10e8ef59dd030804e12fbb7ac23689193823c1cb8fecbfaef680fc"
+        }
+    },
+    "bin": "sqlpkg.exe",
+    "checkver": {
+        "github": "https://github.com/nalgeon/sqlpkg-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nalgeon/sqlpkg-cli/releases/download/v$version/sqlpkg-cli_$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/nalgeon/sqlpkg-cli/releases/download/v$version/sqlpkg-cli_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sqlpkg-cli_$version_checksums.txt"
+        }
+    }
+}
