@@ -1,12 +1,12 @@
 {
-    "version": "0.5.18",
+    "version": "0.5.19",
     "description": "An open-source external command-line interface for Shopware 6.",
     "homepage": "https://developer.shopware.com/docs/products/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shopware/shopware-cli/releases/download/0.5.18/shopware-cli_Windows_x86_64.zip",
-            "hash": "ed56f482fe641bf0f4747f5836ff83de8dc80075f71c30aad1d03c984f0876ba"
+            "url": "https://github.com/shopware/shopware-cli/releases/download/0.5.19/shopware-cli_Windows_x86_64.zip",
+            "hash": "d7c84469a5b0970b0055b03b4931cc2b7f192e4b6e7fa5ab8847917cf1f2164a"
         }
     },
     "bin": "shopware-cli.exe",
