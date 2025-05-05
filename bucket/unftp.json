@@ -1,0 +1,23 @@
+{
+    "version": "0.15.1",
+    "description": "A FTP(S) server with a couple of twists written in Rust.",
+    "homepage": "https://unftp.rs/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bolcom/unFTP/releases/download/v0.15.1/unftp_x86_64-pc-windows-msvc.exe#/unftp.exe",
+            "hash": "c71af76bb8be045d8df28e4e1060c5d7123c1d8094e6635e4f1ef3a2451bc701"
+        }
+    },
+    "bin": "unftp.exe",
+    "checkver": {
+        "github": "https://github.com/bolcom/unFTP"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bolcom/unFTP/releases/download/v0.15.1/unftp_x86_64-pc-windows-msvc.exe#/unftp.exe"
+            }
+        }
+    }
+}
