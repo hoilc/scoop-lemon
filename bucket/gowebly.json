@@ -1,0 +1,33 @@
+{
+    "version": "3.0.2",
+    "description": "A next-generation CLI tool for building amazing web apps.",
+    "homepage": "https://gowebly.org/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.2/gowebly_3.0.2_windows_amd64.zip",
+            "hash": "541d9cffbe3e3211be60ceab9a6ab11433670ecb35a21754356223ef656fc6eb"
+        },
+        "arm64": {
+            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.2/gowebly_3.0.2_windows_arm64.zip",
+            "hash": "d4beafb07c9007031b215fcbbb7e69157c0e8155af4c72275e600cbe26d4463c"
+        }
+    },
+    "bin": "gowebly.exe",
+    "checkver": {
+        "github": "https://github.com/gowebly/gowebly"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gowebly/gowebly/releases/download/v$version/gowebly_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/gowebly/gowebly/releases/download/v$version/gowebly_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
