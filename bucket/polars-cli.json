@@ -1,0 +1,24 @@
+{
+    "version": "0.9.0",
+    "description": "A CLI interface for running SQL queries with Polars as backend",
+    "homepage": "https://pola.rs/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pola-rs/polars-cli/releases/download/0.9.0/polars-cli-0.9.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "6c504b9e466a16abfbc9fbecdc059c0a5dbc88794abec241fd4ef9d6ceffea57"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'polars' | Select-Object -First 1 | Rename-Item -NewName 'polars.exe'",
+    "bin": "polars.exe",
+    "checkver": {
+        "github": "https://github.com/pola-rs/polars-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pola-rs/polars-cli/releases/download/$version/polars-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
