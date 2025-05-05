@@ -13,6 +13,9 @@
     "pre_install": "Get-ChildItem \"$dir\" 'apery_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'apery.exe'",
     "bin": "apery.exe",
     "notes": "Apery requires a USI-compatible GUI (e.g. Shogidokoro, ShogiGUI, MyShogi).",
+    "suggest": {
+        "ShogiGUI": "lemon/shogigui"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
