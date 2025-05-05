@@ -1,23 +1,23 @@
 {
-    "version": "1.2025.04.04",
+    "version": "1.2025.05.05",
     "description": "Scan Tailor Experimental is an interactive post-processing tool for scanned pages.",
     "homepage": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.04.04/scantailor-experimental-1.2025.04.04-Win32-X86-64-Qt6.7z",
-            "extract_dir": "scantailor-experimental-1.2025.04.04-Win32-X86-64-Qt6",
-            "hash": "eefdfffa987d45b97d9f588cfe447ab2bb38076175ddf0d0def63c2a0b8a035c"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-X86-64-Qt6.7z",
+            "extract_dir": "scantailor-experimental-1.2025.05.05-Win32-X86-64-Qt6",
+            "hash": "4767be42cbfe11ba2f95031f383d9a7968d2fcd27ea2098569110086198157d5"
         },
         "32bit": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.04.04/scantailor-experimental-1.2025.04.04-Win32-X86-32.7z",
-            "extract_dir": "scantailor-experimental-1.2025.04.04-Win32-X86-32",
-            "hash": "7eb8216687f9b40bab58d71a679f4277ad6f3356b93f69a7caf5be115d4f6927"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-X86-32.7z",
+            "extract_dir": "scantailor-experimental-1.2025.05.05-Win32-X86-32",
+            "hash": "93e79d2fd84afb05146540fe31fa1fc01d49013cd5c38f2be5748e99f6646f11"
         },
         "arm64": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.04.04/scantailor-experimental-1.2025.04.04-Win32-ARM64-Qt6.7z",
-            "extract_dir": "scantailor-experimental-1.2025.04.04-Win32-ARM64-Qt6",
-            "hash": "6cdb55494f9bc1b7ec67de9856730b175cf7b8f78178923e0731daf13998f932"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-ARM64-Qt6.7z",
+            "extract_dir": "scantailor-experimental-1.2025.05.05-Win32-ARM64-Qt6",
+            "hash": "7557e19c3202e122a2161598e581a72d6e23f1e0df96b86fea5ddb81be647481"
         }
     },
     "shortcuts": [
