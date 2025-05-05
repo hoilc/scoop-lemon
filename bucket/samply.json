@@ -1,0 +1,27 @@
+{
+    "version": "0.13.1",
+    "description": "A command line CPU profiler which uses the Firefox profiler as its UI.",
+    "homepage": "https://github.com/mstange/samply",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mstange/samply/releases/download/samply-v0.13.1/samply-x86_64-pc-windows-msvc.zip",
+            "hash": "8fed74dac18197bbb2520125b0199255e09709bed7903a7672a06225a5d7e976"
+        }
+    },
+    "bin": "samply.exe",
+    "checkver": {
+        "url": "https://github.com/mstange/samply/releases.atom",
+        "regex": "Repository/\\d+/samply-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mstange/samply/releases/download/samply-v$version/samply-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
