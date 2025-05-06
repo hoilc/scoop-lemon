@@ -1,0 +1,26 @@
+{
+    "version": "0.18.1",
+    "description": "A CLI for CockroachDB, DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, Redshift, Snowflake, SQLite3, SQL Server and more.",
+    "homepage": "https://theseus-rs.github.io/rsql/rsql_cli/",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/theseus-rs/rsql/releases/download/v0.18.1/rsql_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "f2b960d00cb670673b7269f054ef1abf37b7bcb26d0092dbc5a2d3af07c7be35"
+        }
+    },
+    "bin": "rsql.exe",
+    "checkver": {
+        "github": "https://github.com/theseus-rs/rsql"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/theseus-rs/rsql/releases/download/v$version/rsql_cli-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
