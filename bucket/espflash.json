@@ -1,0 +1,21 @@
+{
+    "version": "3.3.0",
+    "description": "A serial flasher utility for Espressif SoCs and modules based on esptool.py",
+    "homepage": "https://github.com/esp-rs/espflash",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/esp-rs/espflash/releases/download/v3.3.0/espflash-x86_64-pc-windows-msvc.zip",
+            "hash": "08c9c0e13538df4e36753d7ddec09b3649e0d2cc6f5697a9e0bc4557de9528c5"
+        }
+    },
+    "bin": "espflash.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/esp-rs/espflash/releases/download/v$version/espflash-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
