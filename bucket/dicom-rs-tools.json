@@ -20,7 +20,9 @@
         "dicom-toimage.exe",
         "dicom-transcode.exe"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Enet4/dicom-rs"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
