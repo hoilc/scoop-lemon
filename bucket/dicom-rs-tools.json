@@ -1,0 +1,33 @@
+{
+    "version": "0.8.1",
+    "description": "Command line tools for DICOM compliant systems.",
+    "homepage": "https://github.com/Enet4/dicom-rs#tools",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.8.1/dicom-rs-tools-v0.8.1-x86_64-win-msvc.zip",
+            "hash": "3e5fdea395ced02fec6b5782ac0a22231eda59d5adfd66880348e9fce6957503"
+        }
+    },
+    "bin": [
+        "dicom-dump.exe",
+        "dicom-echoscu.exe",
+        "dicom-findscu.exe",
+        "dicom-fromimage.exe",
+        "dicom-scpproxy.exe",
+        "dicom-storescp.exe",
+        "dicom-storescu.exe",
+        "dicom-toimage.exe",
+        "dicom-transcode.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/Enet4/dicom-rs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Enet4/dicom-rs/releases/download/v$version/dicom-rs-tools-v$version-x86_64-win-msvc.zip"
+            }
+        }
+    }
+}
