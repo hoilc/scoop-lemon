@@ -1,7 +1,7 @@
 {
     "version": "0.10.0",
     "description": "A command line program which provides a suite of tools to create shopping lists and maintain recipes with Cooklang.",
-    "homepage": "https://github.com/ffuf/ffuf",
+    "homepage": "https://cooklang.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
