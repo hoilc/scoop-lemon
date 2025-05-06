@@ -1,0 +1,21 @@
+{
+    "version": "0.10.1",
+    "description": "A CLI to manage cooklang recipes with extensions.",
+    "homepage": "https://github.com/Zheoni/cooklang-chef",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v0.10.1/chef-x86_64-pc-windows-msvc.zip",
+            "hash": "5d57ed6a70942403bf4657d93e10eb1f46a06e91a2c7ef6b2c813e6c6d76314f"
+        }
+    },
+    "bin": "chef.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Zheoni/cooklang-chef/releases/download/v$version/chef-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
