@@ -1,0 +1,21 @@
+{
+    "version": "1.1.0",
+    "description": "A command-line tool to easily kill processes running on a specified port.",
+    "homepage": "https://github.com/jkfran/killport",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jkfran/killport/releases/download/v1.1.0/killport-x86_64-pc-windows-gnu.tar.gz",
+            "hash": "34d2f23ff105e9b223e4a2998bfaedd76075cf628bd805b40535083e5f84ad29"
+        }
+    },
+    "bin": "killport.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jkfran/killport/releases/download/v$version/killport-x86_64-pc-windows-gnu.tar.gz"
+            }
+        }
+    }
+}
