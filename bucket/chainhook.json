@@ -1,0 +1,22 @@
+{
+    "version": "1.8.0",
+    "description": "Extract transactions from Stacks and Bitcoin and build event driven re-org resistant indexers and databases.",
+    "homepage": "https://github.com/hirosystems/chainhook",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hirosystems/chainhook/releases/download/v1.8.0/chainhook-windows-x64.msi",
+            "hash": "fd886f9bfe294f9e375b31a9e858142376176e933e8e5c7cd25294272cef9f47"
+        }
+    },
+    "extract_dir": "PFiles\\chainhook\\bin",
+    "bin": "chainhook.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hirosystems/chainhook/releases/download/v$version/chainhook-windows-x64.msi"
+            }
+        }
+    }
+}
