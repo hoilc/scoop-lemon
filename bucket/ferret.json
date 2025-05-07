@@ -1,16 +1,16 @@
 {
-    "version": "1.11.0",
+    "version": "1.11.1",
     "description": "A web scraping system aiming to simplify data extraction from the web",
     "homepage": "https://www.montferret.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MontFerret/cli/releases/download/v1.11.0/cli_windows_x86_64.zip",
-            "hash": "197e9c75c68388bf04497cc1ec8b55d4b1160dd0b7ca690de48dc44a4b61e387"
+            "url": "https://github.com/MontFerret/cli/releases/download/v1.11.1/cli_windows_x86_64.zip",
+            "hash": "d858939d001cf9e2745284ac095584b51baf6c53936cc77ffe73031b0bed86f7"
         },
         "arm64": {
-            "url": "https://github.com/MontFerret/cli/releases/download/v1.11.0/cli_windows_arm64.zip",
-            "hash": "d23add5c7daf301b5deb2a1ef0acd6eb793ce9821615b98d85c6e537e2aca2f4"
+            "url": "https://github.com/MontFerret/cli/releases/download/v1.11.1/cli_windows_arm64.zip",
+            "hash": "d921c705a9661bf52557ef53f4a3b47af9b36d57fa1f993393406a08f1c0d858"
         }
     },
     "bin": "ferret.exe",
