@@ -1,0 +1,21 @@
+{
+    "version": "1.2.5",
+    "description": "A command line tool to solve Leetcode problems.",
+    "homepage": "https://github.com/dragfire/leetup",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dragfire/leetup/releases/download/v1.2.5/leetup-x86_64-pc-windows-msvc.zip",
+            "hash": "e85b6c168f25dbc2fefa0c0925e5a74daf6322ded781e5edd7ca31bcc3e4aa6d"
+        }
+    },
+    "bin": "leetup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dragfire/leetup/releases/download/v$version/leetup-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
