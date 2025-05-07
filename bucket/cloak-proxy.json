@@ -1,0 +1,28 @@
+{
+    "version": "2.10.0",
+    "description": "A pluggable transport that enhances traditional proxy tools like OpenVPN.",
+    "homepage": "https://github.com/cbeuw/Cloak",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cbeuw/Cloak/releases/download/v2.10.0/ck-client-windows-amd64-v2.10.0.exe#/ck-client.exe",
+            "hash": "16bc41979eaa1996635a66fcff3d894ae8c40eca4b9c3c72c9473c7efb985853"
+        },
+        "32bit": {
+            "url": "https://github.com/cbeuw/Cloak/releases/download/v2.10.0/ck-client-windows-386-v2.10.0.exe#/ck-client.exe",
+            "hash": "26add81f7e6f06947fc0fa157b73fa216af9536321543982612303c495cecd68"
+        }
+    },
+    "bin": "ck-client.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cbeuw/Cloak/releases/download/v$version/ck-client-windows-amd64-v$version.exe#/ck-client.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/cbeuw/Cloak/releases/download/v$version/ck-client-windows-386-v$version.exe#/ck-client.exe"
+            }
+        }
+    }
+}
