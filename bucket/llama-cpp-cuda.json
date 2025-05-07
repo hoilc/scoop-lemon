@@ -23,7 +23,6 @@
         "llama-run.exe",
         "llama-batched.exe",
         "llama-batched-bench.exe",
-        "llama-cvector-generator.exe",
         "llama-embedding.exe",
         "llama-gguf.exe",
         "llama-gguf-hash.exe",
