@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "description": "Display images in your terminal, kind of.",
+    "homepage": "https://github.com/nabijaczleweli/termimage",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nabijaczleweli/termimage/releases/download/v1.2.1/termimage-v1.2.1.exe#/termimage.exe",
+            "hash": "7c8f774f10a9b0738fbe384a35b186c81347112e52709d30dd29dc89a14e016c"
+        }
+    },
+    "bin": "termimage.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nabijaczleweli/termimage/releases/download/v$version/termimage-v$version.exe#/termimage.exe"
+            }
+        }
+    }
+}
