@@ -1,18 +1,19 @@
 {
-    "version": "3957",
+    "version": "3960",
     "description": "(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14885900724/whisper-bin-x64.zip",
-            "hash": "4aa83195dcfaebfc22d0463827d913d7a2d9cfff0a3e5d188da16027a4a6162d"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14890097878/whisper-bin-x64.zip#/dl.zip",
+            "hash": "8a4eb3286f95b389f05ea0474f569acf97e64da0f86b44a06f9960d7665b3dc3"
         },
         "32bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14885900724/whisper-bin-Win32.zip",
-            "hash": "30beedeb685de3863b29fe8360008ffea994d2b7780676af8074bef0d8eb0193"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14890097878/whisper-bin-Win32.zip#/dl.zip",
+            "hash": "66573cefed90c7fa7d37bab94b8ab9331d397ccc6ac3657716cd764e73d4f976"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
     "bin": [
         [
             "whisper-cli.exe",
@@ -50,10 +51,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-bin-x64.zip"
+                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-bin-x64.zip#/dl.zip"
             },
             "32bit": {
-                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-bin-Win32.zip"
+                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-bin-Win32.zip#/dl.zip"
             }
         }
     }
