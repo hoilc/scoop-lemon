@@ -1,0 +1,21 @@
+{
+    "version": "2025.4.0",
+    "description": "A CLI tool that helps you keep track of multiple Git repositories.",
+    "homepage": "https://github.com/nickgerace/gfold",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nickgerace/gfold/releases/download/2025.4.0/gfold-windows-x86-64.exe#/gfold.exe",
+            "hash": "333f6dd45971e371f9538bd24d23e7dcb35907a55822ca6e5171d66853921bad"
+        }
+    },
+    "bin": "gfold.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nickgerace/gfold/releases/download/$version/gfold-windows-x86-64.exe#/gfold.exe"
+            }
+        }
+    }
+}
