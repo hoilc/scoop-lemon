@@ -1,12 +1,12 @@
 {
-    "version": "3.3.6",
+    "version": "3.3.7",
     "description": "A high performance file compressor based on lossless, block-sorting data compression algorithms.",
     "homepage": "http://libbsc.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IlyaGrebnov/libbsc/releases/download/v3.3.6/bsc-3.3.6-x64.zip",
-            "hash": "eee4e22d2c993d0873629d72eeeff53a5e85b302bbe087db4756992f92182483"
+            "url": "https://github.com/IlyaGrebnov/libbsc/releases/download/v3.3.7/bsc-3.3.7-x64.zip",
+            "hash": "ff7cd46635f18aafa849a70b39ffc4b6e42b5b2c352210665c122ffc55ab157e"
         }
     },
     "bin": "bsc.exe",
