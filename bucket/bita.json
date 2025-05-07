@@ -1,0 +1,21 @@
+{
+    "version": "0.13.0",
+    "description": "An HTTP-based file synchronization tool optimized to minimize bandwidth.",
+    "homepage": "https://github.com/oll3/bita",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/oll3/bita/releases/download/v0.13.0/bita-v0.13.0-x86_64-pc-windows-msvc.exe#/bita.exe",
+            "hash": "a419565a9f81aed0009ce9d4e7fa294b66620d5359cdf2795c850d162cb997c6"
+        }
+    },
+    "bin": "bita.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/oll3/bita/releases/download/v$version/bita-v$version-x86_64-pc-windows-msvc.exe#/bita.exe"
+            }
+        }
+    }
+}
