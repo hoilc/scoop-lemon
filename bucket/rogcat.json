@@ -1,0 +1,24 @@
+{
+    "version": "0.5.0",
+    "description": "A `adb logcat` wrapper",
+    "homepage": "https://github.com/flxo/rogcat",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/flxo/rogcat/releases/download/v0.5.0/rogcat-x86_64-pc-windows-msvc.zip",
+            "hash": "9cb3d42094b73c490bb38c8c47d4ad0b4a6dbb133f3d6ff40ad11a25ad1734bb"
+        }
+    },
+    "bin": "rogcat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/flxo/rogcat/releases/download/v$version/rogcat-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
