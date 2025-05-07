@@ -1,0 +1,21 @@
+{
+    "version": "3.0.0",
+    "description": "Convert images from multiple formats (jpg, png, webp, etc…) to ASCII art.",
+    "homepage": "https://github.com/FineFindus/artem",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/FineFindus/artem/releases/download/v3.0.0/artem-v-x86_64-pc-windows-msvc.zip",
+            "hash": "0477686041f79243852c6ab89566157f4be56966453ce678b8511261c93aa3eb"
+        }
+    },
+    "bin": "artem.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/FineFindus/artem/releases/download/v$version/artem-v-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
