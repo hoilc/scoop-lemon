@@ -1,0 +1,28 @@
+{
+    "version": "1.6.2",
+    "description": "Detect license usage restrictions in your project.",
+    "homepage": "https://github.com/anistark/feluda",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-x86_64-pc-windows-msvc.zip",
+            "hash": "fd2f2d41ca961ed1c6022a7e4fab59a283e876e9312fa7e9439cc8b29b73464c"
+        },
+        "arm64": {
+            "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-aarch64-pc-windows-msvc.zip",
+            "hash": "4e49bda83f01c05fd848408c676eb1e23b693eccdd2a7921ecf7183c42dacbad"
+        }
+    },
+    "bin": "feluda.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
