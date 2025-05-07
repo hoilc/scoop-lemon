@@ -1,0 +1,31 @@
+{
+    "version": "2.4.1",
+    "description": "A modern port scanner.",
+    "homepage": "https://github.com/bee-san/RustScan",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bee-san/RustScan/releases/download/2.4.1/x86_64-windows-rustscan.exe.zip",
+            "hash": "e26c16f3adccb3c9dd737068941d1de850939b80193c5156218079582f5a7685"
+        },
+        "32bit": {
+            "url": "https://github.com/bee-san/RustScan/releases/download/2.4.1/x86-windows-rustscan.exe.zip",
+            "hash": "5d5386d27c4c43ab144ce47f0dfcbb37d40d0c5f40127db1e6032a098380d3d6"
+        }
+    },
+    "bin": "rustscan.exe",
+    "suggest": {
+        "nmap": "main/nmap"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bee-san/RustScan/releases/download/$version/x86_64-windows-rustscan.exe.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/bee-san/RustScan/releases/download/$version/x86-windows-rustscan.exe.zip"
+            }
+        }
+    }
+}
