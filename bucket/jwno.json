@@ -41,9 +41,6 @@
                     "https://github.com/agent-kilo/jwno/raw/refs/tags/v$version/example/example-config.janet"
                 ]
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
