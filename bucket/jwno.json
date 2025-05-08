@@ -1,0 +1,46 @@
+{
+    "version": "0.9.13",
+    "description": "A tiling window manager for Windows 10/11.",
+    "homepage": "https://agent-kilo.github.io/jwno/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/agent-kilo/jwno/releases/download/v0.9.13/jwno.exe",
+                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.13/example/tutorial.janet",
+                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.13/example/example-config.janet"
+            ],
+            "hash": [
+                "ebb44800af58e09d9a67013a9dc02564011d51a2a250abfbbdaff420cfcc23ef",
+                "97a194917ab202afce5332f0f65a51d4195f6d938080810dc408bc93df6b19c5",
+                "c24eb3f033dd25f54b84b0010d5670a35204ed4aabd7238630116a952f845a89"
+            ]
+        }
+    },
+    "bin": "jwno.exe",
+    "shortcuts": [
+        [
+            "jwno.exe",
+            "Jwno"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/agent-kilo/jwno"
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\jwno-config.janet\")) { Copy-Item \"$dir\\tutorial.janet\" \"$dir\\jwno-config.janet\" -ErrorAction SilentlyContinue | Out-Null }",
+    "persist": [
+        "jwno-config.janet",
+        "config"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/agent-kilo/jwno/releases/download/v$version/jwno.exe",
+                    "https://github.com/agent-kilo/jwno/raw/refs/tags/v$version/example/tutorial.janet",
+                    "https://github.com/agent-kilo/jwno/raw/refs/tags/v$version/example/example-config.janet"
+                ]
+            }
+        }
+    }
+}
