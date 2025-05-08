@@ -12,6 +12,12 @@ jobs:
     - uses: actions/checkout@master
       with:
         persist-credentials: false
+    - name: Show rate limit for GitHub API (Before)
+      shell: powershell
+      run: |
+        gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /rate_limit
+      env:
+        GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: Excavate
       uses: ScoopInstaller/Scoop-GithubActions@main
       env:
@@ -21,3 +27,9 @@ jobs:
         SCOOP_GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SCOOP_BRANCH: 'master'
         THROW_ERROR: '0'
+    - name: Show rate limit for GitHub API (After)
+      shell: powershell
+      run: |
+        gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /rate_limit
+      env:
+        GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
