@@ -1,16 +1,16 @@
 {
-    "version": "25.0507",
+    "version": "25.0508",
     "description": "数字图书馆下载工具",
     "homepage": "https://github.com/deweizhu/bookget",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/deweizhu/bookget/releases/download/v25.0507/bookget.exe",
-                "https://github.com/deweizhu/bookget/raw/refs/tags/v25.0507/cmd/config.ini"
+                "https://github.com/deweizhu/bookget/releases/download/v25.0508/bookget.exe",
+                "https://github.com/deweizhu/bookget/raw/refs/tags/v25.0508/cmd/config.ini"
             ],
             "hash": [
-                "f5aeb77ed8cd851e67aa9edb49022f2621780559bd5a945448e7d87d66aa209c",
+                "51aa694bb402426b764cff073c96ab52516fb7011818774c99d5d7f4ae39fcfe",
                 "f28e7d3ab9728f27dc705de9621aa0e8ea3f72369f12eb9abc3cb5f19155f89b"
             ]
         }
