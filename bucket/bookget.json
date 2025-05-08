@@ -1,22 +1,22 @@
 {
-    "version": "25.0501",
+    "version": "25.0507",
     "description": "数字图书馆下载工具",
     "homepage": "https://github.com/deweizhu/bookget",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deweizhu/bookget/releases/download/25.0501/bookget-25.0501.windows-amd64.7z",
-            "extract_dir": "bookget-25.0501.windows-amd64",
-            "hash": "901a60f4fe388ad35d62ac0043d3900038dc08971ff9d9d4f5e58639e2bce850"
+            "url": [
+                "https://github.com/deweizhu/bookget/releases/download/v25.0507/bookget.exe",
+                "https://github.com/deweizhu/bookget/raw/refs/tags/v25.0507/cmd/config.ini"
+            ],
+            "hash": [
+                "f5aeb77ed8cd851e67aa9edb49022f2621780559bd5a945448e7d87d66aa209c",
+                "f28e7d3ab9728f27dc705de9621aa0e8ea3f72369f12eb9abc3cb5f19155f89b"
+            ]
         }
     },
     "bin": "bookget.exe",
-    "shortcuts": [
-        [
-            "bookget-gui.exe",
-            "bookget"
-        ]
-    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\cookie.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\cookie.txt\" -Value $null }",
     "persist": [
         "config.ini",
         "cookie.txt"
@@ -25,8 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deweizhu/bookget/releases/download/$version/bookget-$version.windows-amd64.7z",
-                "extract_dir": "bookget-$version.windows-amd64"
+                "url": [
+                    "https://github.com/deweizhu/bookget/releases/download/v$version/bookget.exe",
+                    "https://github.com/deweizhu/bookget/raw/refs/tags/v$version/cmd/config.ini"
+                ]
             }
         }
     }
