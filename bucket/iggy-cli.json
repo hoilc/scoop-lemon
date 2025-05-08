@@ -1,0 +1,31 @@
+{
+    "version": "0.8.13",
+    "description": "CLI for iggy, a persistent message streaming platform.",
+    "homepage": "https://iggy.apache.org/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/apache/iggy/releases/download/iggy-cli-0.8.13/iggy-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "a073c7c12c483c1257c368fc3406daf1488ce72342eaf7f240c3b2c4cd1f54fd"
+        },
+        "arm64": {
+            "url": "https://github.com/apache/iggy/releases/download/iggy-cli-0.8.13/iggy-cli-aarch64-pc-windows-msvc.zip",
+            "hash": "491965bd54069454381361434b0c3baf0ea6d852995e556a4e14acc2a72b0126"
+        }
+    },
+    "bin": "iggy.exe",
+    "checkver": {
+        "url": "https://github.com/apache/iggy/releases",
+        "regex": "/apache/iggy/tree/iggy-cli-([^/]+?)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/apache/iggy/releases/download/iggy-cli-$version/iggy-cli-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/apache/iggy/releases/download/iggy-cli-$version/iggy-cli-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
