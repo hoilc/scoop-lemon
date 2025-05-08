@@ -26,9 +26,6 @@
             "arm64": {
                 "url": "https://github.com/apache/iggy/releases/download/iggy-cli-$version/iggy-cli-aarch64-pc-windows-msvc.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/cli53_$version_checksums.txt"
         }
     }
 }
