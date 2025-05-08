@@ -31,11 +31,7 @@
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe",
-        [
-            "rpc-server.exe",
-            "llama-rpc-server"
-        ]
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
