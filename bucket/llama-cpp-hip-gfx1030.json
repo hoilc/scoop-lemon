@@ -1,12 +1,12 @@
 {
-    "version": "b5327",
-    "description": "(SYCL Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
+    "version": "b5328",
+    "description": "(ROCm/HIP gfx1030 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5327/llama-b5327-bin-win-sycl-x64.zip",
-            "hash": "61c98b91dfbba28dd114ec9b7768238fd00cdb96068835e621bec85e2e1ee0e5"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5328/llama-b5328-bin-win-hip-x64-gfx1030.zip",
+            "hash": "35ce90af75cf87064da06a1e8efe65d049489a5313d0113add14ad4057cbe57d"
         }
     },
     "bin": [
@@ -19,7 +19,11 @@
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-mtmd-cli.exe",
+        [
+            "rpc-server.exe",
+            "llama-rpc-server"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
@@ -28,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-sycl-x64.zip"
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-x64-gfx1030.zip"
             }
         }
     }

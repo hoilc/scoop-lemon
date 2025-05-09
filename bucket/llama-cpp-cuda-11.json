@@ -1,16 +1,16 @@
 {
-    "version": "b5308",
+    "version": "b5328",
     "description": "(CUDA 11 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5308/llama-b5308-bin-win-cuda-cu11.7-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b5308/cudart-llama-bin-win-cu11.7-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5328/llama-b5328-bin-win-cuda11.7-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b5328/cudart-llama-bin-win-cuda11.7-x64.zip"
             ],
             "hash": [
-                "ffac3266953e4381d28a55d539bb5697e752f40f1043537375ab62087a4df52d",
+                "11386aa9b5f5cdc3f02513e130ee079266d1a9b0fb80d234129dce334ebf9b83",
                 "e7072996188af75406b8d34d1948188d9b2d430851b4adb83424bbe0fcd8c785"
             ]
         }
@@ -21,17 +21,15 @@
         "llama-perplexity.exe",
         "llama-bench.exe",
         "llama-run.exe",
-        "llama-batched.exe",
-        "llama-batched-bench.exe",
-        "llama-embedding.exe",
-        "llama-gguf.exe",
-        "llama-gguf-hash.exe",
-        "llama-gguf-split.exe",
         "llama-imatrix.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-mtmd-cli.exe",
+        [
+            "rpc-server.exe",
+            "llama-rpc-server"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
@@ -41,8 +39,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-cu11.7-x64.zip",
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cu11.7-x64.zip"
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda11.7-x64.zip",
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda11.7-x64.zip"
                 ]
             }
         }

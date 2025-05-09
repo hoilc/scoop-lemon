@@ -1,17 +1,17 @@
 {
     "##": "The 64-bit version is just a placeholder to pass CI checks.",
-    "version": "b5308",
+    "version": "b5328",
     "description": "(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5308/llama-b5308-bin-win-cpu-x64.zip",
-            "hash": "10ce8d691117d097cf2bd5130d1a63e759d66d2c8fec0916f7c5915fe1f1e151"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5328/llama-b5328-bin-win-cpu-x64.zip",
+            "hash": "ed42dab5fccaa3066be2e614da6801be4f964e23a23ecd1ec895b4af282f1079"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5308/llama-b5308-bin-win-llvm-arm64-opencl-adreno.zip",
-            "hash": "92df864da0946425b0d4fdfecd961b72819c9928f82b8b14cfe22dab19619357"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5328/llama-b5328-bin-win-opencl-adreno-arm64.zip",
+            "hash": "558d6936e6b09482a007b6397a98db3a80c2bb4fa15500243f014a416a8de528"
         }
     },
     "bin": [
@@ -20,17 +20,15 @@
         "llama-perplexity.exe",
         "llama-bench.exe",
         "llama-run.exe",
-        "llama-batched.exe",
-        "llama-batched-bench.exe",
-        "llama-embedding.exe",
-        "llama-gguf.exe",
-        "llama-gguf-hash.exe",
-        "llama-gguf-split.exe",
         "llama-imatrix.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-mtmd-cli.exe",
+        [
+            "rpc-server.exe",
+            "llama-rpc-server"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
@@ -42,7 +40,7 @@
                 "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cpu-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-llvm-arm64-opencl-adreno.zip"
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-opencl-adreno-arm64.zip"
             }
         }
     }

@@ -15,17 +15,15 @@
         "llama-perplexity.exe",
         "llama-bench.exe",
         "llama-run.exe",
-        "llama-batched.exe",
-        "llama-batched-bench.exe",
-        "llama-embedding.exe",
-        "llama-gguf.exe",
-        "llama-gguf-hash.exe",
-        "llama-gguf-split.exe",
         "llama-imatrix.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-mtmd-cli.exe",
+        [
+            "rpc-server.exe",
+            "llama-rpc-server"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
