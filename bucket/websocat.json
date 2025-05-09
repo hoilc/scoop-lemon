@@ -14,6 +14,7 @@
         }
     },
     "bin": "websocat.exe",
+    "notes": "Websocat v1 may be nearing EOL. You are welcome to try 'lemon/websocat@4'",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
