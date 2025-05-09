@@ -1,0 +1,31 @@
+{
+    "version": "2.10.2",
+    "description": "A command line executable that uses MiniJinja to render Jinja2 templates directly from the command line to stdout.",
+    "homepage": "https://github.com/mitsuhiko/minijinja",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mitsuhiko/minijinja/releases/download/2.10.2/minijinja-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "b89dc07fa9df9bf54822355a471783c6ae32504cb870b202b3287cf94155b8aa"
+        },
+        "32bit": {
+            "url": "https://github.com/mitsuhiko/minijinja/releases/download/2.10.2/minijinja-cli-i686-pc-windows-msvc.zip",
+            "hash": "de2b2b58b0dd783ee881e581b62c02ab1c93ab52fd7e8e914d77cf04f626207f"
+        }
+    },
+    "bin": "minijinja-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mitsuhiko/minijinja/releases/download/$version/minijinja-cli-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mitsuhiko/minijinja/releases/download/$version/minijinja-cli-i686-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
