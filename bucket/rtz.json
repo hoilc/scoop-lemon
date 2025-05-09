@@ -1,0 +1,21 @@
+{
+    "version": "0.7.1",
+    "description": "A tool to easily work with timezone lookups.",
+    "homepage": "https://github.com/twitchax/rtz",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/twitchax/rtz/releases/download/v0.7.1/rtz_x86_64-pc-windows-gnu.zip",
+            "hash": "9b12593dfed7278fa2c0ca529ee50481d060b6cc0fb8a8f6e1fb116f9b1b7d08"
+        }
+    },
+    "bin": "rtz.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/twitchax/rtz/releases/download/v$version/rtz_x86_64-pc-windows-gnu.zip"
+            }
+        }
+    }
+}
