@@ -1,21 +1,17 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "Instant audio feedback for typing.",
     "homepage": "https://www.yingdev.com/projects/tickeys",
     "license": "Freeware",
-    "url": "https://www.yingdev.com/Content/Projects/Tickeys_Win/Release/1.1.1/Tickeys1.1.1.rar",
-    "hash": "c462ba5c8a43aea6eac6cc53d61f3e0bb5475eb9f7df04f817f3490097b57ffb",
+    "url": "https://scoop-lemon.tari.xyz/hosted/tickeys/Install Tickeys x64 1.2.0.zip",
+    "hash": "6d65648676777e3525f11365dad6394bdb875d5a72177542968e9cc6334cd081",
     "shortcuts": [
         [
             "TicKeys.exe",
             "Tickeys"
         ]
     ],
-    "extract_dir": "Release",
-    "checkver": {
-        "regex": "/Tickeys_Win/Release/([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://www.yingdev.com/Content/Projects/Tickeys_Win/Release/$version/Tickeys$version.rar"
-    }
+    "pre_install": "Get-ChildItem \"$dir\\\" '*Tickeys*.msi' | Select-Object -First 1 -ExpandProperty FullName | Expand-MsiArchive -DestinationPath \"$dir\" -ExtractDir 'ProgramFiles64Folder\\Tickeys' -Removal",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\Tickeys\", \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Tickeys.lnk\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "Tickeys is NOT portable. Settings are stored in '%APPDATA%\\Tickeys', and will be purged during uninstallation."
 }
