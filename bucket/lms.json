@@ -1,0 +1,24 @@
+{
+    "version": "0.4.0",
+    "description": "LuminS is a fast and reliable alternative to rsync for synchronizing local files.",
+    "homepage": "https://github.com/wchang22/LuminS",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-0.4.0/lms-0.4.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "64a9b54c6ef4ccf050e2a4534b0ebd4f667d52a0332cd336d73f8f0a6d101361"
+        }
+    },
+    "bin": "lms.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/lms?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-$version/lms-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
