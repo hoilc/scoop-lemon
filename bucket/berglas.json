@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.8/berglas_2.0.8_windows_amd64.zip",
             "hash": "sha512:1858bd7998561fff378d00dd8a35be35d5f9ddb162d1ac29dc1a52cd29b376ef66b8c10aa8392eddfecd61a9da16e284a4d846dcafd5191b359adeae3767d437"
+        },
+        "arm64": {
+            "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.8/berglas_2.0.8_windows_arm64.zip",
+            "hash": "sha512:e9b3a5e5e3ec11c6d733033c7d480efdff24054225d03547f4ddea1ea93bc37ce4e6a83189b86372696d749ae39fc9cd0e5f2160453511903892f685bbff82a5"
         }
     },
     "bin": "berglas.exe",
@@ -15,6 +19,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v$version/berglas_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v$version/berglas_$version_windows_arm64.zip"
             }
         },
         "hash": {
