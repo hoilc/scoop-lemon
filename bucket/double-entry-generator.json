@@ -1,16 +1,16 @@
 {
-    "version": "2.10.0",
+    "version": "2.10.1",
     "description": "Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi to Beancount).",
     "homepage": "https://github.com/deb-sig/double-entry-generator",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.10.0/double-entry-generator_Windows_x86_64.tar.gz",
-            "hash": "272b14c4cd04a7143f81ddd853cbfe64216d1d6049b8f7ffe56bdac9c6bb28b0"
+            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.10.1/double-entry-generator_Windows_x86_64.tar.gz",
+            "hash": "cd51919d0f870adba6197182764d8ff8b59a490692938ba9f9936a263044a8d7"
         },
         "32bit": {
-            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.10.0/double-entry-generator_Windows_i386.tar.gz",
-            "hash": "8edb7a947508452a09dba2121e043f5eeb56a7f6d23106d1e6ee8998168fc038"
+            "url": "https://github.com/deb-sig/double-entry-generator/releases/download/v2.10.1/double-entry-generator_Windows_i386.tar.gz",
+            "hash": "dadffb05a78b7e9f7c7ef49a65448e0949d45f376f37abb75b0e6061d72530cd"
         }
     },
     "bin": "double-entry-generator.exe",
