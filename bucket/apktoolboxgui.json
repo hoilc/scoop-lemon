@@ -1,12 +1,12 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A handy tool for programmer with user-friendly GUI.",
     "homepage": "https://github.com/jiangxincode/ApkToolBoxGUI",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jiangxincode/ApkToolBoxGUI/releases/download/v1.0.4/ApkToolBoxGUI-1.0.4-with-JRE-Windows.zip",
-            "hash": "0eb07672ec751a0d1fbdfca91ad189fc19eeb3149a43e860f9620db9b2965d4b"
+            "url": "https://github.com/jiangxincode/ApkToolBoxGUI/releases/download/v1.0.5/ApkToolBoxGUI-1.0.5-with-JRE-Windows.zip",
+            "hash": "c0bd3d7e42a33dc4796240cda509f9361ba8eda648d19fd6c80fad891535ea8f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'ApkToolBoxGUI-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ApkToolBoxGUI.exe'",
