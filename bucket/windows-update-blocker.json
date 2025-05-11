@@ -6,8 +6,8 @@
         "identifier": "Freeware",
         "url": "https://www.sordum.org/eula/"
     },
-    "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub_v1.8.zip",
-    "hash": "4d80cd7bc5595aac2ddf90cca92366664123d04a7b1b3a15eb7ba5c9d178f213",
+    "url": "https://www.sordum.org/files/downloads.php?st-windows-update-blocker#/dl.zip",
+    "hash": "ba2563e06801d3c7360c5ba2459cc24456f301e546489393d86b97ab82d7c0c2",
     "extract_dir": "Wub",
     "architecture": {
         "64bit": {
@@ -32,6 +32,6 @@
         "regex": "Windows Update Blocker v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub_v$version.zip"
+        "url": "https://www.sordum.org/files/downloads.php?st-windows-update-blocker#/dl.zip"
     }
 }
