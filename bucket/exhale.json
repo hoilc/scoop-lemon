@@ -1,30 +1,30 @@
 {
-    "version": "1.2.1-a6193fab-20240528",
-    "description": "A lightweight library and application to encode uncompressed WAVE-format audio files into MPEG-4-format files complying with the ISO/IEC 23003-3 (MPEG-D) Unified Speech and AudioCoding (USAC, also known as Extended High-Efficiency AAC) standard.",
+    "version": "1.2.1.2",
+    "description": "A lightweight application to encode uncompressed WAVE-format audio files into MPEG-4-format files complying with the ISO/IEC 23003-3 (MPEG-D) Unified Speech and AudioCoding (USAC, also known as Extended High-Efficiency AAC) standard.",
     "homepage": "https://gitlab.com/ecodis/exhale",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.rarewares.org/files/aac/exhale-v1.2.1-a6193fab-20240528_x64.zip",
-            "hash": "be0a5587d5f1f10021d5d07173c9a3e400588992b3de8d6530947c766e5b5165"
+            "url": "https://www.rarewares.org/files/aac/exhale-1.2.1.2-x64.zip",
+            "hash": "19ef8f232c88333997ca0e58204c989c9a0be5e9d651672da91f27f9a8e60af9"
         },
         "32bit": {
-            "url": "https://www.rarewares.org/files/aac/exhale-v1.2.1-a6193fab-20240528_x86.zip",
-            "hash": "949a4560fa909e4e5e824a3777fe3969637b789ca09d5c0139a19853ab09da95"
+            "url": "https://www.rarewares.org/files/aac/exhale-1.2.1.2-win32.zip",
+            "hash": "6610bc8b86deb414b1a3530414de87aa2cd41081806eb92cfd0541fc6843fe82"
         }
     },
     "bin": "exhale.exe",
     "checkver": {
         "url": "https://rarewares.org/aac-encoders.php",
-        "regex": "exhale-v(.*?)_x64.zip"
+        "regex": "exhale-(.*?)-x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.rarewares.org/files/aac/exhale-v$version_x64.zip"
+                "url": "https://www.rarewares.org/files/aac/exhale-$version-x64.zip"
             },
             "32bit": {
-                "url": "https://www.rarewares.org/files/aac/exhale-v$version_x86.zip"
+                "url": "https://www.rarewares.org/files/aac/exhale-$version-win32.zip"
             }
         }
     }
