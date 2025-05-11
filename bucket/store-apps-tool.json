@@ -6,8 +6,8 @@
         "identifier": "Freeware",
         "url": "https://www.sordum.org/eula/"
     },
-    "url": "https://www.sordum.org/files/download/store-apps-tool/StoreAT.zip",
-    "hash": "e70ee939a588910f7b89e1df9696743e2231ed06245ae4029ed77d1c7ce653e8",
+    "url": "https://www.sordum.org/files/downloads.php?store-apps-tool#/dl.zip",
+    "hash": "51cad42f276bce0fc8258b9aad007cbc8d1bc515d189c6c16e6bbd9aa95a746e",
     "extract_dir": "StoreAT",
     "architecture": {
         "64bit": {
@@ -32,6 +32,6 @@
         "regex": "Store Apps Tool v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/store-apps-tool/StoreAT.zip"
+        "url": "https://www.sordum.org/files/downloads.php?store-apps-tool#/dl.zip"
     }
 }

@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "https://www.sordum.org/eula/"
     },
-    "url": "https://www.sordum.org/files/download/ratool/Ratool.zip",
+    "url": "https://www.sordum.org/files/downloads.php?ratool#/dl.zip",
     "hash": "3046bdd91502e5adb9b0d041a8439f5283d7df17aa7f6d210980e5a567d9d419",
     "extract_dir": "Ratool_v1.4",
     "shortcuts": [
@@ -30,7 +30,7 @@
         "regex": "Ratool v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/ratool/Ratool.zip",
+        "url": "https://www.sordum.org/files/downloads.php?ratool#/dl.zip",
         "extract_dir": "Ratool_v$version"
     }
 }
