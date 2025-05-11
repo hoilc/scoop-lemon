@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hougesen/mdsf/releases/download/v0.9.3/mdsf-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "mdsf-x86_64-pc-windows-msvc",
             "hash": "cd43b05edf85e4da23f000a9a73d8232737bb6a1af7eac10183f04585d64fdb6"
         }
     },
