@@ -1,5 +1,5 @@
 {
-    "version": "0.6.7",
+    "version": "0.7.0",
     "description": "A Kubernetes manifests validator, with support for Custom Resources.",
     "homepage": "https://github.com/yannh/kubeconform",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yannh/kubeconform/releases/download/v0.6.7/kubeconform-windows-amd64.zip",
-            "hash": "450a561ae833cbd1fc41201f7ebb64395c56e7d01e2dc954332143bff81277a3"
+            "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-windows-amd64.zip",
+            "hash": "9cb75551d81c909c2241ab383ced2be68363b5bfb15fd989badcc5a63bea5d7e"
         },
         "32bit": {
-            "url": "https://github.com/yannh/kubeconform/releases/download/v0.6.7/kubeconform-windows-386.zip",
-            "hash": "72755ee113d83b9791a2f20048e1da71b7c9213d355639ff81ecdf2c83e5a0d4"
+            "url": "https://github.com/yannh/kubeconform/releases/download/v0.7.0/kubeconform-windows-386.zip",
+            "hash": "3fc5f1fd4a8ac5d09cd75419727e0b02799687862c65e358fa62fb76fa287b85"
         }
     },
     "bin": "kubeconform.exe",
