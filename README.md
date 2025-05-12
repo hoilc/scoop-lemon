@@ -18,16 +18,6 @@ then
 ```
 scoop install lemon/<app_name>
 ```
-<br/>
-<details>
-<summary>中国镜像</summary>
-<br/>
-
-```
-scoop bucket add lemon https://codeberg.org/hoilc/scoop-lemon.git
-```
-
-</details>
 
 > Some packages, such as those whose original links are no longer available or cannot be downloaded directly, are hosted on Keybase Filesystem (KBFS) at `/keybase/team/scoop_lemon/hosted`
 
