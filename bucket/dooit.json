@@ -1,12 +1,12 @@
 {
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "A TUI based todo manager.",
     "homepage": "https://github.com/kraanzu/dooit",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kraanzu/dooit/releases/download/v3.1.0/windows-dooit.exe#/dooit.exe",
-            "hash": "5785b709d79155b718946a4d7e89fe4c2a02f22b06a989a9b1587a8314bb1a08"
+            "url": "https://github.com/kraanzu/dooit/releases/download/v3.2.0/windows-dooit.exe#/dooit.exe",
+            "hash": "94ffdee03658e452dbdcbebc808f44b815c03b2538807be6048800b672bfda89"
         }
     },
     "bin": "dooit.exe",
