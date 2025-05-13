@@ -1,20 +1,20 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "BongoCat 是一个可爱地互动桌面宠物应用，让你的桌面充满乐趣",
     "homepage": "https://github.com/ayangweb/BongoCat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.3.0/BongoCat_0.3.0_x64-setup.exe",
-            "hash": "b435e41f47b64b9f01da020048f89ca934a9770b67faaa4640d91ddf24e92600"
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x64-setup.exe",
+            "hash": "da8be63efb173ecde94397550e0d6059fc77cc345a701898d96aa1d12ffc3377"
         },
         "32bit": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.3.0/BongoCat_0.3.0_x86-setup.exe",
-            "hash": "defc69c1f3196a0b3035c426cf3ff9eec0e717ba9001ab8b936ca51c11472b2e"
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x86-setup.exe",
+            "hash": "f065b0b51e934a90bb85df36f38cec1f8fdd3a6c7757b7b874013bf4f446132c"
         },
         "arm64": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.3.0/BongoCat_0.3.0_arm64-setup.exe",
-            "hash": "b7c16a4803df4d7d86671074f6412f078f14c3604b590998f344c9c049749fbc"
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_arm64-setup.exe",
+            "hash": "a9361e0da60eeffb34f8c919f44227bd5a768ea7a20ff938e7fe128f0ab4673d"
         }
     },
     "shortcuts": [
