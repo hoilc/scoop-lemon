@@ -5,15 +5,15 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x64-setup.exe",
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x64-setup.exe#/dl.7z",
             "hash": "da8be63efb173ecde94397550e0d6059fc77cc345a701898d96aa1d12ffc3377"
         },
         "32bit": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x86-setup.exe",
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_x86-setup.exe#/dl.7z",
             "hash": "f065b0b51e934a90bb85df36f38cec1f8fdd3a6c7757b7b874013bf4f446132c"
         },
         "arm64": {
-            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_arm64-setup.exe",
+            "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.4.0/BongoCat_0.4.0_arm64-setup.exe#/dl.7z",
             "hash": "a9361e0da60eeffb34f8c919f44227bd5a768ea7a20ff938e7fe128f0ab4673d"
         }
     },
@@ -30,13 +30,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x64-setup.exe"
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x64-setup.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x86-setup.exe"
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_x86-setup.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_arm64-setup.exe"
+                "url": "https://github.com/ayangweb/BongoCat/releases/download/v$version/BongoCat_$version_arm64-setup.exe#/dl.7z"
             }
         }
     }
