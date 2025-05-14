@@ -1,0 +1,28 @@
+{
+    "version": "1.0",
+    "description": "Send specified apps to Windows Tray.",
+    "homepage": "https://github.com/alirezagsm/Trayy",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/alirezagsm/Trayy/releases/download/v1.0/Trayy.zip",
+            "hash": "e7baafb5aeb09a255797c18d4d107a67a344565a3bb4fb77688133876e4ac09f"
+        }
+    },
+    "shortcuts": [
+        [
+            "Trayy.exe",
+            "Trayy"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\.settings.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\.settings.ini\" -Value 'HOOKBOTH true','NOTASKBAR false' }",
+    "persist": ".settings.ini",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/alirezagsm/Trayy/releases/download/v1.0/Trayy.zip"
+            }
+        }
+    }
+}
