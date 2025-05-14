@@ -1,0 +1,21 @@
+{
+    "version": "0.3.0",
+    "description": "An toolchain manager that enables installing project-specific command line tools and switching between them seamlessly.",
+    "homepage": "https://github.com/LPGhatguy/aftman",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LPGhatguy/aftman/releases/download/v0.3.0/aftman-0.3.0-windows-x86_64.zip",
+            "hash": "57f5c55642460b21c4829b6339518fe4cc46bb6660fcf18ce57c49e27be5e286"
+        }
+    },
+    "bin": "aftman.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LPGhatguy/aftman/releases/download/v$version/aftman-$version-windows-x86_64.zip"
+            }
+        }
+    }
+}
