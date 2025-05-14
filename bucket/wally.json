@@ -1,0 +1,23 @@
+{
+    "version": "0.3.2",
+    "description": "A modern package manager for Roblox projects inspired by Cargo.",
+    "homepage": "https://wally.run/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/UpliftGames/wally/releases/download/v0.3.2/wally-v0.3.2-win64.zip",
+            "hash": "957dd85c1f0626007018a252cf099b75e1e23d9a181c4830b66cf298707d8fb7"
+        }
+    },
+    "bin": "wally.exe",
+    "checkver": {
+        "github": "https://github.com/UpliftGames/wally"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/UpliftGames/wally/releases/download/v$version/wally-v$version-win64.zip"
+            }
+        }
+    }
+}
