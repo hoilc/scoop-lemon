@@ -1,0 +1,21 @@
+{
+    "version": "0.17.642",
+    "description": "A tool for formatting Clojure code.",
+    "homepage": "https://github.com/greglook/cljstyle",
+    "license": "EPL-1.0",
+    "url": "https://github.com/greglook/cljstyle/releases/download/0.17.642/cljstyle-0.17.642.jar#/cljstyle.jar",
+    "hash": "0240ae4d97835db341bb03d910c858185fe838620aab9cd50f02fcc709e3fa61",
+    "bin": "cljstyle.jar",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/zulu-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/greglook/cljstyle/releases/download/$version/cljstyle-$version.jar#/cljstyle.jar"
+    }
+}
