@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "Next-generation toolchain manager for Roblox projects.",
+    "homepage": "https://github.com/rojo-rbx/rokit",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rojo-rbx/rokit/releases/download/v1.0.0/rokit-1.0.0-windows-x86_64.zip",
+            "hash": "eb6ec4ce256e877bbcea827dc09bc0495ae72bb2f218fc0396d88945aeea12f4"
+        }
+    },
+    "bin": "rokit.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rojo-rbx/rokit/releases/download/v$version/rokit-$version-windows-x86_64.zip"
+            }
+        }
+    }
+}
