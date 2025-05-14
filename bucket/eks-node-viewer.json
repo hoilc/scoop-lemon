@@ -1,0 +1,21 @@
+{
+    "version": "0.7.4",
+    "description": "A tool for visualizing dynamic node usage within a AWS EKS cluster.",
+    "homepage": "https://github.com/awslabs/eks-node-viewer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/awslabs/eks-node-viewer/releases/download/v0.7.4/eks-node-viewer_Windows_x86_64.exe#/eks-node-viewer.exe",
+            "hash": "e0e726fd34d5dd96c68381f69fd4457145d9fd0cca6fc4739b65bafe9eb24a84"
+        }
+    },
+    "bin": "eks-node-viewer.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/awslabs/eks-node-viewer/releases/download/v$version/eks-node-viewer_Windows_x86_64.exe#/eks-node-viewer.exe"
+            }
+        }
+    }
+}
