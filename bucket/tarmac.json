@@ -1,0 +1,21 @@
+{
+    "version": "0.7.5",
+    "description": "A command line asset management tool for Roblox.",
+    "homepage": "https://github.com/rojo-rbx/tarmac",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rojo-rbx/tarmac/releases/download/v0.7.5/tarmac-0.7.5-windows.zip",
+            "hash": "da07ccd4ca8f84a4a22e9601d1748eb098d3c8de07615c6680cf2d52aaa5d282"
+        }
+    },
+    "bin": "tarmac.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rojo-rbx/tarmac/releases/download/v$version/tarmac-$version-windows.zip"
+            }
+        }
+    }
+}
