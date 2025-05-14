@@ -1,0 +1,31 @@
+{
+    "version": "3.9.3",
+    "description": "A free, open source power tool for working with messy data and improving it.",
+    "homepage": "https://openrefine.org/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenRefine/OpenRefine/releases/download/3.9.3/openrefine-win-with-java-3.9.3.zip",
+            "extract_dir": "openrefine-3.9.3",
+            "hash": "4ad98ea1e24ab295e132fa1b46d952586fc30f99f77b09640b540b0b7b89714e"
+        }
+    },
+    "shortcuts": [
+        [
+            "openrefine.exe",
+            "OpenRefine"
+        ]
+    ],
+    "persist": "openrefine.l4j.ini",
+    "checkver": {
+        "github": "https://github.com/OpenRefine/OpenRefine"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/OpenRefine/OpenRefine/releases/download/$version/openrefine-win-with-java-$version.zip",
+                "extract_dir": "openrefine-$version"
+            }
+        }
+    }
+}
