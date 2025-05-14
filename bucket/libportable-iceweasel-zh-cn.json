@@ -1,12 +1,12 @@
 {
-    "version": "138.0",
+    "version": "138.0.3",
     "description": "(Simplified Chinese Version) Portable Runtime For Iceweasel (Firefox), an independent browser derived from Firefox/Mozilla community code.",
     "homepage": "https://sourceforge.net/projects/libportable",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/138.x/x86_64/Iceweasel-v138.0.zh_CN_win64_clang_pgo.7z",
-            "hash": "sha1:7a3f0e4cac8ab43c43b85f61a9c0e1e3879db942",
+            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/138.x/x86_64/Iceweasel-v138.0.3.zh_CN_win64_clang_pgo.7z",
+            "hash": "sha1:328453c59fe52e1af987f52fe065e9ffcc904a0b",
             "extract_dir": "Iceweasel_x64"
         }
     },
