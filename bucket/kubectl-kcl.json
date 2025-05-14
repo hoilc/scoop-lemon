@@ -1,0 +1,22 @@
+{
+    "version": "0.9.0",
+    "description": "A kubectl plugin to generate, mutate and validate Kubernetes manifests using the KCL programming language.",
+    "homepage": "https://github.com/kcl-lang/kubectl-kcl",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kcl-lang/kubectl-kcl/releases/download/v0.9.0/kubectl-kcl-windows-amd64.tgz",
+            "hash": "2d7b432ceaf4d18544e1e1bb54f860cfbcbe5d9cecc7840e55ae2558c01866f8"
+        }
+    },
+    "extract_dir": "kubectl-kcl\\bin",
+    "bin": "kubectl-kcl.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kcl-lang/kubectl-kcl/releases/download/v$version/kubectl-kcl-windows-amd64.tgz"
+            }
+        }
+    }
+}
