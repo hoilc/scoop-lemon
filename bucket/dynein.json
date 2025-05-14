@@ -1,0 +1,24 @@
+{
+    "version": "0.3.0",
+    "description": "A command line interface for Amazon DynamoDB.",
+    "homepage": "https://github.com/awslabs/dynein",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/awslabs/dynein/releases/download/v0.3.0/dynein-windows.zip",
+            "hash": "413e3b7dbc222186cbfaed6493be759af5c379ecee32e6e64415124e57a0ba1e"
+        }
+    },
+    "bin": "dy.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/awslabs/dynein/releases/download/v$version/dynein-windows.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
