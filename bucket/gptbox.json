@@ -1,0 +1,31 @@
+{
+    "version": "395",
+    "description": "GPT Box is a third-party client for OpenAI API.",
+    "homepage": "https://github.com/lollipopkit/flutter_gpt_box",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lollipopkit/flutter_gpt_box/releases/download/v1.0.395/GPTBox_395_windows_amd64.zip",
+            "hash": "5516fd496f7222307e7ccb925da1162c1d2d3cf655317693effe372676bc1b26"
+        }
+    },
+    "shortcuts": [
+        [
+            "GPTBox.exe",
+            "GPTBox"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\GPTBox\", \"$env:APPDATA\\tech.lolli\\flutter_chatgpt\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "GPTBox is NOT portable. Settings are stored in '%APPDATA%\\GPTBox', and will be purged during uninstallation.",
+    "checkver": {
+        "url": "https://github.com/lollipopkit/flutter_gpt_box/releases.atom",
+        "regex": "Repository/\\d+/v1.0.(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lollipopkit/flutter_gpt_box/releases/download/v1.0.$version/GPTBox_$version_windows_amd64.zip"
+            }
+        }
+    }
+}
