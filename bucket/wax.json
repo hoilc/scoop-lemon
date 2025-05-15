@@ -1,0 +1,32 @@
+{
+    "version": "1.3.5",
+    "description": "美观易用且无广告的的绅士漫画客户端",
+    "homepage": "https://github.com/niuhuan/wax",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/niuhuan/wax/releases/download/v1.3.5/z-of-wax-v1.3.5-windows-x86_64.zip",
+            "hash": "5249a25d51597373ef77a6e52b10c79057cfcf5686b14bb1a73ea53ed4eb4fe7"
+        }
+    },
+    "shortcuts": [
+        [
+            "wax.exe",
+            "wax"
+        ]
+    ],
+    "persist": [
+        "data\\cache",
+        "data\\download",
+        "data\\databases",
+        "data\\tmp"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/niuhuan/wax/releases/download/v$version/z-of-wax-v$version-windows-x86_64.zip"
+            }
+        }
+    }
+}
