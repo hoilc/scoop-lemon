@@ -1,0 +1,28 @@
+{
+    "version": "0.15.4",
+    "description": "一个用于禁漫天堂的多线程下载器",
+    "homepage": "https://github.com/lanyeeee/jmcomic-downloader",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lanyeeee/jmcomic-downloader/releases/download/v0.15.4/jmcomic-downloader_0.15.4_windows_x64_portable.zip",
+            "hash": "6263bf4c633582cb984afc73b4a6fc953473f09507b052878a06a1e48a951273"
+        }
+    },
+    "shortcuts": [
+        [
+            "jmcomic-downloader.exe",
+            "禁漫天堂下载器"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.lanyeeee.jmcomic-downloader\", \"$env:LOCALAPPDATA\\com.lanyeeee.jmcomic-downloader\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "jmcomic-downloader is NOT portable. Settings are stored in '%APPDATA%\\com.lanyeeee.jmcomic-downloader', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lanyeeee/jmcomic-downloader/releases/download/v$version/jmcomic-downloader_$version_windows_x64_portable.zip"
+            }
+        }
+    }
+}
