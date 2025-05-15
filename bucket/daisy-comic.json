@@ -1,6 +1,6 @@
 {
     "version": "0.1.27",
-    "description": "美观易用且无广告的动漫之家客户端",
+    "description": "一款美观易用且无广告的动漫之家客户端",
     "homepage": "https://github.com/niuhuan/daisy",
     "license": "MIT",
     "architecture": {
@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "daisy.exe",
-            "daisy"
+            "Daisy Comic"
         ]
     ],
     "persist": [
