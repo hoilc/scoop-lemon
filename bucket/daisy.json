@@ -1,0 +1,31 @@
+{
+    "version": "0.1.27",
+    "description": "美观易用且无广告的动漫之家客户端",
+    "homepage": "https://github.com/niuhuan/daisy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/niuhuan/daisy/releases/download/v0.1.27/windows.zip",
+            "hash": "06e8a0c7dcb6e2a7f8c44b729cca5b3d4f47170c0892f82bb55fec80a2746535"
+        }
+    },
+    "shortcuts": [
+        [
+            "daisy.exe",
+            "daisy"
+        ]
+    ],
+    "persist": [
+        "data\\image_cache",
+        "data\\download",
+        "data\\database"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/niuhuan/daisy/releases/download/v$version/windows.zip"
+            }
+        }
+    }
+}
