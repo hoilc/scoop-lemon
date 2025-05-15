@@ -1,5 +1,5 @@
 {
-    "version": "2.87.0",
+    "version": "2.90.6",
     "description": "Oblivion Desktop is an unofficial Cloudflare Warp client which provides secure, optimized internet access.",
     "homepage": "https://github.com/bepass-org/oblivion-desktop",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.87.0/oblivion-desktop-win-x64.zip",
-            "hash": "ea70476f6e9dbe0ea59b8d7e048c3f8dbe9c0c3f797d09a42b934b8576152a9b"
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.90.6/oblivion-desktop-win-x64.zip",
+            "hash": "0dee77fce835761ba42acd56881c184aa26e8b06498cbb0a9237e7bc9738f95a"
         },
         "32bit": {
-            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.87.0/oblivion-desktop-win-ia32.zip",
-            "hash": "16768174f8b1b0b359102b1ab5454480ee510c8e42592488655c0b3049c9e12b"
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.90.6/oblivion-desktop-win-ia32.zip",
+            "hash": "26d49f7acc10a1737c1c314a839c84a1630877ae84d4ed1f819d18ad0de84fbc"
         },
         "arm64": {
-            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.87.0/oblivion-desktop-win-arm64.zip",
-            "hash": "8ad03ae1806fff39e99d205e6a42d2ed7dad9852f2eb934bd7ba56738d645a7f"
+            "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.90.6/oblivion-desktop-win-arm64.zip",
+            "hash": "99e162b8ee8a0381fc7bcee2b9494bb57466543c99cb0f5e8e6240b27b3caa86"
         }
     },
     "pre_install": "Remove-Item \"$dir\\resources\\app-update.yml\" -Force -Recurse | Out-Null",
