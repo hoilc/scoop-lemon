@@ -1,12 +1,12 @@
 {
-    "version": "0.94.1",
+    "version": "0.95.0",
     "description": "The GraphQL Federation platform.",
     "homepage": "https://grafbase.com/cli",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafbase/grafbase/releases/download/grafbase-0.94.1/grafbase-x86_64-pc-windows-msvc.exe#/grafbase.exe",
-            "hash": "c826e7ec9d274a991425f16d32b3a83472beadfe2716ca7ffe0ebad516c800e6"
+            "url": "https://github.com/grafbase/grafbase/releases/download/grafbase-0.95.0/grafbase-x86_64-pc-windows-msvc.exe#/grafbase.exe",
+            "hash": "241eca5d5109a1e0ec87792015d4d1cf2835ea81eee362a54c157b34c012e345"
         }
     },
     "bin": "grafbase.exe",
