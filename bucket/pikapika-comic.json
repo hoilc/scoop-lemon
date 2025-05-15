@@ -1,6 +1,6 @@
 {
     "version": "1.8.8",
-    "description": "一款界面美观、操作简便且无广告的哔咔漫画客户端",
+    "description": "一款美观易用且无广告的哔咔漫画客户端",
     "homepage": "https://github.com/niuhuan/pikapika",
     "license": "Freeware",
     "architecture": {
@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "pikapika.exe",
-            "pikapika"
+            "PIKAPIKA - Comic Reader"
         ]
     ],
     "persist": [
