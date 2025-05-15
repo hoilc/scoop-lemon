@@ -1,0 +1,27 @@
+{
+    "version": "0.10.0",
+    "description": "哔哩哔哩漫画去水印工具",
+    "homepage": "https://github.com/lanyeeee/bilibili-manga-watermark-remover",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lanyeeee/bilibili-manga-watermark-remover/releases/download/v0.10.0/bilibili-manga-watermark-remover_0.10.0_windows_x64_portable.zip",
+            "hash": "b34238112eefef5424427c0fb0efad38d2099a0bc047d0c13d58187058d35544"
+        }
+    },
+    "shortcuts": [
+        [
+            "bilibili-manga-watermark-remover.exe",
+            "哔哩哔哩漫画去水印工具"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.lanyeeee.bilibili-manga-watermark-remover\", \"$env:LOCALAPPDATA\\com.lanyeeee.bilibili-manga-watermark-remover\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lanyeeee/bilibili-manga-watermark-remover/releases/download/v$version/bilibili-manga-watermark-remover_$version_windows_x64_portable.zip"
+            }
+        }
+    }
+}
