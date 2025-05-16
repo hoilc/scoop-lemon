@@ -1,16 +1,16 @@
 {
-    "version": "4019",
+    "version": "4025",
     "description": "(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/15027061134/whisper-blas-bin-x64.zip#/dl.zip",
-            "hash": "7c39b924be00b632f266dc278110f47150bd0daf6655929be05395b91243a7ab"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/15062472966/whisper-blas-bin-x64.zip#/dl.zip",
+            "hash": "e4caa05bcf6bdc66a10520ce63fe5ffc6ebcd111ec6250950bb7b14c6d524122"
         },
         "32bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/15027061134/whisper-blas-bin-Win32.zip#/dl.zip",
-            "hash": "d5a77ce8dd8838fb83e353e34f4ce4ede5aca778b5419e72ea0875c7de055d50"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/15062472966/whisper-blas-bin-Win32.zip#/dl.zip",
+            "hash": "c6cd1d93c6a35869b31f80ff068fd4ab103ef926b067f12121a919f904313c7f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
