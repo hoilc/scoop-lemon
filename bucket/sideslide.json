@@ -1,10 +1,10 @@
 {
-    "version": "5.85",
+    "version": "6.00",
     "description": "An easy to use and accurate software uninstaller for Windows.",
     "homepage": "https://northglide.com/sideslide.html",
     "license": "Freeware",
-    "url": "https://www.northglide.com/SideSlide_v5.85_Portable.zip",
-    "hash": "a78916d29edb52c5bb60226efb5df27a13e28ba13909f34a80f79b44a18f8da7",
+    "url": "https://www.northglide.com/SideSlide_v6.00_Portable.zip",
+    "hash": "77d3657374c1817b0ac0bba46e0ec9e06d34b6350c2ec3b42b6c8d33723ecd64",
     "extract_dir": "SideSlide",
     "shortcuts": [
         [
