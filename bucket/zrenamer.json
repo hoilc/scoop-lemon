@@ -1,18 +1,21 @@
 {
     "##": "#updateManually",
-    "version": "1.4",
+    "version": "1.5",
     "description": "绿色小巧的批量改名工具（",
     "homepage": "https://abc100.net/106/",
     "license": "Freeware",
-    "url": "https://scoop-lemon.tari.xyz/hosted/zrenamer/zRenamer_v1.4.zip",
-    "hash": "e49ebb661e6e703a18f0e1127f7344083975bd650755282635878676e534f95b",
+    "url": "https://scoop-lemon.tari.xyz/hosted/zrenamer/zRenamer_v1.5.zip",
+    "hash": "813ad7ef7adb858cddb3b4024b0d8b5c0c8b8a82fb2cd9234beb0f777d1f8f83",
     "shortcuts": [
         [
             "zRenamer.exe",
             "zRenamer"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\zRenamer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\zRenamer.ini\" -Value $null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\zRenamer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\zRenamer.ini\" -Value $null }",
+        "Get-ChildItem \"$dir\" 'zRenamer?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'zRenamer.exe'"
+    ],
     "persist": "zRenamer.ini",
     "checkver": {
         "url": "https://scoop-lemon.tari.xyz/hosted/zrenamer/latest.yml",
