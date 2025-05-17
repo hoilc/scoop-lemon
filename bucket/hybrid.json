@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_2025.03.09.1_SETUP.exe",
+            "url": "https://www.selur.de/files/hybrid_downloads/Hybrid_2025.03.09.1_SETUP.exe",
             "hash": "14033a78d54f873f8abba07dbb9068a85299c517c5d870ce0baa8d0e3e7cdced"
         }
     },
@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.selur.de/sites/default/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
+                "url": "https://www.selur.de/files/hybrid_downloads/Hybrid_$version_SETUP.exe"
             }
         }
     }
