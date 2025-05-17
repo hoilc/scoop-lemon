@@ -1,0 +1,24 @@
+{
+    "version": "3.1",
+    "description": "A sudoku game with numbers, letters or colors.",
+    "homepage": "https://plastovicka.github.io/games.html#sudoku",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/colorsudoku/files/sudoku.zip",
+    "hash": "sha1:e8b2a50ebfc415af0d77971ac41527a9be3a60e3",
+    "shortcuts": [
+        [
+            "sudoku.exe",
+            "Color Sudoku"
+        ]
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.sud' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.sud' | Move-Item -Force -Destination $persist_dir",
+    "post_uninstall": "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Petr Lastovicka\\sudoku' -ErrorAction SilentlyContinue }",
+    "persist": "saves",
+    "checkver": {
+        "regex": ">Color Sudoku ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/colorsudoku/files/sudoku.zip"
+    }
+}
