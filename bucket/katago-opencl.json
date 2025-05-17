@@ -1,0 +1,30 @@
+{
+    "version": "1.16.0",
+    "description": "(OpenCL Backend) GTP engine and self-play learning in Go.",
+    "homepage": "https://github.com/lightvector/KataGo",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lightvector/KataGo/releases/download/v1.16.0/katago-v1.16.0-opencl-windows-x64.zip",
+            "hash": "870d3d134381433932d5f015f73b5391432bf363efa616b537e41aca29bc75c6"
+        }
+    },
+    "bin": "katago.exe",
+    "persist": [
+        "cfg",
+        "models"
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.cfg', '*.bin.gz' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.cfg', '*.bin.gz' | Move-Item -Force -Destination $persist_dir",
+    "suggest": {
+        "neural networks": "lemon/katago-models"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lightvector/KataGo/releases/download/v$version/katago-v$version-opencl-windows-x64.zip"
+            }
+        }
+    }
+}
