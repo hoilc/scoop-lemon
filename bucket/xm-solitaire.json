@@ -1,0 +1,24 @@
+{
+    "version": "1.8",
+    "description": "200 card games (Freecell, Klondike, Fan, Spider, Pyramid, Gaps, ...).",
+    "homepage": "https://plastovicka.github.io/games.html#xmsol",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/xmsol/files/xmsol.zip",
+    "hash": "sha1:74af1416fe6d646117735e3fceb08154a4342ca5",
+    "shortcuts": [
+        [
+            "xmsol.exe",
+            "XM Solitaire"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\xmsol.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\xmsol.ini\" -Value $null }",
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.xol' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.xol' | Move-Item -Force -Destination $persist_dir",
+    "persist": "xmsol.ini",
+    "checkver": {
+        "regex": ">XM Solitaire ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/xmsol/files/xmsol.zip"
+    }
+}
