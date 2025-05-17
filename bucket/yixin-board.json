@@ -1,0 +1,18 @@
+{
+    "version": "1.9",
+    "description": "Specially designed GUI for Yixin (弈心), a gomoku/renju engine.",
+    "homepage": "https://www.aiexp.info/",
+    "license": "BSD-2-Clause",
+    "url": "https://github.com/accreator/Yixin-Board/raw/master/release/win32/Yixin2017_May.exe",
+    "hash": "a313153fa2dc79a49a9cfddc0cb8c79ee36c628c68211f76d9d923bc2076151a",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Yixin.exe",
+            "Yixin"
+        ]
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.db' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.db' | Move-Item -Force -Destination $persist_dir",
+    "persist": "settings.txt"
+}
