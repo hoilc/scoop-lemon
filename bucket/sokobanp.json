@@ -1,0 +1,28 @@
+{
+    "version": "3.4.2",
+    "description": "A sokoban game for Windows including 8000 levels, 30 skins, level editor, undo/redo, save positions, replay.",
+    "homepage": "https://plastovicka.github.io/games.html#sokoban",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/sokobanp/files/SokobanP.zip",
+    "hash": "sha1:01e442dab4b5cc052710f5ef9ac298fc068dddc7",
+    "shortcuts": [
+        [
+            "sokoban.exe",
+            "SokobanP"
+        ]
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include '*.rec', '*.sav', '*.xsb' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.rec', '*.sav', '*.xsb' | Move-Item -Force -Destination $persist_dir",
+    "post_uninstall": "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Petr Lastovicka\\sokoban' -ErrorAction SilentlyContinue }",
+    "persist": [
+        "solutions",
+        "positions",
+        "levels"
+    ],
+    "checkver": {
+        "regex": "SokobanP ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/sokobanp/files/SokobanP.zip"
+    }
+}
