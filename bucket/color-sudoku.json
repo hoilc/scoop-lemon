@@ -16,7 +16,7 @@
     "post_uninstall": "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Petr Lastovicka\\sudoku' -ErrorAction SilentlyContinue }",
     "persist": "saves",
     "checkver": {
-        "regex": "Color Sudoku ([\\d.]+)<"
+        "regex": ">Color Sudoku ([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://sourceforge.net/projects/colorsudoku/files/sudoku.zip"
