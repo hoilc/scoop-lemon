@@ -1,12 +1,12 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "一个使用 Flutter 开发的轻小说文库客户端，提供流畅的阅读体验和丰富的功能",
     "homepage": "https://github.com/niuhuan/wild",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/niuhuan/wild/releases/download/v0.0.5/wild-v0.0.5-windows-x64.zip",
-            "hash": "28a41a92660979d9f6ada7de7de2a52f5ac78966c30ed67d4cbe8b1dc866c7fc"
+            "url": "https://github.com/niuhuan/wild/releases/download/v0.0.6/wild-v0.0.6-windows-x64.zip",
+            "hash": "33ff759b29a09ef9c1571b55ac18dd52a4afda250f0482aef3270139ee74bce2"
         }
     },
     "shortcuts": [
