@@ -1,0 +1,21 @@
+{
+    "version": "4.3",
+    "description": "Looking for mines on triangular or rectangular fields.",
+    "homepage": "https://plastovicka.github.io/games.html#miny",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/miny/files/mines.zip",
+    "hash": "sha1:961bbc490931a96f5d6a66be4b93351e57713647",
+    "shortcuts": [
+        [
+            "miny.exe",
+            "Clever Mines"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Petr Lastovicka\\miny' -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "regex": ">Clever Mines ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/miny/files/mines.zip"
+    }
+}
