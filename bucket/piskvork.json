@@ -1,0 +1,22 @@
+{
+    "version": "9.0",
+    "description": "Play Gomoku (five in a row) and Renju game.",
+    "homepage": "https://plastovicka.github.io/games.html#piskvorky",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/piskvork/files/piskvork.zip",
+    "hash": "sha1:07b56b1a19e92ee7dc8cb3614ad9c8b47388145d",
+    "shortcuts": [
+        [
+            "piskvork.exe",
+            "Piskvork"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Petr Lastovicka\\piskvorky' -ErrorAction SilentlyContinue }",
+    "persist": "AIs",
+    "checkver": {
+        "regex": ">Piskvork ([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/piskvork/files/piskvork.zip"
+    }
+}
