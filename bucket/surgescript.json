@@ -1,0 +1,13 @@
+{
+    "version": "0.6.1",
+    "description": "A scripting language for games.",
+    "homepage": "https://github.com/alemart/surgescript",
+    "license": "Apache-2.0",
+    "url": "https://github.com/alemart/surgescript/releases/download/v0.6.1/surgescript-0.6.1-win.zip",
+    "hash": "199d37c38a0cf61ad7ee5b397e81260f48af0461552627b8f28812e4505974af",
+    "bin": "surgescript.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/alemart/surgescript/releases/download/v$version/surgescript-$version-win.zip"
+    }
+}
