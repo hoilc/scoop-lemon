@@ -19,7 +19,7 @@
         "ffmpeg": "ffmpeg"
     },
     "checkver": {
-        "url": "https://github.com/nilaoda/BBDown/actions?query=branch%3Amaster+is%3Asuccess",
+        "url": "https://github.com/nilaoda/BBDown/actions?query=branch%3Amaster+is%3Asuccess+event%3Apush",
         "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
     },
     "autoupdate": {

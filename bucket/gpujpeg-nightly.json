@@ -12,7 +12,7 @@
     "extract_dir": "GPUJPEG",
     "bin": "bin\\gpujpegtool.exe",
     "checkver": {
-        "url": "https://github.com/CESNET/GPUJPEG/actions/workflows/ccpp.yml?query=branch%3Amaster+is%3Asuccess",
+        "url": "https://github.com/CESNET/GPUJPEG/actions/workflows/ccpp.yml?query=branch%3Amaster+is%3Asuccess+event%3Apush",
         "regex": "#(\\d+):"
     },
     "autoupdate": {

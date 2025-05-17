@@ -19,7 +19,7 @@
     ],
     "notes": "LMMS is NOT portable.",
     "checkver": {
-        "url": "https://github.com/LMMS/lmms/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess",
+        "url": "https://github.com/LMMS/lmms/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess+event%3Apush",
         "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
     },
     "autoupdate": {
