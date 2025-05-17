@@ -1,0 +1,33 @@
+{
+    "##": "#gomocup",
+    "version": "5.8.4",
+    "description": "AlphaZero for the game of Gomoku.",
+    "homepage": "https://github.com/MaciejKozarzewski/AlphaGomoku",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MaciejKozarzewski/AlphaGomoku/releases/download/v5.8.4/AlphaGomoku_windows.zip",
+            "hash": "9971fb61ccef89e0949a005c5de401550f116356eaeda2404f0fa78fd011a529"
+        }
+    },
+    "bin": [
+        "pbrain-AlphaGomoku.exe",
+        "pbrain-AlphaGomoku_opencl.exe",
+        "pbrain-AlphaGomoku_cuda.exe"
+    ],
+    "persist": [
+        "config.json",
+        "logs"
+    ],
+    "suggest": {
+        "Gomoku manager": "lemon/piskvork"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MaciejKozarzewski/AlphaGomoku/releases/download/v$version/AlphaGomoku_windows.zip"
+            }
+        }
+    }
+}
