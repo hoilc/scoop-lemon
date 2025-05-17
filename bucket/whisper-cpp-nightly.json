@@ -1,7 +1,7 @@
 {
     "version": "4026",
     "description": "(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
-    "homepage": "https://github.com/ggerganov/whisper.cpp",
+    "homepage": "https://github.com/ggml-org/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -45,7 +45,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ggerganov/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
+        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
         "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
     },
     "autoupdate": {
