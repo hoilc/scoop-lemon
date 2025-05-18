@@ -1,5 +1,5 @@
 {
-    "version": "0.2.7",
+    "version": "0.3.1",
     "description": "A CLI that writes git commit messages for you with Google Gemini AI.",
     "homepage": "https://github.com/tfkhdyt/geminicommit",
     "license": "GPL-3.0-only",
