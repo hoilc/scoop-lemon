@@ -1,12 +1,12 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Fortran Package Manager (fpm) is a package manager and build system for Fortran.",
     "homepage": "https://fpm.fortran-lang.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fortran-lang/fpm/releases/download/v0.11.0/fpm-0.11.0-windows-x86_64-gcc-12.exe#/fpm.exe",
-            "hash": "101447ce4f760c71c0cf3ddbb758ac67c248f82f3dffd5ea917e71bc825ae65c"
+            "url": "https://github.com/fortran-lang/fpm/releases/download/v0.12.0/fpm-0.12.0-windows-x86_64-gcc-12.exe#/fpm.exe",
+            "hash": "2f8dbea37b19049d8adc7ea506c4b36587a1517b41dd28db985d5e25da16c9d8"
         }
     },
     "bin": "fpm.exe",
