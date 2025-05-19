@@ -1,0 +1,24 @@
+{
+    "version": "2.6.0",
+    "description": "A cross-platform IDE for PHP/HTML/CSS/JavaScript/TypeScript/Python/Node.js development.",
+    "homepage": "https://codelobster.com/",
+    "license": "Shareware",
+    "url": "https://codelobsteride.com/download/CodeLobsterIDESetup.exe#/dl.7z",
+    "hash": "8f34fcb8aab10b646e3902fb691c725ae63b3103f950f1546d03f1821d60ef06",
+    "shortcuts": [
+        [
+            "CodeLobsterIDE.exe",
+            "CodeLobster IDE"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\CodelobsterIDE\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "CodeLobster IDE is NOT portable. Settings are stored in '%APPDATA%\\CodelobsterIDE', and will be purged during uninstallation.",
+    "checkver": {
+        "url": "https://codelobster.com/download.html",
+        "regex": "CodeLobster IDE for Windows.*?<b>([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://codelobsteride.com/download/CodeLobsterIDESetup.exe#/dl.7z"
+    }
+}
