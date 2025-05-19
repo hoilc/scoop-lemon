@@ -1,5 +1,5 @@
 {
-    "version": "4.55.0",
+    "version": "4.55.1",
     "description": "Redpanda Connect (Originally Benthos) is a high performance and resilient stream processor, able to connect various sources and sinks",
     "homepage": "https://docs.redpanda.com/redpanda-connect/about/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/redpanda-data/connect/releases/download/v4.55.0/redpanda-connect_4.55.0_windows_amd64.tar.gz",
-            "hash": "0038094a899f158217d9bbbfc6f1603d468742c3e52d2bb0c4423a570f91df58"
+            "url": "https://github.com/redpanda-data/connect/releases/download/v4.55.1/redpanda-connect_4.55.1_windows_amd64.tar.gz",
+            "hash": "18d8e25d56f4add563572e50f1ff4011fe43687e47afd066340a17af699e39fa"
         },
         "arm64": {
-            "url": "https://github.com/redpanda-data/connect/releases/download/v4.55.0/redpanda-connect_4.55.0_windows_arm64.tar.gz",
-            "hash": "d6b7159c1d6137cec2b7bc128d6c1b8fad4b9f415b2572d7fd61e0b092e3a8c8"
+            "url": "https://github.com/redpanda-data/connect/releases/download/v4.55.1/redpanda-connect_4.55.1_windows_arm64.tar.gz",
+            "hash": "9b407545979fee30ce334e61fae9eded67190ac4a467745b231e23958dfb4a4b"
         }
     },
     "bin": [
