@@ -1,0 +1,22 @@
+{
+    "version": "4.4.1",
+    "description": "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats.",
+    "homepage": "https://github.com/microsoft/binskim",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://globalcdn.nuget.org/packages/microsoft.codeanalysis.binskim.4.4.1.nupkg#/dl.zip",
+            "extract_dir": "tools\\net9.0\\win-x64",
+            "hash": "e8d2e5a923bfd269002505b885471022b81ac9af83ca268bce23050b8f7b56f3"
+        }
+    },
+    "bin": "BinSkim.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://globalcdn.nuget.org/packages/microsoft.codeanalysis.binskim.$version.nupkg#/dl.zip"
+            }
+        }
+    }
+}
