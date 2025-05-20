@@ -1,0 +1,26 @@
+{
+    "version": "2.3.321",
+    "description": "Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation.",
+    "homepage": "https://github.com/microsoft/AttackSurfaceAnalyzer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/AttackSurfaceAnalyzer/releases/download/v2.3.321/ASA_win_2.3.321.zip",
+            "extract_dir": "ASA_win_2.3.321",
+            "hash": "fed9b3e3014f208e6c243ce8d4dcb20c3cef36cbbe3bf6b90a5bf01dc0e3bf4e"
+        }
+    },
+    "bin": "Asa.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/AttackSurfaceAnalyzer/releases/download/v$version/ASA_win_$version.zip",
+                "extract_dir": "ASA_win_$version"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/HASHES.txt"
+        }
+    }
+}
