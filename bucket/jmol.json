@@ -1,17 +1,17 @@
 {
-    "version": "16.3.21",
+    "version": "16.3.23",
     "description": "An interactive viewer for chemical structures in 3D with features for chemicals, crystals, materials and biomolecules.",
     "homepage": "http://jmol.sourceforge.net/",
     "license": "LGPL-2.0-only",
     "url": [
-        "https://sourceforge.net/projects/jmol/files/Jmol/Version%2016.3/Jmol%2016.3.21/Jmol-16.3.21-binary.zip",
+        "https://sourceforge.net/projects/jmol/files/Jmol/Version%2016.3/Jmol%2016.3.23/Jmol-16.3.23-binary.zip",
         "http://wiki.jmol.org/images/0/07/Jmol_icon_13.ico.zip"
     ],
     "hash": [
-        "sha1:4e972d2a0396615dd7738a0cb5d151a173bc42dc",
+        "sha1:ef8eb3ae09cfea6752a41c417f137e33c364374e",
         "195aa14d65039bc904cfc42faa8629e881d76871ae68492a4b69359e7c19f1fb"
     ],
-    "extract_dir": "jmol-16.3.21",
+    "extract_dir": "jmol-16.3.23",
     "pre_install": [
         "Set-Content -Encoding ASCII -Path \"$dir\\Jmol.bat\" -Value \"@set JMOL_HOME=$dir\", '@start javaw.exe -Xmx512m -jar \"%~dp0Jmol.jar\"'",
         "Set-Content -Encoding ASCII -Path \"$dir\\JSpecView.bat\" -Value '@pushd \"%~dp0\"', '@start javaw.exe -Xmx512m -jar \"%~dp0JSpecView.jar\"'"
