@@ -1,0 +1,21 @@
+{
+    "version": "0.0.3",
+    "description": "Faster version of `symchk /om` for generating PDB manifests of offline machines.",
+    "homepage": "https://github.com/microsoft/pdblister",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/pdblister/releases/download/v0.0.3/pdblister-x86_64-pc-windows-msvc.zip",
+            "hash": "3e2567ecb7e1c38f874b12586b475f477855b60a7ef4fc270adb59fdcf6f53b2"
+        }
+    },
+    "bin": "pdblister.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/pdblister/releases/download/v$version/pdblister-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
