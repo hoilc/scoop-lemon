@@ -1,16 +1,16 @@
 {
-    "version": "3.0.1",
+    "version": "3.1.0",
     "description": "A zippy alternative to cp that focuses on maximizing performance.",
     "homepage": "https://github.com/SUPERCILEX/fuc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.0.1/x86_64-pc-windows-msvc-cpz.exe#/cpz.exe",
-            "hash": "f1278cdb0b3f60f0f57d1d30f68dcf8114fde600881041db3b2b01f736614343"
+            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.1.0/x86_64-pc-windows-msvc-cpz.exe#/cpz.exe",
+            "hash": "56da2d3762ef3c6b4176f6fa4e16bde4d1e10140b4b8e7dde5e173472623f67c"
         },
         "arm64": {
-            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.0.1/aarch64-pc-windows-msvc-cpz.exe#/cpz.exe",
-            "hash": "63557ebbb9a1e9151ba6134c2c1019f6d7a100e67a3e8d9bbaba73f0ef26fb89"
+            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.1.0/aarch64-pc-windows-msvc-cpz.exe#/cpz.exe",
+            "hash": "d81c0ce4d94b301fd031eefd3c597850f4154ec92ac44fb7e78598980fc72f4a"
         }
     },
     "bin": "cpz.exe",
