@@ -1,5 +1,5 @@
 {
-    "version": "0.17.5",
+    "version": "0.17.6",
     "description": "Review/Check GGUF files and estimate the memory usage and maximum tokens per second.",
     "homepage": "https://github.com/gpustack/gguf-parser-go",
     "license": "MIT",
