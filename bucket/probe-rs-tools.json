@@ -1,12 +1,12 @@
 {
-    "version": "0.28.0",
+    "version": "0.29.0",
     "description": "A debugging toolset for debugging embedded ARM and RISC-V targets on a separate host.",
     "homepage": "https://probe.rs/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.28.0/probe-rs-tools-x86_64-pc-windows-msvc.zip",
-            "hash": "b91a04779733f9808541f80bf1a3f4d2d9294e8f31a72883771b86775471af38"
+            "url": "https://github.com/probe-rs/probe-rs/releases/download/v0.29.0/probe-rs-tools-x86_64-pc-windows-msvc.zip",
+            "hash": "ffadfe8083b649ee91f5c658715ea66f5284589a3e90894cb6747f92729da73d"
         }
     },
     "bin": [
