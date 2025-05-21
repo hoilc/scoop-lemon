@@ -1,0 +1,44 @@
+{
+    "version": "1.2.2",
+    "description": "A generic satellite data processing software.",
+    "homepage": "https://www.satdump.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SatDump/SatDump/releases/download/1.2.2/SatDump-Windows_x64_Portable.zip",
+            "hash": "54580dd3c14e198381a31af07b7d12af53c7f1ab07cf4ec84299bbf20f046fbd"
+        },
+        "arm64": {
+            "url": "https://github.com/SatDump/SatDump/releases/download/1.2.2/SatDump-Windows_arm64_Portable.zip",
+            "hash": "1ef5a6dffb126b4c6ac14cc48f85209d91230133c68e8e82d1c127b89805ab56"
+        }
+    },
+    "bin": [
+        "satdump.exe",
+        "satdump_sdr_server.exe"
+    ],
+    "shortcuts": [
+        [
+            "satdump-ui.exe",
+            "SatDump"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\settings.json\" -Value \"{}\" }",
+    "persist": [
+        "settings.json",
+        "config"
+    ],
+    "checkver": {
+        "github": "https://github.com/SatDump/SatDump"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SatDump/SatDump/releases/download/$version/SatDump-Windows_x64_Portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/SatDump/SatDump/releases/download/$version/SatDump-Windows_arm64_Portable.zip"
+            }
+        }
+    }
+}
