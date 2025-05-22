@@ -1,0 +1,28 @@
+{
+    "version": "0.1.3",
+    "description": "A command-line tool for inspecting various Microsoft PC EXE formats.",
+    "homepage": "https://github.com/segin/readexe",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/segin/readexe/releases/download/v0.1.3/readexe-win64.exe#/readexe.exe",
+            "hash": "470fedd04419016792bd220fd85e8aaa28afe66db8f76bed11a38c0a14cbfc05"
+        },
+        "32bit": {
+            "url": "https://github.com/segin/readexe/releases/download/v0.1.3/readexe-win32.exe#/readexe.exe",
+            "hash": "1dd93e7b9f03cf95a9edb62921a77e65afc6a5f11ef2bb6bccea7a322792d016"
+        }
+    },
+    "bin": "readexe.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/segin/readexe/releases/download/v$version/readexe-win64.exe#/readexe.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/segin/readexe/releases/download/v$version/readexe-win32.exe#/readexe.exe"
+            }
+        }
+    }
+}
