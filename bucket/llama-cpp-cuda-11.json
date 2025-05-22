@@ -39,8 +39,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda11.7-x64.zip",
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda11.7-x64.zip"
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-11.7-x64.zip",
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda-11.7-x64.zip"
                 ]
             }
         }
