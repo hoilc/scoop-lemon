@@ -1,0 +1,27 @@
+{
+    "version": "0.17",
+    "description": "JOL (Java Object Layout) is the tiny toolbox to analyze object layout in JVMs.",
+    "homepage": "https://github.com/openjdk/jol",
+    "license": "GPL-2.0-only",
+    "url": "https://repo.maven.apache.org/maven2/org/openjdk/jol/jol-cli/0.17/jol-cli-0.17-full.jar#/jol-cli.jar",
+    "hash": "sha1:7713efa0c8f55729a225c78ecee5826be0d80a04",
+    "bin": "jol-cli.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk",
+            "java/adoptopenjdk-hotspot",
+            "java/zulu"
+        ]
+    },
+    "checkver": {
+        "url": "https://repo.maven.apache.org/maven2/org/openjdk/jol/jol-cli/maven-metadata.xml",
+        "regex": "<latest>([\\d.]+)</latest>"
+    },
+    "autoupdate": {
+        "url": "https://repo.maven.apache.org/maven2/org/openjdk/jol/jol-cli/$version/jol-cli-$version-full.jar#/jol-cli.jar",
+        "hash": {
+            "url": "$url.sha1"
+        }
+    }
+}
