@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "description": "A program that converts arbitrary binary data to and from PNG images that look like noise.",
+    "homepage": "https://github.com/dbohdan/s2png",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/dbohdan/s2png/releases/download/v1.0.0/s2png-v1.0.0-win32.exe#/s2png.exe",
+    "hash": "af3be0c5e437c276ba2c9a41c127f63125321b0720aca08c977215fa5513bc22",
+    "bin": "s2png.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dbohdan/s2png/releases/download/v$version/s2png-v$version-win32.exe#/s2png.exe"
+    }
+}
