@@ -1,0 +1,33 @@
+{
+    "version": "8.0.7+293",
+    "description": "A cross-platform manga app made for e-hentai & exhentai by Flutter.",
+    "homepage": "https://github.com/jiangtian616/JHenTai",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.7+293/JHenTai_8.0.7+293_Windows.zip",
+            "extract_dir": "JHenTai_8.0.7+293",
+            "hash": "054a0060b93d1cb7c82e6e66e1586149cf9d3cd39f4ac41f1cf7e46dbe5d61d7"
+        }
+    },
+    "shortcuts": [
+        [
+            "jhentai.exe",
+            "JHenTai"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\top.jtmonster\\jhentai\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "JHenTai is NOT portable. Settings are stored in '%APPDATA%\\top.jtmonster\\jhentai', and will be purged during uninstallation.",
+    "checkver": {
+        "url": "https://github.com/jiangtian616/JHenTai/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version_Windows.zip",
+                "extract_dir": "JHenTai_$version"
+            }
+        }
+    }
+}
