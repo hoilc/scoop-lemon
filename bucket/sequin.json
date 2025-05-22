@@ -1,0 +1,35 @@
+{
+    "version": "0.3.1",
+    "description": "Human-readable ANSI sequences.",
+    "homepage": "https://github.com/charmbracelet/sequin",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_x86_64.zip",
+            "extract_dir": "sequin_0.3.1_Windows_x86_64",
+            "hash": "7f10e402491cd5eecb5bb2bda74faea48b24d96f7c280819a827f5dcc47438e7"
+        },
+        "32bit": {
+            "url": "https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_i386.zip",
+            "extract_dir": "sequin_0.3.1_Windows_i386",
+            "hash": "e5336c56f2cae37f78ee47b47f711c9b4d98a893e645f8fb0c447c356b5792a0"
+        }
+    },
+    "bin": "sequin.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/charmbracelet/sequin/releases/download/v$version/sequin_$version_Windows_x86_64.zip",
+                "extract_dir": "sequin_$version_Windows_x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/charmbracelet/sequin/releases/download/v$version/sequin_$version_Windows_i386.zip",
+                "extract_dir": "sequin_$version_Windows_i386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
