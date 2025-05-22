@@ -1,0 +1,21 @@
+{
+    "version": "0.14.1",
+    "description": "A command line tool for doing all things nostr.",
+    "homepage": "https://github.com/fiatjaf/nak",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fiatjaf/nak/releases/download/v0.14.1/nak-v0.14.1-windows-amd64.exe#/nak.exe",
+            "hash": "fdd63e5a5b1effd144c054d4b05f73a6eab246da79091c73fa017763f62a7cd6"
+        }
+    },
+    "bin": "nak.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fiatjaf/nak/releases/download/v$version/nak-v$version-windows-amd64.exe#/nak.exe"
+            }
+        }
+    }
+}
