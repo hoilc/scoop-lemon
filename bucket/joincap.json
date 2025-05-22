@@ -1,0 +1,22 @@
+{
+    "version": "0.11.0",
+    "description": "Merge multiple pcap files together, gracefully.",
+    "homepage": "https://github.com/assafmo/joincap",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/assafmo/joincap/releases/download/v0.11.0/joincap-win64-v0.11.0.zip",
+            "hash": "4f212e97b39391bbfff31b3bbc49d4b93299f18cd5e300f13c38f3922c82fb6a"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'joincap?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'joincap.exe'",
+    "bin": "joincap.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/assafmo/joincap/releases/download/v$version/joincap-win64-v$version.zip"
+            }
+        }
+    }
+}
