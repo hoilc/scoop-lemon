@@ -1,0 +1,31 @@
+{
+    "version": "1.0.7",
+    "description": "An interactive CLI tool for selecting and bundling code into a single, LLM-ready output file.",
+    "homepage": "https://github.com/epilande/codegrab",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/epilande/codegrab/releases/download/v1.0.7/codegrab_1.0.7_Windows_x86_64.zip",
+            "hash": "d32c4aaec19cd510c889c51bc46129cd90697358c07425b9cd2aed1ca920f417"
+        },
+        "arm64": {
+            "url": "https://github.com/epilande/codegrab/releases/download/v1.0.7/codegrab_1.0.7_Windows_arm64.zip",
+            "hash": "d6eb9b6ca2026e6d95de69bccf6f8b38c72871b88b902ff4e3a84d22d1468664"
+        }
+    },
+    "bin": "grab.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/epilande/codegrab/releases/download/v$version/codegrab_$version_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/epilande/codegrab/releases/download/v$version/codegrab_$version_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
