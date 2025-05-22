@@ -1,0 +1,33 @@
+{
+    "version": "0.10.10",
+    "description": "A CLI tool that allows users to spin up a Go project with the corresponding structure seamlessly.",
+    "homepage": "https://docs.go-blueprint.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Melkeydev/go-blueprint/releases/download/v0.10.10/go-blueprint_0.10.10_Windows_x86_64.zip",
+            "hash": "3c17d378e51f33b886e88a03ca18cf740e1b73bbe4a53083c4b4eade3dc1d30a"
+        },
+        "arm64": {
+            "url": "https://github.com/Melkeydev/go-blueprint/releases/download/v0.10.10/go-blueprint_0.10.10_Windows_arm64.zip",
+            "hash": "b867b3b29669be47298c300bc3477962a39affbffc44554a5c7f676b2f8498cf"
+        }
+    },
+    "bin": "go-blueprint.exe",
+    "checkver": {
+        "github": "https://github.com/Melkeydev/go-blueprint"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Melkeydev/go-blueprint/releases/download/v$version/go-blueprint_$version_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Melkeydev/go-blueprint/releases/download/v$version/go-blueprint_$version_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
