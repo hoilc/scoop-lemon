@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "description": "Convert JSON to HCL, and vice versa.",
+    "homepage": "https://github.com/kvz/json2hcl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kvz/json2hcl/releases/download/v0.2.0/json2hcl_0.2.0_windows_amd64.tar.gz",
+            "hash": "ef05f4bb95771529a2009c5d00faca9882670187182f1bae786ca4d589427a82"
+        },
+        "arm64": {
+            "url": "https://github.com/kvz/json2hcl/releases/download/v0.2.0/json2hcl_0.2.0_windows_arm64.tar.gz",
+            "hash": "6235cf3538105316113bbe865a5305b1229c6f1cf4675a817ba81415cb5bf61a"
+        }
+    },
+    "bin": "json2hcl.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kvz/json2hcl/releases/download/v$version/json2hcl_$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/kvz/json2hcl/releases/download/v$version/json2hcl_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/json2hcl_$version_checksums.txt"
+        }
+    }
+}
