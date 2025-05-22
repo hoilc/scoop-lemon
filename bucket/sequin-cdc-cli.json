@@ -1,7 +1,7 @@
 {
     "version": "0.8.2",
-    "description": "An open source message stream built on Postgres.",
-    "homepage": "https://github.com/sequinstream/sequin",
+    "description": "An change data capture (CDC) platform for Postgres.",
+    "homepage": "https://sequinstream.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -13,9 +13,11 @@
             "hash": "abd89be1d0b91ab19aced3b5ab8d95769d7f9f3ca95596e7474b2728b4718183"
         }
     },
-    "bin": "sequin-cli.exe",
-    "pre_install": "Get-ChildItem \"$dir\" 'sequin-cli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'sequin-cli.exe'",
-    "checkver": "github",
+    "bin": "sequin.exe",
+    "pre_install": "Get-ChildItem \"$dir\" 'sequin?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'sequin.exe'",
+    "checkver": {
+        "github": "https://github.com/sequinstream/sequin"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
