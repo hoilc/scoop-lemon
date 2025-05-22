@@ -1,0 +1,21 @@
+{
+    "version": "0.4.4",
+    "description": "A command-line tool to get information about JWTs.",
+    "homepage": "https://github.com/lmammino/jwtinfo",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.4.4/jwtinfo-win64.exe.gz#/jwtinfo.exe.gz",
+            "hash": "c47c6855d577ed37163321b9bcfeb502a8398533719d97983dbee57ceceac61b"
+        }
+    },
+    "bin": "jwtinfo.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lmammino/jwtinfo/releases/download/v$version/jwtinfo-win64.exe.gz#/jwtinfo.exe.gz"
+            }
+        }
+    }
+}
