@@ -1,0 +1,25 @@
+{
+    "version": "0.20.0",
+    "description": "A Rust REPL (Read-Eval-Print loop) built using the evcxr evaluation context.",
+    "homepage": "https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/evcxr/evcxr/releases/download/v0.20.0/evcxr-v0.20.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "evcxr-v0.20.0-x86_64-pc-windows-msvc",
+            "hash": "939601ea02aa12b6a9458d8efb896c503f0ea67c771461ad3a5cfdd6b54f8604"
+        }
+    },
+    "bin": "evcxr.exe",
+    "checkver": {
+        "github": "https://github.com/evcxr/evcxr"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/evcxr/evcxr/releases/download/v$version/evcxr-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "evcxr-v$version-x86_64-pc-windows-msvc"
+            }
+        }
+    }
+}
