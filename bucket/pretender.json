@@ -1,0 +1,24 @@
+{
+    "version": "1.3.2",
+    "description": "A tool to obtain machine-in-the-middle positions via spoofed local name resolution and DHCPv6 DNS takeover attacks.",
+    "homepage": "https://github.com/RedTeamPentesting/pretender",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/RedTeamPentesting/pretender/releases/download/v1.3.2/pretender_Windows_x86_64.zip",
+            "hash": "b8c3b2263234c94cdd5a3fe942dedb834d5a6e794d0849ad627f80f79839578c"
+        }
+    },
+    "bin": "pretender.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RedTeamPentesting/pretender/releases/download/v$version/pretender_Windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
