@@ -30,9 +30,6 @@
             "arm64": {
                 "url": "https://github.com/siddhantac/puffin/releases/download/v$version/puffin_Windows_arm64.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/puffin_$version_checksums.txt"
         }
     }
 }
