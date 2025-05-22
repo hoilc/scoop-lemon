@@ -1,0 +1,24 @@
+{
+    "version": "1.2.0",
+    "description": "A tool for hacking and security testing to JWT.",
+    "homepage": "https://github.com/hahwul/jwt-hack",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hahwul/jwt-hack/releases/download/v1.2.0/jwt-hack_1.2.0_windows_amd64.tar.gz",
+            "hash": "9a6bd686f46788d71270921f325a9fc94f60bd384051c004d8541d689bddad2e"
+        }
+    },
+    "bin": "jwt-hack.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack_$version_windows_amd64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/jwt-hack_checksums.txt"
+        }
+    }
+}
