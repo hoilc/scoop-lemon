@@ -1,0 +1,35 @@
+{
+    "version": "0.5.5",
+    "description": "A tool for sending and receiving raw IRC protocol lines.",
+    "homepage": "https://github.com/ergochat/ircdog",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ergochat/ircdog/releases/download/v0.5.5/ircdog-0.5.5-windows-x86_64.zip",
+            "extract_dir": "ircdog-0.5.5-windows-x86_64",
+            "hash": "5e5f708158f21b0b77af733320354cf7150bf76577e6d19459a88514594eb03f"
+        },
+        "32bit": {
+            "url": "https://github.com/ergochat/ircdog/releases/download/v0.5.5/ircdog-0.5.5-windows-386.zip",
+            "extract_dir": "ircdog-0.5.5-windows-386",
+            "hash": "d5e9ebd7954a41519e3191a690142b6ffa60cbc8994cd6d4b884772b91e7163c"
+        }
+    },
+    "bin": "ircdog.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ergochat/ircdog/releases/download/v$version/ircdog-$version-windows-x86_64.zip",
+                "extract_dir": "ircdog-$version-windows-x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/ergochat/ircdog/releases/download/v$version/ircdog-$version-windows-386.zip",
+                "extract_dir": "ircdog-$version-windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/ircdog-$version-checksums.txt"
+        }
+    }
+}
