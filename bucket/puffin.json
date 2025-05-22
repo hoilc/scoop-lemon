@@ -1,0 +1,35 @@
+{
+    "version": "2.1.5",
+    "description": "A beautiful terminal dashboard for hledger.",
+    "homepage": "https://github.com/siddhantac/puffin",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/siddhantac/puffin/releases/download/v2.1.5/puffin_Windows_x86_64.zip",
+            "hash": "2a3308627f68e87c4de68517a190160e697cd6bb735eb2d3d96c818ce279dcdf"
+        },
+        "32bit": {
+            "url": "https://github.com/siddhantac/puffin/releases/download/v2.1.5/puffin_Windows_i386.zip",
+            "hash": "e87c9418ac6a18accee748b23b5e83e4ec6813a2777ecb2c0a0ee56e87365047"
+        },
+        "arm64": {
+            "url": "https://github.com/siddhantac/puffin/releases/download/v2.1.5/puffin_Windows_arm64.zip",
+            "hash": "41b040247883815e684b83b54fce51b1940f567c409e385320ce206728fe7f6b"
+        }
+    },
+    "bin": "puffin.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/siddhantac/puffin/releases/download/v$version/puffin_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/siddhantac/puffin/releases/download/v$version/puffin_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/siddhantac/puffin/releases/download/v$version/puffin_Windows_arm64.zip"
+            }
+        }
+    }
+}
