@@ -1,0 +1,38 @@
+{
+    "version": "1.0.3",
+    "description": "A fast dork scanner written in Go.",
+    "homepage": "https://github.com/dwisiswant0/go-dork",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dwisiswant0/go-dork/releases/download/v1.0.3/go-dork_1.0.3_windows_amd64.exe#/go-dork.exe",
+            "hash": "a8719dc9db3d7d9d344ffea56c75ab22547bb69cf46d23d2cb7bf691f8c00ce5"
+        },
+        "32bit": {
+            "url": "https://github.com/dwisiswant0/go-dork/releases/download/v1.0.3/go-dork_1.0.3_windows_386.exe#/go-dork.exe",
+            "hash": "1f5a78bd1c69927b8f54199b2c527fced865b5c9706d2bbf93041de3701c41eb"
+        },
+        "arm64": {
+            "url": "https://github.com/dwisiswant0/go-dork/releases/download/v1.0.3/go-dork_1.0.3_windows_arm64.exe#/go-dork.exe",
+            "hash": "6325e8ecfb9a596fd46b4b91f265071e0d891bcc1cd4b9749a027d3da213c582"
+        }
+    },
+    "bin": "go-dork.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dwisiswant0/go-dork/releases/download/v$version/go-dork_$version_windows_amd64.exe#/go-dork.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/dwisiswant0/go-dork/releases/download/v$version/go-dork_$version_windows_386.exe#/go-dork.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/dwisiswant0/go-dork/releases/download/v$version/go-dork_$version_windows_arm64.exe#/go-dork.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/go-dork_$version_checksums.txt"
+        }
+    }
+}
