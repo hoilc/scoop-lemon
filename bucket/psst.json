@@ -1,0 +1,30 @@
+{
+    "version": "1073",
+    "description": "A fast Spotify client with native GUI.",
+    "homepage": "https://github.com/jpochyla/psst",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/jpochyla/psst/actions/runs/15116863256/Psst.exe.zip",
+            "hash": "11a2fc4d1a53395988dd5ef0c961366cdf8af7068b2149e6fdf55db01f6322c5"
+        }
+    },
+    "shortcuts": [
+        [
+            "psst-gui.exe",
+            "Psst"
+        ]
+    ],
+    "notes": "A Spotify Premium account is required.",
+    "checkver": {
+        "url": "https://github.com/jpochyla/psst/actions/workflows/build.yml?query=branch%3Amain+is%3Asuccess+event%3Apush",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/jpochyla/psst/actions/runs/$matchRun/Psst.exe.zip"
+            }
+        }
+    }
+}
