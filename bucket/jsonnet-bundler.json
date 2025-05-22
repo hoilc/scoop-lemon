@@ -1,0 +1,21 @@
+{
+    "version": "0.6.0",
+    "description": "A package manager for Jsonnet.",
+    "homepage": "https://github.com/jsonnet-bundler/jsonnet-bundler",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.6.0/jb-windows-amd64.exe#/jb.exe",
+            "hash": "6af1455edfc92db1ace049e251df50ac04fcde497df3b98e716caf2652555984"
+        }
+    },
+    "bin": "jb.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v$version/jb-windows-amd64.exe#/jb.exe"
+            }
+        }
+    }
+}
