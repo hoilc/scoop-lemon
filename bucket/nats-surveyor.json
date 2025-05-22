@@ -1,0 +1,44 @@
+{
+    "version": "0.9.1",
+    "description": "NATS surveyor polls the NATS server for Statz messages to generate data for Prometheus.",
+    "homepage": "https://github.com/nats-io/nats-surveyor",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-amd64.zip",
+            "extract_dir": "nats-surveyor-v0.9.1-windows-amd64",
+            "hash": "6fa7614170a626cfb3efca176d94a3975807b7081881a43227cd6caff5aac367"
+        },
+        "32bit": {
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-386.zip",
+            "extract_dir": "nats-surveyor-v0.9.1-windows-386",
+            "hash": "7bb50bd8cfa9a23c98fe1234ac67e6bc4f3485c63f7519d79fc54f748f421ae1"
+        },
+        "arm64": {
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-arm64.zip",
+            "extract_dir": "nats-surveyor-v0.9.1-windows-arm64",
+            "hash": "d50f14cb034527758809a613f9d7a8201c7d12ed9c8dc937ff9510fb83259535"
+        }
+    },
+    "bin": "nats-surveyor.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nats-io/nats-surveyor/releases/download/v$version/nats-surveyor-v$version-windows-amd64.zip",
+                "extract_dir": "nats-surveyor-v$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/nats-io/nats-surveyor/releases/download/v$version/nats-surveyor-v$version-windows-386.zip",
+                "extract_dir": "nats-surveyor-v$version-windows-386"
+            },
+            "arm64": {
+                "url": "https://github.com/nats-io/nats-surveyor/releases/download/v$version/nats-surveyor-v$version-windows-arm64.zip",
+                "extract_dir": "nats-surveyor-v$version-windows-arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/nats-surveyor-v$version-checksums.txt"
+        }
+    }
+}
