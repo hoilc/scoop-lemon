@@ -1,0 +1,39 @@
+{
+    "version": "1.6.0",
+    "description": "A sets of tools packing, unpacking, zip, unzip, download Chrome browser extensions.",
+    "homepage": "https://github.com/mmadfox/go-crx3",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mmadfox/go-crx3/releases/download/v1.6.0/go-crx3_1.6.0_windows_amd64.tar.gz",
+            "hash": "9c9f11ce11e60074432f43469bb685a28bb8808c69f61a839e4bad3cd90e19a8"
+        },
+        "32bit": {
+            "url": "https://github.com/mmadfox/go-crx3/releases/download/v1.6.0/go-crx3_1.6.0_windows_386.tar.gz",
+            "hash": "49c74b01105f15b4a30137cc97d0ff0f083471d5465cdf3a8f5e524af7a73a95"
+        },
+        "arm64": {
+            "url": "https://github.com/mmadfox/go-crx3/releases/download/v1.6.0/go-crx3_1.6.0_windows_arm64.tar.gz",
+            "hash": "c11a17532e8712069e247d4ef3bc74e31a133e64c727aeffc0a645b60bb4290d"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'go-crx3.exe' | Select-Object -First 1 | Rename-Item -NewName 'crx3.exe'",
+    "bin": "crx3.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mmadfox/go-crx3/releases/download/v$version/go-crx3_$version_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/mmadfox/go-crx3/releases/download/v$version/go-crx3_$version_windows_386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/mmadfox/go-crx3/releases/download/v$version/go-crx3_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/go-crx3_$version_checksums.txt"
+        }
+    }
+}
