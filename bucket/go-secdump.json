@@ -1,0 +1,21 @@
+{
+    "version": "0.5.0",
+    "description": "A tool to remotely dump secrets from the Windows registry。",
+    "homepage": "https://github.com/jfjallid/go-secdump",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jfjallid/go-secdump/releases/download/0.5.0/go-secdump.exe",
+            "hash": "9a603f7c6e1a44a38609fed381fa2b8ff239fbfcb36ee905f991134db2d4cdc6"
+        }
+    },
+    "bin": "go-secdump.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jfjallid/go-secdump/releases/download/$version/go-secdump.exe"
+            }
+        }
+    }
+}
