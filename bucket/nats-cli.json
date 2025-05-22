@@ -13,6 +13,11 @@
             "url": "https://github.com/nats-io/natscli/releases/download/v0.2.3/nats-0.2.3-windows-386.zip",
             "hash": "eab812dbc0c54e42faa89a7450f628b87e91f8f1130811a542b8ce56bd85efc3",
             "extract_dir": "nats-0.2.3-windows-386"
+        },
+        "arm64": {
+            "url": "https://github.com/nats-io/natscli/releases/download/v0.2.3/nats-0.2.3-windows-arm64.zip",
+            "hash": "bcc7fa50e24b2abbf33e259d5ceb72cbb3ec45fadc5f40b16693e9cfef0d8bfd",
+            "extract_dir": "nats-0.2.3-windows-arm64"
         }
     },
     "bin": "nats.exe",
@@ -26,6 +31,10 @@
             "32bit": {
                 "url": "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-386.zip",
                 "extract_dir": "nats-$version-windows-386"
+            },
+            "arm64": {
+                "url": "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-arm64.zip",
+                "extract_dir": "nats-$version-windows-arm64"
             }
         },
         "hash": {
