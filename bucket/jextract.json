@@ -1,0 +1,30 @@
+{
+    "version": "22.6.47",
+    "description": "A tool which mechanically generates Java bindings from native library headers.",
+    "homepage": "https://github.com/openjdk/jextract",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.java.net/java/early_access/jextract/22/6/openjdk-22-jextract+6-47_windows-x64_bin.tar.gz",
+            "extract_dir": "jextract-22",
+            "hash": "3cdb7d586507994c3e2c3e9456bf2a8b115af52ac21eb6ff6fdd4b93cc245db8"
+        }
+    },
+    "bin": "bin\\jextract.bat",
+    "checkver": {
+        "url": "https://jdk.java.net/jextract/",
+        "regex": "openjdk-(?<jdk>\\d+)-jextract\\+(?<main>\\d+)-(?<build>\\d+)_windows",
+        "replace": "${jdk}.${main}.${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.java.net/java/early_access/jextract/$matchJdk/$matchMain/openjdk-$matchJdk-jextract+$matchMain-$matchBuild_windows-x64_bin.tar.gz",
+                "extract_dir": "jextract-$matchJdk"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
