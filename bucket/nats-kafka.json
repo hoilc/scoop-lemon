@@ -1,0 +1,45 @@
+{
+    "version": "1.4.2",
+    "description": "A multi-connector bridge between NATS, NATS Streaming, JetStream and Kafka topics.",
+    "homepage": "https://github.com/nats-io/nats-kafka",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-amd64.zip",
+            "hash": "014b7ae1819005e5162c68bd19fae213664f9e51291e2be9df6bb0b962f5a099",
+            "extract_dir": "nats-kafka-v1.4.2-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-386.zip",
+            "hash": "816864f471af71083bf761da1216cf61005abb2b056a69956882519294c9b276",
+            "extract_dir": "nats-kafka-v1.4.2-windows-386"
+        },
+        "arm64": {
+            "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-arm64.zip",
+            "hash": "ec52a1a7c1c2730419dd7867f2bd5b57b7781aa51dda362e5410890e5e3d77ec",
+            "extract_dir": "nats-kafka-v1.4.2-windows-arm64"
+        }
+    },
+    "bin": "nats-kafka.exe",
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-amd64.zip",
+                "extract_dir": "nats-kafka-v1.4.2-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-386.zip",
+                "extract_dir": "nats-kafka-v1.4.2-windows-386"
+            },
+            "arm64": {
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-arm64.zip",
+                "extract_dir": "nats-kafka-v1.4.2-windows-arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
