@@ -1,0 +1,26 @@
+{
+    "version": "0.22.3",
+    "description": "Convert JSON files to Apache Arrow, part of Arrow CLI Tools.",
+    "homepage": "https://github.com/domoritz/arrow-tools/tree/main/crates/json2arrow",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/domoritz/arrow-tools/releases/download/v0.22.3/json2arrow-x86_64-pc-windows-msvc.zip",
+            "hash": "55243b24d8c9a25714c355d0942d1d4641381a1234dfc4e6e56b08c5c689c271"
+        }
+    },
+    "bin": "json2arrow.exe",
+    "checkver": {
+        "github": "https://github.com/domoritz/arrow-tools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/domoritz/arrow-tools/releases/download/v$version/json2arrow-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

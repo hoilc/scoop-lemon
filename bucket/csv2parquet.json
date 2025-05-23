@@ -1,0 +1,26 @@
+{
+    "version": "0.22.3",
+    "description": "Convert CSV files to Apache Parquet, part of Arrow CLI Tools.",
+    "homepage": "https://github.com/domoritz/arrow-tools/tree/main/crates/csv2parquet",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/domoritz/arrow-tools/releases/download/v0.22.3/csv2parquet-x86_64-pc-windows-msvc.zip",
+            "hash": "efc2cdbfe5a49fe6a9d7eb034fa22760ffd9401d87cb50062a2831e310a00954"
+        }
+    },
+    "bin": "csv2parquet.exe",
+    "checkver": {
+        "github": "https://github.com/domoritz/arrow-tools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/domoritz/arrow-tools/releases/download/v$version/csv2parquet-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
