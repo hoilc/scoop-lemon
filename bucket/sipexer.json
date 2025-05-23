@@ -1,0 +1,31 @@
+{
+    "version": "1.2.0",
+    "description": "A modern and flexible SIP/VoIP (RFC3261) command line tool.",
+    "homepage": "https://github.com/miconda/sipexer",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/miconda/sipexer/releases/download/v1.2.0/sipexer-v1.2.0-windows-amd64.zip",
+            "hash": "md5:f575346e361f200f3c607f1b8767bb1f"
+        },
+        "32bit": {
+            "url": "https://github.com/miconda/sipexer/releases/download/v1.2.0/sipexer-v1.2.0-windows-386.zip",
+            "hash": "md5:b9f4bc90637369a12481182f77079b8c"
+        }
+    },
+    "bin": "sipexer.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/miconda/sipexer/releases/download/v$version/sipexer-v$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/miconda/sipexer/releases/download/v$version/sipexer-v$version-windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.md5"
+        }
+    }
+}
