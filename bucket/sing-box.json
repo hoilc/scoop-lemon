@@ -2,10 +2,7 @@
     "version": "1.11.11",
     "description": "The universal proxy platform.",
     "homepage": "https://sing-box.sagernet.org",
-    "license": {
-        "identifier": "Freeware",
-        "url": "https://github.com/SagerNet/sing-box/blob/main/LICENSE"
-    },
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.11/sing-box-1.11.11-windows-amd64.zip",
