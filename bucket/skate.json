@@ -1,0 +1,35 @@
+{
+    "version": "1.0.1",
+    "description": "A personal key value store.",
+    "homepage": "https://github.com/charmbracelet/skate",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/charmbracelet/skate/releases/download/v1.0.1/skate_1.0.1_Windows_x86_64.zip",
+            "extract_dir": "skate_1.0.1_Windows_x86_64",
+            "hash": "dbf4ba4eab39193c2880ab5a1aa5621e986406e1a9b2ce3d841b993ba6d10649"
+        },
+        "32bit": {
+            "url": "https://github.com/charmbracelet/skate/releases/download/v1.0.1/skate_1.0.1_Windows_i386.zip",
+            "extract_dir": "skate_1.0.1_Windows_i386",
+            "hash": "0f8358b94938bc6cd60b398667cd5e25b7cb67d92635900b6bb5c9eeb26948e9"
+        }
+    },
+    "bin": "skate.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/charmbracelet/skate/releases/download/v$version/skate_$version_Windows_x86_64.zip",
+                "extract_dir": "skate_$version_Windows_x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/charmbracelet/skate/releases/download/v$version/skate_$version_Windows_i386.zip",
+                "extract_dir": "skate_$version_Windows_i386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
