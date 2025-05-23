@@ -1,0 +1,33 @@
+{
+    "version": "0.33.0",
+    "description": "A cross-platform, efficient and practical CSV/TSV toolkit.",
+    "homepage": "https://bioinf.shenwei.me/csvtk/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.33.0/csvtk_windows_amd64.exe.tar.gz",
+            "hash": "md5:0f28a807069d098aee84298ca36de116"
+        },
+        "32bit": {
+            "url": "https://github.com/shenwei356/csvtk/releases/download/v0.33.0/csvtk_windows_386.exe.tar.gz",
+            "hash": "md5:ee4368d2968c6545bce9acdd3324baf1"
+        }
+    },
+    "bin": "csvtk.exe",
+    "checkver": {
+        "github": "https://github.com/shenwei356/csvtk"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shenwei356/csvtk/releases/download/v$version/csvtk_windows_amd64.exe.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/shenwei356/csvtk/releases/download/v$version/csvtk_windows_386.exe.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$url.md5.txt"
+        }
+    }
+}
