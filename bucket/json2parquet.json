@@ -1,0 +1,26 @@
+{
+    "version": "0.22.3",
+    "description": "Convert JSON files to Apache Parquet, part of Arrow CLI Tools.",
+    "homepage": "https://github.com/domoritz/arrow-tools/tree/main/crates/json2parquet",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/domoritz/arrow-tools/releases/download/v0.22.3/json2parquet-x86_64-pc-windows-msvc.zip",
+            "hash": "913b9ad91e7703c30487dda79c3da7c815c071556f1b4353b0e30c0f080ec9da"
+        }
+    },
+    "bin": "json2parquet.exe",
+    "checkver": {
+        "github": "https://github.com/domoritz/arrow-tools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/domoritz/arrow-tools/releases/download/v$version/json2parquet-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

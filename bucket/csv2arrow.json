@@ -1,0 +1,26 @@
+{
+    "version": "0.22.3",
+    "description": "Convert CSV files to Apache Arrow, part of Arrow CLI Tools.",
+    "homepage": "https://github.com/domoritz/arrow-tools/tree/main/crates/csv2arrow",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/domoritz/arrow-tools/releases/download/v0.22.3/csv2arrow-x86_64-pc-windows-msvc.zip",
+            "hash": "127c81a0f5836069a389ab3643f39feea0267f954e4d818a38b2348bf16cbb61"
+        }
+    },
+    "bin": "csv2arrow.exe",
+    "checkver": {
+        "github": "https://github.com/domoritz/arrow-tools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/domoritz/arrow-tools/releases/download/v$version/csv2arrow-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
