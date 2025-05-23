@@ -1,12 +1,12 @@
 {
-    "version": "1.14.0",
+    "version": "1.14.1",
     "description": "A vector similarity search engine and vector database.",
     "homepage": "https://qdrant.tech/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qdrant/qdrant/releases/download/v1.14.0/qdrant-x86_64-pc-windows-msvc.zip",
-            "hash": "dd4fc42bdffed881996948d926ae459fc089778a5c8d6625883a72d84762a1bb"
+            "url": "https://github.com/qdrant/qdrant/releases/download/v1.14.1/qdrant-x86_64-pc-windows-msvc.zip",
+            "hash": "52f3e58a73709b81f13b035fac144089b7317da259ae2e6e71c949c536081854"
         }
     },
     "bin": "qdrant.exe",
