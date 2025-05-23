@@ -1,0 +1,30 @@
+{
+    "version": "1.12.0",
+    "description": "A command-line shell for issuing SQL to relational databases via JDBC.",
+    "homepage": "https://github.com/julianhyde/sqlline",
+    "license": "BSD-3-Clause",
+    "url": "https://repo1.maven.org/maven2/sqlline/sqlline/1.12.0/sqlline-1.12.0-jar-with-dependencies.jar#/sqlline.jar",
+    "hash": "sha1:5c21d7437f7feddce37daf41bf8e724c7e0ce0b3",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\sqlline.bat\" -Value \"@java -cp `\"%~dp0drivers\\*;%~dp0sqlline.jar`\" sqlline.SqlLine %*\"",
+    "bin": "sqlline.bat",
+    "suggest": {
+        "JDK": [
+            "java/temurin-jdk",
+            "java/openjdk",
+            "java/zulu-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "persist": "drivers",
+    "notes": "Put JDBC drivers into: $dir\\drivers\\",
+    "checkver": {
+        "url": "https://repo1.maven.org/maven2/sqlline/sqlline/maven-metadata.xml",
+        "regex": "<latest>([\\d.]+)</latest>"
+    },
+    "autoupdate": {
+        "url": "https://repo1.maven.org/maven2/sqlline/sqlline/$version/sqlline-$version-jar-with-dependencies.jar#/sqlline.jar",
+        "hash": {
+            "url": "$url.sha1"
+        }
+    }
+}
