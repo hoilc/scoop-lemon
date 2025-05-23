@@ -1,0 +1,21 @@
+{
+    "version": "3.1.3",
+    "description": "A simple HTTP/2 server for development.",
+    "homepage": "https://github.com/GoogleChromeLabs/simplehttp2server",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GoogleChromeLabs/simplehttp2server/releases/download/3.1.3/simplehttp2server_windows_amd64.exe#/simplehttp2server.exe",
+            "hash": "7b5c952ae2166a934f0572d7143490be92bbf7f12506f2a13e189caf831dda63"
+        }
+    },
+    "bin": "simplehttp2server.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GoogleChromeLabs/simplehttp2server/releases/download/$version/simplehttp2server_windows_amd64.exe#/simplehttp2server.exe"
+            }
+        }
+    }
+}
