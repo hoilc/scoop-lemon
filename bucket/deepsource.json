@@ -1,12 +1,12 @@
 {
-    "version": "0.8.6",
+    "version": "0.9.0",
     "description": "The command line interface to DeepSource, a DevSecOps Platform.",
     "homepage": "https://deepsource.com/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DeepSourceCorp/cli/releases/download/v0.8.6/deepsource_0.8.6_windows_amd64.tar.gz",
-            "hash": "10d7bf2d6d8073a20f47982fd1db4f285666c1a6be2d89f555b097676da106d2"
+            "url": "https://github.com/DeepSourceCorp/cli/releases/download/v0.9.0/deepsource_0.9.0_windows_amd64.tar.gz",
+            "hash": "3eea8dd28ff3500a4c33728224178b2fa0659bb6148b6d6a7eae4dea8e7fbc1c"
         }
     },
     "bin": "deepsource.exe",
