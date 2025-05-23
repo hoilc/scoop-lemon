@@ -1,0 +1,37 @@
+{
+    "version": "2.9.0",
+    "description": "An app for editing Skript files.",
+    "homepage": "https://github.com/SkEditorTeam/SkEditor",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.0/Windows-x64.zip",
+            "extract_dir": "SkEditor-Windows-x64",
+            "hash": "08931b8a370e36ad7728e7bf528cc336c3b49bbb155a127dca47d8590953091e"
+        },
+        "arm64": {
+            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.0/Windows-arm64.zip",
+            "extract_dir": "SkEditor-Windows-arm64",
+            "hash": "ed79945846ea1d703c07bc48b1ce80785763dc571045ea9fbb8e0280d4ff864d"
+        }
+    },
+    "shortcuts": [
+        [
+            "SkEditor.exe",
+            "SkEditor"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\SkEditor\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "SkEditor is NOT portable. Settings are stored in '%APPDATA%\\SkEditor', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v$version/Windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v$version/Windows-arm64.zip"
+            }
+        }
+    }
+}
