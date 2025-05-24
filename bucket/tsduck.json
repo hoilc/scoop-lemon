@@ -1,16 +1,16 @@
 {
-    "version": "3.40-4165",
+    "version": "3.41-4299",
     "description": "An extensible toolkit for MPEG transport streams.",
     "homepage": "https://tsduck.io/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsduck/tsduck/releases/download/v3.40-4165/TSDuck-Win64-3.40-4165-Portable.zip",
-            "hash": "033d77161eb402cdecc698ad3083769037774278de5b7c0d446ce9c303967325"
+            "url": "https://github.com/tsduck/tsduck/releases/download/v3.41-4299/TSDuck-Win64-3.41-4299-Portable.zip",
+            "hash": "6fab79cc828f3ab1e62457a853478ede575f61019866f0b1efeaffcf834a4359"
         },
         "arm64": {
-            "url": "https://github.com/tsduck/tsduck/releases/download/v3.40-4165/TSDuck-Arm64-3.40-4165-Portable.zip",
-            "hash": "92a6d99befcab10dcaaee2227d757981c8816b1a8e63fca3ac9518484e9fb144"
+            "url": "https://github.com/tsduck/tsduck/releases/download/v3.41-4299/TSDuck-Arm64-3.41-4299-Portable.zip",
+            "hash": "628184a7c66ca35f2cf1f870ab4b6f0aaa8cdddd4aacc05d4a4c57600bcc0c97"
         }
     },
     "extract_dir": "TSDuck",
