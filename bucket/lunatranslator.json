@@ -1,18 +1,18 @@
 {
-    "version": "9.4.6.2-202505181749",
+    "version": "10.1.3.1-202505260005",
     "description": "LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v9.4.6.2/LunaTranslator_x64.zip",
-            "extract_dir": "LunaTranslator_x64",
-            "hash": "74e644a70ef56a50051228e65d198d562a8670a2b6c443984d98607496d052f6"
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.1.3.1/LunaTranslator_x64_win10.zip",
+            "extract_dir": "LunaTranslator_x64_win10",
+            "hash": "5512c0bd0e0db1082daae4b93b6b70636cf2bf7d3c92b7b33efc3c14fe590fe1"
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v9.4.6.2/LunaTranslator_x86.zip",
-            "extract_dir": "LunaTranslator_x86",
-            "hash": "71027727ccbe5f3a9a30220e9536af3edfc6f694457058414a99fb99d761ec80"
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.1.3.1/LunaTranslator_x86_win7.zip",
+            "extract_dir": "LunaTranslator_x86_win7",
+            "hash": "2a4709ebddd14a11c45be120c22e72b2fd2c927cf65633f79d61e19756288a8d"
         }
     },
     "shortcuts": [
@@ -43,10 +43,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x64.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x64_win10.zip"
             },
             "32bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x86.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x86_win7.zip"
             }
         }
     }
