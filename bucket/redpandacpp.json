@@ -1,16 +1,16 @@
 {
-    "version": "3.2",
+    "version": "3.3",
     "description": "Red Panda C++ is a lightweight yet powerful C/C++/GNU Assembly IDE.",
     "homepage": "http://royqh.net/redpandacpp/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.2/RedPanda.C++.3.2.win64.MinGW64_11.4.Portable.7z",
-            "hash": "aecbd672d562591db6da2d95ac4a508baa33c83e61bad7a81958cdc913b819ba"
+            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.3/RedPanda.C++.3.3.win64.MinGW64_11.5.0.Portable.7z",
+            "hash": "742c7150adbfe8d889ccec06967a863b43b51e7d27192d39a49723b39e5a5eac"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.2/RedPanda.C++.3.2.win32.MinGW32_11.5.Portable.7z",
-            "hash": "a1b20e31ad78c13da8945284473702c9262bf47e1a2d944e24c192528dc86430"
+            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.3/RedPanda.C++.3.3.win32.MinGW32_11.5.0.Portable.7z",
+            "hash": "52fb4ce3e6c756e68fa255d07909454f1ff91ff36ae7d2443191cedd5758e399"
         }
     },
     "extract_dir": "RedPanda-CPP",
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win64.MinGW64_11.4.Portable.7z"
+                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win64.MinGW64_11.5.0.Portable.7z"
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win32.MinGW32_11.5.Portable.7z"
+                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win32.MinGW32_11.5.0.Portable.7z"
             }
         }
     }
