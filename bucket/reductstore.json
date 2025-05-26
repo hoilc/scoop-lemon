@@ -1,12 +1,12 @@
 {
-    "version": "1.15.2",
+    "version": "1.15.3",
     "description": "A high-performance, time-series object storage and streaming solution.",
     "homepage": "https://www.reduct.store/",
     "license": "BUSL-1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reductstore/reductstore/releases/download/v1.15.2/reductstore.x86_64-pc-windows-gnu.zip",
-            "hash": "84a1f326602de149a8c0c8273680794224b3239ed6720000b05e0f445a461e7c"
+            "url": "https://github.com/reductstore/reductstore/releases/download/v1.15.3/reductstore.x86_64-pc-windows-gnu.zip",
+            "hash": "88751ce4cd3d0650db7042b28091cffc76137aa055d7a5d79fb3636fdb2ec24c"
         }
     },
     "bin": "reductstore.exe",
