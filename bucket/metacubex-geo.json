@@ -1,0 +1,28 @@
+{
+    "version": "1.1",
+    "description": "An easy way to manage all your Geo resources.",
+    "homepage": "https://github.com/MetaCubeX/geo",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MetaCubeX/geo/releases/download/v1.1/geo-windows-amd64.exe#/geo.exe",
+            "hash": "535889bc4c0fa710a56ba99376ef8d0e186906b44dc15349e8d7c203f4fd68da"
+        },
+        "arm64": {
+            "url": "https://github.com/MetaCubeX/geo/releases/download/v1.1/geo-windows-arm64.exe#/geo.exe",
+            "hash": "a6a1c7b596c531a6189e387964afceb5c64b74908481b5c70658e2e04c54992b"
+        }
+    },
+    "bin": "geo.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MetaCubeX/geo/releases/download/v$version/geo-windows-amd64.exe#/geo.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/MetaCubeX/geo/releases/download/v$version/geo-windows-arm64.exe#/geo.exe"
+            }
+        }
+    }
+}
