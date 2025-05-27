@@ -1,0 +1,28 @@
+{
+    "version": "2.8",
+    "description": "An open source software tools for managing network attached LXI compatible test instruments.",
+    "homepage": "https://github.com/lxi-tools/lxi-tools",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lxi-tools/lxi-tools/releases/download/v2.8/lxi-tools-2.8.exe#/dl.7z",
+            "hash": "1c61a5da8a9c6ea31aace327969a41834f887509a044aa1fbd9f529456997320"
+        }
+    },
+    "bin": "usr\\bin\\lxi.exe",
+    "shortcuts": [
+        [
+            "usr\\bin\\lxi-gui.exe",
+            "LXI Tools"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lxi-tools/lxi-tools/releases/download/v$version/lxi-tools-$version.exe#/dl.7z"
+            }
+        }
+    }
+}
