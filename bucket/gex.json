@@ -1,0 +1,24 @@
+{
+    "version": "0.6.4",
+    "description": "A cross-platform git workflow improvement tool inspired by Magit.",
+    "homepage": "https://codeberg.org/Piturnah/gex",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://codeberg.org/Piturnah/gex/releases/download/v0.6.4/gex-x86_64-pc-windows-msvc.zip",
+            "hash": "d83afabb79ad98e8b002585a9e3d41fcec047f9e2e0a90edebaf2412bd8b89d6"
+        }
+    },
+    "bin": "gex.exe",
+    "checkver": {
+        "url": "https://codeberg.org/Piturnah/gex/releases.rss",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://codeberg.org/Piturnah/gex/releases/download/v$version/gex-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
