@@ -1,0 +1,9 @@
+{
+    "version": "0.11",
+    "description": "A command line tool for extracting images, sounds, music and miscellaneous resources from visual novels (and some other Japanese games).",
+    "homepage": "https://github.com/vn-tools/arc_unpacker",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/vn-tools/arc_unpacker/releases/download/0.11/arc_unpacker-0.11-bin.zip",
+    "hash": "c55bdd25a8f4e0f9aa58e2f2c806faf179514f4b929c43016dbf606d16ba2bc7",
+    "bin": "arc_unpacker.exe"
+}
