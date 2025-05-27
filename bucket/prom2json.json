@@ -1,0 +1,44 @@
+{
+    "version": "1.4.2",
+    "description": "A tool to scrape a Prometheus client and dump the result as JSON.",
+    "homepage": "https://github.com/prometheus/prom2json",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/prometheus/prom2json/releases/download/v1.4.2/prom2json-1.4.2.windows-amd64.zip",
+            "extract_dir": "prom2json-1.4.2.windows-amd64",
+            "hash": "df2e6dea165ea449fe5baf2ddfd98a3baf61a878689b5a59d6c1e1d48cb409e9"
+        },
+        "32bit": {
+            "url": "https://github.com/prometheus/prom2json/releases/download/v1.4.2/prom2json-1.4.2.windows-386.zip",
+            "extract_dir": "prom2json-1.4.2.windows-386",
+            "hash": "8f9ce39cc33d87b49b61eba53c30f78def6780f79edc55d468bf72ea9bd6d4a0"
+        },
+        "arm64": {
+            "url": "https://github.com/prometheus/prom2json/releases/download/v1.4.2/prom2json-1.4.2.windows-arm64.zip",
+            "extract_dir": "prom2json-1.4.2.windows-arm64",
+            "hash": "f13c292e12e9f62a534e85dab0b3e080f08839bf62ec19e6469e42a448dd5bf1"
+        }
+    },
+    "bin": "prom2json.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prometheus/prom2json/releases/download/v$version/prom2json-$version.windows-amd64.zip",
+                "extract_dir": "prom2json-$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/prometheus/prom2json/releases/download/v$version/prom2json-$version.windows-386.zip",
+                "extract_dir": "prom2json-$version.windows-386"
+            },
+            "arm64": {
+                "url": "https://github.com/prometheus/prom2json/releases/download/v$version/prom2json-$version.windows-arm64.zip",
+                "extract_dir": "prom2json-$version.windows-arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
