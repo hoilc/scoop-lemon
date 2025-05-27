@@ -1,0 +1,13 @@
+{
+    "version": "5.2.3",
+    "description": "WAD composer for Doom, Heretic, Hexen, and Strife.",
+    "homepage": "https://github.com/Doom-Utils/deutex",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/Doom-Utils/deutex/releases/download/v5.2.3/deutex-5.2.3_w32.zip",
+    "hash": "9c07f354fd81384a0e91844b7c152114da1a3566343de846db443de38b82a1ad",
+    "bin": "deutex.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Doom-Utils/deutex/releases/download/v$version/deutex-$version_w32.zip"
+    }
+}
