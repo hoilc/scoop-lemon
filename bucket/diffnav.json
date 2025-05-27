@@ -13,7 +13,7 @@
             "hash": "bc1f790e11557e9c0227c833908baea339328450584d5b3cb1b7430ae6ec2cb0"
         },
         "arm64": {
-            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.3.1/diffnav_Windows_arm64.zip ",
+            "url": "https://github.com/dlvhdr/diffnav/releases/download/v0.3.1/diffnav_Windows_arm64.zip",
             "hash": "50b5db7b23f7a6cd11965f8593811457725c7b7a45be46d44ae712950499ed53"
         }
     },
@@ -28,7 +28,7 @@
                 "url": "https://github.com/dlvhdr/diffnav/releases/download/v$version/diffnav_Windows_i386.zip"
             },
             "arm64": {
-                "url": "https://github.com/dlvhdr/diffnav/releases/download/v$version/diffnav_Windows_arm64.zip "
+                "url": "https://github.com/dlvhdr/diffnav/releases/download/v$version/diffnav_Windows_arm64.zip"
             }
         },
         "hash": {
