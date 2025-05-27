@@ -1,0 +1,35 @@
+{
+    "version": "1.0.46",
+    "description": "An image and texture viewer for tga, png, apng, exr, dds, pvr, ktx, ktx2, astc, pkm, qoi, gif, hdr, jpg, tiff, ico, webp, and bmp files.",
+    "homepage": "https://bluescan.github.io/tacentview/",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bluescan/tacentview/releases/download/v1.0.46/tacentview_1.0.46.zip",
+            "extract_dir": "tacentview_1.0.46",
+            "hash": "5ce6b97e232af5be9d4725b6e29d8e2cdb8fae102e4647cea2cfef4372f617a0"
+        }
+    },
+    "bin": "tacentview.exe",
+    "shortcuts": [
+        [
+            "tacentview.exe",
+            "Tacent View"
+        ]
+    ],
+    "persist": [
+        "Config",
+        "Cache"
+    ],
+    "checkver": {
+        "github": "https://github.com/bluescan/tacentview"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bluescan/tacentview/releases/download/v$version/tacentview_$version.zip",
+                "extract_dir": "tacentview_$version"
+            }
+        }
+    }
+}
