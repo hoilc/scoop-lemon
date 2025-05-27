@@ -1,0 +1,31 @@
+{
+    "version": "1.1.1",
+    "description": "A program which ensures source code files have copyright license headers by scanning directory patterns recursively.",
+    "homepage": "https://github.com/google/addlicense",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/google/addlicense/releases/download/v1.1.1/addlicense_1.1.1_Windows_x86_64.zip",
+            "hash": "50a8ea5bbfb026169e2ec516af101697d921c0d68dfed93fd958bf28d32ea1d5"
+        },
+        "arm64": {
+            "url": "https://github.com/google/addlicense/releases/download/v1.1.1/addlicense_1.1.1_Windows_arm64.zip",
+            "hash": "db450c94a92651a41e2b91a766a975973fe26d56c58742d7aee2ece798bcf574"
+        }
+    },
+    "bin": "addlicense.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_$version_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_$version_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
