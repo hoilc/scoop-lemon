@@ -1,0 +1,20 @@
+{
+    "##": "#updateManually",
+    "version": "1.3.0",
+    "description": "A one-stop solution for detecting color blindness-related issues in games.",
+    "homepage": "https://github.com/ubisoft/Chroma",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ubisoft/Chroma/raw/c59a9ef9036a070bae98c93cc3258efe51e6d2dd/Releases/Chroma_setup.exe",
+            "hash": "c70b4b7767a1201a4963c4226006fcb576eb3050c95f73ce696789d8bda43ce8"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "UbiChroma.exe",
+            "Ubisoft Chroma"
+        ]
+    ]
+}
