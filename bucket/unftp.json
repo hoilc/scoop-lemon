@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bolcom/unFTP/releases/download/v0.15.1/unftp_x86_64-pc-windows-msvc.exe#/unftp.exe"
+                "url": "https://github.com/bolcom/unFTP/releases/download/v$version/unftp_x86_64-pc-windows-msvc.exe#/unftp.exe"
             }
         }
     }
