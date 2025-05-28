@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cocogitto/cocogitto/releases/download/6.3.0/cocogitto-6.3.0-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/cocogitto/cocogitto/releases/download/$version/cocogitto-$version-x86_64-pc-windows-msvc.tar.gz"
             }
         }
     }
