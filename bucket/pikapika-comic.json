@@ -1,12 +1,12 @@
 {
-    "version": "1.8.12",
+    "version": "1.8.13",
     "description": "一款美观易用且无广告的哔咔漫画客户端",
     "homepage": "https://github.com/niuhuan/pikapika",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/niuhuan/pikapika/releases/download/v1.8.12/pikapika-v1.8.12-windows-x86_64-flutter_2.10.3.zip",
-            "hash": "c87550f3aa96ad0ce41193e4fdf18add86ca473e156d7f0f7d129d4ae928b905"
+            "url": "https://github.com/niuhuan/pikapika/releases/download/v1.8.13/pikapika-v1.8.13-windows-x86_64-flutter_2.10.3.zip",
+            "hash": "508979b2011c63f71f707cc03565bc2400c5ced355729d26f24e9aa1de35039f"
         }
     },
     "shortcuts": [
