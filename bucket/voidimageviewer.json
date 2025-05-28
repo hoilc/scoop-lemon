@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0.9",
+    "description": "void Image Viewer is a lightweight image viewer for Windows with animated GIF/WEBP support.",
+    "homepage": "https://github.com/voidtools/voidImageViewer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x64.en-US.zip",
+            "hash": "a9fcc1e628f4f69ff9e7832c51a29b83b871f7a400a2b2188608fb3380455b8a"
+        },
+        "arm64": {
+            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x86.en-US.zip",
+            "hash": "6fbef28cdc5a37fa5432fdbd532f224cff38a30689d45786e44bd8e52b101bba"
+        }
+    },
+    "shortcuts": [
+        [
+            "voidImageViewer.exe",
+            "void Image Viewer"
+        ]
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\\backup\") { Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/voidtools/voidImageViewer/releases/download/$version/voidImageViewer-$version.x64.en-US.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/voidtools/voidImageViewer/releases/download/$version/voidImageViewer-$version.x86.en-US.zip"
+            }
+        }
+    }
+}
