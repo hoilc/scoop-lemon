@@ -5,12 +5,12 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-x64.zip",
-            "hash": "43e97b959495f1ea1a91f7b2c502d3fe87ca954e687caae7ae4a5893993cf4d8"
+            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.4.0/DepotDownloader-windows-x64.zip",
+            "hash": "41c9e9f0df54b3ad02e67a11726756e5c73283bd7c2e1b04acfa5ae4c2ed3767"
         },
         "arm64": {
-            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-arm64.zip",
-            "hash": "8a60c12c22c9cfaff9a4104e9c69410cf3c5a30dd35a75a5f9736da718555def"
+            "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_3.4.0/DepotDownloader-windows-arm64.zip",
+            "hash": "1449ba47775e9974036e615bedf00d72bef747cc5b93a78048ed4e0b2c63b2b3"
         }
     },
     "bin": "DepotDownloader.exe",
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-x64.zip"
+                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_$version/DepotDownloader-windows-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.4/DepotDownloader-windows-arm64.zip"
+                "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_$version/DepotDownloader-windows-arm64.zip"
             }
         }
     }
