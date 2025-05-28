@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-x86_64-pc-windows-msvc.zip",
-            "hash": "fd2f2d41ca961ed1c6022a7e4fab59a283e876e9312fa7e9439cc8b29b73464c"
+            "url": "https://github.com/anistark/feluda/releases/download/1.7.0/feluda-x86_64-pc-windows-msvc.zip",
+            "hash": "d5e1911f74ae92196df8ceebb05e19c191e4a9849b3caf3dbfb43b92db8bd2ac"
         },
         "arm64": {
-            "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-aarch64-pc-windows-msvc.zip",
-            "hash": "4e49bda83f01c05fd848408c676eb1e23b693eccdd2a7921ecf7183c42dacbad"
+            "url": "https://github.com/anistark/feluda/releases/download/1.7.0/feluda-aarch64-pc-windows-msvc.zip",
+            "hash": "d3da0216c3aa886c602a34fb328e41ea7ffd33f4c8fd2e56451be894136b9526"
         }
     },
     "bin": "feluda.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/anistark/feluda/releases/download/$version/feluda-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/anistark/feluda/releases/download/1.6.2/feluda-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/anistark/feluda/releases/download/$version/feluda-aarch64-pc-windows-msvc.zip"
             }
         }
     }
