@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/alirezagsm/Trayy/releases/download/v1.0/Trayy.zip"
+                "url": "https://github.com/alirezagsm/Trayy/releases/download/v$version/Trayy.zip"
             }
         }
     }
