@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nats-io/nsc/releases/download/v2.11.0/nsc-windows-amd64.zip"
+                "url": "https://github.com/nats-io/nsc/releases/download/v$version/nsc-windows-amd64.zip"
             }
         },
         "hash": {
