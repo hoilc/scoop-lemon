@@ -27,6 +27,7 @@ jobs:
         SCOOP_GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SCOOP_BRANCH: 'master'
         THROW_ERROR: '0'
+        SPECIAL_SNOWFLAKES: 'imtip,gif123'
     - name: Show rate limit for GitHub API (After)
       shell: powershell
       run: |
