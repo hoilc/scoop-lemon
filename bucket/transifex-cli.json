@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-amd64.zip"
+                "url": "https://github.com/transifex/cli/releases/download/v$version/tx-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/transifex/cli/releases/download/v1.6.17/tx-windows-386.zip"
+                "url": "https://github.com/transifex/cli/releases/download/v$version/tx-windows-386.zip"
             }
         },
         "hash": {
