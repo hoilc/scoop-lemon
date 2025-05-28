@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.16.0/gguf-parser-windows-amd64.exe#/gguf-parser.exe",
-            "hash": "c92e81fc35df7bb5f4c9b19f16ed20814c8d06dfe97d4ec156d928c395575460"
+            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.18.1/gguf-parser-windows-amd64.exe#/gguf-parser.exe",
+            "hash": "1ce062b78896c6f436eaf5003e18790d35e4a191408a75ba86b6460e2240faa9"
         },
         "arm64": {
-            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.16.0/gguf-parser-windows-arm64.exe#/gguf-parser.exe",
-            "hash": "dc843256a4cf3320f2bf3b6d90bf9f4b8ddf25b6a4e9272882ce2bb06be36699"
+            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.18.1/gguf-parser-windows-arm64.exe#/gguf-parser.exe",
+            "hash": "4d0515bab9dc3a2d0febb82afa5bc1e23bc7a09faa9df74b6a41de54873ccc1a"
         }
     },
     "bin": "gguf-parser.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.16.0/gguf-parser-windows-amd64.exe#/gguf-parser.exe"
+                "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v$version/gguf-parser-windows-amd64.exe#/gguf-parser.exe"
             },
             "arm64": {
-                "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.16.0/gguf-parser-windows-arm64.exe#/gguf-parser.exe"
+                "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v$version/gguf-parser-windows-arm64.exe#/gguf-parser.exe"
             }
         }
     }
