@@ -1,0 +1,38 @@
+{
+    "version": "0.2.25",
+    "description": "A command line software that allows you to quickly run various transformation operations on the string.",
+    "homepage": "https://github.com/abhimanyu003/sttr",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.25/sttr_Windows_x86_64.zip",
+            "hash": "e6fae08391a18d5c80f5e286cddadd02bd9447b6c16c7dc62b54257ed3312d7f"
+        },
+        "32bit": {
+            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.25/sttr_Windows_i386.zip",
+            "hash": "01b7312b8dca05eda9ca80a3fcb32ffa30a3ffcba8d11b2687ae2f65dc425f6e"
+        },
+        "arm64": {
+            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.25/sttr_Windows_arm64.zip",
+            "hash": "b2dc9f1da4850cbaeec8150e4c444f061ca662c46777f0713ab764d431a59562"
+        }
+    },
+    "bin": "sttr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/abhimanyu003/sttr/releases/download/v$version/sttr_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/abhimanyu003/sttr/releases/download/v$version/sttr_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/abhimanyu003/sttr/releases/download/v$version/sttr_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sttr_$version_checksums.txt"
+        }
+    }
+}
