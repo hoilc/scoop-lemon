@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rigaya/VCEEnc/releases/download/8.35/VCEEncC_8.35_x64.7z"
+                "url": "https://github.com/rigaya/VCEEnc/releases/download/$version/VCEEncC_$version_x64.7z"
             },
             "32bit": {
-                "url": "https://github.com/rigaya/VCEEnc/releases/download/8.35/VCEEncC_8.35_Win32.7z"
+                "url": "https://github.com/rigaya/VCEEnc/releases/download/$version/VCEEncC_$version_Win32.7z"
             }
         }
     }
