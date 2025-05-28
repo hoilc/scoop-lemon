@@ -1,0 +1,31 @@
+{
+    "version": "0.9.1",
+    "description": "The hcp CLI lets you administer HashiCorp Cloud Platform (HCP) resources and services.",
+    "homepage": "https://github.com/hashicorp/hcp",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.hashicorp.com/hcp/0.9.1/hcp_0.9.1_windows_amd64.zip",
+            "hash": "becb7bb72b9c7eafdc23456f39ca269deb6e7a37e39dcc11205f13f7a105056b"
+        },
+        "32bit": {
+            "url": "https://releases.hashicorp.com/hcp/0.9.1/hcp_0.9.1_windows_386.zip",
+            "hash": "3cb212a768398e7a3ae47866996f0ca6c2d6d1dd9927e007a3e4dc06987b54cf"
+        }
+    },
+    "bin": "hcp.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.hashicorp.com/hcp/$version/hcp_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://releases.hashicorp.com/hcp/$version/hcp_$version_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/hcp_$version_SHA256SUMS"
+        }
+    }
+}
