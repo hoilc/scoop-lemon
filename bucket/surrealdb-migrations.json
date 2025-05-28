@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v2.2.1/surrealdb-migrations_v2.2.1_x86_64-pc-windows-gnu.zip",
-            "hash": "afed50a16c5ff3049685f4ae698af3b2794d65c3db3f36563d109f8deb7b811e"
+            "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v2.2.2/surrealdb-migrations_v2.2.2_x86_64-pc-windows-gnu.zip",
+            "hash": "40d4b851bafab0e4d4ba39df97506a657de2f8bdf4090c4b3abdf56e18419c08"
         }
     },
     "bin": "surrealdb-migrations.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v2.2.1/surrealdb-migrations_v2.2.1_x86_64-pc-windows-gnu.zip"
+                "url": "https://github.com/Odonno/surrealdb-migrations/releases/download/v$version/surrealdb-migrations_v$version_x86_64-pc-windows-gnu.zip"
             }
         },
         "hash": {
