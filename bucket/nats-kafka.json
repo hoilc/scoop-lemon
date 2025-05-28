@@ -26,16 +26,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-amd64.zip",
-                "extract_dir": "nats-kafka-v1.4.2-windows-amd64"
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v$version/nats-kafka-v$version-windows-amd64.zip",
+                "extract_dir": "nats-kafka-v$version-windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-386.zip",
-                "extract_dir": "nats-kafka-v1.4.2-windows-386"
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v$version/nats-kafka-v$version-windows-386.zip",
+                "extract_dir": "nats-kafka-v$version-windows-386"
             },
             "arm64": {
-                "url": "https://github.com/nats-io/nats-kafka/releases/download/v1.4.2/nats-kafka-v1.4.2-windows-arm64.zip",
-                "extract_dir": "nats-kafka-v1.4.2-windows-arm64"
+                "url": "https://github.com/nats-io/nats-kafka/releases/download/v$version/nats-kafka-v$version-windows-arm64.zip",
+                "extract_dir": "nats-kafka-v$version-windows-arm64"
             }
         },
         "hash": {
