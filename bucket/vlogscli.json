@@ -1,12 +1,12 @@
 {
-    "version": "1.22.2",
+    "version": "1.23.0",
     "description": "An interactive command-line tool for querying VictoriaLogs.",
     "homepage": "https://docs.victoriametrics.com/victorialogs/querying/vlogscli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.22.2-victorialogs/vlogscli-windows-amd64-v1.22.2-victorialogs.zip",
-            "hash": "e30e22779a10beccdc947b4cf50e206ee832ee3e9aa465bab5d6c52d7a9f635e"
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.23.0-victorialogs/vlogscli-windows-amd64-v1.23.0-victorialogs.zip",
+            "hash": "4f551244d3f59b33af2cc5fb33b97fc8a2f2500496632cad291045a5dc11607c"
         }
     },
     "bin": "vlogscli.exe",
