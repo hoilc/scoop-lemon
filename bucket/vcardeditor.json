@@ -1,10 +1,10 @@
 {
-    "version": "0.5.7",
+    "version": "0.5.8",
     "description": "A simple vCard (*.vcf) file editor.",
     "homepage": "https://github.com/abdelkader/vCardEditor",
     "license": "Freeware",
-    "url": "https://github.com/abdelkader/vCardEditor/releases/download/v0.5.7/vCardEditor.exe",
-    "hash": "443b1597c9e41cea5967713f61454b8ab13c58b37fdc5886bd0306802611ac4d",
+    "url": "https://github.com/abdelkader/vCardEditor/releases/download/v0.5.8/vCardEditor.exe",
+    "hash": "1a55145c65de39ab1bfc4937e5e608399011216f8ed09929824f759f9f0a6e33",
     "shortcuts": [
         [
             "vCardEditor.exe",
