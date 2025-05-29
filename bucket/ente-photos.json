@@ -1,18 +1,18 @@
 {
-    "version": "1.7.12",
+    "version": "1.7.13",
     "description": "A secure, cross-platform, open source, encrypted photo storage app.",
     "homepage": "https://ente.io/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.12/ente-1.7.12-x64.exe#/dl.7z",
+            "url": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.13/ente-1.7.13-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "12ddf47eb28cd543f139b1a80655e96156371db8227b4f349ed18992c110d1eb"
+            "hash": "093177c6f5b374aa441f7fc4f03f1d693ec9eb8315def19721d3dee0549bb362"
         },
         "arm64": {
-            "url": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.12/ente-1.7.12-arm64.exe#/dl.7z",
+            "url": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.13/ente-1.7.13-arm64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-            "hash": "756cb30cf153141c29a11313e7039b6b7ab914bb9746c2f28d85a52e5c2ce70d"
+            "hash": "3b7a8522591c2040dbc40001d6b522380f0cc1241afa87131b4119f506e26d39"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
