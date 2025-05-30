@@ -1,0 +1,36 @@
+{
+    "version": "1.1-beta",
+    "description": "A opensource game inspired by Snake, written in pure C with SDL.",
+    "homepage": "https://github.com/yujqiao/DungeonRush",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yujqiao/DungeonRush/releases/download/v1.1-beta/DungeonRush-v1.1-beta-Windows-x86_64.zip",
+            "hash": "9aba4a040005123fa870506b6b92c064b1e0969f2753cfd46d0ccb50ba431ace"
+        },
+        "32bit": {
+            "url": "https://github.com/yujqiao/DungeonRush/releases/download/v1.1-beta/DungeonRush-v1.1-beta-Windows-i686.zip",
+            "hash": "4a5f2781a0ff019a67c6d437f3f054ee7e200a9f57ff6a0bd088f8479be28b88"
+        }
+    },
+    "shortcuts": [
+        [
+            "dungeon_rush.exe",
+            "Dungeon Rush"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/yujqiao/DungeonRush/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yujqiao/DungeonRush/releases/download/v$version/DungeonRush-v$version-Windows-x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/yujqiao/DungeonRush/releases/download/v$version/DungeonRush-v$version-Windows-i686.zip"
+            }
+        }
+    }
+}
