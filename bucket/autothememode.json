@@ -1,0 +1,29 @@
+{
+    "version": "1.5.2",
+    "description": "A simple Windows Color Mode switching tool that enables your system to automatically switch between light and dark themes.",
+    "homepage": "https://github.com/tuyangJs/Windows_AutoTheme",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tuyangJs/Windows_AutoTheme/releases/download/v1.5.2/AutoThemeMode_1.5.2_x64-setup.exe#/dl.7z",
+            "hash": "2a61f80793c172bd39384a61cd2291be46731e584fb3f0f1b419355c32bbf6e1"
+        }
+    },
+    "shortcuts": [
+        [
+            "AutoThemeMode.exe",
+            "AutoThemeMode"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.AutoThemeMode.cn\", \"$env:LOCALAPPDATA\\com.AutoThemeMode.cn\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "AutoThemeMode is NOT portable. Settings are stored in '%APPDATA%\\com.AutoThemeMode.cn', and will be purged during uninstallation.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tuyangJs/Windows_AutoTheme/releases/download/v$version/AutoThemeMode_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
