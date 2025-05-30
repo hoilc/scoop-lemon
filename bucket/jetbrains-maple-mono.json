@@ -1,10 +1,10 @@
 {
-    "version": "1.2304.72",
+    "version": "1.2304.73",
     "description": "The free and open-source font fused with JetBrains Mono & Maple Mono.",
     "homepage": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono",
     "license": "OFL-1.1",
-    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.72/JetBrainsMapleMono-XX-XX-XX.zip",
-    "hash": "818b0597c152ede5ff336263a029b18e32c89e252b8ed2e8f50eda3cd61f2f9c",
+    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.73/JetBrainsMapleMono-XX-XX-XX.zip",
+    "hash": "0b435edb1f7361ec292aaf91418da25d4dd48bc6dded2ae02a71d8006c711dab",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/$version/JetBrainsMapleMono-XX-XX-XX.zip"
