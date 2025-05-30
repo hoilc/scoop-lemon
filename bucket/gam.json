@@ -1,12 +1,12 @@
 {
-    "version": "7.07.15",
+    "version": "7.07.16",
     "description": "A command line tool that allows administrators to manage many aspects of their Google Workspace (formerly G Suite / Google Apps) Account.",
     "homepage": "https://github.com/GAM-team/GAM",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GAM-team/GAM/releases/download/v7.07.15/gam-7.07.15-windows-x86_64.zip",
-            "hash": "2cff9f9f0edacb155598bb409f0e838fb25965ce74b1dbd2774a7705f2f7c125"
+            "url": "https://github.com/GAM-team/GAM/releases/download/v7.07.16/gam-7.07.16-windows-x86_64.zip",
+            "hash": "2d5d26c715e87df2c68977c9385b8faa846c2827a529fc5eace98f9b442e5cde"
         }
     },
     "extract_dir": "gam7",
