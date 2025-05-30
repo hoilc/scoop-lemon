@@ -1,18 +1,18 @@
 {
-    "version": "0.4.9",
+    "version": "0.4.10",
     "description": "One-stop telemetry collector for nightingale / prometheus / m3db / victoriametrics / thanos / influxdb / tdengine.",
     "homepage": "https://github.com/flashcatcloud/categraf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/flashcatcloud/categraf/releases/download/v0.4.9/categraf-v0.4.9-windows-amd64.zip",
-            "extract_dir": "categraf-v0.4.9-windows-amd64",
-            "hash": "e51fbbba3af5af59e1201bb0284a2ed0c9c08d5d5abca4c0e639f9e00fb0ffdf"
+            "url": "https://github.com/flashcatcloud/categraf/releases/download/v0.4.10/categraf-v0.4.10-windows-amd64.zip",
+            "extract_dir": "categraf-v0.4.10-windows-amd64",
+            "hash": "c805c56ee02e5a1c5fdd3619976ddc0ca8c074fb3d953c86bb06d34a58de7db3"
         },
         "arm64": {
-            "url": "https://github.com/flashcatcloud/categraf/releases/download/v0.4.9/categraf-v0.4.9-windows-arm64.zip",
-            "extract_dir": "categraf-v0.4.9-windows-arm64",
-            "hash": "524050d8fcb61fd60ac803a528e16be578b87a79965f8697848ef80ab335f52c"
+            "url": "https://github.com/flashcatcloud/categraf/releases/download/v0.4.10/categraf-v0.4.10-windows-arm64.zip",
+            "extract_dir": "categraf-v0.4.10-windows-arm64",
+            "hash": "4717f199cb5d841c23382765a3f707b4a84cd3da380b02ea580746b809a0dc80"
         }
     },
     "bin": "categraf.exe",
