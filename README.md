@@ -38,7 +38,7 @@ scoop install lemon/<app_name>
 |[7zip-zs](https://github.com/mcmilk/7-Zip-zstd)|[24.09-v1.5.7-R1](https://github.com/mcmilk/7-Zip-zstd/releases/latest)|7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard.|
 |[a2fa](https://github.com/csyezheng/a2fa/)|[0.16.5](https://github.com/csyezheng/a2fa/)|A command line tool for generating and validating one-time password.|
 |[a5m2](https://a5m2.mmatsubara.com/index.en.html)|[2.20.3](https://a5m2.mmatsubara.com/index.en.html)|A5:SQL Mk-2 is a SQL development environment & ER diagram tool.|
-|[aardio](https://www.aardio.com/)|[40.7.3](http://d.aardio.com/ide/check/)|aardio 编程语言，专注于桌面软件快速开发|
+|[aardio](https://www.aardio.com/)|[40.8.0](http://d.aardio.com/ide/check/)|aardio 编程语言，专注于桌面软件快速开发|
 |[abcl](https://armedbear.common-lisp.dev/)|[1.9.2](https://armedbear.common-lisp.dev/)|Armed Bear Common Lisp (ABCL) is a full implementation of the Common Lisp language featuring both an interpreter and a compiler, running in the JVM.|
 |[abs-lang](https://www.abs-lang.org/)|[2.7.2](https://www.abs-lang.org/)|A programming language that works best when you're scripting on your terminal.|
 |[abstreet](https://github.com/a-b-street/abstreet)|[0.3.49](https://github.com/a-b-street/abstreet)|Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public transit.|
@@ -132,8 +132,8 @@ scoop install lemon/<app_name>
 |[avidemux-nightly](http://avidemux.sourceforge.net/)|[241212](http://www.avidemux.org/nightly/win64/)|A video editor designed for simple cutting, filtering and encoding tasks.|
 |[aws-auth](https://github.com/keikoproj/aws-auth)|[0.6.1](https://github.com/keikoproj/aws-auth)|A utility that manages the aws-auth config map for EKS Kubernetes clusters|
 |[aws-copilot-cli](https://aws.github.io/copilot-cli/)|[1.34.1](https://aws.github.io/copilot-cli/)|AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on AWS App Runner or Amazon ECS on AWS Fargate.|
-|[aws-sso-cli](https://synfinatic.github.io/aws-sso-cli/)|[2.0.1](https://synfinatic.github.io/aws-sso-cli/)|A powerful tool for using AWS Identity Center for the CLI and web console.|
-|[awsdac](https://github.com/awslabs/diagram-as-code)|[0.21.11](https://github.com/awslabs/diagram-as-code)|A CLI tool enables drawing infrastructure diagrams for Amazon Web Services through YAML code.|
+|[aws-sso-cli](https://synfinatic.github.io/aws-sso-cli/)|[2.0.3](https://synfinatic.github.io/aws-sso-cli/)|A powerful tool for using AWS Identity Center for the CLI and web console.|
+|[awsdac](https://github.com/awslabs/diagram-as-code)|[0.21.12](https://github.com/awslabs/diagram-as-code)|A CLI tool enables drawing infrastructure diagrams for Amazon Web Services through YAML code.|
 |[axiom-cli](https://axiom.co)|[0.14.1](https://axiom.co)|The CLI for Axiom, a log management and analytics solution.|
 |[aya](https://github.com/aya-prover/aya-dev)|[8aa2619](https://github.com/aya-prover/aya-dev/releases/tag/nightly-build)|A programming language and a proof assistant designed for formalizing math and type-directed programming.|
 |[az-pim-cli](https://github.com/netr0m/az-pim-cli)|[1.6.0](https://github.com/netr0m/az-pim-cli)|A utility to list and activate Azure Entra ID Privileged Identity Management roles.|
@@ -159,7 +159,7 @@ scoop install lemon/<app_name>
 |[bbdown-nightly](https://github.com/nilaoda/BBDown)|[229](https://github.com/nilaoda/BBDown/actions?query=branch%3Amaster+is%3Asuccess+event%3Apush)|(Nightly Build) A commandline downloader for Bilibili.|
 |[bcm](https://compressme.net/#downloads)|[2.03](https://compressme.net/#downloads)|An ultimate BWT-based file compressor.|
 |[bctextencoder](https://www.jetico.com/free-security-tools/encrypt-text-bctextencoder)|[1.03.2.1](https://www.jetico.com/jetico-product-release-notes-bctextencoder-v1)|BCTextEncoder is a free text encryption software to encrypt text files and securely email sensitive data to your friends.|
-|[beaver-notes](https://www.beavernotes.com/)|[3.9.0](https://www.beavernotes.com/)|Beaver Notes is an open-source note taking app built for Privacy and Efficiency.|
+|[beaver-notes](https://www.beavernotes.com/)|[4.0.0](https://www.beavernotes.com/)|Beaver Notes is an open-source note taking app built for Privacy and Efficiency.|
 |[becky](https://www.rimarts.co.jp/becky.htm)|[2.81.08](https://www.rimarts.jp/downloads/B2/Readme-e.txt)|A feature-rich Internet email client.|
 |[bed](https://github.com/itchyny/bed)|[0.2.8](https://github.com/itchyny/bed)|A binary editor written in Go.|
 |[bedford](https://www.the-sz.com/products/bedford/)|[1.21](https://the-sz.com/common/pad/bedford.xml)|A viewer that shows all Services, Characteristics & Descriptors and their details of Bluetooth Low Energy / BLE / Bluetooth Smart devices.|
@@ -248,7 +248,7 @@ scoop install lemon/<app_name>
 |[chaos-client](https://github.com/projectdiscovery/chaos-client)|[0.5.2](https://github.com/projectdiscovery/chaos-client)|Go client to communicate with Chaos DB API.|
 |[chart-testing](https://github.com/helm/chart-testing)|[3.12.0](https://github.com/helm/chart-testing)|A CLI tool for linting and testing Helm charts.|
 |[chatlog](https://github.com/sjzar/chatlog)|[0.0.15](https://github.com/sjzar/chatlog)|微信聊天记录工具，帮助大家轻松使用自己的聊天数据|
-|[chatmcp](https://github.com/daodao97/chatmcp)|[0.0.53](https://github.com/daodao97/chatmcp/releases.atom)|An AI chat client implementing the Model Context Protocol (MCP).|
+|[chatmcp](https://github.com/daodao97/chatmcp)|[0.0.57](https://github.com/daodao97/chatmcp/releases.atom)|An AI chat client implementing the Model Context Protocol (MCP).|
 |[checkstyle](https://checkstyle.org/cmdline.html)|[10.24.0](https://github.com/checkstyle/checkstyle/releases/latest)|A development tool to help programmers write Java code that adheres to a coding standard.|
 |[cherry-studio](https://cherry-ai.com/)|[1.3.12](https://cherry-ai.com/)|🍒 Cherry Studio is a desktop client that supports for multiple LLM providers|
 |[chfs](http://iscute.cn/chfs)|[3.1](http://iscute.cn/chfs)|CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器，使用浏览器可以快速访问.|
@@ -264,7 +264,7 @@ scoop install lemon/<app_name>
 |[cirrus-cli](https://github.com/cirruslabs/cirrus-cli)|[0.144.0](https://github.com/cirruslabs/cirrus-cli)|A tool for running containerized tasks reproducibly in any environment.|
 |[cjk-romanizer](https://github.com/Nigh/cjk-romanizer)|[1.0.0](https://github.com/Nigh/cjk-romanizer)|将目录下所有文件名称罗马字化的命令行工具|
 |[clarinet](https://github.com/hirosystems/clarinet)|[3.0.2](https://github.com/hirosystems/clarinet)|A command line tool which is designed to write, test and deploy high-quality smart contracts to the Stacks blockchain and Bitcoin.|
-|[clash-nyanpasu-nightly](https://nyanpasu.elaina.moe/)|[2.0.0-alpha+670ac2c](https://github.com/libnyanpasu/clash-nyanpasu/releases/expanded_assets/pre-release)|An opinionated Clash GUI based on Tauri.|
+|[clash-nyanpasu-nightly](https://nyanpasu.elaina.moe/)|[2.0.0-alpha+55c3eb7](https://github.com/libnyanpasu/clash-nyanpasu/releases/expanded_assets/pre-release)|An opinionated Clash GUI based on Tauri.|
 |[clash-rs](https://github.com/Watfaq/clash-rs)|[0.7.8](https://github.com/Watfaq/clash-rs)|A custom protocol, rule based network proxy software.|
 |[clash-speedtest](https://github.com/faceair/clash-speedtest)|[1.6.2](https://github.com/faceair/clash-speedtest)|基于 Clash 核心的测速工具，快速测试你的 Clash 节点速度|
 |[clash2singbox](https://github.com/xmdhs/clash2singbox)|[0.1.4](https://github.com/xmdhs/clash2singbox)|将 clash.meta 格式的配置文件或链接转换为 sing-box 格式|
@@ -288,7 +288,7 @@ scoop install lemon/<app_name>
 |[cloudlens](https://one2n.gitbook.io/docs/)|[0.1.4](https://one2n.gitbook.io/docs/)|A k9s like CLI for AWS and GCP.|
 |[cloudlist](https://docs.projectdiscovery.io/tools/cloudlist/overview)|[1.2.2](https://docs.projectdiscovery.io/tools/cloudlist/overview)|A multi-cloud tool for getting assets from cloud providers.|
 |[cloudmonkey](https://github.com/apache/cloudstack-cloudmonkey)|[6.4.0](https://github.com/apache/cloudstack-cloudmonkey)|A command line interface (CLI) for Apache CloudStack.|
-|[cloudquery](https://cloudquery.io/)|[6.20.4](https://raw.githubusercontent.com/cloudquery/cloudquery/refs/heads/main/.release-please-manifest.json)|The open source high performance ELT framework powered by Apache Arrow.|
+|[cloudquery](https://cloudquery.io/)|[6.20.5](https://raw.githubusercontent.com/cloudquery/cloudquery/refs/heads/main/.release-please-manifest.json)|The open source high performance ELT framework powered by Apache Arrow.|
 |[cmail](https://www.inveigle.net/cmail)|[0.8.11](https://www.inveigle.net/cmail/download)|A freeware application that allows you to send e-mail from the command line in Windows.|
 |[cmailgui](https://www.inveigle.net/cmail/cmailgui)|[0.1.0](https://www.inveigle.net/cmail/download)|A GUI application that provides an easy-to-use Windows interface for creating or sending e-mail and to assist with creating configuration files for use with CMail.|
 |[cmctl](https://cert-manager.io/docs/reference/cmctl/)|[2.2.0](https://cert-manager.io/docs/reference/cmctl/)|A command line tool that can help you manage cert-manager and its resources inside kubernetes cluster.|
@@ -372,7 +372,7 @@ scoop install lemon/<app_name>
 |[cutemaze](https://gottcode.org/cutemaze/)|[1.3.5](https://gottcode.org/cutemaze/)|A simple, top-down game in which mazes are randomly generated using one of a choice of several different algorithms.|
 |[cvc3](https://cs.nyu.edu/acsys/cvc3/index.html)|[2.4.1](https://cs.nyu.edu/acsys/cvc3/download.html)|An automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.|
 |[cvc5](https://cvc5.github.io/)|[1.2.1](https://github.com/cvc5/cvc5/releases.atom)|An efficient open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.|
-|[cvc5-nightly](https://cvc5.github.io/)|[2025-05-28-a0a6334](https://github.com/cvc5/cvc5/releases/expanded_assets/latest)|(Nightly Build) An efficient open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.|
+|[cvc5-nightly](https://cvc5.github.io/)|[2025-05-29-8f0fed3](https://github.com/cvc5/cvc5/releases/expanded_assets/latest)|(Nightly Build) An efficient open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.|
 |[cvemap](https://github.com/projectdiscovery/cvemap)|[0.0.7](https://github.com/projectdiscovery/cvemap)|Navigate the CVE jungle with ease.|
 |[cyanrip](https://github.com/cyanreg/cyanrip/)|[0.9.3.1](https://github.com/cyanreg/cyanrip/)|A fully featured CD ripping program able to take out most of the tedium.|
 |[cybr-cli](https://github.com/infamousjoeg/cybr-cli)|[1.0.2-release](https://github.com/infamousjoeg/cybr-cli/releases/latest)|A "Swiss Army Knife" command-line interface (CLI) for easy human and non-human interaction with cyberark suite of products.|
@@ -433,7 +433,7 @@ scoop install lemon/<app_name>
 |[dotslash](https://dotslash-cli.com/)|[0.5.4](https://dotslash-cli.com/)|Simplified executable deployment.|
 |[double-entry-generator](https://github.com/deb-sig/double-entry-generator)|[2.10.1](https://github.com/deb-sig/double-entry-generator/releases/latest)|Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi to Beancount).|
 |[doublekiller](https://www.bigbangenterprises.de/en/doublekiller/)|[1.6.2.82](https://www.bigbangenterprises.de/en/doublekiller/history.htm)|A fast and easy-to-use application for finding and removing duplicate files.|
-|[douyin](https://www.douyin.com/)|[5.9.0](https://www.douyin.com/downloadpage/pc)|抖音是一款可在智能手机上浏览的短视频社交应用程序|
+|[douyin](https://www.douyin.com/)|[6.0.0](https://www.douyin.com/downloadpage/pc)|抖音是一款可在智能手机上浏览的短视频社交应用程序|
 |[downkyi](https://github.com/leiurayer/downkyi)|[1.6.1](https://api.github.com/repos/leiurayer/downkyi/releases/latest)|哔哩下载姬（downkyi），B站视频下载工具，支持批量下载，支持4K，支持解除地区限制下载，提供工具箱（音视频提取、去水印等）|
 |[downkyicore](https://github.com/yaobiao131/downkyicore)|[1.0.20](https://github.com/yaobiao131/downkyicore)|哔哩下载姬（跨平台版）downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）|
 |[dpkgen](https://www.pazera-software.com/products/dpk-generator/)|[1.0](https://www.pazera-software.com/products/dpk-generator/)|A small command line utility which allows you to generate Delphi package files (DPK) based on the given template file.|
@@ -461,10 +461,10 @@ scoop install lemon/<app_name>
 |[eclint-go](https://gitlab.com/greut/eclint)|[0.5.1](https://gitlab.com/api/v4/projects/greut%2Feclint/releases/?per_page=1)|A faster alternative to the JavaScript eclint (EditorConfig linter) written in Go.|
 |[ecopaste](https://github.com/ayangweb/EcoPaste/)|[0.5.0](https://github.com/ayangweb/EcoPaste/)|A powerful open-source clipboard manager.|
 |[ecspresso](https://github.com/kayac/ecspresso)|[2.5.0](https://github.com/kayac/ecspresso)|A deployment tool for Amazon ECS.|
-|[edgedb-cli](https://docs.geldata.com/reference/cli)|[7.4.0](https://docs.geldata.com/reference/cli)|Command-line tools for EdgeDB.|
+|[edgedb-cli](https://docs.geldata.com/reference/cli)|[7.5.0](https://docs.geldata.com/reference/cli)|Command-line tools for EdgeDB.|
 |[ediary](http://www.haoxg.net/ediary/)|[4.3.7](https://www.haoxg.net/download.php)|A easy-to-use and powerfull diary software.|
 |[ediary3](http://www.haoxg.net/ediary/)|[<i>3.4.1</i>](http://www.haoxg.net/ediary/)|(Version 3.x) A easy-to-use and powerfull diary software.|
-|[edit](https://github.com/microsoft/edit)|[1.0.0](https://github.com/microsoft/edit)|A simple editor for simple needs.|
+|[edit](https://github.com/microsoft/edit)|[1.1.0](https://github.com/microsoft/edit)|A simple editor for simple needs.|
 |[editorconfig-checker](https://github.com/editorconfig-checker/editorconfig-checker)|[3.3.0](https://github.com/editorconfig-checker/editorconfig-checker)|A tool to verify that your files are in harmony with your .editorconfig.|
 |[editrename](https://github.com/vvyoko/EditRename)|[1.4.2](https://github.com/vvyoko/EditRename)|用熟悉的文本编辑器，所见即所得的重命名|
 |[ehco](https://github.com/Ehco1996/ehco)|[<i>1.1.0</i>](https://github.com/Ehco1996/ehco)|ehco is a network relay tool and a typo.|
@@ -481,7 +481,7 @@ scoop install lemon/<app_name>
 |[enjoy](https://1000h.org/enjoy-app/)|[0.7.9](https://1000h.org/enjoy-app/)|Enjoy is an AI assistant that helps with learning foreign languages.|
 |[ente-auth](https://ente.io/auth/)|[4.3.6](https://github.com/ente-io/ente/releases?q=auth)|An open source, cross-platform 2FA authenticator, with end-to-end encrypted backups.|
 |[ente-cli](https://github.com/ente-io/ente/tree/main/cli)|[0.2.3](https://github.com/ente-io/ente/releases?q=cli)|A Command Line Utility for exporting data from Ente, an alternative to Apple and Google Photos.|
-|[ente-photos](https://ente.io/)|[1.7.12](https://ente.io/)|A secure, cross-platform, open source, encrypted photo storage app.|
+|[ente-photos](https://ente.io/)|[1.7.13](https://ente.io/)|A secure, cross-platform, open source, encrypted photo storage app.|
 |[envconsul](https://github.com/hashicorp/envconsul)|[0.13.3](https://github.com/hashicorp/envconsul)|Launch a subprocess with environment variables using data from Hashicorp Consul and Vault.|
 |[epubcheck](https://github.com/w3c/epubcheck)|[5.2.1](https://github.com/w3c/epubcheck)|A tool to validate the conformance of EPUB publications against the EPUB specifications.|
 |[equalx](https://equalx.sourceforge.io/)|[<i>0.7.1</i>](https://equalx.sourceforge.io/)|A powerful interactive tool that lets you create mathematical notation for word processing, web pages, desktop publishing, presentations in TeX, LaTeX.|
@@ -493,7 +493,7 @@ scoop install lemon/<app_name>
 |[evcxr](https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md)|[0.20.0](https://github.com/evcxr/evcxr/blob/main/evcxr_repl/README.md)|A Rust REPL (Read-Eval-Print loop) built using the evcxr evaluation context.|
 |[eventlogexpert](https://github.com/microsoft/EventLogExpert)|[25.4.1.1004](https://github.com/microsoft/EventLogExpert)|A Windows Event Log viewer for tech support and IT professionals.|
 |[everedit2](http://www.everedit.net/)|[<i>2.9.0.2074</i>](http://www.everedit.net/)|A fast, lightweight, extendable text, source and binary editor for Windows.|
-|[everestctl](https://docs.percona.com/everest/index.html)|[1.6.0](https://docs.percona.com/everest/index.html)|CLI for Percona Everest, a cloud-native database platform to deploy and manage enterprise-grade PostgreSQL, MongoDB and MySQL database clusters.|
+|[everestctl](https://docs.percona.com/everest/index.html)|[1.7.0](https://docs.percona.com/everest/index.html)|CLI for Percona Everest, a cloud-native database platform to deploy and manage enterprise-grade PostgreSQL, MongoDB and MySQL database clusters.|
 |[evernote-backup](https://github.com/vzhd1701/evernote-backup)|[1.13.1](https://github.com/vzhd1701/evernote-backup)|Backup & export all Evernote notes and notebooks.|
 |[evernote2onenote](https://tools.stefankueng.com/Evernote2Onenote.html)|[1.3.0](https://sourceforge.net/projects/evimsync/rss)|A small tool to import Evernote notebooks to Onenote.|
 |[evtxecmd](https://github.com/EricZimmerman/evtx)|[1.5.1](https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md)|A C# based (Windows Event Log) evtx parser with lots of extras.|
@@ -539,7 +539,7 @@ scoop install lemon/<app_name>
 |[filefriend-cn](http://filefriend.net/index_cn.html#FileFriend)|[1.9.1](http://filefriend.net/index_cn.html#FileFriend)|文件操作和加密小工具|
 |[filegogo](https://github.com/a-wing/filegogo)|[0.14.5](https://github.com/a-wing/filegogo)|A file transfer tool that can be used in the browser WebRTC P2P.|
 |[filen-cli](https://filen.io/products/cli)|[0.0.33](https://filen.io/products/cli)|A headless command line interface client to directly access and manage your data in Filen.|
-|[files-cli](https://developers.files.com/cli/)|[2.15.15](https://developers.files.com/cli/)|The commandline app for Files.com.|
+|[files-cli](https://developers.files.com/cli/)|[2.15.16](https://developers.files.com/cli/)|The commandline app for Files.com.|
 |[filesremote](https://github.com/allanrbo/filesremote)|[1.13](https://github.com/allanrbo/filesremote)|An SSH file manager that lets you edit files like they are local.|
 |[find.same.images.ok](https://www.softwareok.eu/?seite=Freeware/Find.Same.Images.OK)|[5.73](https://www.softwareok.eu/?seite=Freeware/Find.Same.Images.OK)|Find.Same.Images.OK is a software to find the same or similar images and to search for rotated (mirrored) or negative images.|
 |[findstr](https://www.cnblogs.com/stronghorse/)|[<i>7.03</i>](https://www.cnblogs.com/stronghorse/)|FindStr是一款多文件、多条件组合查找、替换工具，支持普通或加密的ZIP/RAR文件|
@@ -558,7 +558,7 @@ scoop install lemon/<app_name>
 |[flix](https://flix.center/)|[1.4.0](https://scoop-lemon.tari.xyz/hosted/flix/latest.yml)|Flix 快传，像聊天一样传文件|
 |[fluent-bit](https://fluentbit.io/)|[3.0.7](https://fluentbit.io/)|FluentBit is a log processor and forwarder which allows you to collect data/logs from different sources, unify and send them to multiple destinations.|
 |[fluentfin](https://github.com/insomniachi/FluentFin)|[0.3.6](https://github.com/insomniachi/FluentFin)|A simple and user-friendly native Jellyfin client built with Windows App SDK and C#.|
-|[flux-operator-mcp](https://fluxcd.control-plane.io/mcp/)|[0.20.0](https://fluxcd.control-plane.io/mcp/)|Flux MCP Server connects AI assistants directly to your Kubernetes clusters running Flux Operator, enabling seamless interaction through natural language.|
+|[flux-operator-mcp](https://fluxcd.control-plane.io/mcp/)|[0.21.0](https://fluxcd.control-plane.io/mcp/)|Flux MCP Server connects AI assistants directly to your Kubernetes clusters running Flux Operator, enabling seamless interaction through natural language.|
 |[flyby11](https://github.com/builtbybel/Flyby11)|[2.5.425](https://github.com/builtbybel/Flyby11)|A simple patcher that removes the annoying restrictions preventing you from installing Windows 11 (24H2) on unsupported hardware.|
 |[flydav](https://github.com/pluveto/flydav)|[0.2.56](https://github.com/pluveto/flydav)|An lightweight and open source webdav server that offers some core features to meet the needs of both individual users and organizations.|
 |[flyedit](https://web.archive.org/web/20160104162803/https://bbs.kafan.cn/thread-1873515-1-1.html)|[<i>1.3.1</i>](https://web.archive.org/web/20160104162803/https://bbs.kafan.cn/thread-1873515-1-1.html)|绿色文本处理和编辑工具|
@@ -584,7 +584,7 @@ scoop install lemon/<app_name>
 |[freedv](https://freedv.org/)|[1.9.9.2](https://freedv.org/)|A Digital Voice mode for HF radio that allows any SSB radio to be used for low-bit-rate digital voice.|
 |[freelens](https://freelens.app/)|[1.3.1](https://freelens.app/)|A free and open-source user interface designed for managing Kubernetes clusters.|
 |[freepic2pdf](https://www.cnblogs.com/stronghorse/)|[<i>5.13</i>](https://www.cnblogs.com/stronghorse/)|FreePic2Pdf是一款将图像文件（包括TIFF、JPG、PNG、GIF、BMP、JPEG 2000）合并、转换成PDF文件的软件|
-|[freerdp](https://www.freerdp.com/)|[1792](https://ci.freerdp.com/job/freerdp-nightly-windows/api/json)|A free implementation of the Remote Desktop Protocol (RDP).|
+|[freerdp](https://www.freerdp.com/)|[1793](https://ci.freerdp.com/job/freerdp-nightly-windows/api/json)|A free implementation of the Remote Desktop Protocol (RDP).|
 |[freevk](https://freevirtualkeyboard.com/)|[5.0](https://freevirtualkeyboard.com/)|Free Virtual Keyboard is a free, lightweight, multilingual, and finger-friendly virtual on-screen keyboard.|
 |[fslac](https://hydrogenaud.io/index.php/topic,122390.0.html)|[<i>1.3.4</i>](https://hydrogenaud.io/index.php/topic,122390.0.html)|A FLAC Backward-Compatible Free Semi-Lossless Audio Coder.|
 |[fstail](https://github.com/alexellis/fstail)|[0.1.3](https://github.com/alexellis/fstail)|Scan a directory for changed files and tail them.|
@@ -594,7 +594,7 @@ scoop install lemon/<app_name>
 |[fusion-lang](https://github.com/fusionlanguage/fut)|[3.2.10](https://github.com/fusionlanguage/fut/releases/latest)|Fusion is a programming language designed for implementing reusable components (libraries) for C, C++, C#, D, Java, JavaScript, Python, Swift, TypeScript and OpenCL C, all from single codebase.|
 |[fuso](https://github.com/editso/fuso)|[1.0.5-beta.7](https://github.com/editso/fuso/releases/latest)|A fast, stable, cross-platform and efficient intranet penetration and port forwarding tool.|
 |[fvm](https://fvm.app/)|[3.2.1](https://fvm.app/)|Flutter Version Management: A simple CLI to manage Flutter SDK versions.|
-|[gam](https://github.com/GAM-team/GAM)|[7.07.14](https://github.com/GAM-team/GAM)|A command line tool that allows administrators to manage many aspects of their Google Workspace (formerly G Suite / Google Apps) Account.|
+|[gam](https://github.com/GAM-team/GAM)|[7.07.15](https://github.com/GAM-team/GAM)|A command line tool that allows administrators to manage many aspects of their Google Workspace (formerly G Suite / Google Apps) Account.|
 |[gamadv-xtd3](https://github.com/taers232c/GAMADV-XTD3)|[7.05.08](https://github.com/taers232c/GAMADV-XTD3)|A free, open source command line tool for Google Workspace (formerly G Suite) Administrators to manage domain and user settings quickly and easily.|
 |[gaphor](https://gaphor.org)|[3.1.0](https://gaphor.org)|A UML, SysML, RAAML, and C4 modeling application.|
 |[garden](https://garden.io/)|[0.14.3](https://garden.io/)|An automation platform for Kubernetes development and testing..|
@@ -603,7 +603,7 @@ scoop install lemon/<app_name>
 |[gcping](https://github.com/GoogleCloudPlatform/gcping)|[0.0.10](https://github.com/GoogleCloudPlatform/gcping)|A command line tool that reports median latency to Google Cloud regions.|
 |[geekdesk](https://github.com/BookerLiu/GeekDesk)|[2.5.15](https://github.com/BookerLiu/GeekDesk)|小巧、美观的桌面快速启动工具|
 |[geesefs](https://github.com/yandex-cloud/geesefs)|[0.43.0](https://github.com/yandex-cloud/geesefs)|A high-performance, POSIX-ish S3 (Yandex, Amazon) file system written in Go.|
-|[gel-cli](https://docs.geldata.com/reference/cli)|[7.4.0](https://docs.geldata.com/reference/cli)|Command-line tools for Gel.|
+|[gel-cli](https://docs.geldata.com/reference/cli)|[7.5.0](https://docs.geldata.com/reference/cli)|Command-line tools for Gel.|
 |[geminaut](https://www.marmaladefoo.com/pages/geminaut)|[0.8.13](https://www.marmaladefoo.com/pages/geminaut)|A user friendly GUI client for the Gemini protocol.|
 |[geminicommit](https://github.com/tfkhdyt/geminicommit)|[0.4.0](https://github.com/tfkhdyt/geminicommit)|A CLI that writes git commit messages for you with Google Gemini AI.|
 |[geoip2-csv-converter](https://github.com/maxmind/geoip2-csv-converter)|[1.4.1](https://github.com/maxmind/geoip2-csv-converter/releases.atom)|A simple utility for converting the MaxMind GeoIP2 and GeoLite2 CSVs to different formats.|
@@ -642,7 +642,7 @@ scoop install lemon/<app_name>
 |[glider](https://github.com/nadoo/glider)|[0.16.4](https://github.com/nadoo/glider)|A forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features.|
 |[globe-cli](https://github.com/adamsky/globe)|[0.2.0](https://github.com/adamsky/globe)|Render an ASCII globe in your terminal.|
 |[glooctl](https://docs.solo.io/gloo-edge/latest/reference/cli/glooctl/)|[1.19.0](https://formulae.brew.sh/api/formula/glooctl.json)|The unified CLI for Gloo, a feature-rich, Kubernetes-native, next-generation API gateway built on Envoy.|
-|[glooctl-beta](https://docs.solo.io/gloo-edge/latest/reference/cli/glooctl/)|[1.18.19](https://github.com/solo-io/gloo/releases/)|The unified CLI for Gloo, a feature-rich, Kubernetes-native, next-generation API gateway built on Envoy.|
+|[glooctl-beta](https://docs.solo.io/gloo-edge/latest/reference/cli/glooctl/)|[1.20.0-beta3](https://github.com/solo-io/gloo/releases/)|The unified CLI for Gloo, a feature-rich, Kubernetes-native, next-generation API gateway built on Envoy.|
 |[glow](https://github.com/charmbracelet/glow)|[2.1.0](https://github.com/charmbracelet/glow)|Render markdown on the CLI, with pizzazz!|
 |[gmcurl](https://curl.gmssl.cn/)|[20240229](https://curl.gmssl.cn/)|国密版curl，支持国密SSL协议（TLCP），支持单向认证/双向认证|
 |[go-aws-sso](https://github.com/theurichde/go-aws-sso)|[1.5.0](https://github.com/theurichde/go-aws-sso)|Make working with AWS SSO on local machines an ease.|
@@ -701,6 +701,7 @@ scoop install lemon/<app_name>
 |[grafbase-cli](https://grafbase.com/cli)|[0.96.0](https://github.com/grafbase/grafbase/releases.atom)|The GraphQL Federation platform.|
 |[graphite_exporter](https://github.com/prometheus/graphite_exporter)|[0.16.0](https://github.com/prometheus/graphite_exporter)|A Prometheus exporter for metrics exported in the Graphite plaintext protocol.|
 |[grcov](https://github.com/mozilla/grcov)|[0.10.0](https://github.com/mozilla/grcov)|Rust tool to collect and aggregate code coverage data for multiple source files.|
+|[greenmask](https://greenmask.io/)|[0.2.12](https://greenmask.io/)|PostgreSQL database anonymization and synthetic data generation tool.|
 |[greptime](https://greptime.com/)|[0.14.3](https://greptime.com/)|GreptimeDB is an open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported.|
 |[grit](https://docs.grit.io/)|[0.1.0-alpha.1743007075](https://github.com/getgrit/gritql/releases.atom)|A developer tool to put software maintenance on autopilot.|
 |[grpc-client-cli](https://github.com/vadimi/grpc-client-cli)|[1.22.3](https://github.com/vadimi/grpc-client-cli)|A generic gRPC command line client.|
@@ -767,7 +768,7 @@ scoop install lemon/<app_name>
 |[imgdrivelite](https://yubsoft.com/imgdrivelite/)|[2.2.2](https://yubsoft.com/imgdrivelite/)|Free lite portable version of ImgDrive, a lightweight virtual CD/DVD/Blu-ray drive that enables to emulate up all popular image types of CD, DVD and Blu-ray Discs to drives.|
 |[imgpkg](https://carvel.dev/imgpkg/)|[0.46.1](https://carvel.dev/imgpkg/)|Store application configuration files in Docker/OCI registries.|
 |[imonitor](https://imonitorsdk.com/imonitor)|[2.5.0](https://imonitorsdk.com/imonitor)|iMonitor (冰镜) is a endpoint behavior monitoring and analysis software based on iMonitorSDK.|
-|[imtip](https://imtip.aardio.com/)|[7.5.0.0](https://github.com/aardio/ImTip/raw/main/default.aproj)|通用输入法状态（中/英、全/半角、标点、大写）跟踪提示|
+|[imtip](https://imtip.aardio.com/)|[7.5](https://imtip.aardio.com/update/)|通用输入法状态（中/英、全/半角、标点、大写）跟踪提示|
 |[ineedmymoneyback](https://github.com/pdone/iNeedMyMoneyBack)|[1.4](https://github.com/pdone/iNeedMyMoneyBack)|一个监控股票的工具|
 |[influxdb_exporter](https://github.com/prometheus/influxdb_exporter)|[0.12.0](https://github.com/prometheus/influxdb_exporter)|A Prometheus exporter for metrics in the InfluxDB format used since 0.9.0.|
 |[infobar](https://mitec.cz/infobar.html)|[4.6.2](https://mitec.cz/Data/XML/data_infobarvh.xml)|A versatile tool not only for programmers but also for ordinary geeks.|
@@ -835,7 +836,7 @@ scoop install lemon/<app_name>
 |[jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler)|[0.6.0](https://github.com/jsonnet-bundler/jsonnet-bundler)|A package manager for Jsonnet.|
 |[jsonwatch](https://github.com/dbohdan/jsonwatch)|[0.8.0](https://github.com/dbohdan/jsonwatch)|A command-line utility that lets you track changes in JSON data delivered by a command or a web (HTTP/HTTPS) API.|
 |[jsql-injection](https://github.com/ron190/jsql-injection)|[0.112](https://github.com/ron190/jsql-injection/releases.atom)|jSQL Injection is a Java application for automatic SQL database injection.|
-|[juicefs](https://github.com/juicedata/juicefs)|[1.3.0-beta1](https://github.com/juicedata/juicefs/releases)|JuiceFS is a distributed POSIX file system built on top of Redis and S3.|
+|[juicefs](https://github.com/juicedata/juicefs)|[1.3.0-beta2](https://github.com/juicedata/juicefs/releases)|JuiceFS is a distributed POSIX file system built on top of Redis and S3.|
 |[juicity](https://github.com/juicity/juicity)|[0.4.3](https://github.com/juicity/juicity)|A quic-based proxy protocol implementation.|
 |[juju](https://juju.is/)|[4.0-beta5](https://launchpad.net/juju/+download)|A model-driven Operator Lifecycle Manager (OLM) that improves the experience of running Kubernetes operators.|
 |[jujutsu](https://github.com/martinvonz/jj)|[0.29.0](https://github.com/martinvonz/jj)|Jujutsu, aka jj, is a Git-compatible DVCS that is both simple and powerful.|
@@ -861,7 +862,7 @@ scoop install lemon/<app_name>
 |[karma](https://github.com/prymitive/karma)|[0.121](https://github.com/prymitive/karma)|Alert dashboard for Prometheus Alertmanager.|
 |[karmor](https://kubearmor.io)|[1.4.1](https://kubearmor.io)|A CLI tool to help manage KubeArmor.|
 |[katago-cpu](https://github.com/lightvector/KataGo)|[1.16.0](https://github.com/lightvector/KataGo)|(CPU AVX2 Backend) GTP engine and self-play learning in Go.|
-|[katago-models](https://katagotraining.org/)|[kata1-b28c512nbt-s9014482688-d4810878294](https://katagotraining.org/networks/)|Strongest confidently-rated neural networks for KataGo.|
+|[katago-models](https://katagotraining.org/)|[kata1-b28c512nbt-s8954935040-d4794564322](https://katagotraining.org/networks/)|Strongest confidently-rated neural networks for KataGo.|
 |[katago-opencl](https://github.com/lightvector/KataGo)|[1.16.0](https://github.com/lightvector/KataGo)|(OpenCL Backend) GTP engine and self-play learning in Go.|
 |[katana](https://github.com/projectdiscovery/katana)|[1.1.3](https://github.com/projectdiscovery/katana)|A next-generation crawling and spidering framework.|
 |[kbcli](https://kubeblocks.io/)|[1.0.0](https://kubeblocks.io/)|The CLI for KubeBlocks, an open source system software that runs and manages data infrastructure on K8s.|
@@ -913,7 +914,7 @@ scoop install lemon/<app_name>
 |[kubeaudit](https://github.com/Shopify/kubeaudit)|[0.22.2](https://github.com/Shopify/kubeaudit)|A command line tool helps you audit your Kubernetes clusters against common security controls.|
 |[kubecm](https://kubecm.cloud/)|[0.33.0](https://kubecm.cloud/)|Manage your kubeconfig more easily.|
 |[kubeconform](https://github.com/yannh/kubeconform)|[0.7.0](https://github.com/yannh/kubeconform)|A Kubernetes manifests validator, with support for Custom Resources.|
-|[kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)|[0.0.10](https://github.com/GoogleCloudPlatform/kubectl-ai)|An AI powered kubernetes agent that runs in your terminal.|
+|[kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)|[0.0.11](https://github.com/GoogleCloudPlatform/kubectl-ai)|An AI powered kubernetes agent that runs in your terminal.|
 |[kubectl-argo-rollouts](https://argoproj.github.io/argo-rollouts/features/kubectl-plugin/)|[1.8.2](https://argoproj.github.io/argo-rollouts/features/kubectl-plugin/)|A kubectl plugin for Argo Rollouts to enrich the experience with Rollouts, Experiments, and Analysis.|
 |[kubectl-buildkit](https://github.com/vmware-tanzu/buildkit-cli-for-kubectl)|[0.1.3](https://github.com/vmware-tanzu/buildkit-cli-for-kubectl/releases)|BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster.|
 |[kubectl-cnpg](https://cloudnative-pg.io/)|[1.26.0](https://cloudnative-pg.io/)|A plugin for kubectl to manage CloudNativePG cluster in Kubernetes.|
@@ -949,7 +950,7 @@ scoop install lemon/<app_name>
 |[lame-front-end](https://www.pazera-software.com/products/lame-front-end/)|[1.8](https://www.pazera-software.com/products/lame-front-end/)|A Graphical interface (GUI) for the popular and very fast MP3 encoder & decoder - LAME.|
 |[lamedropxpd](https://rarewares.org/mp3-lamedrop.php)|[3.1-3.100](https://rarewares.org/mp3-lamedrop.php)|A practical frontend for LAME that makes things easier to the user.|
 |[languagetool-rust](https://github.com/jeertmans/languagetool-rust)|[2.1.5](https://github.com/jeertmans/languagetool-rust)|An open source grammar style checker.|
-|[lanthora.candy](https://github.com/lanthora/candy)|[6.0.0](https://github.com/lanthora/candy)|A reliable, low-latency, and anti-censorship virtual private network.|
+|[lanthora.candy](https://github.com/lanthora/candy)|[6.0.1](https://github.com/lanthora/candy)|A reliable, low-latency, and anti-censorship virtual private network.|
 |[lazykube](https://github.com/TNK-Studio/lazykube)|[0.10.3](https://github.com/TNK-Studio/lazykube)|Use mouse and terminal to manage K8s cluster.|
 |[lazysql](https://github.com/jorgerojas26/lazysql)|[0.3.7](https://github.com/jorgerojas26/lazysql)|A cross-platform TUI database management tool written in Go.|
 |[leaf](https://github.com/eycorsican/leaf)|[0.11.0](https://github.com/eycorsican/leaf)|A versatile and efficient proxy framework with nice features suitable for various use cases.|
@@ -961,7 +962,7 @@ scoop install lemon/<app_name>
 |[lettura](https://zhanglun.github.io/lettura/)|[0.1.22](https://zhanglun.github.io/lettura/)|Another free and open-source feed reader for macOS and Window.|
 |[libavif](https://github.com/AOMediaCodec/libavif)|[1.3.0](https://github.com/AOMediaCodec/libavif)|avifenc/avifdec is the AV1 Image File Format (AVIF) encoder/decoder.|
 |[libportable](https://github.com/adonais/libportable)|[20250419-56283145](https://github.com/adonais/libportable)|Portable Runtime For Firefox.|
-|[libportable-floorp](https://floorp.app/en/)|[11.26.2](https://floorp.app/en/)|(libportable patched) A new privacy-preserving Firefox-based browser developedby a community of students in Japan.|
+|[libportable-floorp](https://floorp.app/en/)|[11.27.0](https://floorp.app/en/)|(libportable patched) A new privacy-preserving Firefox-based browser developedby a community of students in Japan.|
 |[libportable-iceweasel](https://sourceforge.net/projects/libportable)|[139.0](https://sourceforge.net/projects/libportable/rss)|Portable Runtime For Iceweasel (Firefox), an independent browser derived from Firefox/Mozilla community code.|
 |[libportable-iceweasel-zh-cn](https://sourceforge.net/projects/libportable)|[139.0](https://sourceforge.net/projects/libportable/rss)|(Simplified Chinese Version) Portable Runtime For Iceweasel (Firefox), an independent browser derived from Firefox/Mozilla community code.|
 |[library.net](https://fishcodelib.com/CodeLib.htm)|[19.9.8768.20624](https://fishcodelib.com/3/Edition3.xml)|Library .NET v3 Professional Edition is an information and document management system that can store, organize and manage any information in an easy-to-use outline.|
@@ -980,13 +981,13 @@ scoop install lemon/<app_name>
 |[littlenavmap](https://albar965.github.io/littlenavmap.html)|[3.0.17](https://albar965.github.io/littlenavmap.html)|A free flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X, Microsoft Flight Simulator 2020, Prepar3D and X-Plane.|
 |[live777](https://github.com/binbat/live777)|[0.7.3](https://github.com/binbat/live777)|A very simple, high performance, edge WebRTC SFU for real-time video streaming.|
 |[livekit-cli](https://github.com/livekit/livekit-cli)|[2.4.10](https://github.com/livekit/livekit-cli)|The command line interface to LiveKit, an open source platform for developers building realtime media applications.|
-|[llama-cpp](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(CPU Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-adreno](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-cuda](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-cuda-11](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(CUDA 11 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-hip](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(AMD ROCm/HIP Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-sycl](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(SYCL Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
-|[llama-cpp-vulkan](https://github.com/ggml-org/llama.cpp)|[b5527](https://github.com/ggml-org/llama.cpp/releases.atom)|(Vulkan Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(CPU Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-adreno](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-cuda](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-cuda-11](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(CUDA 11 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-hip](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(AMD ROCm/HIP Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-sycl](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(SYCL Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
+|[llama-cpp-vulkan](https://github.com/ggml-org/llama.cpp)|[b5537](https://github.com/ggml-org/llama.cpp/releases.atom)|(Vulkan Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.|
 |[llrt](https://github.com/awslabs/llrt)|[0.5.1-beta](https://github.com/awslabs/llrt/releases.atom)|An experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.|
 |[lmms-nightly](https://lmms.io/)|[5809](https://github.com/LMMS/lmms/actions/workflows/build.yml?query=branch%3Amaster+is%3Asuccess+event%3Apush)|(Nightly Build) A free, open source, multiplatform digital audio workstation.|
 |[lms](https://github.com/wchang22/LuminS)|[0.4.0](https://crates.io/api/v1/crates/lms?include=default_version)|LuminS is a fast and reliable alternative to rsync for synchronizing local files.|
@@ -1005,7 +1006,7 @@ scoop install lemon/<app_name>
 |[lucky](https://lucky666.cn)|[2.15.10](https://lucky666.cn)|IPv6/IPv4端口转发工具，支持反向代理、动态域名、语音助手网络唤醒、IPv4 内网穿透、计划任务和自动证书等多项功能|
 |[lucy](https://www.yuque.com/lucy/lucy/record)|[1.8.6](https://scoop-lemon.tari.xyz/hosted/lucy/latest.yml)|简洁的快速启动工具|
 |[lukestackwalker](http://lukestackwalker.sourceforge.net/)|[1.0.8](https://sourceforge.net/projects/lukestackwalker/rss)|Luke Stackwalker is a C/C++ code profiler that runs on Windows.|
-|[lunatranslator](https://github.com/HIllya51/LunaTranslator)|[10.1.5.1-202505271743](https://github.com/HIllya51/LunaTranslator)|LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.|
+|[lunatranslator](https://github.com/HIllya51/LunaTranslator)|[10.2.2-202505291837](https://github.com/HIllya51/LunaTranslator)|LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.|
 |[lune](https://lune-org.github.io/docs)|[0.9.3](https://lune-org.github.io/docs)|A standalone Luau runtime.|
 |[lxi-tools](https://github.com/lxi-tools/lxi-tools)|[2.8](https://github.com/lxi-tools/lxi-tools)|An open source software tools for managing network attached LXI compatible test instruments.|
 |[lyricify](https://github.com/WXRIW/Lyricify-App)|[3.8.8](https://github.com/WXRIW/Lyricify-App/releases?q=v3&expanded=true)|An app to provide auto-scrolling lyrics for Spotify, iTunes, Music Center, QQ Music, Netease Cloud Music, and YesPlayMusic.|
@@ -1059,14 +1060,14 @@ scoop install lemon/<app_name>
 |[metacubex-geo](https://github.com/MetaCubeX/geo)|[1.1](https://github.com/MetaCubeX/geo)|An easy way to manage all your Geo resources.|
 |[metatogger](https://www.luminescence-software.org/en/metatogger)|[7.6.3.4](https://api.luminescence-software.org/get_latest_version.php?software=metatogger)|A tags editor that allows you to easily rename, tag and classify your MP3, FLAC, Ogg Vorbis, Opus, WMA and M4A audio files.|
 |[meteor](https://raystack.github.io/meteor/)|[0.11.0](https://raystack.github.io/meteor/)|An easy-to-use, plugin-driven metadata collection framework to extract data from different sources and sink to any data catalog.|
-|[meteor-git](https://github.com/stefanlogue/meteor)|[0.26.0](https://github.com/stefanlogue/meteor)|A highly configurable CLI tool for writing conventional commits.|
+|[meteor-git](https://github.com/stefanlogue/meteor)|[0.27.0](https://github.com/stefanlogue/meteor)|A highly configurable CLI tool for writing conventional commits.|
 |[mftecmd](https://github.com/EricZimmerman/MFTECmd)|[1.3.0](https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md)|A command line $MFT parser.|
 |[mftexplorer](https://ericzimmerman.github.io/)|[2.1.0](https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md)|A graphical $MFT viewer|
 |[mglahk](http://pyonkichi.g1.xrea.com/mglahk.html)|[1.41](http://pyonkichi.g1.xrea.com/mglahk.html)|MouseGestureL.ahk is a general-purpose mouse gesture software.|
 |[mi-sans](https://hyperos.mi.com/font)|[<i>4.003</i>](https://hyperos.mi.com/font)|Mi Sans 字体笔型平直有力，设计更加简约，减少视觉负担，更有利于屏幕显示，供全社会免费商用|
 |[mi-sans-l3](https://hyperos.mi.com/font/rare-word)|[<i>1.000</i>](https://hyperos.mi.com/font/rare-word)|(L3 扩展字体，以支持GB 18030-2022 所收录的生僻字) Mi Sans 字体笔型平直有力，设计更加简约，减少视觉负担，更有利于屏幕显示，供全社会免费商用|
 |[microsoft-error-lookup-tool](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool)|[6.4.5](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool)|The Microsoft Error Lookup Tool displays the message text that is associated with a hexadecimal status code (or other code).|
-|[microsoft-safety-scanner](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download)|[1.429.234.0](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download)|A scan tool designed to find and remove malware from Windows computers.|
+|[microsoft-safety-scanner](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download)|[1.429.257.0](https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download)|A scan tool designed to find and remove malware from Windows computers.|
 |[midisheetmusic](http://midisheetmusic.com/)|[2.6.2](http://midisheetmusic.com/download.html)|Midi Sheet Music is a free program that converts MIDI files to sheet music.|
 |[mieru](https://github.com/enfein/mieru)|[3.15.0](https://github.com/enfein/mieru)|A socks5 / HTTP / HTTPS proxy.|
 |[milvus_cli](https://github.com/zilliztech/milvus_cli)|[1.0.1](https://github.com/zilliztech/milvus_cli)|Milvus Command Line Interface based on Milvus Python SDK.|
@@ -1086,14 +1087,14 @@ scoop install lemon/<app_name>
 |[mmdbctl](https://github.com/ipinfo/mmdbctl)|[1.4.7](https://github.com/ipinfo/mmdbctl/releases.atom)|An MMDB file management CLI supporting various operations on MMDB database files.|
 |[mmdbinspect](https://github.com/maxmind/mmdbinspect)|[2.0.0-beta.2](https://github.com/maxmind/mmdbinspect/releases.atom)|Look up records for one or more IPs/networks in one or more .mmdb databases.|
 |[momento-cli](https://www.gomomento.com/)|[0.46.0](https://www.gomomento.com/)|The command-line tool for managing Momento Serverless Cache.|
-|[mongodb-atlas-cli](https://dochub.mongodb.org/core/atlas-cli)|[1.42.2](https://www.mongodb.com/try/download/atlascli)|The Atlas CLI lets you manage your MongoDB Atlas deployments from the command line.|
+|[mongodb-atlas-cli](https://dochub.mongodb.org/core/atlas-cli)|[1.43.0](https://www.mongodb.com/try/download/atlascli)|The Atlas CLI lets you manage your MongoDB Atlas deployments from the command line.|
 |[mongodb-compass](https://www.mongodb.com/products/compass)|[1.46.2](https://www.mongodb.com/try/download/compass)|The GUI for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.|
 |[mongodb-compass-isolated](https://www.mongodb.com/products/compass)|[1.46.2](https://www.mongodb.com/try/download/compass)|The GUI (Isolated Edition) for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.|
 |[mongodb-compass-readonly](https://www.mongodb.com/products/compass)|[1.46.2](https://www.mongodb.com/try/download/compass)|The GUI (Readonly Edition) for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.|
 |[monkeysaudio](https://monkeysaudio.com/)|[11.14](https://monkeysaudio.com/versionhistory.html)|Monkey’s Audio is a fast and easy way to compress digital music.|
 |[monochrome](https://perkele.cc/software/monochrome)|[1.4.4](https://perkele.cc/software/monochrome)|An IRC client intended for long-time IRC users.|
-|[moon](https://moonrepo.dev/moon)|[1.36.2](https://moonrepo.dev/moon)|A build system and monorepo management tool for the web ecosystem, written in Rust.|
-|[moonbit](https://www.moonbitlang.com/)|[20250522-2d71c76-fa15970](https://www.moonbitlang.com/)|An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.|
+|[moon](https://moonrepo.dev/moon)|[1.36.3](https://moonrepo.dev/moon)|A build system and monorepo management tool for the web ecosystem, written in Rust.|
+|[moonbit](https://www.moonbitlang.com/)|[20250529-56cb0ee-b02a175](https://www.moonbitlang.com/)|An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.|
 |[moproxy](https://github.com/sorz/moproxy)|[0.5.1](https://github.com/sorz/moproxy)|A transparent TCP to SOCKSv5/HTTP proxy written in Rust.|
 |[mouseinc](https://github.com/shuax/MouseInc.Settings)|[<i>2.13.4</i>](https://github.com/shuax/MouseInc.Settings)|Simple but powerful mouse gestures for Windows.|
 |[mousemaster](https://github.com/petoncle/mousemaster)|[78](https://github.com/petoncle/mousemaster)|Efficiently control your mouse with keyboard inputs for a completely mouseless experience.|
@@ -1161,10 +1162,10 @@ scoop install lemon/<app_name>
 |[nip2](https://github.com/libvips/nip2)|[8.7.0](https://github.com/libvips/nip2/releases)|A spreadsheet-like GUI for libvips.|
 |[nitroshare](https://nitroshare.net/)|[0.3.4](https://nitroshare.net/)|A cross-platform network file transfer application designed to make transferring any file to any device as painless as possible.|
 |[nncp](https://bellard.org/nncp/)|[2024-06-05](https://bellard.org/nncp/)|A lossless data compressor with neural networks.|
-|[nodepass](https://github.com/yosebyte/nodepass)|[1.2.4](https://github.com/yosebyte/nodepass)|A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.|
+|[nodepass](https://github.com/yosebyte/nodepass)|[1.2.5](https://github.com/yosebyte/nodepass)|A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.|
 |[nohttp-cli](https://github.com/spring-io/nohttp)|[0.0.11](https://repo1.maven.org/maven2/io/spring/nohttp/nohttp-cli/maven-metadata.xml)|A utility for finding and replacing http URLs using nohttp.|
 |[noisy-shuttle](https://github.com/Gowee/noisy-shuttle)|[0.2.3](https://github.com/Gowee/noisy-shuttle)|Secure proxy service indistinguishable from whitelisted TLS website.|
-|[nom](https://github.com/guyfedwards/nom)|[2.8.1](https://github.com/guyfedwards/nom)|A RSS reader for the terminal.|
+|[nom](https://github.com/guyfedwards/nom)|[2.8.2](https://github.com/guyfedwards/nom)|A RSS reader for the terminal.|
 |[nomeiryoui](http://tatsu.life.coocan.jp/MySoft/WinCust/index.html)|[3.4.0](https://api.github.com/repos/Tatsu-syo/noMeiryoUI/releases/latest)|No!! MeiryoUI is a Windows system font setting tool on Windows 8.1/10.|
 |[nordpass](https://nordpass.com/)|[6.1.9](https://downloads.npass.app/windows/latest.yml)|A password management solution for a secure digital life.|
 |[notation](https://notaryproject.dev/docs/user-guides/installation/cli/)|[1.3.2](https://notaryproject.dev/docs/user-guides/installation/cli/)|A CLI project to add signatures as standard items in the OCI registry ecosystem, and to build a set of simple tooling for signing and verifying these signatures.|
@@ -1215,7 +1216,7 @@ scoop install lemon/<app_name>
 |[onetagger](https://github.com/Marekkon5/onetagger)|[1.7.0](https://github.com/Marekkon5/onetagger)|A cross-platform music tagger.|
 |[onetagger-cli](https://github.com/Marekkon5/onetagger)|[1.7.0](https://github.com/Marekkon5/onetagger)|(CLI Version) A cross-platform music tagger.|
 |[opal](https://codedead.com/software/opal)|[1.5.0](https://codedead.com/software/opal)|A free application that can play relaxing music in the background.|
-|[openbao](https://openbao.org)|[2.2.1](https://github.com/openbao/openbao/releases.atom)|An open source, community-driven fork of Vault managed by the Linux Foundation.|
+|[openbao](https://openbao.org)|[2.2.2](https://github.com/openbao/openbao/releases.atom)|An open source, community-driven fork of Vault managed by the Linux Foundation.|
 |[openobserve](https://openobserve.ai/)|[0.14.7](https://github.com/openobserve/openobserve/releases/latest)|A cloud native observability platform built specifically for logs, metrics, traces, analytics, RUM designed to work at petabyte scale.|
 |[openomf](https://www.openomf.org/)|[0.8.2](https://www.openomf.org/)|An Open Source remake of "One Must Fall 2097" by Diversions Entertainment.|
 |[openra](https://www.openra.net/)|[20250330](https://github.com/OpenRA/OpenRA/releases.atom)|Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.|
@@ -1242,8 +1243,8 @@ scoop install lemon/<app_name>
 |[outwiker](http://jenyay.net/Outwiker/English)|[3.3.0](https://github.com/Jenyay/outwiker/releases.atom)|A cross-platform software for keeping your notes in a tree.|
 |[overture](https://github.com/shawn1m/overture)|[1.8](https://github.com/shawn1m/overture)|A customized DNS relay server.|
 |[ovftool](https://developer.vmware.com/web/tool/ovf-tool/)|[4.6.3](https://developer.vmware.com/web/tool/ovf-tool/)|VMware OVF Tool is a command-line utility that helps you import and export OVF packages to and from many VMware products.|
-|[oxen](https://oxen.ai/)|[0.34.7](https://oxen.ai/)|CLI for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.|
-|[oxen-server](https://oxen.ai/)|[0.34.7](https://oxen.ai/)|Server for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.|
+|[oxen](https://oxen.ai/)|[0.34.8](https://oxen.ai/)|CLI for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.|
+|[oxen-server](https://oxen.ai/)|[0.34.8](https://oxen.ai/)|Server for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.|
 |[oxker](https://github.com/mrjackwills/oxker)|[0.10.3](https://github.com/mrjackwills/oxker)|A simple tui to view & control docker containers.|
 |[pacaptr](https://github.com/rami3l/pacaptr)|[0.23.0](https://github.com/rami3l/pacaptr)|Pacman-like syntax wrapper for many package managers.|
 |[packetsender](https://github.com/dannagle/PacketSender)|[8.8.9](https://github.com/dannagle/PacketSender)|A network utility to allow sending and receiving TCP, UDP, and SSL (encrypted TCP) packets.|
@@ -1309,7 +1310,7 @@ scoop install lemon/<app_name>
 |[platformsh-cli](https://platform.sh/)|[5.1.1](https://platform.sh/)|The official command-line interface for Platform.sh.|
 |[plebbit-cli](https://github.com/plebbit/plebbit-cli)|[0.16.9](https://github.com/plebbit/plebbit-cli)|An interface to Plebbit API through command line.|
 |[plow](https://github.com/six-ddc/plow)|[1.3.2](https://github.com/six-ddc/plow)|A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying.|
-|[plus42](https://thomasokken.com/plus42/)|[1.3.6](https://thomasokken.com/plus42/)|An advanced scientific programmable calculator, based on Free42.|
+|[plus42](https://thomasokken.com/plus42/)|[1.3.7](https://thomasokken.com/plus42/)|An advanced scientific programmable calculator, based on Free42.|
 |[pmlite](https://www.cnblogs.com/Charltsing/p/PictureCleaner.html)|[1.2.2.1](https://scoop-lemon.tari.xyz/hosted/pmlite/latest.yml)|PMLite是一款免费的图像校正和漂白工具|
 |[png2qoi](https://github.com/pfusik/qoi-fu)|[3.0.0](https://github.com/pfusik/qoi-fu/releases/latest)|A command-line converter for "Quite OK Image" (QOI) format.|
 |[pngcheck](http://www.libpng.org/pub/png/apps/pngcheck.html)|[3.0.3](https://sourceforge.net/projects/png-mng/rss)|A tool to test PNG image files for corruption, display size, type, compression info.|
@@ -1350,7 +1351,7 @@ scoop install lemon/<app_name>
 |[profile-explorer](https://github.com/microsoft/profile-explorer)|[1.1.4](https://github.com/microsoft/profile-explorer)|A tool for viewing CPU profiling traces collected through the Event Tracing for Windows (ETW) infrastructure on machines with x64 and ARM64 CPUs.|
 |[projclean](https://github.com/sigoden/projclean)|[0.8.0](https://github.com/sigoden/projclean)|Globally find and clean projects cache/build for saving disk space or making backups/rsync easier.|
 |[project-graph](https://github.com/LiRenTech/project-graph)|[1.7.10](https://github.com/LiRenTech/project-graph)|An open-source project that aims to provide a next-generation node diagram tool for visual thinking.|
-|[project-graph-nightly](https://github.com/LiRenTech/project-graph)|[358](https://github.com/LiRenTech/project-graph/releases/expanded_assets/nightly)|(Nightly Build) An open-source project that aims to provide a next-generation node diagram tool for visual thinking.|
+|[project-graph-nightly](https://github.com/LiRenTech/project-graph)|[359](https://github.com/LiRenTech/project-graph/releases/expanded_assets/nightly)|(Nightly Build) An open-source project that aims to provide a next-generation node diagram tool for visual thinking.|
 |[projectdiscovery-notify](https://github.com/projectdiscovery/notify)|[1.0.7](https://github.com/projectdiscovery/notify)|A Go-based assistance package that enables you to stream the output of several tools and publish it to a variety of supported platforms.|
 |[projector-client](https://github.com/JetBrains/projector-client)|[1.1.0](https://github.com/JetBrains/projector-client/releases)|A client for Projector, a technology to run and access Swing GUI applications remotely.|
 |[prom2json](https://github.com/prometheus/prom2json)|[1.4.2](https://github.com/prometheus/prom2json)|A tool to scrape a Prometheus client and dump the result as JSON.|
@@ -1434,7 +1435,7 @@ scoop install lemon/<app_name>
 |[redu](https://github.com/drdo/redu)|[0.2.13](https://github.com/drdo/redu)|ncdu for your restic repository.|
 |[reduct-cli](https://www.reduct.store/docs)|[0.6.1](https://www.reduct.store/docs)|A command line client for ReductStore, a time series database for blob data.|
 |[reductstore](https://www.reduct.store/)|[1.15.4](https://www.reduct.store/)|A high-performance, time-series object storage and streaming solution.|
-|[redumper](https://github.com/superg/redumper)|[592](https://api.github.com/repos/superg/redumper/releases/latest)|A low level CD dumper utility.|
+|[redumper](https://github.com/superg/redumper)|[595](https://api.github.com/repos/superg/redumper/releases/latest)|A low level CD dumper utility.|
 |[refinery-cli](https://github.com/rust-db/refinery)|[0.8.14](https://github.com/rust-db/refinery)|A powerful SQL migration toolkit for Rust.|
 |[reg](https://github.com/genuinetools/reg)|[0.16.1](https://github.com/genuinetools/reg)|A docker registry v2 command line client and repo listing generator with security checks.|
 |[regclient](https://github.com/regclient/regclient)|[0.8.3](https://github.com/regclient/regclient)|Docker and OCI Registry Client in Go and tooling using those libraries.|
@@ -1528,7 +1529,7 @@ scoop install lemon/<app_name>
 |[seppdf](https://www.ne.jp/asahi/foresth/home/indexe.htm#spdf)|[3.90](https://www.ne.jp/asahi/foresth/home/indexe.htm#spdf)|A tool to split PDF file containing multiple pages into individualized single PDF files for each page.|
 |[seqkit](https://github.com/shenwei356/seqkit)|[2.10.0](https://github.com/shenwei356/seqkit)|A cross-platform and ultrafast toolkit for FASTA/Q file manipulation.|
 |[sequin](https://github.com/charmbracelet/sequin)|[0.3.1](https://github.com/charmbracelet/sequin)|Human-readable ANSI sequences.|
-|[sequin-cdc-cli](https://sequinstream.com/)|[0.8.7](https://sequinstream.com/)|An change data capture (CDC) platform for Postgres.|
+|[sequin-cdc-cli](https://sequinstream.com/)|[0.8.9](https://sequinstream.com/)|An change data capture (CDC) platform for Postgres.|
 |[ser2net](https://github.com/cminyard/ser2net)|[4.6.5](https://github.com/cminyard/ser2net)|Serial to network interface, allows TCP/UDP to serial port connections.|
 |[serializationdumper](https://github.com/NickstaDB/SerializationDumper)|[1.14](https://github.com/NickstaDB/SerializationDumper)|A tool to dump Java serialization streams in a more human readable form.|
 |[serialtest](https://github.com/wh201906/SerialTest)|[0.3.5](https://github.com/wh201906/SerialTest)|Data transceiver/realtime plotter/shortcut/file transceiver over serial port/Bluetooth/network.|
@@ -1563,7 +1564,7 @@ scoop install lemon/<app_name>
 |[sidekick](https://github.com/fluttertools/sidekick)|[1.1.1](https://github.com/fluttertools/sidekick)|A simple app to make Flutter development more delightful.|
 |[sideslide](https://northglide.com/sideslide.html)|[6.00](https://northglide.com/sideslidepad.xml)|An easy to use and accurate software uninstaller for Windows.|
 |[sigi](https://sigi-cli.org/)|[3.7.1](https://sigi-cli.org/)|An organizing tool for terminal lovers who hate organizing.|
-|[signalbackup-tools](https://github.com/bepaald/signalbackup-tools)|[20250522](https://github.com/bepaald/signalbackup-tools/releases/latest)|A tool to work with backup files generated by the Signal android application.|
+|[signalbackup-tools](https://github.com/bepaald/signalbackup-tools)|[20250529](https://github.com/bepaald/signalbackup-tools/releases/latest)|A tool to work with backup files generated by the Signal android application.|
 |[simple-firefox-backup](https://www.sordum.org/12298/)|[1.2](https://www.sordum.org/12298/)|Simple Firefox Backup is a lightweight application that helps users create backup copies of their Mozilla Firefox data.|
 |[simple-live-app](https://github.com/xiaoyaocz/dart_simple_live)|[1.8.6](https://github.com/xiaoyaocz/dart_simple_live)|简简单单的看直播|
 |[simple-vhd-manager](https://www.sordum.org/8705/)|[1.5](https://www.sordum.org/8705/)|Simple VHD Manager is a lightweight application that allows you to manage various aspects of VHD files on your computer.|
@@ -1577,8 +1578,8 @@ scoop install lemon/<app_name>
 |[sing-box-beta](https://sing-box.sagernet.org)|[1.12.0-beta.19](https://github.com/SagerNet/sing-box/releases.atom)|(Pre-release) The universal proxy platform.|
 |[sing-geoip](https://sing-box.sagernet.org/configuration/route/geoip/)|[20250512](https://sing-box.sagernet.org/configuration/route/geoip/)|GeoIP database for sing-box.|
 |[sing-geoip-rule-set](https://sing-box.sagernet.org/configuration/rule-set/)|[20250512-6f6d216](https://sing-box.sagernet.org/configuration/rule-set/)|GeoIP rule set for sing-box.|
-|[sing-geosite](https://sing-box.sagernet.org/configuration/route/geosite/)|[20250527033106](https://sing-box.sagernet.org/configuration/route/geosite/)|Geosite database for sing-box.|
-|[sing-geosite-rule-set](https://sing-box.sagernet.org/configuration/rule-set/)|[20250528-215f165](https://sing-box.sagernet.org/configuration/rule-set/)|Geosite rule set for sing-box.|
+|[sing-geosite](https://sing-box.sagernet.org/configuration/route/geosite/)|[20250528105809](https://sing-box.sagernet.org/configuration/route/geosite/)|Geosite database for sing-box.|
+|[sing-geosite-rule-set](https://sing-box.sagernet.org/configuration/rule-set/)|[20250529-e04db13](https://sing-box.sagernet.org/configuration/rule-set/)|Geosite rule set for sing-box.|
 |[sipexer](https://github.com/miconda/sipexer)|[1.2.0](https://github.com/miconda/sipexer)|A modern and flexible SIP/VoIP (RFC3261) command line tool.|
 |[sirikali](https://mhogomchungu.github.io/sirikali/)|[1.8.2](https://mhogomchungu.github.io/sirikali/)|A Qt/C++ GUI front end to sshfs, ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt and encfs.|
 |[siteone-crawler](https://crawler.siteone.io/)|[1.0.8](https://crawler.siteone.io/)|A powerful and easy-to-use website analyzer, cloner, and converter designed for developers.|
@@ -1618,7 +1619,7 @@ scoop install lemon/<app_name>
 |[spago](https://github.com/purescript/spago)|[0.21.0](https://github.com/purescript/spago)|PureScript package manager and build tool.|
 |[spark-ai-cli](https://github.com/iflytek/spark-ai-cli)|[0.1.6](https://github.com/iflytek/spark-ai-cli)|讯飞星火大模型终端工具|
 |[sparkle](https://github.com/xishang0128/sparkle)|[1.6.5](https://github.com/xishang0128/sparkle)|Another Mihomo GUI.|
-|[speakeasy](https://speakeasy.com/)|[1.552.0](https://speakeasy.com/)|Generate client SDKs in popular languages from your OpenAPI spec with Speakeasy.|
+|[speakeasy](https://speakeasy.com/)|[1.554.1](https://speakeasy.com/)|Generate client SDKs in popular languages from your OpenAPI spec with Speakeasy.|
 |[speedtest-go](https://github.com/showwin/speedtest-go)|[1.7.10](https://github.com/showwin/speedtest-go)|A full-featured CLI to test Internet speed using speedtest.net.|
 |[speex](https://www.speex.org/)|[1.2.1](https://rarewares.org/others.php#speex-win)|An Open Source/Free Software patent-free audio compression format designed for speech.|
 |[spin](https://spinframework.dev/)|[3.2.0](https://spinframework.dev/)|A framework for building, deploying, and running fast, secure, and composable cloud microservices with WebAssembly.|
@@ -1735,14 +1736,14 @@ scoop install lemon/<app_name>
 |[textlocator](https://gitee.com/dotnetchina/TextLocator)|[2.1.36.0](https://gitee.com/dotnetchina/TextLocator/releases/latest)|基于.Net实现的本地文档的全文索引定位器，根据关键词搜索定位本地文档内容|
 |[tgpt](https://github.com/aandrew-me/tgpt)|[2.10.0](https://github.com/aandrew-me/tgpt)|A CLI tool that allows you to use AI chatbot in your Terminal without requiring API keys.|
 |[theaeroclock](https://softwareok.com/?seite=Freeware/TheAeroClock)|[8.77](https://softwareok.com/?seite=Freeware/TheAeroClock)|A simple but at the same time beautiful desktop clock with alpha transparency and different textures.|
-|[thesage](https://www.sequencepublishing.com/1/thesage/thesage.html)|[7.64.2818](https://www.sequencepublishing.com/1/thesage/thesage.html)|TheSage is an International English dictionary and thesaurus with entries from all the World English varieties.|
+|[thesage](https://www.sequencepublishing.com/1/thesage/thesage.html)|[7.66.2820](https://www.sequencepublishing.com/1/thesage/thesage.html)|TheSage is an International English dictionary and thesaurus with entries from all the World English varieties.|
 |[thumbcacheviewer](https://thumbcacheviewer.github.io/)|[1.0.4.0](https://thumbcacheviewer.github.io/)|Thumbcache Viewer allows you to extract thumbnail images from the thumbcache_*.db and iconcache_*.db database files found on Windows.|
 |[thumbsviewer](https://thumbsviewer.github.io/)|[1.0.3.1](https://thumbsviewer.github.io/)|Thumbs Viewer allows you to extract thumbnail images from the Thumbs.db, ehthumbs.db, ehthumbs_vista.db, Image.db, Video.db, TVThumb.db, and musicThumbs.db database files.|
 |[tickeys](https://www.yingdev.com/projects/tickeys)|[<i>1.2.0</i>](https://www.yingdev.com/projects/tickeys)|Instant audio feedback for typing.|
 |[tidgi](https://github.com/tiddly-gittly/TidGi-Desktop)|[0.12.1-update](https://github.com/tiddly-gittly/TidGi-Desktop/releases/latest)|TidGi is an auto-git-backup, privatcy-in-mind, freely-deployed Tiddlywiki knowledgement Desktop app, with local REST API.|
 |[tiejili](https://github.com/Buernia/Tiejili)|[1.100](https://github.com/Buernia/Tiejili)|铁蒺藜体是一款造型尖锐的美术字体，基于 Fontworks 出品的日文字体レゲエ One 扩充、调整字形，并添加 OpenType 特性，以满足简体中文的使用需求|
 |[tika](https://tika.apache.org/)|[3.2.0](https://repo1.maven.org/maven2/org/apache/tika/tika-app/maven-metadata.xml)|Apache Tika is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.|
-|[tilt](https://tilt.dev/)|[0.34.4](https://tilt.dev/)|Define your dev environment as code. For microservice apps on Kubernetes.|
+|[tilt](https://tilt.dev/)|[0.34.5](https://tilt.dev/)|Define your dev environment as code. For microservice apps on Kubernetes.|
 |[timelineexplorer](https://ericzimmerman.github.io/)|[2.1.0](https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md)|A GUI based Jump List viewer.|
 |[timevertor](https://www.henrypp.org/product/timevertor)|[1.4.3](https://github.com/henrypp/timevertor/releases/latest)|A tiny application for datetime conversion to human-readable, RFC 822, ISO 8601, UNIX Timestamp, Mac Timestamp, Microsoft Timestamp and FILETIME.|
 |[timoni](https://timoni.sh/)|[0.25.0](https://timoni.sh/)|A package manager for Kubernetes, powered by CUE and inspired by Helm.|
@@ -1830,7 +1831,7 @@ scoop install lemon/<app_name>
 |[uwscr](https://github.com/stuncloud/UWSCR)|[1.0.6](https://github.com/stuncloud/UWSCR)|A UWSC-compatible script executable tool.|
 |[uyou-todo](https://github.com/tonylu110/uyou-todo-electron)|[3.1.0](https://github.com/tonylu110/uyou-todo-electron)|A todo list with electron.|
 |[varia](https://giantpinkrobots.github.io/varia/)|[2025.5.14](https://github.com/giantpinkrobots/varia/releases.atom)|A download manager for files, torrents and videos.|
-|[vcardeditor](https://github.com/abdelkader/vCardEditor)|[0.5.7](https://github.com/abdelkader/vCardEditor)|A simple vCard (*.vcf) file editor.|
+|[vcardeditor](https://github.com/abdelkader/vCardEditor)|[0.5.8](https://github.com/abdelkader/vCardEditor)|A simple vCard (*.vcf) file editor.|
 |[vceenc](https://github.com/rigaya/VCEEnc)|[8.35](https://github.com/rigaya/VCEEnc)|An AMD VCE hardware codec based command line video encoder.|
 |[vcluster](https://www.vcluster.com)|[0.25.0](https://www.vcluster.com)|Create fully functional virtual Kubernetes clusters.|
 |[velad](https://github.com/kubevela/velad)|[1.9.5](https://github.com/kubevela/velad)|A lightweight deployment tool to set up KubeVela.|
@@ -1845,7 +1846,7 @@ scoop install lemon/<app_name>
 |[vgmstream-cli](https://vgmstream.org)|[r2023](https://github.com/vgmstream/vgmstream/releases/latest)|A command-line decoder that converts hundreds of video game music formats and codecs to .wav.|
 |[vgrep](https://github.com/vrothberg/vgrep)|[2.8.0](https://github.com/vrothberg/vgrep)|A pager for grep, git-grep, ripgrep and similar grep implementations|
 |[victoria](https://hdd.by/victoria/)|[5.37](https://hdd.by/victoria/)|A HDD and SSD diagnostic utility.|
-|[victoria-logs](https://docs.victoriametrics.com/VictoriaLogs/)|[1.22.2](https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml)|An open source user-friendly database for logs from VictoriaMetrics.|
+|[victoria-logs](https://docs.victoriametrics.com/VictoriaLogs/)|[1.23.0](https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml)|An open source user-friendly database for logs from VictoriaMetrics.|
 |[victoria-metrics](https://docs.victoriametrics.com/)|[1.118.0](https://docs.victoriametrics.com/)|A fast, cost-effective and scalable monitoring solution and time series database.|
 |[victoria-metrics-cluster](https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html)|[1.118.0](https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html)|(Cluster version) A fast, cost-effective and scalable monitoring solution and time series database.|
 |[videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)|[3.0.246](https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=branch%3Amaster+is%3Asuccess)|A cross-platform software to find duplicated video (and image) files on hard disk based on similiarity.|
@@ -1856,7 +1857,7 @@ scoop install lemon/<app_name>
 |[visipics](http://www.visipics.info/)|[1.31](https://www.fosshub.com/VisiPics.html)|A program designed to quickly detect and (if necessary) delete duplicate images.|
 |[viu](https://github.com/atanunq/viu)|[1.5.1](https://github.com/atanunq/viu)|A small command-line application to view images from the terminal.|
 |[vivetool-gui](https://github.com/PeterStrick/ViVeTool-GUI)|[1.6.999.3](https://api.github.com/repos/PeterStrick/ViVeTool-GUI/releases/latest)|Windows Feature Control GUI based on ViVe / ViVeTool.|
-|[vlogscli](https://docs.victoriametrics.com/victorialogs/querying/vlogscli/)|[1.22.2](https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml)|An interactive command-line tool for querying VictoriaLogs.|
+|[vlogscli](https://docs.victoriametrics.com/victorialogs/querying/vlogscli/)|[1.23.0](https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml)|An interactive command-line tool for querying VictoriaLogs.|
 |[vmutils](https://docs.victoriametrics.com/vmctl.html)|[1.118.0](https://docs.victoriametrics.com/vmctl.html)|Utils for Victoria Metrics|
 |[vmutils-enterprise](https://docs.victoriametrics.com/vmctl.html)|[1.118.0](https://docs.victoriametrics.com/vmctl.html)|Utils for Victoria Metrics Enterprise|
 |[vnt](https://rustvnt.com/)|[1.2.16](https://rustvnt.com/)|An efficient VPN / 简便高效的异地组网、内网穿透工具|
@@ -1903,9 +1904,9 @@ scoop install lemon/<app_name>
 |[whalebird](https://whalebird.social/)|[6.2.2](https://whalebird.social/)|A Mastodon, Pleroma, and Misskey client for desktop application.|
 |[whatsapp-chat-exporter](https://github.com/KnugiHK/WhatsApp-Chat-Exporter)|[0.12.0](https://github.com/KnugiHK/WhatsApp-Chat-Exporter)|A customizable Android and iPhone Whatsapp database parser that will give you the history of your Whatsapp conversations in HTML and JSON.|
 |[whisper-cli](https://github.com/Const-me/Whisper)|[1.12.0](https://github.com/Const-me/Whisper)|(CLI Version) High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model.|
-|[whisper-cpp-blas-nightly](https://github.com/ggml-org/whisper.cpp)|[4095](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
-|[whisper-cpp-cuda-nightly](https://github.com/ggml-org/whisper.cpp)|[4095](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(CUDA Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
-|[whisper-cpp-nightly](https://github.com/ggml-org/whisper.cpp)|[4095](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
+|[whisper-cpp-blas-nightly](https://github.com/ggml-org/whisper.cpp)|[4109](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
+|[whisper-cpp-cuda-nightly](https://github.com/ggml-org/whisper.cpp)|[4109](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(CUDA Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
+|[whisper-cpp-nightly](https://github.com/ggml-org/whisper.cpp)|[4109](https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess)|(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model|
 |[whisper-desktop](https://github.com/Const-me/Whisper)|[1.12.0](https://github.com/Const-me/Whisper)|(GUI Version) High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model.|
 |[whisper-model-ggml-base](https://github.com/ggerganov/whisper.cpp/tree/master/models)|[80da2d8](https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-base.bin)|(base) Whisper model files in custom ggml format|
 |[whisper-model-ggml-base-en](https://github.com/ggerganov/whisper.cpp/tree/master/models)|[80da2d8](https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-base.en.bin)|(base) Whisper model files in custom ggml format|
@@ -1920,7 +1921,7 @@ scoop install lemon/<app_name>
 |[whisper-ps](https://github.com/Const-me/Whisper)|[1.12.0](https://github.com/Const-me/Whisper)|(PS Module Version) High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model.|
 |[whynotwin11](https://github.com/rcmaehl/WhyNotWin11)|[2.6.1.1](https://github.com/rcmaehl/WhyNotWin11)|Detection Script to help identify why your PC isn't Windows 11 Release Ready.|
 |[wifi-filter-tool](https://www.sordum.org/16523/)|[1.1](https://www.sordum.org/16523/)|Wi-Fi Filter Tool is a lightweight application that allows you to hide unknown wireless networks (SSID) from the list of available networks.|
-|[wild-novel](https://github.com/niuhuan/wild)|[0.0.7](https://github.com/niuhuan/wild)|一个使用 Flutter 开发的轻小说文库客户端，提供流畅的阅读体验和丰富的功能|
+|[wild-novel](https://github.com/niuhuan/wild)|[0.0.8](https://github.com/niuhuan/wild)|一个使用 Flutter 开发的轻小说文库客户端，提供流畅的阅读体验和丰富的功能|
 |[wimlib](https://wimlib.net/)|[1.14.4](https://wimlib.net/downloads/index.html)|An open source, cross-platform tool for creating, extracting, and modifying Windows Imaging (WIM) archives.|
 |[wimtool](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=106907)|[1.6.2024.1111](https://scoop-lemon.tari.xyz/hosted/wimtool/latest.yml)|Wim文件的图形视窗处理工具|
 |[win11syscheck](https://github.com/mq1n/Win11SysCheck)|[10](https://github.com/mq1n/Win11SysCheck)|Windows 11 compability check with user friendly output.|
@@ -1943,20 +1944,20 @@ scoop install lemon/<app_name>
 |[winfi-lite](https://www.helge-keck.com/)|[<i>1.0.21.9</i>](https://www.helge-keck.com/)|WinFi Lite is a powerful WiFi Analyzer for Windows 10.|
 |[winfindr](https://winfindr.com/)|[1.6](https://winfindr.com/)|A Windows search app that allows you to easily search for files, folders and also Windows registry data with multiple search terms at the same time.|
 |[winfrgui](https://www.winfr.org/)|[1.2.2](https://www.winfr.org/)|WinfrGUI adds a graphical user interface (GUI) to Windows File Recovery (Microsoft command-line app), making it more accessible to anyone who does not like the command prompt.|
-|[wing-101](https://wingware.com/downloads/wing-101)|[10.0.9.0](https://wingware.com/downloads/wing-101)|A very simple free Python IDE designed for teaching beginning programmers, that omits most features found in Wing Pro.|
-|[wing-personal](https://wingware.com/downloads/wing-personal)|[10.0.9.0](https://wingware.com/downloads/wing-personal)|A free Python IDE designed for students and hobbyists, that omits many features found in Wing Pro.|
+|[wing-101](https://wingware.com/downloads/wing-101)|[10.0.10.0](https://wingware.com/downloads/wing-101)|A very simple free Python IDE designed for teaching beginning programmers, that omits most features found in Wing Pro.|
+|[wing-personal](https://wingware.com/downloads/wing-personal)|[10.0.10.0](https://wingware.com/downloads/wing-personal)|A free Python IDE designed for students and hobbyists, that omits many features found in Wing Pro.|
 |[wingetui](https://github.com/martinet101/WinGetUI)|[3.2.0](https://github.com/martinet101/WinGetUI)|A GUI Store for the most common cli package managers, sych as Winget and Scoop.|
 |[wininfo](https://www.pazera-software.com/products/wininfo/)|[1.0.3](https://www.pazera-software.com/products/wininfo/)|A program for detailed analysis of all windows created by applications running in the Windows system.|
 |[winmemorycleaner](https://github.com/IgorMundstein/WinMemoryCleaner)|[2.8](https://github.com/IgorMundstein/WinMemoryCleaner)|Windows Memory Cleaner is a free portable RAM cleaner.|
 |[winmouse](https://www.pazera-software.com/products/winmouse/)|[1.0](https://www.pazera-software.com/products/winmouse/)|A program for managing mouse settings in the Windows system.|
-|[winobjex64](https://github.com/hfiref0x/WinObjEx64)|[2.0.6](https://github.com/hfiref0x/WinObjEx64)|An advanced utility that lets you explore the Windows Object Manager namespace.|
+|[winobjex64](https://github.com/hfiref0x/WinObjEx64)|[2.0.7](https://github.com/hfiref0x/WinObjEx64)|An advanced utility that lets you explore the Windows Object Manager namespace.|
 |[winscan2pdf](https://softwareok.com/?seite=Microsoft/WinScan2PDF)|[9.34](https://softwareok.com/?seite=Microsoft/WinScan2PDF)|A small program for scanning documents and saving them on your computer as a PDF by using any installed scanner.|
 |[wintousb-free](https://www.easyuefi.com/wintousb/index.html)|[9.8](https://www.easyuefi.com/wintousb/change-logs.html)|A free Windows To Go (WTG) Creator which allows you to install and run a fully-functional Windows on external drive.|
 |[wintun-libs](https://www.wintun.net/)|[0.14.1](https://www.wintun.net/)|A very simple and minimal TUN driver for the Windows kernel, which provides userspace programs with a simple network adapter for reading and writing packets.|
 |[wit-bindgen](https://github.com/bytecodealliance/wit-bindgen)|[0.42.1](https://github.com/bytecodealliance/wit-bindgen)|A language binding generator for WebAssembly interface types.|
 |[wizer](https://github.com/bytecodealliance/wizer)|[8.0.0](https://github.com/bytecodealliance/wizer)|The WebAssembly Pre-Initializer.|
 |[wiznoteplus](https://altairwei.github.io/WizNotePlus/)|[2.12.0](https://altairwei.github.io/WizNotePlus/)|A community branch of WizQTClient, that is a cross-platform cloud based note-taking client|
-|[wj-markdown-editor](https://github.com/nlbwqmz/wj-markdown-editor)|[2.7.0](https://github.com/nlbwqmz/wj-markdown-editor)|一款支持webdav的开源桌面端markdown编辑器|
+|[wj-markdown-editor](https://github.com/nlbwqmz/wj-markdown-editor)|[2.8.0](https://github.com/nlbwqmz/wj-markdown-editor)|一款支持webdav的开源桌面端markdown编辑器|
 |[wnacg-downloader](https://github.com/lanyeeee/wnacg-downloader)|[0.2.1](https://github.com/lanyeeee/wnacg-downloader)|一个用于绅士漫画的多线程下载器|
 |[woterm](https://www.woterm.com/)|[10.2.1](https://down.woterm.com/.softver)|A cross platform remote access management tool, out of the box, no configuration, safe and stable.|
 |[wpd](https://wpd.app/)|[1.5.2042](https://wpd.app/)|A small but powerful portable tool to customize privacy related settings in Windows.|
@@ -1966,7 +1967,7 @@ scoop install lemon/<app_name>
 |[wtg-assistant](https://github.com/nkc3g4/wtg-assistant)|[5.6.2.0](https://raw.githubusercontent.com/nkc3g4/wtg-assistant/refs/heads/mainline/wintogo/Properties/AssemblyInfo.cs)|Windows To Go Assistant (WTGA) provides a convenient and quick method to deploy Windows To Go on USB devices.|
 |[wthrr](https://github.com/ttytm/wthrr-the-weathercrab)|[1.2.1](https://github.com/ttytm/wthrr-the-weathercrab)|Weather companion for the terminal.|
 |[wubi-dict-editor](https://github.com/KyleBing/wubi-dict-editor)|[1.30](https://github.com/KyleBing/wubi-dict-editor)|五笔码表助手 for Rime，主要服务于 rime-wubi86-jidian 方案|
-|[wubilex](https://wubi.aardio.com/)|[12.1.0.0](https://github.com/aardio/wubi-lex/raw/master/default.aproj)|WubiLex（五笔助手）是 Win10/Win11 自带五笔码表与短语词库安装、管理工具，增强微软五笔的设置、热键等功能。|
+|[wubilex](https://wubi.aardio.com/)|[12.1](https://wubi.aardio.com/update/)|WubiLex（五笔助手）是 Win10/Win11 自带五笔码表与短语词库安装、管理工具，增强微软五笔的设置、热键等功能。|
 |[wush](https://github.com/coder/wush)|[0.4.1](https://github.com/coder/wush)|A command line tool that lets you easily transfer files and open shells over a peer-to-peer WireGuard connection.|
 |[wx3270](http://x3270.bgp.nu/)|[1.2ga9](https://sourceforge.net/projects/x3270/rss)|The graphical version of x3270, an IBM 3270 terminal emulator for the X Window System and Windows.|
 |[wxautoexim](https://github.com/kihlh/WxDatViewerAutoExportRust)|[2.0.0](https://github.com/kihlh/WxDatViewerAutoExportRust)|微信聊天图片自动备份工具|
