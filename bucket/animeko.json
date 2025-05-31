@@ -1,12 +1,12 @@
 {
-    "version": "4.11.0",
+    "version": "4.11.1",
     "description": "集找番、追番、看番的一站式弹幕追番平台",
     "homepage": "https://myani.org/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://d.myani.org/v4.11.0/ani-4.11.0-windows-x86_64.zip",
-            "hash": "sha1:cd5e0fcdcf49c24c50f0913fdede92e01c26dd3c"
+            "url": "https://d.myani.org/v4.11.1/ani-4.11.1-windows-x86_64.zip",
+            "hash": "sha1:4f6f7bf52ec0eca653b4b9a1f45c62fc1b9b702b"
         }
     },
     "extract_dir": "Ani",
