@@ -1,12 +1,12 @@
 {
-    "version": "0.6.3",
+    "version": "0.7.0",
     "description": "A camera RAW to DNG file format converter.",
     "homepage": "https://github.com/dnglab/dnglab",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dnglab/dnglab/releases/download/v0.6.3/dnglab-win-x64_v0.6.3.zip",
-            "hash": "95a5109c81a4bd9a504dd26174d0773bb705f53dfc6b4e1b1af16bbe07ed7a42"
+            "url": "https://github.com/dnglab/dnglab/releases/download/v0.7.0/dnglab-win-x64_v0.7.0.zip",
+            "hash": "ee0ee3a1769b0ea37bdd3d682d851b22662965e4b7cdfe61f164fab968542fa0"
         }
     },
     "bin": "dnglab.exe",
