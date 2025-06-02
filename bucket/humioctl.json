@@ -1,12 +1,12 @@
 {
-    "version": "0.38.0",
+    "version": "0.38.1",
     "description": "A CLI for managing and searching in Falcon LogScale (Humio) from the command line.",
     "homepage": "https://github.com/humio/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/humio/cli/releases/download/v0.38.0/humioctl_Windows_x86_64.zip",
-            "hash": "605e9cdf6a42baea70e3a1e7804ac39dff18f1cbbc0298d258ddfb5998a953be"
+            "url": "https://github.com/humio/cli/releases/download/v0.38.1/humioctl_Windows_x86_64.zip",
+            "hash": "0f5ae7fd071be0c92a1ca83d679e7b1250b49b86927db7da415411d20b65ddae"
         }
     },
     "bin": "humioctl.exe",
