@@ -1,20 +1,20 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A GitHub CLI extension that generates 3D-printable STL files of your GitHub contribution graph.",
     "homepage": "https://github.com/github/gh-skyline",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.5/windows-amd64.exe#/gh-skyline.exe",
-            "hash": "b73fe952ed9e5224f72d2873900e1178a342c7053d126eac55952d6856efb4b0"
+            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.6/windows-amd64.exe#/gh-skyline.exe",
+            "hash": "5227f2858a85f6354ff2b7d9c65e7ac4677636b6a3811d5aeeb29e3a7cc4dd44"
         },
         "32bit": {
-            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.5/windows-386.exe#/gh-skyline.exe",
-            "hash": "df2743ae8365fecc95c1ab0e2a55f8d45dfacc94cbf4d0b70cd6d8a9dd9c901e"
+            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.6/windows-386.exe#/gh-skyline.exe",
+            "hash": "b2bd4de7cd930d9567ad09de923439744d382774176107a6dc68db2fd7f1b47c"
         },
         "arm64": {
-            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.5/windows-arm64.exe#/gh-skyline.exe",
-            "hash": "8e873d82faa0656427e44a45b97573f1bd99b10f4dbbe6d3ea98741dc9746662"
+            "url": "https://github.com/github/gh-skyline/releases/download/v0.1.6/windows-arm64.exe#/gh-skyline.exe",
+            "hash": "e35a2b97ad3cb8d0e7669858ba9fd36697b8579166c8f83b4accd7ab9d4930b5"
         }
     },
     "bin": "gh-skyline.exe",
