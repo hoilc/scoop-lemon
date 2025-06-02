@@ -1,12 +1,12 @@
 {
-    "version": "3.12.0",
+    "version": "3.13.0",
     "description": "A CLI tool for linting and testing Helm charts.",
     "homepage": "https://github.com/helm/chart-testing",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/helm/chart-testing/releases/download/v3.12.0/chart-testing_3.12.0_windows_amd64.zip",
-            "hash": "7976d1f16735355149f6184c321fcd706d6dd69d229f006871e2831015ae16da"
+            "url": "https://github.com/helm/chart-testing/releases/download/v3.13.0/chart-testing_3.13.0_windows_amd64.zip",
+            "hash": "25a00adf758589591bbc1152b40f7286af67f9e78421ae9cc7ec2d8e962c8606"
         }
     },
     "bin": "ct.exe",
