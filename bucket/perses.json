@@ -1,16 +1,16 @@
 {
-    "version": "0.51.0-rc.0",
+    "version": "0.51.0-rc.1",
     "description": "A dashboard tool that you can use to display a variety of observability data.",
     "homepage": "https://perses.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/perses/perses/releases/download/v0.51.0-rc.0/perses_0.51.0-rc.0_windows_amd64.tar.gz",
-            "hash": "1a1c5f60fdad055a4f64bc9e964f3b679db0c08ecfe2ea95a4edea749a322e61"
+            "url": "https://github.com/perses/perses/releases/download/v0.51.0-rc.1/perses_0.51.0-rc.1_windows_amd64.tar.gz",
+            "hash": "041cf62b0cf0131d9c232fa2eb1ee98a9533cb77f5aab83a8d3d9e80e607590b"
         },
         "arm64": {
-            "url": "https://github.com/perses/perses/releases/download/v0.51.0-rc.0/perses_0.51.0-rc.0_windows_arm64.tar.gz",
-            "hash": "f16a7aebbac76be3de399f6b2b90af6a89f9172e8bd1f00cba2943cd17db6829"
+            "url": "https://github.com/perses/perses/releases/download/v0.51.0-rc.1/perses_0.51.0-rc.1_windows_arm64.tar.gz",
+            "hash": "8ec33f0d87b0376c546b79ef5890424efda17147eb6ea2b6df7be71cece1f78e"
         }
     },
     "bin": [
