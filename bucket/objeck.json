@@ -1,5 +1,5 @@
 {
-    "version": "2025.6.1",
+    "version": "2025.6.2",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.6.1/objeck-windows-x64_2025.6.1.zip",
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.6.2/objeck-windows-x64_v2025.6.2.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "sha1:9d09a736bc6c9c234b74cd2bd3d5eab9590aa7b7"
+            "hash": "sha1:ac993c17e62f77c534bb654f6f625f53bb4cc3a4"
         },
         "arm64": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.6.1/objeck-windows-arm64_2025.6.1.zip",
+            "url": "https://sourceforge.net/projects/objeck-lang/files/v2025.6.2/objeck-windows-arm64_v2025.6.2.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "sha1:96b9d81ff55f43d6769716330ef72b59671a2719"
+            "hash": "sha1:048abd38d10220e25f00808bff1decec2b0dd78d"
         }
     },
     "shortcuts": [
@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-x64_$version.zip"
+                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-x64_v$version.zip"
             },
             "arm64": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-arm64_$version.zip"
+                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-arm64_v$version.zip"
             }
         }
     }
