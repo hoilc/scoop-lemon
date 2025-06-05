@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "A CLI calculator with real-time output and support for units.",
     "homepage": "https://github.com/bgkillas/kalc",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bgkillas/kalc/releases/download/v1.5.0/kalc.exe",
-            "hash": "8a477abc23d60334adf5fc06f0c426c64329fac7ae2400b5907817c00142e558"
+            "url": "https://github.com/bgkillas/kalc/releases/download/v1.5.1/kalc.exe.zip",
+            "hash": "7158d95320ea57c364135b50cfdd580124e9efd5cc209e03b08579eb30337ecf"
         }
     },
     "bin": "kalc.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bgkillas/kalc/releases/download/v$version/kalc.exe"
+                "url": "https://github.com/bgkillas/kalc/releases/download/v$version/kalc.exe.zip"
             }
         }
     }
