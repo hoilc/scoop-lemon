@@ -1,12 +1,12 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.6",
     "description": "一款开源免费的游戏变速齿轮工具，让你的游戏突破帧率限制，提供更流畅丝滑的游戏加速体验",
     "homepage": "https://github.com/game1024/OpenSpeedy",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/game1024/OpenSpeedy/releases/download/release-v1.6.5/OpenSpeedy-v1.6.5.zip",
-            "hash": "a1bfe72a087aa85e0ea4a8b9b9faba8017c04f80a698ae71cf61836d25e01dc3"
+            "url": "https://github.com/game1024/OpenSpeedy/releases/download/release-v1.6.6/OpenSpeedy-v1.6.6.zip",
+            "hash": "3d567f56d2241635ca940b84ca26997e257d2f226147fbd8307618418fd226a9"
         }
     },
     "shortcuts": [
