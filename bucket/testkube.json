@@ -1,5 +1,5 @@
 {
-    "version": "2.1.156",
+    "version": "2.1.157",
     "description": "Kubernetes-native testing framework for test execution and orchestration.",
     "homepage": "https://testkube.io/",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.156/testkube_2.1.156_Windows_x86_64.tar.gz",
-            "hash": "8407906e195e467c1fe7ca91371f1e62ff3de725d2ecd26bb9fab297d580aa92"
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.157/testkube_2.1.157_Windows_x86_64.tar.gz",
+            "hash": "819ac7fca8dff7544c3ba23a7554d0850178f5e0a675d828475ce35c83e11b5b"
         },
         "32bit": {
-            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.156/testkube_2.1.156_Windows_i386.tar.gz",
-            "hash": "eb120ee9d12bdcd8cdc2395df0603cf1dd2bf4013f9becd83a6e9cddf93a2600"
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.157/testkube_2.1.157_Windows_i386.tar.gz",
+            "hash": "e1975c56073b86f02d3f1d2fe78f4ca2764c88fc1f7ebaae044c828a07f08b4c"
         },
         "arm64": {
-            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.156/testkube_2.1.156_Windows_arm64.tar.gz",
-            "hash": "354c984c780bacff5399187b085321690a733c16b2ef80de2b3ef28c8c603b0a"
+            "url": "https://github.com/kubeshop/testkube/releases/download/v2.1.157/testkube_2.1.157_Windows_arm64.tar.gz",
+            "hash": "5b14217626cb908bf8caa60c197e88e68e8a0393fdedb64f85199034208e06c3"
         }
     },
     "bin": [
