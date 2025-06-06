@@ -1,10 +1,10 @@
 {
-    "version": "9.8",
+    "version": "9.9",
     "description": "A free Windows To Go (WTG) Creator which allows you to install and run a fully-functional Windows on external drive.",
     "homepage": "https://www.easyuefi.com/wintousb/index.html",
     "license": "Liteware",
     "url": "https://www.easyuefi.com/wintousb/downloads/WinToUSB_Free.exe",
-    "hash": "e8d4f97189be1a868d5d73e373d2e2abd72d0e4cd06a01ba5b4ff1fd1d9cec44",
+    "hash": "c67d5b52d22665514160a46c34922683076da66f1734ef6b44e27df4bc7dee04",
     "architecture": {
         "64bit": {
             "pre_install": [
