@@ -1,18 +1,18 @@
 {
-    "version": "1.2025.05.05",
+    "version": "1.2025.06.06",
     "description": "Scan Tailor Experimental is an interactive post-processing tool for scanned pages.",
     "homepage": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-X86-64-Qt6.7z",
-            "extract_dir": "scantailor-experimental-1.2025.05.05-Win32-X86-64-Qt6",
-            "hash": "4767be42cbfe11ba2f95031f383d9a7968d2fcd27ea2098569110086198157d5"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.06.06/scantailor-experimental-1.2025.06.06-Win32-X86-64-Qt6.7z",
+            "extract_dir": "scantailor-experimental-1.2025.06.06-Win32-X86-64-Qt6",
+            "hash": "55c90329c68356c11553532c207560357d440954ed2dbeb7e434d5cad27cea84"
         },
         "32bit": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-X86-32.7z",
-            "extract_dir": "scantailor-experimental-1.2025.05.05-Win32-X86-32",
-            "hash": "93e79d2fd84afb05146540fe31fa1fc01d49013cd5c38f2be5748e99f6646f11"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.06.06/scantailor-experimental-1.2025.06.06-Win32-X86-32.7z",
+            "extract_dir": "scantailor-experimental-1.2025.06.06-Win32-X86-32",
+            "hash": "3dcef25525a3a9d4c51009e2b7eeca9b46d23c6602c781576104e1bfcb2ee38b"
         },
         "arm64": {
             "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2025.05.05/scantailor-experimental-1.2025.05.05-Win32-ARM64-Qt6.7z",
