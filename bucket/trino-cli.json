@@ -1,10 +1,10 @@
 {
-    "version": "475",
+    "version": "476",
     "description": "The command line client for Trino, a distributed SQL query engine.",
     "homepage": "https://trino.io/docs/current/client/cli.html",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/io/trino/trino-cli/475/trino-cli-475-executable.jar#/trino.jar",
-    "hash": "3467e8b834d2935339d6912441b0c2cc51827b78e965dffc158186c81cec02b2",
+    "url": "https://repo1.maven.org/maven2/io/trino/trino-cli/476/trino-cli-476-executable.jar#/trino.jar",
+    "hash": "fe4e9c7fb569cd67673afa1622945f6308e1e59bdb825419352b80887661757b",
     "bin": "trino.jar",
     "suggest": {
         "JDK 17+": [
