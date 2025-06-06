@@ -3,7 +3,7 @@
     "description": "A cross-platform cryptography tool.",
     "homepage": "https://muldersoft.com/#slunkcrypt",
     "license": "CC0-1.0",
-    "url": "https://bitbucket.org/muldersoft/slunkcrypt/downloads/slunkcrypt.2024-11-14.windows.zip",
+    "url": "https://gitlab.com/-/project/21762009/uploads/468aedc0885ecc031e4e2c81d332395e/slunkcrypt.2024-11-14.windows.zip",
     "hash": "096ad7c56f12c4452dbbad8393b8dd46751c482a14ba260e21db8a59b833a10a",
     "architecture": {
         "64bit": {
@@ -31,11 +31,17 @@
             ]
         }
     },
+    "shortcuts": [
+        [
+            "slunkcrypt-gui.exe",
+            "SlunkCrypt GUI"
+        ]
+    ],
     "checkver": {
-        "url": "https://api.bitbucket.org/2.0/repositories/muldersoft/slunkcrypt/downloads",
-        "regex": "slunkcrypt.([\\d-]+).windows.zip"
+        "url": "https://gitlab.com/lord_mulder/slunkcrypt/-/releases.atom",
+        "regex": "/uploads/(?<id>[^/]+)/slunkcrypt.([\\d-]+).windows.zip\""
     },
     "autoupdate": {
-        "url": "https://bitbucket.org/muldersoft/slunkcrypt/downloads/slunkcrypt.$version.windows.zip"
+        "url": "https://gitlab.com/-/project/21762009/uploads/$matchId/slunkcrypt.$version.windows.zip"
     }
 }
