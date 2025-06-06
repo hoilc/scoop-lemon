@@ -1,16 +1,16 @@
 {
-    "version": "78",
+    "version": "79",
     "description": "Efficiently control your mouse with keyboard inputs for a completely mouseless experience.",
     "homepage": "https://github.com/petoncle/mousemaster",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/petoncle/mousemaster/releases/download/78/mousemaster.exe",
-                "https://github.com/petoncle/mousemaster/releases/download/78/neo-mousekeys-ijkl.properties#/mousemaster.properties"
+                "https://github.com/petoncle/mousemaster/releases/download/79/mousemaster.exe",
+                "https://github.com/petoncle/mousemaster/releases/download/79/neo-mousekeys-ijkl.properties#/mousemaster.properties"
             ],
             "hash": [
-                "d281218e20cdf8f1824901b473a1770a3d9e48663284090ee5a83f77b5563f85",
+                "66dfa81ab4e2d290144d00714cc5fdd9d664ffe3c81f9d17aa284ecd59231012",
                 "c5b1c995501bb43f5baceebb77c17512eda40ac4003a612ed6e42e22ae8106e7"
             ]
         }
