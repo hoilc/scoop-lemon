@@ -1,5 +1,5 @@
 {
-    "version": "1.29",
+    "version": "1.30",
     "description": "A bluetooth monitor that search for Bluetooth and Bluetooth Low Energy / Bluetooth Smart devices and monitor their signal strength.",
     "homepage": "https://www.the-sz.com/products/bennett/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/bennett/Bennett.zip",
-    "hash": "4bcdc096ee630e5090d00ec04566c7b964ca2fae5c3b840931c1ad7ae4821a2e",
+    "hash": "057aa63b1e7cd605af78d4c1d7fc27c9ccf1e4b56aadf981df02779aaa6a1008",
     "bin": "Bennett.exe",
     "shortcuts": [
         [
