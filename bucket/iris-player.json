@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A lightweight video player / 轻量级视频播放器",
     "homepage": "https://github.com/nini22P/Iris",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nini22P/Iris/releases/download/v1.4.0/Iris-windows.zip",
-            "hash": "abcfabd6390bfc4bf79b595661e00e6b80605aaa6144fdd6a414c39c529cf22e"
+            "url": "https://github.com/nini22P/Iris/releases/download/v1.4.1/Iris-windows.zip",
+            "hash": "b23ab60728a00c1aa5230b3a0369212ac8768b13afa15e44f25b9bf09c4ef09c"
         }
     },
     "extract_dir": "Iris",
