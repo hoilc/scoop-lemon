@@ -1,12 +1,12 @@
 {
-    "version": "0.9.11",
+    "version": "0.9.12",
     "description": "A fast, mature, secure DoH and ODoH server proxy written in Rust. Also known as doh-server and rust-doh.",
     "homepage": "https://github.com/DNSCrypt/doh-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.9.11/doh-proxy_0.9.11_windows-x86_64.zip",
-            "hash": "eddd3ef11b33bde3d7d400aa03275a4c858251163569f419ee0b9f45e3a0b76a"
+            "url": "https://github.com/DNSCrypt/doh-server/releases/download/0.9.12/doh-proxy_0.9.12_windows-x86_64.zip",
+            "hash": "117e1c3ec6a5d6afe443f0eb024553e514e536fb1a734bdd5a86e2cfec6ef776"
         }
     },
     "extract_dir": "doh-proxy",
