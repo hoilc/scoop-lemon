@@ -1,12 +1,12 @@
 {
-    "version": "1.0",
+    "version": "1.01",
     "description": "Send specified apps to Windows Tray.",
     "homepage": "https://github.com/alirezagsm/Trayy",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alirezagsm/Trayy/releases/download/v1.0/Trayy.zip",
-            "hash": "e7baafb5aeb09a255797c18d4d107a67a344565a3bb4fb77688133876e4ac09f"
+            "url": "https://github.com/alirezagsm/Trayy/releases/download/v1.01/Trayy.zip",
+            "hash": "eb407358feb5a2ef195e4951c66dad38d04cb5561ef49549f6dbd98b4aa916ac"
         }
     },
     "shortcuts": [
