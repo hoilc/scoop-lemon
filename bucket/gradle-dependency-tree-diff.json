@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "description": "An intelligent diff tool for the output of Gradle's dependencies task.",
+    "homepage": "https://github.com/JakeWharton/dependency-tree-diff",
+    "license": "Apache-2.0",
+    "url": "https://github.com/JakeWharton/dependency-tree-diff/releases/download/1.2.1/dependency-tree-diff.jar",
+    "hash": "f6c84d5ce8beb3277103fb8235071dd8bc69a7cde75239f636a7c8293ff0c865",
+    "bin": "dependency-tree-diff.jar",
+    "suggest": {
+        "JDK 11+": [
+            "java/temurin17-jdk",
+            "java/temurin11-jdk",
+            "java/zulu17-jdk",
+            "java/zulu11-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/JakeWharton/dependency-tree-diff/releases/download/$version/dependency-tree-diff.jar"
+    }
+}
