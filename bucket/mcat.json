@@ -1,12 +1,12 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "cat command for documents / images / videos and more.",
     "homepage": "https://github.com/Skardyy/mcat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Skardyy/mcat/releases/download/v0.3.1/mcat-x86_64-pc-windows-msvc.zip",
-            "hash": "697ec43c376e364b30d4dc3cf65b7e973df05e4a9a369b4c4462f329355f99a5"
+            "url": "https://github.com/Skardyy/mcat/releases/download/v0.3.2/mcat-x86_64-pc-windows-msvc.zip",
+            "hash": "d554fe591fb7a425730f87448b78085292a659804a10b7193cdda5de54c79f4c"
         }
     },
     "bin": "mcat.exe",
