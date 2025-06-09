@@ -1,0 +1,31 @@
+{
+    "version": "0.6.0",
+    "description": "A CLI utility to sort Terraform variables and outputs.",
+    "homepage": "https://github.com/AlexNabokikh/tfsort",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AlexNabokikh/tfsort/releases/download/v0.6.0/tfsort_0.6.0_windows_amd64.tar.gz",
+            "hash": "db7af65dde635cdfb7204d27b28575417f33afa5448b8b3dce6e2ecc8613bfdd"
+        },
+        "arm64": {
+            "url": "https://github.com/AlexNabokikh/tfsort/releases/download/v0.6.0/tfsort_0.6.0_windows_arm64.tar.gz",
+            "hash": "01835e7fc1939e32836d2ae992181a64b28af3021e2554650b97b995604f88a9"
+        }
+    },
+    "bin": "tfsort.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AlexNabokikh/tfsort/releases/download/v$version/tfsort_$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/AlexNabokikh/tfsort/releases/download/v$version/tfsort_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
