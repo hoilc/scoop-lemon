@@ -1,16 +1,16 @@
 {
-    "version": "0.5.3",
+    "version": "0.6.0",
     "description": "A modern, simple TCP tunnel in Rust that exposes local ports to a remote server, bypassing standard NAT connection firewalls.",
     "homepage": "https://github.com/ekzhang/bore",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ekzhang/bore/releases/download/v0.5.3/bore-v0.5.3-x86_64-pc-windows-msvc.zip",
-            "hash": "ea17cf07444a5764697668019a29a5e1856000f4c5e05e3637d8651a72da0f09"
+            "url": "https://github.com/ekzhang/bore/releases/download/v0.6.0/bore-v0.6.0-x86_64-pc-windows-msvc.zip",
+            "hash": "01709c64fe2787cdc9a21d7030b0f08ad72dff0c36b7ecb72f4f667a55a34b4f"
         },
         "32bit": {
-            "url": "https://github.com/ekzhang/bore/releases/download/v0.5.3/bore-v0.5.3-i686-pc-windows-msvc.zip",
-            "hash": "47f845812a24cc2fa8acf4959b32e859b32cbc178d409bbd303228c74e75f230"
+            "url": "https://github.com/ekzhang/bore/releases/download/v0.6.0/bore-v0.6.0-i686-pc-windows-msvc.zip",
+            "hash": "23a249d09987f14e114ea126dc19ed00654acf35f8169cbd0f575c8f656ea7c5"
         }
     },
     "bin": "bore.exe",
