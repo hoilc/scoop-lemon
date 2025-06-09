@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.5.0/BongoCat_0.5.0_x64-setup.exe#/dl.7z",
-            "hash": "c2e3351d891c895e08177bb2d78c56ba1e56f705894c8ac724cb109386b87d93"
+            "hash": "9927eb8826dba93aae6a6402bf421e003f70c63c2c2585f2cab499fa0e36238e"
         },
         "32bit": {
             "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.5.0/BongoCat_0.5.0_x86-setup.exe#/dl.7z",
-            "hash": "62b474f670bee8aa24680f9205e950ad4989f8b6dcc103f5f0284fa016905f33"
+            "hash": "2a439b3b25b41db74471aba682a8ff49419b78ac2f4957b375e29412f3464b5c"
         },
         "arm64": {
             "url": "https://github.com/ayangweb/BongoCat/releases/download/v0.5.0/BongoCat_0.5.0_arm64-setup.exe#/dl.7z",
-            "hash": "c50da30739f30ba76af19462a61ba1c824f55568eec2fd19fd204bae66c92320"
+            "hash": "17027b045d346aed56130749aa25b233f962cc3d76410193907d345987256bec"
         }
     },
     "shortcuts": [
