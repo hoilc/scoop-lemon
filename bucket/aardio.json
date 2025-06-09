@@ -1,10 +1,10 @@
 {
-    "version": "40.14.0",
+    "version": "40.14.1",
     "description": "aardio 编程语言，专注于桌面软件快速开发",
     "homepage": "https://www.aardio.com/",
     "license": "Freeware",
     "url": "https://d.aardio.com/ide/aardio.7z",
-    "hash": "5d18e3cd67d6529fb125dc454ec86da742b6a9a5fce113d9c9129fb385078e1a",
+    "hash": "ab81d00b3453f03293dcc29ed31e0f4c6ad2a1d7cba531ee03dc254c476d76c3",
     "bin": "aardio.exe",
     "shortcuts": [
         [
