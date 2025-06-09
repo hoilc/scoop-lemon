@@ -1,0 +1,30 @@
+{
+    "version": "1.8.2",
+    "description": "GPX Animator generates video from GPX files.",
+    "homepage": "https://gpx-animator.app/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/gpx-animator/gpx-animator/releases/download/v1.8.2/gpx-animator-1.8.2-all.jar#/gpx-animator.jar",
+    "hash": "a4888a443eef0ebafe274529ed867ab8d646a29380acafab03428f45fd4e5885",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\gpx-animator.bat\" -Value '@start javaw.exe -jar \"%~dp0gpx-animator.jar\"'",
+    "shortcuts": [
+        [
+            "gpx-animator.bat",
+            "GPX Animator"
+        ]
+    ],
+    "bin": "gpx-animator.jar",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/gpx-animator/gpx-animator"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gpx-animator/gpx-animator/releases/download/v$version/gpx-animator-$version-all.jar#/gpx-animator.jar"
+    }
+}
