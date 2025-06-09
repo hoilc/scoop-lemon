@@ -1,0 +1,38 @@
+{
+    "version": "0.6.7",
+    "description": "A tool to convert from HCL to json, to make it easier for non-go applications and scripts to process HCL inputs.",
+    "homepage": "https://github.com/tmccombs/hcl2json",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_windows_amd64.zip",
+            "hash": "0e7a3529139f27fd0644b6d9d8370f975fdd640c43f39efb7bb9afe2d9a2d348"
+        },
+        "32bit": {
+            "url": "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_windows_386.zip",
+            "hash": "2f7d504626b46c790ef30092a216456c004ae31b082862be85933a65666832e6"
+        },
+        "arm64": {
+            "url": "https://github.com/tmccombs/hcl2json/releases/download/v0.6.7/hcl2json_windows_arm64.zip",
+            "hash": "b97fbc660a474a035c23e4ce9e05232a31d0ccc90136281240813438cdfa97b2"
+        }
+    },
+    "bin": "hcl2json.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tmccombs/hcl2json/releases/download/v$version/hcl2json_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/tmccombs/hcl2json/releases/download/v$version/hcl2json_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/tmccombs/hcl2json/releases/download/v$version/hcl2json_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/hcl2json_$version_checksums.txt"
+        }
+    }
+}
