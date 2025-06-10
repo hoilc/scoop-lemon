@@ -1,13 +1,13 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "25.4.1.1004",
+    "version": "25.6.10.147",
     "description": "A Windows Event Log viewer for tech support and IT professionals.",
     "homepage": "https://github.com/microsoft/EventLogExpert",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/EventLogExpert/releases/download/v25.4.1.1004/EventLogExpert_25.4.1.1004_x64.msix#/EventLogExpert.msix",
-            "hash": "aec301855c4e3376b41546a68b8d1a08f424ca69637852f9ce20928e5527b5f9"
+            "url": "https://github.com/microsoft/EventLogExpert/releases/download/v25.6.10.147/EventLogExpert_25.6.10.147_x64.msix#/EventLogExpert.msix",
+            "hash": "caef0ddebc35703beed0d058d93411861cb0fbff9cf047ff02a02b2b08d79035"
         }
     },
     "pre_install": [
