@@ -1,0 +1,31 @@
+{
+    "version": "0.1.6",
+    "description": "A command-line tool to recolor images using your favorite theme palettes.",
+    "homepage": "https://github.com/ashish0kumar/tint",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ashish0kumar/tint/releases/download/v0.1.6/tint_windows_x86_64.zip",
+            "hash": "f55c7bcffa67d2f4fe56433b5c9e62dbe8c516c4d9ed4d72b1e8b1c29a5d65ee"
+        },
+        "arm64": {
+            "url": "https://github.com/ashish0kumar/tint/releases/download/v0.1.6/tint_windows_arm64.zip",
+            "hash": "209cf5fabc58b8c6d94ceff1d764dcfe8caabaa9c0e0b515a09f31f14e318205"
+        }
+    },
+    "bin": "tint.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ashish0kumar/tint/releases/download/v$version/tint_windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ashish0kumar/tint/releases/download/v$version/tint_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
