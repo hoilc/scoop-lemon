@@ -47,7 +47,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-cublas-12.2.0-bin-x64.zip#/dl.zip"
+                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-cublas-12.4.0-bin-x64.zip#/dl.zip"
             }
         }
     }
