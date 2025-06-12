@@ -1,5 +1,5 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "🍒 Cherry Studio is a desktop client that supports for multiple LLM providers",
     "homepage": "https://cherry-ai.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.1/Cherry-Studio-1.4.1-x64-setup.exe#/dl.7z",
-            "hash": "e13a5569109f9f404d56c20954e3d0cb87070629237ec27af53332cf4d3951a7"
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.2/Cherry-Studio-1.4.2-x64-setup.exe#/dl.7z",
+            "hash": "833e0b3983eaa98f581323374b22b25102b69d4f5d1b6d552ee74350e9feedc8"
         },
         "arm64": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.1/Cherry-Studio-1.4.1-arm64-setup.exe#/dl.7z",
-            "hash": "84587819afb8081317f51e61263dfd121077702e1c49593f033ff68af6968165"
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.2/Cherry-Studio-1.4.2-arm64-setup.exe#/dl.7z",
+            "hash": "496a765e13521834b1bc5afa40ff8bf645c4df77ee9af39a17965a1ca0226edf"
         }
     },
     "installer": {
