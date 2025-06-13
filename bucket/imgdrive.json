@@ -1,10 +1,10 @@
 {
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "A lightweight virtual CD/DVD/Blu-ray drive that enables to emulate up all popular image types of CD, DVD and Blu-ray Discs to drives.",
     "homepage": "https://yubsoft.com/imgdrive/",
     "license": "Shareware",
-    "url": "https://download.yubsoft.com/imgdrive_2.2.2_portable.zip",
-    "hash": "e337f10a5d0809f35bbe1995c0d0609376241f80f7509b4e5a5b23fc9ba664c5",
+    "url": "https://download.yubsoft.com/imgdrive_2.2.3_portable.zip",
+    "hash": "739c5cdd62fd50cf609d9665fa4ce2da9a21f80982664bd6bcb174e9e63d8725",
     "architecture": {
         "64bit": {
             "extract_dir": "imgdrive_x64"
