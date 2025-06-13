@@ -1,16 +1,16 @@
 {
-    "version": "7.21",
+    "version": "7.24",
     "description": "An alternative command prompt is the ColorConsole to be able to execute cmd.exe and Powershell commands in tabs.",
     "homepage": "http://www.softwareok.eu/?seite=Freeware/ColorConsole",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_x64_Portable.zip",
-            "hash": "dd063ced7a99623b3d1ce6d02df3eab581ef239c5c13a05f40cc2a38f83aebe3"
+            "hash": "c0111afa6b5d5fc27a944fd983e70df771d27e336abdb31725eb0b932a4efd86"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_Portable.zip",
-            "hash": "d03199482dd34e5526fa3aa868067bc9ff56a145f81d5fbf59103c66c26cdcb1"
+            "hash": "0296838cf17aea23a9fca1db7ca9c6e052ebffd60718cb0e6ab9c03935bf3169"
         }
     },
     "shortcuts": [
