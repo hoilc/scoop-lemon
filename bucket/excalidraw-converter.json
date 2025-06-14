@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "A command line tool for porting Excalidraw diagrams to Gliffy and draw.io.",
     "homepage": "https://github.com/sindrel/excalidraw-converter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sindrel/excalidraw-converter/releases/download/v1.5.0/excalidraw-converter_1.5.0_windows_amd64.zip",
-            "hash": "cc782d384bebf6aaf466aa8768e436df9953234f425bea1366e44568b25d3522"
+            "url": "https://github.com/sindrel/excalidraw-converter/releases/download/v1.5.1/excalidraw-converter_1.5.1_windows_amd64.zip",
+            "hash": "0ee9f51016f92860612a5a1a44be563112bd0e463a2cf2577b43ead78a9cc8c3"
         }
     },
     "bin": "exconv.exe",
