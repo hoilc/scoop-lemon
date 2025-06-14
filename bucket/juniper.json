@@ -1,0 +1,23 @@
+{
+    "version": "4.0.1",
+    "description": "A functional reactive programming language for designing Arduino projects.",
+    "homepage": "https://www.juniper-lang.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/calebh/Juniper/releases/download/v4.0.1/Juniper-4.0.1-win.zip",
+            "hash": "595cdd22c18f99696f57209d614eff066fcbd8191ff16965d9374bf139f93e40"
+        }
+    },
+    "bin": "Juniper.exe",
+    "checkver": {
+        "github": "https://github.com/calebh/Juniper"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/calebh/Juniper/releases/download/v$version/Juniper-$version-win.zip"
+            }
+        }
+    }
+}
