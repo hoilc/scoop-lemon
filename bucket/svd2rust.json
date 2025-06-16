@@ -1,0 +1,21 @@
+{
+    "version": "0.36.1",
+    "description": "Generate Rust register maps (`struct`s) from SVD files.",
+    "homepage": "https://github.com/rust-embedded/svd2rust",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rust-embedded/svd2rust/releases/download/v0.36.1/svd2rust-x86_64-pc-windows-msvc.exe#/svd2rust.exe",
+            "hash": "f028576bbd6d9dd4ed820f9565f15cef7b853b633fd1b3ccf84e3cb696b52915"
+        }
+    },
+    "bin": "svd2rust.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rust-embedded/svd2rust/releases/download/v$version/svd2rust-x86_64-pc-windows-msvc.exe#/svd2rust.exe"
+            }
+        }
+    }
+}
