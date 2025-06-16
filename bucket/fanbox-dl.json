@@ -1,0 +1,38 @@
+{
+    "version": "0.27.3",
+    "description": "A command-line program that downloads media of supported and followed creators on Pixiv FANBOX.",
+    "homepage": "https://github.com/hareku/fanbox-dl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hareku/fanbox-dl/releases/download/v0.27.3/fanbox-dl_Windows_x86_64.zip",
+            "hash": "f51c0fc4553b9ce13759e9d6fd9acb8bc28eb02f02a0beeff76874b7c855e5ac"
+        },
+        "32bit": {
+            "url": "https://github.com/hareku/fanbox-dl/releases/download/v0.27.3/fanbox-dl_Windows_i386.zip",
+            "hash": "76a399e44d03992a12edd559c077a40523f76708a84f25ff1cd0bc2e68b37348"
+        },
+        "arm64": {
+            "url": "https://github.com/hareku/fanbox-dl/releases/download/v0.27.3/fanbox-dl_Windows_arm64.zip",
+            "hash": "17662f2b35a9bca2a87e77d7b8e8d4aa6b97e3c5c9dcc4b88ea97849dde2937a"
+        }
+    },
+    "bin": "fanbox-dl.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hareku/fanbox-dl/releases/download/v$version/fanbox-dl_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/hareku/fanbox-dl/releases/download/v$version/fanbox-dl_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/hareku/fanbox-dl/releases/download/v$version/fanbox-dl_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/fanbox-dl_$version_checksums.txt"
+        }
+    }
+}
