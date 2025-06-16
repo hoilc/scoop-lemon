@@ -1,0 +1,21 @@
+{
+    "version": "0.5.0",
+    "description": "A set of tools for modifying vendor-supplied, often buggy SVD files.",
+    "homepage": "https://github.com/rust-embedded/svdtools",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rust-embedded/svdtools/releases/download/v0.5.0/svdtools-x86_64-pc-windows-msvc.zip",
+            "hash": "713c1687ffb3743a0a2e45a52143f4f15f1d9f3b9c19809a8df9985d9d75d8e5"
+        }
+    },
+    "bin": "svdtools.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rust-embedded/svdtools/releases/download/v$version/svdtools-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
