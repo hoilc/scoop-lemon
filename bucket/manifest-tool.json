@@ -1,0 +1,28 @@
+{
+    "version": "2.2.0",
+    "description": "A command line utility used to view or push multi-platform container image references located in an OCIv1 or Docker v2.2 compatible container registry.",
+    "homepage": "https://github.com/estesp/manifest-tool",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/estesp/manifest-tool/releases/download/v2.2.0/binaries-manifest-tool-2.2.0.tar.gz",
+            "hash": "64600fe0cb9cd26fe50a63e4ad53f39f36b60384ce8426ec3990a5ebd9f8267f"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.exe' } | Remove-Item -Recurse",
+        "Get-ChildItem \"$dir\" 'manifest-tool-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'manifest-tool.exe'"
+    ],
+    "bin": "manifest-tool.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/estesp/manifest-tool/releases/download/v$version/binaries-manifest-tool-$version.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256sum"
+        }
+    }
+}
