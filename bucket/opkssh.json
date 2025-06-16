@@ -1,0 +1,24 @@
+{
+    "version": "0.7.0",
+    "description": "A tool which enables ssh to be used with OpenID Connect.",
+    "homepage": "https://github.com/openpubkey/opkssh",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/openpubkey/opkssh/releases/download/v0.7.0/opkssh-windows-amd64.exe#/opkssh.exe",
+            "hash": "fa2fbdeb3cb716c8ea9941c0a13e14ea83de3c49e9cafb33f83cbc2fce9e4bd3"
+        }
+    },
+    "bin": "opkssh.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/openpubkey/opkssh/releases/download/v$version/opkssh-windows-amd64.exe#/opkssh.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
