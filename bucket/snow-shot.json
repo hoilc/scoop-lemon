@@ -1,0 +1,35 @@
+{
+    "version": "0.1.3_beta_20250616",
+    "description": "SnowShot 是一款功能强大的截图工具，集成了文字识别、翻译和 AI 对话等功能",
+    "homepage": "https://github.com/mg-chao/snow-shot",
+    "license": "Apache-2.0|GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.3_beta_20250616/Snow.Shot_0.1.3_x64-setup.exe#/dl.7z",
+            "hash": "945011a46e4c5a3f357f2043047dda3bfde350e57f96730fb352a7aec5918e24"
+        }
+    },
+    "shortcuts": [
+        [
+            "app.exe",
+            "Snow Shot"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.chao.snowshot\", \"$env:LOCALAPPDATA\\com.chao.snowshot\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Snow Shot is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.chao.snowshot', and will be purged during uninstallation."
+    ],
+    "checkver": {
+        "url": "https://github.com/mg-chao/snow-shot/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mg-chao/snow-shot/releases/download/v$version/Snow.Shot_$matchHead_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
