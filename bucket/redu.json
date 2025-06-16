@@ -1,16 +1,16 @@
 {
-    "version": "0.2.13",
+    "version": "0.2.14",
     "description": "ncdu for your restic repository.",
     "homepage": "https://github.com/drdo/redu",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drdo/redu/releases/download/v0.2.13/redu-0.2.13-windows-x86_64.zip",
-            "hash": "0c68006f1e6cb0ccc4e5b0784123b5624c2f40d839358a691b0052ac5613b744"
+            "url": "https://github.com/drdo/redu/releases/download/v0.2.14/redu-0.2.14-windows-x86_64.zip",
+            "hash": "61827593caa411c8252b92655f9a4ef88f0844edcfcecc5e487b11a81a1a5a0c"
         },
         "arm64": {
-            "url": "https://github.com/drdo/redu/releases/download/v0.2.13/redu-0.2.13-windows-arm64.zip",
-            "hash": "80fd26ff27787f1dd040279c0457a27be8322cd76510a5b275eb3246be26c41b"
+            "url": "https://github.com/drdo/redu/releases/download/v0.2.14/redu-0.2.14-windows-arm64.zip",
+            "hash": "de66a0286c910a8f03d4ec04d28a7c3ed084261e9a14d24b107b2ba302610284"
         }
     },
     "bin": "redu.exe",
