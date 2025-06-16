@@ -1,0 +1,21 @@
+{
+    "version": "0.2.10",
+    "description": "A code formatter for Scala.",
+    "homepage": "https://github.com/scala-ide/scalariform",
+    "license": "MIT",
+    "url": "https://github.com/scala-ide/scalariform/releases/download/0.2.10/scalariform.jar",
+    "hash": "59d7c26f26c13bdbc27e3011da244f01001d55741058062f49e4626862b7991e",
+    "bin": "scalariform.jar",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/scala-ide/scalariform/releases/download/$version/scalariform.jar"
+    }
+}
