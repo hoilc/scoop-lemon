@@ -5,7 +5,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_2.0.0.3.zip",
+            "url": "https://download.pixpin.cn/PixPin_2.0.0.3.zip",
             "hash": "b50edd16fc4ced4599d5bb7e80448d325e8f7adc348ae9bcd790a85ad43f241f"
         }
     },
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.pixpinapp.com/PixPin_$version.zip"
+                "url": "https://download.pixpin.cn/PixPin_$version.zip"
             }
         }
     }
