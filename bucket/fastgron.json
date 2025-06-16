@@ -1,0 +1,21 @@
+{
+    "version": "0.7.7",
+    "description": "A high-performance JSON to GRON (greppable, flattened JSON) converter.",
+    "homepage": "https://github.com/adamritter/fastgron",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/adamritter/fastgron/releases/download/v0.7.7/fastgron.exe",
+            "hash": "1c18064f88804a0519fa51d9a4755bd25b7b73d16e28bddf24e3e1688480eb47"
+        }
+    },
+    "bin": "fastgron.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/adamritter/fastgron/releases/download/v$version/fastgron.exe"
+            }
+        }
+    }
+}
