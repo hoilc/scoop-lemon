@@ -1,0 +1,24 @@
+{
+    "version": "3.1.0",
+    "description": "A firmware analysis tool, re-written in Rust for speed and accuracy.",
+    "homepage": "https://github.com/ReFirmLabs/binwalk",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-3.1.0/binwalk-3.1.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "755644662f52525e3536f3bc1b9f2e83e63af282eb0d6ada94a23e851301b905"
+        }
+    },
+    "bin": "binwalk.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/binwalk?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-$version/binwalk-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
