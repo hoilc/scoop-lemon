@@ -1,0 +1,31 @@
+{
+    "version": "2.11.0",
+    "description": "A powerful open-source XSS scanner and utility focused on automation.",
+    "homepage": "https://github.com/hahwul/dalfox",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hahwul/dalfox/releases/download/v2.11.0/dalfox_2.11.0_windows_amd64.tar.gz",
+            "hash": "0f4545331f7058f708e5928d6e1a494dceb05e310d891ecc9b476dba55e1c686"
+        },
+        "arm64": {
+            "url": "https://github.com/hahwul/dalfox/releases/download/v2.11.0/dalfox_2.11.0_windows_arm64.tar.gz",
+            "hash": "ef05804e819a9b1e4890dd70186a4644d6c1f5701da8bcc5bbe1df01941df897"
+        }
+    },
+    "bin": "dalfox.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hahwul/dalfox/releases/download/v$version/dalfox_$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/hahwul/dalfox/releases/download/v$version/dalfox_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/dalfox_checksums.txt"
+        }
+    }
+}
