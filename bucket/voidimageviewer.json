@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0.9",
+    "version": "1.0.0.10",
     "description": "void Image Viewer is a lightweight image viewer for Windows with animated GIF/WEBP support.",
     "homepage": "https://github.com/voidtools/voidImageViewer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x64.en-US.zip",
-            "hash": "a9fcc1e628f4f69ff9e7832c51a29b83b871f7a400a2b2188608fb3380455b8a"
+            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.10.x64.en-US.zip",
+            "hash": "7492e1784945ad099321d5e77c22d9ef3a1561f514cdfec26d77b80dda588d3f"
         },
         "arm64": {
-            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x86.en-US.zip",
-            "hash": "6fbef28cdc5a37fa5432fdbd532f224cff38a30689d45786e44bd8e52b101bba"
+            "url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.10.x86.en-US.zip",
+            "hash": "4bccbb1f21e33d55b176b3c39e9266ecbab72f5acc93ab6c0af24ceb3f177e09"
         }
     },
     "shortcuts": [
