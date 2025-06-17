@@ -1,0 +1,28 @@
+{
+    "version": "3.0.5",
+    "description": "A tool that allows you to convert NMAP results to html, csv, json, markdown, graphviz (dot), sqlite, excel and d2-lang.",
+    "homepage": "https://github.com/vdjagilev/nmap-formatter",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vdjagilev/nmap-formatter/releases/download/v3.0.5/nmap-formatter-windows-amd64.zip",
+            "hash": "f98913993e526d7026306a14ea8f39431db07036d9023de8ba34ddcf811ba28e"
+        },
+        "arm64": {
+            "url": "https://github.com/vdjagilev/nmap-formatter/releases/download/v3.0.5/nmap-formatter-windows-arm64.zip",
+            "hash": "e2afde286df9aa81d46bab67a765719d9067d6d76811173678ef524eb7c6184e"
+        }
+    },
+    "bin": "nmap-formatter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vdjagilev/nmap-formatter/releases/download/v$version/nmap-formatter-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/vdjagilev/nmap-formatter/releases/download/v$version/nmap-formatter-windows-arm64.zip"
+            }
+        }
+    }
+}
