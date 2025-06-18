@@ -1,16 +1,18 @@
 {
-    "version": "devbuild5-8769ca8e2",
+    "version": "devbuild5-20250618-f1bb2de9a",
     "description": "(Development Builds) A simple, light and easy-to-use RSS/ATOM feed aggregator developed using Qt framework which supports online feed synchronization.",
-    "homepage": "https://github.com/martinrotter/rssguard/releases/tag/devbuild",
+    "homepage": "https://github.com/martinrotter/rssguard/releases/tag/devbuild5",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild/rssguard-devbuild5-8769ca8e2-win10.7z",
-            "hash": "0d27ce41a05f479f8b762872a57f57bd18d308cbdb1a34d751850bbb46f7c9ad"
+            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-f1bb2de9a-win10.7z",
+            "hash": "3bb492ee7ab3960c01d8a7ffa23af2c92aa6d0b51b08f3f1f7502547d0376fc1"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\data4\\\")) { New-Item -Path \"$dir\\data4\\\" -ItemType Directory | Out-Null }",
-    "persist": "data4",
+    "persist": [
+        "data4",
+        "data5"
+    ],
     "shortcuts": [
         [
             "rssguard.exe",
@@ -18,14 +20,14 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/martinrotter/rssguard/releases/expanded_assets/devbuild",
-        "regex": "rssguard-(?<major>[\\d\\w.]+)-(?<commit>[\\d\\w.]+)-win10\\.7z",
-        "replace": "${major}-${commit}"
+        "url": "https://github.com/martinrotter/rssguard/releases/expanded_assets/devbuild5",
+        "regex": "(?sm)rssguard-(?<major>[\\d\\w.]+)-(?<commit>[\\d\\w.]+)-win10\\.7z.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "replace": "${major}-${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild/rssguard-$matchMajor-$matchCommit-win10.7z"
+                "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-$matchMajor-$matchCommit-win10.7z"
             }
         }
     }
