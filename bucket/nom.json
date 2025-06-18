@@ -1,12 +1,12 @@
 {
-    "version": "2.8.2",
+    "version": "2.10.0",
     "description": "A RSS reader for the terminal.",
     "homepage": "https://github.com/guyfedwards/nom",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/guyfedwards/nom/releases/download/v2.8.2/nom_2.8.2_windows_amd64.tar.gz",
-            "hash": "c1a26973eb9abe3c9caace3a14c1554f1eca8ff8ec5375872d534f747359a7ee"
+            "url": "https://github.com/guyfedwards/nom/releases/download/v2.10.0/nom_2.10.0_windows_amd64.tar.gz",
+            "hash": "37363dd2e08f4f39afb3039d2423bc5750be2d3f37ef40b13fb8df56f06094b2"
         }
     },
     "bin": "nom.exe",
