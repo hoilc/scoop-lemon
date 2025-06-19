@@ -1,0 +1,21 @@
+{
+    "version": "0.4.48",
+    "description": "An experimental backend to mdbook which will render your document as an EPUB file.",
+    "homepage": "https://github.com/Michael-F-Bryan/mdbook-epub",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Michael-F-Bryan/mdbook-epub/releases/download/v0.4.48/mdbook-epub-windows-amd64.exe#/mdbook-epub.exe",
+            "hash": "bc3ce2c8d48ec7550f0a72e3f7e7d622c400c54c7485a6fe024031c9c1319c29"
+        }
+    },
+    "bin": "mdbook-epub.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Michael-F-Bryan/mdbook-epub/releases/download/v$version/mdbook-epub-windows-amd64.exe#/mdbook-epub.exe"
+            }
+        }
+    }
+}
