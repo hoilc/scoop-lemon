@@ -1,11 +1,11 @@
 {
-    "version": "61.0.0",
+    "version": "61.1.0",
     "description": "OSS Review Toolkit (ORT) is a suite of tools to automate software compliance checks.",
     "homepage": "https://oss-review-toolkit.org/",
     "license": "Apache-2.0",
-    "url": "https://github.com/oss-review-toolkit/ort/releases/download/61.0.0/ort-61.0.0.zip",
-    "hash": "4dff8819fef868594e7a9450fd0ba502fa1621ee3f9bdb8ea3c1f07a4d296c38",
-    "extract_dir": "ort-61.0.0",
+    "url": "https://github.com/oss-review-toolkit/ort/releases/download/61.1.0/ort-61.1.0.zip",
+    "hash": "1fc6f48c7a5838f9e8b89327034a95c2f2b518d325d33af1476acd6282ed42a7",
+    "extract_dir": "ort-61.1.0",
     "bin": "bin\\ort.bat",
     "suggest": {
         "JDK 21+": [
