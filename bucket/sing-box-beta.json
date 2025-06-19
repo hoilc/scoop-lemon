@@ -1,23 +1,23 @@
 {
-    "version": "1.12.0-beta.26",
+    "version": "1.11.14",
     "description": "(Pre-release) The universal proxy platform.",
     "homepage": "https://sing-box.sagernet.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.12.0-beta.26/sing-box-1.12.0-beta.26-windows-amd64.zip",
-            "extract_dir": "sing-box-1.12.0-beta.26-windows-amd64",
-            "hash": "287eedf8ba9d4e55ab27ba486dcf290dcafbf058354cb82c4475674c4e4f6dba"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.14/sing-box-1.11.14-windows-amd64.zip",
+            "extract_dir": "sing-box-1.11.14-windows-amd64",
+            "hash": "fc8ea382df6f391737df13abfb860211e9bf143f783b228f3ba2316703d2d328"
         },
         "32bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.12.0-beta.26/sing-box-1.12.0-beta.26-windows-386.zip",
-            "extract_dir": "sing-box-1.12.0-beta.26-windows-386",
-            "hash": "01b2d40b2efd0bbdbfd8109f83668964962b9d084ee26f92093f2c88a3336773"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.14/sing-box-1.11.14-windows-386.zip",
+            "extract_dir": "sing-box-1.11.14-windows-386",
+            "hash": "874d2c67890f2b6a2d345cd048e9dcdcf62b95c6f3388a93add0c4a40544208a"
         },
         "arm64": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.12.0-beta.26/sing-box-1.12.0-beta.26-windows-arm64.zip",
-            "extract_dir": "sing-box-1.12.0-beta.26-windows-arm64",
-            "hash": "a60243a0a7495b161e4a9f35cc6af6a7d2465e6ba9777b70998d5ab8fcd63b8c"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.14/sing-box-1.11.14-windows-arm64.zip",
+            "extract_dir": "sing-box-1.11.14-windows-arm64",
+            "hash": "9155de5d5caa07b162f3e3389b19df4db5233bcabc5ea2cf734425eb39d254d8"
         }
     },
     "bin": "sing-box.exe",
