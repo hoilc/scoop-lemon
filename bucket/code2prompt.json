@@ -1,0 +1,24 @@
+{
+    "version": "3.0.2",
+    "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+    "homepage": "https://github.com/mufeedvh/code2prompt",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-3.0.2/code2prompt-3.0.2-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "f8529668433fd71de849eab7c4574ecb5b95178703a299a6d6b96767dc2fc715"
+        }
+    },
+    "bin": "code2prompt.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/code2prompt?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
