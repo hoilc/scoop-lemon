@@ -1,0 +1,24 @@
+{
+    "version": "0.10.3",
+    "description": "A CLI tool for extracting text from images, also known as OCR.",
+    "homepage": "https://github.com/robertknight/ocrs",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.10.3/ocrs-cli-0.10.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "b1ca5c6a4588d9bf36c6b6e6287a0df4bd9afe9a30957ee4a576a78fbb0f1284"
+        }
+    },
+    "bin": "ocrs.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/ocrs-cli?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-$version/ocrs-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
