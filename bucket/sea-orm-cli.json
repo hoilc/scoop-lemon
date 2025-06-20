@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.12/sea-orm-cli-1.1.12-x86_64-pc-windows-msvc.tar.gz",
             "hash": "b6b11bcc0c805b7c22987f91e2c3fec6f00c960971e861bda101078693fe5257"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.12/sea-orm-cli-1.1.12-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "2854b94183b735088a25033987d5a859fc9f82cc5b1a6f30cac860ca6083c226"
         }
     },
     "bin": "sea-orm-cli.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-$version/sea-orm-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-$version/sea-orm-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
