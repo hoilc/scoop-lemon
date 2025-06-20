@@ -1,0 +1,24 @@
+{
+    "version": "0.8.0",
+    "description": "Eclipse Migration Toolkit for Java.",
+    "homepage": "https://github.com/adoptium/emt4j",
+    "license": "Apache-2.0",
+    "url": "https://github.com/adoptium/emt4j/releases/download/v0.8.0/emt4j-0.8.0.zip",
+    "hash": "3cc038c9daf4a99a8c8356c1c2ec0b714ea25e2cac55b295bf68877b9d6dcefb",
+    "pre_install": "Rename-Item -Path \"$dir\\bin\\analysis.bat\" -NewName 'emt4j.bat'",
+    "extract_dir": "emt4j-0.8.0",
+    "bin": "bin\\emt4j.bat",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/adoptium/emt4j/releases/download/v$version/emt4j-$version.zip",
+        "extract_dir": "emt4j-$version"
+    }
+}
