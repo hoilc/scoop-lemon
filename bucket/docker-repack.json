@@ -1,0 +1,21 @@
+{
+    "version": "0.5.0",
+    "description": "Repack docker images to optimize for pulling speed.",
+    "homepage": "https://github.com/orf/docker-repack",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/orf/docker-repack/releases/download/v0.5.0/docker-repack-Windows-x86_64.zip",
+            "hash": "8142bec83d6221a3b11790a8811a63b680463d50865ed55f30d42b618490a651"
+        }
+    },
+    "bin": "docker-repack.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/orf/docker-repack/releases/download/v$version/docker-repack-Windows-x86_64.zip"
+            }
+        }
+    }
+}
