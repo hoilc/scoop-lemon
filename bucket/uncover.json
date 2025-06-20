@@ -1,16 +1,16 @@
 {
-    "version": "1.0.10",
+    "version": "1.1.0",
     "description": "Quickly discover exposed hosts on the internet using multiple search engines.",
     "homepage": "https://github.com/projectdiscovery/uncover",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.0.10/uncover_1.0.10_windows_amd64.zip",
-            "hash": "1877a8e2344c0161182555c9c9e564f8d32c8723abe29b6a07943415dfb2128f"
+            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.1.0/uncover_1.1.0_windows_amd64.zip",
+            "hash": "846cdf717039b41b3f578419625442c11a1145de386706e46dd6b95a1a6ec41d"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.0.10/uncover_1.0.10_windows_386.zip",
-            "hash": "6645ae56e86f9b5559778102e4dd7a2fd3d98c056d8de709a383854cd0b2d1d3"
+            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.1.0/uncover_1.1.0_windows_386.zip",
+            "hash": "886a180c49e911b7999b832c43d7c8ad53c96c9b3f7a7946957169ad5a66ecd7"
         }
     },
     "bin": "uncover.exe",
