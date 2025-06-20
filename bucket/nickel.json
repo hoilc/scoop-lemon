@@ -1,0 +1,39 @@
+{
+    "version": "1.12.0",
+    "description": "Better configuration for less.",
+    "homepage": "https://nickel-lang.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/tweag/nickel/releases/download/1.12.0/nickel-x86_64-windows.exe#/nickel.exe",
+                "https://github.com/tweag/nickel/releases/download/1.12.0/nickel-pkg-x86_64-windows.exe#/nickel-pkg.exe",
+                "https://github.com/tweag/nickel/releases/download/1.12.0/nls-x86_64-windows.exe#/nls.exe"
+            ],
+            "hash": [
+                "cdd7a138e51905dbc2a4d66a4d9ee17aeb4ed1cde88d616a89a78ec713a78682",
+                "22667c2b5ade8ed14331bd0ba6db4be917df080f6e060a22fadb6d3f4e1178c8",
+                "13ecb44532fb8322daddbc45516d244151f4f09648dcd6236a44b8b439f6ed33"
+            ]
+        }
+    },
+    "bin": [
+        "nickel.exe",
+        "nickel-pkg.exe",
+        "nls.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/tweag/nickel"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/tweag/nickel/releases/download/$version/nickel-x86_64-windows.exe#/nickel.exe",
+                    "https://github.com/tweag/nickel/releases/download/$version/nickel-pkg-x86_64-windows.exe#/nickel-pkg.exe",
+                    "https://github.com/tweag/nickel/releases/download/$version/nls-x86_64-windows.exe#/nls.exe"
+                ]
+            }
+        }
+    }
+}
