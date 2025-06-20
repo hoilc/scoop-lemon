@@ -1,0 +1,28 @@
+{
+    "version": "2.0.3",
+    "description": "A tool to unzip archive files in parallel.",
+    "homepage": "https://github.com/google/ripunzip",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/google/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_x86_64-pc-windows-msvc.zip",
+            "hash": "66d0c1375301bf5ab815348048f43b110631d3fa7200acd50d50a8ed8655ca62"
+        },
+        "arm64": {
+            "url": "https://github.com/google/ripunzip/releases/download/v2.0.3/ripunzip_v2.0.3_aarch64-pc-windows-msvc.zip",
+            "hash": "ba947e279e452a0234a3e303d0374bbc895ece81400057aa6f3f61467ddb40fe"
+        }
+    },
+    "bin": "ripunzip.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/google/ripunzip/releases/download/v$version/ripunzip_v$version_x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/google/ripunzip/releases/download/v$version/ripunzip_v$version_aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
