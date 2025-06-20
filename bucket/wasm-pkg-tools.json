@@ -1,12 +1,12 @@
 {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "The command line tool (wkg) to package up Wasm Components",
     "homepage": "https://github.com/bytecodealliance/wasm-pkg-tools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.10.0/wkg-x86_64-pc-windows-gnu#/wkg.exe",
-            "hash": "d60437410079ecf64b4111be3da39db9595c7c9723ab0cc5cdf59eb25b99b0c2"
+            "url": "https://github.com/bytecodealliance/wasm-pkg-tools/releases/download/v0.11.0/wkg-x86_64-pc-windows-gnu#/wkg.exe",
+            "hash": "ac7b06b91ea80973432d97c4facd78e84187e4d65b42613374a78c4c584f773c"
         }
     },
     "bin": "wkg.exe",
