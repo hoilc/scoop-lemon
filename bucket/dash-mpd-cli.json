@@ -1,12 +1,12 @@
 {
-    "version": "0.2.26",
+    "version": "0.2.27",
     "description": "A commandline application for downloading media content from a DASH MPD file.",
     "homepage": "https://emarsden.github.io/dash-mpd-cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/emarsden/dash-mpd-cli/releases/download/v0.2.26/dash-mpd-cli-windows.exe#/dash-mpd-cli.exe",
-            "hash": "69ce81d85aca96d62570883e33f2684a50dc5081cb20cc8fc524e2392f7a9cc5"
+            "url": "https://github.com/emarsden/dash-mpd-cli/releases/download/v0.2.27/dash-mpd-cli-windows.exe#/dash-mpd-cli.exe",
+            "hash": "c25715f3871592f8ecc0627e361eeacd85babd87847ad42a89463ea4d2d3685a"
         }
     },
     "bin": "dash-mpd-cli.exe",
