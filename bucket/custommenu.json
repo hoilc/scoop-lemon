@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.2",
     "description": "Build your own customized Windows desktop menu. Unlimited submenus with unlimited menu items.",
     "homepage": "https://github.com/BazzaCuda/CustomMenu",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BazzaCuda/CustomMenu/releases/download/v2.0.0/CustomMenu_release_v2_0_0.zip",
-            "hash": "cdd6184c055f1235f4a49323aaa504da8d305c2e0150e8131941adb2ba014316"
+            "url": "https://github.com/BazzaCuda/CustomMenu/releases/download/v2.0.2/CustomMenu_release_v2_0_1.zip",
+            "hash": "5d279dab1aeef0c8e0517677abfa3d0a346773f850b3d48ea5d8bc614be365b6"
         }
     },
     "shortcuts": [
