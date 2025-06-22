@@ -1,16 +1,16 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "zfind allows you to search for files using a SQL-WHERE filter.",
     "homepage": "https://github.com/laktak/zfind",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/laktak/zfind/releases/download/v0.4.6/zfind-windows-amd64.zip",
-            "hash": "ec00caadb5d613bb44d96d949becfd04f6ab9f420e011363da04daa833b18ae8"
+            "url": "https://github.com/laktak/zfind/releases/download/v0.4.7/zfind-windows-amd64.zip",
+            "hash": "4b9973eeeaa032d7dac7d021900c3bd27b80fc6ef99b36df86915f24a3c80f89"
         },
         "arm64": {
-            "url": "https://github.com/laktak/zfind/releases/download/v0.4.6/zfind-windows-arm64.zip",
-            "hash": "1b80344992ff274ce87798d9e4abfe7b6c314521032ff3993ec0a36f494fdc7b"
+            "url": "https://github.com/laktak/zfind/releases/download/v0.4.7/zfind-windows-arm64.zip",
+            "hash": "81999b2a3741ad02a240705cf77d61d5ed2716966a87c8f3dd78b9eb64a3d137"
         }
     },
     "bin": "zfind.exe",
