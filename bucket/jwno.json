@@ -1,19 +1,19 @@
 {
-    "version": "0.9.13",
+    "version": "0.9.14",
     "description": "A tiling window manager for Windows 10/11.",
     "homepage": "https://agent-kilo.github.io/jwno/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/agent-kilo/jwno/releases/download/v0.9.13/jwno.exe",
-                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.13/example/tutorial.janet",
-                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.13/example/example-config.janet"
+                "https://github.com/agent-kilo/jwno/releases/download/v0.9.14/jwno.exe",
+                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.14/example/tutorial.janet",
+                "https://github.com/agent-kilo/jwno/raw/refs/tags/v0.9.14/example/example-config.janet"
             ],
             "hash": [
-                "ebb44800af58e09d9a67013a9dc02564011d51a2a250abfbbdaff420cfcc23ef",
-                "97a194917ab202afce5332f0f65a51d4195f6d938080810dc408bc93df6b19c5",
-                "c24eb3f033dd25f54b84b0010d5670a35204ed4aabd7238630116a952f845a89"
+                "ed137fbcd17c35f84bfcaadf1e284e402980d96d19d7563616562abc2371ed8a",
+                "5f91fa1fc190edaefe247d68f875935cc42b88818549dd7470df7b8f8c30cfad",
+                "eb3ffb5b810f208922ef73126c997203d2b69eb7c98032faf988561d1750408d"
             ]
         }
     },
