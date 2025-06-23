@@ -1,12 +1,12 @@
 {
-    "version": "1.119.0",
+    "version": "1.120.0",
     "description": "Utils for Victoria Metrics",
     "homepage": "https://docs.victoriametrics.com/vmctl.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.119.0/vmutils-windows-amd64-v1.119.0.zip",
-            "hash": "a99afd51784830b64268ca0eb32edae5d944152eb455101a4a36e8ee29e449ba"
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.120.0/vmutils-windows-amd64-v1.120.0.zip",
+            "hash": "29cba1df61467031ef0ace2bd55c169064f736739d53aa7ef6669bcc5c1c286d"
         }
     },
     "bin": [
