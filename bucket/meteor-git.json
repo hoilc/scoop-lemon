@@ -1,20 +1,20 @@
 {
-    "version": "0.27.0",
+    "version": "0.28.0",
     "description": "A highly configurable CLI tool for writing conventional commits.",
     "homepage": "https://github.com/stefanlogue/meteor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.27.0/meteor-windows-amd64.zip",
-            "hash": "aae81ce36cddde06adf52c0f1d66c9ae6ad6a02b19444da95a0dfa5e55627870"
+            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.28.0/meteor-windows-amd64.zip",
+            "hash": "a00efa273b55355ae7e297859f4b29499394ae75e9df83e84beb682ad219a0a0"
         },
         "32bit": {
-            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.27.0/meteor-windows-386.zip",
-            "hash": "19a5c532a160cd0d2b0a88182a99724e6b57fdca1018b61dc6f457294fa8f957"
+            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.28.0/meteor-windows-386.zip",
+            "hash": "9f7a7947d531beb16c259116a0a1b254e3c8e965464b19398a7b211cfbc6ede8"
         },
         "arm64": {
-            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.27.0/meteor-windows-arm64.zip",
-            "hash": "8ff121b2a7bbcbcbdc565e5da059a4e81941318764d8d844bd0e294067ad7cb6"
+            "url": "https://github.com/stefanlogue/meteor/releases/download/v0.28.0/meteor-windows-arm64.zip",
+            "hash": "ce4570eb4a3bdbaffb42e4182b1daef97196de577b14ed058c4448334c04c41e"
         }
     },
     "bin": "meteor.exe",
