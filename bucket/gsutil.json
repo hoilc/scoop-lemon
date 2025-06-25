@@ -1,10 +1,10 @@
 {
-    "version": "5.34",
+    "version": "5.35",
     "description": "A command line tool for interacting with cloud storage services.",
     "homepage": "https://cloud.google.com/storage/docs/gsutil",
     "license": "Apache-2.0",
-    "url": "https://storage.googleapis.com/pub/gsutil_5.34.zip",
-    "hash": "93a31ebbc052794eafee184a60760059630e5946cd7560690090d2675b376ba5",
+    "url": "https://storage.googleapis.com/pub/gsutil_5.35.zip",
+    "hash": "93f4729b3972a512fca030d0ed45a1be7a4d1a44b4465bf8a8842fee42bae264",
     "extract_dir": "gsutil",
     "bin": "gsutil.py",
     "suggest": {
