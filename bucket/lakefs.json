@@ -1,16 +1,16 @@
 {
-    "version": "1.60.0",
+    "version": "1.61.0",
     "description": "An open-source tool that transforms your object storage into a Git-like repository.",
     "homepage": "https://docs.lakefs.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/treeverse/lakeFS/releases/download/v1.60.0/lakeFS_1.60.0_Windows_x86_64.zip",
-            "hash": "11075777c71af4435d44a7a03538837733b70603a5f8580023386d2afbf696be"
+            "url": "https://github.com/treeverse/lakeFS/releases/download/v1.61.0/lakeFS_1.61.0_Windows_x86_64.zip",
+            "hash": "f8834528b2974d64b5f2b67d823eacc39cbdc0abe859196c09ad1f4c725ad3bc"
         },
         "arm64": {
-            "url": "https://github.com/treeverse/lakeFS/releases/download/v1.60.0/lakeFS_1.60.0_Windows_arm64.zip",
-            "hash": "095dcdacf9e4090305a5b3a27ac4300a53c0e9f8ca89443d3b9b790fd9832045"
+            "url": "https://github.com/treeverse/lakeFS/releases/download/v1.61.0/lakeFS_1.61.0_Windows_arm64.zip",
+            "hash": "08127f110753c84f2c0403a0adb8f89850ee9babf1bb9ad5810278029fc10e91"
         }
     },
     "bin": [
