@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "A UWSC-compatible script executable tool.",
     "homepage": "https://github.com/stuncloud/UWSCR",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stuncloud/UWSCR/releases/download/1.1.1/UWSCRx64.zip",
-            "hash": "d8b10e189e8ab72a1fce4c7e3d2e92b9e8595c6a24f637f25e5a645e658971be"
+            "url": "https://github.com/stuncloud/UWSCR/releases/download/1.1.2/UWSCRx64.zip",
+            "hash": "48cd8cca2b7d8177ced173847bcfb83ef796236f5effb61755b4ad78f16c3c51"
         },
         "32bit": {
-            "url": "https://github.com/stuncloud/UWSCR/releases/download/1.1.1/UWSCRx86.zip",
-            "hash": "7bc95764369554be9cdbf81ff0dc2649f61c0771727581d7f4e3b0bb5a6ee5ff"
+            "url": "https://github.com/stuncloud/UWSCR/releases/download/1.1.2/UWSCRx86.zip",
+            "hash": "dcc370cc9823f3ee16e647834e60364a5921ec40d7d2f2d5e8a52185360ff18b"
         }
     },
     "bin": "uwscr.exe",
