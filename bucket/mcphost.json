@@ -1,12 +1,12 @@
 {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "description": "A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP).",
     "homepage": "https://github.com/mark3labs/mcphost",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mark3labs/mcphost/releases/download/v0.17.0/mcphost_Windows_x86_64.zip",
-            "hash": "77f50435c7c7ef141c69e1331f13e29323e308bd1995b8b8c52b53b912b329ec"
+            "url": "https://github.com/mark3labs/mcphost/releases/download/v0.18.0/mcphost_Windows_x86_64.zip",
+            "hash": "058d0ef7673e7ec80bd338e1b4d911ec0e777cd4695219d780d368b9d9b68bdf"
         }
     },
     "bin": "mcphost.exe",
