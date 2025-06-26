@@ -1,23 +1,20 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "A blazingly fast, minimalist directory tree viewer, written in Rust.",
     "homepage": "https://github.com/bgreenwell/lstr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lstr-0.2.0/lstr-0.2.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "6e0032bbc0f8b37334b7c65d23e0cdb528f413cbbebf8dda7cd7547136671533"
+            "url": "https://github.com/bgreenwell/lstr/releases/download/v0.2.1/lstr-windows-x86_64.zip",
+            "hash": "8296ee4593d4b9bfa77512e6f2b5a0c75f67703a7b4d3348b78ad75241e13f5e"
         }
     },
     "bin": "lstr.exe",
-    "checkver": {
-        "url": "https://crates.io/api/v1/crates/lstr?include=default_version",
-        "jsonpath": "$.crate.default_version"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lstr-$version/lstr-$version-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/bgreenwell/lstr/releases/download/v$version/lstr-windows-x86_64.zip"
             }
         }
     }
