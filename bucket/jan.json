@@ -1,12 +1,12 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "An open source alternative to ChatGPT that runs 100% offline on your computer.",
     "homepage": "https://github.com/janhq/jan",
     "license": "https://jan.ai/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/janhq/jan/releases/download/v0.6.1/jan-win-x64-0.6.1.exe#/dl.7z",
-            "hash": "sha512:8a6ff980f439490da95e94e40e5a362693815bf02d9c1b5d2426f92b04a2c9bbf2272ba69009dd207be588a03ed5b7c9c0d50af2586134ef173296ddce0deda9",
+            "url": "https://github.com/janhq/jan/releases/download/v0.6.2/jan-win-x64-0.6.2.exe#/dl.7z",
+            "hash": "sha512:c0ae3a1bc0840627843c7ed0abbce5362555ab6e477df02cce9644bca7bc63ac9fe663861a7eea742c687c690140ab1e0918c0608c5a2e0dcec333577d75c7a2",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
