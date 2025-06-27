@@ -1,10 +1,10 @@
 {
-    "version": "2025.2.16.0",
+    "version": "2025.2.17.0",
     "description": "The remote connection launching tool for Devolutions Server & Devolutions Hub Business.",
     "homepage": "https://devolutions.net/launcher/",
     "license": "Proprietary",
-    "url": "https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.2025.2.16.0.msi",
-    "hash": "4ed2f9b402dfba81dbd3693477f294dffb2a4e53a348d7d9f71ea6cd9dbbb678",
+    "url": "https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.2025.2.17.0.msi",
+    "hash": "cc9e5072fe3f4fb0327e37e2dfdfb87f5a5b89af41ae4a618950b3af79bc2b11",
     "architecture": {
         "64bit": {
             "shortcuts": [
