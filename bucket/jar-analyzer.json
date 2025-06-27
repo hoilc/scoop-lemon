@@ -1,13 +1,13 @@
 {
-    "version": "5.1",
+    "version": "5.2",
     "description": "图形化 JAR 包分析工具",
     "homepage": "https://github.com/jar-analyzer/jar-analyzer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/5.1/jar-analyzer-5.1-windows-full.zip",
-            "extract_dir": "jar-analyzer-5.1-windows-full",
-            "hash": "7c035445155f8c554c8a29776a867a8bb3831f75f99dbd3bc1bee9ab02e03126"
+            "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/5.2/jar-analyzer-5.2-windows-full.zip",
+            "extract_dir": "jar-analyzer-5.2-windows-full",
+            "hash": "66c69f8ba3b2b5f49e75deb39e2f0609c379a6291be7fb4dd761050d697fd230"
         }
     },
     "shortcuts": [
