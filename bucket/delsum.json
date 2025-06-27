@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "A reverse engineer's checksum toolbox.",
+    "homepage": "https://github.com/8051Enthusiast/delsum",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/8051Enthusiast/delsum/releases/download/v1.0.0/delsum-x86_64-windows-1.0.0.zip",
+            "hash": "5d07b9a1be08e160fc2c754b176d9d90377e2f59556b4d226fe2bde0f8bc61f5"
+        }
+    },
+    "bin": "delsum.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/8051Enthusiast/delsum/releases/download/v$version/delsum-x86_64-windows-$version.zip"
+            }
+        }
+    }
+}
