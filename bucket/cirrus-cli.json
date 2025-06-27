@@ -1,16 +1,16 @@
 {
-    "version": "0.144.3",
+    "version": "0.145.0",
     "description": "A tool for running containerized tasks reproducibly in any environment.",
     "homepage": "https://github.com/cirruslabs/cirrus-cli",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cirruslabs/cirrus-cli/releases/download/v0.144.3/cirrus-windows-amd64.tar.gz",
-            "hash": "e1dfd115a846932701f3d997b1b9efb45f01f1c5c1f7aeb8eec8a91b5d47512c"
+            "url": "https://github.com/cirruslabs/cirrus-cli/releases/download/v0.145.0/cirrus-windows-amd64.tar.gz",
+            "hash": "53a770cf0af6d015f9c2d8ce9ec66a5513c288680aaf7cec2f445395aba98c00"
         },
         "arm64": {
-            "url": "https://github.com/cirruslabs/cirrus-cli/releases/download/v0.144.3/cirrus-windows-arm64.tar.gz",
-            "hash": "74cf61261140f6e246b5d8494b0310362279d1c63759b2c2d5f1bd1db8f93458"
+            "url": "https://github.com/cirruslabs/cirrus-cli/releases/download/v0.145.0/cirrus-windows-arm64.tar.gz",
+            "hash": "e52eee3ed1956dd249a09b549b6c4f88b43016c898c80cbfbd79c644b15c7567"
         }
     },
     "bin": "cirrus.exe",
