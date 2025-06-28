@@ -1,0 +1,30 @@
+{
+    "version": "1.20",
+    "description": "OpenCL Hardware Capability Viewer is a client application to display hardware implementation details for devices supporting the OpenCL API.",
+    "homepage": "https://opencl.gpuinfo.org/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://opencl.gpuinfo.org/downloads/openclcapsviewer_1.20_win64.zip",
+            "hash": "7bc5c2070d4eaafe9910d9c4386875a77b8f3fd1d30073e5e3300fe34ef5a369"
+        }
+    },
+    "extract_dir": "release",
+    "shortcuts": [
+        [
+            "OpenCLCapsViewer.exe",
+            "OpenCL Hardware Capability Viewer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://opencl.gpuinfo.org/download.php",
+        "regex": "openclcapsviewer_([\\d.]+)_win64.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://opencl.gpuinfo.org/downloads/openclcapsviewer_$version_win64.zip"
+            }
+        }
+    }
+}
