@@ -1,16 +1,16 @@
 {
-    "version": "1.5.3",
+    "version": "1.6.0",
     "description": "A continuous delivery and application lifecycle orchestration platform for Kubernetes.",
     "homepage": "https://kargo.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akuity/kargo/releases/download/v1.5.3/kargo-windows-amd64.exe#/kargo.exe",
-            "hash": "b687ea677ddf8404c263d233771a5f24b8e33495d13078b899aaec2c50e94f1f"
+            "url": "https://github.com/akuity/kargo/releases/download/v1.6.0/kargo-windows-amd64.exe#/kargo.exe",
+            "hash": "9e3c953f3b0214440b41ac17fc001adc835b356ce51920457cf42f4b48afea24"
         },
         "arm64": {
-            "url": "https://github.com/akuity/kargo/releases/download/v1.5.3/kargo-windows-arm64.exe#/kargo.exe",
-            "hash": "1f16f0ebcccfddf78ce15681df0d1ea14df41fe5c204ba72b7b25abfad80c196"
+            "url": "https://github.com/akuity/kargo/releases/download/v1.6.0/kargo-windows-arm64.exe#/kargo.exe",
+            "hash": "749e07324a96c66739dc1e1c3453e55a97d76090f319371275f9b725ac631c02"
         }
     },
     "bin": "kargo.exe",
