@@ -1,12 +1,12 @@
 {
-    "version": "b5777",
+    "version": "b5780",
     "description": "(Vulkan Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5777/llama-b5777-bin-win-vulkan-x64.zip",
-            "hash": "057a4ac3c3cbd6cd65d6df7f3665f5919aad9597ea8a3614082918a91ff902ab"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5780/llama-b5780-bin-win-vulkan-x64.zip",
+            "hash": "64745aabc71d851dab671654a8188dbd54bb18d7003505e5465ff20ae420c6e5"
         }
     },
     "bin": [
