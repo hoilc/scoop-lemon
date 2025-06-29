@@ -1,20 +1,20 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.",
     "homepage": "https://github.com/yosebyte/nodepass",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.1/nodepass_1.4.1_windows_amd64.tar.gz",
-            "hash": "c3f00881d003ee9a26331d314466b303686b43ab74c9896e03390850b1e77bf0"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.2/nodepass_1.4.2_windows_amd64.tar.gz",
+            "hash": "17d43d3cdbc9916211ecc886692f6128890f02ce8e83d40de570eb944789d00d"
         },
         "32bit": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.1/nodepass_1.4.1_windows_386.tar.gz",
-            "hash": "47eedabc00df7b5dc41d90bae91c0ba08e85f952e5b0331a32f6faba1cec93b1"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.2/nodepass_1.4.2_windows_386.tar.gz",
+            "hash": "8bfb87c3f378535edfe605eb0970527d635de402614f287185df1812541be970"
         },
         "arm64": {
-            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.1/nodepass_1.4.1_windows_arm64.tar.gz",
-            "hash": "29987039c67f6eda7db15a353b50e6d46d747cea823f6db470d1d5d2fbcb3451"
+            "url": "https://github.com/yosebyte/nodepass/releases/download/v1.4.2/nodepass_1.4.2_windows_arm64.tar.gz",
+            "hash": "417be08c2f2be3f288699683cc5434b8d643b2f9075a1c41eeade98468d65f30"
         }
     },
     "bin": "nodepass.exe",
