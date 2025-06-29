@@ -1,12 +1,12 @@
 {
-    "version": "2.27.0",
+    "version": "2.28.0",
     "description": "Once Power 是一个文件和文件夹批量重命名工具，额外添加了批量删除空文件夹和批量移动文件的功能",
     "homepage": "https://github.com/ilgnefz/once_power",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.27.0/once_power-2.27.0+0-windows.zip",
-            "hash": "7de819e0e3e94d4470c4283327b7e7b66c6608c325a3ecd4da8c727ea0831f45"
+            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.28.0/once_power-2.28.0+0-windows.zip",
+            "hash": "ca6865fe2c19a2e2589d45516217925ee334b3af6495fd15a59118f90a6d9059"
         }
     },
     "shortcuts": [
