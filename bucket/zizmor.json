@@ -1,19 +1,19 @@
 {
-    "version": "1.10.0",
+    "version": "1.11.0",
     "description": "A static analysis tool for GitHub Actions.",
     "homepage": "https://woodruffw.github.io/zizmor/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.10.0-py3-none-win_amd64.whl#/dl.zip",
-            "hash": "062b515c8f16a36f4c253582e5eb759ff2823d10b93396c4946555bc817a9d62"
+            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.11.0-py3-none-win_amd64.whl#/dl.zip",
+            "hash": "c5a9021ebf353e76f2d93f25762cb4a51665db48f39a446ffff5db3af8fe6293"
         },
         "32bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.10.0-py3-none-win32.whl#/dl.zip",
-            "hash": "756852534844cbb30b3423d787c8b6e8bedfc0b22308402d199a295f20968b1a"
+            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.11.0-py3-none-win32.whl#/dl.zip",
+            "hash": "f9d276aa71e24cae13c2d666fae90f1abd9af438c2e8fc351b3d083b3d437676"
         }
     },
-    "extract_dir": "zizmor-1.10.0.data\\scripts",
+    "extract_dir": "zizmor-1.11.0.data\\scripts",
     "bin": "zizmor.exe",
     "checkver": {
         "github": "https://github.com/woodruffw/zizmor"
