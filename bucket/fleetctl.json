@@ -1,5 +1,5 @@
 {
-    "version": "4.69.0",
+    "version": "4.70.0",
     "description": "A CLI tool for managing Fleet, an open-source platform for IT, security, and infrastructure teams.",
     "homepage": "https://fleetdm.com/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fleetdm/fleet/releases/download/fleet-v4.69.0/fleetctl_v4.69.0_windows_amd64.zip",
-            "extract_dir": "fleetctl_v4.69.0_windows_amd64",
-            "hash": "f2e56aa5eb4ade9c2bc7d2af7e96eaf98b1bed214b13ec0eeca0529b70263279"
+            "url": "https://github.com/fleetdm/fleet/releases/download/fleet-v4.70.0/fleetctl_v4.70.0_windows_amd64.zip",
+            "extract_dir": "fleetctl_v4.70.0_windows_amd64",
+            "hash": "74382f020dc9422697e48d87f6ebeeed00022f6647e0a6d392d4204467fc8da4"
         },
         "arm64": {
-            "url": "https://github.com/fleetdm/fleet/releases/download/fleet-v4.69.0/fleetctl_v4.69.0_windows_arm64.zip",
-            "extract_dir": "fleetctl_v4.69.0_windows_arm64",
-            "hash": "3cef4f8ce5fd5e5f59fb46d8f7dca2e7e56bb58977b63829ff3ecab26a3162dc"
+            "url": "https://github.com/fleetdm/fleet/releases/download/fleet-v4.70.0/fleetctl_v4.70.0_windows_arm64.zip",
+            "extract_dir": "fleetctl_v4.70.0_windows_arm64",
+            "hash": "47904adf9579fef51e945c305904dc2d640452caf150d5b236384a78f238bf10"
         }
     },
     "bin": "fleetctl.exe",
