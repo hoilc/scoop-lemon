@@ -1,9 +1,9 @@
 {
     "version": "1.6.375",
     "description": "STDU Viewer is a free viewer for TIFF, PDF, DjVu, XPS, JBIG2, WWF document formats.",
-    "homepage": "http://www.stdutility.com/stduviewer.html",
+    "homepage": "https://web.archive.org/web/20250608114609/http://www.stdutility.com/stduviewer.html",
     "license": "Freeware",
-    "url": "http://www.stdutility.com/download/stduviewer.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/stduviewer/stduviewer_v1.6.375.zip",
     "hash": "09257ef97669847cd5a2f793ffdd931aee9fc4930bc5e0780ed592d754a121ae",
     "shortcuts": [
         [
@@ -23,11 +23,5 @@
         "Bookmark.xml",
         "FilesViewerState.xml",
         "Highlight.xml"
-    ],
-    "checkver": {
-        "regex": "ver. ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://www.stdutility.com/download/stduviewer.zip"
-    }
+    ]
 }
