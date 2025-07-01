@@ -20,7 +20,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/HDFGroup/hdfview"
+        "url": "https://github.com/HDFGroup/hdfview/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
