@@ -18,7 +18,7 @@
     "pre_uninstall": [
         "if ($env:CI -eq \"true\") { Return }",
         "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
-        "$package = Get-AppxPackage 'cn.aqzscn.streammusic'",
+        "$package = Get-AppxPackage 'Zhengbo.2255273EDB8A'",
         "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
         "if ($purge) {",
         "    Remove-AppxPackage $package",
