@@ -1,0 +1,43 @@
+{
+    "version": "10.4.2.29",
+    "description": "Auto Dark Mode helps you switches between the dark and light theme of Windows at scheduled times.",
+    "homepage": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_x86.zip",
+            "hash": "5d71f8e44782d73fee270fa08ff97d8531d5b5a0ed63686f89a8027d7e77ba34"
+        },
+        "arm64": {
+            "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_ARM64.zip",
+            "hash": "13612aeb5e60d0f334b0de0ff13a0bb6559fb9a44057e924073b528867d7611e"
+        }
+    },
+    "extract_dir": "adm-app",
+    "shortcuts": [
+        [
+            "AutoDarkModeApp.exe",
+            "Auto Dark Mode"
+        ]
+    ],
+    "post_uninstall": [
+        "if ($purge) { Remove-Item \"$env:APPDATA\\Auto Dark Mode\", \"$env:LOCALAPPDATA\\Auto Dark Mode\" -Force -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run', 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run' -Name 'AutoDarkMode' -ErrorAction SilentlyContinue }",
+        "if ($purge) { Get-ScheduledTask 'ADM Logon' -ErrorAction SilentlyContinue | Unregister-ScheduledTask -Confirm:$false }"
+    ],
+    "notes": [
+        "Auto Dark Mode is NOT portable.",
+        "Settings are stored in '%APPDATA%\\Auto Dark Mode', and will be purged during uninstallation."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_x86.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_ARM64.zip"
+            }
+        }
+    }
+}
