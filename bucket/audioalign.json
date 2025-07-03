@@ -1,0 +1,26 @@
+{
+    "version": "1.7.0",
+    "description": "An audio synchronization and analysis tool.",
+    "homepage": "https://github.com/protyposis/AudioAlign",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/protyposis/AudioAlign/releases/download/v1.7.0/AudioAlign-Release-v1.7.0.zip",
+            "hash": "b9226c7c5ebe9c6e47bf23192e2d0728bae20ed0a935cd5afa51c8caf8fa4c16"
+        }
+    },
+    "shortcuts": [
+        [
+            "AudioAlign.exe",
+            "AudioAlign"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/protyposis/AudioAlign/releases/download/v$version/AudioAlign-Release-v$version.zip"
+            }
+        }
+    }
+}
