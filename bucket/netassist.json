@@ -1,0 +1,24 @@
+{
+    "version": "5.0.14",
+    "description": "NetAssist网络调试助手是一款TCP/IP网络调试工具，支持UDP/TCP/MQTT等应用协议",
+    "homepage": "https://www.cmsoft.cn/resource/102.html",
+    "license": "Liteware",
+    "url": "https://free.cmsoft.cn/download/cmsoft/assistant/netassist5.0.14.zip",
+    "hash": "3586e4ca76447acb4826dfb81c6eee63060597f768fa36c0baa66c8ecc9048f2",
+    "shortcuts": [
+        [
+            "NetAssist.exe",
+            "NetAssist"
+        ]
+    ],
+    "post_uninstall": [
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Cmsoft\\NetAssist' -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-Item \"$env:APPDATA\\Cmsoft\\netassist.sys\" -Force -Recurse -ErrorAction SilentlyContinue }"
+    ],
+    "checkver": {
+        "regex": "\\[软件版本\\].+?>([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://free.cmsoft.cn/download/cmsoft/assistant/netassist$version.zip"
+    }
+}
