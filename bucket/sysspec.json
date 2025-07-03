@@ -1,0 +1,22 @@
+{
+    "version": "3.11",
+    "description": "System Spec is a freeware system information utility that produces a specification of your system's hardware and software.",
+    "homepage": "http://www.alexnolan.net/software/sysspec.htm",
+    "license": "Freeware",
+    "url": "http://www.alexnolan.net/software/SysSpec.zip",
+    "hash": "312e34304bb64e966466a644a658a7ac4057638a6b4edf129a3424bcbe1b08fb",
+    "bin": "SysSpec.exe",
+    "shortcuts": [
+        [
+            "SysSpec.exe",
+            "System Spec"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.alexnolan.net/software/sysspec.xml",
+        "regex": "<Program_Version>([\\d.]+)</Program_Version>"
+    },
+    "autoupdate": {
+        "url": "http://www.alexnolan.net/software/SysSpec.zip"
+    }
+}
