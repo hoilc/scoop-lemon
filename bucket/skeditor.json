@@ -1,18 +1,18 @@
 {
-    "version": "2.9.0",
+    "version": "2.9.1",
     "description": "An app for editing Skript files.",
     "homepage": "https://github.com/SkEditorTeam/SkEditor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.0/Windows-x64.zip",
+            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.1/Windows-x64.zip",
             "extract_dir": "SkEditor-Windows-x64",
-            "hash": "08931b8a370e36ad7728e7bf528cc336c3b49bbb155a127dca47d8590953091e"
+            "hash": "690faf06501279077f4d895bdea2d5fd4fc4a4b1cee1b28b1d1b5d9dec2ff42e"
         },
         "arm64": {
-            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.0/Windows-arm64.zip",
+            "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.1/Windows-arm64.zip",
             "extract_dir": "SkEditor-Windows-arm64",
-            "hash": "ed79945846ea1d703c07bc48b1ce80785763dc571045ea9fbb8e0280d4ff864d"
+            "hash": "9317244ebc7a4a3e9161c864dc162d3b79471a6779481bacdeedb25a3e644839"
         }
     },
     "shortcuts": [
