@@ -1,0 +1,28 @@
+{
+    "version": "2.1",
+    "description": "Bits'N'Picas is a set of tools for creating and converting bitmap and emoji fonts.",
+    "homepage": "https://github.com/kreativekorp/bitsnpicas",
+    "license": "MPL-1.1",
+    "url": "https://github.com/kreativekorp/bitsnpicas/releases/download/v2.1/BitsNPicas.jar",
+    "hash": "b34e0d4e85c402dc0035d24a67b489f15cc301677d512c721074ee3204da8547",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\BitsNPicas.bat\" -Value '@start javaw.exe -jar \"%~dp0BitsNPicas.jar\"'",
+    "bin": "BitsNPicas.jar",
+    "shortcuts": [
+        [
+            "BitsNPicas.bat",
+            "Bits'N'Picas"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/kreativekorp/bitsnpicas/releases/download/v$version/BitsNPicas.jar"
+    }
+}
