@@ -38,8 +38,12 @@ function Update-ScoopManifest {
             if (-not $hasVersionVar) {
                 Write-Host "Processing manifest: $manifestFile"
                 
+                # 修改Split-Path部分以正确获取不带扩展名的文件名
+                $manifestName = Split-Path -Path $manifestFile -Leaf
+                $manifestName = [System.IO.Path]::GetFileNameWithoutExtension($manifestName)
+
                 # 执行checkver.ps1强制更新
-                & $CheckverScript -Name (Split-Path -Path $manifestFile -LeafBase) -ForceUpdate
+                & $CheckverScript -Name $manifestName -ForceUpdate
                 
                 # 检查是否有更新
                 if ($LASTEXITCODE -eq 0) {
