@@ -1,16 +1,16 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A custom protocol, rule based network proxy software.",
     "homepage": "https://github.com/Watfaq/clash-rs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.8.0/clash-x86_64-pc-windows-msvc.exe#/clash.exe",
-            "hash": "21adde743ef813fb96a3e1236624ab63c73a74adedf0d9ad4b21ab1138b3b663"
+            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.8.1/clash-x86_64-pc-windows-msvc.exe#/clash.exe",
+            "hash": "cafb40a2c68b42100a0cb1b3394dc40c0c39e24cb634f79755ccb3e849694f9d"
         },
         "32bit": {
-            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.8.0/clash-i686-pc-windows-msvc.exe#/clash.exe",
-            "hash": "4620de13d6919593645a5bc5b625b8f2995bdd49b6d1026503b99bb20c1718c8"
+            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.8.1/clash-i686-pc-windows-msvc.exe#/clash.exe",
+            "hash": "939ab74aec77191ee7b8b56a1528a36ced1a7881b144905d85c65525a9666d45"
         }
     },
     "bin": "clash.exe",
