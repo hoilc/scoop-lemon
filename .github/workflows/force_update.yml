@@ -2,6 +2,7 @@ name: Test Manifests
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   forceupdate:
