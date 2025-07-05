@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_x64_Portable.zip",
-            "hash": "c0111afa6b5d5fc27a944fd983e70df771d27e336abdb31725eb0b932a4efd86"
+            "hash": "b5d232bffdb376f1964c1e8121580e62f13ad5d5aac6d610ed05921e1761c7bf"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/ColorConsole_Portable.zip",
-            "hash": "0296838cf17aea23a9fca1db7ca9c6e052ebffd60718cb0e6ab9c03935bf3169"
+            "hash": "ed35951d628c9784b63b2fa1a5fae962f5ded944a2e73b25db605ffa29307ca5"
         }
     },
     "shortcuts": [
