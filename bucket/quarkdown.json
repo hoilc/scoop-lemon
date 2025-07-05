@@ -1,10 +1,10 @@
 {
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "A modern Markdown-based typesetting system, designed around the key concept of versatility.",
     "homepage": "https://quarkdown.com/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/iamgio/quarkdown/releases/download/v1.6.1/quarkdown.zip",
-    "hash": "a4b5a3785f0bd94894a9ea81df699cd3e00caea4d10097cf1067eaceed52cb2a",
+    "url": "https://github.com/iamgio/quarkdown/releases/download/v1.6.2/quarkdown.zip",
+    "hash": "43639c83f337974519f13875d4f78a04e86b608c2bdb94e856344fea080bcdb4",
     "extract_dir": "quarkdown",
     "bin": "bin\\quarkdown.bat",
     "suggest": {
