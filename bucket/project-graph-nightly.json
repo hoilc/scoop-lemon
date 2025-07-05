@@ -1,12 +1,12 @@
 {
-    "version": "397",
+    "version": "398",
     "description": "(Nightly Build) An open-source project that aims to provide a next-generation node diagram tool for visual thinking.",
     "homepage": "https://github.com/LiRenTech/project-graph",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LiRenTech/project-graph/releases/download/nightly/Project.Graph_0.0.0-nightly.r397_x64-setup.exe#/dl.7z",
-            "hash": "3d494995af7f29604b2c73f53c420e3c17d63dd2a16911fb2c7f0c4155379e3b"
+            "url": "https://github.com/LiRenTech/project-graph/releases/download/nightly/Project.Graph_0.0.0-nightly.r398_x64-setup.exe#/dl.7z",
+            "hash": "97d7bbb356e5030d81000f7c9f1570b057221699805e49f46549fcc4e4b5c55f"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
