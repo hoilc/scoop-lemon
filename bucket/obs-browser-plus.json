@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win64/OBSBrowserPlus-HEC-win64.zip",
-            "hash": "986b3ce187266e2e6c8707e84dcd5be45407337390c8b1e0ed080458698e1a8f"
+            "hash": "6e27972ac9899e7436e1daf8417fd46e79784dd18d33db134ad596f53585f31b"
         },
         "32bit": {
             "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win32/OBSBrowserPlus-HEC-win32.zip",
-            "hash": "c16822d6067d6506eeb4aa2dc65d87b6810e48ac390493772673f153a922dbeb"
+            "hash": "ed92d77248339a45d6a116a56cf58beba7f21994eaa0892eccf5e9078e0dc4e7"
         }
     },
     "pre_install": [
