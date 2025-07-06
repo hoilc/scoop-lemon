@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.byronknoll.com/cmix-v21-windows.zip",
-            "hash": "9893b03c4695785b9562085faf9aeecd51f0373b0c2044b4a0058d880d782104"
+            "hash": "9465813efd7fc28b73687d2136d73823b8660d001ef30ab7c91e09a9a29c7703"
         }
     },
     "extract_dir": "cmix",
