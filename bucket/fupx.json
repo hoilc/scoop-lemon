@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.fosshub.com/FUPX.html/FUPX_64bit_PORTABLE.zip",
-            "hash": "fd805e235b6730714e157804a14d3248ca787cef64dd8b93988807a21d828d3d"
+            "hash": "5835d782c6fce9aa3d908e4c7577e1b6965adbb2220903fcc4c5141408e22e7f"
         },
         "32bit": {
             "url": "https://www.fosshub.com/FUPX.html/FUPX_32bit_PORTABLE.zip",
-            "hash": "eab089456910179bf6d437c5a91f2cfaa69e90cb0cc0970895ed960210365406"
+            "hash": "255c064992912267aea2351fa6d20dce13dabf072ed5c68055efe0bdb7745db2"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\fupx.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\fupx.ini\" -Value $null }",
