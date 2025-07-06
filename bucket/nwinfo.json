@@ -1,10 +1,10 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A hardware information utility for Windows.",
     "homepage": "https://github.com/a1ive/nwinfo",
     "license": "Unlicense",
-    "url": "https://github.com/a1ive/nwinfo/releases/download/v1.4.0/nwinfo.zip",
-    "hash": "68ad42e160baf4e86d690d8f93f29a58110b86b97192b10a80fc557c59839294",
+    "url": "https://github.com/a1ive/nwinfo/releases/download/v1.4.1/nwinfo.zip",
+    "hash": "9b6ff80ccb7cc5f1147cbd33ba6662a43aa0112bd200b2f2578896c20baba69d",
     "extract_dir": "nwinfo",
     "architecture": {
         "64bit": {
