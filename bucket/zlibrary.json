@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "f940805772049f19badfa0c4b8052c110f5c1ffca9b5ea802f23b367ac4bcd00"
+            "hash": "c868df96fceae4d7c5aa992a186d81ba4682b2a6dab64eb22354777dcc221cbc"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse",
