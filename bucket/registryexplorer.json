@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip",
-            "hash": "847e9a673bb170b681b061f58e498b3cca38b4923d192d2345b47f3bbf423369"
+            "hash": "d795c386c11351f180a939c69b89aec0e5e19500148212ef94e722754b917892"
         }
     },
     "extract_dir": "RegistryExplorer",
