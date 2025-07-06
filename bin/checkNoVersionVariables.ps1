@@ -16,7 +16,7 @@ if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
         Write-Error "Both -StartTime and -EndTime must be provided together or not at all"
         exit 1
     }
-    
+
     try {
         if (-not ($StartTime -match '^\d{2}:\d{2}$')) {
             Write-Error "Start time format invalid. Expected format: HH:mm"
@@ -76,14 +76,14 @@ $manifestsWithoutVersion = @()
 
 foreach ($manifestFile in $manifestFiles) {
     $manifestContent = Get-Content -Path $manifestFile -Raw | ConvertFrom-Json
-    
+
     if ($manifestContent.autoupdate) {
         $hasVersionVar = $false
-        
+
         if ($manifestContent.autoupdate.url -and $manifestContent.autoupdate.url -match '\$(version|match)') {
             $hasVersionVar = $true
         }
-        
+
         if ($manifestContent.autoupdate.architecture) {
             $archs = @('32bit', '64bit', 'arm64')
             foreach ($arch in $archs) {
@@ -93,15 +93,15 @@ foreach ($manifestFile in $manifestFiles) {
                 }
             }
         }
-        
+
         if (-not $hasVersionVar) {
             $manifestName = Split-Path -Path $manifestFile -Leaf
             $manifestName = [System.IO.Path]::GetFileNameWithoutExtension($manifestName)
-            
+
             if ($blacklistItems -and $blacklistItems -contains $manifestName) {
                 continue
             }
-            
+
             $manifestsWithoutVersion += $manifestName
         }
     }
@@ -110,14 +110,14 @@ foreach ($manifestFile in $manifestFiles) {
 if ($manifestsWithoutVersion.Count -gt 0) {
     Write-Output "The following $($manifestsWithoutVersion.Count) manifests do not have a version variable:"
     $manifestsWithoutVersion | ForEach-Object { Write-Output "$_" }
-    
+
     $outputValue = $manifestsWithoutVersion -join ","
     if ($env:GITHUB_OUTPUT) {
         Add-Content -Path $env:GITHUB_OUTPUT -Value "manifestsWithoutVersion=$outputValue"
     }
 } else {
     Write-Output "No manifests without version variables found."
-    
+
     if ($env:GITHUB_OUTPUT) {
         Add-Content -Path $env:GITHUB_OUTPUT -Value "manifestsWithoutVersion="
     }
