@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/MFTECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/MFTECmd.zip",
-    "hash": "95a46fa653963713a43b0f66482e9a8cdf5142f5842e5669a9becdc9e1a9cba8",
+    "hash": "17912444f43fee49fb6de6e9f829b1b4262525e4f4556d221b0c737ee2e2c1b7",
     "bin": "MFTECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
