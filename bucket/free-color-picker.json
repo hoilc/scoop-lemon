@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.fosshub.com/Free-Color-Picker-Pazera.html/Free_Color_Picker_PORTABLE_64bit.zip",
-            "hash": "08cb7cfa0bf02cb3167aa03f4e6e6e60efae9f3ecc0cc7976a6247d37ab12914"
+            "hash": "be2643d66fa99d746316628e3431676bbcdc4e62c0974100ba7eb07e0768e3e2"
         },
         "32bit": {
             "url": "https://www.fosshub.com/Free-Color-Picker-Pazera.html/Free_Color_Picker_PORTABLE_32bit.zip",
-            "hash": "213e01d39aca14ebf2069af7955e449b8afb6d0a797eee5534e92da6ef39b41c"
+            "hash": "dc3abd5d2a650d85bae86b489a8d3975ff586f07a6db752450ffc302c491c573"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\FreeColorPicker.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FreeColorPicker.ini\" -Value $null }",
