@@ -4,7 +4,9 @@ param(
     [Parameter(Mandatory=$false)]
     [string]$StartTime,
     [Parameter(Mandatory=$false)]
-    [string]$EndTime
+    [string]$EndTime,
+    [Parameter(Mandatory=$false)]
+    [string[]]$Blacklist
 )
 
 if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
@@ -64,6 +66,10 @@ if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
     }
 }
 
+if ($Blacklist) {
+    $blacklistItems = $Blacklist -split ',' | ForEach-Object { $_.Trim() }
+}
+
 $manifestFiles = Get-ChildItem -Path $AppPath -Filter *.json | Select-Object -ExpandProperty FullName
 
 $manifestsWithoutVersion = @()
@@ -91,20 +97,26 @@ foreach ($manifestFile in $manifestFiles) {
         if (-not $hasVersionVar) {
             $manifestName = Split-Path -Path $manifestFile -Leaf
             $manifestName = [System.IO.Path]::GetFileNameWithoutExtension($manifestName)
+            
+            if ($blacklistItems -and $blacklistItems -contains $manifestName) {
+                continue
+            }
+            
             $manifestsWithoutVersion += $manifestName
         }
     }
 }
 
 if ($manifestsWithoutVersion.Count -gt 0) {
-    $outputValue = $manifestsWithoutVersion -join ","
-    Write-Output "manifestsWithoutVersion=$outputValue"
+    Write-Output "The following $($manifestsWithoutVersion.Count) manifests do not have a version variable:"
+    $manifestsWithoutVersion | ForEach-Object { Write-Output "$_" }
     
+    $outputValue = $manifestsWithoutVersion -join ","
     if ($env:GITHUB_OUTPUT) {
         Add-Content -Path $env:GITHUB_OUTPUT -Value "manifestsWithoutVersion=$outputValue"
     }
 } else {
-    Write-Output "manifestsWithoutVersion="
+    Write-Output "No manifests without version variables found."
     
     if ($env:GITHUB_OUTPUT) {
         Add-Content -Path $env:GITHUB_OUTPUT -Value "manifestsWithoutVersion="

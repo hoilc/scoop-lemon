@@ -7,7 +7,7 @@ jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
     - uses: actions/checkout@master
       with:
@@ -22,7 +22,11 @@ jobs:
       id: check-manifests-without-version-vars
       shell: powershell
       run: |
-        bin/checkNoVersionVariables.ps1 -StartTime "00:00" -EndTime "03:00"
+        bin/checkNoVersionVariables.ps1 -StartTime $env:CHECK_START_TIME -EndTime $env:CHECK_END_TIME -Blacklist $env:CHECK_BLACKLIST
+      env:
+        CHECK_START_TIME: '00:00'
+        CHECK_END_TIME: '03:00'
+        CHECK_BLACKLIST: 'blb2txt,balabolka,balcon'
     - name: Excavate
       uses: ScoopInstaller/Scoop-GithubActions@main
       env:
