@@ -7,12 +7,12 @@
         "64bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows.zip",
             "extract_dir": "Plus42Windows",
-            "hash": "5f3a4ee2d7947af7a4b3ad76c42d18df64b0e3f5b643003d8d84d67aca695ba2"
+            "hash": "3a11e98747e0663ebb3a1328b85368b39c010fbb7fbaa61336b359a89d46c4c9"
         },
         "32bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows-32bit.zip",
             "extract_dir": "Plus42Windows-32bit",
-            "hash": "8ef902f73d10d2ffa9f030c1ba33829325ff86f6f203389dd3b29fe4e1ec4d37"
+            "hash": "542497beaa023443e5eb1ad116a7b852915e49cffef39e0d65375af21a8dd7ee"
         }
     },
     "shortcuts": [
