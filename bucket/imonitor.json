@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://imonitorsdk.com/publish/iMonitor64.exe#/dl.7z",
-            "hash": "de07fd79537a251f500f12eb48842e2c8789ee1a692adc02f3af7a377e27fa29"
+            "hash": "6babaf6a12b689cf255d3186f64cb7e1a96237f3f5a7dd32c33143a45273b096"
         },
         "32bit": {
             "url": "https://imonitorsdk.com/publish/iMonitor32.exe#/dl.7z",
-            "hash": "6c4b8ce66cfd5c439ad535e125c8d6b855ac73f52c7e6ce9298b538e8c104292"
+            "hash": "6babaf6a12b689cf255d3186f64cb7e1a96237f3f5a7dd32c33143a45273b096"
         }
     },
     "bin": "iMonitor.exe",
