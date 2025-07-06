@@ -18,6 +18,11 @@ jobs:
         gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" /rate_limit
       env:
         GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    - name: Check Manifests Without Version Variables
+      id: check-manifests-without-version-vars
+      shell: powershell
+      run: |
+        bin/checkNoVersionVariables.ps1 -StartTime "00:00" -EndTime "03:00"
     - name: Excavate
       uses: ScoopInstaller/Scoop-GithubActions@main
       env:
@@ -27,7 +32,7 @@ jobs:
         SCOOP_GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SCOOP_BRANCH: 'master'
         THROW_ERROR: '0'
-        SPECIAL_SNOWFLAKES: 'imtip,gif123'
+        SPECIAL_SNOWFLAKES: ${{ steps.check-manifests-without-version-vars.outputs.manifestsWithoutVersion }}
     - name: Show rate limit for GitHub API (After)
       shell: powershell
       run: |
