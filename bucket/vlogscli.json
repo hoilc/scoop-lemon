@@ -1,26 +1,25 @@
 {
-    "version": "1.24.0",
+    "version": "1.25.0",
     "description": "An interactive command-line tool for querying VictoriaLogs.",
     "homepage": "https://docs.victoriametrics.com/victorialogs/querying/vlogscli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.24.0-victorialogs/vlogscli-windows-amd64-v1.24.0-victorialogs.zip",
-            "hash": "c3c38f376ad44b3941a04e74098e2e357853752fdc8f601243224f5c7ce3b222"
+            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.25.0/vlutils-windows-amd64-v1.25.0.zip",
+            "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
+            "hash": "eacc03a56a7e77813a9f4e2c78afeae0ead053b479bd0a2264f4e257d903fd6a"
         }
     },
     "bin": "vlogscli.exe",
-    "pre_install": "Get-ChildItem \"$dir\" 'vlogscli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'vlogscli.exe'",
     "checkver": {
-        "url": "https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml",
-        "regex": "appVersion: v([\\d.]+)"
+        "github": "https://github.com/VictoriaMetrics/VictoriaLogs"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v$version-victorialogs/vlogscli-windows-amd64-v$version-victorialogs.zip",
+                "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v$version/vlutils-windows-amd64-v$version.zip",
                 "hash": {
-                    "url": "$baseurl/vlogscli-windows-amd64-v$version-victorialogs_checksums.txt"
+                    "url": "$baseurl/vlutils-windows-amd64-v$version_checksums.txt"
                 }
             }
         }
