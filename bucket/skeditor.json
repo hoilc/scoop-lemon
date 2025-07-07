@@ -6,12 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.3/Windows-x64.zip",
-            "extract_dir": "SkEditor-Windows-x64",
             "hash": "93cbee5eae30ca8c99b7a1f4611aecd4f8b3a09941a773244ddb9a5fc303e580"
         },
         "arm64": {
             "url": "https://github.com/SkEditorTeam/SkEditor/releases/download/v2.9.3/Windows-arm64.zip",
-            "extract_dir": "SkEditor-Windows-arm64",
             "hash": "b47141bae50222c9b45d8b25d42a17af2763d3f49b4998a3e42d6f2187f58309"
         }
     },
