@@ -1,31 +1,30 @@
 {
-    "version": "1.24.0",
-    "description": "An open source user-friendly database for logs from VictoriaMetrics.",
-    "homepage": "https://docs.victoriametrics.com/VictoriaLogs/",
+    "version": "1.25.0",
+    "description": "VictoriaLogs is an open source user-friendly database for logs from VictoriaMetrics.",
+    "homepage": "https://docs.victoriametrics.com/victorialogs/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.24.0-victorialogs/victoria-logs-windows-amd64-v1.24.0-victorialogs.zip",
-            "hash": "cf26c076b1731cf61d87cc43fb49edd29248c978a6c944befc9a53f30fa01b8a"
+            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.25.0/victoria-logs-windows-amd64-v1.25.0.zip",
+            "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
+            "hash": "af18f7185ab13ea1d3cb0829ce6103ca84ba21391f39d25e9b85514f16e76d5b"
         }
     },
     "bin": "victoria-logs.exe",
-    "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
     "persist": "victoria-logs-data",
     "notes": "Example: victoria-logs.exe -storageDataPath=$dir\\victoria-logs-data\\",
     "suggest": {
         "vlogsqcli": "vlogsqcli"
     },
     "checkver": {
-        "url": "https://github.com/VictoriaMetrics/helm-charts/raw/master/charts/victoria-logs-single/Chart.yaml",
-        "regex": "appVersion: v([\\d.]+)"
+        "github": "https://github.com/VictoriaMetrics/VictoriaLogs"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v$version-victorialogs/victoria-logs-windows-amd64-v$version-victorialogs.zip",
+                "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v$version/victoria-logs-windows-amd64-v$version.zip",
                 "hash": {
-                    "url": "$baseurl/victoria-logs-windows-amd64-v$version-victorialogs_checksums.txt"
+                    "url": "$baseurl/victoria-logs-windows-amd64-v$version_checksums.txt"
                 }
             }
         }
