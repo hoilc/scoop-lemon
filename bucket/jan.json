@@ -5,9 +5,8 @@
     "license": "https://jan.ai/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/janhq/jan/releases/download/v0.6.4/jan-win-x64-0.6.4.exe#/dl.7z",
-            "hash": "sha512:00e9d0b743ba6f5b21d696383ec9d2f19cd61247b20b8d228078911c71146edf2810703345e4bba36c8006f2e872691a1608e18eb7d682814722f542497c7918",
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            "url": "https://github.com/janhq/jan/releases/download/v0.6.4/Jan_0.6.4_x64-setup.exe#/dl.7z",
+            "hash": "sha512:00e9d0b743ba6f5b21d696383ec9d2f19cd61247b20b8d228078911c71146edf2810703345e4bba36c8006f2e872691a1608e18eb7d682814722f542497c7918"
         }
     },
     "shortcuts": [
@@ -16,17 +15,17 @@
             "Jan"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
     "checkver": {
         "github": "https://github.com/janhq/jan"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe#/dl.7z",
+                "url": "https://github.com/janhq/jan/releases/download/v$version/Jan_$version_x64-setup.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s*$base64"
+                    "regex": "(?sm)$basename\\s*sha512:\\s*$base64"
                 }
             }
         }
