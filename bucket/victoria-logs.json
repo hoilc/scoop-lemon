@@ -14,7 +14,7 @@
     "persist": "victoria-logs-data",
     "notes": "Example: victoria-logs.exe -storageDataPath=$dir\\victoria-logs-data\\",
     "suggest": {
-        "vlogsqcli": "vlogsqcli"
+        "vlogscli": "vlogscli"
     },
     "checkver": {
         "github": "https://github.com/VictoriaMetrics/VictoriaLogs"
