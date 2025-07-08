@@ -1,12 +1,12 @@
 {
-    "version": "6303",
+    "version": "6306",
     "description": "(Nightly Build) A free, open source, multiplatform digital audio workstation.",
     "homepage": "https://lmms.io/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/LMMS/lmms/actions/runs/16105259591/msvc-x64.zip",
-            "hash": "d7e6375ba25e73f9121da334fd0be2f50960e4f119b1adcf33c27df8cb4417eb"
+            "url": "https://nightly.link/LMMS/lmms/actions/runs/16130731829/msvc-x64.zip",
+            "hash": "c1872b6329ad07164b98d6d4b5becdcf819eef6af86d3411269b70dfbaa6d5d9"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'lmms-*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
