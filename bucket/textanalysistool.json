@@ -1,10 +1,10 @@
 {
-    "version": "2023-04-25",
+    "version": "2025-06-17",
     "description": "TextAnalysisTool.NET is a free program designed to excel at viewing, searching, and navigating large files quickly and efficiently.",
     "homepage": "https://textanalysistool.github.io/",
     "license": "MIT",
     "url": "https://github.com/TextAnalysisTool/Releases/raw/master/TextAnalysisTool.NET.zip",
-    "hash": "3278767c8052ecfaa95d63d48f89eb6b2c753a8203a18473a86748acd7c2120a",
+    "hash": "1290d10cdb95065fc227f18328496db1fa02f4b170fcf98113aeb5d3447f1f49",
     "shortcuts": [
         [
             "TextAnalysisTool.NET.exe",
