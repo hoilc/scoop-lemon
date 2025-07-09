@@ -1,0 +1,36 @@
+{
+    "version": "0.3.1",
+    "description": "Copicseal（可图匠）是一个图片加边框水印工具，支持读取 EXIF 信息",
+    "homepage": "https://copicseal.kohai.top/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/copicseal/copicseal/releases/download/v0.3.1/copicseal-0.3.1-setup.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "sha512:2671af3b77d3b814f5234ab193d40b08f69a230ee32f71175921150a10de7dff9156da59e37abcb850dc673b871dcf77364cf7538c60ece82478c1979d43e379"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "copicseal.exe",
+            "Copicseal",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://github.com/copicseal/copicseal"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/copicseal/copicseal/releases/download/v$version/copicseal-$version-setup.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "(?sm)$basename\\s*sha512:\\s*$base64"
+        }
+    }
+}
