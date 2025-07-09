@@ -1,16 +1,16 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Cloud provider for KIND clusters.",
     "homepage": "https://github.com/kubernetes-sigs/cloud-provider-kind",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubernetes-sigs/cloud-provider-kind/releases/download/v0.6.0/cloud-provider-kind_0.6.0_windows_amd64.tar.gz",
-            "hash": "74f67675e8e66e334525e810bbf81a55b8dbc4cdc9d621443f3416a8e838f593"
+            "url": "https://github.com/kubernetes-sigs/cloud-provider-kind/releases/download/v0.7.0/cloud-provider-kind_0.7.0_windows_amd64.tar.gz",
+            "hash": "b1770f16abc3b09879c35806ff160a835b88d99f7094f9d19e46c7783d80f795"
         },
         "arm64": {
-            "url": "https://github.com/kubernetes-sigs/cloud-provider-kind/releases/download/v0.6.0/cloud-provider-kind_0.6.0_windows_arm64.tar.gz",
-            "hash": "79f8a3ad9b90d65e1d319b1d23515866f1757cdf2dac85075cb2a5d5d83969c9"
+            "url": "https://github.com/kubernetes-sigs/cloud-provider-kind/releases/download/v0.7.0/cloud-provider-kind_0.7.0_windows_arm64.tar.gz",
+            "hash": "4abb393cdc9086c843d23be218de18326b2c422e7a4edd8334c9d80193483422"
         }
     },
     "bin": "cloud-provider-kind.exe",
