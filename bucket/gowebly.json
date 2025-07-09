@@ -1,16 +1,16 @@
 {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "A next-generation CLI tool for building amazing web apps.",
     "homepage": "https://gowebly.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.4/gowebly_3.0.4_windows_amd64.zip",
-            "hash": "4a4830d2deb3c5291cd23fddfe35647d85e57772217d9086d92e43b691bae422"
+            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.5/gowebly_3.0.5_windows_amd64.zip",
+            "hash": "0693297d5c61210237abbc4e0c8c704b94fe9aa67267d0bf9fd957f8f3f4ace4"
         },
         "arm64": {
-            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.4/gowebly_3.0.4_windows_arm64.zip",
-            "hash": "7ae4b76a28ddc24e3e378cb0b2d94a2efb10465f18c35876affd2789154bf8f2"
+            "url": "https://github.com/gowebly/gowebly/releases/download/v3.0.5/gowebly_3.0.5_windows_arm64.zip",
+            "hash": "c7f254ff7532d29c0437a72a4cb1c02e0993a2eefe3b3e940d5040978b4b15fb"
         }
     },
     "bin": "gowebly.exe",
