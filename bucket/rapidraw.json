@@ -1,0 +1,32 @@
+{
+    "version": "1.2.1",
+    "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+    "homepage": "https://github.com/CyberTimon/RapidRAW",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.2.1/RapidRAW_1.2.1_x64-setup.exe#/dl.7z",
+            "hash": "fbab46c7cd08ffa4f09295303425052bf6e04cf7851424cb6fd0b721b5e23f5b"
+        }
+    },
+    "shortcuts": [
+        [
+            "RapidRAW.exe",
+            "RapidRAW"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.rapidraw.app\", \"$env:LOCALAPPDATA\\com.rapidraw.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "RapidRAW is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.rapidraw.app', and will be purged during uninstallation."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v$version/RapidRAW_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
