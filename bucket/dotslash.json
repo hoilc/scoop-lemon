@@ -1,12 +1,12 @@
 {
-    "version": "0.5.5",
+    "version": "0.5.7",
     "description": "Simplified executable deployment.",
     "homepage": "https://dotslash-cli.com/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/facebook/dotslash/releases/download/v0.5.5/dotslash-windows.v0.5.5.tar.gz",
-            "hash": "0527341713ea109c059b967bf61fcc6e211f1479879afc426db4b7cdf72bf722"
+            "url": "https://github.com/facebook/dotslash/releases/download/v0.5.7/dotslash-windows.v0.5.7.tar.gz",
+            "hash": "1cdf48b3bdd66c16fbcb40556004c12b5eb99e3381c5264c68fec5b50c07d50c"
         }
     },
     "bin": "dotslash.exe",
