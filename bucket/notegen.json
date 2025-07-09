@@ -1,12 +1,12 @@
 {
-    "version": "0.19.2",
+    "version": "0.19.3",
     "description": "A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.",
     "homepage": "https://github.com/codexu/note-gen/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/codexu/note-gen/releases/download/note-gen-v0.19.2/NoteGen_0.19.2_x64-setup.exe#/dl.7z",
-            "hash": "48a5cd3fd412edef8b7321003520623da2eca437caca8dffa007d4dc9b80dc2c"
+            "url": "https://github.com/codexu/note-gen/releases/download/note-gen-v0.19.3/NoteGen_0.19.3_x64-setup.exe#/dl.7z",
+            "hash": "2f319aa8a0f66b9dfcb8887e807524a116450611d3d91bb60c1cd7c3f878d0c8"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
