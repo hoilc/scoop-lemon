@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0",
+    "version": "4.1.0",
     "description": "Beaver Notes is an open-source note taking app built for Privacy and Efficiency.",
     "homepage": "https://www.beavernotes.com/",
     "license": "MIT",
-    "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.0.0/Beaver-notes-Setup-4.0.0.exe#/dl.7z",
-    "hash": "f01d1b72b3d2ba3f1399954f818223b1408fead99ac9f11bb41b68fd964ad439",
+    "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.1.0/Beaver-notes-Setup-4.1.0.exe#/dl.7z",
+    "hash": "131ba64d19b7e2e384a2269495cecc4d1ec04f0a16f2c8481a958d29120eb01d",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
