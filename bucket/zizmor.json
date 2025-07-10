@@ -1,32 +1,31 @@
 {
-    "version": "1.11.0",
+    "version": "1.11.1-rc1",
     "description": "A static analysis tool for GitHub Actions.",
-    "homepage": "https://woodruffw.github.io/zizmor/",
+    "homepage": "https://docs.zizmor.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.11.0-py3-none-win_amd64.whl#/dl.zip",
-            "hash": "c5a9021ebf353e76f2d93f25762cb4a51665db48f39a446ffff5db3af8fe6293"
+            "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.11.1-rc1/zizmor-x86_64-pc-windows-msvc.zip",
+            "hash": "77333bc650d1840e75c42918f64e04da9b34905ad9e69644d148d16350ff2daa"
         },
         "32bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-1.11.0-py3-none-win32.whl#/dl.zip",
-            "hash": "f9d276aa71e24cae13c2d666fae90f1abd9af438c2e8fc351b3d083b3d437676"
+            "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.11.1-rc1/zizmor-i686-pc-windows-msvc.zip",
+            "hash": "57ca73238d641150596e3cf2c1c01e8f9351b030d82c8d1f261cbede9829cca7"
         }
     },
-    "extract_dir": "zizmor-1.11.0.data\\scripts",
     "bin": "zizmor.exe",
     "checkver": {
-        "github": "https://github.com/woodruffw/zizmor"
+        "url": "https://github.com/zizmorcore/zizmor/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-$version-py3-none-win_amd64.whl#/dl.zip"
+                "url": "https://github.com/zizmorcore/zizmor/releases/download/v$version/zizmor-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://files.pythonhosted.org/packages/py3/z/zizmor/zizmor-$version-py3-none-win32.whl#/dl.zip"
+                "url": "https://github.com/zizmorcore/zizmor/releases/download/v$version/zizmor-i686-pc-windows-msvc.zip"
             }
-        },
-        "extract_dir": "zizmor-$version.data\\scripts"
+        }
     }
 }
