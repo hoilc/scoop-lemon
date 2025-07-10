@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/RECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/rla.zip",
-    "hash": "ff5e9f1148bc56e0c0a213f79a4cda8a8c887976cd106fa27dac910786566139",
+    "hash": "5c1980349e9d580eea749a6cf42bdc1b1491ef755a6cc54f552d388e358cf4d7",
     "bin": "rla.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
