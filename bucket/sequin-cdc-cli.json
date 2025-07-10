@@ -1,16 +1,16 @@
 {
-    "version": "0.12.7",
+    "version": "0.12.8",
     "description": "An change data capture (CDC) platform for Postgres.",
     "homepage": "https://sequinstream.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sequinstream/sequin/releases/download/v0.12.7/sequin-cli-v0.12.7-windows-amd64.zip",
-            "hash": "7d4c6aca0d15305f28876966ec929bd1cfa3d7a9fe10b787a19fc74a80a308d0"
+            "url": "https://github.com/sequinstream/sequin/releases/download/v0.12.8/sequin-cli-v0.12.8-windows-amd64.zip",
+            "hash": "f802801202bbc27cce784e22927399020733ce110386543176a1de28546e189c"
         },
         "32bit": {
-            "url": "https://github.com/sequinstream/sequin/releases/download/v0.12.7/sequin-cli-v0.12.7-windows-386.zip",
-            "hash": "6e72f69474dcdc6249430eda4cba9b0fae0a798f74f1a7dbd5fde1cd6b418024"
+            "url": "https://github.com/sequinstream/sequin/releases/download/v0.12.8/sequin-cli-v0.12.8-windows-386.zip",
+            "hash": "1168461067a499787bef80f1244731c13b968e0c448e5deb5e86add0bfb7160d"
         }
     },
     "bin": "sequin.exe",
