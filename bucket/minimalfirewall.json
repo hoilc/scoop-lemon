@@ -1,0 +1,40 @@
+{
+    "version": "1.8",
+    "description": "Minimal Firewall is a portable Windows firewall frontend that alerts users to internet connections.",
+    "homepage": "https://github.com/deminimis/minimalfirewall",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/deminimis/minimalfirewall/releases/download/v1.8/MinimalFirewall_Portable_v1.8_x64.zip",
+            "extract_dir": "Minimal Firewall v1.8",
+            "hash": "d5af806daf07ec9f41d54363325b56d8153d6cb0a06ae2ba422d51fa2217ef96"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\settings.json\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\uwp_apps.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\uwp_apps.json\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\wildcard_rules.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\wildcard_rules.json\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\foreign_rules_baseline.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\foreign_rules_baseline.json\" -Value $null }"
+    ],
+    "shortcuts": [
+        [
+            "MinimalFirewall.exe",
+            "Minimal Firewall"
+        ]
+    ],
+    "persist": [
+        "settings.json",
+        "uwp_apps.json",
+        "wildcard_rules.json",
+        "foreign_rules_baseline.json"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/deminimis/minimalfirewall/releases/download/v$version/MinimalFirewall_Portable_v$version_x64.zip",
+                "extract_dir": "Minimal Firewall v$version"
+            }
+        }
+    }
+}
