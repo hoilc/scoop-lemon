@@ -20,7 +20,7 @@ jobs:
     - name: Checkout Bucket
       uses: actions/checkout@main
       with:
-        fetch-depth: 2
+        fetch-depth: 0
         path: 'my_bucket'
     - name: Checkout Scoop
       uses: actions/checkout@main
@@ -57,6 +57,8 @@ jobs:
         exit $result
       env:
         GITHUB_PULL_REQUEST_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        GITHUB_PUSH_EVENT_BEFORE_SHA: ${{ github.event.before }}
+        GITHUB_PUSH_EVENT_AFTER_SHA: ${{ github.event.after }}
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop

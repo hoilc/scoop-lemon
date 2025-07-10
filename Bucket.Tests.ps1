@@ -82,8 +82,14 @@ Describe 'Changed manifests installation' {
 
     New-Item 'INSTALL.log' -Type File -Force
     if ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
+        Write-Host "[PR] Get changed file from $env:GITHUB_PULL_REQUEST_BASE_SHA to recent"
         $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PULL_REQUEST_BASE_SHA -Include '*.json'
+    } elseif ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -and $env:GITHUB_PUSH_EVENT_AFTER_SHA -and ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -ne "0000000000000000000000000000000000000000"))
+    {
+        Write-Host "[Push] Get changed file from $env:GITHUB_PUSH_EVENT_BEFORE_SHA to $env:GITHUB_PUSH_EVENT_AFTER_SHA"
+        $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PUSH_EVENT_BEFORE_SHA -RightRevision $env:GITHUB_PUSH_EVENT_AFTER_SHA -Include '*.json'
     } else {
+        Write-Host "Get changed file in $env:GITHUB_SHA"
         $changedFiles = Get-GitChangedFile -Commit $env:GITHUB_SHA -Include '*.json'
     }
     $changedFiles = $changedFiles | Where-Object { ($_ -inotmatch $INSTALL_FILES_EXCLUSIONS) }
