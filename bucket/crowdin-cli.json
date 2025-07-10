@@ -1,11 +1,11 @@
 {
-    "version": "4.8.0",
+    "version": "4.9.0",
     "description": "A command-line client for the Crowdin API.",
     "homepage": "https://crowdin.github.io/crowdin-cli/",
     "license": "MIT",
-    "url": "https://github.com/crowdin/crowdin-cli/releases/download/4.8.0/crowdin-cli.zip",
-    "hash": "e3e0f53beff7d9a61b66cd5a28010fb8aab7203999868ee85fecc4451ac6329c",
-    "extract_dir": "4.8.0",
+    "url": "https://github.com/crowdin/crowdin-cli/releases/download/4.9.0/crowdin-cli.zip",
+    "hash": "7cf81caf41a0d2e2200e19dfa30169e8af8d86d29d8d384b778cb38dc67bf0ae",
+    "extract_dir": "4.9.0",
     "bin": [
         [
             "crowdin-cli.jar",
