@@ -1,5 +1,5 @@
 {
-    "version": "0.258.0",
+    "version": "0.259.0",
     "description": "A tool to automate the Databricks platform from your terminal, command prompt, or automation scripts.",
     "homepage": "https://docs.databricks.com/en/dev-tools/cli/index.html",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/databricks/cli/releases/download/v0.258.0/databricks_cli_0.258.0_windows_amd64.zip",
-            "hash": "1d08d45f20e1a15e263bb68b3615f9d183f5b46b7458b7d250421e62ac5ec387"
+            "url": "https://github.com/databricks/cli/releases/download/v0.259.0/databricks_cli_0.259.0_windows_amd64.zip",
+            "hash": "5377d4210656b1cfb56e51247f6a5c9495a175163f8ced711ee703effc68f4a7"
         },
         "arm64": {
-            "url": "https://github.com/databricks/cli/releases/download/v0.258.0/databricks_cli_0.258.0_windows_arm64.zip",
-            "hash": "2917d111ad087346e317fb9b6701334d7756c62827c937304bf6d561111cd6ec"
+            "url": "https://github.com/databricks/cli/releases/download/v0.259.0/databricks_cli_0.259.0_windows_arm64.zip",
+            "hash": "861595c27bb62eabdbf1f03e559db6661a7c5986bdd85adba885b61f05de5197"
         }
     },
     "bin": "databricks.exe",
