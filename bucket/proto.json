@@ -1,12 +1,12 @@
 {
-    "version": "0.50.3",
+    "version": "0.50.4",
     "description": "A pluggable multi-language version manager.",
     "homepage": "https://moonrepo.dev/proto",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moonrepo/proto/releases/download/v0.50.3/proto_cli-x86_64-pc-windows-msvc.zip",
-            "hash": "449ecd7e050e68e93fcee46400e04a57af58dbc00f099ebbb8adb861f339f17e"
+            "url": "https://github.com/moonrepo/proto/releases/download/v0.50.4/proto_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "d0d2a623cc2716ceb9083644dfe367cfa7b04fd422257e75908ca29bb74ce6ac"
         }
     },
     "bin": "proto.exe",
