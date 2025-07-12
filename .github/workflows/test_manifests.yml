@@ -74,5 +74,5 @@ jobs:
       with:
         name: Tests            # Name of the check run which will be created
         path: ../TestResults.xml    # Path to test results
-        reporter: dotnet-nunit        # Format of test results
+        reporter: jest-junit        # Format of test results
         working-directory: 'my_bucket'

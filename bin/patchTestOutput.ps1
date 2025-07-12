@@ -6,7 +6,7 @@ param(
 $insertCode = @'
 if ($env:BHBuildSystem -eq 'GitHub Actions') {
     $splat.OutputFile = "$env:GITHUB_WORKSPACE\TestResults.xml"
-    $splat.OutputFormat = 'NUnitXML'
+    $splat.OutputFormat = 'JUnitXml'
 }
 '@
 
