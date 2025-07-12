@@ -63,8 +63,15 @@ jobs:
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
-    - uses: actions/upload-artifact@v4  # upload test results
-      if: ${{ !cancelled() }}           # run this step even if previous step failed
+#    - uses: actions/upload-artifact@v4  # upload test results
+#      if: ${{ !cancelled() }}           # run this step even if previous step failed
+#      with:
+#        name: test-results
+#        path: TestResults.xml
+    - name: Test Report
+      uses: dorny/test-reporter@v2
+      if: ${{ !cancelled() }}       # run this step even if previous step failed
       with:
-        name: test-results
-        path: TestResults.xml
+        name: Tests            # Name of the check run which will be created
+        path: TestResults.xml    # Path to test results
+        reporter: dotnet-nunit        # Format of test results
