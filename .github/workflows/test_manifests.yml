@@ -47,7 +47,7 @@ jobs:
       shell: powershell
       run: |
         cd .\my_bucket\
-        bin\patchTestOutput.ps1 -filePath ..\scoop_core\test\bin\test.ps1
+        .\bin\patchTestOutput.ps1 -filePath ..\scoop_core\test\bin\test.ps1
         ..\scoop_core\test\bin\test.ps1 -TestPath .
         $result = $LASTEXITCODE
         Write-Host "============ Install Log ============"
