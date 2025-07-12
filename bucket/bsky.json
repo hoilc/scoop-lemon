@@ -1,6 +1,6 @@
 {
     "version": "0.0.73",
-    "description": "A bluesky CLI client written in Go.    ",
+    "description": "A bluesky CLI client written in Go.     ",
     "homepage": "https://github.com/mattn/bsky",
     "license": "MIT",
     "architecture": {
