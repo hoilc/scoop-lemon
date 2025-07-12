@@ -47,8 +47,10 @@ function install() {
 
     if ($LASTEXITCODE -ne 0) {
         logError
-        logError "## Installation - $manifest / $architecture"
+        logError "## $command"
+        logError "```"
         logError $result
+        logError "```"
         logError
     }
 
@@ -67,8 +69,11 @@ function uninstall($noExt) {
     }
 
     if ($LASTEXITCODE -ne 0) {
-        logError "## Uninstallation - $noExt"
+        logError
+        logError "## scoop uninstall $noExt"
+        logError "```"
         logError $result
+        logError "```"
         logError
     }
 }
