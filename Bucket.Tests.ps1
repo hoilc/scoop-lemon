@@ -16,6 +16,12 @@ function log() {
     Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding Ascii
 }
 
+function logError() {
+    param([String[]] $message = "============`r`n")
+
+    Add-Content "./ERROR.log" ($message -join "`r`n") -Encoding Ascii
+}
+
 function install() {
     param(
         [String] $manifest,
@@ -39,6 +45,13 @@ function install() {
     log $result
     log
 
+    if ($LASTEXITCODE -ne 0) {
+        logError
+        logError "## Installation - $manifest / $architecture"
+        logError $result
+        logError
+    }
+
     return $exit
 }
 
@@ -51,6 +64,12 @@ function uninstall($noExt) {
         log $log
         log "$noExt`: Uninstall DONE"
         log
+    }
+
+    if ($LASTEXITCODE -ne 0) {
+        logError "## Uninstallation - $noExt"
+        logError $result
+        logError
     }
 }
 
@@ -81,6 +100,7 @@ Describe 'Changed manifests installation' {
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
     New-Item 'INSTALL.log' -Type File -Force
+    New-Item 'ERROR.log' -Type File -Force
     if ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
         Write-Host "[PR] Get changed file from $env:GITHUB_PULL_REQUEST_BASE_SHA to recent"
         $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PULL_REQUEST_BASE_SHA -Include '*.json'

@@ -64,13 +64,13 @@ jobs:
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
-    - name: Test Report
-      uses: dorny/test-reporter@v2
-      if: ${{ !cancelled() }}       # run this step even if previous step failed
-      with:
-        name: Tests            # Name of the check run which will be created
-        path: ../TestResults.xml    # Path to test results
-        reporter: java-junit        # Format of test results
-        working-directory: 'my_bucket'
-        list-suites: 'none'
-        list-tests: 'failed'
+#    - name: Test Report
+#      uses: dorny/test-reporter@v2
+#      if: ${{ !cancelled() }}       # run this step even if previous step failed
+#      with:
+#        name: Tests            # Name of the check run which will be created
+#        path: ../TestResults.xml    # Path to test results
+#        reporter: java-junit        # Format of test results
+#        working-directory: 'my_bucket'
+#        list-suites: 'none'
+#        list-tests: 'failed'
