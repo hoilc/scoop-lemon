@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mattn/bsky/releases/download/v0.0.73/bsky-windows-0.0.73.zip",
+            "url": "https://github.com/mattn/bsky/releases/download/v0.0.73/bsky-windows-0.0.731.zip",
             "hash": "37607cbecaa0214521fba3dfb7e2b7f839ed5e6db1c755e88e79b5c98f67b1b0"
         }
     },

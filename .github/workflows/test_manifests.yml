@@ -54,6 +54,7 @@ jobs:
         $log = 'Install.log'
         if (Test-Path $log) {
           Get-Content $log -Raw | Write-Host
+          Get-Content $log -Raw | Add-Content -Path $env:GITHUB_STEP_SUMMARY
         }
         exit $result
       env:
@@ -63,11 +64,6 @@ jobs:
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
-    - uses: actions/upload-artifact@v4  # upload test results
-      if: ${{ !cancelled() }}           # run this step even if previous step failed
-      with:
-        name: test-results
-        path: TestResults.xml
     - name: Test Report
       uses: dorny/test-reporter@v2
       if: ${{ !cancelled() }}       # run this step even if previous step failed
