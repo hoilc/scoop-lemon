@@ -54,7 +54,9 @@ jobs:
         $log = 'Install.log'
         if (Test-Path $log) {
           Get-Content $log -Raw | Write-Host
-          Get-Content $log -Raw | Add-Content -Path $env:GITHUB_STEP_SUMMARY
+        }
+        if (Test-Path 'ERROR.log') {
+          Get-Content 'ERROR.log' -Raw | Add-Content -Path $env:GITHUB_STEP_SUMMARY
         }
         exit $result
       env:
