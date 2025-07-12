@@ -1,6 +1,6 @@
 {
     "version": "0.16.5",
-    "description": "A command line tool for generating and validating one-time password.",
+    "description": "A command line tool for generati ng and validating one-time password.",
     "homepage": "https://github.com/csyezheng/a2fa/",
     "license": "Apache-2.0",
     "architecture": {

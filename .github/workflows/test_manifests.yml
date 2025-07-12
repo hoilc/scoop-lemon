@@ -76,3 +76,4 @@ jobs:
         path: ../TestResults.xml    # Path to test results
         reporter: jest-junit        # Format of test results
         working-directory: 'my_bucket'
+        list-tests: failed
