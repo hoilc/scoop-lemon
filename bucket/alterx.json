@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/alterx/releases/download/v0.0.6 /alterx_0.0.6_windows_amd64.zip",
+            "url": "https://github.com/projectdiscovery/alterx/releases/download/v0.0.62/alterx_0.0.6_windows_amd64.zip",
             "hash": "a9a55f1f48ec81b7415ca9a36731d72a7cbaabff0efbc3ee0ff0a6ccc9a3fbc5"
         },
         "32bit": {

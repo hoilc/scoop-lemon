@@ -48,9 +48,9 @@ function install() {
     if ($LASTEXITCODE -ne 0) {
         logError
         logError "## $command"
-        logError "```"
+        logError '```'
         logError $result
-        logError "```"
+        logError '```'
         logError
     }
 
@@ -71,9 +71,9 @@ function uninstall($noExt) {
     if ($LASTEXITCODE -ne 0) {
         logError
         logError "## scoop uninstall $noExt"
-        logError "```"
+        logError '```'
         logError $result
-        logError "```"
+        logError '```'
         logError
     }
 }
