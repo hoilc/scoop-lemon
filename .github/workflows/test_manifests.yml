@@ -47,6 +47,7 @@ jobs:
       shell: powershell
       run: |
         cd .\my_bucket\
+        bin\patchTestOutput.ps1 -filePath ..\scoop_core\test\bin\test.ps1
         ..\scoop_core\test\bin\test.ps1 -TestPath .
         $result = $LASTEXITCODE
         Write-Host "============ Install Log ============"
@@ -62,3 +63,8 @@ jobs:
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
+    - uses: actions/upload-artifact@v4  # upload test results
+      if: ${{ !cancelled() }}           # run this step even if previous step failed
+      with:
+        name: test-results
+        path: TestResults.xml
