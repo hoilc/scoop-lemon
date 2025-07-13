@@ -1,12 +1,12 @@
 {
-    "version": "1.33.0",
+    "version": "1.34.0",
     "description": "Highest-quality GIF encoder based on pngquant.",
     "homepage": "https://gif.ski/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ImageOptim/gifski/releases/download/1.33.0/gifski-1.33.0.tar.xz",
-            "hash": "30736e9148b9539f58424eb98c9dd84fa6f98fa2019aa28e819d8700fe333cf5"
+            "url": "https://github.com/ImageOptim/gifski/releases/download/1.34.0/gifski-1.34.0.tar.xz",
+            "hash": "b9b6591aa163123d737353d9c8581efdf3234d28eeaa45329b31da905cd5a996"
         }
     },
     "extract_dir": "win",
