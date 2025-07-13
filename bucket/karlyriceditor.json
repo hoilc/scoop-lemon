@@ -1,13 +1,13 @@
 {
-    "version": "3.3",
+    "version": "4.0",
     "description": "Karaoke Lyric Editor is a free cross-platform lyrics editor and exporter for Karaoke formats.",
     "homepage": "https://github.com/gyunaev/karlyriceditor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gyunaev/karlyriceditor/releases/download/3.3/karlyriceditor-windows-x64-v3.3.zip",
+            "url": "https://github.com/gyunaev/karlyriceditor/releases/download/4.0/karlyriceditor-gstreamer-x86_64-release-4.0.zip",
             "extract_dir": "karlyriceditor-x86_64-release",
-            "hash": "658eb00c32d6f4b73a4baddbdf381b171b171c97a378047fb7d6db6b8cf14bd9"
+            "hash": "d8a5276e19d72ef61072bdd613200e198921e3bfd027858d68b75dd538377bb6"
         }
     },
     "shortcuts": [
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gyunaev/karlyriceditor/releases/download/$version/karlyriceditor-windows-x64-v$version.zip"
+                "url": "https://github.com/gyunaev/karlyriceditor/releases/download/$version/karlyriceditor-gstreamer-x86_64-release-$version.zip"
             }
         }
     }
