@@ -16,6 +16,12 @@ function log() {
     Add-Content "./INSTALL.log" ($message -join "`r`n") -Encoding Ascii
 }
 
+function logError() {
+    param([String[]] $message = "============`r`n")
+
+    Add-Content "./ERROR.log" ($message -join "`r`n") -Encoding Ascii
+}
+
 function install() {
     param(
         [String] $manifest,
@@ -39,6 +45,13 @@ function install() {
     log $result
     log
 
+    if ($exit -ne 0) {
+        logError "## $command"
+        logError '```'
+        logError $result
+        logError '```'
+    }
+
     return $exit
 }
 
@@ -51,6 +64,11 @@ function uninstall($noExt) {
         log $log
         log "$noExt`: Uninstall DONE"
         log
+    } else {
+        logError "## scoop uninstall $noExt"
+        logError '```'
+        logError $result
+        logError '```'
     }
 }
 
@@ -80,7 +98,7 @@ Describe 'Changed manifests installation' {
     ) -join '|'
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
-    New-Item 'INSTALL.log' -Type File -Force
+    New-Item 'INSTALL.log', 'ERROR.log' -Type File -Force
     if ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
         Write-Host "[PR] Get changed file from $env:GITHUB_PULL_REQUEST_BASE_SHA to recent"
         $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PULL_REQUEST_BASE_SHA -Include '*.json'
@@ -96,10 +114,10 @@ Describe 'Changed manifests installation' {
 
     if ($changedFiles.Count -gt 0) {
         scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
-        log "Ensuring helpers..."
+        Write-Host "Ensuring helpers..."
         scoop install -g sudo 7zip innounp dark lessmsi # Install default apps for manifest manipultion / installation
         $7zipPath = Get-HelperPath -Helper 7zip
-        log "7zip path: $7zipPath"
+        Write-Host "7zip path: $7zipPath"
 
         foreach ($file in $changedFiles) {
             # Skip deleted manifests

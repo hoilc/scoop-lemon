@@ -14,7 +14,7 @@ on:
 
 jobs:
   test_powershell5:
-    name: Powershell 5
+    name: Test Manifests (Powershell 5)
     runs-on: windows-latest
     steps:
     - name: Checkout Bucket
@@ -53,6 +53,10 @@ jobs:
         $log = 'Install.log'
         if (Test-Path $log) {
           Get-Content $log -Raw | Write-Host
+        }
+        if (Test-Path 'ERROR.log' -and (Get-Content 'ERROR.log')) {
+          Add-Content -Path $env:GITHUB_STEP_SUMMARY "# ERROR LOG`r`n"
+          Get-Content 'ERROR.log' -Raw | Add-Content -Path $env:GITHUB_STEP_SUMMARY
         }
         exit $result
       env:
