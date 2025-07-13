@@ -54,7 +54,7 @@ jobs:
         if (Test-Path $log) {
           Get-Content $log -Raw | Write-Host
         }
-        if (Test-Path 'ERROR.log' -and (Get-Content 'ERROR.log')) {
+        if ((Test-Path 'ERROR.log') -and (Get-Content 'ERROR.log')) {
           Add-Content -Path $env:GITHUB_STEP_SUMMARY "# ERROR LOG`r`n"
           Get-Content 'ERROR.log' -Raw | Add-Content -Path $env:GITHUB_STEP_SUMMARY
         }
