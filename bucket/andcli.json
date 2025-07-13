@@ -1,16 +1,16 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "A 2FA TUI for your shell.",
     "homepage": "https://github.com/tjblackheart/andcli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.2.0/andcli_v2.2.0_win_amd64.exe#/andcli.exe",
-            "hash": "8a6e6f494105bd7cf5466351b715d9add00cb036005631c2dc9a6b0032c1f5fc"
+            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.3.0/andcli_v2.3.0_win_amd64.exe#/andcli.exe",
+            "hash": "bf9900f3fa0f938a42b5d8fe41714555c5dcf7ba288924d830b443999fb2a75a"
         },
         "arm64": {
-            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.2.0/andcli_v2.2.0_win_arm64.exe#/andcli.exe",
-            "hash": "7797bfc322562c9cbcdba084460acd57e7910de440451f1289dad42d5639b1fe"
+            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.3.0/andcli_v2.3.0_win_arm64.exe#/andcli.exe",
+            "hash": "f688bf74f1c336518a41e4053244f5596472c5b59054d0b24a17a0d54938c9ec"
         }
     },
     "bin": "andcli.exe",
