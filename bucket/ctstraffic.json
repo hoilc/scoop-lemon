@@ -1,37 +1,37 @@
 {
-    "version": "2.0.3.7",
+    "version": "2.0.3.8",
     "description": "ctsTraffic is a highly scalable client/server networking tool giving detailed performance and reliability analytics.",
     "homepage": "https://github.com/microsoft/ctsTraffic",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/x64/ctsPerf.exe",
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/x64/ctsTraffic.exe"
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/x64/ctsPerf.exe",
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/x64/ctsTraffic.exe"
             ],
             "hash": [
-                "23f938fcf506bd935bc1a11b944cdb70a7f98071a508d0ccfce4aa7a9610c2d6",
-                "16f30c591152127d041f7154cb715d25d98909a443e4a15f3dc1d9e290474088"
+                "071792b57205390ccfd5016981c0fab8de3c19d0023b96e594be992986ff31bb",
+                "d1b94955de1597cc5b148ec741a0df489fb2bd3883715adf72cddaece6cfead2"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/x86/ctsPerf.exe",
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/x86/ctsTraffic.exe"
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/x86/ctsPerf.exe",
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/x86/ctsTraffic.exe"
             ],
             "hash": [
-                "69cd2a6399c44a887320eff7a60ddf4ebc80437b3e3cd1d80bffacec252ce431",
-                "1220b6fdcb58aa1307e7c124711af181055fac1c3ff570996d240f08a5802c88"
+                "a8ca8799da89daf8e86844cb0e148ae9576edb815badd2fc592f9f300663260f",
+                "74c3309988e880dd515b870008757714e5a347d3c958bf9bd8c87f61572ac880"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/arm64/ctsPerf.exe",
-                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.7/arm64/ctsTraffic.exe"
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/arm64/ctsPerf.exe",
+                "https://github.com/microsoft/ctsTraffic/raw/master/Releases/2.0.3.8/arm64/ctsTraffic.exe"
             ],
             "hash": [
-                "71001d2e022cba34aba750a4c80ec5a442bfc3ecb643ead891f591c9aa4bb3a8",
-                "c829600a3ba400cf9bebfd64a95830abfa79ec04ff053bd8263ec28a5f1ecf7f"
+                "682dbe49a968f0889d2b5881c412029c93293b583f108182f58eae150a5a6a22",
+                "39c1244965b6219ab63fae5683463fbbccb42045110dbed69b8f0273ece95738"
             ]
         }
     },
