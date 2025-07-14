@@ -37,6 +37,7 @@ function install() {
     log "Command: $command"
 
     $result = @(Invoke-Expression "$command *>&1")
+    Write-Host "###### TEST"
     $exit = $LASTEXITCODE
 
     log
