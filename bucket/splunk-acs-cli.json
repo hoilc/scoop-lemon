@@ -1,12 +1,12 @@
 {
-    "version": "2.19.0",
+    "version": "2.20.0",
     "description": "A command line interface that lets you perform many Splunk Cloud Platform configuration and management tasks in a self-service manner.",
     "homepage": "https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSCLI",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/splunk/acs-cli/releases/download/v2.19.0/acs_v2.19.0_windows_amd64.zip",
-            "hash": "1ae1e84e9c53fa9bea467b82fb88031dbe3aa4430b10cc6b7ec81ba9f0df962b"
+            "url": "https://github.com/splunk/acs-cli/releases/download/v2.20.0/acs_v2.20.0_windows_amd64.zip",
+            "hash": "8b1815cc98a2f960b5f8fbd959710a778497eac30bd360b20556f88d81ce69ff"
         }
     },
     "bin": "acs.exe",
