@@ -10,7 +10,7 @@
             "hash": "dd6a96d9b1107e8f7721bc45d9c7eb8b6949ca45ec75ad6d9616ce59f95c898b"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "Freelens.exe",
