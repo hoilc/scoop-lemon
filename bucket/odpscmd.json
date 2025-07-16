@@ -1,0 +1,28 @@
+{
+    "version": "0.51.2",
+    "description": "阿里云 MaxCompute 服务的命令行工具",
+    "homepage": "https://help.aliyun.com/maxcompute/getting-started/start-the-maxcompute-client",
+    "license": "Apache-2.0",
+    "url": "https://maxcompute-repo.oss-cn-hangzhou.aliyuncs.com/odpscmd/0.51.2/odpscmd_public.zip",
+    "hash": "f117c4835b955c9f811b76fe7cff0ebe0ca2c3bb62b377b719adf2f2b79c48a3",
+    "bin": "bin\\odpscmd.bat",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "persist": [
+        "conf",
+        "plugins\\dship\\sessions"
+    ],
+    "notes": "Config file: $dir\\conf\\odps_config.ini",
+    "checkver": {
+        "github": "https://github.com/aliyun/aliyun-odps-console"
+    },
+    "autoupdate": {
+        "url": "https://maxcompute-repo.oss-cn-hangzhou.aliyuncs.com/odpscmd/$version/odpscmd_public.zip"
+    }
+}
