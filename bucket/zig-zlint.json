@@ -1,16 +1,16 @@
 {
-    "version": "0.7.8",
+    "version": "0.7.9",
     "description": "A linter for the Zig programming language.",
     "homepage": "https://github.com/DonIsaac/zlint",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.8/zlint-windows-x86_64.exe#/zlint.exe",
-            "hash": "315fc431bfd4461c815c31f5f8bd101bd0855cb24d84ec68b36a951bf8a204a9"
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.9/zlint-windows-x86_64.exe#/zlint.exe",
+            "hash": "565a1b5847205920a63f300587a4c8bac6191e7ebd268260d60d521c42df3a76"
         },
         "arm64": {
-            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.8/zlint-windows-aarch64.exe#/zlint.exe",
-            "hash": "f9096a161e6885e6f475ecc1caee73ae5b53ee2e68b00be38c366d64e93c638c"
+            "url": "https://github.com/DonIsaac/zlint/releases/download/v0.7.9/zlint-windows-aarch64.exe#/zlint.exe",
+            "hash": "2aa99e6f057747568e7c5533418e67ab8d0e0cee14ecd3074a67dbcadb703343"
         }
     },
     "bin": "zlint.exe",
