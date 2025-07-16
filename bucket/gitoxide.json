@@ -1,12 +1,12 @@
 {
-    "version": "0.44.0",
+    "version": "0.45.0",
     "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git.",
     "homepage": "https://github.com/ReFirmLabs/gitoxide",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gitoxide-0.44.0/gitoxide-0.44.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "3e9f5279ac4ca345f7f27ceb54f83956711796137ec70888044b73423e4f1ce0"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gitoxide-0.45.0/gitoxide-0.45.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "cf3167e17c0e47e258f54181e55c5689e33f4c6de892540ff2e3160b83a8e5ea"
         }
     },
     "bin": [
