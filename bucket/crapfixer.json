@@ -1,0 +1,27 @@
+{
+    "version": "1.18.200",
+    "description": "A fine-tuning app for Windows.",
+    "homepage": "https://github.com/builtbybel/Crapfixer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/builtbybel/CrapFixer/releases/download/1.18.200/CrapFixer.zip",
+            "hash": "37b20fee953cc9e33e70adddaef669882b3351fd28e56c8e818ec21cf286d1d3"
+        }
+    },
+    "shortcuts": [
+        [
+            "Crap Fixer.exe",
+            "CrapFixer"
+        ]
+    ],
+    "persist": "plugins",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/builtbybel/CrapFixer/releases/download/$version/CrapFixer.zip"
+            }
+        }
+    }
+}
