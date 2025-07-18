@@ -4,7 +4,7 @@
     "homepage": "https://docs.ucloud.cn/ufile/tools/us3cli/introduction",
     "license": "Freeware",
     "url": "https://us3-release.cn-bj.ufileos.com/us3cli/us3cli-windows.exe#/us3cli.exe",
-    "hash": "921a6f25c0593e2f49a9e692fb31f929c42b254c1bcd869778969673e50be691",
+    "hash": "2ad986cf2855505d375f4b94652f85358d706296c633feaaff46cccf16d616ae",
     "bin": "us3cli.exe",
     "checkver": {
         "url": "https://docs.ucloud.cn/ufile/tools/us3cli/ReleaseNote.md",
