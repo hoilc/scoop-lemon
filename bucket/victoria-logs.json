@@ -1,13 +1,13 @@
 {
-    "version": "1.25.1",
+    "version": "1.26.0",
     "description": "VictoriaLogs is an open source user-friendly database for logs from VictoriaMetrics.",
     "homepage": "https://docs.victoriametrics.com/victorialogs/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.25.1/victoria-logs-windows-amd64-v1.25.1.zip",
+            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.26.0/victoria-logs-windows-amd64-v1.26.0.zip",
             "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
-            "hash": "d49e16d43473a68eefb965005e811cfaceaa8ec19c71d7d1f3e538e8ea6b5fa2"
+            "hash": "de357ab2bcd13e2e27a480e22c82eefcf1db238aef3c13efbc07b0391f357738"
         }
     },
     "bin": "victoria-logs.exe",
