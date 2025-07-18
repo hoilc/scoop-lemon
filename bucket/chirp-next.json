@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://trac.chirp.danplanet.com/chirp_next/next-20250718/chirp-next-20250718-win64.zip",
-            "hash": "5e4cab6960ceb4152efb82babe5c52746404869fe69a163ff2a005dd0742d56b"
+            "url": "https://archive.chirpmyradio.com/chirp_next/next-20250718/chirp-next-20250718-win64.zip",
+            "hash": "sha1:7e5ddcaddfd588e21427c39ee9dd5671ebeb031c"
         }
     },
     "bin": [
@@ -32,8 +32,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://trac.chirp.danplanet.com/chirp_next/next-$version/chirp-next-$version-win64.zip"
+                "url": "https://archive.chirpmyradio.com/chirp_next/next-$version/chirp-next-$version-win64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA1SUM"
         }
     }
 }
