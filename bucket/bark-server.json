@@ -1,16 +1,16 @@
 {
-    "version": "2.2.3",
+    "version": "2.2.5",
     "description": "Backend of Bark, an iOS App which allows you to push customed notifications to your iPhone.",
     "homepage": "https://github.com/Finb/bark-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Finb/bark-server/releases/download/v2.2.3/bark-server_windows_amd64.exe#/bark-server.exe",
-            "hash": "65c745085d4c9b2a203e3d65be39a7b51e39b1b13d3867f6239d8ecba918414e"
+            "url": "https://github.com/Finb/bark-server/releases/download/v2.2.5/bark-server_windows_amd64.exe#/bark-server.exe",
+            "hash": "8a9d6b5672ff2cad2608c6b065c8251170d4be14751df5bb5f16eef295dbc05c"
         },
         "32bit": {
-            "url": "https://github.com/Finb/bark-server/releases/download/v2.2.3/bark-server_windows_386.exe#/bark-server.exe",
-            "hash": "afb07e1cd4c0c2624292bc310bd98288d28cd3612b4df05b8aeb58e96aab1e44"
+            "url": "https://github.com/Finb/bark-server/releases/download/v2.2.5/bark-server_windows_386.exe#/bark-server.exe",
+            "hash": "85c5f089f546cc516f558a06cc112e75dffaa4279096af6175f3f4d2a5107bff"
         }
     },
     "bin": "bark-server.exe",
