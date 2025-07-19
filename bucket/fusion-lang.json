@@ -1,12 +1,12 @@
 {
-    "version": "3.2.11",
+    "version": "3.2.12",
     "description": "Fusion is a programming language designed for implementing reusable components (libraries) for C, C++, C#, D, Java, JavaScript, Python, Swift, TypeScript and OpenCL C, all from single codebase.",
     "homepage": "https://github.com/fusionlanguage/fut",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fusionlanguage/fut/releases/download/fut-3.2.11/fut-3.2.11-win64.msi",
-            "hash": "1e8c2403eb4a921545ba708da85aaa48c4d422f39a2e5a241c0fc5ed2623faff"
+            "url": "https://github.com/fusionlanguage/fut/releases/download/fut-3.2.12/fut-3.2.12-win64.msi",
+            "hash": "b727d66273857c4ce4d1ec388b3472cbb7ee7c7cba230a9713df22f9c330c883"
         }
     },
     "extract_dir": "PFiles64\\Fusion",
