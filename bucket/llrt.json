@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0-beta",
+    "version": "0.6.1-beta",
     "description": "An experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications.",
     "homepage": "https://github.com/awslabs/llrt",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/awslabs/llrt/releases/download/v0.6.0-beta/llrt-windows-x64-full-sdk.zip",
-            "hash": "3b8a056db825f0f1bb840117be7e2cf77ba701c5d2ce5f8e5f2396ef1657752b"
+            "url": "https://github.com/awslabs/llrt/releases/download/v0.6.1-beta/llrt-windows-x64-full-sdk.zip",
+            "hash": "b90956167f861c60615a83a55dcec07ef6074ba5009e8d6dd1edb7dbb8206d1e"
         }
     },
     "bin": "llrt.exe",
