@@ -1,0 +1,26 @@
+{
+    "version": "1.0.4",
+    "description": "A desktop app for viewing logs and traces from OpenTelemetry and the Rust tracing ecosystem.",
+    "homepage": "https://github.com/kmdreko/venator",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kmdreko/venator/releases/download/v1.0.4/venator-1.0.4-windows-x64.exe#/venator.exe",
+            "hash": "8ef01f0ef3bfe7d4d9e86dad9c7691f0e18885065f2142a233a16b68a1c67113"
+        }
+    },
+    "shortcuts": [
+        [
+            "venator.exe",
+            "Venator"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kmdreko/venator/releases/download/v$version/venator-$version-windows-x64.exe#/venator.exe"
+            }
+        }
+    }
+}
