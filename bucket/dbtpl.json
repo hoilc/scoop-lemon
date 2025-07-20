@@ -1,0 +1,22 @@
+{
+    "version": "1.0.2",
+    "description": "A command-line tool to inspect and generate templated code based on a database schema or a custom database query.",
+    "homepage": "https://github.com/xo/dbtpl",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xo/dbtpl/releases/download/v1.0.2/xo-1.0.2-windows-amd64.zip",
+            "hash": "220a5425efd1d58bbd45559bb430c7edeeb924aff7fc422d594eca21a0ae9405"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'xo.exe' | Select-Object -First 1 | Rename-Item -NewName 'dbtpl.exe'",
+    "bin": "dbtpl.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xo/dbtpl/releases/download/v$version/xo-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
