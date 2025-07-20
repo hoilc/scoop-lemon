@@ -1,10 +1,10 @@
 {
-    "version": "10.0",
+    "version": "10.1",
     "description": "Lock Cursor Tools simply locks the mouse cursor within a predetermined area.",
     "homepage": "http://www.digola.com/lockcursor.html",
     "license": "Freeware",
     "url": "https://digola.com/setupLockCursor.exe",
-    "hash": "ab4949490feff9dc6c9e668a568a60e89c4a555e398dd9f5b7ddf6ff8185f479",
+    "hash": "19a138c9c420c39f24b68afb679c634b18aee74f6438ad08ec97deddc615394d",
     "innosetup": true,
     "shortcuts": [
         [
