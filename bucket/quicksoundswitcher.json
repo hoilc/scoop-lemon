@@ -1,0 +1,32 @@
+{
+    "version": "1.5.0",
+    "description": "An enhanced audio panel for Windows.",
+    "homepage": "https://github.com/Odizinne/QuickSoundSwitcher",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/1.5.0/QuickSoundSwitcher_win64_msvc2022.zip",
+            "hash": "f69ba0f0a8d63441bdb7836569af2522fe4a3acbc92d8a57a950605a5857ede3"
+        }
+    },
+    "extract_dir": "QuickSoundSwitcher",
+    "shortcuts": [
+        [
+            "bin\\QuickSoundSwitcher.exe",
+            "QuickSoundSwitcher"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\Odizinne\\QuickSoundSwitcher\", \"$env:LOCALAPPDATA\\Odizinne\\QuickSoundSwitcher\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "QuickSoundSwitcher is NOT portable.",
+        "Settings are stored in '%APPDATA%\\Odizinne\\QuickSoundSwitcher', and will be purged during uninstallation."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/$version/QuickSoundSwitcher_win64_msvc2022.zip"
+            }
+        }
+    }
+}
