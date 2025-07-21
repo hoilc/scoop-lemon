@@ -1,7 +1,7 @@
 {
     "version": "0.6.0",
     "description": "一款将PDF转化为机器可读格式（如markdown、json）的文档提取全功能客户端",
-    "homepage": "https://mineru.net/",
+    "homepage": "https://mineru.net",
     "license": "Proprietary",
     "url": "https://webpub.shlab.tech/MinerU/latest/win/MinerU-0.6.0-setup.exe#/dl.7z",
     "hash": "20d3c442a399399d2c066e5c7bef4bcaa1fd27d390eec34083c410e0cfc82f96",
