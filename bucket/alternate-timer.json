@@ -1,0 +1,27 @@
+{
+    "version": "4.810",
+    "description": "A program for managing/logging timings (daily work, internet usage etc.)",
+    "homepage": "https://www.alternate-tools.com/pages/c_timer.php?lang=ENG",
+    "license": "Freeware",
+    "url": "https://www.alternate-tools.com/files/Timer_Portable.zip",
+    "hash": "e25264e9ffef95efc927e4181c0a915acf7ec2f1343b4d4e64dcc00bf5dfcb00",
+    "extract_dir": "Timer",
+    "shortcuts": [
+        [
+            "Timer.exe",
+            "Alternate Timer"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Timer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Timer.ini\" -Value $null }",
+    "persist": [
+        "Timer.ini",
+        "Timer_files"
+    ],
+    "checkver": {
+        "url": "https://www.alternate-tools.com/pages/c_timer_portable.php?lang=ENG",
+        "regex": "(?sm)Versionnumber:.+?<b>([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://www.alternate-tools.com/files/Timer_Portable.zip"
+    }
+}
