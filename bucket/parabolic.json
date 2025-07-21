@@ -1,26 +1,38 @@
 {
-    "version": "2025.6.0",
+    "version": "2025.7.0",
     "description": "A basic yt-dlp frontend.",
     "homepage": "https://github.com/NickvisionApps/Parabolic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2025.6.0/NickvisionParabolic_V2025.6.0_Windows.zip",
-            "hash": "c31cf3bb820827c2a6b0d61d104d5ebd5fc5ba2c325a7b31e5a9bb59fa728eeb"
+            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2025.7.0/NickvisionParabolicPortable.zip",
+            "hash": "b548352379fd22e70ab399bd899c97fb9ad1845f91beae4a5ba0cf4b745a4e9e"
         }
     },
     "shortcuts": [
         [
-            "org.nickvision.tubeconverter.qt.exe",
+            "org.nickvision.tubeconverter.winui.exe",
             "Parabolic"
         ]
     ],
-    "notes": "Parabolic is NOT portable.",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.json\" -Value '{}' }",
+        "if (!(Test-Path \"$persist_dir\\prev.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\prev.json\" -Value '{}' }",
+        "if (!(Test-Path \"$persist_dir\\history.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\history.json\" -Value '{}' }",
+        "if (!(Test-Path \"$persist_dir\\recovery.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\recovery.json\" -Value '{}' }"
+    ],
+    "persist": [
+        "config.json",
+        "prev.json",
+        "history.json",
+        "recovery.json"
+    ],
+    "notes": "If Parabolic fails to start properly, please run $dir\\windowsappruntimeinstall.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/NickvisionApps/Parabolic/releases/download/$version/NickvisionParabolic_V$version_Windows.zip"
+                "url": "https://github.com/NickvisionApps/Parabolic/releases/download/$version/NickvisionParabolicPortable.zip"
             }
         }
     }
