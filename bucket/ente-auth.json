@@ -1,13 +1,13 @@
 {
-    "version": "4.4.0",
+    "version": "4.4.3",
     "description": "An open source, cross-platform 2FA authenticator, with end-to-end encrypted backups.",
     "homepage": "https://ente.io/auth/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.0/ente-auth-v4.4.0-windows.zip",
-            "extract_dir": "ente-auth-v4.4.0-windows",
-            "hash": "aba2dc1e520e973ad43875b43813b87da053208b370f8b964851757099ee3253"
+            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.3/ente-auth-v4.4.3-windows.zip",
+            "extract_dir": "ente-auth-v4.4.3-windows",
+            "hash": "417023d760659d0cfc6bbab6d8a50733eea42ff0ad76d8fe994350115b82d683"
         }
     },
     "shortcuts": [
