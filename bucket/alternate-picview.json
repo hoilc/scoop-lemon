@@ -1,0 +1,38 @@
+{
+    "version": "3.570",
+    "description": "A simple picture viewer and manipulator.",
+    "homepage": "https://www.alternate-tools.com/pages/c_picview.php?lang=ENG",
+    "license": "Freeware",
+    "url": "https://www.alternate-tools.com/files/PicView_Portable.zip",
+    "hash": "860058811cb807ed2582dc259ada4e6352478e2b8fb2692540ae625b25463ee3",
+    "extract_dir": "PicView",
+    "shortcuts": [
+        [
+            "PicView.exe",
+            "Alternate PicView"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\PicViewer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\PicViewer.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\Scanner.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Scanner.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\ImageConverter.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\ImageConverter.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\IconExtractor.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\IconExtractor.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\FontExport.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\FontExport.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\Capturer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Capturer.ini\" -Value $null }"
+    ],
+    "persist": [
+        "PicViewer.ini",
+        "Scanner.ini",
+        "ImageConverter.ini",
+        "IconExtractor.ini",
+        "FontExport.ini",
+        "Capturer.ini"
+    ],
+    "checkver": {
+        "url": "https://www.alternate-tools.com/pages/c_picview_portable.php?lang=ENG",
+        "regex": "(?sm)Versionnumber:.+?<b>([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://www.alternate-tools.com/files/PicView_Portable.zip"
+    }
+}
