@@ -1,5 +1,5 @@
 {
-    "version": "11.63.0",
+    "version": "11.63.1",
     "description": "A cloud-native tool for querying your entire infrastructure.",
     "homepage": "https://cnquery.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mondoohq/cnquery/releases/download/v11.63.0/cnquery_11.63.0_windows_amd64.zip",
-            "hash": "14cbb6954f3d0753c423c9a1a2c51dd7b792df149f7b7a2b2e775e52663c0d74"
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v11.63.1/cnquery_11.63.1_windows_amd64.zip",
+            "hash": "2748f949afcd21c1caca8a124b83455759e1802d88b946ce2f4bbd01ccbbd853"
         },
         "arm64": {
-            "url": "https://github.com/mondoohq/cnquery/releases/download/v11.63.0/cnquery_11.63.0_windows_arm64.zip",
-            "hash": "d259f17f62d5bca931efa7c371c3df2a93aacde00071371b56c4c6bbb726035c"
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v11.63.1/cnquery_11.63.1_windows_arm64.zip",
+            "hash": "9d2dc1ee1f4928b5977a7122efbf848434c2197434719fe16e3cee283374de1a"
         }
     },
     "bin": "cnquery.exe",
