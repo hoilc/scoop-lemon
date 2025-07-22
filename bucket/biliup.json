@@ -12,7 +12,7 @@
     "extract_dir": "PFiles\\bbup-app",
     "shortcuts": [
         [
-            "biliup.exe",
+            "tauri-app.exe",
             "biliup"
         ]
     ],
