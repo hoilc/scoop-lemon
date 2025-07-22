@@ -1,16 +1,16 @@
 {
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet.",
     "homepage": "https://github.com/shshemi/tabiew",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shshemi/tabiew/releases/download/v0.10.1/tw-x86_64-pc-windows-msvc.exe#/tw.exe",
-            "hash": "4b03be9414b767bcaf801022225062f3e8579721691735c2348e5f253316d2ed"
+            "url": "https://github.com/shshemi/tabiew/releases/download/v0.11.0/tw-x86_64-pc-windows-msvc.exe#/tw.exe",
+            "hash": "b629695acb9e1285dce7e5b87a8f932141f6c2b8061bf376f1eca3d1d2f827fa"
         },
         "arm64": {
-            "url": "https://github.com/shshemi/tabiew/releases/download/v0.10.1/tw-aarch64-pc-windows-msvc.exe#/tw.exe",
-            "hash": "01521f28f70b3f21c0f21543982a0cfeddf4787e6498957542f9cf08df524430"
+            "url": "https://github.com/shshemi/tabiew/releases/download/v0.11.0/tw-aarch64-pc-windows-msvc.exe#/tw.exe",
+            "hash": "a2277a3afdc8c55eee4384b89fc0abb55d505222b583ee92c40a9e3227c7f001"
         }
     },
     "bin": "tw.exe",
