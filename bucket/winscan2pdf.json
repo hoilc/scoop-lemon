@@ -1,10 +1,10 @@
 {
-    "version": "9.34",
+    "version": "9.39",
     "description": "A small program for scanning documents and saving them on your computer as a PDF by using any installed scanner.",
     "homepage": "https://softwareok.com/?seite=Microsoft/WinScan2PDF",
     "license": "Freeware",
     "url": "https://softwareok.com/Download/WinScan2PDF_Portable.zip",
-    "hash": "6e42cadaffc865991ddd3e4050b50c8095d4b8c1a94fa6ccf64a4734d972bc20",
+    "hash": "134d0f364ae4b89131b854e058e03ea2a984fe46f566a0984bd3ffb8a4e23182",
     "shortcuts": [
         [
             "WinScan2PDF.exe",
