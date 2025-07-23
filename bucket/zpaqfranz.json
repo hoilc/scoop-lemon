@@ -1,5 +1,5 @@
 {
-    "version": "62.3",
+    "version": "62.4",
     "description": "A deduplicating archiver with encryption and paranoid-level tests.",
     "homepage": "https://github.com/fcorbelli/zpaqfranz",
     "license": "MIT",
@@ -10,18 +10,18 @@
                 "zpaqfranzhw.exe"
             ],
             "url": [
-                "https://github.com/fcorbelli/zpaqfranz/releases/download/62.3/zpaqfranz.exe",
-                "https://github.com/fcorbelli/zpaqfranz/releases/download/62.3/zpaqfranzhw.exe"
+                "https://github.com/fcorbelli/zpaqfranz/releases/download/62.4/zpaqfranz.exe",
+                "https://github.com/fcorbelli/zpaqfranz/releases/download/62.4/zpaqfranzhw.exe"
             ],
             "hash": [
-                "fee0278e3cefabc87710283b550555b61109a58156a19f95c7983bc4f7f19706",
-                "e3a46401848b56f2802260fe41c91fe4e958473818b782583f6436fa650b00ce"
+                "4a509f2a7477080347d2510094ce8996ce37c616878a78c5c85f1d4b6edf5aa3",
+                "b2d92edd978c61f21ba59306c5bc90a7389ec34b8381dd01092631077b49d655"
             ]
         },
         "32bit": {
             "bin": "zpaqfranz.exe",
-            "url": "https://github.com/fcorbelli/zpaqfranz/releases/download/62.3/zpaqfranz32.exe#/zpaqfranz.exe",
-            "hash": "41e6590bb1b0c44725d8d89982a70ab1464d5156add4b0a76cb186f59568df5c"
+            "url": "https://github.com/fcorbelli/zpaqfranz/releases/download/62.4/zpaqfranz32.exe#/zpaqfranz.exe",
+            "hash": "2eb12705711827f82e83c18b44eba1afa3877febcecd65df6bc628bed1d66f47"
         }
     },
     "checkver": "github",
