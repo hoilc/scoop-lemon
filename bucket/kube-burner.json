@@ -1,16 +1,16 @@
 {
-    "version": "1.16.4",
+    "version": "1.17.1",
     "description": "A Kubernetes performance and scale test orchestration framework written in golang.",
     "homepage": "https://kube-burner.github.io/kube-burner/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kube-burner/kube-burner/releases/download/v1.16.4/kube-burner-V1.16.4-windows-x86_64.zip",
-            "hash": "42bf4f4258d5d39bc332e7beb0d803a68f862112a3b9a14cb3c2934cffe60d37"
+            "url": "https://github.com/kube-burner/kube-burner/releases/download/v1.17.1/kube-burner-V1.17.1-windows-x86_64.zip",
+            "hash": "ec03cc4117003e55298c7cb6976735a8299247ef0ebbfa4393a321d6f9c1b83e"
         },
         "arm64": {
-            "url": "https://github.com/kube-burner/kube-burner/releases/download/v1.16.4/kube-burner-V1.16.4-windows-arm64.zip",
-            "hash": "d7a5d78553673964f7a4b0cb6cb83290d7424951fb887d5f87473c638680ca8b"
+            "url": "https://github.com/kube-burner/kube-burner/releases/download/v1.17.1/kube-burner-V1.17.1-windows-arm64.zip",
+            "hash": "7048af1d09632f5d3c120e9077933b8a714dfa0b63783828fcd77d1550ce16c7"
         }
     },
     "bin": "kube-burner.exe",
