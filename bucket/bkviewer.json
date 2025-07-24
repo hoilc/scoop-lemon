@@ -1,12 +1,12 @@
 {
-    "version": "7.9e",
+    "version": "7.9f",
     "description": "小巧精悍的数码照片浏览器",
     "homepage": "http://www.bykeer.com/app/bkviewer/index.php",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.bykeer.com/app/bkviewer/bkviewer.x64.exe#/bkviewer.exe",
-            "hash": "3767069f6a0aa4ed54477cbecfcf3b0001db70fc375b60da134bec2563a36da7"
+            "hash": "ccdf3f1321c66c9a564c218f675a622cf9b6b05036a0cefd9a4bf5036199d993"
         }
     },
     "bin": "bkviewer.exe",
