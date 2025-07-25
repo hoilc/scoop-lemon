@@ -1,12 +1,12 @@
 {
-    "version": "0.16.12",
+    "version": "0.16.14",
     "description": "An interface to Plebbit API through command line.",
     "homepage": "https://github.com/plebbit/plebbit-cli",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/plebbit/plebbit-cli/releases/download/v0.16.12/plebbit_installer_win32_x64.exe#/dl.7z",
-            "hash": "debbfa44e8a7a0d93898fb169b261c5e7413368a22791ea19c8955f356f219d2"
+            "url": "https://github.com/plebbit/plebbit-cli/releases/download/v0.16.14/plebbit_installer_win32_x64.exe#/dl.7z",
+            "hash": "8762f80928f571b6781d9c2b0eda8e76fe674bd89c379258330ef9b94f3aef93"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
