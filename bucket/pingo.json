@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://css-ig.net/bin/pingo-win64.zip",
-            "hash": "bde408f5769cf7a69753de3e45551397f91c15b825a1118fc020f244c83ce9e8"
+            "hash": "d9c373a8546930b06ea2e7a6a465a070803109586a4da0aecd1b297baac85e8c"
         }
     },
     "bin": "pingo.exe",
