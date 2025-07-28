@@ -1,10 +1,10 @@
 {
-    "version": "5.0.14",
+    "version": "5.15",
     "description": "UartAssist串口调试助手是一款广泛应用于工控领域的数据监控、数据采集、数据分析等工作的串口通信调试工具",
     "homepage": "https://www.cmsoft.cn/resource/101.html",
     "license": "Liteware",
-    "url": "https://free.cmsoft.cn/download/cmsoft/assistant/uartassist5.0.14.zip",
-    "hash": "a623762d33ab98264b7da6dc1d4b10244699dfc5fb1eafc5a185900d4a208a9e",
+    "url": "https://free.cmsoft.cn/download/cmsoft/assistant/uartassist5.15.zip",
+    "hash": "2fdb9c429c24f156f0e495d4bd5f2619ae2a8f551908f4aa78965f03bf1c347a",
     "shortcuts": [
         [
             "UartAssist.exe",
