@@ -9,10 +9,9 @@
             "hash": "db619a21482e17bcfff45a4829adee3c760205499149336740bafbb11c5df770"
         }
     },
-    "bin": "JASP.exe",
     "shortcuts": [
         [
-            "JASP.exe",
+            "JASPDesktop.exe",
             "JASP"
         ]
     ],
