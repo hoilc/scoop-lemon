@@ -1,12 +1,12 @@
 {
-    "version": "0.16.0",
+    "version": "0.16.1",
     "description": "A terminal-based application that allows you to write and manage your journal/notes from within the comfort of your terminal",
     "homepage": "https://github.com/ammarabouzor/tui-journal",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AmmarAbouZor/tui-journal/releases/download/v0.16.0/tjournal-win.zip",
-            "hash": "3d3535d4154163c2dac73c2f27f64c7a6e90789aea9be39ba12e4aa6f4035f16"
+            "url": "https://github.com/AmmarAbouZor/tui-journal/releases/download/v0.16.1/tjournal-win.zip",
+            "hash": "ddef182104fec822acfd0226509fce3e7ecfbee9a44f5afcf1d487c9aa995dfc"
         }
     },
     "bin": "tjournal.exe",
