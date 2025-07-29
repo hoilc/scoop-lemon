@@ -1,16 +1,16 @@
 {
-    "version": "0.18.0",
+    "version": "0.18.1",
     "description": "A utility that provides an API platform for validating, querying and managing BOM data.",
     "homepage": "https://github.com/CycloneDX/sbom-utility",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CycloneDX/sbom-utility/releases/download/v0.18.0/sbom-utility-v0.18.0-windows-amd64.zip",
-            "hash": "md5:3a608360a5cfeb72a0940727693d38cd"
+            "url": "https://github.com/CycloneDX/sbom-utility/releases/download/v0.18.1/sbom-utility-v0.18.1-windows-amd64.zip",
+            "hash": "md5:b9a15e2cb14358410c24f1bdc1ad1c7a"
         },
         "arm64": {
-            "url": "https://github.com/CycloneDX/sbom-utility/releases/download/v0.18.0/sbom-utility-v0.18.0-windows-arm64.zip",
-            "hash": "md5:9d1a3039746b26a4ffbf16569041d0a6"
+            "url": "https://github.com/CycloneDX/sbom-utility/releases/download/v0.18.1/sbom-utility-v0.18.1-windows-arm64.zip",
+            "hash": "md5:0404d59d0cb063b8377e8c046b52fec3"
         }
     },
     "bin": "sbom-utility.exe",
