@@ -1,20 +1,20 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A command-line tool designed to simplify interaction with Grafana resources.",
     "homepage": "https://grafana.github.io/grafanactl/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.0/grafanactl_Windows_x86_64.zip",
-            "hash": "3269a490794a5f7df4515a85b3a82c2aa01cc101c1f52f908c6e2ae9150a2661"
+            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.1/grafanactl_Windows_x86_64.zip",
+            "hash": "c0998b58ef34d558101d2a844f4f29cedda04b23dae69d8355dd82735e0dc233"
         },
         "32bit": {
-            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.0/grafanactl_Windows_i386.zip",
-            "hash": "61987d826ced6495804c283bf247d884b6a83cd7fd470fb8389a67023da89673"
+            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.1/grafanactl_Windows_i386.zip",
+            "hash": "5b9303aaddc8226100b4ebe8ef8a8e5e2dc293ff92cdde18d13acfddd4db73fd"
         },
         "arm64": {
-            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.0/grafanactl_Windows_arm64.zip",
-            "hash": "88b4a64213f1872cc8abee104660e03d9ade4d6ed88ce41bba302c09423e062f"
+            "url": "https://github.com/grafana/grafanactl/releases/download/v0.1.1/grafanactl_Windows_arm64.zip",
+            "hash": "774933f071e7a327d9d75d5bfbbe7d8d963774d2b806f3d0790c46ba4c5e6c81"
         }
     },
     "bin": "grafanactl.exe",
