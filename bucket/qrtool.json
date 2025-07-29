@@ -1,12 +1,12 @@
 {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "description": "An utility for encoding or decoding QR code.",
     "homepage": "https://sorairolake.github.io/qrtool/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/qrtool-0.12.0/qrtool-0.12.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "53f5fd46524667c812564f9e4016dff0acd2581551300b835c9e69719e68727d"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/qrtool-0.12.1/qrtool-0.12.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "9516e47eed54d19f0766e02629ba394780c2dcce8999cc4839e21f9c2c2d6c24"
         }
     },
     "bin": "qrtool.exe",
