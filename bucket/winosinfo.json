@@ -1,0 +1,39 @@
+{
+    "##": "#updateManually",
+    "version": "2024112819",
+    "description": "简易的桌面硬件信息显示工具",
+    "homepage": "http://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "Remove-Item -Force \"$dir\\WinosInfo_x86.exe\""
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Remove-Item -Force \"$dir\\WinosInfo.exe\"",
+                    "Rename-Item -Path \"$dir\\WinosInfo_x86.exe\" -NewName 'WinosInfo.exe'"
+                ]
+            }
+        }
+    },
+    "url": "https://scoop-lemon.tari.xyz/hosted/winosinfo/WinosInfo_2024112819.7z",
+    "hash": "d3180854e1c55538e56e925832513205fa5d13ede7c369231a7c485d94c014de",
+    "shortcuts": [
+        [
+            "WinosInfo.exe",
+            "WinosInfo"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\WinosInfo.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\WinosInfo.xml\" -Value '<?xml version=\"1.0\" ?><resources></resources>' }",
+    "persist": "WinosInfo.xml",
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/winosinfo/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/winosinfo/WinosInfo_$version.7z"
+    }
+}
