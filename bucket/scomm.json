@@ -1,10 +1,10 @@
 {
-    "version": "5.0.14",
+    "version": "5.15",
     "description": "SCOMM是一款串口网络二合一通信调试助手，支持串口和网络同时收发数据，支持预定义指令、支持批量发送、支持正则匹配/自动应答回复",
     "homepage": "https://www.cmsoft.cn/resource/103.html",
     "license": "Liteware",
-    "url": "https://free.cmsoft.cn/download/cmsoft/assistant/scomm5.0.14.zip",
-    "hash": "e9e80ccce72b86dc7d898e09845895bb71508a5736209a37262fa6e228b76515",
+    "url": "https://free.cmsoft.cn/download/cmsoft/assistant/scomm5.15.zip",
+    "hash": "6dca289a48a786143bf1ff645d8dcba3d99bb1696289ba25350154c2799c1646",
     "shortcuts": [
         [
             "scomm.exe",
