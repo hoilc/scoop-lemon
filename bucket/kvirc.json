@@ -1,12 +1,12 @@
 {
-    "version": "5.2.6",
+    "version": "5.2.8",
     "description": "A free portable IRC client based on the excellent Qt GUI toolkit.",
     "homepage": "https://www.kvirc.net/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kvirc/KVIrc/releases/download/5.2.6/KVIrc-5.2.6-Quasar-x86_64.exe#/dl.7z",
-            "hash": "8f306b786860a782e6f7e1a15cdf70c6770a53f2b7f64e7f28dc2ab1ee2cc78e"
+            "url": "https://github.com/kvirc/KVIrc/releases/download/5.2.8/KVIrc-5.2.8-Quasar-x86_64.exe#/dl.7z",
+            "hash": "0e5b8ed6e8a379a79606b87a1a1af966ed9b0e8562a497d3c130c022ba8b8a68"
         }
     },
     "shortcuts": [
