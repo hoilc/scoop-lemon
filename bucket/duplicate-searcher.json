@@ -1,10 +1,10 @@
 {
-    "version": "10.6.5",
+    "version": "10.6.6",
     "description": "Duplicate Files Search & Link (Duplicate Searcher) is an application for searching duplicate files (clones) and NTFS hard links as well symbolic links to the same file.",
     "homepage": "https://malich.org/duplicate_searcher",
     "license": "Non-commercial",
     "url": "https://softaro.jp/download-file/36712/?version=portable-zip#/dl.zip",
-    "hash": "3899db94e4d3b1594dc8cc9443c449478e21d1dac276b41827add01f2ee87191",
+    "hash": "64231dacf8159759afeae289e260bbbb12c418e99432d4de072095f5daee0eb5",
     "shortcuts": [
         [
             "DuplicateSearcher.Launcher.exe",
