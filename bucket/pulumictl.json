@@ -1,16 +1,16 @@
 {
-    "version": "0.0.49",
+    "version": "0.0.50",
     "description": "A swiss army knife for Pulumi development.",
     "homepage": "https://github.com/pulumi/pulumictl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pulumi/pulumictl/releases/download/v0.0.49/pulumictl-v0.0.49-windows-amd64.zip",
-            "hash": "8a93680c1f689a748d168ec43e9b9fb6ff05ba6a1a334168dc6c518fe50c286a"
+            "url": "https://github.com/pulumi/pulumictl/releases/download/v0.0.50/pulumictl-v0.0.50-windows-amd64.zip",
+            "hash": "f9c9c6bf54355952d45bcec1235be8e2a245a083f75a589257b8f380515daee2"
         },
         "arm64": {
-            "url": "https://github.com/pulumi/pulumictl/releases/download/v0.0.49/pulumictl-v0.0.49-windows-arm64.zip",
-            "hash": "c55368a92a1d75653cbee0bbc094ed41cc1dbd360c03c41cf0f41b6c69312574"
+            "url": "https://github.com/pulumi/pulumictl/releases/download/v0.0.50/pulumictl-v0.0.50-windows-arm64.zip",
+            "hash": "0e48489ce0f88c04c344ec449c204433b9bda47e4a6eb811b638e3bd97b0b83a"
         }
     },
     "bin": "pulumictl.exe",
