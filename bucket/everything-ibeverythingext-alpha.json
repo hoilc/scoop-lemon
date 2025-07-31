@@ -13,13 +13,17 @@
     "extract_dir": "Everything",
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
-        "Remove-Item \"$dir\\Plugins\\IbEverythingExt\", \"$dir\\WindowsCodecs.dll\"  -Force -Recurse",
+        "Remove-Item \"$dir\\Plugins\\IbEverythingExt\", \"$dir\\WindowsCodecs.dll\"  -Force -Recurse -ErrorAction SilentlyContinue",
+        "Write-Host '111'",
         "if (Test-Path \"$dir\\Everything64.exe\") { Rename-Item \"$dir\\Everything64.exe\" 'Everything.exe' }",
+        "Write-Host '222'",
         "if (!(Test-Path \"$persist_dir\\Everything*.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config', 'null') | Out-Null }",
+        "Write-Host '333'",
         "Get-ChildItem \"$persist_dir\\*\" -Include 'Bookmarks*.csv', 'Everything.lng', 'Everything*.db', 'Everything*.ini', 'Filters*.csv', 'Plugins*.ini', 'Run History*.csv', 'Search History*.csv' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
     ],
     "post_install": [
         "if (!$bucket) { return }",
+        "Write-Host '444'",
         "$scriptsDir = \"$bucketsdir\\$bucket\\scripts\"",
         "$app_path = \"$dir\\Everything.exe\".Replace('\\', '\\\\')",
         "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
@@ -31,13 +35,18 @@
         "        }",
         "    }",
         "    $content | Set-Content -Path \"$dir\\$_\" -Encoding ascii",
-        "}"
+        "}",
+        "Write-Host '555'"
     ],
     "pre_uninstall": [
+        "Write-Host '666'",
         "Stop-Process -Name 'Everything' -Force -ErrorAction SilentlyContinue",
+        "Write-Host '777'",
         "$service_installed_in_current_dir_via_scoop = (sc.exe qc Everything) -match $dir.Replace('\\', '\\\\')",
+        "Write-Host '888'",
         "if ($service_installed_in_current_dir_via_scoop) {",
         "    if ($(Get-Service -Name Everything -ErrorAction SilentlyContinue).Status -ne 'Stopped') {",
+        "        Write-Host '999'",
         "        if (!(is_admin) -and $(Get-Service -Name Everything -ErrorAction SilentlyContinue)) { error 'Admin rights are required to stop Everything service'; break }",
         "        Stop-Service -Name 'Everything' -Force -ErrorAction SilentlyContinue | Out-Null",
         "    }",
@@ -46,7 +55,9 @@
         "        sc.exe delete 'Everything'",
         "    }",
         "}",
+        "Write-Host '100100'",
         "if (($cmd -eq 'uninstall') -and (Test-Path \"$dir\\uninstall-context.reg\")) { reg import \"$dir\\uninstall-context.reg\" }",
+        "Write-Host '110110'",
         "Get-ChildItem \"$dir\\*\" -Include 'Bookmarks*.csv', 'Everything.lng', 'Everything*.db', 'Everything*.ini', 'Filters*.csv', 'Plugins*.ini', 'Run History*.csv', 'Search History*.csv' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
     ],
     "bin": "Everything.exe",
