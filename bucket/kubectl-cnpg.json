@@ -1,20 +1,16 @@
 {
-    "version": "1.26.0",
+    "version": "1.26.1",
     "description": "A plugin for kubectl to manage CloudNativePG cluster in Kubernetes.",
     "homepage": "https://cloudnative-pg.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.26.0/kubectl-cnpg_1.26.0_windows_x86_64.tar.gz",
-            "hash": "fe80f6e2930617481604c1a7b87ac0af541baaab6e217d09b99f9857fd908aca"
-        },
-        "32bit": {
-            "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.26.0/kubectl-cnpg_1.26.0_windows_i386.tar.gz",
-            "hash": "3745b15add722e925c981d29865968c01439d9a645c4c3c2bdef3f0bf9a9b4d2"
+            "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.26.1/kubectl-cnpg_1.26.1_windows_x86_64.tar.gz",
+            "hash": "590abd59c2b8e9e110699ccae9c9a430ae606f424d13614b44c858c6a51a6847"
         },
         "arm64": {
-            "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.26.0/kubectl-cnpg_1.26.0_windows_arm64.tar.gz",
-            "hash": "11909633ac52b0c2b048321ab74c8f193e4481d7c50393a27e74093b115c51ba"
+            "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.26.1/kubectl-cnpg_1.26.1_windows_arm64.tar.gz",
+            "hash": "2a521e0360a67bfa83ef96039673fd6ce349f32e92f92789627cbf47dee2c342"
         }
     },
     "bin": "kubectl-cnpg.exe",
@@ -25,9 +21,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v$version/kubectl-cnpg_$version_windows_x86_64.tar.gz"
-            },
-            "32bit": {
-                "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v$version/kubectl-cnpg_$version_windows_i386.tar.gz"
             },
             "arm64": {
                 "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v$version/kubectl-cnpg_$version_windows_arm64.tar.gz"
