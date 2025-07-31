@@ -1,0 +1,22 @@
+{
+    "version": "1.1.0",
+    "description": "Mindfulness that fits your coding flow.",
+    "homepage": "https://github.com/e6a5/zenta",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/e6a5/zenta/releases/download/v1.1.0/zenta-v1.1.0-windows-amd64.zip",
+            "hash": "14834cb27a1f3e5c04141734a3793abb418af48432bb00163f26708e6ab95c45"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'zenta-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'zenta.exe'",
+    "bin": "zenta.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/e6a5/zenta/releases/download/v$version/zenta-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
