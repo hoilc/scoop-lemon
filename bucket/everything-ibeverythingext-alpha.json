@@ -1,0 +1,71 @@
+{
+    "version": "1.5.0.1396a-0.8.0",
+    "description": "(1.5 便携整合包) Everything 拼音搜索、ローマ字検索、快速选择扩展",
+    "homepage": "https://github.com/Chaoses-Ib/IbEverythingExt",
+    "license": "MIT",
+    "notes": "初次使用时请在选项的 Plug-ins（插件）页中选中 IbEverythingExt，勾选 Enable plug-in（开启插件）",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases/download/v0.8.0/Everything.v1.5.0.1396a_IbEverythingExt_v0.8.0.zip",
+            "hash": "dbd3734b0c60acc5111d109bb0d740773f70521c673ea4cd36ef6dd7e0e47e21"
+        }
+    },
+    "extract_dir": "Everything",
+    "pre_install": [
+        "ensure \"$persist_dir\" | Out-Null",
+        "Remove-Item \"$dir\\Plugins\\IbEverythingExt\", \"$dir\\WindowsCodecs.dll\"  -Force -Recurse",
+        "if (Test-Path \"$dir\\Everything64.exe\") { Rename-Item \"$dir\\Everything64.exe\" 'Everything.exe' }",
+        "if (!(Test-Path \"$persist_dir\\Everything*.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config', 'null') | Out-Null }",
+        "Get-ChildItem \"$persist_dir\\*\" -Include 'Bookmarks*.csv', 'Everything.lng', 'Everything*.db', 'Everything*.ini', 'Filters*.csv', 'Plugins*.ini', 'Run History*.csv', 'Search History*.csv' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+    ],
+    "post_install": [
+        "if (!$bucket) { return }",
+        "$scriptsDir = \"$bucketsdir\\$bucket\\scripts\"",
+        "$app_path = \"$dir\\Everything.exe\".Replace('\\', '\\\\')",
+        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+        "    if (Test-Path \"$scriptsDir\\everything\\$_\") {",
+        "        $content = Get-Content \"$scriptsDir\\everything\\$_\"",
+        "        $content = $content.Replace('$app_path', $app_path)",
+        "        if ($global) {",
+        "            $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "        }",
+        "    }",
+        "    $content | Set-Content -Path \"$dir\\$_\" -Encoding ascii",
+        "}"
+    ],
+    "pre_uninstall": [
+        "Stop-Process -Name 'Everything' -Force -ErrorAction SilentlyContinue",
+        "$service_installed_in_current_dir_via_scoop = (sc.exe qc Everything) -match $dir.Replace('\\', '\\\\')",
+        "if ($service_installed_in_current_dir_via_scoop) {",
+        "    if ($(Get-Service -Name Everything -ErrorAction SilentlyContinue).Status -ne 'Stopped') {",
+        "        if (!(is_admin) -and $(Get-Service -Name Everything -ErrorAction SilentlyContinue)) { error 'Admin rights are required to stop Everything service'; break }",
+        "        Stop-Service -Name 'Everything' -Force -ErrorAction SilentlyContinue | Out-Null",
+        "    }",
+        "    if ((Get-Service -Name Everything -ErrorAction SilentlyContinue) -and ($cmd -eq 'uninstall')) {",
+        "        if (!(is_admin) -and $(Get-Service -Name Everything -ErrorAction SilentlyContinue)) { error 'Admin rights are required to remove Everything service'; break }",
+        "        sc.exe delete 'Everything'",
+        "    }",
+        "}",
+        "if (($cmd -eq 'uninstall') -and (Test-Path \"$dir\\uninstall-context.reg\")) { reg import \"$dir\\uninstall-context.reg\" }",
+        "Get-ChildItem \"$dir\\*\" -Include 'Bookmarks*.csv', 'Everything.lng', 'Everything*.db', 'Everything*.ini', 'Filters*.csv', 'Plugins*.ini', 'Run History*.csv', 'Search History*.csv' | Copy-Item -Destination \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
+    ],
+    "bin": "Everything.exe",
+    "shortcuts": [
+        [
+            "Everything.exe",
+            "Everything"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases.atom",
+        "regex": "Everything.v(?<everything>1.5[^_]+)_IbEverythingExt_v(?<ibext>[\\d.]+).zip",
+        "replace": "${everything}-${ibext}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases/download/v$matchIbext/Everything.v$matchEverything_IbEverythingExt_v$matchIbext.zip"
+            }
+        }
+    }
+}
