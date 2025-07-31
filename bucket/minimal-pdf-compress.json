@@ -1,13 +1,13 @@
 {
-    "version": "1.4",
+    "version": "1.5",
     "description": "Minimal PDF Compress is a user-friendly, cross-platform application designed to simplify PDF compression and conversion tasks using Ghostscript and Pikepdf.",
     "homepage": "https://github.com/deminimis/minimalpdfcompress",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v1.4/MinimalPDFCompress_v1.4_Portable_Standalone.zip",
-            "extract_dir": "MinimalPDF Compress v1.4",
-            "hash": "e389882963edcf22f2e917c6ed0e61285b901fc40ecf2575e76447f59617bf21"
+            "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v1.5/MinimalPDFCompress_v1.5_Portable.zip",
+            "extract_dir": "MinimalPDF Compress v1.5",
+            "hash": "da7efd0121b569ddb7254afa298b814fe8dfd4762e07849004c4e69af9942888"
         }
     },
     "pre_install": [
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v$version/MinimalPDFCompress_v$version_Portable_Standalone.zip",
+                "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v$version/MinimalPDFCompress_v$version_Portable.zip",
                 "extract_dir": "MinimalPDF Compress v$version"
             }
         }
