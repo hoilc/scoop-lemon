@@ -1,23 +1,23 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "NATS surveyor polls the NATS server for Statz messages to generate data for Prometheus.",
     "homepage": "https://github.com/nats-io/nats-surveyor",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-amd64.zip",
-            "extract_dir": "nats-surveyor-v0.9.1-windows-amd64",
-            "hash": "6fa7614170a626cfb3efca176d94a3975807b7081881a43227cd6caff5aac367"
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.2/nats-surveyor-v0.9.2-windows-amd64.zip",
+            "extract_dir": "nats-surveyor-v0.9.2-windows-amd64",
+            "hash": "b7bb0040af8dfa36a5c135efc64cca14a7d0d85ac52645bef48f407c4b9bdef2"
         },
         "32bit": {
-            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-386.zip",
-            "extract_dir": "nats-surveyor-v0.9.1-windows-386",
-            "hash": "7bb50bd8cfa9a23c98fe1234ac67e6bc4f3485c63f7519d79fc54f748f421ae1"
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.2/nats-surveyor-v0.9.2-windows-386.zip",
+            "extract_dir": "nats-surveyor-v0.9.2-windows-386",
+            "hash": "92b072b42a88438ec2cc1ca57d282ba0bc8db934d84c7c0657a3684a1452e464"
         },
         "arm64": {
-            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.1/nats-surveyor-v0.9.1-windows-arm64.zip",
-            "extract_dir": "nats-surveyor-v0.9.1-windows-arm64",
-            "hash": "d50f14cb034527758809a613f9d7a8201c7d12ed9c8dc937ff9510fb83259535"
+            "url": "https://github.com/nats-io/nats-surveyor/releases/download/v0.9.2/nats-surveyor-v0.9.2-windows-arm64.zip",
+            "extract_dir": "nats-surveyor-v0.9.2-windows-arm64",
+            "hash": "031389c70a46dadd82e756e08da4d00ddb3c2d9a53a45896b14b854614680e22"
         }
     },
     "bin": "nats-surveyor.exe",
