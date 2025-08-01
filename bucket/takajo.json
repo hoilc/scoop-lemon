@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Yamato-Security/takajo/releases/download/v2.11.0/takajo-2.11.0-win-x64.zip",
-            "extract_dir": "takajo-2.11.0-win-x64",
             "hash": "ef0425fefe99df93e7975a614b701ae2c5e4a7373e5b285658f033c7a658173c"
         }
     },
@@ -16,8 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Yamato-Security/takajo/releases/download/v$version/takajo-$version-win-x64.zip",
-                "extract_dir": "takajo-$version-win-x64"
+                "url": "https://github.com/Yamato-Security/takajo/releases/download/v$version/takajo-$version-win-x64.zip"
             }
         }
     }
