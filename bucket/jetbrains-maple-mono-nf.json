@@ -1,10 +1,10 @@
 {
-    "version": "1.2304.74",
+    "version": "1.2304.75",
     "description": "The free and open-source nerd font fused with JetBrains Mono & Maple Mono.",
     "homepage": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono",
     "license": "OFL-1.1",
-    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.74/JetBrainsMapleMono-NF-XX-XX.zip",
-    "hash": "f0c9ce299c299811ca2509e3cad8de38b6f07ed331e0db964b586538480e339f",
+    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.75/JetBrainsMapleMono-NF-XX-XX.zip",
+    "hash": "407c4a6da3f7507b0fa03d881f508292028ce214928c1b819e9ad354d7b555de",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/$version/JetBrainsMapleMono-NF-XX-XX.zip"
