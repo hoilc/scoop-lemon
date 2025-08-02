@@ -1,13 +1,13 @@
 {
-    "version": "4.1.1",
+    "version": "4.1.2",
     "description": "A version manager for neovim.",
     "homepage": "https://github.com/MordechaiHadad/bob",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MordechaiHadad/bob/releases/download/v4.1.1/bob-windows-x86_64-openssl.zip",
+            "url": "https://github.com/MordechaiHadad/bob/releases/download/v4.1.2/bob-windows-x86_64-openssl.zip",
             "extract_dir": "bob-windows-x86_64-openssl",
-            "hash": "cd68c137e7fd08ce22867472da7471e48c10dc4670dbb59852f45ef767e8443d"
+            "hash": "009c2c777cf6b862109882a95e1c1fb1e5771a236bf1cdd71d7502a3bf818594"
         }
     },
     "bin": "bob.exe",
