@@ -4,7 +4,7 @@
     "homepage": "https://printpdf.github.io",
     "license": "Freeware",
     "url": "https://printpdf.github.io/PrintPDF.7z",
-    "hash": "2bb159528327e30f880beecbf3f7d21e8c9d362b53fed652068c63fe3cfd3a48",
+    "hash": "f59822e51ce8bb7b9a6a797da0bed6b5c624f42d07d2bdcc490ffe111c596de9",
     "extract_dir": "发票闪印4.0.0",
     "bin": "PrintPDF.exe",
     "shortcuts": [
