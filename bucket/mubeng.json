@@ -1,20 +1,20 @@
 {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "An incredibly fast proxy checker & IP rotator with ease.",
     "homepage": "https://github.com/mubeng/mubeng",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mubeng/mubeng/releases/download/v0.22.0/mubeng_0.22.0_windows_amd64.exe#/mubeng.exe",
-            "hash": "3519dc83598bb9e8b3b6cbd6689e501cc7a6acf06c70313c206b3dc0c5264060"
+            "url": "https://github.com/mubeng/mubeng/releases/download/v0.23.0/mubeng_0.23.0_windows_amd64.exe#/mubeng.exe",
+            "hash": "1bd4e0d841cc5d972fa85a671db0875ecf65b1610a30b2fbca3b1050494a22b3"
         },
         "32bit": {
-            "url": "https://github.com/mubeng/mubeng/releases/download/v0.22.0/mubeng_0.22.0_windows_386.exe#/mubeng.exe",
-            "hash": "cbdc490b0eefd555eaae8a33c1390f8f383c94274671f857b9e8ba7fa9a4e70d"
+            "url": "https://github.com/mubeng/mubeng/releases/download/v0.23.0/mubeng_0.23.0_windows_386.exe#/mubeng.exe",
+            "hash": "0b972de995175fc5d5776b50eac4c9353e56587205639a7d7be75a052e2d48c2"
         },
         "arm64": {
-            "url": "https://github.com/mubeng/mubeng/releases/download/v0.22.0/mubeng_0.22.0_windows_arm64.exe#/mubeng.exe",
-            "hash": "bd88364ab64681880d247d42299d1782abd31815e9dc5f7438e9e913fcaa9474"
+            "url": "https://github.com/mubeng/mubeng/releases/download/v0.23.0/mubeng_0.23.0_windows_arm64.exe#/mubeng.exe",
+            "hash": "43e84598e93e796e0eb545f2f3916bcc534c0055fdb8e355b3143ac6ea646807"
         }
     },
     "bin": "mubeng.exe",
