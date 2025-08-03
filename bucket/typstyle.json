@@ -1,16 +1,16 @@
 {
-    "version": "0.13.16",
+    "version": "0.13.17",
     "description": "A beautiful and reliable code formatter for Typst.",
     "homepage": "https://github.com/Enter-tainer/typstyle",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.16/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe",
-            "hash": "65a4856d8e78dca780acfc30cba792362e7b2d883993e9b5a540614107ab55c7"
+            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.17/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe",
+            "hash": "e5fae8dbd03d3871555985c466af075bbd9ab50edb8b2c1b53bb95efffb3d42e"
         },
         "arm64": {
-            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.16/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe",
-            "hash": "1ffdf8bc38d5906f52128f0a66d9a0d0e9e858425437df9d3443778a8218b15d"
+            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.17/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe",
+            "hash": "57436af4e2416b52dba3fcf044fa3df0a54b960d8e78802b56cc76fddfc5670d"
         }
     },
     "bin": "typstyle.exe",
