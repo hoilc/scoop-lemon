@@ -1,36 +1,35 @@
 {
-    "version": "2.5.0",
-    "description": "Anime4KCPP (GUI) provides an optimized bloc97's Anime4K algorithm version 0.9, it aims to be a high performance tools to process both image and video.",
+    "version": "3.0.0",
+    "description": "A high performance anime upscaler.",
     "homepage": "https://github.com/TianZerL/Anime4KCPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v2.5.0/Anime4KCPP_GUI-1.12.0-2.5.0-Win64-msvc.7z",
-            "hash": "cb3f5fffea3f1e05eb7931346959d3e7adc9f9a595c4843a3eff450065769771"
+            "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v3.0.0/Anime4KCPP-GUI-v3.0.0-x64-MSVC.7z",
+            "hash": "285fd09a3401846242506632ee0115d61be917f8e94aa37cf142785e9bd2fd5f"
         }
     },
-    "persist": "settings.ini",
+    "persist": [
+        "user",
+        "output"
+    ],
     "shortcuts": [
         [
-            "Anime4KCPP_GUI.exe",
+            "ac_gui.exe",
             "Anime4KCPP"
         ]
     ],
-    "extract_dir": "GUI\\Anime4KCPP_GUI",
     "suggest": {
         "FFmpeg": [
             "ffmpeg",
             "ffmpeg-nightly"
         ]
     },
-    "checkver": {
-        "url": "https://api.github.com/repos/TianZerL/Anime4KCPP/releases/latest",
-        "regex": "Anime4KCPP_GUI-(?<guiversion>[\\d.]+)-(?<version>[\\d.]+)-Win64-msvc\\.7z"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v$matchVersion/Anime4KCPP_GUI-$matchGuiversion-$matchVersion-Win64-msvc.7z"
+                "url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v$version/Anime4KCPP-GUI-v$version-x64-MSVC.7z"
             }
         }
     }
