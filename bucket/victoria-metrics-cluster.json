@@ -1,12 +1,12 @@
 {
-    "version": "1.122.0",
+    "version": "1.123.0",
     "description": "(Cluster version) A fast, cost-effective and scalable monitoring solution and time series database.",
     "homepage": "https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.122.0/victoria-metrics-windows-amd64-v1.122.0-cluster.zip",
-            "hash": "0301e5818e790ae1e662f1467bc2fc9062bb88cdf673fdbe11a29237fce18cd4"
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.123.0/victoria-metrics-windows-amd64-v1.123.0-cluster.zip",
+            "hash": "ca0fd06108723ba73dc4cdd0afdd57b5ce71483a1daa6ff12d01b07b207293b5"
         }
     },
     "bin": [
