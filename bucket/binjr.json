@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/binjr/binjr/releases/download/v3.23.0/binjr-3.23.0_windows-amd64.zip",
-            "hash": "9984d8a3e63d2ca18be90819664565f30f10bafd65d7a4c158ccd44056272b6f"
+            "hash": "5ab0b0d70d6008c07a55225b9bec69f5dcdd04052f063c3c61555ef2f8dc2060"
         }
     },
     "shortcuts": [
