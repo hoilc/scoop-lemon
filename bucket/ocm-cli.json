@@ -1,12 +1,12 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "The CLI for the Red Hat OpenShift Cluster Manager.",
     "homepage": "https://github.com/openshift-online/ocm-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openshift-online/ocm-cli/releases/download/v1.0.6/ocm-windows-amd64#/ocm.exe",
-            "hash": "434c2fed9d547bda2ca6e4759c4fc181d8b6ebb871afa0e098b3b2495569088b"
+            "url": "https://github.com/openshift-online/ocm-cli/releases/download/v1.0.7/ocm-windows-amd64#/ocm.exe",
+            "hash": "1987512104f14d8e7403e0c30e14baee2fb5a5a6f1eb5ac0de2bf70c2eb6b566"
         }
     },
     "bin": "ocm.exe",
