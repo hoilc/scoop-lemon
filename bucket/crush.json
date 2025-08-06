@@ -1,0 +1,44 @@
+{
+    "version": "0.2.1",
+    "description": "A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.",
+    "homepage": "https://github.com/charmbracelet/crush",
+    "license": "FSL-1.1-MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.2.1/crush_0.2.1_Windows_x86_64.zip",
+            "extract_dir": "crush_0.2.1_Windows_x86_64",
+            "hash": "9ea6da3c55db227f0b954848286eb16585bb035afaa73ecb8f86891f9040f154"
+        },
+        "32bit": {
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.2.1/crush_0.2.1_Windows_i386.zip",
+            "extract_dir": "crush_0.2.1_Windows_i386",
+            "hash": "a46aa32b56bae0165e7afcca14a988f8ea3b17d778aec0604187044124548117"
+        },
+        "arm64": {
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.2.1/crush_0.2.1_Windows_arm64.zip",
+            "extract_dir": "crush_0.2.1_Windows_arm64",
+            "hash": "7a0cc2630d4e325a95211042b0c31c4855d9bbedacf33436d9f3dbed918fd6f8"
+        }
+    },
+    "bin": "crush.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/charmbracelet/crush/releases/download/v$version/crush_$version_Windows_x86_64.zip",
+                "extract_dir": "crush_$version_Windows_x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/charmbracelet/crush/releases/download/v$version/crush_$version_Windows_i386.zip",
+                "extract_dir": "crush_$version_Windows_i386"
+            },
+            "arm64": {
+                "url": "https://github.com/charmbracelet/crush/releases/download/v$version/crush_$version_Windows_arm64.zip",
+                "extract_dir": "crush_$version_Windows_arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
