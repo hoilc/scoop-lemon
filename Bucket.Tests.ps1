@@ -7,7 +7,39 @@ if (-not $env:CI) {
 }
 
 . "$env:SCOOP_HOME\lib\manifest.ps1" # Import for parse json function
+. "$env:SCOOP_HOME\lib\json.ps1"
 . "$env:SCOOP_HOME\test\Import-Bucket-Tests.ps1" # run tests from scoop core
+
+function substitute_non_ascii_shortcuts($manifest, $app) {
+    if ($manifest.shortcuts -and $manifest.shortcuts.Count -gt 0) {
+        for ($i = 0; $i -lt $manifest.shortcuts.Count; $i++) {
+            if ($manifest.shortcuts[$i] -is [array] -and $manifest.shortcuts[$i].Count -ge 2) {
+                $shortcutName = $manifest.shortcuts[$i][1]
+                if ($shortcutName -match "[^\x00-\x7F]") {
+                    $manifest.shortcuts[$i][1] = "shortcut-{0}-{1}" -f $app, $i
+                    Write-Host ("[Workaround] Substitute shortcut '{0}' with placeholder '{1}'" -f $shortcutName, $manifest.shortcuts[$i][1])
+                }
+            }
+        }
+    }
+
+    if ($manifest.architecture) {
+        foreach ($arch in $manifest.architecture.PSObject.Properties.Name) {
+            if ($manifest.architecture.$arch.shortcuts -and $manifest.architecture.$arch.shortcuts.Count -gt 0) {
+                for ($i = 0; $i -lt $manifest.architecture.$arch.shortcuts.Count; $i++) {
+                    if ($manifest.architecture.$arch.shortcuts[$i] -is [array] -and $manifest.architecture.$arch.shortcuts[$i].Count -ge 2) {
+                        $shortcutName = $manifest.architecture.$arch.shortcuts[$i][1]
+                        if ($shortcutName -match "[^\x00-\x7F]") {
+                            $manifest.architecture.$arch.shortcuts[$i][1] = "shortcut-{0}-{1}-{2}" -f $app, $arch, $i
+                            Write-Host ("[Workaround] Substitute shortcut '{0}' with placeholder '{1}'" -f $shortcutName, $manifest.architecture.$arch.shortcuts[$i][1])
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return $manifest
+}
 
 # region Install changed manifests
 function log() {
@@ -135,6 +167,12 @@ Describe 'Changed manifests installation' {
             Context $man {
                 # TODO: YAML
                 $json = parse_json $file
+
+                if ((Get-Content -Path $file -Encoding UTF8) -match "[^\x00-\x7F]") {
+                    $newContent = substitute_non_ascii_shortcuts $json $noExt | ConvertToPrettyJson
+                    [System.IO.File]::WriteAllLines($file, $newContent)
+                }
+
                 if ($json.architecture) {
                     if ($json.architecture.$64) {
                         It $64 {
