@@ -1,10 +1,10 @@
 {
-    "version": "20250115-62310d4",
+    "version": "20250806-e252b0b",
     "description": "An utility to extract and repack Android backups created with adb backup (ICS+).",
     "homepage": "https://github.com/nelenkov/android-backup-extractor",
     "license": "Apache-2.0",
-    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-62310d4.jar#/abe.jar",
-    "hash": "298f3923c389087ef3e94eb2f546de9456f7aef0550a277e02325cb9c3462dd0",
+    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-e252b0b.jar#/abe.jar",
+    "hash": "a738f9925a5f14c01abf76bcf233673c4754541a919c7cca8dcc45373dc25fdd",
     "bin": "abe.jar",
     "suggest": {
         "JDK 11+": [
