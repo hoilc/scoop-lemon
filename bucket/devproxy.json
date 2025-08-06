@@ -1,16 +1,16 @@
 {
-    "version": "0.29.2",
+    "version": "1.0.0",
     "description": "Simulate API failures, throttling, and chaos from your command line.",
     "homepage": "https://aka.ms/devproxy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dotnet/dev-proxy/releases/download/v0.29.2/dev-proxy-win-x64-v0.29.2.zip",
-            "hash": "31268ce927ef3209ee6250f6633baa0881aae6b79c312d3f5fbb6330e21f7e02"
+            "url": "https://github.com/dotnet/dev-proxy/releases/download/v1.0.0/dev-proxy-win-x64-v1.0.0.zip",
+            "hash": "c362811d76e1dd5ba08503c43b00620dda782907b66fd269d7023401e489eaed"
         },
         "32bit": {
-            "url": "https://github.com/dotnet/dev-proxy/releases/download/v0.29.2/dev-proxy-win-x86-v0.29.2.zip",
-            "hash": "a8e6950f0f15beeec0f61b1b6d5dbd932fc983ee9aa4f2a60b942db30e98cf39"
+            "url": "https://github.com/dotnet/dev-proxy/releases/download/v1.0.0/dev-proxy-win-x86-v1.0.0.zip",
+            "hash": "996c127da0fda27741be373fe6f2515f6472155dd158ab2bf3c1513a01ec7330"
         }
     },
     "bin": "devproxy.exe",
