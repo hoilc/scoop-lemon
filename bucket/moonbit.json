@@ -1,5 +1,5 @@
 {
-    "version": "20250807-a9ae411-2b77b50",
+    "version": "20250807-53e30ea-36658a3",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "AGPL-3.0-only",
@@ -10,8 +10,8 @@
                 "https://cli.moonbitlang.com/cores/core-latest.zip"
             ],
             "hash": [
-                "f9aca794081dc2087f044011a47c71a45b5ec396829344433d1ed1304ed33f7a",
-                "88e8fcf0d7f3c1e6bbac130c03f45a77bde1ffab9e285e3335f04c12ce34b2d6"
+                "2f7d7d63c689004915021575d0d3d395d27f9ab4d80c32da8917fd1dd89c33d4",
+                "12c8becfe02fbcc04e8f3663db535059176c557da0d08fc807ce5933acbf5213"
             ]
         }
     },
