@@ -1,0 +1,22 @@
+{
+    "version": "1.4.0",
+    "description": "A key and secret workflow (validation, invalidation, etc.) tool built in Rust.",
+    "homepage": "https://github.com/SpectralOps/keyscope",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SpectralOps/keyscope/releases/download/v1.4.0/keyscope-x86_64-windows.zip",
+            "extract_dir": "keyscope-x86_64-windows",
+            "hash": "9392b93ca872505d6300007ab931d2092a181e63b1a23e2d0aaa8a40c468fe29"
+        }
+    },
+    "bin": "keyscope.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SpectralOps/keyscope/releases/download/v$version/keyscope-x86_64-windows.zip"
+            }
+        }
+    }
+}
