@@ -1,0 +1,31 @@
+{
+    "version": "0.6.1",
+    "description": "A CLI tool that lets you recolor images, GIFs, and videos with any custom palette of your choosing.",
+    "homepage": "https://github.com/arrowpc/palettum",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/arrowpc/palettum/releases/download/v0.6.1/palettum-x86_64-pc-windows-msvc-gpu.zip",
+            "hash": "9211dd8767b5aa688567d484e375d69c4926bed046d01e5318afee2bba3762aa"
+        },
+        "arm64": {
+            "url": "https://github.com/arrowpc/palettum/releases/download/v0.6.1/palettum-aarch64-pc-windows-msvc-gpu.zip",
+            "hash": "a47b49d0a14ca24d2918e2d64af07430667e58615b945179c1c41e58cf5e4204"
+        }
+    },
+    "bin": "palettum.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/arrowpc/palettum/releases/download/v$version/palettum-x86_64-pc-windows-msvc-gpu.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/arrowpc/palettum/releases/download/v$version/palettum-aarch64-pc-windows-msvc-gpu.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
