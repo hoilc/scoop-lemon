@@ -1,5 +1,5 @@
 {
-    "version": "0.30.1",
+    "version": "0.30.2",
     "description": "(CUDA 12 Backend) A self-hosted AI coding assistant, offering an open-source and on-premises alternative to GitHub Copilot.",
     "homepage": "https://github.com/TabbyML/tabby",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TabbyML/tabby/releases/download/v0.30.1/tabby_x86_64-windows-msvc-cuda124.zip",
+            "url": "https://github.com/TabbyML/tabby/releases/download/v0.30.2/tabby_x86_64-windows-msvc-cuda124.zip",
             "extract_dir": "tabby_x86_64-windows-msvc-cuda124",
-            "hash": "6f8a945463dafd9206879c07fb76ed55e9cd2f2bb2fee8c503bf878f635380ff"
+            "hash": "c03fb82f6af203bcc3990cd894692706d1979d8f43193176ed4ca0538087951e"
         }
     },
     "bin": "tabby.exe",
