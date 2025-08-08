@@ -1,0 +1,21 @@
+{
+    "version": "0.1.5",
+    "description": "Parallelizes deleting directories which can significantly speed up deleting large deeply nested directories with a large number of files on Windows.",
+    "homepage": "https://github.com/Dillonb/nmuidi",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Dillonb/nmuidi/releases/download/v0.1.5/nmuidi.exe",
+            "hash": "ee994891789d2b0e0b7c3015929890a22445981ed762439608b1f7eeeb4ba8fa"
+        }
+    },
+    "bin": "nmuidi.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Dillonb/nmuidi/releases/download/v$version/nmuidi.exe"
+            }
+        }
+    }
+}
