@@ -1,5 +1,5 @@
 {
-    "version": "3.8.0beta1",
+    "version": "3.8.0beta1-11",
     "description": "A simple, lightweight but featureful, and easy-to-use e-mail client.",
     "homepage": "https://sylpheed.sraoss.jp/en/",
     "license": "GPL-3.0-only",
@@ -36,19 +36,18 @@
         "etc\\gtk-2.0"
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/573157395/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "\\Asylpheed-([\\d.]+(?:(?<suffix>[a-z]+)(?<revision>\\d+))?)(?<build>-11)?\\Z"
+        "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases.atom",
+        "regex": "Repository/\\d+/sylpheed-(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version$matchBuild/sylpheed-$version-arm64-clangarm64.zip",
-                "extract_dir": "sylpheed-$version-arm64-clangarm64"
+                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version/sylpheed-$majorVersion.$minorVersion.$patchVersion-arm64-clangarm64.zip",
+                "extract_dir": "sylpheed-$majorVersion.$minorVersion.$patchVersion-arm64-clangarm64"
             },
             "64bit": {
-                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version$matchBuild/sylpheed-$version-x64-clang64.zip",
-                "extract_dir": "sylpheed-$version-x64-clang64"
+                "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-$version/sylpheed-$majorVersion.$minorVersion.$patchVersion-x64-clang64.zip",
+                "extract_dir": "sylpheed-$majorVersion.$minorVersion.$patchVersion-x64-clang64"
             },
             "32bit": {
                 "url": "https://scoop-lemon.tari.xyz/hosted/sylpheed/sylpheed-3.8beta1-win32.zip",
