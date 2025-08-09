@@ -1,0 +1,32 @@
+{
+    "version": "1.72.0",
+    "description": "An open source, distributed tracing platform.",
+    "homepage": "https://www.jaegertracing.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.jaegertracing.io/v1.72.0/jaeger-1.72.0-windows-amd64.tar.gz",
+            "extract_dir": "jaeger-1.72.0-windows-amd64",
+            "hash": "52b18cababb97219524e685c19b8691690508eaf6645f505aa8bdcc7e0f17357"
+        }
+    },
+    "bin": [
+        "jaeger-ingester.exe",
+        "jaeger-all-in-one.exe",
+        "jaeger-query.exe",
+        "jaeger-collector.exe"
+    ],
+    "notes": "Jaeger v1 end-of-life is scheduled for December 31, 2025. See https://github.com/jaegertracing/jaeger/issues/6321",
+    "checkver": {
+        "url": "https://www.jaegertracing.io/download/",
+        "regex": "/v(?<tag>[\\d.]+)/jaeger-(1.[\\d.]+)-windows-amd64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.jaegertracing.io/v$matchTag/jaeger-$version-windows-amd64.tar.gz",
+                "extract_dir": "jaeger-$version-windows-amd64"
+            }
+        }
+    }
+}
