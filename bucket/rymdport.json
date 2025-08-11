@@ -1,16 +1,16 @@
 {
-    "version": "3.9.0",
+    "version": "3.9.1",
     "description": "Rymdport (formerly wormhole-gui) is a cross-platform application for easy encrypted sharing of files, folders, and text between devices.",
     "homepage": "https://github.com/Jacalz/rymdport",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jacalz/rymdport/releases/download/v3.9.0/rymdport-v3.9.0-windows-x86_64.zip",
-            "hash": "8299faa5f2b9559cf27b57042aeb734a896b8e4282c042cd89dce7a096d90bf8"
+            "url": "https://github.com/Jacalz/rymdport/releases/download/v3.9.1/rymdport-v3.9.1-windows-x86_64.zip",
+            "hash": "f7f462c83240b894d3e004888a5dfedc784e08a070cec63d4b523a03b742259f"
         },
         "arm64": {
-            "url": "https://github.com/Jacalz/rymdport/releases/download/v3.9.0/rymdport-v3.9.0-windows-arm64.zip",
-            "hash": "b30b864a8f80e91f7f86e588320be70075b060e0088ef53569a5deb9489fe53e"
+            "url": "https://github.com/Jacalz/rymdport/releases/download/v3.9.1/rymdport-v3.9.1-windows-arm64.zip",
+            "hash": "e6dbd3852305c0432540a666d1df4e211361c444511e3edaa009bdbddfc297fe"
         }
     },
     "shortcuts": [
