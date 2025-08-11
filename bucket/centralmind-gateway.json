@@ -1,0 +1,31 @@
+{
+    "version": "0.2.19",
+    "description": "An universal MCP-Server for your Databases optimized for LLMs and AI-Agents.",
+    "homepage": "https://docs.centralmind.ai/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/centralmind/gateway/releases/download/v0.2.19/gateway-windows-amd64.zip",
+            "hash": "a55c9bf01bb571ad2eaa53c8e485fe806f5a5e85a1faf555ca3a07444ca28465"
+        },
+        "arm64": {
+            "url": "https://github.com/centralmind/gateway/releases/download/v0.2.19/gateway-windows-arm64.zip",
+            "hash": "ccd2e91da1f9a33da2b65b4f0bf5b027e0750ecbb415d6add1a3eba7d1fb6d06"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'gateway-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'centralmind-gateway.exe'",
+    "bin": "centralmind-gateway.exe",
+    "checkver": {
+        "github": "https://github.com/centralmind/gateway"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/centralmind/gateway/releases/download/v$version/gateway-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/centralmind/gateway/releases/download/v$version/gateway-windows-arm64.zip"
+            }
+        }
+    }
+}
