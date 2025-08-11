@@ -1,0 +1,31 @@
+{
+    "version": "0.1.22",
+    "description": "A Telegram MCP for managing dialogs, messages, drafts, read statuses, and more.",
+    "homepage": "https://github.com/chaindead/telegram-mcp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chaindead/telegram-mcp/releases/download/v0.1.22/telegram-mcp_Windows_x86_64.zip",
+            "hash": "45b4a133f37e98223d41546292618d7a601122b713749c22c115e5115bcae7b9"
+        },
+        "arm64": {
+            "url": "https://github.com/chaindead/telegram-mcp/releases/download/v0.1.22/telegram-mcp_Windows_arm64.zip",
+            "hash": "fe34d3dc31c60c1496798c418455077da3c4843eea2dd8ce43fe15deac877de8"
+        }
+    },
+    "bin": "telegram-mcp.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chaindead/telegram-mcp/releases/download/v$version/telegram-mcp_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/chaindead/telegram-mcp/releases/download/v$version/telegram-mcp_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/telegram-mcp_$version_checksums.txt"
+        }
+    }
+}
