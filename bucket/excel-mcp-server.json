@@ -1,0 +1,38 @@
+{
+    "version": "0.12.0",
+    "description": "A Model Context Protocol (MCP) server that reads and writes MS Excel data.",
+    "homepage": "https://github.com/negokaz/excel-mcp-server",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v0.12.0/excel-mcp-server_Windows_x86_64.zip",
+            "hash": "0c9142465036f137fd3f9351297cf7ba4506e0073e664457cf92c9a073bfa2c3"
+        },
+        "32bit": {
+            "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v0.12.0/excel-mcp-server_Windows_i386.zip",
+            "hash": "2dfbec6fe86461fc69ad57581f9c27df6db69f8f4c661bbaa50d4aa6700fb4a9"
+        },
+        "arm64": {
+            "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v0.12.0/excel-mcp-server_Windows_arm64.zip",
+            "hash": "40e43008260dbde349a51488f88918b859c570bb9f474849b2884220879d52d5"
+        }
+    },
+    "bin": "excel-mcp-server.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v$version/excel-mcp-server_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v$version/excel-mcp-server_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/negokaz/excel-mcp-server/releases/download/v$version/excel-mcp-server_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/excel-mcp-server_$version_checksums.txt"
+        }
+    }
+}
