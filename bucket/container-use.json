@@ -1,0 +1,31 @@
+{
+    "version": "0.4.1",
+    "description": "Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.",
+    "homepage": "https://github.com/dagger/container-use",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dagger/container-use/releases/download/v0.4.1/container-use_v0.4.1_windows_amd64.tar.gz",
+            "hash": "7b90110f0509109c34572bf813068f894f1d6c789740c0e4ba45eef66ab121eb"
+        },
+        "arm64": {
+            "url": "https://github.com/dagger/container-use/releases/download/v0.4.1/container-use_v0.4.1_windows_arm64.tar.gz",
+            "hash": "8de488e041e1022bc3586f694f2858365fa8cfe956c4611cadbf8d33334b1daa"
+        }
+    },
+    "bin": "container-use.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dagger/container-use/releases/download/v$version/container-use_v$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/dagger/container-use/releases/download/v$version/container-use_v$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
