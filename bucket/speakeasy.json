@@ -1,20 +1,20 @@
 {
-    "version": "1.603.1",
+    "version": "1.603.2",
     "description": "Generate client SDKs in popular languages from your OpenAPI spec with Speakeasy.",
     "homepage": "https://speakeasy.com/",
     "license": "Elastic-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.1/speakeasy_windows_amd64.zip",
-            "hash": "e783c9ce1e09eb9fd5eb385438d04d2b64dd745e0ecfaf29eb1f480fb276286c"
+            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.2/speakeasy_windows_amd64.zip",
+            "hash": "0712b3f597089dfbc798fde223ee7be00751d9395b26ef1a7fdddee1bc3c1ca0"
         },
         "32bit": {
-            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.1/speakeasy_windows_386.zip",
-            "hash": "5280ca67dffc9ab0b590976faa656567bb30c33af7390f350ff665e3a519e09c"
+            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.2/speakeasy_windows_386.zip",
+            "hash": "3684332cbde527c635f7ed765bdc2927849f1e8ea9678455e2703f7f15ef04f0"
         },
         "arm64": {
-            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.1/speakeasy_windows_arm64.zip",
-            "hash": "865ddcfdf6d574dd82448968bf110f1278a1fae2aeefd6e2c462e822d10f44b6"
+            "url": "https://github.com/speakeasy-api/speakeasy/releases/download/v1.603.2/speakeasy_windows_arm64.zip",
+            "hash": "04e026ad131314d0a71d7be237636b53b2d8b2527f2c91028badefd270c4798f"
         }
     },
     "bin": "speakeasy.exe",
