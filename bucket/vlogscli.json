@@ -1,13 +1,13 @@
 {
-    "version": "1.27.0",
+    "version": "1.28.0",
     "description": "An interactive command-line tool for querying VictoriaLogs.",
     "homepage": "https://docs.victoriametrics.com/victorialogs/querying/vlogscli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.27.0/vlutils-windows-amd64-v1.27.0.zip",
+            "url": "https://github.com/VictoriaMetrics/VictoriaLogs/releases/download/v1.28.0/vlutils-windows-amd64-v1.28.0.zip",
             "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
-            "hash": "4adbc4f9c15639f4812b541d6de68501e54e16117d03791b389eefa8f6a66505"
+            "hash": "7c5efad58915a3f608415c25dffd8a6d140a2c638633a0d3314330f334db3660"
         }
     },
     "bin": "vlogscli.exe",
