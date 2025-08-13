@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://monkeysaudio.com/files/MAC_1136_x64.exe#/dl.7z",
-            "hash": "f69286f26c17b855e54ad02e671e1a3328870bd2740d54fab3537d10ddef9a3c"
+            "hash": "25270b5f092dd29d3cb2d2397c908d9d274641a4f0232311313daef5276764a6"
         },
         "32bit": {
             "url": "https://monkeysaudio.com/files/MAC_1136.exe#/dl.7z",
-            "hash": "59643380daeb2f192756e805184bcfa09e93332c43634bf3d035200e0c98be8a"
+            "hash": "ac1909b576eec29c6e5290e0ff4f71fc2b7f884903054520ca76160d31f4b2e8"
         }
     },
     "persist": "File Lists",
