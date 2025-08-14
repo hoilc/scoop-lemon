@@ -1,20 +1,20 @@
 {
-    "version": "0.0.20",
+    "version": "0.0.22",
     "description": "An AI powered kubernetes agent that runs in your terminal.",
     "homepage": "https://github.com/GoogleCloudPlatform/kubectl-ai",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.20/kubectl-ai_Windows_x86_64.zip",
-            "hash": "3122b56173834738b00d9e8b764b43689f9e4f49d29d2eb183b5c3e9d1d13818"
+            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.22/kubectl-ai_Windows_x86_64.zip",
+            "hash": "59e6ace19b2f598767533f92a70abc9044c3119ee4b0cce2cf29c4e42a4d73a4"
         },
         "32bit": {
-            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.20/kubectl-ai_Windows_i386.zip",
-            "hash": "e0f608efb6525652c339db56e29623aa2814fd8e5a0bb1a2d705fa2c470754d1"
+            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.22/kubectl-ai_Windows_i386.zip",
+            "hash": "d96f7ac0efa62e88e5a2a3a773297938a7923d6c2c001a7a84fc41640923f858"
         },
         "arm64": {
-            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.20/kubectl-ai_Windows_arm64.zip",
-            "hash": "1ffb0e91e00aa081692f9d1bf8ffcf11da9c013696e2e315c5b46baa07ccaae6"
+            "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.22/kubectl-ai_Windows_arm64.zip",
+            "hash": "70f769d5da291654db808b66c0366b9152aa0105a6dd25c805c959a72148471f"
         }
     },
     "bin": "kubectl-ai.exe",
