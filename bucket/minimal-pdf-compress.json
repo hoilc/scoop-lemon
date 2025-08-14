@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v1.6/MinimalPDFCompress_v1.6_Portable.zip",
-            "extract_dir": "MinimalPDF Compress v1.6",
             "hash": "6704a651ec2f58eeb25b5975cee9f6da93bd63264f7c68aa62b2095359ac2987"
         }
     },
@@ -25,8 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v$version/MinimalPDFCompress_v$version_Portable.zip",
-                "extract_dir": "MinimalPDF Compress v$version"
+                "url": "https://github.com/deminimis/minimalpdfcompress/releases/download/v$version/MinimalPDFCompress_v$version_Portable.zip"
             }
         }
     }
