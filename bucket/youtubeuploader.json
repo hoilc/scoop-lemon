@@ -1,12 +1,12 @@
 {
-    "version": "1.25.4",
+    "version": "1.25.5",
     "description": "Scripted uploads to youtube.",
     "homepage": "https://github.com/porjo/youtubeuploader",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/porjo/youtubeuploader/releases/download/v1.25.4/youtubeuploader_1.25.4_Windows_amd64.zip",
-            "hash": "cd36d591c94905912d31ec738eca547bd7f8f5ceb7b7c91e9cb4bb8fad47bc42"
+            "url": "https://github.com/porjo/youtubeuploader/releases/download/v1.25.5/youtubeuploader_1.25.5_Windows_amd64.zip",
+            "hash": "b766758df7c5dd44125ccfe567127080c51e9cce35b5e87252abab6d13c8b932"
         }
     },
     "bin": "youtubeuploader.exe",
