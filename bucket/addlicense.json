@@ -1,16 +1,16 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "A program which ensures source code files have copyright license headers by scanning directory patterns recursively.",
     "homepage": "https://github.com/google/addlicense",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/addlicense/releases/download/v1.1.1/addlicense_1.1.1_Windows_x86_64.zip",
-            "hash": "50a8ea5bbfb026169e2ec516af101697d921c0d68dfed93fd958bf28d32ea1d5"
+            "url": "https://github.com/google/addlicense/releases/download/v1.2.0/addlicense_v1.2.0_Windows_x86_64.zip",
+            "hash": "fe4f4a54daa4a750ffa7d1b0da471d077ac24f09d04d7c1f307e7b7950969d25"
         },
         "arm64": {
-            "url": "https://github.com/google/addlicense/releases/download/v1.1.1/addlicense_1.1.1_Windows_arm64.zip",
-            "hash": "db450c94a92651a41e2b91a766a975973fe26d56c58742d7aee2ece798bcf574"
+            "url": "https://github.com/google/addlicense/releases/download/v1.2.0/addlicense_v1.2.0_Windows_arm64.zip",
+            "hash": "32ab8ff74e9bb5d547acb9f074b396dee1e3a86ebac6a47bb7c35ed26940b219"
         }
     },
     "bin": "addlicense.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_$version_Windows_x86_64.zip"
+                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_v$version_Windows_x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_$version_Windows_arm64.zip"
+                "url": "https://github.com/google/addlicense/releases/download/v$version/addlicense_v$version_Windows_arm64.zip"
             }
         },
         "hash": {
