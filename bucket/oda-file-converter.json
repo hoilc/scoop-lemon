@@ -5,8 +5,8 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.opendesign.com/guestfiles/Demo/ODAFileConverter_QT6_vc16_amd64dll_26.7.msi",
-            "hash": "985a88c7223531b166638a3734196b1d7cebbb86733851f75ed8448f33e1fdaf"
+            "url": "https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_26.7.msi#/dl.msi",
+            "hash": "856194295e88fe6a788d35e381d38a476216ca7cd8431ff5f3ab9742183490ab"
         }
     },
     "bin": "ODAFileConverter.exe",
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.opendesign.com/guestfiles/Demo/$matchFilename.msi"
+                "url": "https://www.opendesign.com/guestfiles/get?filename=$matchFilename.msi#/dl.msi"
             }
         }
     }
