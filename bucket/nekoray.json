@@ -22,15 +22,5 @@
     ],
     "post_install": "Remove-Item \"$dir\\updater*\" -Force -Recurse",
     "persist": "config",
-    "checkver": {
-        "url": "https://api.github.com/repos/Mahdi-zarei/nekoray/releases",
-        "regex": "/releases/download/([^/]+)/nekoray-([\\d.]+)-(?<date>[\\d-]+)-windows64"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/Mahdi-zarei/nekoray/releases/download/$version/nekoray-$version-$matchDate-windows64.zip"
-            }
-        }
-    }
+    "notes": "The project maintained by Mahdi-zarei has been renamed to 'Throne'. Try 'scoop install lemon/throne'"
 }
