@@ -1,0 +1,44 @@
+{
+    "version": "1.0.2-beta.3",
+    "description": "A cross-platform GUI proxy utility (Empowered by sing-box)",
+    "homepage": "https://github.com/throneproj/Throne",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/throneproj/Throne/releases/download/1.0.2-beta.3/Throne-1.0.2-beta.3-windows64.zip",
+            "hash": "3e68c6b71d4b893c3ae098c4e8b98332bc4fb0b5e5c72a261e98ce770c438396"
+        },
+        "32bit": {
+            "url": "https://github.com/throneproj/Throne/releases/download/1.0.2-beta.3/Throne-1.0.2-beta.3-windows32.zip",
+            "hash": "2a45a62d098de8355b35a5450f21df0193f5d91769e0250199b88ef3b18adbb2"
+        }
+    },
+    "extract_dir": "Throne",
+    "shortcuts": [
+        [
+            "Throne.exe",
+            "Throne"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config\") -and (installed 'nekoray' $global)) { Write-Host -NoNewline \"Migrating config from nekoray...\" ; Copy-Item -Path \"$(appdir nekoray $global)\\current\\config\" -Destination \"$persist_dir\\config\" -Recurse }",
+        "if ((Test-Path \"$persist_dir\\config\") -and (Test-Path \"$persist_dir\\config.bak\")) { Remove-Item \"$persist_dir\\config.bak\" -Force -Recurse }",
+        "if (Test-Path \"$persist_dir\\config\") { Write-Host -NoNewline \"Backing up existing config...\" ; Copy-Item -Path \"$persist_dir\\config\" -Destination \"$persist_dir\\config.bak\" -Recurse }"
+    ],
+    "post_install": "Remove-Item \"$dir\\updater*\" -Force -Recurse",
+    "persist": "config",
+    "checkver": {
+        "url": "https://github.com/throneproj/Throne/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/throneproj/Throne/releases/download/$version/Throne-$version-windows64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/throneproj/Throne/releases/download/$version/Throne-$version-windows32.zip"
+            }
+        }
+    }
+}
