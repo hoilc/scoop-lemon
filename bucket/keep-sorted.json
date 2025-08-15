@@ -1,12 +1,12 @@
 {
-    "version": "0.6.1",
+    "version": "0.7.0",
     "description": "A language-agnostic formatter that sorts lines between two markers in a larger file.",
     "homepage": "https://github.com/google/keep-sorted",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/keep-sorted/releases/download/v0.6.1/keep-sorted_windows.exe#/keep-sorted.exe",
-            "hash": "511668036dbe6554850f3e0841c0ae778a3d706aa7f130df41b9cee4f674d5d0"
+            "url": "https://github.com/google/keep-sorted/releases/download/v0.7.0/keep-sorted_windows.exe#/keep-sorted.exe",
+            "hash": "415dd160ff8ff2bda0783591d7dc687f5c977f349510c93c55b9b3e7ed46de28"
         }
     },
     "bin": "keep-sorted.exe",
