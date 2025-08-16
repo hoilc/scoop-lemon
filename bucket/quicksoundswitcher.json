@@ -1,12 +1,12 @@
 {
-    "version": "1.6.1",
+    "version": "1.7.0",
     "description": "An enhanced audio panel for Windows.",
     "homepage": "https://github.com/Odizinne/QuickSoundSwitcher",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/1.6.1/QuickSoundSwitcher_win64_msvc2022.zip",
-            "hash": "4644a8961e8d85858d5f68c53382f4ee08f31da8503b148ea0ac12d90fd1e9fa"
+            "url": "https://github.com/Odizinne/QuickSoundSwitcher/releases/download/1.7.0/QuickSoundSwitcher_win64_msvc2022.zip",
+            "hash": "57c90d92fa1ed23e922f9cc9a9bcbeec34773afe87073717573410ca5d1fdc01"
         }
     },
     "extract_dir": "QuickSoundSwitcher",
