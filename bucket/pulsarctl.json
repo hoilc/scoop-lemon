@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/streamnative/pulsarctl/releases/download/v4.0.6.1/pulsarctl-amd64-windows.tar.gz",
-            "hash": "bc9c17651486da02de94ac6bfaf64f704dded559c838bd887b7d5dcb6227ba60",
+            "hash": "2af9899b50e7329d7aad6c0423f06186cfc21f0262bf2ac5e3d2640c1693ca8c",
             "extract_dir": "pulsarctl-amd64-windows"
         },
         "32bit": {
             "url": "https://github.com/streamnative/pulsarctl/releases/download/v4.0.6.1/pulsarctl-386-windows.tar.gz",
-            "hash": "2ccb2316dde53a0614b7369db523ae3331381db534cede9e04c031b6c26e485b",
+            "hash": "5efcb891dcac0cb19b740c0d9d5a98bc7be16fc0e63eab03aad5d927dffe7eb4",
             "extract_dir": "pulsarctl-386-windows"
         }
     },
