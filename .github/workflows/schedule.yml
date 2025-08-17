@@ -34,7 +34,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         SKIP_UPDATED: '1'
         SCOOP_GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        SCOOP_BRANCH: 'master'
+        SCOOP_BRANCH: 'v0.5.2'
         THROW_ERROR: '0'
         SPECIAL_SNOWFLAKES: ${{ steps.check-manifests-without-version-vars.outputs.manifestsWithoutVersion }}
     - name: Show rate limit for GitHub API (After)
