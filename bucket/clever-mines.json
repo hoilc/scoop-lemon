@@ -1,10 +1,10 @@
 {
-    "version": "4.3",
+    "version": "4.4",
     "description": "Looking for mines on triangular or rectangular fields.",
     "homepage": "https://plastovicka.github.io/games.html#miny",
     "license": "GPL-3.0-only",
     "url": "https://sourceforge.net/projects/miny/files/mines.zip",
-    "hash": "sha1:961bbc490931a96f5d6a66be4b93351e57713647",
+    "hash": "sha1:547904b667add54f67b21229d196762d9ce75b2d",
     "shortcuts": [
         [
             "miny.exe",
