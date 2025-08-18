@@ -1,12 +1,12 @@
 {
-    "version": "2.41.1",
+    "version": "2.41.3",
     "description": "The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
     "homepage": "https://www.bettercap.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bettercap/bettercap/releases/download/v2.41.1/bettercap_windows_amd64.zip",
-            "hash": "f91b89fd7c9f15d91c1db0c75f62b4cfbc5ced32d964620d60a7571d2d0a8fe3"
+            "url": "https://github.com/bettercap/bettercap/releases/download/v2.41.3/bettercap_windows_amd64.zip",
+            "hash": "14710bf2254457fca5fcb4dcfebc830343927455f31be7a33d63772dbde3002a"
         }
     },
     "bin": "bettercap.exe",
