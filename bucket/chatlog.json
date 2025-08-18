@@ -1,16 +1,16 @@
 {
-    "version": "0.0.17",
+    "version": "0.0.18",
     "description": "微信聊天记录工具，帮助大家轻松使用自己的聊天数据",
     "homepage": "https://github.com/sjzar/chatlog",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sjzar/chatlog/releases/download/v0.0.17/chatlog_0.0.17_windows_amd64.zip",
-            "hash": "0bb0f5dafe970a487229095e453266865f6f934afd87c76c6ab47e4c97f2bfe9"
+            "url": "https://github.com/sjzar/chatlog/releases/download/v0.0.18/chatlog_0.0.18_windows_amd64.zip",
+            "hash": "fa677de5c55723b73fa0f791be911196e9047cc7676a5e60388e750f2f5c9b91"
         },
         "arm64": {
-            "url": "https://github.com/sjzar/chatlog/releases/download/v0.0.17/chatlog_0.0.17_windows_arm64.zip",
-            "hash": "b3bfa50fb4bc9157aed9cca429006627cb4ccf8895a0a17abe56f3c3d3d9a6a7"
+            "url": "https://github.com/sjzar/chatlog/releases/download/v0.0.18/chatlog_0.0.18_windows_arm64.zip",
+            "hash": "d52c8a21032280b35c9388ebba945874d260ef6a47deb077eaa619bf55b838d1"
         }
     },
     "bin": "chatlog.exe",
