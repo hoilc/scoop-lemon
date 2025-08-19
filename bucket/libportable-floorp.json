@@ -1,12 +1,12 @@
 {
-    "version": "12.1.0",
+    "version": "12.1.2",
     "description": "(libportable patched) A new privacy-preserving Firefox-based browser developedby a community of students in Japan.",
     "homepage": "https://floorp.app/en/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.1.0/floorp-win64.installer.exe#/dl.7z",
-            "hash": "1ea97c5229ea844c7c68f601e3436c3d0cdc5c361c987fef0a80df38a6608543"
+            "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.1.2/floorp-win64.installer.exe#/dl.7z",
+            "hash": "ab15a0424878f5b67afe6724c220d6c8b431512076eb2ac228df1cf19e661306"
         }
     },
     "depends": "lemon/libportable",
