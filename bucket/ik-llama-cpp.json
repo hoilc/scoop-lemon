@@ -1,16 +1,16 @@
 {
-    "version": "b4091-0a4c111",
+    "version": "b4093-144abc3",
     "description": "(Thireus's Build) ik_llama.cpp is a fork of llama.cpp with better CPU and hybrid GPU/CPU performance.",
     "homepage": "https://github.com/ikawrakow/ik_llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4091-0a4c111/ik_llama-main-b4091-0a4c111-bin-win-cuda-12.8-x64-avx2.zip",
-                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4091-0a4c111/ik_llama-main-b4091-0a4c111-cudart-llama-bin-win-cuda-12.8-x64-avx2.zip"
+                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4093-144abc3/ik_llama-main-b4093-144abc3-bin-win-cuda-12.8-x64-avx2.zip",
+                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4093-144abc3/ik_llama-main-b4093-144abc3-cudart-llama-bin-win-cuda-12.8-x64-avx2.zip"
             ],
             "hash": [
-                "7229ef546acac18a38f96243eac01a2e8748e5c033388d445992fb4c4db00494",
+                "2ab9dc0483eaa2bfaa65c269c144c46e4e2181dd152f367209b8a7a51b2da437",
                 "77723c83430f7524fbc53f1dbadea5ee73c9c51459817b71654d4939a8640d1a"
             ]
         }
