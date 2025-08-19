@@ -1,27 +1,23 @@
 {
-    "version": "1.7.0",
+    "version": "1.9.7",
     "description": "Detect license usage restrictions in your project.",
     "homepage": "https://github.com/anistark/feluda",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anistark/feluda/releases/download/1.7.0/feluda-x86_64-pc-windows-msvc.zip",
-            "hash": "d5e1911f74ae92196df8ceebb05e19c191e4a9849b3caf3dbfb43b92db8bd2ac"
-        },
-        "arm64": {
-            "url": "https://github.com/anistark/feluda/releases/download/1.7.0/feluda-aarch64-pc-windows-msvc.zip",
-            "hash": "d3da0216c3aa886c602a34fb328e41ea7ffd33f4c8fd2e56451be894136b9526"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.9.7/feluda-1.9.7-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "adcc3c4cdea48d23d8acf1304f44f2e5e7d1fdfc11169872764e17be08a70780"
         }
     },
     "bin": "feluda.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/feluda?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/anistark/feluda/releases/download/$version/feluda-x86_64-pc-windows-msvc.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/anistark/feluda/releases/download/$version/feluda-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-$version/feluda-$version-x86_64-pc-windows-msvc.tar.gz"
             }
         }
     }
