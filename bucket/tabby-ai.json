@@ -1,5 +1,5 @@
 {
-    "version": "0.30.2",
+    "version": "0.31.0",
     "description": "(CPU Backend) A self-hosted AI coding assistant, offering an open-source and on-premises alternative to GitHub Copilot.",
     "homepage": "https://github.com/TabbyML/tabby",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TabbyML/tabby/releases/download/v0.30.2/tabby_x86_64-windows-msvc-cpu.zip",
+            "url": "https://github.com/TabbyML/tabby/releases/download/v0.31.0/tabby_x86_64-windows-msvc-cpu.zip",
             "extract_dir": "tabby_x86_64-windows-msvc-cpu",
-            "hash": "6cb83004e9b5dc223f248ef1387097cc58842e16a84add6a8b9167e7d8d4edaa"
+            "hash": "0b00b91fdf3c0566a867bbd6741d0d39d4f0b5e3b43975e0bf10f46b8400ab86"
         }
     },
     "bin": "tabby.exe",
