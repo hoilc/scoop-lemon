@@ -1,12 +1,12 @@
 {
-    "version": "0.95.0",
+    "version": "0.95.1",
     "description": "A free and open-source program for statistical analysis.",
     "homepage": "http://jasp-stats.org/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jasp-stats/jasp-desktop/releases/download/v0.95.0/JASP-0.95.0.0-Windows.zip",
-            "hash": "db619a21482e17bcfff45a4829adee3c760205499149336740bafbb11c5df770"
+            "url": "https://github.com/jasp-stats/jasp-desktop/releases/download/v0.95.1/JASP-0.95.1.0-Windows.zip",
+            "hash": "916a33dd8ecb4142eeff8f32d040538408a389b978a9355ccb81aef0f1266fee"
         }
     },
     "shortcuts": [
