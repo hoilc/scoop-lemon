@@ -1,20 +1,20 @@
 {
-    "version": "1.8.4",
+    "version": "1.9.0-alpha",
     "description": "goctl is the CLI for go-zero, a cloud-native Go microservices framework.",
     "homepage": "https://go-zero.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.8.4/goctl-v1.8.4-windows-amd64.zip",
-            "hash": "md5:d7e3d5f9a0f3b41b6e8899398d35368c"
+            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.9.0-alpha/goctl-v1.9.0-alpha-windows-amd64.zip",
+            "hash": "md5:8c1242b2fa9678b1c64403ed9dffd4bc"
         },
         "32bit": {
-            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.8.4/goctl-v1.8.4-windows-386.zip",
-            "hash": "md5:ad9eb7ba2e966212b5f5eee3cdfdb9ce"
+            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.9.0-alpha/goctl-v1.9.0-alpha-windows-386.zip",
+            "hash": "md5:759b8922ccdb7e7452678bccebb3b59a"
         },
         "arm64": {
-            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.8.4/goctl-v1.8.4-windows-arm64.zip",
-            "hash": "md5:0045acb1ae75d152485418b90be7e799"
+            "url": "https://github.com/zeromicro/go-zero/releases/download/tools%2Fgoctl%2Fv1.9.0-alpha/goctl-v1.9.0-alpha-windows-arm64.zip",
+            "hash": "md5:1b2cb0db44f5c889c43cf1f50f768a6f"
         }
     },
     "bin": "goctl.exe",
