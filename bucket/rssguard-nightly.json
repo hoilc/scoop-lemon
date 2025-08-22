@@ -1,12 +1,12 @@
 {
-    "version": "devbuild5-20250810-742567d6a",
+    "version": "devbuild5-20250822-a5d2e6bd0",
     "description": "(Development Builds) A simple, light and easy-to-use RSS/ATOM feed aggregator developed using Qt framework which supports online feed synchronization.",
     "homepage": "https://github.com/martinrotter/rssguard/releases/tag/devbuild5",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-742567d6a-win10.7z",
-            "hash": "ecc54c9ce20cd5df2a0cdc7fe5f41158cc0222eb159143380f0112a893d5c01c"
+            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-a5d2e6bd0-win10.7z",
+            "hash": "0c5d8389a7cfd8ef960814cf8888e02e0e1f2580697faad39877a86e12f03a2a"
         }
     },
     "persist": [
