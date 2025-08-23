@@ -1,12 +1,12 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Make extracted EPUB more comply with standard.",
     "homepage": "https://github.com/qinlili23333/EpubSanitizer",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qinlili23333/EpubSanitizer/releases/download/1.2.0/EpubSanitizerCLI.exe",
-            "hash": "cf0455cca63b51511adc6ab13962a99d23365591a5212e49ed63d3e5341788c7"
+            "url": "https://github.com/qinlili23333/EpubSanitizer/releases/download/1.2.1/EpubSanitizerCLI.exe",
+            "hash": "e56160bee42118254d4fae164bb064f32efbc196320ee6475e6aae4fa7f36691"
         }
     },
     "bin": "EpubSanitizerCLI.exe",
