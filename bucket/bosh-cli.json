@@ -1,12 +1,12 @@
 {
-    "version": "7.9.9",
+    "version": "7.9.10",
     "description": "The command line tool used for interacting with all things BOSH, from deployment operations to software release management.",
     "homepage": "https://bosh.io/docs/cli-v2/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudfoundry/bosh-cli/releases/download/v7.9.9/bosh-cli-7.9.9-windows-amd64.exe#/bosh.exe",
-            "hash": "1cfe6896b0c8854677320d4c3bc8a1594526b62813284aa43ad87dd8b8dcac37"
+            "url": "https://github.com/cloudfoundry/bosh-cli/releases/download/v7.9.10/bosh-cli-7.9.10-windows-amd64.exe#/bosh.exe",
+            "hash": "8ffc0c461250784de954b49cdf5fa500f079114adf16e7980d9bf30267c1b4d4"
         }
     },
     "bin": "bosh.exe",
