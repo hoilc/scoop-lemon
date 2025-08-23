@@ -1,12 +1,12 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "A fully user space WireGuard tunnel client for Pangolin.",
     "homepage": "https://github.com/fosrl/newt",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fosrl/newt/releases/download/1.4.1/newt_windows_amd64.exe#/newt.exe",
-            "hash": "e0db9fcdf50d2bb63a0ca49b1019a14aee8039fabe26553daebfcda2455b902a"
+            "url": "https://github.com/fosrl/newt/releases/download/1.4.2/newt_windows_amd64.exe#/newt.exe",
+            "hash": "a57bca4c7c59f8606898d7732b557214fff26ca102022856df6ff11c2d774673"
         }
     },
     "bin": "newt.exe",
