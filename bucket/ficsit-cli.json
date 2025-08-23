@@ -1,20 +1,20 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "A CLI tool for managing mods for the game Satisfactory.",
     "homepage": "https://ficsit.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.0/ficsit_windows_amd64.exe#/ficsit.exe",
-            "hash": "57943bd49a4848a7844fe5a2fc50a3a057314f3f572cc26678bd2509ae1985aa"
+            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.1/ficsit_windows_amd64.exe#/ficsit.exe",
+            "hash": "ad02dd45476baaf5cd5a4197955cbf9bb78eea95241a2ca79b6f589c818bb971"
         },
         "32bit": {
-            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.0/ficsit_windows_386.exe#/ficsit.exe",
-            "hash": "f0054949b3428537a0df6ac6725d91a426c2025acc1cb80a432e0638cf22cdba"
+            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.1/ficsit_windows_386.exe#/ficsit.exe",
+            "hash": "829dccec9622fff195dbe0af3a82c1eb3846bfdaf1f947d3a9248174eeacc286"
         },
         "arm64": {
-            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.0/ficsit_windows_arm64.exe#/ficsit.exe",
-            "hash": "2eacb18e3a636919340c2f64eb23b5c8543efc6e14aeac68dfbebdfbdfe7d9aa"
+            "url": "https://github.com/satisfactorymodding/ficsit-cli/releases/download/v0.6.1/ficsit_windows_arm64.exe#/ficsit.exe",
+            "hash": "23c7c6f686e1f9f2a163743c1c789fb21bdb04501124eac38c2e0499faf1d668"
         }
     },
     "bin": "ficsit.exe",
