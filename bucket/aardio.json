@@ -4,7 +4,7 @@
     "homepage": "https://www.aardio.com/",
     "license": "Freeware",
     "url": "https://d.aardio.com/ide/aardio.7z",
-    "hash": "d20b26a0f54804fea0da6dd1aa91cdc59b55ba96c538d4574abbcbb52c2f5845",
+    "hash": "31ebff6f584b4ca2ece6e9efa5d2c7a8089313ad328b6efe9dd6377fda1a39e9",
     "bin": "aardio.exe",
     "shortcuts": [
         [
