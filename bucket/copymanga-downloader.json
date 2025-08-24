@@ -1,12 +1,12 @@
 {
-    "version": "0.10.3",
+    "version": "0.10.4",
     "description": "一个用于拷贝漫画的多线程下载器",
     "homepage": "https://github.com/lanyeeee/copymanga-downloader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lanyeeee/copymanga-downloader/releases/download/v0.10.3/copymanga-downloader_0.10.3_windows_x64_portable.zip",
-            "hash": "9b480ef289ec30d4e0cc24cbc6cbac63886a060c5fb6f82632bdabc75b83e1e8"
+            "url": "https://github.com/lanyeeee/copymanga-downloader/releases/download/v0.10.4/copymanga-downloader_0.10.4_windows_x64_portable.zip",
+            "hash": "187456da32068acd25f9a869547bafd7a6271ee623b57b54048c6a2dc02ffc8a"
         }
     },
     "shortcuts": [
