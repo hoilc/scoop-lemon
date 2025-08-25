@@ -1,13 +1,13 @@
 {
     "##": "#gomocup",
-    "version": "5.9.2",
+    "version": "5.9.3",
     "description": "AlphaZero for the game of Gomoku.",
     "homepage": "https://github.com/MaciejKozarzewski/AlphaGomoku",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MaciejKozarzewski/AlphaGomoku/releases/download/v5.9.2/AlphaGomoku_windows.zip",
-            "hash": "567ce86c148b8263cedf1f3eacc306a92169296e9dbbc0ef1fceb9ed6219167c"
+            "url": "https://github.com/MaciejKozarzewski/AlphaGomoku/releases/download/v5.9.3/AlphaGomoku_windows.zip",
+            "hash": "b80ba76f2cbc2960100fc6830a57f10c957e3566c0006f771fc75d441bc65ae1"
         }
     },
     "bin": [
