@@ -1,5 +1,5 @@
 {
-    "version": "2.0.dev11-20250630",
+    "version": "2.0.dev11-20250824",
     "description": "A tool for opening and editing the NetImmerse file format (NIF).",
     "homepage": "https://github.com/fo76utils/nifskope",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fo76utils/nifskope/releases/download/v2.0.dev11-20250630/NifSkope_2_0_2025-06-30-win64qt6_clang.7z",
-            "hash": "a04d46e1126cc42abb10d6b29a24f5bd390d5105a2880bdd79f46c3bac605c64"
+            "url": "https://github.com/fo76utils/nifskope/releases/download/v2.0.dev11-20250824/NifSkope_2_0_2025-08-24-win64qt6_clang.7z",
+            "hash": "e73c51de3b513591a78396ddc397e922a09b55dfb39e621efd4dcde5848139eb"
         }
     },
     "extract_dir": "NifSkope",
