@@ -1,12 +1,12 @@
 {
-    "version": "0.0.74",
+    "version": "0.0.76",
     "description": "An AI chat client implementing the Model Context Protocol (MCP).",
     "homepage": "https://github.com/daodao97/chatmcp",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/daodao97/chatmcp/releases/download/v0.0.74/chatmcp-0.0.74-windows.zip",
-            "hash": "5013df074ca7644622907c436465779e5e753f4ab67dfc9b4489e1493bb87f56"
+            "url": "https://github.com/daodao97/chatmcp/releases/download/v0.0.76/chatmcp-0.0.76-windows.zip",
+            "hash": "d48a281f9cc973ae2f2a8a006ec20214d5ca31b535da588e0c8026b3af507d56"
         }
     },
     "shortcuts": [
