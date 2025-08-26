@@ -1,16 +1,16 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Build k6 with extensions.",
     "homepage": "https://github.com/grafana/xk6",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/xk6/releases/download/v1.1.2/xk6_1.1.2_windows_amd64.zip",
-            "hash": "9d561e3b83ee55e45aa41df5872ca1a46f8e7735d077a8f8261f022d753be13a"
+            "url": "https://github.com/grafana/xk6/releases/download/v1.1.3/xk6_1.1.3_windows_amd64.zip",
+            "hash": "17ec7b6b97be5c1c774e4032fff70652314a45a88df7f92dd04714f444875ec4"
         },
         "arm64": {
-            "url": "https://github.com/grafana/xk6/releases/download/v1.1.2/xk6_1.1.2_windows_arm64.zip",
-            "hash": "38a7c0d196d8057df35b751a7992993c56c879f4adc609c799410b158ab5ec06"
+            "url": "https://github.com/grafana/xk6/releases/download/v1.1.3/xk6_1.1.3_windows_arm64.zip",
+            "hash": "8aa4a0b2ccf59f694bc03455e6eae6e5e6d7c521f7996f58f19e63af7863d64a"
         }
     },
     "bin": "xk6.exe",
