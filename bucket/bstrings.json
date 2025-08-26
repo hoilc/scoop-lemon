@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/bstrings",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/bstrings.zip",
-    "hash": "a5dc7817c75adddd8b0d8188db91c8b0b2ca3a5b0c237bd1e84305ae49d214b2",
+    "hash": "c41397980b411f5272ace9189b35b047377085cb319db352b65f401aadb90fae",
     "bin": "bstrings.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
