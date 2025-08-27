@@ -1,10 +1,10 @@
 {
-    "version": "1.17.1",
+    "version": "1.19.6",
     "description": "The CLI uploader for copyparty, a portable file server.",
     "homepage": "https://github.com/9001/copyparty/blob/hovudstraum/bin/README.md#u2cpy",
     "license": "MIT",
-    "url": "https://github.com/9001/copyparty/releases/download/v1.17.1/u2c.exe",
-    "hash": "1ce91b6078c932235b78081595b98063da501f1ae8e877d8a87a9a9851b727a7",
+    "url": "https://github.com/9001/copyparty/releases/download/v1.19.6/u2c.exe",
+    "hash": "ab4379f1f220efc7cc8c477435473b85bc32e3ad7a4fb99e35804a54ae25cf8b",
     "bin": "u2c.exe",
     "checkver": {
         "url": "https://github.com/9001/copyparty/releases.atom",
