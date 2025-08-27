@@ -5,7 +5,6 @@
     "license": "BSD-3-Clause",
     "url": "https://sourceforge.net/projects/libportable/files/Tools/portable_bin.7z",
     "hash": "sha1:69b30fe1ff7c55534d39a34729337ac431d89d46",
-    "extract_dir": "portable_bin",
     "checkver": {
         "script": [
             "try { $detail = Invoke-WebRequest 'https://sourceforge.net/projects/libportable/rss?path=/Tools' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
