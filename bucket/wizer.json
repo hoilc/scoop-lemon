@@ -1,13 +1,13 @@
 {
-    "version": "9.0.0",
+    "version": "10.0.0",
     "description": "The WebAssembly Pre-Initializer.",
     "homepage": "https://github.com/bytecodealliance/wizer",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wizer/releases/download/v9.0.0/wizer-v9.0.0-x86_64-windows.zip",
-            "extract_dir": "wizer-v9.0.0-x86_64-windows",
-            "hash": "d9cc5ed028ca873f40adcac513812970d34dd08cec4397ffc5a47d4acee8e782"
+            "url": "https://github.com/bytecodealliance/wizer/releases/download/v10.0.0/wizer-v10.0.0-x86_64-windows.zip",
+            "extract_dir": "wizer-v10.0.0-x86_64-windows",
+            "hash": "29a3aebb70927e9af7c505d3f3d14c5f8577eb307e8bd45151c184885a580d2f"
         }
     },
     "bin": "wizer.exe",
