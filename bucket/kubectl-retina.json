@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0-rc2",
+    "version": "0.0.33-windows-dev",
     "description": "CLI for Retina, a cloud-agnostic, open-source Kubernetes Network Observability platform.",
     "homepage": "https://retina.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/retina/releases/download/v1.0.0-rc2/kubectl-retina-windows-amd64-v1.0.0-rc2.zip",
-            "hash": "3d82f4c0c7ec2ce14961c84943126491aafeaff6e02c42508b4fcf0ef2c2bcc7"
+            "url": "https://github.com/microsoft/retina/releases/download/v0.0.33-windows-dev/kubectl-retina-windows-amd64-v0.0.33-windows-dev.zip",
+            "hash": "0cd0326d5b12ee79fa59cbfb812f0c2adffa4c9ffc4f42c61e68d204dc25dc34"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/retina/releases/download/v1.0.0-rc2/kubectl-retina-windows-arm64-v1.0.0-rc2.zip",
-            "hash": "3423e38712b2f68e5d5a2d7c273c56837eebf7bd37fbecdc546970fb2e522aeb"
+            "url": "https://github.com/microsoft/retina/releases/download/v0.0.33-windows-dev/kubectl-retina-windows-arm64-v0.0.33-windows-dev.zip",
+            "hash": "b7d5a0e8141177d7da7636580d91cdcc6cc03d5d5e07e07d23e7de002cc59f46"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'kubectl-retina?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'kubectl-retina.exe'",
