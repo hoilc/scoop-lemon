@@ -1,12 +1,12 @@
 {
-    "version": "0.13.1",
+    "version": "0.13.2",
     "description": "Jane Reader is a modern and clean epub reader that brings a whole new reading exprience.",
     "homepage": "https://janereader.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://janereader.com/downloads/releases/windows/x86_64/0.13.1#/dl.msi",
-            "hash": "259a53afc198a822bd8ec34798d7e1f665b52728daa84be3ae6076a3be22fa1a"
+            "url": "https://janereader.com/downloads/releases/windows/x86_64/0.13.2#/dl.msi",
+            "hash": "ca3a7f88bc6dce3a6358d9d74a6ca0b2f3ce3cd254f419ebab4198cc83c86402"
         }
     },
     "extract_dir": "PFiles\\Jane Reader",
