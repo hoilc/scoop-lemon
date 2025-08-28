@@ -1,18 +1,18 @@
 {
-    "version": "4.0.15",
+    "version": "4.0.16",
     "description": "A high performance text/hex editor.",
     "homepage": "https://github.com/adonais/skylark",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/adonais/skylark/releases/download/20250802091602/skylark_x64-v4.0.15.7z",
+            "url": "https://github.com/adonais/skylark/releases/download/20250828102659/skylark_x64-v4.0.16.7z",
             "extract_dir": "skylark_x64",
-            "hash": "d3104e2610af52c21290ff4ad5cb588f6a1fdcd1ec697b746e01ce06f6178dae"
+            "hash": "4987c9ccf8c17ef6c4544e781817edfcd38a2831a5b926917d73283360e8e9d8"
         },
         "32bit": {
-            "url": "https://github.com/adonais/skylark/releases/download/20250802091602/skylark_x86-v4.0.15.7z",
+            "url": "https://github.com/adonais/skylark/releases/download/20250828102659/skylark_x86-v4.0.16.7z",
             "extract_dir": "skylark_x86",
-            "hash": "5dda1c521fa5e4a14e1250aeb477752076e718c131f29acca4c87a27ab22dc26"
+            "hash": "d549fd4c1723b339058b88986d59438fa8c7eedbc39b83b445eb1a8d6eedc513"
         }
     },
     "bin": "skylark.exe",
