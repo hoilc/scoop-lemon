@@ -1,23 +1,23 @@
 {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "description": "A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.",
     "homepage": "https://github.com/charmbracelet/crush",
     "license": "FSL-1.1-MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.2/crush_0.7.2_Windows_x86_64.zip",
-            "extract_dir": "crush_0.7.2_Windows_x86_64",
-            "hash": "b9e209eb22824e5e18e1fba9ed66fe23dd2e9786601e18664122f97ca42812e7"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.3/crush_0.7.3_Windows_x86_64.zip",
+            "extract_dir": "crush_0.7.3_Windows_x86_64",
+            "hash": "024fc05905981fea145691067111734497d3d658636c441d9177cc8084db8584"
         },
         "32bit": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.2/crush_0.7.2_Windows_i386.zip",
-            "extract_dir": "crush_0.7.2_Windows_i386",
-            "hash": "76714b1086e4416bffd591af09d01bbcd0233b330d53ff42f314649346acb6ee"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.3/crush_0.7.3_Windows_i386.zip",
+            "extract_dir": "crush_0.7.3_Windows_i386",
+            "hash": "aa8b918cd0962bf54bb0f822c1136494535f30555aa4e5d3470c5b6a3edbdf2e"
         },
         "arm64": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.2/crush_0.7.2_Windows_arm64.zip",
-            "extract_dir": "crush_0.7.2_Windows_arm64",
-            "hash": "6d3dda4614379e9f800ba422b357a66ac5b7b221f4a67be24b429a4fb432926b"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.7.3/crush_0.7.3_Windows_arm64.zip",
+            "extract_dir": "crush_0.7.3_Windows_arm64",
+            "hash": "4a70b1356d7634fcb48cc6514c71e23f849068839cdc31a4836f460842508df7"
         }
     },
     "bin": "crush.exe",
