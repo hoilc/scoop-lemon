@@ -1,19 +1,19 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "Docker and OCI Registry Client in Go and tooling using those libraries.",
     "homepage": "https://github.com/regclient/regclient",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/regclient/regclient/releases/download/v0.9.1/regctl-windows-amd64.exe#/regctl.exe",
-                "https://github.com/regclient/regclient/releases/download/v0.9.1/regsync-windows-amd64.exe#/regsync.exe",
-                "https://github.com/regclient/regclient/releases/download/v0.9.1/regbot-windows-amd64.exe#/regbot.exe"
+                "https://github.com/regclient/regclient/releases/download/v0.9.2/regctl-windows-amd64.exe#/regctl.exe",
+                "https://github.com/regclient/regclient/releases/download/v0.9.2/regsync-windows-amd64.exe#/regsync.exe",
+                "https://github.com/regclient/regclient/releases/download/v0.9.2/regbot-windows-amd64.exe#/regbot.exe"
             ],
             "hash": [
-                "f6ac941763aa2081b7cb0f63de1dfd686e51e4cb9f17a9753922aa57f312be6c",
-                "4f82470e898f1f90684de6396adf789ca0bc400e288a8275510f33969b264709",
-                "e51c57263c2d88c14ff100de1c72403436c3e543e34a984a15276b7d8a6a8402"
+                "d4c17837c58e2e1f1b16de35dd2d5ab9d4dc4fbc1c888119e75ea0d614c5bd51",
+                "85d09399d822ff572c163733f7e0d6f82904d5435abbadfd405227d291519e2c",
+                "1c38a2b102b579865aebb5b0bb601cfd36bb15e69785d2377c4121477a6d0589"
             ]
         }
     },
