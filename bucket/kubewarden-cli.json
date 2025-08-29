@@ -1,12 +1,12 @@
 {
-    "version": "1.28.0",
+    "version": "1.28.1",
     "description": "The go-to CLI tool for Kubewarden, a universal policy engine for Kubernetes.",
     "homepage": "https://kubewarden.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubewarden/kwctl/releases/download/v1.28.0/kwctl-windows-x86_64.exe.zip",
-            "hash": "ad2ac7ce9709c487528301abcb2d67e65abee59902c895b676c1c1df91047893"
+            "url": "https://github.com/kubewarden/kwctl/releases/download/v1.28.1/kwctl-windows-x86_64.exe.zip",
+            "hash": "ad91df55362081eff72a799113006b6825fa78a8d7c30cd0cc0f0aca32c182ea"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'kwctl-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'kwctl.exe'",
