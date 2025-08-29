@@ -1,13 +1,13 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "A working receiver implementation for FCast, an open source protocol for audio and video content streaming.",
     "homepage": "https://fcast.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dl.fcast.org/electron/2.2.1/zip/win32/x64/fcast-receiver-2.2.1-windows-x64.zip",
+            "url": "https://dl.fcast.org/electron/2.2.2/zip/win32/x64/fcast-receiver-2.2.2-windows-x64.zip",
             "extract_dir": "fcast-receiver-win32-x64",
-            "hash": "f8aee65e0f1d28fc3a8b38483f87633db36fbd5f79b62266ccea31fcfa9b306f"
+            "hash": "ae3326b7db0f1a5ac0fc67ccfa74c9baf62513efcd1d5638aa0f0e8c0f160037"
         }
     },
     "shortcuts": [
