@@ -1,12 +1,12 @@
 {
-    "version": "2.3.1",
+    "version": "2.3.2",
     "description": "Encode binary file to printable utf16be, and vice versa.",
     "homepage": "https://github.com/fumiama/base16384",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fumiama/base16384/releases/download/v2.3.1/base16384.com#/base16384.exe",
-            "hash": "12c22d896630e4d1f0d592bec3023270252b7c2bac359a5a09d178fedc25ed59"
+            "url": "https://github.com/fumiama/base16384/releases/download/v2.3.2/base16384.com#/base16384.exe",
+            "hash": "e9a8ba4f555d966524e9a84ecaaa341df6490397841825deb456c50eb62ddeab"
         }
     },
     "bin": "base16384.exe",
