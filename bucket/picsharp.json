@@ -1,12 +1,12 @@
 {
-    "version": "1.5.1",
+    "version": "2.0.0",
     "description": "A feature-rich, efficient and flexible cross-platform desktop image compression application.",
     "homepage": "https://github.com/AkiraBit/PicSharp",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AkiraBit/PicSharp/releases/download/v1.5.1/PicSharp_1.5.1_x64-setup.exe#/dl.7z",
-            "hash": "b458ef599ac8e6e0eb9ebbaed19488bf3ba0e5f36ea20aa8ca216ee6b0d03e49"
+            "url": "https://github.com/AkiraBit/PicSharp/releases/download/v2.0.0/PicSharp_2.0.0_x64-setup.exe#/dl.7z",
+            "hash": "aa4e1e2847756a60f3605eb8c04dc591ebbc2d2591a2a6084a7a0fb14e331da4"
         }
     },
     "bin": "picsharp-cli.exe",
