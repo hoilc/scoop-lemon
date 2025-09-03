@@ -1,12 +1,12 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A better kubectl explain with the fuzzy finder.",
     "homepage": "https://github.com/keisku/kubectl-explore",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.13.0/kubectl-explore_v0.13.0_windows_amd64.tar.gz",
-            "hash": "109b61f968a28dcfda0faf295366015a0253d047672465e3dae8abc4bd2278eb"
+            "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.14.0/kubectl-explore_v0.14.0_windows_amd64.tar.gz",
+            "hash": "0cd6579d0d15dee4d7cd3df8114b3c872931484f2d8415ae619d030ff5ffb259"
         }
     },
     "bin": "kubectl-explore.exe",
