@@ -1,12 +1,12 @@
 {
-    "version": "1.125.0",
+    "version": "1.125.1",
     "description": "A fast, cost-effective and scalable monitoring solution and time series database.",
     "homepage": "https://docs.victoriametrics.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.125.0/victoria-metrics-windows-amd64-v1.125.0.zip",
-            "hash": "6c7edc05bef49d5ed17b92a08fe03d02a1216f403e58b9e2c91ece56aa99c284"
+            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v1.125.1/victoria-metrics-windows-amd64-v1.125.1.zip",
+            "hash": "ae5a4417e4033c794d570b9edab6afc0cff53f586061dc102d3b54e5c6e8b597"
         }
     },
     "bin": "victoria-metrics.exe",
