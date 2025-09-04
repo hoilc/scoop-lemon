@@ -1,0 +1,21 @@
+{
+    "version": "8.2.1",
+    "description": "Format bazel BUILD files with a standard convention.",
+    "homepage": "https://github.com/bazelbuild/buildtools",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildifier-windows-amd64.exe#/buildifier.exe",
+            "hash": "802104da0bcda0424a397ac5be0004c372665a70289a6d5146e652ee497c0dc6"
+        }
+    },
+    "bin": "buildifier.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bazelbuild/buildtools/releases/download/v$version/buildifier-windows-amd64.exe#/buildifier.exe"
+            }
+        }
+    }
+}
