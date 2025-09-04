@@ -1,21 +1,22 @@
 {
-    "version": "0.1.9-beta-20250729",
+    "version": "0.2.6-beta",
     "description": "SnowShot 是一款功能强大的截图工具，集成了文字识别、翻译和 AI 对话等功能",
     "homepage": "https://github.com/mg-chao/snow-shot",
     "license": "Apache-2.0|GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mg-chao/snow-shot/releases/download/0.1.9-beta-20250729/Snow.Shot_0.1.9-beta-20250729_x64-setup.exe#/dl.7z",
-            "hash": "7363ac7640909e8c298982ade083d0f97e0f0ba5a45bcd43f31dfe7801b62f33"
+            "url": "https://github.com/mg-chao/snow-shot/releases/download/0.2.6-beta/Snow.Shot_0.2.6-beta_windows-x64-portable.zip",
+            "extract_dir": "Snow Shot_0.2.6-beta_windows-x64-portable",
+            "hash": "0df08152ee1b5fc2fd63f0c945e30a9d4db84ef1be40d7d91b88d9760e6c8bf6"
         }
     },
     "shortcuts": [
         [
-            "app.exe",
+            "snowshot.exe",
             "Snow Shot"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.chao.snowshot\", \"$env:LOCALAPPDATA\\com.chao.snowshot\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "Snow Shot is NOT portable.",
@@ -28,7 +29,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mg-chao/snow-shot/releases/download/$version/Snow.Shot_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/mg-chao/snow-shot/releases/download/$version/Snow.Shot_$version_windows-x64-portable.zip",
+                "extract_dir": "Snow Shot_$version_windows-x64-portable"
             }
         }
     }
