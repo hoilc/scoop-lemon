@@ -1,13 +1,13 @@
 {
-    "version": "5.0.0",
+    "version": "5.0.1",
     "description": "In-depth Attack Surface Mapping and Asset Discovery.",
     "homepage": "https://owasp.org/www-project-amass/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/owasp-amass/amass/releases/download/v5.0.0/amass_windows_amd64.tar.gz",
+            "url": "https://github.com/owasp-amass/amass/releases/download/v5.0.1/amass_windows_amd64.tar.gz",
             "extract_dir": "amass_windows_amd64",
-            "hash": "634f739a92850ce3470368ea7fbe45d148d4e05cbd445d1c668016b33d261deb"
+            "hash": "a1e0dcce87f4352c3bbbec308485bffb30550a847fd521f94b73d7ddbee384e4"
         }
     },
     "bin": "amass.exe",
