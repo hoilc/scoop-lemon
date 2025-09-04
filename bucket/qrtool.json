@@ -5,8 +5,14 @@
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/qrtool-0.12.1/qrtool-0.12.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "9516e47eed54d19f0766e02629ba394780c2dcce8999cc4839e21f9c2c2d6c24"
+            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.12.1/qrtool-v0.12.1-x86_64-pc-windows-msvc.7z",
+            "extract_dir": "qrtool-v0.12.1-x86_64-pc-windows-msvc",
+            "hash": "ee3cd9e66bf22844a3fa87514a27613dd8fc60e80ebdc5720ca4061a70c3efa9"
+        },
+        "arm64": {
+            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.12.1/qrtool-v0.12.1-aarch64-pc-windows-msvc.7z",
+            "extract_dir": "qrtool-v0.12.1-aarch64-pc-windows-msvc",
+            "hash": "a0007161fcf33f9931573d5e214b30c951c08db16325746db1916f039947724f"
         }
     },
     "bin": "qrtool.exe",
@@ -16,7 +22,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/qrtool-$version/qrtool-$version-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/sorairolake/qrtool/releases/download/v$version/qrtool-v$version-x86_64-pc-windows-msvc.7z",
+                "extract_dir": "qrtool-v$version-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/sorairolake/qrtool/releases/download/v$version/qrtool-v$version-aarch64-pc-windows-msvc.7z",
+                "extract_dir": "qrtool-v$version-aarch64-pc-windows-msvc"
             }
         }
     }
