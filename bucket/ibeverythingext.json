@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Everything 拼音搜索、快速选择扩展",
     "homepage": "https://github.com/Chaoses-Ib/IbEverythingExt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases/download/v0.9.0/IbEverythingExt.v0.9.0.zip",
-            "hash": "d025a9392631a724c32681c68d030fdae55f6c4c98f043e2a19b95c3af039364"
+            "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases/download/v0.9.1/IbEverythingExt.v0.9.1.zip",
+            "hash": "0d1e0fe3e49c47ebe58a708a9ee6a35fd356cbe0a88201b17bf999de58662b1a"
         }
     },
     "extract_dir": "IbEverythingExt",
