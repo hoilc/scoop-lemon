@@ -7,22 +7,13 @@
         "64bit": {
             "url": "https://github.com/vladimiry/ElectronMail/releases/download/v5.3.3/electron-mail-5.3.3-windows-x64-nsis-installer.exe#/dl.7z",
             "hash": "52531f3e5a6228643c86e1163d01bab9cc52757711a1728ea330b4e659a8c3c3",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
-            ]
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
-    "bin": [
-        [
-            "ElectronMail.exe",
-            "ElectronMail",
-            "--user-data-dir=\"$dir\\User Data\""
-        ]
-    ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
-            "ElectronMail.exe",
+            "electron-mail.exe",
             "ElectronMail",
             "--user-data-dir=\"$dir\\User Data\""
         ]
