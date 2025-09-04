@@ -1,16 +1,16 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.1",
     "description": "一个高性能的节点检测，订阅转换服务，支持多种检测项目，多种订阅格式转换，为用户提供便捷的订阅管理解决方案",
     "homepage": "https://github.com/bestruirui/BestSub",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bestruirui/BestSub/releases/download/v1.3.0/bestsub-windows-x86_64.zip",
-            "hash": "8aa1eed71be325475e5f64962ee258202b1f19ea9cb53a4a5ae2db97abb5911e"
+            "url": "https://github.com/bestruirui/BestSub/releases/download/v1.4.1/bestsub-windows-x86_64.zip",
+            "hash": "81813e12795b3fa8f41b786af014139c3d05f2c33a271ebcbbd35772e23ceca2"
         },
-        "arm64": {
-            "url": "https://github.com/bestruirui/BestSub/releases/download/v1.3.0/bestsub-windows-arm64.zip",
-            "hash": "ebb5e65ee276f2fe01b7f5dc102fbde42501c0831f60bd5aa888340784bf6d49"
+        "32bit": {
+            "url": "https://github.com/bestruirui/BestSub/releases/download/v1.4.1/bestsub-windows-x86.zip",
+            "hash": "d6faf5f044dfab7f9c2ba56281d1ec4a0c9924eed79351710ffd2df212d9687b"
         }
     },
     "bin": "bestsub.exe",
@@ -24,8 +24,8 @@
             "64bit": {
                 "url": "https://github.com/bestruirui/BestSub/releases/download/v$version/bestsub-windows-x86_64.zip"
             },
-            "arm64": {
-                "url": "https://github.com/bestruirui/BestSub/releases/download/v$version/bestsub-windows-arm64.zip"
+            "32bit": {
+                "url": "https://github.com/bestruirui/BestSub/releases/download/v$version/bestsub-windows-x86.zip"
             }
         }
     }
