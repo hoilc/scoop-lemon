@@ -1,18 +1,20 @@
 {
-    "version": "v2.0.3.0",
+    "version": "3.0.0.14",
     "description": "Xbox 下载助手，支持Xbox、微软商店、PSN、NS、EA Desktop & Origin、战网国际服、Epic 下载加速。",
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.3.0/XboxDownload.zip",
-            "hash": "3704eb0c0b0c212bbaf183d10d09922b1aef51702f9cba7a6d79786724e1416b"
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.14/XboxDownload-windows-x64.zip",
+            "extract_dir": "XboxDownload-windows-x64",
+            "hash": "5fb2af3c7449c661804a22142e6719a8c7ffdcbc4efd955a999be5b8f867168f"
+        },
+        "arm64": {
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.14/XboxDownload-windows-arm64.zip",
+            "extract_dir": "XboxDownload-windows-arm64",
+            "hash": "b69c08c53c28c2bdd260aa71c8ec46c20e52faf3daf18a6c074f7021ebe15e2f"
         }
     },
-    "pre_install": [
-        "Move-Item -Path \"$dir\\Xbox*\\*\" -Destination \"$dir\"",
-        "Get-ChildItem -Directory -Path \"$dir\" -Filter 'Xbox*' | Remove-Item -Force -Recurse"
-    ],
     "shortcuts": [
         [
             "XboxDownload.exe",
@@ -20,13 +22,16 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/skydevil88/XboxDownload/releases/latest",
-        "regex": "/skydevil88/XboxDownload/releases/tag/([^/]+?)\""
+        "url": "https://github.com/skydevil88/XboxDownload/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/skydevil88/XboxDownload/releases/download/$version/XboxDownload.zip"
+                "url": "https://github.com/skydevil88/XboxDownload/releases/download/v$version/XboxDownload-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/skydevil88/XboxDownload/releases/download/v$version/XboxDownload-windows-arm64.zip"
             }
         }
     }
