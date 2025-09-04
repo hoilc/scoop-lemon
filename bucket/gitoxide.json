@@ -1,26 +1,43 @@
 {
     "version": "0.45.0",
     "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git.",
-    "homepage": "https://github.com/ReFirmLabs/gitoxide",
+    "homepage": "https://github.com/GitoxideLabs/gitoxide",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gitoxide-0.45.0/gitoxide-0.45.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "cf3167e17c0e47e258f54181e55c5689e33f4c6de892540ff2e3160b83a8e5ea"
+            "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "gitoxide-max-v0.45.0-x86_64-pc-windows-msvc",
+            "hash": "231f2c7bb0f65dd0cfe7f19de9336fa48a6096009dde6382e45a263a782a4a5f"
+        },
+        "32bit": {
+            "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-i686-pc-windows-msvc.zip",
+            "extract_dir": "gitoxide-max-v0.45.0-i686-pc-windows-msvc",
+            "hash": "84a04abf0fbaaecb19e5e0126864e7115a3daaa6a6694fa83912413b7d36b570"
+        },
+        "arm64": {
+            "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "gitoxide-max-v0.45.0-aarch64-pc-windows-msvc",
+            "hash": "c8d89eea77682ca331fb2387d0506267b106417695fce1417b30239ca5f0d539"
         }
     },
     "bin": [
         "ein.exe",
         "gix.exe"
     ],
-    "checkver": {
-        "url": "https://crates.io/api/v1/crates/gitoxide?include=default_version",
-        "jsonpath": "$.crate.default_version"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gitoxide-$version/gitoxide-$version-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "gitoxide-max-v0.45.0-x86_64-pc-windows-msvc"
+            },
+            "32bit": {
+                "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-i686-pc-windows-msvc.zip",
+                "extract_dir": "gitoxide-max-v0.45.0-i686-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.45.0/gitoxide-max-v0.45.0-aarch64-pc-windows-msvc.zip",
+                "extract_dir": "gitoxide-max-v0.45.0-aarch64-pc-windows-msvc"
             }
         }
     }
