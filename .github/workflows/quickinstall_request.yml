@@ -1,0 +1,80 @@
+name: Quickinstall Request
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  request:
+    name: Request Builds
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [x86_64, aarch64]
+        include:
+          - arch: x86_64
+            runner: windows-latest
+            target: x86_64-pc-windows-msvc
+          - arch: aarch64
+            runner: windows-11-arm
+            target: aarch64-pc-windows-msvc
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install cargo-binstall
+        uses: cargo-bins/cargo-binstall@v1.14.4
+        env:
+          BINSTALL_VERSION: v1.14.4
+
+      - name: Find crates and request builds
+        shell: pwsh
+        run: |
+          $base = 'https://github.com/cargo-bins/cargo-quickinstall'
+          $files = Get-ChildItem -Path 'bucket' -Recurse -Filter '*.json'
+          $crates = [System.Collections.Generic.HashSet[string]]::new()
+
+          foreach ($f in $files) {
+            try {
+              $text = Get-Content -Raw -LiteralPath $f.FullName
+              if (-not $text) { continue }
+
+              # Find the first occurrence of a cargo-quickinstall URL anywhere in the manifest (covers url, architecture.*, autoupdate, etc.)
+              $m = [regex]::Match($text, 'https://github\.com/cargo-bins/cargo-quickinstall[^\s"''\)\}]*')
+              if (-not $m.Success) { continue }
+
+              $u = $m.Value
+              $clean = $u.Split('?')[0]
+
+              # Directly extract crate from the URL (from filename or tag), e.g. foo-1.2.3-... => crate "foo"
+              $crate = $null
+              if ($clean -match '([A-Za-z0-9_-]+)-\d[\w\.\-]*') {
+                $crate = $Matches[1]
+              }
+
+              if ($crate) {
+                if ($crates.Add($crate)) {
+                  Write-Host "Found crate '$crate' in $($f.Name)"
+                }
+              } else {
+                Write-Warning "Could not determine crate name from URL: $u"
+              }
+            } catch {
+              Write-Warning "Failed processing: $($f.FullName)."
+            }
+          }
+
+          if ($crates.Count -eq 0) {
+            Write-Host "No crates found pointing to $base."
+            exit 0
+          }
+
+          Write-Host "Crates to request: $([string]::Join(', ', $crates))"
+
+          $crateList = @($crates)
+          cargo-binstall --strategies quick-install --targets ${{ matrix.target }} --continue-on-failure --verbose --no-confirm $crateList
+          $global:LASTEXITCODE = 0
+
+          Write-Host "Done"
