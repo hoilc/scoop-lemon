@@ -1,5 +1,5 @@
 {
-    "version": "1.12.1",
+    "version": "1.13.0",
     "description": "A viewer for .slint files from the Slint Project.",
     "homepage": "https://crates.io/crates/slint-viewer",
     "license": {
@@ -8,11 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/slint-ui/slint/releases/download/v1.12.1/slint-viewer-windows-x86_64-pc-windows-msvc.zip",
-            "hash": "856458a80aa81053f0a03ab424f2f350249f46a80a6d41bdf3676589a6a57799"
+            "url": "https://github.com/slint-ui/slint/releases/download/v1.13.0/slint-viewer-windows-x86_64.zip",
+            "hash": "c64608e49ee99796080ec0165be708ff2dba03e9c07b200e8814e935ee044708"
+        },
+        "arm64": {
+            "url": "https://github.com/slint-ui/slint/releases/download/v1.13.0/slint-viewer-windows-arm64.zip",
+            "hash": "9132340326b96e26b6038298a25a01c102d48f69cd7e186e5359e1a6915464ed"
         }
     },
-    "extract_dir": "slint-viewer",
     "bin": "slint-viewer.exe",
     "checkver": {
         "github": "https://github.com/slint-ui/slint"
@@ -20,7 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/slint-ui/slint/releases/download/v$version/slint-viewer-windows-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/slint-ui/slint/releases/download/v$version/slint-viewer-windows-x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/slint-ui/slint/releases/download/v$version/slint-viewer-windows-arm64.zip"
             }
         }
     }
