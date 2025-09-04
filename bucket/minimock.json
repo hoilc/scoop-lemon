@@ -1,20 +1,20 @@
 {
-    "version": "3.4.6",
+    "version": "3.4.7",
     "description": "A powerful mock generation tool for Go programming language.",
     "homepage": "https://github.com/gojuno/minimock",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.6/minimock_3.4.6_windows_amd64.tar.gz",
-            "hash": "fee90910f19fceb8f07c70b102de7b8a87ea5a642383a7e13965a1cdd464392c"
+            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.7/minimock_3.4.7_windows_amd64.tar.gz",
+            "hash": "354ea6a5652bf618c19e546fdf187ef9fe541d57abffd4f936d1c328c273ff9f"
         },
         "32bit": {
-            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.6/minimock_3.4.6_windows_386.tar.gz",
-            "hash": "6e2755d0cbeea10a5b9ef362626b1497ccd3d82bab3e92717732535070f9991b"
+            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.7/minimock_3.4.7_windows_386.tar.gz",
+            "hash": "57c6c2af180cd8ab01d9e1de853ecaa56fd64ed00febbf9782b2d48145f5e437"
         },
         "arm64": {
-            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.6/minimock_3.4.6_windows_arm64.tar.gz",
-            "hash": "29961de0617b502da28a543fb7fa82da0000a40384e3be781a827cdf56eaedf3"
+            "url": "https://github.com/gojuno/minimock/releases/download/v3.4.7/minimock_3.4.7_windows_arm64.tar.gz",
+            "hash": "6ba99286b32dfcaf7aa340dc8c6d1c2ab763fe3ab03e0efdc04bfd20953ebed5"
         }
     },
     "bin": "minimock.exe",
