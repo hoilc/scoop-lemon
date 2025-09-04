@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/981213/mtk_uartboot/releases/download/v0.1.1/mtk_uartboot-v0.1.1-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "mtk_uartboot-v0.1.1-x86_64-pc-windows-msvc",
             "hash": "15f1f7a2c61edb70bfa56a79f6edc56001d88c5551b880567845dd6b071f7128"
         }
     },
