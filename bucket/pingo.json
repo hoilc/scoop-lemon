@@ -11,7 +11,7 @@
     },
     "bin": "pingo.exe",
     "checkver": {
-        "regex": "v(.+?) — "
+        "regex": ">v([\\d\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
