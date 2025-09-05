@@ -3,7 +3,7 @@ name: Quickinstall Request
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
 
 jobs:
   request:
@@ -31,6 +31,8 @@ jobs:
 
       - name: Find crates and request builds
         shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           $base = 'https://github.com/cargo-bins/cargo-quickinstall'
           $files = Get-ChildItem -Path 'bucket' -Recurse -Filter '*.json'
