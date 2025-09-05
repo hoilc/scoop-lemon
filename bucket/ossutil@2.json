@@ -1,18 +1,18 @@
 {
-    "version": "2.1.2-beta.07241300",
+    "version": "2.2.0-beta.09051900",
     "description": "The version 2.0 of command-line tool ossutil, a user friendly command line tool to access AliCloud OSS.",
     "homepage": "https://github.com/aliyun/ossutil/tree/v2",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://gosspublic.alicdn.com/ossutil/v2-beta/2.1.2-beta.07241300/ossutil-2.1.2-beta.07241300-windows-amd64.zip",
-            "extract_dir": "ossutil-2.1.2-beta.07241300-windows-amd64",
-            "hash": "efcbe9d2c935f89141400f67a58316ef32808ef72bb4d7c18724424b5d01085d"
+            "url": "https://gosspublic.alicdn.com/ossutil/v2-beta/2.2.0-beta.09051900/ossutil-2.2.0-beta.09051900-windows-amd64.zip",
+            "extract_dir": "ossutil-2.2.0-beta.09051900-windows-amd64",
+            "hash": "57716dca5692b80de5ae7ec0412ae2b9a48ff3809f982d592d749e56975a7c12"
         },
         "32bit": {
-            "url": "https://gosspublic.alicdn.com/ossutil/v2-beta/2.1.2-beta.07241300/ossutil-2.1.2-beta.07241300-windows-386.zip",
-            "extract_dir": "ossutil-2.1.2-beta.07241300-windows-386",
-            "hash": "ddfb725368aa81d7cf94425ba35232b334f0091b790d104972560b447b94d534"
+            "url": "https://gosspublic.alicdn.com/ossutil/v2-beta/2.2.0-beta.09051900/ossutil-2.2.0-beta.09051900-windows-386.zip",
+            "extract_dir": "ossutil-2.2.0-beta.09051900-windows-386",
+            "hash": "14abd415c4c86506b7b9a6af916d65119da78bb27bee13be41ae203d949e53f3"
         }
     },
     "bin": "ossutil.exe",
