@@ -1,10 +1,10 @@
 {
-    "version": "2.15.0.904",
+    "version": "2.15.0.905",
     "description": "A Text-To-Speech (TTS) program uses various versions of Microsoft Speech API (SAPI).",
     "homepage": "https://www.cross-plus-a.com/bportable.htm",
     "license": "Freeware",
     "url": "https://www.cross-plus-a.com/balabolka_portable.zip",
-    "hash": "f4ecd6655bb50fe31a8bc26eef8b71695f5c9b921a2aeff631f3b35d28ea8b52",
+    "hash": "4be00a2e0eb489d5507a00d1ec8ca6d6ecb2a60cb99388918f5d3e9f49480cfd",
     "extract_dir": "Balabolka",
     "pre_install": "if(Test-Path \"$persist_dir\\balabolka.pcfg\") { Copy-Item \"$persist_dir\\balabolka.pcfg\" \"$dir\\balabolka.pcfg\" | Out-Null }",
     "uninstaller": {
