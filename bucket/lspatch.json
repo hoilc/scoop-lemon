@@ -1,0 +1,21 @@
+{
+    "version": "0.7",
+    "description": "Rootless implementation of LSPosed framework, integrating Xposed API by inserting dex and so into the target APK.",
+    "homepage": "https://github.com/JingMatrix/LSPatch",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/JingMatrix/LSPatch/releases/download/v0.7/lspatch.jar",
+    "hash": "a90a49589e3c8578dfc942a6add42b91fb11e12576701e4ad7eb1d026c97e21e",
+    "bin": "lspatch.jar",
+    "suggest": {
+        "JDK 21+": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "notes": "You need to have JRE 21 installed on your computer to use LSPatch CLI.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/JingMatrix/LSPatch/releases/download/v$version/lspatch.jar"
+    }
+}
