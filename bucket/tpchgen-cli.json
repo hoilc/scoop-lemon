@@ -1,19 +1,19 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Blazing fast TPCH benchmark data generator, in pure Rust with zero dependencies.",
     "homepage": "https://github.com/clflushopt/tpchgen-rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/t/tpchgen-cli/tpchgen_cli-2.0.0-py3-none-win_amd64.whl#/dl.zip",
-            "hash": "58e262e3f115d4103ee5ce216ee70304bdeeb1e53c8314be77c824e48df15327"
+            "url": "https://files.pythonhosted.org/packages/py3/t/tpchgen-cli/tpchgen_cli-2.0.1-py3-none-win_amd64.whl#/dl.zip",
+            "hash": "86f0904b4c4051ea503735aab7dc30b9868bb1a7afb4ac873a8ff1d51fca55cf"
         },
         "32bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/t/tpchgen-cli/tpchgen_cli-2.0.0-py3-none-win32.whl#/dl.zip",
-            "hash": "9ada7611dd49e350be265ad147c21a37f14e7e3babc24c79a277ce721a7f017a"
+            "url": "https://files.pythonhosted.org/packages/py3/t/tpchgen-cli/tpchgen_cli-2.0.1-py3-none-win32.whl#/dl.zip",
+            "hash": "3e7c2a31818e4ae175fcdb78bbe7307fb9274ed6733020404f0f72d446bda5a7"
         }
     },
-    "extract_dir": "tpchgen_cli-2.0.0.data\\scripts",
+    "extract_dir": "tpchgen_cli-2.0.1.data\\scripts",
     "bin": "tpchgen-cli.exe",
     "checkver": "github",
     "autoupdate": {
