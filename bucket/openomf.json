@@ -1,10 +1,10 @@
 {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "An Open Source remake of \"One Must Fall 2097\" by Diversions Entertainment.",
     "homepage": "https://www.openomf.org/",
     "license": "MIT",
-    "url": "https://github.com/omf2097/openomf/releases/download/0.8.3/openomf_0.8.3_windows.zip",
-    "hash": "831dd45af3fc9c04dc78f1a6edbe2d62cc143cfbb1a28f737edbbc67d9566d91",
+    "url": "https://github.com/omf2097/openomf/releases/download/0.8.4/openomf_0.8.4_windows.zip",
+    "hash": "cf6d9c9ed93df93e380cf96b8cb0b9038801d60a97f34e7289a72bfb3fceeb5c",
     "extract_dir": "openomf",
     "architecture": {
         "64bit": {
