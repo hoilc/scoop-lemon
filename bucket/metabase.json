@@ -1,10 +1,10 @@
 {
-    "version": "0.56.4",
+    "version": "0.56.5",
     "description": "Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.",
     "homepage": "https://github.com/metabase/metabase",
     "license": "AGPL-3.0-only",
-    "url": "https://downloads.metabase.com/v0.56.4/metabase.jar",
-    "hash": "ad8bab8af81e715056e80e8ef029810e4f2b33e8814f5afb347c78803263ef90",
+    "url": "https://downloads.metabase.com/v0.56.5/metabase.jar",
+    "hash": "a024e5c47841763a03cb095896c46f93f5b91190b8d44bdef3a2865b0f293f92",
     "bin": "metabase.jar",
     "suggest": {
         "JDK": [
