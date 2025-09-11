@@ -1,16 +1,16 @@
 {
-    "version": "1.12.3",
+    "version": "1.13.0",
     "description": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results.",
     "homepage": "https://github.com/gotestyourself/gotestsum",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.3/gotestsum_1.12.3_windows_amd64.tar.gz",
-            "hash": "e879be4f9b0c2eb7fb34fd4a71c183fde18db67557c2e9013ccb8da1f101dc12"
+            "url": "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_windows_amd64.tar.gz",
+            "hash": "fd5a6dc69e46a0970593e70d85a7e75f16714e9c61d6d72ccc324eb82df5bb8a"
         },
         "arm64": {
-            "url": "https://github.com/gotestyourself/gotestsum/releases/download/v1.12.3/gotestsum_1.12.3_windows_arm64.tar.gz",
-            "hash": "cfa211ece3817634b2168fbfcb6f5655bcde0e725f04e832bf168a6350933dfc"
+            "url": "https://github.com/gotestyourself/gotestsum/releases/download/v1.13.0/gotestsum_1.13.0_windows_arm64.tar.gz",
+            "hash": "72a59200f83b3204cd59fd417e384db0543c5511d7a9e38957e74a4035950943"
         }
     },
     "bin": "gotestsum.exe",
