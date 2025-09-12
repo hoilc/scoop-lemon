@@ -1,38 +1,30 @@
 {
-    "version": "0.2.12",
+    "version": "0.2.17",
     "description": "A CLI tool that unlocks encrypted music file.",
-    "homepage": "https://git.unlock-music.dev/um/cli",
+    "homepage": "https://git.um-react.app/um/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.12/um-windows-arm64.zip",
-            "hash": "5793ef78cb7861b1bb2a1364ca86b475a89057515715989852792455608bb2e7"
-        },
-        "32bit": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.12/um-windows-amd64.zip",
-            "hash": "6a23d06a40b03e9ceba8fa2420023dd19f6d5766552f7d6819ed1612419ef67d"
+            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.17/um-windows-amd64-v0.2.17.zip",
+            "hash": "aff8da5d3f94514240fad34c626c89a34ce099216a73f3e55c02c857ff9a51bb"
         },
         "arm64": {
-            "url": "https://git.unlock-music.dev/um/cli/releases/download/v0.2.12/um-windows-386.zip",
-            "hash": "7a812626b324f7f0da598de125902e6061f52723380a3258b8d7e53f271a41bd"
+            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.17/um-windows-arm64-v0.2.17.zip",
+            "hash": "4debcca1e719a343a7b3ade29c107521b18c72e709c43e8dc3479d47cd25e425"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\" 'um-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'um.exe'",
     "bin": "um.exe",
     "checkver": {
-        "url": "https://git.unlock-music.dev/um/cli/releases.rss",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "url": "https://git.um-react.app/um/cli/releases/latest",
+        "regex": "/releases/tag/v([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-arm64.zip"
-            },
-            "32bit": {
-                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-amd64.zip"
+                "url": "https://git.um-react.app/um/cli/releases/download/v$version/um-windows-amd64-v$version.zip"
             },
             "arm64": {
-                "url": "https://git.unlock-music.dev/um/cli/releases/download/v$version/um-windows-386.zip"
+                "url": "https://git.um-react.app/um/cli/releases/download/v$version/um-windows-arm64-v$version.zip"
             }
         },
         "hash": {
