@@ -1,10 +1,10 @@
 {
     "version": "1.0.38",
     "description": "An easy to use audio player intended for casual computer users who do not wish to spend their time on figuring more sophisticated software out.",
-    "homepage": "https://perkele.cc/software/boom",
+    "homepage": "https://www.foobar2000.org/other/boom?realm=main&path=software/boom",
     "license": "Freeware",
-    "url": "https://perkele.cc/download/Boom.exe",
-    "hash": "51fd16fe4f15f9a9a55056ee526e54d1fca8e9eeeb4228c54ff1f90edfa76ef5",
+    "url": "https://www.foobar2000.org/downloads/Boom-1.0.38.zip",
+    "hash": "0fee3dc5336497352ab47dcbdf2138c6054e623e2006b7ac7a5ff8f41d868688",
     "shortcuts": [
         [
             "Boom.exe",
@@ -17,9 +17,9 @@
         "Boom.exe.localconfig.opt"
     ],
     "checkver": {
-        "regex": "Current version:\\s+([\\d.]+)"
+        "regex": "Boom-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://perkele.cc/download/Boom.exe"
+        "url": "https://www.foobar2000.org/downloads/Boom-$version.zip"
     }
 }
