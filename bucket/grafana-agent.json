@@ -11,17 +11,5 @@
     },
     "bin": "grafana-agent.exe",
     "pre_install": "Get-ChildItem \"$dir\" 'grafana-agent-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'grafana-agent.exe'",
-    "checkver": {
-        "github": "https://github.com/grafana/agent"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/grafana/agent/releases/download/v$version/grafana-agent-windows-amd64.exe.zip"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/SHA256SUMS"
-        }
-    }
+    "notes": "Grafana Agent will reach an End-of-Life (EOL) on November 1, 2025."
 }
