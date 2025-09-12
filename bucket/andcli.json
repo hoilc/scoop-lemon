@@ -1,16 +1,16 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "A 2FA TUI for your shell.",
     "homepage": "https://github.com/tjblackheart/andcli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.3.0/andcli_v2.3.0_win_amd64.exe#/andcli.exe",
-            "hash": "bf9900f3fa0f938a42b5d8fe41714555c5dcf7ba288924d830b443999fb2a75a"
+            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.4.0/andcli_v2.4.0_windows_amd64.exe#/andcli.exe",
+            "hash": "2931b7e9477382ee47fe6a2e33e7a441bf25975d1dc2e9d1ff0e85e69656dbfc"
         },
         "arm64": {
-            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.3.0/andcli_v2.3.0_win_arm64.exe#/andcli.exe",
-            "hash": "f688bf74f1c336518a41e4053244f5596472c5b59054d0b24a17a0d54938c9ec"
+            "url": "https://github.com/tjblackheart/andcli/releases/download/v2.4.0/andcli_v2.4.0_windows_arm64.exe#/andcli.exe",
+            "hash": "fd5cad0e624ae0a52f2b9c05d76b33799bc74971303575d8788b71d147b2dffc"
         }
     },
     "bin": "andcli.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tjblackheart/andcli/releases/download/v$version/andcli_v$version_win_amd64.exe#/andcli.exe"
+                "url": "https://github.com/tjblackheart/andcli/releases/download/v$version/andcli_v$version_windows_amd64.exe#/andcli.exe"
             },
             "arm64": {
-                "url": "https://github.com/tjblackheart/andcli/releases/download/v$version/andcli_v$version_win_arm64.exe#/andcli.exe"
+                "url": "https://github.com/tjblackheart/andcli/releases/download/v$version/andcli_v$version_windows_arm64.exe#/andcli.exe"
             }
         }
     }
