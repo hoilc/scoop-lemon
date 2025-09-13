@@ -1,10 +1,10 @@
 {
-    "version": "1.117",
+    "version": "1.118",
     "description": "The utility allows to extract text from the various types of files including AZW, AZW3, CHM, DjVu, DOC, DOCX, EML, EPUB, FB2, FB3, HTML, LIT, MD, MOBI, ODP, ODS, ODT, PDB, PRC, PDF, PPT, PPTX, RTF, TCR, WPD, XLS, XLSX.",
     "homepage": "https://www.cross-plus-a.com/btext.htm",
     "license": "Freeware",
     "url": "https://www.cross-plus-a.com/blb2txt.zip",
-    "hash": "7103cb417b4d3ce1768119e16f007c83841d287d361a039bfac76ed248cb3649",
+    "hash": "b88b7a01eb5079fda949173b54445f19213dcf9ac76c44eadb19ba5fe28921cd",
     "bin": "blb2txt.exe",
     "checkver": {
         "url": "https://www.cross-plus-a.com/blb2txt/changelog.txt",
