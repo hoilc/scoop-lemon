@@ -1,0 +1,24 @@
+{
+    "version": "0.1.7",
+    "description": "Typing speed test with practice mode in GUI, TUI and CLI.",
+    "homepage": "https://github.com/mzums/typeman",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.1.7/typeman-0.1.7-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "c07a4569c41b276493301e047dfabe597719eb219a87b8ce3d8731ad5e185c28"
+        }
+    },
+    "bin": "typeman.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/typeman?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-$version/typeman-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
