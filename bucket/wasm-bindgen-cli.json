@@ -1,7 +1,7 @@
 {
     "version": "0.2.101",
     "description": "A CLI tool that facilitate high-level interactions between Wasm modules and JavaScript.",
-    "homepage": "https://rustwasm.github.io/docs/wasm-bindgen/",
+    "homepage": "https://wasm-bindgen.github.io/wasm-bindgen/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
@@ -12,11 +12,10 @@
     },
     "bin": [
         "wasm-bindgen.exe",
-        "wasm-bindgen-test-runner.exe",
         "wasm2es6js.exe"
     ],
     "checkver": {
-        "github": "https://github.com/rustwasm/wasm-bindgen"
+        "github": "https://github.com/wasm-bindgen/wasm-bindgen"
     },
     "autoupdate": {
         "architecture": {
