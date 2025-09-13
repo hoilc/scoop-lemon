@@ -1,16 +1,16 @@
 {
-    "version": "4.21",
+    "version": "4.30",
     "description": "AirDC++ is an easy to use client for Advanced Direct Connect and Direct Connect networks.",
     "homepage": "https://www.airdcpp.net/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/airdcpp/airdcpp-windows/releases/download/4.21/airdcpp_4.21_x64.7z",
-            "hash": "1a5a4a8b0c5ae4a0ae1d5c1bb4d9aa373a808ba97dd7e81006ae5da1743dd315"
+            "url": "https://github.com/airdcpp/airdcpp-windows/releases/download/4.30/airdcpp_4.30_x64.7z",
+            "hash": "558ea3f8c92818162925396e2dd7d250b1b5450e9f03b7771969a62b87386fff"
         },
         "32bit": {
-            "url": "https://github.com/airdcpp/airdcpp-windows/releases/download/4.21/airdcpp_4.21_x86.7z",
-            "hash": "b95ac8d0ec02aeb38eac9e989cae879d003be9e2d5fab32e263003859004cd0a"
+            "url": "https://github.com/airdcpp/airdcpp-windows/releases/download/4.30/airdcpp_4.30_x86.7z",
+            "hash": "fabf0f043b6770fe565b66a7b534e1c4e7e024ef94564b5b8defef917783fe27"
         }
     },
     "persist": "Settings",
