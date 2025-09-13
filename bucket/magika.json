@@ -1,26 +1,27 @@
 {
-    "version": "0.6.2",
+    "version": "1.0.0",
     "description": "A tool to determine the content type of a file with deep learning.",
     "homepage": "https://github.com/google/magika",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/m/magika/magika-0.6.2-py3-none-win_amd64.whl#/dl.zip",
-            "hash": "711f427a633e0182737dcc2074748004842f870643585813503ff2553b973b9f"
+            "url": "https://github.com/google/magika/releases/download/cli%2Fv1.0.0/magika-x86_64-pc-windows-msvc.zip",
+            "hash": "ca7623ed75212018d59bc91ef9d443e0729640f0350cfd1878bc576db13ac4aa"
         }
     },
-    "extract_dir": "magika-0.6.2.data\\scripts",
     "bin": "magika.exe",
     "checkver": {
         "url": "https://github.com/google/magika/releases.atom",
-        "regex": "Repository/\\d+/python-v(.+?)<"
+        "regex": "Repository/\\d+/cli/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://files.pythonhosted.org/packages/py3/m/magika/magika-$version-py3-none-win_amd64.whl#/dl.zip"
+                "url": "https://github.com/google/magika/releases/download/cli%2Fv$version/magika-x86_64-pc-windows-msvc.zip"
             }
         },
-        "extract_dir": "magika-$version.data\\scripts"
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }
