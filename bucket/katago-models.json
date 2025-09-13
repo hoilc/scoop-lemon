@@ -1,13 +1,13 @@
 {
-    "version": "kata1-b28c512nbt-s10544735488-d5229296520",
+    "version": "kata1-b28c512nbt-s10663849728-d5263786185",
     "description": "Strongest confidently-rated neural networks for KataGo.",
     "homepage": "https://katagotraining.org/",
     "license": {
         "identifier": "MIT",
         "url": "https://katagotraining.org/network_license/"
     },
-    "url": "https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-b28c512nbt-s10544735488-d5229296520.bin.gz#/model.dontautoexpand",
-    "hash": "87a9a8cefad1bbdcda9b63089ff03d88fefff692d78217daab9d32ec9bb7a301",
+    "url": "https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-b28c512nbt-s10663849728-d5263786185.bin.gz#/model.dontautoexpand",
+    "hash": "277d11cba7630117df8028d5e09599f91fb397e76213da7e7a554993489ddec9",
     "pre_install": "Get-ChildItem \"$dir\" 'model.dontautoexpand' | Select-Object -First 1 | Rename-Item -NewName 'model.bin.gz'",
     "checkver": {
         "url": "https://katagotraining.org/networks/",
