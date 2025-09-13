@@ -1,13 +1,13 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "A TUI Application to manage Obsidian notes directly from the terminal.",
     "homepage": "https://github.com/erikjuhani/basalt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erikjuhani/basalt/releases/download/basalt%2Fv0.10.1/basalt-0.10.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/erikjuhani/basalt/releases/download/basalt%2Fv0.10.2/basalt-0.10.2-x86_64-pc-windows-msvc.zip",
             "extract_dir": "target\\x86_64-pc-windows-msvc\\release",
-            "hash": "586dfd7f3864646532636c2ed3e3673fcc446ab25a27813a89a352bf03d540a5"
+            "hash": "a73eae60337183061cfb7bed3b9c7659891b27812bbaedb56ade995f8a1805e3"
         }
     },
     "bin": "basalt.exe",
