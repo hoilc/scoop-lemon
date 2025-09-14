@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "A comic reader that support reading local and network comics.",
     "homepage": "https://github.com/venera-app/venera",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/venera-app/venera/releases/download/v1.5.0/Venera-1.5.0-windows.zip",
-            "hash": "501c5cf6451437906ccd10847ad15f5121de6109b468b9270751fea9872e5a79"
+            "url": "https://github.com/venera-app/venera/releases/download/v1.5.1/Venera-1.5.1-windows.zip",
+            "hash": "3040cded0fc16291f20b68f07900cc21c9c4c29f475b40ec61fdd7edb2b87aea"
         }
     },
     "shortcuts": [
