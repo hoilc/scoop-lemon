@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ag-0.19.5/ag-0.19.5-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "2088093be20d638de42eb9f1f8b9f67618dc189e5d42552952473c6fe0b87732"
+            "hash": "045abd0a454eb3824b485bdca0f2f21ffa31eab3a1b4cfdacca426eb400d4f2c"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ag-0.19.5/ag-0.19.5-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "f5261e12dc2603fe0da82bb8c7eb5e7ccefa8cb8c745faa4907f164003b3e25b"
         }
     },
     "bin": "agrind.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ag-$version/ag-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ag-$version/ag-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
