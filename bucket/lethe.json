@@ -1,0 +1,23 @@
+{
+    "version": "0.8.2",
+    "description": "A secure, free, cross-platform and open-source drive wiping utility.",
+    "homepage": "https://github.com/Kostassoid/lethe",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kostassoid/lethe/releases/download/v0.8.2/lethe-v0.8.2-x86_64-pc-windows-gnu.zip",
+            "extract_dir": "lethe-v0.8.2-x86_64-pc-windows-gnu",
+            "hash": "9dfaf510b511cee9b00a6dfa9630767b9c8806f771ece5796b401c319181e09e"
+        }
+    },
+    "bin": "lethe.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kostassoid/lethe/releases/download/v$version/lethe-v$version-x86_64-pc-windows-gnu.zip",
+                "extract_dir": "lethe-v$version-x86_64-pc-windows-gnu"
+            }
+        }
+    }
+}
