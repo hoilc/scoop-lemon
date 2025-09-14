@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/svg2pdf-cli-0.13.0/svg2pdf-cli-0.13.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "2f5e78da24cc837fdedbe01970d59edbb9ecab0f535e661d9a72b86027816634"
+            "hash": "63460fd5d312346796768a57ff762b57f47d7c103651fce2e1fa6457b072fe7e"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/svg2pdf-cli-0.13.0/svg2pdf-cli-0.13.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "a1ffe1b2daf435e9d73f784a43b95ee284bd7afa53eb1b146dc7fd02b342c794"
         }
     },
     "bin": "svg2pdf.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/svg2pdf-cli-$version/svg2pdf-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/svg2pdf-cli-$version/svg2pdf-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
