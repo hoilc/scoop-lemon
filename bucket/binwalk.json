@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-3.1.0/binwalk-3.1.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "755644662f52525e3536f3bc1b9f2e83e63af282eb0d6ada94a23e851301b905"
+            "hash": "9c7fec252d3dd095ec02f6339c3e698a6c3543822f62e12b6baaa0743da2376f"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-3.1.0/binwalk-3.1.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4d2a09bbcf8530e28a597e308b1621d0f475b164aaf5c41b4e1adb5a6c92a6b8"
         }
     },
     "bin": "binwalk.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-$version/binwalk-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/binwalk-$version/binwalk-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
