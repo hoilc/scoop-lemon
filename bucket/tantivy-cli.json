@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tantivy-cli-0.24.0/tantivy-cli-0.24.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "0ae812725ffd24a3bdeea70c462f7f7b9fd486a2558f0fa4d6f54fd1dac99f72"
+            "hash": "8dfeea5fb4beb0e23f2515723cc5d8ae011da5a16f24880595328845d48d4a39"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tantivy-cli-0.24.0/tantivy-cli-0.24.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "d10778712f2e08286caa5444e8f9a02cee2590e4996d56597c897108de4677bc"
         }
     },
     "bin": "tantivy.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tantivy-cli-$version/tantivy-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tantivy-cli-$version/tantivy-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
