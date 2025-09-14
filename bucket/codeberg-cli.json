@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/codeberg-cli-0.4.11/codeberg-cli-0.4.11-x86_64-pc-windows-msvc.tar.gz",
             "hash": "3bbd0ad0a55965761ee5073ef01999b9e8d40c3b03eaed5c7840d66142a15ac0"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/codeberg-cli-0.4.11/codeberg-cli-0.4.11-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "cdea43265640ec483e2bb65bdbee6da19ab32625cb14bde690026a3def463bcf"
         }
     },
     "bin": "berg.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/codeberg-cli-$version/codeberg-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/codeberg-cli-$version/codeberg-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
