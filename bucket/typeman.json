@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.1.7/typeman-0.1.7-x86_64-pc-windows-msvc.tar.gz",
             "hash": "c07a4569c41b276493301e047dfabe597719eb219a87b8ce3d8731ad5e185c28"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.1.7/typeman-0.1.7-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "d7ba5b8170fb676d97539da3af77443b0588983019ae94fd4c3df1c63c134ec8"
         }
     },
     "bin": "typeman.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-$version/typeman-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-$version/typeman-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
