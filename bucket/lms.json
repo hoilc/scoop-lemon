@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-0.4.0/lms-0.4.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "64a9b54c6ef4ccf050e2a4534b0ebd4f667d52a0332cd336d73f8f0a6d101361"
+            "hash": "0f986bfb38a557d45170bc70f5eace4b8b836d715ed26891bdd343786a3c38f9"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-0.4.0/lms-0.4.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "77b1e1b2e76ba043f18966e61326f217553f7e02237edec675ad50d020d84085"
         }
     },
     "bin": "lms.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-$version/lms-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lms-$version/lms-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
