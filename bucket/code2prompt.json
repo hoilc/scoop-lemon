@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-3.0.2/code2prompt-3.0.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "f8529668433fd71de849eab7c4574ecb5b95178703a299a6d6b96767dc2fc715"
+            "hash": "4f5c395a8196092d9b1a012596e897dc1ab2bb959b763074cdd49dd48389eafe"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-3.0.2/code2prompt-3.0.2-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "43bacd286ed19e715ffdbd4a7846a73ebf25afd6433846063299c68b7915ced5"
         }
     },
     "bin": "code2prompt.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
