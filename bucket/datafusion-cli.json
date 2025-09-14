@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-49.0.2/datafusion-cli-49.0.2-x86_64-pc-windows-msvc.tar.gz",
             "hash": "81a8aee3fbaef68544908d282d5cd65964ae0a74705370179d429d907c4c4d46"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-49.0.2/datafusion-cli-49.0.2-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "8350485d0aaa9c8ba3277fadada69fa1f14faf292101d93877a49f62a8ef66b5"
         }
     },
     "bin": "datafusion-cli.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-$version/datafusion-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-$version/datafusion-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
