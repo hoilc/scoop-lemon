@@ -6,7 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-1.9.0/lumen-1.9.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "d95784308823775019ae1f93961eb4edea82dca21b6c4ac9d9ddabc2a4cf93fa"
+            "hash": "43771ef5e3dd6bcd4903a22a483e5c71a63ef5961ffacba7f7e8889cf5456fcb"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-1.9.0/lumen-1.9.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "d4eed482464b7b02a05dd0ae3d0c2355373ff0dd49d203325c956e86270883c0"
         }
     },
     "bin": "lumen.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-$version/lumen-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-$version/lumen-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
