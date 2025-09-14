@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.14.0/fblog-4.14.0-x86_64-pc-windows-msvc.tar.gz",
             "hash": "0a018e6e60427c193e3bd50ab173bd5bb50d60c1626aab26d87ead2b90bf3205"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.14.0/fblog-4.14.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "6ab603cdacc137fd24364602d2c5d02d4fce60a083c31976636deda3af7d136e"
         }
     },
     "bin": "fblog.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-$version/fblog-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-$version/fblog-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
