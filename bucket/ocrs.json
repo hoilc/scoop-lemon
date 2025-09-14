@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.11.0/ocrs-cli-0.11.0-x86_64-pc-windows-msvc.tar.gz",
             "hash": "9c32f89491b328adf3e35c16bc94046cb344f1586abe32e4da29952967adbd0c"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.11.0/ocrs-cli-0.11.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "c67a1c985c335accf9ca556fc3305efd03e52f26297ee42b167ad5919421b150"
         }
     },
     "bin": "ocrs.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-$version/ocrs-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-$version/ocrs-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
