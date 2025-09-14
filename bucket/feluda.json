@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.9.8/feluda-1.9.8-x86_64-pc-windows-msvc.tar.gz",
             "hash": "2c29ac7cbb127a39a4a7bdffd430c391fe1a4cbcd0d28da24c8128308a45525f"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.9.8/feluda-1.9.8-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "f046439a64f01f2bd9b4ce8908665e26d7947a43f295b0905ebd820bc97688b2"
         }
     },
     "bin": "feluda.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-$version/feluda-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-$version/feluda-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
