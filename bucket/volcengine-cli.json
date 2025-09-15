@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/volcengine/volcengine-cli/releases/download/v1.0.32/volcengine-cli_1.0.32_windows_amd64.zip",
-            "hash": "a6e19ef8cbda8051b3bbd1f51a7848b1ba7ed39e40e2a00865acb8f2baed2020"
+            "hash": "3dc3b4c01b226a3eb60f5606cacba3d9dd62e33e110f0d8f5439105641010da8"
         },
         "32bit": {
             "url": "https://github.com/volcengine/volcengine-cli/releases/download/v1.0.32/volcengine-cli_1.0.32_windows_386.zip",
-            "hash": "ccb82c8cec44bc5ffa81c8c9179318b33423bb46da59a27ef00c64ff5b67938b"
+            "hash": "9f6bef32ae61c9782ddff0fbd21ea04baf39a0d9ec4450ee5d44600ff9c8050b"
         },
         "arm64": {
             "url": "https://github.com/volcengine/volcengine-cli/releases/download/v1.0.32/volcengine-cli_1.0.32_windows_arm64.zip",
-            "hash": "62f56b2df05504dae17add4370169c1c03dc8b17d231eca9ca9531f1210786ca"
+            "hash": "f5b7c2f2fa5d295b816943d41ae076b3a3266c5b4629a7edf698566c376e9a87"
         }
     },
     "bin": "ve.exe",
