@@ -1,0 +1,41 @@
+{
+    "version": "0.13.3",
+    "description": "A free tool to handle DWG files.",
+    "homepage": "http://www.gnu.org/software/libredwg",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.13.3/libredwg-0.13.3-win64.zip",
+            "hash": "b5133f8b6bd71b7e682a06ef5f99c93b40d628a791c30a31924a80d258c87173"
+        },
+        "32bit": {
+            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.13.3/libredwg-0.13.3-win32.zip",
+            "hash": "481f557a004364b84e3df7563a103c7016a94d6e12a37548084ffc948258b52b"
+        }
+    },
+    "bin": [
+        "dwg2dxf.exe",
+        "dwg2SVG.exe",
+        "dwgbmp.exe",
+        "dwggrep.exe",
+        "dwglayers.exe",
+        "dwgread.exe",
+        "dwgrewrite.exe",
+        "dwgwrite.exe",
+        "dxf2dwg.exe",
+        "dxfwrite.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/LibreDWG/libredwg"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LibreDWG/libredwg/releases/download/$version/libredwg-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/LibreDWG/libredwg/releases/download/$version/libredwg-$version-win32.zip"
+            }
+        }
+    }
+}
