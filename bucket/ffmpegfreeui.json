@@ -1,23 +1,23 @@
 {
-    "version": "2.4",
+    "version": "2.5",
     "description": "FFmpegFreeUI（简称 3FUI）是在 Windows 上的 FFmpeg 的专业交互外壳，收录大量参数，界面美观，交互友好",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.4/FFmpegFreeUI.SelfContained.x64.7z",
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.5/FFmpegFreeUI.SelfContained.x64.7z",
             "extract_dir": "FFmpegFreeUI SelfContained x64",
-            "hash": "b777b8a26dcd8734ba1946bc215787cf609b0521b18741630eb6471be41ba134"
+            "hash": "ac997ea40c6f8f9a3bfe99c9e82fd29286c231c5c78fbfcea33d954cfece98cb"
         },
         "32bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.4/FFmpegFreeUI.SelfContained.x86.7z",
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.5/FFmpegFreeUI.SelfContained.x86.7z",
             "extract_dir": "FFmpegFreeUI SelfContained x86",
-            "hash": "88a132424cbff37f2c2caef27e1615d9b303598ecc1bd1c5e77f7bdbf7943fbe"
+            "hash": "ca6e1b18062b2495f633fba0d4ce088c69821005601b3ee3e999670de1e13804"
         },
         "arm64": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.4/FFmpegFreeUI.SelfContained.arm64.7z",
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/2.5/FFmpegFreeUI.SelfContained.arm64.7z",
             "extract_dir": "FFmpegFreeUI SelfContained arm64",
-            "hash": "89c6681fa71eabb67ecc0498ca32e1c7a0d66b273a9355ddfd8fa818de9a52a7"
+            "hash": "a3bd8381579cb830594f15a1881bc666c95c0e10813e3909461df8a5dfcc1159"
         }
     },
     "shortcuts": [
