@@ -1,5 +1,5 @@
 {
-    "version": "175",
+    "version": "177",
     "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": "AGPL-3.0-only",
@@ -8,8 +8,8 @@
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             },
-            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/17721176111/SPlayer-dev.zip",
-            "hash": "fb0d2855b976effed5380e0d60ee356bcab1124e90047e549aec0fa454a8f82b"
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/17721807531/SPlayer-dev.zip",
+            "hash": "704ee239d110eae56fc85cc3abfae49c48518a9b8ad50c8eb1569419ed6f3b7d"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'SPlayer-*-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
