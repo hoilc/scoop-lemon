@@ -1,5 +1,5 @@
 {
-    "version": "20250908",
+    "version": "20250915",
     "description": "A tool for transforming and moving code between repositories.",
     "homepage": "https://github.com/google/copybara",
     "license": "Apache-2.0",
