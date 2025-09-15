@@ -1,0 +1,20 @@
+{
+    "version": "4.50",
+    "description": "A utility for low-level hard disk drive formatting.",
+    "homepage": "https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/",
+    "license": "Freeware",
+    "url": "https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/HDDLLF.4.50.exe#/HDDLLF.exe",
+    "hash": "3c5ef6834beb306d0a61f9faf41586b94d1a22d66cc1cd3b62d04ca8dd50fddd",
+    "shortcuts": [
+        [
+            "HDDLLF.exe",
+            "HDD LLF Low Level Format Tool"
+        ]
+    ],
+    "checkver": {
+        "regex": "HDDLLF.([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/HDDLLF.$version.exe#/HDDLLF.exe"
+    }
+}
