@@ -1,12 +1,12 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Rekor CLI to make a provenance entry into the rekor transparency log.",
     "homepage": "https://docs.sigstore.dev/rekor/CLI",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigstore/rekor/releases/download/v1.4.1/rekor-cli-windows-amd64.exe#/rekor-cli.exe",
-            "hash": "49f21938c85663eb1dee687ed2de20dc60848bd9fb5bcd081e2a749ce8d22e7a"
+            "url": "https://github.com/sigstore/rekor/releases/download/v1.4.2/rekor-cli-windows-amd64.exe#/rekor-cli.exe",
+            "hash": "386b272e8f5bfa657bd1e1e5f904c5687a16b5a820f023998bd33706b6f96fd3"
         }
     },
     "bin": "rekor-cli.exe",
