@@ -1,12 +1,12 @@
 {
-    "version": "b96",
+    "version": "b99",
     "description": "简简单单的看直播",
     "homepage": "https://github.com/xiaoyaocz/dart_simple_live",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/xiaoyaocz/dart_simple_live/actions/runs/17609270551/windows.zip",
-            "hash": "cac1747c8c7c962e771ce73767ce6d11735dad30b562a3b22bc3bcfac3c8200e"
+            "url": "https://nightly.link/xiaoyaocz/dart_simple_live/actions/runs/17765307757/windows.zip",
+            "hash": "1a47b8137ac5c0a9dd44029f0f424ead3ced1ff5edfb792e62135dd6ea0f86e0"
         }
     },
     "shortcuts": [
