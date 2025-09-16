@@ -1,10 +1,10 @@
 {
-    "version": "2.4.46",
+    "version": "2.4.47",
     "description": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.",
     "homepage": "https://github.com/swagger-api/swagger-codegen",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.46/swagger-codegen-cli-2.4.46.jar#/swagger-codegen-cli.jar",
-    "hash": "4ff818a41349338525e5af644d3f1bc79d149f4ec3b5c4ec231ae3b24e593e2d",
+    "url": "https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.47/swagger-codegen-cli-2.4.47.jar#/swagger-codegen-cli.jar",
+    "hash": "93d6a3e10092eaa2478297dfd36f2bc8327c47f29dc0901ce845b02ac950ed36",
     "bin": [
         "swagger-codegen-cli.jar",
         [
