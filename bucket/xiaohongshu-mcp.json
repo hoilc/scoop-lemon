@@ -1,0 +1,36 @@
+{
+    "version": "2025.09.17.1426-60e48fe",
+    "description": "MCP for 小红书 / xiaohongshu.com",
+    "homepage": "https://github.com/xpzouying/xiaohongshu-mcp",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2025.09.17.1426-60e48fe/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2025.09.17.1426-60e48fe/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
+            ],
+            "hash": [
+                "f0f67f96111153e1e0764582be3eae6bf304d14edfd1b8a37e22910ad479f310",
+                "00995330b082eee7286ddca8f908888c8cf3c161f19957858e2b5b5adc77fb76"
+            ]
+        }
+    },
+    "bin": [
+        "xiaohongshu-mcp.exe",
+        "xiaohongshu-login.exe"
+    ],
+    "checkver": {
+        "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases.atom",
+        "regex": "Repository/\\d+/[vV]?(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v$version/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
+                    "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v$version/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
+                ]
+            }
+        }
+    }
+}
