@@ -1,12 +1,12 @@
 {
-    "version": "6.1.1",
+    "version": "6.1.2",
     "description": "A reliable, low-latency, and anti-censorship virtual private network.",
     "homepage": "https://github.com/lanthora/candy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lanthora/candy/releases/download/v6.1.1/candy_6.1.1+windows_amd64.zip",
-            "hash": "73c1b19d954bac0ffcb73db529b1f50ce8243afb7761561030134b46c0180707"
+            "url": "https://github.com/lanthora/candy/releases/download/v6.1.2/candy_6.1.2+windows_amd64.zip",
+            "hash": "0a99deed3c90b7eef071ef1813b2ed9ac4a4520255a3b72f34ecc811c30fdd4f"
         }
     },
     "bin": "candy.exe",
