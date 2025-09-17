@@ -1,0 +1,45 @@
+{
+    "version": "1.2.0.1",
+    "description": "全新桌面课表",
+    "homepage": "https://classwidgets.rinlit.cn",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.1/ClassWidgets-Windows-x64.zip",
+            "extract_dir": "extracted\\ClassWidgets-Windows-x64",
+            "hash": "0a78097c1f235fc8929642874f8d79e2957ea2e0dd5c1cae10f12db255cad7bc"
+        },
+        "32bit": {
+            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.1/ClassWidgets-Windows-x86.zip",
+            "extract_dir": "extracted\\ClassWidgets-Windows-x86",
+            "hash": "21eb015d193105e026b9a095f08798418889ce72d42fb2fb12b8f4721b12964c"
+        }
+    },
+    "shortcuts": [
+        [
+            "ClassWidgets.exe",
+            "Class Widgets"
+        ]
+    ],
+    "persist": [
+        "plugins",
+        "log",
+        "data",
+        "config",
+        "cache"
+    ],
+    "post_install": "if (!(Test-Path \"$persist_dir\\config\\config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\config\\config.ini\" -Value '[Version]','auto_check_update = 0', '[Other]','initialstartup = 0' }",
+    "checkver": {
+        "github": "https://github.com/Class-Widgets/Class-Widgets"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v$version/ClassWidgets-Windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v$version/ClassWidgets-Windows-x86.zip"
+            }
+        }
+    }
+}
