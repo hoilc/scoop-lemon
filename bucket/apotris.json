@@ -1,0 +1,32 @@
+{
+    "version": "4.1.0",
+    "description": "A free and multiplatform block stacking game.",
+    "homepage": "https://akouzoukos.com/apotris",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.0Windows-x64.zip",
+            "hash": "898dc44b33c29a21af1dcc54b5bf9e3636d7e07fd7049be92f2410f03ec428bb"
+        }
+    },
+    "shortcuts": [
+        [
+            "Apotris.exe",
+            "Apotris"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.sav' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.sav' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "url": "https://gitea.com/akouzoukos/apotris/tags.rss",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v$versionWindows-x64.zip"
+            }
+        }
+    }
+}
