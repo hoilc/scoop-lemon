@@ -10,10 +10,7 @@
             "hash": "513a21664bf6a9e94e6858436dbc7be2a2b2b37cb15d4467b1d2650d8bf1fddc"
         }
     },
-    "bin": [
-        "bin\\graalpy.exe",
-        "bin\\graalpy-lt.exe"
-    ],
+    "bin": "bin\\graalpy.exe",
     "checkver": {
         "url": "https://github.com/oracle/graalpython/releases.atom",
         "regex": "<title>GraalPy ([\\d.]+)"
