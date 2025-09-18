@@ -18,7 +18,8 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "regex": "Twinkstar_v([\\d.]+)_Release"
+        "url": "https://bbs.twinkstar.com/forum.php?mod=viewthread&tid=1126",
+        "regex": "Twinkstar_v([\\d.]+)_Release_portable.7z"
     },
     "autoupdate": {
         "architecture": {
