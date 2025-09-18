@@ -1,16 +1,16 @@
 {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Local first semantic and hybrid BM25 grep / search tool for use by AI and humans.",
     "homepage": "https://github.com/BeaconBay/ck",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BeaconBay/ck/releases/download/0.4.5/ck-0.4.5-x86_64-pc-windows-msvc.zip",
-            "hash": "85f9c09a3b2e34d78e8ad45685ed7bf450b988a76c56489ebb79126e010d7cf9"
+            "url": "https://github.com/BeaconBay/ck/releases/download/0.4.6/ck-0.4.6-x86_64-pc-windows-msvc.zip",
+            "hash": "8ba0ddafd99e05f6e90bf2e4023f79c895ccab804a6fb787506e7a7d97c10911"
         },
         "arm64": {
-            "url": "https://github.com/BeaconBay/ck/releases/download/0.4.5/ck-0.4.5-aarch64-pc-windows-msvc.zip",
-            "hash": "aca9f1514b8035594a421f570bc1619dd401a738b6e070ce7d156227db328aeb"
+            "url": "https://github.com/BeaconBay/ck/releases/download/0.4.6/ck-0.4.6-aarch64-pc-windows-msvc.zip",
+            "hash": "ea643b94dc3a90b035961dfe04e4cfe5030e29d717d81a6f81449e05011dcaf2"
         }
     },
     "bin": "ck.exe",
