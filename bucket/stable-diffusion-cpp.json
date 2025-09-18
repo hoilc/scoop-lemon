@@ -1,23 +1,24 @@
 {
-    "version": "master-8909523",
+    "version": "b301-fd693ac",
     "description": "(CPU Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-8909523/sd-master-8909523-bin-win-avx2-x64.zip",
-            "hash": "a04cbf68493436be0e22b48de2db1ebec0ebc8bb3470e461a081d14a4c7d055e"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-301-fd693ac/sd-master-fd693ac-bin-win-avx2-x64.zip",
+            "hash": "aa7be0c469b3dde72c294847ebc076c999c72863066032803ff2eca02dc43f8c"
         }
     },
     "bin": "sd.exe",
     "checkver": {
         "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
-        "regex": "Repository/\\d+/(.+?)<"
+        "regex": "Repository/\\d+/master-(?<build>\\d+)-(?<commit>[0-9a-f]{7})<",
+        "replace": "b${build}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-avx2-x64.zip"
+                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/sd-master-$matchCommit-bin-win-avx2-x64.zip"
             }
         }
     }

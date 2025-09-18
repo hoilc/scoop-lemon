@@ -1,23 +1,24 @@
 {
-    "version": "master-8909523",
+    "version": "b301-fd693ac",
     "description": "(Vulkan Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-8909523/sd-master-8909523-bin-win-vulkan-x64.zip",
-            "hash": "85a0ed5228746d121ddb2c02a20ba04ce00a25052b09e2ce41f4981c14836dda"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-301-fd693ac/sd-master-fd693ac-bin-win-vulkan-x64.zip",
+            "hash": "6bbb6788b3cf6527978d8cd50d322e54fea7a88df47980923a06f268d33445b2"
         }
     },
     "bin": "sd.exe",
     "checkver": {
         "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
-        "regex": "Repository/\\d+/(.+?)<"
+        "regex": "Repository/\\d+/master-(?<build>\\d+)-(?<commit>[0-9a-f]{7})<",
+        "replace": "b${build}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-vulkan-x64.zip"
+                "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/sd-master-$matchCommit-bin-win-vulkan-x64.zip"
             }
         }
     }

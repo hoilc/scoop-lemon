@@ -1,16 +1,16 @@
 {
-    "version": "master-8909523",
+    "version": "b301-fd693ac",
     "description": "(CUDA 12 Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-8909523/sd-master-8909523-bin-win-cuda12-x64.zip",
-                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-8909523/cudart-sd-bin-win-cu12-x64.zip"
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-301-fd693ac/sd-master-fd693ac-bin-win-cuda12-x64.zip",
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-301-fd693ac/cudart-sd-bin-win-cu12-x64.zip"
             ],
             "hash": [
-                "3e344c9e84653edc02d92b20bdac71438c56ed111ad596f90b82e15bc3e4fcec",
+                "5bbd91f22e3a1187ffef15dd16f6229f5f57e87bbc05482e7a0c095251f75aa7",
                 "cacc1f7e1e7b53ba310a6769893b8184de2afd5690aa2233d1416e84d3efccd6"
             ]
         }
@@ -18,14 +18,15 @@
     "bin": "sd.exe",
     "checkver": {
         "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
-        "regex": "Repository/\\d+/(.+?)<"
+        "regex": "Repository/\\d+/master-(?<build>\\d+)-(?<commit>[0-9a-f]{7})<",
+        "replace": "b${build}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/sd-$version-bin-win-cuda12-x64.zip",
-                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/$version/cudart-sd-bin-win-cu12-x64.zip"
+                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/sd-master-$matchCommit-bin-win-cuda12-x64.zip",
+                    "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-$matchBuild-$matchCommit/cudart-sd-bin-win-cu12-x64.zip"
                 ]
             }
         }
