@@ -1,18 +1,18 @@
 {
-    "version": "1.3.3-stable",
+    "version": "1.3.4-stable",
     "description": "Atlassian CLI (acli) is a command line tool to interact with Atlassian Cloud.",
     "homepage": "https://developer.atlassian.com/cloud/acli/reference/commands/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://acli.atlassian.com/windows/1.3.3-stable/acli_1.3.3-stable_windows_amd64.zip",
-            "extract_dir": "acli_1.3.3-stable_windows_amd64",
-            "hash": "d5291998fa84762f981494250fb664100f652a0f2c1ebb31b1efaa9e251cc4c5"
+            "url": "https://acli.atlassian.com/windows/1.3.4-stable/acli_1.3.4-stable_windows_amd64.zip",
+            "extract_dir": "acli_1.3.4-stable_windows_amd64",
+            "hash": "f60b17d47434defa297a59c35f03e4edbac2b4294add09bf806a39446f8e995c"
         },
         "arm64": {
-            "url": "https://acli.atlassian.com/windows/1.3.3-stable/acli_1.3.3-stable_windows_arm64.zip",
-            "extract_dir": "acli_1.3.3-stable_windows_arm64",
-            "hash": "b287dcb220e00e1c4184e9a4ebbb13eeb273e089e611f71ffbdfa1a0bed6d6ed"
+            "url": "https://acli.atlassian.com/windows/1.3.4-stable/acli_1.3.4-stable_windows_arm64.zip",
+            "extract_dir": "acli_1.3.4-stable_windows_arm64",
+            "hash": "3bac50c5583e7d0ec7faa820eabd6349edde16a89c4dace1e27aea9f64a66367"
         }
     },
     "bin": "acli.exe",
