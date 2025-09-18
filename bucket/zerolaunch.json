@@ -1,0 +1,45 @@
+{
+    "version": "0.5.1",
+    "description": "极速精准、轻量纯粹的 Windows 应用程序启动器",
+    "homepage": "https://github.com/ghost-him/ZeroLaunch-rs",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.1/ZeroLaunch-portable-x64.zip",
+            "hash": "37dd36a335f6d3f7f49003ead19a76f5e1287aa3a21d759502d113691f06c8d1"
+        },
+        "arm64": {
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.1/ZeroLaunch-portable-arm64.zip",
+            "hash": "f4aebd51d59b45d9ca50d447bee74a6e8eaaaa823c4ec788a1e79318dc4b60e6"
+        }
+    },
+    "shortcuts": [
+        [
+            "zerolaunch-rs.exe",
+            "ZeroLaunch"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\ZeroLaunch_local_config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\ZeroLaunch_local_config.json\" -Value '{}' }",
+        "if (!(Test-Path \"$persist_dir\\ZeroLaunch_remote_config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\ZeroLaunch_remote_config.json\" -Value '{}' }",
+        "if (!(Test-Path \"$persist_dir\\background.png\")) { Set-Content -Encoding ASCII -Path \"$dir\\background.png\" -Value $null }"
+    ],
+    "persist": [
+        "logs",
+        "icons",
+        "ZeroLaunch_local_config.json",
+        "ZeroLaunch_remote_config.json",
+        "background.png"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-arm64.zip"
+            }
+        }
+    }
+}
