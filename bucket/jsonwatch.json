@@ -1,10 +1,10 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "A command-line utility that lets you track changes in JSON data delivered by a command or a web (HTTP/HTTPS) API.",
     "homepage": "https://github.com/dbohdan/jsonwatch",
     "license": "MIT",
-    "url": "https://github.com/dbohdan/jsonwatch/releases/download/v0.9.0/jsonwatch-v0.9.0-win32.exe#/jsonwatch.exe",
-    "hash": "33287fe0f5c640c39da0ea48741848568c9b696aef23c158d098feb82978c9bb",
+    "url": "https://github.com/dbohdan/jsonwatch/releases/download/v0.10.0/jsonwatch-v0.10.0-win32.exe#/jsonwatch.exe",
+    "hash": "5918a956dfe0f51f9079a703f05c7fcb73a4dff2721c58140830fbd6b102f6c6",
     "bin": "jsonwatch.exe",
     "checkver": "github",
     "autoupdate": {
