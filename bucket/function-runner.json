@@ -1,12 +1,12 @@
 {
-    "version": "9.0.0",
+    "version": "9.1.0",
     "description": "A simple CLI which allows you to run Wasm Functions intended for the Shopify Functions infrastructure.",
     "homepage": "https://github.com/Shopify/function-runner",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Shopify/function-runner/releases/download/v9.0.0/function-runner-x86_64-windows-v9.0.0.gz",
-            "hash": "0ffef522b9c47ced39910fb4762db542acb77bfdd94194d90dcc1459aab44529"
+            "url": "https://github.com/Shopify/function-runner/releases/download/v9.1.0/function-runner-x86_64-windows-v9.1.0.gz",
+            "hash": "e3252f07ae4f25b04521f3de866f78d57bd53d371468dcab91b5db2f80369314"
         }
     },
     "bin": "function-runner.exe",
