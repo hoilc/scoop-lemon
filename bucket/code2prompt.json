@@ -1,16 +1,16 @@
 {
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
     "homepage": "https://github.com/mufeedvh/code2prompt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.1/code2prompt-4.0.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "37dd8e24d7c9e502c4d51dea1a98950656b35021b61d4691e4c6f73f5528e2a0"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.2/code2prompt-4.0.2-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "39be43f21046591ed8dfe7a4a50d1806f0bcd7ccceab78c1d4785a61e870f67c"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.1/code2prompt-4.0.1-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "e053bfc0b5761ddb62f26cf8f617211200beb3db9d6b8b2eb045d02cbede6f0a"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.2/code2prompt-4.0.2-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "f12a224f5649da790e5290f9c92267e9af01a94526beea11fda09a53a55d1742"
         }
     },
     "bin": "code2prompt.exe",
