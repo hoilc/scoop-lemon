@@ -5,26 +5,16 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.2/code2prompt-4.0.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "39be43f21046591ed8dfe7a4a50d1806f0bcd7ccceab78c1d4785a61e870f67c"
-        },
-        "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.2/code2prompt-4.0.2-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "f12a224f5649da790e5290f9c92267e9af01a94526beea11fda09a53a55d1742"
+            "url": "https://github.com/mufeedvh/code2prompt/releases/download/v4.0.2/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe",
+            "hash": "4db4bd0c2845376f785868cf3ee2b4e526d37e36d07169469fd57acce9100d8b"
         }
     },
     "bin": "code2prompt.exe",
-    "checkver": {
-        "url": "https://crates.io/api/v1/crates/code2prompt?include=default_version",
-        "jsonpath": "$.crate.default_version"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-x86_64-pc-windows-msvc.tar.gz"
-            },
-            "arm64": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-aarch64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/mufeedvh/code2prompt/releases/download/v$version/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe"
             }
         }
     }
