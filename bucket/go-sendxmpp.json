@@ -5,8 +5,8 @@
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/8014138/artifacts/file/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe",
-            "hash": "e519fc57f6db559f48bc17e114c699f6814d68ae7d69056ba8299ff672b40835"
+            "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/8014138/artifacts/raw/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe",
+            "hash": "2de3c3e301a3516a6510fb264f668394a4e29589b9c3f2ea2a49b4ee21f62605"
         }
     },
     "bin": "go-sendxmpp.exe",
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/$matchJob/artifacts/file/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe"
+                "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/$matchJob/artifacts/raw/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe"
             }
         }
     }
