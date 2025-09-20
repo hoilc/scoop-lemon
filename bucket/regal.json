@@ -16,6 +16,9 @@
             "64bit": {
                 "url": "https://github.com/open-policy-agent/regal/releases/download/v$version/regal_Windows_x86_64.exe#/regal.exe"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
         }
     }
 }
