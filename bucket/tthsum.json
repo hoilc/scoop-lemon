@@ -1,0 +1,15 @@
+{
+    "version": "1.2.0",
+    "description": "Generates and checks TTH checksums.",
+    "homepage": "http://tthsum.devs.nu/",
+    "license": "GPL-3.0-only",
+    "url": "http://tthsum.devs.nu/pkg/tthsum-1.2.0-win32-bin.zip",
+    "hash": "c4a61787866cfd4c03bbd4bbd855120413571fa13c0338902c191fe78804c5b0",
+    "bin": "tthsum.exe",
+    "checkver": {
+        "regex": "tthsum-([\\d.]+)-win32-bin.zip"
+    },
+    "autoupdate": {
+        "url": "http://tthsum.devs.nu/pkg/tthsum-$version-win32-bin.zip"
+    }
+}
