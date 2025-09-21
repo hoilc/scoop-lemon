@@ -1,0 +1,33 @@
+{
+    "version": "5.1.8104",
+    "description": "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.",
+    "homepage": "https://binary.ninja/",
+    "license": {
+        "identifier": "Non-commercial",
+        "url": "https://docs.binary.ninja/about/license.html#free-license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.binary.ninja/installers/binaryninja_free_win64.exe#/dl.7z",
+            "hash": "9f5443dd48a4eaf9ea04633816f563ab39377457f96e49c327942c8c7efed628"
+        }
+    },
+    "shortcuts": [
+        [
+            "binaryninja.exe",
+            "Binary Ninja"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://binary.ninja/js/changelog.json",
+        "jsonpath": "$.[0].version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.binary.ninja/installers/binaryninja_free_win64.exe#/dl.7z"
+            }
+        }
+    }
+}
