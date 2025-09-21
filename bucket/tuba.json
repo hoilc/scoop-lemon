@@ -1,0 +1,37 @@
+{
+    "version": "b1537",
+    "description": "Browse the Fediverse.",
+    "homepage": "https://tuba.geopjr.dev/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/17340071509/tuba_windows_portable.zip",
+            "hash": "3d76d1961c777d5f531bb2feaf913f93ce1396d915cb8964ff77ef65bd7235f7"
+        },
+        "arm64": {
+            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/17340071509/tuba_windows_portable_aarch64.zip",
+            "hash": "e1735f84e779b823e6fffe15d9bdbec025129cb3674a2728b0ec1e90a53cc52a"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\dev.geopjr.Tuba.exe",
+            "Tuba"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/GeopJr/Tuba/actions/workflows/msys2.yml?query=event%3Apush+branch%3Amain+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
+        "replace": "b${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/GeopJr/Tuba/actions/runs/$matchRun/tuba_windows_portable.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/GeopJr/Tuba/actions/runs/$matchRun/tuba_windows_portable_aarch64.zip"
+            }
+        }
+    }
+}
