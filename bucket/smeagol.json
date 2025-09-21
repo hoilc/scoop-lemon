@@ -1,0 +1,43 @@
+{
+    "version": "0.5.0",
+    "description": "A simple locally hosted wiki.",
+    "homepage": "https://smeagol.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.0-x86_64-pc-windows-msvc",
+            "hash": "faacff423f2f39b1eb856ccb3214c5f27920bdb049cbf4d2c6431a67fcc212b5"
+        },
+        "32bit": {
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-i686-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.0-i686-pc-windows-msvc",
+            "hash": "e2cbff6f64f4826b4fef3c5808884304f54a98d39022ca5454dd1eb454a8c40b"
+        },
+        "arm64": {
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.0-aarch64-pc-windows-msvc",
+            "hash": "5c272ff1a998127e4c821e197128f725e9bb7181ef2cc71a6231278d0ded19e4"
+        }
+    },
+    "bin": "smeagol-wiki.exe",
+    "checkver": {
+        "github": "https://github.com/AustinWise/smeagol"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AustinWise/smeagol/releases/download/$version/smeagol-wiki-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "smeagol-wiki-$version-x86_64-pc-windows-msvc"
+            },
+            "32bit": {
+                "url": "https://github.com/AustinWise/smeagol/releases/download/$version/smeagol-wiki-$version-i686-pc-windows-msvc.zip",
+                "extract_dir": "smeagol-wiki-$version-i686-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/AustinWise/smeagol/releases/download/$version/smeagol-wiki-$version-aarch64-pc-windows-msvc.zip",
+                "extract_dir": "smeagol-wiki-$version-aarch64-pc-windows-msvc"
+            }
+        }
+    }
+}
