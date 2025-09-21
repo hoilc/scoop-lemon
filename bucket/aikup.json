@@ -1,0 +1,25 @@
+{
+    "version": "0.0.11",
+    "description": "A CLI for managing multiple versions of Aiken.",
+    "homepage": "https://github.com/aiken-lang/aikup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aiken-lang/aikup/releases/download/v0.0.11/aikup-x86_64-pc-windows-msvc.tar.gz",
+            "extract_dir": "aikup-x86_64-pc-windows-msvc",
+            "hash": "fe50b673dc63d7b7778deca0ef324b9d06397130cee10a45fd468a0b9fd04ec4"
+        }
+    },
+    "bin": "aikup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aiken-lang/aikup/releases/download/v$version/aikup-x86_64-pc-windows-msvc.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
