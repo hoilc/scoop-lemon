@@ -1,0 +1,38 @@
+{
+    "version": "1.3.1.0",
+    "description": "XML Copy Editor is a fast, free, validating XML editor.",
+    "homepage": "https://sourceforge.net/projects/xml-copy-editor",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/xml-copy-editor/files/xmlcopyeditor-windows/1.3.1.0/xmlcopyeditor-1.3.1.0-x64-install.exe",
+            "hash": "sha1:4ebb8a3a30d51fcca9186943029af15cdf1f8581"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/xml-copy-editor/files/xmlcopyeditor-windows/1.3.1.0/xmlcopyeditor-1.3.1.0-x86-install.exe",
+            "hash": "sha1:4012c4b9a11eb87b62c834db21b0166e7729fc7a"
+        }
+    },
+    "innosetup": true,
+    "bin": "xmlcopyeditor.exe",
+    "shortcuts": [
+        [
+            "xmlcopyeditor.exe",
+            "XML Copy Editor"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/xml-copy-editor/rss?path=/xmlcopyeditor-windows",
+        "regex": "xmlcopyeditor-([\\d.]+)-x64-install"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/xml-copy-editor/files/xmlcopyeditor-windows/$version/xmlcopyeditor-$version-x64-install.exe"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/xml-copy-editor/files/xmlcopyeditor-windows/$version/xmlcopyeditor-$version-x86-install.exe"
+            }
+        }
+    }
+}
