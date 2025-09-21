@@ -1,0 +1,22 @@
+{
+    "version": "0.9.18",
+    "description": "A simple XML editor based on Qt libraries.",
+    "homepage": "http://qxmledit.org/",
+    "license": "LGPL-2.0-only",
+    "url": "https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.18/QXmlEditInstaller-0.9.18.exe#/dl.7z",
+    "hash": "sha1:55f92a7bb50911845b2d1ed1de19f10d50a68522",
+    "shortcuts": [
+        [
+            "QXmlEdit.exe",
+            "QXmlEdit"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/qxmledit/rss",
+        "regex": "QXmlEditInstaller-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/qxmledit/files/QXmlEdit-$version/QXmlEditInstaller-$version.exe#/dl.7z"
+    }
+}
