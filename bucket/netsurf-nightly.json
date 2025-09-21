@@ -1,0 +1,26 @@
+{
+    "version": "6910",
+    "description": "A free, open source web browser.",
+    "homepage": "https://www.netsurf-browser.org/",
+    "license": "GPL-2.0-only",
+    "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-6910.exe#/dl.7z",
+    "hash": "b26b07380d7a87c011df4266ff5a168c9fceb003758f1495da7f3aecb98913ae",
+    "shortcuts": [
+        [
+            "NetSurf.exe",
+            "NetSurf"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://ci.netsurf-browser.org/builds/windows/LATEST",
+        "regex": "NetSurf-gcc-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-$version.exe#/dl.7z",
+        "hash": {
+            "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-$version.sha256",
+            "regex": "$sha256"
+        }
+    }
+}
