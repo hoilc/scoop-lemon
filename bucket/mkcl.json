@@ -1,0 +1,31 @@
+{
+    "version": "1.1.11",
+    "description": "ManKai Common Lisp (MKCL) aims to be a full implementation of the Common Lisp language in compliance with the ANSI X3J13 Common Lisp standard.",
+    "homepage": "https://mkcl.common-lisp.dev/",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://common-lisp.net/project/mkcl/releases/mkcl-1.1.11_win64_setup.exe#/dl.7z",
+            "hash": "71d3418ebb7d3a050490012aba57f3a235bd591e4c04844d26a60fc65067fdbf"
+        },
+        "32bit": {
+            "url": "https://common-lisp.net/project/mkcl/releases/mkcl-1.1.11_win32_setup.exe#/dl.7z",
+            "hash": "2ef36d9c938778542c4fb7114b80ccbb447eec48da9006c84ed119726205683d"
+        }
+    },
+    "bin": "bin\\mkcl.exe",
+    "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "regex": "MKCL-([\\d.]+).tar.gz"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://common-lisp.net/project/mkcl/releases/mkcl-$version_win64_setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://common-lisp.net/project/mkcl/releases/mkcl-$version_win32_setup.exe#/dl.7z"
+            }
+        }
+    }
+}
