@@ -1,0 +1,30 @@
+{
+    "version": "3.9.0",
+    "description": "An integrated development environment using Java or Stride designed primarily for educational purposes.",
+    "homepage": "https://www.greenfoot.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.greenfoot.org/download/files/Greenfoot-windows-390.zip",
+            "hash": "0bd3a39a3a54199606ce3fe99f9a26c43122d44b268cd71dad56bbdbc535dbf1"
+        }
+    },
+    "shortcuts": [
+        [
+            "greenfoot.exe",
+            "Greenfoot"
+        ]
+    ],
+    "persist": "userhome",
+    "checkver": {
+        "url": "https://www.greenfoot.org/version_history",
+        "regex": "<strong>Greenfoot\\s*([\\d.]+)</strong>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.greenfoot.org/download/files/Greenfoot-windows-$cleanVersion.zip"
+            }
+        }
+    }
+}
