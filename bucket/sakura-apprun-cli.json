@@ -1,16 +1,16 @@
 {
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "A command line interface for AppRun β Sakura Cloud.",
     "homepage": "https://github.com/fujiwara/apprun-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fujiwara/apprun-cli/releases/download/v0.3.2/apprun-cli_v0.3.2_windows_amd64.tar.gz",
-            "hash": "27e2c71789d4abfae9b1922361870ac287b356e4d768e89d79209870676a7a50"
+            "url": "https://github.com/fujiwara/apprun-cli/releases/download/v0.4.0/apprun-cli_v0.4.0_windows_amd64.tar.gz",
+            "hash": "3f96883f183d92a0b078dd1e67320b90d30b70844fdb72de8e16651800f5bab4"
         },
         "arm64": {
-            "url": "https://github.com/fujiwara/apprun-cli/releases/download/v0.3.2/apprun-cli_v0.3.2_windows_arm64.tar.gz",
-            "hash": "d7ccc7b7ec6e96d813add963f5540bc2cf5af933426430e1175b67b712c697d4"
+            "url": "https://github.com/fujiwara/apprun-cli/releases/download/v0.4.0/apprun-cli_v0.4.0_windows_arm64.tar.gz",
+            "hash": "ebbdec6794c6b79cc5112dd78ab8348da915fdc77bc928cdb516d7afa318680e"
         }
     },
     "bin": "apprun-cli.exe",
