@@ -1,0 +1,26 @@
+{
+    "version": "0.7",
+    "description": "An open-source flash program for the STM32 ARM microcontrollers using the built-in ST serial bootloader over UART or I2C.",
+    "homepage": "https://sourceforge.net/projects/stm32flash",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/stm32flash/files/stm32flash-0.7-binaries.zip",
+            "extract_dir": "stm32flash-0.7-binaries",
+            "hash": "sha1:1eb913de34a538328dcad221896b7a69dcd496eb"
+        }
+    },
+    "bin": "stm32flash.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/stm32flash/rss",
+        "regex": "stm32flash-([\\d.]+)-binaries.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/stm32flash/files/stm32flash-$version-binaries.zip",
+                "extract_dir": "stm32flash-$version-binaries"
+            }
+        }
+    }
+}
