@@ -1,12 +1,12 @@
 {
-    "version": "2.1.16",
+    "version": "2.1.17",
     "description": "Android Debug Bridge (ADB) client implementation in pure Rust.",
     "homepage": "https://github.com/cocool97/adb_client",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cocool97/adb_client/releases/download/v2.1.16/adb_cli-windows.exe#/adb_cli.exe",
-            "hash": "c7893205443bfcd69aabdd05a15016c6f188f6a5b7d4dd80780f122ba2b82805"
+            "url": "https://github.com/cocool97/adb_client/releases/download/v2.1.17/adb_cli-windows.exe#/adb_cli.exe",
+            "hash": "cc49d972e78a5a47d85bf6e075345d3830cfcb23c959bf107f2779df58477b30"
         }
     },
     "bin": "adb_cli.exe",
