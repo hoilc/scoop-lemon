@@ -1,0 +1,34 @@
+{
+    "version": "2.15.0",
+    "description": "TiMidity++ is an open source MIDI to WAVE converter and player.",
+    "homepage": "https://sourceforge.net/projects/timidity/",
+    "license": "GPL-2.0-only",
+    "url": "https://sourceforge.net/projects/timidity/files/TiMidity%2B%2B/TiMidity%2B%2B-2.15.0/TiMidity%2B%2B-2.15.0-w32.zip",
+    "extract_dir": "TiMidity++-2.15.0",
+    "hash": "sha1:f46fd557ec462851f5f5da0d8d774d13b6a28b08",
+    "bin": "timidity.exe",
+    "shortcuts": [
+        [
+            "timw32g.exe",
+            "TiMidity++"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\timpp32g.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\timpp32g.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\timidity_window.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\timidity_window.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\timidity.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\timidity.cfg\" -Value $null }"
+    ],
+    "persist": [
+        "timpp32g.ini",
+        "timidity_window.ini",
+        "timidity.cfg"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/timidity/rss",
+        "regex": "TiMidity%2B%2B-([\\d.]+)-w32.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/timidity/files/TiMidity%2B%2B/TiMidity%2B%2B-$version/TiMidity%2B%2B-$version-w32.zip",
+        "extract_dir": "TiMidity++-$version"
+    }
+}
