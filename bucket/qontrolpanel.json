@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "An enhanced audio panel for Windows.",
     "homepage": "https://github.com/Odizinne/QontrolPanel",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Odizinne/QontrolPanel/releases/download/1.9.0/QontrolPanel_win64_msvc2022.zip",
-            "hash": "68d1b227c65afe6fb94e3cc2f0c6c2c97238ef22e07cb160726aa555b979d785"
+            "url": "https://github.com/Odizinne/QontrolPanel/releases/download/1.9.1/QontrolPanel_win64_msvc2022.zip",
+            "hash": "34c4015f27bca47d10c3839404ffb56455b7ed7d2511698265328c8e3052d4de"
         }
     },
     "extract_dir": "QontrolPanel",
