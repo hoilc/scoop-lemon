@@ -1,13 +1,13 @@
 {
     "##": "#updateManually",
-    "version": "1.2.2.1",
+    "version": "1.2.2.2",
     "description": "PMLite是一款免费的图像校正和漂白工具",
     "homepage": "https://www.cnblogs.com/Charltsing/p/PictureCleaner.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.tari.xyz/hosted/pmlite/PMLite_v1.2.2.1.7z",
-            "hash": "94805db7982af1b68d481a458fad904071cae6172391a1b1bcfb232a638dbf36"
+            "url": "https://scoop-lemon.tari.xyz/hosted/pmlite/PMLite_v1.2.2.2.7z",
+            "hash": "1b360ebcdb70bf0549fb852ca9b403eccd75ce2675fd04c3ee32b996e9e4bc86"
         }
     },
     "shortcuts": [
