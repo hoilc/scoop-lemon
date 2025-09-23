@@ -1,0 +1,24 @@
+{
+    "version": "3.1.0",
+    "description": "Energy-efficient Python-to-Rust transpiler with progressive verification capabilities.",
+    "homepage": "https://github.com/paiml/depyler",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.1.0/depyler-3.1.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "0f1395a747124600b405eaeb00fb24ac87974ba17fe7de3f1e96d9eaf316bb88"
+        }
+    },
+    "bin": "depyler.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/depyler?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-$version/depyler-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
