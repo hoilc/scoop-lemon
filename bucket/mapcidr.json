@@ -1,16 +1,16 @@
 {
-    "version": "1.1.94",
+    "version": "1.1.95",
     "description": "A utility program to perform multiple operations for a given subnet/CIDR ranges.",
     "homepage": "https://github.com/projectdiscovery/mapcidr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/mapcidr/releases/download/1.1.94/mapcidr_1.1.94_windows_amd64.zip",
-            "hash": "cdc07b521d580cd2f9d1c9b5a3350ed734af7be975fa2eb5ee21c618e1375514"
+            "url": "https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.95/mapcidr_1.1.95_windows_amd64.zip",
+            "hash": "834e151909351855b9ca5e7df2d0fad25d0be62f371371d44b7c0c5912f9caa6"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/mapcidr/releases/download/1.1.94/mapcidr_1.1.94_windows_386.zip",
-            "hash": "0016bbbe293a7add8769649a0bd8816835b5adb627b5b751fa07222358d3ac8a"
+            "url": "https://github.com/projectdiscovery/mapcidr/releases/download/v1.1.95/mapcidr_1.1.95_windows_386.zip",
+            "hash": "5dd35530496cbb3cbc471cf8f4d79b0b494e7066fb61d00ec54c4724e1b8cb55"
         }
     },
     "bin": "mapcidr.exe",
