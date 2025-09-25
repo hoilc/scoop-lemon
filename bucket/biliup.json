@@ -1,12 +1,12 @@
 {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "直播录制、视频下载和上传的工具, 提供了多种方式，自动化的完成录制上传",
     "homepage": "https://biliup.github.io/biliup/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/biliup/biliup/releases/download/v1.1.5/bbup-app_0.1.0_x64_en-US.msi",
-            "hash": "ff633a3da9cd9207173033dfc82e0f435e3100513ad4f303d07de415e6bccf91"
+            "url": "https://github.com/biliup/biliup/releases/download/v1.1.6/bbup-app_0.1.0_x64_en-US.msi",
+            "hash": "8b062ff6cef03a149b6cf2de5480ccf5f6c113db0cf2d31d12c7b5b7174f502f"
         }
     },
     "extract_dir": "PFiles\\bbup-app",
