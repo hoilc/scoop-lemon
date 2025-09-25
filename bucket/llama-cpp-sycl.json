@@ -1,12 +1,12 @@
 {
-    "version": "b6569",
+    "version": "b6572",
     "description": "(SYCL Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6569/llama-b6569-bin-win-sycl-x64.zip",
-            "hash": "17c045cfcaae9e05f0170895cbe95d2e21b002c734f03c8d83880e73a0dc4595"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6572/llama-b6572-bin-win-sycl-x64.zip",
+            "hash": "8bf6427a8be12c3ec259d83d6900fb18a052c5cd1e7b9a86182889851fc16599"
         }
     },
     "bin": [
