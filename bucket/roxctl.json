@@ -11,7 +11,9 @@
     },
     "bin": "roxctl.exe",
     "checkver": {
-        "github": "https://github.com/stackrox/stackrox"
+        "url": "https://mirror.openshift.com/pub/rhacs/assets/",
+        "regex": "<a href=\"([\\d.]+)/\">",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
