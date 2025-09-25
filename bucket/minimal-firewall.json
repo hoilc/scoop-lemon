@@ -1,39 +1,28 @@
 {
-    "version": "2.1",
+    "version": "2.2.3",
     "description": "Minimal Firewall is a portable Windows firewall frontend that alerts users to internet connections.",
     "homepage": "https://github.com/deminimis/minimalfirewall",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deminimis/minimalfirewall/releases/download/v2.1/MinimalFirewall-v2.1-Portable.zip",
-            "extract_dir": "MinimalFirewall-v2.1-Portable",
-            "hash": "9617c1cd2804355c18902c3a5f1ae1fc3c1a48ac05d45e75ce71dd651ce8a9e6"
+            "url": "https://github.com/deminimis/minimalfirewall/releases/download/v2.2.3/Minimal.Firewall.exe",
+            "hash": "dfefb6b5c4021062291451ab86b0d38462fd17d278ac1101108d44958ac6478a"
         }
     },
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\settings.json\" -Value $null }",
-        "if (!(Test-Path \"$persist_dir\\uwp_apps.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\uwp_apps.json\" -Value $null }",
-        "if (!(Test-Path \"$persist_dir\\wildcard_rules.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\wildcard_rules.json\" -Value $null }",
-        "if (!(Test-Path \"$persist_dir\\foreign_rules_baseline.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\foreign_rules_baseline.json\" -Value $null }"
-    ],
     "shortcuts": [
         [
-            "Minimal Firewall.exe",
+            "Minimal.Firewall.exe",
             "Minimal Firewall"
         ]
     ],
-    "persist": [
-        "settings.json",
-        "uwp_apps.json",
-        "wildcard_rules.json",
-        "foreign_rules_baseline.json"
-    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.json' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.json' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deminimis/minimalfirewall/releases/download/v$version/MinimalFirewall-v$version-Portable.zip",
-                "extract_dir": "MinimalFirewall-v$version-Portable"
+                "url": "https://github.com/deminimis/minimalfirewall/releases/download/v$version/Minimal.Firewall.exe"
             }
         }
     }
