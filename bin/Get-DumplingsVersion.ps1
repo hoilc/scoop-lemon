@@ -281,6 +281,7 @@ try {
     Write-VerboseMessage "Version retrieval completed successfully"
 
 } catch {
+    Write-Output "null"
     Write-Error "Error: $_"
     exit 1
 }
