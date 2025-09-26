@@ -1,0 +1,23 @@
+{
+    "version": "4.12-3.5.29",
+    "description": "A portable DjVu viewer.",
+    "homepage": "https://djvu.sourceforge.net/djview4.html",
+    "license": "GPL-2.0-or-later",
+    "url": "https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows/3.5.29%2B4.12/DjVuLibre-3.5.29_DjView-4.12_Setup.exe#/dl.7z",
+    "hash": "sha1:b54791514c81f46730ee3232b69cf05cc686a22e",
+    "shortcuts": [
+        [
+            "djview.exe",
+            "DjView"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/djvu/rss?path=/DjVuLibre_Windows",
+        "regex": "DjVuLibre-(?<libversion>[\\d.]+)_DjView-(?<main>[\\d.]+)_Setup.exe",
+        "replace": "${main}-${libversion}"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows/$matchLibversion%2B$matchMain/DjVuLibre-$matchLibversion_DjView-$matchMain_Setup.exe#/dl.7z"
+    }
+}
