@@ -1,0 +1,28 @@
+{
+    "version": "0.1.1",
+    "description": "A text-to-speech tool that can help you read text easily.",
+    "homepage": "https://github.com/ElmTran/praises",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ElmTran/praises/releases/download/v0.1.1/praises_0.1.1_x64-setup.exe#/dl.7z",
+            "hash": "e107d65f730b361bf64edcb00d7ea1d2828459c5c589eaef0269748f9d2f9879"
+        }
+    },
+    "shortcuts": [
+        [
+            "praises.exe",
+            "Praises"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.praises.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ElmTran/praises/releases/download/v$version/praises_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
