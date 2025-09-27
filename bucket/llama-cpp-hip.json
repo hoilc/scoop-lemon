@@ -1,12 +1,12 @@
 {
-    "version": "b6602",
+    "version": "b6604",
     "description": "(AMD ROCm/HIP Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6602/llama-b6602-bin-win-hip-radeon-x64.zip",
-            "hash": "d8588930b6038a1b9119cb2b174c0980e1069a330440af525aece2a633d6c53c"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b6604/llama-b6604-bin-win-hip-radeon-x64.zip",
+            "hash": "1104e83d49d339b9d6ba4f021adaa1148948c6083c6af3143c67fd91f66b3f34"
         }
     },
     "bin": [
