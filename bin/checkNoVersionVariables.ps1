@@ -80,7 +80,7 @@ foreach ($manifestFile in $manifestFiles) {
     if ($manifestContent.autoupdate) {
         $hasVersionVar = $false
 
-        if ($manifestContent.autoupdate.url -and $manifestContent.autoupdate.url -match '\$(version|match)') {
+        if ($manifestContent.autoupdate.url -and $manifestContent.autoupdate.url -match '\$') {
             $hasVersionVar = $true
         }
 
