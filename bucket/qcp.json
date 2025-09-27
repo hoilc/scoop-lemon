@@ -1,13 +1,13 @@
 {
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "Quick file copy using QUIC.",
     "homepage": "https://github.com/crazyscot/qcp",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crazyscot/qcp/releases/download/v0.5.2/qcp-windows-x86_64-mingw.zip",
+            "url": "https://github.com/crazyscot/qcp/releases/download/v0.6.0/qcp-windows-x86_64-mingw.zip",
             "extract_dir": "qcp-windows-x86_64-mingw",
-            "hash": "80798c841e40683f7c8d043faa0c8c601d6239b8372a9826fe8c4cf1e78b754b"
+            "hash": "23c63d0a3e6d48e27379bc4a26b05d9c808c84db0e49e3090f3e2908c8a31897"
         }
     },
     "bin": "qcp.exe",
