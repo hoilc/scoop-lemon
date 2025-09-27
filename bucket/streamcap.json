@@ -1,0 +1,33 @@
+{
+    "version": "1.0.2",
+    "description": "基于FFmpeg和StreamGet的多平台直播流录制客户端，覆盖 40+ 国内外主流直播平台，支持批量录制、循环监控、定时监控和自动转码等功能",
+    "homepage": "https://github.com/ihmily/StreamCap",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ihmily/StreamCap/releases/download/v1.0.2/StreamCap_1.0.2_2_Win_x64.zip",
+            "hash": "f0bda496bb80913c791dd94601876b0647ddf8ba941e06567d865dcc5f4aad74",
+            "extract_dir": "StreamCap_1.0.2_2_Win_x64"
+        }
+    },
+    "shortcuts": [
+        [
+            "StreamCap.exe",
+            "StreamCap"
+        ]
+    ],
+    "persist": [
+        "downloads",
+        "config",
+        "logs"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ihmily/StreamCap/releases/download/v$version/StreamCap_$version_Win_x64.zip",
+                "extract_dir": "StreamCap_$version_Win_x64"
+            }
+        }
+    }
+}
