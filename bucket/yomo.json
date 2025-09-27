@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yomorun/yomo/releases/download/v1.20.7/yomo-amd64-windows.tar.gz"
+                "url": "https://github.com/yomorun/yomo/releases/download/v$version/yomo-amd64-windows.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/yomorun/yomo/releases/download/v1.20.7/yomo-arm64-windows.tar.gz"
+                "url": "https://github.com/yomorun/yomo/releases/download/v$version/yomo-arm64-windows.tar.gz"
             }
         },
         "hash": {
