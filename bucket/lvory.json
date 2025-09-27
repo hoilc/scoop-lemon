@@ -1,0 +1,30 @@
+{
+    "version": "0.2.2",
+    "description": "基于 Electron 开发的高度灵活的跨平台 SingBox 客户端，面向具有自建节点能力的技术向用户",
+    "homepage": "https://github.com/xiaoxhao/lvory",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xiaoxhao/lvory/releases/download/v0.2.2/lvory-0.2.2-portable.exe#/dl.7z",
+            "hash": "5fd1d91c786ccc61283527197ec102374ab82d7dde959ed678e615df0e33d165",
+            "pre_install": "Expand-7zipArchive -Removal \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "lvory.exe",
+            "Lvory"
+        ]
+    ],
+    "persist": "data",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\lvory\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xiaoxhao/lvory/releases/download/v$version/lvory-$version-portable.exe#/dl.7z"
+            }
+        }
+    }
+}
