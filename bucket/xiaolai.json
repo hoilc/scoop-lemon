@@ -1,24 +1,21 @@
 {
-    "version": "3.11",
+    "version": "3.126",
     "description": "小赖字体（原小濑字体）SC，一款衍生于「濑户字体」「内海字体」「cjkFonts 全濑体」的中文手写字型",
     "homepage": "https://github.com/lxgw/kose-font",
     "license": "OFL-1.1",
     "url": [
-        "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
-        "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
+        "https://github.com/lxgw/kose-font/releases/download/v3.126/Xiaolai-Regular.ttf",
+        "https://github.com/lxgw/kose-font/releases/download/v3.126/XiaolaiMono-Regular.ttf"
     ],
     "hash": [
-        "e33746183dcf4934a673b466785d280033ffe2ad8ab3fe24241636ce16755a2e",
-        "77cd7b1fab8a472f436e0fe04ffe62e5e3bc0bb9f35897e3ab7b9a8d16b4788a"
+        "e2f68daf0e72777a8cf58bc83de1b98634b251e537ddbfca24b0ae50d1802da2",
+        "802b658db492e02ae5b659f5b56d7d4ef8f77609515bdcc82f462ae912888c33"
     ],
-    "checkver": {
-        "url": "https://raw.githubusercontent.com/lxgw/kose-font/master/history.md",
-        "regex": "## ver ([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiSC-Regular.ttf",
-            "https://github.com/lxgw/kose-font/raw/master/TTF%20(Simplified%20Chinese)/XiaolaiMonoSC-Regular.ttf"
+            "https://github.com/lxgw/kose-font/releases/download/v$version/Xiaolai-Regular.ttf",
+            "https://github.com/lxgw/kose-font/releases/download/v$version/XiaolaiMono-Regular.ttf"
         ]
     },
     "installer": {
@@ -59,7 +56,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'Xiaolai SC' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Xiaolai' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
