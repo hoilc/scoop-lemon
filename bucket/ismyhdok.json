@@ -1,16 +1,16 @@
 {
-    "version": "4.24",
+    "version": "4.44",
     "description": "A small program but effective solution to easily check the Performance of a Windows Volume eg. Partition.",
     "homepage": "https://softwareok.com/?seite=Microsoft/IsMyHdOK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/IsMyHdOK_x64.zip",
-            "hash": "5a62fecb3d073d19ba6c154c38008667681c5ced872e621168aa68e2b790a620"
+            "hash": "b762b93310eb862289814cba449e3758651aa899397e5c6dc97650c3cc986431"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/IsMyHdOK.zip",
-            "hash": "e0bab8718e88ae82783ed5c36ad0178629bf774ed0cc85555f75be6cfcf9d20c"
+            "hash": "a110452780d92d5e08ec533ec26e72ee3bc88b61c77ea75b79abc520fc0aa61c"
         }
     },
     "shortcuts": [
