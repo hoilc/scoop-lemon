@@ -1,0 +1,24 @@
+{
+    "version": "0.6.0",
+    "description": "Multi-backend declarative package manager.",
+    "homepage": "https://github.com/ripytide/metapac",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-0.6.0/metapac-0.6.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "bf6e0c9fd88003815d8f0584e999cf7ecef619dea70020e0d90d0d38ea1d8c13"
+        }
+    },
+    "bin": "metapac.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/metapac?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-$version/metapac-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
