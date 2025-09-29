@@ -1,18 +1,18 @@
 {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "An image upload and manage tool, base on PicGo.",
     "homepage": "https://piclist.cn/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://release.piclist.cn/latest/PicList-Setup-3.0.4-x64.exe#/dl.7z",
+            "url": "https://release.piclist.cn/latest/PicList-Setup-3.0.5-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "cb54f834ec246e0ff8a9e953dacbc36566d6f6542ecfa35200578dcc11f08676"
+            "hash": "667a6c0a182af3fc8aa055134945d7676fa0be77593c6e2470dcf0814e47d5c2"
         },
         "32bit": {
-            "url": "https://release.piclist.cn/latest/PicList-Setup-3.0.4-ia32.exe#/dl.7z",
+            "url": "https://release.piclist.cn/latest/PicList-Setup-3.0.5-ia32.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "290bf1836ad27a8009c881385038cb4d96dc91a2768dc420f95cf158a0e20ad4"
+            "hash": "2fbbc441c5cb099096df61d5b03e9ba273f90dbcb19763c29de06c401aec4b8e"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
