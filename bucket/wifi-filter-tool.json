@@ -1,5 +1,5 @@
 {
-    "version": "1.1",
+    "version": "1.2",
     "description": "Wi-Fi Filter Tool is a lightweight application that allows you to hide unknown wireless networks (SSID) from the list of available networks.",
     "homepage": "https://www.sordum.org/16523/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/downloads.php?wi-fi-filter-tool#/dl.zip",
-    "hash": "5684d81705111446f6241b8016648816824562b09b5ebed611063fd1900eb3bd",
+    "hash": "7542c98d6c785aecc0cb435786547fb343dbdf934a365ab9688e53fc21d01ad7",
     "extract_dir": "WifiFilter",
     "architecture": {
         "64bit": {
