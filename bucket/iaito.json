@@ -1,12 +1,12 @@
 {
-    "version": "6.0.0",
+    "version": "6.0.2",
     "description": "The official graphical interface for radare2, a libre reverse engineering framework.",
     "homepage": "https://github.com/radareorg/iaito",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/radareorg/iaito/releases/download/6.0.0/iaito-6.0.0-w64.zip",
-            "hash": "61dedaea454681de8594d9190456b081987a0538e1df355aa21b74322b0d3664"
+            "url": "https://github.com/radareorg/iaito/releases/download/6.0.2/iaito-6.0.2-w64.zip",
+            "hash": "4610e75d5219a9125762088fc7ca53ac55fbbaf9af299e6b9013edc3a892246a"
         }
     },
     "extract_dir": "iaito",
