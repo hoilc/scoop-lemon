@@ -1,12 +1,12 @@
 {
-    "version": "2025.10.0",
+    "version": "2025.10.1",
     "description": "A basic yt-dlp frontend.",
     "homepage": "https://github.com/NickvisionApps/Parabolic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2025.10.0/NickvisionParabolicPortable.zip",
-            "hash": "8d246dd7943af81b48abab0daf6da4b1046a6dccf30b434fa52d5776596d7b92"
+            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2025.10.1/NickvisionParabolicPortable.zip",
+            "hash": "5da8913213f39a0ebf238f72ce8021a5b285084e9a54781cdd82379b1ca57fce"
         }
     },
     "shortcuts": [
