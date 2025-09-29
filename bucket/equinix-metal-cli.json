@@ -1,16 +1,16 @@
 {
-    "version": "0.26.0",
+    "version": "0.26.1",
     "description": "Equinix Metal CLI is a command-line interface tool that allows users to manage their Equinix Metal resources from the command line.",
     "homepage": "https://deploy.equinix.com/labs/metal-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/equinix/metal-cli/releases/download/v0.26.0/metal-windows-amd64.exe#/metal.exe",
-            "hash": "f893abf31c5289743963b504bf489cfbff968fcdabcab3dcd11d3d4fe97c6a20"
+            "url": "https://github.com/equinix/metal-cli/releases/download/v0.26.1/metal-windows-amd64.exe#/metal.exe",
+            "hash": "c0c4dcae8971066044b2291392a5f150ff9c5d4f0999df0caebcb1d8676cf37b"
         },
         "arm64": {
-            "url": "https://github.com/equinix/metal-cli/releases/download/v0.26.0/metal-windows-arm64.exe#/metal.exe",
-            "hash": "f27adc9e2d3e9a493163b7afb0a4860727b4160964d6ffd40919bde8fcd3cd90"
+            "url": "https://github.com/equinix/metal-cli/releases/download/v0.26.1/metal-windows-arm64.exe#/metal.exe",
+            "hash": "26b70ca633cd6be62dd1d439c7608121c7faaf4f487ee05e0538a09a54fe7580"
         }
     },
     "bin": "metal.exe",
