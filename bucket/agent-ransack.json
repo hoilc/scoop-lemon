@@ -1,16 +1,16 @@
 {
-    "version": "3530",
+    "version": "3535",
     "description": "Agent Ransack (FileLocator Lite) is a free file search tool for finding files on your PC or network drives.",
     "homepage": "https://www.mythicsoft.com/agentransack/",
     "license": "Liteware",
     "architecture": {
         "64bit": {
-            "url": "https://download.mythicsoft.com/flp/3530/agentransack_inx64_3530.exe",
-            "hash": "2b8ff585736a92881ded9d167db5a41355fa8b22ddcf949b4d62723301dd9272"
+            "url": "https://download.mythicsoft.com/flp/3535/agentransack_inx64_3535.exe",
+            "hash": "ebcdb3f3ede18a5c6515df3c704172a2d36b9a344a0c1e67654409440e965dfd"
         },
         "32bit": {
-            "url": "https://download.mythicsoft.com/flp/3530/agentransack_in_3530.exe",
-            "hash": "12915346916932c20215d17b29a13c44acddb2f46c20c4a8375d45b821fec43e"
+            "url": "https://download.mythicsoft.com/flp/3535/agentransack_in_3535.exe",
+            "hash": "7f0e01f72f6ebb2e149e7dca279b1668872649e21ffdf950b9ca8ad64a9133ff"
         }
     },
     "innosetup": true,
