@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/DontSleep_x64_Portable.zip",
-            "hash": "07d1a3eb3d7443d9b9191b562389be9232361003ba9b385e19951fca3ba68cf4"
+            "hash": "1b826928bb4c187f8995c8b66a6882245edada5b4bd070abd799e3edd290322a"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/DontSleep_Portable.zip",
-            "hash": "340bf0b75a4886364723950fb604c1adc7c6f759665f17ad4bcd4d124e08c664"
+            "hash": "43f3c70c6e6df8e05a00bddf6f1e23f8c29c6fa0e20f71eb7c6a41f16e3e3362"
         }
     },
     "shortcuts": [
