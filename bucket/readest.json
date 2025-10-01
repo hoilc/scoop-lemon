@@ -1,12 +1,12 @@
 {
-    "version": "0.9.81",
+    "version": "0.9.82",
     "description": "An open-source ebook reader designed for immersive and deep reading experiences.",
     "homepage": "https://github.com/chrox/readest",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chrox/readest/releases/download/v0.9.81/Readest_0.9.81_x64-setup.exe#/dl.7z",
-            "hash": "c93aa8b6fe755cfdd80f24da2cbd66d8372484681142817ae73d4201470cc7ba"
+            "url": "https://github.com/chrox/readest/releases/download/v0.9.82/Readest_0.9.82_x64-setup.exe#/dl.7z",
+            "hash": "c44181b69f6fde673f360ed7657279bd8d13c347fc82b4a1db7df035352fcb41"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
