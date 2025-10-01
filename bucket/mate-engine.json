@@ -1,5 +1,5 @@
 {
-    "version": "1.9.8",
+    "version": "2.0.0",
     "description": "A free Desktop Mate alternative with a lightweight interface and custom VRM support, though with more features.",
     "homepage": "https://github.com/shinyflvre/Mate-Engine",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-1.9.8/Public.Release.1.9.8.zip",
-            "hash": "6dddb767d16f546846f17ed0a574d01f421bed3078f3f00e0fc65206059e6af3"
+            "url": "https://github.com/shinyflvre/Mate-Engine/releases/download/Public-Release-2.0.0/Public.Release.2.0.0.zip",
+            "hash": "149114b16fedc6c9a5326cda287caaab999dfd1606978b6b69f77b30d6d18bd0"
         }
     },
     "shortcuts": [
