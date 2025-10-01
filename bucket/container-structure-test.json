@@ -1,12 +1,12 @@
 {
-    "version": "1.21.0",
+    "version": "1.21.1",
     "description": "Validate the structure of your container images.",
     "homepage": "https://github.com/GoogleContainerTools/container-structure-test",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleContainerTools/container-structure-test/releases/download/v1.21.0/container-structure-test-windows-amd64.exe#/container-structure-test.exe",
-            "hash": "addcc6b36d8c464427a81792faa52dff3955aba87e92a2e44f669aba030891d1"
+            "url": "https://github.com/GoogleContainerTools/container-structure-test/releases/download/v1.21.1/container-structure-test-windows-amd64.exe#/container-structure-test.exe",
+            "hash": "442cdc69b74db29dd8b1be3716cfb67582eb5b8bf8bc51f5062a03b4d781d817"
         }
     },
     "bin": "container-structure-test.exe",
