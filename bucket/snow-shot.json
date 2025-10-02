@@ -1,13 +1,13 @@
 {
-    "version": "0.4.1-beta",
+    "version": "0.4.2-beta",
     "description": "SnowShot 是一款功能强大的截图工具，集成了文字识别、翻译和 AI 对话等功能",
     "homepage": "https://github.com/mg-chao/snow-shot",
     "license": "Apache-2.0|GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mg-chao/snow-shot/releases/download/0.4.1-beta/Snow.Shot_0.4.1-beta_windows-x64-portable.zip",
-            "extract_dir": "Snow Shot_0.4.1-beta_windows-x64-portable",
-            "hash": "c9532de1bc5cac534979d59781803b9b1032aa22a2256d89327b32904e437bd6"
+            "url": "https://github.com/mg-chao/snow-shot/releases/download/0.4.2-beta/Snow.Shot_0.4.2-beta_windows-x64-portable.zip",
+            "extract_dir": "Snow Shot_0.4.2-beta_windows-x64-portable",
+            "hash": "7c19766927067edc28cd4fb3fa2438adc4eac7753750dc90d8f9b21448faf4f3"
         }
     },
     "shortcuts": [
