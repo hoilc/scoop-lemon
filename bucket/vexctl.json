@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.1",
     "description": "A tool to create, apply, and attest VEX (Vulnerability Exploitability eXchange) data.",
     "homepage": "https://github.com/openvex/vexctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openvex/vexctl/releases/download/v0.3.0/vexctl-windows-amd64.exe#/vexctl.exe",
-            "hash": "346fb3104b656fe1a407cbae88ea29a636b36f4569ec58a5a8dadca7343993ed"
+            "url": "https://github.com/openvex/vexctl/releases/download/v0.4.1/vexctl-windows-amd64.exe#/vexctl.exe",
+            "hash": "159d8a8055d0bbd3238930296c40ef522103ba7358e184146fa017cc822f3464"
         }
     },
     "bin": "vexctl.exe",
