@@ -1,5 +1,5 @@
 {
-    "version": "2.20",
+    "version": "2.21",
     "description": "A Wi-Fi / WLAN monitor that scans for Wi-Fi / WLAN Access Points and monitor their signal strength.",
     "homepage": "https://www.the-sz.com/products/homedale/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.the-sz.com/products/license.php"
     },
     "url": "https://www.the-sz.com/products/homedale/Homedale.zip",
-    "hash": "479f3b329c1c4abaac3975833a9008ad6c5dd339119cda920bf272fc39c5d7a6",
+    "hash": "dad65664c44b5c924c404a4422fadc46c13fe54a78511f349c1043e027c3d08a",
     "bin": "Homedale.exe",
     "shortcuts": [
         [
