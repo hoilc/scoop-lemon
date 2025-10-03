@@ -1,10 +1,10 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "pgo is the Command Line Interface (CLI) for the Crunchy Postgres Operator.",
     "homepage": "https://github.com/CrunchyData/postgres-operator-client",
     "license": "Apache-2.0",
-    "url": "https://github.com/CrunchyData/postgres-operator-client/releases/download/v0.5.2/kubectl-pgo-windows-386#/kubectl-pgo.exe",
-    "hash": "382eb57a62f887521e54e1743571c370e81304374a51a14d20a97f018e93a859",
+    "url": "https://github.com/CrunchyData/postgres-operator-client/releases/download/v0.5.3/kubectl-pgo-windows-386#/kubectl-pgo.exe",
+    "hash": "71bb307ff374117648bad4407c25efbc60f93c77117fe8c93d6581dd5ea0018c",
     "bin": "kubectl-pgo.exe",
     "checkver": "github",
     "autoupdate": {
