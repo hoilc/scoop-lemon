@@ -1,23 +1,23 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "A utility to list and activate Azure Entra ID Privileged Identity Management roles.",
     "homepage": "https://github.com/netr0m/az-pim-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.7.0/az-pim-cli-1.7.0-windows-amd64.zip",
-            "extract_dir": "az-pim-cli-1.7.0-windows-amd64",
-            "hash": "aa4f20712e02f5638ec9ef5171d34abf958d56b20b715863a8cef9ad9bcf92f6"
+            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-amd64.zip",
+            "extract_dir": "az-pim-cli-1.8.0-windows-amd64",
+            "hash": "5ba87e202b4f624eb9fdb81972712b52ce16e36c0d217012381a9e915654ae17"
         },
         "32bit": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.7.0/az-pim-cli-1.7.0-windows-386.zip",
-            "extract_dir": "az-pim-cli-1.7.0-windows-386",
-            "hash": "9bfb93e0e121c6c47cba7f062ad21f21a6c15c64ea5cd441bbbd74b417e92a0a"
+            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-386.zip",
+            "extract_dir": "az-pim-cli-1.8.0-windows-386",
+            "hash": "e5b190bf504b0c30687c2a4a192829cb484b3d303d3285a10431508e0b64d431"
         },
         "arm64": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.7.0/az-pim-cli-1.7.0-windows-arm64.zip",
-            "extract_dir": "az-pim-cli-1.7.0-windows-arm64",
-            "hash": "ad8665ec7e11ea4d98b40814225db525c2af429ec1fc9b8371e29dd81d89cfb9"
+            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-arm64.zip",
+            "extract_dir": "az-pim-cli-1.8.0-windows-arm64",
+            "hash": "a01969b2a3ae548ef4dc51e26d0a8f57bf0502060a64935a244b8cd69e23aaf4"
         }
     },
     "bin": "az-pim-cli.exe",
