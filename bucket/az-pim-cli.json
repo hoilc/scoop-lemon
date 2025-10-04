@@ -1,23 +1,18 @@
 {
-    "version": "1.8.0",
+    "version": "1.10.0",
     "description": "A utility to list and activate Azure Entra ID Privileged Identity Management roles.",
     "homepage": "https://github.com/netr0m/az-pim-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-amd64.zip",
-            "extract_dir": "az-pim-cli-1.8.0-windows-amd64",
-            "hash": "5ba87e202b4f624eb9fdb81972712b52ce16e36c0d217012381a9e915654ae17"
-        },
-        "32bit": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-386.zip",
-            "extract_dir": "az-pim-cli-1.8.0-windows-386",
-            "hash": "e5b190bf504b0c30687c2a4a192829cb484b3d303d3285a10431508e0b64d431"
+            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.10.0/az-pim-cli-1.10.0-windows-x86_64.zip",
+            "extract_dir": "az-pim-cli-1.10.0-windows-x86_64",
+            "hash": "7bd356321c993e4d9abbd3b9464c51ca68be261e979a452b92ae867f0af58f77"
         },
         "arm64": {
-            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.8.0/az-pim-cli-1.8.0-windows-arm64.zip",
-            "extract_dir": "az-pim-cli-1.8.0-windows-arm64",
-            "hash": "a01969b2a3ae548ef4dc51e26d0a8f57bf0502060a64935a244b8cd69e23aaf4"
+            "url": "https://github.com/netr0m/az-pim-cli/releases/download/v1.10.0/az-pim-cli-1.10.0-windows-arm64.zip",
+            "extract_dir": "az-pim-cli-1.10.0-windows-arm64",
+            "hash": "178859837eb9dc3e15e7db4caad20fbbbe9277e12000135dd552fecb02d34627"
         }
     },
     "bin": "az-pim-cli.exe",
@@ -25,12 +20,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/netr0m/az-pim-cli/releases/download/v$version/az-pim-cli-$version-windows-amd64.zip",
-                "extract_dir": "az-pim-cli-$version-windows-amd64"
-            },
-            "32bit": {
-                "url": "https://github.com/netr0m/az-pim-cli/releases/download/v$version/az-pim-cli-$version-windows-386.zip",
-                "extract_dir": "az-pim-cli-$version-windows-386"
+                "url": "https://github.com/netr0m/az-pim-cli/releases/download/v$version/az-pim-cli-$version-windows-x86_64.zip",
+                "extract_dir": "az-pim-cli-$version-windows-x86_64"
             },
             "arm64": {
                 "url": "https://github.com/netr0m/az-pim-cli/releases/download/v$version/az-pim-cli-$version-windows-arm64.zip",
