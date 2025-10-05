@@ -1,12 +1,12 @@
 {
-    "version": "2.0.29",
+    "version": "2.0.30",
     "description": "An open-source project that aims to provide a next-generation node diagram tool for visual thinking.",
     "homepage": "https://github.com/LiRenTech/project-graph",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LiRenTech/project-graph/releases/download/v2.0.29/Project.Graph_2.0.29_x64-setup.exe#/dl.7z",
-            "hash": "b7e772466d7cc28309af5fb6cb36315fd0f677664e03296cce89334ddb2c8a2f"
+            "url": "https://github.com/LiRenTech/project-graph/releases/download/v2.0.30/Project.Graph_2.0.30_x64-setup.exe#/dl.7z",
+            "hash": "d0215bf1f1fc35e6714aa9120b13515ad0c805d93de7c3055da6db813850dc2d"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
