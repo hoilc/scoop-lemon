@@ -2,7 +2,7 @@
     "version": "1.5.1",
     "description": "将下载的网易云音乐缓存文件（ncm）转换为 mp3 或 flac 格式",
     "homepage": "https://github.com/taurusxin/ncmdump",
-    "license": "Freeware",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/taurusxin/ncmdump/releases/download/1.5.1/ncmdump-1.5.1-windows-amd64.zip",
