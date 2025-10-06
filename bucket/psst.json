@@ -1,5 +1,5 @@
 {
-    "version": "1272",
+    "version": "2025.07.26-31861f4",
     "description": "A fast Spotify client with native GUI.",
     "homepage": "https://github.com/jpochyla/psst",
     "license": "MIT",
@@ -17,8 +17,9 @@
     ],
     "notes": "A Spotify Premium account is required.",
     "checkver": {
-        "url": "https://api.github.com/repositories/267374872/actions/workflows/build.yml/runs?branch=main&status=success",
-        "jsonpath": "$.workflow_runs[0].run_number"
+        "url": "https://api.github.com/repositories/267374872/releases/tags/rolling",
+        "jsonpath": "$.name",
+        "regex": "\\AContinuous release \\(([^)]+)\\)\\Z"
     },
     "autoupdate": {
         "architecture": {
