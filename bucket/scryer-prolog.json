@@ -1,12 +1,12 @@
 {
-    "version": "0.9.4",
+    "version": "0.10.0",
     "description": "A modern Prolog implementation written mostly in Rust.",
     "homepage": "https://github.com/mthom/scryer-prolog",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://scryerprologrelease.blob.core.windows.net/release-094/scryer-prolog_windows-latest_x86_64-pc-windows-msvc.zip",
-            "hash": "a9f651ea280aba0ec71d630e6b0a0d3fbfe1b9a874355733d1b1904892e4aa70"
+            "url": "https://scryerprologrelease.blob.core.windows.net/release-0100/scryer-prolog_windows-latest_x86_64-pc-windows-msvc.zip",
+            "hash": "8e9bc484bcee21fbd982e947f92d7544a71bbf33573a883370b24985518e874f"
         }
     },
     "bin": "scryer-prolog.exe",
