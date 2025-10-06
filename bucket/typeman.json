@@ -1,16 +1,16 @@
 {
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "Typing speed test with practice mode in GUI, TUI and CLI.",
     "homepage": "https://github.com/mzums/typeman",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.1.9/typeman-0.1.9-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "9c3da02d87273db2be31aaa6478b64529d5a6c68b190d073baee7fb2111f9fc4"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.2.0/typeman-0.2.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7ad9838f4482d7c9001e4753ca823669d55571e8c3475cc479e5a1296b3a5dac"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.1.9/typeman-0.1.9-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "1533f2e0211a1c360fac4478956a39d0869c1f2904cb669cc1ca0519d62003a3"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/typeman-0.2.0/typeman-0.2.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "ba981210123248fbab4579165ac93b33daf398c014725f065eb9b27d3ec116f8"
         }
     },
     "bin": "typeman.exe",
