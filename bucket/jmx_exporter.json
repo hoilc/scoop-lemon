@@ -1,10 +1,10 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "A process for exposing JMX Beans via HTTP for Prometheus consumption.",
     "homepage": "https://github.com/prometheus/jmx_exporter",
     "license": "Apache-2.0",
-    "url": "https://github.com/prometheus/jmx_exporter/releases/download/1.4.0/jmx_prometheus_javaagent-1.4.0.jar#/jmx_prometheus_javaagent.jar",
-    "hash": "db1492e95a7ee95cd5e0a969875c0d4f0ef6413148d750351a41cc71d775f59a",
+    "url": "https://github.com/prometheus/jmx_exporter/releases/download/1.5.0/jmx_prometheus_javaagent-1.5.0.jar#/jmx_prometheus_javaagent.jar",
+    "hash": "0315f3f657876302c6205a98d4036ec775dca529c5d0419ca60ee669c688239f",
     "persist": "config",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config\\\")) { New-Item -Path \"$dir\\config\\\" -ItemType Directory | Out-Null }",
