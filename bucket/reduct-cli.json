@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "A command line client for ReductStore, a time series database for blob data.",
     "homepage": "https://www.reduct.store/docs",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.9.0/reduct-cli.x86_64-pc-windows-gnu.zip",
-            "hash": "ca74fc3f51302dc7597fcb373aa4b26fb199622cd907e56f683352c416a087fd"
+            "url": "https://github.com/reductstore/reduct-cli/releases/download/v0.9.1/reduct-cli.x86_64-pc-windows-gnu.zip",
+            "hash": "01718bfd5a58fd2fad3067a48613243836b4e358bfe8b738d7875cee26a1324f"
         }
     },
     "bin": "reduct-cli.exe",
