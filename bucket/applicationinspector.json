@@ -1,13 +1,13 @@
 {
-    "version": "1.9.52",
+    "version": "1.9.53",
     "description": "Microsoft Application Inspector is a software source code characterization tool that helps identify coding features of first or third party software components.",
     "homepage": "https://github.com/microsoft/ApplicationInspector",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v1.9.52/ApplicationInspector_win_1.9.52.zip",
-            "extract_dir": "ApplicationInspector_win_1.9.52",
-            "hash": "ead371a4fea07e293e32cd7a2ff58174523f36854744381ee2087c66fb5a8e3f"
+            "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v1.9.53/ApplicationInspector_win_1.9.53.zip",
+            "extract_dir": "ApplicationInspector_win_1.9.53",
+            "hash": "dc09287073438b724d8e1596c48c6be9fd99a7d17f2694cd0e5b7ac158fca0fb"
         }
     },
     "bin": "ApplicationInspector.CLI.exe",
