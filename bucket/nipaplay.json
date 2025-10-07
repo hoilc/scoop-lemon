@@ -1,13 +1,13 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "NipaPlay-Reload 是一个现代化的跨平台视频播放器，集成了弹幕显示、多格式字幕支持、多音频轨道切换，新番查看等功能",
     "homepage": "https://github.com/MCDFsteve/NipaPlay-Reload",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MCDFsteve/NipaPlay-Reload/releases/download/v1.6.0/NipaPlay_1.6.0_Windows_x64.zip",
-            "extract_dir": "NipaPlay_1.6.0_Windows_x64",
-            "hash": "fe8a339ff55007035af606da26509a8e5e8b2bddb09e26e5d4d46ef62a2529d0"
+            "url": "https://github.com/MCDFsteve/NipaPlay-Reload/releases/download/v1.6.1/NipaPlay_1.6.1_Windows_x64.zip",
+            "extract_dir": "NipaPlay_1.6.1_Windows_x64",
+            "hash": "785543b665da5daf34e54fd9a73ac2cf71ff3b581077f84e4043269a02c6f00b"
         }
     },
     "shortcuts": [
