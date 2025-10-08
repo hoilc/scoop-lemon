@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1435+d49a94cc24",
+    "version": "1.0.1516+7e996fe917",
     "description": "Microsoft Dev Tunnels provides developers secure tunnels to share local web services.",
     "homepage": "https://aka.ms/devtunnels/docs",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://tunnelsassetsprod.blob.core.windows.net/cli/1.0.1435+d49a94cc24/devtunnel.exe",
-            "hash": "733c6d8610e27941ca2102ac6823316274dc52d41f7b5027292a4e31c3d3b1f7"
+            "url": "https://tunnelsassetsprod.blob.core.windows.net/cli/1.0.1516+7e996fe917/devtunnel.exe",
+            "hash": "91920b8c36832d090dbcfc1d9782279ddde6c03a0b562682939fe9a3fe5a5143"
         }
     },
     "bin": "devtunnel.exe",
