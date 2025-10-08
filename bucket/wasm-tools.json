@@ -1,13 +1,13 @@
 {
-    "version": "1.239.0",
+    "version": "1.240.0",
     "description": "A CLI for low-level manipulation of WebAssembly modules.",
     "homepage": "https://github.com/bytecodealliance/wasm-tools",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.239.0/wasm-tools-1.239.0-x86_64-windows.zip",
-            "extract_dir": "wasm-tools-1.239.0-x86_64-windows",
-            "hash": "039b1eaa170563f762355a23c5ee709790199433e35e5364008521523e9e3398"
+            "url": "https://github.com/bytecodealliance/wasm-tools/releases/download/v1.240.0/wasm-tools-1.240.0-x86_64-windows.zip",
+            "extract_dir": "wasm-tools-1.240.0-x86_64-windows",
+            "hash": "81f012832e80fe09d384d86bb961d4779f6372a35fa965cc64efe318001ab27e"
         }
     },
     "bin": "wasm-tools.exe",
