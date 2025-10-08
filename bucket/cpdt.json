@@ -1,0 +1,21 @@
+{
+    "version": "2.3.3",
+    "description": "Cross Platform Disk Test is a storage (HDD, SSD, RAM) speed testing/performance benchmarking app.",
+    "homepage": "https://github.com/maxim-saplin/CrossPlatformDiskTest",
+    "license": "MIT",
+    "url": "https://github.com/maxim-saplin/CrossPlatformDiskTest/releases/download/2.3.3WPF/CPDT.zip",
+    "hash": "46efd60c2766601f7fa2f1c486a9e4adbaa3433ea95668c2ec6c9b549cd55de8",
+    "shortcuts": [
+        [
+            "CPDT.exe",
+            "Cross Platform Disk Test"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/maxim-saplin/CrossPlatformDiskTest/releases.atom",
+        "regex": "Repository/\\d+/(.+?)WPF<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/maxim-saplin/CrossPlatformDiskTest/releases/download/$versionWPF/CPDT.zip"
+    }
+}
