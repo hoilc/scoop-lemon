@@ -1,5 +1,5 @@
 {
-    "version": "2.9",
+    "version": "2.9.1",
     "description": "Precise Calculator is a free open source scientific calculator for Windows.",
     "homepage": "https://preccalc.sourceforge.net/",
     "license": "GPL-3.0-only",
@@ -7,11 +7,11 @@
         "64bit": {
             "pre_install": "Rename-Item -Path \"$dir\\preccalc64.exe\" -NewName 'preccalc.exe'",
             "url": "https://sourceforge.net/projects/preccalc/files/preccalc-64bit.zip",
-            "hash": "sha1:ec21c42190a068422afe677cc085213e2659d6f1"
+            "hash": "sha1:c0be621342d5d9247ae52dbc1f6a8eac2b19f465"
         },
         "32bit": {
             "url": "https://sourceforge.net/projects/preccalc/files/preccalc-32bit.zip",
-            "hash": "sha1:0c2c48b3ffc3a6f0faef74c539d3bf9f2cbedcc4"
+            "hash": "sha1:b878183bbf13e71263b6facbbb7f0855ba4cc2d8"
         }
     },
     "shortcuts": [
