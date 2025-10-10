@@ -1,13 +1,13 @@
 {
-    "version": "2025-10-09",
+    "version": "2025-10-10",
     "description": "A Ruby made with Rust.",
     "homepage": "https://www.artichokeruby.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/artichoke/nightly/releases/download/nightly-2025-10-09/artichoke-nightly-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/artichoke/nightly/releases/download/nightly-2025-10-10/artichoke-nightly-x86_64-pc-windows-msvc.zip",
             "extract_dir": "artichoke-nightly-x86_64-pc-windows-msvc",
-            "hash": "3fb4661da52873e6d1eaa8fb48bc0a22cbca3296c8d34a6c54bd78c3c3fec5b4"
+            "hash": "6b683859ee05aa87b421921acfc08268580ef4c5853a8ad02b41c7307e41e8e2"
         }
     },
     "bin": [
