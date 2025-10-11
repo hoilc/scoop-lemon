@@ -1,0 +1,38 @@
+{
+    "version": "2.2.4",
+    "description": "现代且强大的串口助手",
+    "homepage": "https://gitee.com/xenkuo/comNG",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitee.com/xenkuo/comNG/releases/download/v2.2.4/comNG-2.2.4%20Setup.exe#/dl.7z",
+            "hash": "30ecd8aff5ebece980994150e38114db3c9d0c647fdf3095cfedbf1342dbe3a7"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike 'comNG-*-full.nupkg' } | Remove-Item",
+        "Expand-7zipArchive -Path \"$dir\\comNG-*-full.nupkg\" -DestinationPath \"$dir\" -ExtractDir \"lib\\net45\" -Removal"
+    ],
+    "shortcuts": [
+        [
+            "comNG.exe",
+            "comNG"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\comNG\", \"$env:LOCALAPPDATA\\comNG\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "comNG is NOT portable.",
+        "Settings are stored in '%APPDATA%\\comNG', and will be purged during uninstallation."
+    ],
+    "checkver": {
+        "url": "https://gitee.com/xenkuo/comNG/tags.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitee.com/xenkuo/comNG/releases/download/v$version/comNG-$version%20Setup.exe#/dl.7z"
+            }
+        }
+    }
+}
