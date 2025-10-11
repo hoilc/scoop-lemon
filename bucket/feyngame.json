@@ -1,0 +1,31 @@
+{
+    "version": "2.1.0",
+    "description": "A Java-based graphical tool for drawing Feynman diagrams.",
+    "homepage": "https://gitlab.com/feyngame/FeynGame",
+    "license": "GPL-3.0-only",
+    "url": "https://web.physik.rwth-aachen.de/user/harlander/software/feyngame/downloads/java-9/FeynGame.jar",
+    "hash": "fc97942b2e53234bcbbf74ebcb09aae63d8ef95c1a05c79d262b60e072a3fe89",
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\FeynGame.bat\" -Value '@start javaw.exe -jar \"%~dp0FeynGame.jar\"'",
+    "bin": "FeynGame.jar",
+    "shortcuts": [
+        [
+            "FeynGame.bat",
+            "FeynGame"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://gitlab.com/feyngame/FeynGame/-/releases.atom",
+        "regex": "/-/releases/([\\d.]+)<"
+    },
+    "autoupdate": {
+        "url": "https://web.physik.rwth-aachen.de/user/harlander/software/feyngame/downloads/java-9/FeynGame.jar"
+    }
+}
