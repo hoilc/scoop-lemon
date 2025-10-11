@@ -1,0 +1,30 @@
+{
+    "version": "2021.10.9",
+    "description": "An application for accessing HFS/HFS+/HFSX file systems.",
+    "homepage": "https://www.catacombae.org/hfsexplorer/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/unsound/hfsexplorer/releases/download/hfsexplorer-2021.10.9/hfsexplorer-2021.10.9-bin.zip",
+    "hash": "1dfc2183ebcd5f4ca283def3d3a0061542bdbf43d62a1c35208a4b95bf2b9d8e",
+    "shortcuts": [
+        [
+            "bin\\hfsexplorer.exe",
+            "HFSExplorer"
+        ]
+    ],
+    "bin": "bin\\unhfs.bat",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/unsound/hfsexplorer/releases.atom",
+        "regex": "Repository/\\d+/hfsexplorer-(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/unsound/hfsexplorer/releases/download/hfsexplorer-$version/hfsexplorer-$version-bin.zip"
+    }
+}
