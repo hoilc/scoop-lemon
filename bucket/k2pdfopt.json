@@ -1,0 +1,37 @@
+{
+    "version": "2.55",
+    "description": "K2pdfopt optimizes PDF/DJVU files for mobile e-readers (e.g. the Kindle) and smartphones.",
+    "homepage": "https://www.willus.com/k2pdfopt/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/k2pdfopt/k2pdfopt_v2.55_win64.exe#/k2pdfopt.exe",
+            "hash": "73861ff0aa8fca0e61defb5224c0e62479d5b96405ee2defc8062d6163ccb791"
+        },
+        "32bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/k2pdfopt/k2pdfopt_v2.55_win32.exe#/k2pdfopt.exe",
+            "hash": "74bd8ac7d31e37b6f673dd878d68de259bd3809660c64db2efc6a551e7023e69"
+        }
+    },
+    "bin": "k2pdfopt.exe",
+    "shortcuts": [
+        [
+            "k2pdfopt.exe",
+            "K2pdfopt"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.willus.com/k2pdfopt/src/",
+        "regex": "k2pdfopt_v([^_]+)_src.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/k2pdfopt/k2pdfopt_v$version_win64.exe#/k2pdfopt.exe"
+            },
+            "32bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/k2pdfopt/k2pdfopt_v$version_win32.exe#/k2pdfopt.exe"
+            }
+        }
+    }
+}
