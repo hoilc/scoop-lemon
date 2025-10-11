@@ -1,0 +1,41 @@
+{
+    "version": "2.4.0",
+    "description": "A lint tool for validating .gitlab-ci.yml using Gitlab API.",
+    "homepage": "https://gitlab.com/orobardet/gitlab-ci-linter",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v2.4.0/downloads/gitlab-ci-linter_2.4.0_windows_amd64.exe#/gitlab-ci-linter.exe",
+            "hash": "c52ba25b9c8e940d974b83e18b2b5e10b628968254780e9dabf27f283c8e3bb2"
+        },
+        "32bit": {
+            "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v2.4.0/downloads/gitlab-ci-linter_2.4.0_windows_386.exe#/gitlab-ci-linter.exe",
+            "hash": "0f934c162c78a82e70101e303f065bc3f9097364e252a2d25fdba61267487ca9"
+        },
+        "arm64": {
+            "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v2.4.0/downloads/gitlab-ci-linter_2.4.0_windows_arm64.exe#/gitlab-ci-linter.exe",
+            "hash": "fd32fa7fe2329cc6be1f00008513e140b2d033220fbd4908199995fd7db151ec"
+        }
+    },
+    "bin": "gitlab-ci-linter.exe",
+    "checkver": {
+        "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases.atom",
+        "regex": "/-/releases/v([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v$version/downloads/gitlab-ci-linter_$version_windows_amd64.exe#/gitlab-ci-linter.exe"
+            },
+            "32bit": {
+                "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v$version/downloads/gitlab-ci-linter_$version_windows_386.exe#/gitlab-ci-linter.exe"
+            },
+            "arm64": {
+                "url": "https://gitlab.com/orobardet/gitlab-ci-linter/-/releases/v$version/downloads/gitlab-ci-linter_$version_windows_arm64.exe#/gitlab-ci-linter.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
