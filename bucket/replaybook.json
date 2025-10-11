@@ -1,0 +1,32 @@
+{
+    "version": "1.7.9",
+    "description": "Play, manage, and inspect League of Legends replays.",
+    "homepage": "https://github.com/fraxiinus/ReplayBook",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fraxiinus/ReplayBook/releases/download/1.7.9/ReplayBook.zip",
+            "hash": "0e47df230f81eede7afbb56c1f6c7245ce2e4a4d2e169041464c0518d0203bb0"
+        }
+    },
+    "shortcuts": [
+        [
+            "ReplayBook.exe",
+            "ReplayBook"
+        ]
+    ],
+    "persist": [
+        "appsettings.json",
+        "data",
+        "cache",
+        "logs"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fraxiinus/ReplayBook/releases/download/$version/ReplayBook.zip"
+            }
+        }
+    }
+}
