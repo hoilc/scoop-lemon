@@ -1,0 +1,38 @@
+{
+    "version": "20240303",
+    "description": "JFDuke3D is 3D Realms' 1996 shooter Duke Nukem 3D updated for modern Windows, Mac, and Linux computers.",
+    "homepage": "https://www.jonof.id.au/jfduke3d/index.html",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.jonof.id.au/files/jfduke3d/jfduke3d-20240303-win.zip",
+            "extract_dir": "jfduke3d-20240303-win",
+            "hash": "2b059b2ed05d74ec41e106cb65ef9163f0bf93b5aa9e508e7420d9e0868fb9c8"
+        }
+    },
+    "bin": "duke3d.exe",
+    "shortcuts": [
+        [
+            "duke3d.exe",
+            "JFDuke3D"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$dir\\user_profiles_disabled\")) { Set-Content -Encoding ASCII -Path \"$dir\\user_profiles_disabled\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir\\duke3d.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\duke3d.cfg\" -Value $null }"
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include '*.grp', '*.con', '*.ogg' | Move-Item -Force -Destination $dir",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.grp', '*.con', '*.ogg' | Move-Item -Force -Destination $persist_dir",
+    "persist": "duke3d.cfg",
+    "checkver": {
+        "regex": "jfduke3d-([^-]+?)-win.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.jonof.id.au/files/jfduke3d/jfduke3d-$version-win.zip",
+                "extract_dir": "jfduke3d-$version-win"
+            }
+        }
+    }
+}
