@@ -2,7 +2,7 @@
     "version": "20240303",
     "description": "JFShadowWarrior is 3D Realms' 1997 shooter Shadow Warrior updated for modern Windows, Mac, and Linux computers.",
     "homepage": "https://www.jonof.id.au/jfsw/index.html",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://www.jonof.id.au/files/jfsw/jfsw-20240303-win.zip",
@@ -21,8 +21,8 @@
         "if (!(Test-Path \"$dir\\user_profiles_disabled\")) { Set-Content -Encoding ASCII -Path \"$dir\\user_profiles_disabled\" -Value $null }",
         "if (!(Test-Path \"$persist_dir\\sw.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\sw.cfg\" -Value $null }"
     ],
-    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include '*.grp' | Move-Item -Force -Destination $dir",
-    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.grp' | Move-Item -Force -Destination $persist_dir",
+    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include '*.grp', '*.ogg' | Move-Item -Force -Destination $dir",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.grp', '*.ogg' | Move-Item -Force -Destination $persist_dir",
     "persist": "sw.cfg",
     "checkver": {
         "regex": "jfsw-([^-]+?)-win.zip"
