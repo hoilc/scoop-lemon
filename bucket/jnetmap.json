@@ -1,0 +1,32 @@
+{
+    "version": "0.5.5",
+    "description": "A graphical network monitoring and documentation tool.",
+    "homepage": "https://rakudave.ch/jnetmap/",
+    "license": "GPL-3.0-only",
+    "url": "https://sourceforge.net/projects/jnetmap/files/jNetMap%200.5.5/jNetMap-0.5.5-703-setup.exe#/dl.7z",
+    "hash": "sha1:ede8402098699e434941da335827bfb9a1747bab",
+    "shortcuts": [
+        [
+            "jNetMap.bat",
+            "jNetMap",
+            "",
+            "jnetmap.ico"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\" -Force -ErrorAction SilentlyContinue",
+    "suggest": {
+        "JDK": [
+            "java/temurin-jdk",
+            "java/openjdk",
+            "java/zulu-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://sourceforge.net/projects/jnetmap/rss?path=/",
+        "regex": "/files/jNetMap%20([^/]+)/jNetMap-(?<full>.+?)-setup.exe"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/jnetmap/files/jNetMap%20$version/jNetMap-$matchFull-setup.exe#/dl.7z"
+    }
+}
