@@ -1,0 +1,29 @@
+{
+    "version": "1.9.1",
+    "description": "A lexical analyzer generator (also known as scanner generator) for Java, written in Java.",
+    "homepage": "https://www.jflex.de/",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/jflex-de/jflex/releases/download/v1.9.1/jflex-1.9.1.tar.gz",
+    "hash": "sha1:a0f90647a2d7e48ac0fb7bb2e787a12b0b4af19a",
+    "extract_dir": "jflex-1.9.1",
+    "pre_install": "Get-ChildItem \"$dir\\lib\" 'jflex-full-*.jar' | Select-Object -First 1 | ForEach-Object { Set-Content -Encoding ASCII -Path \"$dir\\bin\\jflex.bat\" -Value \"@java -Xmx128m -jar `\"%~dp0..\\lib\\$($_.Name)`\"  %*\" }",
+    "bin": "bin\\jflex.bat",
+    "suggest": {
+        "JDK": [
+            "java/temurin-jdk",
+            "java/openjdk",
+            "java/zulu-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/jflex-de/jflex"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jflex-de/jflex/releases/download/v$version/jflex-$version.tar.gz",
+        "extract_dir": "jflex-$version",
+        "hash": {
+            "url": "$url.sha1"
+        }
+    }
+}
