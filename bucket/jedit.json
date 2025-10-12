@@ -1,0 +1,23 @@
+{
+    "version": "5.7.0",
+    "description": "A programmer's text editor written in Java.",
+    "homepage": "https://www.jedit.org/",
+    "license": "GPL-2.0-only",
+    "url": "https://sourceforge.net/projects/jedit/files/jedit/5.7.0/jedit5.7.0install.exe",
+    "hash": "sha1:73a542f08cd79a4fa1da52d25ac7b3957fec5065",
+    "innosetup": true,
+    "bin": "jedit.exe",
+    "shortcuts": [
+        [
+            "jedit.exe",
+            "jEdit"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/jedit/rss?path=/jedit",
+        "regex": "/jedit/([\\d.]+?)/jedit.*?install.exe"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/jedit/files/jedit/$version/jedit$versioninstall.exe"
+    }
+}
