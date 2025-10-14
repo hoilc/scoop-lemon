@@ -1,12 +1,12 @@
 {
-    "version": "0.25.1",
+    "version": "0.26.0",
     "description": "A command-line bootstrapping and management tool for k0s zero friction kubernetes clusters.",
     "homepage": "https://github.com/k0sproject/k0sctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k0sproject/k0sctl/releases/download/v0.25.1/k0sctl-win-amd64.exe#/k0sctl.exe",
-            "hash": "da73a7accbd49166f7a260bfd1db101c566de87505fb42372910e4cc8d92cc77"
+            "url": "https://github.com/k0sproject/k0sctl/releases/download/v0.26.0/k0sctl-win-amd64.exe#/k0sctl.exe",
+            "hash": "1ce3989707e3c6b5b40c3b21d86cfd6e2fef422dbe1f4286bcb02391dacba5e7"
         }
     },
     "bin": "k0sctl.exe",
