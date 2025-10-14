@@ -1,16 +1,16 @@
 {
-    "version": "246",
+    "version": "247",
     "description": "(Nightly Build) A modern and powerful stream downloader for MPD/M3U8/ISM.",
     "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/16003174810/win-x64.zip",
-            "hash": "85addc1fb75e4bfad0f388d790f5973f4f44a00001c76ef7ca0c93ac0ae17145"
+            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/18488851757/win-x64.zip",
+            "hash": "28824a75cf3bfb60bbf89a2ec2a6e5754ea47f9a26d3dd83ac4436a01659b64b"
         },
         "arm64": {
-            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/16003174810/win-arm64.zip",
-            "hash": "1a0f128a95b0e0d853b8c855dd6f08da439fca7541f17a66054c382f8fe3ae2d"
+            "url": "https://nightly.link/nilaoda/N_m3u8DL-RE/actions/runs/18488851757/win-arm64.zip",
+            "hash": "e5738b4043f48cb773a6d214f16812648059cd06c214fa7abd81860fe6ec8652"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'N_m3u8DL-RE_*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
