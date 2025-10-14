@@ -1,12 +1,12 @@
 {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "简洁轻量的待办应用",
     "homepage": "https://kite.kitlib.cn",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://kite.kitlib.cn/app/v0.1.1/kite_0.1.1_x64-setup.exe#/dl.7z",
-            "hash": "acd9580a948db44da67b1fd15ab2d2cc43fc30a929468f1b953795d5202fc4a9"
+            "url": "https://kite.kitlib.cn/app/v0.2.0/kite_0.2.0_x64-setup.exe#/dl.7z",
+            "hash": "aad69b592d31d5fdebe09600526b144884ede13a5d6d1fccbe4bbf950b2754a0"
         }
     },
     "shortcuts": [
