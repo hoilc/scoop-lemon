@@ -1,16 +1,16 @@
 {
-    "version": "50.1.0",
+    "version": "50.2.0",
     "description": "DataFusion CLI is an interactive command-line utility for executing SQL queries against any supported data files.",
     "homepage": "https://datafusion.apache.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-50.1.0/datafusion-cli-50.1.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "239f345208edfa5d88fc14584d44aedc4a92a7b2117dc37e090944546623623c"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-50.2.0/datafusion-cli-50.2.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "28140e65d459272028371c0935a158a95144e6c71aff8a79131af1bf2db6033a"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-50.1.0/datafusion-cli-50.1.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "9cb320271dd84ffcb6c78eb1cf12cc48d382a824777ca512c90708cf2705f90c"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/datafusion-cli-50.2.0/datafusion-cli-50.2.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "f40fd7355adddcdc652c02ad52052151653abb5abb27071474c5a1a1811d9915"
         }
     },
     "bin": "datafusion-cli.exe",
