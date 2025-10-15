@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.7/depyler-3.19.7-x86_64-pc-windows-msvc.tar.gz",
             "hash": "b0bf073f31a9afb640c039b47b39e9d7b54cd773eb1e8ed8d4dccaeb9a262866"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.7/depyler-3.19.7-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "ab3849656a67f9b9cf28132526fa1faf3a68c1cb85bb7becd5e0a01056a1c0d1"
         }
     },
     "bin": "depyler.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-$version/depyler-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-$version/depyler-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
