@@ -1,10 +1,10 @@
 {
-    "version": "0.58",
+    "version": "0.59",
     "description": "A program that pretty-prints (formats) Kotlin code, based on google-java-format.",
     "homepage": "https://github.com/facebook/ktfmt",
     "license": "Apache-2.0",
-    "url": "https://github.com/facebook/ktfmt/releases/download/v0.58/ktfmt-0.58-with-dependencies.jar#/ktfmt.jar",
-    "hash": "0369a4351367b0de2374b0f1c3962ef7d5d222a4bc58d7197d06948d46e4bea5",
+    "url": "https://github.com/facebook/ktfmt/releases/download/v0.59/ktfmt-0.59-with-dependencies.jar#/ktfmt.jar",
+    "hash": "a493271c137074436a133d72e9e323f91604c97e0c40555629ec39598efead54",
     "bin": "ktfmt.jar",
     "suggest": {
         "JDK 11+": [
