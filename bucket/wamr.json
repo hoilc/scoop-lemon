@@ -1,17 +1,17 @@
 {
-    "version": "2.4.2",
+    "version": "2.4.3",
     "description": "WebAssembly Micro Runtime (WAMR) is a lightweight standalone WebAssembly (Wasm) runtime with small footprint, high performance.",
     "homepage": "https://github.com/bytecodealliance/wasm-micro-runtime",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.2/iwasm-2.4.2-x86_64-windows-latest.zip",
-                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.2/wamrc-2.4.2-x86_64-windows-latest.zip"
+                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.3/iwasm-2.4.3-x86_64-windows-2022.zip",
+                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.3/wamrc-2.4.3-x86_64-windows-2022.zip"
             ],
             "hash": [
-                "78284ab6d3cf6219af1a849f30bf7cd5a463775b19c8b4efb771649eb7ebb14e",
-                "3508784f4d0290fb6855021feec1ae216dec8e4483566b12b7afa896820d3358"
+                "361bbe2a73a060edb6e58a6b688b3af171177b27e1a36ed180f7bbfa71c5f1c7",
+                "ca6dfb01cf6b40a4afa7afcac07a020f8aca0385616fd1e6d6a5f67f7e30f638"
             ]
         }
     },
@@ -27,8 +27,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-$version/iwasm-$version-x86_64-windows-latest.zip",
-                    "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-$version/wamrc-$version-x86_64-windows-latest.zip"
+                    "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-$version/iwasm-$version-x86_64-windows-2022.zip",
+                    "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-$version/wamrc-$version-x86_64-windows-2022.zip"
                 ]
             }
         }
