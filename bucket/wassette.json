@@ -1,16 +1,16 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A security-oriented runtime that runs WebAssembly Components via MCP.",
     "homepage": "https://github.com/microsoft/wassette",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/wassette/releases/download/v0.3.1/wassette_0.3.1_windows_amd64.zip",
-            "hash": "bcd9021f6547bbd82ca412a9523d0ba564d02a1638449db47505471dfb5a155b"
+            "url": "https://github.com/microsoft/wassette/releases/download/v0.3.2/wassette_0.3.2_windows_amd64.zip",
+            "hash": "c15ca207650c4a472d83446ce2cae91c7b4aa7883dc99c5a35155b807bd4105d"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/wassette/releases/download/v0.3.1/wassette_0.3.1_windows_arm64.zip",
-            "hash": "2084f328f26feeeca5f8691a4af553f9ecaf3bae808d8750fa8137b79c196cf6"
+            "url": "https://github.com/microsoft/wassette/releases/download/v0.3.2/wassette_0.3.2_windows_arm64.zip",
+            "hash": "dde31d89263f56c4fbdcd0b46e076b8043419985a06664deb903c27c70c7fe2b"
         }
     },
     "bin": "wassette.exe",
