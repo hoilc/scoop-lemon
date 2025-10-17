@@ -4,18 +4,18 @@
     "homepage": "https://github.com/radiantly/Invisiwind",
     "license": "MIT",
     "architecture": {
-        "32bit": {
-            "pre_install": [
-                "Remove-Item -Force \"$dir\\Invisiwind.exe\"",
-                "Rename-Item -Path \"$dir\\Invisiwind_32bit.exe\" -NewName 'Invisiwind.exe'"
-            ]
+        "64bit": {
+            "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.0.0/Invisiwind.zip",
+            "hash": "276c61931a6d58cee12b9e6dba120d9af0d425bac42cadf235375591105bcf1f"
         }
     },
-    "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.0.0/Invisiwind.zip",
-    "hash": "276c61931a6d58cee12b9e6dba120d9af0d425bac42cadf235375591105bcf1f",
     "bin": "Invisiwind.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/radiantly/Invisiwind/releases/download/v$version/Invisiwind.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/radiantly/Invisiwind/releases/download/v$version/Invisiwind.zip"
+            }
+        }
     }
 }
