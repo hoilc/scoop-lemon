@@ -1,0 +1,31 @@
+{
+    "version": "1.9.0",
+    "description": "A thoughtfully crafted e-book reader for book lovers.",
+    "homepage": "https://github.com/Anxcye/anx-reader",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Anxcye/anx-reader/releases/download/v1.9.0/Anx-Reader-windows-1.9.0.zip",
+            "hash": "55dc15ecfc5cb87c3bcd857fb8bc1d8c966fc3dd3cae1d7fe5b76c65b7f43488"
+        }
+    },
+    "shortcuts": [
+        [
+            "anx_reader.exe",
+            "Anx Reader"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.anxcye\\anx_reader\", \"$env:LOCALAPPDATA\\com.anxcye\\anx_reader\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Anx Reader is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.anxcye\\anx_reader', and will be purged during uninstallation."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Anxcye/anx-reader/releases/download/v$version/Anx-Reader-windows-$version.zip"
+            }
+        }
+    }
+}
