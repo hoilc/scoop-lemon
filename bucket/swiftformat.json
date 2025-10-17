@@ -1,13 +1,13 @@
 {
-    "version": "0.58.4",
+    "version": "0.58.5",
     "description": "A command-line tool for formatting Swift code.",
     "homepage": "https://github.com/nicklockwood/SwiftFormat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.4/SwiftFormat.amd64.msi",
+            "url": "https://github.com/nicklockwood/SwiftFormat/releases/download/0.58.5/SwiftFormat.amd64.msi",
             "extract_dir": "PFiles64\\nicklockwood\\SwiftFormat",
-            "hash": "03f51eae9455f6569e7f7a74d6bf41fa05cb26c3581dbce08cd001f8b4b36fcf"
+            "hash": "5bc7ae5e6172dc6cdf5afff334a0e89ca0654ff331ae88c7ed011fb00b6a5f2a"
         }
     },
     "bin": "swiftformat.exe",
