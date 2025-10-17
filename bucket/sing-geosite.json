@@ -1,15 +1,15 @@
 {
-    "version": "20250916122507",
+    "version": "20251016234701",
     "description": "Geosite database for sing-box.",
     "homepage": "https://sing-box.sagernet.org/configuration/route/geosite/",
     "license": "GPL-3.0-or-later",
     "url": [
-        "https://github.com/SagerNet/sing-geosite/releases/download/20250916122507/geosite.db",
-        "https://github.com/SagerNet/sing-geosite/releases/download/20250916122507/geosite-cn.db"
+        "https://github.com/SagerNet/sing-geosite/releases/download/20251016234701/geosite.db",
+        "https://github.com/SagerNet/sing-geosite/releases/download/20251016234701/geosite-cn.db"
     ],
     "hash": [
-        "fc4dd072275c87fc5c344b0458f46839310ab76af31d9d56d214681bdac9e427",
-        "f32bf317460448c7a8a47f67f3cbc12e336e1462ee08d6da0a3b92954b90079a"
+        "8383c97ff2cac2c551aa352d687f2284170ad2d94bf59ec5431b072cd6a89189",
+        "d7236dd4faa48e87d5770d036424e5c08a3e72f40a7df02196c3730c666dd829"
     ],
     "notes": "Geosite is deprecated in sing-box 1.8.0 and removed in sing-box 1.12.0",
     "suggest": {
