@@ -1,16 +1,16 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A tool for working with Apple II and vintage Mac disk images and file archives.",
     "homepage": "https://ciderpress2.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fadden/CiderPress2/releases/download/v1.1.0/cp2_1.1.0_win-x64_sc.zip",
-            "hash": "a4f73c3a2215d1a5c832f58a8003aec4f6863e5292512cd0515a9bf0f40f8b4e"
+            "url": "https://github.com/fadden/CiderPress2/releases/download/v1.1.1/cp2_1.1.1_win-x64_sc.zip",
+            "hash": "d02e412ddafbd21a4458a0bc851565e687ce6663df3495a7079b293c1e48a6d7"
         },
         "32bit": {
-            "url": "https://github.com/fadden/CiderPress2/releases/download/v1.1.0/cp2_1.1.0_win-x86_sc.zip",
-            "hash": "66b18ee9bd189c63f10b90ef6b0688131aea60cf4ef458305d6d063b34f893ea"
+            "url": "https://github.com/fadden/CiderPress2/releases/download/v1.1.1/cp2_1.1.1_win-x86_sc.zip",
+            "hash": "cb8dd39bd1f817c3adf032e2d29e654a79588c02b9386960723da9e10d37cabd"
         }
     },
     "bin": "cp2.exe",
