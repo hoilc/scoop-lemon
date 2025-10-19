@@ -4,7 +4,7 @@
     "homepage": "https://privazer.com",
     "license": "Freeware",
     "url": "https://privazer.com/PrivaZer.exe",
-    "hash": "423c7c1e692c2385bf854b5a81a2d4a79c5a64489a4c585946a2848f1596eeba",
+    "hash": "a5594d6edf648478094b40fb0bb9f3e1e6e0daefe7beca1cccb473c14bb794ec",
     "pre_install": "if (!(Test-Path \"$persist_dir\\PrivaZer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\PrivaZer.ini\" -Value $null }",
     "persist": "PrivaZer.ini",
     "bin": "PrivaZer.exe",
