@@ -1,12 +1,12 @@
 {
-    "version": "1.14.1",
+    "version": "1.12.2",
     "description": "A Helm 3 alternative that manages Helm Charts and deploys them to Kubernetes.",
     "homepage": "https://github.com/werf/nelm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://tuf.nelm.sh/targets/releases/1.14.1/windows-amd64/bin/nelm.exe",
-            "hash": "62e1ddeec9650835c5d71ecb19d97eb4639196a7a4fe21a3f10cfbd900dad6f9"
+            "url": "https://tuf.nelm.sh/targets/releases/1.12.2/windows-amd64/bin/nelm.exe",
+            "hash": "3878dfbff37ad7a80599d0aad8c4d8daa4554fa73003a7f1bc3b94c20427aa62"
         }
     },
     "bin": "nelm.exe",
