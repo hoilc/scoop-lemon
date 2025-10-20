@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "The Command Line Interface to interact with OVHcloud KMS services.",
     "homepage": "https://github.com/ovh/okms-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ovh/okms-cli/releases/download/v0.4.0/okms-cli-windows-x86_64.zip",
-            "hash": "8017fb2e8781c47d1c52666978ed21b3d9f07bd322d91d6805b0ff3972075848"
+            "url": "https://github.com/ovh/okms-cli/releases/download/v0.4.1/okms-cli-windows-x86_64.zip",
+            "hash": "09bc1a3a00dbbfcc4bc2a2e1e81b4d73211df11b7232f694682d976bbb5bea2c"
         },
         "arm64": {
-            "url": "https://github.com/ovh/okms-cli/releases/download/v0.4.0/okms-cli-windows-arm64.zip",
-            "hash": "c9ba98afc6a2440fda21dee7592cd7c2702c7e7b43c6d5f7b38ea1086dfbebb2"
+            "url": "https://github.com/ovh/okms-cli/releases/download/v0.4.1/okms-cli-windows-arm64.zip",
+            "hash": "74c472c900f8bb7c4c6801824c5901ae9e100a7de03220a02c04908248745785"
         }
     },
     "bin": "okms.exe",
