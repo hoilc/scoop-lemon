@@ -1,13 +1,13 @@
 {
-    "version": "25.0.0",
+    "version": "25.0.1",
     "description": "(Community Edition & JVM Standalone) A high-performance, ECMAScript compliant, and embeddable JavaScript runtime for Java.",
     "homepage": "https://www.graalvm.org/javascript/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oracle/graaljs/releases/download/graal-25.0.0/graaljs-community-jvm-25.0.0-windows-amd64.zip",
-            "extract_dir": "graaljs-community-25.0.0-windows-amd64",
-            "hash": "4de58db47eda5912de2a0898b3751fa5e76077ee89f72537cadeae89881f260c"
+            "url": "https://github.com/oracle/graaljs/releases/download/graal-25.0.1/graaljs-community-jvm-25.0.1-windows-amd64.zip",
+            "extract_dir": "graaljs-community-25.0.1-windows-amd64",
+            "hash": "324b1eaed69913998e15b6bce98882dc19232fc4f526f065a59d092cd48edfb3"
         }
     },
     "bin": "bin\\js.exe",
