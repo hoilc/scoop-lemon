@@ -1,12 +1,12 @@
 {
-    "version": "0.14.1",
+    "version": "0.15.1",
     "description": "A tool for formatting Clojure code.",
     "homepage": "https://github.com/weavejester/cljfmt",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/weavejester/cljfmt/releases/download/0.14.1/cljfmt-0.14.1-win-amd64.zip",
-            "hash": "2afa20bf164814b8cc22cc700a8ffbec03c91604997d4e40bedd20ddd278b62c"
+            "url": "https://github.com/weavejester/cljfmt/releases/download/0.15.1/cljfmt-0.15.1-win-amd64.zip",
+            "hash": "8de686328050a099251eda3d630903542a5f6b40bd392acd25a11af53d0952b5"
         }
     },
     "bin": "cljfmt.exe",
