@@ -1,19 +1,25 @@
 {
-    "version": "218",
+    "version": "b218",
     "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": "AGPL-3.0-only",
+    "url": "https://nightly.link/imsyy/SPlayer/actions/runs/18691353451/SPlayer-dev.zip",
+    "hash": "6898b059c71ab84257fa11e4dc75b358c4d8cc2adb0737dcd47823ed96ec603c",
     "architecture": {
         "64bit": {
-            "installer": {
-                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
-            },
-            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/18691353451/SPlayer-dev.zip",
-            "hash": "6898b059c71ab84257fa11e4dc75b358c4d8cc2adb0737dcd47823ed96ec603c"
+            "pre_install": [
+                "Get-ChildItem \"$dir\" 'SPlayer-*-x64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            ]
+        },
+        "arm64": {
+            "pre_install": [
+                "Get-ChildItem \"$dir\" 'SPlayer-*-arm64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
+            ]
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\" 'SPlayer-*-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
-    "post_install": "Remove-Item \"$dir\\SPlayer?*.exe\", \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\SPlayer?*.exe\", \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "SPlayer.exe",
@@ -23,14 +29,11 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "url": "https://github.com/imsyy/SPlayer/actions/workflows/build.yml?query=branch%3Adev+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+        "url": "https://github.com/imsyy/SPlayer/actions?query=branch%3Adev+is%3Asuccess+event%3Apush",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
+        "replace": "b${build}"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-dev.zip"
-            }
-        }
+        "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-dev.zip"
     }
 }
