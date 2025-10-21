@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/oracle/graaljs/releases/download/graal-25.0.1/graaljs-jvm-25.0.1-windows-amd64.zip",
-            "extract_dir": "graaljs-25.0.1-windows-amd64",
+            "extract_dir": "graaljs-jvm-25.0.1-windows-amd64",
             "hash": "497dc0b76e39ab45687e13f6a3c404f2e5cc566f3cb3212f09f13ab72270a71e"
         }
     },
@@ -19,7 +19,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/oracle/graaljs/releases/download/graal-$version/graaljs-jvm-$version-windows-amd64.zip",
-                "extract_dir": "graaljs-$version-windows-amd64"
+                "extract_dir": "graaljs-jvm-$version-windows-amd64"
             }
         },
         "hash": {
