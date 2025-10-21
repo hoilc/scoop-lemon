@@ -5,12 +5,17 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.3/SPlayer-3.0.0-beta.3-setup.exe#/dl.7z",
+            "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.3/SPlayer-3.0.0-beta.3-x64-setup.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "e7d193a1d2fffa21f29778c7c61d4631066c34d6f99d019ee75330fa189e471c"
+            "hash": "f0799fd4d048cf978ac1449167439b02a94f1cad86660a64fe13e19f8bc4f279"
+        },
+        "arm64": {
+            "url": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-beta.3/SPlayer-3.0.0-beta.3-arm64-setup.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+            "hash": "7fe545c9c8a020dc4a52e743de5f1110a40dfddf279dba4db70a3b20c2009dd9"
         }
     },
-    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "SPlayer.exe",
@@ -26,7 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/imsyy/SPlayer/releases/download/v$version/SPlayer-$version-setup.exe#/dl.7z"
+                "url": "https://github.com/imsyy/SPlayer/releases/download/v$version/SPlayer-$version-x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/imsyy/SPlayer/releases/download/v$version/SPlayer-$version-arm64-setup.exe#/dl.7z"
             }
         }
     }
