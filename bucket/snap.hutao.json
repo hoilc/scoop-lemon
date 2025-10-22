@@ -1,13 +1,13 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "1.16.3",
+    "version": "1.16.4",
     "description": "胡桃工具箱是一个实用的开源多功能原神工具箱 / Snap Hutao is a multifunctional open-source Genshin Impact toolkit",
     "homepage": "https://hut.ao/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DGP-Studio/Snap.Hutao/releases/download/1.16.3/Snap.Hutao.1.16.3.msix#/Snap.Hutao.msix",
-            "hash": "57abfdcd73bffcd18aa5d8dfa3425e4de6cb17ae101d5a887a1f494e2210cfdb"
+            "url": "https://github.com/DGP-Studio/Snap.Hutao/releases/download/1.16.4/Snap.Hutao.1.16.4.msix#/Snap.Hutao.msix",
+            "hash": "a58190210fb2a5dec02bd89671c8b0795a568ca267484f17dea28c8dd962deb7"
         }
     },
     "pre_install": [
