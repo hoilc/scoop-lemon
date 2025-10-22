@@ -1,5 +1,5 @@
 {
-    "version": "0.45.0",
+    "version": "0.46.0",
     "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git.",
     "homepage": "https://github.com/GitoxideLabs/gitoxide",
     "license": "Apache-2.0|MIT",
