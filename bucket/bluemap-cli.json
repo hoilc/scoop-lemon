@@ -1,10 +1,10 @@
 {
-    "version": "5.12",
+    "version": "5.13",
     "description": "A Minecraft mapping tool that creates 3D models of your Minecraft worlds and displays them in a web viewer.",
     "homepage": "https://bluemap.bluecolored.de/",
     "license": "MIT",
-    "url": "https://github.com/BlueMap-Minecraft/BlueMap/releases/download/v5.12/bluemap-5.12-cli.jar#/bluemap-cli.jar",
-    "hash": "93eb5222580e8fba3b6873dd2735d25b5cf1c76a59ebb4c1dda27816fed4d293",
+    "url": "https://github.com/BlueMap-Minecraft/BlueMap/releases/download/v5.13/bluemap-5.13-cli.jar#/bluemap-cli.jar",
+    "hash": "3439ec94d27707a0a3c6beaa7a6f71457ef575d1cfd35e1c1b29c965d8850e91",
     "bin": "bluemap-cli.jar",
     "suggest": {
         "JDK": [
