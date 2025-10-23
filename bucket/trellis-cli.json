@@ -1,16 +1,16 @@
 {
-    "version": "1.14.1",
+    "version": "1.15.0",
     "description": "A CLI to manage Trellis projects.",
     "homepage": "https://roots.io/trellis/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roots/trellis-cli/releases/download/v1.14.1/trellis_Windows_x86_64.zip",
-            "hash": "d7b4b9527942c4524d3e28cefcba4edd4dfd0cd6a54c5d4ff72d19c5286ab43a"
+            "url": "https://github.com/roots/trellis-cli/releases/download/v1.15.0/trellis_Windows_x86_64.zip",
+            "hash": "3cfc782cf941f7bd5db7644cacce7684712a66063cbc0c0fafc87ca4eacb52a9"
         },
         "32bit": {
-            "url": "https://github.com/roots/trellis-cli/releases/download/v1.14.1/trellis_Windows_i386.zip",
-            "hash": "37871b7e04380d0c12c8ee4144e3e099752136d8354898d061068bfd3385e20f"
+            "url": "https://github.com/roots/trellis-cli/releases/download/v1.15.0/trellis_Windows_i386.zip",
+            "hash": "c698e0ded46a8a98e5078a207f81c542b9ceeb324ebee1cab3ad9b09ff8b41f5"
         }
     },
     "bin": "trellis.exe",
