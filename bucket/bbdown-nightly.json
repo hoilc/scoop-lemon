@@ -1,16 +1,16 @@
 {
-    "version": "238",
+    "version": "242",
     "description": "(Nightly Build) A commandline downloader for Bilibili.",
     "homepage": "https://github.com/nilaoda/BBDown",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/17521639988/BBDown_win-x64.zip",
-            "hash": "62360fd8c1f6418989c4a63d617277bbab883ff9905f5271e7c4864125d73a04"
+            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/18751197552/BBDown_win-x64.zip",
+            "hash": "021e4cf69fd7c78eee2dcf7b298cad01bb5f114a57107041117f9427dd27449f"
         },
         "arm64": {
-            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/17521639988/BBDown_win-arm64.zip",
-            "hash": "6dcb8e64c0641725fbd06afeace929db4d09604dc3a035a451082606df478ae0"
+            "url": "https://nightly.link/nilaoda/BBDown/actions/runs/18751197552/BBDown_win-arm64.zip",
+            "hash": "13c9f766ce189c2183e9fac5883b7c77a7a981b7e28c436a0fd12cb4fa067cc2"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'BBDown_*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
