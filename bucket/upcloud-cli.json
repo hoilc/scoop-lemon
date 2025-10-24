@@ -1,16 +1,16 @@
 {
-    "version": "3.24.1",
+    "version": "3.25.0",
     "description": "upctl provides a command-line interface to UpCloud services.",
     "homepage": "https://github.com/UpCloudLtd/upcloud-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.24.1/upcloud-cli_3.24.1_windows_x86_64.zip",
-            "hash": "c929803dc713dae3b01a18bfcb7a3c1ffe15bbb1cda9c109925192f584feaefe"
+            "url": "https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.25.0/upcloud-cli_3.25.0_windows_x86_64.zip",
+            "hash": "3157ef863c898c2953a7147141d48adff0129f9f0e47763cc8aacec7d5efc759"
         },
         "arm64": {
-            "url": "https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.24.1/upcloud-cli_3.24.1_windows_arm64.zip",
-            "hash": "66f1dfa579aebf9878c9afec3af0ed9bd9dc18d4796a8c6f0ca032d6b41cc0b4"
+            "url": "https://github.com/UpCloudLtd/upcloud-cli/releases/download/v3.25.0/upcloud-cli_3.25.0_windows_arm64.zip",
+            "hash": "ac697f5ce76fab9796f4a727cccbe0b44c780a3ac7503c7c93af97a4813372ae"
         }
     },
     "bin": "upctl.exe",
