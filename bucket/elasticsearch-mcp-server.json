@@ -1,16 +1,16 @@
 {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Connect to your Elasticsearch data directly from any MCP Client using the Model Context Protocol (MCP).",
     "homepage": "https://github.com/elastic/mcp-server-elasticsearch",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/elastic/mcp-server-elasticsearch/releases/download/v0.4.5/elasticsearch-core-mcp-server-v0.4.5-windows-x86_64.exe#/elasticsearch-mcp-server.exe",
-            "hash": "09a90b95673b2299b564ec7992a58751b930ca8cc9489cbb7615fea6cfd8eef1"
+            "url": "https://github.com/elastic/mcp-server-elasticsearch/releases/download/v0.4.6/elasticsearch-core-mcp-server-v0.4.6-windows-x86_64.exe#/elasticsearch-mcp-server.exe",
+            "hash": "2e41c466dacba409b98e55ae54a81ff2d050b6fbce08a45e981e76733b63c5d7"
         },
         "arm64": {
-            "url": "https://github.com/elastic/mcp-server-elasticsearch/releases/download/v0.4.5/elasticsearch-core-mcp-server-v0.4.5-windows-arm64.exe#/elasticsearch-mcp-server.exe",
-            "hash": "334c3d9d79f51321d524aff66165300f02d2b97abfff0da1dccfa37e84fc931e"
+            "url": "https://github.com/elastic/mcp-server-elasticsearch/releases/download/v0.4.6/elasticsearch-core-mcp-server-v0.4.6-windows-arm64.exe#/elasticsearch-mcp-server.exe",
+            "hash": "90d838ffd9b4de74b7eb0d370378033d48f010be3c4154bb277d7fdfdcd440b1"
         }
     },
     "bin": "elasticsearch-mcp-server.exe",
