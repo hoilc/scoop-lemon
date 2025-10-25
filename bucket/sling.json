@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/slingdata-io/sling-cli/releases/download/v1.4.24/sling_windows_amd64.tar.gz",
-            "hash": "16046c7fd0e912e5ffcf1d43237f8e18133247c970e0c5c970a7d1e30c808941"
+            "hash": "5b53299541db93ba98adb7d17450cf126e6aa33161e801c0b5ef1e474632dd22"
         }
     },
     "bin": "sling.exe",
