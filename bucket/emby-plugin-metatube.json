@@ -1,10 +1,10 @@
 {
-    "version": "2025.1022.2118.0",
+    "version": "2025.1025.400.0",
     "description": "The MetaTube Plugin for Emby.",
     "homepage": "https://metatube-community.github.io/",
     "license": "MIT",
-    "url": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1022.2118.0/Emby.MetaTube@v2025.1022.2118.0.zip",
-    "hash": "dbead873124285d4e559ca5a18379bd72c3ddc602367adec35b7ca1bae358dd3",
+    "url": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1025.400.0/Emby.MetaTube@v2025.1025.400.0.zip",
+    "hash": "7812e4dac45ae0fd87d6c097f443e684baa11bc691b5e07b3814fa59415591a4",
     "installer": {
         "script": [
             "if ($env:CI -eq \"true\") { Return }",
