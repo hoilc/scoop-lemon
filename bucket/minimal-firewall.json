@@ -1,12 +1,12 @@
 {
-    "version": "2.5.2",
+    "version": "2.5.3",
     "description": "Minimal Firewall is a portable Windows firewall frontend that alerts users to internet connections.",
     "homepage": "https://github.com/deminimis/minimalfirewall",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deminimis/minimalfirewall/releases/download/v2.5.2/Minimal.Firewall.exe",
-            "hash": "32d48c0e845fd8544250a6e6597d18ab0fcff5142a4e7dbd8f36979c2b91488e"
+            "url": "https://github.com/deminimis/minimalfirewall/releases/download/v2.5.3/Minimal.Firewall.exe",
+            "hash": "1dd6b7e9120e2e2dd1b0cf0d7f68ca8c914baf6a95a9bd98546d579cd14dd82a"
         }
     },
     "shortcuts": [
