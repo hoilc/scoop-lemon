@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "0.18.1",
     "description": "CLI for minify-html, a fast and smart HTML + JS + CSS minifier.",
     "homepage": "https://github.com/wilsonzlin/minify-html",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wilsonzlin/minify-html/releases/download/v0.18.0/minhtml-0.18.0-x86_64-pc-windows-msvc.exe#/minhtml.exe",
-            "hash": "75974cc2d8b0c37644531c1bf67e09afe4b50e0b7d4069229634c244d7720222"
+            "url": "https://github.com/wilsonzlin/minify-html/releases/download/v0.18.1/minhtml-0.18.1-x86_64-pc-windows-msvc.exe#/minhtml.exe",
+            "hash": "b777aac097b5a6b7ff374ba0c8c4307fd650c6c4af5cf29d7ad3dd2c07c5f48c"
         }
     },
     "bin": "minhtml.exe",
