@@ -1,12 +1,12 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A static vulnerability scanner for GitHub action workflows.",
     "homepage": "https://github.com/synacktiv/octoscan",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/synacktiv/octoscan/releases/download/v0.1.5/octoscan.exe",
-            "hash": "ac3a4363164d888a00f012f4b753c3913e98c63657593924b4604abeec6dd833"
+            "url": "https://github.com/synacktiv/octoscan/releases/download/v0.1.6/octoscan.exe",
+            "hash": "4750bd9af9faa904084d7269cc2e6e896384ecc9fd8bc109dd09953e9d95a383"
         }
     },
     "bin": "octoscan.exe",
