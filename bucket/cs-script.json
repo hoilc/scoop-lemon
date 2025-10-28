@@ -1,10 +1,10 @@
 {
-    "version": "4.11.4.0",
+    "version": "4.11.5.0",
     "description": "A CLR-based scripting system that uses ECMA-compliant C# as a programming language.",
     "homepage": "https://github.com/oleg-shilo/cs-script",
     "license": "MIT",
-    "url": "https://github.com/oleg-shilo/cs-script/releases/download/v4.11.4.0/cs-script.win.v4.11.4.0.zip",
-    "hash": "4476bc843a1968eb41cf46b86c1e68fbe7825a50278d352426b491e160e3f8cf",
+    "url": "https://github.com/oleg-shilo/cs-script/releases/download/v4.11.5.0/cs-script.win.v4.11.5.0.zip",
+    "hash": "f66004159faff70e11e19e1b2e44d73391cbd2ddf2ff5d3ad7831a9ce7f696bf",
     "bin": [
         "css.exe",
         "cscs.exe",
