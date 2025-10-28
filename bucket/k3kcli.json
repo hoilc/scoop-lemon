@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0-rc1",
+    "version": "1.0.0-rc2",
     "description": "CLI for K3K, a tool that empowers you to create and manage isolated K3s clusters within your existing Kubernetes environment.",
     "homepage": "https://github.com/rancher/k3k",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rancher/k3k/releases/download/v1.0.0-rc1/k3kcli-windows-amd64.zip",
-            "hash": "c4e5c0c0e279897ae38fb0d4c3349328a5dc1b16f425f14ff9159721dfeca17f"
+            "url": "https://github.com/rancher/k3k/releases/download/v1.0.0-rc2/k3kcli-windows-amd64.zip",
+            "hash": "6c627e037a0b94b6acc7561555c3a74450462cbbd18edb23e896e07ebb9fd2b1"
         },
         "arm64": {
-            "url": "https://github.com/rancher/k3k/releases/download/v1.0.0-rc1/k3kcli-windows-arm64.zip",
-            "hash": "c7c14361a779fac829b1d8e95e66e74790a04c5db32a4c54a950a016b62bf3d7"
+            "url": "https://github.com/rancher/k3k/releases/download/v1.0.0-rc2/k3kcli-windows-arm64.zip",
+            "hash": "748b8ac2fa24a90702d7d4bb3f560465edec1cd7539e620bf4370d72f89290b2"
         }
     },
     "bin": "k3kcli.exe",
