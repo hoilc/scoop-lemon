@@ -1,16 +1,16 @@
 {
-    "version": "3.19.19",
+    "version": "3.19.20",
     "description": "Energy-efficient Python-to-Rust transpiler with progressive verification capabilities.",
     "homepage": "https://github.com/paiml/depyler",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.19/depyler-3.19.19-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "9c88c1ebd86e02a9b825ce8934efab1d21ed379b473addfc8af0bf4e94dcfc9e"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.20/depyler-3.19.20-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7ae334d0a1e095de799896321b66bce9c66e0501f71678ef276e8a3d256be82b"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.19/depyler-3.19.19-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "66549e3830c226048b893811401ca758edd861f70a5d73823893f8ec13d44c3a"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/depyler-3.19.20/depyler-3.19.20-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "689a5d60de0c04850ac84db2e1505b114b6a6b0425b17699072bc47435e8b2d5"
         }
     },
     "bin": "depyler.exe",
