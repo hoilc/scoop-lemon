@@ -1,18 +1,18 @@
 {
-    "version": "0.13.0",
+    "version": "0.13.1",
     "description": "An utility for encoding or decoding QR code.",
     "homepage": "https://sorairolake.github.io/qrtool/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.13.0/qrtool-v0.13.0-x86_64-pc-windows-msvc.7z",
-            "extract_dir": "qrtool-v0.13.0-x86_64-pc-windows-msvc",
-            "hash": "4e72b5fdb59df20e8255c589722871448b96cf67b374aa6ddc515da7d3d079c6"
+            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.13.1/qrtool-v0.13.1-x86_64-pc-windows-msvc.7z",
+            "extract_dir": "qrtool-v0.13.1-x86_64-pc-windows-msvc",
+            "hash": "cd10853dea1a9dfb27f9bac0a984716ed838bbe9cd039f426015bce99967d687"
         },
         "arm64": {
-            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.13.0/qrtool-v0.13.0-aarch64-pc-windows-msvc.7z",
-            "extract_dir": "qrtool-v0.13.0-aarch64-pc-windows-msvc",
-            "hash": "c7e7585a77e68613267b5280c69625a47298852e1508af205b37227a60c3bf23"
+            "url": "https://github.com/sorairolake/qrtool/releases/download/v0.13.1/qrtool-v0.13.1-aarch64-pc-windows-msvc.7z",
+            "extract_dir": "qrtool-v0.13.1-aarch64-pc-windows-msvc",
+            "hash": "38e1bc5e73086bde83bcfd9c869657244a516ffab2d58c37750a667dd72dd04a"
         }
     },
     "bin": "qrtool.exe",
