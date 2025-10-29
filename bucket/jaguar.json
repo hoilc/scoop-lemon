@@ -1,12 +1,12 @@
 {
-    "version": "1.55.0",
+    "version": "1.56.0",
     "description": "Jaguar enables live reloading of Toit code when developing for the ESP32, a popular microcontroller.",
     "homepage": "https://github.com/toitlang/jaguar",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/toitlang/jaguar/releases/download/v1.55.0/jag_windows.zip",
-            "hash": "aa1cf06327625a49993be1b550a474368e8c7311fe3eb095bb5b518ce6a3b6b9"
+            "url": "https://github.com/toitlang/jaguar/releases/download/v1.56.0/jag_windows.zip",
+            "hash": "6074df374824b8eb5bb624c62e8f31afa23d747f5c850b8f80529e5a8ee700e5"
         }
     },
     "bin": "jag.exe",
