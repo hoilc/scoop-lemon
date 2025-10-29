@@ -1,16 +1,16 @@
 {
-    "version": "1.20.9",
+    "version": "1.20.10",
     "description": "An open-source LLM Function Calling Framework for building scalable and ultra-fast AI Agents.",
     "homepage": "https://yomo.run/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yomorun/yomo/releases/download/v1.20.9/yomo-amd64-windows.tar.gz",
-            "hash": "b1bab30c83ba995c13a7fa6ac36a88ba6ad1e071cbdf18b04c9354f9306d9531"
+            "url": "https://github.com/yomorun/yomo/releases/download/v1.20.10/yomo-amd64-windows.tar.gz",
+            "hash": "c17662f8b5e528c3eeb6ad6d5423d250f36175ba5e0dd1310928d4e90be65ef3"
         },
         "arm64": {
-            "url": "https://github.com/yomorun/yomo/releases/download/v1.20.9/yomo-arm64-windows.tar.gz",
-            "hash": "527d5064d23777b1ec5de2e1d4c96d4c80d1c8f66d1e45fd9bd860a74f4dbb03"
+            "url": "https://github.com/yomorun/yomo/releases/download/v1.20.10/yomo-arm64-windows.tar.gz",
+            "hash": "b070bbd5b488608262b2afd5810fcaa741332e37b3f129bdb6ec19f3b66d9a44"
         }
     },
     "bin": "yomo.exe",
