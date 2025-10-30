@@ -1,12 +1,12 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A CLI for building OPA policies into OCI images.",
     "homepage": "https://www.openpolicycontainers.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/opcr-io/policy/releases/download/v0.3.1/policy0.3.1_windows_x86_64.zip",
-            "hash": "be27d9c99447606d6a1064e6a23878a935c582d7de506cddfadbc2c171f3df53"
+            "url": "https://github.com/opcr-io/policy/releases/download/v0.3.2/policy0.3.2_windows_x86_64.zip",
+            "hash": "e94fc3a1089ab48a0c679b303a1de6458a9f6749c0136d5b25a992e7cecfbeec"
         }
     },
     "bin": "policy.exe",
