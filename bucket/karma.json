@@ -1,20 +1,20 @@
 {
-    "version": "0.121",
+    "version": "0.122",
     "description": "Alert dashboard for Prometheus Alertmanager.",
     "homepage": "https://github.com/prymitive/karma",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.121/karma-windows-amd64.exe.tar.gz",
-            "hash": "sha512:92c9de7bdda6efaf4faafb9220f40fc43596240e70f07ca144c934db1aa6bb6eb8099cd1a7e6d3e8cd9a5f76c1d502e0052a88df91871b7bd0c94a87e1659daa"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.122/karma-windows-amd64.exe.tar.gz",
+            "hash": "sha512:7a6a05e73eebff126cd4fd6de6e57d9aa96eab0dd006ec78a7d702bdb08d0ede5be0b22b1f6c21f2a983a927d52b56a3349edeea5fcdc4a69f553f1a94ab6cb5"
         },
         "32bit": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.121/karma-windows-386.exe.tar.gz",
-            "hash": "sha512:8cd1a2aa69327e53d902b485ae682777ba71b1c1b335ef587fe50427e002c36b69eca82ba0b41c5a9dc1e02a70bcd9217eb6883ac93cf25d64a26d88ac3d382c"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.122/karma-windows-386.exe.tar.gz",
+            "hash": "sha512:341cb6f15a33e12dee75d00de4457436eb26dae4ecbe1dca667b19656088b7f6be145085fe5772d20f0a7f979c4dd3ac728dc0ca242e75bae1b585897e8d6371"
         },
         "arm64": {
-            "url": "https://github.com/prymitive/karma/releases/download/v0.121/karma-windows-arm64.exe.tar.gz",
-            "hash": "sha512:49f218de8e4789c54574d6721970b0d6ebf9c82f32e5a43b2b8507b8582f27dc9eca2f3bba605256faf96d4093fa7a9579d5d8657e9c9e5b19597e586c4004a9"
+            "url": "https://github.com/prymitive/karma/releases/download/v0.122/karma-windows-arm64.exe.tar.gz",
+            "hash": "sha512:e86dc7e1015f74f7d5c74ed2ea8b0abac95bb4988f5c7d54ca4c5b1bc265bcf25760bfb5e7d4d3153a5c37fffb2debaee4166319c40937b23a4987c6ec2c954d"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'karma-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'karma.exe'",
