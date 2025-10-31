@@ -1,12 +1,12 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.7",
     "description": "Display pokemon sprites in your terminal.",
     "homepage": "https://github.com/talwat/pokeget-rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.5/pokeget-Windows-x86_64.zip",
-            "hash": "e9d947033776a3bc8b30eb42da14d877f40b93d6e3e14acbeac922be7f02b176"
+            "url": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-Windows-x86_64.zip",
+            "hash": "dbfb5e3739cb799cd9762304d6780d8d563e19f4764b44b5615631af4e759b36"
         }
     },
     "bin": "pokeget.exe",
