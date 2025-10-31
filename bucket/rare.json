@@ -1,13 +1,13 @@
 {
-    "version": "1.11.3",
+    "version": "1.11.3.255",
     "description": "A frontend for legendary, the open source Epic Games Launcher alternative.",
     "homepage": "https://github.com/RareDevs/Rare",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RareDevs/Rare/releases/download/1.11.3/Rare-1.11.3.0-windows.zip",
-            "extract_dir": "Rare-1.11.3.0",
-            "hash": "f9a54ce4501738f2092429acf288b305540620b96bfe323b1cebef3e52dd1e64"
+            "url": "https://github.com/RareDevs/Rare/releases/download/1.11.3.255/Rare-1.11.3.255-windows.zip",
+            "extract_dir": "Rare-1.11.3.255",
+            "hash": "e4b3f52b2ba8e744c0ab0565654eee2356fdeb9a129337058bc0e20b8bcf2c51"
         }
     },
     "bin": "Rare.exe",
