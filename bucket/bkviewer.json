@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.bykeer.com/app/bkviewer/bkviewer.x64.exe#/bkviewer.exe",
-            "hash": "a372d1e7a7fba45cc54f525eed6996172524bd5fd91b3603e3689eeac37c4860"
+            "hash": "4d3a07d53052f6d2d1b52c290f1cf602a1a78d80ae0e6549c98e5e9e7f1ca055"
         }
     },
     "bin": "bkviewer.exe",
