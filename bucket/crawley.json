@@ -1,12 +1,12 @@
 {
-    "version": "1.7.14",
+    "version": "1.7.15",
     "description": "The unix-way web crawler.",
     "homepage": "https://github.com/s0rg/crawley",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/s0rg/crawley/releases/download/v1.7.14/crawley_v1.7.14_windows_x86_64.zip",
-            "hash": "f51002f49da7b0858147472bf6fbf7fb6e0c551297dbac3131e3a1c70ce3e72b"
+            "url": "https://github.com/s0rg/crawley/releases/download/v1.7.15/crawley_v1.7.15_windows_x86_64.zip",
+            "hash": "7b63d922013b3c4c4e8a1ad779807debbf1c19a6871ce27a8a1c274bce1c3364"
         }
     },
     "bin": "crawley.exe",
