@@ -1,10 +1,10 @@
 {
-    "version": "1.024",
+    "version": "1.025",
     "description": "（尙古明體JP）基於思源的傳承字形（舊字形）字體",
     "homepage": "https://github.com/GuiWonder/Shanggu",
     "license": "OFL-1.1",
-    "url": "https://github.com/GuiWonder/Shanggu/releases/download/1.024/ShangguSerifTTFs.7z",
-    "hash": "4537caad720d2d55cf086173f068fdcfea46c6c0f2f74bd8923e98c9da2bc721",
+    "url": "https://github.com/GuiWonder/Shanggu/releases/download/1.025/ShangguSerifTTFs.7z",
+    "hash": "6e244a9f5ae2f577a3420fae2f967c953d4c6ab036c349b27e5f5cb71336a55a",
     "extract_dir": "ShangguSerifJP",
     "checkver": {
         "url": "https://github.com/GuiWonder/Shanggu/releases.atom",
