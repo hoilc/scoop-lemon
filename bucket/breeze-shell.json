@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/std-microblock/breeze-shell/releases/download/0.1.31/windows-build.zip",
-            "extract_dir": "x64\\releasedbg",
+            "extract_dir": "releasedbg",
             "hash": "515da24c7ef204b3db8e11c20cd6f3e52984111e9b3c6eda81590321463283b0"
         }
     },
