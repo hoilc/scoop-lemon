@@ -1,7 +1,7 @@
 {
     "##": "#updateManually",
     "version": "3.9.6.6",
-    "description": "Initiate a traceroute request from a Windows device with a link visualization.",
+    "description": "Best Trace initiates a traceroute request from a Windows device with a link visualization.",
     "homepage": "https://en.ipip.net/product/client.html",
     "license": "Freeware",
     "architecture": {
