@@ -1,11 +1,11 @@
 {
     "##": "Revert https://github.com/ScoopInstaller/Extras/pull/13701",
-    "version": "2.59",
+    "version": "2.60",
     "description": "(Install from ZIP package) Light-weight and easy-to-use password manager",
     "homepage": "https://keepass.info",
     "license": "GPL-2.0-or-later",
-    "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.59/KeePass-2.59.zip",
-    "hash": "sha1:826a61ea6898457ffe9b6456a66655943b0b5646",
+    "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.60/KeePass-2.60.zip",
+    "hash": "sha1:b1d9ea9892d8680aa0cebf005dabd32c06e4a2ef",
     "pre_install": "if (Test-Path \"$persist_dir\\KeePass.config.xml\") { Copy-Item \"$persist_dir\\KeePass.config.xml\" \"$dir\" }",
     "uninstaller": {
         "script": "if (Test-Path \"$dir\\KeePass.config.xml\") { Copy-Item \"$dir\\KeePass.config.xml\" \"$persist_dir\" -Force }"
