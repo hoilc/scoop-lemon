@@ -1,10 +1,10 @@
 {
-    "version": "2.2.4",
+    "version": "2.2.5",
     "description": "CLI version of ImgDrive Lite, a lightweight virtual CD/DVD/Blu-ray drive that enables to emulate up all popular image types of CD, DVD and Blu-ray Discs to drives.",
     "homepage": "https://yubsoft.com/imgdrivelite/",
     "license": "Freeware",
-    "url": "https://download.yubsoft.com/imgdrivecmd_2.2.4.zip",
-    "hash": "5ccfd3879604ed6d0f47f97f2468e300fc06c08c9b544f30e33eae31980088b5",
+    "url": "https://download.yubsoft.com/imgdrivecmd_2.2.5.zip",
+    "hash": "f016a4aa6aeb1f461b28c5649d88226c82769c7dea28adb240a9a98d0e84806a",
     "architecture": {
         "64bit": {
             "pre_install": "Rename-Item -Path \"$dir\\imgdrivecmd_x64.exe\" -NewName 'imgdrivecmd.exe'"
