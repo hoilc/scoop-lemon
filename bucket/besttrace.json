@@ -1,12 +1,13 @@
 {
-    "version": "20251030",
+    "##": "#updateManually",
+    "version": "3.9.6.6",
     "description": "Initiate a traceroute request from a Windows device with a link visualization.",
     "homepage": "https://en.ipip.net/product/client.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.ipip.net/17mon/besttrace.exe",
-            "hash": "bf4172feb9322ff096c532ca439237f57a38b1f757006d5ed22e19b4d9eccfe0"
+            "url": "https://scoop-lemon.tari.xyz/hosted/besttrace/besttrace_v3.9.6.6.exe",
+            "hash": "47f6787ec5b10a98b60f9d4fc2976d13791f49c223024197d38710f0327bd305"
         }
     },
     "innosetup": true,
@@ -17,16 +18,13 @@
         ]
     ],
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://cdn.ipip.net/17mon/besttrace.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
-        ],
-        "regex": "(\\d{8})"
+        "url": "https://scoop-lemon.tari.xyz/hosted/besttrace/latest.yml",
+        "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.ipip.net/17mon/besttrace.exe"
+                "url": "https://scoop-lemon.tari.xyz/hosted/besttrace/besttrace_v$version.exe"
             }
         }
     }
