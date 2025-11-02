@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v1.3.5/SteganographierGUI_v1.3.5.zip",
-            "extract_dir": "SteganographierGUI_v1.3.5",
+            "extract_dir": "SteganographierGUI_v1.3.5_installer",
             "hash": "b543f2ff01e62a9917e7694b1b7aa01dd67158737fc86f83918bfd76442ed143"
         }
     },
@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v$version/SteganographierGUI_v$version.zip",
-                "extract_dir": "SteganographierGUI_v$version"
+                "extract_dir": "SteganographierGUI_v$version_installer"
             }
         }
     }
