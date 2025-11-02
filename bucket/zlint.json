@@ -1,13 +1,13 @@
 {
-    "version": "3.6.7",
+    "version": "3.6.8",
     "description": "A X.509 certificate linter that checks for consistency with standards (e.g. RFC 5280) and other relevant PKI requirements.",
     "homepage": "https://github.com/zmap/zlint",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zmap/zlint/releases/download/v3.6.7/zlint_3.6.7_Windows_x86_64.tar.gz",
-            "extract_dir": "zlint_3.6.7_Windows_x86_64",
-            "hash": "d12720369a783d75e5b18f9afde396bb4134c4f243ef5efefb9085afd61ba9e3"
+            "url": "https://github.com/zmap/zlint/releases/download/v3.6.8/zlint_3.6.8_Windows_x86_64.tar.gz",
+            "extract_dir": "zlint_3.6.8_Windows_x86_64",
+            "hash": "1147a18e95b2d89a684840a3194f5746896ae645b9e26b3926b49a03e6c94125"
         }
     },
     "bin": "zlint.exe",
