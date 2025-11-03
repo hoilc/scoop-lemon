@@ -1,16 +1,16 @@
 {
-    "version": "0.12.0",
+    "version": "0.13.0",
     "description": "A best practices checker for Kubernetes clusters.",
     "homepage": "https://github.com/digitalocean/clusterlint",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/digitalocean/clusterlint/releases/download/v0.12.0/clusterlint-v0.12.0-windows-amd64.tar.gz",
-            "hash": "10e7c3a7b5df786662f80954e09a7746745896ef26a0b8c4ad15018c9b224018"
+            "url": "https://github.com/digitalocean/clusterlint/releases/download/v0.13.0/clusterlint-v0.13.0-windows-amd64.tar.gz",
+            "hash": "9dbc4d68bf28eb295ce7616b274c1ecfa171fdcf14b1b53336cc1dab77f046f1"
         },
         "32bit": {
-            "url": "https://github.com/digitalocean/clusterlint/releases/download/v0.12.0/clusterlint-v0.12.0-windows-386.tar.gz",
-            "hash": "10e7c3a7b5df786662f80954e09a7746745896ef26a0b8c4ad15018c9b224018"
+            "url": "https://github.com/digitalocean/clusterlint/releases/download/v0.13.0/clusterlint-v0.13.0-windows-386.tar.gz",
+            "hash": "9dbc4d68bf28eb295ce7616b274c1ecfa171fdcf14b1b53336cc1dab77f046f1"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'clusterlint' | Select-Object -First 1 | Rename-Item -NewName 'clusterlint.exe'",
