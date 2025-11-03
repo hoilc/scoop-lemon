@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/fosrl/newt/releases/download/1.6.0/newt_windows_amd64.exe#/newt.exe",
-            "hash": "f51a83ef98bbb1c0c526b58e7d58153f74593d1b183154a894dcf54349566b97"
+            "hash": "a5e589b9bcbaa5e4094e0c2b505e320690ea3b0b90710db1ca343c1d7efcf151"
         }
     },
     "bin": "newt.exe",
