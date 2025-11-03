@@ -1,13 +1,13 @@
 {
-    "version": "6.2.3",
+    "version": "6.2.4",
     "description": "A professional test tool for HTTP applications, with special focus on RESTful web services and web API applications.",
     "homepage": "https://www.httpmaster.net",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.httpmaster.net/license/professional_license"
     },
-    "url": "https://www.httpmaster.net/downloads/httpmaster_6.2.3.zip",
-    "hash": "a1dee63cecc166310d39ac9b7f725acae165c2aa6e8ae6b440f3824ac352a8e4",
+    "url": "https://www.httpmaster.net/downloads/httpmaster_6.2.4.zip",
+    "hash": "b91b6b5f17bb6cdb19681eee4e5e6838fb4bcead24c871f036b9d278b21471b9",
     "bin": "HttpMaster.Command.exe",
     "shortcuts": [
         [
