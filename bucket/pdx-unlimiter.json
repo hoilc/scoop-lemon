@@ -1,12 +1,12 @@
 {
-    "version": "2.13.17",
+    "version": "2.13.18",
     "description": "A smart savegame manager, editor, and toolbox for all current major Paradox Grand Strategy games.",
     "homepage": "https://github.com/crschnick/pdx_unlimiter",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crschnick/pdx_unlimiter/releases/download/2.13.17/pdx_unlimiter-windows.zip",
-            "hash": "cc6d3361462258b7f57fbdd444636c30456f0257b2b8ff16ad42e58a9ec22ca1"
+            "url": "https://github.com/crschnick/pdx_unlimiter/releases/download/2.13.18/pdx_unlimiter-windows.zip",
+            "hash": "6716c26085fd98d1c35e407334ac90bbc5aad6994e0348b54d567090b84f7f14"
         }
     },
     "shortcuts": [
