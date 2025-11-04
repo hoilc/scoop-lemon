@@ -1,16 +1,16 @@
 {
-    "version": "4.16.0",
+    "version": "4.17.0",
     "description": "A small tool to view json log files.",
     "homepage": "https://github.com/brocode/fblog",
     "license": "WTFPL",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.16.0/fblog-4.16.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "98c85763e0dedccade2e8558cd92b499ed0d1445931340005fba28b3be2b9bb4"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.17.0/fblog-4.17.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "3edc5ae3ced66f1a6e65c19f1c03febff28ba0b3b0d5fee69e18102e4b5d552e"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.16.0/fblog-4.16.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "3ed1e95cb1fc0d6c78a82158f6be6bbff5d5576011bf18b8ca8f62c890c527b8"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/fblog-4.17.0/fblog-4.17.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "b95f423e71bf87eedf2086f153f25af785122814a24c6c35928393fcf5eb7b6e"
         }
     },
     "bin": "fblog.exe",
