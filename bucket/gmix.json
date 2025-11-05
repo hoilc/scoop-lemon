@@ -1,0 +1,25 @@
+{
+    "version": "1.0",
+    "description": "A successor to cmix, an attempt to build a large language model using techniques from the field of lossless data compression.",
+    "homepage": "https://github.com/byronknoll/gmix",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/byronknoll/gmix/releases/download/v1/gmix-v1-windows.zip",
+            "hash": "c69e0f4954f6405320eba38aea1b3fa5fef7b9d51f5ba2a7918dcc8d210b47dd"
+        }
+    },
+    "bin": "gmix.exe",
+    "checkver": {
+        "url": "https://github.com/byronknoll/gmix/releases.atom",
+        "regex": "Repository/\\d+/v(?<simple>.+?)<",
+        "replace": "${simple}.0"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/byronknoll/gmix/releases/download/v$matchSimple/gmix-v$matchSimple-windows.zip"
+            }
+        }
+    }
+}
