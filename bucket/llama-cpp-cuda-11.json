@@ -31,18 +31,5 @@
             "llama-rpc-server"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
-        "regex": "Repository/\\d+/(b\\d+)<"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": [
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-11.7-x64.zip",
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda-11.7-x64.zip"
-                ]
-            }
-        }
-    }
+    "notes": "Cuda 11.7 release is no longer being updated. Ref. https://github.com/ggml-org/llama.cpp/pull/13997"
 }
