@@ -1,16 +1,16 @@
 {
-    "version": "0.6.3",
+    "version": "0.7.0",
     "description": "A tool for getting Dioxus projects up and running.",
     "homepage": "https://dioxuslabs.com/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.6.3/dx-x86_64-pc-windows-msvc-v0.6.3.zip",
-            "hash": "3e23e464c2ae010b20170ffd4cc815a0122ccde48b4b8f0305eaffc9509eee00"
+            "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.0/dx-x86_64-pc-windows-msvc.zip",
+            "hash": "34d66ccecb39f3daeacbcd2059d6b7fd581d32901ad2fec57bf367268d226b9e"
         },
         "arm64": {
-            "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.6.3/dx-aarch64-pc-windows-msvc-v0.6.3.zip",
-            "hash": "c470b775f669a1429658ce2543b2e38cc776eae9894afa87509414c23cdeeba2"
+            "url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.0/dx-aarch64-pc-windows-msvc.zip",
+            "hash": "faefca2e32b740cacb22aea4fd7396ca4c61f051d7cebd590850d676e38fd065"
         }
     },
     "bin": "dx.exe",
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-x86_64-pc-windows-msvc-v$version.zip"
+                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-aarch64-pc-windows-msvc-v$version.zip"
+                "url": "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-aarch64-pc-windows-msvc.zip"
             }
         }
     }
