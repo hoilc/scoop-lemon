@@ -23,6 +23,7 @@
         ]
     },
     "checkver": {
+        "url": "https://www2.cs.tum.edu/projects/cup/install.php",
         "regex": "java-cup-bin-(?<subversion>[^-]+)-(?<date>[\\d]+).tar.gz",
         "replace": "0.${subversion}-${date}"
     },
