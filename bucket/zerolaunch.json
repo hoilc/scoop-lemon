@@ -1,16 +1,16 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.3",
     "description": "极速精准、轻量纯粹的 Windows 应用程序启动器",
     "homepage": "https://github.com/ghost-him/ZeroLaunch-rs",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.1/ZeroLaunch-portable-x64.zip",
-            "hash": "37dd36a335f6d3f7f49003ead19a76f5e1287aa3a21d759502d113691f06c8d1"
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.3/ZeroLaunch-portable-0.5.3-x64.zip",
+            "hash": "8edac184af17e3540a6f67b980e507dfae6397f93ac8a44e82d4383a1f1a1ae1"
         },
         "arm64": {
-            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.1/ZeroLaunch-portable-arm64.zip",
-            "hash": "f4aebd51d59b45d9ca50d447bee74a6e8eaaaa823c4ec788a1e79318dc4b60e6"
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.5.3/ZeroLaunch-portable-0.5.3-arm64.zip",
+            "hash": "e54aad5d0b3fcc8d64df0f81159959bff0c21e443f96f0b1bd24f722d7d05dea"
         }
     },
     "shortcuts": [
@@ -27,6 +27,7 @@
     "persist": [
         "logs",
         "icons",
+        "models",
         "ZeroLaunch_local_config.json",
         "ZeroLaunch_remote_config.json",
         "background.png"
@@ -35,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-x64.zip"
+                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-$version-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-arm64.zip"
+                "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v$version/ZeroLaunch-portable-$version-arm64.zip"
             }
         }
     }
