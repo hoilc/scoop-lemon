@@ -1,10 +1,10 @@
 {
-    "version": "b13",
+    "version": "b14",
     "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": "AGPL-3.0-only",
-    "url": "https://nightly.link/imsyy/SPlayer/actions/runs/19064574695/SPlayer-dev.zip",
-    "hash": "de3ca00193d47c5762fe875421ded075ad31a964c2081751f8ce30c33224cb42",
+    "url": "https://nightly.link/imsyy/SPlayer/actions/runs/19098772739/SPlayer-dev.zip",
+    "hash": "e2bc918f7725add650726fab34bb0ca349e8d5a50d6ba036b1963c2ac31efb43",
     "architecture": {
         "64bit": {
             "pre_install": [
