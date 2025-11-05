@@ -1,9 +1,9 @@
 {
     "version": "3.9.7",
     "description": "MyNotes Keeper is a free-form notes/outliner application for Windows 7/8/10/11.",
-    "homepage": "https://www.mynoteskeeper.com/",
+    "homepage": "https://web.archive.org/web/20250407053836/http://mynoteskeeper.com/",
     "license": "Proprietary",
-    "url": "https://www.mynoteskeeper.com/mnk.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/mynoteskeeper/mnk_v3.9.7.zip",
     "hash": "c3df1e78071c7dd0ca39311fdac697eacc54326dcca0317aeff8da948987d1e4",
     "extract_dir": "MyNotesKeeper",
     "shortcuts": [
@@ -13,12 +13,5 @@
         ]
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\MyNotesKeeper.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\MyNotesKeeper.ini\" -Value '[Options]', 'AutoCheck=0' }",
-    "persist": "MyNotesKeeper.ini",
-    "checkver": {
-        "url": "https://www.mynoteskeeper.com/download.html",
-        "regex": "Stable Release\\s*\\(V([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://www.mynoteskeeper.com/mnk.zip"
-    }
+    "persist": "MyNotesKeeper.ini"
 }
