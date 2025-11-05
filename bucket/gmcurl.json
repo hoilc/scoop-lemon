@@ -1,33 +1,30 @@
 {
-    "version": "20240229",
+    "version": "1.0.2",
     "description": "国密版curl，支持国密SSL协议（TLCP），支持单向认证/双向认证",
     "homepage": "https://curl.gmssl.cn/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://curl.gmssl.cn/down/gmcurl_win_x64.exe#/gmcurl.exe",
+            "url": "https://scoop-lemon.tari.xyz/hosted/gmcurl/gmcurl_win_x64_v1.0.2.exe#/gmcurl.exe",
             "hash": "d1dcb49595ef8575a065fa50d1b36ac9a0f91dfb9a6eddcdc2a76cd71267ee55"
         },
         "32bit": {
-            "url": "https://curl.gmssl.cn/down/gmcurl_win_x86.exe#/gmcurl.exe",
+            "url": "https://scoop-lemon.tari.xyz/hosted/gmcurl/gmcurl_win_x86_v1.0.2.exe#/gmcurl.exe",
             "hash": "3c759ba37d25c36cc30632160d129c2cba11c50d2f61f1e9276146d99653983f"
         }
     },
     "bin": "gmcurl.exe",
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://curl.gmssl.cn/down/gmcurl_win_x64.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().AddHours(8).ToString(\"yyyyMMdd\") }"
-        ],
-        "regex": "(\\d{8})"
+        "url": "https://scoop-lemon.tari.xyz/hosted/gmcurl/latest.yml",
+        "regex": "version: ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://curl.gmssl.cn/down/gmcurl_win_x64.exe#/gmcurl.exe"
+                "url": "https://scoop-lemon.tari.xyz/hosted/gmcurl/gmcurl_win_x64_v$version.exe#/gmcurl.exe"
             },
             "32bit": {
-                "url": "https://curl.gmssl.cn/down/gmcurl_win_x86.exe#/gmcurl.exe"
+                "url": "https://scoop-lemon.tari.xyz/hosted/gmcurl/gmcurl_win_x86_v$version.exe#/gmcurl.exe"
             }
         }
     }
