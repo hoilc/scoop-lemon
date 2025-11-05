@@ -1,0 +1,21 @@
+{
+    "version": "1.00.655",
+    "description": "Create quality JPEG images fast with ease.",
+    "homepage": "https://www.blaizenterprises.com/dougi.html",
+    "license": "MIT",
+    "url": "https://www.blaizenterprises.com/dougi.zip",
+    "hash": "646e803510db610d4ad9008458bab6462e58e84641879ef4da7c1bd284cf761e",
+    "shortcuts": [
+        [
+            "dougi.exe",
+            "Dougi"
+        ]
+    ],
+    "persist": "dougi.exe_storage",
+    "checkver": {
+        "regex": "Version<.*?>([\\d.]+?)<"
+    },
+    "autoupdate": {
+        "url": "https://www.blaizenterprises.com/dougi.zip"
+    }
+}
