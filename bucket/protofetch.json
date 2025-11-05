@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.13/protofetch_x86_64-pc-windows-msvc.tar.gz",
-            "hash": "e968f5f7e0c11a536101d4a28d6c04c667162df9b2e8338b2a63657821ad4b71"
+            "hash": "291de8e29b886a94f8ba1cfa2a8b6c43e460ebcee9f16e62a9fdb75db7979107"
         }
     },
     "extract_dir": "bin",
