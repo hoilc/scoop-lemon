@@ -1,12 +1,12 @@
 {
-    "version": "0.20",
+    "version": "0.21",
     "description": "An embeddable and experimental Javascript engine written in Rust.",
     "homepage": "https://boajs.dev/",
     "license": "MIT|Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/boa-dev/boa/releases/download/v0.20/boa-windows-amd64.exe#/boa.exe",
-            "hash": "c82e2f697bc258bde968247ab096f5fb33b725e16d35266d66c15056580dca0f"
+            "url": "https://github.com/boa-dev/boa/releases/download/v0.21/boa-x86_64-pc-windows-msvc.exe#/boa.exe",
+            "hash": "84c51b588d5774aa36869a340e5dde647c81233788a7081caabdfdef57a5fa1d"
         }
     },
     "bin": "boa.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/boa-dev/boa/releases/download/v$version/boa-windows-amd64.exe#/boa.exe"
+                "url": "https://github.com/boa-dev/boa/releases/download/v$version/boa-x86_64-pc-windows-msvc.exe#/boa.exe"
             }
         }
     }
