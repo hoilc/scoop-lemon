@@ -1,13 +1,13 @@
 {
-    "version": "0.7.1-beta",
+    "version": "0.7.6-beta",
     "description": "SnowShot 是一款功能强大的截图工具，集成了文字识别、翻译和 AI 对话等功能",
     "homepage": "https://github.com/mg-chao/snow-shot",
     "license": "Apache-2.0|GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mg-chao/snow-shot/releases/download/0.7.1-beta/Snow.Shot_0.7.1-beta_windows-x64-portable.zip",
-            "extract_dir": "Snow Shot_0.7.1-beta_windows-x64-portable",
-            "hash": "50312bd2f3d27e9170bb95fbed9ca65b5fdcbbf5a31425a1d7f73754833ee699"
+            "url": "https://github.com/mg-chao/snow-shot/releases/download/v0.7.6-beta/Snow.Shot_0.7.6-beta_windows-x64-portable.zip",
+            "extract_dir": "Snow Shot_0.7.6-beta_windows-x64-portable",
+            "hash": "1b9ed5eb7d2be3360db6e71f144d62a3eaf0e299a243544c36f03bad89542a02"
         }
     },
     "shortcuts": [
@@ -24,12 +24,12 @@
     ],
     "checkver": {
         "url": "https://github.com/mg-chao/snow-shot/releases.atom",
-        "regex": "Repository/\\d+/(.+?)<"
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mg-chao/snow-shot/releases/download/$version/Snow.Shot_$version_windows-x64-portable.zip",
+                "url": "https://github.com/mg-chao/snow-shot/releases/download/v$version/Snow.Shot_$version_windows-x64-portable.zip",
                 "extract_dir": "Snow Shot_$version_windows-x64-portable"
             }
         }
