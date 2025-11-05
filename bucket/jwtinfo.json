@@ -1,12 +1,16 @@
 {
-    "version": "0.4.4",
+    "version": "0.6.1",
     "description": "A command-line tool to get information about JWTs.",
     "homepage": "https://github.com/lmammino/jwtinfo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.4.4/jwtinfo-win64.exe.gz#/jwtinfo.exe.gz",
-            "hash": "c47c6855d577ed37163321b9bcfeb502a8398533719d97983dbee57ceceac61b"
+            "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.6.1/jwtinfo-x86_64-pc-windows-msvc.zip",
+            "hash": "b9a13e0274f0aa80fd253fc91d7e9481dd0d97af08ae0acc514613ee9b12bd97"
+        },
+        "arm64": {
+            "url": "https://github.com/lmammino/jwtinfo/releases/download/v0.6.1/jwtinfo-aarch64-pc-windows-msvc.zip",
+            "hash": "474f6a6f75897b243e948baed0b4009f87c0689ccb4838305ff6de0aa8d07602"
         }
     },
     "bin": "jwtinfo.exe",
@@ -14,8 +18,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lmammino/jwtinfo/releases/download/v$version/jwtinfo-win64.exe.gz#/jwtinfo.exe.gz"
+                "url": "https://github.com/lmammino/jwtinfo/releases/download/v$version/jwtinfo-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/lmammino/jwtinfo/releases/download/v$version/jwtinfo-aarch64-pc-windows-msvc.zip"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
