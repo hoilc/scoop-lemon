@@ -1,18 +1,12 @@
 {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "description": "A tool designed to recover pixelated adult videos (JAV).",
-    "homepage": "https://github.com/ladaapp/lada",
+    "homepage": "https://codeberg.org/ladaapp/lada",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/ladaapp/lada/releases/download/v0.8.1/lada-v0.8.1.zip.001",
-                "https://github.com/ladaapp/lada/releases/download/v0.8.1/lada-v0.8.1.zip.002"
-            ],
-            "hash": [
-                "fd3ce7ac863d68c4405523506558030409e312ede7ccb089c31706b40c811b4e",
-                "5e66773ab4a65fbbe92a8ef9267851b670223c2f379bd045218b21755fc0196d"
-            ]
+            "url": "https://dl.lada.glowp.xyz/lada-v0.8.2.7z",
+            "hash": "d6809b65846bc70d2c1605a56b9086d7a667f61fd1048f8893b2f4ec5aa67d49"
         }
     },
     "extract_dir": "lada",
@@ -23,14 +17,14 @@
             "Lada"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://codeberg.org/ladaapp/lada/releases.rss",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": [
-                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version.zip.001",
-                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version.zip.002"
-                ]
+                "url":"https://dl.lada.glowp.xyz/lada-v$version.7z"
             }
         }
     }
