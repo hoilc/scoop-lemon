@@ -1,0 +1,31 @@
+{
+    "version": "1.0.1",
+    "description": "国密版wget，支持国密SSL协议（TLCP）",
+    "homepage": "https://wget.gmssl.cn/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/gmwget/gmwget_win_x64_v1.0.1.exe#/gmwget.exe",
+            "hash": "1ddefc5a28184a84e9d9e9f80d0383ed8941f29cc5cae47e6574311c85b6db70"
+        },
+        "32bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/gmwget/gmwget_win_x86_v1.0.1.exe#/gmwget.exe",
+            "hash": "7fd869742c3ce91f497361f1a6f24e137cf563f68cbca746a6d5600625030beb"
+        }
+    },
+    "bin": "gmwget.exe",
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/gmwget/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/gmwget/gmwget_win_x64_v$version.exe#/gmwget.exe"
+            },
+            "32bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/gmwget/gmwget_win_x86_v$version.exe#/gmwget.exe"
+            }
+        }
+    }
+}
