@@ -1,0 +1,36 @@
+{
+    "version": "b1763",
+    "description": "(Preview Builds) A high-level emulator for iPhone OS apps.",
+    "homepage": "https://touchhle.org/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/touchHLE/touchHLE/actions/runs/19114445440/touchHLE_Windows_x86_64.zip",
+            "hash": "f0cf3d6318144ac405f5f5063a69037f8aecd64e09db9224b0f90cb75835bc99"
+        }
+    },
+    "shortcuts": [
+        [
+            "touchHLE.exe",
+            "touchHLE Preview"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$dir\\touchHLE_options.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\touchHLE_options.txt\" -Value $null }",
+    "persist": [
+        "touchHLE_options.txt",
+        "touchHLE_apps",
+        "touchHLE_sandbox"
+    ],
+    "checkver": {
+        "url": "https://github.com/touchHLE/touchHLE/actions/workflows/touchHLE_release.yml?query=event%3Apush+is%3Asuccess+branch%3Atrunk",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
+        "replace": "b${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/touchHLE/touchHLE/actions/runs/$matchRun/touchHLE_Windows_x86_64.zip"
+            }
+        }
+    }
+}
