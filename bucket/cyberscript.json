@@ -1,0 +1,24 @@
+{
+    "version": "0.3",
+    "description": "Cyber is a fast, efficient, and concurrent scripting language.",
+    "homepage": "https://github.com/fubark/cyber",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fubark/cyber/releases/download/0.3/cyber-windows-x64.zip",
+            "hash": "86b43bd4269ee6a04b98285800f583d3e4ca562e736422ff208814698a645e28"
+        }
+    },
+    "bin": "cyber.exe",
+    "checkver": {
+        "url": "https://github.com/fubark/cyber/releases.atom",
+        "regex": "Repository/\\d+/([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fubark/cyber/releases/download/$version/cyber-windows-x64.zip"
+            }
+        }
+    }
+}
