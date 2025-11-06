@@ -1,17 +1,17 @@
 {
-    "version": "2.30.0",
-    "description": "Once Power 是一个文件和文件夹批量重命名工具，额外添加了批量删除空文件夹和批量移动文件的功能",
+    "version": "2.32.0",
+    "description": "Once Power is a tool developed based on Flutter for batch renaming files and batch moving and deleting files",
     "homepage": "https://github.com/ilgnefz/once_power",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.30.0/once_power-2.30.0+0-windows.zip",
-            "hash": "27f55baf4360f73b37e6aa04ae047d712529a00aade9a1a6c0dba998feba6c22"
+            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.32.0/OncePower-v2.32.0-Windows-x64-Portable.zip",
+            "hash": "13a11b90ac13605621c33a976dc9826caad090bb02dd576cd46607dd06cd83eb"
         }
     },
     "shortcuts": [
         [
-            "once_power",
+            "once_power.exe",
             "OncePower"
         ]
     ],
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ilgnefz/once_power/releases/download/v$version/once_power-$version+0-windows.zip"
+                "url": "https://github.com/ilgnefz/once_power/releases/download/v$version/OncePower-v$version-Windows-x64-Portable.zip"
             }
         }
     }
