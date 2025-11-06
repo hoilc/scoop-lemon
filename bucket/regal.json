@@ -1,12 +1,12 @@
 {
-    "version": "0.36.1",
+    "version": "0.37.0",
     "description": "A linter and language server for Rego, bringing your policy development experience to the next level.",
     "homepage": "https://github.com/open-policy-agent/regal",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/open-policy-agent/regal/releases/download/v0.36.1/regal_Windows_x86_64.exe#/regal.exe",
-            "hash": "686a461f2b664a4b9ec88b4d39c2730cffab5f6720dbd4950efb2fc0278124f0"
+            "url": "https://github.com/open-policy-agent/regal/releases/download/v0.37.0/regal_Windows_x86_64.exe#/regal.exe",
+            "hash": "160785c79138cda413a57169804034701799bf22ed2ecaa73bb02267dca4f1ae"
         }
     },
     "bin": "regal.exe",
