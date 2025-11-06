@@ -1,0 +1,35 @@
+{
+    "version": "1.1.0",
+    "description": "A hex viewer, just like xxd or hexdump.",
+    "homepage": "https://github.com/Arnau478/hevi",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86_64-windows.exe#/hevi.exe",
+            "hash": "b190dc83164330ab5869a0973ed5aa1a992529897fa4c7c8ad2ebf1054607e83"
+        },
+        "32bit": {
+            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-x86-windows.exe#/hevi.exe",
+            "hash": "b85788a6a2b08057322ae4629910cb87de3cffb23c1be845df46214fa0bb8d05"
+        },
+        "arm64": {
+            "url": "https://github.com/Arnau478/hevi/releases/download/v1.1.0/hevi-aarch64-windows.exe#/hevi.exe",
+            "hash": "852b06582a2626ea05bf2d8c592d698ce694e7a5313bdb45912ae32644a38da6"
+        }
+    },
+    "bin": "hevi.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86_64-windows.exe#/hevi.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-x86-windows.exe#/hevi.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Arnau478/hevi/releases/download/v$version/hevi-aarch64-windows.exe#/hevi.exe"
+            }
+        }
+    }
+}
