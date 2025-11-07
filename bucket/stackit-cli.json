@@ -1,20 +1,20 @@
 {
-    "version": "0.46.0",
+    "version": "0.47.0",
     "description": "A command-line interface for STACKIT - The German business cloud.",
     "homepage": "https://github.com/stackitcloud/stackit-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.46.0/stackit-cli_0.46.0_windows_amd64.zip",
-            "hash": "a6a435368c939ce0a3bb54289473129e65056995e8cb6cf580b3f53e6c383200"
+            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.47.0/stackit-cli_0.47.0_windows_amd64.zip",
+            "hash": "8d6e65547c663e2e0cc015ab052b4f26faec21ed2ee5cd44b0cf7a9a9156e129"
         },
         "32bit": {
-            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.46.0/stackit-cli_0.46.0_windows_386.zip",
-            "hash": "1cbdfa9fa3df2fb276a7e10f693e8be5d586bd63b2f887650bc04a5934c32cfe"
+            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.47.0/stackit-cli_0.47.0_windows_386.zip",
+            "hash": "852d2df8ba14d068f0c9b579eead3acfbc14219589c5f754d669a594830c8767"
         },
         "arm64": {
-            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.46.0/stackit-cli_0.46.0_windows_arm64.zip",
-            "hash": "cec1739ddbfa0811ea6a142b6358b60fa1a90a8fe8fe79d3199a551a53e9c90b"
+            "url": "https://github.com/stackitcloud/stackit-cli/releases/download/v0.47.0/stackit-cli_0.47.0_windows_arm64.zip",
+            "hash": "a5ca35519c3c12d86fa1a3d2725963696375c4bc350702091f12d58325ecfabe"
         }
     },
     "bin": "stackit.exe",
