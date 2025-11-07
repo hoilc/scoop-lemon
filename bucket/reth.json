@@ -1,12 +1,12 @@
 {
-    "version": "1.8.4",
+    "version": "1.9.1",
     "description": "A modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
     "homepage": "https://reth.rs/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/paradigmxyz/reth/releases/download/v1.8.4/reth-v1.8.4-x86_64-pc-windows-gnu.tar.gz",
-            "hash": "5ce9230915cd91e302408ff831a0c9bbde457030a2a538a651768f73249953b4"
+            "url": "https://github.com/paradigmxyz/reth/releases/download/v1.9.1/reth-v1.9.1-x86_64-pc-windows-gnu.tar.gz",
+            "hash": "42278842ade11a5fd66483e9b06af39bf9d21e6780fdf135882c61a749e62827"
         }
     },
     "bin": "reth.exe",
