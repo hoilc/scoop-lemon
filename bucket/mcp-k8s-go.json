@@ -1,20 +1,20 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "A Golang-based MCP server connecting to Kubernetes.",
     "homepage": "https://github.com/strowk/mcp-k8s-go",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.5.0/mcp-k8s-go_Windows_x86_64.zip",
-            "hash": "a910be80a1d380e976b605af4aebf147cf4930b90baeb832ad4adcad1ba26933"
+            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.6.0/mcp-k8s-go_Windows_x86_64.zip",
+            "hash": "ae253d31d11294e5528a7dc42ccea9d1f5f20b78fcd1c6653c901606f8dcbed8"
         },
         "32bit": {
-            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.5.0/mcp-k8s-go_Windows_i386.zip",
-            "hash": "68a2a5fb06d8ebc090737df259dbe3a4e8298ec521ad41761731669099d00d82"
+            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.6.0/mcp-k8s-go_Windows_i386.zip",
+            "hash": "4ac7c78793c2c27b3e67bd6455ef6116c0ae541d308539b0326cae7deacf7c64"
         },
         "arm64": {
-            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.5.0/mcp-k8s-go_Windows_arm64.zip",
-            "hash": "0895d39abf8cf7f7eb80af6970f86ce147da650d695379ebad9d21cb25920ac5"
+            "url": "https://github.com/strowk/mcp-k8s-go/releases/download/v0.6.0/mcp-k8s-go_Windows_arm64.zip",
+            "hash": "c7f76de1e9114168a43059131b32114b23d3ee414992d16896ce58ad53725913"
         }
     },
     "bin": "mcp-k8s-go.exe",
