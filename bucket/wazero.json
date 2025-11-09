@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "An zero dependency WebAssembly runtime for Go developers.",
     "homepage": "https://wazero.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tetratelabs/wazero/releases/download/v1.9.0/wazero_1.9.0_windows_amd64.zip",
-            "hash": "cf24cb5e3ee9969c3126384e7c897ac8728b7442f92963bc7a7fa58fff7061e3"
+            "url": "https://github.com/tetratelabs/wazero/releases/download/v1.10.0/wazero_1.10.0_windows_amd64.zip",
+            "hash": "4d54b7969390c3e1fa159fa2a144bdc3052205bdd28f75466afd71f8169bee14"
         }
     },
     "bin": "wazero.exe",
