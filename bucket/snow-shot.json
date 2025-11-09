@@ -17,10 +17,12 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
-    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.chao.snowshot\", \"$env:LOCALAPPDATA\\com.chao.snowshot\" -Force -Recurse -ErrorAction SilentlyContinue }",
-    "notes": [
-        "Snow Shot is NOT portable.",
-        "Settings are stored in '%APPDATA%\\com.chao.snowshot', and will be purged during uninstallation."
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.chao.snowshot\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "persist": [
+        "configs",
+        "plugins",
+        "stores",
+        "captureHistoryImages"
     ],
     "checkver": {
         "url": "https://github.com/mg-chao/snow-shot/releases.atom",
