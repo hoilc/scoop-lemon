@@ -1,16 +1,16 @@
 {
-    "version": "5.78",
+    "version": "5.81",
     "description": "Find.Same.Images.OK is a software to find the same or similar images and to search for rotated (mirrored) or negative images.",
     "homepage": "https://www.softwareok.eu/?seite=Freeware/Find.Same.Images.OK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.eu/Download/Find.Same.Images.OK_Portable_x64.zip",
-            "hash": "9abb69babccebd5bd17ae3717d234b652ef1bdd7c303c5b7812e6cde3e95e049"
+            "hash": "bb01ee6eefe848d9473b61b2cbd092db0cb421a29718ecb85ce5d55d0ef4b333"
         },
         "32bit": {
             "url": "https://www.softwareok.eu/Download/Find.Same.Images.OK_Portable.zip",
-            "hash": "64c61ec3b7025b1c55f861bee8d22a4272e23cc2a9fcc3ea3b8683f4eb8802bf"
+            "hash": "486a8a962475a4f3e826cdf85d958f122ac1e6497a9a6cfd77bb67b82682e6c6"
         }
     },
     "extract_dir": "Find.Same.Images.OK",
