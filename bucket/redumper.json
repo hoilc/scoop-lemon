@@ -1,23 +1,23 @@
 {
-    "version": "660",
+    "version": "661",
     "description": "A low level CD dumper utility.",
     "homepage": "https://github.com/superg/redumper",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superg/redumper/releases/download/b660/redumper-b660-windows-x64.zip",
-            "extract_dir": "redumper-b660-windows-x64\\bin",
-            "hash": "7c454a9ee7ec73844247b6040d272bebc2f7f0e1b6f0a82075b5712832b14afe"
+            "url": "https://github.com/superg/redumper/releases/download/b661/redumper-b661-windows-x64.zip",
+            "extract_dir": "redumper-b661-windows-x64\\bin",
+            "hash": "8b5b47fbd12b2d8dcbea1859652f9591890073003b080cd46f5f01c7ad4fd4c9"
         },
         "32bit": {
-            "url": "https://github.com/superg/redumper/releases/download/b660/redumper-b660-windows-x86.zip",
-            "extract_dir": "redumper-b660-windows-x86\\bin",
-            "hash": "c6b088b7aa73e248d573ef5a562442bdfa1719e70c0f9f7d24752a71de2c9148"
+            "url": "https://github.com/superg/redumper/releases/download/b661/redumper-b661-windows-x86.zip",
+            "extract_dir": "redumper-b661-windows-x86\\bin",
+            "hash": "46482625f273617387c40a7e717ad91180c4f0a0d2fa4d5f46f2f9b2fcb0851a"
         },
         "arm64": {
-            "url": "https://github.com/superg/redumper/releases/download/b660/redumper-b660-windows-arm64.zip",
-            "extract_dir": "redumper-b660-windows-arm64\\bin",
-            "hash": "2abc49d692401754814dc7ebc5be6611da672cd27c2ada18ae2e43a140deea34"
+            "url": "https://github.com/superg/redumper/releases/download/b661/redumper-b661-windows-arm64.zip",
+            "extract_dir": "redumper-b661-windows-arm64\\bin",
+            "hash": "930dc34629c4fa8eb035ddc810b243a519b90c74106352d978f7cf27c4497ca7"
         }
     },
     "bin": "redumper.exe",
