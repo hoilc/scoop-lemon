@@ -1,18 +1,18 @@
 {
-    "version": "0.30.2",
+    "version": "0.30.3",
     "description": "Airbyte's command line tool for local Airbyte deployments.",
     "homepage": "https://github.com/airbytehq/abctl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/airbytehq/abctl/releases/download/v0.30.2/abctl-v0.30.2-windows-amd64.zip",
-            "extract_dir": "abctl-v0.30.2-windows-amd64",
-            "hash": "9e4cc1e8f61b2347c1235f73f955d4124e5d0b75e24e0e593ab3f49d59a31a4a"
+            "url": "https://github.com/airbytehq/abctl/releases/download/v0.30.3/abctl-v0.30.3-windows-amd64.zip",
+            "extract_dir": "abctl-v0.30.3-windows-amd64",
+            "hash": "b32b63141f25a0082ee2c8a5efe3d5fb500b25c7dc578a4cc2919d1392163770"
         },
         "arm64": {
-            "url": "https://github.com/airbytehq/abctl/releases/download/v0.30.2/abctl-v0.30.2-windows-arm64.zip",
-            "extract_dir": "abctl-v0.30.2-windows-arm64",
-            "hash": "02f91f1c916bfec05c8eec63d7dac6d52ffa2cdd77d8e8a6f4e9af4cae42c249"
+            "url": "https://github.com/airbytehq/abctl/releases/download/v0.30.3/abctl-v0.30.3-windows-arm64.zip",
+            "extract_dir": "abctl-v0.30.3-windows-arm64",
+            "hash": "6369661cf8701915c5ab74fcfe124735040a71d78bf87d72ca3f94603bde442d"
         }
     },
     "bin": "abctl.exe",
