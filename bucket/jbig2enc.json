@@ -1,0 +1,18 @@
+{
+    "version": "0.29",
+    "description": "An encoder for JBIG2.",
+    "homepage": "https://sourceforge.net/projects/jbig2enc/",
+    "license": "Apache-2.0",
+    "url": "https://sourceforge.net/projects/jbig2enc/files/win/jbig2enc-0.29-win32.zip",
+    "hash": "sha1:858a3d144be070a04d8ffa16646d28cf793d77da",
+    "extract_dir": "jbig2enc-0.29-win32",
+    "bin": "jbig2.exe",
+    "checkver": {
+        "url": "https://sourceforge.net/projects/jbig2enc/rss?path=/win",
+        "regex": "jbig2enc-([\\d.]+)-win32.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/jbig2enc/files/win/jbig2enc-$version-win32.zip",
+        "extract_dir": "jbig2enc-$version-win32"
+    }
+}
