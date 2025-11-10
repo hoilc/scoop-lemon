@@ -1,12 +1,12 @@
 {
-    "version": "0.10.7",
+    "version": "0.10.8",
     "description": "A CLI that provides on-demand secrets access for common DevOps tools.",
     "homepage": "https://cyberark.github.io/summon",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cyberark/summon/releases/download/v0.10.7/summon-windows-amd64.zip",
-            "hash": "8dd826be577a7fcb3d8b7cd4e5ed913f3d7ed0d7414c459507eb837a63b60d05"
+            "url": "https://github.com/cyberark/summon/releases/download/v0.10.8/summon-windows-amd64.zip",
+            "hash": "d6ddd5a016156c888e438bad906589a366f25b42782bfa1409ab69a20c16dd3d"
         }
     },
     "bin": "summon.exe",
