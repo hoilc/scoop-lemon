@@ -1,10 +1,10 @@
 {
-    "version": "7.70.2822",
+    "version": "7.72.2824",
     "description": "TheSage is an International English dictionary and thesaurus with entries from all the World English varieties.",
     "homepage": "https://www.sequencepublishing.com/1/thesage/thesage.html",
     "license": "Liteware",
-    "url": "https://www.sequencepublishing.com/_files/TheSagePortable_7-70-2822.zip",
-    "hash": "2dd5bfc5912101fe2e37927a12b40e0dd97a54d1edfd5bce40e31ba3b45cfd58",
+    "url": "https://www.sequencepublishing.com/_files/TheSagePortable_7-72-2824.zip",
+    "hash": "a10e642c5112fb7dc07c8e3ef848e00f6da683d950e89bfd13f4e5d5e3f3caeb",
     "shortcuts": [
         [
             "TheSage.exe",
