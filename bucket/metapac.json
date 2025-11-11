@@ -1,16 +1,16 @@
 {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "description": "Multi-backend declarative package manager.",
     "homepage": "https://github.com/ripytide/metapac",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-0.6.3/metapac-0.6.3-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "a622d2b0f6bb4d09daebf4087dcbce7415e2d08423b5b1f6b705e0f7c5dee217"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-0.6.4/metapac-0.6.4-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "045561e8dc328d528d34e4944d6c7ddf566129f4fe4ba05ed06cb578d41996cb"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-0.6.3/metapac-0.6.3-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "fd7b5bdb45a02d6b41e943fd7e596d26bdd4875f377c45a13bb46f4a453b6720"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/metapac-0.6.4/metapac-0.6.4-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "73a5a4655efd3d613c9c3ad12c75d1959d1478012c273459df78643466c9a258"
         }
     },
     "bin": "metapac.exe",
