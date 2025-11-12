@@ -1,10 +1,10 @@
 {
-    "version": "16.3.2",
+    "version": "16.3.3",
     "description": "Azure DevOps Migration Tools allow you to migrate Teams, Backlogs, Tasks, Test Cases, and Plans & Suits from one Project to another in Azure DevOps / TFS both within the same Organisation, and between Organisations.",
     "homepage": "https://marketplace.visualstudio.com/items?itemName=nkdagility.vsts-sync-migration",
     "license": "MIT",
-    "url": "https://github.com/nkdAgility/azure-devops-migration-tools/releases/download/v16.3.2/MigrationTools-16.3.2.zip",
-    "hash": "efd19a5e78c45ac65e638ad20b9341add9dab95b056c462c2574bf94e23ce6e8",
+    "url": "https://github.com/nkdAgility/azure-devops-migration-tools/releases/download/v16.3.3/MigrationTools-16.3.3.zip",
+    "hash": "44505b3d611f4626916df78487c14f87b6bf4a53490a7646c974a55a83f0ef3d",
     "bin": "devopsmigration.exe",
     "persist": [
         "configuration.json",
