@@ -1,16 +1,16 @@
 {
-    "version": "0.0.53",
+    "version": "0.0.54",
     "description": "A powerful and flexible Kubernetes Model Context Protocol (MCP) server implementation with support for Kubernetes and OpenShift.",
     "homepage": "https://github.com/containers/kubernetes-mcp-server",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containers/kubernetes-mcp-server/releases/download/v0.0.53/kubernetes-mcp-server-windows-amd64.exe#/kubernetes-mcp-server.exe",
-            "hash": "395fbb5462630e55887ab89d9bbea5f0ba5af5a29d89812f4bf780b96e1a1eb0"
+            "url": "https://github.com/containers/kubernetes-mcp-server/releases/download/v0.0.54/kubernetes-mcp-server-windows-amd64.exe#/kubernetes-mcp-server.exe",
+            "hash": "21482f6a125c48b13b32032d54ec8a49421f2ee89170e42001b7a48045fe1a47"
         },
         "arm64": {
-            "url": "https://github.com/containers/kubernetes-mcp-server/releases/download/v0.0.53/kubernetes-mcp-server-windows-arm64.exe#/kubernetes-mcp-server.exe",
-            "hash": "fc9776494be86162b5a72b14e61a9272799a13bbf283cacad5d767b5bf10e644"
+            "url": "https://github.com/containers/kubernetes-mcp-server/releases/download/v0.0.54/kubernetes-mcp-server-windows-arm64.exe#/kubernetes-mcp-server.exe",
+            "hash": "ee670cf1378e522e748fc747fcf8483a23394d01b9a10173d6fcc2d2f2edbb69"
         }
     },
     "bin": "kubernetes-mcp-server.exe",
