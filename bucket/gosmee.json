@@ -1,16 +1,16 @@
 {
-    "version": "0.28.1",
+    "version": "0.28.2",
     "description": "A command line server and client for webhooks deliveries (and https://smee.io)",
     "homepage": "https://github.com/chmouel/gosmee",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chmouel/gosmee/releases/download/v0.28.1/gosmee_0.28.1_windows_x86_64.zip",
-            "hash": "0746417522725bdeecfc8f0e882d526dfd38edbdeb800baacb8239aedce5f2c4"
+            "url": "https://github.com/chmouel/gosmee/releases/download/v0.28.2/gosmee_0.28.2_windows_x86_64.zip",
+            "hash": "f873c44f5baaf34723472d453368e144f429cbbfe6d7581cf74df74f654daf89"
         },
         "arm64": {
-            "url": "https://github.com/chmouel/gosmee/releases/download/v0.28.1/gosmee_0.28.1_windows_arm64.zip",
-            "hash": "0ce4de9c823e215518f3506fcb1a27c52655c5de1fadf915b1b851dc1d8a203e"
+            "url": "https://github.com/chmouel/gosmee/releases/download/v0.28.2/gosmee_0.28.2_windows_arm64.zip",
+            "hash": "ecc6e4681c6fe3b72cdb4df1a56e4588795ea66a8996b3dd5960cecbc9c4ad23"
         }
     },
     "bin": "gosmee.exe",
