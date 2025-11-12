@@ -1,23 +1,23 @@
 {
-    "version": "2.0.0-beta.2",
+    "version": "2.0.0",
     "description": "Look up records for one or more IPs/networks in one or more .mmdb databases.",
     "homepage": "https://github.com/maxmind/mmdbinspect",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_amd64.zip",
-            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_amd64",
-            "hash": "371444b62be3a5a5c4ab2ffb669ff78da0701bb68bc46c3725814f115b79cbef"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_amd64.zip",
+            "extract_dir": "mmdbinspect_2.0.0_windows_amd64",
+            "hash": "8aa01679e75ce7aa8e41d4276a33039cd78a841db77a77f932614b68d543d8eb"
         },
         "32bit": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_386.zip",
-            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_386",
-            "hash": "aab6c7e26039826a1c7520ba090071953d09eef611f17dee143ae8a6f52a41b4"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_386.zip",
+            "extract_dir": "mmdbinspect_2.0.0_windows_386",
+            "hash": "491b04518cabed6b5c1fdcaa820d76f1928ec03e926f5b227e82a3efba757594"
         },
         "arm64": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0-beta.2/mmdbinspect_2.0.0-beta.2_windows_arm64.zip",
-            "extract_dir": "mmdbinspect_2.0.0-beta.2_windows_arm64",
-            "hash": "68e4ba63a2903a923485e0913f5ea7d23b6c55ac0f99e1c5a147019dbdeb887c"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_arm64.zip",
+            "extract_dir": "mmdbinspect_2.0.0_windows_arm64",
+            "hash": "bf8c6fe530dbb7bce3b6d45078f3956600b7889c7036f7240a93920ad490d5c3"
         }
     },
     "bin": "mmdbinspect.exe",
