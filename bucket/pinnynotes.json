@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v1.15.0/Pinny.Notes.Portable.v1.15.0.zip",
+            "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v1.15.0/PinnyNotes-Portable-1.15.0-x64.zip",
             "hash": "140629391e7d13de0f8ad1d0b989c25f80af8c81b8792579d741b89ec720b488"
         }
     },
@@ -16,12 +16,21 @@
             "Pinny Notes"
         ]
     ],
+    "pre_install": [
+        "if ((Test-Path \"$env:APPDATA\\Pinny Notes\\pinny_notes.sqlite\") -and (!(Test-Path \"$persist_dir\\pinny_notes.sqlite\"))) {",
+        "    ensure \"$persist_dir\" | Out-Null",
+        "    Write-Host -NoNewline 'Migrate database...'",
+        "    Copy-Item \"$env:APPDATA\\Pinny Notes\\pinny_notes.sqlite\" \"$persist_dir\"",
+        "}",
+        "if (!(Test-Path \"$persist_dir\\pinny_notes.sqlite\")) { Set-Content -Encoding ASCII -Path \"$dir\\pinny_notes.sqlite\" -Value $null }"
+    ],
+    "persist": "pinny_notes.sqlite",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Pinny_Notes\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v$version/Pinny.Notes.Portable.v$version.zip"
+                "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v$version/PinnyNotes-Portable-$version-x64.zip"
             }
         }
     }
