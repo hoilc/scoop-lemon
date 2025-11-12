@@ -1,12 +1,12 @@
 {
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "Export iMessage data + run iMessage Diagnostics.",
     "homepage": "https://github.com/ReagentX/imessage-exporter",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ReagentX/imessage-exporter/releases/download/3.1.0/imessage-exporter-x86_64-pc-windows-gnu.tar.gz",
-            "hash": "878e95ea2b90473920988e204320497983328b46196f5bded060480bf16e4b7d"
+            "url": "https://github.com/ReagentX/imessage-exporter/releases/download/3.2.0/imessage-exporter-x86_64-pc-windows-gnu.tar.gz",
+            "hash": "0a686811aea8b3005800134f3c47a5e832cd13c7633d49d66218d1395425c021"
         }
     },
     "bin": "imessage-exporter.exe",
