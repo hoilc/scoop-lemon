@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A CLI tool for managing and interacting with Uptime Kuma.",
     "homepage": "https://github.com/BigBoot/AutoKuma",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BigBoot/AutoKuma/releases/download/v1.0.0/kuma-windows.exe#/kuma.exe",
-            "hash": "247915641b7293bcbd19b0ff6309b53ae4841da45d585f73b96cf02aa174361e"
+            "url": "https://github.com/BigBoot/AutoKuma/releases/download/v2.0.0/kuma-windows.exe#/kuma.exe",
+            "hash": "52c91da5ec22a42ad3c9ea09c3bbacd145a303b5c8456e21c69b96ca0f7624c0"
         }
     },
     "bin": "kuma.exe",
