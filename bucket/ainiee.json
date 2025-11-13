@@ -1,6 +1,6 @@
 {
     "version": "7.0.7",
-    "description": "一款专注于Ai翻译的工具，可以用来一键自动翻译RPG SLG游戏，Epub TXT小说，Srt Lrc字幕等等",
+    "description": "一款专注于 AI 翻译的工具，一键自动翻译游戏、书籍、字幕、文档等复杂长文本内容",
     "homepage": "https://github.com/NEKOparapa/AiNiee",
     "license": "GPL-3.0-only",
     "architecture": {
@@ -9,15 +9,15 @@
             "hash": "255303e07c5789bde13e8795b343022c7ae070b8bd81e8d962148f938a6013e4"
         }
     },
-    "extract_dir": "dist",
+    "extract_dir": "dist\\AiNiee",
     "shortcuts": [
         [
-            "AiNiee4.exe",
+            "AiNiee.exe",
             "AiNiee"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\resource\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\resource\\config.json\" -Value \"{}\" }",
-    "persist": "resource\\config.json",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Resource\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\Resource\\config.json\" -Value \"{}\" }",
+    "persist": "Resource\\config.json",
     "checkver": {
         "url": "https://github.com/NEKOparapa/AiNiee/releases.atom",
         "regex": "Repository/\\d+/AiNiee([\\d.]+)"
