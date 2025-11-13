@@ -1,12 +1,12 @@
 {
-    "version": "2.0.9",
+    "version": "2.0.10",
     "description": "A simple and effective UI testing framework for Mobile and Web.",
     "homepage": "https://docs.maestro.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.0.9/maestro.zip",
-            "hash": "6f5a79d2aa8dbf0aa4bb7a6fdddca591182c667670131c31f79450eb3579a503"
+            "url": "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.0.10/maestro.zip",
+            "hash": "dbdcfbe2b673e1a6f40c65664f1ed5becad0b0a40e35d0e203dff511d05032f6"
         }
     },
     "extract_dir": "maestro",
