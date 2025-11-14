@@ -1,22 +1,22 @@
 {
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "A compiler for fonts.",
     "homepage": "https://github.com/googlefonts/fontc",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v0.3.2/fontc-x86_64-pc-windows-msvc.zip",
-            "hash": "392361ef5c3f7371d6c65970d7d344644d71770e872358bc78c24e09e9320411"
+            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v0.4.0/fontc-x86_64-pc-windows-msvc.zip",
+            "hash": "008a4772515199035352fc47030e1db09389aa76638c0d88d00ede2c2123dbaf"
         },
         "32bit": {
-            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v0.3.2/fontc-i686-pc-windows-msvc.zip",
-            "hash": "0b7bb5b6c478ca8f0fe85a4cb392958b160ba4c254e0246b41f4bce8fe9ffa19"
+            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v0.4.0/fontc-i686-pc-windows-msvc.zip",
+            "hash": "77cc6d0d4278f9dc0cf987c9da2723192136e76d23474acac940c24b2253fdaa"
         }
     },
     "bin": "fontc.exe",
     "checkver": {
-        "url": "https://github.com/googlefonts/fontc/releases.atom",
-        "regex": "Repository/\\d+/fontc-[vV]?(.+?)<"
+        "url": "https://github.com/googlefonts/fontc/releases/latest",
+        "regex": "/fontc/tree/fontc-v([^/]+?)\""
     },
     "autoupdate": {
         "architecture": {
