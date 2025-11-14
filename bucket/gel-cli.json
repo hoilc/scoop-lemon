@@ -1,12 +1,12 @@
 {
-    "version": "7.9.0",
+    "version": "7.10.0",
     "description": "Command-line tools for Gel.",
     "homepage": "https://docs.geldata.com/reference/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/gel-cli-7.9.0+070b371.exe#/gel.exe",
-            "hash": "c66bbc09fcb0a02251c81eb072dbc83d7e5350ec63ce7e176513c8e01aa474a0"
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc/gel-cli-7.10.0+5b86973.exe#/gel.exe",
+            "hash": "b979b6baae278c30915c0dfed6523e68c20a1d72564b409fbfd22f45077d12a1"
         }
     },
     "bin": "gel.exe",
