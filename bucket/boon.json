@@ -1,0 +1,21 @@
+{
+    "version": "0.6.1",
+    "description": "CLI for JSONSchema (draft 2020-12, draft 2019-09, draft-7, draft-6, draft-4) validation.",
+    "homepage": "https://github.com/santhosh-tekuri/boon",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/santhosh-tekuri/boon/releases/download/v0.6.1/boon-x86_64-pc-windows-msvc.zip",
+            "hash": "40dc1f95e3d10ae3827c6e6bd4353a02bbf11454c672935357b27c1bc265b279"
+        }
+    },
+    "bin": "boon.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/santhosh-tekuri/boon/releases/download/v$version/boon-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
