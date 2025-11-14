@@ -1,16 +1,16 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "A CLI that helps developers access the Microsoft Store APIs, for both managed (MSIX), as well as unmanaged (MSI/EXE) applications.",
     "homepage": "https://github.com/microsoft/msstore-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/msstore-cli/releases/download/v0.3.3/MSStoreCLI-win-x64.zip",
-            "hash": "5300d09fd5514a0e5b507adc6a27cf8e5526373c7252103cf45c7e373fd2e227"
+            "url": "https://github.com/microsoft/msstore-cli/releases/download/v0.3.4/MSStoreCLI-win-x64.zip",
+            "hash": "7a076c482bc0e3d97b0fd2518e2addc4308eaa22e46b8d675f2b0db56ee81544"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/msstore-cli/releases/download/v0.3.3/MSStoreCLI-win-arm64.zip",
-            "hash": "5322936b9e98650996bc7af34609ae563b646f3525436205842abfb6bbccd472"
+            "url": "https://github.com/microsoft/msstore-cli/releases/download/v0.3.4/MSStoreCLI-win-arm64.zip",
+            "hash": "64a7f007d5f12ba29e903a7cdc3e4a555e9e14634c07fd0fd4d46d049b53a36b"
         }
     },
     "bin": "msstore.exe",
