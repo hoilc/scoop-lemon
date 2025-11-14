@@ -1,0 +1,31 @@
+{
+    "version": "0.3.4",
+    "description": "A terminal-based window manager that provides a modern, efficient interface for managing multiple terminal sessions.",
+    "homepage": "https://github.com/Gaurav-Gosain/tuios",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.3.4/tuios_0.3.4_Windows_x86_64.tar.gz",
+            "hash": "50e194a419daac919bb717c7d15a294aeb9e463f19540635992a8b36ff3b2f9b"
+        },
+        "32bit": {
+            "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.3.4/tuios_0.3.4_Windows_i386.tar.gz",
+            "hash": "a42800cec590776d8534dc1a900c4aeaa508f48b1ded84bc972d094d5e65dc05"
+        }
+    },
+    "bin": "tuios.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v$version/tuios_$version_Windows_x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v$version/tuios_$version_Windows_i386.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
