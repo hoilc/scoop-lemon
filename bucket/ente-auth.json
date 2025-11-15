@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.11-beta/ente-auth-v4.4.11-beta-windows.zip",
             "extract_dir": "ente-auth-v4.4.11-beta-windows",
-            "hash": "ef0b532380d4c9dcbd20aef78777423b8ba7eb26b0940429c4f900fa1defce24"
+            "hash": "d6ae7032f53101b00f48fd57c093cb87e71e67e5e4d98de5cb559c31b84fc2df"
         }
     },
     "shortcuts": [
