@@ -1,16 +1,16 @@
 {
-    "version": "24.09.18+760ee81",
+    "version": "25.11.15+bbd247b",
     "description": "A secure private tunnel to your local servers.",
     "homepage": "https://github.com/ntnj/tunwg",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ntnj/tunwg/releases/download/v24.09.18+760ee81/tunwg.exe",
-            "hash": "80a5b95840565d5e4ac5c46d03130e2ff00c479a4fb7bd6a81bcb0dfbb546389"
+            "url": "https://github.com/ntnj/tunwg/releases/download/v25.11.15+bbd247b/tunwg.exe",
+            "hash": "7a7789b58a0ead9415f69acdb73a0c505d76b7a9c2086fb4e34da9bcf85f2ea3"
         },
         "arm64": {
-            "url": "https://github.com/ntnj/tunwg/releases/download/v24.09.18+760ee81/tunwg-arm64.exe#/tunwg.exe",
-            "hash": "ad4be82eaee02bf4fbbd8c702a3d392f226bc1054b555757ecace98a66f7fc93"
+            "url": "https://github.com/ntnj/tunwg/releases/download/v25.11.15+bbd247b/tunwg-arm64.exe#/tunwg.exe",
+            "hash": "8d5f2914a0fdf69564e14d8ce7150fccbc641ac152baf28ea0d6bf0e1846517e"
         }
     },
     "bin": "tunwg.exe",
