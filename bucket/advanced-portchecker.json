@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "Advanced PortChecker is a free application that can help you check if ports are open or closed on a certain host.",
     "homepage": "https://codedead.com/software/advanced-portchecker",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CodeDead/Advanced-PortChecker/releases/download/v2.2.0/advanced-portchecker_2.2.0_x64_en-US.msi",
-            "hash": "ab01b927f9b2273bdc661827690ca8f61c62ea7492f1aaa05710032629210fa2"
+            "url": "https://github.com/CodeDead/Advanced-PortChecker/releases/download/v2.3.0/advanced-portchecker_2.3.0_x64_en-US.msi",
+            "hash": "2c78e81faf92f02f9c933f4198477350bfa895ecb00703a2b17f9393ebd61616"
         }
     },
     "extract_dir": "PFiles\\advanced-portchecker",
