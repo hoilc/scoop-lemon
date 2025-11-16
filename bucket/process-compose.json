@@ -1,16 +1,16 @@
 {
-    "version": "1.76.1",
+    "version": "1.78.0",
     "description": "A simple and flexible scheduler and orchestrator to manage non-containerized applications.",
     "homepage": "https://f1bonacc1.github.io/process-compose/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.76.1/process-compose_windows_amd64.zip",
-            "hash": "c04049a1e9fb003307e84cedaf2cfb21979a50e830433360b3625c497d7bb291"
+            "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.78.0/process-compose_windows_amd64.zip",
+            "hash": "63778998bb9ce1f143cb86ee190ac5fff30e0ed4b90e6fac408b59969d856552"
         },
         "arm64": {
-            "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.76.1/process-compose_windows_arm64.zip",
-            "hash": "075e287e24633c17ca7c0cd5f08cb8b32d5fde5aff918157b8b98445618a0f7c"
+            "url": "https://github.com/F1bonacc1/process-compose/releases/download/v1.78.0/process-compose_windows_arm64.zip",
+            "hash": "7c6009cdbf98377f46639984fa959f521a645bbf0f1b56daba79b6159fb069c8"
         }
     },
     "bin": "process-compose.exe",
