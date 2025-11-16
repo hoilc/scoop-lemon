@@ -1,16 +1,16 @@
 {
-    "version": "0.29.0",
+    "version": "0.30.0",
     "description": "An open-source tool designed to streamline uploading large photo collections to your self-hosted Immich server.",
     "homepage": "https://github.com/simulot/immich-go",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/simulot/immich-go/releases/download/v0.29.0/immich-go_Windows_x86_64.zip",
-            "hash": "0ee81b7ca785eff6875d84e894c9eb70603030994cb16fd61b756719bfd5812c"
+            "url": "https://github.com/simulot/immich-go/releases/download/v0.30.0/immich-go_Windows_x86_64.zip",
+            "hash": "e4c6e51c6036cd017448566c72917b9b76f0c30331cdd9a63a4f5e698021febf"
         },
         "arm64": {
-            "url": "https://github.com/simulot/immich-go/releases/download/v0.29.0/immich-go_Windows_arm64.zip",
-            "hash": "5cb9d76729e34d6334fd01bd429b5e4cf4d85aa149be73eadc3d6e4b17c46c40"
+            "url": "https://github.com/simulot/immich-go/releases/download/v0.30.0/immich-go_Windows_arm64.zip",
+            "hash": "fab95bf27b8c5cd9c439f7ef8d4026db2431b3a265fa7b76c517fe897f469b82"
         }
     },
     "bin": "immich-go.exe",
