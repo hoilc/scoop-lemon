@@ -1,20 +1,20 @@
 {
-    "version": "0.7.4",
+    "version": "0.7.5",
     "description": "r-nacos is Nacos server re-implemented in Rust.",
     "homepage": "https://github.com/heqingpan/rnacos",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.4/rnacos-x86_64-pc-windows-msvc-v0.7.4.zip",
-            "hash": "8b7a1afd3b6d5e37dd87e33035b519ec3fff64afea0b40bace6d3640a60f3568"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.5/rnacos-x86_64-pc-windows-msvc-v0.7.5.zip",
+            "hash": "42927fedbced81a8696df8de2af41cefad6c0ce5565493dce88048175ff897e3"
         },
         "32bit": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.4/rnacos-i686-pc-windows-msvc-v0.7.4.zip",
-            "hash": "cfedf0c2f155937d0651cd58b98b83c8bb06034b477f32fb5bf64f8a0bddc20b"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.5/rnacos-i686-pc-windows-msvc-v0.7.5.zip",
+            "hash": "96c0ebc88b20119e262c32d08486c445fa132e4790679a70bf45518a5ea1f092"
         },
         "arm64": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.4/rnacos-aarch64-pc-windows-msvc-v0.7.4.zip",
-            "hash": "9b9d9c726e8b05d902b1347032d1aa2c82c37ccada2d138f71f3373357277954"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.5/rnacos-aarch64-pc-windows-msvc-v0.7.5.zip",
+            "hash": "075987000f10fbb532ba4f8f0c0923c723b3e8ee477b9e6e1569361e33b783bd"
         }
     },
     "bin": "rnacos.exe",
