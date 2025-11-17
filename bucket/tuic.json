@@ -1,17 +1,17 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.4",
     "description": "(Extended Life Version) A delicately-TUICed high-performance proxy built on top of the QUIC protocol.",
     "homepage": "https://github.com/Itsusinn/tuic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Itsusinn/tuic/releases/download/v1.6.2/tuic-server-x86_64-windows.exe#/tuic-server.exe",
-                "https://github.com/Itsusinn/tuic/releases/download/v1.6.2/tuic-client-x86_64-windows.exe#/tuic-client.exe"
+                "https://github.com/Itsusinn/tuic/releases/download/v1.6.4/tuic-server-x86_64-windows.exe#/tuic-server.exe",
+                "https://github.com/Itsusinn/tuic/releases/download/v1.6.4/tuic-client-x86_64-windows.exe#/tuic-client.exe"
             ],
             "hash": [
-                "25b49d8b4aea759a7034523deb5476d6135d8927e1778b7ad190b42db6e14ff4",
-                "8eab9bce8541219fe420b81148e100d9d61ff6150f81d603ff82a08f4d98d7fc"
+                "a4a5d39b4083ef8be1c0a33926acf32b6c6869d93ed69f0b3f6b60c5d371d6a1",
+                "cb456e229d206130aa9ca544d47c88782b24558ccc8c7c1298810be377caac84"
             ]
         }
     },
