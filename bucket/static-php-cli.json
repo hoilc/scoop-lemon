@@ -1,12 +1,12 @@
 {
-    "version": "2.7.6",
+    "version": "2.7.7",
     "description": "static-php-cli (spc) is a powerful tool designed for building static, standalone PHP runtime with popular extensions.",
     "homepage": "https://github.com/crazywhalecc/static-php-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/2.7.6/spc-windows-x64.exe#/spc.exe",
-            "hash": "6b4d10dfd952634633a24ba1b987dcfad9daf70ed23ec0ebc0b4d463cc25f3df"
+            "url": "https://github.com/crazywhalecc/static-php-cli/releases/download/2.7.7/spc-windows-x64.exe#/spc.exe",
+            "hash": "06f52fb2c6c1a4003bd78628d198ddce78b6c1fa56233bbf2c918ddbd2f63ef9"
         }
     },
     "bin": "spc.exe",
