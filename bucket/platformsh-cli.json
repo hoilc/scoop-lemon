@@ -1,12 +1,12 @@
 {
-    "version": "5.6.0",
+    "version": "5.7.0",
     "description": "The official command-line interface for Platform.sh.",
     "homepage": "https://platform.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/platformsh/cli/releases/download/5.6.0/platform_5.6.0_windows_amd64.zip",
-            "hash": "877812d1a3826e743128d092b0d5ea214f3efe96b1b46b60d656df82f98c6c05"
+            "url": "https://github.com/platformsh/cli/releases/download/5.7.0/platform_5.7.0_windows_amd64.zip",
+            "hash": "faab545cf5abf709a262fb28aa5dcedb414cbb88dfc2b8701f7ae9fa4211ddfb"
         }
     },
     "bin": "platform.exe",
