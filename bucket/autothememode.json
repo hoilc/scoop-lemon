@@ -1,12 +1,12 @@
 {
-    "version": "1.5.13",
+    "version": "1.6.0",
     "description": "A simple Windows Color Mode switching tool that enables your system to automatically switch between light and dark themes.",
     "homepage": "https://github.com/tuyangJs/Windows_AutoTheme",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuyangJs/Windows_AutoTheme/releases/download/v1.5.13/AutoThemeMode_1.5.13_x64-setup.exe#/dl.7z",
-            "hash": "be0e686197ea0544af73b507abb115a1193f5e3a949fd14441817c80e5817b0e"
+            "url": "https://github.com/tuyangJs/Windows_AutoTheme/releases/download/v1.6.0/AutoThemeMode_1.6.0_x64-setup.exe#/dl.7z",
+            "hash": "dc8947769a637309628118a7407ad8bcb5e8e4f5c98e52cffbc354523d3dcf63"
         }
     },
     "shortcuts": [
