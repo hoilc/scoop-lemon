@@ -1,14 +1,15 @@
 {
     "version": "0.53.0",
     "description": "BetterGI · 更好的原神 - UI Automation Testing Tools For Genshin Impact",
-    "homepage": "https://bgi.huiyadan.com",
+    "homepage": "https://bettergi.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babalae/better-genshin-impact/releases/download/0.53.0/BetterGI_v0.53.0.7z",
+            "url": "https://cnb.cool/bettergi/better-genshin-impact/-/releases/download/v0.53.0/BetterGI_v0.53.0.7z",
             "hash": "d7397b23c0b48d9563f568892b5b51d1bbb08a435b281fa31cbbb915486779a7"
         }
     },
+    "post_install": "Remove-Item \"$dir\\BetterGI.update.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
     "extract_dir": "BetterGI",
     "shortcuts": [
         [
@@ -21,13 +22,13 @@
         "log"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/babalae/better-genshin-impact/releases/latest",
-        "regex": "/releases/download/(?<tag>[^/]+)/BetterGI_v([\\d.]+).7z"
+        "url": "https://hui-config.oss-cn-hangzhou.aliyuncs.com/bgi/notice.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/babalae/better-genshin-impact/releases/download/$matchTag/BetterGI_v$version.7z"
+                "url": "https://cnb.cool/bettergi/better-genshin-impact/-/releases/download/v$version/BetterGI_v$version.7z"
             }
         }
     }
