@@ -1,10 +1,10 @@
 {
-    "version": "1.9.2",
+    "version": "1.9.3",
     "description": "A tool for comparing JAR files, including Scala pickled signatures and method code.",
     "homepage": "https://github.com/scala/jardiff",
     "license": "Apache-2.0",
-    "url": "https://github.com/scala/jardiff/releases/download/v1.9.2/jardiff.jar",
-    "hash": "d0605527883c7f9140aa6d8e1068edb55694ed02d05354830f0bd7e67f5052ad",
+    "url": "https://github.com/scala/jardiff/releases/download/v1.9.3/jardiff.jar",
+    "hash": "48dff219f4aff6231336f6e9e750a3230131b6517a87a282d538768e8b18e2a9",
     "bin": "jardiff.jar",
     "suggest": {
         "JDK": [
