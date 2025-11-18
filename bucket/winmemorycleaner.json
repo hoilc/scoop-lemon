@@ -1,10 +1,10 @@
 {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "Windows Memory Cleaner is a free portable RAM cleaner.",
     "homepage": "https://github.com/IgorMundstein/WinMemoryCleaner",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.4/WinMemoryCleaner.zip",
-    "hash": "fba5f59817e6f94afef76b1baecfc06e1900c64034d00a2559e45062856076fb",
+    "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/3.0.5/WinMemoryCleaner.zip",
+    "hash": "ea82cccc9c2f419d4205b2593591d708a7bfae293b238ed34ad1a9b3b70da7f1",
     "shortcuts": [
         [
             "WinMemoryCleaner.exe",
