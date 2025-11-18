@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "0.18.2",
     "description": "Yet another youtube (and more) down loader.",
     "homepage": "https://code.rosaelefanten.org/yaydl",
     "license": "CDDL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.tuxproject.de/projects/yaydl/yaydl-0.18.0-windows.rar",
-            "hash": "cb804790a8934eb47743c2ca79f13777ab49989dc668b5b5bbf7bccb41e3f0c8"
+            "url": "https://cdn.tuxproject.de/projects/yaydl/yaydl-0.18.2-windows.rar",
+            "hash": "0ee902fa5a0249467c55a56b51b2539cff4f8a2973409599af1e03b7c88ebcd2"
         }
     },
     "bin": "yaydl.exe",
