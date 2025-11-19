@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/mitex-cli-0.2.4/mitex-cli-0.2.4-x86_64-pc-windows-msvc.tar.gz",
             "hash": "ee0983681b1530b2266b52adc0238ce36b4938cd86359f7180ded025faa9e157"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/mitex-cli-0.2.4/mitex-cli-0.2.4-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "a7aed6366782ddd9f93e10a862ae03e5c871d478cdbd2e8732e5f3059558c719"
         }
     },
     "bin": "mitex.exe",
@@ -18,6 +22,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/mitex-cli-$version/mitex-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/mitex-cli-$version/mitex-cli-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
