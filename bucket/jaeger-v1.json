@@ -1,13 +1,13 @@
 {
-    "version": "1.74.0",
+    "version": "1.75.0",
     "description": "An open source, distributed tracing platform.",
     "homepage": "https://www.jaegertracing.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.jaegertracing.io/v1.74.0/jaeger-1.74.0-windows-amd64.tar.gz",
-            "extract_dir": "jaeger-1.74.0-windows-amd64",
-            "hash": "d025b72dac57b739287d84ea949a740ebd15fa4386495c593cf57b2124b8effd"
+            "url": "https://download.jaegertracing.io/v1.75.0/jaeger-1.75.0-windows-amd64.tar.gz",
+            "extract_dir": "jaeger-1.75.0-windows-amd64",
+            "hash": "160d6d66322cfbb3533ab706002dbcd0fad28b45b5b03ba3aa30d6be5e05560f"
         }
     },
     "bin": [
