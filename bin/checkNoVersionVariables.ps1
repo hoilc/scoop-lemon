@@ -75,7 +75,8 @@ $manifestFiles = Get-ChildItem -Path $AppPath -Filter *.json | Select-Object -Ex
 $manifestsWithoutVersion = @()
 
 foreach ($manifestFile in $manifestFiles) {
-    $manifestContent = Get-Content -Path $manifestFile -Raw | ConvertFrom-Json
+    $manifestContentString = Get-Content -Path $manifestFile -Encoding UTF8
+    $manifestContent = $manifestContentString | ConvertFrom-Json
 
     if ($manifestContent.autoupdate) {
         $hasVersionVar = $false
@@ -94,7 +95,9 @@ foreach ($manifestFile in $manifestFiles) {
             }
         }
 
-        if (-not $hasVersionVar) {
+        $matchCargoQuickInstall = ($manifestContentString -match 'cargo-bins/cargo-quickinstall')
+
+        if ((-not $hasVersionVar) -or $matchCargoQuickInstall) {
             $manifestName = Split-Path -Path $manifestFile -Leaf
             $manifestName = [System.IO.Path]::GetFileNameWithoutExtension($manifestName)
 
@@ -106,6 +109,8 @@ foreach ($manifestFile in $manifestFiles) {
         }
     }
 }
+
+$manifestsWithoutVersion = $manifestsWithoutVersion | Sort-Object | Get-Unique
 
 if ($manifestsWithoutVersion.Count -gt 0) {
     Write-Output "The following $($manifestsWithoutVersion.Count) manifests do not have a version variable:"
