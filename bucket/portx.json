@@ -1,12 +1,12 @@
 {
-    "version": "2.2.13",
+    "version": "2.2.14",
     "description": "A free cross-plaftorm SSH client for syncing session files across multiple devices.",
     "homepage": "https://portx.online/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.netsarang.net/0ac7ea20/PortX-2.2.13-Setup.exe#/dl.7z",
-            "hash": "504dadf69d7304b0cc4a97f6c1a90bcba147af6ab06812fdad3cde1dfb10560a",
+            "url": "https://cdn.netsarang.net/0ac7ea20/PortX-2.2.14-Setup.exe#/dl.7z",
+            "hash": "962152c58ed36a1b77f2dfe3960d4e0d40c4b428f00150cc2b0771dc86aaf5c7",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
