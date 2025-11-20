@@ -1,12 +1,12 @@
 {
-    "version": "2.2.1.0",
+    "version": "2.2.4.0",
     "description": "（测试版）功能强大使用简单的截图/贴图工具，帮助你提高效率",
     "homepage": "https://pixpinapp.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_2.2.1.0.zip",
-            "hash": "0f2c5ad18debd2abcc3d4f9c720df8fb7096117acadab35de9329e6b1d415fb5"
+            "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_2.2.4.0.zip",
+            "hash": "bb2ef349a4fdef9a27e390d25ff5b55b7702e7b201774ce7e7622b77b83e0b03"
         }
     },
     "extract_dir": "PixPin",
