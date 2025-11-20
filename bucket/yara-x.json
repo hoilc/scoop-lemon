@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "A rewrite of YARA, a pattern matching tool designed with malware researchers in mind.",
     "homepage": "https://virustotal.github.io/yara-x/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VirusTotal/yara-x/releases/download/v1.9.0/yara-x-v1.9.0-x86_64-pc-windows-msvc.zip",
-            "hash": "a75b20f3d451c83e1a56d47c78afcbd7f12e4d807b4d206894045f02e484fb20"
+            "url": "https://github.com/VirusTotal/yara-x/releases/download/v1.10.0/yara-x-v1.10.0-x86_64-pc-windows-msvc.zip",
+            "hash": "3b564326e778ee6ca068ea1721beec80db48c6c554cf76ee6f6b3943646a15c7"
         }
     },
     "bin": "yr.exe",
