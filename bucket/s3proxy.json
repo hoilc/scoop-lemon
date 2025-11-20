@@ -1,10 +1,10 @@
 {
-    "version": "2.8.0",
+    "version": "2.9.0",
     "description": "Access other storage backends via the S3 API.",
     "homepage": "https://github.com/gaul/s3proxy",
     "license": "Apache-2.0",
-    "url": "https://github.com/gaul/s3proxy/releases/download/s3proxy-2.8.0/s3proxy#/s3proxy.jar",
-    "hash": "7775a03fc81bc4d9a8ea71e6f12035bbc34b99796eb44b56141cddb69c49559f",
+    "url": "https://github.com/gaul/s3proxy/releases/download/s3proxy-2.9.0/s3proxy#/s3proxy.jar",
+    "hash": "30965ab24f6eed0ff7260d37a9f4e1efba38829e19b1302e5c080e3470d6a420",
     "bin": "s3proxy.jar",
     "suggest": {
         "JDK": [
