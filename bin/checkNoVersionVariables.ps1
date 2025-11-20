@@ -88,7 +88,7 @@ foreach ($manifestFile in $manifestFiles) {
         if ($manifestContent.autoupdate.architecture) {
             $archs = @('32bit', '64bit', 'arm64')
             foreach ($arch in $archs) {
-                if ($manifestContent.autoupdate.architecture.$arch -and $manifestContent.autoupdate.architecture.$arch.url -match '\$(version|match)') {
+                if ($manifestContent.autoupdate.architecture.$arch -and $manifestContent.autoupdate.architecture.$arch.url -match '\$') {
                     $hasVersionVar = $true
                     break
                 }
