@@ -1,10 +1,10 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A set of tools to analyze genomic data with a focus on Next Generation Sequencing.",
     "homepage": "http://fulcrumgenomics.github.io/fgbio/",
     "license": "MIT",
-    "url": "https://github.com/fulcrumgenomics/fgbio/releases/download/3.0.0/fgbio-3.0.0.jar#/fgbio.jar",
-    "hash": "855777003fa7ffb0bda1c21da14fc262a6de447af7fe3b2d16cd4e2c987dd94c",
+    "url": "https://github.com/fulcrumgenomics/fgbio/releases/download/3.1.0/fgbio-3.1.0.jar#/fgbio.jar",
+    "hash": "89de3f779ff96d950f0533166349d16f4615600e9498fdd29197c0ed979fd707",
     "bin": "fgbio.jar",
     "suggest": {
         "JDK": [
