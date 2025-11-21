@@ -1,0 +1,44 @@
+{
+    "version": "1.5",
+    "description": "A free portable standalone tool to create an ISO Image from a folder.",
+    "homepage": "https://yubsoft.com/folder2iso/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.yubsoft.com/folder2iso_1.5/folder2iso.exe",
+            "hash": "837886da5e20bdb7ffb913f2af117d5b578c837052ed6bf395eba63cd1d6c08d"
+        },
+        "32bit": {
+            "url": "https://download.yubsoft.com/folder2iso_1.5/folder2iso_x86.exe#/folder2iso.exe",
+            "hash": "2b122c77d545ecd445e08a9f5eae3a5ae7fa82365bceed984bc202ca1a5961c1"
+        },
+        "arm64": {
+            "url": "https://download.yubsoft.com/folder2iso_1.5/folder2iso_arm64.exe#/folder2iso.exe",
+            "hash": "09aff2b30ce7ec3059141377cbf1109210ff16267fc34e55d0fb3dba9e8e6c2c"
+        }
+    },
+    "shortcuts": [
+        [
+            "folder2iso.exe",
+            "Folder2ISO"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\folder2iso.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\folder2iso.ini\" -Value $null }",
+    "persist": "folder2iso.ini",
+    "checkver": {
+        "regex": "/folder2iso_([\\d.]+)/folder2iso.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.yubsoft.com/folder2iso_$version/folder2iso.exe"
+            },
+            "32bit": {
+                "url": "https://download.yubsoft.com/folder2iso_$version/folder2iso_x86.exe#/folder2iso.exe"
+            },
+            "arm64": {
+                "url": "https://download.yubsoft.com/folder2iso_$version/folder2iso_arm64.exe#/folder2iso.exe"
+            }
+        }
+    }
+}
