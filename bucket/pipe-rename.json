@@ -1,12 +1,12 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.6",
     "description": "Rename your files using your favorite text editor.",
     "homepage": "https://github.com/marcusbuffett/pipe-rename",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/marcusbuffett/pipe-rename/releases/download/1.6.5/renamer-1.6.5-x86_64-pc-windows-msvc.exe#/renamer.exe",
-            "hash": "b88ff24c553aee95c45d3d7a4823d15c5ee1683b38416acd5d7604aad73d6b4e"
+            "url": "https://github.com/marcusbuffett/pipe-rename/releases/download/1.6.6/renamer-1.6.6-x86_64-pc-windows-msvc.exe#/renamer.exe",
+            "hash": "e6e3446f30f561d4edc9d61adac490c87fbb3edd09e5d546ab743e120676b439"
         }
     },
     "bin": "renamer.exe",
