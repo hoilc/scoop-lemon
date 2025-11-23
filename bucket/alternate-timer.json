@@ -1,10 +1,10 @@
 {
-    "version": "4.820",
+    "version": "4.830",
     "description": "A program for managing/logging timings (daily work, internet usage etc.)",
     "homepage": "https://www.alternate-tools.com/pages/c_timer.php?lang=ENG",
     "license": "Freeware",
     "url": "https://www.alternate-tools.com/files/Timer_Portable.zip",
-    "hash": "ccca801cf412b10c64238adc52da966ddae1727ca9a9cda74b803aa83bcf577e",
+    "hash": "3b0610edfd5254563904f0bd6c963f08e06839978561b6fb6ecd5fdbf22e1d38",
     "extract_dir": "Timer",
     "shortcuts": [
         [
