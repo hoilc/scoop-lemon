@@ -1,12 +1,12 @@
 {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "An interactive find-and-replace terminal UI app.",
     "homepage": "https://github.com/thomasschafer/scooter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/thomasschafer/scooter/releases/download/v0.8.3/scooter-v0.8.3-x86_64-pc-windows-msvc.zip",
-            "hash": "27ebdb63dda808bc79445b4d62e630c17029ec92178daaefd66f72a40a1b3f4e"
+            "url": "https://github.com/thomasschafer/scooter/releases/download/v0.8.4/scooter-v0.8.4-x86_64-pc-windows-msvc.zip",
+            "hash": "859a135c2b35733e1630f01b801bcc7f8ee7cace81a415919497b3a38d65d799"
         }
     },
     "bin": "scooter.exe",
