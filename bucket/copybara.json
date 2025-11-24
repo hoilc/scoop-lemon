@@ -1,10 +1,10 @@
 {
-    "version": "20251117",
+    "version": "20251124",
     "description": "A tool for transforming and moving code between repositories.",
     "homepage": "https://github.com/google/copybara",
     "license": "Apache-2.0",
-    "url": "https://github.com/google/copybara/releases/download/v20251117/copybara_deploy.jar#/copybara.jar",
-    "hash": "41b981ae492a2ed07fe594bda3e67828a6e8805bf995c7041a02d9b2e56e3eb8",
+    "url": "https://github.com/google/copybara/releases/download/v20251124/copybara_deploy.jar#/copybara.jar",
+    "hash": "e0c5a6cde2e9b83973fd8f0dd169b3012003b450ae58d30f4fc427093acf46b4",
     "bin": "copybara.jar",
     "suggest": {
         "JDK": [
