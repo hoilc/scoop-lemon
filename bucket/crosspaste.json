@@ -1,12 +1,12 @@
 {
-    "version": "1.2.2.1640",
+    "version": "1.2.3.1718",
     "description": "A universal pasteboard across devices.",
     "homepage": "https://crosspaste.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CrossPaste/crosspaste-desktop/releases/download/1.2.2.1640/crosspaste-1.2.2-1640-windows-amd64.zip",
-            "hash": "6fe6aebb28548232e3366e8af178f4034b347235dd6e098d41904f961ed01cba"
+            "url": "https://github.com/CrossPaste/crosspaste-desktop/releases/download/1.2.3.1718/crosspaste-1.2.3-1718-windows-amd64.zip",
+            "hash": "a48e263323e5369fe201c380228e1d3ca2d68fdc5321647805599b6e8642e89f"
         }
     },
     "shortcuts": [
