@@ -1,13 +1,13 @@
 {
-    "version": "25.1.1",
+    "version": "25.2.4",
     "description": "A tool which mechanically generates Java bindings from native library headers.",
     "homepage": "https://github.com/openjdk/jextract",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.java.net/java/early_access/jextract/25/1/openjdk-25-jextract+1-1_windows-x64_bin.tar.gz",
+            "url": "https://download.java.net/java/early_access/jextract/25/2/openjdk-25-jextract+2-4_windows-x64_bin.tar.gz",
             "extract_dir": "jextract-25",
-            "hash": "22a853168512d5909c4dfccb1b9e8b2bffb1187b0cf98458aef989d41de995ac"
+            "hash": "b03533eb6b249a154752b7c7bf93cdb8c147cf2f9699422e615e84b7fb652872"
         }
     },
     "bin": "bin\\jextract.bat",
