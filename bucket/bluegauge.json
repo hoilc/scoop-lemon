@@ -1,16 +1,16 @@
 {
-    "version": "0.3.4",
+    "version": "0.3.5",
     "description": "A lightweight tray tool for easily viewing the battery level of your Bluetooth devices - 轻松查看蓝牙设备电池电量的轻便托盘工具",
     "homepage": "https://github.com/iKineticate/BlueGauge",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iKineticate/BlueGauge/releases/download/0.3.4/BlueGauge-0.3.4-x86_64.zip",
-            "hash": "bc7a74c5576f97b0e9924b5aa88c9eebcfd6a19275a8d6ac7b0d6944b0475546"
+            "url": "https://github.com/iKineticate/BlueGauge/releases/download/0.3.5/BlueGauge-0.3.5-x86_64.zip",
+            "hash": "86f87ab6d7ec555d8008fb08d461edb9d03b6fdffac14dfb139db8fe1ead3937"
         },
         "arm64": {
-            "url": "https://github.com/iKineticate/BlueGauge/releases/download/0.3.4/BlueGauge-0.3.4-arm64.zip",
-            "hash": "fc43bbb86c60f12e5540f58ea9f47cbbb0b65b68c8be93a0b67e3b236dcd32e8"
+            "url": "https://github.com/iKineticate/BlueGauge/releases/download/0.3.5/BlueGauge-0.3.5-arm64.zip",
+            "hash": "15ab9e1064ac5a1294fea65e5e7677caaf5d1cadaef02869f421f4562b6373dc"
         }
     },
     "shortcuts": [
