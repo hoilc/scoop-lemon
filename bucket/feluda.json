@@ -1,16 +1,16 @@
 {
-    "version": "1.10.2",
+    "version": "1.10.3",
     "description": "Detect license usage restrictions in your project.",
     "homepage": "https://github.com/anistark/feluda",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.10.2/feluda-1.10.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "db30eace9a5809605a969a829b75da5d8d356833620ae87ede58c7d2ff0397d5"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.10.3/feluda-1.10.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "6f7fe8b1c31c0822674f63544c7db14bae28bc23b51b020c23f0b8d0ebc503c5"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.10.2/feluda-1.10.2-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "4d4b464082129714777b02cc1ff364790cac82948e3a8eb7b19bf9918325551d"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/feluda-1.10.3/feluda-1.10.3-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4df9301151571acf0c747c1bb8cbdd02fbc5447f415af4085ea080fd8cfa997a"
         }
     },
     "bin": "feluda.exe",
