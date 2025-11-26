@@ -1,10 +1,10 @@
 {
-    "version": "3.610",
+    "version": "3.620",
     "description": "A simple picture viewer and manipulator.",
     "homepage": "https://www.alternate-tools.com/pages/c_picview.php?lang=ENG",
     "license": "Freeware",
     "url": "https://www.alternate-tools.com/files/PicView_Portable.zip",
-    "hash": "73a5e0f965180f7db4d26c2dc83ebf48cbf859d2be5f55c64e161a72e1c166ad",
+    "hash": "7b58f9e6cf892a54fa1a6474faf953ea739a75953c1886db53f050b48748f75c",
     "extract_dir": "PicView",
     "shortcuts": [
         [
