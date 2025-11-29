@@ -1,11 +1,11 @@
 {
-    "version": "1.10.2",
+    "version": "1.11",
     "description": "A plugin that adds OTP support (two factor authentication) to KeePass.",
     "homepage": "https://github.com/Rookiestyle/KeePassOTP",
     "license": "GPL-3.0-only",
     "depends": "extras/keepass",
-    "url": "https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.10.2/KeePassOTP.plgx",
-    "hash": "caf76b4799b975c748cdeb82ba441f109d75d70e64781e6be4c114da5d739575",
+    "url": "https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.11/KeePassOTP.plgx",
+    "hash": "8ef272c8695d7cb215d94889d9640e9dbe16d7737dbdddd54f1310c50faf2f83",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Rookiestyle/KeePassOTP/releases/download/v$version/KeePassOTP.plgx"
