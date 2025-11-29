@@ -1,12 +1,12 @@
 {
-    "version": "20251125-0708-887a95a",
+    "version": "20251129-1452-cd605aa",
     "description": "A programming language and a proof assistant designed for formalizing math and type-directed programming.",
     "homepage": "https://github.com/aya-prover/aya-dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/aya-prover/aya-dev/releases/download/nightly-build/aya-prover_jlink_windows-x64.zip",
-            "hash": "e196f85212197d466d7c2f57ba0274e8c5800860d31083ed971480f88d40565c"
+            "hash": "0567f740c40201a6c2465ca79dfbf372988f24240ebaa73d36be2f9889854fcf"
         }
     },
     "bin": [
