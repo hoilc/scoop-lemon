@@ -1,12 +1,12 @@
 {
-    "version": "1.8.2",
+    "version": "1.8.3",
     "description": "A high-speed downloader developed by Golang+Flutter, which supports (HTTP, BitTorrent, Magnet) protocol.",
     "homepage": "https://github.com/monkeyWie/gopeed",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/monkeyWie/gopeed/releases/download/v1.8.2/Gopeed-v1.8.2-windows-amd64.zip",
-            "hash": "59d70bfa053caf8b9842a5c37b7db2e07647659d9cf6e6ab19068028503728e7"
+            "url": "https://github.com/monkeyWie/gopeed/releases/download/v1.8.3/Gopeed-v1.8.3-windows-amd64.zip",
+            "hash": "fcdc2a01e7ee90d19bd8554840708f1edf7e5cb53a4c41dcfe4d2e6420340f8b"
         }
     },
     "shortcuts": [
