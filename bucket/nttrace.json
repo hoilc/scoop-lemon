@@ -1,0 +1,46 @@
+{
+    "version": "1.1",
+    "description": "An strace-like program for the Windows 'native' API.",
+    "homepage": "https://github.com/rogerorr/NtTrace",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/rogerorr/NtTrace/releases/download/v1.1/NtTrace64.exe#/NtTrace.exe",
+                "https://github.com/rogerorr/NtTrace/releases/download/v1.1/NtTrace.cfg"
+            ],
+            "hash": [
+                "7c60fc1783d3eeaf3d6cfd85b8b479f4600b464e4c6b325ac9114dc6e2ab0830",
+                "55b742dfd998b82137bbfec47be85be0675ce7363cfa54dad84ff288488c7a57"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://github.com/rogerorr/NtTrace/releases/download/v1.1/NtTrace86.exe#/NtTrace.exe",
+                "https://github.com/rogerorr/NtTrace/releases/download/v1.1/NtTrace.cfg"
+            ],
+            "hash": [
+                "3eeb0a85ac98c7ee901ded5206481e46a81dd0b6f65a3ed91f4a6175b1c74508",
+                "55b742dfd998b82137bbfec47be85be0675ce7363cfa54dad84ff288488c7a57"
+            ]
+        }
+    },
+    "bin": "NtTrace.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/rogerorr/NtTrace/releases/download/v$version/NtTrace64.exe#/NtTrace.exe",
+                    "https://github.com/rogerorr/NtTrace/releases/download/v$version/NtTrace.cfg"
+                ]
+            },
+            "32bit": {
+                "url": [
+                    "https://github.com/rogerorr/NtTrace/releases/download/v$version/NtTrace86.exe#/NtTrace.exe",
+                    "https://github.com/rogerorr/NtTrace/releases/download/v$version/NtTrace.cfg"
+                ]
+            }
+        }
+    }
+}
