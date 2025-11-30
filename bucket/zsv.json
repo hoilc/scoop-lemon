@@ -1,12 +1,12 @@
 {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "A fast CSV parser, with an extensible CLI.",
     "homepage": "https://github.com/liquidaty/zsv",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/liquidaty/zsv/releases/download/v1.2.1/zsv-1.2.1-amd64-windows-mingw.zip",
-            "hash": "99f2fc18ffe5c2d184e438bf0501e7c140ca06d074be79a58b6fac7a9468ea18"
+            "url": "https://github.com/liquidaty/zsv/releases/download/v1.3.0/zsv-1.3.0-amd64-windows-mingw.zip",
+            "hash": "85163ce5c1b0735f9217e5f16803f1b63315858820ae5440d4b360ae7b9d44c9"
         }
     },
     "bin": "bin\\zsv.exe",
