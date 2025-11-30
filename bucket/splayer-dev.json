@@ -1,18 +1,20 @@
 {
-    "version": "b81",
+    "version": "b86",
     "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": "AGPL-3.0-only",
-    "url": "https://nightly.link/imsyy/SPlayer/actions/runs/19779058843/SPlayer-dev.zip",
-    "hash": "e95078666044cc6c3681bb41fde84d213b06264c6691178ccc7898342af9d529",
     "architecture": {
         "64bit": {
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/19799627276/SPlayer-Windows-setup-x64.zip",
+            "hash": "64e73962b1fa6ad7e5a70b441b62e2454a2a8ba270b0b821709d7a59135aba7a",
             "pre_install": [
                 "Get-ChildItem \"$dir\" 'SPlayer-*-x64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             ]
         },
         "arm64": {
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/19799627276/SPlayer-Windows-setup-arm64.zip",
+            "hash": "ee0eb846b741cd78f58ecd667a1d9071837d9b0445a35438fe1697b529086e57",
             "pre_install": [
                 "Get-ChildItem \"$dir\" 'SPlayer-*-arm64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
@@ -34,6 +36,13 @@
         "replace": "b${build}"
     },
     "autoupdate": {
-        "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-dev.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-Windows-setup-x64.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/imsyy/SPlayer/actions/runs/$matchRun/SPlayer-Windows-setup-arm64.zip"
+            }
+        }
     }
 }
