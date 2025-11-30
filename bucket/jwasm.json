@@ -1,10 +1,10 @@
 {
-    "version": "2.19",
+    "version": "2.20",
     "description": "A masm compatible assembler.",
     "homepage": "https://github.com/Baron-von-Riedesel/JWasm",
     "license": "Freeware",
-    "url": "https://github.com/Baron-von-Riedesel/JWasm/releases/download/v2.19/JWasm_v219_win32.zip",
-    "hash": "1f70dbc15276f59f8e65be7c1677b2aa5bea703d0017b9734c5fd7551d6e2ff4",
+    "url": "https://github.com/Baron-von-Riedesel/JWasm/releases/download/v2.20/JWasm_v220_win32.zip",
+    "hash": "d04a2a4d7075cabf12e1aef820b27dcf50d878a9581b1ee456b0c7de8216cbe2",
     "bin": "JWasm.exe",
     "checkver": "github",
     "autoupdate": {
