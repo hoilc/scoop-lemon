@@ -9,10 +9,9 @@
             "hash": "f793f6aecce3504cf0bc7b8434cb5432f10d8134fcc862f8f20126048da28154"
         }
     },
-    "extract_dir": "win-x64",
     "bin": "BililiveRecorder.Cli.exe",
     "checkver": {
-        "github": "https://github.com/Bililive/BililiveRecorder"
+        "github": "https://github.com/BililiveRecorder/BililiveRecorder"
     },
     "autoupdate": {
         "architecture": {
