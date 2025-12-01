@@ -1,16 +1,16 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Encrypted, queryable backups for engineers based on an immutable data store and portable archives.",
     "homepage": "https://plakar.io/",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PlakarKorp/plakar/releases/download/v1.0.5/plakar_1.0.5_windows_amd64.tar.gz",
-            "hash": "f89e16a1ac461dc833a7d43c53f81af0ce1a53a3704551f8d510926ce6c720e2"
+            "url": "https://github.com/PlakarKorp/plakar/releases/download/v1.0.6/plakar_1.0.6_windows_amd64.tar.gz",
+            "hash": "bbca145a400268884410f74070b62777765137a0d3b168b52ee6b33f611b2cef"
         },
         "arm64": {
-            "url": "https://github.com/PlakarKorp/plakar/releases/download/v1.0.5/plakar_1.0.5_windows_arm64.tar.gz",
-            "hash": "d0185de8f8e6638e23beb906945cdeea3d0fe9e257062eec6f1f59ee405d1c93"
+            "url": "https://github.com/PlakarKorp/plakar/releases/download/v1.0.6/plakar_1.0.6_windows_arm64.tar.gz",
+            "hash": "73fa1905d88aa5ca4ddad969f6565369a08f69d93a33d36a50986e4cc3ac5478"
         }
     },
     "bin": "plakar.exe",
