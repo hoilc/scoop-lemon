@@ -1,23 +1,23 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A text editor in ≤1024 lines of code, written in Rust.",
     "homepage": "https://github.com/ilai-deutel/kibi",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.1/kibi-v0.3.1-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "kibi-v0.3.1-x86_64-pc-windows-msvc",
-            "hash": "00e778e0804e406bab8af5e68637e50d54f1f16c2fd20e71ef84c27273f2757f"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.2-x86_64-pc-windows-msvc",
+            "hash": "a96bf5b2f6329733ab1dbee2933044a92163b7835d0bd1f5d8ed80ef0b62e5c7"
         },
         "32bit": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.1/kibi-v0.3.1-i686-pc-windows-msvc.zip",
-            "extract_dir": "kibi-v0.3.1-i686-pc-windows-msvc",
-            "hash": "3538076d476742d02d40cfeddff9ee811c5fdbd7d3396ab147ff76f0c2ad5a6b"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-i686-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.2-i686-pc-windows-msvc",
+            "hash": "bc90b9af8da41536d8d6663edd63e7dfa0b89a884a01d62c396df5e6de4a7c45"
         },
         "arm64": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.1/kibi-v0.3.1-aarch64-pc-windows-msvc.tar.gz",
-            "extract_dir": "kibi-v0.3.1-aarch64-pc-windows-msvc",
-            "hash": "1e387731bb7e81e457b200524c24b7d3b4fdf9116f486ce0d82fc17a34d27504"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.2-aarch64-pc-windows-msvc",
+            "hash": "7fda26165d6d6d25770aff404ddb0b770e02d6fb5d034ebf272ecfdc150003b4"
         }
     },
     "bin": "kibi.exe",
@@ -33,7 +33,7 @@
                 "extract_dir": "kibi-v$version-i686-pc-windows-msvc"
             },
             "arm64": {
-                "url": "https://github.com/ilai-deutel/kibi/releases/download/v$version/kibi-v$version-aarch64-pc-windows-msvc.tar.gz",
+                "url": "https://github.com/ilai-deutel/kibi/releases/download/v$version/kibi-v$version-aarch64-pc-windows-msvc.zip",
                 "extract_dir": "kibi-v$version-aarch64-pc-windows-msvc"
             }
         }
