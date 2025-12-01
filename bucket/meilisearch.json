@@ -1,12 +1,12 @@
 {
-    "version": "1.27.0",
+    "version": "1.28.0",
     "description": "A powerful, fast, open-source, easy to use and deploy search engine.",
     "homepage": "https://www.meilisearch.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.27.0/meilisearch-windows-amd64.exe#/meilisearch.exe",
-            "hash": "7e6e986d0991b3757a3a848635f44f06dec1cb208c99b2a87e25f5653ad95f3d"
+            "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.28.0/meilisearch-windows-amd64.exe#/meilisearch.exe",
+            "hash": "cac695d79005bcc25db154268d9c3438fa464c6e15c8ce30543f75a77e047bdc"
         }
     },
     "bin": "meilisearch.exe",
