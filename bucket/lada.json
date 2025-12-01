@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "0.9.0",
     "description": "A tool designed to recover pixelated adult videos (JAV).",
     "homepage": "https://codeberg.org/ladaapp/lada",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://dl.lada.glowp.xyz/lada-v0.8.2.7z",
-            "hash": "d6809b65846bc70d2c1605a56b9086d7a667f61fd1048f8893b2f4ec5aa67d49"
+            "url": "https://dl.lada.glowp.xyz/lada-v0.9.0.7z",
+            "hash": "667916a8ad4badf3ca58f09f775a426394238c11667540d5c26b9a0b23d9e539"
         }
     },
     "extract_dir": "lada",
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url":"https://dl.lada.glowp.xyz/lada-v$version.7z"
+                "url": "https://dl.lada.glowp.xyz/lada-v$version.7z"
             }
         }
     }
