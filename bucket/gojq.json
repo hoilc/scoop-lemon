@@ -1,18 +1,18 @@
 {
-    "version": "0.12.17",
+    "version": "0.12.18",
     "description": "Pure Go implementation of jq.",
     "homepage": "https://github.com/itchyny/gojq",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_windows_amd64.zip",
-            "extract_dir": "gojq_v0.12.17_windows_amd64",
-            "hash": "0ae274def1f1cc822a71d92dd85d8b13679eea0ebd022321d72d766d0c298fa5"
+            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.18/gojq_v0.12.18_windows_amd64.zip",
+            "extract_dir": "gojq_v0.12.18_windows_amd64",
+            "hash": "ecf343e99fb0190fede177becd6e8602386c801c0a98c7e10905a8d832f612d8"
         },
         "arm64": {
-            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_windows_arm64.zip",
-            "extract_dir": "gojq_v0.12.17_windows_arm64",
-            "hash": "a97f0771fda5a63131b0cd328e3fd76e70a5d62f3466c12f8d46775e651017bf"
+            "url": "https://github.com/itchyny/gojq/releases/download/v0.12.18/gojq_v0.12.18_windows_arm64.zip",
+            "extract_dir": "gojq_v0.12.18_windows_arm64",
+            "hash": "e2fbc42d7ce77fa850384fc7d7ef48fc7b061c48c97f34814fbd0cb400978a2d"
         }
     },
     "bin": "gojq.exe",
