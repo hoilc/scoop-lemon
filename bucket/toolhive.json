@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/stacklok/toolhive/releases/download/v0.6.10/toolhive_0.6.10_windows_amd64.zip",
-            "hash": "16b446ea58a75d87582319b59eb135c68311de4f3c0577af57b1546f8282fdf6"
+            "hash": "3ddc47e3b20f25462cb39309a71f15d6578a64a210d717f275d7b5090d201670"
         },
         "arm64": {
             "url": "https://github.com/stacklok/toolhive/releases/download/v0.6.10/toolhive_0.6.10_windows_arm64.zip",
-            "hash": "304759465ba654c9880c220fdece4dec565017087f2d7ed3bdc9a8e8746cf67f"
+            "hash": "d1873db3a9714779a9c911fb6ea7b96ac52fb494fbbfc6c2f42f32947b2198ee"
         }
     },
     "bin": "thv.exe",
