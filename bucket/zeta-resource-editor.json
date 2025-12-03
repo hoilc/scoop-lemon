@@ -1,10 +1,10 @@
 {
-    "version": "2.3.98.0",
+    "version": "2.3.99.0",
     "description": "A free application that enables you to edit standard Microsoft .NET string resources from multiple different resource files together inside one single data grid.",
     "homepage": "https://www.zeta-resource-editor.com/",
     "license": "MIT",
     "url": "https://zeta.li/zre-download-setup#/dl.7z",
-    "hash": "5f8e019143629867b5acf5a7672caf1cd279dcb31f2aca3cb801addb2f5a71dd",
+    "hash": "afb010bd9df9b60aabd3314f2f35d0b5381b1b739625e1cddb1321e282964579",
     "shortcuts": [
         [
             "ZetaResourceEditor.exe",
