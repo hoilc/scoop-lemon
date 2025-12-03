@@ -13,8 +13,8 @@
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/UweKeim/ZetaResourceEditor/master/Source/Main/Properties/AssemblyInfo.cs",
-        "regex": "AssemblyVersion\\(\"([\\d.]+)\"\\)"
+        "url": "https://www.zeta-resource-editor.com/pad/zre_enu_pad_file.xml",
+        "regex": "<Program_Version>([\\d.]+)</Program_Version>"
     },
     "autoupdate": {
         "url": "https://zeta.li/zre-download-setup#/dl.7z"
