@@ -1,12 +1,12 @@
 {
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "A nginx log explorer that tells you about it in pretty tables in your console, storing and polluting nothing.",
     "homepage": "https://dystroy.org/rhit/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dystroy.org/rhit/download/rhit_2.0.3.zip",
-            "hash": "52141b07998afba3481b75f519499893433f87523c4f6e4178992cb08e6f5c18"
+            "url": "https://dystroy.org/rhit/download/rhit_2.0.4.zip",
+            "hash": "e8cbf53fbfcf088cfe720055ae79fd78f5dfffa7b878ae7de5907f463c2c9081"
         }
     },
     "extract_dir": "build\\x86_64-pc-windows-gnu",
