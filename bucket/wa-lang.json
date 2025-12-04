@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Wa is a general-purpose programming language designed for developing robustness and maintainability WebAssembly software.",
     "homepage": "https://wa-lang.org/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wa-lang/wa/releases/download/v1.4.0/wa_v1.4.0_windows-amd64.zip",
-            "hash": "c218b7c7aa47d3b6c5f94e9dfd2da4a52342ecf0b90044256a668c3f8d33838e"
+            "url": "https://github.com/wa-lang/wa/releases/download/v1.5.0/wa_v1.5.0_windows-amd64.zip",
+            "hash": "74ff7df450e5e79c65eea7e5b78de7a8ee5857d9c2c4f3bed6e2f0bd183c68c7"
         }
     },
     "extract_dir": "wa\\bin",
