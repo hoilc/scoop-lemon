@@ -1,12 +1,12 @@
 {
-    "version": "9.3.2",
+    "version": "9.3.3",
     "description": "A lightweight, distributed relational database built on SQLite.",
     "homepage": "https://rqlite.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rqlite/rqlite/releases/download/v9.3.2/rqlite-v9.3.2-win64.zip",
-            "hash": "619601685ffd7a9b75c53ddaeff6925c859c4356a12d3dd9bee7db270b4063bf"
+            "url": "https://github.com/rqlite/rqlite/releases/download/v9.3.3/rqlite-v9.3.3-win64.zip",
+            "hash": "bfaefbd673ed366b820a63adfd83205fce88009c6ebb1eb465a834cce1e67749"
         }
     },
     "bin": [
