@@ -1,18 +1,18 @@
 {
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "Flutter Version Management: A simple CLI to manage Flutter SDK versions.",
     "homepage": "https://fvm.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leoafarias/fvm/releases/download/4.0.1/fvm-4.0.1-windows-x64.zip",
+            "url": "https://github.com/leoafarias/fvm/releases/download/4.0.2/fvm-4.0.2-windows-x64.zip",
             "bin": "fvm.exe",
-            "hash": "19ca5f3234d57861797d76ad35547ab6545395fb63209c4a485b9b92ab79f100"
+            "hash": "325c735b43ecb2efe3eb3bc6e38e8cfb284404dedf9eae060613cb744cb1d016"
         },
         "arm64": {
-            "url": "https://github.com/leoafarias/fvm/releases/download/4.0.1/fvm-4.0.1-windows-arm64.zip",
+            "url": "https://github.com/leoafarias/fvm/releases/download/4.0.2/fvm-4.0.2-windows-arm64.zip",
             "bin": "fvm.bat",
-            "hash": "3a849c35b2c40e1f6d17c000398dae8f4b949b0c16948bc188f8938f85974384"
+            "hash": "d534da652ea6c08b89b8cb56470586615a3ff5db26f316ef2ea6af06707110cf"
         }
     },
     "extract_dir": "fvm",
