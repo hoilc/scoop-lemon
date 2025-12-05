@@ -1,13 +1,13 @@
 {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "description": "A boot editor for (U)EFI based systems.",
     "homepage": "https://github.com/Neverous/efibooteditor",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Neverous/efibooteditor/releases/download/v1.5.4/EFIBootEditor-v1.5.4-windows-2022-qt-6.8.3-MSVC.zip",
-            "extract_dir": "EFIBootEditor-v1.5.4-windows-2022-qt-6.8.3",
-            "hash": "220046ac4f3a5b407f61db53fbc104bb836948fe42d49a4cf695a0609e9de833"
+            "url": "https://github.com/Neverous/efibooteditor/releases/download/v1.5.5/EFIBootEditor-v1.5.5-windows-2022-qt-6.8.3-MSVC.zip",
+            "extract_dir": "EFIBootEditor-v1.5.5-windows-2022-qt-6.8.3",
+            "hash": "48c5840322fe04e88872938b1226fbffdc5fca80e9146f0a267a0b868f9da159"
         }
     },
     "shortcuts": [
