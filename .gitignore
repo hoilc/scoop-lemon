@@ -6,3 +6,4 @@ page.html
 *.iml
 .env
 .vercel
+.kilocode
