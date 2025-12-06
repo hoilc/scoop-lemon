@@ -1,12 +1,12 @@
 {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "Vivict++ is an easy to use tool for subjective comparison of the visual quality of different encodings of the same video source.",
     "homepage": "https://github.com/vivictorg/vivictpp",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vivictorg/vivictpp/releases/download/v1.3.1/vivictpp-v1.3.1.msi",
-            "hash": "20de9287a5c4776f5f65f7904b7ea33ee2bab49df690444a1814a51b468a4d92"
+            "url": "https://github.com/vivictorg/vivictpp/releases/download/v1.3.2/vivictpp-v1.3.2.msi",
+            "hash": "8c477ebc6a6626c3e1deaf47ea3a6d21e9523cd0f70e631ec972e72b4c0cd0a1"
         }
     },
     "extract_dir": "VivictPP",
