@@ -1,0 +1,26 @@
+{
+    "version": "0.6.1",
+    "description": "Versatile command-line toolkit for downloading audio, video, podcasts, pdf and more.",
+    "homepage": "https://vget.io",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/guiyumin/vget/releases/download/v0.6.1/vget_0.6.1_windows_amd64.zip",
+            "hash": "adee223f92ee308e1107f2a75fd5858df161a97e95fd81a29896803bd9ac9e61"
+        }
+    },
+    "bin": "vget.exe",
+    "checkver": {
+        "github": "https://github.com/guiyumin/vget"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/guiyumin/vget/releases/download/v$version/vget_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
