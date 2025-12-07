@@ -1,16 +1,16 @@
 {
-    "version": "4.58",
+    "version": "4.61",
     "description": "A small program and an effective solution to read and show your Windows Experience Index or to start a new calculation of the performance index.",
     "homepage": "http://www.softwareok.eu/?seite=Microsoft/ExperienceIndexOK",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.eu/Download/ExperienceIndexOK_x64_Portable.zip",
-            "hash": "36cf19a8f97e8f847002433f7db2fb55d8ae535124051b908afa223ccaf5d2bb"
+            "hash": "c643b108ba78da186ff710ea0d870f1aae9895b77e8a9516da82df3fcc4db8fe"
         },
         "32bit": {
             "url": "http://www.softwareok.eu/Download/ExperienceIndexOK_Portable.zip",
-            "hash": "94d4d41b63f1985ddb43821fccf7c5b75cbd754840f32610da4e1a24d3e246bc"
+            "hash": "f2548343ac3bb280b662a38aa8edcc8dd1b70b249a000de466e70ae568e7ca3a"
         }
     },
     "shortcuts": [
