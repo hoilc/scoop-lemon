@@ -1,18 +1,18 @@
 {
-    "version": "1.2.0.1",
+    "version": "1.2.0.2",
     "description": "全新桌面课表",
     "homepage": "https://classwidgets.rinlit.cn",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.1/ClassWidgets-Windows-x64.zip",
+            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.2/ClassWidgets-Windows-x64.zip",
             "extract_dir": "extracted\\ClassWidgets-Windows-x64",
-            "hash": "0a78097c1f235fc8929642874f8d79e2957ea2e0dd5c1cae10f12db255cad7bc"
+            "hash": "33ca162c2125214d5aea4b097e1ec47b42afe801cd6bdd17c416d4122ec282aa"
         },
         "32bit": {
-            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.1/ClassWidgets-Windows-x86.zip",
+            "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.2/ClassWidgets-Windows-x86.zip",
             "extract_dir": "extracted\\ClassWidgets-Windows-x86",
-            "hash": "21eb015d193105e026b9a095f08798418889ce72d42fb2fb12b8f4721b12964c"
+            "hash": "98ed1ef54555d924abaacdb0ca25f1f60fdd1c289012fcd81d516c18b424b253"
         }
     },
     "shortcuts": [
