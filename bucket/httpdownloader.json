@@ -1,16 +1,16 @@
 {
-    "version": "1.0.6.9_b1",
+    "version": "1.0.6.9_b2",
     "description": "HTTP Downloader is a high-performance, multi-part download manager, which maximizes your download throughput by utilizing high performance input/output completion ports (IOCP).",
     "homepage": "https://erickutcher.github.io/#HTTP_Downloader",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.9_b1/HTTP_Downloader_64.zip",
-            "hash": "a2dec40c0c532a2eeb04b3dd093456cb9761383d91e92bcc2800379bd45a8438"
+            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.9_b2/HTTP_Downloader_64.zip",
+            "hash": "f2f6a2532eed5cd6198d4252d837fb69fa578fc05dd075f0be165cf72667061f"
         },
         "32bit": {
-            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.9_b1/HTTP_Downloader_32.zip",
-            "hash": "fad6a190b8d503cb9d51f2d76ba58903ae2b0fdacc7ce783c79637e42b9f58d2"
+            "url": "https://github.com/erickutcher/httpdownloader/releases/download/v1.0.6.9_b2/HTTP_Downloader_32.zip",
+            "hash": "698e556e85168d64fbe628891ef224208045b7704a1005ee1dde0ad4a60d36c4"
         }
     },
     "shortcuts": [
