@@ -1,16 +1,16 @@
 {
-    "version": "0.18.4",
+    "version": "0.18.5",
     "description": "A collection of commands to fill in the gaps between Terraform, Helm, and Kubectl.",
     "homepage": "https://github.com/gruntwork-io/kubergrunt",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v0.18.4/kubergrunt_windows_amd64.exe#/kubergrunt.exe",
-            "hash": "ac07abf803ad84d0fdd8b5ff7f59cfad3458592a8f71058212e4ce09cbd7fd43"
+            "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v0.18.5/kubergrunt_windows_amd64.exe#/kubergrunt.exe",
+            "hash": "3c78722942bbca4f1579f2f8d81e10b384fa5a67c7679b9afa1d815f0e98313e"
         },
         "32bit": {
-            "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v0.18.4/kubergrunt_windows_386.exe#/kubergrunt.exe",
-            "hash": "5aa1c0234ee269a6ea8c09611ecadbee23faabf697c5ea7cc7736064ca8cf728"
+            "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v0.18.5/kubergrunt_windows_386.exe#/kubergrunt.exe",
+            "hash": "3856914678b539912f9449ca6f28d78ce09f8097b9c9765578ba8b3c7f3073c8"
         }
     },
     "bin": "kubergrunt.exe",
