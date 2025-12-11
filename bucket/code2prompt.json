@@ -1,12 +1,12 @@
 {
-    "version": "4.0.2",
+    "version": "4.2.0",
     "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
     "homepage": "https://github.com/mufeedvh/code2prompt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mufeedvh/code2prompt/releases/download/v4.0.2/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe",
-            "hash": "4db4bd0c2845376f785868cf3ee2b4e526d37e36d07169469fd57acce9100d8b"
+            "url": "https://github.com/mufeedvh/code2prompt/releases/download/v4.2.0/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe",
+            "hash": "e3285c8b7319659c9e6fda4b63a1cb5d83e07b1688df83ed224fdb801d9da7d1"
         }
     },
     "bin": "code2prompt.exe",
