@@ -1,10 +1,10 @@
 {
-    "version": "2025.10.20",
+    "version": "2025.12.11",
     "description": "方舟像素字体 / Ark Pixel Font，开源的泛中日韩像素字体 (16像素比例模式)",
     "homepage": "https://ark-pixel-font.takwolf.com",
     "license": "OFL-1.1|MIT",
-    "url": "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.10.20/ark-pixel-font-16px-proportional-ttf-v2025.10.20.zip",
-    "hash": "907394da4558ef80b930ac0e5b5c75d2d085ccb57146208bde48c24d738ba77f",
+    "url": "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.12.11/ark-pixel-font-16px-proportional-ttf-v2025.12.11.zip",
+    "hash": "a4f543d03f6138a93dbb065c9435219ef42597da2c4549c40076e97b194c2e59",
     "checkver": {
         "github": "https://github.com/TakWolf/ark-pixel-font"
     },
