@@ -1,16 +1,16 @@
 {
-    "version": "6.2.1",
+    "version": "6.2.2",
     "description": "Scans your project to determine what components you use.",
     "homepage": "https://github.com/microsoft/component-detection",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/component-detection/releases/download/v6.2.1/component-detection-win-x64.exe#/component-detection.exe",
-            "hash": "a8116c01a43eec370ac055588c81f44edefb285600c3daecc3325024478bb909"
+            "url": "https://github.com/microsoft/component-detection/releases/download/v6.2.2/component-detection-win-x64.exe#/component-detection.exe",
+            "hash": "1d39f555ec45c3caa14362eef4ed97d2d8e28b211456767f63e55b746ca19a6c"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/component-detection/releases/download/v6.2.1/component-detection-win-arm64.exe#/component-detection.exe",
-            "hash": "ca4392c06477eea74d5c1ead6cb3309f557d4aa54409330791739fb0d0d05ac5"
+            "url": "https://github.com/microsoft/component-detection/releases/download/v6.2.2/component-detection-win-arm64.exe#/component-detection.exe",
+            "hash": "e2876d61c9cb7770f45e2843f0a61322eeead25150835129feb0fd2967583b71"
         }
     },
     "bin": "component-detection.exe",
