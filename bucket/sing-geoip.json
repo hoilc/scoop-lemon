@@ -1,15 +1,15 @@
 {
-    "version": "20251112",
+    "version": "20251212",
     "description": "GeoIP database for sing-box.",
     "homepage": "https://sing-box.sagernet.org/configuration/route/geoip/",
     "license": "GPL-3.0-or-later",
     "url": [
-        "https://github.com/SagerNet/sing-geoip/releases/download/20251112/geoip.db",
-        "https://github.com/SagerNet/sing-geoip/releases/download/20251112/geoip-cn.db"
+        "https://github.com/SagerNet/sing-geoip/releases/download/20251212/geoip.db",
+        "https://github.com/SagerNet/sing-geoip/releases/download/20251212/geoip-cn.db"
     ],
     "hash": [
-        "387bc49c435b9f724f9beff2ab001e746187da27b22da660ab1ec5d9b475cded",
-        "cd044c13ffff4cc19ab0834550dfe9198ac3dc3d1d3090d64ec57ce2461c21c2"
+        "0fe1f80b350185fb52b575975974443ae38d652a1a745aab9884e4ee50763a7e",
+        "ad9731cbc19e8de4bfacc5fc6c25634505bd0cacd930f34770682bd5d9d06bfc"
     ],
     "notes": "GeoIP is deprecated in sing-box 1.8.0 and removed in sing-box 1.12.0",
     "suggest": {
