@@ -1,16 +1,16 @@
 {
-    "version": "0.7.1",
+    "version": "0.8.0",
     "description": "A tool for exporting Kubernetes resources as YAML or JSON files.",
     "homepage": "https://github.com/bakito/kubexporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bakito/kubexporter/releases/download/v0.7.1/kubexporter_0.7.1_windows_amd64.tar.gz",
-            "hash": "5825fc0bf8943f8fdcee58d422928d915a822509f4c9b0a4504f34b637dff5c9"
+            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.0/kubexporter_0.8.0_windows_amd64.tar.gz",
+            "hash": "a8db1dcdc0c9e35e243b6c599380050b6af1f9a916573acaf96a291da9c01f04"
         },
         "32bit": {
-            "url": "https://github.com/bakito/kubexporter/releases/download/v0.7.1/kubexporter_0.7.1_windows_386.tar.gz",
-            "hash": "e5ee68a0ee5bdb9b4a1116dff30fa43fbaf9e396cc19679fffcaf925860cf709"
+            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.0/kubexporter_0.8.0_windows_386.tar.gz",
+            "hash": "ecdde0db8629942c03a60c202611ad34e83c2aed5000c78ef807c2a051502444"
         }
     },
     "bin": [
