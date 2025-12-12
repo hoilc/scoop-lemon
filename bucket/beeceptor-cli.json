@@ -1,12 +1,12 @@
 {
-    "version": "8.0.5",
+    "version": "9.0.0",
     "description": "Beeceptor CLI is a developer tool to help connect the local port with Beeceptor servers directly from your terminal.",
     "homepage": "https://beeceptor.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.beeceptor.com/downloads/cli/8.0.5/beeceptor-cli-win-x64.exe.tar.gz",
-            "hash": "b29256031eb5d6b76c5c6e09c35620a0aacf523091c89a9498546f24381e790f"
+            "url": "https://cdn.beeceptor.com/downloads/cli/9.0.0/beeceptor-cli-win-x64.exe.tar.gz",
+            "hash": "b1f67ff7080c603a60b9d64c9309c04c8af648f1a839f7627fbc326f1df58ad8"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'beeceptor-cli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'beeceptor-cli.exe'",
