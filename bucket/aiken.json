@@ -1,13 +1,13 @@
 {
-    "version": "1.1.19",
+    "version": "1.1.21",
     "description": "A modern smart contract platform for Cardano.",
     "homepage": "https://aiken-lang.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aiken-lang/aiken/releases/download/v1.1.19/aiken-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/aiken-lang/aiken/releases/download/v1.1.21/aiken-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "aiken-x86_64-pc-windows-msvc",
-            "hash": "eda4d297d3c46c4d804b13924e770e130ce94351ca5fbf06f1f4e191a001efde"
+            "hash": "72cc538d3d2ca769de9dd860c67b2ca24434eed154dd0459a9791a44ec07820d"
         }
     },
     "bin": "aiken.exe",
