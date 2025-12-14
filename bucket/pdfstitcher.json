@@ -1,0 +1,28 @@
+{
+    "version": "1.2",
+    "description": "The open source PDF stitching software for sewists, by sewists.",
+    "homepage": "https://www.pdfstitcher.org/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cfcurtis/pdfstitcher/releases/download/v1.2/pdfstitcher.exe",
+            "hash": "cad756c58d9fe959a5f2726fde5aaa3d8bfd8a177e6026660d99ef9d0f3881ad"
+        }
+    },
+    "shortcuts": [
+        [
+            "pdfstitcher.exe",
+            "PDF Stitcher"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/cfcurtis/pdfstitcher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cfcurtis/pdfstitcher/releases/download/v$version/pdfstitcher.exe"
+            }
+        }
+    }
+}
