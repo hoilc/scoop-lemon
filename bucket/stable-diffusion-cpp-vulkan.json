@@ -9,7 +9,10 @@
             "hash": "461a26aa47625bccdd81b6c662ab7340ed1430eeeec5102e741d321826f97fce"
         }
     },
-    "bin": "sd.exe",
+    "bin": [
+        "sd-cli.exe",
+        "sd-server.exe"
+    ],
     "checkver": {
         "url": "https://github.com/leejet/stable-diffusion.cpp/releases.atom",
         "regex": "Repository/\\d+/master-(?<build>\\d+)-(?<commit>[0-9a-f]{7})<",
