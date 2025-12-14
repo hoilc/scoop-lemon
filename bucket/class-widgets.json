@@ -6,12 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.2/ClassWidgets-Windows-x64.zip",
-            "extract_dir": "extracted\\ClassWidgets-Windows-x64",
             "hash": "33ca162c2125214d5aea4b097e1ec47b42afe801cd6bdd17c416d4122ec282aa"
         },
         "32bit": {
             "url": "https://github.com/Class-Widgets/Class-Widgets/releases/download/v1.2.0.2/ClassWidgets-Windows-x86.zip",
-            "extract_dir": "extracted\\ClassWidgets-Windows-x86",
             "hash": "98ed1ef54555d924abaacdb0ca25f1f60fdd1c289012fcd81d516c18b424b253"
         }
     },
