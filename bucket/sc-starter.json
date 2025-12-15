@@ -1,12 +1,12 @@
 {
-    "version": "2.8.3",
+    "version": "2.8.4",
     "description": "A starter for ScreenCapture, a feature-rich screenshot program.",
     "homepage": "https://github.com/Mikachu2333/sc_starter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mikachu2333/sc_starter/releases/download/2.8.3/SC_Starter.exe",
-            "hash": "848b3973f4b5b82a60ede663591a4550d9958aa042cdcd2d0fdfb4ab307785bf"
+            "url": "https://github.com/Mikachu2333/sc_starter/releases/download/2.8.4/SC_Starter.exe",
+            "hash": "2ac61e35cdbefb1777b7fc94564840e2ef88db65d724aea1643c9648d8f56250"
         }
     },
     "shortcuts": [
