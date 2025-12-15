@@ -1,7 +1,7 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.1-L1",
     "description": "A program that lets you capture the color of any pixel displayed on the screen.",
-    "homepage": "https://www.pazera-software.com/products/free-color-picker/",
+    "homepage": "https://www.fosshub.com/Free-Color-Picker-Pazera.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -23,7 +23,7 @@
         ]
     ],
     "checkver": {
-        "regex": "Version:</div>([\\d.]+)"
+        "regex": "<dd itemprop=\"softwareVersion\">([^<>]+?)</dd>"
     },
     "autoupdate": {
         "architecture": {
