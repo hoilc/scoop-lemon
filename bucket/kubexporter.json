@@ -1,16 +1,20 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.3",
     "description": "A tool for exporting Kubernetes resources as YAML or JSON files.",
     "homepage": "https://github.com/bakito/kubexporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.0/kubexporter_0.8.0_windows_amd64.tar.gz",
-            "hash": "a8db1dcdc0c9e35e243b6c599380050b6af1f9a916573acaf96a291da9c01f04"
+            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.3/kubexporter_0.8.3_windows_amd64.zip",
+            "hash": "fa186228b619c7fc5518787a971c8bdb222726d12cf5ae2ee9f099bd353302ef"
         },
         "32bit": {
-            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.0/kubexporter_0.8.0_windows_386.tar.gz",
-            "hash": "ecdde0db8629942c03a60c202611ad34e83c2aed5000c78ef807c2a051502444"
+            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.3/kubexporter_0.8.3_windows_386.zip",
+            "hash": "7baf80fb4c2048a6c65000bbda7fd247ccace44dcf230a7bea3b6d02d95307c2"
+        },
+        "arm64": {
+            "url": "https://github.com/bakito/kubexporter/releases/download/v0.8.3/kubexporter_0.8.3_windows_arm64.zip",
+            "hash": "7ed9408e09f825ea13de7b444f5c5a2600d443773dfef8f79bb35063d4942eda"
         }
     },
     "bin": [
@@ -24,10 +28,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bakito/kubexporter/releases/download/v$version/kubexporter_$version_windows_amd64.tar.gz"
+                "url": "https://github.com/bakito/kubexporter/releases/download/v$version/kubexporter_$version_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/bakito/kubexporter/releases/download/v$version/kubexporter_$version_windows_386.tar.gz"
+                "url": "https://github.com/bakito/kubexporter/releases/download/v$version/kubexporter_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/bakito/kubexporter/releases/download/v$version/kubexporter_$version_windows_arm64.zip"
             }
         },
         "hash": {
