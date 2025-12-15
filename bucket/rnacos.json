@@ -1,20 +1,20 @@
 {
-    "version": "0.7.9",
+    "version": "0.7.10",
     "description": "r-nacos is Nacos server re-implemented in Rust.",
     "homepage": "https://github.com/heqingpan/rnacos",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.9/rnacos-x86_64-pc-windows-msvc-v0.7.9.zip",
-            "hash": "0ffc84b09d7c9c6b7dfd8ac253ef1475a11d11bb08e5ea754cc92cd1b9a4e431"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.10/rnacos-x86_64-pc-windows-msvc-.zip",
+            "hash": "fed94e1a8f2fd16bcf1b3f18f6dc225ee68d91a62ab5fe70bedfa6d9021379d9"
         },
         "32bit": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.9/rnacos-i686-pc-windows-msvc-v0.7.9.zip",
-            "hash": "c033132585912dd753fe966e321cf03d7bd9c42a7d9c9622b737b8f87f606156"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.10/rnacos-i686-pc-windows-msvc-.zip",
+            "hash": "b0e71cf5fb6194ea30c2d9f2befff1a358df53a9fd4d58abac1c2f6ef19d8a6e"
         },
         "arm64": {
-            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.9/rnacos-aarch64-pc-windows-msvc-v0.7.9.zip",
-            "hash": "4092b3252fae14e62470f45870aef8bb2b0167fd250a7d2c41d7cfe5f05489e8"
+            "url": "https://github.com/nacos-group/r-nacos/releases/download/v0.7.10/rnacos-aarch64-pc-windows-msvc-.zip",
+            "hash": "08b23021398b2e208b0277f7bc09c0e52f354ce66283c156df87fc75d98f8096"
         }
     },
     "bin": "rnacos.exe",
@@ -23,13 +23,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-x86_64-pc-windows-msvc-v$version.zip"
+                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-x86_64-pc-windows-msvc-.zip"
             },
             "32bit": {
-                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-i686-pc-windows-msvc-v$version.zip"
+                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-i686-pc-windows-msvc-.zip"
             },
             "arm64": {
-                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-aarch64-pc-windows-msvc-v$version.zip"
+                "url": "https://github.com/nacos-group/r-nacos/releases/download/v$version/rnacos-aarch64-pc-windows-msvc-.zip"
             }
         }
     }
