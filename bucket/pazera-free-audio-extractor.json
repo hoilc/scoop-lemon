@@ -1,7 +1,7 @@
 {
     "version": "2.11-L3",
     "description": "Pazera Free Audio Extractor is a universal audio converter.",
-    "homepage": "https://www.pazera-software.com/products/audio-extractor/",
+    "homepage": "https://www.fosshub.com/Pazera-Free-Audio-Extractor.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -31,8 +31,7 @@
         "profiles"
     ],
     "checkver": {
-        "url": "https://www.fosshub.com/Pazera-Free-Audio-Extractor.html",
-        "regex": "<dd itemprop=\"softwareVersion\">([^<>]+)</dd>"
+        "regex": "<dd itemprop=\"softwareVersion\">([^<>]+?)</dd>"
     },
     "autoupdate": {
         "architecture": {
