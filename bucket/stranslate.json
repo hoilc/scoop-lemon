@@ -1,27 +1,28 @@
 {
-    "version": "1.5.5.802",
-    "description": "WPF 开发的一款即开即用、即用即走的翻译工具",
+    "version": "2.0.2",
+    "description": "A ready-to-go translation ocr tool developed with WPF / WPF 开发的一款即用即走的翻译、OCR工具",
     "homepage": "https://github.com/ZGGSONG/STranslate",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ZGGSONG/STranslate/releases/download/1.5.5.802/STranslate_1.5.5.802_win-x64.zip",
-            "hash": "bd96f45fd7ec02db60e83739a181bbac1123706b093f8c72897b804ab033e379"
+            "url": "https://github.com/STranslate/STranslate/releases/download/2.0.2/STranslate-win-Portable.zip",
+            "hash": "e5e2a8d39332ceb239f0aab630d111f397f59b8e4486db5509bc53ec0a403681"
         }
     },
+    "extract_dir": "current",
     "shortcuts": [
         [
             "STranslate.exe",
             "STranslate"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\Updater*\" -Force -Recurse",
-    "notes": "STranslate is NOT portable.",
+    "post_install": "Remove-Item \"$dir\\Update*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "persist": "PortableConfig",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ZGGSONG/STranslate/releases/download/$version/STranslate_$version_win-x64.zip"
+                "url": "https://github.com/STranslate/STranslate/releases/download/$version/STranslate-win-Portable.zip"
             }
         }
     }
