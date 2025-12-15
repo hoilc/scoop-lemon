@@ -4,7 +4,7 @@
     "homepage": "https://www.beavernotes.com/",
     "license": "MIT",
     "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver.Notes-Setup-4.2.0.exe#/dl.7z",
-    "hash": "sha512:95d0852d1c7ea8572eb7fc5fda39ea9d2fc8768b515c3a09b9d2b73d36dafc9e3daa702451fcc8630585d96d97726fd824a40eb172a5ecb2b5fe05992760e0c0",
+    "hash": "89bc8bf0825b0c5640536053c122349ca2aed10bdaf45d42c952a68ed294a9e8",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
@@ -26,10 +26,6 @@
         "github": "https://github.com/Beaver-Notes/Beaver-Notes"
     },
     "autoupdate": {
-        "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver.Notes-Setup-$version.exe#/dl.7z",
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s*$base64"
-        }
+        "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver.Notes-Setup-$version.exe#/dl.7z"
     }
 }
