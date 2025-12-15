@@ -1,10 +1,10 @@
 {
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "Battery percentage & cpu/memory/network load as plots in system tray.",
     "homepage": "https://github.com/strayge/tray-monitor",
     "license": "MIT",
-    "url": "https://github.com/strayge/tray-monitor/releases/download/v2.5.0/tray_monitor_2.5.0_binaries.zip",
-    "hash": "37e5f4abc9fce8dab954a4b2af1c9c319b16a9972d8fcdc357ff216782246e67",
+    "url": "https://github.com/strayge/tray-monitor/releases/download/v2.6.0/tray_monitor_binaries.zip",
+    "hash": "ff5f1a9884376e46c9d0230eb6e6823ef91553fb12d13a5d4be6f7f76bf48fad",
     "shortcuts": [
         [
             "BatteryIcon.exe",
@@ -19,8 +19,8 @@
             "TrayMonitor - DiskIcon"
         ],
         [
-            "MicIcon.exe",
-            "TrayMonitor - MicIcon"
+            "GpuIcon.exe",
+            "TrayMonitor - GpuIcon"
         ],
         [
             "NetIcon.exe",
@@ -35,6 +35,6 @@
     "persist": "settings.ini",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/strayge/tray-monitor/releases/download/v$version/tray_monitor_$version_binaries.zip"
+        "url": "https://github.com/strayge/tray-monitor/releases/download/v$version/tray_monitor_binaries.zip"
     }
 }
