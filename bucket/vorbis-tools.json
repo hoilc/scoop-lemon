@@ -1,16 +1,16 @@
 {
-    "version": "1.4.0",
-    "description": "Command-line tools for creating and playing Ogg Vorbis files.",
-    "homepage": "https://github.com/xiph/vorbis-tools",
+    "version": "2025.06.17",
+    "description": "(Unofficial Builds by Chocobo1) Command-line tools for creating and playing Ogg Vorbis files.",
+    "homepage": "https://gitlab.xiph.org/xiph/vorbis-tools",
     "license": "GPL-2.0-only",
+    "url": "https://github.com/Chocobo1/vorbis-tools_win32-build/releases/download/2025.06.17/vorbis-tools.7z",
+    "hash": "5e8ab826b3b7cbe95d23c8ec1613e4c656e26ea099bf7095d1f7fcdae2b5be5c",
     "architecture": {
         "64bit": {
-            "url": "https://pazera-software.com/files/builds/vorbis-tools-1.4.0_win64.zip",
-            "hash": "8aa48cd9121d60c6ef3929583b5ac695596ef8e0c4f442a8a060ce7d340aeab1"
+            "extract_dir": "x64"
         },
         "32bit": {
-            "url": "https://pazera-software.com/files/builds/vorbis-tools-1.4.0_win32.zip",
-            "hash": "5e4ebc4ab67f39baabbd8d54fb308db8053209269086e337cdf01f1fb5f65842"
+            "extract_dir": "win32"
         }
     },
     "bin": [
@@ -21,17 +21,10 @@
         "vcut.exe"
     ],
     "checkver": {
-        "url": "https://pazera-software.com/build/vorbis-tools/",
-        "regex": "vorbis-tools-([\\d.]+)_win64"
+        "url": "https://github.com/Chocobo1/vorbis-tools_win32-build/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://pazera-software.com/files/builds/vorbis-tools-$version_win64.zip"
-            },
-            "32bit": {
-                "url": "https://pazera-software.com/files/builds/vorbis-tools-$version_win32.zip"
-            }
-        }
+        "url": "https://github.com/Chocobo1/vorbis-tools_win32-build/releases/download/$version/vorbis-tools.7z"
     }
 }
