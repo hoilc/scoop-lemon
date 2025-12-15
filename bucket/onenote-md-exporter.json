@@ -1,12 +1,12 @@
 {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "OneNote Md Exporter is a console application running on Windows that exports your OneNote notebooks in different markdown formats.",
     "homepage": "https://github.com/alxnbl/onenote-md-exporter",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alxnbl/onenote-md-exporter/releases/download/v1.5.0/OneNoteMdExporter.v1.5.0.zip",
-            "hash": "ce2fd4adfcb35bd30fbce6394347f368c50215f231ef57e83b04a11795a57c25"
+            "url": "https://github.com/alxnbl/onenote-md-exporter/releases/download/v1.6.0/OneNoteMdExporter.v1.6.0.zip",
+            "hash": "a7d4aef91fd578c8bf8637aa15a8a184ef47b59402f3c2988d30cc5a3f0ff4a4"
         }
     },
     "bin": "OneNoteMdExporter.exe",
