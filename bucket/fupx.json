@@ -1,7 +1,7 @@
 {
     "version": "3.2",
     "description": "An advanced graphical interface for the UPX (Ultimate Packer for eXecutables).",
-    "homepage": "https://www.pazera-software.com/products/free-upx/",
+    "homepage": "https://www.fosshub.com/FUPX.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -23,7 +23,7 @@
         ]
     ],
     "checkver": {
-        "regex": "Version:</div>([\\d.]+)"
+        "regex": "<dd itemprop=\"softwareVersion\">([^<>]+?)</dd>"
     },
     "autoupdate": {
         "architecture": {
