@@ -1,12 +1,12 @@
 {
-    "version": "1.5.239",
+    "version": "1.5.243",
     "description": "Freescale/NXP I.MX Chip image deploy tools.",
     "homepage": "https://github.com/nxp-imx/mfgtools",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nxp-imx/mfgtools/releases/download/uuu_1.5.239/uuu.exe",
-            "hash": "7ff7309947a64cf98254796691bf3ab79fafa56dcc3359c7bba16b7438b9cb8e"
+            "url": "https://github.com/nxp-imx/mfgtools/releases/download/uuu_1.5.243/uuu.exe",
+            "hash": "f6b76a6246befabeadfebdc1cbfe58f35939596caf7b78717ceab599b0c85027"
         }
     },
     "bin": "uuu.exe",
