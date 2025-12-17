@@ -1,13 +1,13 @@
 {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "Format, and lint, markdown code snippets using your favorite tools.",
     "homepage": "https://mdsf.mhouge.dk/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hougesen/mdsf/releases/download/v0.11.0/mdsf-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/hougesen/mdsf/releases/download/v0.11.1/mdsf-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "mdsf-x86_64-pc-windows-msvc",
-            "hash": "a988d733060e403168794bf6e876343e3f784d29add9c1be06a4047022ad656f"
+            "hash": "85cdf7efce14a705979d1ecb57564933f54acb80f5eb5d97bbc5aa3b016f37b0"
         }
     },
     "bin": "mdsf.exe",
