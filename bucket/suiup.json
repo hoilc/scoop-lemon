@@ -1,0 +1,31 @@
+{
+    "version": "0.0.7",
+    "description": "The installer and manager for CLI tools in the Sui ecosystem.",
+    "homepage": "https://github.com/MystenLabs/suiup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MystenLabs/suiup/releases/download/v0.0.7/suiup-Windows-msvc-x86_64.zip",
+            "hash": "023eb86abf9114ee68012a042fc13469d8803db9adf304c1599ae16379e7a8ff"
+        },
+        "arm64": {
+            "url": "https://github.com/MystenLabs/suiup/releases/download/v0.0.7/suiup-Windows-msvc-arm64.zip",
+            "hash": "ac1e77497aa24ac84d1580d7f560f8d15c3ab6526bb5bed89295cbc82310efbe"
+        }
+    },
+    "bin": "suiup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MystenLabs/suiup/releases/download/v$version/suiup-Windows-msvc-x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/MystenLabs/suiup/releases/download/v$version/suiup-Windows-msvc-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
