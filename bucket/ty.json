@@ -1,20 +1,20 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "An extremely fast Python type checker and language server, written in Rust.",
     "homepage": "https://github.com/astral-sh/ty",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/astral-sh/ty/releases/download/0.0.2/ty-x86_64-pc-windows-msvc.zip",
-            "hash": "b1e1d39e0a37e97b376a6c62cf7569321427d488fa485ea866d11414bf17d33d"
+            "url": "https://github.com/astral-sh/ty/releases/download/0.0.3/ty-x86_64-pc-windows-msvc.zip",
+            "hash": "d69285589a5d343cb80620b35053b446033f96c45934dd0445df61ab13f79d10"
         },
         "32bit": {
-            "url": "https://github.com/astral-sh/ty/releases/download/0.0.2/ty-i686-pc-windows-msvc.zip",
-            "hash": "2222686a76f36d931b432a0657e47424e6600307a6e3826361c150791c191753"
+            "url": "https://github.com/astral-sh/ty/releases/download/0.0.3/ty-i686-pc-windows-msvc.zip",
+            "hash": "2f2f58dd6121b20aee64600698bf87bbee60341b88c6be61b677103a0259236b"
         },
         "arm64": {
-            "url": "https://github.com/astral-sh/ty/releases/download/0.0.2/ty-aarch64-pc-windows-msvc.zip",
-            "hash": "5ad379c123b569b78cd3b60a0e2ea106c176ab39eaeb9eb310f494b6a64c75b9"
+            "url": "https://github.com/astral-sh/ty/releases/download/0.0.3/ty-aarch64-pc-windows-msvc.zip",
+            "hash": "e42ca1d7c7a31a9ccfaa23b8694bfef2f9fc0fa3496f4478a8be9ef237260e6b"
         }
     },
     "bin": "ty.exe",
