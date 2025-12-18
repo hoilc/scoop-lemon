@@ -1,16 +1,16 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.5",
     "description": "极速精准、轻量纯粹的 Windows 应用程序启动器",
     "homepage": "https://github.com/ghost-him/ZeroLaunch-rs",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.6.4/ZeroLaunch-portable-0.6.4-x64.zip",
-            "hash": "80df71916d7b1e060095948f2d8764520e5f00c1a31b611cdc09a42918358342"
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.6.5/ZeroLaunch-portable-0.6.5-x64.zip",
+            "hash": "e71e7d67281b3b2f33746e7536777d061f2665bfce15cde384a062754265b9c0"
         },
         "arm64": {
-            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.6.4/ZeroLaunch-portable-0.6.4-arm64.zip",
-            "hash": "1c55fa289cef62fd3caf34653f97e05a1af42ad1228af490920a338561f1810f"
+            "url": "https://github.com/ghost-him/ZeroLaunch-rs/releases/download/v0.6.5/ZeroLaunch-portable-0.6.5-arm64.zip",
+            "hash": "452fb95a618f4a33cccadcef590d8243ba440cee543567253192704fd2d64296"
         }
     },
     "shortcuts": [
