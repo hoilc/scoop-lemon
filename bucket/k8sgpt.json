@@ -1,20 +1,20 @@
 {
-    "version": "0.4.26",
+    "version": "0.4.27",
     "description": "A tool for scanning your Kubernetes clusters, diagnosing, and triaging issues in simple English.",
     "homepage": "http://k8sgpt.ai/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.26/k8sgpt_Windows_x86_64.zip",
-            "hash": "ceba2245f24230c59a776ced4ba2fe8d86d07dcb26aab1737e49a3b81f6cf350"
+            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.27/k8sgpt_Windows_x86_64.zip",
+            "hash": "39ff5ac837738c417cfdf3dddca7e3d8995aba9b2a956966c12485bd50e40900"
         },
         "32bit": {
-            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.26/k8sgpt_Windows_i386.zip",
-            "hash": "59fa7c53dae7e3ba5c8cf9fb7068f89f3bb560e0e0baee3987f111945af90ac8"
+            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.27/k8sgpt_Windows_i386.zip",
+            "hash": "2745319c83566f4ab24862fe908cc148932e1dad4aea4a95d4f512e28a5c1d30"
         },
         "arm64": {
-            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.26/k8sgpt_Windows_arm64.zip",
-            "hash": "bf6ff07b7c9a5d50f56179cf26724d0636fadf7a664862b12b3b2c493dd22c51"
+            "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/download/v0.4.27/k8sgpt_Windows_arm64.zip",
+            "hash": "d90fce2fea88880aa336f88c8d9c6feca08da376aa65d79a8388d2e40d911ccb"
         }
     },
     "bin": "k8sgpt.exe",
