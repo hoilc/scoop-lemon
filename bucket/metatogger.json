@@ -1,5 +1,5 @@
 {
-    "version": "7.6.5.1",
+    "version": "7.7.0.0",
     "description": "A tags editor that allows you to easily rename, tag and classify your MP3, FLAC, Ogg Vorbis, Opus, WMA and M4A audio files.",
     "homepage": "https://www.luminescence-software.org/en/metatogger",
     "license": {
@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.luminescence-software.org/download/metatogger/Metatogger-Installer-7651.msi",
-            "hash": "5881e0389392e559b52fba434b550c834d3a8235edc0f68f129e089fd006951a"
+            "url": "https://www.luminescence-software.org/download/metatogger/Metatogger-Installer-7700.msi",
+            "hash": "86aaaa74028dbf708b9cb01ac164447630130f2c04abf4d9cae411eb0b0d63bf"
         }
     },
-    "extract_dir": "PFiles64\\Metatogger 7.6",
+    "extract_dir": "PFiles64\\Metatogger 7.7",
     "shortcuts": [
         [
             "Metatogger.exe",
