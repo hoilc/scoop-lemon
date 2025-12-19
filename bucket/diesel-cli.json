@@ -1,12 +1,12 @@
 {
-    "version": "2.3.4",
+    "version": "2.3.5",
     "description": "A safe, extensible ORM and Query Builder for Rust.",
     "homepage": "https://diesel.rs/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.4/diesel_cli-x86_64-pc-windows-msvc.zip",
-            "hash": "20beadbe7e030195f31d2a82249ef51149c17e06f485993059c57b65210e64bc"
+            "url": "https://github.com/diesel-rs/diesel/releases/download/v2.3.5/diesel_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "4c8160234c40033466af13aead49ff5afee2ffac667dd6a46a63917fe0671a96"
         }
     },
     "bin": "diesel.exe",
