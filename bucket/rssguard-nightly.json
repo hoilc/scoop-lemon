@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-f0187a1da-qt6-win10.7z",
-            "hash": "0654fdb202e1bebdd9a423b015a63b502d8bfd48c3ef4cfae3f5a46106f754c3"
+            "hash": "7b09a382094fe7388a633d592059c866b130e31e2069e824caf3fb97bc9977fc"
         }
     },
     "persist": [
