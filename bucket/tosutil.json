@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://tos-tools.tos-cn-beijing.volces.com/windows/tosutil#/tosutil.exe",
-            "hash": "a550cb916ab435258160bb97cb12a746da4d2dae391d4367c486a55593b0ad76"
+            "hash": "334204469dc1069c70bef2a37ca2b069b14d7b1bf5605ecc6d79390fa855799b"
         }
     },
     "bin": "tosutil.exe",
