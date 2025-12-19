@@ -1,12 +1,12 @@
 {
-    "version": "0.28.4",
+    "version": "0.29.0",
     "description": "A CLI tool to run sqllogictests.",
     "homepage": "https://github.com/risinglightdb/sqllogictest-rs",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/risinglightdb/sqllogictest-rs/releases/download/v0.28.4/sqllogictest-bin-v0.28.4-x86_64-pc-windows-msvc.zip",
-            "hash": "5fbe07c57fd3e6c1b30e0fa79ea539e23865ad49a25515c57d851b6476f7f374"
+            "url": "https://github.com/risinglightdb/sqllogictest-rs/releases/download/v0.29.0/sqllogictest-bin-v0.29.0-x86_64-pc-windows-msvc.zip",
+            "hash": "d70af13a328bc7d253940b095d9e6b085ef1f1336c14ff62b55ec8264b4cc8cc"
         }
     },
     "bin": "sqllogictest.exe",
