@@ -1,12 +1,12 @@
 {
-    "version": "2.20.2",
+    "version": "2.24.0",
     "description": "IPv6/IPv4端口转发工具，支持反向代理、动态域名、语音助手网络唤醒、IPv4 内网穿透、计划任务和自动证书等多项功能",
     "homepage": "https://lucky666.cn",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gdy666/lucky/releases/download/v2.20.2/lucky_2.20.2_Windows_x86_64.tar.gz",
-            "hash": "33535ab65e5d5aea88001dfdcabd3e5dcc692a9687202c930dfe0638c889cacf"
+            "url": "https://github.com/gdy666/lucky/releases/download/v2.24.0/lucky_2.24.0_Windows_x86_64.tar.gz",
+            "hash": "6e4f5597460819837d3c6aa7a13ecc8238c4ad53849d443b607b74e5a370cac4"
         }
     },
     "bin": "lucky.exe",
