@@ -1,16 +1,16 @@
 {
-    "version": "1.6.15",
+    "version": "1.6.16",
     "description": "Another Mihomo GUI.",
     "homepage": "https://github.com/xishang0128/sparkle",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xishang0128/sparkle/releases/download/1.6.15/sparkle-windows-1.6.15-x64-portable.7z",
-            "hash": "a41b03bd9008b72c376e29510f3342abc1751218f3311dde3d7fafc801bc0793"
+            "url": "https://github.com/xishang0128/sparkle/releases/download/1.6.16/sparkle-windows-1.6.16-x64-portable.7z",
+            "hash": "a09f57060b5e5ea155dffc89c6767ac2ed3ebf1c3fb2c881e02c94487dc88905"
         },
         "arm64": {
-            "url": "https://github.com/xishang0128/sparkle/releases/download/1.6.15/sparkle-windows-1.6.15-arm64-portable.7z",
-            "hash": "03bc43502c2980c79a3bcb66dbf6b15406b22374219b83ad0b412df091f1f785"
+            "url": "https://github.com/xishang0128/sparkle/releases/download/1.6.16/sparkle-windows-1.6.16-arm64-portable.7z",
+            "hash": "ece7be75002399de92b4719f0143ff43be81d540ba92ad7e05ffeafe0c1789fe"
         }
     },
     "shortcuts": [
