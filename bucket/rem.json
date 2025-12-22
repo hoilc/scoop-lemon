@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "A desktop application based on Rclone.",
     "homepage": "https://github.com/liriliri/rem",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/liriliri/rem/releases/download/v1.3.0/REM-1.3.0-win-x64.exe#/dl.7z",
-            "hash": "3d5a3f56a6b46ff149b1ac20c5b537b597eb57a1d86d220ff47b05621f0bfaa7",
+            "url": "https://github.com/liriliri/rem/releases/download/v1.4.0/REM-1.4.0-win-x64.exe#/dl.7z",
+            "hash": "6dd60c07a519a917eb4185afb920d52f9e9f92822441f0e3f0c2c23778ffa217",
             "pre_install": "Expand-7zipArchive -Removal \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
