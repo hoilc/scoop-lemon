@@ -1,16 +1,16 @@
 {
-    "version": "0.184.0",
+    "version": "0.185.0",
     "description": "Command line interface that helps you interact with Yandex Cloud services.",
     "homepage": "https://cloud.yandex.ru/docs/cli/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.184.0/windows/amd64/yc.exe",
-            "hash": "6c0277a798e76db9aa44ea719c98c22ac7f4fe9a43397e9731352bc7b489c227"
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.185.0/windows/amd64/yc.exe",
+            "hash": "1d5ab611b6510b5cff20d925481e34fb00ccc01bf933db8ac027438d52d95e65"
         },
         "32bit": {
-            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.184.0/windows/386/yc.exe",
-            "hash": "c024e141d8b0524d45dd1613c3832f416b0370b506227da2d9603a8e1273e577"
+            "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.185.0/windows/386/yc.exe",
+            "hash": "0f63f0ad99ccf5a10285710274c14826d56914dac1d943deac3d54acc28fe88a"
         }
     },
     "bin": [
