@@ -1,5 +1,5 @@
 {
-    "version": "1.3beta3",
+    "version": "1.3ga4",
     "description": "The graphical version of x3270, an IBM 3270 terminal emulator for the X Window System and Windows.",
     "homepage": "http://x3270.bgp.nu/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/x3270/files/wx3270/wx3270-1.3beta3-noinstall64.zip",
-            "hash": "sha1:035d14c0107543c4d97928e84f463f43c92de84f"
+            "url": "https://sourceforge.net/projects/x3270/files/wx3270/wx3270-1.3ga4-noinstall64.zip",
+            "hash": "sha1:2af5679a18dbbf1700f7b569d09984eba6d7c1f2"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/x3270/files/wx3270/wx3270-1.3beta3-noinstall32.zip",
-            "hash": "sha1:00ec8d6b8f03631caddb35e8bf77431d0cdf16d9"
+            "url": "https://sourceforge.net/projects/x3270/files/wx3270/wx3270-1.3ga4-noinstall32.zip",
+            "hash": "sha1:50a14175c28d247657c92101db7d30114c3102ec"
         }
     },
     "bin": [
