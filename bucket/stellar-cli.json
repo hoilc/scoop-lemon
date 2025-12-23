@@ -1,12 +1,12 @@
 {
-    "version": "23.3.0",
+    "version": "23.4.0",
     "description": "A command-line tool for interacting with the Stellar network.",
     "homepage": "https://github.com/stellar/stellar-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stellar/stellar-cli/releases/download/v23.3.0/stellar-cli-23.3.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "684c64c751a76d0b12c8e6274fdbf581d3bd8cf6cb0425a031619c847ebf0b54"
+            "url": "https://github.com/stellar/stellar-cli/releases/download/v23.4.0/stellar-cli-23.4.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "4bfcd51a09cceaac5e4e616bfde37b5126d4b06ec4fb2be9daebe4b3c403aa11"
         }
     },
     "bin": "stellar.exe",
