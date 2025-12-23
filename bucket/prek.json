@@ -1,12 +1,12 @@
 {
-    "version": "0.2.23",
+    "version": "0.2.24",
     "description": "Better `pre-commit`, re-engineered in Rust.",
     "homepage": "https://github.com/j178/prek",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/j178/prek/releases/download/v0.2.23/prek-x86_64-pc-windows-msvc.zip",
-            "hash": "f1f6aaa274876718c5219248151029049fa61577c8d5a74a5522f3bb6628168d"
+            "url": "https://github.com/j178/prek/releases/download/v0.2.24/prek-x86_64-pc-windows-msvc.zip",
+            "hash": "89b4dc97ca176fd02129879b9d98e1d0b72e892805a8e3f91dc693923306c931"
         }
     },
     "bin": "prek.exe",
