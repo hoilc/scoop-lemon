@@ -1,10 +1,10 @@
 {
-    "version": "2.8.3",
+    "version": "2.8.5",
     "description": "极速秒存的私人云盘，在电脑上轻松使用",
     "homepage": "https://mypikpak.com/",
     "license": "Proprietary",
     "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z",
-    "hash": "02b643278182c52ae020edeed9447aa64e5bf8ec1d80bce4589504bd20922adc",
+    "hash": "ff043bb2b3b53b474f819940c016fed433425133ccd61f670431e3d425bd8aba",
     "shortcuts": [
         [
             "PikPak.exe",
