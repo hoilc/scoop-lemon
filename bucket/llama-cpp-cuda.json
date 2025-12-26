@@ -1,16 +1,16 @@
 {
-    "version": "b7541",
+    "version": "b7545",
     "description": "(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b7541/llama-b7541-bin-win-cuda-12.4-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b7541/cudart-llama-bin-win-cuda-12.4-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b7545/llama-b7545-bin-win-cuda-12.4-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b7545/cudart-llama-bin-win-cuda-12.4-x64.zip"
             ],
             "hash": [
-                "d72446a3d8e822bca334c8b302a196c5760053435caff5124cf85f99469a58b4",
+                "25d87be06aef2a3e767836f2d5bb1eb3fb3f38f458aedeedfc5bc474d3d827d3",
                 "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
             ]
         }
