@@ -1,16 +1,16 @@
 {
-    "version": "4.0.0-alpha2",
+    "version": "4.0.0-alpha3",
     "description": "A full rewrite of websocat v1, a command-line client for WebSockets.",
     "homepage": "https://github.com/vi/websocat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vi/websocat/releases/download/v4.0.0-alpha2/websocat.x86_64-pc-windows-gnu.exe#/websocat.exe",
-            "hash": "6d834680573bb730c2c4bbc0c177f89024eb6f3876235a1b8ba39dec6776f513"
+            "url": "https://github.com/vi/websocat/releases/download/v4.0.0-alpha3/websocat.x86_64-pc-windows-gnu.exe#/websocat.exe",
+            "hash": "2ad155c902e644367b7736e48ea9ddb07376316d717657b412597512feec063b"
         },
         "32bit": {
-            "url": "https://github.com/vi/websocat/releases/download/v4.0.0-alpha2/websocat.i686-pc-windows-gnu.exe#/websocat.exe",
-            "hash": "a43eae828c1e883ccb6504429cc32a8592ba2c05e6a6239a22647a25b67b31b6"
+            "url": "https://github.com/vi/websocat/releases/download/v4.0.0-alpha3/websocat.i686-pc-windows-gnu.exe#/websocat.exe",
+            "hash": "bd91ae7b920659ea37b74e6e3fd56d43ac28eda4b83c1bf7bd7cbcb184dd6aab"
         }
     },
     "bin": "websocat.exe",
