@@ -1,13 +1,13 @@
 {
-    "version": "20240303",
+    "version": "20251227",
     "description": "JFDuke3D is 3D Realms' 1996 shooter Duke Nukem 3D updated for modern Windows, Mac, and Linux computers.",
     "homepage": "https://www.jonof.id.au/jfduke3d/index.html",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.jonof.id.au/files/jfduke3d/jfduke3d-20240303-win.zip",
-            "extract_dir": "jfduke3d-20240303-win",
-            "hash": "2b059b2ed05d74ec41e106cb65ef9163f0bf93b5aa9e508e7420d9e0868fb9c8"
+            "url": "https://www.jonof.id.au/files/jfduke3d/jfduke3d-20251227-win.zip",
+            "extract_dir": "jfduke3d-20251227-win",
+            "hash": "b293d7248cac0233806d283dc5b8f25d1e5d2c32032cc5b85804e8acddb59030"
         }
     },
     "bin": "duke3d.exe",
