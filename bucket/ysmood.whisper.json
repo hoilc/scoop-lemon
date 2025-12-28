@@ -1,20 +1,20 @@
 {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "A simple tool to encrypt, decrypt data with Public-key cryptography.",
     "homepage": "https://github.com/ysmood/whisper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.0/whisper_0.11.0_windows_amd64.tar.gz",
-            "hash": "59aa61baf35fa19e25228d47400419d3ffbe5fc956fd942ef6bc14846b2384e0"
+            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.1/whisper_0.11.1_windows_amd64.tar.gz",
+            "hash": "da0c1a25817649857a038243e1fdc4a5328e099e915668216396fb00e17572ed"
         },
         "32bit": {
-            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.0/whisper_0.11.0_windows_386.tar.gz",
-            "hash": "d0df376c471d3d0add9f0cd7858b162fd0886a460c81c46c3ccca1aa9c5b4dc7"
+            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.1/whisper_0.11.1_windows_386.tar.gz",
+            "hash": "64af15208a8dfc1f5249ba65ac1ded4f7990d3add84de57d8dc6841c8696679c"
         },
         "arm64": {
-            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.0/whisper_0.11.0_windows_arm64.tar.gz",
-            "hash": "8b47a4a532ca71b81822437c967f469aaee9f9fb2bb1d2e38932339c1dadf473"
+            "url": "https://github.com/ysmood/whisper/releases/download/v0.11.1/whisper_0.11.1_windows_arm64.tar.gz",
+            "hash": "e28b1c2afca30c66c20720c0eece60762971467e4ad7e3fc8d26ff44f54131af"
         }
     },
     "bin": "whisper.exe",
