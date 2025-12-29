@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "A CLI runs and manages a wasmCloud host which is typically used by platform engineers and operators.",
     "homepage": "https://wasmcloud.com/docs/cli/wasmcloud/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v1.9.0/wasmcloud-x86_64-pc-windows-gnu.exe#/wasmcloud.exe",
-            "hash": "90a854e1ff12fb39851396c8a0e634d84b19d1d888e26751355712ff6f9a03a3"
+            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v1.9.1/wasmcloud-x86_64-pc-windows-gnu.exe#/wasmcloud.exe",
+            "hash": "977e3d1b3004d6dc449e673c5a9a49229302e4ec60251e4d7e1e9ac3d9b5a9f3"
         }
     },
     "bin": "wasmcloud.exe",
