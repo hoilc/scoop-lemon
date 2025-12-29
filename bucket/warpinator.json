@@ -1,11 +1,11 @@
 {
-    "version": "1.0.1",
+    "version": "1.1",
     "description": "An unofficial reimplementation of Linux Mint's file sharing tool Warpinator for Windows 7 and newer.",
     "homepage": "https://github.com/slowscript/warpinator-windows",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/slowscript/warpinator-windows/releases/download/v1.0.1/warpinator-windows_1.0.1.zip",
-    "hash": "bb8e88db2f487cf342c947a9b68f73cd2722c28cbfb5a0f350df3fce9dd90724",
-    "extract_dir": "warpinator-windows_1.0.1",
+    "url": "https://github.com/slowscript/warpinator-windows/releases/download/v1.1/warpinator-windows_1.1.zip",
+    "hash": "15cf1d66c1f593a3ca3a7b7fdff861deb14a1576ae0d53f3f1b06aa2e4f73fd4",
+    "extract_dir": "warpinator-windows_1.1",
     "shortcuts": [
         [
             "Warpinator.exe",
