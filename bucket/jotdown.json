@@ -1,18 +1,18 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "A CLI that simply reads Djot document from standard input and writes HTML to standard output.",
     "homepage": "https://github.com/hellux/jotdown",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hellux/jotdown/releases/download/0.9.0/jotdown-0.9.0-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "jotdown-0.9.0-x86_64-pc-windows-msvc",
-            "hash": "1b6f630603dc2b61a0cb0ba8c9191e9e3df40824feed414a56b1573ae6c5226c"
+            "url": "https://github.com/hellux/jotdown/releases/download/0.9.1/jotdown-0.9.1-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "jotdown-0.9.1-x86_64-pc-windows-msvc",
+            "hash": "7e1655d37407c6e8666146a3c72c5411a47b6fbbbf5cf2c9c594a4abe3538531"
         },
         "32bit": {
-            "url": "https://github.com/hellux/jotdown/releases/download/0.9.0/jotdown-0.9.0-i686-pc-windows-msvc.zip",
-            "extract_dir": "jotdown-0.9.0-i686-pc-windows-msvc",
-            "hash": "3e50e35a2de5f8f709a635f5f3c02150acfcd6afb9ff7d441b7dbcddb45b8637"
+            "url": "https://github.com/hellux/jotdown/releases/download/0.9.1/jotdown-0.9.1-i686-pc-windows-msvc.zip",
+            "extract_dir": "jotdown-0.9.1-i686-pc-windows-msvc",
+            "hash": "67b27fe026ad6e03f54d7d82d5865c473ca5070e9e7d7b3065c1b647942a2fc0"
         }
     },
     "bin": "jotdown.exe",
