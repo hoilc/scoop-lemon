@@ -1,10 +1,10 @@
 {
-    "version": "7299",
+    "version": "7300",
     "description": "A free, open source web browser.",
     "homepage": "https://www.netsurf-browser.org/",
     "license": "GPL-2.0-only",
-    "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-7299.exe#/dl.7z",
-    "hash": "f87eb6c0ed29484d1b8cb3a1c10d461e684b138e0f8318df08b7cafac1388f00",
+    "url": "https://ci.netsurf-browser.org/builds/windows/NetSurf-gcc-7300.exe#/dl.7z",
+    "hash": "304778e954fe2dd7cd18e3e89295204dad187609941e6edd7121181272b9cea0",
     "shortcuts": [
         [
             "NetSurf.exe",
