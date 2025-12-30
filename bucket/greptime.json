@@ -1,13 +1,13 @@
 {
-    "version": "1.0.0-beta.3",
+    "version": "1.0.0-beta.4",
     "description": "GreptimeDB is an open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported.",
     "homepage": "https://greptime.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.0.0-beta.3/greptime-windows-amd64-v1.0.0-beta.3.tar.gz",
-            "extract_dir": "greptime-windows-amd64-v1.0.0-beta.3",
-            "hash": "657f360cb3c51df7d2325012431ddd23ffbac5d92c9f48044241ed1dcad1c69d"
+            "url": "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.0.0-beta.4/greptime-windows-amd64-v1.0.0-beta.4.tar.gz",
+            "extract_dir": "greptime-windows-amd64-v1.0.0-beta.4",
+            "hash": "af28a672c0a24a44eb86d9b981eaa560aafd5116ca8e5f9268d2795f546da9df"
         }
     },
     "bin": "greptime.exe",
