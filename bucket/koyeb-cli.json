@@ -1,16 +1,16 @@
 {
-    "version": "5.7.0",
+    "version": "5.8.0",
     "description": "A powerful tool to manage your Koyeb serverless infrastructure directly from your terminal.",
     "homepage": "https://www.koyeb.com/docs/quickstart/koyeb-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v5.7.0/koyeb-cli_5.7.0_windows_amd64.zip",
-            "hash": "0fdd4c5978fd175cb72ebcb44f7da113dedc5833640c56240d7f787f3a29d418"
+            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v5.8.0/koyeb-cli_5.8.0_windows_amd64.zip",
+            "hash": "5603d620945f60ef0ba7c528f4cddd727ccc920f17612afe3c71578002dee3bf"
         },
         "arm64": {
-            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v5.7.0/koyeb-cli_5.7.0_windows_arm64.zip",
-            "hash": "65a84c5c6c0e840abe35f5a07a7ab25033571b1bda783990f87db52d75d10195"
+            "url": "https://github.com/koyeb/koyeb-cli/releases/download/v5.8.0/koyeb-cli_5.8.0_windows_arm64.zip",
+            "hash": "8ad04f24a7dba140184ba7730873d6206e1476e36aba567425023909ce3567d4"
         }
     },
     "bin": "koyeb.exe",
