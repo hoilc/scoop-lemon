@@ -1,10 +1,10 @@
 {
-    "version": "2.14",
+    "version": "2.5",
     "description": "Snap2HTML takes a \"snapshot\" of folder structures on your harddrive and saves as HTML files.",
     "homepage": "https://www.rlvision.com/snap2html/about.php",
     "license": "Freeware",
     "url": "https://www.rlvision.com/files/Snap2HTML.zip",
-    "hash": "98c01a5cccd5f5608576fc8edb66e2201c777488ead4a94e72d7e74cbd57df7d",
+    "hash": "f1d39c2b946eb07b0a4bcfc7f1a12ef9a311f450fe1ffedd905c5fc3c2da1404",
     "bin": "Snap2HTML.exe",
     "shortcuts": [
         [
