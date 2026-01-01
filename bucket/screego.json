@@ -1,20 +1,20 @@
 {
-    "version": "1.12.0",
+    "version": "1.12.2",
     "description": "Open source screen sharing for developers.",
     "homepage": "https://screego.net/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/screego/server/releases/download/v1.12.0/screego_1.12.0_windows_amd64.zip",
-            "hash": "78eef4bb59582c171ae2a8e7474a02e09bee595e5ba4124cdb7c3ae6645ed8b0"
+            "url": "https://github.com/screego/server/releases/download/v1.12.2/screego_1.12.2_windows_amd64.zip",
+            "hash": "f5926c2278b25110f337b744c59509873a863102728583bdef23bf15cb0b4fcf"
         },
         "32bit": {
-            "url": "https://github.com/screego/server/releases/download/v1.12.0/screego_1.12.0_windows_i386.zip",
-            "hash": "7df58b8f22449d083cd092c7e0d39d172f3aa547d4dee8b5dd6febcaf62bfe8c"
+            "url": "https://github.com/screego/server/releases/download/v1.12.2/screego_1.12.2_windows_i386.zip",
+            "hash": "c5a33b0fb7efcb975c0b59947a0e9f9c2c171355ee3af9073b00aa56d82d324a"
         },
         "arm64": {
-            "url": "https://github.com/screego/server/releases/download/v1.12.0/screego_1.12.0_windows_arm64.zip",
-            "hash": "36164fd0d3760b3a32f85d99f3f944017dd81e5fc380eeea84eeeb2e8fca7fbc"
+            "url": "https://github.com/screego/server/releases/download/v1.12.2/screego_1.12.2_windows_arm64.zip",
+            "hash": "e51c0f8d5405c9920d8e9604f78c98bf7f2b775438ff29c4b0c4cf807730eddd"
         }
     },
     "bin": "screego.exe",
