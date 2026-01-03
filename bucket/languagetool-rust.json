@@ -1,13 +1,13 @@
 {
-    "version": "2.1.5",
+    "version": "3.0.1",
     "description": "An open source grammar style checker.",
     "homepage": "https://github.com/jeertmans/languagetool-rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v2.1.5/ltrs-v2.1.5-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "ltrs-v2.1.5-x86_64-pc-windows-msvc",
-            "hash": "feb8f100acf93ad4d7cbe1239d1c57221bed0d6b578fae69a8c05f47ae956211"
+            "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v3.0.1/ltrs-v3.0.1-x86_64-pc-windows-msvc.tar.gz",
+            "extract_dir": "ltrs-v3.0.1-x86_64-pc-windows-msvc",
+            "hash": "ba50403188f559e940f6f5ad44c0687a4d541f3e026961b837a6ed3957caddc8"
         }
     },
     "bin": "ltrs.exe",
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v$version/ltrs-v$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://github.com/jeertmans/languagetool-rust/releases/download/v$version/ltrs-v$version-x86_64-pc-windows-msvc.tar.gz",
                 "extract_dir": "ltrs-v$version-x86_64-pc-windows-msvc"
             }
         }
