@@ -1,16 +1,16 @@
 {
-    "version": "1.4.4.6",
+    "version": "1.4.4.7",
     "description": "An implementation of the gocryptfs encrypted overlay filesystem in C++ for Windows. (Command line Version)",
     "homepage": "https://github.com/bailey27/cppcryptfs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bailey27/cppcryptfs/releases/download/v1.4.4.6/cppcryptfsctl.exe",
-            "hash": "057f7b14aa7db5d9715d15e80ca2f22e9967a210c9a61a2eaa772d50b4963618"
+            "url": "https://github.com/bailey27/cppcryptfs/releases/download/v1.4.4.7/cppcryptfsctl.exe",
+            "hash": "5acd0e03af2cb28059818a9a5ba05f6d2bd763774c9abf4ea534bd21f13dcc4f"
         },
         "32bit": {
-            "url": "https://github.com/bailey27/cppcryptfs/releases/download/v1.4.4.6/cppcryptfsctl32.exe#/cppcryptfsctl.exe",
-            "hash": "506accdd7fb4a460e409617b2d3d881cf979068fb05c155781b0fe02597e9454"
+            "url": "https://github.com/bailey27/cppcryptfs/releases/download/v1.4.4.7/cppcryptfsctl32.exe#/cppcryptfsctl.exe",
+            "hash": "f834a4a910799fab78ab2572c1864b9a8ff473add3929359a34e5b661807b1fc"
         }
     },
     "bin": "cppcryptfsctl.exe",
@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bailey27/cppcryptfs/releases/download/$version/cppcryptfsctl.exe"
+                "url": "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl.exe"
             },
             "32bit": {
-                "url": "https://github.com/bailey27/cppcryptfs/releases/download/$version/cppcryptfsctl32.exe#/cppcryptfsctl.exe"
+                "url": "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl32.exe#/cppcryptfsctl.exe"
             }
         }
     }
