@@ -1,12 +1,12 @@
 {
-    "version": "0.13.12",
+    "version": "0.13.13",
     "description": "An assembler for custom, user-defined instruction sets.",
     "homepage": "https://github.com/hlorenzi/customasm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hlorenzi/customasm/releases/download/v0.13.12/customasm_v0.13.12_win64.zip",
-            "hash": "d84c70af88cc5ab6f6fa08c586610e8653e7b5ebb6325769c97ff527e0fa48c0"
+            "url": "https://github.com/hlorenzi/customasm/releases/download/v0.13.13/customasm_v0.13.13_win64.zip",
+            "hash": "a42c446bc88528b06b9d564cc214b809129a9f7536044a6aa4870018be1c4c01"
         }
     },
     "bin": "customasm.exe",
