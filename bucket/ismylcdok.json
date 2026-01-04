@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.eu/Download/IsMyLcdOK_x64.zip",
-            "hash": "98b5b57f6bddcaf69b1857dfe0136afe57a04f5297746c40408b85f6a2850e55"
+            "hash": "398c7483378fc992d6644c42839f645019cda28c9c24566c0d1d5c1caa64c09f"
         },
         "32bit": {
             "url": "https://www.softwareok.eu/Download/IsMyLcdOK.zip",
-            "hash": "d7aa27c51f483289ca77d176d092b0862f1f5fa15641b8c773fca72745203f18"
+            "hash": "eaaf33a943acad87819bae53472dbd26a6e5ad7434be0a3c8453623699b26911"
         }
     },
     "shortcuts": [
