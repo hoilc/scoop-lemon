@@ -1,0 +1,30 @@
+{
+    "version": "1.2.1",
+    "description": "A lightweight and customizable desktop hardware monitoring tool.",
+    "homepage": "https://github.com/Diorser/LiteMonitor",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Diorser/LiteMonitor/releases/download/v1.2.1/LiteMonitor_v1.2.1-win-x64.zip",
+            "extract_dir": "LiteMonitor_v1.2.1-win-x64",
+            "hash": "28e377f29a32a287e34f261f439db8a416fc8cf0470058d212877134801309b8"
+        }
+    },
+    "shortcuts": [
+        [
+            "LiteMonitor.exe",
+            "LiteMonitor"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\settings.json\" -Value $null }",
+    "persist": "settings.json",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Diorser/LiteMonitor/releases/download/v$version/LiteMonitor_v$version-win-x64.zip",
+                "extract_dir": "LiteMonitor_v$version-win-x64"
+            }
+        }
+    }
+}
