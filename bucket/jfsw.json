@@ -1,13 +1,13 @@
 {
-    "version": "20251227",
+    "version": "20260105",
     "description": "JFShadowWarrior is 3D Realms' 1997 shooter Shadow Warrior updated for modern Windows, Mac, and Linux computers.",
     "homepage": "https://www.jonof.id.au/jfsw/index.html",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.jonof.id.au/files/jfsw/jfsw-20251227-win.zip",
-            "extract_dir": "jfsw-20251227-win",
-            "hash": "06a06ce758fbcf912eed7fbeddc1c705c6b4069286ab5fad715be8ed94d3c03f"
+            "url": "https://www.jonof.id.au/files/jfsw/jfsw-20260105-win.zip",
+            "extract_dir": "jfsw-20260105-win",
+            "hash": "c492a189661edf2e89302e4cd60e04192b7244b632cc33eeaefce4aa7565f842"
         }
     },
     "bin": "sw.exe",
