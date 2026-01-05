@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "An E2E encrypted IPv6 overlay network.",
     "homepage": "https://github.com/threefoldtech/mycelium",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/threefoldtech/mycelium/releases/download/v0.7.0/mycelium_installer.msi",
-            "hash": "75dc5173a372c7d44e0aed9790134fe5d54ebb8425590fd33040fda1e60d1a14"
+            "url": "https://github.com/threefoldtech/mycelium/releases/download/v0.7.1/mycelium_installer.msi",
+            "hash": "82d93b3929489502a1f173f347319944fcc1908e1df37aeaeb812d2160493198"
         }
     },
     "pre_install": [
