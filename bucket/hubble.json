@@ -1,16 +1,16 @@
 {
-    "version": "1.18.3",
+    "version": "1.18.5",
     "description": "A fully distributed networking and security observability platform for cloud native workloads.",
     "homepage": "https://github.com/cilium/hubble",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cilium/hubble/releases/download/v1.18.3/hubble-windows-amd64.tar.gz",
-            "hash": "5cfbb07e723ca20b7c6542e556d639e373aa6bf0ec6d42dbe144d34d5f6318cb"
+            "url": "https://github.com/cilium/hubble/releases/download/v1.18.5/hubble-windows-amd64.tar.gz",
+            "hash": "2d4506f10c0328c6c8f1a767bf6b4e552d2e20f772d90e1d26c10134b85393f4"
         },
         "arm64": {
-            "url": "https://github.com/cilium/hubble/releases/download/v1.18.3/hubble-windows-arm64.tar.gz",
-            "hash": "ed0c72236b4232644d0ba040145fbb0698ae6d128a4f5e7947d8b2368e7fc0ea"
+            "url": "https://github.com/cilium/hubble/releases/download/v1.18.5/hubble-windows-arm64.tar.gz",
+            "hash": "4168856a54169f6a978a27d8dfc94bac1384d7163b3cda779f5003a7e61eb7c3"
         }
     },
     "bin": "hubble.exe",
