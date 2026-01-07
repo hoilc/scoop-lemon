@@ -1,12 +1,12 @@
 {
-    "version": "5.7.2",
+    "version": "5.8.0",
     "description": "A CLI tool for managing your Upsun services from the command line.",
     "homepage": "https://upsun.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/platformsh/cli/releases/download/5.7.2/upsun_5.7.2_windows_amd64.zip",
-            "hash": "2a2400f8f1ce4ef48182fe17b8d34bea7ea718d5f3e0558c238df96a1edfdb26"
+            "url": "https://github.com/platformsh/cli/releases/download/5.8.0/upsun_5.8.0_windows_amd64.zip",
+            "hash": "16754beca1c503c0424e701f3ca8050ed0a85b72e62022ee1c4fe5ece497f9df"
         }
     },
     "bin": "upsun.exe",
