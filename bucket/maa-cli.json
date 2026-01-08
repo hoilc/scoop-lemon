@@ -6,12 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.6.0/maa_cli-v0.6.0-x86_64-pc-windows-msvc-winget.zip",
-            "extract_dir": "maa_cli-x86_64-pc-windows-msvc",
             "hash": "5d61d905bb5fd83d22d816304a687bec9c7a7fd5f7d8d5b67da19ac4939d00bc"
         },
         "arm64": {
             "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.6.0/maa_cli-v0.6.0-aarch64-pc-windows-msvc-winget.zip",
-            "extract_dir": "maa_cli-aarch64-pc-windows-msvc",
             "hash": "6546201f189e70fddfd21551e00a32b4e34c05b0cb8a65811057c7811092bb40"
         }
     },
