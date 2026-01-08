@@ -29,8 +29,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://support.royalapps.com/support/solutions/articles/17000128633",
-        "regex": "royalts_([\\d.]+)_x64.zip"
+        "url": "https://www.royalapps.com/ts/win/download",
+        "regex": "royaltsinstaller_([\\d.]+)_x64"
     },
     "autoupdate": {
         "architecture": {
