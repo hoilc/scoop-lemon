@@ -1,0 +1,29 @@
+{
+    "version": "1.2",
+    "description": "A simple GUI tool to create/modify gamepad mappings for games that use SDL2 Game Controller API.",
+    "homepage": "https://generalarcade.com/gamepadtool/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://generalarcade.com/gamepadtool/GamepadTool.win.latest.zip",
+            "hash": "62ac3fcce71a82c48c7ddf856b74365916eb9af8ae52dd3f8836242097047af5"
+        }
+    },
+    "extract_dir": "gamepad-tool",
+    "shortcuts": [
+        [
+            "gamepad-tool.exe",
+            "SDL2 Gamepad Tool"
+        ]
+    ],
+    "checkver": {
+        "regex": "Changelog.*?<td>([\\d.]+)</td><td>\\d{2}\\.\\d{2}\\.\\d{4}</td>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://generalarcade.com/gamepadtool/GamepadTool.win.latest.zip"
+            }
+        }
+    }
+}
