@@ -1,18 +1,18 @@
 {
-    "version": "0.5.9",
-    "description": "MAA命令行工具 | A simple CLI for MAA.",
+    "version": "0.6.0",
+    "description": "明日方舟小助手命令行版本，全日常一键长草 | A CLI tool for the daily tasks of Arknights.",
     "homepage": "https://github.com/MaaAssistantArknights/maa-cli",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.5.9/maa_cli-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.6.0/maa_cli-v0.6.0-x86_64-pc-windows-msvc-winget.zip",
             "extract_dir": "maa_cli-x86_64-pc-windows-msvc",
-            "hash": "df1be3fbe297988f4fb27d1253c650e09beb0b1b330ce587a0bf7e5f7903fbad"
+            "hash": "5d61d905bb5fd83d22d816304a687bec9c7a7fd5f7d8d5b67da19ac4939d00bc"
         },
         "arm64": {
-            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.5.9/maa_cli-aarch64-pc-windows-msvc.zip",
+            "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v0.6.0/maa_cli-v0.6.0-aarch64-pc-windows-msvc-winget.zip",
             "extract_dir": "maa_cli-aarch64-pc-windows-msvc",
-            "hash": "0839ec03b0baff11142a9653af3dcbc58a4f4b28b9071e55f9f4d2cf9e7eac45"
+            "hash": "6546201f189e70fddfd21551e00a32b4e34c05b0cb8a65811057c7811092bb40"
         }
     },
     "bin": "maa.exe",
@@ -20,14 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-v$version-x86_64-pc-windows-msvc-winget.zip"
             },
             "arm64": {
-                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/MaaAssistantArknights/maa-cli/releases/download/v$version/maa_cli-v$version-aarch64-pc-windows-msvc-winget.zip"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
