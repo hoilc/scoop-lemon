@@ -13,7 +13,7 @@
             "hash": "6546201f189e70fddfd21551e00a32b4e34c05b0cb8a65811057c7811092bb40"
         }
     },
-    "bin": "maa.exe",
+    "bin": "maa-cli.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
