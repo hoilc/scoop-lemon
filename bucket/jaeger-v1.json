@@ -16,17 +16,5 @@
         "jaeger-query.exe",
         "jaeger-collector.exe"
     ],
-    "notes": "Jaeger v1 end-of-life is scheduled for December 31, 2025. See https://github.com/jaegertracing/jaeger/issues/6321",
-    "checkver": {
-        "url": "https://www.jaegertracing.io/download/",
-        "regex": "/v(?<tag>[\\d.]+)/jaeger-(1.[\\d.]+)-windows-amd64"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://download.jaegertracing.io/v$matchTag/jaeger-$version-windows-amd64.tar.gz",
-                "extract_dir": "jaeger-$version-windows-amd64"
-            }
-        }
-    }
+    "notes": "Jaeger v1 has reached end-of-life on December 31, 2025 and will no longer receive updates. See https://github.com/jaegertracing/jaeger/issues/6321"
 }
