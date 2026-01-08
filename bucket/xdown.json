@@ -1,9 +1,9 @@
 {
     "version": "2.0.9.5",
     "description": "免费无广告的文件下载与分享工具",
-    "homepage": "http://xdown.org/",
+    "homepage": "https://web.archive.org/web/20260101174227/http://xdown.org/",
     "license": "Freeware",
-    "url": "https://dl.xdown.org/windows/i386/xdown-2.0.9.5.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/xdown/xdown-2.0.9.5.zip",
     "hash": "50b6af71420890da1e1c185e3a6c45011e4f512696ece6523c272607d1e31b16",
     "extract_dir": "xdown",
     "persist": "profile",
@@ -12,11 +12,5 @@
             "XDown.exe",
             "XDown"
         ]
-    ],
-    "checkver": {
-        "regex": "/windows/i386/xdown-([\\d.]+).zip"
-    },
-    "autoupdate": {
-        "url": "https://dl.xdown.org/windows/i386/xdown-$version.zip"
-    }
+    ]
 }
