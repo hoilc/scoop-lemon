@@ -1,16 +1,16 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "A CLI for having Okta as the IdP for AWS CLI operations.",
     "homepage": "https://github.com/okta/okta-aws-cli",
     "license": "Apache-2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/okta/okta-aws-cli/releases/download/v2.5.1/okta-aws-cli_2.5.1_windows_386.zip",
-            "hash": "0c9aacd0b6916a2af99c641d3dfbf36f8dbf46c9760db5ff29a5e9062d4e93ec"
+            "url": "https://github.com/okta/okta-aws-cli/releases/download/v2.5.2/okta-aws-cli_2.5.2_windows_386.zip",
+            "hash": "c413368314679b93442a86ab95dd31b0c8a7aae5df1122b7a716fd145b416093"
         },
         "arm64": {
-            "url": "https://github.com/okta/okta-aws-cli/releases/download/v2.5.1/okta-aws-cli_2.5.1_windows_arm64.zip",
-            "hash": "c1051535d36446eefbedd05ee2b06cf159c8738e00f0a93103bef2bceeece7ea"
+            "url": "https://github.com/okta/okta-aws-cli/releases/download/v2.5.2/okta-aws-cli_2.5.2_windows_arm64.zip",
+            "hash": "bc02ea1c111b4dbe8cf224c031ae2b4d2938d87b3abf6393724a6018a24324b9"
         }
     },
     "bin": "okta-aws-cli.exe",
