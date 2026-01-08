@@ -14,7 +14,6 @@
         "llama-server.exe",
         "llama-perplexity.exe",
         "llama-bench.exe",
-        "llama-run.exe",
         "llama-imatrix.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
