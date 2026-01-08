@@ -1,0 +1,22 @@
+{
+    "version": "0.6.2",
+    "description": "A minimal command-line application that unlocks a single vault of Cryptomator vault format 8 and mounts it into the system.",
+    "homepage": "https://github.com/cryptomator/cli",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cryptomator/cli/releases/download/0.6.2/cryptomator-cli-0.6.2-win-x64.zip",
+            "hash": "52498fe6c0a02f76216fa801a1a114de064b4364702e51548585355fdf8b0a66"
+        }
+    },
+    "extract_dir": "cryptomator-cli",
+    "bin": "cryptomator-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cryptomator/cli/releases/download/$version/cryptomator-cli-$version-win-x64.zip"
+            }
+        }
+    }
+}
