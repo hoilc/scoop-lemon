@@ -9,7 +9,7 @@
             "hash": "27b66da3a091f216b41ee257f32819c112fc8090f87a0a339da8dfadfac0729b"
         }
     },
-    "bin": "work-tuimer",
+    "bin": "work-tuimer.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
