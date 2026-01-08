@@ -1,0 +1,29 @@
+{
+    "version": "2.5.14",
+    "description": "A field-theory motivated approach to computer algebra.",
+    "homepage": "https://cadabra.science",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kpeeters/cadabra2/releases/download/2.5.14/cadabra2-2.5.14-win64.msi",
+            "extract_dir": "PFiles64\\Cadabra",
+            "hash": "bc4403730715b463f9a65cc93baf8a33edf57a6e47e29b5a2512b4f710a5dcfa"
+        }
+    },
+    "shortcuts": [
+        [
+            "cadabra2-gtk.exe",
+            "Cadabra"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kpeeters/cadabra2"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kpeeters/cadabra2/releases/download/$version/cadabra2-$version-win64.msi"
+            }
+        }
+    }
+}
