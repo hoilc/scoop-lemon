@@ -1,0 +1,28 @@
+{
+    "version": "6.5.0",
+    "description": "Check your files for data corruption and run quick file deduplication.",
+    "homepage": "https://github.com/laktak/chkbit",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/laktak/chkbit/releases/download/v6.5.0/chkbit-windows-amd64.zip",
+            "hash": "aaedfccb9705055314833940449c82e062aec16716da0cfa73c9bb26b0cc7b79"
+        },
+        "arm64": {
+            "url": "https://github.com/laktak/chkbit/releases/download/v6.5.0/chkbit-windows-arm64.zip",
+            "hash": "652bb9e25272054765bd625a8a48b9667faa0e29115f63ac21950cd66aa6ee8b"
+        }
+    },
+    "bin": "chkbit.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/laktak/chkbit/releases/download/v$version/chkbit-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/laktak/chkbit/releases/download/v$version/chkbit-windows-arm64.zip"
+            }
+        }
+    }
+}
