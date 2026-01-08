@@ -16,7 +16,7 @@
         }
     },
     "bin": "rustnet.exe",
-    "notes": "You need install Npcap mannally. Make sure to install with the \"Install Npcap in WinPcap API-compatible Mode\"",
+    "notes": "You need install Npcap manually. Make sure to install with the \"Install Npcap in WinPcap API-compatible Mode\"",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
