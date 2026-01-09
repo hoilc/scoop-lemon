@@ -1,16 +1,16 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A file systems verification utility, in likeness of mtree(8).",
     "homepage": "https://github.com/vbatts/go-mtree",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vbatts/go-mtree/releases/download/v0.6.0/gomtree.windows.amd64#/gomtree.exe",
-            "hash": "sha1:6bc3c391d4ed28a103e3b60ba0722c47241853d0"
+            "url": "https://github.com/vbatts/go-mtree/releases/download/v0.7.0/gomtree.windows.amd64#/gomtree.exe",
+            "hash": "sha1:f97e6aeb5bbcd546fbe9f786b72463a9c30ead60"
         },
         "arm64": {
-            "url": "https://github.com/vbatts/go-mtree/releases/download/v0.6.0/gomtree.windows.arm64#/gomtree.exe",
-            "hash": "sha1:223613035708d7d3ec76f7d06e1be60ebcadf0e6"
+            "url": "https://github.com/vbatts/go-mtree/releases/download/v0.7.0/gomtree.windows.arm64#/gomtree.exe",
+            "hash": "sha1:94a9a3dd643a39fee27ee0cf34f49aa17fdd94d1"
         }
     },
     "bin": "gomtree.exe",
