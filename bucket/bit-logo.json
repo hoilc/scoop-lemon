@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Windows_x86_64.tar.gz"
+                "url": "https://github.com/superstarryeyes/bit/releases/download/v$version/bit_$version_Windows_x86_64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Windows_arm64.tar.gz"
+                "url": "https://github.com/superstarryeyes/bit/releases/download/v$version/bit_$version_Windows_arm64.tar.gz"
             }
         },
         "hash": {
