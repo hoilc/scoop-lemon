@@ -1,0 +1,23 @@
+{
+    "version": "3.4.2",
+    "description": "SteamPrefill automatically fills a Lancache with games from Steam, so that subsequent downloads for the same content will be served from the Lancache.",
+    "homepage": "https://github.com/tpill90/steam-lancache-prefill",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tpill90/steam-lancache-prefill/releases/download/v3.4.2/SteamPrefill-3.4.2-win-x64.zip",
+            "extract_dir": "SteamPrefill-3.4.2-win-x64",
+            "hash": "9184b148174d79ea105b2eabd91cd9f886578bbca856fe87a6379fa77549d1fb"
+        }
+    },
+    "bin": "SteamPrefill.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tpill90/steam-lancache-prefill/releases/download/v$version/SteamPrefill-$version-win-x64.zip",
+                "extract_dir": "SteamPrefill-$version-win-x64"
+            }
+        }
+    }
+}
