@@ -1,0 +1,21 @@
+{
+    "version": "0.5.0",
+    "description": "A terminal application that simulates installing things but doesn't actually install anything.",
+    "homepage": "https://github.com/buyukakyuz/install-nothing",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/buyukakyuz/install-nothing/releases/download/v0.5.0/install-nothing-windows-x86_64.exe#/install-nothing.exe",
+            "hash": "312ff862e1fa405eaa576bd49b0cd3ab8b5a58234fe57b8e36c909c40fc8c229"
+        }
+    },
+    "bin": "install-nothing.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/buyukakyuz/install-nothing/releases/download/v$version/install-nothing-windows-x86_64.exe#/install-nothing.exe"
+            }
+        }
+    }
+}
