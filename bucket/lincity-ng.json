@@ -1,0 +1,33 @@
+{
+    "version": "2.14.2",
+    "description": "A city simulation game.",
+    "homepage": "https://github.com/lincity-ng/lincity-ng",
+    "license": "GPL-2.0-only|CC-BY-SA-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lincity-ng/lincity-ng/releases/download/lincity-ng-2.14.2/lincity-ng-2.14.2-win64.zip",
+            "hash": "65108ea31e28a3076d63705beb4f62defcd97ee37e1ceca2732812d2c9de3eb4"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\lincity-ng.exe",
+            "LinCity-NG"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/lincity-ng/lincity-ng/releases.atom",
+        "regex": "Repository/\\d+/lincity-ng-([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lincity-ng/lincity-ng/releases/download/lincity-ng-$version/lincity-ng-$version-win64.zip",
+                "extract_dir": "lincity-ng-$version-win64"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
