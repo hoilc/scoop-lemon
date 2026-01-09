@@ -1,0 +1,23 @@
+{
+    "version": "0.7.0",
+    "description": "A complete and opinionated formatter for Delphi code.",
+    "homepage": "https://github.com/integrated-application-development/pasfmt",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/integrated-application-development/pasfmt/releases/download/v0.7.0/pasfmt-0.7.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "pasfmt-0.7.0-x86_64-pc-windows-msvc",
+            "hash": "58703093b194e50d87a997bdf26743a0e12127a70c4b5420d46b32c0c7fc098c"
+        }
+    },
+    "bin": "pasfmt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/integrated-application-development/pasfmt/releases/download/v$version/pasfmt-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "pasfmt-$version-x86_64-pc-windows-msvc"
+            }
+        }
+    }
+}
