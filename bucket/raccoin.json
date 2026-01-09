@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "description": "Raccoin makes it easy to see the current state and the history of your crypto portfolio and to generate relevant reports for declaring capital gain income tax.",
+    "homepage": "https://raccoin.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bjorn/raccoin/releases/download/v0.2.0/raccoin_0.2.0_x64-setup.exe#/dl.7z",
+            "hash": "a0ebe08b61b34679c297b51f240754977824a6e4d3e4c50204b393b35e1526ba"
+        }
+    },
+    "shortcuts": [
+        [
+            "raccoin.exe",
+            "Raccoin"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "github": "https://github.com/bjorn/raccoin"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bjorn/raccoin/releases/download/v$version/raccoin_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
