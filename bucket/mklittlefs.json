@@ -1,0 +1,32 @@
+{
+    "version": "4.1.0",
+    "description": "Utility for creating LittleFS images for upload on the ESP8266 and RP2040 Pico.",
+    "homepage": "https://github.com/earlephilhower/mklittlefs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/earlephilhower/mklittlefs/releases/download/4.1.0/x86_64-w64-mingw32-mklittlefs-42acb97.zip",
+            "hash": "b57f64df7303651df2127b3032c33431dbf6a8c2e8949945ad588a2b6c6ee394"
+        },
+        "32bit": {
+            "url": "https://github.com/earlephilhower/mklittlefs/releases/download/4.1.0/i686-w64-mingw32-mklittlefs-42acb97.zip",
+            "hash": "749a23ed18454fa64dd9d333e286b11bf088c75e8fa44444e5ba09150210f4a0"
+        }
+    },
+    "extract_dir": "mklittlefs",
+    "bin": "mklittlefs.exe",
+    "checkver": {
+        "url": "https://github.com/earlephilhower/mklittlefs/releases/latest",
+        "regex": "(?sm)/mklittlefs/tree/v?([\\d.]+)\".*/mklittlefs/commit/(?<commit>[0-9a-fA-F]{7})"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/earlephilhower/mklittlefs/releases/download/$version/x86_64-w64-mingw32-mklittlefs-$matchCommit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/earlephilhower/mklittlefs/releases/download/$version/i686-w64-mingw32-mklittlefs-$matchCommit.zip"
+            }
+        }
+    }
+}
