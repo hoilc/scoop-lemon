@@ -1,12 +1,12 @@
 {
-    "version": "3.7.0",
+    "version": "4.0.3",
     "description": "A modern genome browser.",
     "homepage": "https://jbrowse.org/jb2/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GMOD/jbrowse-components/releases/download/v3.7.0/jbrowse-desktop-v3.7.0-win.exe#/dl.7z",
-            "hash": "157361b5373df1168ee101ab84ac11d2533d66930bdcacbba26e3b37b94edf86",
+            "url": "https://github.com/GMOD/jbrowse-components/releases/download/v4.0.3/jbrowse-desktop-v4.0.3-win.exe#/dl.7z",
+            "hash": "3382c04fa7ab6f4417d23269c403f8fa7080199b5786495837fea86753fa6f5e",
             "pre_install": "Expand-7zipArchive -Removal \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
