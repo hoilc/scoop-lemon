@@ -1,12 +1,12 @@
 {
-    "version": "1.10.0",
+    "version": "1.10.1",
     "description": "A powerful command-line interface for seamless interaction with ChatGPT models via OpenAI and Azure, featuring streaming capabilities and extensive configuration options.",
     "homepage": "https://github.com/kardolus/chatgpt-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kardolus/chatgpt-cli/releases/download/v1.10.0/chatgpt-windows-amd64.exe#/chatgpt.exe",
-            "hash": "d85339c928e66d5ba0c8e8068b873a585e254ca7213f4b8dbcde7433df52e79c"
+            "url": "https://github.com/kardolus/chatgpt-cli/releases/download/v1.10.1/chatgpt-windows-amd64.exe#/chatgpt.exe",
+            "hash": "f669d2553cd13aa02160f207c9a3ccde2af7c7bb37a6fd4e1932635d7889c305"
         }
     },
     "bin": "chatgpt.exe",
