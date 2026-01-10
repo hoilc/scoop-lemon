@@ -1,16 +1,16 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "A simple TUI to visualize regular expressions right in your terminal.",
     "homepage": "https://github.com/vitor-mariano/regex-tui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vitor-mariano/regex-tui/releases/download/v0.5.0/regex-tui_v0.5.0_windows.amd64.exe#/regex-tui.exe",
-            "hash": "efbe92dabc3bc3842ccd743bde43ccebf1ca0b7e79d38dee9fc1463bbd943345"
+            "url": "https://github.com/vitor-mariano/regex-tui/releases/download/v0.6.0/regex-tui_v0.6.0_windows.amd64.exe#/regex-tui.exe",
+            "hash": "f9e3f6a03aba8bc1e8def855e4c129be9703472db5abb249034317e1af2ac27a"
         },
         "arm64": {
-            "url": "https://github.com/vitor-mariano/regex-tui/releases/download/v0.5.0/regex-tui_v0.5.0_windows.arm64.exe#/regex-tui.exe",
-            "hash": "c5a7d1829b2c02a75102d15881c372f26133abcf39cf7243850975212599a238"
+            "url": "https://github.com/vitor-mariano/regex-tui/releases/download/v0.6.0/regex-tui_v0.6.0_windows.arm64.exe#/regex-tui.exe",
+            "hash": "824fa458be505170db1c0fafc870584e806cfe0e35b8a8941ef87893d7bcd4a0"
         }
     },
     "bin": "regex-tui.exe",
