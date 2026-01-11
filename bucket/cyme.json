@@ -1,13 +1,13 @@
 {
-    "version": "2.2.9",
+    "version": "2.2.10",
     "description": "A modern cross-platform `lsusb` that lists system USB buses and devices.",
     "homepage": "https://github.com/tuna-f1sh/cyme",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tuna-f1sh/cyme/releases/download/v2.2.9/cyme-v2.2.9-x86_64-pc-windows-gnu.zip",
-            "extract_dir": "cyme-v2.2.9-x86_64-pc-windows-gnu",
-            "hash": "136291ea16e5055df6483b12fd885feaa25ae89a0d6411f6c877d0a69539e20a"
+            "url": "https://github.com/tuna-f1sh/cyme/releases/download/v2.2.10/cyme-v2.2.10-x86_64-pc-windows-gnu.zip",
+            "extract_dir": "cyme-v2.2.10-x86_64-pc-windows-gnu",
+            "hash": "c2ddd7ecad0badded98ac00b04f7639eec12f062e62a882a37290407661c2825"
         }
     },
     "bin": "cyme.exe",
