@@ -1,16 +1,16 @@
 {
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more.",
     "homepage": "https://github.com/edoardottt/cariddi",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/edoardottt/cariddi/releases/download/v1.4.4/cariddi_1.4.4_windows_amd64.zip",
-            "hash": "dab6d25d6631c9dc5351db0aecf3c6e48a53af771ee2e78ec3b9a99f1cc3bdd6"
+            "url": "https://github.com/edoardottt/cariddi/releases/download/v1.4.5/cariddi_1.4.5_windows_amd64.zip",
+            "hash": "3fc8bb6f085bc8f0685ed57fce0bb345545b90e081a7cfd4a3ee894e4bd97984"
         },
         "32bit": {
-            "url": "https://github.com/edoardottt/cariddi/releases/download/v1.4.4/cariddi_1.4.4_windows_386.zip",
-            "hash": "e9ca7b0c28fd201feae366c7ade5eb5a717ba6a157bbb91c70120fabba922e82"
+            "url": "https://github.com/edoardottt/cariddi/releases/download/v1.4.5/cariddi_1.4.5_windows_386.zip",
+            "hash": "b53f8384ba16ed2490709746a18d6e55370bc1ab8e8043588757ec1f8b27eaba"
         }
     },
     "bin": "cariddi.exe",
