@@ -1,5 +1,5 @@
 {
-    "version": "8.0.0.3",
+    "version": "8.0.0.4",
     "description": "A simple and fast software for differential file synchronization.",
     "homepage": "https://www.luminescence-software.org/en/echosync/about/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://drive.luminescence-software.org/echosync/Echosync-Portable-8003.zip",
-            "hash": "015536e75fd59c28e49c76606d30ccdb24176f3c6ea3745e035003bbd38dff83"
+            "url": "https://drive.luminescence-software.org/echosync/Echosync-Portable-8004.zip",
+            "hash": "05a0a48ad95f1c74412a52679389b09b429f8faa40dd1bea08cbea3681a66cd7"
         }
     },
     "extract_dir": "Echosync80",
