@@ -1,12 +1,12 @@
 {
-    "version": "2.38.0",
+    "version": "2.39.0",
     "description": "Once Power is a tool developed based on Flutter for batch renaming files and batch moving and deleting files",
     "homepage": "https://github.com/ilgnefz/once_power",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.38.0/OncePower-v2.38.0-Windows-x64-Portable.zip",
-            "hash": "048ec94b2e40e4ee799e9347cc447575b52a8ba09fc2845ed00b47db157c8a05"
+            "url": "https://github.com/ilgnefz/once_power/releases/download/v2.39.0/OncePower-v2.39.0-Windows-x64-Portable.zip",
+            "hash": "ea46f679537782e8de6c890b00ff9937e1b919ed210565f0dbf9c6c0afd7e74d"
         }
     },
     "shortcuts": [
