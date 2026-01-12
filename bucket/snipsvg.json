@@ -1,10 +1,10 @@
 {
-    "version": "2.1-520",
+    "version": "2.1-521",
     "description": "A screen capture and graphics editor that uses SVG vector images as its primary format.",
     "homepage": "https://www.helpandmanual.com/snipsvg/",
     "license": "Freeware",
     "url": "https://www.helpandmanual.com/download/snipsvg-setup.exe",
-    "hash": "4676161cd80e7d4937caf3bc905eebdc48239483daf371ad4cbbc372a407b193",
+    "hash": "a23f14a1cbe249dcedb032814aee34710aef9e15de24025125f71f9a241ab1d0",
     "architecture": {
         "64bit": {
             "pre_install": [
