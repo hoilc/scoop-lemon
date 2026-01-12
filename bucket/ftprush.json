@@ -1,0 +1,35 @@
+{
+    "version": "3.6.6",
+    "description": "FTP Rush is a free file transfer software that supports FTP, FTPS, SFTP, WebDAV, Google Drive, DropBox, OneDrive, and Amazon S3.",
+    "homepage": "https://www.wftpserver.com/ftprush.htm",
+    "license": "Freeware",
+    "url": "https://www.wftpserver.com/download/FTPRush.zip",
+    "hash": "161a833bbe5ba6b6bd83e0ac8dc91cf3f9cf66ed3d8986e09e540a42a8d63510",
+    "extract_dir": "FTPRush",
+    "bin": "FTPRush.exe",
+    "shortcuts": [
+        [
+            "FTPRush.exe",
+            "FTP Rush"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\site.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\site.json\" -Value \"{}\" }",
+        "if (!(Test-Path \"$persist_dir\\queue.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\queue.json\" -Value \"{}\" }",
+        "if (!(Test-Path \"$persist_dir\\desktop_setting.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\desktop_setting.json\" -Value \"{}\" }",
+        "if (!(Test-Path \"$persist_dir\\core_setting.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\core_setting.json\" -Value \"{}\" }"
+    ],
+    "persist": [
+        "site.json",
+        "queue.json",
+        "desktop_setting.json",
+        "core_setting.json"
+    ],
+    "checkver": {
+        "url": "https://www.wftpserver.com/download.htm",
+        "regex": "FTP Rush <b>v([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "https://www.wftpserver.com/download/FTPRush.zip"
+    }
+}
