@@ -1,14 +1,14 @@
 {
-    "version": "11.0.6.0",
+    "version": "11.0.7.0",
     "description": "A very simple free Python IDE designed for teaching beginning programmers, that omits most features found in Wing Pro.",
     "homepage": "https://wingware.com/downloads/wing-101",
     "license": {
         "identifier": "Freweware",
         "url": "https://wingware.com/license/wing101"
     },
-    "url": "https://wingware.com/pub/wing-101/11.0.6.0/wing-101-11.0.6.0-win.zip",
-    "hash": "55ff89d9b12115c666eaa67e656aa88e672e7d6e383c46d2cde2d946c72653a9",
-    "extract_dir": "Wing 101 11.0.6",
+    "url": "https://wingware.com/pub/wing-101/11.0.7.0/wing-101-11.0.7.0-win.zip",
+    "hash": "c8f24bd2f7361cd1636e6b7845fc8c35b1d73aacd8cb97fe7de4fbb5a0926c35",
+    "extract_dir": "Wing 101 11.0.7",
     "bin": "bin\\wing-101.exe",
     "shortcuts": [
         [
