@@ -1,12 +1,12 @@
 {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "description": "An open source CDC command-line tool that offers Postgres replication support with DDL changes to any provided target.",
     "homepage": "https://github.com/xataio/pgstream",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xataio/pgstream/releases/download/v0.9.3/pgstream.win.amd64.exe#/pgstream.exe",
-            "hash": "fa67b0491a6a28589de0e24c1509c551242056a1c877a62a125137be36cd683a"
+            "url": "https://github.com/xataio/pgstream/releases/download/v0.9.4/pgstream.win.amd64.exe#/pgstream.exe",
+            "hash": "c82705b8ae11037cac7b77f0f15693987a1b9914f9b6a1b398870fc8a4af85e8"
         }
     },
     "bin": "pgstream.exe",
