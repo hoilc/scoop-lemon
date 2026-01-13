@@ -1,11 +1,11 @@
 {
-    "version": "1.13",
+    "version": "1.14",
     "description": "A plugin for KeePass 2.x which makes several dialogs resizable.",
     "homepage": "https://keepass.info/extensions/v2/keeresize/",
     "license": "Liteware",
     "depends": "extras/keepass",
-    "url": "https://keepass.info/extensions/v2/keeresize/KeeResize-1.13.zip",
-    "hash": "105fcd1c65c5ee24cfe1bcfa73fd98830d928b5c0e14060ed61a1cf6f452a56e",
+    "url": "https://keepass.info/extensions/v2/keeresize/KeeResize-1.14.zip",
+    "hash": "f8607d6060b44c778a08b9a7e6349c8409de7094230b11fe12accd408d3499de",
     "checkver": {
         "regex": "KeeResize-([\\d.]+).zip"
     },
