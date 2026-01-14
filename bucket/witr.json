@@ -1,16 +1,16 @@
 {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Why is this running?",
     "homepage": "https://github.com/pranshuparmar/witr",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pranshuparmar/witr/releases/download/v0.2.3/witr-windows-amd64.zip",
-            "hash": "d2814831dd44cb673552d64458f79beacad720e9b8c31ae02d4b5c18abaf6157"
+            "url": "https://github.com/pranshuparmar/witr/releases/download/v0.2.4/witr-windows-amd64.zip",
+            "hash": "709f3e09f4f9a0925cac9e980ef1404e9d7de29e86fe4300231e1222307ce406"
         },
         "arm64": {
-            "url": "https://github.com/pranshuparmar/witr/releases/download/v0.2.3/witr-windows-arm64.zip",
-            "hash": "e09c4d62215824b105d8c1735bc413cb432b7f70adb4fea6e10b5bf76701aa54"
+            "url": "https://github.com/pranshuparmar/witr/releases/download/v0.2.4/witr-windows-arm64.zip",
+            "hash": "b79218083af465949ef18249b937a0a84a047b57c93d606be0797215e3b48148"
         }
     },
     "bin": "witr.exe",
