@@ -1,16 +1,16 @@
 {
-    "version": "0.17.2",
+    "version": "0.18.3",
     "description": "A terminal-based REST/GraphQL/gRPC/WebSocket/SSE client.",
     "homepage": "https://github.com/unkn0wn-root/resterm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.17.2/resterm_Windows_x86_64.exe#/resterm.exe",
-            "hash": "1d01eef4687f7739ebe91a98670c5a0458156eee651bde9eebd6ff2de9b6d283"
+            "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.18.3/resterm_Windows_x86_64.exe#/resterm.exe",
+            "hash": "cee7044fb7146c192ce847082649b4754dbf3b21c15c87903e9a73e11a769488"
         },
         "arm64": {
-            "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.17.2/resterm_Windows_arm64.exe#/resterm.exe",
-            "hash": "81a3d0962953c71b73c4377d61de25afe25049c743531d30045a11a54494fd59"
+            "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.18.3/resterm_Windows_arm64.exe#/resterm.exe",
+            "hash": "404c56feffd1afbdfb85311b9adfe1028626d69be867309e6a780f600c840af0"
         }
     },
     "bin": "resterm.exe",
