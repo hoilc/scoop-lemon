@@ -1,0 +1,22 @@
+{
+    "version": "1.0.1",
+    "description": "Quickly spot-check any USB mass storage drive for fraudulent deliberately missing storage.",
+    "homepage": "https://www.grc.com/validrive.htm",
+    "license": "Freeware",
+    "url": "https://www.grc.com/files/validrive.exe",
+    "hash": "382041665c4670222b8b2600df1e3f4ec97d2b24b071d0f94e503e53b0ad19a4",
+    "shortcuts": [
+        [
+            "validrive.exe",
+            "ValiDrive"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.grc.com/validrive/version-history.htm",
+        "regex": ">v([\\d.]+)<",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://www.grc.com/files/validrive.exe"
+    }
+}
