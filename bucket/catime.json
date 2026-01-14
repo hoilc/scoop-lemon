@@ -1,0 +1,23 @@
+{
+    "version": "1.4.0",
+    "description": "An ultra-lightweight countdown and Pomodoro tool with a clean transparent interface, rich customization, powerful shortcuts, and almost no resource usage.",
+    "homepage": "https://github.com/vladelaina/Catime",
+    "license": "Apache-2.0",
+    "url": "https://github.com/vladelaina/Catime/releases/download/v1.4.0/catime_1.4.0.exe#/catime.exe",
+    "hash": "55e60a358965b55fa423d0a0689774823931369816c61957b28733fae4e70457",
+    "shortcuts": [
+        [
+            "catime.exe",
+            "Catime"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Catime\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Catime is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\Catime', and will be purged during uninstallation."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/vladelaina/Catime/releases/download/v$version/catime_$version.exe#/catime.exe"
+    }
+}
