@@ -1,6 +1,6 @@
 {
     "##": "#updateManually",
-    "version": "2024112819",
+    "version": "10.26.1.1223",
     "description": "简易的桌面硬件信息显示工具",
     "homepage": "http://bbs.wuyou.net/forum.php?mod=viewthread&tid=427978",
     "license": "Freeware",
@@ -19,8 +19,8 @@
             }
         }
     },
-    "url": "https://scoop-lemon.tari.xyz/hosted/winosinfo/WinosInfo_2024112819.7z",
-    "hash": "d3180854e1c55538e56e925832513205fa5d13ede7c369231a7c485d94c014de",
+    "url": "https://scoop-lemon.tari.xyz/hosted/winosinfo/WinosInfo_10.26.1.1223.7z",
+    "hash": "33a3bcb25466da4745d132b91f042992d6b298b487a751bf78c8a716ea8f5671",
     "shortcuts": [
         [
             "WinosInfo.exe",
