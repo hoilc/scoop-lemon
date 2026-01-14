@@ -16,7 +16,7 @@
             "oPDF"
         ]
     ],
-    "notes": "免费版只不支持批量处理和命令行执行",
+    "notes": "免费版不支持批量处理和命令行执行",
     "checkver": {
         "url": "https://scoop-lemon.tari.xyz/hosted/opdf/latest.yml",
         "regex": "version: ([\\d.]+)"
