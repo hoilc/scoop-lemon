@@ -1,0 +1,32 @@
+{
+    "version": "0.0.11",
+    "description": "A native whiteboard application.",
+    "homepage": "https://github.com/pickle-prick/ink",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pickle-prick/ink/releases/download/v0.0.11/ink_win_x64.zip",
+            "hash": "98f44b4d988afa18a34325483aa73fdf9a6aa1216cce6da1b907befa82f59e12"
+        }
+    },
+    "shortcuts": [
+        [
+            "ink.exe",
+            "Ink"
+        ]
+    ],
+    "post_install": "if (Test-Path \"$persist_dir\\backup\") { Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.tyml', '*.bak' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.tyml', '*.bak' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "url": "https://github.com/pickle-prick/ink/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pickle-prick/ink/releases/download/v$version/ink_win_x64.zip"
+            }
+        }
+    }
+}
