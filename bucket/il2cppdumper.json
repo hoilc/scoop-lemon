@@ -1,0 +1,25 @@
+{
+    "version": "6.7.46",
+    "description": "A versatile reverse engineering tool designed specifically for handling Unity's il2cpp binaries.",
+    "homepage": "https://github.com/Perfare/Il2CppDumper",
+    "license": "MIT",
+    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v6.7.46/Il2CppDumper-win-v6.7.46.zip",
+    "hash": "f5fc60dfc5c034c1ff3fc651514416ebd47658a63493207734537fd25fa2dea2",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Remove-Item -Force \"$dir\\Il2CppDumper-x86.exe\" -ErrorAction SilentlyContinue"
+        },
+        "32bit": {
+            "pre_install": [
+                "Remove-Item -Force \"$dir\\Il2CppDumper.exe\" -ErrorAction SilentlyContinue",
+                "Rename-Item -Path \"$dir\\Il2CppDumper-x86.exe\" -NewName 'Il2CppDumper.exe'"
+            ]
+        }
+    },
+    "persist": "config.json",
+    "bin": "Il2CppDumper.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v$version/Il2CppDumper-win-v$version.zip"
+    }
+}
