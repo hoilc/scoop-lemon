@@ -1,0 +1,31 @@
+{
+    "##": "#updateManually",
+    "version": "2.0.60106",
+    "description": "专业的PDF水印分析处理工具",
+    "homepage": "https://www.52pojie.cn/thread-2084475-1-1.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/opdf/oPDF_v2.0.60106.rar",
+            "hash": "4bc4ce8f9d20b312d0fdf7a604fbee62ebb49ccdfc5613406f783cb9f24eb2c0"
+        }
+    },
+    "shortcuts": [
+        [
+            "oPDF.exe",
+            "oPDF"
+        ]
+    ],
+    "notes": "免费版不支持批量处理和命令行执行",
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/opdf/latest.yml",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/opdf/oPDF_v$version.rar"
+            }
+        }
+    }
+}
