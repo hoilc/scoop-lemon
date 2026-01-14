@@ -1,0 +1,33 @@
+{
+    "version": "0.0.4",
+    "description": "A multiplatform tracking client based on Dantotsu.",
+    "homepage": "https://github.com/aayush2622/Dartotsu",
+    "license": {
+        "identifier": "UPL",
+        "url": "https://raw.githubusercontent.com/aayush2622/Dartotsu/refs/heads/main/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aayush2622/Dartotsu/releases/download/v0.0.4/Dartotsu-x86_64-0.0.4-Installer.exe",
+            "hash": "1374c679235cefaa8896d1463a086f69852b91b1a1c2e9dbc125b792a72200f2"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Dartotsu.exe",
+            "Dartotsu"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/aayush2622/Dartotsu/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aayush2622/Dartotsu/releases/download/v$version/Dartotsu-x86_64-$version-Installer.exe"
+            }
+        }
+    }
+}
