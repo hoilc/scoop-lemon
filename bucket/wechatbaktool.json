@@ -5,8 +5,9 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SuxueCode/WechatBakTool/releases/download/v0.9.7.6/WechatBakTool.zip",
-            "hash": "8387dd257edb2279651e42f8ead2b8e9c61e05995cd1ec84ef5b1ccea791a890"
+            "url": "https://scoop-lemon.tari.xyz/hosted/wechatbaktool/WechatBakTool_0.9.7.6.zip",
+            "extract_dir": "微信聊天备份工具WechatBakTool_0.9.7.6\\WechatBakTool_0.9.7.6",
+            "hash": "21b1c80826a1973ab0036e19d09e09b21e7d925d7c9cf29718b1b0edb9ae7bba"
         }
     },
     "shortcuts": [
@@ -15,12 +16,5 @@
             "WechatBakTool"
         ]
     ],
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/SuxueCode/WechatBakTool/releases/download/v$version/WechatBakTool.zip"
-            }
-        }
-    }
+    "notes": "由于收到了腾讯（Tencent）向 GitHub 提交的 DMCA 投诉，为尊重知识产权及遵守相关的法律法规，作者已于2026年1月6日按 GitHub 标准对仓库内容进行整改，停止相关功能的维护"
 }
