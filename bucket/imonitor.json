@@ -1,16 +1,16 @@
 {
-    "version": "2.5.0",
+    "version": "20250703",
     "description": "iMonitor (冰镜) is a endpoint behavior monitoring and analysis software based on iMonitorSDK.",
     "homepage": "https://imonitorsdk.com/imonitor",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://imonitorsdk.com/publish/iMonitor64.exe#/dl.7z",
-            "hash": "05733f27baf10ff4aec7d9399e6595f6b431e05051cb1662cf46b3ed9c314b33"
+            "url": "https://trustsing.com/publish/iMonitor64.exe#/dl.7z",
+            "hash": "3a404d2ec63fcf88966f82adf69e71e110b93ecbde765957b4aa7a22adde32e9"
         },
         "32bit": {
-            "url": "https://imonitorsdk.com/publish/iMonitor32.exe#/dl.7z",
-            "hash": "05733f27baf10ff4aec7d9399e6595f6b431e05051cb1662cf46b3ed9c314b33"
+            "url": "https://trustsing.com/publish/iMonitor32.exe#/dl.7z",
+            "hash": "8e560ce8e03e29b735d46d4d06a2cf0e27e7a82ada98fe9c20b4323eef8973f3"
         }
     },
     "bin": "iMonitor.exe",
@@ -22,15 +22,20 @@
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
     "checkver": {
-        "github": "https://github.com/wecooperate/iMonitor"
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://trustsing.com/publish/iMonitor64.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "Write-Host ([DateTime][String]$detail.Headers.'Last-Modified')",
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().AddHours(8).ToString(\"yyyyMMdd\") }"
+        ],
+        "regex": "(\\d{8})"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://imonitorsdk.com/publish/iMonitor64.exe#/dl.7z"
+                "url": "https://trustsing.com/publish/iMonitor64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://imonitorsdk.com/publish/iMonitor32.exe#/dl.7z"
+                "url": "https://trustsing.com/publish/iMonitor32.exe#/dl.7z"
             }
         }
     }
