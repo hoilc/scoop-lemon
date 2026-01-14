@@ -1,39 +1,86 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "1.3.8",
+    "version": "1.3.9",
     "description": "音流 (Stream Music) 是一款 NAS 音乐播放器，可以连接到 Subsonic/Navidrome/Jellyfin/Emby/AudioStation 等音乐服务",
     "homepage": "https://music.aqzscn.cn/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gitbobobo/StreamMusic/releases/download/v1.3.8/stream_music_1.3.8.4.msix#/stream_music.msix",
-            "hash": "7954fda348576cb5df094e21aedc462bf66f5104b3b6b82c1b61e3773e9a50a3"
+            "url": "https://github.com/gitbobobo/StreamMusic/releases/download/v1.3.9/musiver_1.3.9.3.msix#/stream_music.msix",
+            "hash": "c6a886dc93a2002b3565dde4212cc5acd2fd5f57da614007490a70fb9d894e41"
         }
     },
-    "pre_install": [
-        "if ($env:CI -eq \"true\") { Return }",
-        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
-        "Add-AppxPackage \"$dir\\stream_music.msix\" -ForceTargetApplicationShutdown -AllowUnsigned"
-    ],
-    "pre_uninstall": [
-        "if ($env:CI -eq \"true\") { Return }",
-        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
-        "$package = Get-AppxPackage 'Zhengbo.2255273EDB8A'",
-        "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
-        "if ($purge) {",
-        "    Remove-AppxPackage $package",
-        "} else {",
-        "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
-        "}"
-    ],
+    "installer": {
+        "script": [
+            "if ($env:CI -eq \"true\") { Return }",
+            "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+            "$msixFile = Get-ChildItem \"$dir\\*.msix\" | Select-Object -First 1",
+            "",
+            "try {",
+            "    Add-AppxPackage -Path $msixFile.FullName -ForceTargetApplicationShutdown -AllowUnsigned -ErrorAction Stop",
+            "} catch {",
+            "    Write-Host 'Installation failed, attempting to import certificate...' -ForegroundColor Yellow",
+            "    $signature = Get-AuthenticodeSignature -FilePath $msixFile.FullName",
+            "    $certificate = $signature.SignerCertificate",
+            "    ",
+            "    $trusted = $false",
+            "    Get-ChildItem 'Cert:\\LocalMachine\\Root' | ForEach-Object {",
+            "        if ($_.Thumbprint -eq $certificate.Thumbprint) { $trusted = $true }",
+            "    }",
+            "    ",
+            "    if (!$trusted) {",
+            "        if (!(is_admin)) { error \"$app requires admin rights to import certificate\"; break }",
+            "        Write-Host 'Importing certificate...' -ForegroundColor Yellow",
+            "        $rootStore = Get-Item 'cert:\\LocalMachine\\Root'",
+            "        $rootStore.Open('ReadWrite')",
+            "        $rootStore.Add($certificate)",
+            "        $rootStore.Close()",
+            "    } else {",
+            "        Write-Host 'Certificate already exists, skipping import...' -ForegroundColor Yellow",
+            "    }",
+            "    ",
+            "    Write-Host 'Retrying installation...' -ForegroundColor Yellow",
+            "    Add-AppxPackage -Path $msixFile.FullName -ForceTargetApplicationShutdown",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if ($env:CI -eq \"true\") { Return }",
+            "if ($cmd -eq \"update\") { Write-Host \"Skipping uninstallation because of update operation...\" ; Return }",
+            "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+            "$package = Get-AppxPackage 'Zhengbo.2255273EDB8A'",
+            "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
+            "if ($purge) {",
+            "    Remove-AppxPackage $package",
+            "    $msixFile = Get-ChildItem \"$dir\\*.msix\" -ErrorAction SilentlyContinue | Select-Object -First 1",
+            "    if ($msixFile) {",
+            "        $signature = Get-AuthenticodeSignature -FilePath $msixFile.FullName",
+            "        $certificate = $signature.SignerCertificate",
+            "        $rootCertificate = Get-ChildItem 'Cert:\\LocalMachine\\Root' | Where-Object { $_.Thumbprint -eq $certificate.Thumbprint }",
+            "        if ($rootCertificate) {",
+            "            Write-Host \"\" -ForegroundColor Yellow",
+            "            Write-Host \"Package certificate found in trusted root store:\" -ForegroundColor Yellow",
+            "            Write-Host \"  Subject: $($rootCertificate.Subject)\" -ForegroundColor Yellow",
+            "            Write-Host \"  Thumbprint: $($rootCertificate.Thumbprint)\" -ForegroundColor Yellow",
+            "            Write-Host \"\" -ForegroundColor Yellow",
+            "            Write-Host \"To remove the certificate, run the following command as administrator:\" -ForegroundColor Yellow",
+            "            Write-Host \"  Get-ChildItem 'Cert:\\LocalMachine\\Root' | Where-Object { `$_`.Thumbprint -eq '$($rootCertificate.Thumbprint)' } | Remove-Item\" -ForegroundColor Cyan",
+            "        }",
+            "    }",
+            "} else {",
+            "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
+            "}"
+        ]
+    },
     "checkver": {
         "url": "https://api.github.com/repos/gitbobobo/StreamMusic/releases/latest",
-        "regex": "/releases/download/v([\\d.]+?)/stream_music_(?<full>[\\d.]+?).msix"
+        "regex": "/releases/download/v([\\d.]+?)/musiver_(?<full>[\\d.]+?).msix"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/gitbobobo/StreamMusic/releases/download/v$version/stream_music_$matchFull.msix#/stream_music.msix"
+                "url": "https://github.com/gitbobobo/StreamMusic/releases/download/v$version/musiver_$matchFull.msix#/stream_music.msix"
             }
         }
     }
