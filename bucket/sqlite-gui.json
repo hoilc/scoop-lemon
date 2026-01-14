@@ -1,0 +1,40 @@
+{
+    "version": "1.10.0",
+    "description": "A lightweight SQLite editor for Windows.",
+    "homepage": "https://github.com/little-brother/sqlite-gui",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.10.0/sqlite-gui-1.10.0-x64.zip",
+            "hash": "c25bdbd3f0455e2b854ac5d54f0b4662cdb9063e1ff121dfb8655b4b9c91b59b"
+        },
+        "32bit": {
+            "url": "https://github.com/little-brother/sqlite-gui/releases/download/1.10.0/sqlite-gui-1.10.0-x32.zip",
+            "hash": "98b0636f8244c6b723c20f3885ea0f2dab74a342f747d94b0ff49bed2ec7a204"
+        }
+    },
+    "bin": "sqlite-gui.exe",
+    "shortcuts": [
+        [
+            "sqlite-gui.exe",
+            "sqlite-gui"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\prefs.sqlite\")) { Set-Content -Encoding ASCII -Path \"$dir\\prefs.sqlite\" -Value $null }",
+    "persist": [
+        "prefs.sqlite",
+        "plugins",
+        "extensions"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/little-brother/sqlite-gui/releases/download/$version/sqlite-gui-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/little-brother/sqlite-gui/releases/download/$version/sqlite-gui-$version-x32.zip"
+            }
+        }
+    }
+}
