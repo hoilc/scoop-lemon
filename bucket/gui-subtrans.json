@@ -1,0 +1,32 @@
+{
+    "version": "1.5.7",
+    "description": "GUI for LLM-Subtrans, an open source subtitle translator that uses LLMs as a translation service.",
+    "homepage": "https://github.com/machinewrapped/llm-subtrans",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/machinewrapped/llm-subtrans/releases/download/v1.5.7/gui-subtrans-1.5.7.zip",
+            "hash": "d2b1484ffe150e2911604495bc03b1f09c0082d6e14ab3d05f1d64ff73b69dbe"
+        }
+    },
+    "extract_dir": "gui-subtrans",
+    "shortcuts": [
+        [
+            "gui-subtrans.exe",
+            "GUI-Subtrans"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\MachineWrapped\\LLMSubtrans\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "GUI-Subtrans is NOT portable.",
+        "Settings are stored in '%APPDATA%\\MachineWrapped\\LLMSubtrans', and can be purged using 'scoop uninstall --purge gui-subtrans'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/machinewrapped/llm-subtrans/releases/download/v$version/gui-subtrans-$version.zip"
+            }
+        }
+    }
+}
