@@ -19,7 +19,7 @@
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\MachineWrapped\\LLMSubtrans\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "GUI-Subtrans is NOT portable.",
-        "Settings are stored in '%APPDATA%\\MachineWrapped\\LLMSubtrans', and will be purged during uninstallation."
+        "Settings are stored in '%APPDATA%\\MachineWrapped\\LLMSubtrans', and can be purged using 'scoop uninstall --purge gui-subtrans'."
     ],
     "checkver": "github",
     "autoupdate": {
