@@ -1,13 +1,13 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Analyze ELF binaries like a boss.",
     "homepage": "https://binsider.dev/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/orhun/binsider/releases/download/v0.3.0/binsider--x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/orhun/binsider/releases/download/v0.3.1/binsider--x86_64-pc-windows-msvc.zip",
             "extract_dir": "binsider-",
-            "hash": "9ffc8ea5b526133ce3567d8a6953ea881283876365afb1332f9b8dffa65aa4ac"
+            "hash": "c1e90b484aa931fdd110eb84f127d63ce3f042acfb7bf7513a5156a95c14c21f"
         }
     },
     "bin": "binsider.exe",
