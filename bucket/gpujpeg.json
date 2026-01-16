@@ -9,6 +9,7 @@
             "hash": "b203f190dcb5c9fed64da3bfbdcbd709dd0d0ee7557026bb9483803bc976a2b5"
         }
     },
+    "extract_dir": "GPUJPEG",
     "bin": "bin\\gpujpegtool.exe",
     "checkver": "github",
     "autoupdate": {
