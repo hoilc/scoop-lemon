@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "description": "A Git LFS custom transfer agent that implements upload and download of files using the Xet protocol.",
+    "homepage": "https://huggingface.co/docs/hub/xet/index",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/huggingface/xet-core/releases/download/git-xet-v0.2.0/git-xet-windows-x86_64.zip",
+            "hash": "070d91735c29dfadb3aa560687d5f803f3ff111a7d7df736a12d15aca058b111"
+        }
+    },
+    "bin": "git-xet.exe",
+    "checkver": {
+        "url": "https://github.com/huggingface/xet-core/releases.atom",
+        "regex": "Repository/\\d+/git-xet-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/huggingface/xet-core/releases/download/git-xet-v$version/git-xet-windows-x86_64.zip"
+            }
+        }
+    }
+}
