@@ -1,10 +1,10 @@
 {
-    "version": "5.0.0",
+    "version": "5.0.1",
     "description": "多平台hosts修改，将对应服务域名重定向到更高可用性的服务器地址",
     "homepage": "https://www.dogfight360.com/blog/18627/",
     "license": "Freeware",
-    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/01/UsbEAm_Hosts_Editor_V5.0.0.zip",
-    "hash": "0408b3310e04bef8d19bfd28bf3e2170de5ffe903694bf2f25a9f239acd9c733",
+    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/01/UsbEAm_Hosts_Editor_V5.0.1.zip",
+    "hash": "366e6811060e7a7f2fe8379694ab2d057a21a9a0af64cce84525eb3f5554b38c",
     "extract_dir": "UsbEAm Hosts Editor",
     "shortcuts": [
         [
