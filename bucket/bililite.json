@@ -1,24 +1,24 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "4.8.11",
+    "version": "4.8.12",
     "description": "第三方哔哩哔哩UWP客户端",
     "homepage": "https://github.com/ywmoyue/biliuwp-lite",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.11/BiliLite.Packages_4.8.11.0_x64.zip",
-            "hash": "46abc3ef69972a0d1ba70c070fd30f686149c5c30d568facd76697ae2e91b0c6",
-            "extract_dir": "BiliLite.Packages_4.8.11.0_x64_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.12/BiliLite.Packages_4.8.12.0_x64.zip",
+            "hash": "063d7dee3e842477798be1a749c92c24689ae30b567698c5e728e257ce43e064",
+            "extract_dir": "BiliLite.Packages_4.8.12.0_x64_Test"
         },
         "32bit": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.11/BiliLite.Packages_4.8.11.0_x86.zip",
-            "hash": "31abda099c3ad0e832b77e7bb0d25e853f542f962ac189e0a81906f6da101110",
-            "extract_dir": "BiliLite.Packages_4.8.11.0_x86_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.12/BiliLite.Packages_4.8.12.0_x86.zip",
+            "hash": "c222cdcee97a63a761868ec87ed774fffe81c68512f00df8e80271c3eaa6833c",
+            "extract_dir": "BiliLite.Packages_4.8.12.0_x86_Test"
         },
         "arm64": {
-            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.11/BiliLite.Packages_4.8.11.0_ARM64.zip",
-            "hash": "25c02c1c6b854e2a03f286e252430e871033c9b124217825b39cca85df4cc547",
-            "extract_dir": "BiliLite.Packages_4.8.11.0_ARM64_Test"
+            "url": "https://github.com/ywmoyue/biliuwp-lite/releases/download/v4.8.12/BiliLite.Packages_4.8.12.0_ARM64.zip",
+            "hash": "03363d087a111d15ac9d5d425bf55051fcc8689fed116446d7f3151a7626566b",
+            "extract_dir": "BiliLite.Packages_4.8.12.0_ARM64_Test"
         }
     },
     "installer": {
@@ -54,7 +54,7 @@
             "    Add-AppxPackage -Path $msixFile.FullName -ForceTargetApplicationShutdown",
             "}"
         ]
-    } ,
+    },
     "uninstaller": {
         "script": [
             "if ($env:CI -eq \"true\") { Return }",
@@ -83,7 +83,7 @@
             "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
             "}"
         ]
-    } ,
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
