@@ -1,16 +1,16 @@
 {
-    "version": "0.62.2",
+    "version": "0.63.0",
     "description": "Media ripper for coomer and kemono.",
     "homepage": "https://github.com/APT37/kumono",
     "license": "MIT-0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/APT37/kumono/releases/download/0.62.2/kumono-windows-x64.exe#/kumono.exe",
-            "hash": "d7a3761225b2896f5ff9840272c0fe1e0372e639df371cce7c010c13e904c54e"
+            "url": "https://github.com/APT37/kumono/releases/download/0.63.0/kumono-windows-x64.exe#/kumono.exe",
+            "hash": "93da93dd86f6762b64c252bc27bc7b106553d655adbbcbed4549cb6e1bc884e7"
         },
         "arm64": {
-            "url": "https://github.com/APT37/kumono/releases/download/0.62.2/kumono-windows-arm64.exe#/kumono.exe",
-            "hash": "af3304384c753aea5570c78bc6b96fea73e49e55b32a7de701abcc9e8585905b"
+            "url": "https://github.com/APT37/kumono/releases/download/0.63.0/kumono-windows-arm64.exe#/kumono.exe",
+            "hash": "f8f803cf1c9845dd272e2a6de57a5568defc749d32ff5eb066d33ba97d1547e3"
         }
     },
     "bin": "kumono.exe",
