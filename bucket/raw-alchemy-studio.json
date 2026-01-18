@@ -1,12 +1,12 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Apply cinematic LUTs to RAW photos with mathematical precision / 以数学精度将电影级 LUT 应用于 RAW 照片",
     "homepage": "https://github.com/shenmintao/Raw-Alchemy",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shenmintao/Raw-Alchemy/releases/download/studio-v0.3.2/RawAlchemyStudio-studio-v0.3.2-windows.exe#/RawAlchemyStudio.exe",
-            "hash": "af6d517f128a0dbc113623802ca814fd5e43bb3409137174b63774dc33715684"
+            "url": "https://github.com/shenmintao/Raw-Alchemy/releases/download/studio-v0.3.3/RawAlchemyStudio-studio-v0.3.3-windows.exe#/RawAlchemyStudio.exe",
+            "hash": "cedd3f4f3419abea9ebb150f6ff050786e35417a6aa580b904d678d8ccfab367"
         }
     },
     "shortcuts": [
