@@ -1,13 +1,13 @@
 {
-    "version": "3.4.0",
+    "version": "3.5.2",
     "description": "Generate a 16 color scheme based on an image.",
     "homepage": "https://codeberg.org/explosion-mental/wallust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/explosion-mental/wallust/releases/download/3.4.0/wallust-3.3.0-x86_64-pc-windows-gnu-with-assets.tar.gz",
-            "extract_dir": "wallust-3.3.0-x86_64-pc-windows-gnu-with-assets",
-            "hash": "b8d37b6c97d2fd9034117c05ff9ddb8033e057c484698227c24fc4a3254e043d"
+            "url": "https://codeberg.org/explosion-mental/wallust/releases/download/3.5.2/wallust-3.5.2-x86_64-pc-windows-gnu-with-assets.tar.gz",
+            "extract_dir": "wallust-3.5.2-x86_64-pc-windows-gnu-with-assets",
+            "hash": "fd0c5d640fa1669df715919089090c96b5e0ec464363ab2dc62bc9e3028e2f6a"
         }
     },
     "bin": "wallust.exe",
