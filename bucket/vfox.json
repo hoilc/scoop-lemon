@@ -1,23 +1,23 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A cross-platform tool for managing SDK versions, extendable via plugins.",
     "homepage": "https://vfox.lhan.me/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.3/vfox_1.0.3_windows_x86_64.zip",
-            "extract_dir": "vfox_1.0.3_windows_x86_64",
-            "hash": "38b99fde6c9bc0e1f30a7d4c2670e1ec9bd78a46f88e8946bcc410da8a049954"
+            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.4/vfox_1.0.4_windows_x86_64.zip",
+            "extract_dir": "vfox_1.0.4_windows_x86_64",
+            "hash": "b5a3a5b69cb0418e65e59f62d8d157c24d1fa726dc044182d67622b438af0039"
         },
         "32bit": {
-            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.3/vfox_1.0.3_windows_i386.zip",
-            "extract_dir": "vfox_1.0.3_windows_i386",
-            "hash": "2bcc27916859b1af42cc470def82f1cf09338ff28189bad6e652b53c1ce503e3"
+            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.4/vfox_1.0.4_windows_i386.zip",
+            "extract_dir": "vfox_1.0.4_windows_i386",
+            "hash": "9fb008a080dd1c035d1a7efbeb515ab58785d73b3fe6dc772fecb14ce049db29"
         },
         "arm64": {
-            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.3/vfox_1.0.3_windows_aarch64.zip",
-            "extract_dir": "vfox_1.0.3_windows_aarch64",
-            "hash": "9e6c270bc47db2f8ed5ad55999b69f942c723d6420bc389138648bb474e67eda"
+            "url": "https://github.com/version-fox/vfox/releases/download/v1.0.4/vfox_1.0.4_windows_aarch64.zip",
+            "extract_dir": "vfox_1.0.4_windows_aarch64",
+            "hash": "bfa435fff5de8a2023f6b347bafc2f014ff624a3a3abd5e4300353676252ebb3"
         }
     },
     "bin": "vfox.exe",
