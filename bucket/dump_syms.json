@@ -1,12 +1,12 @@
 {
-    "version": "2.3.5",
+    "version": "2.3.6",
     "description": "Rewrite of breakpad dump_syms tools in Rust.",
     "homepage": "https://github.com/mozilla/dump_syms",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.5/dump_syms-x86_64-pc-windows-msvc.zip",
-            "hash": "8e4c2ec0ad171837c4bd5bd0aa20b8dd70679f1f3a61563813e76202c18225e6"
+            "url": "https://github.com/mozilla/dump_syms/releases/download/v2.3.6/dump_syms-x86_64-pc-windows-msvc.zip",
+            "hash": "0f45ddad446cc268c5c8ece0e86474f31219b1760f11a6222f7fa61bb4da712c"
         }
     },
     "bin": "dump_syms.exe",
