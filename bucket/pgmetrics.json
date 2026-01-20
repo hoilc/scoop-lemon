@@ -1,0 +1,28 @@
+{
+    "version": "1.19.0",
+    "description": "Collect and display information and stats from a running PostgreSQL server.",
+    "homepage": "https://pgmetrics.io",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rapidloop/pgmetrics/releases/download/v1.19.0/pgmetrics_1.19.0_windows_amd64.zip",
+            "extract_dir": "pgmetrics_1.19.0_windows_amd64",
+            "hash": "38add9b728065155572d68ec06c1c480d2f8bf102e9aabf6f59032cd64c26286"
+        }
+    },
+    "bin": "pgmetrics.exe",
+    "checkver": {
+        "github": "https://github.com/rapidloop/pgmetrics"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rapidloop/pgmetrics/releases/download/v$version/pgmetrics_$version_windows_amd64.zip",
+                "extract_dir": "pgmetrics_$version_windows_amd64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/pgmetrics_$version_checksums.txt"
+        }
+    }
+}
