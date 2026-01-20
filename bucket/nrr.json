@@ -1,16 +1,16 @@
 {
-    "version": "0.10.3",
+    "version": "0.10.4",
     "description": "A minimal, blazing fast npm scripts runner.",
     "homepage": "https://github.com/ryanccn/nrr",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ryanccn/nrr/releases/download/v0.10.3/nrr-x86_64-pc-windows-msvc.zip",
-            "hash": "8fc78081857016e6a9ea34964b1965c8b640613cf923d193f1457e34a69178b7"
+            "url": "https://github.com/ryanccn/nrr/releases/download/v0.10.4/nrr-x86_64-pc-windows-msvc.zip",
+            "hash": "99fe26dfe38f9e7ca66c1b6be97e946af416eb275e696e006dbc665e36afcca7"
         },
         "arm64": {
-            "url": "https://github.com/ryanccn/nrr/releases/download/v0.10.3/nrr-aarch64-pc-windows-msvc.zip",
-            "hash": "01c44d4e0feb61fa7a027cfa2c8c59ccdf5d55a67f32aba60c389a6e3e6c6cc8"
+            "url": "https://github.com/ryanccn/nrr/releases/download/v0.10.4/nrr-aarch64-pc-windows-msvc.zip",
+            "hash": "2e7a29dc12baccec34c8acd64d7c872689c58247aeda4d5cebca7ba4c2c61284"
         }
     },
     "bin": "nrr.exe",
