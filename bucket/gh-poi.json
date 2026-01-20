@@ -1,20 +1,20 @@
 {
-    "version": "0.15.0",
+    "version": "0.15.1",
     "description": "A GitHub CLI extension that cleans up your local branches safely.",
     "homepage": "https://github.com/seachicken/gh-poi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.0/windows-amd64.exe#/gh-poi.exe",
-            "hash": "e84caaf11ebd493504cc2b9a8f88ee68aa7bbe474c3504ce3b0bc893f0dafbc4"
+            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.1/windows-amd64.exe#/gh-poi.exe",
+            "hash": "f38395b6ed4c560cf12a9d2111331c0ddfd2523f56703211648db22872cb9888"
         },
         "32bit": {
-            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.0/windows-386.exe#/gh-poi.exe",
-            "hash": "cc98529c23b2dd21ace5fb8c2c25665ad78f232d5033f883b78852d4de32cfb5"
+            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.1/windows-386.exe#/gh-poi.exe",
+            "hash": "77488b52ec9c66c18ad14cb6fdcb6ff3168c5e449d3f9f467d2d0e89eeeb9add"
         },
         "arm64": {
-            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.0/windows-arm64.exe#/gh-poi.exe",
-            "hash": "370a400892e0d7bb1ee842db1c7d5fbfd4aca26db1a4e4bbde6bb264fae2fc1c"
+            "url": "https://github.com/seachicken/gh-poi/releases/download/v0.15.1/windows-arm64.exe#/gh-poi.exe",
+            "hash": "b0ce036c95266399a0dd62a1649063a70dcf23ee25f68e07650a54254f09d30c"
         }
     },
     "bin": "gh-poi.exe",
