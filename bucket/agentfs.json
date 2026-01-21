@@ -1,0 +1,26 @@
+{
+    "version": "0.5.3",
+    "description": "A filesystem explicitly designed for AI agents.",
+    "homepage": "https://www.agentfs.ai",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tursodatabase/agentfs/releases/download/v0.5.3/agentfs-x86_64-pc-windows-msvc.zip",
+            "hash": "99b10a61b9ceb192ebb1d9178decc60086a903551c658c4bf580b9f198f0788c"
+        }
+    },
+    "bin": "agentfs.exe",
+    "checkver": {
+        "github": "https://github.com/tursodatabase/agentfs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tursodatabase/agentfs/releases/download/v$version/agentfs-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
