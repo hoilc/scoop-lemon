@@ -9,6 +9,7 @@
             "hash": "fe423edb7463c627b18099e0e0f8b96a11cfc53ffbc798e578d471aba1e4f1f3"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'harbor-cli' | Select-Object -First 1 | Rename-Item -NewName 'harbor-cli.exe'",
     "bin": "harbor-cli.exe",
     "checkver": "github",
     "autoupdate": {
