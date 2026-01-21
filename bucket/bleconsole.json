@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "A Windows command-line tool for interacting with Bluetooth LE devices.",
     "homepage": "https://github.com/sensboston/BLEConsole",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sensboston/BLEConsole/releases/download/v2.0.0/BLEConsole.exe",
-            "hash": "25b31e30890c2e0f15038b2608ae73eb493f9aaf86ac7e4100401fd940178b83"
+            "url": "https://github.com/sensboston/BLEConsole/releases/download/v2.1.0/BLEConsole.exe",
+            "hash": "9e36212803161314451158ab0ae117f63169cd00d35b26a147e1787fdb070068"
         }
     },
     "bin": "BLEConsole.exe",
