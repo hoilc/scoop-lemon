@@ -1,12 +1,12 @@
 {
-    "version": "1.12.4",
+    "version": "1.12.5",
     "description": "A binary patcher and editor with a TUI.",
     "homepage": "https://github.com/Etto48/HexPatch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Etto48/HexPatch/releases/download/v1.12.4/hex-patch-windows-latest.exe#/hexpatch.exe",
-            "hash": "2490b741e6f2fcd312f124b2ec737fbd5e5f337886d03f5a6dd509865c2502b0"
+            "url": "https://github.com/Etto48/HexPatch/releases/download/v1.12.5/hex-patch-windows-latest.exe#/hexpatch.exe",
+            "hash": "d5799f703c706ef122f3f8b55c2177fac4ce3fd12a88fda520b648c38c593b72"
         }
     },
     "bin": "hexpatch.exe",
