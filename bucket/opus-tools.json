@@ -1,10 +1,10 @@
 {
-    "version": "2025.12.17",
+    "version": "2026.01.21",
     "description": "(Unofficial Builds by Chocobo1) Command-line utilities to encode, inspect, and decode .opus files.",
     "homepage": "https://gitlab.xiph.org/xiph/opus-tools",
     "license": "BSD-2-Clause|GPL-2.0-only",
-    "url": "https://github.com/Chocobo1/opus-tools_win32-build/releases/download/2025.12.17/opus-tools.exe#/dl.7z",
-    "hash": "2a8cc64d5cce63f739c6a7d931c86112cc90e4d62795fa45cacdc49aec5d5df4",
+    "url": "https://github.com/Chocobo1/opus-tools_win32-build/releases/download/2026.01.21/opus-tools.exe#/dl.7z",
+    "hash": "6d37d529c7dfbb80e377a43f459a547452f20d4938153172bd5364ffd22e2154",
     "architecture": {
         "64bit": {
             "extract_dir": "opus-tools\\x64"
