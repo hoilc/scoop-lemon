@@ -1,0 +1,32 @@
+{
+    "version": "2.7.0",
+    "description": "A flexible GLSL and HLSL shader editor and IDE.",
+    "homepage": "https://github.com/houmain/gpupad",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/houmain/gpupad/releases/download/2.7.0/GPUpad-2.7.0-win64.msi",
+            "hash": "2412b797879510e8b988af6eed2252417ef0fff0f786b9e953de224cc59280fb"
+        }
+    },
+    "extract_dir": "GPUpad",
+    "shortcuts": [
+        [
+            "bin\\gpupad.exe",
+            "GPUpad"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\gpupad\", \"$env:LOCALAPPDATA\\gpupad\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "GPUpad is NOT portable.",
+        "Settings are stored in '%APPDATA%\\gpupad', and can be purged using 'scoop uninstall --purge gpupad'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/houmain/gpupad/releases/download/$version/GPUpad-$version-win64.msi"
+            }
+        }
+    }
+}
