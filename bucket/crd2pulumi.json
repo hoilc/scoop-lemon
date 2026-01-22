@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "Generate typed CustomResources from a Kubernetes CustomResourceDefinition.",
     "homepage": "https://github.com/pulumi/crd2pulumi",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pulumi/crd2pulumi/releases/download/v1.6.0/crd2pulumi-v1.6.0-windows-amd64.zip",
-            "hash": "5d409fdcc70179a61a197e0fb90823855213592cd246428d1af570703c0d5cec"
+            "url": "https://github.com/pulumi/crd2pulumi/releases/download/v1.6.1/crd2pulumi-v1.6.1-windows-amd64.zip",
+            "hash": "070919b408b6d04c0074dab78d59d2f08f09479bed6ecca946aa839646f07d23"
         }
     },
     "bin": "crd2pulumi.exe",
