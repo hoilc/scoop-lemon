@@ -1,0 +1,26 @@
+{
+    "version": "1.5.4",
+    "description": "A cross-platform software built on FFmpeg, Qt and BMF. It provides some easy-to-use tools for easily converting, editing and processing audio and video files.",
+    "homepage": "https://github.com/OpenConverterLab/OpenConverter",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenConverterLab/OpenConverter/releases/download/v1.5.4/OpenConverter_win64.zip",
+            "hash": "ed0be3b113e6acbc44735ae1fd7f1380f1c29078cfc7d00131b021fe52f3b30d"
+        }
+    },
+    "shortcuts": [
+        [
+            "OpenConverter.exe",
+            "OpenConverter"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/OpenConverterLab/OpenConverter/releases/download/v$version/OpenConverter_win64.zip"
+            }
+        }
+    }
+}
