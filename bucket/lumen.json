@@ -1,16 +1,16 @@
 {
-    "version": "2.18.0",
+    "version": "2.19.0",
     "description": "A command-line tool that uses AI to streamline your git workflow - from generating commit messages to explaining complex changes.",
     "homepage": "https://github.com/jnsahaj/lumen",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-2.18.0/lumen-2.18.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "268761d4a0049c511d76641515b842699cb6d1f50275d298162dbe360b054c40"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-2.19.0/lumen-2.19.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "97b63e61dc41c227f90c5c4bc728016e91cf294c542cdc8f706f2d7d33dc9417"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-2.18.0/lumen-2.18.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "e4d53ff96508de5baf33134674ad7b884c13d9583b42e739444f35ff67bfd9fa"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/lumen-2.19.0/lumen-2.19.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "77ded59c88c80c54829219c5aa40e64b2791e9ce860bae57616f723b776fadf2"
         }
     },
     "bin": "lumen.exe",
