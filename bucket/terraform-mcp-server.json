@@ -1,16 +1,16 @@
 {
-    "version": "0.3.3",
+    "version": "0.4.0",
     "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
     "homepage": "https://github.com/hashicorp/terraform-mcp-server",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.hashicorp.com/terraform-mcp-server/0.3.3/terraform-mcp-server_0.3.3_windows_amd64.zip",
-            "hash": "fc749c750c4b5b8d5f30bed74b501fea574f555fb32fd654eab09e1c68d03783"
+            "url": "https://releases.hashicorp.com/terraform-mcp-server/0.4.0/terraform-mcp-server_0.4.0_windows_amd64.zip",
+            "hash": "2de6320ac612d0a3cbf0ec395b0a592af92ff4c59752b49e2d844a022454e39b"
         },
         "32bit": {
-            "url": "https://releases.hashicorp.com/terraform-mcp-server/0.3.3/terraform-mcp-server_0.3.3_windows_386.zip",
-            "hash": "47becf659639814c0d4d8eeefcc515b8f1b1a5b8d43a88548f4d7007fa7630ce"
+            "url": "https://releases.hashicorp.com/terraform-mcp-server/0.4.0/terraform-mcp-server_0.4.0_windows_386.zip",
+            "hash": "2808ef9878134e799f7d472c41fcbaf0079ff11beb335c837f6a3798d24b2249"
         }
     },
     "bin": "terraform-mcp-server.exe",
