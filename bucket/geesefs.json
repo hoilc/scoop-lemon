@@ -1,12 +1,12 @@
 {
-    "version": "0.43.2",
+    "version": "0.43.3",
     "description": "A high-performance, POSIX-ish S3 (Yandex, Amazon) file system written in Go.",
     "homepage": "https://github.com/yandex-cloud/geesefs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yandex-cloud/geesefs/releases/download/v0.43.2/geesefs-win-x64.exe#/geesefs.exe",
-            "hash": "3f0df5c310387d8507937e4927050f52ac96bf44bff2d9e450566e9305dd5519"
+            "url": "https://github.com/yandex-cloud/geesefs/releases/download/v0.43.3/geesefs-win-x64.exe#/geesefs.exe",
+            "hash": "51edb0b64465438fd4806f95cead28b91ee11160e33658438ccdd3afd7b70691"
         }
     },
     "bin": "geesefs.exe",
