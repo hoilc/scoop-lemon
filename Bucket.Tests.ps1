@@ -147,7 +147,7 @@ Describe 'Changed manifests installation' {
     if ($changedFiles.Count -gt 0) {
         scoop config lastupdate (([System.DateTime]::Now).ToString('o')) # Disable scoop auto update when installing manifests
         Write-Host "Ensuring helpers..."
-        scoop install -g sudo 7zip innounp dark lessmsi # Install default apps for manifest manipultion / installation
+        scoop install -g sudo 7zip innounp dark lessmsi zstd # Install default apps for manifest manipultion / installation
         $7zipPath = Get-HelperPath -Helper 7zip
         Write-Host "7zip path: $7zipPath"
 
