@@ -1,20 +1,20 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "One code quality tool to rule them all.",
     "homepage": "https://github.com/houseabsolute/precious",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.1/precious-Windows-msvc-x86_64.zip",
-            "hash": "22f452a5559b81f4528e5cc3cc79263ca30d61af6c09e0b008c3816ff9d40760"
+            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.2/precious-Windows-msvc-x86_64.zip",
+            "hash": "9d683d1730e302c646ccb90a23d313e7a548c8b23b5abf7d24e19ff6befe763d"
         },
         "32bit": {
-            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.1/precious-Windows-msvc-i686.zip",
-            "hash": "3b509b459a7c877407323c32702341ccc3e0ffd7fa81ebcbad8dd6d1041f06cb"
+            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.2/precious-Windows-msvc-i686.zip",
+            "hash": "c3007bd531e48a57c6198aa265dba508d6ce64538f78a74361a3a9a978a382fb"
         },
         "arm64": {
-            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.1/precious-Windows-msvc-arm64.zip",
-            "hash": "ab697472c8ae492da07c537a43727bd8b31acaa0a0b0d601172fd88cfd2cee96"
+            "url": "https://github.com/houseabsolute/precious/releases/download/v0.10.2/precious-Windows-msvc-arm64.zip",
+            "hash": "03888ae6ad6c983b465dedc580eed4148e941147b154d374166b7dd6e7a5c2ca"
         }
     },
     "bin": "precious.exe",
