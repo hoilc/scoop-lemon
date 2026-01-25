@@ -66,3 +66,17 @@ jobs:
         SCOOP_HOME: ${{ github.workspace }}\scoop_core
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
+    - name: Archive Scoop Cache
+      if: github.ref == 'refs/heads/master'
+      run: |
+        pip install internetarchive
+        python .\my_bucket\bin\archive_cache.py
+      env:
+        SCOOP: ${{ github.workspace }}\scoop
+        IA_ACCESS_KEY_ID: ${{ secrets.IA_ACCESS_KEY_ID }}
+        IA_SECRET_ACCESS_KEY: ${{ secrets.IA_SECRET_ACCESS_KEY }}
+        ARCHIVE_BUCKET_DIR: ${{ github.workspace }}\my_bucket\bucket
+        ARCHIVE_BLACKLIST_MANIFESTS: ${{ vars.ARCHIVE_BLACKLIST_MANIFESTS }}
+        ARCHIVE_BLACKLIST_URLS: ${{ vars.ARCHIVE_BLACKLIST_URLS }}
+        ARCHIVE_MAX_FILE_SIZE: ${{ vars.ARCHIVE_MAX_FILE_SIZE }}
+      continue-on-error: true
