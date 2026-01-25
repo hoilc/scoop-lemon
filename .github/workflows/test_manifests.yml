@@ -67,7 +67,7 @@ jobs:
         SCOOP_GLOBAL: ${{ github.workspace }}\scoop_global
         SCOOP: ${{ github.workspace }}\scoop
     - name: Archive Scoop Cache
-      if: github.ref == 'refs/heads/master'
+      if: always() && github.ref == 'refs/heads/master'
       run: |
         pip install internetarchive
         python .\my_bucket\bin\archive_cache.py
