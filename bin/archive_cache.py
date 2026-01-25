@@ -168,12 +168,16 @@ def process_cache_files():
     for manifest_name, files in files_to_process.items():
         identifier = f'scoop-lemon-{manifest_name}'
 
+        item = None
         try:
             print(f'Getting item {identifier}')
             item = session.get_item(identifier)
             existing_files = {f.name for f in item.files}
         except:
             existing_files = set()
+
+        files_to_upload = []
+        renames = []
 
         for file_info in files:
             file_path = file_info['file_path']
@@ -190,38 +194,56 @@ def process_cache_files():
                 print(f'Skipping {new_filename} - already exists in {identifier}')
                 continue
 
-            try:
-                file_path.rename(new_file_path)
-            except Exception as e:
-                print(f'Failed to rename {filename}: {e}')
-                continue
+            renames.append((file_path, new_file_path))
+            files_to_upload.append(new_file_path)
 
-            metadata = {
-                'mediatype': 'software',
-                'title': f'{manifest_name} - scoop-lemon',
-                'description': f'scoop bucket add lemon https://github.com/hoilc/scoop-lemon ; scoop install lemon/{manifest_name}',
-                'collection': 'open_source_software',
-                'subject': ['scoop', 'scoop-lemon'],
-                'bucket': 'scoop-lemon',
-                'repo': 'https://github.com/hoilc/scoop-lemon',
-                'manifest': manifest_name
-            }
-
+        for old_path, new_path in renames:
             try:
-                print(f'Uploading {new_filename}')
-                item.upload(
-                    str(new_file_path),
-                    metadata=metadata,
-                    checksum=True,
-                    verify=True,
-                    delete=True,
-                    retries=3,
-                    retries_sleep=30,
-                )
-                print(f'Successfully uploaded {new_filename}')
+                old_path.rename(new_path)
             except Exception as e:
-                print(f'Failed to upload {new_filename}: {e}')
-                new_file_path.rename(file_path)
+                print(f'Failed to rename {old_path.name}: {e}')
+                files_to_upload = [f for f in files_to_upload if f != new_path]
+
+        if not files_to_upload:
+            continue
+
+        metadata = {
+            'mediatype': 'software',
+            'title': f'{manifest_name} - scoop-lemon',
+            'description': f'scoop bucket add lemon https://github.com/hoilc/scoop-lemon ; scoop install lemon/{manifest_name}',
+            'collection': 'open_source_software',
+            'subject': ['scoop', 'scoop-lemon'],
+            'bucket': 'scoop-lemon',
+            'repo': 'https://github.com/hoilc/scoop-lemon',
+            'manifest': manifest_name
+        }
+
+        if item is None:
+            item = session.get_item(identifier)
+
+        try:
+            print(f'Uploading {len(files_to_upload)} file(s) to {identifier}')
+            for file_path in files_to_upload:
+                print(f'- {file_path.name}')
+            item.upload(
+                [str(f) for f in files_to_upload],
+                metadata=metadata,
+                checksum=True,
+                verify=True,
+                delete=True,
+                retries=3,
+                retries_sleep=30,
+            )
+            print(f'Successfully uploaded {len(files_to_upload)} file(s) to {identifier}')
+        except Exception as e:
+            print(f'Failed to upload to {identifier}: {e}')
+            for new_path in files_to_upload:
+                old_filename = new_path.name.split('#')[1]
+                old_path = new_path.parent / f"{manifest_name}#{old_filename}"
+                try:
+                    new_path.rename(old_path)
+                except:
+                    pass
 
 if __name__ == '__main__':
     process_cache_files()
