@@ -11,7 +11,7 @@
         },
         "32bit": {
             "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-2.6.1.dev57+unreleased.g0aec9fc72.win32exe.zip",
-            "extract_dir": "rdiff-backup-2.6.1.dev57+unreleased.g0aec9fc72-64",
+            "extract_dir": "rdiff-backup-2.6.1.dev57+unreleased.g0aec9fc72-32",
             "hash": "04fdc83e7d510fa533bd94089f27ab765485ad3c60416ef7f80c769639925147"
         }
     },
@@ -29,7 +29,7 @@
             },
             "32bit": {
                 "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-$matchDevversion+unreleased.$matchCommit.win32exe.zip",
-                "extract_dir": "rdiff-backup-$matchDevversion+unreleased.$matchCommit-64"
+                "extract_dir": "rdiff-backup-$matchDevversion+unreleased.$matchCommit-32"
             }
         }
     }
