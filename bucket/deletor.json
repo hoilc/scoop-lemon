@@ -30,9 +30,6 @@
             "arm64": {
                 "url": "https://github.com/pashkov256/deletor/releases/download/v$version/deletor-v$version-windows-arm64.exe#/deletor.exe"
             }
-        },
-        "hash": {
-            "url": "$baseurl/ffuf_$version_checksums.txt"
         }
     }
 }
