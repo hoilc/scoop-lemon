@@ -6,11 +6,33 @@
 # ///
 import os
 import re
+import time
 import hashlib
 import fnmatch
 import json
 from pathlib import Path
+from requests.adapters import HTTPAdapter
 from internetarchive import get_session
+
+class RateLimitedAdapter(HTTPAdapter):
+    def __init__(self, *args, max_calls=15, period=60, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.max_calls = max_calls
+        self.period = period
+        self.calls = []
+
+    def send(self, request, *args, **kwargs):
+        now = time.time()
+        self.calls = [call for call in self.calls if now - call < self.period]
+
+        if len(self.calls) >= self.max_calls:
+            sleep_time = self.period - (now - self.calls[0])
+            if sleep_time > 0:
+                print(f'Rate limit reached, waiting {sleep_time:.1f} seconds...')
+                time.sleep(sleep_time)
+
+        self.calls.append(time.time())
+        return super().send(request, *args, **kwargs)
 
 def calculate_sha256(file_path):
     sha256_hash = hashlib.sha256()
@@ -119,6 +141,9 @@ def process_cache_files():
     download_suffix = '.download'
 
     session = get_session()
+    adapter = RateLimitedAdapter(max_calls=15, period=60)
+    session.mount('https://', adapter)
+    session.mount('http://', adapter)
 
     files_to_process = {}
 
