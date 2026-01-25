@@ -176,8 +176,7 @@ def process_cache_files():
         except:
             existing_files = set()
 
-        files_to_upload = []
-        renames = []
+        files_to_upload = {}
 
         for file_info in files:
             file_path = file_info['file_path']
@@ -188,21 +187,12 @@ def process_cache_files():
 
             sha256 = calculate_sha256(file_path)
             new_filename = f'{manifest_name}#{manifest_version}#{sha256}{ext}'
-            new_file_path = file_path.parent / new_filename
 
             if new_filename in existing_files:
                 print(f'Skipping {new_filename} - already exists in {identifier}')
                 continue
 
-            renames.append((file_path, new_file_path))
-            files_to_upload.append(new_file_path)
-
-        for old_path, new_path in renames:
-            try:
-                old_path.rename(new_path)
-            except Exception as e:
-                print(f'Failed to rename {old_path.name}: {e}')
-                files_to_upload = [f for f in files_to_upload if f != new_path]
+            files_to_upload[new_filename] = str(file_path)
 
         if not files_to_upload:
             continue
@@ -222,11 +212,11 @@ def process_cache_files():
             item = session.get_item(identifier)
 
         try:
-            print(f'Uploading {len(files_to_upload)} file(s) to {identifier}')
-            for file_path in files_to_upload:
-                print(f'- {file_path.name}')
+            print(f'Uploading {len(files_to_upload)} file(s) to {identifier}:')
+            for remote_name in files_to_upload:
+                print(f'- {remote_name}')
             item.upload(
-                [str(f) for f in files_to_upload],
+                files_to_upload,
                 metadata=metadata,
                 checksum=True,
                 verify=True,
@@ -237,13 +227,6 @@ def process_cache_files():
             print(f'Successfully uploaded {len(files_to_upload)} file(s) to {identifier}')
         except Exception as e:
             print(f'Failed to upload to {identifier}: {e}')
-            for new_path in files_to_upload:
-                old_filename = new_path.name.split('#')[1]
-                old_path = new_path.parent / f"{manifest_name}#{old_filename}"
-                try:
-                    new_path.rename(old_path)
-                except:
-                    pass
 
 if __name__ == '__main__':
     process_cache_files()
