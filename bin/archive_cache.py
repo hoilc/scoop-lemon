@@ -146,7 +146,6 @@ def process_cache_files():
     session.mount('http://', adapter)
 
     dark_identifiers = set()
-    print('::group::Archive Scoop Cache')
     files_to_process = {}
 
     for file_path in cache_dir.iterdir():
@@ -194,7 +193,7 @@ def process_cache_files():
 
     for manifest_name, files in files_to_process.items():
         identifier = f'scoop-lemon-{manifest_name}'
-        print(f'::group::{manifest_name}')
+        print(f'::group::Archiving {manifest_name}')
 
         item = None
         try:
@@ -269,8 +268,6 @@ def process_cache_files():
         for identifier in sorted(dark_identifiers):
             print(f'- {identifier}')
         print('::endgroup::')
-
-    print('::endgroup::')
 
 if __name__ == '__main__':
     process_cache_files()

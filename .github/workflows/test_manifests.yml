@@ -69,7 +69,7 @@ jobs:
     - name: Archive Scoop Cache
       if: always() && github.ref == 'refs/heads/master'
       run: |
-        pip install internetarchive
+        pip install internetarchive *> $null
         python .\my_bucket\bin\archive_cache.py
       env:
         PYTHONUNBUFFERED: "1"
