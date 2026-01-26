@@ -1,16 +1,16 @@
 {
-    "version": "7.5.2.3601",
+    "version": "7.5.2.5000",
     "description": "A state-of-the-art,multi-platform web browser that offers users a seamless browsing and sharing experience.",
     "homepage": "https://www.maxthon.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.mxfast.com/7.5.2.3601/maxthon_portable_7.5.2.3601_beta_x64.zip",
-            "hash": "0bedc662133bc54511be0bdabe27b024068122ad3d5c30abfe8844b2ed68830f"
+            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5000/maxthon_portable_7.5.2.5000_beta_x64.zip",
+            "hash": "e4ce518e1f9c7b284c64ded7a8eff1a201cf427ce5ccdfb4d86938304db83d66"
         },
         "32bit": {
-            "url": "https://dl.mxfast.com/7.5.2.3601/maxthon_portable_7.5.2.3601_beta_x86.zip",
-            "hash": "addb9d0022cd38fb80ad88941bc5c39bc4d5949752aabb0696229b6c7fea2efc"
+            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5000/maxthon_portable_7.5.2.5000_beta_x86.zip",
+            "hash": "dfdc4584f1e181dd2f6fc67c713a914451644aaf4420b09dd89e4bc8a1be2c31"
         }
     },
     "shortcuts": [
@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.mxfast.com/$version/maxthon_portable_$version$matchSuffix_x64$matchAnothersuffix.zip"
+                "url": "https://pub.mxfast.net/file/mx-pub/inst/win/$version/maxthon_portable_$version$matchSuffix_x64$matchAnothersuffix.zip"
             },
             "32bit": {
-                "url": "https://dl.mxfast.com/$version/maxthon_portable_$version$matchSuffix_x86$matchAnothersuffix.zip"
+                "url": "https://pub.mxfast.net/file/mx-pub/inst/win/$version/maxthon_portable_$version$matchSuffix_x86$matchAnothersuffix.zip"
             }
         }
     }
