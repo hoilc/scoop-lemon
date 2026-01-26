@@ -1,5 +1,5 @@
 {
-    "version": "0.31.2",
+    "version": "0.32.0",
     "description": "(Vulkan Backend) A self-hosted AI coding assistant, offering an open-source and on-premises alternative to GitHub Copilot.",
     "homepage": "https://github.com/TabbyML/tabby",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TabbyML/tabby/releases/download/v0.31.2/tabby_x86_64-windows-msvc-vulkan.zip",
+            "url": "https://github.com/TabbyML/tabby/releases/download/v0.32.0/tabby_x86_64-windows-msvc-vulkan.zip",
             "extract_dir": "tabby_x86_64-windows-msvc-vulkan",
-            "hash": "c8527f91468157affd603c901c43aa068cf5f97e8da260922c4aee5ba098f5f4"
+            "hash": "2395d582418a45a6c607c4f47acfa42ca7df6dc16d2932a9ce507e2c77f4cccb"
         }
     },
     "bin": "tabby.exe",
