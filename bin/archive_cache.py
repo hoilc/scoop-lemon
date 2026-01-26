@@ -15,7 +15,7 @@ from requests.adapters import HTTPAdapter
 from internetarchive import get_session
 
 class RateLimitedAdapter(HTTPAdapter):
-    def __init__(self, *args, max_calls=15, period=60, **kwargs):
+    def __init__(self, *args, max_calls=10, period=60, **kwargs):
         super().__init__(*args, **kwargs)
         self.max_calls = max_calls
         self.period = period
@@ -145,6 +145,7 @@ def process_cache_files():
     session.mount('https://', adapter)
     session.mount('http://', adapter)
 
+    dark_identifiers = set()
     files_to_process = {}
 
     for file_path in cache_dir.iterdir():
@@ -197,6 +198,10 @@ def process_cache_files():
         try:
             print(f'Getting item {identifier}')
             item = session.get_item(identifier)
+            if item.is_dark:
+                print(f'Skipping {identifier} - item is dark')
+                dark_identifiers.add(identifier)
+                continue
             existing_files = {f.name for f in item.files}
         except:
             existing_files = set()
@@ -252,6 +257,11 @@ def process_cache_files():
             print(f'Successfully uploaded {len(files_to_upload)} file(s) to {identifier}')
         except Exception as e:
             print(f'Failed to upload to {identifier}: {e}')
+
+    if dark_identifiers:
+        print('\nSkipped dark items:')
+        for identifier in sorted(dark_identifiers):
+            print(f'- {identifier}')
 
 if __name__ == '__main__':
     process_cache_files()
