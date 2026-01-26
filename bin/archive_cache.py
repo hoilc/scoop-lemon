@@ -15,7 +15,7 @@ from requests.adapters import HTTPAdapter
 from internetarchive import get_session
 
 class RateLimitedAdapter(HTTPAdapter):
-    def __init__(self, *args, max_calls=10, period=60, **kwargs):
+    def __init__(self, *args, max_calls=5, period=30, **kwargs):
         super().__init__(*args, **kwargs)
         self.max_calls = max_calls
         self.period = period
@@ -230,7 +230,7 @@ def process_cache_files():
         metadata = {
             'mediatype': 'software',
             'title': f'{manifest_name} - scoop-lemon',
-            'description': f'scoop bucket add lemon https://github.com/hoilc/scoop-lemon ; scoop install lemon/{manifest_name}',
+            'description': f'',
             'collection': 'open_source_software',
             'subject': ['scoop', 'scoop-lemon'],
             'bucket': 'scoop-lemon',
