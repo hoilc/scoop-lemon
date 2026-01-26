@@ -72,6 +72,7 @@ jobs:
         pip install internetarchive
         python .\my_bucket\bin\archive_cache.py
       env:
+        PYTHONUNBUFFERED: "1"
         SCOOP: ${{ github.workspace }}\scoop
         IA_ACCESS_KEY_ID: ${{ secrets.IA_ACCESS_KEY_ID }}
         IA_SECRET_ACCESS_KEY: ${{ secrets.IA_SECRET_ACCESS_KEY }}

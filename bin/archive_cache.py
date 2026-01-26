@@ -146,6 +146,7 @@ def process_cache_files():
     session.mount('http://', adapter)
 
     dark_identifiers = set()
+    print('::group::Archive Scoop Cache')
     files_to_process = {}
 
     for file_path in cache_dir.iterdir():
@@ -193,6 +194,7 @@ def process_cache_files():
 
     for manifest_name, files in files_to_process.items():
         identifier = f'scoop-lemon-{manifest_name}'
+        print(f'::group::{manifest_name}')
 
         item = None
         try:
@@ -201,6 +203,7 @@ def process_cache_files():
             if item.is_dark:
                 print(f'Skipping {identifier} - item is dark')
                 dark_identifiers.add(identifier)
+                print('::endgroup::')
                 continue
             existing_files = {f.name for f in item.files}
         except:
@@ -225,6 +228,7 @@ def process_cache_files():
             files_to_upload[new_filename] = str(file_path)
 
         if not files_to_upload:
+            print('::endgroup::')
             continue
 
         metadata = {
@@ -258,10 +262,15 @@ def process_cache_files():
         except Exception as e:
             print(f'Failed to upload to {identifier}: {e}')
 
+        print('::endgroup::')
+
     if dark_identifiers:
-        print('\nSkipped dark items:')
+        print('\n::group::Skipped dark items')
         for identifier in sorted(dark_identifiers):
             print(f'- {identifier}')
+        print('::endgroup::')
+
+    print('::endgroup::')
 
 if __name__ == '__main__':
     process_cache_files()
