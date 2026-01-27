@@ -1,10 +1,10 @@
 {
-    "version": "2.1.1.0",
+    "version": "2.1.2.0",
     "description": "msstyleEditor is an editor for Windows Vista, 7, 8, 10 and 11 visual styles (.msstyles files).",
     "homepage": "https://github.com/nptr/msstyleEditor/",
     "license": "MIT",
-    "url": "https://github.com/nptr/msstyleEditor/releases/download/2.1.1.0/msstyleEditor.zip",
-    "hash": "8df9a57da0726e2e95469a9ee54fbdfd5c852146b664b601ad779c6b9016fe10",
+    "url": "https://github.com/nptr/msstyleEditor/releases/download/2.1.2.0/msstyleEditor.zip",
+    "hash": "a08d8316b40f52bd880272daec449a47a01cc98dd7ef35cafcfb35ce72e080a4",
     "shortcuts": [
         [
             "msstyleEditor.exe",
