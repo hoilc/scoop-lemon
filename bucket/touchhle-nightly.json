@@ -1,12 +1,12 @@
 {
-    "version": "b1913",
+    "version": "b1916",
     "description": "(Preview Builds) A high-level emulator for iPhone OS apps.",
     "homepage": "https://touchhle.org/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/touchHLE/touchHLE/actions/runs/21341537245/touchHLE_Windows_x86_64.zip",
-            "hash": "2c00a729e398e3fea6eed213709f861118ba0314db6ede433a5033d5e88eb670"
+            "url": "https://nightly.link/touchHLE/touchHLE/actions/runs/21377851474/touchHLE_Windows_x86_64.zip",
+            "hash": "b08581f0512c52fa7011453f341da1b5e049552bab09f751728ae0b7933867a1"
         }
     },
     "shortcuts": [
