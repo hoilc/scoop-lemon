@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0.2",
+    "description": "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息",
+    "homepage": "https://classisland.tech",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.0/2.0.0.2/ClassIsland_app_windows_x64_selfContained_folder.zip",
+            "hash": "43cf08a5c7a1bcf1af7186d4909305fe9e488ab572041ce7f624c2a7cd38c056"
+        },
+        "arm64": {
+            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.0/2.0.0.2/ClassIsland_app_windows_arm64_selfContained_folder.zip",
+            "hash": "5c042417791fbb62e46d468ee754f68efcfa126eed58796cba3b8d20961ec770"
+        }
+    },
+    "shortcuts": [
+        [
+            "ClassIsland.exe",
+            "ClassIsland"
+        ]
+    ],
+    "post_uninstall": [
+        "if ($cmd -eq 'uninstall') { ",
+        "   Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\ClassIsland.lnk\" -Force -ErrorAction SilentlyContinue",
+        "   Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\ClassIsland.lnk\" -Force -ErrorAction SilentlyContinue",
+        "   Remove-Item \"$env:USERPROFILE\\Desktop\\ClassIsland.lnk\" -Force -ErrorAction SilentlyContinue",
+        "   Remove-Item \"$env:USERPROFILE\\Desktop\\快捷换课.url\" -Force -ErrorAction SilentlyContinue",
+        "}"
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/ClassIsland/ClassIsland"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/$majorVersion.$minorVersion/$version/ClassIsland_app_windows_x64_selfContained_folder.zip"
+            },
+            "arm64": {
+                "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/$majorVersion.$minorVersion/$version/ClassIsland_app_windows_arm64_selfContained_folder.zip"
+            }
+        }
+    }
+}
