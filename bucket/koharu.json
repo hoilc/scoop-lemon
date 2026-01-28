@@ -1,12 +1,12 @@
 {
-    "version": "0.26.2",
+    "version": "0.27.1",
     "description": "ML-powered manga translator, written in Rust",
     "homepage": "https://github.com/mayocream/koharu",
     "license": "GPL-3.0-only|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mayocream/koharu/releases/download/0.26.2/Koharu-win-CUDA-Bundled.7z",
-            "hash": "99a427c4c27779e0065ca488fd0fcfc9b57437cbe67bb209af61ab4ceb2400bb"
+            "url": "https://github.com/mayocream/koharu/releases/download/0.27.1/Koharu-win-CUDA-Bundled.7z",
+            "hash": "bb0e1d4930d5debb5e5490e0a315886e693fd7b2a39a9e4e522cc63db65d927a"
         }
     },
     "bin": "Koharu.exe",
