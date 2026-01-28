@@ -1,18 +1,18 @@
 {
-    "version": "1.7.0-alpha",
+    "version": "1.8.0-alpha",
     "description": "A versatile command-line tool designed for running chess engine tournaments.",
     "homepage": "https://github.com/Disservin/fastchess",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Disservin/fastchess/releases/download/v1.7.0-alpha/fastchess-windows-x86-64.zip",
+            "url": "https://github.com/Disservin/fastchess/releases/download/v1.8.0-alpha/fastchess-windows-x86-64.zip",
             "extract_dir": "fastchess-windows-x86-64",
-            "hash": "d6918470f8e7b1e5a5c625ea2381cfb2ec5e4d0b86e03992f0558c84ecddffdd"
+            "hash": "dcd5ad5c72237410f54dfc6e1af59f1088e72c2f67c29244fc974100791f3d13"
         },
         "arm64": {
-            "url": "https://github.com/Disservin/fastchess/releases/download/v1.7.0-alpha/fastchess-windows-arm64.zip",
+            "url": "https://github.com/Disservin/fastchess/releases/download/v1.8.0-alpha/fastchess-windows-arm64.zip",
             "extract_dir": "fastchess-windows-arm64",
-            "hash": "4e03638c4823cab7458f40444134c833c16ab0e2314861bf15e5750598f65cf3"
+            "hash": "9fa902c7fc2adc1268216e9768b2cef19df97790dfc215fd8b761e31f2f33082"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'fastchess-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'fastchess.exe'",
