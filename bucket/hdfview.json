@@ -1,5 +1,5 @@
 {
-    "version": "3.3.2",
+    "version": "3.4.1",
     "description": "A visual tool written in Java for browsing and editing HDF (HDF5 and HDF4) files.",
     "homepage": "https://www.hdfgroup.org/download-hdfview/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HDFGroup/hdfview/releases/download/v3.3.2/HDFView-3.3.2App-win64.zip",
-            "hash": "9f8803db20514ff280e5809687fd09e186af0d6f56e7078aae640855b9885190"
+            "url": "https://github.com/HDFGroup/hdfview/releases/download/v3.4.1/HDFView-3.4.1App-Windows.zip",
+            "hash": "393c65057c61c47f42ca7064fe4f2d4f119fec5d955084ab51518584700e9853"
         }
     },
     "extract_dir": "HDFView",
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HDFGroup/hdfview/releases/download/v$version/HDFView-$versionApp-win64.zip"
+                "url": "https://github.com/HDFGroup/hdfview/releases/download/v$version/HDFView-$versionApp-Windows.zip"
             }
         }
     }
