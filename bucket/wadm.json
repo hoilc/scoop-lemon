@@ -1,13 +1,13 @@
 {
-    "version": "0.21.0",
+    "version": "0.21.1",
     "description": "A Wasm-native orchestrator for managing and scaling declarative wasmCloud applications.",
     "homepage": "https://github.com/wasmCloud/wadm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wasmCloud/wadm/releases/download/v0.21.0/wadm-v0.21.0-windows-amd64.tar.gz",
-            "extract_dir": "wadm-v0.21.0-windows-amd64",
-            "hash": "26075054292f723858b7cb69770f7044bf9fe1ea2521d0e1d62e986092935849"
+            "url": "https://github.com/wasmCloud/wadm/releases/download/v0.21.1/wadm-v0.21.1-windows-amd64.tar.gz",
+            "extract_dir": "wadm-v0.21.1-windows-amd64",
+            "hash": "2f06bccad459cc2029991b72ed6b0b9553a032a8bbd2e8c1c64c50fa34257fcd"
         }
     },
     "bin": "wadm.exe",
