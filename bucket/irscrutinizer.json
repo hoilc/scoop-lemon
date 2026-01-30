@@ -1,0 +1,24 @@
+{
+    "version": "2.4.2",
+    "description": "A powerful program for capturing, generating, analyzing, importing, and exporting of infrared (IR) signals.",
+    "homepage": "https://github.com/bengtmartensson/IrScrutinizer",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/bengtmartensson/IrScrutinizer/releases/download/Version-2.4.2/IrScrutinizer-2.4.2.exe",
+    "hash": "86480af9b46918cc96857043ad52b95954ee91da411dca5ce0a0c543afbe73a5",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "jre-x86-windows\\bin\\javaw.exe",
+            "IrScrutinizer",
+            "-jar ..\\..\\IrScrutinizer.jar",
+            "IrScrutinizer.ico"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/bengtmartensson/IrScrutinizer/releases.atom",
+        "regex": "Repository/\\d+/Version-(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bengtmartensson/IrScrutinizer/releases/download/Version-$version/IrScrutinizer-$version.exe"
+    }
+}
