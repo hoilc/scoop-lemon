@@ -1,12 +1,12 @@
 {
-    "version": "2026.1.5",
+    "version": "2026.1.5-3",
     "description": "A download manager for files, torrents and videos.",
     "homepage": "https://giantpinkrobots.github.io/varia/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/giantpinkrobots/varia/releases/download/v2026.1.5/varia-windows-portable-amd64.zip",
-            "hash": "ea455279f985b9d72de80009d75ecbbc1a381fbfcafd26d31ab489af30265969"
+            "url": "https://github.com/giantpinkrobots/varia/releases/download/v2026.1.5-3/varia-windows-portable-amd64.zip",
+            "hash": "33fe80da7e3740be3cfc8228fd8cf166543dcdbe236ab311e01886450994b133"
         }
     },
     "shortcuts": [
