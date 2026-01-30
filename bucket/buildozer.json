@@ -1,12 +1,12 @@
 {
-    "version": "8.2.1",
+    "version": "8.5.1",
     "description": "Rewrite bazel BUILD files using standard commands.",
     "homepage": "https://github.com/bazelbuild/buildtools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bazelbuild/buildtools/releases/download/v8.2.1/buildozer-windows-amd64.exe#/buildozer.exe",
-            "hash": "6e3b8520904394adc31a610544fc2f86609c0433e39ae3a5b5f992e20dabb0d3"
+            "url": "https://github.com/bazelbuild/buildtools/releases/download/v8.5.1/buildozer-windows-amd64.exe#/buildozer.exe",
+            "hash": "e177155c2c8ef41569791de34f13077cefe3e5623f9f02e099347232bc028901"
         }
     },
     "bin": "buildozer.exe",
