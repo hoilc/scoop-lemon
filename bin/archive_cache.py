@@ -141,7 +141,7 @@ def process_cache_files():
     download_suffix = '.download'
 
     session = get_session()
-    adapter = RateLimitedAdapter(max_calls=15, period=60)
+    adapter = RateLimitedAdapter(max_calls=5, period=30)
     session.mount('https://', adapter)
     session.mount('http://', adapter)
 
