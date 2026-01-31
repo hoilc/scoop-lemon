@@ -1,0 +1,23 @@
+{
+    "version": "20.0.14.0-202601311546",
+    "description": "A free virus scanner that helps remove malware from your Windows PC if it has been compromised.",
+    "homepage": "https://www.kaspersky.com/downloads/free-virus-removal-tool",
+    "license": "Freeware",
+    "url": "https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe",
+    "hash": "4a0c17a478950968ff12d69fd43efd43c84691de52ab2846fd96b7c425467069",
+    "bin": "KVRT.exe",
+    "shortcuts": [
+        [
+            "KVRT.exe",
+            "Kaspersky Virus Removal Tool"
+        ]
+    ],
+    "checkver": {
+        "url": "https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/kvrt.xml",
+        "regex": "(?sm)version\\s*=\\s*\"(?<main>[\\d.]+)\".*?databases_timestamp\\s*=\\s*\"(?<dbdate>\\d+)\"",
+        "replace": "${main}-${dbdate}"
+    },
+    "autoupdate": {
+        "url": "https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe"
+    }
+}
