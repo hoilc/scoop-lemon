@@ -1,12 +1,12 @@
 {
-    "version": "3.3.6.13",
-    "description": "An open-source big data platform designed and optimized for the Internet of Things (IoT).",
+    "version": "3.4.0.2",
+    "description": "(OSS Version) An open-source big data platform designed and optimized for the Internet of Things (IoT).",
     "homepage": "https://www.taosdata.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://tdengine.com/assets-download/3.0/TDengine-client-3.3.6.13-Windows-x64.exe#/setup.exe",
-            "hash": "83fc8bc3fc5d2ffae212b34ecf3b893e662817c1799518c60dbd640c1e1cabd1"
+            "url": "https://downloads.taosdata.com/tdengine-tsdb-oss/3.4.0.2/tdengine-tsdb-oss-client-3.4.0.2-windows-x64.exe#/setup.exe",
+            "hash": "8454b63b9adc9ade61b389b56831afbe52ae19cd14e49d51f677a8d51974f0de"
         }
     },
     "installer": {
@@ -22,13 +22,13 @@
     ],
     "persist": "cfg",
     "checkver": {
-        "url": "https://docs.tdengine.com/assets/globalscripts/packages_v3.php?type=3",
-        "regex": "TDengine-client-([\\d.]+)-Windows-x64.exe"
+        "url": "https://www.taosdata.com/wp-content/themes/tdengine/js/product-data.json",
+        "regex": "tdengine-tsdb-oss-client-([\\d.]+)-windows-x64"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://tdengine.com/assets-download/$majorVersion.0/TDengine-client-$version-Windows-x64.exe#/setup.exe"
+                "url": "https://downloads.taosdata.com/tdengine-tsdb-oss/$version/tdengine-tsdb-oss-client-$version-windows-x64.exe#/setup.exe"
             }
         }
     }
