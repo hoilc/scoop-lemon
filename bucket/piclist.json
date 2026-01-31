@@ -1,21 +1,21 @@
 {
-    "version": "3.2.2",
+    "version": "3.3.0",
     "description": "An image upload and manage tool, base on PicGo.",
     "homepage": "https://piclist.cn/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://release.piclist.cn/latest/PicList-Setup-3.2.2-x64.exe#/dl.7z",
+            "url": "https://release.piclist.cn/latest/PicList-Setup-3.3.0-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "5048743289b3f718ad896a152ec03bba228eb86e2a08c09d98c011bcd36c940f"
+            "hash": "18ec4672f1151930cb0d2a801fae386e805c695bdf14c23b4d78561b6b536f02"
         },
-        "32bit": {
-            "url": "https://release.piclist.cn/latest/PicList-Setup-3.2.2-ia32.exe#/dl.7z",
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "45380eda44c98d9e84d56b6caf5e907e47d4b000edc1fe4a305ff25168e0741f"
+        "arm64": {
+            "url": "https://release.piclist.cn/latest/PicList-Setup-3.3.0-arm64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+            "hash": "9b63c0e91fb53de666c88feb7b41ac7af75e028b21711154d10405c52a165ebd"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "bin": "PicList.exe",
     "shortcuts": [
         [
@@ -32,8 +32,8 @@
             "64bit": {
                 "url": "https://release.piclist.cn/latest/PicList-Setup-$version-x64.exe#/dl.7z"
             },
-            "32bit": {
-                "url": "https://release.piclist.cn/latest/PicList-Setup-$version-ia32.exe#/dl.7z"
+            "arm64": {
+                "url": "https://release.piclist.cn/latest/PicList-Setup-$version-arm64.exe#/dl.7z"
             }
         }
     }
