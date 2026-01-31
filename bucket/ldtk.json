@@ -1,0 +1,31 @@
+{
+    "version": "1.5.3",
+    "description": "A modern, efficient and open-source 2D level editor with a strong focus on user-friendliness.",
+    "homepage": "https://ldtk.io/",
+    "license": "MIT",
+    "url": "https://github.com/deepnight/ldtk/releases/download/v1.5.3/LDtk-1.5.3-installer.exe#/dl.7z",
+    "hash": "61db0588c5d6a3f4de4c0e4ae0414f011b07f387dd019af4fa96f5fa7eb94822",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        },
+        "32bit": {
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "LDtk.exe",
+            "LDtk",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://github.com/deepnight/ldtk"
+    },
+    "autoupdate": {
+        "url": "https://github.com/deepnight/ldtk/releases/download/v$version/LDtk-$version-installer.exe#/dl.7z"
+    }
+}
