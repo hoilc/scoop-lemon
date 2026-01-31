@@ -1,0 +1,30 @@
+{
+    "version": "0.154.3.58",
+    "description": "A strongly-typed, garbage-collected programming language with built-in support for advanced 2D graphics, sound, unicode and is ideally suited to making all kinds of apps and games.",
+    "homepage": "https://blitzmax.org/",
+    "license": "Zlib",
+    "url": "https://github.com/bmx-ng/bmx-ng/releases/download/v0.154.3.58.win32.mingw/BlitzMax_win32_mingw_0.154.3.58.7z",
+    "hash": "b18da5197e5da218a8dee6e9a7d81359e3fc884e457bae7f3ea49f4456615e36",
+    "extract_dir": "BlitzMax",
+    "bin": [
+        "bin\\bcc.exe",
+        "bin\\bmk.exe"
+    ],
+    "shortcuts": [
+        [
+            "MaxIDE.exe",
+            "MaxIDE"
+        ]
+    ],
+    "persist": [
+        "cfg",
+        "tmp"
+    ],
+    "checkver": {
+        "url": "https://github.com/bmx-ng/bmx-ng/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)\\.win32.mingw<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bmx-ng/bmx-ng/releases/download/v$version.win32.mingw/BlitzMax_win32_mingw_$version.7z"
+    }
+}
