@@ -21,8 +21,8 @@
         "tmp"
     ],
     "checkver": {
-        "url": "https://github.com/bmx-ng/bmx-ng/releases.atom",
-        "regex": "Repository/\\d+/v(.+?)\\.win32.mingw<"
+        "url": "https://blitzmax.org/downloads/",
+        "regex": "BlitzMax_win32_mingw_([\\d.]+)\\.7z"
     },
     "autoupdate": {
         "url": "https://github.com/bmx-ng/bmx-ng/releases/download/v$version.win32.mingw/BlitzMax_win32_mingw_$version.7z"
