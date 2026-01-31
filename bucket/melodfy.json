@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0+29",
+    "description": "AI-powered piano audio to MIDI converter.",
+    "homepage": "https://github.com/HemantKArya/Melodfy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HemantKArya/Melodfy/releases/download/v1.0.0%2B29/Melodfy_Windows_Build_29.zip",
+            "hash": "a33ebd4dbf34b105f7f22a60b2340e4e0a5391d1ed108f7a0da50117c604df29"
+        }
+    },
+    "extract_dir": "Melodfy",
+    "shortcuts": [
+        [
+            "Melodfy.exe",
+            "Melodfy"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/HemantKArya/Melodfy/releases.atom",
+        "regex": "Repository/\\d+/v(?<main>[\\d.]+)\\+(?<build>\\d+)<",
+        "replace": "${main}+${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HemantKArya/Melodfy/releases/download/v$matchMain%2B$matchBuild/Melodfy_Windows_Build_$matchBuild.zip"
+            }
+        }
+    }
+}
