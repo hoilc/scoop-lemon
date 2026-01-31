@@ -1,0 +1,26 @@
+{
+    "version": "9.5.6",
+    "description": "A photo & file organization application with an underlying tag-based system that focuses on giving freedom and flexibility to the user.",
+    "homepage": "https://github.com/TagStudioDev/TagStudio",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TagStudioDev/TagStudio/releases/download/v9.5.6/tagstudio_windows_x86_64_portable.zip",
+            "hash": "436a92097eee89eaeaaa19fdcb7e6723a8f721439adf0ff0e85a8896946dc07e"
+        }
+    },
+    "shortcuts": [
+        [
+            "TagStudio.exe",
+            "TagStudio"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/TagStudioDev/TagStudio/releases/download/v$version/tagstudio_windows_x86_64_portable.zip"
+            }
+        }
+    }
+}
