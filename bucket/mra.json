@@ -1,0 +1,33 @@
+{
+    "version": "0.111",
+    "description": "A music recognition application, or music identifier, like Shazam but for PC.",
+    "homepage": "https://mra.jadquir.com/",
+    "license": "Liteware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Jadquir/mra-files/releases/download/0.111/MRA_0111_x64.zip",
+            "hash": "15b43dd6260384e5cf78b43c88e540adece9af9e7237a419593be4c5ef789635"
+        }
+    },
+    "shortcuts": [
+        [
+            "MRA.exe",
+            "MRA"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\MRA\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "MRA is NOT portable.",
+        "Settings are stored in '%APPDATA%\\MRA', and can be purged using 'scoop uninstall --purge mra'."
+    ],
+    "checkver": {
+        "github": "https://github.com/Jadquir/mra-files"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Jadquir/mra-files/releases/download/$version/MRA_$cleanVersion_x64.zip"
+            }
+        }
+    }
+}
