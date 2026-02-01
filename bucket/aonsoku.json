@@ -1,16 +1,16 @@
 {
-    "version": "0.10.2",
+    "version": "0.11.0",
     "description": "A modern desktop client for Navidrome/Subsonic servers built with React and Rust.",
     "homepage": "https://github.com/victoralvesf/aonsoku",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/victoralvesf/aonsoku/releases/download/v0.10.2/Aonsoku-v0.10.2-win-x64.exe",
-            "hash": "61e21bd9ac5fd1aa572a4a2e8c92738103342017775a30f752bcdb5f5c1b0a21"
+            "url": "https://github.com/victoralvesf/aonsoku/releases/download/v0.11.0/Aonsoku-v0.11.0-win-x64.exe",
+            "hash": "29de1a9add3c09cebb007ea9613f2fb4fd119b5b25e4a370745f0409449e02db"
         },
         "arm64": {
-            "url": "https://github.com/victoralvesf/aonsoku/releases/download/v0.10.2/Aonsoku-v0.10.2-win-arm64.exe",
-            "hash": "3144caa269b0aee80db51457fbc55c3ef7c3786b64d4c44d6389cd30575d3594"
+            "url": "https://github.com/victoralvesf/aonsoku/releases/download/v0.11.0/Aonsoku-v0.11.0-win-arm64.exe",
+            "hash": "14d72a3cd88e8d2f5d587517f3375231530d465cdbdb0ff860496abc9be3d3a5"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse",
