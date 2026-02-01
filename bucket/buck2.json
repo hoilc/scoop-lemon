@@ -1,16 +1,16 @@
 {
-    "version": "2026-01-19",
+    "version": "2026-02-01",
     "description": "A fast, hermetic, multi-language build system, and a direct successor to the original Buck build system (\"Buck1\").",
     "homepage": "https://buck2.build",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/facebook/buck2/releases/download/2026-01-19/buck2-x86_64-pc-windows-msvc.exe.zst",
-            "hash": "810d182d91ec0cb1000ec0e237f4e660184bb04740a1d24d5fe59f80bb5c8ca1"
+            "url": "https://github.com/facebook/buck2/releases/download/2026-02-01/buck2-x86_64-pc-windows-msvc.exe.zst",
+            "hash": "6f81f04d3fea0177702bc55eb377f9fc7c56f887d8979836e9b330cc4dc519b3"
         },
         "arm64": {
-            "url": "https://github.com/facebook/buck2/releases/download/2026-01-19/buck2-aarch64-pc-windows-msvc.exe.zst",
-            "hash": "6162cf52a2d54e935801113b2430b8261f97378fc575922c3a81ea87d71316ad"
+            "url": "https://github.com/facebook/buck2/releases/download/2026-02-01/buck2-aarch64-pc-windows-msvc.exe.zst",
+            "hash": "8e62750aca2ba9d159085f061b0eb998764eac4471730062a0680c46b17090d5"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'buck2-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'buck2.exe'",
