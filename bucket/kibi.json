@@ -1,23 +1,23 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "A text editor in ≤1024 lines of code, written in Rust.",
     "homepage": "https://github.com/ilai-deutel/kibi",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "kibi-v0.3.2-x86_64-pc-windows-msvc",
-            "hash": "a96bf5b2f6329733ab1dbee2933044a92163b7835d0bd1f5d8ed80ef0b62e5c7"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.3-x86_64-pc-windows-msvc",
+            "hash": "445668835d0fbbd0b9f014374768990c356914b74778352718fb676703513b42"
         },
         "32bit": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-i686-pc-windows-msvc.zip",
-            "extract_dir": "kibi-v0.3.2-i686-pc-windows-msvc",
-            "hash": "bc90b9af8da41536d8d6663edd63e7dfa0b89a884a01d62c396df5e6de4a7c45"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-i686-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.3-i686-pc-windows-msvc",
+            "hash": "27dd88a60a4932a36c0894a819cb34b7abcc3087532ca03a677a2a559b46ae88"
         },
         "arm64": {
-            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-aarch64-pc-windows-msvc.zip",
-            "extract_dir": "kibi-v0.3.2-aarch64-pc-windows-msvc",
-            "hash": "7fda26165d6d6d25770aff404ddb0b770e02d6fb5d034ebf272ecfdc150003b4"
+            "url": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.3/kibi-v0.3.3-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "kibi-v0.3.3-aarch64-pc-windows-msvc",
+            "hash": "6a7c58aaa6a2a16a3fcdd405f9b4cd36796c093d45b0f7ff98603bfa5156e8b2"
         }
     },
     "bin": "kibi.exe",
