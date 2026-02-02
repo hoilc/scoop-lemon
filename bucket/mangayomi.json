@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "An open-source Flutter app for reading manga, novels, and watching animes.",
     "homepage": "https://github.com/kodjodevf/mangayomi",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kodjodevf/mangayomi/releases/download/v0.7.0/Mangayomi-v0.7.0-windows.zip",
-            "hash": "b3adaf47c70f67fcdbbb4b8a41d9c9033d4aa2052513c16e48e0336925173ba6"
+            "url": "https://github.com/kodjodevf/mangayomi/releases/download/v0.7.1/Mangayomi-v0.7.1-windows.zip",
+            "hash": "6c0e6678aaeea5d3f57fe49d697e1fd99b285458b75983cc03a25798937b6517"
         }
     },
     "shortcuts": [
