@@ -1,23 +1,23 @@
 {
-    "version": "0.38.0",
+    "version": "0.38.1",
     "description": "A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.",
     "homepage": "https://github.com/charmbracelet/crush",
     "license": "FSL-1.1-MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.0/crush_0.38.0_Windows_x86_64.zip",
-            "extract_dir": "crush_0.38.0_Windows_x86_64",
-            "hash": "c4424aa542285f073fbfeaadfee95ed893c403b4e3a492f0c9e2449c2261f643"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.1/crush_0.38.1_Windows_x86_64.zip",
+            "extract_dir": "crush_0.38.1_Windows_x86_64",
+            "hash": "059c3c220079d6bece85ad973743ce5763fb2e7875a2adb848705353e90cd17b"
         },
         "32bit": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.0/crush_0.38.0_Windows_i386.zip",
-            "extract_dir": "crush_0.38.0_Windows_i386",
-            "hash": "c077317a077f6fea3a5869a8bc0259d5f47b8bb035e9010d6af8ea41fceb051a"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.1/crush_0.38.1_Windows_i386.zip",
+            "extract_dir": "crush_0.38.1_Windows_i386",
+            "hash": "4d7f21804c77c8f3f839f85f9adbd61ed61c09f49af89cab9ca50017a3d59036"
         },
         "arm64": {
-            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.0/crush_0.38.0_Windows_arm64.zip",
-            "extract_dir": "crush_0.38.0_Windows_arm64",
-            "hash": "7a49aec570d694c3db007e86398fd4aae5cf6bfe59571605bc145b5fae053701"
+            "url": "https://github.com/charmbracelet/crush/releases/download/v0.38.1/crush_0.38.1_Windows_arm64.zip",
+            "extract_dir": "crush_0.38.1_Windows_arm64",
+            "hash": "771349fafec620f3a0f988e2f109418c1ebad80960903570f88a52be29ff0755"
         }
     },
     "bin": "crush.exe",
