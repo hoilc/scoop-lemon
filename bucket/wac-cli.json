@@ -1,12 +1,12 @@
 {
-    "version": "0.8.1",
+    "version": "0.9.0",
     "description": "A tool for encoding and decoding WebAssembly compositions.",
     "homepage": "https://github.com/bytecodealliance/wac",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wac/releases/download/v0.8.1/wac-cli-x86_64-pc-windows-gnu#/wac-cli.exe",
-            "hash": "b3509dfc3bb9d1e598e7b2790ef6efe5b6c8b696f2ad0e997e9ae6dd20bb6f13"
+            "url": "https://github.com/bytecodealliance/wac/releases/download/v0.9.0/wac-cli-x86_64-pc-windows-gnu#/wac-cli.exe",
+            "hash": "4db7948fa68eb1e54e2c9e5c7f4678a01711c16bf123eb19a9d729f73a2547d4"
         }
     },
     "bin": "wac-cli.exe",
