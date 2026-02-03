@@ -1,20 +1,20 @@
 {
-    "version": "2.0.0-alpha+e697b7c",
+    "version": "2.0.0-alpha+d1639b6",
     "description": "An opinionated Clash GUI based on Tauri.",
     "homepage": "https://nyanpasu.elaina.moe/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+e697b7c_x86_64_portable.zip",
-            "hash": "a06474c7b29390e5fea0389a6158ba8661e44e6ad49156fa32d1bb4a216759fe"
+            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+d1639b6_x86_64_portable.zip",
+            "hash": "1be5466cf550bef9ef1ebf612447e2081c0fc2167c8363e88e9f37b7e36189ac"
         },
         "32bit": {
-            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+e697b7c_i686_portable.zip",
-            "hash": "a5cdb96765874b925ee80f65b63d628e3515d699ac82497b33c191c7d43173cc"
+            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+d1639b6_i686_portable.zip",
+            "hash": "3536259be25659d646f52065b525fb31354ea2447d3b954541d7bd7ad09084cd"
         },
         "arm64": {
-            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+e697b7c_aarch64_portable.zip",
-            "hash": "aaa495f70cf5f65b1a93d9b86ae810510fa2331e62e5ecbb81d8fe1319665bca"
+            "url": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha+d1639b6_aarch64_portable.zip",
+            "hash": "70503ea6b386d2ab60c1248cb3c6f6590ae320e26077d2bd130d7bacfabec2bb"
         }
     },
     "shortcuts": [
