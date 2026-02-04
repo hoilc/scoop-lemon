@@ -1,16 +1,16 @@
 {
-    "version": "0.0.13",
+    "version": "0.0.12",
     "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with Azure Kubernetes Service (AKS) clusters.",
     "homepage": "https://github.com/Azure/aks-mcp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/aks-mcp/releases/download/v0.0.13/aks-mcp-windows-amd64.exe#/aks-mcp.exe",
-            "hash": "2c18d834071960cf5a99ce128c7cee8fc279ace12a0e1de23f362492fa4956c5"
+            "url": "https://github.com/Azure/aks-mcp/releases/download/v0.0.12/aks-mcp-windows-amd64.exe#/aks-mcp.exe",
+            "hash": "5926b66a912bb19408e2b94dccaae4bbd05049bee9e319fe19e79d6a643a04b4"
         },
         "arm64": {
-            "url": "https://github.com/Azure/aks-mcp/releases/download/v0.0.13/aks-mcp-windows-arm64.exe#/aks-mcp.exe",
-            "hash": "4446107f63f0c3b06d5f024119c0fb96b4d5998432a56d40140942897642e157"
+            "url": "https://github.com/Azure/aks-mcp/releases/download/v0.0.12/aks-mcp-windows-arm64.exe#/aks-mcp.exe",
+            "hash": "4fdfcb2581385511cc6c6566abc5e36344c6747b8d5d5fcfc7ec9ce59748a6cd"
         }
     },
     "bin": "aks-mcp.exe",
