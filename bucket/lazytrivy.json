@@ -1,16 +1,16 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "description": "A terminal UI wrapper for Trivy that lets you run Trivy scans without remembering all the command arguments.",
     "homepage": "https://github.com/owenrumney/lazytrivy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/owenrumney/lazytrivy/releases/download/v1.3.0/lazytrivy-windows-amd64.exe#/lazytrivy.exe",
-            "hash": "93d2407078a63162acbdddb09d0e8aebaef5ab0bc5b53b5f9e926daa6f596974"
+            "url": "https://github.com/owenrumney/lazytrivy/releases/download/v1.3.1/lazytrivy-windows-amd64.exe#/lazytrivy.exe",
+            "hash": "64f4fd1260edb28e9a96bf4beaa3cf720e059510af16c29906f9fa98258136c3"
         },
         "arm64": {
-            "url": "https://github.com/owenrumney/lazytrivy/releases/download/v1.3.0/lazytrivy-windows-arm64.exe#/lazytrivy.exe",
-            "hash": "a743434cd1fed59ee3a8f72a534b7fa2ea4556fbf2b8178a5b84eb9d71146da2"
+            "url": "https://github.com/owenrumney/lazytrivy/releases/download/v1.3.1/lazytrivy-windows-arm64.exe#/lazytrivy.exe",
+            "hash": "7fd36dbfaac8b310ce1893e828982f6dc2fd9ac233174824c312a5607df65e3a"
         }
     },
     "bin": "lazytrivy.exe",
