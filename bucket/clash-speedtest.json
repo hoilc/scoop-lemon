@@ -1,20 +1,20 @@
 {
-    "version": "1.8.1",
+    "version": "1.8.2",
     "description": "基于 Clash 核心的测速工具，快速测试你的 Clash 节点速度",
     "homepage": "https://github.com/faceair/clash-speedtest",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.1/clash-speedtest_Windows_x86_64.zip",
-            "hash": "51bbc4d402ae760b19668b9b2124cfc5403743515f08f5b0e785a7e2c65749ad"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.2/clash-speedtest_Windows_x86_64.zip",
+            "hash": "c851f39adf3393814f21c091db29fde6cf3c887fd27c5c30255ef48cfd5c8ebf"
         },
         "32bit": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.1/clash-speedtest_Windows_i386.zip",
-            "hash": "f1a2a80fc65d0c20f9400f5038bc5e7dcabaa11d449e0d00b3aad0ac718c829a"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.2/clash-speedtest_Windows_i386.zip",
+            "hash": "8a10da765e82656c0ebb88a49c8b825bc62e241490bfccdb7e75639fb35e00aa"
         },
         "arm64": {
-            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.1/clash-speedtest_Windows_arm64.zip",
-            "hash": "30bddb9cfb2f5f805aec16841d0b7a4f002754bea4054dd4e3f9844b107c574b"
+            "url": "https://github.com/faceair/clash-speedtest/releases/download/v1.8.2/clash-speedtest_Windows_arm64.zip",
+            "hash": "2693597bf49504eb848ae34ecd02132a710206e6a49e7e32505cc9a8915eb7d7"
         }
     },
     "bin": "clash-speedtest.exe",
