@@ -1,20 +1,20 @@
 {
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "An active fork of curl-impersonate with more versions and build targets. A series of patches that make curl requests look like Chrome, Firefox and Safari.",
     "homepage": "https://github.com/lexiforest/curl-impersonate",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.2/libcurl-impersonate-v1.4.2.x86_64-win32.tar.gz",
-            "hash": "95b8908394f9e29addb15b90fb88e3de6c372363dfe96a92bc8beec6ded0a9d2"
+            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.3/libcurl-impersonate-v1.4.3.x86_64-win32.tar.gz",
+            "hash": "213e01a7d1cb5a066908b43b3a832e18c44f19c6eeec08788d94866468ecf394"
         },
         "32bit": {
-            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.2/libcurl-impersonate-v1.4.2.i686-win32.tar.gz",
-            "hash": "3ead014f11402bbf42063622c52f57d10f4bbf0fe8a46635e254c96c5a19bf74"
+            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.3/libcurl-impersonate-v1.4.3.i686-win32.tar.gz",
+            "hash": "7567c303dbc51321eefbece29c4f709b0991c5698fbe1a8f166af9375aa442c0"
         },
         "arm64": {
-            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.2/libcurl-impersonate-v1.4.2.arm64-win32.tar.gz",
-            "hash": "344194076ad8636034fdaa7b7616c24afcb9712e9962f1d4bd0e8e2d062e945f"
+            "url": "https://github.com/lexiforest/curl-impersonate/releases/download/v1.4.3/libcurl-impersonate-v1.4.3.arm64-win32.tar.gz",
+            "hash": "0e0a1985602234332960fb59b6d3b4db188a5e96562c9256b83e2f752fa72dc0"
         }
     },
     "env_add_path": "bin",
