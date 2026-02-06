@@ -1,0 +1,36 @@
+{
+    "version": "2.1.1",
+    "description": "Drag & drop in Figma to create a Python GUI with ease.",
+    "homepage": "https://github.com/Axorax/tkforge",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/Axorax/tkforge/releases/download/v2.1.1/TkForge.exe",
+                "https://github.com/Axorax/tkforge/releases/download/v2.1.1/tkforge-cli.exe"
+            ],
+            "hash": [
+                "d7b2d03179bc4e6fba98c4208bcf9634da8da7453b580ac4112fcfbd895b2e1c",
+                "6dd2b72870c0b87d01893b232d4546a0c89a7f1c096bd93ed379db9df27d6620"
+            ]
+        }
+    },
+    "bin": "tkforge-cli.exe",
+    "shortcuts": [
+        [
+            "TkForge.exe",
+            "TkForge"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/Axorax/tkforge/releases/download/v$version/TkForge.exe",
+                    "https://github.com/Axorax/tkforge/releases/download/v$version/tkforge-cli.exe"
+                ]
+            }
+        }
+    }
+}
