@@ -1,0 +1,23 @@
+{
+    "version": "1.8.7",
+    "description": "A tool to wrap Win32 App and then it can be uploaded to Intune.",
+    "homepage": "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool/archive/refs/tags/v1.8.7.zip",
+            "extract_dir": "Microsoft-Win32-Content-Prep-Tool-1.8.7",
+            "hash": "33db05a672682efc5d59ca11a17c65a484b89e30dd67f1a90e4182f191fcfb7b"
+        }
+    },
+    "bin": "IntuneWinAppUtil.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool/archive/refs/tags/v$version.zip",
+                "extract_dir": "Microsoft-Win32-Content-Prep-Tool-$version"
+            }
+        }
+    }
+}
