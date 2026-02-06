@@ -1,12 +1,12 @@
 {
-    "version": "0.2.3",
+    "version": "0.3.0",
     "description": "A modern, high-performance, and lightweight WSL (Windows Subsystem for Linux) instance management dashboard.",
     "homepage": "https://github.com/owu/wsl-dashboard",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/owu/wsl-dashboard/releases/download/v0.2.3/wsldashboard.v0.2.3.exe#/wsldashboard.exe",
-            "hash": "a933175acfcb4053cc5fe50906bab54697cb890dbe4599f593f1be5965b19fe7"
+            "url": "https://github.com/owu/wsl-dashboard/releases/download/v0.3.0/wsldashboard.v0.3.0.exe#/wsldashboard.exe",
+            "hash": "e6d23030b9cfa8d847e1794845be5dee5307ea259c9776c0c6c4905f30488847"
         }
     },
     "shortcuts": [
