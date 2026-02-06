@@ -1,6 +1,6 @@
 {
     "version": "2.46",
-    "description": "An CLI application that can be used to export message history from any Discord channel to a file.",
+    "description": "A CLI application that can be used to export message history from any Discord channel to a file.",
     "homepage": "https://github.com/Tyrrrz/DiscordChatExporter",
     "license": "MIT",
     "architecture": {
