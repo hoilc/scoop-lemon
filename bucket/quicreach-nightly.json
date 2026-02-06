@@ -15,9 +15,9 @@
             "hash": "9c2d1401491288c2567614d60eb7839fa76f5f495fb575e2aca40d9fdd6d26f4"
         },
         "arm64": {
-            "url": "https://nightly.link/microsoft/quicreach/actions/runs/21599568310/bin-windows-arm64-quictls-static",
+            "url": "https://nightly.link/microsoft/quicreach/actions/runs/21599568310/bin-windows-arm64-quictls-static.zip",
             "extract_dir": "arm64fre",
-            "hash": "8cd88fa4e71ff1b6b30f92de45dc6d16edbd52fed7576f645194b3dffbfcd883"
+            "hash": "8f7841838adc2887dcb0423d0108c351effbdbf89d2ee7f42a37df8bd980511f"
         }
     },
     "bin": "quicreach.exe",
@@ -35,7 +35,7 @@
                 "url": "https://nightly.link/microsoft/quicreach/actions/runs/$matchRun/bin-windows-x86-quictls-static.zip"
             },
             "arm64": {
-                "url": "https://nightly.link/microsoft/quicreach/actions/runs/$matchRun/bin-windows-arm64-quictls-static"
+                "url": "https://nightly.link/microsoft/quicreach/actions/runs/$matchRun/bin-windows-arm64-quictls-static.zip"
             }
         }
     }
