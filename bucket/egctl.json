@@ -1,13 +1,13 @@
 {
-    "version": "1.6.3",
+    "version": "1.7.0",
     "description": "A command-line tool for operating Envoy Gateway.",
     "homepage": "https://gateway.envoyproxy.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/envoyproxy/gateway/releases/download/v1.6.3/egctl_v1.6.3_windows_amd64.zip",
+            "url": "https://github.com/envoyproxy/gateway/releases/download/v1.7.0/egctl_v1.7.0_windows_amd64.zip",
             "extract_dir": "bin\\windows\\amd64",
-            "hash": "952b0d80ef6589392f38defe0f41f631e0c73ee18c06413cc1e91d624b290323"
+            "hash": "2c13236bf1aaa75e96d6ed9c552d6dc0c93f36188a671b9bdfdaee8114a7d8ef"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'egctl' | Select-Object -First 1 | Rename-Item -NewName 'egctl.exe'",
