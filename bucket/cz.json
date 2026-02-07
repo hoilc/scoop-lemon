@@ -1,0 +1,21 @@
+{
+    "version": "0.0.1",
+    "description": "Cloud Zip can list and get specific files from remote zip archives without downloading the whole thing",
+    "homepage": "https://github.com/ozkatz/cloudzip",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ozkatz/cloudzip/releases/download/v0.0.1/cz-v0.0.1-windows-amd64.zip",
+            "hash": "6ecce4f9a9d8ac499365ac64ec0f7dd90af5cd5d92b8d515235069ebec4d575a"
+        }
+    },
+    "bin": "cz.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ozkatz/cloudzip/releases/download/v$version/cz-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
