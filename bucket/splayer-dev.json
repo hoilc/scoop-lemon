@@ -1,20 +1,20 @@
 {
-    "version": "b311",
+    "version": "b313",
     "description": "（开发版）一个简约的音乐播放器 / A minimalist music player",
     "homepage": "https://github.com/imsyy/SPlayer",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21772973549/SPlayer-Windows-setup-x64.zip",
-            "hash": "f5e57c3bf46c2382fd1bb479652af01a875d7cf0616f5974b8dd133651957a15",
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21774679357/SPlayer-Windows-setup-x64.zip",
+            "hash": "aa4d19a8722716da6fb6c3d9a62e8a1c4895c1061f9e626f3c330be9bf92ff6e",
             "pre_install": [
                 "Get-ChildItem \"$dir\" 'SPlayer-*-x64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             ]
         },
         "arm64": {
-            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21772973549/SPlayer-Windows-setup-arm64.zip",
-            "hash": "107545ba40a5469ec5666a5cc23e59b5f060bc6e002327445c1c25def08069a0",
+            "url": "https://nightly.link/imsyy/SPlayer/actions/runs/21774679357/SPlayer-Windows-setup-arm64.zip",
+            "hash": "5623d29652e86183f1dfda437196dea93ae31e4adb27de1ddfb0d9b264281e78",
             "pre_install": [
                 "Get-ChildItem \"$dir\" 'SPlayer-*-arm64-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
