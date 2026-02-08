@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/RECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/RECmd.zip",
-    "hash": "3fb3da2f2c062cbf07f2f9d58e68dd71cc16b534fbd239a642e75eaaae093b1c",
+    "hash": "592c3cdeb7e3a27936a763ba9ee7001639e140e505cec47fdca83604c332f0e6",
     "extract_dir": "RECmd",
     "bin": "RECmd.exe",
     "checkver": {
