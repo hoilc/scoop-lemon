@@ -24,7 +24,7 @@
             "whisper-cpp-command"
         ],
         [
-            "quantize.exe",
+            "whisper-quantize.exe",
             "whisper-cpp-quantize"
         ],
         [
