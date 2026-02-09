@@ -1,12 +1,12 @@
 {
-    "version": "8.5",
+    "version": "8.5a",
     "description": "(PRO版本)小巧精悍的数码照片浏览器",
     "homepage": "http://www.bykeer.com/app/bkviewer/index.php",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "http://www.bykeer.com/app/bkviewer/bkviewer.pro.exe",
-            "hash": "e0324c80a112c2c8c8808e0beb2baec5144b0ecbfb9f84d0cdfe77e3d84c134d"
+            "hash": "abbcb470013a85fa85f24d16048c44ddc5cc6ca12fffe082730b3b11ff2770d3"
         }
     },
     "bin": "bkviewer.pro.exe",
