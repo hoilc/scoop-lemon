@@ -1,20 +1,20 @@
 {
-    "version": "0.10.13",
+    "version": "0.10.14",
     "description": "A fast WordPress plugin enumeration tool.",
     "homepage": "https://github.com/Chocapikk/wpprobe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.13/wpprobe_v0.10.13_windows_amd64.exe#/wpprobe.exe",
-            "hash": "8e2ad64388d8442cd06f7ea3b578099ba9471ac2b34d3115884820fcc47dbfe6"
+            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.14/wpprobe_v0.10.14_windows_amd64.exe#/wpprobe.exe",
+            "hash": "5870a7894aa7e61c504d7598417ecad5fe8d3c201094b0c0cddf2328bf7eff5a"
         },
         "32bit": {
-            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.13/wpprobe_v0.10.13_windows_386.exe#/wpprobe.exe",
-            "hash": "cedf2fd196dad3c44c1d75fd400b429e238cad8cc8ad04cd23c5be96f6558f3e"
+            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.14/wpprobe_v0.10.14_windows_386.exe#/wpprobe.exe",
+            "hash": "facbe6c50c21226efcd275f25e39f6e82f6a2a318038520d5c8c5050d6b4f914"
         },
         "arm64": {
-            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.13/wpprobe_v0.10.13_windows_arm64.exe#/wpprobe.exe",
-            "hash": "dfd2362eadb9167760784036f0a9b97b3d9813230273d15c4ce78f5efecd36ce"
+            "url": "https://github.com/Chocapikk/wpprobe/releases/download/v0.10.14/wpprobe_v0.10.14_windows_arm64.exe#/wpprobe.exe",
+            "hash": "0754d9978845a9eee9e4a7dc629d616a822e51457faea865667f82c611226723"
         }
     },
     "bin": "wpprobe.exe",
