@@ -1,12 +1,12 @@
 {
-    "version": "0.19.7",
+    "version": "0.19.8",
     "description": "An interface to Bitsocial / Plebbit API through command line.",
     "homepage": "https://github.com/bitsocialhq/bitsocial-cli",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bitsocialhq/bitsocial-cli/releases/download/v0.19.7/bitsocial_installer_win32_x64.exe#/dl.7z",
-            "hash": "9fc1d1176dbc52a94461ab0ed56db28d44abeca889fa0cea77adcca8d7531c15"
+            "url": "https://github.com/bitsocialhq/bitsocial-cli/releases/download/v0.19.8/bitsocial_installer_win32_x64.exe#/dl.7z",
+            "hash": "385ba1cc5c4dfb5879245f86a07cc8d380d943cbd55fcf606e2441087b6814d7"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
