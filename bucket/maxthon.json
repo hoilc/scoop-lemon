@@ -1,16 +1,16 @@
 {
-    "version": "7.5.2.5200",
+    "version": "7.5.2.5400",
     "description": "A state-of-the-art,multi-platform web browser that offers users a seamless browsing and sharing experience.",
     "homepage": "https://www.maxthon.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5200/maxthon_portable_7.5.2.5200_beta_x64.zip",
-            "hash": "587fe456940dc698e8f9d1ef7b90b6c345baf9512b507c1be911e65adbcdd1c7"
+            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5400/maxthon_portable_7.5.2.5400_x64.zip",
+            "hash": "60e4dcec42ee4a7c2c761e0a89910e7d610d42e4ceab65d1cbdbc941b04edbb6"
         },
         "32bit": {
-            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5200/maxthon_portable_7.5.2.5200_beta_x86.zip",
-            "hash": "fd65f44e6a2f67efa6802935619738101690b87a6e1f70c6bdf47d7c3a20335a"
+            "url": "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.2.5400/maxthon_portable_7.5.2.5400_x86.zip",
+            "hash": "6cbf769c152fccb5b4bfc49d91ffe62a403f79ed59bd5fb418ac6acfba6c6bb6"
         }
     },
     "shortcuts": [
