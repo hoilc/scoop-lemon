@@ -1,12 +1,12 @@
 {
-    "version": "1.4.6",
+    "version": "1.4.7",
     "description": "A basic Sudoku game.",
     "homepage": "https://gottcode.org/simsu/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/simsu/Simsu_1.4.6.zip",
-            "hash": "e2487aec9f70aeda07b449335085e1f93b1e8a51fb63d959f201f98ca75cad80"
+            "url": "https://gottcode.org/simsu/Simsu_1.4.7.zip",
+            "hash": "ee8075da8445156ee8e88fd253d967cc54193a1a362e58e09461617cefec0fa9"
         }
     },
     "shortcuts": [
