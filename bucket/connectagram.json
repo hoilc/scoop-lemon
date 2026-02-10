@@ -1,12 +1,12 @@
 {
-    "version": "1.3.8",
+    "version": "1.3.9",
     "description": "A word unscrambling game.",
     "homepage": "https://gottcode.org/connectagram/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/connectagram/Connectagram_1.3.8.zip",
-            "hash": "c5932a054f11030bd5ef488ab1b41be66a3ee954c23c6882726789be69e36b27"
+            "url": "https://gottcode.org/connectagram/Connectagram_1.3.9.zip",
+            "hash": "23f31ae067437b1d43e138ef7c4be0992bd55c0439885866e5dbeb3f5fd02306"
         }
     },
     "shortcuts": [
