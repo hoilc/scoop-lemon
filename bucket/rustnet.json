@@ -1,18 +1,18 @@
 {
-    "version": "0.18.0",
+    "version": "1.0.0",
     "description": "A cross-platform network monitoring terminal UI tool built with Rust.",
     "homepage": "https://github.com/domcyrus/rustnet",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/domcyrus/rustnet/releases/download/v0.18.0/rustnet-v0.18.0-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "rustnet-v0.18.0-x86_64-pc-windows-msvc",
-            "hash": "ddcda30408a687076e2ece9023828091db1a9594f39457f1c99b6f128e7f76cf"
+            "url": "https://github.com/domcyrus/rustnet/releases/download/v1.0.0/rustnet-v1.0.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "rustnet-v1.0.0-x86_64-pc-windows-msvc",
+            "hash": "ed6694bcc8e1d2189419132ab80f8c4670b82f56379e523f0e3cdb87ffe7370f"
         },
         "32bit": {
-            "url": "https://github.com/domcyrus/rustnet/releases/download/v0.18.0/rustnet-v0.18.0-i686-pc-windows-msvc.zip",
-            "extract_dir": "rustnet-v0.18.0-i686-pc-windows-msvc",
-            "hash": "f7ae65d52e083026bcae64b08e60395ded63685180ebf281dc1b1eb596705b25"
+            "url": "https://github.com/domcyrus/rustnet/releases/download/v1.0.0/rustnet-v1.0.0-i686-pc-windows-msvc.zip",
+            "extract_dir": "rustnet-v1.0.0-i686-pc-windows-msvc",
+            "hash": "1575ee36f1bb236c64785690d6c423cd2714896afbc7f29ce186acbf0e8be477"
         }
     },
     "bin": "rustnet.exe",
