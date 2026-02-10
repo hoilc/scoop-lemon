@@ -1,12 +1,12 @@
 {
-    "version": "1.3.5",
+    "version": "1.3.6",
     "description": "A peg solitaire game in which you jump over pieces in order to remove them from the board, ultimately trying to eliminate all but one.",
     "homepage": "https://gottcode.org/peg-e/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/peg-e/Peg-E_1.3.5.zip",
-            "hash": "5cdfae415901a089149a394eca24ccefdd9e77a4596aa08bb1368d1c51d233c7"
+            "url": "https://gottcode.org/peg-e/Peg-E_1.3.6.zip",
+            "hash": "11ea379a345ce065f1ec92223918f406b4d8b6b7baed1cd2676dbdd71e52f774"
         }
     },
     "shortcuts": [
