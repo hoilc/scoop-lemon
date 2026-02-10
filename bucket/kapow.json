@@ -1,12 +1,12 @@
 {
-    "version": "1.6.4",
+    "version": "1.7.0",
     "description": "A punch clock program designed to easily keep track of your hours.",
     "homepage": "https://gottcode.org/kapow/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/kapow/Kapow_1.6.4.zip",
-            "hash": "49887bad3cf0848dbf3fbd0f9c254332536c2996d86a8fe1ff96da68114759e8"
+            "url": "https://gottcode.org/kapow/Kapow_1.7.0.zip",
+            "hash": "6e6db5317f6ff3baabad1148f635133ce7e0851caf0899094ea908f397c59d66"
         }
     },
     "shortcuts": [
