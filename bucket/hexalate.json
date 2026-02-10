@@ -1,12 +1,12 @@
 {
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "A color matching game.",
     "homepage": "https://gottcode.org/hexalate/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gottcode.org/hexalate/Hexalate_1.2.5.zip",
-            "hash": "9be198049235d14519a3a2176f3f6b9ff825110c02e0667b85c43a9179e37842"
+            "url": "https://gottcode.org/hexalate/Hexalate_1.2.6.zip",
+            "hash": "384f70c09be2b641a983a7412ca832ce00d04dc2189fdca628190693361509af"
         }
     },
     "shortcuts": [
