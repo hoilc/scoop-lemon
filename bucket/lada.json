@@ -1,17 +1,17 @@
 {
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "A tool designed to recover pixelated adult videos (JAV).",
     "homepage": "https://codeberg.org/ladaapp/lada",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ladaapp/lada/releases/download/v0.10.1/lada-v0.10.1.7z.001",
-                "https://github.com/ladaapp/lada/releases/download/v0.10.1/lada-v0.10.1.7z.002"
+                "https://github.com/ladaapp/lada/releases/download/v0.11.0/lada-v0.11.0_windows_nvidia.7z.001",
+                "https://github.com/ladaapp/lada/releases/download/v0.11.0/lada-v0.11.0_windows_nvidia.7z.002"
             ],
             "hash": [
-                "74371ee016c6b62260bad811c7a35e116e7f95a85f723c0265ddf05506c244d2",
-                "0d60cc99eba67866599a4ec80687d3241cb010bfbe8a11f7a195ab0b285fb315"
+                "861caf4bc3fb08bb4f145a0ef53172d051d39401e9f5b1c6cbab7206b32e518b",
+                "472b8012f676cca0ef0eb6af9a69ba1256370dbe6c1c84740ab34d4c2650b796"
             ]
         }
     },
@@ -31,8 +31,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version.7z.001",
-                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version.7z.002"
+                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version_windows_nvidia.7z.001",
+                    "https://github.com/ladaapp/lada/releases/download/v$version/lada-v$version_windows_nvidia.7z.002"
                 ]
             }
         }
