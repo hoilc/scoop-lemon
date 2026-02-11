@@ -1,16 +1,16 @@
 {
-    "version": "1.4.7",
+    "version": "1.5.0",
     "description": "Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding.",
     "homepage": "https://github.com/pgrok/pgrok",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgrok/pgrok/releases/download/v1.4.7/pgrok_1.4.7_windows_amd64.zip",
-            "hash": "a4dc7b9850786cd4c76081bcedede3e72f1762c83336273ab2a7df45fbd01d48"
+            "url": "https://github.com/pgrok/pgrok/releases/download/v1.5.0/pgrok_1.5.0_windows_amd64.zip",
+            "hash": "5ec02bd003ce298b52761d7ce2b32b51091b6f217479eb1fae5032700c8c5716"
         },
         "arm64": {
-            "url": "https://github.com/pgrok/pgrok/releases/download/v1.4.7/pgrok_1.4.7_windows_arm64.zip",
-            "hash": "1116ce839249fe727e81c6b579cb50090273bdc987e4be236296e6d5849d1c00"
+            "url": "https://github.com/pgrok/pgrok/releases/download/v1.5.0/pgrok_1.5.0_windows_arm64.zip",
+            "hash": "aebdaf9e1f5e156d49d853d5642f744db4e07d20edc502abfe55efebe94762cc"
         }
     },
     "bin": "pgrok.exe",
