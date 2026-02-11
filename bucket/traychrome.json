@@ -1,12 +1,12 @@
 {
-    "version": "1.8",
+    "version": "1.8.1",
     "description": "基于 WPF 和 WebView2 的轻量级托盘浏览器，专为 Windows 设计",
     "homepage": "https://github.com/cornradio/tray-chrome",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cornradio/tray-chrome/releases/download/v1.8/TrayChrome.exe",
-            "hash": "4d8faa575acb9ea21508cf7f0c30c683174aee5da196a2b35633ca38c6099aed"
+            "url": "https://github.com/cornradio/tray-chrome/releases/download/v1.8.1/TrayChrome.exe",
+            "hash": "c84473d010297dc9f8f223302a874ae65d8aa5e9fd82a6b8ec360e8075665dbc"
         }
     },
     "bin": "TrayChrome.exe",
