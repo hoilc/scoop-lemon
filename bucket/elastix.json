@@ -1,12 +1,12 @@
 {
-    "version": "5.2.0",
+    "version": "5.3.0",
     "description": "A toolbox for rigid and nonrigid registration of images.",
     "homepage": "https://elastix.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SuperElastix/elastix/releases/download/5.2.0/elastix-5.2.0-win64.zip",
-            "hash": "3dfe8cbc943c077bbe06f228f6f5ebf9389937f116939054b3aa2ffe0968e055"
+            "url": "https://github.com/SuperElastix/elastix/releases/download/5.3.0/elastix-5.3.0-windows.zip",
+            "hash": "f6af2d57f47161a0f9059590cb1ccbe7e42f0a7a2024d59c33fecfefa30b20d1"
         }
     },
     "bin": [
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SuperElastix/elastix/releases/download/$version/elastix-$version-win64.zip"
+                "url": "https://github.com/SuperElastix/elastix/releases/download/$version/elastix-$version-windows.zip"
             }
         }
     }
