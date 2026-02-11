@@ -15,18 +15,14 @@
             "Jan"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "checkver": {
         "github": "https://github.com/janhq/jan"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/janhq/jan/releases/download/v$version/Jan_$version_x64-setup.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "(?sm)$basename\\s*sha512:\\s*$base64"
-                }
+                "url": "https://github.com/janhq/jan/releases/download/v$version/Jan_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
