@@ -1,11 +1,11 @@
 {
-    "version": "4.3.20",
+    "version": "4.4.11",
     "description": "发票闪印是一款方便用于打印PDF发票的辅助工具，无需安装阅读器",
     "homepage": "https://printpdf.github.io",
     "license": "Freeware",
     "url": "https://printpdf.github.io/PrintPDF.7z",
-    "hash": "e82797afb05507960cc5a9eb7ea1c1ed4d1d6ffe9bc64fcf640d20ab933be0e6",
-    "extract_dir": "发票闪印4.3.20",
+    "hash": "200fd39613c50971b23a067d11a53e94b5a470aafb79059c3980fb452abb896c",
+    "extract_dir": "发票闪印4.4.11",
     "bin": "PrintPDF.exe",
     "shortcuts": [
         [
