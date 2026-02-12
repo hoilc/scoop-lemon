@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "A CLI code-typing game that turns your source code into typing challenges.",
     "homepage": "https://github.com/unhappychoice/gittype",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/unhappychoice/gittype/releases/download/v0.8.0/gittype-v0.8.0-x86_64-pc-windows-msvc.zip",
-            "hash": "2b2685902776ea8621f6871026516edf2208a9dac707ee77b09b0511690dc430"
+            "url": "https://github.com/unhappychoice/gittype/releases/download/v0.9.0/gittype-v0.9.0-x86_64-pc-windows-msvc.zip",
+            "hash": "33c48e8e8ba87fb0d60e05a8bd424bca4792041244f77d6e188272ad15a695ad"
         }
     },
     "bin": "gittype.exe",
