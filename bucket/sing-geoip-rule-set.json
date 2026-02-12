@@ -1,11 +1,11 @@
 {
-    "version": "20260112-f9ab6e7",
+    "version": "20260212-7442a60",
     "description": "GeoIP rule set for sing-box.",
     "homepage": "https://sing-box.sagernet.org/configuration/rule-set/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/SagerNet/sing-geoip/archive/f9ab6e750b3504bfeebce46cec679c57f689ea11.zip",
-    "hash": "0501e506050fa356968d26036409a23a8f0bee113a6485e048e45a6d21006834",
-    "extract_dir": "sing-geoip-f9ab6e750b3504bfeebce46cec679c57f689ea11",
+    "url": "https://github.com/SagerNet/sing-geoip/archive/7442a601f3748ab5d5cc3dee5b760def035f92c7.zip",
+    "hash": "b92dcdeded9d304a6f7ac29c1944b0fb4fd5bf155976eaf6d2ba0fd642ab15a7",
+    "extract_dir": "sing-geoip-7442a601f3748ab5d5cc3dee5b760def035f92c7",
     "checkver": {
         "script": [
             "$branch = Invoke-RestMethod 'https://api.github.com/repos/SagerNet/sing-geoip/branches/rule-set'",
