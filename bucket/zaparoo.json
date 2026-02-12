@@ -1,20 +1,20 @@
 {
-    "version": "2.9.0",
+    "version": "2.9.1",
     "description": "An open source universal loading system that lets you launch games and media instantly using physical objects.",
     "homepage": "https://zaparoo.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.0/zaparoo-windows_amd64-2.9.0.zip",
-            "hash": "05d7cca498de7ea61f92c2ad6fcad0130c7d6ae6c028f2ab46b65e52d7cd4a4b"
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.1/zaparoo-windows_amd64-2.9.1.zip",
+            "hash": "938e140185774175de4e5b4f38ef28a4e256b9b3d8db5464bb2a8ad6899cd96d"
         },
         "32bit": {
-            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.0/zaparoo-windows_386-2.9.0.zip",
-            "hash": "cdb69c73257db6531fe48050abee2c9c4c151f0e55651a99640743f8960e820a"
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.1/zaparoo-windows_386-2.9.1.zip",
+            "hash": "1468ecce8a4f7460295bdfdabbcf2ee76309cbab94b9c59f2603b71bf061b7e1"
         },
         "arm64": {
-            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.0/zaparoo-windows_arm64-2.9.0.zip",
-            "hash": "1ad26a1c5c9f33d766ca3ef0e1c79f94ac4ac48c4ee5d94ceb483588378964a8"
+            "url": "https://github.com/ZaparooProject/zaparoo-core/releases/download/v2.9.1/zaparoo-windows_arm64-2.9.1.zip",
+            "hash": "9ff40489008a4c6775cd99a07840144b7b28aabadc0edfbecee900b3ce087dd4"
         }
     },
     "shortcuts": [
