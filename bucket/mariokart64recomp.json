@@ -1,12 +1,12 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "MarioKart 64: Recompiled is a project that uses N64: Recompiled to statically recompile MarioKart 64 into a native port with many new features and enhancements.",
     "homepage": "https://github.com/sonicdcer/MarioKart64Recomp",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.1/MarioKart64Recompiled-v0.9.1-Windows-RelWithDebInfo.zip",
-            "hash": "42aaa196713ffa751a10917dd50dd7a61709a5f3c1f9f52a20d919cf19713469"
+            "url": "https://github.com/sonicdcer/MarioKart64Recomp/releases/download/v0.9.2/MarioKart64Recompiled-v0.9.2-Windows-RelWithDebInfo.zip",
+            "hash": "4b41226ad7d4c6012878194fa88fe1a83c1fa8f425dfbaa2a7ea87eb01c1c2b4"
         }
     },
     "shortcuts": [
