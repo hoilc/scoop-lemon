@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "一个用于绅士漫画的多线程下载器",
     "homepage": "https://github.com/lanyeeee/wnacg-downloader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lanyeeee/wnacg-downloader/releases/download/v0.5.0/wnacg-downloader_0.5.0_windows_x64_portable.zip",
-            "hash": "e5adde229bec1bd53af3bf0758bd88c85ade092d0642608946bcc3b96e4b7779"
+            "url": "https://github.com/lanyeeee/wnacg-downloader/releases/download/v0.5.1/wnacg-downloader_0.5.1_windows_x64_portable.zip",
+            "hash": "96e90b8ce52fa1e227ccc583264d9aff3473076ded81ffff7eda75f3fa09b251"
         }
     },
     "shortcuts": [
