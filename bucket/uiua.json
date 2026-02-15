@@ -1,16 +1,16 @@
 {
-    "version": "0.18.0",
+    "version": "0.18.1",
     "description": "A general purpose array-oriented programming language with a focus on simplicity, beauty, and tacit code.",
     "homepage": "https://www.uiua.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/uiua-lang/uiua/releases/download/0.18.0/uiua-bin-x86_64-pc-windows-msvc.zip",
-            "hash": "6b9d17677a7617d3b11c0d04090d19e2130617bc5d460c69010ecfa5723c742e"
+            "url": "https://github.com/uiua-lang/uiua/releases/download/0.18.1/uiua-bin-x86_64-pc-windows-msvc.zip",
+            "hash": "717719983c5bf08f0ac70f31ff25953901ff054342f3fc00e0a5072517031c73"
         },
         "arm64": {
-            "url": "https://github.com/uiua-lang/uiua/releases/download/0.18.0/uiua-bin-aarch64-pc-windows-msvc.zip",
-            "hash": "054029d37c11591029050cdf7f975832747d6107adf32434ecf554a91566fcfc"
+            "url": "https://github.com/uiua-lang/uiua/releases/download/0.18.1/uiua-bin-aarch64-pc-windows-msvc.zip",
+            "hash": "08307f0f3a3f2d0d463ccdd1b866c4a91913aa651fcbd54218164215c680ccb4"
         }
     },
     "bin": "uiua.exe",
