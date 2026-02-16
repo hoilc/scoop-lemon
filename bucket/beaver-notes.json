@@ -1,10 +1,10 @@
 {
-    "version": "4.2.0",
+    "version": "4.3.0",
     "description": "Beaver Notes is an open-source note taking app built for Privacy and Efficiency.",
     "homepage": "https://www.beavernotes.com/",
     "license": "MIT",
-    "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver.Notes-Setup-4.2.0.exe#/dl.7z",
-    "hash": "89bc8bf0825b0c5640536053c122349ca2aed10bdaf45d42c952a68ed294a9e8",
+    "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.3.0/Beaver.Notes.Setup.4.3.0.exe#/dl.7z",
+    "hash": "b6665cec98533f9030f1fc49d8ab55d1b15ecc367b88ec9d5388618c8d68b66c",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
@@ -13,7 +13,7 @@
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "Beaver-notes.exe",
@@ -26,6 +26,6 @@
         "github": "https://github.com/Beaver-Notes/Beaver-Notes"
     },
     "autoupdate": {
-        "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver.Notes-Setup-$version.exe#/dl.7z"
+        "url": "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver.Notes.Setup.$version.exe#/dl.7z"
     }
 }
