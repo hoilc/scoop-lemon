@@ -1,10 +1,10 @@
 {
-    "version": "1.6.15",
+    "version": "1.6.16",
     "description": "An in-memory message queue with an Amazon SQS-compatible interface.",
     "homepage": "https://github.com/softwaremill/elasticmq",
     "license": "Apache-2.0",
-    "url": "https://github.com/softwaremill/elasticmq/releases/download/v1.6.15/elasticmq-server-all-1.6.15.jar#/elasticmq-server.jar",
-    "hash": "6a5c51645c7e5259382989e521538295a8e4d8c99f9df528a24bb674c25dedce",
+    "url": "https://github.com/softwaremill/elasticmq/releases/download/v1.6.16/elasticmq-server-all-1.6.16.jar#/elasticmq-server.jar",
+    "hash": "30a81f56a40b670fafc3f32b0f09f3baf59ad2645edaf17bc2e79170c75479f2",
     "bin": "elasticmq-server.jar",
     "persist": [
         "config",
