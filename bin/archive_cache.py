@@ -234,7 +234,7 @@ def process_cache_files():
             'mediatype': 'software',
             'title': f'{manifest_name} - scoop-lemon',
             'description': f'',
-            'collection': 'open_source_software',
+            'collection': ['scoop-lemon', 'softwarelibrary'],
             'subject': ['scoop', 'scoop-lemon'],
             'bucket': 'scoop-lemon',
             'repo': 'https://github.com/hoilc/scoop-lemon',
