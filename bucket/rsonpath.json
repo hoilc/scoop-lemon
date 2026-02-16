@@ -1,16 +1,16 @@
 {
-    "version": "0.9.4",
+    "version": "0.10.0",
     "description": "A blazing fast JSONPath query engine written in Rust.",
     "homepage": "https://rsonquery.github.io/rsonpath/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.9.4/rq-x86_64-pc-windows-msvc.exe#/rq.exe",
-            "hash": "e5b4ad9d905eef60e2c895731370e499b8c12580ea582282f96bb16a4bfc7f1a"
+            "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.10.0/rq-x86_64-pc-windows-msvc.exe#/rq.exe",
+            "hash": "2766bce236263656f7c9dbec0bcdc958d51806c0cc417c003e01aeca521ce414"
         },
         "32bit": {
-            "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.9.4/rq-i686-pc-windows-msvc.exe#/rq.exe",
-            "hash": "8197c25599f0b07c4b7c29872ad8b3c412bccef65be1994282c366d6c819e7c5"
+            "url": "https://github.com/rsonquery/rsonpath/releases/download/v0.10.0/rq-i686-pc-windows-msvc.exe#/rq.exe",
+            "hash": "255aabc50ff48c2af17b3b7d465a21bb4c2950b89bcdd237b5ec615e0b1cd2f1"
         }
     },
     "bin": "rq.exe",
