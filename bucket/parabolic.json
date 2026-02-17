@@ -1,16 +1,16 @@
 {
-    "version": "2026.2.2",
+    "version": "2026.2.3",
     "description": "A powerful yt-dlp frontend.",
     "homepage": "https://github.com/NickvisionApps/Parabolic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.2.2/NickvisionParabolicSetup.exe",
-            "hash": "605287521f99734a924ce4fc7f25a2e8e10d2c17942d9685671bc62b4b8ce9d8"
+            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.2.3/NickvisionParabolicSetup.exe",
+            "hash": "3f644346c5956786305695752ee069b9e3c93ef20ea94a6299ad3f5be1aeb160"
         },
         "arm64": {
-            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.2.2/NickvisionParabolicSetup-arm64.exe",
-            "hash": "e3257eec1eb11e41933c14fdbdbb709abb2b313d83d04c08fb5f08c0186f1981"
+            "url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.2.3/NickvisionParabolicSetup-arm64.exe",
+            "hash": "995fe567b134bfae56f6b2989e65759c42fcae050efe57ff9ab6ba0e00b97368"
         }
     },
     "innosetup": true,
