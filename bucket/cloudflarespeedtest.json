@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.4/cfst_windows_amd64.zip",
-            "hash": "3475084ecb40803495edad6223e5ccdb4de5348fb57c633564351ddd917a5352"
+            "hash": "996ed14c17d98ec70ee3cf222a0fb56b187e571ebcb879c0638ef9ba916039e9"
         },
         "32bit": {
             "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.4/cfst_windows_386.zip",
-            "hash": "7b3d5ddc73549ec7cdd03ae81c59000540611a8daa0defee9ca6c5816dec666d"
+            "hash": "4ed930743b69a99639748656767a3b2b053268762a8939d6d2f738f9c319c35f"
         },
         "arm64": {
             "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.4/cfst_windows_arm64.zip",
-            "hash": "cddad0a74c6bf8ceba3e15fef9d6ef5dedbd03509693715eea29e7503d23a230"
+            "hash": "524b513053309abe7a7c391cf7450313f71ab3338bc2e86aa42eae3e9f6c9c74"
         }
     },
     "bin": "cfst.exe",
