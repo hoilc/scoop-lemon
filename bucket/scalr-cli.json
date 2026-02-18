@@ -1,20 +1,20 @@
 {
-    "version": "0.17.6",
+    "version": "0.17.7",
     "description": "A command-line tool for Scalr, a remote operations backend for Terraform and OpenTofu.",
     "homepage": "https://github.com/Scalr/scalr-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.6/scalr-cli_0.17.6_windows_amd64.zip",
-            "hash": "1fe5659cfd07f5f581ad3f05a63b3270f9b076ebc952cb6edc0d52e2192300a7"
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.7/scalr-cli_0.17.7_windows_amd64.zip",
+            "hash": "805130b9b0155ab8a4b2109f5cac18ec5805308a73100863aa7ecd4d514de0c6"
         },
         "32bit": {
-            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.6/scalr-cli_0.17.6_windows_386.zip",
-            "hash": "3456edac6a61ae83600a9c97701504661981aed285328700c48ecf4f451f93eb"
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.7/scalr-cli_0.17.7_windows_386.zip",
+            "hash": "7d84d15ef73ab3a2dbc9e57c14512c3cee8d529dccbadfd43f904e21226ff4e5"
         },
         "arm64": {
-            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.6/scalr-cli_0.17.6_windows_arm64.zip",
-            "hash": "42f31a6d4ca41170e75a19162210e0c8936128dc6c363e40cdfb66629fb7fe8e"
+            "url": "https://github.com/Scalr/scalr-cli/releases/download/v0.17.7/scalr-cli_0.17.7_windows_arm64.zip",
+            "hash": "ea3c75bfe59b90de9824fb48f3939d7c18216d1a94d1e3cf1877c90331c0dfb4"
         }
     },
     "bin": "scalr.exe",
