@@ -8,11 +8,6 @@
             "url": "https://firealpaca.com/download/win64_zip#/dl.zip",
             "hash": "46c8f39389e30cc6d0dca468df17dd52413fd72a75cf735c2f187c2ba2b0a63d",
             "extract_dir": "FireAlpacaWin64_2_15_2"
-        },
-        "32bit": {
-            "url": "https://firealpaca.com/download/win_zip#/dl.zip",
-            "hash": "de88fc19570f6abbcbf766fa8f5e442684ad4e471110f60122a3965211a549b3",
-            "extract_dir": "FireAlpacaWin32_2_15_2"
         }
     },
     "bin": "FireAlpaca.exe",
@@ -32,10 +27,6 @@
             "64bit": {
                 "url": "https://firealpaca.com/download/win64_zip#/dl.zip",
                 "extract_dir": "FireAlpacaWin64_$underscoreVersion"
-            },
-            "32bit": {
-                "url": "https://firealpaca.com/download/win_zip#/dl.zip",
-                "extract_dir": "FireAlpacaWin32_$underscoreVersion"
             }
         }
     }
