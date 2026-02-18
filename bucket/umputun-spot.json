@@ -1,12 +1,12 @@
 {
-    "version": "1.19.3",
+    "version": "1.20.0",
     "description": "A user-friendly and efficient tool for the effortless deployment and configuration of resources on remote machines.",
     "homepage": "https://spot.umputun.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/umputun/spot/releases/download/v1.19.3/spot_v1.19.3_win_x86_64.zip",
-            "hash": "9071cf8ddea9ae485c839cd6fecf588e1f6822310d93c7917bce776ee0283774"
+            "url": "https://github.com/umputun/spot/releases/download/v1.20.0/spot_v1.20.0_win_x86_64.zip",
+            "hash": "fc43e1c30440a5d2f71ecb35a86272ea91ae0d1592bdff03e2cd91c5f3f4bb68"
         }
     },
     "bin": [
