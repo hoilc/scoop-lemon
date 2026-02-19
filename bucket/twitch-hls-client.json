@@ -1,12 +1,12 @@
 {
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "A minimal command line client for watching/recording Twitch streams.",
     "homepage": "https://github.com/2bc4/twitch-hls-client",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/2bc4/twitch-hls-client/releases/download/1.6.1/twitch-hls-client-x86_64-pc-windows-msvc.zip",
-            "hash": "60df782056807b607196f5cafc4226ad1f733e8e082e90031996dc85d36dcf02"
+            "url": "https://github.com/2bc4/twitch-hls-client/releases/download/1.6.2/twitch-hls-client-x86_64-pc-windows-msvc.zip",
+            "hash": "6f5cfe795132d7d8e0ee283e9d1688483ebd65493fd22b8239890abe16907283"
         }
     },
     "bin": "twitch-hls-client.exe",
