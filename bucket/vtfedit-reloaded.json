@@ -1,12 +1,12 @@
 {
-    "version": "2.1.9",
+    "version": "2.1.10",
     "description": "A fork of VTFLib which provides a C and C++ API for reading and writing Valve VTF and VMT format image files.",
     "homepage": "https://github.com/Sky-rym/VTFEdit-Reloaded",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Sky-rym/VTFEdit-Reloaded/releases/download/2.1.9/VTFEdit_Reloaded_v2.1.9.zip",
-            "hash": "b903aaa72d62164a26c5bb6664f4d60b6bfcfca0869640c7bc3964877ce3d547"
+            "url": "https://github.com/Sky-rym/VTFEdit-Reloaded/releases/download/2.1.10/VTFEdit_Reloaded_v2.1.10.zip",
+            "hash": "9b221a3f3e00502275f5eda79305ec4bcb0032dc7905620cd02d4f74992ba4d7"
         }
     },
     "shortcuts": [
