@@ -1,5 +1,5 @@
 {
-    "version": "0.11.4",
+    "version": "0.11.5",
     "description": "Expose your local endpoints to the Internet or to another network, traversing firewalls, proxies, and NAT.",
     "homepage": "https://docs.inlets.dev/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/inlets/inlets-pro/releases/download/0.11.4/inlets-pro.exe",
-            "hash": "23db5b1f4e84351b3a890f2ef9c71414f94e8d4905b73adbeee94dad467937f2"
+            "url": "https://github.com/inlets/inlets-pro/releases/download/0.11.5/inlets-pro.exe",
+            "hash": "455ce84c4ba5a70d9e23074de8fab04bbab29488a324678f2acfe6ff085ffee6"
         }
     },
     "bin": "inlets-pro.exe",
