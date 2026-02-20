@@ -1,0 +1,22 @@
+{
+    "version": "1.1.0",
+    "description": "A terminal game where tetrominos fall and stack.",
+    "homepage": "https://github.com/Strophox/tetro-tui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Strophox/tetro-tui/releases/download/v1.1.0/x86_64-pc-windows-gnu.zip",
+            "extract_dir": "x86_64-pc-windows-gnu",
+            "hash": "c3de0839fd90c129ad36fbbd0606fa6cfbb141de7a28c32488ffa7ec85fd86e8"
+        }
+    },
+    "bin": "tetro-tui.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Strophox/tetro-tui/releases/download/v$version/x86_64-pc-windows-gnu.zip"
+            }
+        }
+    }
+}
