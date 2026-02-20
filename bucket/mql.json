@@ -1,0 +1,38 @@
+{
+    "##": "TODO: remove cnquery manifest",
+    "version": "13.0.0-rc2",
+    "description": "A cloud-native tool for querying your entire infrastructure.",
+    "homepage": "https://github.com/mondoohq/cnquery",
+    "license": {
+        "identifier": "BUSL-1.1",
+        "url": "https://github.com/mondoohq/cnquery/raw/refs/heads/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v13.0.0-rc2/mql_13.0.0-rc2_windows_amd64.zip",
+            "hash": "9e8af5139ac0760169155e421878bd78476ec2e039da42d928e1a14c840a6ed2"
+        },
+        "arm64": {
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v13.0.0-rc2/mql_13.0.0-rc2_windows_arm64.zip",
+            "hash": "74dd042c01eb841b8d97ae2682b8a90d07e75bb04cab43bfa6ef994dd6ef45ee"
+        }
+    },
+    "bin": "mql.exe",
+    "checkver": {
+        "url": "https://github.com/mondoohq/cnquery/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mondoohq/cnquery/releases/download/v$version/mql_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/mondoohq/cnquery/releases/download/v$version/mql_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/mql_v$version_SHA256SUMS"
+        }
+    }
+}
