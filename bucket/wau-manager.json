@@ -1,5 +1,5 @@
 {
-    "version": "3.8.5.0",
+    "version": "3.8.6.0",
     "description": "WAU Manager is a fully featured replacement for the built in Windows Updating interface, giving you full control of the Windows Updates.",
     "homepage": "https://www.carifred.com/wau_manager/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.carifred.com/License.php"
     },
     "url": "https://www.carifred.com/wau_manager/WAU%20Manager.exe",
-    "hash": "4ba3c618331a4d50339634c0a93903c1b2f3953d4e8a69068a2198560a938be3",
+    "hash": "7ef1a2c4e8e3f58814cdc553bac1fb1c993c1c221aa941e2f6ca90542197675e",
     "shortcuts": [
         [
             "WAU Manager.exe",
