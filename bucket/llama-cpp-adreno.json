@@ -1,17 +1,17 @@
 {
     "##": "The 64-bit version is just a placeholder to pass CI checks.",
-    "version": "b8117",
+    "version": "b8118",
     "description": "(OpenCL Backend for Qualcomm Adreno GPU) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8117/llama-b8117-bin-win-cpu-x64.zip",
-            "hash": "264bc1070b2c2604ed498ab1ab5372e658f4cb9fd0135ceeef7080a060339428"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8118/llama-b8118-bin-win-cpu-x64.zip",
+            "hash": "b0fe22efe11aa898f072678da56758ace54796a9532a08dd7f7b343d899c0756"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8117/llama-b8117-bin-win-opencl-adreno-arm64.zip",
-            "hash": "836db0029d41b873a197b6995d61418f6c07e677244881f0ac06ab3ba1df4084"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8118/llama-b8118-bin-win-opencl-adreno-arm64.zip",
+            "hash": "4f9b64c6fc0fc8e9529f4e7ad75ae6eff7aad8b70fa706a4dceb1ec8f4ff528d"
         }
     },
     "bin": [
