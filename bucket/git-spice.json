@@ -1,16 +1,16 @@
 {
-    "version": "0.23.0",
+    "version": "0.24.0",
     "description": "A tool for stacking Git branches.",
     "homepage": "https://abhinav.github.io/git-spice/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/abhinav/git-spice/releases/download/v0.23.0/git-spice.Windows-x86_64.tar.gz",
-            "hash": "29f4245dba463d72f8bdad9b3c2d8c7df798915e50b09c6f922c36449e3e7485"
+            "url": "https://github.com/abhinav/git-spice/releases/download/v0.24.0/git-spice.Windows-x86_64.tar.gz",
+            "hash": "557442863b3c20e6a37eafd20caae84a816e30588daef3e801841d6c9e624bbd"
         },
         "arm64": {
-            "url": "https://github.com/abhinav/git-spice/releases/download/v0.23.0/git-spice.Windows-arm64.tar.gz",
-            "hash": "222f78580f0ca659244827be52d7fc9816eb13c7cb4b5f29daae0cb958df105a"
+            "url": "https://github.com/abhinav/git-spice/releases/download/v0.24.0/git-spice.Windows-arm64.tar.gz",
+            "hash": "eb6b90229813041616cafd10abe2c3e76b302ed7f3e5c5ae269358e651db4a5c"
         }
     },
     "bin": "gs.exe",
