@@ -1,16 +1,16 @@
 {
-    "version": "2.3.1",
+    "version": "2.4.0",
     "description": "Quickly clean up unused forks on your github account.",
     "homepage": "https://github.com/caarlos0/fork-cleaner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.3.1/fork-cleaner_2.3.1_windows_amd64.zip",
-            "hash": "fb5242a4c8a9d4a2fdfe79a6035c1b692493f2a10d067c0baffba4aef4217600"
+            "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.4.0/fork-cleaner_2.4.0_windows_amd64.zip",
+            "hash": "3f5e485201fb7c698de629195ecf9d85ba66e68ff3dee16976d068498e700fbb"
         },
         "arm64": {
-            "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.3.1/fork-cleaner_2.3.1_windows_arm64.zip",
-            "hash": "757391673936d41bc2700a61de9cd4b0ec472de55f8739cee62856fc9fb3d10c"
+            "url": "https://github.com/caarlos0/fork-cleaner/releases/download/v2.4.0/fork-cleaner_2.4.0_windows_arm64.zip",
+            "hash": "c948c3fe0a2ad38f4404dc26d806c0465625ac52e5f0a4741c729c76f78034a0"
         }
     },
     "bin": "fork-cleaner.exe",
