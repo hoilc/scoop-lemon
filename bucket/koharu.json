@@ -1,14 +1,15 @@
 {
-    "version": "0.31.0",
-    "description": "ML-powered manga translator, written in Rust",
+    "version": "0.34.0",
+    "description": "ML-powered manga translator, written in Rust.",
     "homepage": "https://github.com/mayocream/koharu",
     "license": "GPL-3.0-only|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mayocream/koharu/releases/download/0.31.0/Koharu-win-CUDA-Bundled.7z",
-            "hash": "9c5d8f8dc60b4f4c8a1d0217b6a1911fed0596e33fc074f94dc7235be7d0c5e0"
+            "url": "https://github.com/mayocream/koharu/releases/download/0.34.0/koharu_0.34.0_x64-setup.exe#/dl.7z",
+            "hash": "a15393f63b7b203b874d83c8426d540b2f0b03f3a5273d112f7ec244ff11a3b2"
         }
     },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "bin": "Koharu.exe",
     "shortcuts": [
         [
@@ -16,12 +17,16 @@
             "Koharu"
         ]
     ],
-    "persist": "models",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Koharu\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Koharu is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\Koharu', and can be purged using 'scoop uninstall --purge koharu'."
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mayocream/koharu/releases/download/$version/Koharu-win-CUDA-Bundled.7z"
+                "url": "https://github.com/mayocream/koharu/releases/download/$version/koharu_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
