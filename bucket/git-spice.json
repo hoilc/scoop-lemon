@@ -13,7 +13,7 @@
             "hash": "240d41f071ba5e93b5289a3dbeae3378091baa552693c45676f6d4cfd340e813"
         }
     },
-    "bin": "gs.exe",
+    "bin": "git-spice",
     "checkver": {
         "github": "https://github.com/abhinav/git-spice"
     },
