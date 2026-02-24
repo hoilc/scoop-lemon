@@ -1,16 +1,16 @@
 {
-    "version": "10.1.4",
+    "version": "10.1.5",
     "description": "An open source policy engine for Kubernetes that validates and remediates resource configuration.",
     "homepage": "https://www.fairwinds.com/polaris",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FairwindsOps/polaris/releases/download/10.1.4/polaris_windows_amd64.tar.gz",
-            "hash": "8bc19046dd0accf21391fdfb9b671a412b98504fcb87a843480adbb08790faf5"
+            "url": "https://github.com/FairwindsOps/polaris/releases/download/10.1.5/polaris_windows_amd64.tar.gz",
+            "hash": "16c14fa1718394412ce1168ce02487e753828edfbbb2bd070f8de4bea21467c7"
         },
         "arm64": {
-            "url": "https://github.com/FairwindsOps/polaris/releases/download/10.1.4/polaris_windows_arm64.tar.gz",
-            "hash": "a6cbf83c48ec77af71932cf61ef683866855448fbc16ee2b2ccccfe63d03f8f5"
+            "url": "https://github.com/FairwindsOps/polaris/releases/download/10.1.5/polaris_windows_arm64.tar.gz",
+            "hash": "f210cfeba88e3e0b9bb0ba7d5fd2786509b030a1128bee1e55f884a54dd56e91"
         }
     },
     "bin": "polaris.exe",
