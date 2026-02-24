@@ -1,17 +1,17 @@
 {
     "##": "Prefer CI Build. See https://github.com/ki-editor/ki-editor/blob/18d8ce7bd674ad28c324dc636044de4b895d22e2/docs/docs/installation.md#latest-build",
-    "version": "20260224-0747-2e2e969",
+    "version": "20260224-1724-ef73635",
     "description": "Multi-cursor structural editor.",
     "homepage": "https://ki-editor.github.io/ki-editor/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/ki-editor/ki-editor/releases/download/latest/ki-windows-x64.exe#/ki.exe",
-            "hash": "7cf1c5954a0e2ff82a59f6cb45eb9bb8f488e81c43bf18be0bf17aed8145c9b3"
+            "hash": "6ab5b95157b286ec8f72e872d55657b641594e39b8a745eeaf01b663a52d1f63"
         },
         "arm64": {
             "url": "https://github.com/ki-editor/ki-editor/releases/download/latest/ki-windows-arm64.exe#/ki.exe",
-            "hash": "00398c759eb60fb7c82351f13e4858436d8034605b2bdbfa97bc57489d6bf796"
+            "hash": "ad48646b5558eb50da23f54a68da39ca58d6846abd8649a03c465696c77d76f8"
         }
     },
     "bin": "ki.exe",
