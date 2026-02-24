@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Easy and secure paper backups of secrets using the Age format.",
     "homepage": "https://github.com/matiaskorhonen/paper-age",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.4.0/paper-age-x86_64-pc-windows-msvc.zip",
-            "hash": "4fd8cc395cac10a598296d5521c28034e6da878bd86fdeef2bf4190bfa0b3134"
+            "url": "https://github.com/matiaskorhonen/paper-age/releases/download/v1.5.0/paper-age-x86_64-pc-windows-msvc.zip",
+            "hash": "c52477d7a08c13a33102c0eabff72fd3569b2965df7b4349fd4928482d4e1925"
         }
     },
     "bin": "paper-age.exe",
