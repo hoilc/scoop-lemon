@@ -6,14 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/GMOD/jbrowse-components/releases/download/v4.1.13/jbrowse-desktop-v4.1.13-win.exe#/dl.7z",
-            "hash": "fe0b918eab1d3b2fa6c9aa7b0eeca9431b8d5af29aff057b079658d845abf63d",
-            "pre_install": "Expand-7zipArchive -Removal \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            "hash": "fe0b918eab1d3b2fa6c9aa7b0eeca9431b8d5af29aff057b079658d845abf63d"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
-            "JBrowse 2.exe",
+            "jbrowse-desktop.exe",
             "JBrowse"
         ]
     ],
