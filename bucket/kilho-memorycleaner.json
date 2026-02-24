@@ -1,10 +1,10 @@
 {
-    "version": "1.9.4",
+    "version": "1.9.5",
     "description": "Clean your memory with one click.",
     "homepage": "https://global.kilho.net/memorycleaner",
     "license": "Freeware",
-    "url": "https://down.kilho.net/MemoryCleaner-1.9.4.zip",
-    "hash": "5bdad8f1359ca4d62a8fa976c0d388adf93bef89dd067898e7efd88ea33c4c00",
+    "url": "https://down.kilho.net/MemoryCleaner-1.9.5.zip",
+    "hash": "d8920eda3665f0cd09b5fdbfc66f4d99f75bfbe78858ac8ea3eda80de2d6c75a",
     "shortcuts": [
         [
             "MemoryCleaner.exe",
