@@ -1,12 +1,12 @@
 {
-    "version": "0.14.0",
+    "version": "0.14.2",
     "description": "A versatile and efficient proxy framework with nice features suitable for various use cases.",
     "homepage": "https://github.com/eycorsican/leaf",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eycorsican/leaf/releases/download/v0.14.0/leaf-x86_64-pc-windows-gnu.zip",
-            "hash": "50da4e03a11c476f15554dbea75323f0d058b5355d554bb30c4cd47e7b820f23"
+            "url": "https://github.com/eycorsican/leaf/releases/download/v0.14.2/leaf-x86_64-pc-windows-gnu.zip",
+            "hash": "d04705f049946473e117cff25b82b51bf3cbd421f484e041e390dd5ac640b59d"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'leaf-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'leaf.exe'",
