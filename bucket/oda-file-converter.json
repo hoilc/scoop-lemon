@@ -1,12 +1,12 @@
 {
-    "version": "26.12",
+    "version": "27.1",
     "description": "ODA File Converter is a tool for converting between different versions of .dwg and .dxf files.",
     "homepage": "https://www.opendesign.com/guestfiles/oda_file_converter",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_26.12.msi#/dl.msi",
-            "hash": "248d39e73172ccea3462a1be700bc595bf98290f68750a152e4b9b204107466f"
+            "url": "https://www.opendesign.com/guestfiles/get?filename=ODAFileConverter_QT6_vc16_amd64dll_27.1.msi#/dl.msi",
+            "hash": "3d5961f510cf95f398b8e2920899dc8e8c51adecdaf5b20a40b3d1a29269de81"
         }
     },
     "bin": "ODAFileConverter.exe",
