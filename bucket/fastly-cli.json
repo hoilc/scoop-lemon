@@ -1,16 +1,16 @@
 {
-    "version": "14.0.1",
+    "version": "14.0.3",
     "description": "A CLI for interacting with the Fastly platform.",
     "homepage": "https://fastly.dev/reference/cli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fastly/cli/releases/download/v14.0.1/fastly_v14.0.1_windows-amd64.zip",
-            "hash": "56f3ba67666af937da1cbcaccf6293a5119d69408f3263fe6c8f9d4645875f5c"
+            "url": "https://github.com/fastly/cli/releases/download/v14.0.3/fastly_v14.0.3_windows-amd64.zip",
+            "hash": "1a1bca0dc7fe255e1b40ff24fd1760acbb2b88f42b9ac2726dd2e20bca45adf1"
         },
         "32bit": {
-            "url": "https://github.com/fastly/cli/releases/download/v14.0.1/fastly_v14.0.1_windows-386.zip",
-            "hash": "1e03d9f10046290acfc30ddce1b86c252da0028ad2890fcb80a89e05c13dda37"
+            "url": "https://github.com/fastly/cli/releases/download/v14.0.3/fastly_v14.0.3_windows-386.zip",
+            "hash": "fc1c2fac71ed6ac93382270cb4fa04717584eb8dd3fe507fc1ef4e694afc5835"
         }
     },
     "bin": "fastly.exe",
