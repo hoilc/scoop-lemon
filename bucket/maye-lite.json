@@ -1,12 +1,12 @@
 {
-    "version": "12.8.0.250416",
+    "version": "12.9.0.260226",
     "description": "更轻更简洁的快速启动工具，功能单一化，专注于文件的快速启动",
     "homepage": "https://t.arae.cc/p/25804.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/25H/MayeLite/releases/download/12.8.0.250416/MayeLite-12.8.0.250416.zip",
-            "hash": "a4a23828d6e9a0203785cc82797af2ca66da5f00679c54738a63cb0d35d534ff"
+            "url": "https://github.com/25H/MayeLite/releases/download/12.9.0.260226/MayeLite-12.9.0.260226.zip",
+            "hash": "334c254944370443825056f458f51ff87761d53be9b356dfcc7e3cace3d22b45"
         }
     },
     "bin": [
