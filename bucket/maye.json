@@ -1,12 +1,12 @@
 {
-    "version": "13.6.0.230528",
+    "version": "13.7.0.260226",
     "description": "体积小巧、简单易用的快速启动工具",
     "homepage": "https://github.com/25H/Maya",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/25H/Maya/releases/download/13.6.0.230528/Maye-13.6.0.230528.zip",
-            "hash": "fa86399a303046f6fdb6bdc0df1dc6ba05424a9a6d34368f0a1d3c84a2ef46dc"
+            "url": "https://github.com/25H/Maya/releases/download/13.7.0.260226/Maye-13.7.0.260226.zip",
+            "hash": "485e9c891834cad5e966e3ed8d8067d49ec3665e27672d8086b8da462d976023"
         }
     },
     "bin": "Maye.exe",
