@@ -1,16 +1,16 @@
 {
-    "version": "0.41.1",
+    "version": "0.42.0",
     "description": "A command line interface for interacting with Pipelines-as-Code for Tekton.",
     "homepage": "https://pipelinesascode.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.41.1/tkn-pac_0.41.1_windows_x86_64.zip",
-            "hash": "7214117986702900fb36cbfc582f7bde2e7ada23dc138ebcc77273182cd063aa"
+            "url": "https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.42.0/tkn-pac_0.42.0_windows_x86_64.zip",
+            "hash": "a7ddd9dca59bf69f21bb4c6cd2a230f531b8e56e6d09e9d6b0c9717f4ab7999e"
         },
         "arm64": {
-            "url": "https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.41.1/tkn-pac_0.41.1_windows_arm64.zip",
-            "hash": "f913a140eee80df49ad89b99f5b050715457005c6ed1d46734869ea32dc448eb"
+            "url": "https://github.com/openshift-pipelines/pipelines-as-code/releases/download/v0.42.0/tkn-pac_0.42.0_windows_arm64.zip",
+            "hash": "01e99eb30610dac2c688c01a9bbb1cf19323eb1132707dcb51f081656cd066cf"
         }
     },
     "bin": "tkn-pac.exe",
