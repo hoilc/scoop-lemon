@@ -28,8 +28,7 @@
     "notes": [
         "The configuration file: $dir\\cfg.json",
         "======================================",
-        "Maye Lite已停止开发，请移步到Maye Nano，通过scoop安装 'scoop install lemon/maya-nano'",
-        "将 Maye Lite 的项目配置迁移到 Maye Nano，请参见 https://t.arae.cc/p-25933/#ToMayeNano"
+        "Maye Lite已停止开发，请移步到Maye Nano: scoop install lemon/maye-nano"
     ],
     "checkver": {
         "github": "https://github.com/25H/MayeLite/"
