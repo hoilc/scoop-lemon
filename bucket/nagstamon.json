@@ -1,18 +1,18 @@
 {
-    "version": "3.16.2",
+    "version": "3.18.0",
     "description": "A status monitor for the desktop, which connects to multiple Nagios, Icinga, Opsview, Centreon, Op5 Monitor/Ninja, Checkmk and Thruk monitoring servers.",
     "homepage": "https://nagstamon.de/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.16.2/Nagstamon-3.16.2-win64.zip",
-            "hash": "2f9ce1683ebd37fbe93a9cf5b163709cb6add3b98a75fd484c495a5c5a78b319",
-            "extract_dir": "Nagstamon-3.16.2-win64"
+            "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.0/Nagstamon-3.18.0-win64.zip",
+            "hash": "dba87daa0e2b0c3e6d53dc5ddea22c4b7b4d7fa558de4fb73cf6f84683ffebc1",
+            "extract_dir": "Nagstamon-3.18.0-win64"
         },
         "32bit": {
-            "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.16.2/Nagstamon-3.16.2-win32.zip",
-            "hash": "553d25843d6a33b4235d1e5404d38e0a22b3fa842d6716c50a4be7ca669016a5",
-            "extract_dir": "Nagstamon-3.16.2-win32"
+            "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.0/Nagstamon-3.18.0-win32.zip",
+            "hash": "116521f033b2c83116c74cf7a7f8c321c6db921e29ed3a129ee631f847e3c126",
+            "extract_dir": "Nagstamon-3.18.0-win32"
         }
     },
     "bin": "Nagstamon.exe",
