@@ -1,0 +1,33 @@
+{
+    "version": "1.1.2.260226",
+    "description": "拒绝臃肿，回归纯粹的快速启动工具",
+    "homepage": "https://t.arae.cc/p-25933/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/25H/MayeNano/releases/download/1.1.2.260226/MayeNano-1.1.2.260226.zip",
+            "hash": "9bb7da89f0f9356109523a197ade1265c2bde11ec2b1b4d345cbef90309d52db"
+        }
+    },
+    "extract_dir": "MayeNano-1.1.2.260226",
+    "shortcuts": [
+        [
+            "Maye Nano.exe",
+            "Maye Nano"
+        ]
+    ],
+    "persist": "cache",
+    "post_install": "if (Test-Path \"$persist_dir\") { Get-ChildItem \"$persist_dir\\*\" -Include 'cfg.json', 'MDB.json' | Move-Item -Force -Destination $dir }",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include 'cfg.json', 'MDB.json' | Move-Item -Force -Destination $persist_dir",
+    "checkver": {
+        "github": "https://github.com/25H/MayeNano"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/25H/MayeNano/releases/download/$version/MayeNano-$version.zip"
+            }
+        },
+        "extract_dir": "MayeNano-$version"
+    }
+}
