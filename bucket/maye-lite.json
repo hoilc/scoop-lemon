@@ -1,7 +1,7 @@
 {
     "version": "12.9.0.260226",
     "description": "更轻更简洁的快速启动工具，功能单一化，专注于文件的快速启动",
-    "homepage": "https://t.arae.cc/p/25804.html",
+    "homepage": "https://t.arae.cc/p-25804/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -9,12 +9,7 @@
             "hash": "334c254944370443825056f458f51ff87761d53be9b356dfcc7e3cace3d22b45"
         }
     },
-    "bin": [
-        [
-            "Maye Lite.exe",
-            "maye-lite"
-        ]
-    ],
+    "extract_dir": "MayeLite-12.9.0.260226",
     "shortcuts": [
         [
             "Maye Lite.exe",
@@ -30,7 +25,12 @@
         "cfg.json",
         "JDB.json"
     ],
-    "notes": "The configuration file: $dir\\cfg.json",
+    "notes": [
+        "The configuration file: $dir\\cfg.json",
+        "======================================",
+        "Maye Lite已停止开发，请移步到Maye Nano，通过scoop安装 'scoop install lemon/maya-nano'",
+        "将 Maye Lite 的项目配置迁移到 Maye Nano，请参见 https://t.arae.cc/p-25933/#ToMayeNano"
+    ],
     "checkver": {
         "github": "https://github.com/25H/MayeLite/"
     },
@@ -39,6 +39,7 @@
             "64bit": {
                 "url": "https://github.com/25H/MayeLite/releases/download/$version/MayeLite-$version.zip"
             }
-        }
+        },
+        "extract_dir": "MayeLite-$version"
     }
 }
