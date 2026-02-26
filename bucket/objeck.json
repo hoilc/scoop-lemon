@@ -27,7 +27,6 @@
     "bin": [
         "bin\\obb.exe",
         "bin\\obc.exe",
-        "bin\\obd.exe",
         "bin\\obi.exe",
         "bin\\obr.exe"
     ],
