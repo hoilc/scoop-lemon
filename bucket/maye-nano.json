@@ -9,7 +9,6 @@
             "hash": "b31a0b1ce0b2187092cb7d56f0de9ab1c18f0444a9cfa369c476291cb5186e04"
         }
     },
-    "extract_dir": "MayeNano-1.2.0.260628",
     "shortcuts": [
         [
             "Maye Nano.exe",
@@ -27,7 +26,6 @@
             "64bit": {
                 "url": "https://github.com/25H/MayeNano/releases/download/$version/MayeNano-$version.zip"
             }
-        },
-        "extract_dir": "MayeNano-$version"
+        }
     }
 }
