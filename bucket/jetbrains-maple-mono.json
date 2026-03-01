@@ -4,7 +4,7 @@
     "homepage": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono",
     "license": "OFL-1.1",
     "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.79/JetBrainsMapleMono-XX-XX-XX-XX.zip",
-    "hash": "c781e9cfad69fd7be1ccc92f3f444b59110b03dba88e0d889fb91c15d029610e",
+    "hash": "f06e73dbfc4fc6cfcbf8950dc7793c25ca618615a1994f7b307ecb0809fe3004",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/$version/JetBrainsMapleMono-XX-XX-XX-XX.zip"
