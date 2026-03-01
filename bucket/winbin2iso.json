@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://softwareok.com/Download/WinBin2Iso_Portable_x64.zip",
-            "hash": "e53205d59eb94f044a2fb58eedfcb449d83c236d734f7e47faf0b20ff49b2570"
+            "hash": "f7b8e161801e0f48932713d3a86620100449382934dc0c8f905bd7e1a073726d"
         },
         "32bit": {
             "url": "https://softwareok.com/Download/WinBin2Iso_Portable_Unicode.zip",
-            "hash": "34d0cc061522ac9959b9135766001cc1e0aa718007b22e42a56febb5b98092ef"
+            "hash": "4473dedb2fd9580835cf70a4f5e87ac7d3733037f60dfcb2541d9b60434ad4c4"
         }
     },
     "shortcuts": [
