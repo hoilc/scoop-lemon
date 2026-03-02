@@ -1,23 +1,23 @@
 {
-    "version": "1.13.0",
+    "version": "1.13.1-beta.1",
     "description": "(Pre-release) The universal proxy platform.",
     "homepage": "https://sing-box.sagernet.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.0/sing-box-1.13.0-windows-amd64.zip",
-            "extract_dir": "sing-box-1.13.0-windows-amd64",
-            "hash": "c080ac4f53f1e92fe44a5440958bfe6ff6a3db75347fe6b31afc6d6517a8d76e"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.1-beta.1/sing-box-1.13.1-beta.1-windows-amd64.zip",
+            "extract_dir": "sing-box-1.13.1-beta.1-windows-amd64",
+            "hash": "91e6d42a86d4212f035d86cf0fb88e67555a8327ef6b134bb8a976ddbcd7775e"
         },
         "32bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.0/sing-box-1.13.0-windows-386.zip",
-            "extract_dir": "sing-box-1.13.0-windows-386",
-            "hash": "f8e6a2df094bd858d30c1dfd9a5029713e3fa5feab8a56129c0edc38060426c6"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.1-beta.1/sing-box-1.13.1-beta.1-windows-386.zip",
+            "extract_dir": "sing-box-1.13.1-beta.1-windows-386",
+            "hash": "d01a9350330806ba4a37164424b3971e533485e77ea7c160fb9d9d61fb314b6a"
         },
         "arm64": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.0/sing-box-1.13.0-windows-arm64.zip",
-            "extract_dir": "sing-box-1.13.0-windows-arm64",
-            "hash": "8b0ae56e9ef5a6791e61e424cdef191e2da768f5b8858a8c60c3e6b6fe86bb75"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.1-beta.1/sing-box-1.13.1-beta.1-windows-arm64.zip",
+            "extract_dir": "sing-box-1.13.1-beta.1-windows-arm64",
+            "hash": "c96704625763bfa0217d650cbb5137d5de76019ee0972631a71789ba79d6fe98"
         }
     },
     "bin": "sing-box.exe",
