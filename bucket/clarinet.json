@@ -1,12 +1,12 @@
 {
-    "version": "3.14.0",
+    "version": "3.14.1",
     "description": "A command line tool which is designed to write, test and deploy high-quality smart contracts to the Stacks blockchain and Bitcoin.",
     "homepage": "https://github.com/stx-labs/clarinet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stx-labs/clarinet/releases/download/v3.14.0/clarinet-windows-x64.zip",
-            "hash": "5f2617661acd67e446f1aa2df727a9c25cca8881e02ecc2a186b59f3ac969e1d"
+            "url": "https://github.com/stx-labs/clarinet/releases/download/v3.14.1/clarinet-windows-x64.zip",
+            "hash": "beec670096d4737615d65cd84d40fe4129a61e825035691c2e7a1a03b5bdbf25"
         }
     },
     "bin": "clarinet.exe",
