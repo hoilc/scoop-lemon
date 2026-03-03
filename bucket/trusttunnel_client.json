@@ -1,20 +1,20 @@
 {
-    "version": "1.0.14",
+    "version": "1.0.17",
     "description": "Command-line client for TrustTunnel, a modern, fast and obfuscated VPN protocol.",
     "homepage": "https://trusttunnel.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.14/trusttunnel_client-v1.0.14-windows-x86_64.zip",
-            "hash": "85632161618acceea847980448b14aa5f019dd31b902f02e26ed0af9c39ecc84"
+            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.17/trusttunnel_client-v1.0.17-windows-x86_64.zip",
+            "hash": "56677d7b46cbaf03ad8ffefc09fc065f31fc933717cd19f0142a084174953ba7"
         },
         "32bit": {
-            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.14/trusttunnel_client-v1.0.14-windows-i686.zip",
-            "hash": "3bfea3fd8a0a8f81bcde4c73416e88e9a2096197b89679de1e4a59ff0c0eaa89"
+            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.17/trusttunnel_client-v1.0.17-windows-i686.zip",
+            "hash": "265ea441199d566e083a409573e9f0fdff914f5147b9867a7148969a8bb5a3c0"
         },
         "arm64": {
-            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.14/trusttunnel_client-v1.0.14-windows-aarch64.zip",
-            "hash": "7d9af225f5793dc3a43505f95334852dceaab7b0cc9dea4acc670b685c2bfb7d"
+            "url": "https://github.com/TrustTunnel/TrustTunnelClient/releases/download/v1.0.17/trusttunnel_client-v1.0.17-windows-aarch64.zip",
+            "hash": "ed967b82d636d6589ededc057f10d4b0cfdbce397127727fdc96f4de5f3a0c54"
         }
     },
     "bin": [
