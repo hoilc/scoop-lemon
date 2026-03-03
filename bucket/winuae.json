@@ -1,5 +1,5 @@
 {
-    "version": "6.0.2",
+    "version": "6.0.3",
     "description": "An Amiga Emulator for Windows.",
     "homepage": "https://www.winuae.net/",
     "license": "GPL-2.0-or-later",
@@ -11,8 +11,8 @@
                     "WinUAE"
                 ]
             ],
-            "url": "https://download.abime.net/winuae/releases/InstallWinUAE6020_x64.msi",
-            "hash": "fcc6baf0551b7ab6bea7f184ff35e952b164be613945be8058e0528fc95b3acb"
+            "url": "https://download.abime.net/winuae/releases/InstallWinUAE6030_x64.msi",
+            "hash": "cef8b95e82af2a82921b2b94a5560e5394518ec9320b34f349502e9abd2e39b2"
         },
         "32bit": {
             "shortcuts": [
@@ -21,8 +21,8 @@
                     "WinUAE"
                 ]
             ],
-            "url": "https://download.abime.net/winuae/releases/InstallWinUAE6020.msi",
-            "hash": "7a89c20be57c89aa493d2f43bb115d7c4356114733693b5cd2b2bb9d43c1b2d6"
+            "url": "https://download.abime.net/winuae/releases/InstallWinUAE6030.msi",
+            "hash": "77ba52c1aeddfd52adebb7e2ae6fec9cc0b8b740ba56c545ed7e16f81b04a07c"
         }
     },
     "extract_dir": "WinUAE",
