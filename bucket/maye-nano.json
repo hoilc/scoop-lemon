@@ -1,12 +1,12 @@
 {
-    "version": "1.3.3.260302",
+    "version": "1.5.0.260303",
     "description": "拒绝臃肿，回归纯粹的快速启动工具",
     "homepage": "https://t.arae.cc/p-25933/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/25H/MayeNano/releases/download/1.3.3.260302/MayeNano-1.3.3.260302.zip",
-            "hash": "e93bd444d543d994e9faecea641427c8a6df000762fff639d6313be4e6984aaa"
+            "url": "https://github.com/25H/MayeNano/releases/download/1.5.0.260303/MayeNano-1.5.0.260303.zip",
+            "hash": "8b5df5aa0e36366cbaeb7be70840e25d3779ae0bf9993e06f764cbb061fb8b78"
         }
     },
     "shortcuts": [
