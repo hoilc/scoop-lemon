@@ -1,12 +1,12 @@
 {
-    "version": "4.2",
-    "description": "Calibrate monitors to sRGB or other color spaces on NVIDIA GPUs, based on EDID data or ICC profiles",
+    "version": "4.2-fix",
+    "description": "Calibrate monitors to sRGB or other color spaces on NVIDIA GPUs, based on EDID data or ICC profiles.",
     "homepage": "https://github.com/ledoge/novideo_srgb",
     "license": "GPL-3.0,LGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ledoge/novideo_srgb/releases/download/v4.2/release.zip",
-            "hash": "60e2e114e75d1d48d9c5ce5d67f533561ef8c55ccb0ac47e1dcbbcaf6d34b9a4"
+            "url": "https://github.com/ledoge/novideo_srgb/releases/download/v4.2-fix/release.zip",
+            "hash": "7900e6a8d3f75443cff17e6665188938a76568fb3901f782aa4270f5b22d9e6f"
         }
     },
     "bin": "novideo_srgb.exe",
@@ -22,7 +22,10 @@
             "Novideo sRGB"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/ledoge/novideo_srgb/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
