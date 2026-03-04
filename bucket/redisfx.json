@@ -1,12 +1,12 @@
 {
-    "version": "2.3.22",
+    "version": "2.3.25",
     "description": "A lightweight Redis GUI developed with JavaFX.",
     "homepage": "https://github.com/tanhuang2016/RedisFX",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tanhuang2016/RedisFX/releases/download/v2.3.22/rdm-ui-2.3.22-windows-x86_64.zip",
-            "hash": "8ef05d525795a4fd6d84bf9016016c4996177054ef9cf078b1e5ea965f809de3"
+            "url": "https://github.com/tanhuang2016/RedisFX/releases/download/v2.3.25/rdm-ui-2.3.25-windows-x86_64.zip",
+            "hash": "42d830f8de4fc04e8239d995a46445b27fd46fe47a000f6d58134dab6e1592d4"
         }
     },
     "extract_dir": "RedisFX",
