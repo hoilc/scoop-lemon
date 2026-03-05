@@ -1,18 +1,18 @@
 {
-    "version": "4.1.0",
+    "version": "4.1.1",
     "description": "A multi-platform client based on Sing-box that serves as a universal proxy tool-chain.",
-    "homepage": "https://github.com/hiddify/hiddify-next",
+    "homepage": "https://hiddify.com/",
     "license": {
-        "identifier": "CC-BY-NC-SA-4.0",
-        "url": "https://github.com/hiddify/hiddify-next/blob/main/LICENSE.md"
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiddify/hiddify-next/releases/download/v4.1.0/Hiddify-Windows-Portable-x64.zip",
-            "hash": "3b8014cb50300a5e6de7db5e82811321e921a21abb55183838a7368880ce5663"
+            "url": "https://github.com/hiddify/hiddify-next/releases/download/v4.1.1/Hiddify-Windows-Portable-x64.zip",
+            "hash": "5099b3df2d21f1bb0c1cbf28dfa9fc6fa817e7eea77a0efe4daf93f571aae418"
         }
     },
-    "extract_dir": "hiddify-next",
+    "extract_dir": "Hiddify",
     "bin": "HiddifyCli.exe",
     "shortcuts": [
         [
@@ -21,7 +21,9 @@
         ]
     ],
     "notes": "Hiddify is NOT portable.",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/hiddify/hiddify-app"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
