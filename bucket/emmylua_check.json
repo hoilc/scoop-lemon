@@ -1,12 +1,12 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "A command-line tool for checking lua code.",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.20.0/emmylua_check-win32-x64.zip",
-            "hash": "8ddb36abf9fa2c6b6e17fc02d027d5c9c5f921113f92ebb04c0fe48f2cbb47a7"
+            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.21.0/emmylua_check-win32-x64.zip",
+            "hash": "9da644fb64783a151fb214621f92910adf13df773d12ad4bac754f15f2eeb0ff"
         }
     },
     "bin": "emmylua_check.exe",
