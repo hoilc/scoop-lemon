@@ -26,8 +26,8 @@ jobs:
 
       - name: Install cargo-binstall
         uses: cargo-bins/cargo-binstall@main
-        env:
-          BINSTALL_VERSION: v1.14.4
+        with:
+          version: "v1.14.4"
 
       - name: Find crates and request builds
         shell: pwsh
