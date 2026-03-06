@@ -1,16 +1,16 @@
 {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "description": "A CLI tool for extracting text from images, also known as OCR.",
     "homepage": "https://github.com/robertknight/ocrs",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.12.0/ocrs-cli-0.12.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "bae008e8e16090e22773f4869499c664059db7dcf0e3eac5de231d4ad2b61a22"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.12.1/ocrs-cli-0.12.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "de2b5bf1b85ec8d7a2315de35ec6a741b03cadfa989b55f008aec7a40e0f45b7"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.12.0/ocrs-cli-0.12.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "ec279facfc10d361ddd8cfe0b258ce2f8239bf3f49c3d38d9a7ef8c694c7d315"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ocrs-cli-0.12.1/ocrs-cli-0.12.1-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "edc019bd0ae1beec247069c15f0a3fc9cbdf4e2265a452b0d4480c512c69ca91"
         }
     },
     "bin": "ocrs.exe",
