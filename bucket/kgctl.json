@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A CLI to manage Kilo, a multi-cloud network overlay built on WireGuard and designed for Kubernetes.",
     "homepage": "https://kilo.squat.ai/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/squat/kilo/releases/download/0.6.0/kgctl-windows-amd64#/kgctl.exe",
-            "hash": "9788831535e1c2546070260b6a413542ef2704cbfbe1d7dfc1d79f6119c2747a"
+            "url": "https://github.com/squat/kilo/releases/download/0.7.0/kgctl-windows-amd64.exe#/kgctl.exe",
+            "hash": "250af3dd7f7472636c3e20dab804c7278955ef926193fced2d1e71dd76853d32"
         }
     },
     "bin": "kgctl.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/squat/kilo/releases/download/$version/kgctl-windows-amd64#/kgctl.exe"
+                "url": "https://github.com/squat/kilo/releases/download/$version/kgctl-windows-amd64.exe#/kgctl.exe"
             }
         }
     }
