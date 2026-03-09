@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.0/Nagstamon-3.18.0-win64.zip",
-            "hash": "dba87daa0e2b0c3e6d53dc5ddea22c4b7b4d7fa558de4fb73cf6f84683ffebc1",
+            "hash": "72a67914063cda41fce449104720ef5d366a73a2dc64512f2fd4fb07067914f7",
             "extract_dir": "Nagstamon-3.18.0-win64"
         },
         "32bit": {
             "url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.0/Nagstamon-3.18.0-win32.zip",
-            "hash": "116521f033b2c83116c74cf7a7f8c321c6db921e29ed3a129ee631f847e3c126",
+            "hash": "7d6d8c73b9686aebab118dda63a53c6fdb6276faf0f2dbf4906e5dd52dc6381d",
             "extract_dir": "Nagstamon-3.18.0-win32"
         }
     },
