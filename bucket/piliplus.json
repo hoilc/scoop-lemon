@@ -1,12 +1,12 @@
 {
-    "version": "1.1.6",
+    "version": "2.0.0.1",
     "description": "使用Flutter开发的BiliBili第三方客户端",
     "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_windows_1.1.6+4626_x64.zip",
-            "hash": "132c335a9f3509c15299ae4a5aaa7aa6328a4c635e972bd25720a7317a29f1ef"
+            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0.1/PiliPlus_windows_2.0.0+4721_x64_portable.zip",
+            "hash": "f93c59a29e97fa90f14766a22520223a58410644c200ee3fa1271461a3fe3a36"
         }
     },
     "extract_dir": "PiliPlus-Win",
@@ -19,16 +19,16 @@
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.example\\piliplus\", \"$env:LOCALAPPDATA\\com.example\\piliplus\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "PiliPlus is NOT portable.",
-        "Settings are stored in '%APPDATA%\\com.example\\piliplus', and will be purged during uninstallation."
+        "Settings are stored in '%APPDATA%\\com.example\\piliplus', and can be purged using 'scoop uninstall --purge piliplus'."
     ],
     "checkver": {
         "url": "https://api.github.com/repos/bggRGjQaUbCoE/PiliPlus/releases/latest",
-        "regex": "/download/([^/]+)/PiliPlus_windows_(?<main>[\\d.]+)%2B(?<build>\\d+)_x64.zip"
+        "regex": "/download/([^/]+)/PiliPlus_windows_(?<main>[\\d.]+)%2B(?<build>\\d+)_x64"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/$version/PiliPlus_windows_$matchMain+$matchBuild_x64.zip"
+                "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/$version/PiliPlus_windows_$matchMain+$matchBuild_x64_portable.zip"
             }
         }
     }
