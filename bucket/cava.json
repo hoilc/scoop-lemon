@@ -1,21 +1,21 @@
 {
-    "version": "0.10.6",
+    "version": "0.10.7",
     "description": "A bar spectrum audio visualizer.",
     "homepage": "https://github.com/karlstav/cava",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/karlstav/cava/releases/download/0.10.6/cava_win_x64_install.exe",
-            "hash": "1fb545e333795eef8fab054a58e88b47eb6197c298e95f37ebc391c2d05b4be2"
+            "url": "https://github.com/karlstav/cava/releases/download/0.10.7/cava_win_x64_install.msi",
+            "hash": "f18d8badde2a5b6df0fc790ee6a05dabab74a7d2f237b6d832496c01d9b0c590"
         }
     },
-    "innosetup": true,
+    "extract_dir": "LocalApp\\cava",
     "bin": "cava.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/karlstav/cava/releases/download/$version/cava_win_x64_install.exe"
+                "url": "https://github.com/karlstav/cava/releases/download/$version/cava_win_x64_install.msi"
             }
         }
     }
