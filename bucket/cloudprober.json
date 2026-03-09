@@ -1,13 +1,13 @@
 {
-    "version": "0.14.1",
+    "version": "0.14.2",
     "description": "An active monitoring software to detect failures before your customers do.",
     "homepage": "https://cloudprober.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudprober/cloudprober/releases/download/v0.14.1/cloudprober-v0.14.1-windows-x86_64.zip",
-            "extract_dir": "cloudprober-v0.14.1-windows-x86_64",
-            "hash": "50407208011ef61c0652d972b2075873bec628578cfa81e12c7d681ca65c12ec"
+            "url": "https://github.com/cloudprober/cloudprober/releases/download/v0.14.2/cloudprober-v0.14.2-windows-x86_64.zip",
+            "extract_dir": "cloudprober-v0.14.2-windows-x86_64",
+            "hash": "f23a0327a16d06bc90532abc35026b4eb41a9d3d91ae39e149883908de102d5b"
         }
     },
     "bin": "cloudprober.exe",
