@@ -1,0 +1,31 @@
+{
+    "version": "2022.1.0-pre-release.21",
+    "description": "A work-in-progress tool to reverse unity's IL2CPP toolchain.",
+    "homepage": "https://github.com/SamboyCoding/Cpp2IL",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SamboyCoding/Cpp2IL/releases/download/2022.1.0-pre-release.21/Cpp2IL-2022.1.0-pre-release.21-Windows.exe#/Cpp2IL.exe",
+            "hash": "663fb432433b4371fd1ee0ebc321a8fff2a9aac5ac4230c843f9e03ddee4e04c"
+        },
+        "arm64": {
+            "url": "https://github.com/SamboyCoding/Cpp2IL/releases/download/2022.1.0-pre-release.21/Cpp2IL-2022.1.0-pre-release.21-Windows-ARM64.exe#/Cpp2IL.exe",
+            "hash": "8986f219b5992f9290cb13e1f49431756cbd8865f1cf1f5a38ba61acc27cc1fb"
+        }
+    },
+    "bin": "Cpp2IL.exe",
+    "checkver": {
+        "url": "https://github.com/SamboyCoding/Cpp2IL/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SamboyCoding/Cpp2IL/releases/download/$version/Cpp2IL-$version-Windows.exe#/Cpp2IL.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/SamboyCoding/Cpp2IL/releases/download/$version/Cpp2IL-$version-Windows-ARM64.exe#/Cpp2IL.exe"
+            }
+        }
+    }
+}
