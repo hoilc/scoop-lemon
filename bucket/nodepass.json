@@ -1,16 +1,16 @@
 {
-    "version": "1.15.0",
+    "version": "1.16.0",
     "description": "A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.",
     "homepage": "https://github.com/NodePassProject/nodepass",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NodePassProject/nodepass/releases/download/v1.15.0/nodepass_1.15.0_windows_amd64.tar.gz",
-            "hash": "3b9a92edb96ef8027b4fc14c30a91fbab4ad8547ea29116335e01c4dc5c02cdb"
+            "url": "https://github.com/NodePassProject/nodepass/releases/download/v1.16.0/nodepass_1.16.0_windows_amd64.tar.gz",
+            "hash": "b7482a16ad07e1644bbb37d8828366b7c746a0fa549dff8d9b125c449dd10d7d"
         },
         "arm64": {
-            "url": "https://github.com/NodePassProject/nodepass/releases/download/v1.15.0/nodepass_1.15.0_windows_arm64.tar.gz",
-            "hash": "95c3612443bedab1070ad6283b79317e5a26af776ad37ffe5bbf8bc56043ccd5"
+            "url": "https://github.com/NodePassProject/nodepass/releases/download/v1.16.0/nodepass_1.16.0_windows_arm64.tar.gz",
+            "hash": "d6ac84372a10791b0b052d2c1e797d3fdf368311721a25a3b2d4967d8a4c529f"
         }
     },
     "bin": "nodepass.exe",
