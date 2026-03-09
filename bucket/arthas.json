@@ -1,10 +1,10 @@
 {
-    "version": "4.1.7",
+    "version": "4.1.8",
     "description": "A Java diagnostic tool that allows developers to troubleshoot production issues for Java applications without modifying code or restarting servers.",
     "homepage": "https://alibaba.github.io/arthas/en/",
     "license": "Apache-2.0",
-    "url": "https://maven.aliyun.com/repository/public/com/taobao/arthas/arthas-packaging/4.1.7/arthas-packaging-4.1.7-bin.zip",
-    "hash": "sha1:41014a26ad9004e9cb33b7646227a8911256341f",
+    "url": "https://maven.aliyun.com/repository/public/com/taobao/arthas/arthas-packaging/4.1.8/arthas-packaging-4.1.8-bin.zip",
+    "hash": "sha1:d2cbd127b6523e4e5df5e7036963ef61cd52a975",
     "bin": [
         "as.bat",
         "as-service.bat"
