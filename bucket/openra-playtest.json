@@ -1,16 +1,12 @@
 {
-    "version": "20250220",
+    "version": "20260222",
     "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.",
     "homepage": "https://www.openra.net/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20250220/OpenRA-playtest-20250220-x64-winportable.zip",
-            "hash": "7796ccf59e3c7eca10ad67f51e66d8f44ab63ae38b0d71af7b7e2ba416d553fd"
-        },
-        "32bit": {
-            "url": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20250220/OpenRA-playtest-20250220-x86-winportable.zip",
-            "hash": "f192460ad0dcef4274ff200c9b81f3ed2b9be0a7aff1fb7d86091926564c4a59"
+            "url": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20260222/OpenRA-playtest-20260222-x64-winportable.zip",
+            "hash": "55c3ff3533d968a60f6693cfc257833cb585eb97876513fc1c843dc6e1418acc"
         }
     },
     "bin": [
@@ -43,9 +39,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/OpenRA/OpenRA/releases/download/playtest-$version/OpenRA-playtest-$version-x64-winportable.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/OpenRA/OpenRA/releases/download/playtest-$version/OpenRA-playtest-$version-x86-winportable.zip"
             }
         }
     }
