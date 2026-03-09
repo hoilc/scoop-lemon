@@ -1,12 +1,12 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.3",
     "description": "A simple, keyboard-driven TUI for time-tracking that allows you to quickly add time blocks and automatically group time if same task was done in different sessions.",
     "homepage": "https://github.com/Kamyil/work-tuimer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kamyil/work-tuimer/releases/download/v0.5.1/work-tuimer-windows-x86_64.exe#/work-tuimer.exe",
-            "hash": "86416264b2104cc09fc92cebc1269e5c3c77cb0fcef563dafb263b921b9a0b9e"
+            "url": "https://github.com/Kamyil/work-tuimer/releases/download/v0.5.3/work-tuimer-windows-x86_64.exe#/work-tuimer.exe",
+            "hash": "32c41f2f0da26014e2f6090490148fc7271036dd9af8468a262c0d1c7e725aeb"
         }
     },
     "bin": "work-tuimer.exe",
