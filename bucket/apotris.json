@@ -9,13 +9,18 @@
             "hash": "898dc44b33c29a21af1dcc54b5bf9e3636d7e07fd7049be92f2410f03ec428bb"
         }
     },
-    "shortcuts": [["Apotris.exe", "Apotris"]],
+    "shortcuts": [
+        [
+            "Apotris.exe",
+            "Apotris"
+        ]
+    ],
     "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.sav' | Move-Item -Force -Destination \"$dir\"",
     "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.sav' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
     "persist": "backup",
     "checkver": {
         "url": "https://gitea.com/api/v1/repos/akouzoukos/apotris/tags?limit=1",
-        "jsopath": "$.[0].name",
+        "jsonpath": "$.[0].name",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
