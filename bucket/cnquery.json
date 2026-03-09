@@ -17,21 +17,9 @@
         }
     },
     "bin": "cnquery.exe",
-    "checkver": {
-        "url": "https://github.com/mondoohq/cnquery/releases.atom",
-        "regex": "Repository/\\d+/v(.+?)<"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/mondoohq/cnquery/releases/download/v$version/cnquery_$version_windows_amd64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/mondoohq/cnquery/releases/download/v$version/cnquery_$version_windows_arm64.zip"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/cnquery_v$version_SHA256SUMS"
-        }
-    }
+    "notes": [
+        "cnquery has been renamed to simplify its core concepts and focus exclusively on MQL.",
+        "As part of v13, cnquery is moving all its querypacks to cnspec, ultimately aiming to unify the data plane.",
+        "Consider 'scoop install lemon/mql'"
+    ]
 }
