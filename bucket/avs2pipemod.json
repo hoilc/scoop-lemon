@@ -1,0 +1,22 @@
+{
+    "version": "1.3.1",
+    "description": "An assistance tool for video encoding with avisynth.",
+    "homepage": "https://github.com/chikuzen/avs2pipemod",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Get-ChildItem \"$dir\" 'avs2pipemod64.exe' | Select-Object -First 1 | Rename-Item -NewName 'avs2pipemod.exe'",
+            "url": "https://github.com/chikuzen/avs2pipemod/releases/download/1.3.1/avs2pipemod-1.3.1.zip",
+            "hash": "b8512cf2fbc87ccf31bea540f96a9f30ccf0f264a1982dc712eb6dbde6d508bf"
+        }
+    },
+    "bin": "avs2pipemod.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chikuzen/avs2pipemod/releases/download/$version/avs2pipemod-$version.zip"
+            }
+        }
+    }
+}
