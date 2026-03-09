@@ -20,7 +20,7 @@
     "bin": "gitea-mcp.exe",
     "checkver": {
         "url": "https://gitea.com/api/v1/repos/gitea/gitea-mcp/tags?limit=1",
-        "json": "$.[0].name",
+        "jsonpath": "$.[0].name",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
