@@ -1,0 +1,30 @@
+{
+    "version": "6.3",
+    "description": "ClipboardFusion makes it easy to remove clipboard text formatting, replace clipboard text or run powerful macros on your clipboard contents.",
+    "homepage": "https://www.clipboardfusion.com",
+    "license": "Liteware",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "ClipboardFusion64",
+            "url": "https://binaryfortressdownloads.com/Download/BFSFiles/104/ClipboardFusion-6.3-x64.zip",
+            "hash": "70d3a949086a8528795af91cbbcf4b46a0a287b5a3410bbd830c33d88b1de688"
+        }
+    },
+    "shortcuts": [
+        [
+            "ClipboardFusion.exe",
+            "ClipboardFusion"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.clipboardfusion.com/Download/",
+        "regex": "Latest Version:</b>\\s*v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binaryfortressdownloads.com/Download/BFSFiles/104/ClipboardFusion-$version-x64.zip"
+            }
+        }
+    }
+}
