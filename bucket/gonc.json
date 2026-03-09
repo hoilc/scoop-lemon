@@ -1,20 +1,16 @@
 {
-    "version": "2.4.10",
+    "version": "2.4.12",
     "description": "Netcat with automated NAT traversal, secure P2P, and advanced features for shell access, file transfer, and network proxying.",
     "homepage": "https://github.com/threatexpert/gonc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/threatexpert/gonc/releases/download/v2.4.10/gonc.exe",
-            "hash": "7d6c951163f063c39ced6d77320211e93e34b7f4b28f7e19dfd368f7bbbe3874"
-        },
-        "32bit": {
-            "url": "https://github.com/threatexpert/gonc/releases/download/v2.4.10/gonc_386.exe#/gonc.exe",
-            "hash": "b333583a42775dc1c85541b0a58efd1a3c6ff3f9155818a1617eabdf389e55c6"
+            "url": "https://github.com/threatexpert/gonc/releases/download/v2.4.12/gonc_windows_amd64.exe#/gonc.exe",
+            "hash": "cf90df1ca349073fab9892c3ea6ca402a59ab588a78e30b3bd496415e48dd1e2"
         },
         "arm64": {
-            "url": "https://github.com/threatexpert/gonc/releases/download/v2.4.10/gonc_arm64.exe#/gonc.exe",
-            "hash": "853a8a138354ee1a631806a15328b545482543ad49ee9f3f659121ebbcf27ed1"
+            "url": "https://github.com/threatexpert/gonc/releases/download/v2.4.12/gonc_windows_arm64.exe#/gonc.exe",
+            "hash": "eec493ded6d7c048488ba72405df3f1e651eda8c6948c2526980f55ba9aa01fb"
         }
     },
     "bin": "gonc.exe",
@@ -22,13 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/threatexpert/gonc/releases/download/v$version/gonc.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/threatexpert/gonc/releases/download/v$version/gonc_386.exe#/gonc.exe"
+                "url": "https://github.com/threatexpert/gonc/releases/download/v$version/gonc_windows_amd64.exe#/gonc.exe"
             },
             "arm64": {
-                "url": "https://github.com/threatexpert/gonc/releases/download/v$version/gonc_arm64.exe#/gonc.exe"
+                "url": "https://github.com/threatexpert/gonc/releases/download/v$version/gonc_windows_arm64.exe#/gonc.exe"
             }
         }
     }
