@@ -1,12 +1,12 @@
 {
-    "version": "2.8.0-281410",
+    "version": "2.8.0-281588",
     "description": "(Snapshot Build) Community fork of KeePass",
     "homepage": "https://snapshot.keepassxc.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://snapshot.keepassxc.org/build-281410/KeePassXC-2.8.0-snapshot-Win64.zip",
-            "hash": "35b9cf09c781d5bbefc2fe0ef4cef31b9b6798876f89c1b53c5a32d80b823c01",
+            "url": "https://snapshot.keepassxc.org/build-281588/KeePassXC-2.8.0-snapshot-Win64.zip",
+            "hash": "163b89ed45579581f8a186e5b29ddd784335c62e23c88cee047a8ca4244dafc4",
             "extract_dir": "KeePassXC-2.8.0-snapshot-Win64"
         }
     },
