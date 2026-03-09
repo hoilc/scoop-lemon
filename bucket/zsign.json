@@ -1,12 +1,12 @@
 {
-    "version": "0.7",
+    "version": "0.9.6",
     "description": "Cross-platform codesign alternative for iOS 12+",
     "homepage": "https://github.com/zhlynn/zsign",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhlynn/zsign/releases/download/v0.7/zsign-v0.7-windows-x64.zip",
-            "hash": "2eb48df626d2c6774652b0aee099810276ae24a4042f4e5317c04f35f948c299"
+            "url": "https://github.com/zhlynn/zsign/releases/download/v0.9.6/zsign-windows-x64.zip",
+            "hash": "1122fc5b6de1c500264ca3938f85cddc019002c1eafc9e9e7668e01bf3ad2594"
         }
     },
     "bin": "zsign.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zhlynn/zsign/releases/download/v$version/zsign-v$version-windows-x64.zip"
+                "url": "https://github.com/zhlynn/zsign/releases/download/v$version/zsign-windows-x64.zip"
             }
         }
     }
