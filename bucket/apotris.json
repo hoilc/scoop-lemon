@@ -19,8 +19,9 @@
     "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.sav' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
     "persist": "backup",
     "checkver": {
-        "url": "https://gitea.com/akouzoukos/apotris/tags.rss",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "url": "https://gitea.com/api/v1/repos/akouzoukos/apotris/tags?limit=1",
+        "json": "$.[0].name",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
