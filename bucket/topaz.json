@@ -11,7 +11,8 @@
     },
     "bin": [
         "topaz.exe",
-        "topazd.exe"
+        "topazd.exe",
+        "topaz-backup.exe"
     ],
     "checkver": {
         "github": "https://github.com/aserto-dev/topaz"
