@@ -1,4 +1,5 @@
 {
+    "##": "#updateManually",
     "version": "5.2.4-7f7dfc7",
     "description": "Helix MP3 Encoder, with some additions.",
     "homepage": "https://github.com/maikmerten/hmp3",
@@ -13,19 +14,5 @@
             "hash": "780c66da2221556f033bdf5d161d9a4baa545acfd7011010feb261e67d3ba069"
         }
     },
-    "bin": "hmp3.exe",
-    "checkver": {
-        "url": "https://rarewares.org/mp3-others.php#helix_enc",
-        "regex": "hmp3-(.*?)-x64.zip"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.rarewares.org/files/mp3/hmp3-$version-x32-P4.zip"
-            },
-            "32bit": {
-                "url": "https://www.rarewares.org/files/mp3/hmp3-$version-x64.zip"
-            }
-        }
-    }
+    "bin": "hmp3.exe"
 }
