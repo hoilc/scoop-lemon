@@ -1,16 +1,16 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Federated Open Key System is a decentralized key management system designed to provide secure and flexible key distribution across federated networks.",
     "homepage": "https://foks.pub/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/foks-proj/go-foks/releases/download/v0.1.5/foks-v0.1.5-win-winget-amd64.zip",
-            "hash": "0788ba1fab7de381727c271e6c71ee3eb077cb7e6b638e58003491b72da0ae86"
+            "url": "https://github.com/foks-proj/go-foks/releases/download/v0.1.6/foks-v0.1.6-win-winget-amd64.zip",
+            "hash": "498b7761ed339f7ab6e8c8e8450f324e543f7de1de5534cd843a1d36571ab575"
         },
         "32bit": {
-            "url": "https://github.com/foks-proj/go-foks/releases/download/v0.1.5/foks-v0.1.5-win-winget-x86.zip",
-            "hash": "e7ddcf1091803f035608547c00d492e070949933f2a3157779cad6c455e6e673"
+            "url": "https://github.com/foks-proj/go-foks/releases/download/v0.1.6/foks-v0.1.6-win-winget-x86.zip",
+            "hash": "1330efd4ec7f5a72749e6c949c2bf0fb7774e57701d7781c4a513ea40a03c0e7"
         }
     },
     "bin": [
