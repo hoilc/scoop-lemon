@@ -1,12 +1,12 @@
 {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "description": "Pinny Notes is a sticky note application with a button to \"pin\" a note making it always on top above other windows.",
     "homepage": "https://github.com/63BeetleSmurf/PinnyNotes",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v1.16.0/PinnyNotes-Portable-1.16.0-x64.zip",
-            "hash": "874ba6d4b2fc2cbffcd42f8459fe15f3518519698308c8af016dd1d67f0e364a"
+            "url": "https://github.com/63BeetleSmurf/PinnyNotes/releases/download/v1.17.0/PinnyNotes-Portable-1.17.0-x64.zip",
+            "hash": "a3b738bac336bb8d2076280a15db135122c66e2157d76ddcf0d672f558ec1de1"
         }
     },
     "extract_dir": "Pinny Notes",
