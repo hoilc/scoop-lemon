@@ -1,0 +1,21 @@
+{
+    "version": "2.2",
+    "description": "A utility to send commands to a JVM process via Dynamic Attach mechanism.",
+    "homepage": "https://github.com/jattach/jattach",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jattach/jattach/releases/download/v2.2/jattach-windows.zip",
+            "hash": "d021e861cf3c1172497b419786d96836d91506a55ce1d067cd3ffff4ed50a3ff"
+        }
+    },
+    "bin": "jattach.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jattach/jattach/releases/download/v$version/jattach-windows.zip"
+            }
+        }
+    }
+}
