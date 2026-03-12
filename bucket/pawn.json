@@ -1,0 +1,32 @@
+{
+    "version": "4.1.7487",
+    "description": "A typeless extension language with a C-like syntax.",
+    "homepage": "https://www.compuphase.com/pawn/pawn.htm",
+    "license": {
+        "identifier": "Apache License 2.0",
+        "url": "https://www.compuphase.com/pawn/pawn.htm#APACHE_EXCEPTION"
+    },
+    "url": "https://www.compuphase.com/pawn/pawn-4.1.7487.exe#/dl.7z",
+    "hash": "106527794a995acd89881ca55985450af6ecde0376f525e7aa5f49314556cb40",
+    "bin": [
+        "bin\\pawncc.exe",
+        "bin\\pawnrun.exe",
+        "bin\\pawndbg.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\wxquincy.exe",
+            "Pawn IDE (Quincy)"
+        ]
+    ],
+    "post_install": [
+        "Move-Item \"$dir\\`$_2_\\examples\" \"$dir\\\" -Force -ErrorAction SilentlyContinue",
+        "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue"
+    ],
+    "checkver": {
+        "regex": "pawn-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://www.compuphase.com/pawn/pawn-$version.exe#/dl.7z"
+    }
+}
