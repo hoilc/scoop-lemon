@@ -1,5 +1,5 @@
 {
-    "version": "8.04",
+    "version": "8.05",
     "description": "Investigate performance and image quality of HW encoder (QSV) of Intel.",
     "homepage": "https://github.com/rigaya/QSVEnc",
     "license": {
@@ -9,12 +9,12 @@
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" 'QSVEncC64.exe' | Select-Object -First 1 | Rename-Item -NewName 'QSVEncC.exe'",
-            "url": "https://github.com/rigaya/QSVEnc/releases/download/8.04/QSVEncC_8.04_x64.7z",
-            "hash": "d63d9ca6c8d9b0cdeddde9c2bd99660f52e97ff1766baf5a18d0f8cd3cd0dbfe"
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/8.05/QSVEncC_8.05_x64.7z",
+            "hash": "16040b7b6f4bfebd784a055692ee1ca8e72ad1bc96c6d92c3c469a05242ff9a3"
         },
         "32bit": {
-            "url": "https://github.com/rigaya/QSVEnc/releases/download/8.04/QSVEncC_8.04_Win32.7z",
-            "hash": "553449ae1cb1b2db353a851d0474a4e8597837fb3c8c656a90b1ff401bb6c4ec"
+            "url": "https://github.com/rigaya/QSVEnc/releases/download/8.05/QSVEncC_8.05_Win32.7z",
+            "hash": "6f2ed0055919fb980d93105e0da159f4b2ac644f4f0fa9fc9d23b13e6eeec3c4"
         }
     },
     "bin": "QSVEncC.exe",
