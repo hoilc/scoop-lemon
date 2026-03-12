@@ -248,6 +248,7 @@ def process_cache_files():
             print(f'Uploading {len(files_to_upload)} file(s) to {identifier}:')
             for remote_name in files_to_upload:
                 print(f'- {remote_name}')
+            start_time = time.time()
             item.upload(
                 files_to_upload,
                 metadata=metadata,
@@ -257,7 +258,8 @@ def process_cache_files():
                 retries=3,
                 retries_sleep=30,
             )
-            print(f'Successfully uploaded {len(files_to_upload)} file(s) to {identifier}')
+            elapsed_time = time.time() - start_time
+            print(f'Successfully uploaded {len(files_to_upload)} file(s) to {identifier} in {elapsed_time:.1f}s')
         except Exception as e:
             print(f'Failed to upload to {identifier}: {e}')
 
