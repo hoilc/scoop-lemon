@@ -10,6 +10,7 @@
         }
     },
     "pre_install": [
+        "Remove-Item \"$dir\\fooyin-*.exe\" -ErrorAction SilentlyContinue",
         "$zipfile = Get-ChildItem \"$dir\" 'fooyin-*.zip' | Select-Object -First 1",
         "if (!$zipfile) { error 'Failed to find portable package file.' ; exit }",
         "Expand-7zipArchive -Path $zipfile.FullName -Destination \"$dir\" -Removal -ExtractDir $zipfile.BaseName"
