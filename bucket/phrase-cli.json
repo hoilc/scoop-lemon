@@ -1,16 +1,16 @@
 {
-    "version": "2.55.2",
+    "version": "2.56.0",
     "description": "The Phrase CLI tool lets you navigate your projects and translations quickly from the command line.",
     "homepage": "https://phrase.com/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/phrase/phrase-cli/releases/download/2.55.2/phrase_windows_amd64.exe#/phrase.exe",
-            "hash": "9bda0fa0395ac66b566ffce64fe6fc9b6b17882cf20f05b0e89d8d4af184b267"
+            "url": "https://github.com/phrase/phrase-cli/releases/download/2.56.0/phrase_windows_amd64.exe#/phrase.exe",
+            "hash": "5c718a91d442c852f49346c3a54b47985d27482ea1cb15b304429b3361d4aab3"
         },
         "32bit": {
-            "url": "https://github.com/phrase/phrase-cli/releases/download/2.55.2/phrase_windows_386.exe#/phrase.exe",
-            "hash": "536757ecff442644f7d2d54c87e42e181a0bdf9155265070e8c8f7b9850b20d9"
+            "url": "https://github.com/phrase/phrase-cli/releases/download/2.56.0/phrase_windows_386.exe#/phrase.exe",
+            "hash": "bd7c679864bd942e80f91c60efd2f75a7633cb487ab4072832ecadbb8fb5287b"
         }
     },
     "bin": "phrase.exe",
