@@ -1,12 +1,12 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "PHP Version Manager for the CLI on Windows.",
     "homepage": "https://github.com/hjbdev/pvm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hjbdev/pvm/releases/download/1.2.0/pvm.exe",
-            "hash": "a764f8c2ee58ee4a5b026eeedefc044f1c4e3802ca96e4e8d00af3e6504e831f"
+            "url": "https://github.com/hjbdev/pvm/releases/download/1.2.2/pvm.exe",
+            "hash": "404aba86c21308e95e06b70f93a268f11378c3932124ca88c6d4465044658ead"
         }
     },
     "bin": "pvm.exe",
