@@ -1,0 +1,44 @@
+{
+    "version": "1.26",
+    "description": "A simple, lightweight, flexible, embeddable, portable and multi-paradigm dynamic programming language for developing applications, tools, and domain-specific languages.",
+    "homepage": "https://ring-lang.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ring-lang/ring/releases/download/v1.26/Ring_1.26_Windows_64bit.exe#/dl.7z",
+            "hash": "3b1fb3f4ed8686e19a2cac3aa2cc4ecebc29f6e618d6340c0fc5af418f87d365"
+        },
+        "32bit": {
+            "url": "https://github.com/ring-lang/ring/releases/download/v1.26/Ring_1.26_Windows_32bit.exe#/dl.7z",
+            "hash": "7a40dfadce0624bbe2a344e5eccda5e80773ef1e8d0c29fed68aedc7cef17b59"
+        }
+    },
+    "extract_dir": "ring",
+    "bin": [
+        "bin\\ring.exe",
+        "bin\\ringrepl.exe",
+        "bin\\ring2exe.exe",
+        "bin\\folder2qrc.exe",
+        "bin\\ringfmt.exe",
+        "bin\\ringpm.exe"
+    ],
+    "shortcuts": [
+        [
+            "RingNotepad.exe",
+            "Ring Notepad"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ring-lang/ring"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ring-lang/ring/releases/download/v$version/Ring_$version_Windows_64bit.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/ring-lang/ring/releases/download/v$version/Ring_$version_Windows_32bit.exe#/dl.7z"
+            }
+        }
+    }
+}
