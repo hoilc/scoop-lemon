@@ -1,12 +1,12 @@
 {
-    "version": "0.42.1",
+    "version": "0.43.0",
     "description": "Sampling CPU profiler for Ruby.",
     "homepage": "https://github.com/rbspy/rbspy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rbspy/rbspy/releases/download/v0.42.1/rbspy-x86_64-pc-windows-msvc.exe.zip",
-            "hash": "546ecf5da04cc8a0b3a462c89e38a5a4bc9b2ccc981dd10f629d630fdb74afa4"
+            "url": "https://github.com/rbspy/rbspy/releases/download/v0.43.0/rbspy-x86_64-pc-windows-msvc.exe.zip",
+            "hash": "8aa70466b3b313455db5d3e118a27c1e6a1dbb3ea6724569523c54538a6177b5"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'rbspy-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'rbspy.exe'",
