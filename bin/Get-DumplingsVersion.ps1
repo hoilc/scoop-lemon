@@ -108,10 +108,17 @@ function Get-ContentViaAPI {
         "Accept" = "application/vnd.github.v3+json"
     }
 
-    # Add authentication if GH_TOKEN is available
-    if ($env:GH_TOKEN) {
-        Write-VerboseMessage "Using GitHub token for authentication"
+    # Add authentication if GitHub token is available (priority: SCOOP_GH_TOKEN > GH_TOKEN > GITHUB_TOKEN)
+    $token = $env:SCOOP_GH_TOKEN
+    if ($token) {
+        Write-VerboseMessage "Using SCOOP_GH_TOKEN for GitHub authentication"
+        $headers["Authorization"] = "token $token"
+    } elseif ($env:GH_TOKEN) {
+        Write-VerboseMessage "Using GH_TOKEN for GitHub authentication"
         $headers["Authorization"] = "token $env:GH_TOKEN"
+    } elseif ($env:GITHUB_TOKEN) {
+        Write-VerboseMessage "Using GITHUB_TOKEN for GitHub authentication"
+        $headers["Authorization"] = "token $env:GITHUB_TOKEN"
     }
 
     try {
