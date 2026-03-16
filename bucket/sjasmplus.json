@@ -1,11 +1,11 @@
 {
-    "version": "1.21.1",
+    "version": "1.22.0",
     "description": "A command-line cross-compiler of assembly language for Z80 CPU.",
     "homepage": "http://z00m128.github.io/sjasmplus/",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/z00m128/sjasmplus/releases/download/v1.21.1/sjasmplus-1.21.1.win.zip",
-    "hash": "a249dd44c52aaa5d52f9ec279a8e3a3a7252d9ee4fa8034cfb86dc5456224558",
-    "extract_dir": "sjasmplus-1.21.1.win",
+    "url": "https://github.com/z00m128/sjasmplus/releases/download/v1.22.0/sjasmplus-1.22.0.win.zip",
+    "hash": "8f1f4f6c48dcb798f239c83504df4e4b84133b701cedf7547bffd15044259eab",
+    "extract_dir": "sjasmplus-1.22.0.win",
     "bin": "sjasmplus.exe",
     "checkver": {
         "github": "https://github.com/z00m128/sjasmplus"
