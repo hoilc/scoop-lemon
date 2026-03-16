@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/janreges/siteone-crawler/releases/download/v2.0.1/siteone-crawler-v2.0.1-win-x64.zip",
-            "hash": "1c6319cd86200faa92aab0ce42c02f4110f780d39000c6d1b1cf77898ae9774a"
+            "hash": "d94e166bfbab5f07c54ed32c1c07a36a4b04c311486ee39605f2541f86c5d5ae"
         },
         "arm64": {
             "url": "https://github.com/janreges/siteone-crawler/releases/download/v2.0.1/siteone-crawler-v2.0.1-win-arm64.zip",
-            "hash": "18671d11f507d547baf5c5d1ac94f91dbaf10d8e7d4e460089dda979eaf23ea7"
+            "hash": "a7db118307a5597792deddc0145c309c8617966ba1b0d006d5dd2a5c57f85314"
         }
     },
     "extract_dir": "siteone-crawler",
