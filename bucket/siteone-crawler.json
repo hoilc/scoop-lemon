@@ -1,30 +1,30 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "A powerful and easy-to-use website analyzer, cloner, and converter designed for developers.",
     "homepage": "https://crawler.siteone.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/janreges/siteone-crawler/releases/download/v2.0.0/siteone-crawler-v2.0.0-win-x64.zip",
-            "extract_dir": "siteone-crawler-v2.0.0-win-x64",
-            "hash": "578a35c7cc09939b17838b6e6e5c426260742389e923fe50593af50509c9d350"
+            "url": "https://github.com/janreges/siteone-crawler/releases/download/v2.0.1/siteone-crawler-v2.0.1-win-x64.zip",
+            "hash": "1c6319cd86200faa92aab0ce42c02f4110f780d39000c6d1b1cf77898ae9774a"
+        },
+        "arm64": {
+            "url": "https://github.com/janreges/siteone-crawler/releases/download/v2.0.1/siteone-crawler-v2.0.1-win-arm64.zip",
+            "hash": "18671d11f507d547baf5c5d1ac94f91dbaf10d8e7d4e460089dda979eaf23ea7"
         }
     },
-    "bin": [
-        [
-            "bin\\swoole-cli.exe",
-            "siteone-crawler",
-            "$dir\\src\\crawler.php"
-        ]
-    ],
+    "extract_dir": "siteone-crawler",
+    "bin": "siteone-crawler.exe",
     "checkver": {
         "github": "https://github.com/janreges/siteone-crawler"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/janreges/siteone-crawler/releases/download/v$version/siteone-crawler-v$version-win-x64.zip",
-                "extract_dir": "siteone-crawler-v$version-win-x64"
+                "url": "https://github.com/janreges/siteone-crawler/releases/download/v$version/siteone-crawler-v$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/janreges/siteone-crawler/releases/download/v$version/siteone-crawler-v$version-win-arm64.zip"
             }
         }
     }
