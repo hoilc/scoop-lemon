@@ -1,13 +1,13 @@
 {
-    "version": "1.9.7",
+    "version": "1.9.8",
     "description": "A command-line TOTP/HOTP authenticator app.",
     "homepage": "https://github.com/replydev/cotp",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/replydev/cotp/releases/download/v1.9.7/cotp-1.9.7-x86_64-win-msvc.zip",
-            "extract_dir": "cotp-1.9.7-x86_64-win-msvc",
-            "hash": "d3dc83fff71b2f43c2dfa10eb4cfbf58d000d30a3a1fbfbc4e2c45e68361f319"
+            "url": "https://github.com/replydev/cotp/releases/download/v1.9.8/cotp-1.9.8-x86_64-win-msvc.zip",
+            "extract_dir": "cotp-1.9.8-x86_64-win-msvc",
+            "hash": "26378d9ed1bd1eaf41024d6e5f8b7853c77acaa08f30a76a5805cf65ff0bff3c"
         }
     },
     "bin": "cotp.exe",
