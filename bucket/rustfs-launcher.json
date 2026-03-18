@@ -1,0 +1,34 @@
+{
+    "version": "0.0.4",
+    "description": "A Tauri + Leptos application for launching RustFS.",
+    "homepage": "https://github.com/rustfs/launcher",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v0.0.4-setup.exe",
+            "hash": "741e4f3163b16149c178c05393c57bbac55d5f6e4e0e32d12f396340de5f6ea8"
+        }
+    },
+    "shortcuts": [
+        [
+            "rustfs-launcher.exe",
+            "RustFS Launcher"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.dandan.rustfs-launcher\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "RustFS Launcher is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\com.dandan.rustfs-launcher', and can be purged using 'scoop uninstall --purge rustfs-launcher'."
+    ],
+    "checkver": {
+        "github": "https://github.com/rustfs/launcher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v$version-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
