@@ -15,6 +15,7 @@
             "RustFS Launcher"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.dandan.rustfs-launcher\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "RustFS Launcher is NOT portable.",
@@ -26,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v$version-setup.exe"
+                "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v$version-setup.exe#/dl.7z"
             }
         }
     }
