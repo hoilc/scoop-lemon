@@ -11,7 +11,8 @@
     },
     "bin": "wasmcloud.exe",
     "checkver": {
-        "github": "https://github.com/wasmCloud/wasmCloud"
+        "url": "https://github.com/wasmCloud/wasmCloud/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
