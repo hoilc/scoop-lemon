@@ -1,10 +1,10 @@
 {
-    "version": "2.2",
+    "version": "2.3",
     "description": "A utility for low-level, sector-by-sector hard disk duplication and image creation.",
     "homepage": "https://hddguru.com/software/HDD-Raw-Copy-Tool/",
     "license": "Freeware",
-    "url": "https://hddguru.com/software/HDD-Raw-Copy-Tool/HDDRawCopy2.2Portable.exe#/HDDRawCopy.exe",
-    "hash": "8aa51c0345d2ce15504a6afe2d1d876caec57e8c0a27cf9e058432098a2feb59",
+    "url": "https://hddguru.com/software/HDD-Raw-Copy-Tool/HDDRawCopy2.3Portable.exe#/HDDRawCopy.exe",
+    "hash": "bddb4f35b1f6dcbac7de5bfbc19a3d45528eb9399d1cc841a84820b021e247a3",
     "shortcuts": [
         [
             "HDDRawCopy.exe",
