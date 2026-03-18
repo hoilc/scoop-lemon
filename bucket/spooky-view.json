@@ -1,20 +1,20 @@
 {
-    "version": "1.0.7",
+    "version": "1.1.0",
     "description": "Spooky View is a Windows application to make any window transparent.",
     "homepage": "https://github.com/littletijn/spooky-view/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.0.7_x64_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "e81b2f04e5311067d543f0fd0945a402dc76bf2d6a42d66f82127e6be6a15d23"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x64_Portable.exe#/SpookyView.exe",
+            "hash": "cc2071976e58a4721836ced23019a00b39c8733236aa839634ca4ecd00e68ef4"
         },
         "32bit": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.07_x86_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "669e399d1d5098b4266a7d918e4b7aadd8128b34ac80a1aaa1cb46afa5421307"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_x86_Portable.exe#/SpookyView.exe",
+            "hash": "f61114a04e1714a9abfc81c1a4065aa078ead3954130f2732fb73c6c3af01b48"
         },
         "arm64": {
-            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.0.7/SpookyView_1.0.7_ARM64_Signed_Portable.exe#/SpookyView.exe",
-            "hash": "50346089096049672ee0508b807e3d27beddd81c64f63ebae32cd2baf469db52"
+            "url": "https://github.com/littletijn/spooky-view/releases/download/v1.1.0/SpookyView_1.1.0_ARM64_Portable.exe#/SpookyView.exe",
+            "hash": "7908402207874204f9a1bf88f288cffcad8a88ffa22cb3f14cbe39fc3a57ca84"
         }
     },
     "shortcuts": [
@@ -27,13 +27,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x64_Signed_Portable.exe#/SpookyView.exe"
+                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x64_Portable.exe#/SpookyView.exe"
             },
             "32bit": {
-                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x86_Signed_Portable.exe#/SpookyView.exe"
+                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_x86_Portable.exe#/SpookyView.exe"
             },
             "arm64": {
-                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_ARM64_Signed_Portable.exe#/SpookyView.exe"
+                "url": "https://github.com/littletijn/spooky-view/releases/download/v$version/SpookyView_$version_ARM64_Portable.exe#/SpookyView.exe"
             }
         }
     }
