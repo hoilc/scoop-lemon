@@ -1,12 +1,12 @@
 {
-    "version": "4.5.2",
+    "version": "4.5.4",
     "description": "A decentralized operating system for zero-knowledge applications.",
     "homepage": "https://github.com/ProvableHQ/snarkOS",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ProvableHQ/snarkOS/releases/download/v4.5.2/aleo-v4.5.2-x86_64-pc-windows-msvc.zip",
-            "hash": "e0b148641b1566f593a2f9ab13da884faa38c9b307af812dce484212afd9543f"
+            "url": "https://github.com/ProvableHQ/snarkOS/releases/download/v4.5.4/aleo-v4.5.4-x86_64-pc-windows-msvc.zip",
+            "hash": "50401f7bc1b6032606b53c5b3188037375c64885f81e28675a0cbd404a38e9d0"
         }
     },
     "bin": "snarkos.exe",
