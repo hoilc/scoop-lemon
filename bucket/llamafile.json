@@ -1,25 +1,21 @@
 {
     "version": "0.10.0",
     "description": "Distribute and run LLMs with a single file.",
-    "homepage": "https://github.com/Mozilla-Ocho/llamafile",
+    "homepage": "https://github.com/mozilla-ai/llamafile",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.10.0/llamafile-0.10.0.zip",
+            "url": "https://github.com/mozilla-ai/llamafile/releases/download/0.10.0/llamafile-0.10.0.zip",
             "extract_dir": "llamafile-0.10.0\\bin",
             "hash": "0e0376bcf2efe76c74ed5dc27e4f5e29e31a14162ca9e04c4c9e34645c65f6f7"
         }
     },
     "pre_install": [
-        "$names = @('llamafile', 'llamafile-bench', 'llamafiler', 'localscore', 'sdfile', 'whisperfile', 'zipalign', 'llamafile-imatrix', 'llamafile-perplexity', 'llamafile-quantize', 'llamafile-tokenize', 'llava-quantize')",
+        "$names = @('llamafile', 'whisperfile', 'zipalign')",
         "$names | ForEach-Object { Get-ChildItem \"$dir\" $_ | Select-Object -First 1 | Rename-Item -NewName \"$_.exe\"  }"
     ],
     "bin": [
         "llamafile.exe",
-        "llamafile-bench.exe",
-        "llamafiler.exe",
-        "localscore.exe",
-        "sdfile.exe",
         "whisperfile.exe",
         [
             "zipalign.exe",
@@ -30,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version.zip",
+                "url": "https://github.com/mozilla-ai/llamafile/releases/download/$version/llamafile-$version.zip",
                 "extract_dir": "llamafile-$version\\bin"
             }
         }
