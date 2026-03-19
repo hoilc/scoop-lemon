@@ -1,10 +1,10 @@
 {
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "A program that allows you to easily capture a screen without installing it.",
     "homepage": "https://global.kilho.net/kalmuri",
     "license": "Freeware",
-    "url": "https://down.kilho.net/Kalmuri-4.2.0.zip",
-    "hash": "f2814c2fcd2119cc0f2f1e436a4023f4b380375214d570b53b17bd2780cd634b",
+    "url": "https://down.kilho.net/Kalmuri-4.2.1.zip",
+    "hash": "2021962aa15d9053bd662a8b4cc369e9104a62288e488e3f611e1a608531f9bd",
     "shortcuts": [
         [
             "Kalmuri.exe",
