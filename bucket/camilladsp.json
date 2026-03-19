@@ -1,12 +1,12 @@
 {
-    "version": "3.0.1",
+    "version": "4.0.0",
     "description": "A flexible cross-platform IIR and FIR engine for crossovers, room correction etc.",
     "homepage": "https://github.com/HEnquist/camilladsp",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HEnquist/camilladsp/releases/download/v3.0.1/camilladsp-windows-amd64.zip",
-            "hash": "00cf5a7c03c95bfc26429b394880c3264b0d80bdcb52adea73aae585c93d592e"
+            "url": "https://github.com/HEnquist/camilladsp/releases/download/v4.0.0/camilladsp-windows-amd64.zip",
+            "hash": "a6525648aa355ba70ec88523c96c974a77a4fc5f5980fb92d9cfff8e10f6c1ec"
         }
     },
     "bin": "camilladsp.exe",
