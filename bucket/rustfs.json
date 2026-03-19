@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-alpha.88",
+    "version": "1.0.0-alpha.89",
     "description": "A high-performance, distributed object storage system built in Rust.",
     "homepage": "https://github.com/rustfs/rustfs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://dl.rustfs.com/artifacts/rustfs/release/rustfs-windows-x86_64-v1.0.0-alpha.88.zip",
-            "hash": "dd11435eb3eff39d277ac2d715d6837b7624a328188de66ad805d055d59e1ba2"
+            "url": "https://dl.rustfs.com/artifacts/rustfs/release/rustfs-windows-x86_64-v1.0.0-alpha.89.zip",
+            "hash": "482daec739f5b546fc24da8caac32bdde7d6a6cbb85dfb045aef33ab624f62b0"
         }
     },
     "bin": "rustfs.exe",
