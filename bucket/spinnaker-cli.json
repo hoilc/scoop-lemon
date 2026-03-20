@@ -1,12 +1,12 @@
 {
-    "version": "2025.4.2",
+    "version": "2026.0.1",
     "description": "Spinnaker CLI for editing pipelines, applications, and configs.",
     "homepage": "https://spinnaker.io/docs/guides/spin/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/spinnaker-artifacts/spin/2025.4.2/windows/amd64/spin.exe",
-            "hash": "11bb0491751116901ab5d7e37e1964ff61057c3e43bd8fc692d42ea90a411199"
+            "url": "https://storage.googleapis.com/spinnaker-artifacts/spin/2026.0.1/windows/amd64/spin.exe",
+            "hash": "e16ea6bf8a7cdfbe5efe73fe047f68040915b4445280836990fa5224cc2be193"
         }
     },
     "bin": "spin.exe",
