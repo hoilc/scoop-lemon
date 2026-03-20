@@ -1,16 +1,16 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Uses favicon.ico to improve the target recon phase.",
     "homepage": "https://github.com/edoardottt/favirecon",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/edoardottt/favirecon/releases/download/v1.0.2/favirecon_1.0.2_windows_amd64.zip",
-            "hash": "c439a23ca211b0f7302fb5b1bbe1c881e7a1d94f1b5df5118e779f50fd600beb"
+            "url": "https://github.com/edoardottt/favirecon/releases/download/v1.0.3/favirecon_1.0.3_windows_amd64.zip",
+            "hash": "3b7783f6d7716af716ff53ea4f44886e6587836df87505ad2f4e651a893fe283"
         },
         "32bit": {
-            "url": "https://github.com/edoardottt/favirecon/releases/download/v1.0.2/favirecon_1.0.2_windows_386.zip",
-            "hash": "1e72d07f71742e148506e26628ea3051d818a340a2afa5a3913e59037ccc77e0"
+            "url": "https://github.com/edoardottt/favirecon/releases/download/v1.0.3/favirecon_1.0.3_windows_386.zip",
+            "hash": "cef204655adcb68667ed0c56b3301d90cd80d4338e55be74bf5fdb73545ab06c"
         }
     },
     "bin": "favirecon.exe",
