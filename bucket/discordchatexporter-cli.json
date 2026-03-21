@@ -1,20 +1,20 @@
 {
-    "version": "2.47",
+    "version": "2.47.1",
     "description": "A CLI application that can be used to export message history from any Discord channel to a file.",
     "homepage": "https://github.com/Tyrrrz/DiscordChatExporter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47/DiscordChatExporter.Cli.win-x64.zip",
-            "hash": "bf02ade520a7c15b2d49a55cc62c115d5a78106d4ad4b0005815ad253f47e640"
+            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47.1/DiscordChatExporter.Cli.win-x64.zip",
+            "hash": "7481672e572c20cb1824e72a5280eb1c2511c9543ef7b2eff13d53c446db0317"
         },
         "32bit": {
-            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47/DiscordChatExporter.Cli.win-x86.zip",
-            "hash": "1760b0707fa7a142408b39a3c98e3fc73a7b6781eb96fd2601c3989ae913cb8d"
+            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47.1/DiscordChatExporter.Cli.win-x86.zip",
+            "hash": "19ee527baa233ba399e96b796b05f86bc24fe2706ca8d2d37f5ac8a5c4be7b88"
         },
         "arm64": {
-            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47/DiscordChatExporter.Cli.win-arm64.zip",
-            "hash": "6b5189de12410cfee78655bdb07561641b9c448da7063ad2d4b780939d2746c5"
+            "url": "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47.1/DiscordChatExporter.Cli.win-arm64.zip",
+            "hash": "e583dc5a7fe2655dc6f5a6b8ddab7f07574c0abc3c6e0ddf36afeb450e981127"
         }
     },
     "bin": "DiscordChatExporter.Cli.exe",
