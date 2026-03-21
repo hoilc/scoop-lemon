@@ -1,16 +1,16 @@
 {
-    "version": "3.5.0",
+    "version": "3.6.1",
     "description": "现代化 Android & OpenHarmony 工具箱 | A Modern Toolbox for Android & OpenHarmony Devices.",
     "homepage": "https://github.com/Uotan-Dev/UotanToolboxNT",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Uotan-Dev/UotanToolboxNT/releases/download/3.5.0/UotanToolbox_Windows_x64_3.5.0.zip",
-            "hash": "002d0eb27024b1dfc48b8b6dfe9046961bd60bc0d616f2990af88e598c2eb886"
+            "url": "https://github.com/Uotan-Dev/UotanToolboxNT/releases/download/3.6.1/UotanToolbox_Windows_x64_3.6.1.zip",
+            "hash": "f3f4087a0e4be4a4ffb35dfd682465ef4cef08218a74b3f5728a046592ace164"
         },
         "arm64": {
-            "url": "https://github.com/Uotan-Dev/UotanToolboxNT/releases/download/3.5.0/UotanToolbox_Windows_arm64_3.5.0.zip",
-            "hash": "214cb57131f3d442c4046561b83d05d255e1d9eeb8c509dfea4f04aea2e12faa"
+            "url": "https://github.com/Uotan-Dev/UotanToolboxNT/releases/download/3.6.1/UotanToolbox_Windows_arm64_3.6.1.zip",
+            "hash": "e5d8e28cd76dc8a4c88e45c1239f24b34a1ed7ed575ef8adcd2b5f24a0cece97"
         }
     },
     "shortcuts": [
