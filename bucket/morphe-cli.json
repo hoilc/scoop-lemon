@@ -1,10 +1,10 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "Morphe CLI is a command-line application that uses Morphe Patcher to patch Android apps.",
     "homepage": "https://github.com/MorpheApp/morphe-cli",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/MorpheApp/morphe-cli/releases/download/v1.6.0/morphe-cli-1.6.0-all.jar#/morphe-cli.jar",
-    "hash": "c95ed42ecfc2e5236c2a0c61734705bbe90f6ada80970f91e5af9a4d3b7a81bd",
+    "url": "https://github.com/MorpheApp/morphe-cli/releases/download/v1.6.1/morphe-cli-1.6.1-all.jar#/morphe-cli.jar",
+    "hash": "4c4c630684e8229e3a91cc2ba63123742a08abb5c49fdc535e218862bd41aa5f",
     "bin": "morphe-cli.jar",
     "suggest": {
         "JDK 11+": [
