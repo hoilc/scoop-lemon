@@ -1,12 +1,12 @@
 {
-    "version": "8.0.0",
+    "version": "8.1.0",
     "description": "A JavaScript to Webassembly toolchain",
     "homepage": "https://github.com/bytecodealliance/javy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/javy/releases/download/v8.0.0/javy-x86_64-windows-v8.0.0.gz",
-            "hash": "690fed25241db3a95c476143af1a9882496ea3487b8acbdfbb5787a1a916acbb"
+            "url": "https://github.com/bytecodealliance/javy/releases/download/v8.1.0/javy-x86_64-windows-v8.1.0.gz",
+            "hash": "6ab38f8a689e20e9deaa09c7e8c357362ca983eef7f7dbc9bb41c8c3bcfd4c4c"
         }
     },
     "bin": "javy.exe",
