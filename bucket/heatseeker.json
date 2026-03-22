@@ -1,12 +1,12 @@
 {
-    "version": "1.10.0",
+    "version": "1.10.1",
     "description": "A high-performance Selecta clone, written in Rust.",
     "homepage": "https://github.com/rschmitt/heatseeker",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rschmitt/heatseeker/releases/download/v1.10.0/heatseeker-v1.10.0-x86_64-pc-windows-msvc.zip",
-            "hash": "fc1a9e71c20c839a17f3ba54920094659ee56de5470e4c187662104aa862b3a4"
+            "url": "https://github.com/rschmitt/heatseeker/releases/download/v1.10.1/heatseeker-v1.10.1-x86_64-pc-windows-msvc.zip",
+            "hash": "c9753a6c410327d64fae67461cc69f78f17c95b62ffae13dd2db6038b6537da6"
         }
     },
     "bin": "hs.exe",
