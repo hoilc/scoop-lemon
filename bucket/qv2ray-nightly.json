@@ -1,5 +1,5 @@
 {
-    "version": "4ea4fef9",
+    "version": "b211-4ea4fef",
     "description": "(Nightly Build) A cross platform connection manager for V2Ray and other backends.",
     "homepage": "https://github.com/dyhkwong/Qv2ray",
     "license": "GPL-3.0-or-later",
@@ -9,7 +9,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/dyhkwong/Qv2ray/workflows/build/main/Qv2ray-4ea4fef98558b3dfb364dd5ecd942ad301cfa842-Windows.7z.zip",
+            "url": "https://nightly.link/dyhkwong/Qv2ray/actions/runs/23425397555/Qv2ray-4ea4fef98558b3dfb364dd5ecd942ad301cfa842-Windows.7z.zip",
             "hash": "829ac6e84bae23b96c904b19a836e4e1079b99a39a602bfa7274478fb64e122d"
         }
     },
@@ -43,13 +43,14 @@
     ],
     "persist": "config",
     "checkver": {
-        "url": "https://nightly.link/dyhkwong/Qv2ray/workflows/build/main",
-        "regex": "Qv2ray-(?<full>([0-9a-f]{8})[0-9a-f]+)-Windows"
+        "url": "https://github.com/dyhkwong/Qv2ray/actions/workflows/build.yml?query=event%3Apush+branch%3Amain+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):.*?/commit/(?<shortcommit>[0-9a-f]{7})(?<remainingcommit>[0-9a-f]+)\"",
+        "replace": "b${build}-${shortcommit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/dyhkwong/Qv2ray/workflows/build/main/Qv2ray-$matchFull-Windows.7z.zip"
+                "url": "https://nightly.link/dyhkwong/Qv2ray/actions/runs/$matchRun/Qv2ray-$matchShortcommit$matchRemainingcommit-Windows.7z.zip"
             }
         }
     }
