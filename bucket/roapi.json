@@ -1,12 +1,12 @@
 {
-    "version": "0.12.6",
+    "version": "0.12.7",
     "description": "Create full-fledged APIs for slowly moving datasets without writing a single line of code.",
     "homepage": "https://roapi.github.io/docs/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roapi/roapi/releases/download/roapi-v0.12.6/roapi-windows.tar.gz",
-            "hash": "605215766349743b1a015128b94f303bebe697dec82e8f5984e3d3578f932569"
+            "url": "https://github.com/roapi/roapi/releases/download/roapi-v0.12.7/roapi-windows.tar.gz",
+            "hash": "4f9f9ecf66ebe65cbb889c3059f61d58488978e488e93298f8bd553606fb559f"
         }
     },
     "bin": "roapi.exe",
