@@ -1,10 +1,10 @@
 {
-    "version": "1.8",
+    "version": "1.9",
     "description": "A Windows search app that allows you to easily search for files, folders and also Windows registry data with multiple search terms at the same time.",
     "homepage": "https://winfindr.com/",
     "license": "Freeware",
     "url": "https://winfindr.com/WinFindr_Portable.exe#/WinFindr.exe",
-    "hash": "14b6e3cb6910083438db6086ea16c8b4184a5dc8b052ceca59a7cf218fab0cc5",
+    "hash": "e447241225256f0834cff6318a14c0b7bc3778b348d8fd47618bac9ff5b6b881",
     "bin": "WinFindr.exe",
     "shortcuts": [
         [
