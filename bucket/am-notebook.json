@@ -1,10 +1,10 @@
 {
-    "version": "7.1",
+    "version": "7.2",
     "description": "A full featured note-taking software for notes, formula based spreadsheets, diagrams, TODO lists, tasks and much more.",
     "homepage": "https://www.aignes.com/notebook.htm",
     "license": "Freeware",
     "url": "https://www.aignes.com/download/notesetup.exe",
-    "hash": "72921e61a67a44062df7c180b6dd5bab24e4ee86bf558db77b1f3f2517579fe4",
+    "hash": "57259328ca8b001050b6d9a77bac9fcdd36c2b2d841fe6b15d143f53536384d3",
     "shortcuts": [
         [
             "notebook.exe",
