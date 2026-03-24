@@ -1,10 +1,10 @@
 {
-    "version": "2026.1.14.0",
+    "version": "2026.1.15.0",
     "description": "(Solo Edition) A remote connection management software for individual, MSPs, and IT professionals.",
     "homepage": "https://devolutions.net/remote-desktop-manager/",
     "license": "Proprietary",
-    "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.Bin.2026.1.14.0.zip",
-    "hash": "b125af605c879a8d335b7590e144f61d849c14beff859141cf6314f73356af28",
+    "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.Bin.2026.1.15.0.zip",
+    "hash": "04294636553f3ef80ed689dc49d7156a12348208eaa26706e4e91a722b97879c",
     "architecture": {
         "64bit": {
             "shortcuts": [
