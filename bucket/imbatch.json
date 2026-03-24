@@ -1,16 +1,16 @@
 {
-    "version": "7.6.3",
+    "version": "7.6.4",
     "description": "A free multithreaded image processing tool.",
     "homepage": "https://www.highmotionsoftware.com/products/imbatch",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe",
-            "hash": "1e1dad9dfb9717642d58c4aed8bf0139162cbd0a72c7f01e03ab3415f87c41f0"
+            "hash": "ca25abba323025727cf5c629e464df602af92eadb4ee65caaeb6e741a1f50b87"
         },
         "32bit": {
             "url": "https://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest-x32.exe",
-            "hash": "e62c555847d0c3d9f9468e27a135985d41cb9b513dead3ec6735483076bec1a6"
+            "hash": "83d11b7b9fd02aae1951931522d4b344f371d65b3f7830d523e9a2b3e8033274"
         }
     },
     "innosetup": true,
