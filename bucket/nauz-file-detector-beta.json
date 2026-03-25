@@ -1,6 +1,6 @@
 {
     "version": "0.1.0-20260325",
-    "description": "Nauz File Detector is a portable linker/compiler/packer identifier utility.",
+    "description": "(BETA Version) Nauz File Detector is a portable linker/compiler/packer identifier utility.",
     "homepage": "https://github.com/horsicq/Nauz-File-Detector",
     "license": "MIT",
     "architecture": {
