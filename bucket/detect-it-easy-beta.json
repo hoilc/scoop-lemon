@@ -1,0 +1,46 @@
+{
+    "version": "3.20-20260323",
+    "description": "(BETA Version) Detect It Easy (DiE) is a powerful tool for file type identification.",
+    "homepage": "https://github.com/horsicq/Detect-It-Easy",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_portable_3.20_x64.zip",
+            "hash": "4c50951b64c283892f469a18ee76c4c744722772873ff57d950c215f22117d7b"
+        },
+        "32bit": {
+            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_portable_3.20_x86.zip",
+            "hash": "4e9628c1165c2d79921ad3284e9e1848b008ceac49ec45e8aeb0b1efd2ca3c37"
+        }
+    },
+    "bin": "diec.exe",
+    "shortcuts": [
+        [
+            "die.exe",
+            "Detect It Easy (Beta)"
+        ],
+        [
+            "diel.exe",
+            "Detect It Easy Lite (Beta)"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "url": "https://github.com/horsicq/DIE-engine/releases/expanded_assets/Beta",
+        "regex": "(?sm)die_win64_portable_(?<main>[\\d.]+)_x64.zip.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "replace": "${main}-${year}${month}${day}",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_portable_$matchMain_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_portable_$matchMain_x86.zip"
+            }
+        }
+    }
+}
