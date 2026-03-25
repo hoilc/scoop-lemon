@@ -18,7 +18,7 @@
     "bin": [
         "quincy-client.exe",
         "quincy-server.exe",
-        "quincy-users.exe"
+        "quincy-identity.exe"
     ],
     "checkver": "github",
     "autoupdate": {
