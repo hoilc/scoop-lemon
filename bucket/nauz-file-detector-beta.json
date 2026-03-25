@@ -17,7 +17,7 @@
     "shortcuts": [
         [
             "NauzFileDetector.exe",
-            "Nauz File Detector"
+            "Nauz File Detector (Beta)"
         ]
     ],
     "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
