@@ -1,0 +1,42 @@
+{
+    "version": "0.1.0-20260325",
+    "description": "(BETA Version) Nauz File Detector is a portable linker/compiler/packer identifier utility.",
+    "homepage": "https://github.com/horsicq/Nauz-File-Detector",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win64_portable_0.1.0_x64.zip",
+            "hash": "9a6bb23b35ac7b070ea1a0d3240c7389a853639f1078543b48fa2162ff470d25"
+        },
+        "32bit": {
+            "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win32_portable_0.1.0_x86.zip",
+            "hash": "6a9e01154807358b389be2768ccdf193a8d4a4b243a16e4df1937d65571733dd"
+        }
+    },
+    "bin": "nfdc.exe",
+    "shortcuts": [
+        [
+            "NauzFileDetector.exe",
+            "Nauz File Detector"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "url": "https://github.com/horsicq/Nauz-File-Detector/releases/expanded_assets/Beta",
+        "regex": "(?sm)NauzFileDetector_win64_portable_(?<main>[\\d.]+)_x64.zip.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "replace": "${main}-${year}${month}${day}",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win64_portable_$matchMain_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win32_portable_$matchMain_x86.zip"
+            }
+        }
+    }
+}
