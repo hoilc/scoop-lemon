@@ -1,0 +1,37 @@
+{
+    "version": "0.03",
+    "description": "An Android/APK/DEX detector that shows an information about build tools, libraries and protection of APK/DEX files.",
+    "homepage": "https://github.com/horsicq/XAPKDetector",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/horsicq/XAPKDetector/releases/download/0.03/xapkdetector_win64_portable_0.03.zip",
+            "hash": "6467cb9cb76b730336552c23fe40846e83e18d0a1c25abcebfd01ea04216f458"
+        },
+        "32bit": {
+            "url": "https://github.com/horsicq/XAPKDetector/releases/download/0.03/xapkdetector_win32_portable_0.03.zip",
+            "hash": "ae6e513859e07972402c3028a85d18069bc83e4756a65f0daa9511a75067e279"
+        }
+    },
+    "bin": "xapkdc.exe",
+    "shortcuts": [
+        [
+            "xapkd.exe",
+            "XAPKDetector"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/horsicq/XAPKDetector/releases/download/$version/xapkdetector_win64_portable_$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/horsicq/XAPKDetector/releases/download/$version/xapkdetector_win32_portable_$version.zip"
+            }
+        }
+    }
+}
