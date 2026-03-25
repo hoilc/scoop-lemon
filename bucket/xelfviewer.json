@@ -1,6 +1,6 @@
 {
     "version": "0.05",
-    "description": "A ELF file viewer/editor.",
+    "description": "An ELF file viewer/editor.",
     "homepage": "https://github.com/horsicq/XELFViewer",
     "license": "MIT",
     "architecture": {
