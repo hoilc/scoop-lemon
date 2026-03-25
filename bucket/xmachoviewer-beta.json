@@ -1,6 +1,6 @@
 {
     "version": "0.4.0-20260323",
-    "description": "A Mach-O viewer.",
+    "description": "(BETA Version) A Mach-O viewer.",
     "homepage": "https://github.com/horsicq/XMachOViewer",
     "license": "MIT",
     "architecture": {
