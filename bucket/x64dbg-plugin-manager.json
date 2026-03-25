@@ -1,0 +1,23 @@
+{
+    "version": "0.06",
+    "description": "A plugin manager for x64dbg.",
+    "homepage": "https://github.com/horsicq/x64dbg-Plugin-Manager",
+    "license": "MIT",
+    "url": "https://github.com/horsicq/x64dbg-Plugin-Manager/releases/download/0.06/x64plgmnr_win32_portable_0.06.zip",
+    "hash": "bf71d051b267bd9152a2de6affdcc5dbdfc52ac8def78d945fe454a92ac447bc",
+    "extract_dir": "x64plgmnr_win32_portable",
+    "bin": "x64plgmnrc.exe",
+    "shortcuts": [
+        [
+            "x64plgmnr.exe",
+            "x64dbg Plugin Manager"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\"",
+    "persist": "data",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/horsicq/x64dbg-Plugin-Manager/releases/download/$version/x64plgmnr_win32_portable_$version.zip"
+    }
+}
