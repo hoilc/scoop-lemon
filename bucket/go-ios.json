@@ -1,12 +1,12 @@
 {
-    "version": "1.0.205",
+    "version": "1.0.206",
     "description": "A stable and production ready opensource solution to automate iOS device.",
     "homepage": "https://github.com/danielpaulus/go-ios",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/danielpaulus/go-ios/releases/download/v1.0.205/go-ios-win.zip",
-            "hash": "325c527660ad68f446ac8adca86851f42cbd990ffb41bce4ee25ed78a6ffbdbd"
+            "url": "https://github.com/danielpaulus/go-ios/releases/download/v1.0.206/go-ios-win.zip",
+            "hash": "f22bb951a011189bf856e4f4a050bf72d943d476f0cb0eb087e42ac7bc131a6e"
         }
     },
     "bin": "ios.exe",
