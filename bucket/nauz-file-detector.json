@@ -1,0 +1,37 @@
+{
+    "version": "0.09",
+    "description": "Nauz File Detector is a portable linker/compiler/packer identifier utility.",
+    "homepage": "https://github.com/horsicq/Nauz-File-Detector",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/0.09/nfd_win64_portable_0.09.zip",
+            "hash": "199dc29b13c090e88100b651a707472010fa16d8433dde63a1fa3268b350f8ed"
+        },
+        "32bit": {
+            "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/0.09/nfd_win32_portable_0.09.zip",
+            "hash": "9e9bd55ac5cf2572cd60fb673663e17a462e344bfac22558bd46c2ddc6be5aaa"
+        }
+    },
+    "bin": "nfdc.exe",
+    "shortcuts": [
+        [
+            "nfd.exe",
+            "Nauz File Detector"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.ini' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/$version/nfd_win64_portable_$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/$version/nfd_win32_portable_$version.zip"
+            }
+        }
+    }
+}
