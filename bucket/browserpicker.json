@@ -1,12 +1,12 @@
 {
-    "version": "3.0.5",
+    "version": "3.1.3",
     "description": "A default browser replacement for windows to let you pick your preferred browser on the fly or in accordance with your own rules.",
     "homepage": "https://github.com/mortenn/BrowserPicker",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mortenn/BrowserPicker/releases/download/v3.0.5/Portable.zip",
-            "hash": "31dca2e4a14c487acf3a30b20a26651ce219bca95374a75b683317bfe6051edd"
+            "url": "https://github.com/mortenn/BrowserPicker/releases/download/v3.1.3/Portable.zip",
+            "hash": "98a01d888231b476ff158d688f1cf39da3010fd6edc4ac4d889f51425811d596"
         }
     },
     "shortcuts": [
