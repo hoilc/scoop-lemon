@@ -1,0 +1,41 @@
+{
+    "version": "20260209",
+    "description": "Eclipse Memory Analyzer Tool to read dumps produced by IBM Semeru Runtimes Java.",
+    "homepage": "https://www.ibm.com/support/pages/eclipse-memory-analyzer-tool-dtfj-and-ibm-extensions",
+    "license": "EPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://public.dhe.ibm.com/software/websphere/appserv/support/tools/iema/com.ibm.java.diagnostics.memory.analyzer.MemoryAnalyzer.semeru-win32.win32.x86_64.zip",
+            "hash": "3505328e89694d981eec4a9066d74d317041afe581cbfb3226769a94998ab267"
+        }
+    },
+    "bin": "ParseHeapDump.bat",
+    "shortcuts": [
+        [
+            "MemoryAnalyzer.exe",
+            "Eclipse Memory Analyzer for IBM Semeru"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/semeru-jdk",
+            "java/semeru-lts-jdk"
+        ]
+    },
+    "notes": "Ensure Java 21 is on your PATH (preferably, an IBM Semeru Runtimes Java 21 JDK to enable advanced jvmpview extensions)",
+    "persist": "workspace",
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://public.dhe.ibm.com/software/websphere/appserv/support/tools/iema/com.ibm.java.diagnostics.memory.analyzer.MemoryAnalyzer.semeru-win32.win32.x86_64.zip' -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
+        ],
+        "regex": "(\\d{8})"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://public.dhe.ibm.com/software/websphere/appserv/support/tools/iema/com.ibm.java.diagnostics.memory.analyzer.MemoryAnalyzer.semeru-win32.win32.x86_64.zip"
+            }
+        }
+    }
+}
