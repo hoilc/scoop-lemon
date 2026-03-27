@@ -1,16 +1,16 @@
 {
-    "version": "3.1.2",
+    "version": "3.1.3",
     "description": "Microsoft's Desired State Configuration is an open source command line application that abstracts the management of software components declaratively and idempotently.",
     "homepage": "https://github.com/PowerShell/DSC",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PowerShell/DSC/releases/download/v3.1.2/DSC-3.1.2-x86_64-pc-windows-msvc.zip",
-            "hash": "8dc83ccd773d5a43f5907f01034c75c64771dc0e90d53b837c11747af3d87d43"
+            "url": "https://github.com/PowerShell/DSC/releases/download/v3.1.3/DSC-3.1.3-x86_64-pc-windows-msvc.zip",
+            "hash": "8176a6571a4b67d50565448d11f95b1d59b76896b6c6733ca5971464e4cf7ea0"
         },
         "arm64": {
-            "url": "https://github.com/PowerShell/DSC/releases/download/v3.1.2/DSC-3.1.2-aarch64-pc-windows-msvc.zip",
-            "hash": "d741d3a1dd3083c2318499d23d95fe45ee15f064caf6772e4489c606324532a8"
+            "url": "https://github.com/PowerShell/DSC/releases/download/v3.1.3/DSC-3.1.3-aarch64-pc-windows-msvc.zip",
+            "hash": "baeb2c7c56af02cb8432edb501b117f5d5e7953e9b84620597977e847801c249"
         }
     },
     "bin": "dsc.exe",
