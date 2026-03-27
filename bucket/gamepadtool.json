@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.4",
     "description": "A simple GUI tool to create/modify gamepad mappings for games that use SDL2 Game Controller API.",
     "homepage": "https://generalarcade.com/gamepadtool/",
     "license": "Freeware",
