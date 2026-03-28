@@ -1,20 +1,20 @@
 {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "A tool to generate Go data types from JSON Schema definitions.",
     "homepage": "https://github.com/omissis/go-jsonschema",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Windows_x86_64.tar.gz",
-            "hash": "f7724090f4cadaabc1cb2a6021df1284dfa650a0ffc83e5a59d74d8da925638b"
+            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Windows_x86_64.tar.gz",
+            "hash": "4424b933fb10d5d0dbc366337d3aee7d61f4a3be397e8886915740140e0be838"
         },
         "32bit": {
-            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Windows_i386.tar.gz",
-            "hash": "2b810218fd5618d461c79c35cdb32ff63c4d12ce18da86157b6472cb0f08be75"
+            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Windows_i386.tar.gz",
+            "hash": "bfaef1458096816dcab4efc34b8b41697107664d1464bbb826329461ce5a6a06"
         },
         "arm64": {
-            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Windows_arm64.tar.gz",
-            "hash": "c94bc0c83e43fde7d759fd333111120933744e58c3fe033810d613dec66bdde8"
+            "url": "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Windows_arm64.tar.gz",
+            "hash": "e3ff1971d63bfdd9565c002f99c6c046229c49eec639544f6d1c539d6b64035d"
         }
     },
     "bin": "go-jsonschema.exe",
