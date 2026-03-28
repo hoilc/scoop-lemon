@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.6/TinyRDM_Portable_1.2.6_windows_x64.zip",
-            "hash": "3154fe91a43fb11ebf262641e40370f8dd5ee9ef48a2e40df38e43a4321f7351"
+            "hash": "5e71449329f017cd0be734f146dc83b3a0ad7bf5f4b7bb09536f5d0c1d57697f"
         },
         "arm64": {
             "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.6/TinyRDM_Portable_1.2.6_windows_arm64.zip",
-            "hash": "668ca9913cb8bf0ef13c2de323f2d96de73ac265c07d13d1b102d394448e7c7f"
+            "hash": "3d37802379ce62eb1bb14e2e0585e31df0155de51b037be000cccf71709d946f"
         }
     },
     "shortcuts": [
