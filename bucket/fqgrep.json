@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Search a pair of FASTQ files for reads that match a given ref or alt sequence.",
     "homepage": "https://github.com/fulcrumgenomics/fqgrep",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fulcrumgenomics/fqgrep/releases/download/v1.1.1/fqgrep-x86_64-pc-windows-gnu.exe#/fqgrep.exe",
-            "hash": "a995e4bffc9b8e8bf9c9b2b5739389dfaf0d189a568a0ae4a260a69454bbd81e"
+            "url": "https://github.com/fulcrumgenomics/fqgrep/releases/download/v1.1.2/fqgrep-x86_64-pc-windows-gnu.exe#/fqgrep.exe",
+            "hash": "ba704bacfac47c08a78b0f1fc057356a5a9eb0ba280d8eec104075c1e1954d81"
         }
     },
     "bin": "fqgrep.exe",
