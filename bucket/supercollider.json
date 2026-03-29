@@ -9,6 +9,7 @@
             "hash": "a5f95416307d35c039ca53a9f9c6151c26585064d3229521093a60dddb9458cd"
         }
     },
+    "extract_dir": "SuperCollider",
     "shortcuts": [
         [
             "scide.exe",
