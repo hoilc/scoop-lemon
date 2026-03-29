@@ -1,6 +1,6 @@
 {
     "version": "2511",
-    "description": "A graphical file compression/decompression utility developed by KDE.",
+    "description": "(Nightly Build) A graphical file compression/decompression utility developed by KDE.",
     "homepage": "https://apps.kde.org/ark/",
     "license": "GPL-2.0-or-later",
     "architecture": {
