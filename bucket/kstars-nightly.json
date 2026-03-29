@@ -1,0 +1,33 @@
+{
+    "version": "9580",
+    "description": "(Nightly Build) A feature-rich free astronomy software developed by KDE.",
+    "homepage": "https://kstars.kde.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/education/kstars/master/windows/kstars-master-9580-windows-cl-msvc2022-x86_64.7z",
+            "hash": "3cdf8cf0391eac6acd252e53d5178c1dfdbe15a912b213be9632f9b6fbdccdb2"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\kstars.exe",
+            "KStars Nightly"
+        ]
+    ],
+    "notes": "KStars is NOT portable.",
+    "checkver": {
+        "url": "https://cdn.kde.org/ci-builds/education/kstars/master/windows/",
+        "regex": "kstars-master-(\\d+)-windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/education/kstars/master/windows/kstars-master-$version-windows-cl-msvc2022-x86_64.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
