@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1",
+    "version": "1.6.0",
     "description": "A tool that minifies and obfuscates shader code (GLSL and HLSL) without affecting its behaviour.",
     "homepage": "https://github.com/laurentlb/shader-minifier",
     "license": "Apache-2.0",
-    "url": "https://github.com/laurentlb/shader-minifier/releases/download/1.5.1/shader_minifier.exe#/shader-minifier.exe",
-    "hash": "89c70eb7f010cf3eeac405ed7e5fcc03ad208be833e51d3760c7d595a0f690b6",
+    "url": "https://github.com/laurentlb/shader-minifier/releases/download/1.6.0/shader_minifier.exe#/shader-minifier.exe",
+    "hash": "054a27326c419a6727fa0afcfd746656ffafb6b87fd2776f252130a271c58c2a",
     "bin": "shader-minifier.exe",
     "checkver": "github",
     "autoupdate": {
