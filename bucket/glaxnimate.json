@@ -1,0 +1,33 @@
+{
+    "version": "0.6.0",
+    "description": "A simple vector graphics animation program developed by KDE.",
+    "homepage": "https://glaxnimate.org/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.kde.org/stable/glaxnimate/0.6.0/windows/glaxnimate-0.6.0-x86_64-standalone.7z",
+            "hash": "b27742f8c6ccc8942689e6150973c5286d68ce31c777f7fefbe7738e0bfc488d"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\glaxnimate.exe",
+            "Glaxnimate"
+        ]
+    ],
+    "notes": "Glaxnimate is NOT portable.",
+    "checkver": {
+        "url": "https://apps.kde.org/glaxnimate/index.xml",
+        "regex": "/#([\\d.]+)</guid>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.kde.org/stable/glaxnimate/$version/windows/glaxnimate-$version-x86_64-standalone.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
