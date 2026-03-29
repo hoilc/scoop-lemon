@@ -1,0 +1,36 @@
+{
+    "version": "3.14.1",
+    "description": "An audio server, programming language, and IDE for sound synthesis and algorithmic composition.",
+    "homepage": "https://supercollider.github.io/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/supercollider/supercollider/releases/download/Version-3.14.1/SuperCollider-3.14.1-win64.zip",
+            "hash": "a5f95416307d35c039ca53a9f9c6151c26585064d3229521093a60dddb9458cd"
+        }
+    },
+    "extract_dir": "SuperCollider",
+    "shortcuts": [
+        [
+            "scide.exe",
+            "SuperCollider IDE"
+        ]
+    ],
+    "bin": [
+        "scide.exe",
+        "sclang.exe",
+        "scsynth.exe",
+        "supernova.exe"
+    ],
+    "checkver": {
+        "url": "https://github.com/supercollider/supercollider/releases.atom",
+        "regex": "Repository/\\d+/Version-(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/supercollider/supercollider/releases/download/Version-$version/SuperCollider-$version-win64.zip"
+            }
+        }
+    }
+}
