@@ -1,0 +1,35 @@
+{
+    "version": "3.8.1",
+    "description": "A feature-rich free astronomy software developed by KDE.",
+    "homepage": "https://kstars.kde.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.indilib.org/jdownloads/kstars/kstars-3.8.1.exe#/dl.7z",
+            "hash": "c9b6f81c6877b6a7e97ad0c4c18538186d8f04904a0f01e94bebf5e009e3355c"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'kstars-*.7z' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "bin\\kstars.exe",
+            "KStars"
+        ]
+    ],
+    "notes": "KStars is NOT portable.",
+    "checkver": {
+        "url": "https://kstars.kde.org/download/windows/",
+        "regex": "kstars-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.indilib.org/jdownloads/kstars/kstars-$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
