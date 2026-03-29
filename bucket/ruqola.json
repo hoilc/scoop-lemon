@@ -1,0 +1,48 @@
+{
+    "version": "2.7-12358",
+    "description": "A Rocket.Chat client developed by KDE.",
+    "homepage": "https://apps.kde.org/ruqola/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/network/ruqola/2.7/windows/ruqola-2.7-12358-windows-cl-msvc2022-x86_64.7z",
+            "hash": "f6aa729e5eee6f4905bc703314d39f5c88b7088ecbc97cf3d310f9063110eca2"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\ruqola.exe",
+            "Ruqola Nightly"
+        ]
+    ],
+    "notes": "Ruqola is NOT portable.",
+    "checkver": {
+        "script": [
+            "$url = 'https://cdn.kde.org/ci-builds/network/ruqola/?C=N;O=D'",
+            "",
+            "$cont = (Invoke-WebRequest -TimeoutSec 5 $url).Content",
+            "$regex = '>([\\d.]+)/</a>'",
+            "if (!($cont -match $regex)) { error \"Could not match $regex in $url\"; continue }",
+            "$ver = $matches[1]",
+            "",
+            "$nextUrl = \"https://cdn.kde.org/ci-builds/network/ruqola/$ver/windows/\"",
+            "$nextCont = (Invoke-WebRequest -TimeoutSec 5 $nextUrl).Content",
+            "$nextRegex = \"ruqola-$ver-([\\d]+)-windows-cl-([\\w]+)-x86_64\\.7z\"",
+            "if (!($nextCont -match $nextRegex)) { error \"Could not match $nextRegex in $nextUrl\"; continue }",
+            "$build = $matches[1]",
+            "$lib = $matches[2]",
+            "Write-Output $ver-$build $lib"
+        ],
+        "regex": "([\\d.-]+) (?<lib>[\\w]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/network/ruqola/$matchHead/windows/ruqola-$version-windows-cl-$matchLib-x86_64.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
