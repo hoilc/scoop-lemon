@@ -1,0 +1,48 @@
+{
+    "version": "5.2-5393",
+    "description": "A personal finance manager developed by KDE.",
+    "homepage": "https://kmymoney.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/kmymoney-5.2-5393-windows-cl-msvc2022-x86_64.7z",
+            "hash": "bd343198dd4c687c2fc5422c1f7db6693f384a12ac077632a3fae4054f9edf30"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\kmymoney.exe",
+            "KMyMoney"
+        ]
+    ],
+    "notes": "KMyMoney is NOT portable.",
+    "checkver": {
+        "script": [
+            "$url = 'https://cdn.kde.org/ci-builds/office/kmymoney/?C=N;O=D'",
+            "",
+            "$cont = (Invoke-WebRequest -TimeoutSec 5 $url).Content",
+            "$regex = '>([\\d.]+)/</a>'",
+            "if (!($cont -match $regex)) { error \"Could not match $regex in $url\"; continue }",
+            "$ver = $matches[1]",
+            "",
+            "$nextUrl = \"https://cdn.kde.org/ci-builds/office/kmymoney/$ver/windows/\"",
+            "$nextCont = (Invoke-WebRequest -TimeoutSec 5 $nextUrl).Content",
+            "$nextRegex = \"kmymoney-$ver-([\\d]+)-windows-cl-([\\w]+)-x86_64\\.7z\"",
+            "if (!($nextCont -match $nextRegex)) { error \"Could not match $nextRegex in $nextUrl\"; continue }",
+            "$build = $matches[1]",
+            "$lib = $matches[2]",
+            "Write-Output $ver-$build $lib"
+        ],
+        "regex": "([\\d.-]+) (?<lib>[\\w]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/office/kmymoney/$matchHead/windows/kmymoney-$version-windows-cl-$matchLib-x86_64.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
