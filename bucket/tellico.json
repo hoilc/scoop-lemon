@@ -1,0 +1,32 @@
+{
+    "version": "4.2",
+    "description": "A collection management software developed by KDE.",
+    "homepage": "https://tellico-project.org/",
+    "license": "GPL-2.0-only|GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://tellico-project.org/files/tellico-4.2-windows-x86_64.exe#/dl.7z",
+            "hash": "ef017c417b4019e0b8da386096e23073505f30f897995c3d60791bdc00074f48"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'tellico-*.7z' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "bin\\tellico.exe",
+            "Tellico"
+        ]
+    ],
+    "notes": "Tellico is NOT portable.",
+    "checkver": {
+        "url": "https://tellico-project.org/download-tellico/",
+        "regex": "tellico-([\\d.]+).tar.xz"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://tellico-project.org/files/tellico-$version-windows-x86_64.exe#/dl.7z"
+            }
+        }
+    }
+}
