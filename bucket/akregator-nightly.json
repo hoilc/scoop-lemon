@@ -1,6 +1,6 @@
 {
     "version": "2601",
-    "description": "An RSS feed reader developed by KDE.",
+    "description": "(Nightly Build) An RSS feed reader developed by KDE.",
     "homepage": "https://apps.kde.org/akregator/",
     "license": "GPL-2.0-or-later",
     "architecture": {
