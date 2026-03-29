@@ -1,0 +1,14 @@
+{
+    "version": "0.3.0.73",
+    "description": "Alternate Data Stream Manager (ADS Manager) is a simple utility for accessing and modifying NTFS \"alternate data streams\" within any given file or folder.",
+    "homepage": "https://dmitrybrant.com/adsmanager",
+    "license": "Freeware",
+    "url": "https://dmitrybrant.com/files/adsmanager.zip",
+    "hash": "145a1b5ae91a8d215e3bf4eb5c36e1f42c942e0b98b11f95c3ca6399878dac94",
+    "shortcuts": [
+        [
+            "ADSManager.exe",
+            "Alternate Data Stream Manager"
+        ]
+    ]
+}
