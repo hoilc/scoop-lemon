@@ -1,0 +1,30 @@
+{
+    "version": "2.4.4",
+    "description": "A free and fully featured chat app for XMPP.",
+    "homepage": "https://gajim.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://gajim.org/downloads/2.4/Gajim-Portable-2.4.4-64bit.exe#/dl.7z",
+            "hash": "c3bcb41f673d65d24bd20e58b7458d9e2ba738cae4b4ee2708e79eab2cf18ad6"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\Gajim.exe",
+            "Gajim"
+        ]
+    ],
+    "persist": "UserData",
+    "checkver": {
+        "url": "https://gajim.org/current-version.json",
+        "jsonpath": "$.current_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gajim.org/downloads/$majorVersion.$minorVersion/Gajim-Portable-$version-64bit.exe#/dl.7z"
+            }
+        }
+    }
+}
