@@ -1,0 +1,21 @@
+{
+    "version": "1.10.1",
+    "description": "配置简单、容易上手的开源 Class 混淆工具",
+    "homepage": "https://github.com/4ra1n/class-obf",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/4ra1n/class-obf/releases/download/1.10.1/class-obf-1.10.1.jar#/class-obf.jar",
+    "hash": "0b4eace373b619ee413a90f0de3428ab788f8769ab3dd808e287868aacbe5390",
+    "bin": "class-obf.jar",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/4ra1n/class-obf/releases/download/$version/class-obf-$version.jar#/class-obf.jar"
+    }
+}
