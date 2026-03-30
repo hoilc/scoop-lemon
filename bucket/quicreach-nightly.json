@@ -1,23 +1,23 @@
 {
-    "version": "b914",
+    "version": "b918",
     "description": "(Nightly Build) A 'ping' equivalent tool for QUIC.",
     "homepage": "https://github.com/microsoft/quicreach",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23552606437/bin-windows-x64-quictls-static.zip",
+            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23754270191/bin-windows-x64-quictls-static.zip",
             "extract_dir": "x64fre",
-            "hash": "8a129b7afdd226b63589141ea945c95ae7af13de2ba07175e1084d16f4382641"
+            "hash": "af083696336193c087a0cb0fabdf13ac3b13ff6c2b79234aca2f77139233eda4"
         },
         "32bit": {
-            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23552606437/bin-windows-x86-quictls-static.zip",
+            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23754270191/bin-windows-x86-quictls-static.zip",
             "extract_dir": "x86fre",
-            "hash": "69d6f3130016dd211ec8e8914f0c4b1ada0e1841d25f6fee6cd81f64fff307fa"
+            "hash": "043af051050a467f314849df7fcff5efa833e9cb833e5b5c59be5aec9ac2764c"
         },
         "arm64": {
-            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23552606437/bin-windows-arm64-quictls-static.zip",
+            "url": "https://nightly.link/microsoft/quicreach/actions/runs/23754270191/bin-windows-arm64-quictls-static.zip",
             "extract_dir": "arm64fre",
-            "hash": "0be108f28535ec003920f46da05279949196abf975874ece9caa407903ea38c7"
+            "hash": "c47d7b85517a9304471170917632063ebff361e2c6338bf15a01a78e42d10f8c"
         }
     },
     "bin": "quicreach.exe",
