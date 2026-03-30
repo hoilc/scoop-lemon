@@ -1,21 +1,18 @@
 {
-    "version": "0.2.0",
+    "version": "2.0.0-RC3",
     "description": "简单易用的 JAR/CLASS 字节码混淆工具",
     "homepage": "https://github.com/jar-analyzer/jar-obfuscator",
     "license": "MIT",
-    "url": "https://github.com/jar-analyzer/jar-obfuscator/releases/download/0.2.0/jar-obfuscator-0.2.0.jar#/jar-obfuscator.jar",
-    "hash": "f7b7c299dd8304a31a363e06573b7e3c6d87f1324534e78cd967214098bfe35c",
+    "url": "https://github.com/jar-analyzer/jar-obfuscator/releases/download/2.0.0-RC3/jar-obfuscator-2.0.0-RC3.jar#/jar-obfuscator.jar",
+    "hash": "6352a02be1e21ab5c95425843bd5f37139918da3e4a34393dbad74f17cc521df",
     "bin": "jar-obfuscator.jar",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
             "java/openjdk",
             "java/temurin-jdk",
+            "java/oraclejdk",
             "java/zulu-jdk"
         ]
     },
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/jar-analyzer/jar-obfuscator/releases/download/$version/jar-obfuscator-$version.jar#/jar-obfuscator.jar"
-    }
+    "notes": "Project on hiatus due to author's limited capacity."
 }
