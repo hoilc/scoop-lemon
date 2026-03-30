@@ -23,8 +23,8 @@
         "Settings are stored in '%APPDATA%\\PikPak', and can be purged using 'scoop uninstall --purge pikpak'."
     ],
     "checkver": {
-        "script": "try { & $dir\\..\\bin\\Get-DumplingsVersion.ps1 -Verbose -PreferRealVersion -AppName 'PIKCLOUD.PikPak' } catch { \"\" }",
-        "regex": "^([\\d.]+)"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/pikpak/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
