@@ -7,12 +7,10 @@
     "hash": "4a2a205af71cfb5b240add263f02ebc02d960c7d517dd8d40eb48dde2a6d5668",
     "extract_dir": "sing-geoip-6611af30ec3490a97b2a22a6b3b6623365f640e0",
     "checkver": {
-        "script": [
-            "$branch = Invoke-RestMethod 'https://api.github.com/repos/SagerNet/sing-geoip/branches/rule-set'",
-            "return ([DateTime][String]$branch.commit.commit.committer.date).ToUniversalTime().ToString(\"yyyyMMdd\") + ' ' + $branch.commit.sha"
-        ],
-        "regex": "(?<date>\\d+) (?<full>(?<short>[a-f0-9]{7})[a-f0-9]+)",
-        "replace": "${date}-${short}"
+        "url": "https://api.github.com/repos/SagerNet/sing-geoip/branches/rule-set",
+        "jsonpath": "$..['sha','date']",
+        "regex": "\"(?<full>(?<short>[a-f0-9]{7})[a-f0-9]{33})\"\\s*,\\s*\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T",
+        "replace": "${year}${month}${day}-${short}"
     },
     "autoupdate": {
         "url": "https://github.com/SagerNet/sing-geoip/archive/$matchFull.zip",
