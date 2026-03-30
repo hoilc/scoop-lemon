@@ -25,8 +25,8 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "url": "https://github.com/imsyy/SPlayer/releases.atom",
-        "regex": "Repository/\\d+/v(.+?)<"
+        "url": "https://github.com/imsyy/SPlayer/releases/latest",
+        "regex": "/SPlayer/tree/v([^/]+?)\""
     },
     "autoupdate": {
         "architecture": {
