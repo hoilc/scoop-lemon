@@ -1,0 +1,31 @@
+{
+    "version": "2.5.1",
+    "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+    "homepage": "https://github.com/louis-e/arnis",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/louis-e/arnis/releases/download/v2.5.1/arnis-windows.exe#/arnis.exe",
+            "hash": "81749f0385baaeb46cc78311e6a54ecaabc4d2c87fe5718983b5790acfa515ab"
+        }
+    },
+    "shortcuts": [
+        [
+            "arnis.exe",
+            "Arnis"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.louisdev.arnis\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Arnis is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\com.louisdev.arnis', and can be purged using 'scoop uninstall --purge arnis'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/louis-e/arnis/releases/download/v$version/arnis-windows.exe#/arnis.exe"
+            }
+        }
+    }
+}
