@@ -1,5 +1,5 @@
 {
-    "version": "20220511",
+    "version": "2.0.14",
     "description": "Slim PDF Reader helps you open and view PDF documents, add comments and other annotations, fill out interactive forms, validate digital signatures.",
     "homepage": "https://www.investintech.com/resources/freetools/slimpdfreader/",
     "license": "Freeware",
@@ -13,11 +13,8 @@
         ]
     ],
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://cdn.investintech.com/download/InstallSlimPDFReader.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\")"
-        ],
-        "regex": "(\\d+)"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/slimpdfreader/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "url": "https://cdn.investintech.com/download/InstallSlimPDFReader.exe"
