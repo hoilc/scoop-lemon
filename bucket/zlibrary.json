@@ -1,13 +1,13 @@
 {
-    "version": "20250618",
+    "version": "3.1.0",
     "description": "The Z-Library launcher for desktop.",
     "homepage": "https://1lib.sk",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe#/dl.7z",
+            "url": "https://s3proxy-alp.cdn-zlib.sk/swfs_second_public_files/soft/desktop/Z-Library-portable-latest.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "c868df96fceae4d7c5aa992a186d81ba4682b2a6dab64eb22354777dcc221cbc"
+            "hash": "bc029c3e3d9989aa31964f2c18fb767e75c299f286e7451b0429abf2e12f25f7"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
@@ -20,16 +20,13 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe' -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
-        ],
-        "regex": "(\\d{8})"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/zlibrary/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe#/dl.7z"
+                "url": "https://s3proxy-alp.cdn-zlib.sk/swfs_second_public_files/soft/desktop/Z-Library-portable-latest.exe#/dl.7z"
             }
         }
     }
