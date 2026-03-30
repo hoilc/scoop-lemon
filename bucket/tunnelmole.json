@@ -1,5 +1,5 @@
 {
-    "version": "f9b96ab",
+    "version": "2.4.0",
     "description": "A simple tool to give your locally running HTTP(s) servers a public URL.",
     "homepage": "https://tunnelmole.com",
     "license": "MIT",
@@ -11,11 +11,8 @@
     },
     "bin": "tmole.exe",
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://tunnelmole.com/downloads/tmole.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "return [String]$detail.Headers.etag"
-        ],
-        "regex": "([\\w\\d]{7})"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/tunnelmole/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
