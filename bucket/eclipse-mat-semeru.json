@@ -1,5 +1,5 @@
 {
-    "version": "20260209",
+    "version": "1.1.2.202602091728",
     "description": "Eclipse Memory Analyzer Tool to read dumps produced by IBM Semeru Runtimes Java.",
     "homepage": "https://www.ibm.com/support/pages/eclipse-memory-analyzer-tool-dtfj-and-ibm-extensions",
     "license": "EPL-2.0",
