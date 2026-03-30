@@ -1,0 +1,21 @@
+{
+    "version": "1.11.109.1013",
+    "description": "A tool for low-level analysis of file systems.",
+    "homepage": "https://dmitrybrant.com/2018/06/26/filesystemanalyzer-a-tool-that-does-what-it-says",
+    "license": "Freeware",
+    "url": "https://dmitrybrant.com/files/FileSystemAnalyzer.zip",
+    "hash": "0e07f41b5b3cde98f823b08e65306af0fdbea1646dd9de66e0289f0dd49228de",
+    "shortcuts": [
+        [
+            "FileSystemAnalyzer.exe",
+            "FileSystemAnalyzer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/filesystemanalyzer/state.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "url": "https://dmitrybrant.com/files/FileSystemAnalyzer.zip"
+    }
+}
