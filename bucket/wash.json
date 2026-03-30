@@ -1,23 +1,23 @@
 {
-    "version": "0.43.0",
-    "description": "WAsmcloud SHell - a comprehensive command-line tool for wasmCloud development.",
+    "version": "2.0.1",
+    "description": "Wasm Shell (wash) is the comprehensive command-line tool for developing, building, and managing WebAssembly components.",
     "homepage": "https://wasmcloud.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/wash-v0.43.0/wash-x86_64-pc-windows-msvc.exe#/wash.exe",
-            "hash": "765be4d0ffc2a33ae21243d7a8aad88bfb77ec63fe41afbb9c102240887bfcdf"
+            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v2.0.1/wash-x86_64-pc-windows-msvc#/wash.exe",
+            "hash": "6920228e67615eee128804a31a5f573c964486c2ae85c34fe4e86c150a0d3fb6"
         }
     },
     "bin": "wash.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/wasmCloud/homebrew-wasmcloud/refs/heads/main/Formula/wash.rb",
-        "regex": "version \"([\\d.]+)\""
+        "url": "https://github.com/wasmCloud/wasmCloud/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wasmCloud/wasmCloud/releases/download/wash-v$version/wash-x86_64-pc-windows-msvc.exe#/wash.exe"
+                "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v$version/wash-x86_64-pc-windows-msvc#/wash.exe"
             }
         }
     }
