@@ -1,12 +1,12 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "A command-line utility for managing KubeVirt Virtual Machine resources.",
     "homepage": "https://kubevirt.io/user-guide/operations/virtctl_client_tool/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubevirt/kubevirt/releases/download/v1.8.0/virtctl-v1.8.0-windows-amd64.exe#/virtctl.exe",
-            "hash": "b94ca878fdb08351e750a84ad5dcb5a0a0a0207771f5ebbbc1b8b88ce97f2415"
+            "url": "https://github.com/kubevirt/kubevirt/releases/download/v1.8.1/virtctl-v1.8.1-windows-amd64.exe#/virtctl.exe",
+            "hash": "7f98cd6b46264bed2cf4a6e7290147c2f17eaca55f077caf5ce85d53266d78f6"
         }
     },
     "bin": "virtctl.exe",
