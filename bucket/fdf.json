@@ -1,5 +1,5 @@
 {
-    "version": "20250213",
+    "version": "1.0.0",
     "description": "A command line utility to search for duplicate files and optionally delete or hard link them to save disk space.",
     "homepage": "http://www.ltr-data.se/opencode.html#fdf",
     "license": {
@@ -22,11 +22,8 @@
     },
     "bin": "fdf.exe",
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'http://static.ltr-data.se/files/win64/fdf64.zip' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
-        ],
-        "regex": "(\\d{8})"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/fdf/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
