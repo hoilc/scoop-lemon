@@ -14,7 +14,7 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Magnifixer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\Magnifixer.ini\" -Value $null }",
     "persist": "Magnifixer.ini",
     "checkver": {
-        "regex": "version ([\\d.]+)"
+        "regex": "\"softwareVersion\":\\s+\"([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://www.blacksunsoftware.com/downloads/MagnifixerPortable.zip"
