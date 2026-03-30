@@ -17,9 +17,8 @@
     ],
     "notes": "A Spotify Premium account is required.",
     "checkver": {
-        "url": "https://api.github.com/repositories/267374872/releases/tags/rolling",
-        "jsonpath": "$.name",
-        "regex": "\\AContinuous release \\(([^)]+)\\)\\Z"
+        "url": "https://github.com/jpochyla/psst/releases.atom",
+        "regex": "Continuous release\\s+\\((.+?)\\)"
     },
     "autoupdate": {
         "architecture": {
