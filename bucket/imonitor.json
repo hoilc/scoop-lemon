@@ -1,7 +1,7 @@
 {
-    "version": "20260327",
+    "version": "2.5.3",
     "description": "iMonitor (冰镜) is a endpoint behavior monitoring and analysis software based on iMonitorSDK.",
-    "homepage": "https://imonitorsdk.com/imonitor",
+    "homepage": "https://trustsing.com/imonitor/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
@@ -22,12 +22,7 @@
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
     "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest -Method HEAD 'https://trustsing.com/publish/iMonitor64.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "Write-Host ([DateTime][String]$detail.Headers.'Last-Modified')",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().AddHours(8).ToString(\"yyyyMMdd\") }"
-        ],
-        "regex": "(\\d{8})"
+        "regex": "(?sm)更新说明.*?href=\"#[^\"]+\"><span>([\\d.]+)</span>"
     },
     "autoupdate": {
         "architecture": {
