@@ -1,0 +1,21 @@
+{
+    "version": "1.2.0",
+    "description": "Java 字节码分析引擎命令行工具，将 JAR 文件解析 SQLite 数据库，用于安全审计代码分析（AI 友好）",
+    "homepage": "https://github.com/jar-analyzer/jar-analyzer-engine",
+    "license": "MIT",
+    "url": "https://github.com/jar-analyzer/jar-analyzer-engine/releases/download/1.2.0/jar-analyzer-engine-1.2.0.jar#/jar-analyzer-engine.jar",
+    "hash": "f128bf050df1ede9fdcfba828da725fb54053f41da17febae2f96e8aff7ba690",
+    "bin": "jar-analyzer-engine.jar",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jar-analyzer/jar-analyzer-engine/releases/download/$version/jar-analyzer-engine-$version.jar#/jar-analyzer-engine.jar"
+    }
+}
