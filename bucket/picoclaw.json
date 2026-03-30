@@ -1,0 +1,43 @@
+{
+    "version": "0.2.4",
+    "description": "An ultra-lightweight personal AI assistant inspired by NanoBot.",
+    "homepage": "https://picoclaw.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sipeed/picoclaw/releases/download/v0.2.4/picoclaw_Windows_x86_64.zip",
+            "hash": "fd4e457f168fa7fca0ab86fcca3c9bff81b60f139269d90593ed814bd9d0e29c"
+        },
+        "arm64": {
+            "url": "https://github.com/sipeed/picoclaw/releases/download/v0.2.4/picoclaw_Windows_arm64.zip",
+            "hash": "1c58874d16f0d1ab92939bcb5e3d339abfb7f795e06c2ba28acc3c885c101cf3"
+        }
+    },
+    "bin": [
+        "picoclaw.exe",
+        "picoclaw-launcher.exe",
+        "picoclaw-launcher-tui.exe"
+    ],
+    "shortcuts": [
+        [
+            "picoclaw-launcher.exe",
+            "PicoClaw Launcher"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sipeed/picoclaw"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sipeed/picoclaw/releases/download/v$version/picoclaw_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/sipeed/picoclaw/releases/download/v$version/picoclaw_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/picoclaw_$version_checksums.txt"
+        }
+    }
+}
