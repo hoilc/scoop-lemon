@@ -11,7 +11,7 @@
     },
     "bin": "tosutil.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/hoilc/winget-pkg-versions/main/manifests/b/ByteDance.tosutil.json",
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/tosutil/state.json",
         "jsonpath": "$.version"
     },
     "autoupdate": {
