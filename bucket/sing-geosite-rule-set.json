@@ -7,12 +7,10 @@
     "hash": "ce570632b5ea70363e605e029f2c0ca5b3fda1d4c85fcfdc595cff203d07209c",
     "extract_dir": "sing-geosite-d98a1e460c368f5fd7a3000e01fde2b6d62e1120",
     "checkver": {
-        "script": [
-            "$branch = Invoke-RestMethod 'https://api.github.com/repos/SagerNet/sing-geosite/branches/rule-set'",
-            "return ([DateTime][String]$branch.commit.commit.committer.date).ToUniversalTime().ToString(\"yyyyMMdd\") + ' ' + $branch.commit.sha"
-        ],
-        "regex": "(?<date>\\d+) (?<full>(?<short>[a-f0-9]{7})[a-f0-9]+)",
-        "replace": "${date}-${short}"
+        "url": "https://api.github.com/repos/SagerNet/sing-geosite/branches/rule-set",
+        "jsonpath": "$..['sha','date']",
+        "regex": "\"(?<full>(?<short>[a-f0-9]{7})[a-f0-9]{33})\"\\s*,\\s*\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T",
+        "replace": "${year}${month}${day}-${short}"
     },
     "autoupdate": {
         "url": "https://github.com/SagerNet/sing-geosite/archive/$matchFull.zip",
