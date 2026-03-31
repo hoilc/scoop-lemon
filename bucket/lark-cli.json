@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents.",
     "homepage": "https://github.com/larksuite/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/larksuite/cli/releases/download/v1.0.0/lark-cli-1.0.0-windows-amd64.zip",
-            "hash": "194922c68bbe7c9f9b921d415d34351c975e7489360b835b9b8e10c293c19a67"
+            "url": "https://github.com/larksuite/cli/releases/download/v1.0.1/lark-cli-1.0.1-windows-amd64.zip",
+            "hash": "30692912a64b7ba71b720f0496e06082fe1fbd2630b2d88c5581332b541aa3dc"
         },
         "arm64": {
-            "url": "https://github.com/larksuite/cli/releases/download/v1.0.0/lark-cli-1.0.0-windows-arm64.zip",
-            "hash": "4985ed78d8132aca26c11dc8454188e86ad7bdbcf986f8b92ec5efee8dc29e50"
+            "url": "https://github.com/larksuite/cli/releases/download/v1.0.1/lark-cli-1.0.1-windows-arm64.zip",
+            "hash": "0cbd2fb17bc526cc3d49f827cfc6954595d8f91103052ece2157ccd85360857e"
         }
     },
     "bin": "lark-cli.exe",
