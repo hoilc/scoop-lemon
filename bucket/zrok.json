@@ -9,7 +9,7 @@
             "hash": "db11e78343511289a9f5ebfe7ab73f15574bf603a987d0c3a4430139bbe3ccb1"
         }
     },
-    "bin": "zrok.exe",
+    "bin": "zrok2.exe",
     "checkver": {
         "github": "https://github.com/openziti/zrok"
     },
