@@ -1,10 +1,10 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "An Electron-based video player for DUGA.jp.",
     "homepage": "https://duga.jp/player/",
     "license": "Shareware",
-    "url": "https://duga.jp/script/dugaplayer-electron/DugaPlayer-1.5.0.msi",
-    "hash": "b18eea143e912d0641efa0b879f369dbff3455d677b2fecc49e5eb2e2c775481",
+    "url": "https://duga.jp/script/dugaplayer-electron/DugaPlayer-1.5.1.msi",
+    "hash": "5e2fa9bbf286837ab46fcde83614549a95f68fcfc595ec732ef05df60d2f3b74",
     "extract_dir": "DUGA Player",
     "shortcuts": [
         [
