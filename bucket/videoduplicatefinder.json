@@ -1,5 +1,5 @@
 {
-    "version": "3.0.336",
+    "version": "3.0.337",
     "description": "A cross-platform software to find duplicated video (and image) files on hard disk based on similiarity.",
     "homepage": "https://github.com/0x90d/videoduplicatefinder",
     "license": "GPL-3.0-only",
