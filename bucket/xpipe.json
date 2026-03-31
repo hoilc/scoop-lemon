@@ -1,13 +1,13 @@
 {
-    "version": "22.2",
+    "version": "22.3",
     "description": "A new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine.",
     "homepage": "https://xpipe.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xpipe-io/xpipe/releases/download/22.2/xpipe-portable-windows-x86_64.zip",
-            "extract_dir": "xpipe-22.2",
-            "hash": "b10967c812e5072b36d8dd58483c3851d5be9078440ed15b1331dddb102a7bea"
+            "url": "https://github.com/xpipe-io/xpipe/releases/download/22.3/xpipe-portable-windows-x86_64.zip",
+            "extract_dir": "xpipe-22.3",
+            "hash": "7387178c5a14ee43496f3dabbe02fc48f6136e644f1e60ee36ba51a993bd15f5"
         }
     },
     "bin": "bin\\xpipe.exe",
