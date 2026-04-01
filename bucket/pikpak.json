@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "22458c0bb68bbf12777cf2001ac282ba0fdfb1fc4982bd8a321941dfdcc512cc"
+            "hash": "03a1b820e855e955fe9ce50d563b5117a70df444a573124b43ebd8137c64087e"
         }
     },
     "shortcuts": [
