@@ -1,16 +1,16 @@
 {
-    "version": "1.1.19",
+    "version": "1.1.20",
     "description": "The command line utility for SeaORM.",
     "homepage": "https://www.sea-ql.org/SeaORM/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.19/sea-orm-cli-1.1.19-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "e30873c08347987e8012e63f4f0f85f0b33fa88ecca6eb8fa45817a2f4413752"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.20/sea-orm-cli-1.1.20-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "b587b0595243cb8e01806f269183394d15a47c29d823da7a7c6253f2c90d4962"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.19/sea-orm-cli-1.1.19-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "fd8760c986d7d5e6aab67432f6ad83195c79eb46ebd2df87522d8704e92ef68e"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/sea-orm-cli-1.1.20/sea-orm-cli-1.1.20-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "fac5d332653156e2e5d8b60086e32c36488f357b5f0c4b4c4f3161149a1ef02d"
         }
     },
     "bin": "sea-orm-cli.exe",
