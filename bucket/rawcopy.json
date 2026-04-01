@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "http://static.ltr-data.se/files/win64/rawcopy64.zip",
-            "hash": "6100fe5f76d2926971c56dbf6b27a6cc5f6ec2dd8e0da49eed65265a0a6aa111"
+            "hash": "a26c2cbaa1b88b003c8418847a7fa25fb7e8cc71e614bc076931801ee3a91a70"
         },
         "32bit": {
             "url": "http://static.ltr-data.se/files/rawcopy.zip",
-            "hash": "77e9a86c20216e4cb698b353a080ba3261842717588e7aefdef2ee19538dda61"
+            "hash": "0e4223b96fbfbf2d4a641c810c6b2606fb967ba45087dd7d5db59757125a0ab8"
         },
         "arm64": {
             "url": "http://static.ltr-data.se/files/winarm64/rawcopy.zip",
-            "hash": "964de7b1b971d3128404e08380224ad0166020af9ce53a2e647f093c3802095a"
+            "hash": "0c881345489e4073a504b5325fd3d821a743c12fa195634dd928ecd82af2a36c"
         }
     },
     "bin": "rawcopy.exe",
