@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Skardyy/mcat/releases/download/v0.5.1/mcat-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "mcat-x86_64-pc-windows-msvc",
             "hash": "721925cb60e1cbeb0dca74f1baf5d7a14236ebb347f16073515f0bc37c519a10"
         }
     },
