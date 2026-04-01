@@ -1,12 +1,12 @@
 {
-    "version": "0.21.0",
+    "version": "0.22.0",
     "description": "A command-line tool for generating lua documentation.",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.21.0/emmylua_doc_cli-win32-x64.zip",
-            "hash": "d9c030b4b7b4f26dd360f8e369206035cf09ab21de77e9102bef694ffb235e3b"
+            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.22.0/emmylua_doc_cli-win32-x64.zip",
+            "hash": "5b1f87724f2435c81ac77eecd1b107d69e5065f1fe71df0121c7bd65ca90e4c1"
         }
     },
     "bin": "emmylua_doc_cli.exe",
