@@ -1,12 +1,12 @@
 {
-    "version": "12.5.0-beta.0",
+    "version": "12.5.0",
     "description": "A CLI for Insomnia, allows you to use Insomnia application functionality in your terminal",
     "homepage": "https://docs.insomnia.rest/inso-cli/introduction",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kong/insomnia/releases/download/core@12.5.0-beta.0/inso-windows-12.5.0-beta.0.zip",
-            "hash": "9ef041388ed385371c03ca129fe7bff89cbfd0b6f7c05ec825b7b8c003a91e78"
+            "url": "https://github.com/Kong/insomnia/releases/download/core@12.5.0/inso-windows-12.5.0.zip",
+            "hash": "f9399377692c4ca694b7e5d94941bae250b76ff51cb085d5d1d4e39ba7a87d83"
         }
     },
     "bin": "inso.exe",
