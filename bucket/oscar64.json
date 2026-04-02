@@ -1,12 +1,12 @@
 {
-    "version": "1.32.269",
+    "version": "1.32.270",
     "description": "A C/C++ cross compiler running on a modern system and targets the classic 6502 family of processors.",
     "homepage": "https://github.com/drmortalwombat/oscar64",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drmortalwombat/oscar64/releases/download/v1.32.269/oscar64.zip",
-            "hash": "dfa96de175344ee188a69fe02c0d924c9557cded79671cc7b5680416b9be868c"
+            "url": "https://github.com/drmortalwombat/oscar64/releases/download/v1.32.270/oscar64.zip",
+            "hash": "16aa8ffe4286c25a970dd38b278609c8412bbf58a17f10541519ac72ab76778a"
         }
     },
     "extract_dir": "oscar64",
