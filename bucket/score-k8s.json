@@ -1,12 +1,12 @@
 {
-    "version": "0.10.3",
+    "version": "0.10.4",
     "description": "A reference implementation of the Score specification for Kubernetes, converts Score files into a YAML file containing Kubernetes manifests",
     "homepage": "https://github.com/score-spec/score-k8s",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/score-spec/score-k8s/releases/download/0.10.3/score-k8s_0.10.3_windows_amd64.zip",
-            "hash": "92e93d63ee25c49dc336c12f99d11f672de2d5f20875e637bae197f5180a3e76"
+            "url": "https://github.com/score-spec/score-k8s/releases/download/0.10.4/score-k8s_0.10.4_windows_amd64.zip",
+            "hash": "8c94018be6faab977c686fee69a186df930c451ed73b2b5b11153c170cd5696d"
         }
     },
     "bin": "score-k8s.exe",
