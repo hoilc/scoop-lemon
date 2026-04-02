@@ -1,12 +1,12 @@
 {
-    "version": "1.0",
+    "version": "1.1",
     "description": "A tool that can automatically optimize glTF files to reduce the download size and improve loading and rendering speed.",
     "homepage": "https://meshoptimizer.org/gltf/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zeux/meshoptimizer/releases/download/v1.0/gltfpack-windows.zip",
-            "hash": "d05f1d747b716618bdcc32fb13377622008ca5c2de2c793caf9636bf0fd53e43"
+            "url": "https://github.com/zeux/meshoptimizer/releases/download/v1.1/gltfpack-windows.zip",
+            "hash": "13e1b00299f9796613adddc6eb21d47b466333ba4d79658f2f98079f2f30fc56"
         }
     },
     "bin": "gltfpack.exe",
