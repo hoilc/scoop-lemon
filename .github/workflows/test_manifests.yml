@@ -43,7 +43,7 @@ jobs:
         modules-to-cache: Pester:4.10.1, PSScriptAnalyzer, BuildHelpers
         shell: powershell
     - name: Cache Helpers
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: scoop_global
         key: ${{ runner.os }}-scoop-global-helpers
