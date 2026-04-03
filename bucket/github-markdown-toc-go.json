@@ -1,16 +1,16 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Easy TOC creation for GitHub README.md, written in Go.",
     "homepage": "https://github.com/ekalinin/github-markdown-toc.go",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ekalinin/github-markdown-toc.go/releases/download/v2.0.0/gh-md-toc_2.0.0_windows_amd64.tar.gz",
-            "hash": "d06b047b3314c875034f8e29f07a1c8498e3bfaab3b01cbfa06f7d37e013d222"
+            "url": "https://github.com/ekalinin/github-markdown-toc.go/releases/download/v2.0.1/gh-md-toc_2.0.1_windows_amd64.tar.gz",
+            "hash": "047891943be98750dd94d3392f4ae82412fe2e815221d9d16878a0118b49d150"
         },
         "arm64": {
-            "url": "https://github.com/ekalinin/github-markdown-toc.go/releases/download/v2.0.0/gh-md-toc_2.0.0_windows_arm64.tar.gz",
-            "hash": "22d045c736b3fedc90e42467c92dbb43bef3d8a625f05587070f6ca0b2d4f1d1"
+            "url": "https://github.com/ekalinin/github-markdown-toc.go/releases/download/v2.0.1/gh-md-toc_2.0.1_windows_arm64.tar.gz",
+            "hash": "9ea019a23c6a1acc414626633ed0db4ca929a8fab37f7d5f27908c5a29064896"
         }
     },
     "bin": "gh-md-toc.exe",
