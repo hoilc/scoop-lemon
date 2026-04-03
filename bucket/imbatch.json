@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest.exe",
-            "hash": "ca25abba323025727cf5c629e464df602af92eadb4ee65caaeb6e741a1f50b87"
+            "hash": "1be5ab39325bab32b7baba7757d31c1d0d70c15a9d46f53cceba83d3b3a7bc3d"
         },
         "32bit": {
             "url": "https://www.highmotionsoftware.com/download/ImBatch/file/setup-imbatch-latest-x32.exe",
-            "hash": "83d11b7b9fd02aae1951931522d4b344f371d65b3f7830d523e9a2b3e8033274"
+            "hash": "5d5c18e7c9fe58dcafe1ddeac35d15a315837502fea612c13ef969553a016389"
         }
     },
     "innosetup": true,
