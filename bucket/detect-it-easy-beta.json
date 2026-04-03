@@ -1,16 +1,16 @@
 {
-    "version": "3.20-20260402",
+    "version": "3.20-20260403",
     "description": "(BETA Version) Detect It Easy (DiE) is a powerful tool for file type identification.",
     "homepage": "https://github.com/horsicq/Detect-It-Easy",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_portable_3.20_x64.zip",
-            "hash": "4c25f92f68047737ab3a363d43b7e9f18e650cf60852a70e586c4e04f17d166d"
+            "hash": "3d8249725fdc5bd1aaab1bb43a27fbc57a8e8085d4b611fffcf8ce342dbd6e60"
         },
         "32bit": {
             "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_portable_3.20_x86.zip",
-            "hash": "f54a384701bb41f1db598d47114b13776c1f2822441755e30e5e7ebad1fa0774"
+            "hash": "1aa28eaa03df18a66a752cf1d2f4aa062eb2868344d870458938f5f7ffdcf508"
         }
     },
     "bin": "diec.exe",
