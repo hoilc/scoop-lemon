@@ -1,12 +1,12 @@
 {
-    "version": "2.4.0",
+    "version": "2.4.1",
     "description": "A powerful editor targeted towards programmers and webdevelopers.",
     "homepage": "https://bluefish.openoffice.nl/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.bennewitz.com/bluefish/stable/binaries/windows_x64/Bluefish%202.4.0%20Setup.exe#/dl.7z",
-            "hash": "df3e1f8f6b0bf951c150bb66fecc6a0c1b5b7068368fcaf1aa39aa544d0ba2c0"
+            "url": "https://www.bennewitz.com/bluefish/stable/binaries/windows_x64/Bluefish%202.4.1%20Setup.exe#/dl.7z",
+            "hash": "19fe446385a36f6f8a98f33f6b0bd5dfd0b4996ee035a868788ea2f2a4681cb2"
         }
     },
     "bin": "bluefish.exe",
