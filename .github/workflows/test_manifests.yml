@@ -11,6 +11,10 @@ on:
     paths:
     - 'bucket/**'
   workflow_dispatch:
+    inputs:
+      manifests:
+        description: 'Manifests to test (comma-separated, e.g. "foo,bar")'
+        required: true
 
 jobs:
   test_powershell5:
@@ -60,6 +64,7 @@ jobs:
         }
         exit $result
       env:
+        TEST_MANIFESTS: ${{ github.event.inputs.manifests }}
         GITHUB_PULL_REQUEST_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         GITHUB_PUSH_EVENT_BEFORE_SHA: ${{ github.event.before }}
         GITHUB_PUSH_EVENT_AFTER_SHA: ${{ github.event.after }}

@@ -131,7 +131,20 @@ Describe 'Changed manifests installation' {
     $INSTALL_FILES_EXCLUSIONS = ".*($INSTALL_FILES_EXCLUSIONS).*"
 
     New-Item 'INSTALL.log', 'ERROR.log' -Type File -Force
-    if ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
+    if ($env:TEST_MANIFESTS) {
+        Write-Host "[Manual] Testing specified manifests: $env:TEST_MANIFESTS"
+        $changedFiles = $env:TEST_MANIFESTS -split ',' | ForEach-Object {
+            $name = $_.Trim()
+            if ($name) {
+                $file = ".\bucket\$name.json"
+                if (Test-Path $file) {
+                    $file
+                } else {
+                    Write-Host "Manifest not found: $file" -ForegroundColor Yellow
+                }
+            }
+        }
+    } elseif ($env:GITHUB_PULL_REQUEST_BASE_SHA) {
         Write-Host "[PR] Get changed file from $env:GITHUB_PULL_REQUEST_BASE_SHA to recent"
         $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PULL_REQUEST_BASE_SHA -Include '*.json'
     } elseif ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -and $env:GITHUB_PUSH_EVENT_AFTER_SHA -and ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -ne "0000000000000000000000000000000000000000"))
