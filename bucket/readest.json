@@ -1,16 +1,16 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "An open-source ebook reader designed for immersive and deep reading experiences.",
     "homepage": "https://github.com/chrox/readest",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chrox/readest/releases/download/v0.10.1/Readest_0.10.1_x64-setup.exe#/dl.7z",
-            "hash": "610e3b94ca5e72012bcecd0f12feefd982396b4782a1fecb0e128f0bbc7ad9df"
+            "url": "https://github.com/chrox/readest/releases/download/v0.10.2/Readest_0.10.2_x64-setup.exe#/dl.7z",
+            "hash": "4109285115e8cd815791c24ef1e7457b2d6e0d9671a987ea8c15f6b1aef6f1d3"
         },
         "arm64": {
-            "url": "https://github.com/chrox/readest/releases/download/v0.10.1/Readest_0.10.1_arm64-setup.exe#/dl.7z",
-            "hash": "9f603f730f272fae1595b9bf46f3b309e93cc4b0715b80e5400c8eacf69c5e66"
+            "url": "https://github.com/chrox/readest/releases/download/v0.10.2/Readest_0.10.2_arm64-setup.exe#/dl.7z",
+            "hash": "b4e8b2aaa861ae85cf3f6fd3567e3ab98c2f8335519b435d458a84bada480575"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
