@@ -1,12 +1,12 @@
 {
-    "version": "0.15.0",
+    "version": "0.16.0",
     "description": "Easy and simple Prometheus SLO generator.",
     "homepage": "https://sloth.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/slok/sloth/releases/download/v0.15.0/sloth-windows-amd64.exe#/sloth.exe",
-            "hash": "a7f824561da46fc345ddef1c0ef6e9f9be55868c2b587eca0aade35355b2cb26"
+            "url": "https://github.com/slok/sloth/releases/download/v0.16.0/sloth-windows-amd64.exe#/sloth.exe",
+            "hash": "49f5fa5b8fce11814f5e81ab6a142c634963a15740a78b8451c9fb5969d93e30"
         }
     },
     "bin": "sloth.exe",
