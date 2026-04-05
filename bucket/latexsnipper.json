@@ -1,12 +1,12 @@
 {
-    "version": "2.2.1",
+    "version": "2.3",
     "description": "A powerful LaTeX formula recognition tool powered by pix2text. Features real-time MathJax preview, multi-format export (LaTeX, Markdown, MathML, HTML, OMML, SVG), and one-click copy to Word/Office. Offline-first, privacy-focused portable executable.",
     "homepage": "https://github.com/SakuraMathcraft/LaTeXSnipper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v2.2.1/LaTeXSnipper_setup_v2.2.1.exe",
-            "hash": "291e1d16a8a805020fab31f67119fe53b567e4f53a34b27770ad7334f5fda153"
+            "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v2.3/LaTeXSnipper_setup_v2.3.exe",
+            "hash": "0aa588c99935bccc7588191b79785edec6855ca34008342b1491dc9fd4e3dffb"
         }
     },
     "innosetup": true,
