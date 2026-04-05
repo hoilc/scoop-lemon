@@ -1,12 +1,12 @@
 {
-    "version": "b554-9369ab7",
+    "version": "b555-7397dda",
     "description": "(CPU-AVX512 Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-554-9369ab7/sd-master-9369ab7-bin-win-avx512-x64.zip",
-            "hash": "9f8c2a1d7773a4ddc59f8e3e155dc8bf92b02539c5e98b108e090a88b7ab1acb"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-555-7397dda/sd-master-7397dda-bin-win-avx512-x64.zip",
+            "hash": "baba908effd2b7c65c8087fcc0ad75029c10c4963a904bed7b5a4a4c14528f28"
         }
     },
     "bin": [
