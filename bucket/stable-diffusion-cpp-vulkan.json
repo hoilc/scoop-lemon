@@ -1,12 +1,12 @@
 {
-    "version": "b554-9369ab7",
+    "version": "b555-7397dda",
     "description": "(Vulkan Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-554-9369ab7/sd-master-9369ab7-bin-win-vulkan-x64.zip",
-            "hash": "6393ef7bd1cb8152a55bec0d34ff46998beb7721dd523605f35cb74041af2a5a"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-555-7397dda/sd-master-7397dda-bin-win-vulkan-x64.zip",
+            "hash": "a920873d463b947dcc738d01c109027e629ade375d74e39b6288ae3abad3f7b1"
         }
     },
     "bin": [
