@@ -1,12 +1,12 @@
 {
-    "version": "0.1.12",
+    "version": "0.1.13",
     "description": "An offline-first photo manager for large local libraries.",
     "homepage": "https://github.com/julyx10/lap",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/julyx10/lap/releases/download/v0.1.12/Lap_0.1.12_x64_en-US.msi",
-            "hash": "2c824420cadbb4ffe11661e71a28dd1b3dc96269bf96be6c52bcb3dd38035e2a"
+            "url": "https://github.com/julyx10/lap/releases/download/v0.1.13/Lap_0.1.13_x64_en-US.msi",
+            "hash": "7006ecd7cf571a02b98e0b979c1745e1af0bf6be6493a46f929cccbb7a6809dd"
         }
     },
     "extract_dir": "PFiles\\Lap",
