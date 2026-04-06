@@ -1,12 +1,12 @@
 {
-    "version": "1.5.13",
+    "version": "1.5.14",
     "description": "A CLI tool that extracts data from a source storage/database and loads it in a target storage/database.",
     "homepage": "https://docs.slingdata.io/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/slingdata-io/sling-cli/releases/download/v1.5.13/sling_windows_amd64.tar.gz",
-            "hash": "4055b7bb8f1cd813130c59f3bebc8cc87bebb2249b51877aa2625c049d011f67"
+            "url": "https://github.com/slingdata-io/sling-cli/releases/download/v1.5.14/sling_windows_amd64.tar.gz",
+            "hash": "9a4f4c7f1eff2b1b89f9f595f172cc60bf34f65b8636eba3a530b37a4227ec62"
         }
     },
     "bin": "sling.exe",
