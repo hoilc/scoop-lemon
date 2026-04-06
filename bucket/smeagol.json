@@ -1,23 +1,23 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "A simple locally hosted wiki.",
     "homepage": "https://smeagol.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "smeagol-wiki-0.5.0-x86_64-pc-windows-msvc",
-            "hash": "faacff423f2f39b1eb856ccb3214c5f27920bdb049cbf4d2c6431a67fcc212b5"
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.1-x86_64-pc-windows-msvc",
+            "hash": "e95e33739cdaee022a00dac86c1629c2b6ee334c461e3f7592c64c6fdf2ff05b"
         },
         "32bit": {
-            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-i686-pc-windows-msvc.zip",
-            "extract_dir": "smeagol-wiki-0.5.0-i686-pc-windows-msvc",
-            "hash": "e2cbff6f64f4826b4fef3c5808884304f54a98d39022ca5454dd1eb454a8c40b"
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-i686-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.1-i686-pc-windows-msvc",
+            "hash": "a601e6b377c39e307a86b073d11ec8ff549eb5865eb58f82b428f643124fe919"
         },
         "arm64": {
-            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.0/smeagol-wiki-0.5.0-aarch64-pc-windows-msvc.zip",
-            "extract_dir": "smeagol-wiki-0.5.0-aarch64-pc-windows-msvc",
-            "hash": "5c272ff1a998127e4c821e197128f725e9bb7181ef2cc71a6231278d0ded19e4"
+            "url": "https://github.com/AustinWise/smeagol/releases/download/0.5.1/smeagol-wiki-0.5.1-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "smeagol-wiki-0.5.1-aarch64-pc-windows-msvc",
+            "hash": "357d0192d08106d6f7429a90863a9a4566e464aa14c70ae1eb5a656255577a88"
         }
     },
     "bin": "smeagol-wiki.exe",
