@@ -1,12 +1,12 @@
 {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Manage secret values in-repo via public key cryptography.",
     "homepage": "https://github.com/fpco/amber",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fpco/amber/releases/download/v0.1.7/amber-x86_64-pc-windows-gnu.exe#/amber.exe",
-            "hash": "71dff0ed8c7509769ccf02e0d18e12c45b899e1466e70097bd4efc85eb7bbe1d"
+            "url": "https://github.com/fpco/amber/releases/download/v0.1.8/amber-x86_64-pc-windows-gnu.exe#/amber.exe",
+            "hash": "68f5bca7d96de74888d5149b3b48692b323901c060efc22506cb163ca00612d6"
         }
     },
     "bin": "amber.exe",
