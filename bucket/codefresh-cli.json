@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "A full and flexible interface to interact with Codefresh.",
     "homepage": "https://codefresh-io.github.io/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/codefresh-io/cli/releases/download/v1.1.1/codefresh-v1.1.1-win-x64.zip",
-            "hash": "bd39d8118e266a34e59ade8553ee69a905cfd1de5c72bcded4aafe94cdda3c10"
+            "url": "https://github.com/codefresh-io/cli/releases/download/v1.1.2/codefresh-v1.1.2-win-x64.zip",
+            "hash": "e8d39f1a12d4fc0580ad349d7d567ae0d5468aee976427e72a98ddd9b13edd86"
         }
     },
     "bin": "codefresh.exe",
