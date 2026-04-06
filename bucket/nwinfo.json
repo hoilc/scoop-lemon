@@ -1,10 +1,10 @@
 {
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "A hardware information utility for Windows.",
     "homepage": "https://github.com/a1ive/nwinfo",
     "license": "Unlicense",
-    "url": "https://github.com/a1ive/nwinfo/releases/download/v1.6.1/nwinfo.zip",
-    "hash": "da7935b92cb41a12bbb4c036a91c0dcaee95413e109521753ff88604c4db566d",
+    "url": "https://github.com/a1ive/nwinfo/releases/download/v1.6.2/nwinfo.zip",
+    "hash": "3daa629da5483613619d9844efb07da81e96ce51744dbc35340b4d77a45af1e9",
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\\\" '*x64*.exe' | ForEach-Object { Move-Item -Force $_.Fullname ($_.Name -Replace 'x64') }"
