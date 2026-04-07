@@ -18,8 +18,8 @@
     "pre_install": "if (Test-Path \"$dir\\pulsarctl\") { Rename-Item -Path \"$dir\\pulsarctl\" -NewName \"$dir\\pulsarctl.exe\" }",
     "bin": "pulsarctl.exe",
     "checkver": {
-        "url": "https://github.com/streamnative/pulsarctl/releases.atom",
-        "regex": "Repository/\\d+/v(4\\.[\\d.]+)<"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/pulsarctl/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
