@@ -6,7 +6,9 @@ param(
     [Parameter(Mandatory=$false)]
     [string]$EndTime,
     [Parameter(Mandatory=$false)]
-    [string[]]$Blacklist
+    [string[]]$Blacklist,
+    [Parameter(Mandatory=$false)]
+    [string[]]$AlwaysCheck
 )
 
 if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
@@ -108,6 +110,11 @@ foreach ($manifestFile in $manifestFiles) {
             $manifestsWithoutVersion += $manifestName
         }
     }
+}
+
+if ($AlwaysCheck) {
+    $alwaysCheckItems = $AlwaysCheck -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ }
+    $manifestsWithoutVersion += $alwaysCheckItems
 }
 
 $manifestsWithoutVersion = $manifestsWithoutVersion | Sort-Object | Get-Unique

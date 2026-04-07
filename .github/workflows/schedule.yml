@@ -22,11 +22,12 @@ jobs:
       id: check-manifests-without-version-vars
       shell: powershell
       run: |
-        bin/checkNoVersionVariables.ps1 -StartTime $env:CHECK_START_TIME -EndTime $env:CHECK_END_TIME -Blacklist $env:CHECK_BLACKLIST
+        bin/checkNoVersionVariables.ps1 -StartTime $env:CHECK_START_TIME -EndTime $env:CHECK_END_TIME -Blacklist $env:CHECK_BLACKLIST -AlwaysCheck $env:CHECK_ALWAYS_MANIFESTS
       env:
         CHECK_START_TIME: '00:00'
         CHECK_END_TIME: '03:00'
-        CHECK_BLACKLIST: 'blb2txt,balabolka,balcon'
+        CHECK_BLACKLIST: ${{ vars.DAILY_CHECK_ALWAYS_BLACKLIST }}
+        CHECK_ALWAYS_MANIFESTS: ${{ vars.DAILY_CHECK_ALWAYS_MANIFESTS }}
     - name: Excavate
       uses: ScoopInstaller/Scoop-GithubActions@main
       env:
