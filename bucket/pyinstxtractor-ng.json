@@ -1,12 +1,12 @@
 {
-    "version": "2025.01.05",
+    "version": "2026.04.07",
     "description": "A tool to extract the contents of a Pyinstaller generated executable file.",
     "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/releases/download/2025.01.05/pyinstxtractor-ng.exe",
-            "hash": "33f8225db6d057e903b9eba3eddf2e92e564cd1b59382106b4569583b3fedfb0"
+            "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/releases/download/2026.04.07/pyinstxtractor-ng.exe",
+            "hash": "d19488732ff8237f5a1ed47d2a3d36620077975854854102e65837c5aad69ca5"
         }
     },
     "bin": "pyinstxtractor-ng.exe",
