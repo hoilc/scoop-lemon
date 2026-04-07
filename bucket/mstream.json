@@ -1,12 +1,12 @@
 {
-    "version": "6.1.2",
+    "version": "6.1.3",
     "description": "A personal music streaming server.",
     "homepage": "http://mstream.io/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IrosTheBeggar/mStream/releases/download/v6.1.2/mStream-Server-Setup-6.1.2.exe#/dl.7z",
-            "hash": "sha512:e04b3e0a58c418bf879b895d863ad375d742f41c220cc686da9e54f2851d23371bbb3ba8b91845cf6adf4582bfc15c3ea15718877f305c836f1d46e3c5ed2195",
+            "url": "https://github.com/IrosTheBeggar/mStream/releases/download/v6.1.3/mStream-Server-Setup-6.1.3.exe#/dl.7z",
+            "hash": "sha512:b26b136cbf4275daef3c28e64a29b8527722e15d650a08bf051d120cd4a77acd673d45f6d015c849322299e574ffc4cc5eb7c61f17f13dbf1fc4b13d685f8663",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
