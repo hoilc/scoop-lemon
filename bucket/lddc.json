@@ -1,0 +1,32 @@
+{
+    "version": "0.9.2",
+    "description": "A simple and user-friendly tool for downloading and matching precise lyrics. / 简单易用的精准歌词下载匹配工具",
+    "homepage": "https://github.com/chenmozhijin/LDDC",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chenmozhijin/LDDC/releases/download/v0.9.2/LDDC-0.9.2-windows-amd64.zip",
+            "hash": "2042824d1d496d4ddd61be464461700594639a6cce391991bd8da1ae4a4238a7"
+        }
+    },
+    "extract_dir": "LDDC",
+    "shortcuts": [
+        [
+            "LDDC.exe",
+            "LDDC"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\LDDC\", \"$env:LOCALAPPDATA\\LDDC\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "LDDC is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\LDDC', and can be purged using 'scoop uninstall --purge lddc'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chenmozhijin/LDDC/releases/download/v$version/LDDC-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
