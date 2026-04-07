@@ -1,20 +1,20 @@
 {
-    "version": "4.1.2",
+    "version": "4.2.0",
     "description": "Save or export your private and public Slack messages, threads, files, and users locally without admin privileges.",
     "homepage": "https://github.com/rusq/slackdump",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rusq/slackdump/releases/download/v4.1.2/slackdump_Windows_x86_64.zip",
-            "hash": "b54a16291665cbb0683473a9c27023681febe78c1e347536dee6534787775056"
+            "url": "https://github.com/rusq/slackdump/releases/download/v4.2.0/slackdump_Windows_x86_64.zip",
+            "hash": "a182089eb5b7e7ce798799310393ba80469f1b73a652182fce123f80b840aebc"
         },
         "32bit": {
-            "url": "https://github.com/rusq/slackdump/releases/download/v4.1.2/slackdump_Windows_i386.zip",
-            "hash": "e8d5c4aa6de20e1ca004ff41c193b53e217787d0af2be989a0b67c2c007722aa"
+            "url": "https://github.com/rusq/slackdump/releases/download/v4.2.0/slackdump_Windows_i386.zip",
+            "hash": "486be551fabe468bafbf05b8d831f2328e5d83f2978d6699de569788d94bc88d"
         },
         "arm64": {
-            "url": "https://github.com/rusq/slackdump/releases/download/v4.1.2/slackdump_Windows_arm64.zip",
-            "hash": "2a6bf7e329b835346bf9dbbbb37cbc60492e449875b3e66fd057ede874edc87c"
+            "url": "https://github.com/rusq/slackdump/releases/download/v4.2.0/slackdump_Windows_arm64.zip",
+            "hash": "f85036f58be8bda48e8761ac263630f75534be1e9dbe73d1476fa778d7f2d454"
         }
     },
     "bin": "slackdump.exe",
