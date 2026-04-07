@@ -10,12 +10,5 @@
         }
     },
     "bin": "spago.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/purescript/spago/releases/download/$version/Windows.tar.gz"
-            }
-        }
-    }
+    "notes": "This Haskell codebase has been deprecated and is in a frozen state - only critical security vulnerabilities will be merged."
 }
