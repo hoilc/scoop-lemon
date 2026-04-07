@@ -1,16 +1,16 @@
 {
-    "version": "0.10.6",
+    "version": "0.10.7",
     "description": "A fully functional MCP server and CLI for YouTube.",
     "homepage": "https://github.com/eat-pray-ai/yutu",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eat-pray-ai/yutu/releases/download/v0.10.6/yutu-windows-amd64.exe#/yutu.exe",
-            "hash": "b768b3ed13d7902eedba5d270734101cf3c80c28c7515f3401cbf9d54210b378"
+            "url": "https://github.com/eat-pray-ai/yutu/releases/download/v0.10.7/yutu-windows-amd64.exe#/yutu.exe",
+            "hash": "02290b0662a30f4f0a0ff44257b9d48b8510cc7c0036174dabd739baf233b3ae"
         },
         "arm64": {
-            "url": "https://github.com/eat-pray-ai/yutu/releases/download/v0.10.6/yutu-windows-arm64.exe#/yutu.exe",
-            "hash": "fb6f8ab328f2f553cb94936e64f6e093f60587c5c3d7d2339e8b14294bf13d8d"
+            "url": "https://github.com/eat-pray-ai/yutu/releases/download/v0.10.7/yutu-windows-arm64.exe#/yutu.exe",
+            "hash": "b63766e8ae5ad1553ec39e16b37b1033cf7661e427713a9bf9b6c58da9273c7b"
         }
     },
     "bin": "yutu.exe",
