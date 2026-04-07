@@ -1,12 +1,12 @@
 {
-    "version": "0.50.1",
+    "version": "0.51.0",
     "description": "Collection of gadgets for troubleshooting Kubernetes applications using eBPF.",
     "homepage": "https://inspektor-gadget.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/inspektor-gadget/inspektor-gadget/releases/download/v0.50.1/kubectl-gadget-windows-amd64-v0.50.1.tar.gz",
-            "hash": "24b1a9b312f7e37fcf4ae482806ac7a23ab9257eb0fefe95b294840b214c7b54"
+            "url": "https://github.com/inspektor-gadget/inspektor-gadget/releases/download/v0.51.0/kubectl-gadget-windows-amd64-v0.51.0.tar.gz",
+            "hash": "e06238f1ea4b424a29a1203231cce8ccac2ab2096508535abd4dfdfc2c0ba369"
         }
     },
     "bin": "kubectl-gadget.exe",
