@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "0.8.4",
     "description": "An open source CLI tool for automated API testing.",
     "homepage": "https://jikken.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jikkenio/jikken/releases/download/v0.8.2/jikken-v0.8.2-x86_64-windows.zip",
-            "hash": "a6d165742868c5821eada6b456e0a562e3cb887074594105d0de9e79dc4a4588"
+            "url": "https://github.com/jikkenio/jikken/releases/download/v0.8.4/jikken-v0.8.4-x86_64-windows.zip",
+            "hash": "2e28eb78172059df7ff77166696489e4da1fa27633cd154d1f268b16228354a4"
         }
     },
     "bin": "jk.exe",
