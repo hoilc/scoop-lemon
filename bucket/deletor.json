@@ -1,20 +1,20 @@
 {
-    "version": "1.5.0",
+    "version": "2.0.0",
     "description": "Manage and delete files efficiently with an interactive TUI and scriptable CLI.",
     "homepage": "https://github.com/pashkov256/deletor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-windows-amd64.exe#/deletor.exe",
-            "hash": "9acf0c48c9992baa7232668a02ec43c7958e2237335df272989871bd6a4d4ac6"
+            "url": "https://github.com/pashkov256/deletor/releases/download/2.0.0/deletor-v2.0.0-windows-amd64.exe#/deletor.exe",
+            "hash": "f83b8cb09267465ab2d6ffab6648611b2258ca3c4cd9dd5387b1454ce814fff7"
         },
         "32bit": {
-            "url": "https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-windows-386.exe#/deletor.exe",
-            "hash": "2132b7ae1df37ca1faf61cacf5a743b04d9c04558272939f2b1222f1a6f87258"
+            "url": "https://github.com/pashkov256/deletor/releases/download/2.0.0/deletor-v2.0.0-windows-386.exe#/deletor.exe",
+            "hash": "ff4d9dbef93b002fb3fd47f83f28a850250eae5c2ab3cbc8c56cce1252df9bbe"
         },
         "arm64": {
-            "url": "https://github.com/pashkov256/deletor/releases/download/v1.5.0/deletor-v1.5.0-windows-arm64.exe#/deletor.exe",
-            "hash": "3febbc76a2f9e89c56aaaf39b9284ccf21b1bcab6650ed105a200b28f2f2c17c"
+            "url": "https://github.com/pashkov256/deletor/releases/download/2.0.0/deletor-v2.0.0-windows-arm64.exe#/deletor.exe",
+            "hash": "501b65d72eb71e28305bf782b210cfa68dc66a4edbad76f9ed49c71a1080ecec"
         }
     },
     "bin": "deletor.exe",
@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pashkov256/deletor/releases/download/v$version/deletor-v$version-windows-amd64.exe#/deletor.exe"
+                "url": "https://github.com/pashkov256/deletor/releases/download/$version/deletor-v$version-windows-amd64.exe#/deletor.exe"
             },
             "32bit": {
-                "url": "https://github.com/pashkov256/deletor/releases/download/v$version/deletor-v$version-windows-386.exe#/deletor.exe"
+                "url": "https://github.com/pashkov256/deletor/releases/download/$version/deletor-v$version-windows-386.exe#/deletor.exe"
             },
             "arm64": {
-                "url": "https://github.com/pashkov256/deletor/releases/download/v$version/deletor-v$version-windows-arm64.exe#/deletor.exe"
+                "url": "https://github.com/pashkov256/deletor/releases/download/$version/deletor-v$version-windows-arm64.exe#/deletor.exe"
             }
         }
     }
