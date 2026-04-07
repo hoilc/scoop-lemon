@@ -1,12 +1,12 @@
 {
-    "version": "3.0.338",
+    "version": "3.0-345-ed38560",
     "description": "A cross-platform software to find duplicated video (and image) files on hard disk based on similiarity.",
     "homepage": "https://github.com/0x90d/videoduplicatefinder",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/App-win-x64.zip",
-            "hash": "486308a7d3ef3a2e2e3992668c3ae69d0b90a324acf97a17af17039ae04cfa33"
+            "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip",
+            "hash": "43c3284141d6d3f21186753dd6ac89bca43c8cb61cd963740026a7708758a851"
         }
     },
     "shortcuts": [
@@ -24,14 +24,14 @@
         "ffmpeg": "ffmpeg"
     },
     "checkver": {
-        "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=branch%3Amaster+is%3Asuccess",
-        "regex": "#(\\d+):",
-        "replace": "3.0.$1"
+        "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):.*?/commit/(?<shortcommit>[0-9a-f]{7})(?<remainingcommit>[0-9a-f]+)\"",
+        "replace": "3.0-${build}-${shortcommit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/App-win-x64.zip"
+                "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip"
             }
         }
     }
