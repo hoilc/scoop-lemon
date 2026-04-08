@@ -1,18 +1,18 @@
 {
-    "version": "0.22.4",
+    "version": "0.23",
     "description": "A CLI tool enables drawing infrastructure diagrams for Amazon Web Services through YAML code.",
     "homepage": "https://github.com/awslabs/diagram-as-code",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/awslabs/diagram-as-code/releases/download/v0.22.4/awsdac-v0.22.4_windows-amd64.zip",
-            "extract_dir": "dist\\awsdac-v0.22.4_windows-amd64",
-            "hash": "f79b585e5c1636de8b109a1d56197c09caa3cf24608c8b7e8d8d9fae84a59774"
+            "url": "https://github.com/awslabs/diagram-as-code/releases/download/v0.23/awsdac-v0.23_windows-amd64.zip",
+            "extract_dir": "dist\\awsdac-v0.23_windows-amd64",
+            "hash": "751a54c04f2cd810b3710593b127157ae7fd02571351f8d48bb4227d6d930075"
         },
         "32bit": {
-            "url": "https://github.com/awslabs/diagram-as-code/releases/download/v0.22.4/awsdac-v0.22.4_windows-386.zip",
-            "extract_dir": "dist\\awsdac-v0.22.4_windows-386",
-            "hash": "045e3245e840bf8a44b21a7b731bf4fbfec5c8de8da7060d7fb22e2cf719e463"
+            "url": "https://github.com/awslabs/diagram-as-code/releases/download/v0.23/awsdac-v0.23_windows-386.zip",
+            "extract_dir": "dist\\awsdac-v0.23_windows-386",
+            "hash": "9238795a48cfb98abc70f58a08fc85936df72d08574bd1e8c9a8b01ce823820a"
         }
     },
     "bin": "awsdac.exe",
