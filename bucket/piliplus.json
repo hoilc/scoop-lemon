@@ -1,12 +1,12 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "使用Flutter开发的BiliBili第三方客户端",
     "homepage": "https://github.com/bggRGjQaUbCoE/PiliPlus",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.2/PiliPlus_windows_2.0.2+4814_x64_portable.zip",
-            "hash": "1918f986ae15c1834810546cc3bc50109310310879e9f518a109925cc295c077"
+            "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3/PiliPlus_windows_2.0.3+4833_x64_portable.zip",
+            "hash": "c7119261705a63ddb3e4017f969a431f29cfe15d520a94d4fe30debfbc743a10"
         }
     },
     "extract_dir": "PiliPlus-Win",
