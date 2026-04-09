@@ -1,16 +1,16 @@
 {
-    "version": "0.5.10",
+    "version": "0.5.11",
     "description": "Streaming replication for SQLite.",
     "homepage": "https://litestream.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/benbjohnson/litestream/releases/download/v0.5.10/litestream-0.5.10-windows-x86_64.zip",
-            "hash": "180757cd377932f5de840aa55b8386f0be627b23d2c58431e319300f833ad9a9"
+            "url": "https://github.com/benbjohnson/litestream/releases/download/v0.5.11/litestream-0.5.11-windows-x86_64.zip",
+            "hash": "9116e8605d4b479e15044ccbccf2aa756be7a8a64b9237f67a074ec1742444a3"
         },
         "arm64": {
-            "url": "https://github.com/benbjohnson/litestream/releases/download/v0.5.10/litestream-0.5.10-windows-arm64.zip",
-            "hash": "94351d4026f1e7746d45d8ca1f68fa182d15bf5a864f5ab7a4015f723ef42f25"
+            "url": "https://github.com/benbjohnson/litestream/releases/download/v0.5.11/litestream-0.5.11-windows-arm64.zip",
+            "hash": "a8003fb5b522903b742f83bb8b9988feee9f9d29ef634cf7474d3449c84eb026"
         }
     },
     "bin": "litestream.exe",
