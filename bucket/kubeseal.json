@@ -1,12 +1,12 @@
 {
-    "version": "0.36.1",
+    "version": "0.36.2",
     "description": "A Kubernetes tool for one-way encrypted Secrets.",
     "homepage": "https://github.com/bitnami-labs/sealed-secrets",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.36.1/kubeseal-0.36.1-windows-amd64.tar.gz",
-            "hash": "f9bc1b34c6162ebf3d8153a574ca9fa894732b230898c2d47807e14c15ac0de5"
+            "url": "https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.36.2/kubeseal-0.36.2-windows-amd64.tar.gz",
+            "hash": "479418b36ed3f42edbd270ee3083a43d61039a22e11579eb98438d3bfff3cff8"
         }
     },
     "bin": "kubeseal.exe",
