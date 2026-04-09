@@ -1,16 +1,16 @@
 {
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "An open-source reimplementation of the Cloudflare WARP client's MASQUE mode.",
     "homepage": "https://github.com/Diniboy1123/usque",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Diniboy1123/usque/releases/download/v1.4.2/usque_1.4.2_windows_amd64.zip",
-            "hash": "9715795569fe55e50655611a977d3d380343527ce748766e309776191759dfd0"
+            "url": "https://github.com/Diniboy1123/usque/releases/download/v1.5.0/usque_1.5.0_windows_amd64.zip",
+            "hash": "d19a3dc2821ec6ed9dd1d30f4cc3a4513016bc8fcb77ed1d662161ba99f4bff6"
         },
         "arm64": {
-            "url": "https://github.com/Diniboy1123/usque/releases/download/v1.4.2/usque_1.4.2_windows_arm64.zip",
-            "hash": "ac0bdefa2ea2f25e9b5a7bf7f70267585a4a75e7c80a5d547db219c9f17421e1"
+            "url": "https://github.com/Diniboy1123/usque/releases/download/v1.5.0/usque_1.5.0_windows_arm64.zip",
+            "hash": "994fd92ae1b4d8ed6e665f053557569d68839a1a416fba5394a6f2e3ab70b9cf"
         }
     },
     "bin": "usque.exe",
