@@ -1,0 +1,37 @@
+{
+    "version": "0.8.6",
+    "description": "A standalone HTTP server that gives AI agents direct control over Chrome.",
+    "homepage": "https://pinchtab.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.8.6/pinchtab-windows-amd64.exe#/pinchtab.exe",
+            "hash": "002ace2df39e31b4236c949bc84ebde5d19a4367a00a8b3bdd34769d3be8c4bc"
+        },
+        "arm64": {
+            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.8.6/pinchtab-windows-arm64.exe#/pinchtab.exe",
+            "hash": "816f7196a0196211c66bf7e89370ba9294474f29eab51c0758deb4ab8c3d78ec"
+        }
+    },
+    "bin": "pinchtab.exe",
+    "notes": [
+        "Windows support is currently limited and best-effort because the project does not have the same level of automated and manual coverage there.",
+        "On Windows, prefer running 'pinchtab server' or 'pinchtab bridge' directly instead of relying on the daemon workflow."
+    ],
+    "checkver": {
+        "github": "https://github.com/pinchtab/pinchtab"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pinchtab/pinchtab/releases/download/v$version/pinchtab-windows-amd64.exe#/pinchtab.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/pinchtab/pinchtab/releases/download/v$version/pinchtab-windows-arm64.exe#/pinchtab.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
