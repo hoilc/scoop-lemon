@@ -1,5 +1,5 @@
 {
-    "version": "13.4.0",
+    "version": "13.4.1",
     "description": "An open source, cloud-native security to protect everything from build to runtime",
     "homepage": "https://github.com/mondoohq/cnspec",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mondoohq/cnspec/releases/download/v13.4.0/cnspec_13.4.0_windows_amd64.zip",
-            "hash": "dd6e4c3c713f04af71e5572675a6da1a13781132ded5d6ff886ebc6997ce01f4"
+            "url": "https://github.com/mondoohq/cnspec/releases/download/v13.4.1/cnspec_13.4.1_windows_amd64.zip",
+            "hash": "a3e3202a6935b7006c9d168b12c2d0c02f08e43bc341cec3e29fe3729d3259d0"
         },
         "arm64": {
-            "url": "https://github.com/mondoohq/cnspec/releases/download/v13.4.0/cnspec_13.4.0_windows_arm64.zip",
-            "hash": "64ec356e9528974d8b60d3b9390d2686a70005531296771f6f0072dd3cc2aa0c"
+            "url": "https://github.com/mondoohq/cnspec/releases/download/v13.4.1/cnspec_13.4.1_windows_arm64.zip",
+            "hash": "6f5f2baeb50dc17e8e6dbf886a0f0fe2156d576ca4a5b45dec2315bea9c66ba4"
         }
     },
     "bin": "cnspec.exe",
