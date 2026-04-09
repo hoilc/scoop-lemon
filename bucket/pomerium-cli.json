@@ -1,16 +1,16 @@
 {
-    "version": "0.32.0",
+    "version": "0.32.2",
     "description": "A CLI application for Pomerium, an identity and context-aware access proxy.",
     "homepage": "https://www.pomerium.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pomerium/cli/releases/download/v0.32.0/pomerium-cli-windows-amd64.zip",
-            "hash": "519ae6d6469c16001e1fde4a8171d51d12059eeef92fbb13d8bafea081f158c3"
+            "url": "https://github.com/pomerium/cli/releases/download/v0.32.2/pomerium-cli-windows-amd64.zip",
+            "hash": "55f85cfc05fa4f62751f69f3a70d95c3dde25395ca9c56729ecf659212135e05"
         },
         "arm64": {
-            "url": "https://github.com/pomerium/cli/releases/download/v0.32.0/pomerium-cli-windows-arm64.zip",
-            "hash": "ab7f671141be290a1dd2829a093ea98560f388131bf816747264a42dfe89b6cd"
+            "url": "https://github.com/pomerium/cli/releases/download/v0.32.2/pomerium-cli-windows-arm64.zip",
+            "hash": "bea2c6aa879c5a987845b59134cf23a2b52e57aac4b3f284f0ad80c882070a4b"
         }
     },
     "bin": "pomerium-cli.exe",
