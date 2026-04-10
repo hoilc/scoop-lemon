@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v2.3.1/LaTeXSnipper_setup_v2.3.1.exe",
-            "hash": "4f22e2fa7f333c38a617819f4dfea3c2a9e41f3d30fe0b5cb0232f0274d9d6ae"
+            "hash": "d808c9231a480fb243cf5bd3104a588b93741720d0bf304355664df1345c0b7e"
         }
     },
     "innosetup": true,
