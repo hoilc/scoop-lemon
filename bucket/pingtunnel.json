@@ -1,20 +1,20 @@
 {
-    "version": "master-5cd6e4ac2c40c5865e62e6d16a952a5be470a5db",
+    "version": "master-ec0bd723f675ccbb3ab0f680b3fe5f09d5c69795",
     "description": "A tool that send TCP/UDP traffic over ICMP.",
     "homepage": "https://github.com/esrrhs/pingtunnel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-5cd6e4ac2c40c5865e62e6d16a952a5be470a5db/pingtunnel_windows_amd64.zip",
-            "hash": "74816aa4904631df9694180f28d6f6f857d292529c185024765d735c83bc4d6a"
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-ec0bd723f675ccbb3ab0f680b3fe5f09d5c69795/pingtunnel_windows_amd64.zip",
+            "hash": "7a6be4026d3a7930d82310a6b953fe6a0215b6b129b60a390aeee34636641fed"
         },
         "32bit": {
-            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-5cd6e4ac2c40c5865e62e6d16a952a5be470a5db/pingtunnel_windows_386.zip",
-            "hash": "f9e4b2a8f5de96e399ffe13d6a8c67a35f1b9e8a3b03448909a320df50818fa3"
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-ec0bd723f675ccbb3ab0f680b3fe5f09d5c69795/pingtunnel_windows_386.zip",
+            "hash": "dd13394d00781193d6da9eab8960ae72f690ead372ef4f3b7c1faa5debb1d302"
         },
         "arm64": {
-            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-5cd6e4ac2c40c5865e62e6d16a952a5be470a5db/pingtunnel_windows_arm64.zip",
-            "hash": "d292ddce344ec3e9cfe011e7cd3cbecdbb43300bc52dedb8239bb2d5e4360f57"
+            "url": "https://github.com/esrrhs/pingtunnel/releases/download/master-ec0bd723f675ccbb3ab0f680b3fe5f09d5c69795/pingtunnel_windows_arm64.zip",
+            "hash": "4028d2246304811af95448813bfe385148c739b9a344d0ac2921e73a01539537"
         }
     },
     "bin": "pingtunnel.exe",
