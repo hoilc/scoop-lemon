@@ -1,12 +1,12 @@
 {
-    "version": "1.4.2",
+    "version": "1.4.2-hf1-ucrt64",
     "description": "An astronomical image processing tool.",
     "homepage": "https://siril.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://free-astro.org/download/siril-1.4.2_win.zip",
-            "hash": "5c6989cae15aed0ca4f00ea6e705d68bcc947861efb19ed1997a93febcc123ce"
+            "url": "https://free-astro.org/download/siril-1.4.2-hf1-ucrt64_win.zip",
+            "hash": "6652027d26b1c12718c19c31c5f805c3191910b89b54d3790c29082aed36e24e"
         }
     },
     "extract_dir": "siril",
