@@ -20,6 +20,7 @@
             "hash": "40e9d0b5041df0f851298334dc8e591ee2dc3ed14dec4753e2b2b143325fffd5"
         }
     },
+    "extract_dir": "3proxy",
     "bin": "bin\\3proxy.exe",
     "persist": "bin\\3proxy.cfg",
     "pre_install": [
