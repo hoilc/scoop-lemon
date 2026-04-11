@@ -1,16 +1,16 @@
 {
-    "version": "b560-e8323ca",
+    "version": "b564-fd35047",
     "description": "(CUDA 12 Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-560-e8323ca/sd-master-e8323ca-bin-win-cuda12-x64.zip",
-                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-560-e8323ca/cudart-sd-bin-win-cu12-x64.zip"
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-564-fd35047/sd-master-fd35047-bin-win-cuda12-x64.zip",
+                "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-564-fd35047/cudart-sd-bin-win-cu12-x64.zip"
             ],
             "hash": [
-                "a260ce7c9c93b98f4349a5510e20a43ddcc85d7724de05b1d6ddca236519e256",
+                "119088e5475e66c843780140a08945c440b0079ddab5e72bca0533a4be988d8a",
                 "fe20366827d357c00797eebb58244dddab7fd9a348d70090c3871004c320f38d"
             ]
         }
