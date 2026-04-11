@@ -1,16 +1,16 @@
 {
-    "version": "0.1.0-20260410",
+    "version": "0.1.0-20260411",
     "description": "(BETA Version) Nauz File Detector is a portable linker/compiler/packer identifier utility.",
     "homepage": "https://github.com/horsicq/Nauz-File-Detector",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win64_portable_0.1.0_x64.zip",
-            "hash": "5858cac5bbc99c695275320844daab744e1c001088b47cce4eb4eb31a2ef046e"
+            "hash": "861479dceb48631e1bd2c058022376bd31a695ad05c5b0848113e29b91cc3625"
         },
         "32bit": {
             "url": "https://github.com/horsicq/Nauz-File-Detector/releases/download/Beta/NauzFileDetector_win32_portable_0.1.0_x86.zip",
-            "hash": "2089ac28cc6514fd772fc27501ae0a83b7e4c5e695fa3487718d34345185fe71"
+            "hash": "e22dc02a501e0994afac7b9282014b8f6e439a0a440fd18159a145e61e961ed2"
         }
     },
     "bin": "nfdc.exe",
