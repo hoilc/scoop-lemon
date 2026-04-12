@@ -1,13 +1,13 @@
 {
-    "version": "3.2.0",
+    "version": "3.3.0",
     "description": "A UML, SysML, RAAML, and C4 modeling application.",
     "homepage": "https://gaphor.org",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gaphor/gaphor/releases/download/3.2.0/gaphor-3.2.0-portable.exe#/dl.7z",
-            "extract_dir": "gaphor-3.2.0-portable",
-            "hash": "f4c89218488ea01cb53ce507140369c8c6c9760616246fd26b49ed76bb1f9a32"
+            "url": "https://github.com/gaphor/gaphor/releases/download/3.3.0/gaphor-3.3.0-portable.exe#/dl.7z",
+            "extract_dir": "gaphor-3.3.0-portable",
+            "hash": "e0c4f8624f2ba9f8813bdddcb984a1ff1c0cad5771dd9984c73cf28915131547"
         }
     },
     "shortcuts": [
