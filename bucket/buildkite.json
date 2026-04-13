@@ -1,16 +1,16 @@
 {
-    "version": "3.35.0",
+    "version": "3.35.1",
     "description": "The command line interface for Buildkite, a scale-out delivery platform.",
     "homepage": "https://github.com/barnybug/cli53",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/buildkite/cli/releases/download/v3.35.0/bk_3.35.0_windows_amd64.zip",
-            "hash": "15d56726218779fca09b19d12a8f4fcaed8089ac14b1591b8e5b64d9594051ca"
+            "url": "https://github.com/buildkite/cli/releases/download/v3.35.1/bk_3.35.1_windows_amd64.zip",
+            "hash": "5812d8d9b52d03b0d25c31be52f04ed7ff37a4ed46f2622e5dacac3450945c44"
         },
         "arm64": {
-            "url": "https://github.com/buildkite/cli/releases/download/v3.35.0/bk_3.35.0_windows_arm64.zip",
-            "hash": "9f4c2a30f306e9a2825e5e8df04a624eb9afae4fa97325dc7da79b3861ca5369"
+            "url": "https://github.com/buildkite/cli/releases/download/v3.35.1/bk_3.35.1_windows_arm64.zip",
+            "hash": "54e0c8d3e0667ab1acd207a6bf5e928e77d3b7ca0d2f248524c1a14626a92a3a"
         }
     },
     "bin": "bk.exe",
