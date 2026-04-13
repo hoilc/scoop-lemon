@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "S3 benchmarking tool.",
     "homepage": "https://github.com/minio/warp",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://dl.min.io/aistor/warp/release/windows-amd64/archive/warp.exe.v1.4.0#/warp.exe",
-            "hash": "bfd762371db45726d8a78ccac4250f1231703dcea1efaad9e029534655542834"
+            "url": "https://dl.min.io/aistor/warp/release/windows-amd64/archive/warp.exe.v1.4.1#/warp.exe",
+            "hash": "68f5ed2d94b2e7bc72136d17fc844d82b795c5c99330f0362ee6bec8ee4cf277"
         }
     },
     "bin": "warp.exe",
