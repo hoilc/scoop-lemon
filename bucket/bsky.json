@@ -1,12 +1,12 @@
 {
-    "version": "0.0.78",
+    "version": "0.0.79",
     "description": "A bluesky CLI client written in Go.",
     "homepage": "https://github.com/mattn/bsky",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mattn/bsky/releases/download/v0.0.78/bsky-windows-0.0.78.zip",
-            "hash": "e0d4ff752c3ddd0ac00462bcb8751e9b1fda880a0f6234523e5d71389d2db4f1"
+            "url": "https://github.com/mattn/bsky/releases/download/v0.0.79/bsky-windows-0.0.79.zip",
+            "hash": "109eeba2606c3d6214e48f59a59048bbfdbf3675347bc2817978ac77a6b2853c"
         }
     },
     "bin": "bsky.exe",
