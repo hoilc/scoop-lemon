@@ -1,10 +1,10 @@
 {
-    "version": "0.0.8.4",
+    "version": "0.0.8.5",
     "description": "A Windows GUI for shogi (Japanese chess).",
     "homepage": "http://shogigui.siganus.com/",
     "license": "Freeware",
-    "url": "http://shogigui.siganus.com/shogigui/ShogiGUIv0.0.8.4.zip",
-    "hash": "392ebb6ff9eb02bd3cd0f2dfe07c07d417f461c631cfe714591b68f052d8f74b",
+    "url": "http://shogigui.siganus.com/shogigui/ShogiGUIv0.0.8.5.zip",
+    "hash": "3fae163015b2075c341a15d37a53fddda90149c3dd7fe3cd78082be66955956c",
     "extract_dir": "ShogiGUI",
     "shortcuts": [
         [
