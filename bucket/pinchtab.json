@@ -1,16 +1,16 @@
 {
-    "version": "0.8.6",
+    "version": "0.9.0",
     "description": "A standalone HTTP server that gives AI agents direct control over Chrome.",
     "homepage": "https://pinchtab.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.8.6/pinchtab-windows-amd64.exe#/pinchtab.exe",
-            "hash": "002ace2df39e31b4236c949bc84ebde5d19a4367a00a8b3bdd34769d3be8c4bc"
+            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.9.0/pinchtab-windows-amd64.exe#/pinchtab.exe",
+            "hash": "aca8def65d16c2b37035e701d51c80168476693d8b32c8325f197037707a3fc5"
         },
         "arm64": {
-            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.8.6/pinchtab-windows-arm64.exe#/pinchtab.exe",
-            "hash": "816f7196a0196211c66bf7e89370ba9294474f29eab51c0758deb4ab8c3d78ec"
+            "url": "https://github.com/pinchtab/pinchtab/releases/download/v0.9.0/pinchtab-windows-arm64.exe#/pinchtab.exe",
+            "hash": "f4d5c21e5adf2d52119c771df3c3851aea8f5e09ad300b2bc0b0817490a49a08"
         }
     },
     "bin": "pinchtab.exe",
