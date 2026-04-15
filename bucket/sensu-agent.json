@@ -1,16 +1,16 @@
 {
-    "version": "6.13.1",
+    "version": "6.14.0",
     "description": "A lightweight observability agent for Sensu, a complete solution for monitoring and observability at scale.",
     "homepage": "https://docs.sensu.io/sensu-go/latest/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.13.1/sensu-go_6.13.1_windows_amd64.zip",
-            "hash": "062f0d196a5f77ab640b2ed19d14a991c27a7ee1cce7c5a0bd054394f454a087"
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.0/sensu-go_6.14.0_windows_amd64.zip",
+            "hash": "232287b29e3bd1301443e3b0cd1e8d86e089e22844d703acaf0ce852229c554a"
         },
         "32bit": {
-            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.13.1/sensu-go_6.13.1_windows_386.zip",
-            "hash": "e98e1ee8a7f107daa083e3698887252e9ec530c9840efd44755cce31229059cb"
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.0/sensu-go_6.14.0_windows_386.zip",
+            "hash": "4971f277ccbe9b2ec68d1e1862f7bf48268c0c1b59a34667c2f15cb77ac523e6"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'sensuctl.exe' | Remove-Item",
