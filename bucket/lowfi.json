@@ -1,12 +1,12 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.6",
     "description": "An extremely simple lofi player.",
     "homepage": "https://github.com/talwat/lowfi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/talwat/lowfi/releases/download/2.0.4/lowfi-windows-x86_64.exe#/lowfi.exe",
-            "hash": "947e5a69ca4028870a535e15fa5d15ebe6769614891b6efb00a910e5064de344"
+            "url": "https://github.com/talwat/lowfi/releases/download/2.0.6/lowfi-windows-x86_64.exe#/lowfi.exe",
+            "hash": "85a7d4101a7ce9469100e43f8ea59230bc26d7b727c6866d2deb62174ce2442e"
         }
     },
     "bin": "lowfi.exe",
