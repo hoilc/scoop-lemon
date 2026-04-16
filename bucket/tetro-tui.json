@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "3.0.0",
     "description": "A terminal-based but modern tetromino-stacking game that is very customizable and cross-platform.",
     "homepage": "https://github.com/Strophox/tetro-tui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Strophox/tetro-tui/releases/download/v2.1.0/tetro-tui_v2.1_x86_64-pc-windows-gnu.zip",
-            "hash": "a78fe439c993c3880786ecfba8813586dc9daa9f13eb8c996d837ec9dbd4f831"
+            "url": "https://github.com/Strophox/tetro-tui/releases/download/v3.0.0/tetro-tui_v3.0_x86_64-pc-windows-gnu.zip",
+            "hash": "5d3c1e6b8ca8ca9183a2c61a19b7ccd217c9f45d05102077e124bd9914b04699"
         }
     },
     "bin": "tetro-tui.exe",
