@@ -1,11 +1,11 @@
 {
-    "version": "2.3.12",
+    "version": "2.3.13",
     "description": "A program to search similar and defect pictures on the disk.",
     "homepage": "https://ermig1979.github.io/AntiDupl/english/index.html",
     "license": "MIT",
-    "url": "https://github.com/ermig1979/AntiDupl/releases/download/v2.3.12/AntiDupl.NET-2.3.12.exe#/dl.rar",
-    "hash": "71e091ccd78e3cd590d1fb477542fb9e1309f1bdacad3219d7172a4d499ea829",
-    "extract_dir": "AntiDupl.NET-2.3.12",
+    "url": "https://github.com/ermig1979/AntiDupl/releases/download/v2.3.13/AntiDupl.NET-2.3.13.exe#/dl.rar",
+    "hash": "9051b4c60ccb36eb96a6d938844ff40e0db65912cde6e6b9251c801ce32f3eb4",
+    "extract_dir": "AntiDupl.NET-2.3.13",
     "shortcuts": [
         [
             "AntiDupl.NET.exe",
