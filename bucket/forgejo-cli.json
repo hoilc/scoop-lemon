@@ -1,12 +1,12 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "description": "A CLI tool for interacting with Forgejo.",
     "homepage": "https://codeberg.org/Cyborus/forgejo-cli",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/Cyborus/forgejo-cli/releases/download/v0.4.1/forgejo-cli-windows.zip",
-            "hash": "9e8a6c90694760df9792ae83b1cf35130d4a57a6d889f7ca33a557a83d55c045"
+            "url": "https://codeberg.org/forgejo-contrib/forgejo-cli/releases/download/v0.5.0/forgejo-cli-x86_64-windows.zip",
+            "hash": "c58cfab74bdd161c82eb1dbfd5f66bab04b7f259486379467846532ac360e378"
         }
     },
     "bin": "fj.exe",
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://codeberg.org/Cyborus/forgejo-cli/releases/download/v$version/forgejo-cli-windows.zip"
+                "url": "https://codeberg.org/forgejo-contrib/forgejo-cli/releases/download/v$version/forgejo-cli-x86_64-windows.zip"
             }
         }
     }
