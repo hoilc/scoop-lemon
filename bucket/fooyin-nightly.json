@@ -1,12 +1,16 @@
 {
-    "version": "b4060",
+    "version": "b4143",
     "description": "(Nightly Build) A customisable music player.",
     "homepage": "https://github.com/fooyin/fooyin",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/fooyin/fooyin/actions/runs/24170133777/windows-amd64.zip",
-            "hash": "13dae14fea7110c1809ae9ecea0063359715472ae170b7feaa01f4748e62769a"
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/24540921820/windows-portable-amd64.zip",
+            "hash": "233fc3ff9ba44145153b1b048c314cccb6ad766ca78375ef36662761257dd7e6"
+        },
+        "arm64": {
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/24540921820/windows-portable-arm64.zip",
+            "hash": "ef83da1f7e778c57dec0300c3c212bdc644238c09bc0f952b5bf3638e371131e"
         }
     },
     "pre_install": [
@@ -34,8 +38,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/fooyin/fooyin/actions/runs/$matchRun/windows-amd64.zip"
+                "url": "https://nightly.link/fooyin/fooyin/actions/runs/$matchRun/windows-portable-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/fooyin/fooyin/actions/runs/$matchRun/windows-portable-arm64.zip"
             }
+        },
+        "hash": {
+            "url": "https://api.github.com/repos/fooyin/fooyin/actions/runs/$matchRun/artifacts",
+            "regex": "(?sm)$basenameNoExt.*?sha256:$sha256"
         }
     }
 }
