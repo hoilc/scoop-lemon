@@ -1,16 +1,16 @@
 {
-    "version": "2.8.0",
+    "version": "2.8.1",
     "description": "A deployment tool for Amazon ECS.",
     "homepage": "https://github.com/kayac/ecspresso",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kayac/ecspresso/releases/download/v2.8.0/ecspresso_2.8.0_windows_amd64.tar.gz",
-            "hash": "4a25a536b3f8c07e99f0574dcfaeefe483991c9dee057ce06cde978b00d309a3"
+            "url": "https://github.com/kayac/ecspresso/releases/download/v2.8.1/ecspresso_2.8.1_windows_amd64.tar.gz",
+            "hash": "396e32c6185a1fb2ba20cfc1171ca46caccb7bcb2f87f5541c4c7bf03aee39d7"
         },
         "arm64": {
-            "url": "https://github.com/kayac/ecspresso/releases/download/v2.8.0/ecspresso_2.8.0_windows_arm64.tar.gz",
-            "hash": "3f7ebf23ef02207e0afd548c924ad9baab8d5c903f5ad0efa6e580d89ce6f9d1"
+            "url": "https://github.com/kayac/ecspresso/releases/download/v2.8.1/ecspresso_2.8.1_windows_arm64.tar.gz",
+            "hash": "09d48992f006871c4b5eebde2e2c7fd6ab8c42e59cc22a288ee55e23aa52c799"
         }
     },
     "bin": "ecspresso.exe",
