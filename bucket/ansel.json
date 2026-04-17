@@ -1,12 +1,12 @@
 {
-    "version": "20260410-fb0cd59e",
+    "version": "0.0.0+3225.gbeb4ee46a3",
     "description": "A darktable fork minus the bloat plus some design vision.",
     "homepage": "https://ansel.photos/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-fb0cd59e-win64.exe#/dl.7z",
-            "hash": "348a27950e9f690b98255fdf7c86877d16179f73c0afa5e127f0fdce32ffe619"
+            "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-0.0.0+3225.gbeb4ee46a3-win64.exe#/dl.7z",
+            "hash": "cd1a560bbc93195004d010663e0d68946079e99f27f7b3a42268f6d85041a5e5"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
@@ -22,14 +22,13 @@
     ],
     "checkver": {
         "url": "https://github.com/aurelienpierreeng/ansel/releases/expanded_assets/v0.0.0",
-        "regex": "(?sm)ansel-(?<commit>[a-f0-9]+)-win64\\.exe.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
-        "replace": "${year}${month}${day}-${commit}",
+        "regex": "ansel-([^\"]+?)-win64\\.exe",
         "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-$matchCommit-win64.exe#/dl.7z"
+                "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-$version-win64.exe#/dl.7z"
             }
         }
     }
