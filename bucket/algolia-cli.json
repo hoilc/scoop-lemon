@@ -1,20 +1,20 @@
 {
-    "version": "1.8.1",
+    "version": "1.8.2",
     "description": "Algolia’s official CLI devtool.",
     "homepage": "https://www.algolia.com/doc/tools/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.8.1/algolia_1.8.1_windows_amd64.zip",
-            "hash": "ea5f100d51ecb06f6c9a379812a6a9e1627ef2473c83a91da5bd214f555e9eb7"
+            "url": "https://github.com/algolia/cli/releases/download/v1.8.2/algolia_1.8.2_windows_amd64.zip",
+            "hash": "391d1bb9e6c8b6720636b51395880555309ad7cd1e1f4c5c27c0d69ddf27a75b"
         },
         "32bit": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.8.1/algolia_1.8.1_windows_386.zip",
-            "hash": "5c9f37e0f21e4c0816f35198686266ed17c17ba4499b63bbd337cf8f6aac7997"
+            "url": "https://github.com/algolia/cli/releases/download/v1.8.2/algolia_1.8.2_windows_386.zip",
+            "hash": "e49407ef7ea25504d9beb484f2faf0806df7d14e3ae4f2d6768d103c4c39ae65"
         },
         "arm64": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.8.1/algolia_1.8.1_windows_arm64.zip",
-            "hash": "7e68846132e66dc29107dc0a7539d8738477ea32fb93536883391cfa74ef3397"
+            "url": "https://github.com/algolia/cli/releases/download/v1.8.2/algolia_1.8.2_windows_arm64.zip",
+            "hash": "c9e050d3dc5fbaf1b7400e9fa02f25e37611634171cdf8dc4bd94824ffb79117"
         }
     },
     "bin": "algolia.exe",
