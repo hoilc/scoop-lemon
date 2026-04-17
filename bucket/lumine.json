@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/moi-si/lumine/releases/download/v0.8.1/lumine_v0.8.1_windows_amd64.zip",
-            "hash": "24584a13ca3a812b07d158758e75c2889bb366a58f4581eb7fa3c9c465a1ac84"
+            "hash": "0b2e0443860e414605c1af65709a3da96f237c4fc48a1a5c94e5962aafa0eda0"
         }
     },
     "bin": "lumine.exe",
