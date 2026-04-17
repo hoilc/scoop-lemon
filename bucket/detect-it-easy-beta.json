@@ -13,6 +13,7 @@
             "hash": "fb50324f2ab2a902dfefa48bdf93dc84e998416c126195cc284fc4889223dfb7"
         }
     },
+    "extract_dir": "die",
     "bin": "diec.exe",
     "shortcuts": [
         [
