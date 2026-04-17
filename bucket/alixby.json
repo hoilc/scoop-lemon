@@ -1,23 +1,23 @@
 {
-    "version": "4.0.0-beta",
+    "version": "4.0.2-beta",
     "description": "小白羊网盘 - 多网盘统一管理 + 智能媒体库 + 高速下载",
     "homepage": "https://github.com/gaozhangmin/aliyunpan",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.0-beta/alixby-4.0.0-beta-win-x64.exe#/dl.7z",
+            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.2-beta/alixby-4.0.0-beta-win-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "3cb13e4f5cc5607aa2f1c7626b4636ffb8fbbfb05b7ec435f41f3d8e0be12f82"
+            "hash": "86116aff03d5abfc52e778996efb66102cee5c04432b0b802ee412d362d22a35"
         },
         "32bit": {
-            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.0-beta/alixby-4.0.0-beta-win-ia32.exe#/dl.7z",
+            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.2-beta/alixby-4.0.0-beta-win-ia32.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "fccf55ba1ff2368bf0f13311a3932fb2edece781514db995c043085404e0d667"
+            "hash": "a5354840486c20666803e821470036efa4cd1f026a05e4c206db20c659c7d33d"
         },
         "arm64": {
-            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.0-beta/alixby-4.0.0-beta-win-arm64.exe#/dl.7z",
+            "url": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.2-beta/alixby-4.0.0-beta-win-arm64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-            "hash": "8c86d655c20908759a2ce7a0e82e6bdf15529e937bfd923cc866bd80511da74a"
+            "hash": "78f5987aa04a5ba1dad809f83962bb287ea2e0f9054555812a15bb653b8948d1"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
