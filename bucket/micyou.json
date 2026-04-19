@@ -1,12 +1,12 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A powerful tool that turns your Android device into a high-quality wireless microphone for your PC.",
     "homepage": "https://github.com/LanRhyme/MicYou",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LanRhyme/MicYou/releases/download/v1.2.1/MicYou-Win-1.2.1.zip",
-            "hash": "c70304cfafafdec505e1ee04d486319956f3c26b4dbac4cc8fccb49621325427"
+            "url": "https://github.com/LanRhyme/MicYou/releases/download/v1.2.2/MicYou-Win-1.2.2.zip",
+            "hash": "2fbb5aaad99d39d9e68d2eaa0a3496269bde97137b68e891093c043596ac3939"
         }
     },
     "extract_dir": "MicYou",
