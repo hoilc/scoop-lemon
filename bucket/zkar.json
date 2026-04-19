@@ -1,20 +1,20 @@
 {
-    "version": "1.5.1",
+    "version": "1.6.0",
     "description": "A Java serialization protocol analysis tool implement in Go.",
     "homepage": "https://github.com/phith0n/zkar",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/phith0n/zkar/releases/download/v1.5.1/zkar_1.5.1_windows_amd64.zip",
-            "hash": "000b1bd4f11d864240574cfaff607e6ff7883a8cd0897e95529d697a349e2504"
+            "url": "https://github.com/phith0n/zkar/releases/download/v1.6.0/zkar_1.6.0_windows_amd64.zip",
+            "hash": "99171a9397f0a674d2ed3b1e326af1013faa894407eb045c3cd4fdc2ca21d850"
         },
         "32bit": {
-            "url": "https://github.com/phith0n/zkar/releases/download/v1.5.1/zkar_1.5.1_windows_386.zip",
-            "hash": "f39511764ac5c36ff4c6a482c16b5dbcd1be31b5b20e3d075e5daf9bd4bda72a"
+            "url": "https://github.com/phith0n/zkar/releases/download/v1.6.0/zkar_1.6.0_windows_386.zip",
+            "hash": "a95602c208a77e3be65282ab28d64038d169e3443f051796b449bb92633c60d0"
         },
         "arm64": {
-            "url": "https://github.com/phith0n/zkar/releases/download/v1.5.1/zkar_1.5.1_windows_arm64.zip",
-            "hash": "a345c728541121ec54af8481e8ed9dd05f68f83e902847f6362d28c6db647c32"
+            "url": "https://github.com/phith0n/zkar/releases/download/v1.6.0/zkar_1.6.0_windows_arm64.zip",
+            "hash": "b8020bf3c2406f640dcddc9eb8d2154e042013109ba050a78ab18af8d271b44a"
         }
     },
     "bin": "zkar.exe",
