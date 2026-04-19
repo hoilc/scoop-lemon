@@ -1,0 +1,39 @@
+{
+    "version": "1.2.5",
+    "description": "All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary.",
+    "homepage": "https://oxideterm.app/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.2.5/OxideTerm_1.2.5_windows_x64-setup.exe#/dl.7z",
+            "hash": "c06c3ff2702d29f40dd36bd7eb09df478a9dd3ce1d8c63b5e99de900081ddcac"
+        },
+        "arm64": {
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.2.5/OxideTerm_1.2.5_windows_arm64-setup.exe#/dl.7z",
+            "hash": "22288b301b3202e45d76fcc2f94c5ad264fcba60c2e36b39cd897544e2dab4f2"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "bin": "cli-bin\\oxt.exe",
+    "shortcuts": [
+        [
+            "oxideterm.exe",
+            "OxideTerm"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$dir\\portable\")) { Set-Content -Encoding ASCII -Path \"$dir\\portable\" -Value $null }",
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/AnalyseDeCircuit/oxideterm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v$version/OxideTerm_$version_windows_x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v$version/OxideTerm_$version_windows_arm64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
