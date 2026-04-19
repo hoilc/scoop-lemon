@@ -1,13 +1,13 @@
 {
-    "version": "0.3.20",
+    "version": "0.4.0",
     "description": "A modern alternative to the watch command, records the differences in execution results and can check this differences at after.",
     "homepage": "https://github.com/blacknon/hwatch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blacknon/hwatch/releases/download/0.3.20/hwatch-0.3.20.x86_64-pc-windows-gnu.zip",
+            "url": "https://github.com/blacknon/hwatch/releases/download/0.4.0/hwatch-0.4.0.x86_64-pc-windows-gnu.zip",
             "extract_dir": "target\\x86_64-pc-windows-gnu\\release",
-            "hash": "74253b85b8dfa43d5c047fe6d36d4b9e5eb3bf74ca2ecc2abd899027a8e67c97"
+            "hash": "810a7bc97b1b63a564a94682022a80667c349b5e21a9634234bb903c3f9d8577"
         }
     },
     "bin": "hwatch.exe",
