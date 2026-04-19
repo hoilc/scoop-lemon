@@ -1,12 +1,12 @@
 {
-    "version": "0.8.1",
+    "version": "0.9.0",
     "description": "A lightweight local proxy server that protects TLS connections over TCP, operating entirely without requiring system privileges.",
     "homepage": "https://github.com/moi-si/lumine",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moi-si/lumine/releases/download/v0.8.1/lumine_v0.8.1_windows_amd64.zip",
-            "hash": "0b2e0443860e414605c1af65709a3da96f237c4fc48a1a5c94e5962aafa0eda0"
+            "url": "https://github.com/moi-si/lumine/releases/download/v0.9.0/lumine_v0.9.0_windows_amd64.zip",
+            "hash": "4cade268cbc683dad96ce0e7d25f14f3bac3d616150f27f4c57bfcf84435a7b5"
         }
     },
     "bin": "lumine.exe",
