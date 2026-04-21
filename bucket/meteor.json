@@ -1,16 +1,16 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "An easy-to-use, plugin-driven metadata collection framework to extract data from different sources and sink to any data catalog.",
     "homepage": "https://raystack.github.io/meteor/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/raystack/meteor/releases/download/v0.13.0/meteor_0.13.0_windows_amd64.zip",
-            "hash": "fa0fac1da387d34e62487e3367d7c5dd05a28eafaae06a14f46828f580358512"
+            "url": "https://github.com/raystack/meteor/releases/download/v0.14.0/meteor_0.14.0_windows_amd64.zip",
+            "hash": "07ef7d2bae36a0636517b50fb68d69b8cee6eefcfcabcbc07552e7ee9bc2f5d0"
         },
         "arm64": {
-            "url": "https://github.com/raystack/meteor/releases/download/v0.13.0/meteor_0.13.0_windows_arm64.zip",
-            "hash": "2dce97848582d7473a5160956b2f4439cfe8f0206ad9a46f01917197a3e04820"
+            "url": "https://github.com/raystack/meteor/releases/download/v0.14.0/meteor_0.14.0_windows_arm64.zip",
+            "hash": "ece3dda94c095ac71045d5a264d18831abadcc2713f7fbfa09abf65d739547ad"
         }
     },
     "bin": "meteor.exe",
