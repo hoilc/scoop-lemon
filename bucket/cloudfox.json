@@ -1,12 +1,12 @@
 {
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "Automating situational awareness for cloud penetration tests.",
     "homepage": "https://github.com/BishopFox/cloudfox",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BishopFox/cloudfox/releases/download/v2.0.3/cloudfox-windows-amd64.zip",
-            "hash": "a7c3aae40735ee9673473d529db5cfac2a9efe5a4566e9e709cac1e7c5cfee3f"
+            "url": "https://github.com/BishopFox/cloudfox/releases/download/v2.0.4/cloudfox-windows-amd64.zip",
+            "hash": "5b3dc53ec07d89a5a2167ee136548ae352816d21ae249a3ab54dd4ebf939d060"
         }
     },
     "extract_dir": "cloudfox",
