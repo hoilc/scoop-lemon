@@ -1,12 +1,12 @@
 {
-    "version": "1.152.4",
+    "version": "1.152.5",
     "description": "A command-line application that supports interacting with the Storj DCS network.",
     "homepage": "https://docs.storj.io/api-reference/uplink-cli",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/storj/storj/releases/download/v1.152.4/uplink_windows_amd64.zip",
-            "hash": "6f2a465e4940bb439e378159ddc913effb3f05c2d533ad77404a808de4ddef9b"
+            "url": "https://github.com/storj/storj/releases/download/v1.152.5/uplink_windows_amd64.zip",
+            "hash": "d7620515c23f416829cd3b78572f7f5f903a322847cab1114f1ea8c0784c3e0a"
         }
     },
     "bin": "uplink.exe",
