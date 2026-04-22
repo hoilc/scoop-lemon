@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/zhlynn/zsign/releases/download/v1.0.4/zsign-windows-x64.zip",
-            "hash": "10a435dd8f1227536bfa615359ab4512bd13b53f9f67254a1d05317acb01c7ba"
+            "hash": "eb12e900dada26c3929b3896075bf1fa504d7ef4c41b82dfd3a1040a77b72ab3"
         }
     },
     "bin": "zsign.exe",
