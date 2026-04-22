@@ -9,6 +9,10 @@
                 "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.0.1/windows-amd64-ffmpeg-over-ip-client.zip",
                 "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.0.1/windows-amd64-ffmpeg-over-ip-server.zip"
             ],
+            "extract_dir": [
+                "windows-amd64-ffmpeg-over-ip-client",
+                "windows-amd64-ffmpeg-over-ip-server"
+            ],
             "hash": [
                 "090754644ff52a2940d46f55dc5f50c5d554e4afb127ec6f0763f8ffdaca9313",
                 "61b0f1f56226841fc4495c9af66f2ab2beff9eaee69eb98fad5f59de9e0784e4"
