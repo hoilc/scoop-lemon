@@ -4,7 +4,7 @@
     "homepage": "https://www.helpandmanual.com/snipsvg/",
     "license": "Freeware",
     "url": "https://www.helpandmanual.com/download/snipsvg-setup.exe",
-    "hash": "a40e99fbf4abcd46aee22d36539b7e59076b56cfc63b3d23ac109a2597dbd420",
+    "hash": "8b88186b1ff276169ae29d3d1b08eee0009c085b10b90989c10221ac20b93f08",
     "architecture": {
         "64bit": {
             "pre_install": [
