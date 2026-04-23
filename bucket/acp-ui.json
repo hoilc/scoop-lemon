@@ -1,0 +1,32 @@
+{
+    "version": "0.1.10",
+    "description": "A modern, cross-platform desktop client for the Agent Client Protocol (ACP) — connect to any ACP-compatible AI agent (Claude, Codex, Copilot, Qwen, Gemini, OpenCode, OpenClaw and more)",
+    "homepage": "https://github.com/formulahendry/acp-ui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/formulahendry/acp-ui/releases/download/v0.1.10/acp-ui_0.1.10_x64-setup.exe#/dl.7z",
+            "hash": "da134c7efee0fd0c66e2972d190a4f5470a645364e141270c909f4bee5ab129c"
+        }
+    },
+    "shortcuts": [
+        [
+            "acp-ui.exe",
+            "ACP UI"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\acp-ui\", \"$env:LOCALAPPDATA\\formulahendry.acp-ui\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "ACP UI is NOT portable.",
+        "Settings are stored in '%APPDATA%\\acp-ui', and can be purged using 'scoop uninstall --purge acp-ui'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/formulahendry/acp-ui/releases/download/v$version/acp-ui_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
