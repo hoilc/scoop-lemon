@@ -1,0 +1,28 @@
+{
+    "version": "0.6.8857.6956-beta",
+    "description": "A calculator application for Windows developed for engineers.",
+    "homepage": "https://github.com/shapoco/calctus",
+    "license": "MIT",
+    "url": "https://github.com/shapoco/calctus/releases/download/v0.6.8857.6956-beta/calctus-v0.6.8857.6956-beta.zip",
+    "hash": "ce2ad836bb58637ead106b8ddb8441fba0457441aac89df4750e9b5da5701d7a",
+    "extract_dir": "calctus-v0.6.8857.6956-beta",
+    "shortcuts": [
+        [
+            "Calctus.exe",
+            "Calctus"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Settings.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\Settings.cfg\" -Value $null }",
+    "persist": [
+        "Settings.cfg",
+        "history"
+    ],
+    "checkver": {
+        "url": "https://github.com/shapoco/calctus/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "url": "https://github.com/shapoco/calctus/releases/download/v$version/calctus-v$version.zip",
+        "extract_dir": "calctus-v$version"
+    }
+}
