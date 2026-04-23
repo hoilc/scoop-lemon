@@ -1,12 +1,12 @@
 {
-    "version": "4.0.10",
+    "version": "4.1.1",
     "description": "Fork of the popular zip manipulation library found in the zlib distribution.",
     "homepage": "https://github.com/zlib-ng/minizip-ng",
     "license": "Zlib",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zlib-ng/minizip-ng/releases/download/4.0.10/minizip-ng-windows.zip",
-            "hash": "53c16c1712d54b6e02cceff168416916480c6491680e0119f9afb6e9746a173d"
+            "url": "https://github.com/zlib-ng/minizip-ng/releases/download/4.1.1/minizip-ng-windows.zip",
+            "hash": "03f5a6b699a778dfbac657d0bee0191462acfd7f43d22d9276c7f142375b04dc"
         }
     },
     "bin": [
