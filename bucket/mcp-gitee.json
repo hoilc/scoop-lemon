@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "description": "Gitee 的 MCP 服务器实现，它提供了一组与 Gitee 的 API 交互的工具，允许 AI 助手管理仓库、Issue、Pull Request 等",
+    "homepage": "https://gitee.com/oschina/mcp-gitee",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitee.com/oschina/mcp-gitee/releases/download/v1.0.0/mcp-gitee-windows-amd64.tar.gz",
+            "hash": "d2a3dcb2dfa0289984b90882ea6357539f69bfae44ccb3349fd22f8e0003272a"
+        }
+    },
+    "bin": "mcp-gitee.exe",
+    "pre_install": "Remove-Item \"$dir\\._*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://gitee.com/oschina/mcp-gitee/tags.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitee.com/oschina/mcp-gitee/releases/download/v$version/mcp-gitee-windows-amd64.tar.gz"
+            }
+        }
+    }
+}
