@@ -1,12 +1,12 @@
 {
-    "version": "1.17.2",
+    "version": "1.16.4",
     "description": "The Kyverno Command Line Interface (CLI) is designed to validate and test policy behavior to resources prior to adding them to a cluster.",
     "homepage": "https://kyverno.io/docs/kyverno-cli/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kyverno/kyverno/releases/download/v1.17.2/kyverno-cli_v1.17.2_windows_x86_64.zip",
-            "hash": "feb10bb16874ab79dbb25b236679b9b77d4304d07789bcde3175fac9133d5b34"
+            "url": "https://github.com/kyverno/kyverno/releases/download/v1.16.4/kyverno-cli_v1.16.4_windows_x86_64.zip",
+            "hash": "9176483336c0534541cc78f7c50e99c87861ae2adb8c8f7cc25cfdb7b6d58ae0"
         }
     },
     "bin": "kyverno.exe",
