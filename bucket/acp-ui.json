@@ -15,6 +15,7 @@
             "ACP UI"
         ]
     ],
+    "pre_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\acp-ui\", \"$env:LOCALAPPDATA\\formulahendry.acp-ui\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "ACP UI is NOT portable.",
