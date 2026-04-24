@@ -1,5 +1,5 @@
 {
-    "version": "2.9.7",
+    "version": "2.9.8",
     "description": "极速秒存的私人云盘，在电脑上轻松使用",
     "homepage": "https://mypikpak.com/",
     "license": "Proprietary",
@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "ca923c78b1430bb138fde885889e6b7f05e85831a8dd34ea97710565715b4dd9"
+            "hash": "ce6f0cd8699828c76f64c7db703582c67a45a8238db14d0677ff56634eaeb151"
         }
     },
     "shortcuts": [
