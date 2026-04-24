@@ -1,12 +1,12 @@
 {
-    "version": "0.46.12",
+    "version": "0.48.0",
     "description": "Server for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.",
     "homepage": "https://oxen.ai/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Oxen-AI/Oxen/releases/download/v0.46.12/oxen-server-windows-x86_64.exe.zip",
-            "hash": "43a58da9d29e8b8f556edc0813ed0d89dcabec877acf4544a7c2c79a3e65af76"
+            "url": "https://github.com/Oxen-AI/Oxen/releases/download/v0.48.0/oxen-server-windows-x86_64.exe.zip",
+            "hash": "15388e088fb8f48b3cff084cec8f4348f6264c62cb8d3fa953f8e9c478f04772"
         }
     },
     "bin": "oxen-server.exe",
