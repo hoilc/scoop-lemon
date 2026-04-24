@@ -1,16 +1,16 @@
 {
-    "version": "3.1.3",
+    "version": "3.1.4",
     "description": "跨平台剪贴板同步方案 / Cross-Platform Cipboard Syncing Solution",
     "homepage": "https://github.com/Jeric-X/SyncClipboard",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.3/SyncClipboard_win_x64_portable.zip",
-            "hash": "c9fdd878c6402c471aef21ab5bd4ee304ab5cb8439ad22a79a5bdcf629ce6a74"
+            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.4/SyncClipboard_win_x64_portable.zip",
+            "hash": "76654ff28913a186c63b3a273455cc52bf3285ab2c76f4dba8c487573d023fa8"
         },
         "arm64": {
-            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.3/SyncClipboard_win_arm64_portable.zip",
-            "hash": "e1d1c227d07396d131bf86a9237021ec43e4d380d92540ad4a374d82da52a92b"
+            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.4/SyncClipboard_win_arm64_portable.zip",
+            "hash": "d5d0ee86dbdd8d83bfe5d54f4b4f55fa236d214afb2fa0eb8ea7f41216a6b299"
         }
     },
     "shortcuts": [
