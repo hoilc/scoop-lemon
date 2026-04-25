@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/AmcacheParser",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/AmcacheParser.zip",
-    "hash": "334d03d26b1261646b06401bbb77e5fbe74bf0c4c636c2479b0f53cfb094ea81",
+    "hash": "863b8b2a2201178aff7a22c4662d3956cb6893d5dabd11d65cce0a11a4f4932b",
     "bin": "AmcacheParser.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
