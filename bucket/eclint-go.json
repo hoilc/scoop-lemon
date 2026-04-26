@@ -1,12 +1,12 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "A faster alternative to the JavaScript eclint (EditorConfig linter) written in Go.",
     "homepage": "https://gitlab.com/greut/eclint",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/greut/eclint/-/releases/v0.5.1/downloads/eclint_Windows_x86_64.tar.gz",
-            "hash": "3d572e76c7607851e1fe3651cc1fa82affeabf3d69a1ea1beac39d7777fff45a"
+            "url": "https://gitlab.com/greut/eclint/-/releases/v0.5.2/downloads/eclint_Windows_x86_64.tar.gz",
+            "hash": "5e94a6c2e94338615524869f8257870c33180883cb527fd61cfd040f3e06cf84"
         }
     },
     "bin": "eclint.exe",
