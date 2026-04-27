@@ -1,12 +1,12 @@
 {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "A VPN client and server implementation using the QUIC protocol with support for pre-quantum, hybrid and post-quantum cryptography.",
     "homepage": "https://github.com/quincy-rs/quincy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/quincy-rs/quincy/releases/download/2.0.2/quincy-2.0.2-windows-x86_64.zip",
-            "hash": "326ae2ebaf751bb228b3a0b1f76bc38b2e40106d5f2e306259e28a3184b5dbef"
+            "url": "https://github.com/quincy-rs/quincy/releases/download/2.1.0/quincy-2.1.0-windows-x86_64.zip",
+            "hash": "cf29115cc1bfa721b381e06a261a93d226a8f24403733d13440a10f3fc7148df"
         }
     },
     "shortcuts": [
