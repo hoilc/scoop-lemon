@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/Srum",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/SrumECmd.zip",
-    "hash": "a972a5dbe6a02846b4fe73675812d6b4adc3403ca3c8f39c23d99aad93351aec",
+    "hash": "f04a3a76de57896270704d7c657cddd53e58a8e5a0b40bdfeca423602e175fca",
     "bin": "SrumECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
