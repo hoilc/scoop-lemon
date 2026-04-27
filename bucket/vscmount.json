@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/VSCMount.zip",
-            "hash": "6b263ea122a8fe3404a7bff68c7ac316c69f9d9f5c093bf439e06bcea0ffc8b5"
+            "hash": "1fb59fa2b98053d65cb5b838154bee6781cdc21e9bac5fb03d6d9dde91fc0b22"
         }
     },
     "bin": "VSCMount.exe",
