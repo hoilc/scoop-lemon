@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/SDBExplorer.zip",
-            "hash": "22d7f8ea565f3b29a701a9542094534e4ca190a0d6e7fd95caefaabeb0e04568"
+            "hash": "c3ca7453f659bb0981bf2a573672b74bfffee5985e752cec35bda3abc20080de"
         }
     },
     "extract_dir": "SDBExplorer",
