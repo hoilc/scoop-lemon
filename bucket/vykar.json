@@ -1,12 +1,12 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A fast, encrypted, deduplicated backups in Rust — with friendly YAML config, a desktop GUI, and support for S3, custom REST and SFTP storage.",
     "homepage": "https://vykar.borgbase.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/borgbase/vykar/releases/download/v0.13.0/vykar-v0.13.0-x86_64-pc-windows-msvc.zip",
-            "hash": "45899be57b57a2d022272727644e08de523a4b8464a65af23a30d513e0320933"
+            "url": "https://github.com/borgbase/vykar/releases/download/v0.14.0/vykar-v0.14.0-x86_64-pc-windows-msvc.zip",
+            "hash": "02c4a29a50b3390b67c8acd8e4e782bc298fc1918189b54fe7d381e555d21d2f"
         }
     },
     "bin": "vykar.exe",
