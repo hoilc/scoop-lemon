@@ -1,12 +1,12 @@
 {
-    "version": "0.3.4",
+    "version": "0.4.1",
     "description": "A command line tool to backup your histories of different browsers into one place.",
     "homepage": "https://github.com/1History/1History",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/onehistory-0.3.4/onehistory-0.3.4-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "b1a3a19753db410a82015ad2d4222679258b4e56328652481d882088dd35eb39"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/onehistory-0.4.1/onehistory-0.4.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "0f7d85c394fd9f088e057dc98b8dee79f0b4fbd4a61ae7979aeee4bd3eea4b91"
         }
     },
     "bin": "onehistory.exe",
