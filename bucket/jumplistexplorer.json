@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip",
-            "hash": "7c01f2ab828e4a3da3c06f2f3ab904ea2e266f2efd82f7b83ba6c872e95b4f62"
+            "hash": "68c06cd82e71c004f1982f337c20c022b522fbe64cf1f00f76473f10b235f7cb"
         }
     },
     "extract_dir": "JumpListExplorer",
