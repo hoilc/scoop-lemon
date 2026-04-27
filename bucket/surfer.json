@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A waveform viewer with a focus on a snappy usable interface, and extensibility.",
     "homepage": "https://gitlab.com/surfer-project/surfer",
     "license": "EUPL-1.2",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/api/v4/projects/42073614/packages/generic/surfer/v0.6.0/surfer_win_v0.6.0.zip",
-            "hash": "83a659e5d5c354a8b99f801da66c299cf1f85d0a52cc32e8510ee344422f57f3"
+            "url": "https://gitlab.com/api/v4/projects/42073614/packages/generic/surfer/v0.7.0/surfer_win_v0.7.0.zip",
+            "hash": "4fbb0ad93e1aa958f6944c036a8d01b36b267a96e7f904683317235cd041fc24"
         }
     },
     "bin": [
