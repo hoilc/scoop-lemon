@@ -1,12 +1,12 @@
 {
-    "version": "2.4.2",
+    "version": "2.4.3",
     "description": "Blazingly-fast, rock-solid, local application development with Kubernetes.",
     "homepage": "https://gefyra.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gefyrahq/gefyra/releases/download/2.4.2/gefyra-2.4.2-windows-x86_64.zip",
-            "hash": "f03e893d59328ba0cb9e053681f8b27e7b480acdd1e429351240bfa1299d0791"
+            "url": "https://github.com/gefyrahq/gefyra/releases/download/2.4.3/gefyra-2.4.3-windows-x86_64.zip",
+            "hash": "252d81a34b90cc40485c49061df69a23d94d3502b89521291ffc244e13756016"
         }
     },
     "extract_dir": "dist-exe",
