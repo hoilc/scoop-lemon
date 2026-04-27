@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/Sum",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/SumECmd.zip",
-    "hash": "103807e1960813e5c3510cda7f1d788a578a1717a0e481f8a92eaee9ceac37f1",
+    "hash": "9ecbb01fcee703659ebf8d19b4bf54d3b096052d394eb23a565601f9510a0ded",
     "bin": "SumECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
