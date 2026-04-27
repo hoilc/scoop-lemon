@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/MFTExplorer.zip",
-            "hash": "43fbcf955417acc200939935f9f691051f8a47eb662efdd1827c7ee5c97b89a8"
+            "hash": "6266f057b3b8243931ff6533b0d72885f3d53976c44f2db531372117ca54ade9"
         }
     },
     "extract_dir": "MFTExplorer",
