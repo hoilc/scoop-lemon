@@ -1,10 +1,10 @@
 {
-    "version": "14.0",
+    "version": "14.2",
     "description": "(Free version) A tabbed remote desktop client (terminal services client).",
     "homepage": "https://www.syvik.com/multidesk/index.en.html",
     "license": "Donationware",
-    "url": "https://www.syvik.com/multidesk/multidesk_14_0.free.en.zip",
-    "hash": "fe2fe2b5a44482389c015405b7ba110f9e910b6749cad8557fb7a893ba4b1828",
+    "url": "https://www.syvik.com/multidesk/multidesk_14_2.free.en.zip",
+    "hash": "8516cf08f9500ffb2342544c7f6748130aad6222d1b17bcb6e558394c46d8ea9",
     "architecture": {
         "64bit": {
             "pre_install": [
