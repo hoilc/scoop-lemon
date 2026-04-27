@@ -1,18 +1,18 @@
 {
-    "version": "2.6.1.dev70+g222941406",
+    "version": "2.6.1.dev72+gbe7844b15",
     "description": "(Pre-release Version) Reverse differential backup tool, over a network or locally.",
     "homepage": "https://github.com/rdiff-backup/rdiff-backup",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-2.6.1.dev70+unreleased.g222941406.win64exe.zip",
-            "extract_dir": "rdiff-backup-2.6.1.dev70+unreleased.g222941406-64",
-            "hash": "723454d13047fd688a22a0314e619fb39a826c0cdbf4181f633796f56e6b8af4"
+            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-2.6.1.dev72+unreleased.gbe7844b15.win64exe.zip",
+            "extract_dir": "rdiff-backup-2.6.1.dev72+unreleased.gbe7844b15-64",
+            "hash": "d347c346b5c3d2ce1cdd58eac58ef52aa14eef9f0b9152791f374469051b7e85"
         },
         "32bit": {
-            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-2.6.1.dev70+unreleased.g222941406.win32exe.zip",
-            "extract_dir": "rdiff-backup-2.6.1.dev70+unreleased.g222941406-32",
-            "hash": "bb4a1ab1f6a9ffc28abef97028063f7418e906e28090b72810e0481b8e70ece4"
+            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/weekly/rdiff-backup-2.6.1.dev72+unreleased.gbe7844b15.win32exe.zip",
+            "extract_dir": "rdiff-backup-2.6.1.dev72+unreleased.gbe7844b15-32",
+            "hash": "aec54d2776607129fd6eb54947169456275b42a4a96d73b79422692459222ac3"
         }
     },
     "bin": "rdiff-backup.exe",
