@@ -1,5 +1,5 @@
 {
-    "version": "27.20.1200",
+    "version": "27.20.1300",
     "description": "A fast, powerful, pretty, and easy-to-use file manager for Windows",
     "homepage": "https://www.xyplorer.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.xyplorer.com/LicenseXY.txt"
     },
     "url": "https://www.xyplorer.com/download/xyplorer_full_noinstall.zip",
-    "hash": "46c4b211d2610676ee640306cd1372a17af57dc6741f93ceb69681da85b93d59",
+    "hash": "12d8e96e18d8b1fef831e9f0af8bc79a818bc7173adb4c8543f804fd7274cd3f",
     "bin": "XYplorer.exe",
     "shortcuts": [
         [
