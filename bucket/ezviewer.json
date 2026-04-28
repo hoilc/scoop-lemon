@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "2026.5.0",
     "description": "A standalone, zero dependency viewer for .doc, .docx, .xls, .xlsx, .txt, .log, .rtf, .otd, .htm, .html, .mht, .csv, and .pdf.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/EZViewer.zip",
-            "hash": "35edaf1c2d7d344905d1fafb37f0b2c7742cd71f90600de99449d66776f3d9a0"
+            "hash": "ebe7074f907be1a74f995530248332d03fd35bab648f1204a59adc1bdf126e9e"
         }
     },
     "extract_dir": "EZViewer",
