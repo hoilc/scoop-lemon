@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "2026.5.0",
     "description": "A GUI for browsing Windows shellbags data.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip",
-            "hash": "750c2b298945ec871f134804f39334bb764bbfb1bb7d0615e5f08a8ae2694a43"
+            "hash": "56a5adbcb7649ca4b3f8740ea285fe814aea4cc8f185eafbf6a0051ece9b09ce"
         }
     },
     "extract_dir": "ShellBagsExplorer",
