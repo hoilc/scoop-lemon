@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "2026.5.0",
     "description": "Process SRUDB.dat and (optionally) SOFTWARE hive for network, process, and energy info.",
     "homepage": "https://github.com/EricZimmerman/Srum",
     "license": "MIT",
