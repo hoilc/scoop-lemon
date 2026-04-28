@@ -1,10 +1,10 @@
 {
-    "version": "1.5.2",
+    "version": "2026.5.0",
     "description": "An Amcache.hve parser with lots of extra features.",
     "homepage": "https://github.com/EricZimmerman/AmcacheParser",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/AmcacheParser.zip",
-    "hash": "863b8b2a2201178aff7a22c4662d3956cb6893d5dabd11d65cce0a11a4f4932b",
+    "hash": "1c4391d52c36dd2b74981bbab7f5a65fcbd41a57bdd5ade67239a03a84953b17",
     "bin": "AmcacheParser.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
