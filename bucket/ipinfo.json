@@ -1,20 +1,20 @@
 {
-    "version": "3.3.1",
+    "version": "3.3.2",
     "description": "Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data).",
     "homepage": "https://github.com/ipinfo/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.1/ipinfo_3.3.1_windows_amd64.zip",
-            "hash": "fd72d65840c4f5e15767cf30d4aea8bd584e3e049fb81f0c8227c82c203b810f"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.2/ipinfo_3.3.2_windows_amd64.zip",
+            "hash": "4dd90321cf023b941f8b53db4554cb83d8437879e890b9ecb2a7ca492b0556d3"
         },
         "32bit": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.1/ipinfo_3.3.1_windows_386.zip",
-            "hash": "991954e6881715ba0788478309ad733ae3ec8588701021d38994c23b1fba8c78"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.2/ipinfo_3.3.2_windows_386.zip",
+            "hash": "b5320d3b92f1075db5a1e0934aea23bcf2700fce4ed6f2256753da158450b4a9"
         },
         "arm64": {
-            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.1/ipinfo_3.3.1_windows_arm64.zip",
-            "hash": "961e1555c23f9713bd1452a883c276281faeaa791ce1730264b7d3c3a41b99e0"
+            "url": "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.2/ipinfo_3.3.2_windows_arm64.zip",
+            "hash": "798739d37f03d6a9f0870d37d2c92dcbce6903be42e803414d1c61cfe4b0dc16"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'ipinfo_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ipinfo.exe'",
