@@ -1,12 +1,12 @@
 {
-    "version": "1.3.2",
+    "version": "1.4.0",
     "description": "A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying.",
     "homepage": "https://github.com/six-ddc/plow",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/six-ddc/plow/releases/download/v1.3.2/plow_1.3.2_windows_amd64.tar.gz",
-            "hash": "70fa1ba437c0f0eff2a546611fe589c8ae3e3eb442794b415d8732ead0b2cfa2"
+            "url": "https://github.com/six-ddc/plow/releases/download/v1.4.0/plow_1.4.0_windows_amd64.tar.gz",
+            "hash": "b617dc04c8aef6039fa249119c668a207145a8350b99b45a6257c7769ce19967"
         }
     },
     "bin": "plow.exe",
