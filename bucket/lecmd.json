@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1",
+    "version": "2026.5.0",
     "description": "LECmd, or Lnk Explorer Command line edition, is a tool to decode all available information contained in shortcut files found on Windows operating systems.",
     "homepage": "https://github.com/EricZimmerman/LECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/LECmd.zip",
-    "hash": "b2b52cdcf3ef897d174648811c48aebc36e2a1ecf5280742912028e7f8db36bc",
+    "hash": "35ebfd97c2bf2bf29f58a45863f230b8c755b621de01ac5f600614ee572fe3b7",
     "bin": "LECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
