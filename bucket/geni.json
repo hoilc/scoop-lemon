@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "description": "A standalone database migration tool which works for Postgres, MariaDB, MySQL, Sqlite and LibSQL(Turso).",
     "homepage": "https://github.com/emilpriver/geni",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/emilpriver/geni/releases/download/v1.3.0/geni-windows-amd64#/geni.exe",
-            "hash": "c78840b8c330558413a096b83bef7f022cc0a9b118f8c420b0fd6584410a2a43"
+            "url": "https://github.com/emilpriver/geni/releases/download/v1.3.1/geni-windows-amd64#/geni.exe",
+            "hash": "8a645a63d0db6fb2934c7ab20addedb11ce338da8e93b600d7df6e83704a5e52"
         }
     },
     "bin": "geni.exe",
