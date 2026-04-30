@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "A powerful tool that helps you to test your data.",
     "homepage": "https://justcat.it",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://docs.justcat.it/releases/cat-cli-2.3.0-setup.exe",
-            "hash": "9880522cbe025974abdb0ad23526d674c04c972e748dea5d10b0faabaeb313b9"
+            "url": "https://docs.justcat.it/releases/cat-cli-2.4.0-setup.exe",
+            "hash": "c807da4e6d033f7556a99e5f31109f6be1da1a049959dac2ef724656b9b7f6fc"
         }
     },
     "innosetup": true,
