@@ -1,20 +1,20 @@
 {
-    "version": "0.25.0",
+    "version": "0.26.0",
     "description": "A command line utility to facilitate terraforming your existing Cloudflare resources.",
     "homepage": "https://github.com/cloudflare/cf-terraforming",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_windows_amd64.tar.gz",
-            "hash": "b83b0b22775cf09ded6a07a38bf077c0488a5d8b4820d48e65bfe1a298c32eae"
+            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_windows_amd64.tar.gz",
+            "hash": "892a5acd530b931401d0fe82ada7eb9dae341a5b66391257fd90be7c158f6135"
         },
         "32bit": {
-            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_windows_386.tar.gz",
-            "hash": "a17e275c9dc0b1d5989424428eafaedc788f43697838b90b447d1c3864d8c896"
+            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_windows_386.tar.gz",
+            "hash": "a5fcaced26f32b74d5dd97c52c19fe3c2e484c90f3113c6aaa1f781475421860"
         },
         "arm64": {
-            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_windows_arm64.tar.gz",
-            "hash": "f3cc78bf3271a6a0f8404f8efa917cfe82eeaa5ba07da90b78ee8a3766687782"
+            "url": "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_windows_arm64.tar.gz",
+            "hash": "a55537c63a3614cdf23b46425669c9a6bd7a5bc26c0066dd2b1d6713fb40dbb6"
         }
     },
     "bin": "cf-terraforming.exe",
