@@ -1,16 +1,16 @@
 {
-    "version": "0.13.1",
+    "version": "0.14.0",
     "description": "A security layer for Git repositories.",
     "homepage": "https://gittuf.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gittuf/gittuf/releases/download/v0.13.1/gittuf_0.13.1_windows_amd64.exe#/gittuf.exe",
-            "hash": "9b17c1bce3176ecf941df9fafe49ce1a4666b17a5d90685f2e92cebac50a33e4"
+            "url": "https://github.com/gittuf/gittuf/releases/download/v0.14.0/gittuf_0.14.0_windows_amd64.exe#/gittuf.exe",
+            "hash": "bc443bcfbe94d62425cd5194bae9b4285bade7fd95354442e6cc02224d263fe1"
         },
         "arm64": {
-            "url": "https://github.com/gittuf/gittuf/releases/download/v0.13.1/gittuf_0.13.1_windows_arm64.exe#/gittuf.exe",
-            "hash": "36f03bde5101bf4282232f806e2e1c4323487b8535f142456f7652f30b38b794"
+            "url": "https://github.com/gittuf/gittuf/releases/download/v0.14.0/gittuf_0.14.0_windows_arm64.exe#/gittuf.exe",
+            "hash": "d5613f0427342a07188f637f5a1cf8d1fefdee09e7dc9c362aae795ee0386501"
         }
     },
     "bin": "gittuf.exe",
