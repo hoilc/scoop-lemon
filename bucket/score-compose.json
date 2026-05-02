@@ -1,12 +1,12 @@
 {
-    "version": "0.37.0",
+    "version": "0.38.0",
     "description": "A reference implementation of the Score specification for Docker compose, primarily used for local development.",
     "homepage": "https://github.com/score-spec/score-compose",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/score-spec/score-compose/releases/download/0.37.0/score-compose_0.37.0_windows_amd64.zip",
-            "hash": "4592315b054c5fe2d4683d2a015eead7c9648afc08cf1be7f18a16df8c1ab85d"
+            "url": "https://github.com/score-spec/score-compose/releases/download/0.38.0/score-compose_0.38.0_windows_amd64.zip",
+            "hash": "5947d012a3daa6448dc447ddace89d175a1ad41abf267ca7152ae974f3d556cb"
         }
     },
     "bin": "score-compose.exe",
