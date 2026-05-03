@@ -1,12 +1,12 @@
 {
-    "version": "210",
+    "version": "211",
     "description": "A light weight, transparent proxy server that provides automatic model swapping to llama.cpp's server.",
     "homepage": "https://github.com/mostlygeek/llama-swap",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mostlygeek/llama-swap/releases/download/v210/llama-swap_210_windows_amd64.zip",
-            "hash": "4f51554de3894ddf18ce20a888dc04ab329071ef465bff846597d5cca10b6fc0"
+            "url": "https://github.com/mostlygeek/llama-swap/releases/download/v211/llama-swap_211_windows_amd64.zip",
+            "hash": "a04e8cb46cb9bd8aad4c07eabd1d46b61caf89f4b89aac543ddaed8f81113a56"
         }
     },
     "bin": "llama-swap.exe",
