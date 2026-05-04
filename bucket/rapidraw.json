@@ -1,12 +1,12 @@
 {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
     "homepage": "https://github.com/CyberTimon/RapidRAW",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.4/01_RapidRAW_v1.5.4_windows_x64.exe#/dl.7z",
-            "hash": "35c260a8fc01e50815c497eb0b1fbdd626d240569291993b97cf78a718ea6685"
+            "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows_x64.exe#/dl.7z",
+            "hash": "e782cdc4decbbb4ca55c856afdaeed2b23f244840234a4a980e996cf968e0880"
         }
     },
     "shortcuts": [
