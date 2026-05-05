@@ -1,12 +1,12 @@
 {
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "Wasm Shell (wash) is the comprehensive command-line tool for developing, building, and managing WebAssembly components.",
     "homepage": "https://wasmcloud.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v2.0.6/wash-x86_64-pc-windows-msvc#/wash.exe",
-            "hash": "9a6a0f147d5a12fbbe5b56f3cd0f3940264396082ac13746c5cc59e18d539fb4"
+            "url": "https://github.com/wasmCloud/wasmCloud/releases/download/v2.0.7/wash-x86_64-pc-windows-msvc#/wash.exe",
+            "hash": "1b4ea0a819b021876f9133255c559b64e9084399398f99ff97933e23ddcb9834"
         }
     },
     "bin": "wash.exe",
