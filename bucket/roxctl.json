@@ -1,12 +1,12 @@
 {
-    "version": "4.9.5",
+    "version": "4.9.6",
     "description": "A command-line interface (CLI) for running commands on Red Hat Advanced Cluster Security for Kubernetes (RHACS).",
     "homepage": "https://www.stackrox.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.openshift.com/pub/rhacs/assets/4.9.5/bin/Windows/roxctl.exe",
-            "hash": "f4ab1a051ccbd1ef3442395309016971710d708accdf3bb0ab624db5e1e0545c"
+            "url": "https://mirror.openshift.com/pub/rhacs/assets/4.9.6/bin/Windows/roxctl.exe",
+            "hash": "7bd8c37b8c99951fc46aa7955d2b496ca12f1505eb8e1f54432d03bb1e390ed4"
         }
     },
     "bin": "roxctl.exe",
