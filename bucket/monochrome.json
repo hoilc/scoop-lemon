@@ -1,10 +1,10 @@
 {
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "An IRC client intended for long-time IRC users.",
     "homepage": "https://www.foobar2000.org/other/monochrome?realm=main&path=software/monochrome",
     "license": "GPL-2.0-only",
-    "url": "https://www.foobar2000.org/downloads/monochrome-1.4.5.zip",
-    "hash": "dc46640fe8647286ce149e72fffd72dd1045781d4fc78bfbc3c3af46137d441c",
+    "url": "https://www.foobar2000.org/downloads/monochrome-1.4.6.zip",
+    "hash": "644e1429e25757326f3f51d2718ae6ec9e2b5da2ec778f214f30d202826159d6",
     "shortcuts": [
         [
             "monochrome.exe",
