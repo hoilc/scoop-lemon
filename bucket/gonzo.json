@@ -1,12 +1,12 @@
 {
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "A powerful, real-time log analysis terminal UI inspired by k9s.",
     "homepage": "https://github.com/control-theory/gonzo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/control-theory/gonzo/releases/download/v0.3.2/gonzo-0.3.2-windows-amd64.zip",
-            "hash": "f457a1e3d2545f321f4c7387c0430f538477dba6b69dc262d512ff49484bb531"
+            "url": "https://github.com/control-theory/gonzo/releases/download/v0.4.0/gonzo-0.4.0-windows-amd64.zip",
+            "hash": "e00f6ffde5aa721ffc03c72ade4cb1a5817af15af940dbbe2bfff57ec919c48f"
         }
     },
     "bin": "gonzo.exe",
