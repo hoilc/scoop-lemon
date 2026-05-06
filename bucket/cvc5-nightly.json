@@ -1,5 +1,5 @@
 {
-    "version": "2026-05-05-e998cac",
+    "version": "2026-05-06-1a459cf",
     "description": "(Nightly Build) An efficient open-source automatic theorem prover for Satisfiability Modulo Theories (SMT) problems.",
     "homepage": "https://cvc5.github.io/",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cvc5/cvc5/releases/download/latest/cvc5-Win64-x86_64-static-2026-05-05-e998cac.zip",
+            "url": "https://github.com/cvc5/cvc5/releases/download/latest/cvc5-Win64-x86_64-static-2026-05-06-1a459cf.zip",
             "extract_dir": "cvc5-Win64-x86_64-static",
-            "hash": "73d89ae06d7f424429f5984d30308e06b5db2083fa4945a994f54d1904836c03"
+            "hash": "c14d3e4a5f6b71f8d93fa94749cc0a99d0b7f399c9a98d0cd10bff06dcc23107"
         }
     },
     "bin": "bin\\cvc5.exe",
