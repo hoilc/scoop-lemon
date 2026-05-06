@@ -15,8 +15,7 @@
     },
     "bin": [
         "picoclaw.exe",
-        "picoclaw-launcher.exe",
-        "picoclaw-launcher-tui.exe"
+        "picoclaw-launcher.exe"
     ],
     "shortcuts": [
         [
