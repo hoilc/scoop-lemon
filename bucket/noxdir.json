@@ -1,20 +1,20 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A high-performance command-line tool for visualizing and exploring your file system usage.",
     "homepage": "https://github.com/crumbyte/noxdir",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.0/noxdir-v1.2.0-Windows_x86_64.zip",
-            "hash": "59100e027b0beff4c897fe47905d07fce5b418e510fcff179b64d50c031a4485"
+            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.1/noxdir-v1.2.1-Windows_x86_64.zip",
+            "hash": "aafd2f85ecb411d0c42073e59c9d3ea1df61c28367af0d2af8aa78c00d45b84c"
         },
         "32bit": {
-            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.0/noxdir-v1.2.0-Windows_i386.zip",
-            "hash": "50121a758ec2ec0df64456d4df4f4742f9390efcee29ad66300104cc2b65f368"
+            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.1/noxdir-v1.2.1-Windows_i386.zip",
+            "hash": "ef37880c774c643bcc28d87b6374098f53d85f80548416ba2674c53d8813e3ac"
         },
         "arm64": {
-            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.0/noxdir-v1.2.0-Windows_arm64.zip",
-            "hash": "69628c89abffcd06c64bf0bab6f69ac697c7fa0c8226eac5a4a810e9af8e3cb3"
+            "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.1/noxdir-v1.2.1-Windows_arm64.zip",
+            "hash": "6d10474589e24b779d488f37abb05a7e2e69f84eca258ab045bd463eb4c342bc"
         }
     },
     "bin": "noxdir.exe",
