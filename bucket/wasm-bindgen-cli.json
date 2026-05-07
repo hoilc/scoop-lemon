@@ -1,13 +1,13 @@
 {
-    "version": "0.2.120",
+    "version": "0.2.121",
     "description": "A CLI tool that facilitate high-level interactions between Wasm modules and JavaScript.",
     "homepage": "https://wasm-bindgen.github.io/wasm-bindgen/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rustwasm/wasm-bindgen/releases/download/0.2.120/wasm-bindgen-0.2.120-x86_64-pc-windows-msvc.tar.gz",
-            "extract_dir": "wasm-bindgen-0.2.120-x86_64-pc-windows-msvc",
-            "hash": "d8ebacbfdbee70ffdcda0bbfefd99a645aee35ba31ba77dfa3b083f031674977"
+            "url": "https://github.com/rustwasm/wasm-bindgen/releases/download/0.2.121/wasm-bindgen-0.2.121-x86_64-pc-windows-msvc.tar.gz",
+            "extract_dir": "wasm-bindgen-0.2.121-x86_64-pc-windows-msvc",
+            "hash": "643af23c391340a1069b22a34806c0a0969389ad8fe088160c08d7c53d1b79c4"
         }
     },
     "bin": [
