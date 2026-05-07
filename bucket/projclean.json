@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "Globally find and clean projects cache/build for saving disk space or making backups/rsync easier.",
     "homepage": "https://github.com/sigoden/projclean",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigoden/projclean/releases/download/v0.8.0/projclean-v0.8.0-x86_64-pc-windows-msvc.zip",
-            "hash": "ea5c578a564e9c25c9771495d827aade20b08460b594a8fe2c829df6b5f5d948"
+            "url": "https://github.com/sigoden/projclean/releases/download/v0.9.0/projclean-v0.9.0-x86_64-pc-windows-msvc.zip",
+            "hash": "796b292a39fa864106eb658518caf1f53c8dabd1a4d6cf5deec5ab1d5448c183"
         }
     },
     "bin": "projclean.exe",
