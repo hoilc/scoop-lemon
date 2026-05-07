@@ -1,12 +1,12 @@
 {
-    "version": "4.1.6",
+    "version": "4.2.0",
     "description": "A minimalist image viewer based on Leaflet.js and Electron.",
     "homepage": "https://github.com/sprout2000/leafview",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sprout2000/leafview/releases/download/v4.1.6/LeafView-4.1.6-win32-x64.zip",
-            "hash": "0caa0683b6e5c641e810d3339e45fa85c3092163250d5bb4ed1eb8a55555ed8f"
+            "url": "https://github.com/sprout2000/leafview/releases/download/v4.2.0/LeafView-4.2.0-win32-x64.zip",
+            "hash": "c744d047681101d6dc7ca0b141f7fa97b2e6fd941d07313c17524a7ef70dca04"
         }
     },
     "bin": "LeafView.exe",
