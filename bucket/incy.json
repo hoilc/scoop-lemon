@@ -22,7 +22,8 @@
         "Settings are stored in '%APPDATA%\\incy', and can be purged using 'scoop uninstall --purge incy'."
     ],
     "checkver": {
-        "github": "https://github.com/INCY-DEV/incy-platforms"
+        "url": "https://github.com/INCY-DEV/incy-platforms/releases.atom",
+        "regex": "Repository/\\d+/desktop-v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
