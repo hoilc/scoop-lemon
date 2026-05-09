@@ -1,16 +1,16 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Distributed, git-backed graph issue tracker for AI agents.",
     "homepage": "https://github.com/steveyegge/beads",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/steveyegge/beads/releases/download/v1.0.3/beads_1.0.3_windows_amd64.zip",
-            "hash": "96e377419e2a127fc53fb6ba15bde20b0778e58ef267247cd7715852ee25b02a"
+            "url": "https://github.com/steveyegge/beads/releases/download/v1.0.4/beads_1.0.4_windows_amd64.zip",
+            "hash": "7bf67e6dc965813278ee651dff3a75f410f02f5b669ac295bb9e08d7bc7b39a3"
         },
         "arm64": {
-            "url": "https://github.com/steveyegge/beads/releases/download/v1.0.3/beads_1.0.3_windows_arm64.zip",
-            "hash": "bc29aa2adc2c6d031d1510f8b02d66865dd6142a27867a2640c14b8e0ded729f"
+            "url": "https://github.com/steveyegge/beads/releases/download/v1.0.4/beads_1.0.4_windows_arm64.zip",
+            "hash": "09aecc19407d4b7515ca31e0dab82b35576d9a3ec45f230261c662859ebd5b9c"
         }
     },
     "bin": "bd.exe",
