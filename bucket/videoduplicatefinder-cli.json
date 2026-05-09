@@ -1,12 +1,12 @@
 {
-    "version": "3.0-390-092b700",
+    "version": "3.0-391-c8ded64",
     "description": "(CLI Version) A cross-platform software to find duplicated video (and image) files on hard disk based on similarity.",
     "homepage": "https://github.com/0x90d/videoduplicatefinder",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/CLI-win-x64.zip",
-            "hash": "3c7a3858cfce55881507f1b52995275a14e07f2aea5d179f8061089da30a09fa"
+            "hash": "89e63d70bbab3cf4cc93f10281fe5c22c5deef193c8dc8e0419fd2e23d0f04a6"
         }
     },
     "bin": "vdf-cli.exe",
