@@ -1,12 +1,12 @@
 {
-    "version": "2.2.1",
+    "version": "2.3.0",
     "description": "A Digital Voice mode for HF radio that allows any SSB radio to be used for low-bit-rate digital voice.",
     "homepage": "https://freedv.org/",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drowe67/freedv-gui/releases/download/v2.2.1/FreeDV-2.2.1-windows-x86_64.exe#/dl.7z",
-            "hash": "cf73280353cc136db34d458d7c4981bfdbf82df54efaf2fe054a9b4af765c26a"
+            "url": "https://github.com/drowe67/freedv-gui/releases/download/v2.3.0/FreeDV-2.3.0-windows-x86_64.exe#/dl.7z",
+            "hash": "43f0fc412ca8a93d204f0dbe5083af58e17411f4fba2513a5f79c25cd5da8e2b"
         }
     },
     "shortcuts": [
