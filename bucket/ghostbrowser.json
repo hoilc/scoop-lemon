@@ -9,14 +9,17 @@
             "hash": "63f82d889c4ac11104cadd1f0d0d1354bbf9ca2b83ac56df62568c14edc67bd2"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\browser.7z\" -DestinationPath \"$dir\" -ExtractDir \"Browser-bin\" -Removal",
-        "if ($env:CI -eq \"true\") { return }",
-        "if (!(installed 'chrome-plus' $global)) { error \"\nTo ensure Ghost Browser is properly portabilized, please install 'lemon/chrome-plus' first, then reinstall 'lemon/ghostbrowser'.\" ; Exit }",
-        "Write-Host \"\nCopying Chrome++ DLL...\"",
-        "Copy-Item \"$(appdir 'chrome-plus' $global)\\current\\version.dll\" \"$dir\\\" -Force",
-        "if (!(Test-Path \"$persist_dir\\chrome++.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\chrome++.ini\" -Value '[general]','data_dir=%app%\\Data','cache_dir=%app%\\Cache' }"
-    ],
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\browser.7z\" -DestinationPath \"$dir\" -ExtractDir \"Browser-bin\" -Removal",
+            "if (!(Test-Path \"$persist_dir\\chrome++.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\chrome++.ini\" -Value '[general]','data_dir=%app%\\Data','cache_dir=%app%\\Cache' }",
+            "if ($env:CI -eq \"true\") { return }",
+            "Write-Host \"\"",
+            "if (!(installed 'chrome-plus' $global)) { error \"To ensure Ghost Browser is properly portabilized, please install 'lemon/chrome-plus' first, then reinstall 'lemon/ghostbrowser'.\" ; Exit }",
+            "Write-Host \"Copying Chrome++ DLL...\"",
+            "Copy-Item \"$(appdir 'chrome-plus' $global)\\current\\version.dll\" \"$dir\\\" -Force"
+        ]
+    },
     "shortcuts": [
         [
             "ghost.exe",
@@ -29,7 +32,7 @@
         "chrome++.ini"
     ],
     "checkver": {
-        "url": "http://ghostbrowser.s3.amazonaws.com/updates/windows/manifest_x64",
+        "url": "https://ghostbrowser.s3.amazonaws.com/updates/windows/manifest_x64",
         "regex": "^([\\d.]+)"
     },
     "autoupdate": {
