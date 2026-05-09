@@ -1,0 +1,45 @@
+{
+    "version": "2.4.1.2",
+    "description": "Ghost Browser helps you focus on the task at hand and get stuff done in a private clutter free environment.",
+    "homepage": "https://ghostbrowser.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.ghostbrowser.com/GhostBrowser-2.4.1.2_x64.exe#/dl.7z",
+            "hash": "63f82d889c4ac11104cadd1f0d0d1354bbf9ca2b83ac56df62568c14edc67bd2"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\browser.7z\" -DestinationPath \"$dir\" -ExtractDir \"Browser-bin\" -Removal",
+            "if (!(Test-Path \"$persist_dir\\chrome++.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\chrome++.ini\" -Value '[general]','data_dir=%app%\\Data','cache_dir=%app%\\Cache' }",
+            "if ($env:CI -eq \"true\") { return }",
+            "Write-Host \"\"",
+            "if (!(installed 'chrome-plus' $global)) { error \"To ensure Ghost Browser is properly portabilized, please install 'lemon/chrome-plus' first, then reinstall 'lemon/ghostbrowser'.\" ; Exit }",
+            "Write-Host \"Copying Chrome++ DLL...\"",
+            "Copy-Item \"$(appdir 'chrome-plus' $global)\\current\\version.dll\" \"$dir\\\" -Force"
+        ]
+    },
+    "shortcuts": [
+        [
+            "ghost.exe",
+            "Ghost Browser"
+        ]
+    ],
+    "persist": [
+        "Data",
+        "Cache",
+        "chrome++.ini"
+    ],
+    "checkver": {
+        "url": "https://ghostbrowser.s3.amazonaws.com/updates/windows/manifest_x64",
+        "regex": "^([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.ghostbrowser.com/GhostBrowser-$version_x64.exe#/dl.7z"
+            }
+        }
+    }
+}
