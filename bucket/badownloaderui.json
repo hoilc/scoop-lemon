@@ -1,30 +1,32 @@
 {
-    "version": "4.9.1",
+    "version": "4.12.0",
     "description": "批量下载B站收藏夹中视频音频",
     "homepage": "https://github.com/HIM049/BADownloaderUI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIM049/BADownloaderUI/releases/download/4.9.1/BADownloaderUI-4.9.1-win.exe#/BADownloaderUI.exe",
-            "hash": "607953762fb8321eb72c4e54a55ef2765d81e51be9c17a66ef8b4f1e8ab5b660"
+            "url": "https://github.com/HIM049/BADownloaderUI/releases/download/4.12.0/BADownloaderUI-4.12.0.exe#/BADownloaderUI.exe",
+            "hash": "2109e58a081c79877e54d9d605e1ba693ede1c29c3267466b8ef7c605876c383"
         }
     },
     "shortcuts": [
         [
             "BADownloaderUI.exe",
-            "Bili Audio Downloader"
+            "Bili Audio Downloader UI"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\config.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.json\" -Value '{\"config_version\": 9999}' }",
+    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include 'config.json' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include 'config.json' | Move-Item -Force -Destination \"$persist_dir\"",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\BADownloaderUI.exe\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "persist": [
         "Download",
-        "config.json"
+        "Cache"
     ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HIM049/BADownloaderUI/releases/download/$version/BADownloaderUI-$version-win.exe#/BADownloaderUI.exe"
+                "url": "https://github.com/HIM049/BADownloaderUI/releases/download/$version/BADownloaderUI-$version.exe#/BADownloaderUI.exe"
             }
         }
     }
