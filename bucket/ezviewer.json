@@ -20,7 +20,7 @@
         "dotnet-runtime": "windowsdesktop-runtime"
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "EZViewer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
     },
     "autoupdate": {

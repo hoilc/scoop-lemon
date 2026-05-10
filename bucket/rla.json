@@ -7,7 +7,7 @@
     "hash": "8bf1fcbd304c5fe749e463e51d5913ed75669655122185731ad41a1e5b270838",
     "bin": "rla.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "rla.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

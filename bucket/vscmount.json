@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/VSCMount.zip",
-            "hash": "1fb59fa2b98053d65cb5b838154bee6781cdc21e9bac5fb03d6d9dde91fc0b22"
+            "hash": "33f375b78c2fbb27901a63ceed1c79fa1f23ee9abda80d9371abe163c434b8e0"
         }
     },
     "bin": "VSCMount.exe",
@@ -14,7 +14,7 @@
         "dotnet-runtime": "windowsdesktop-runtime"
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "VSCMount.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
     },
     "autoupdate": {

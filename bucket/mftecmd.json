@@ -4,10 +4,10 @@
     "homepage": "https://github.com/EricZimmerman/MFTECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/MFTECmd.zip",
-    "hash": "79a7c178ea84f3ce0719773401961dbf7b4f28dc0b092bb4173edeac57d4c7a2",
+    "hash": "24a52554fc22489283fbf37991af8c99231d7547a4376b040e02400d039e7bca",
     "bin": "MFTECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "MFTECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

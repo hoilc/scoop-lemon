@@ -4,10 +4,10 @@
     "homepage": "https://github.com/EricZimmerman/LECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/LECmd.zip",
-    "hash": "35ebfd97c2bf2bf29f58a45863f230b8c755b621de01ac5f600614ee572fe3b7",
+    "hash": "108978991d13bca15cde95a2ec2c2a23f175171d62de802e394b54933a190450",
     "bin": "LECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "LECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip",
-            "hash": "68c06cd82e71c004f1982f337c20c022b522fbe64cf1f00f76473f10b235f7cb"
+            "hash": "953c2d91c948e48f1f0731817033bd89b877f8dd163720d8c1d686ac6214d737"
         }
     },
     "extract_dir": "JumpListExplorer",
@@ -20,7 +20,7 @@
         "dotnet-runtime": "windowsdesktop-runtime"
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "JumpList ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
     },
     "autoupdate": {

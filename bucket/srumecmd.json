@@ -7,7 +7,7 @@
     "hash": "f04a3a76de57896270704d7c657cddd53e58a8e5a0b40bdfeca423602e175fca",
     "bin": "SrumECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "SrumECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

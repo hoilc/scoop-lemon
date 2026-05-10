@@ -4,10 +4,10 @@
     "homepage": "https://github.com/EricZimmerman/JLECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/JLECmd.zip",
-    "hash": "037200f604b061f26274bb6c12c2a287d52da593dd345a3098ff8162a23697a6",
+    "hash": "2ba82662812e2671f44251bf6c1ba404c3346d722203e688d141fcd4e2fef8ff",
     "bin": "JLECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "JLECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

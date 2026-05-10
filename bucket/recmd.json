@@ -4,11 +4,11 @@
     "homepage": "https://github.com/EricZimmerman/RECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/RECmd.zip",
-    "hash": "9ac20dd3038d6d02eb02dd3753a7760473117421b4a6dd304a447c589be29ff3",
+    "hash": "cca6d08f02b22ee8e53fe1993b7bfc6eeaf030449595368672ea6739dc8c3687",
     "extract_dir": "RECmd",
     "bin": "RECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "RECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

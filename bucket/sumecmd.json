@@ -7,7 +7,7 @@
     "hash": "9ecbb01fcee703659ebf8d19b4bf54d3b096052d394eb23a565601f9510a0ded",
     "bin": "SumECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "SumECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

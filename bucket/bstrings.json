@@ -7,7 +7,7 @@
     "hash": "16e3608650330a36602ea54449d94adbef58e25debfc533ec92b80cec90f5738",
     "bin": "bstrings.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "bstrings.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

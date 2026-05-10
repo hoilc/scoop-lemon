@@ -4,10 +4,10 @@
     "homepage": "https://github.com/EricZimmerman/RecentFileCacheParser",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/RecentFileCacheParser.zip",
-    "hash": "221b9262a5d991a22804f554cdb75eabf998a31a83af4cd977a6b60e2e3c48e7",
+    "hash": "8d5511d5b97a0dff069ef5071300617bdf387d69929f4c392d8c9c5b6fcff10a",
     "bin": "RecentFileCacheParser.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "RecentFileCacheParser.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

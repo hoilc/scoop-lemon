@@ -4,11 +4,11 @@
     "homepage": "https://github.com/EricZimmerman/evtx",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/EvtxECmd.zip",
-    "hash": "27dbf7b5508c50846471b3e0c534cfac85bea222010c88d1190b8dab53a20cc1",
+    "hash": "b6ffe3aa32fe357b5f966164a4c4048c7fdfb0d025e58fafc202250d729c2b29",
     "extract_dir": "EvtxeCmd",
     "bin": "EvtxECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "EvtxECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

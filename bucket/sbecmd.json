@@ -7,7 +7,7 @@
     "hash": "ad746f5d4c58deb83ba3345f8f6b7b9b7a90332be2af6490ecdbf7f537fc91ef",
     "bin": "SBECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "SBECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

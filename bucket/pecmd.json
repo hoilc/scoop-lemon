@@ -4,10 +4,10 @@
     "homepage": "https://github.com/EricZimmerman/PECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/PECmd.zip",
-    "hash": "c03b76946f751372d6dc323486aa5e4a008e8c23c560f18071c9d834f733197d",
+    "hash": "3abf43c49777c868d279b68c07c3de971dd1232eb05f38a31a195ebc6e3225d7",
     "bin": "PECmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "PECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {

@@ -7,7 +7,7 @@
     "hash": "ee6bc80095287bc75333896a3f69cc3ea01a294503df65276b25398ce2ecfbec",
     "bin": "RBCmd.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "RBCmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {
