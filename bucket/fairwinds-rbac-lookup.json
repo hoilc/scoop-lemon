@@ -1,0 +1,31 @@
+{
+    "version": "0.10.3",
+    "description": "Easily find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster.",
+    "homepage": "https://github.com/FairwindsOps/rbac-lookup",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/FairwindsOps/rbac-lookup/releases/download/v0.10.3/rbac-lookup_0.10.3_Windows_x86_64.tar.gz",
+            "hash": "429f7bdea648fcd74b0caafe49b54098eb2e1d6115269cbcac84f5b1a202cc98"
+        },
+        "arm64": {
+            "url": "https://github.com/FairwindsOps/rbac-lookup/releases/download/v0.10.3/rbac-lookup_0.10.3_Windows_arm64.tar.gz",
+            "hash": "ad4a2946995b6bf57304883339167234a440c26c22e25e87cc0f1818d0435ee9"
+        }
+    },
+    "bin": "rbac-lookup.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/FairwindsOps/rbac-lookup/releases/download/v$version/rbac-lookup_$version_Windows_x86_64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/FairwindsOps/rbac-lookup/releases/download/v$version/rbac-lookup_$version_Windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
