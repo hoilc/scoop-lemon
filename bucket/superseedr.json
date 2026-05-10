@@ -1,12 +1,12 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A BitTorrent Client in your Terminal.",
     "homepage": "https://github.com/Jagalite/superseedr",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jagalite/superseedr/releases/download/v1.0.6/superseedr_v1.0.6_x64_en-US.msi",
-            "hash": "77e7a342168a660f049865a95dbf623645b591bf0f5ad409be225356c722fe02"
+            "url": "https://github.com/Jagalite/superseedr/releases/download/v1.0.7/superseedr_v1.0.7_x64_en-US.msi",
+            "hash": "8b5027b47f02d5c5eea93d282a493d2f0861bde67f062ded9182b4398fe658b9"
         }
     },
     "extract_dir": "PFiles\\superseedr\\bin",
