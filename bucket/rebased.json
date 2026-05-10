@@ -1,12 +1,12 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.13",
     "description": "An open-source remake of the short-lived JetBrains Git client.",
     "homepage": "https://github.com/DetachHead/rebased",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DetachHead/rebased/releases/download/1.0.8/ideaIC-261.22158.SNAPSHOT.exe#/dl.7z",
-            "hash": "9bb923ded29c0c42b51255a63c2f1907c162fd8c7d43362c4fec89c84441ad34"
+            "url": "https://github.com/DetachHead/rebased/releases/download/1.0.13/rebased.exe#/dl.7z",
+            "hash": "ee26986e37afb68c63bc1c4f306ab173bba8edbede812f68d74cc3b8313f3385"
         }
     },
     "shortcuts": [
@@ -15,14 +15,11 @@
             "Rebased"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/DetachHead/rebased/releases/latest",
-        "regex": "/releases/download/([^/]+?)/ideaIC-(?<idea>[^\"]+?).exe\""
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DetachHead/rebased/releases/download/$version/ideaIC-$matchIdea.exe#/dl.7z"
+                "url": "https://github.com/DetachHead/rebased/releases/download/$version/rebased.exe#/dl.7z"
             }
         }
     }
