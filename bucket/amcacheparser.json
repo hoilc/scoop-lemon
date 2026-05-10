@@ -7,7 +7,7 @@
     "hash": "1c4391d52c36dd2b74981bbab7f5a65fcbd41a57bdd5ade67239a03a84953b17",
     "bin": "AmcacheParser.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "AmcacheParser.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {
