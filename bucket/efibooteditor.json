@@ -1,13 +1,13 @@
 {
-    "version": "1.5.6",
+    "version": "1.5.7",
     "description": "A boot editor for (U)EFI based systems.",
     "homepage": "https://github.com/Neverous/efibooteditor",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Neverous/efibooteditor/releases/download/v1.5.6/EFIBootEditor-v1.5.6-windows-2022-qt-6.10.2-MSVC.zip",
-            "extract_dir": "EFIBootEditor-v1.5.6-windows-2022-qt-6.10.2",
-            "hash": "fa002b81ff33c0696e2dbbe8a1f52fdf21a64782d4eefba0c252338043cf52b7"
+            "url": "https://github.com/Neverous/efibooteditor/releases/download/v1.5.7/EFIBootEditor-v1.5.7-windows-2022-qt-6.2.4-MSVC.zip",
+            "extract_dir": "EFIBootEditor-v1.5.7-windows-2022-qt-6.2.4",
+            "hash": "1ba2b2e5c0c800fa05d0f066cc5a08ab8a4211e5695e9f6c5723cf3488d4be61"
         }
     },
     "shortcuts": [
@@ -20,8 +20,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Neverous/efibooteditor/releases/download/v$version/EFIBootEditor-v$version-windows-2022-qt-6.10.2-MSVC.zip",
-                "extract_dir": "EFIBootEditor-v$version-windows-2022-qt-6.10.2"
+                "url": "https://github.com/Neverous/efibooteditor/releases/download/v$version/EFIBootEditor-v$version-windows-2022-qt-6.2.4-MSVC.zip",
+                "extract_dir": "EFIBootEditor-v$version-windows-2022-qt-6.2.4"
             }
         }
     }
