@@ -1,0 +1,38 @@
+{
+    "version": "1.9.0",
+    "description": "The implementation of Model Context Protocol (MCP) server for VictoriaLogs.",
+    "homepage": "https://github.com/VictoriaMetrics/mcp-victorialogs",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v1.9.0/mcp-victorialogs_Windows_x86_64.zip",
+            "hash": "35118a458f2a95aa3b88dd66b67dd2999786a1f4dc2876e3e536f13a12957ff4"
+        },
+        "32bit": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v1.9.0/mcp-victorialogs_Windows_i386.zip",
+            "hash": "8f5b8a4831c6c580a4839b355a359b9ad308aae3a2072384d17143b36dd44db1"
+        },
+        "arm64": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v1.9.0/mcp-victorialogs_Windows_arm64.zip",
+            "hash": "f29d4f76a6197562d2d08cae7170c2d7f4eebe6ebf2c377d503dff404ff06c72"
+        }
+    },
+    "bin": "mcp-victorialogs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v$version/mcp-victorialogs_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v$version/mcp-victorialogs_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victorialogs/releases/download/v$version/mcp-victorialogs_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
