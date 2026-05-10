@@ -1,20 +1,20 @@
 {
-    "version": "0.3.1001",
+    "version": "0.3.1020",
     "description": "A language for writing HTML user interfaces in Go.",
     "homepage": "https://templ.guide/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/a-h/templ/releases/download/v0.3.1001/templ_Windows_x86_64.tar.gz",
-            "hash": "d48ca193b9a25ee8232fb6f520721e55eba81e2b7978c817158380d9355b5e4d"
+            "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Windows_x86_64.tar.gz",
+            "hash": "12a82ef5827c19c1d66f7e13973995a68846aa3efe770c37fb5546c7d0d78718"
         },
         "32bit": {
-            "url": "https://github.com/a-h/templ/releases/download/v0.3.1001/templ_Windows_i386.tar.gz",
-            "hash": "62a45bfb189d7c5f642301b4804b8bf35f566e6f7dae9ec45f40642a75aab070"
+            "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Windows_i386.tar.gz",
+            "hash": "d2425ed9f67c6cb2d2dc31a43d6b0adb5d24fd5aac7baef8c34d08e261f7700c"
         },
         "arm64": {
-            "url": "https://github.com/a-h/templ/releases/download/v0.3.1001/templ_Windows_arm64.tar.gz",
-            "hash": "6daed88b3eb024938291be41d3813bd4683addb1dc2e1989ee006cbc4244d988"
+            "url": "https://github.com/a-h/templ/releases/download/v0.3.1020/templ_Windows_arm64.tar.gz",
+            "hash": "292cc4250a33a65127fa9030af2b070c7ed3566eeb9ea692562ff5c35f43ffb3"
         }
     },
     "bin": "templ.exe",
