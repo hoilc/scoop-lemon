@@ -19,7 +19,8 @@
     ],
     "pre_install": "Get-ChildItem \"$dir\" 'vm*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
     "checkver": {
-        "github": "https://github.com/VictoriaMetrics/VictoriaMetrics"
+        "url": "https://docs.victoriametrics.com/quick-start/",
+        "regex": "victoriametrics/victoria-metrics:v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

@@ -14,7 +14,8 @@
     "persist": "victoria-metrics-data",
     "notes": "Example: victoria-metrics.exe -storageDataPath=$dir\\victoria-metrics-data\\",
     "checkver": {
-        "github": "https://github.com/VictoriaMetrics/VictoriaMetrics"
+        "url": "https://docs.victoriametrics.com/quick-start/",
+        "regex": "victoriametrics/victoria-metrics:v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
