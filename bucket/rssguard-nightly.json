@@ -1,18 +1,15 @@
 {
-    "version": "dev-20260419-b841f7f31",
+    "version": "dev-20260510-38b1c4dde",
     "description": "(Development Builds) A simple, light and easy-to-use RSS/ATOM feed aggregator developed using Qt framework which supports online feed synchronization.",
     "homepage": "https://github.com/martinrotter/rssguard/releases/tag/devbuild5",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-b841f7f31-qt6-win10.7z",
-            "hash": "d4241fac4f7efe4bb0ecd118318060e0dfc843aef5df70af51af3688281651ef"
+            "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-38b1c4dde-web-qt6-win10.7z",
+            "hash": "cf5594cddef70be580c0a648ef3043f9a68b5a9afd88f05bd1340c17ced3400a"
         }
     },
-    "persist": [
-        "data4",
-        "data5"
-    ],
+    "persist": "data5",
     "shortcuts": [
         [
             "rssguard.exe",
@@ -21,13 +18,13 @@
     ],
     "checkver": {
         "url": "https://github.com/martinrotter/rssguard/releases/expanded_assets/devbuild5",
-        "regex": "(?sm)rssguard-(?<major>[\\d\\w.]+)-(?<commit>[\\d\\w.]+)-qt6-win10\\.7z.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "regex": "(?sm)rssguard-(?<major>[\\d\\w.]+)-(?<commit>[\\d\\w.]+)-web-qt6-win10\\.7z.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
         "replace": "${major}-${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-$matchMajor-$matchCommit-qt6-win10.7z"
+                "url": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-$matchMajor-$matchCommit-web-qt6-win10.7z"
             }
         }
     }
