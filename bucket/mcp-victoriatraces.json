@@ -1,0 +1,38 @@
+{
+    "version": "1.5.0",
+    "description": "The implementation of Model Context Protocol (MCP) server for VictoriaTraces.",
+    "homepage": "https://github.com/VictoriaMetrics/mcp-victoriatraces",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v1.5.0/mcp-victoriatraces_Windows_x86_64.zip",
+            "hash": "316251b2ba4a9422e65d66bee5c7b771f8ec6bf1ea37074b15732bc474f148b1"
+        },
+        "32bit": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v1.5.0/mcp-victoriatraces_Windows_i386.zip",
+            "hash": "4c1900a413bc1dcbb290b72634fef5ced34339273cd236fc46f439451aee4baa"
+        },
+        "arm64": {
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v1.5.0/mcp-victoriatraces_Windows_arm64.zip",
+            "hash": "788441ceeeeb213c7495689e2b53ee55c1f9d1836ec5f3e623cf2cabbe188e99"
+        }
+    },
+    "bin": "mcp-victoriatraces.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v$version/mcp-victoriatraces_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v$version/mcp-victoriatraces_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/VictoriaMetrics/mcp-victoriatraces/releases/download/v$version/mcp-victoriatraces_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
