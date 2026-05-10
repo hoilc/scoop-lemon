@@ -1,13 +1,13 @@
 {
-    "version": "0.5.6",
+    "version": "0.6.1",
     "description": "cat command for documents / images / videos and more.",
     "homepage": "https://github.com/Skardyy/mcat",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Skardyy/mcat/releases/download/v0.5.6/mcat-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "mcat-x86_64-pc-windows-msvc",
-            "hash": "4175f254f4892a2993d78ae973b5b24d97fe171fc51a3ce801f28efc1421c375"
+            "url": "https://github.com/Skardyy/mcat/releases/download/v0.6.1/mcat-v0.6.1-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "mcat-v0.6.1-x86_64-pc-windows-msvc",
+            "hash": "373c8484e2bdbf459f7cc4baa3d2e848e18bd563a71d4b2d1760b520c64be8ee"
         }
     },
     "bin": "mcat.exe",
@@ -15,7 +15,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Skardyy/mcat/releases/download/v$version/mcat-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/Skardyy/mcat/releases/download/v$version/mcat-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "mcat-v$version-x86_64-pc-windows-msvc"
             }
         },
         "hash": {
