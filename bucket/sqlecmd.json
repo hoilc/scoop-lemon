@@ -1,10 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "2026.5.0",
     "description": "Find and process SQLite files according to your needs with maps.",
     "homepage": "https://github.com/EricZimmerman/SQLECmd",
     "license": "MIT",
-    "url": "https://download.ericzimmermanstools.com/net6/SQLECmd.zip",
-    "hash": "44ef687f0fbe7bb8f1cb331dade50d580baf9c5d77175df15b626d3546d131dc",
+    "url": "https://download.ericzimmermanstools.com/net9/SQLECmd.zip",
+    "hash": "2024b6395e2b2cd724ef6dd8f7608a9586e5de43206bb822e76eefc891578892",
     "extract_dir": "SQLECmd",
     "bin": "SQLECmd.exe",
     "checkver": {
@@ -12,6 +12,6 @@
         "regex": "SQLECmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {
-        "url": "https://download.ericzimmermanstools.com/net6/SQLECmd.zip"
+        "url": "https://download.ericzimmermanstools.com/net9/SQLECmd.zip"
     }
 }
