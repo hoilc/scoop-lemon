@@ -1,10 +1,10 @@
 {
-    "version": "3.3.0",
+    "version": "4.0.0-alpha-1",
     "description": "Apache Tika is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
     "homepage": "https://tika.apache.org/",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/3.3.0/tika-app-3.3.0.jar#/tika-app.jar",
-    "hash": "sha1:f4574eaa701ac29e2337bd224957603518c924a3",
+    "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/4.0.0-alpha-1/tika-app-4.0.0-alpha-1.jar#/tika-app.jar",
+    "hash": "sha1:14d297d95a14c6e9825bbc3e51508bb7874a6074",
     "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\tika-app.bat\" -Value '@start javaw.exe -jar \"%~dp0tika-app.jar\" --gui'",
     "bin": [
         [
@@ -28,7 +28,7 @@
     },
     "checkver": {
         "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/maven-metadata.xml",
-        "regex": "<latest>([\\d.]+)</latest>"
+        "regex": "<latest>(.+?)</latest>"
     },
     "autoupdate": {
         "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/$version/tika-app-$version.jar#/tika-app.jar",
