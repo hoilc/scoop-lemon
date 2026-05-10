@@ -1,16 +1,16 @@
 {
-    "version": "1.2.34",
+    "version": "1.2.35",
     "description": "A utility to detect various technology for a given IP address.",
     "homepage": "https://github.com/projectdiscovery/cdncheck",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.34/cdncheck_1.2.34_windows_amd64.zip",
-            "hash": "dcfb1f8dd7eabc8c7d276451d56fead56e15ba43f7cf605b4bb781ec2123428e"
+            "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.35/cdncheck_1.2.35_windows_amd64.zip",
+            "hash": "7c9a0c5b026fd6efc77318c1cfc7932a0faa240d45f679a24cdad86cc9768124"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.34/cdncheck_1.2.34_windows_386.zip",
-            "hash": "3eaf30fe7c0a61e51d5a35660a5390d018dac7ad9aeba97392d31a825bb3cb87"
+            "url": "https://github.com/projectdiscovery/cdncheck/releases/download/v1.2.35/cdncheck_1.2.35_windows_386.zip",
+            "hash": "a73dbb747ded6361c6b749c37e37dc56f5be094623ef31c373488e3fbf3d747b"
         }
     },
     "bin": "cdncheck.exe",
