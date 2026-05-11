@@ -1,16 +1,16 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "A simple WireGuard proxy with minimal overhead for WireGuard traffic.",
     "homepage": "https://github.com/database64128/swgp-go",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/database64128/swgp-go/releases/download/v1.9.0/swgp-go-v1.9.0-windows-x86-64-v3.tar.zst",
-            "hash": "faccb779d85ba211f18c44a8f5aec998beb125a34cfc03d3f3fb7cf579ab9f97"
+            "url": "https://github.com/database64128/swgp-go/releases/download/v1.10.0/swgp-go-v1.10.0-windows-x86-64-v3.tar.zst",
+            "hash": "33a8cd1248be325c1d91a2694f1f5024c8695041e1237394a09c7dc634ae74b2"
         },
         "arm64": {
-            "url": "https://github.com/database64128/swgp-go/releases/download/v1.9.0/swgp-go-v1.9.0-windows-arm64.tar.zst",
-            "hash": "48a7755c59f59225a0196002f66db58d72da285c7809cde433a23b6d478a12c2"
+            "url": "https://github.com/database64128/swgp-go/releases/download/v1.10.0/swgp-go-v1.10.0-windows-arm64.tar.zst",
+            "hash": "dc36d4bafbb68fc25d00535c196bf7bd54ebc9f11fc782b2516e11875a308684"
         }
     },
     "bin": "swgp-go.exe",
