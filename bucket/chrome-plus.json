@@ -1,10 +1,10 @@
 {
-    "version": "1.16.0",
+    "version": "1.16.1",
     "description": "Chrome++ Next is a DLL hijack that enables full Chrome portability and tab enhancements.",
     "homepage": "https://github.com/Bush2021/chrome_plus",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Bush2021/chrome_plus/releases/download/1.16.0/Chrome++_v1.16.0_x86_x64_arm64.7z",
-    "hash": "47654f47166b14d471ef08afe176148f44f5a88582879e28b5109a46f401eb0c",
+    "url": "https://github.com/Bush2021/chrome_plus/releases/download/1.16.1/Chrome++_v1.16.1_x86_x64_arm64.7z",
+    "hash": "54b2310eeef21a880bb4a2eaed296a5e888fcbfcd9c6f3d96b139264cdcc470f",
     "architecture": {
         "64bit": {
             "extract_dir": "x64\\App"
