@@ -1,0 +1,33 @@
+{
+    "version": "1.2.0",
+    "description": "面向多账号隔离、代理绑定和本地环境管理的指纹浏览器",
+    "homepage": "https://github.com/black-ant/Ant-Browser",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/black-ant/Ant-Browser/releases/download/V1.2.0/AntBrowser-Setup-1.2.0.exe#/dl.7z",
+            "hash": "6b49874ec43349cce834d31cd16260a70225708d579c5fe8e2b28e53f0e63f64"
+        }
+    },
+    "shortcuts": [
+        [
+            "ant-chrome.exe",
+            "Ant Browser"
+        ]
+    ],
+    "persist": [
+        "config.yaml",
+        "chrome",
+        "data"
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\ant-chrome.exe\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/black-ant/Ant-Browser/releases/download/V$version/AntBrowser-Setup-$version.exe#/dl.7z"
+            }
+        }
+    }
+}
