@@ -2,7 +2,7 @@
     "version": "2.6.9",
     "description": "A lightweight, minimalist Markdown viewer and text editor built for productivity.",
     "homepage": "https://markpad.dev/",
-    "license": " BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
             "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.6.9/Markpad_2.6.9_x64.exe#/Markpad.exe",
