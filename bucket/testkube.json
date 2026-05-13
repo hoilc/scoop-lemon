@@ -1,5 +1,5 @@
 {
-    "version": "2.9.3",
+    "version": "2.9.4",
     "description": "Kubernetes-native testing framework for test execution and orchestration.",
     "homepage": "https://testkube.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubeshop/testkube/releases/download/2.9.3/testkube_2.9.3_Windows_x86_64.tar.gz",
-            "hash": "ba26925d6e57866e1a53fa54d1dee4117741a6d88d50995c69aa6606d190d5ec"
+            "url": "https://github.com/kubeshop/testkube/releases/download/2.9.4/testkube_2.9.4_Windows_x86_64.tar.gz",
+            "hash": "b68e28cb7d24ed2066d2bf18aac427bc9b058619bff385e494a331137565572e"
         },
         "arm64": {
-            "url": "https://github.com/kubeshop/testkube/releases/download/2.9.3/testkube_2.9.3_Windows_arm64.tar.gz",
-            "hash": "64a7ecdd4eb1474cb94eb4ca27a1a30406e0ed15ea1963d4a0b25533daa23519"
+            "url": "https://github.com/kubeshop/testkube/releases/download/2.9.4/testkube_2.9.4_Windows_arm64.tar.gz",
+            "hash": "410b4b5c8e64b67bf14e157a7c8f0fd94589a9c671f7acc0544723fdf7ded3d6"
         }
     },
     "bin": [
