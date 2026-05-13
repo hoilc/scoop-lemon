@@ -1,0 +1,31 @@
+{
+    "version": "0.5.5",
+    "description": "A lightweight database client with support for MySQL, PostgreSQL, Redis, MongoDB, DuckDB, ClickHouse, SQL Server, and more.",
+    "homepage": "https://github.com/t8y2/dbx",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.5/DBX_0.5.5_x64-portable.zip",
+            "hash": "ff51582574f9686ea9fbfd7fc8233390c67f2fc13b7f1239bd80d8b1fa43bb96"
+        }
+    },
+    "shortcuts": [
+        [
+            "DBX.exe",
+            "DBX"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.dbx.app\", \"$env:LOCALAPPDATA\\com.dbx.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "DBX is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.dbx.app', and can be purged using 'scoop uninstall --purge dbx'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/t8y2/dbx/releases/download/v$version/DBX_$version_x64-portable.zip"
+            }
+        }
+    }
+}
