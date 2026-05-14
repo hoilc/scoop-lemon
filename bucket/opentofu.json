@@ -1,16 +1,16 @@
 {
-    "version": "1.11.8",
+    "version": "1.12.0",
     "description": "An open-source infrastructure as code tool.",
     "homepage": "https://opentofu.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/opentofu/opentofu/releases/download/v1.11.8/tofu_1.11.8_windows_amd64.zip",
-            "hash": "1b3ddb13993cc4bdc95ad744bbd81f244b6e0f57d7c44af7c272eaf3e0f2e64a"
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.0/tofu_1.12.0_windows_amd64.zip",
+            "hash": "7253abf6ce9c0e88e0cc188c5c883e02353b6c5ffcf2125e6c307348ca223df0"
         },
         "32bit": {
-            "url": "https://github.com/opentofu/opentofu/releases/download/v1.11.8/tofu_1.11.8_windows_386.zip",
-            "hash": "dd5d45092d200ec540ae49c167678dc31979448c8a04e6206d93024cac721f1e"
+            "url": "https://github.com/opentofu/opentofu/releases/download/v1.12.0/tofu_1.12.0_windows_386.zip",
+            "hash": "30be3a5f017bee124183bf9c493c1f0509f181cd73aae1518cf7b5fb3b6eab50"
         }
     },
     "bin": "tofu.exe",
