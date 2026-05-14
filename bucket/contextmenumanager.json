@@ -1,0 +1,27 @@
+{
+    "version": "4.0.0.6",
+    "description": "Context Menu Manager is a program to manage the Windows right-click context menu with support of Windows 7 - 11.",
+    "homepage": "https://github.com/Jack251970/ContextMenuManager",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/4.0.0.6/ContextMenuManager.exe",
+            "hash": "df10c663cc4df10a8d7ad3a2d9fa8a36b6f5968e29a2038ee7116e04d70b9ff7"
+        }
+    },
+    "shortcuts": [
+        [
+            "ContextMenuManager.exe",
+            "Context Menu Manager"
+        ]
+    ],
+    "persist": "Config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/$version/ContextMenuManager.exe"
+            }
+        }
+    }
+}
