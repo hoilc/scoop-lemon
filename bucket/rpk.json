@@ -1,16 +1,16 @@
 {
-    "version": "26.1.7",
+    "version": "26.1.8",
     "description": "Redpanda Keeper (rpk) is a single binary application that provides a way to interact with your Redpanda clusters from the command line.",
     "homepage": "https://docs.redpanda.com/current/get-started/rpk/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/redpanda-data/redpanda/releases/download/v26.1.7/rpk-windows-amd64.zip",
-            "hash": "ae397304b338e641f04969a8776f0c71b83956cfaaa0f246c116f642c95030f0"
+            "url": "https://github.com/redpanda-data/redpanda/releases/download/v26.1.8/rpk-windows-amd64.zip",
+            "hash": "ab1379f9dc962a813f0cb4ae9884fe24a0f01e5fc50421c857d5cfdad6552bcf"
         },
         "arm64": {
-            "url": "https://github.com/redpanda-data/redpanda/releases/download/v26.1.7/rpk-windows-arm64.zip",
-            "hash": "34fe173f375fb62de046a631edd039b3dc6ef66ea2c2f5667780ff1a07781432"
+            "url": "https://github.com/redpanda-data/redpanda/releases/download/v26.1.8/rpk-windows-arm64.zip",
+            "hash": "6e7e2589f8a47e16e85d78d7e8bb28e7fe2520cb8e19770734f248d326f84f96"
         }
     },
     "bin": "rpk.exe",
