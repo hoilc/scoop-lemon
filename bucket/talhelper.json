@@ -1,12 +1,12 @@
 {
-    "version": "3.1.9",
+    "version": "3.1.10",
     "description": "A tool to help creating Talos kubernetes cluster.",
     "homepage": "https://budimanjojo.github.io/talhelper",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/budimanjojo/talhelper/releases/download/v3.1.9/talhelper_windows_amd64.tar.gz",
-            "hash": "d3142831b91fc97eb02afd63269056d96ec114bc49d909497b6121e6c7135ba9"
+            "url": "https://github.com/budimanjojo/talhelper/releases/download/v3.1.10/talhelper_windows_amd64.tar.gz",
+            "hash": "092e12cd232929b6d589d67a6eb0e4217ab421c5dcb9fd22595cb0f3be04a826"
         }
     },
     "bin": "talhelper.exe",
