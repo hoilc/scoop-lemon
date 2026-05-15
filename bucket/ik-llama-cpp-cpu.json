@@ -1,12 +1,12 @@
 {
-    "version": "b4738-298cbb6",
+    "version": "b4744-8d7891f",
     "description": "(Thireus's Build / CPU AVX2) ik_llama.cpp is a fork of llama.cpp with better CPU and hybrid GPU/CPU performance.",
     "homepage": "https://github.com/ikawrakow/ik_llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4738-298cbb6/ik_llama-main-b4738-298cbb6-bin-win-cpu-x64-avx2.zip",
-            "hash": "0e976f48a7c6b3af9261b7b2e1a0ff2238af11afa008107ba18eb9d7a654abf3"
+            "url": "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4744-8d7891f/ik_llama-main-b4744-8d7891f-bin-win-cpu-x64-avx2.zip",
+            "hash": "d46fc0426842b4f28e0dff8e12b6396495bbb2952c95713e7f649f6ea09133b0"
         }
     },
     "bin": [
