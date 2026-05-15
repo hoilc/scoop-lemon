@@ -1,12 +1,12 @@
 {
-    "version": "2.3.5",
+    "version": "3.0.0",
     "description": "HelixDB is an open-source graph-vector database built from scratch in Rust.",
     "homepage": "https://helix-db.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HelixDB/helix-db/releases/download/v2.3.5/helix-x86_64-pc-windows-msvc.exe#/helix.exe",
-            "hash": "eec54d23b25051205bc60caaf2db4a0ba778913cfcb562e240985cecc331169d"
+            "url": "https://github.com/HelixDB/helix-db/releases/download/v3.0.0/helix-x86_64-pc-windows-msvc.exe#/helix.exe",
+            "hash": "cafea082b12d9c78f1822b1e99c2e68367ed6c4a3b08a800476721fe1da2071e"
         }
     },
     "bin": "helix.exe",
