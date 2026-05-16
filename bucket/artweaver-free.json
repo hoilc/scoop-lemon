@@ -1,10 +1,10 @@
 {
-    "version": "8.1.4",
+    "version": "8.1.5",
     "description": "A full-featured painting tool with a huge set of predefined realistic brushes to paint creatively or just experiment.",
     "homepage": "https://www.artweaver.de/en",
     "license": "Liteware",
     "url": "https://www.artweaver.de/direct/Artweaver.exe#/Installer.exe",
-    "hash": "1c4ba99f50f77ca320563e2f74e97e5dc630a4766aeeb1247e9ef6d7b2317cda",
+    "hash": "5c05fc1827372a6fd12d44fa72a7e92e5d27ba118db30f9d9f5c4ff2fe49a702",
     "innosetup": true,
     "shortcuts": [
         [
