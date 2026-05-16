@@ -1,12 +1,12 @@
 {
-    "version": "3.0.47",
+    "version": "3.1.3",
     "description": "A cross-platform proxy client built on Xray-core.",
     "homepage": "https://incy.cc/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.0.47/incy-windows-portable.zip",
-            "hash": "e4bca7db197ab00c477afd8877803c7af23b0c04dc58023e46063a4666b22982"
+            "url": "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v3.1.3/incy-windows-portable.zip",
+            "hash": "ed815e55dc9863757cfa421d023ad40fd4b727570327d39b1b8a03f50f4ade2f"
         }
     },
     "extract_dir": "incy",
