@@ -1,16 +1,16 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Make working with AWS SSO on local machines an ease.",
     "homepage": "https://github.com/theurichde/go-aws-sso",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/theurichde/go-aws-sso/releases/download/v1.5.0/go-aws-sso_1.5.0_windows_amd64.tar.gz",
-            "hash": "e2b0ed029efffafdbb6cabf67b6823fad9f7910425f9621aa2bd6b4064f6d395"
+            "url": "https://github.com/theurichde/go-aws-sso/releases/download/v1.5.1/go-aws-sso_1.5.1_windows_amd64.tar.gz",
+            "hash": "a41d21e73ee990b4720707f0299604de2ee54a26e21fab4155b2e50b021e5eb9"
         },
         "arm64": {
-            "url": "https://github.com/theurichde/go-aws-sso/releases/download/v1.5.0/go-aws-sso_1.5.0_windows_arm64.tar.gz",
-            "hash": "0b94d4885ad4c82141f18ff61b915b7b7194aa405d707e49f70694cafb30cfed"
+            "url": "https://github.com/theurichde/go-aws-sso/releases/download/v1.5.1/go-aws-sso_1.5.1_windows_arm64.tar.gz",
+            "hash": "55ee93120a2547a3dddd1ad27594b79f883217d5c6e70d33912bab0f3119cae6"
         }
     },
     "bin": "go-aws-sso.exe",
