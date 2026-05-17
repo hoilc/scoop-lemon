@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2026.4.3/objeck-windows-x64_2026.4.3.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.4.3/objeck-windows-x64_2026.4.3.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "sha1:ddec786a1053e778d18f4d99dcac8c4378d7f426"
+            "hash": "4c243b69329014382f6d2046b383efdfc21f45659b790d847a9b97255aa9633c"
         },
         "arm64": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2026.4.3/objeck-windows-arm64_2026.4.3.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.4.3/objeck-windows-arm64_2026.4.3.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "sha1:250e216ad11f3d0aef2eefc6d67308f1df2639d2"
+            "hash": "746c17ae27837a8a7fa8d28820f451293f96fabbef01bd0656d31667320168bf"
         }
     },
     "shortcuts": [
@@ -28,6 +28,7 @@
         "bin\\obb.exe",
         "bin\\obc.exe",
         "bin\\obi.exe",
+        "bin\\obd.exe",
         "bin\\obr.exe"
     ],
     "env_set": {
@@ -39,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-x64_$version.zip"
+                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-x64_$version.zip"
             },
             "arm64": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-arm64_$version.zip"
+                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-arm64_$version.zip"
             }
         }
     }
