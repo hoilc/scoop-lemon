@@ -1,13 +1,13 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "面向开发者的 mise 可视化管理软件，通过图形化界面快速管理本地工具链版本以及项目内所依赖工具版本",
     "homepage": "https://github.com/likaia/mise_gui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/likaia/mise_gui/releases/download/v1.0.7/Mise.GUI-Windows-x64-release-1.0.7+8-2026-05-17.zip",
+            "url": "https://github.com/likaia/mise_gui/releases/download/v1.0.8/Mise.GUI-Windows-x64-release-1.0.8+9-2026-05-18.zip",
             "extract_dir": "Mise GUI-Windows-x64",
-            "hash": "e6037b1a2058340ed7d262bd52d5a63cc31b489cb56b0a047f994fba71c539b8"
+            "hash": "fde406bea3f222695cd946396946b8bbc584f72b333b7eb2056ff38d153050ca"
         }
     },
     "shortcuts": [
