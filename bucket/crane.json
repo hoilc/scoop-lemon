@@ -1,16 +1,16 @@
 {
-    "version": "0.21.5",
+    "version": "0.21.6",
     "description": "A tool for interacting with remote images and registries.",
     "homepage": "https://github.com/google/go-containerregistry/blob/master/cmd/crane",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/go-containerregistry/releases/download/v0.21.5/go-containerregistry_Windows_x86_64.tar.gz",
-            "hash": "f2576640521c6962bab26e37a4b87f168fcd13bebbf9c5355c8ae33417c7ca5a"
+            "url": "https://github.com/google/go-containerregistry/releases/download/v0.21.6/go-containerregistry_Windows_x86_64.tar.gz",
+            "hash": "fb78f814f68ab47266458f319ca7e642a303453ea25c8993a14eb9850c56e870"
         },
         "arm64": {
-            "url": "https://github.com/google/go-containerregistry/releases/download/v0.21.5/go-containerregistry_Windows_arm64.tar.gz",
-            "hash": "87efde0a3a724775cfe775c767dbf6e37862422c961c66a1d19726041dbddd85"
+            "url": "https://github.com/google/go-containerregistry/releases/download/v0.21.6/go-containerregistry_Windows_arm64.tar.gz",
+            "hash": "f0a8f5f60c9b7a52265d84b928a6cbba8fda6d7ae32bd98f5d91ee745f6b4e9b"
         }
     },
     "bin": [
