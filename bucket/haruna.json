@@ -1,12 +1,12 @@
 {
-    "version": "1.7.1",
+    "version": "1.8.0",
     "description": "An open source media player built with Qt/QML and libmpv.",
     "homepage": "https://apps.kde.org/haruna/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/haruna/1.7.1/haruna-1.7.1-windows-gcc-x86_64.7z",
-            "hash": "f38db1f204c996b890423c8f11fac07f8c4153cd9beee92214efa5036f7c07ef"
+            "url": "https://download.kde.org/stable/haruna/1.8.0/haruna-1.8.0-windows-gcc-x86_64.7z",
+            "hash": "38bef3164d7ffddc1bcfdb7ec4abd1fdd99237f1059a588684a7db9ff9fb6266"
         }
     },
     "bin": "bin\\haruna.exe",
