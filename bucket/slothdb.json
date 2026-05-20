@@ -1,12 +1,12 @@
 {
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "An embedded SQL database that runs everywhere.",
     "homepage": "https://slothdb.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SouravRoy-ETL/slothdb/releases/download/v0.2.6/slothdb.exe",
-            "hash": "1aa63f0b41303cbb42ea59ec9aaf8afee74a14e62d68291975fc69c87816353a"
+            "url": "https://github.com/SouravRoy-ETL/slothdb/releases/download/v0.2.7/slothdb.exe",
+            "hash": "4e82163a38a281abc5a4c8acedcacf5d8e27b473eb37b3f2c4f5f7de9fc8cfad"
         }
     },
     "bin": "slothdb.exe",
