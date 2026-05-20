@@ -1,17 +1,17 @@
 {
-    "version": "5.1.0",
+    "version": "5.2.0",
     "description": "Connect to remote ffmpeg servers.",
     "homepage": "https://github.com/steelbrain/ffmpeg-over-ip",
     "license": "MIT|GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.1.0/windows-amd64-ffmpeg-over-ip-client.zip",
-                "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.1.0/windows-amd64-ffmpeg-over-ip-server.zip"
+                "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.2.0/windows-amd64-ffmpeg-over-ip-client.zip",
+                "https://github.com/steelbrain/ffmpeg-over-ip/releases/download/v5.2.0/windows-amd64-ffmpeg-over-ip-server.zip"
             ],
             "hash": [
-                "c77a23561df0fe3bcd09e0544c5cfd683234b15218591ca94641c3157e764257",
-                "05908f990bb2d588a112957dbc223f87a036ff6cc79a53abd92afaf958edd7d1"
+                "991cd3b3eb0387b2ebbc83b7f2a1a5fdfd9c5655a7c111ba5b3d149627fbf9b3",
+                "252e2221af85e60af3775f92e13ee9c4f0b7627801b1305946eca557e6964859"
             ]
         }
     },
