@@ -1,12 +1,12 @@
 {
-    "version": "4.2.1",
+    "version": "4.3.0",
     "description": "A modern genome browser.",
     "homepage": "https://jbrowse.org/jb2/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GMOD/jbrowse-components/releases/download/v4.2.1/jbrowse-desktop-v4.2.1-win.exe#/dl.7z",
-            "hash": "6d8237365c52bfead16c5db61893ffaf1ebbdb6a510d0ec79fc689a24dcad7ac"
+            "url": "https://github.com/GMOD/jbrowse-components/releases/download/v4.3.0/jbrowse-desktop-v4.3.0-win.exe#/dl.7z",
+            "hash": "1f95af5eb323838f41052ed6890a0255c91eba35f75457535ec4f07b26d8c7c3"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
