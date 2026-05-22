@@ -23,11 +23,11 @@
             ]
         }
     },
-    "post_install": "Remove-Item \"$dir\\Devolutions.Updater*\" -Force",
+    "post_install": "Remove-Item \"$dir\\Devolutions.Updater*\" -Force  -ErrorAction SilentlyContinue",
     "notes": "Remote Desktop Manager is NOT portable.",
     "checkver": {
         "url": "https://devolutions.net/remote-desktop-manager/download/",
-        "regex": "RemoteDesktopManager.([\\d.]+).BOM.xml"
+        "regex": "Devolutions\\.RemoteDesktopManager\\.Bin\\.([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.Bin.$version.zip"
