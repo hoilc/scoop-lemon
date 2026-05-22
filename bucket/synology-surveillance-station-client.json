@@ -1,0 +1,29 @@
+{
+    "version": "2.2.3-2598",
+    "description": "Synology Surveillance Station Client is a desktop utility which provides quick, simple and powerful way to access Surveillance Station.",
+    "homepage": "https://www.synology.com/releaseNote/SurveillanceStationClient",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://global.synologydownload.com/download/Utility/SurveillanceStationClient/2.2.3-2598/Windows/x86_64/Synology%20Surveillance%20Station%20Client-2.2.3-2598_x64.zip",
+            "hash": "96e085734a46748a6f9756e7bb928af1581dc117cf25ff8bc96a833a9d7afee8"
+        }
+    },
+    "shortcuts": [
+        [
+            "Synology Surveillance Station Client.exe",
+            "Synology Surveillance Station Client"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.synology.com/api/releaseNote/findChangeLog?identify=SurveillanceStationClient&lang=en-us&model=&dsm_major=",
+        "regex": "\"version\":\\s*\"(.+?)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://global.synologydownload.com/download/Utility/SurveillanceStationClient/$version/Windows/x86_64/Synology%20Surveillance%20Station%20Client-$version_x64.zip"
+            }
+        }
+    }
+}
