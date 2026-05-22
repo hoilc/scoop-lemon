@@ -10,7 +10,7 @@
             "pre_install": "Get-ChildItem \"$dir\" '*,2.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',2') }"
         },
         "32bit": {
-            "pre_install": "Get-ChildItem \"$dir\" '*,1.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',2') }"
+            "pre_install": "Get-ChildItem \"$dir\" '*,1.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',1') }"
         },
         "arm64": {
             "pre_install": "Get-ChildItem \"$dir\" '*,3.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',3') }"
