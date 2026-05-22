@@ -1,0 +1,21 @@
+{
+    "version": "3.0.1-0156",
+    "description": "Synology Hyper Backup Explorer is a desktop tool for browsing, decrypting, and extracting different versions of backup data in Hyper Backup repositories.",
+    "homepage": "https://kb.synology.com/DSM/help/HyperBackupExplorer/hyperbackupexplorer",
+    "license": "Proprietary",
+    "url": "https://global.synologydownload.com/download/Utility/HyperBackupExplorer/3.0.1-0156/Windows/HyperBackupExplorer-3.0.1-0156-windows.zip",
+    "hash": "fcf959a3907534c849904b3d676c7192e23c148fec6580ac87ff0897a9d1ff07",
+    "shortcuts": [
+        [
+            "HyperBackupExplorer.exe",
+            "Synology Hyper Backup Explorer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.synology.com/api/releaseNote/findChangeLog?identify=HyperBackupExplorer&lang=en-us&model=&dsm_major=",
+        "regex": "\"version\":\\s*\"(.+?)\""
+    },
+    "autoupdate": {
+        "url": "https://global.synologydownload.com/download/Utility/HyperBackupExplorer/$version/Windows/HyperBackupExplorer-$version-windows.zip"
+    }
+}
