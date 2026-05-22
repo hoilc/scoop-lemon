@@ -1,15 +1,15 @@
 {
-    "version": "2.7.6",
+    "version": "2.8.0",
     "description": "A music player forked from YesPlayMusic / 高颜值的第三方网易云播放器",
     "homepage": "https://github.com/Sherlockouo/music",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Sherlockouo/music/releases/download/2.7.6/R3PLAYX-2.7.6-win-x64-Setup.exe#/dl.7z",
-            "hash": "3a1a9bc3aa32f27034d66feb600d47eb2db1d4813fd71ae1a4a07af0d25a46ec",
+            "url": "https://github.com/Sherlockouo/music/releases/download/v2.8.0/R3PLAYX-2.8.0-win-x64-Setup.exe#/dl.7z",
+            "hash": "16630505a46d370e85a58cddd609ff6cb67a1a1d7ff341eabfd797697157d8ca",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse"
+                "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse"
             ]
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Sherlockouo/music/releases/download/$version/R3PLAYX-$version-win-x64-Setup.exe#/dl.7z"
+                "url": "https://github.com/Sherlockouo/music/releases/download/v$version/R3PLAYX-$version-win-x64-Setup.exe#/dl.7z"
             }
         }
     }
