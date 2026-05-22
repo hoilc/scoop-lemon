@@ -23,11 +23,11 @@
             ]
         }
     },
-    "post_install": "Remove-Item \"$dir\\Devolutions.Updater*\" -Force",
+    "post_install": "Remove-Item \"$dir\\Devolutions.Updater*\" -Force -ErrorAction SilentlyContinue",
     "notes": "Devolutions Launcher is NOT portable.",
     "checkver": {
         "url": "https://devolutions.net/launcher/download/",
-        "regex": "Launcher.([\\d.]+).BOM.xml"
+        "regex": "Devolutions\\.Launcher\\.([\\d.]+)\\.msi"
     },
     "autoupdate": {
         "url": "https://cdn.devolutions.net/download/Setup.Devolutions.Launcher.$version.msi"
