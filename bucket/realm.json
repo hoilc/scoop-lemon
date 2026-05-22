@@ -9,6 +9,7 @@
             "hash": "fe52416672cb813c1d45a0486eef6e589ccbb2bdba4af8a35874215e3cb02b2e"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'realm' | Select-Object -First 1 | Rename-Item -NewName 'realm.exe'",
     "bin": "realm.exe",
     "checkver": "github",
     "autoupdate": {
