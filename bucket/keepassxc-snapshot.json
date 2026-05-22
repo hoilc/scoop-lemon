@@ -1,20 +1,19 @@
 {
-    "version": "2.8.0-284421",
+    "version": "2.8.0-285995",
     "description": "(Snapshot Build) Community fork of KeePass",
     "homepage": "https://snapshot.keepassxc.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://snapshot.keepassxc.org/build-284421/KeePassXC-2.8.0-snapshot-Win64.zip",
-            "hash": "d45e34233573e03b666490f81742292228df2ecfa0f3a0853a8aadf9d0381ca0",
-            "extract_dir": "KeePassXC-2.8.0-snapshot-Win64"
+            "url": "https://snapshot.keepassxc.org/build-285995/KeePassXC-2.8.0-snapshot-.zip",
+            "hash": "72cd98bc1e4978320a0a30cddf8a14ff61ca2bad9605f2c8487ddbe1e2ccc3ea",
+            "extract_dir": "KeePassXC-2.8.0-snapshot-"
         }
     },
     "post_install": "if (Test-Path \"$persist_dir\\keepassxc.ini\") { Move-Item \"$persist_dir\\keepassxc.ini\" \"$dir\\config\" -Force }",
     "bin": [
         "KeePassXC.exe",
-        "keepassxc-cli.exe",
-        "keepassxc-proxy.exe"
+        "keepassxc-cli.exe"
     ],
     "shortcuts": [
         [
@@ -29,7 +28,7 @@
             "$result.Content -match 'build-(\\d+)/'",
             "$build = $Matches.1",
             "$result2 = Invoke-WebRequest -Method 'Get' ('https://snapshot.keepassxc.org/' + $Matches.0)",
-            "$result2.Content -match 'KeePassXC-([\\d.]+)-snapshot-Win64'",
+            "$result2.Content -match 'KeePassXC-([\\d.]+)-snapshot'",
             "$version = $Matches.1",
             "return \"{0}/{1}\" -f $version, $build"
         ],
@@ -39,8 +38,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://snapshot.keepassxc.org/build-$matchBuild/KeePassXC-$matchMain-snapshot-Win64.zip",
-                "extract_dir": "KeePassXC-$matchMain-snapshot-Win64"
+                "url": "https://snapshot.keepassxc.org/build-$matchBuild/KeePassXC-$matchMain-snapshot-.zip",
+                "extract_dir": "KeePassXC-$matchMain-snapshot-"
             }
         },
         "hash": {
