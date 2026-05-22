@@ -1,12 +1,12 @@
 {
-    "version": "3.4.1.10",
+    "version": "3.4.1.11",
     "description": "(Enterprise Version) A big data platform designed and optimized for the Internet of Things (IoT).",
     "homepage": "https://www.taosdata.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.taosdata.com/tdengine-tsdb-enterprise/3.4.1.10/tdengine-tsdb-enterprise-client-3.4.1.10-windows-x64.exe#/setup.exe",
-            "hash": "38d29cdef37e2644e57166a3de2ad44595a093189ee811c8e3d69a0aebe1fc14"
+            "url": "https://downloads.taosdata.com/tdengine-tsdb-enterprise/3.4.1.11/tdengine-tsdb-enterprise-client-3.4.1.11-windows-x64.exe#/setup.exe",
+            "hash": "6cf1e534d91f6b0d892fbac98f624b3300f55b0e65994d74ab511e2b2fa084e1"
         }
     },
     "installer": {
