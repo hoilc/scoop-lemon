@@ -1,23 +1,24 @@
 {
-    "version": "2.11.0",
+    "version": "2.14.1",
     "description": "A tool that blends TDD (Test Driven Development) + TCR (test && commit || revert) to make sure to develop the right thing.",
     "homepage": "https://git-gamble.is-cool.dev",
-    "license": "0BSD",
+    "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/pinage404/git-gamble/-/releases/version%2F2.11.0/downloads/git-gamble.exe",
-            "hash": "6a62f7994165f80dc0f76c72d57053deefcdbc4f060baa58154951c32691119d"
+            "url": "https://gitlab.com/api/v4/projects/15761766/packages/nuget/download/git-gamble.portable/2.14.1/git-gamble.portable.2.14.1.nupkg#/dl.zip",
+            "hash": "893f63aa21b0c0ea152468b1d9ee98d8eba6bdd974414530424bf3b15dd7e89d"
         }
     },
+    "extract_dir": "tools",
     "bin": "git-gamble.exe",
     "checkver": {
-        "url": "https://gitlab.com/api/v4/projects/pinage404%2Fgit-gamble/releases/?per_page=1",
-        "regex": "\"version/([\\d.]+)\""
+        "url": "https://gitlab.com/api/v4/projects/15761766/packages/nuget/query?q=git-gamble.portable",
+        "jsonpath": "$.data[0].version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gitlab.com/pinage404/git-gamble/-/releases/version%2F$version/downloads/git-gamble.exe"
+                "url": "https://gitlab.com/api/v4/projects/15761766/packages/nuget/download/git-gamble.portable/$version/git-gamble.portable.$version.nupkg#/dl.zip"
             }
         }
     }
