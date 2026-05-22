@@ -4,7 +4,7 @@
     "homepage": "https://www.natfrp.com/",
     "license": "Shareware",
     "url": "https://nya.globalslb.net/natfrp/client/launcher-windows/3.2.0.0/SakuraLauncher.exe#/dl.exe",
-    "hash": "md5:acc258c0eece33335eac38abe6df139f",
+    "hash": "87529c1b07cc241b4c6aaf42110545fa56e174aac2c1ad597227ab023da412b0",
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" '*,2.*' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace ',2') }"
@@ -29,11 +29,6 @@
         "jsonpath": "$.windows.ver"
     },
     "autoupdate": {
-        "url": "https://nya.globalslb.net/natfrp/client/launcher-windows/$version/SakuraLauncher.exe#/dl.exe",
-        "hash": {
-            "url": "https://www.natfrp.com/cgi/v4/system/clients",
-            "mode": "json",
-            "jsonpath": "$.windows.archs.default.hash"
-        }
+        "url": "https://nya.globalslb.net/natfrp/client/launcher-windows/$version/SakuraLauncher.exe#/dl.exe"
     }
 }
