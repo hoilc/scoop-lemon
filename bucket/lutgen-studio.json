@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Offical GUI for Lutgen, the best way to apply popular colorschemes to any image or wallpaper.",
     "homepage": "https://github.com/ozwaldorf/lutgen-rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v0.3.0/lutgen-studio-v0.3.0-x86_64-pc-windows-msvc.exe#/lutgen-studio.exe",
-            "hash": "f692f2093767ffa8f2573912133a42b9be67d23fd7a24c5ea065f6b96a85851e"
+            "url": "https://github.com/ozwaldorf/lutgen-rs/releases/download/lutgen-studio-v0.4.0/lutgen-studio-v-x86_64-pc-windows-msvc.exe#/lutgen-studio.exe",
+            "hash": "b8dfc6cb43c54de3eb07e9e75d3409108f982b072b9db9cd4710167477fb6224"
         }
     },
     "shortcuts": [
