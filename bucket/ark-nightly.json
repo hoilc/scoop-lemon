@@ -1,12 +1,12 @@
 {
-    "version": "2560",
+    "version": "2569",
     "description": "(Nightly Build) A graphical file compression/decompression utility developed by KDE.",
     "homepage": "https://apps.kde.org/ark/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/ark/master/windows/ark-master-2560-windows-cl-msvc2022-x86_64.7z",
-            "hash": "2de20970f33ffbb4cae1d08678f147bbc1507a260edd359381f909ff00f3390f"
+            "url": "https://cdn.kde.org/ci-builds/utilities/ark/master/windows/ark-master-2569-windows-cl-msvc2022-x86_64.7z",
+            "hash": "de394def6f4ebd6c9a24a8a7452bbc921443316808b7752c41a2316d7ef096e6"
         }
     },
     "shortcuts": [
