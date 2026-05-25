@@ -1,12 +1,12 @@
 {
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "Easily connect to your PostgreSQL, MySQL, MSSQL, SQLite databases, manage Table and execute Query.",
     "homepage": "https://dataflare.app/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.0.3.exe#/dl.7z",
-            "hash": "4be8d292e597d819ee09f7609cda6e7f739950d17879a07feb8bd58cfbb0aac1"
+            "url": "https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup-3.0.4.exe#/dl.7z",
+            "hash": "8d6367b8fa3cc139ddd14b775e3f39b495b67e9afbcc210cb6aaf1beb306de6a"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
