@@ -1,10 +1,10 @@
 {
-    "version": "3.9.7",
+    "version": "3.9.8",
     "description": "A command-line tool that turns any file or folder into a secure HTTPS link, allowing two computers to simply and securely transfer files using real peer-to-peer (WebRTC) connections.",
     "homepage": "https://github.com/nuwainfo/ffl",
     "license": "Apache-2.0",
-    "url": "https://github.com/nuwainfo/ffl/releases/download/v3.9.7/ffl.com",
-    "hash": "8246531c77ffdab6b1a6dd0999eb429e61c172544250c808d719ba25a020302f",
+    "url": "https://github.com/nuwainfo/ffl/releases/download/v3.9.8/ffl.com",
+    "hash": "d979b95097c09b9b8beee6887104b3d66593691ba3f28e1fb5a9c8c00a29d4f6",
     "bin": "ffl.com",
     "checkver": "github",
     "autoupdate": {
