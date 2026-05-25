@@ -1,12 +1,12 @@
 {
-    "version": "0.1.15",
+    "version": "0.1.16",
     "description": "A modern, cross-platform desktop client for the Agent Client Protocol (ACP) — connect to any ACP-compatible AI agent (Claude, Codex, Copilot, Qwen, Gemini, OpenCode, OpenClaw and more)",
     "homepage": "https://github.com/formulahendry/acp-ui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/formulahendry/acp-ui/releases/download/v0.1.15/acp-ui_0.1.15_x64-setup.exe#/dl.7z",
-            "hash": "c37ee8f617ba5d4d4999bd1a1c91cfb47b6f7e84606aa424d9efcd481fba441d"
+            "url": "https://github.com/formulahendry/acp-ui/releases/download/v0.1.16/acp-ui_0.1.16_x64-setup.exe#/dl.7z",
+            "hash": "a0226e96f61484a5aa438e4cab334f1998526bd7b57e6d5435b2db537bcab149"
         }
     },
     "shortcuts": [
