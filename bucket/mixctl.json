@@ -1,12 +1,12 @@
 {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "A tiny TCP load balancer written in Go.",
     "homepage": "https://github.com/inlets/mixctl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/inlets/mixctl/releases/download/0.1.3/mixctl.exe",
-            "hash": "c3e4dff3eec4d20334bdbbb367d3686738a8221ba26d307246d7c2f6f13ea607"
+            "url": "https://github.com/inlets/mixctl/releases/download/0.1.4/mixctl.exe",
+            "hash": "f05c470c0f6ff85323a4c1a2f0eddf22d6e37987bb5d6d3b5f8fcf1a4970b118"
         }
     },
     "bin": "mixctl.exe",
