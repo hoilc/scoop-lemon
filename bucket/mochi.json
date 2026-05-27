@@ -1,16 +1,16 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A small, fast, embeddable programming language designed for agents, data, and AI.",
     "homepage": "https://github.com/mochilang/mochi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mochilang/mochi/releases/download/v0.13.0/mochi_Windows_x86_64.tar.gz",
-            "hash": "178a031e38029ed767f7d72e8df9b63e65298f83a48c9c7c7621cfafa5dce30b"
+            "url": "https://github.com/mochilang/mochi/releases/download/v0.14.0/mochi_Windows_x86_64.tar.gz",
+            "hash": "e54aaba68fb9a41bc9de376329337c5dbc02a28cf6fd7c0be5adab58cb0f617b"
         },
         "arm64": {
-            "url": "https://github.com/mochilang/mochi/releases/download/v0.13.0/mochi_Windows_arm64.tar.gz",
-            "hash": "1180b859df7b3bdd01fa0490ee88b98e14c2982b88484a2ca43e10e8e5107453"
+            "url": "https://github.com/mochilang/mochi/releases/download/v0.14.0/mochi_Windows_arm64.tar.gz",
+            "hash": "ae04e710fa14cc6725a000a206d846e3b6ea87de9f2db57638b33fffe885e390"
         }
     },
     "bin": "mochi.exe",
