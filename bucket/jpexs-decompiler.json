@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version26.2.1/ffdec_26.2.1.zip",
     "hash": "0333b56998a55bd83f4e0deb678a811fcdc45607582b4f5dd438309c8c3ad5ce",
-    "bin": "ffdec-cli.jar",
+    "bin": "ffdec-cli.bat",
     "shortcuts": [
         [
             "ffdec.bat",
@@ -14,7 +14,10 @@
             "icon.ico"
         ]
     ],
-    "pre_install": "(Get-Content -Raw \"$dir\\ffdec.bat\") -replace '\\njava ', 'start javaw ' | Set-Content \"$dir\\ffdec.bat\"",
+    "pre_install": [
+        "(Get-Content -Raw \"$dir\\ffdec.bat\") -replace '\\njava ', 'start javaw ' | Set-Content \"$dir\\ffdec.bat\"",
+        "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }"
+    ],
     "suggest": {
         "JDK": [
             "java/temurin-jdk",

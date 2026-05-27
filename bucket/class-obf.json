@@ -5,7 +5,8 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/4ra1n/class-obf/releases/download/1.10.1/class-obf-1.10.1.jar#/class-obf.jar",
     "hash": "0b4eace373b619ee413a90f0de3428ab788f8769ab3dd808e287868aacbe5390",
-    "bin": "class-obf.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "class-obf.bat",
     "suggest": {
         "JDK": [
             "java/openjdk",

@@ -5,11 +5,14 @@
     "license": "GPL-3.0-only",
     "url": "https://web.physik.rwth-aachen.de/user/harlander/software/feyngame/downloads/java-9/FeynGame.jar",
     "hash": "fc97942b2e53234bcbbf74ebcb09aae63d8ef95c1a05c79d262b60e072a3fe89",
-    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\FeynGame.bat\" -Value '@start javaw.exe -jar \"%~dp0FeynGame.jar\"'",
-    "bin": "FeynGame.jar",
+    "pre_install": [
+        "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+        "Set-Content -Encoding ASCII -Path \"$dir\\FeynGame-GUI.bat\" -Value '@start javaw.exe -jar \"%~dp0FeynGame.jar\"'"
+    ],
+    "bin": "FeynGame.bat",
     "shortcuts": [
         [
-            "FeynGame.bat",
+            "FeynGame-GUI.bat",
             "FeynGame"
         ]
     ],

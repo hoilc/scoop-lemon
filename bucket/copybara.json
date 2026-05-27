@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/google/copybara/releases/download/v20260525/copybara_deploy.jar#/copybara.jar",
     "hash": "be575a9b20d3575c1c726d352708afd1fb5a22ad14186f755348d95ae86dfafb",
-    "bin": "copybara.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "copybara.bat",
     "suggest": {
         "JDK": [
             "java/openjdk",

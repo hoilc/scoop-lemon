@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/JakeWharton/dependency-tree-diff/releases/download/1.2.1/dependency-tree-diff.jar",
     "hash": "f6c84d5ce8beb3277103fb8235071dd8bc69a7cde75239f636a7c8293ff0c865",
-    "bin": "dependency-tree-diff.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "dependency-tree-diff.bat",
     "suggest": {
         "JDK 11+": [
             "java/temurin17-jdk",

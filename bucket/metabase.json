@@ -5,7 +5,8 @@
     "license": "AGPL-3.0-only",
     "url": "https://downloads.metabase.com/v0.61.2/metabase.jar",
     "hash": "979a5858cee2d0c2926261f7c1f24f7585243c484ef2498021a26c760c7f3710",
-    "bin": "metabase.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "metabase.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

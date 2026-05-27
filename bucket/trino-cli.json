@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://repo1.maven.org/maven2/io/trino/trino-cli/476/trino-cli-476-executable.jar#/trino.jar",
     "hash": "fe4e9c7fb569cd67673afa1622945f6308e1e59bdb825419352b80887661757b",
-    "bin": "trino.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "trino.bat",
     "suggest": {
         "JDK 17+": [
             "java/temurin17-jdk",

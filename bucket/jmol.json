@@ -13,14 +13,11 @@
     ],
     "extract_dir": "jmol-16.4.1",
     "pre_install": [
+        "Set-Content -Encoding ASCII -Path \"$dir\\JmolData.bat\" -Value \"@java -jar `\"%~dp0JmolData.jar`\" %*\"",
         "Set-Content -Encoding ASCII -Path \"$dir\\Jmol.bat\" -Value \"@set JMOL_HOME=$dir\", '@start javaw.exe -Xmx512m -jar \"%~dp0Jmol.jar\"'",
         "Set-Content -Encoding ASCII -Path \"$dir\\JSpecView.bat\" -Value '@pushd \"%~dp0\"', '@start javaw.exe -Xmx512m -jar \"%~dp0JSpecView.jar\"'"
     ],
-    "bin": [
-        "JmolData.jar",
-        "Jmol.bat",
-        "JSpecView.bat"
-    ],
+    "bin": "JmolData.bat",
     "shortcuts": [
         [
             "Jmol.bat",

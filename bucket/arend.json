@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/JetBrains/Arend/releases/download/v1.10/Arend.jar",
     "hash": "268cb5e4998edfb0df1b3a173b497836924f1a393dddcd3c4a678d8b994f26ee",
-    "bin": "Arend.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "Arend.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

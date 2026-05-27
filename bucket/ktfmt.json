@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/facebook/ktfmt/releases/download/v0.63/ktfmt-0.63-with-dependencies.jar#/ktfmt.jar",
     "hash": "2db5712e3cf72aff6cf2a34927badfff07c8a5b4690785f79655d1bd0962e2f8",
-    "bin": "ktfmt.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "ktfmt.bat",
     "suggest": {
         "JDK 11+": [
             "java/temurin17-jdk",

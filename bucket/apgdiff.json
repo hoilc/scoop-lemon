@@ -5,7 +5,8 @@
     "license": "MIT",
     "url": "https://github.com/fordfrog/apgdiff/raw/refs/heads/develop/releases/apgdiff-2.7.0.jar#/apgdiff.jar",
     "hash": "e8e7a6a4399e765e8b3b03ffb39cb484e23118358777ba8ceffa295b753043e2",
-    "bin": "apgdiff.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "apgdiff.bat",
     "suggest": {
         "JDK": [
             "java/openjdk",

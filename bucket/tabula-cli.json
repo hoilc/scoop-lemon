@@ -5,13 +5,8 @@
     "license": "MIT",
     "url": "https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar#/tabula-cli.jar",
     "hash": "2161e3fff65939d7ce0812479cf9ca36860db5697f7fc1fa01161ed4092a0745",
-    "bin": [
-        "tabula-cli.jar",
-        [
-            "tabula-cli.jar",
-            "tabula"
-        ]
-    ],
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\tabula.bat\" -Value \"@java -jar `\"%~dp0tabula-cli.jar`\" %*\"",
+    "bin": "tabula.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

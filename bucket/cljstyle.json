@@ -5,7 +5,8 @@
     "license": "EPL-1.0",
     "url": "https://github.com/greglook/cljstyle/releases/download/0.17.642/cljstyle-0.17.642.jar#/cljstyle.jar",
     "hash": "0240ae4d97835db341bb03d910c858185fe838620aab9cd50f02fcc709e3fa61",
-    "bin": "cljstyle.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "cljstyle.bat",
     "suggest": {
         "JDK": [
             "java/openjdk",

@@ -5,7 +5,8 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/MorpheApp/morphe-cli/releases/download/v1.8.1/morphe-cli-1.8.1-all.jar#/morphe-cli.jar",
     "hash": "0eb52bdd90d914c28fc7d1ef9f7e93931e3a47f894ed71ed864c87d205f2d861",
-    "bin": "morphe-cli.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "morphe-cli.bat",
     "suggest": {
         "JDK 11+": [
             "java/temurin17-jdk",

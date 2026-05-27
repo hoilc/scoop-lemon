@@ -5,13 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/hivemq/mqtt-cli/releases/download/v4.52.0/mqtt-cli-4.52.0.jar#/mqtt-cli.jar",
     "hash": "98b5b6b765be61e04afb16ec213508043eb845f9da6d1c3d535c8f12d5be11c8",
-    "bin": [
-        "mqtt-cli.jar",
-        [
-            "mqtt-cli.jar",
-            "mqtt"
-        ]
-    ],
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "mqtt-cli.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

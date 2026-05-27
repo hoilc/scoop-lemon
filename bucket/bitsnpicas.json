@@ -5,11 +5,14 @@
     "license": "MPL-1.1",
     "url": "https://github.com/kreativekorp/bitsnpicas/releases/download/v2.2/BitsNPicas.jar",
     "hash": "767a40997b07d1235559fc2d0c20b761f5dd7a26e8b21fc80138b32a31da4e69",
-    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\BitsNPicas.bat\" -Value '@start javaw.exe -jar \"%~dp0BitsNPicas.jar\"'",
-    "bin": "BitsNPicas.jar",
+    "pre_install": [
+        "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+        "Set-Content -Encoding ASCII -Path \"$dir\\BitsNPicas-GUI.bat\" -Value '@start javaw.exe -jar \"%~dp0BitsNPicas.jar\"'"
+    ],
+    "bin": "BitsNPicas.bat",
     "shortcuts": [
         [
-            "BitsNPicas.bat",
+            "BitsNPicas-GUI.bat",
             "Bits'N'Picas"
         ]
     ],

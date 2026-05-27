@@ -5,14 +5,17 @@
     "license": "Apache-2.0",
     "url": "https://github.com/gpx-animator/gpx-animator/releases/download/v1.8.2/gpx-animator-1.8.2-all.jar#/gpx-animator.jar",
     "hash": "a4888a443eef0ebafe274529ed867ab8d646a29380acafab03428f45fd4e5885",
-    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\gpx-animator.bat\" -Value '@start javaw.exe -jar \"%~dp0gpx-animator.jar\"'",
+    "pre_install": [
+        "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+        "Set-Content -Encoding ASCII -Path \"$dir\\gpx-animator-gui.bat\" -Value '@start javaw.exe -jar \"%~dp0gpx-animator.jar\" --gui'"
+    ],
     "shortcuts": [
         [
-            "gpx-animator.bat",
+            "gpx-animator-gui.bat",
             "GPX Animator"
         ]
     ],
-    "bin": "gpx-animator.jar",
+    "bin": "gpx-animator.bat",
     "suggest": {
         "JDK": [
             "java/openjdk",

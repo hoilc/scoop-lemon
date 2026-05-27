@@ -6,7 +6,8 @@
     "url": "https://framagit.org/api/v4/projects/30670/jobs/artifacts/master/download?job=build#/dl.zip",
     "hash": "f61c55711019ee9d8db0af3523dfacb2e0a8c8ade1edb2a04633488d24bce891",
     "extract_dir": "build\\libs",
-    "bin": "bandcamp-collection-downloader.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "bandcamp-collection-downloader.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

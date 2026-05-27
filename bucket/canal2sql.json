@@ -5,7 +5,8 @@
     "license": "Freeware",
     "url": "https://github.com/zhuchao941/canal2sql/releases/download/v1.1.5/canal2sql-1.1.5.jar#/canal2sql.jar",
     "hash": "9b7858a006730af3fefc538b40d38d69a7c09f2daf61640ab55bab5c409cfae3",
-    "bin": "canal2sql.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "canal2sql.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

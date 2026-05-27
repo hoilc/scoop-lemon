@@ -5,12 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://repo1.maven.org/maven2/io/spring/nohttp/nohttp-cli/0.0.11/nohttp-cli-0.0.11.jar#/nohttp-cli.jar",
     "hash": "758224f86daf21b490936cfddd008faf77360e66735957bbde8c21be5295e6ca",
-    "bin": [
-        [
-            "nohttp-cli.jar",
-            "nohttp"
-        ]
-    ],
+    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\nohttp.bat\" -Value \"@java -jar `\"%~dp0nohttp-cli.jar`\" %*\"",
+    "bin": "nohttp.bat",
     "suggest": {
         "JDK 11+": [
             "java/temurin17-jdk",

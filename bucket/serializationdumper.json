@@ -5,7 +5,8 @@
     "license": "MIT",
     "url": "https://github.com/NickstaDB/SerializationDumper/releases/download/v1.14/SerializationDumper-v1.14.jar#/SerializationDumper.jar",
     "hash": "14a28514a74909279081f4fceb1402ebc72cf12904316b03edc02c307275d823",
-    "bin": "SerializationDumper.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "SerializationDumper.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

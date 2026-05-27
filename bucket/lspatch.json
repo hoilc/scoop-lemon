@@ -5,7 +5,8 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/JingMatrix/LSPatch/releases/download/v0.8/lspatch.jar",
     "hash": "b81094ac3d088849d9781e2678a87562936f8e0d78c4d136a9072dce40f72208",
-    "bin": "lspatch.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "lspatch.bat",
     "suggest": {
         "JDK 21+": [
             "java/openjdk",

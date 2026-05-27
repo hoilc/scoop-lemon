@@ -8,7 +8,8 @@
     },
     "url": "https://downloads.metabase.com/enterprise/v1.61.2/metabase.jar",
     "hash": "527ba663cd3d54164db16dd92d94b9872c87d155600899d88172763f73782801",
-    "bin": "metabase.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "metabase.bat",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

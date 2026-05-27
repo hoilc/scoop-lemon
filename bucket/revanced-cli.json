@@ -5,7 +5,8 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/ReVanced/revanced-cli/releases/download/v6.0.0/revanced-cli-6.0.0-all.jar#/revanced-cli.jar",
     "hash": "c25549bc17d59d2eb94fa5f86e60e9b77a02772ca88f7050f8f1276f923a9958",
-    "bin": "revanced-cli.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "revanced-cli.bat",
     "suggest": {
         "JDK 11+": [
             "java/temurin17-jdk",

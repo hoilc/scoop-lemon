@@ -5,13 +5,11 @@
     "license": "Apache-2.0",
     "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/4.0.0-alpha-1/tika-app-4.0.0-alpha-1.jar#/tika-app.jar",
     "hash": "sha1:14d297d95a14c6e9825bbc3e51508bb7874a6074",
-    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\tika-app.bat\" -Value '@start javaw.exe -jar \"%~dp0tika-app.jar\" --gui'",
-    "bin": [
-        [
-            "tika-app.jar",
-            "tika"
-        ]
+    "pre_install": [
+        "Set-Content -Encoding ASCII -Path \"$dir\\tika.bat\" -Value \"@java -jar `\"%~dp0tika-app.jar`\" %*\"",
+        "Set-Content -Encoding ASCII -Path \"$dir\\tika-app.bat\" -Value '@start javaw.exe -jar \"%~dp0tika-app.jar\" --gui'"
     ],
+    "bin": "tika.bat",
     "shortcuts": [
         [
             "tika-app.bat",

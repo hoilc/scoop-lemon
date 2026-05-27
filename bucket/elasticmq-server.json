@@ -5,7 +5,8 @@
     "license": "Apache-2.0",
     "url": "https://github.com/softwaremill/elasticmq/releases/download/v1.7.1/elasticmq-server-all-1.7.1.jar#/elasticmq-server.jar",
     "hash": "a40dfd03fd8e2f17418f3c61a460c1daea902119145bdce97d09a81f03aa0428",
-    "bin": "elasticmq-server.jar",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "elasticmq-server.bat",
     "persist": [
         "config",
         "storage"
