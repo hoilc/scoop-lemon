@@ -1,16 +1,16 @@
 {
-    "version": "0.3.4",
+    "version": "0.4.0",
     "description": "Visualize ownership and lifetimes in Rust for debugging and optimization.",
     "homepage": "https://github.com/cordx56/rustowl",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cordx56/rustowl/releases/download/v0.3.4/rustowl-x86_64-pc-windows-msvc.zip",
-            "hash": "2ccfe50f4ca8e24970602982210038c2b4557972d4431c1074d5c78b5c4a13b4"
+            "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-x86_64-pc-windows-msvc.zip",
+            "hash": "fb087ae4de400efa4daf8684c8c596d10d6a20a92801c0a2d2e45615be6b405d"
         },
         "arm64": {
-            "url": "https://github.com/cordx56/rustowl/releases/download/v0.3.4/rustowl-aarch64-pc-windows-msvc.zip",
-            "hash": "07a76a49699d8428212bf36ac0db0a904a91c7d9b29b3609f348348428a81883"
+            "url": "https://github.com/cordx56/rustowl/releases/download/v0.4.0/rustowl-aarch64-pc-windows-msvc.zip",
+            "hash": "725910515e299ee1f2eb4c82a83729fa5c66d4314766d1c1ddc30f4388bdd7f0"
         }
     },
     "bin": [
