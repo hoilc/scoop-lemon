@@ -1,10 +1,10 @@
 {
-    "version": "1.4",
+    "version": "2.0",
     "description": "一个监控股票的工具",
     "homepage": "https://github.com/pdone/iNeedMyMoneyBack",
     "license": "Freeware",
-    "url": "https://github.com/pdone/iNeedMyMoneyBack/releases/download/v1.4/iNeedMyMoneyBack.exe",
-    "hash": "b070c39fbba335d4b36ee2a907a6670ed1df076f9be04dda5b085302ed02a867",
+    "url": "https://github.com/pdone/iNeedMyMoneyBack/releases/download/v2.0/iNeedMyMoneyBack.exe",
+    "hash": "e12b1a30fa699d2f9d4208c9d7168209a7a7b46c329f5c01ec47156d93e7b8d6",
     "shortcuts": [
         [
             "iNeedMyMoneyBack.exe",
