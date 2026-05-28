@@ -1,0 +1,49 @@
+{
+    "version": "1.2.2",
+    "description": "Husi(虎兕) is a non-professional and recreational proxy tool integration for the weird beliefs and free software spirit.",
+    "homepage": "https://codeberg.org/xchacha20-poly1305/husi",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.2/fr.husi-1.2.2-windows-amd64.zip",
+            "extract_dir": "Husi-1.2.2-windows-amd64",
+            "hash": "35cd790525bde8db74211adbfcc2639d1880ddf17d8e76f68eecd6797593b718"
+        },
+        "arm64": {
+            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.2/fr.husi-1.2.2-windows-arm64.zip",
+            "extract_dir": "Husi-1.2.2-windows-arm64",
+            "hash": "899ed63ee38e09befa38a646fa69ad6d39f8edf3a3696c8349dd1f76dfe3538e"
+        }
+    },
+    "shortcuts": [
+        [
+            "Husi.exe",
+            "Husi"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "notes": "Husi is NOT portable.",
+    "checkver": {
+        "url": "https://codeberg.org/xchacha20-poly1305/husi/releases.rss",
+        "regex": "/releases/tag/v([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v$version/fr.husi-$version-windows-amd64.zip",
+                "extract_dir": "Husi-$version-windows-amd64"
+            },
+            "arm64": {
+                "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v$version/fr.husi-$version-windows-arm64.zip",
+                "extract_dir": "Husi-$version-windows-arm64"
+            }
+        }
+    }
+}
