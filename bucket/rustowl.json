@@ -13,10 +13,8 @@
             "hash": "725910515e299ee1f2eb4c82a83729fa5c66d4314766d1c1ddc30f4388bdd7f0"
         }
     },
-    "bin": [
-        "rustowl.exe",
-        "rustowlc.exe"
-    ],
+    "extract_dir": "rustowl",
+    "bin": "rustowl.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
