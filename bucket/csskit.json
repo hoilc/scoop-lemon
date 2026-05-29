@@ -1,0 +1,30 @@
+{
+    "version": "0.0.23",
+    "description": "A high-performance CSS toolchain written in Rust, inspired by oxc.",
+    "homepage": "https://csskit.rs/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/csskit/csskit/releases/download/v0.0.23/csskit-win32-x64.exe#/csskit.exe",
+            "hash": "1bce01fceb1795bfec1f5ecf71fad79b70d62291bc1890188c64bc62eced4ece"
+        },
+        "arm64": {
+            "url": "https://github.com/csskit/csskit/releases/download/v0.0.23/csskit-win32-arm64.exe#/csskit.exe",
+            "hash": "3c8b8e4609bf012f77ae5d984caeafecf34d67dde83c72044432f685fe21ddae"
+        }
+    },
+    "bin": "csskit.exe",
+    "checkver": {
+        "github": "https://github.com/csskit/csskit"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/csskit/csskit/releases/download/v$version/csskit-win32-x64.exe#/csskit.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/csskit/csskit/releases/download/v$version/csskit-win32-arm64.exe#/csskit.exe"
+            }
+        }
+    }
+}
