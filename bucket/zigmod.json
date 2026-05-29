@@ -1,16 +1,16 @@
 {
-    "version": "r99",
+    "version": "r100",
     "description": "A package manager for the Zig programming language.",
     "homepage": "https://github.com/nektro/zigmod",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nektro/zigmod/releases/download/r99/zigmod-x86_64-windows.exe#/zigmod.exe",
-            "hash": "bf7287d089a74de25b971f483064551c6b3aceea00575d5b87bd4a65439e7581"
+            "url": "https://github.com/nektro/zigmod/releases/download/r100/zigmod-x86_64-windows.exe#/zigmod.exe",
+            "hash": "95bf3ae8ccbec06532d7057ae63da01ad046e3fc2d5df1d45df877398424db5d"
         },
         "arm64": {
-            "url": "https://github.com/nektro/zigmod/releases/download/r99/zigmod-aarch64-windows.exe#/zigmod.exe",
-            "hash": "3a461241d06191c5d57b66e740e07a7662415996e43b3d1003cf9d5c5d540ef3"
+            "url": "https://github.com/nektro/zigmod/releases/download/r100/zigmod-aarch64-windows.exe#/zigmod.exe",
+            "hash": "c2e101256031c039c8905670bbe549f76ae19b555cfc69c4dea153abadb23c3f"
         }
     },
     "bin": "zigmod.exe",
