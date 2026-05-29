@@ -38,7 +38,7 @@ jobs:
         repository: ScoopInstaller/Main
         path: 'scoop/buckets/main'
     - name: Cache PS Modules
-      uses: potatoqualitee/psmodulecache@v6.2.1
+      uses: Knightly1/psmodulecache@9ac0563324860dd8b9c27e9c4f32e9b5970c579d # https://github.com/Knightly1/psmodulecache/tree/v6.3
       with:
         modules-to-cache: Pester:4.10.1, PSScriptAnalyzer, BuildHelpers
         shell: powershell
