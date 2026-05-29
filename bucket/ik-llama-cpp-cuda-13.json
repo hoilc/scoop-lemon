@@ -1,17 +1,17 @@
 {
-    "version": "b4804-decc6bb",
+    "version": "b4812-8b8fba0",
     "description": "(Thireus's Build / CUDA 13) ik_llama.cpp is a fork of llama.cpp with better CPU and hybrid GPU/CPU performance.",
     "homepage": "https://github.com/ikawrakow/ik_llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4804-decc6bb/ik_llama-main-b4804-decc6bb-bin-win-cuda-13.1-x64-avx2.zip",
-                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4804-decc6bb/ik_llama-cudart-main-b4804-decc6bb-bin-win-cuda-13.1-x64-avx2.zip"
+                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4812-8b8fba0/ik_llama-main-b4812-8b8fba0-bin-win-cuda-13.3-x64-avx2.zip",
+                "https://github.com/Thireus/ik_llama.cpp/releases/download/main-b4812-8b8fba0/ik_llama-cudart-main-b4812-8b8fba0-bin-win-cuda-13.3-x64-avx2.zip"
             ],
             "hash": [
-                "2e16d2c2da64c3ee96e6f1766859069164c9c81f892f3d4adaaa1ff43be5080c",
-                "f96935e7e385e3b2d0189239077c10fe8fd7e95690fea4afec455b1b6c7e3f18"
+                "023aad35224a728b234800aff6642c2efa36edf79b4d244fe6b77df3dc05a719",
+                "1462a050eb4c684921ba51dcc4cc488a036674c3e73e9945ee705b854808d03e"
             ]
         }
     },
@@ -37,8 +37,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-main-$version-bin-win-cuda-13.1-x64-avx2.zip",
-                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-cudart-main-$version-bin-win-cuda-13.1-x64-avx2.zip"
+                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-main-$version-bin-win-cuda-13.3-x64-avx2.zip",
+                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-cudart-main-$version-bin-win-cuda-13.3-x64-avx2.zip"
                 ]
             }
         },
