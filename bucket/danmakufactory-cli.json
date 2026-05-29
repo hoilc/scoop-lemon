@@ -1,0 +1,33 @@
+{
+    "version": "20260419-9f95d9e",
+    "description": "（命令行版）DanmakuFactory 是一款弹幕文件转换工具，支持弹幕姬的礼物读取，支持特殊弹幕，支持多格式互转，支持自定义输入模板",
+    "homepage": "https://github.com/hihkm/DanmakuFactory",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-x64-CLI.zip",
+            "hash": "9f95d9e18163a7bd1c4e20c8378a81401ba6bb50aac98910f3a7749b07303784"
+        },
+        "arm64": {
+            "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-arm64-CLI.zip",
+            "hash": "6625b826aae740136c460dbd483c4187850e5ae72d76785c06786c2ff636cef2"
+        }
+    },
+    "bin": "DanmakuFactory.exe",
+    "checkver": {
+        "url": "https://github.com/hihkm/DanmakuFactory/releases/expanded_assets/dev",
+        "regex": "(?sm)DanmakuFactory-dev-windows-x64-CLI\\.zip.+?sha256:(?<short>[a-f0-9]{7}).+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "replace": "${year}${month}${day}-${short}",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-x64-CLI.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-arm64-CLI.zip"
+            }
+        }
+    }
+}
