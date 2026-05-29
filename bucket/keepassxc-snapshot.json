@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://snapshot.keepassxc.org/build-286723/KeePassXC-2.8.0-snapshot-x64.zip",
             "hash": "3d44e5e85cc32c7d0106547d0b34162cf3165be1d8e9a8315ad57d93c823a978",
-            "extract_dir": "KeePassXC-2.8.0-snapshot-"
+            "extract_dir": "KeePassXC-2.8.0-snapshot-x64"
         }
     },
     "post_install": "if (Test-Path \"$persist_dir\\keepassxc.ini\") { Move-Item \"$persist_dir\\keepassxc.ini\" \"$dir\\config\" -Force }",
@@ -36,7 +36,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://snapshot.keepassxc.org/build-$matchBuild/KeePassXC-$matchMain-snapshot-x64.zip",
-                "extract_dir": "KeePassXC-$matchMain-snapshot-"
+                "extract_dir": "KeePassXC-$matchMain-snapshot-x64"
             }
         },
         "hash": {
