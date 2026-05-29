@@ -1,20 +1,17 @@
 {
-    "version": "2.8.0-285995",
+    "version": "2.8.0-286723",
     "description": "(Snapshot Build) Community fork of KeePass",
     "homepage": "https://snapshot.keepassxc.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://snapshot.keepassxc.org/build-285995/KeePassXC-2.8.0-snapshot-.zip",
-            "hash": "72cd98bc1e4978320a0a30cddf8a14ff61ca2bad9605f2c8487ddbe1e2ccc3ea",
+            "url": "https://snapshot.keepassxc.org/build-286723/KeePassXC-2.8.0-snapshot-x64.zip",
+            "hash": "3d44e5e85cc32c7d0106547d0b34162cf3165be1d8e9a8315ad57d93c823a978",
             "extract_dir": "KeePassXC-2.8.0-snapshot-"
         }
     },
     "post_install": "if (Test-Path \"$persist_dir\\keepassxc.ini\") { Move-Item \"$persist_dir\\keepassxc.ini\" \"$dir\\config\" -Force }",
-    "bin": [
-        "KeePassXC.exe",
-        "keepassxc-cli.exe"
-    ],
+    "bin": "keepassxc-cli.exe",
     "shortcuts": [
         [
             "KeePassXC.exe",
@@ -38,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://snapshot.keepassxc.org/build-$matchBuild/KeePassXC-$matchMain-snapshot-.zip",
+                "url": "https://snapshot.keepassxc.org/build-$matchBuild/KeePassXC-$matchMain-snapshot-x64.zip",
                 "extract_dir": "KeePassXC-$matchMain-snapshot-"
             }
         },
