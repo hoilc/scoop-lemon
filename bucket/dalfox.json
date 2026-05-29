@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/hahwul/dalfox/releases/download/v3.0.0/dalfox-v3.0.0-windows-x86_64.zip",
+            "extract_dir": "dalfox-v3.0.0-windows-x86_64",
             "hash": "dca5aaaf0058c56208122f532bf70a7b7c6ec426878b8f3d08d005a381dfba8d"
         }
     },
