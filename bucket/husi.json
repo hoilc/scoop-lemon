@@ -32,7 +32,7 @@
     "notes": "Husi is NOT portable.",
     "checkver": {
         "url": "https://codeberg.org/xchacha20-poly1305/husi/releases.rss",
-        "regex": "/releases/tag/v([\\d.]+)<"
+        "regex": "/releases/tag/v([\\d.]+)</guid>"
     },
     "autoupdate": {
         "architecture": {
