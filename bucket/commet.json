@@ -1,0 +1,35 @@
+{
+    "version": "0.4.2+hotfix.2",
+    "description": "A client for Matrix focused on providing a feature rich experience while maintaining a simple interface.",
+    "homepage": "https://commet.chat/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/commetchat/commet/releases/download/v0.4.2+hotfix.2/commet-windows.zip",
+            "hash": "794a43c1e02b8c8b3fe55d298df2a9f64e38b1bfb06ecdefc2286270718416de"
+        }
+    },
+    "extract_dir": "Release",
+    "shortcuts": [
+        [
+            "commet.exe",
+            "Commet"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\commet.chat\\commet\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Commet is NOT portable.",
+        "Settings are stored in '%APPDATA%\\commet.chat\\commet', and can be purged using 'scoop uninstall --purge commet'."
+    ],
+    "checkver": {
+        "url": "https://github.com/commetchat/commet/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/commetchat/commet/releases/download/v$version/commet-windows.zip"
+            }
+        }
+    }
+}
