@@ -5,10 +5,9 @@
     "license": "Freeware",
     "url": "https://github.com/blackboxo/CleanMyWechat/releases/download/v3.0/CleanMyWechat.zip",
     "hash": "56cd02a89ab89c561844fcf4f6d080a9d4668a74aef6a672607d0460c02c4d8d",
-    "extract_dir": "CleanMyWechat",
     "shortcuts": [
         [
-            "start.exe",
+            "main.exe",
             "CleanMyWechat"
         ]
     ],
