@@ -1,15 +1,35 @@
 {
     "version": "1.0.3.58",
-    "description": "A small but powerfull app for viewing MBOX files.",
+    "description": "MBoxViewer is a small but powerfull app for viewing MBOX files.",
     "homepage": "https://github.com/eneam/mboxviewer",
     "license": "AGPL-3.0-only",
     "url": "https://github.com/eneam/mboxviewer/releases/download/v1.0.3.58/mbox-viewer.exe-v1.0.3.58.zip",
     "hash": "24ad7e20069780a35de7486aab6af90835b17e5a6a2ce4a8438fd66389598674",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Remove-Item -Force \"$dir\\mboxview.exe\"",
+                    "Rename-Item -Path \"$dir\\mboxview64.exe\" -NewName 'mboxview.exe'"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "Remove-Item -Force \"$dir\\mboxview64.exe\""
+            }
+        }
+    },
     "shortcuts": [
         [
             "mboxview.exe",
             "MBox Viewer"
         ]
+    ],
+    "post_install": "if (!(Test-Path \"$persist_dir\\Config\\MBoxViewer.config\")) { Copy-Item \"$dir\\Config\\MBoxViewer.config.sample\" \"$dir\\Config\\MBoxViewer.config\" | Out-Null }",
+    "persist": [
+        "Config",
+        "UMBoxViewer"
     ],
     "checkver": "github",
     "autoupdate": {
