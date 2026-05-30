@@ -1,0 +1,27 @@
+{
+    "version": "r29",
+    "description": "Android Native Development Kit allows Android application developers to include native code in their Android application packages, compiled as JNI shared libraries.",
+    "homepage": "https://developer.android.com/ndk/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://developer.android.com/studio/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/android/repository/android-ndk-r29-windows.zip",
+            "hash": "4f83a1a87ea0d33ae2b43812ce27b768be949bc78acf90b955134d19e3068f1c"
+        }
+    },
+    "checkver": {
+        "url": "https://github.com/android/ndk/releases.atom",
+        "regex": "Repository/\\d+/(r\\d+.?)<"
+    },
+    "notes": "This `android-ndk` manifest does not configure global environment variables. Please reference its absolute path manually when needed, similar to a side-by-side toolchain.",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/android/repository/android-ndk-$version-windows.zip"
+            }
+        }
+    }
+}
