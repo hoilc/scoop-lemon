@@ -9,6 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.google.com/android/repository/android-ndk-r29-windows.zip",
+            "extract_dir": "android-ndk-r29",
             "hash": "4f83a1a87ea0d33ae2b43812ce27b768be949bc78acf90b955134d19e3068f1c"
         }
     },
@@ -20,7 +21,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.google.com/android/repository/android-ndk-$version-windows.zip"
+                "url": "https://dl.google.com/android/repository/android-ndk-$version-windows.zip",
+                "extract_dir": "android-ndk-$version"
             }
         }
     }
