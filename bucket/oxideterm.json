@@ -1,16 +1,16 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary.",
     "homepage": "https://oxideterm.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.5.0/OxideTerm_1.5.0_windows_x64-setup.exe#/dl.7z",
-            "hash": "39bc51558a758be05a22efc841fa5e16b571749cb793509d5d540d46b155ad70"
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.5.1/OxideTerm_1.5.1_windows_x64-setup.exe#/dl.7z",
+            "hash": "f2e5fe3d18bfd8de3c21adeae7047ca48c15cc3d098a992845cf5b863640bddb"
         },
         "arm64": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.5.0/OxideTerm_1.5.0_windows_arm64-setup.exe#/dl.7z",
-            "hash": "954b5de5a798bc73d8f9c12b0350e14bc381e5bde62a8630ac0d0a9e61c20fe6"
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v1.5.1/OxideTerm_1.5.1_windows_arm64-setup.exe#/dl.7z",
+            "hash": "e0ecfd67a5ab97f89cdbe497764cfab4689cf2ecbb7e1d78c9dd11fc5f2bbbb9"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
