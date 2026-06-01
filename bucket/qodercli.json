@@ -1,7 +1,7 @@
 {
     "version": "1.0.11",
     "description": "Qoder AI CLI tool - Terminal-based AI assistant for code development.",
-    "homepage": "https://qoder.com/",
+    "homepage": "https://qoder.com/cli",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
