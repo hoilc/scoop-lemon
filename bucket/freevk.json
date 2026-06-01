@@ -1,10 +1,10 @@
 {
-    "version": "5.0",
+    "version": "5.0.1",
     "description": "Free Virtual Keyboard is a free, lightweight, multilingual, and finger-friendly virtual on-screen keyboard.",
     "homepage": "https://freevirtualkeyboard.com/",
     "license": "Freeware",
     "url": "https://freevirtualkeyboard.com/FreeVK.zip",
-    "hash": "01455a580172d75bc7ec3bf6eb7a0a342699da9ae5b27f5009132f7044a0fccd",
+    "hash": "2c7937f12c618ae0809c5ec15b62b06ed80b24fdc111ebf7f8c77a59cb65098e",
     "shortcuts": [
         [
             "FreeVK.exe",
