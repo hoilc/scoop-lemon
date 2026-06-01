@@ -1,0 +1,25 @@
+{
+    "##": "#updateManually",
+    "version": "3.13.1-171-g36d919cd32",
+    "description": "(Patman's Build) The AV1 reference software encoder by AOMedia Project.",
+    "homepage": "https://github.com/mozilla/aom",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-lemon.tari.xyz/hosted/aomenc/aomenc-3.13.1-171-g36d919cd32-x64-msvc1944.7z",
+            "hash": "781c3dd9316419013dce5484102ad4d2925fe6cc786ea3fda458b7bfec140616"
+        }
+    },
+    "bin": "aomenc.exe",
+    "checkver": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/aomenc/latest.yml",
+        "regex": "version: (\\S+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-lemon.tari.xyz/hosted/aomenc/aomenc-$version-x64-msvc1944.7z"
+            }
+        }
+    }
+}
