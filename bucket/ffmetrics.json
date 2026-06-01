@@ -16,6 +16,9 @@
             "FFMetrics"
         ]
     ],
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
