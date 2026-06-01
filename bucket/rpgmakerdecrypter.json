@@ -1,0 +1,21 @@
+{
+    "version": "3.0.4",
+    "description": "RPG Maker Decrypter is a CLI tool to extract encrypted archives and files created with RPG Maker XP, VX, VX Ace, MV or MZ.",
+    "homepage": "https://github.com/uuksu/RPGMakerDecrypter",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/uuksu/RPGMakerDecrypter/releases/download/v3.0.4/RPGMakerDecrypter-cli.exe",
+            "hash": "34cd16998a57d5d844e941d739be5b721abeb2392b971bbf540247b254712cf9"
+        }
+    },
+    "bin": "RPGMakerDecrypter-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/uuksu/RPGMakerDecrypter/releases/download/v$version/RPGMakerDecrypter-cli.exe"
+            }
+        }
+    }
+}
