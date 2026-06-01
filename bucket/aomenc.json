@@ -1,7 +1,7 @@
 {
     "##": "#updateManually",
     "version": "3.13.1-171-g36d919cd32",
-    "description": "The AV1 reference software encoder by AOMedia Project.",
+    "description": "(Patman's Build) The AV1 reference software encoder by AOMedia Project.",
     "homepage": "https://github.com/mozilla/aom",
     "license": "BSD-2-Clause",
     "architecture": {
