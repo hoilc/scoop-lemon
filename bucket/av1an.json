@@ -1,0 +1,25 @@
+{
+    "version": "20260508-cf623e6",
+    "description": "A cross-platform command-line AV1 / VP9 / HEVC / H264 encoding framework with per scene quality encoding.",
+    "homepage": "https://github.com/rust-av/Av1an",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rust-av/Av1an/releases/download/latest/av1an.exe",
+            "hash": "2f60d259ad5150b7207a88606edaaf664ffaa91a9e2f25c8a6c99995efd063b0"
+        }
+    },
+    "bin": "av1an.exe",
+    "checkver": {
+        "url": "https://github.com/rust-av/Av1an/releases.atom",
+        "regex": "(?sm)latest</id>.+?<updated>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}.+?/commit/(?<commit>[a-f0-9]{7})",
+        "replace": "${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rust-av/Av1an/releases/download/latest/av1an.exe"
+            }
+        }
+    }
+}
