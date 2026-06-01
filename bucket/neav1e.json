@@ -1,0 +1,26 @@
+{
+    "version": "2.1.7",
+    "description": "NotEnoughAV1Encodes is a GUI for AV1 encoders - aomenc, rav1e, svt-av1 & vp9.",
+    "homepage": "https://github.com/Alkl58/NotEnoughAV1Encodes",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Alkl58/NotEnoughAV1Encodes/releases/download/v2.1.7/neav1e-portable-2.1.7.7z",
+            "hash": "671e969c8256b1ca720c179b17e9298900f83030a83e80f55f0f66ff87cdff19"
+        }
+    },
+    "shortcuts": [
+        [
+            "NotEnoughAV1Encodes.exe",
+            "NEAV1E"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Alkl58/NotEnoughAV1Encodes/releases/download/v$version/neav1e-portable-$version.7z"
+            }
+        }
+    }
+}
