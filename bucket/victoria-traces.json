@@ -1,13 +1,13 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "VictoriaTraces is an open-source, user-friendly database designed for storing and querying distributed tracing data.",
     "homepage": "https://docs.victoriametrics.com/victoriatraces/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/VictoriaTraces/releases/download/v0.9.0/victoria-traces-windows-amd64-v0.9.0.zip",
+            "url": "https://github.com/VictoriaMetrics/VictoriaTraces/releases/download/v0.9.1/victoria-traces-windows-amd64-v0.9.1.zip",
             "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64-prod') }",
-            "hash": "34b1afef875d35460c7720d88cc50f66f063fb4a80a905746a420f3f3a4ea003"
+            "hash": "492b9843989ce180125999d81f05aa587aec43ed8ffedffb895b6e1d14fff3da"
         }
     },
     "bin": "victoria-traces.exe",
