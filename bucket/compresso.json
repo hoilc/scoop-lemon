@@ -1,0 +1,32 @@
+{
+    "version": "3.0.0",
+    "description": "A free and open-source video/image compression app.",
+    "homepage": "https://github.com/codeforreal1/compressO",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/codeforreal1/compressO/releases/download/3.0.0/CompressO_3.0.0_x64.exe#/dl.7z",
+            "hash": "d27e63d2a8eec364aae364e6b7ec34089d3fb6382ad5f28a4760b948fbf13cba"
+        }
+    },
+    "shortcuts": [
+        [
+            "compressO.exe",
+            "CompressO"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.compresso.app\", \"$env:LOCALAPPDATA\\com.compresso.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "CompressO is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.compresso.app', and can be purged using 'scoop uninstall --purge compresso'."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/codeforreal1/compressO/releases/download/$version/CompressO_$version_x64.exe#/dl.7z"
+            }
+        }
+    }
+}
