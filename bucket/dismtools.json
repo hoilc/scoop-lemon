@@ -15,8 +15,8 @@
             "DISMTools"
         ]
     ],
-    "post_install": "@('settings.ini', 'userdata') | Foreach-Object { Get-ChildItem \"$persist_dir\" -Filter $_ | Move-Item -Force -Destination \"$dir\" }",
-    "pre_uninstall": "@('settings.ini', 'userdata') | Foreach-Object { Get-ChildItem \"$dir\" -Filter $_ | Move-Item -Force -Destination \"$persist_dir\" }",
+    "post_install": "@('settings.ini', 'userdata') | Foreach-Object { Get-ChildItem \"$persist_dir\" -Filter $_ -ErrorAction SilentlyContinue | Move-Item -Force -Destination \"$dir\" -ErrorAction SilentlyContinue }",
+    "pre_uninstall": "@('settings.ini', 'userdata') | Foreach-Object { Get-ChildItem \"$dir\" -Filter $_ -ErrorAction SilentlyContinue | Move-Item -Force -Destination \"$persist_dir\" -ErrorAction SilentlyContinue }",
     "persist": "logs",
     "checkver": {
         "url": "https://github.com/CodingWonders/DISMTools/releases.atom",
