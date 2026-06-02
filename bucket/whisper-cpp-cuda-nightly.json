@@ -1,12 +1,12 @@
 {
-    "version": "4908",
+    "version": "4909",
     "description": "(CUDA Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggml-org/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26804873743/whisper-cublas-12.4.0-bin-x64.zip#/dl.zip",
-            "hash": "d2247d1f5f96cc244432faf8afd97fd11424f53e4e7f3fdc05f68f00951c281a"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26815894749/whisper-cublas-12.4.0-bin-x64.zip#/dl.zip",
+            "hash": "17a9eeab5ee1c52b88df3928ed3509f88eadc9610087cfcae8b25c132b7ebee5"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
