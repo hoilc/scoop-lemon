@@ -1,31 +1,31 @@
 {
-    "version": "0.34.0",
+    "version": "0.35.0",
     "description": "CLI for Octelium, a free and open source, self-hosted, unified zero trust secure access platform",
     "homepage": "https://octelium.com/docs/octelium/latest/overview/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octelium-windows-amd64.zip",
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octeliumctl-windows-amd64.zip",
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octops-windows-amd64.zip"
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octelium-windows-amd64.zip",
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octeliumctl-windows-amd64.zip",
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octops-windows-amd64.zip"
             ],
             "hash": [
-                "9f13c0d1cae76b18c0a19c86f2b6fc2cd69812ce7abfbb4b33e5b98a85fe63f6",
-                "bb9ddbbe53deb44dbca1bdbdd3f379b5be51f8762aeb7d867014a4e6fe0f9f90",
-                "647008c6f04bc7dff70d37277bbf5770bab561eed66dba6c695a23d09d540eff"
+                "79e8c7e782206e10e441c09cce87db98730787d7ba4064ed9ab5839b374dcc9f",
+                "aa72bab1a37b4126a00d4ee82598da5effa006ff9dce8ecd73503477ba1f2dee",
+                "f9b436fc3433d4c3f0b51ce86a07ced4cd556c8d0523d1b1acbeaf8f36c3f53c"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octelium-windows-arm64.zip",
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octeliumctl-windows-arm64.zip",
-                "https://github.com/octelium/octelium/releases/download/v0.34.0/octops-windows-arm64.zip"
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octelium-windows-arm64.zip",
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octeliumctl-windows-arm64.zip",
+                "https://github.com/octelium/octelium/releases/download/v0.35.0/octops-windows-arm64.zip"
             ],
             "hash": [
-                "5ba7ec15659eebf6a2cb07d498dc45e042050d719269694a76e539213e6f22c9",
-                "b74b79e435e204a56744e8aaad25acf658146fc4b67655bde9cdfe2c75ad2b6e",
-                "a0ebe1f1f378134adf5937fafc7cf283395815a8925b6a3cde11cec970b8c711"
+                "7930c5a932e160e16e8fceec7a165d331b6615bf0342f14de93bff14ae3d17ef",
+                "05fb90fb218cd813996480e831e7eca1178bfc485533482c1825e66b97f89b20",
+                "97f48338831656d8dea59d5592cd167b03dc970d4c56312770b48786e6aeb00e"
             ]
         }
     },
