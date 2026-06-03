@@ -1,10 +1,10 @@
 {
-    "version": "1.7.15",
+    "version": "1.7.16",
     "description": "一款通过命令行操作对 UCloud 对象存储（US3）进行数据管理的工具",
     "homepage": "https://docs.ucloud.cn/ufile/tools/us3cli/introduction",
     "license": "Freeware",
     "url": "https://us3-release.cn-bj.ufileos.com/us3cli/us3cli-windows.exe#/us3cli.exe",
-    "hash": "9f7f32090c454065f0706fcc9251fcc54430d9592db582527b15246bf67cd8ae",
+    "hash": "c7ab5a764b252ffe64fc277489d8a58a5420e3150f4c6a0585bd4a5b02b2bb86",
     "bin": "us3cli.exe",
     "checkver": {
         "url": "http://us3-release.cn-bj.ufileos.com/us3cli/us3cli_latest_version.txt",
