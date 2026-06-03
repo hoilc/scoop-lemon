@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/mozilla-ai/llamafile/releases/download/0.10.3/llamafile-0.10.3.zip",
-            "extract_dir": "llamafile-0.10.3\\bin",
+            "extract_dir": "home\\mala\\releases\\0.10.3\\llamafile-0.10.3\\bin",
             "hash": "8ff91166a39bb9d387bf5f3115d02b4b2cbd93870f77eefd1d312e27dbf527f7"
         }
     },
