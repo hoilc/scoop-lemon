@@ -18,7 +18,10 @@
         "mxc-diagnostic-console.exe"
     ],
     "post_install": "Remove-Item \"$dir\\lxc-exec\", \"$dir\\mxc-exec-mac\", \"$dir\\linux-test-proxy\", \"$dir\\symbols\" -Force -Recurse -ErrorAction SilentlyContinue",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/microsoft/mxc/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "url": "https://github.com/microsoft/mxc/releases/download/v$version/mxc-release-binaries.zip"
     }
