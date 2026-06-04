@@ -1,0 +1,40 @@
+{
+    "version": "6.77",
+    "description": "A small, helpful tool for quickly killing current or hanging processes or programs on Windows.",
+    "homepage": "https://www.softwareok.eu/?seite=Freeware/ProcessKO",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.eu/Download/ProcessKO_x64.zip",
+            "hash": "19679c7b0abead49bf93316638fac9e170fd855e03840cefb17bea8f4e9db9be"
+        },
+        "32bit": {
+            "url": "https://www.softwareok.eu/Download/ProcessKO_Unicode.zip",
+            "hash": "31521820c63efd6197ab2e4afe1e7e5d7cd6b545bc8bb58cff6c0069aa7fa918"
+        }
+    },
+    "shortcuts": [
+        [
+            "ProcessKO.exe",
+            "ProcessKO"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'ProcessKO?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ProcessKO.exe'",
+        "if (!(Test-Path \"$persist_dir\\ProcessKO.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\ProcessKO.ini\" -Value $null }"
+    ],
+    "persist": "ProcessKO.ini",
+    "checkver": {
+        "regex": "ProcessKO ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.eu/Download/ProcessKO_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.eu/Download/ProcessKO_Unicode.zip"
+            }
+        }
+    }
+}
