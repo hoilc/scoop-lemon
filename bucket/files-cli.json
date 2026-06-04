@@ -1,16 +1,16 @@
 {
-    "version": "2.15.320",
+    "version": "2.15.321",
     "description": "The commandline app for Files.com.",
     "homepage": "https://developers.files.com/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Files-com/files-cli/releases/download/v2.15.320/files-cli_windows_64bit.zip",
-            "hash": "42033b7bc70b32208137ba3ffe8b58cf4cb8b008df280cedb4c5d4c473afbaaf"
+            "url": "https://github.com/Files-com/files-cli/releases/download/v2.15.321/files-cli_windows_64bit.zip",
+            "hash": "0eb672e3072cfad574e7b12b4ace82170079e67bb192cdd76c6e9482f413945c"
         },
         "arm64": {
-            "url": "https://github.com/Files-com/files-cli/releases/download/v2.15.320/files-cli_windows_arm64.zip",
-            "hash": "00874b1266520844330c045d40a91cfdf10a3cbdbf11726c1984c6ee4ea78bfb"
+            "url": "https://github.com/Files-com/files-cli/releases/download/v2.15.321/files-cli_windows_arm64.zip",
+            "hash": "8b4938e4657ff3634e9e7ef1b989280bd0741566bb32709ea5c8319eff5eda0c"
         }
     },
     "bin": "files-cli.exe",
