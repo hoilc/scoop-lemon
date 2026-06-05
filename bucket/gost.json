@@ -1,20 +1,20 @@
 {
-    "version": "3.2.7-nightly.20260603",
+    "version": "3.2.7-nightly.20260605",
     "description": "GO Simple Tunnel - a simple tunnel written in golang.",
     "homepage": "https://gost.run/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260603/gost_3.2.7-nightly.20260603_windows_amd64.zip",
-            "hash": "bc276b1fe1fc7e812024d43899d31fbeccf0942f84f88de0324e66371806be47"
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260605/gost_3.2.7-nightly.20260605_windows_amd64.zip",
+            "hash": "75cd47715b1ffc07ba8fd87ca3d9b9217f2ab75769aa29d493be4d4f5e60d056"
         },
         "32bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260603/gost_3.2.7-nightly.20260603_windows_386.zip",
-            "hash": "462fcb642fd2813a9a7c9f3e7b1cdae8f38862549e3fad834f5d306f70677ba6"
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260605/gost_3.2.7-nightly.20260605_windows_386.zip",
+            "hash": "2c4014f7d501558dd562f5585d333b1bad3577a7d7d201510f8125f8ea9809c7"
         },
         "arm64": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260603/gost_3.2.7-nightly.20260603_windows_arm64.zip",
-            "hash": "287b47262c1b29e40f1de5a7a4cd17a4ba7bb44d5735288773f6a312f3e6a4c1"
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260605/gost_3.2.7-nightly.20260605_windows_arm64.zip",
+            "hash": "2f74e0f47b1badb6ad19cb7233536039f6dd69f2d3b908889e820abc2ec1595a"
         }
     },
     "bin": "gost.exe",
