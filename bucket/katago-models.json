@@ -1,5 +1,5 @@
 {
-    "version": "kata1-zhizi-b40c768nbt-fdx6d",
+    "version": "zhizi-b40c768nbt-fdx6d",
     "description": "Strongest confidently-rated neural networks for KataGo.",
     "homepage": "https://katagotraining.org/",
     "license": {
@@ -11,7 +11,7 @@
     "pre_install": "Get-ChildItem \"$dir\" 'model.dontautoexpand' | Select-Object -First 1 | Rename-Item -NewName 'model.bin.gz'",
     "checkver": {
         "url": "https://katagotraining.org/networks/",
-        "regex": "Strongest confidently-rated network:.*?<a href=\"[^\"]+/models/(?<model>[^/]+)/([^/]+).bin.gz\">"
+        "regex": "Strongest confidently-rated network:.*?<a href=\"[^\"]+/models/kata1/kata1-([^/]+).bin.gz\">"
     },
     "notes": "Model location: $dir\\model.bin.gz",
     "suggest": {
@@ -21,6 +21,6 @@
         ]
     },
     "autoupdate": {
-        "url": "https://media.katagotraining.org/uploaded/networks/models/$matchModel/$version.bin.gz#/model.dontautoexpand"
+        "url": "https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-$version.bin.gz#/model.dontautoexpand"
     }
 }
