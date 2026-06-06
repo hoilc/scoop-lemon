@@ -6,7 +6,7 @@
 
 ## Usage
 
-To add this bucket to scoop, run the following command in PowerShell:
+To add this bucket to [Scoop](https://github.com/ScoopInstaller/Scoop), run the following command in PowerShell:
 
 ```
 scoop bucket add lemon https://github.com/hoilc/scoop-lemon
