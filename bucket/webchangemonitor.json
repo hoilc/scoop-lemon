@@ -1,16 +1,16 @@
 {
-    "version": "26.04",
+    "version": "26.06",
     "description": "Monitors a number of web pages and tracks changes based on the content of the web pages.",
     "homepage": "https://sourceforge.net/projects/webchangemon/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/webchangemon/files/Windows/WebChangeMonitor_26_04-64bit.zip",
-            "hash": "sha1:c893613f8ca1bcdb362f2c3f636916811aae17cc"
+            "url": "https://sourceforge.net/projects/webchangemon/files/Windows/WebChangeMonitor_26_06-64bit.zip",
+            "hash": "sha1:f8c57255e854b6fdae5ed11a50fcb5ae34588fd6"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/webchangemon/files/Windows/WebChangeMonitor_26_04-32bit.zip",
-            "hash": "sha1:fdaf5ae3cd8bd0cb8a6bb0f27467236dfe9262e0"
+            "url": "https://sourceforge.net/projects/webchangemon/files/Windows/WebChangeMonitor_26_06-32bit.zip",
+            "hash": "sha1:1406cd0445e79c22784701e3ef20b1e83297729e"
         }
     },
     "shortcuts": [
