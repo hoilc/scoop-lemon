@@ -1,16 +1,16 @@
 {
-    "version": "4910",
+    "version": "b5-20260604-99613cb",
     "description": "(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggml-org/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26816598977/whisper-blas-bin-x64.zip#/dl.zip",
-            "hash": "f0baba4857b39539a0e14f64e325a2d64483eb931ad16dc6dd8c5506a8f7a180"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26958188628/whisper-blas-bin-x64.zip#/dl.zip",
+            "hash": "3892890b3caac8d37bb65635458874c9fbf6b7a28d0decb2c61d2370b438f42c"
         },
         "32bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26816598977/whisper-blas-bin-Win32.zip#/dl.zip",
-            "hash": "59e9d18a17e2d748489b25063d5779139a2b1332c978848a1c20fb30269e1506"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26958188628/whisper-blas-bin-Win32.zip#/dl.zip",
+            "hash": "d513ca06ce2c00a1cb1e6c6145c6142c8e88b4b787f065fea6341b05fe46f0c3"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
@@ -38,15 +38,12 @@
         [
             "whisper-stream.exe",
             "whisper-cpp-stream"
-        ],
-        [
-            "whisper-talk-llama.exe",
-            "whisper-cpp-talk-llama"
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/release.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {

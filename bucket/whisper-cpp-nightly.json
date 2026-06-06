@@ -1,16 +1,16 @@
 {
-    "version": "4910",
+    "version": "b5-20260604-99613cb",
     "description": "(Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggml-org/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26816598977/whisper-bin-x64.zip#/dl.zip",
-            "hash": "e3c25425b45e0af272e0bc8f3a4422d3ac728090de9938077131f7fcdf4fc001"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26958188628/whisper-bin-x64.zip#/dl.zip",
+            "hash": "bbeb5d9551c0cb1ea2f89a211707f661e44d4325aa76878fa62a120e85c8ccf1"
         },
         "32bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26816598977/whisper-bin-Win32.zip#/dl.zip",
-            "hash": "eba36939aef1367121ba772b6e7f7ffe08de951c90a8c67bbb3f532a8e871583"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26958188628/whisper-bin-Win32.zip#/dl.zip",
+            "hash": "35b4b6d3b6a31430b1fdb035aaf42d0ce5c543016a97942bf0e1103a7e69c82f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
@@ -38,15 +38,12 @@
         [
             "whisper-stream.exe",
             "whisper-cpp-stream"
-        ],
-        [
-            "whisper-talk-llama.exe",
-            "whisper-cpp-talk-llama"
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/release.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {

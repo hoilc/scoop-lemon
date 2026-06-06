@@ -1,12 +1,12 @@
 {
-    "version": "4910",
+    "version": "b5-20260604-99613cb",
     "description": "(CUDA Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggml-org/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26816598977/whisper-cublas-12.4.0-bin-x64.zip#/dl.zip",
-            "hash": "68fd3a3753864b8f297121e5be649904ff3770d905dffbca42e54155e71ea4a1"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/26958188628/whisper-cublas-12.4.0-bin-x64.zip#/dl.zip",
+            "hash": "f076b0aab00621513bbb6ade8d73e5175c40ad7b35ce5373a70bc2367af001e7"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
@@ -34,15 +34,12 @@
         [
             "whisper-stream.exe",
             "whisper-cpp-stream"
-        ],
-        [
-            "whisper-talk-llama.exe",
-            "whisper-cpp-talk-llama"
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/build.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(\\d+):"
+        "url": "https://github.com/ggml-org/whisper.cpp/actions/workflows/release.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {
