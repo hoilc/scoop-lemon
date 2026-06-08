@@ -1,16 +1,16 @@
 {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "A tool for viewing CPU profiling traces collected through the Event Tracing for Windows (ETW) infrastructure on machines with x64 and ARM64 CPUs.",
     "homepage": "https://github.com/microsoft/profile-explorer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/profile-explorer/releases/download/v1.2.1/profile_explorer_installer_1.2.1_x64.exe",
-            "hash": "47d8d7fc2c49f0d4e21ebe45ea288a3d327a89336d6f46934792d7c2f3b9ced8"
+            "url": "https://github.com/microsoft/profile-explorer/releases/download/v1.3.0/profile_explorer_installer_1.3.0_x64.exe",
+            "hash": "04573abb2f2d8f34357301bc25a84625e86556c4058f490ec7f6ede8d3476a53"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/profile-explorer/releases/download/v1.2.1/profile_explorer_installer_1.2.1_arm64.exe",
-            "hash": "b90c29a6dbf48b64c61dc3f7ae8b4692f5c77db2fe9a269ed6cf6d09eeb16c9f"
+            "url": "https://github.com/microsoft/profile-explorer/releases/download/v1.3.0/profile_explorer_installer_1.3.0_arm64.exe",
+            "hash": "16910cc0ec52f80eff4165c129ff0b6e21ed6012b98c63cb7430831151891dcc"
         }
     },
     "innosetup": true,
