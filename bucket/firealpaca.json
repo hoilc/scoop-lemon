@@ -1,13 +1,13 @@
 {
-    "version": "2.15.2",
+    "version": "2.16.0",
     "description": "A digital painting software that is widely suitable for beginners to advanced users.",
     "homepage": "https://firealpaca.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://firealpaca.com/download/win64_zip#/dl.zip",
-            "hash": "46c8f39389e30cc6d0dca468df17dd52413fd72a75cf735c2f187c2ba2b0a63d",
-            "extract_dir": "FireAlpacaWin64_2_15_2"
+            "hash": "91fc0bdd5af7c0c2a872302c9b7eff105e777c4de05e75fc5eb5e1d3b4de228b",
+            "extract_dir": "FireAlpacaWin64_2_16_0"
         }
     },
     "bin": "FireAlpaca.exe",
