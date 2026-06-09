@@ -1,0 +1,36 @@
+{
+    "version": "6.2.10",
+    "description": "A fast Windows image viewer combining a borderless geek UI with GPU-accelerated Direct2D rendering and multi-threaded JXL/AVIF decoding.",
+    "homepage": "https://github.com/justnullname/QuickView",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/justnullname/QuickView/releases/download/v6.2.10/QuickView_v6.2.10_X64.zip",
+            "hash": "b6dc4e85e2bf57f684cfd33ab762b7fe093ba48bb37971facfdfbf9d21e19ade"
+        },
+        "arm64": {
+            "url": "https://github.com/justnullname/QuickView/releases/download/v6.2.10/QuickView_v6.2.10_ARM64.zip",
+            "hash": "1a05b030942eb7ad94b9ecc547c904200bc12686af8ec0065570282f47825d82"
+        }
+    },
+    "bin": "QuickView.exe",
+    "shortcuts": [
+        [
+            "QuickView.exe",
+            "QuickView"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\QuickView.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\QuickView.ini\" -Value '[General]', 'PortableMode=1', 'CheckUpdates=0' }",
+    "persist": "QuickView.ini",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/justnullname/QuickView/releases/download/v$version/QuickView_v$version_X64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/justnullname/QuickView/releases/download/v$version/QuickView_v$version_ARM64.zip"
+            }
+        }
+    }
+}
