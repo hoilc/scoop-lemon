@@ -1,0 +1,65 @@
+{
+    "version": "2.6",
+    "description": "PC端语音输入工具，离线识别，高准确率、低延迟，支持热词、LLM润色。按住CapsLock或鼠标侧键X2说话，松开自动上屏",
+    "homepage": "https://github.com/HaujetZhao/CapsWriter-Offline",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HaujetZhao/CapsWriter-Offline/releases/download/v2.6/CapsWriter-Offline-20260531.zip",
+            "hash": "a4ddb46c06ecaef88d3305ca95018458fb9c3f672e8daf80ee3753f6c5355389"
+        }
+    },
+    "extract_dir": "CapsWriter-Offline",
+    "pre_install": [
+        "Rename-Item -Path \"$dir\\start_client.exe\" -NewName 'capswriter-offline-client.exe'",
+        "Rename-Item -Path \"$dir\\start_server.exe\" -NewName 'capswriter-offline-server.exe'"
+    ],
+    "bin": [
+        "capswriter-offline-client.exe",
+        "capswriter-offline-server.exe"
+    ],
+    "shortcuts": [
+        [
+            "capswriter-offline-client.exe",
+            "CapsWriter-Offline Client"
+        ],
+        [
+            "capswriter-offline-server.exe",
+            "CapsWriter-Offline Server"
+        ]
+    ],
+    "persist": [
+        "models",
+        "logs",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+    ],
+    "pre_uninstall": [
+        "Write-Host -NoNewline \"Backing up existing config...\"",
+        "$backup_target = @('config_client.py', 'config_server.py', 'hot.txt', 'hot-rule.txt', 'hot-server.txt', 'LLM')",
+        "Get-ChildItem \"$dir\" | Where-Object { $_.Name -in $backup_target } | Compress-Archive -DestinationPath \"$persist_dir\\backup_$((Get-Date -Format 'yyyyMMddHHmmss')).zip\""
+    ],
+    "notes": [
+        "开始使用前，请先手动从 https://github.com/HaujetZhao/CapsWriter-Offline/releases/tag/models 下载模型到 $dir\\models\\ 文件夹",
+        "",
+        "CapsWriter-Offline不是商业软件，数据和配置不稳定，作者建议能用就无需频繁更新",
+        "Scoop仅持久化模型和录音目录，并尝试备份配置文件，更新后需要手动迁移配置文件，例如 config_client.py/config_server.py/hot.txt"
+    ],
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/HaujetZhao/CapsWriter-Offline/releases/latest",
+        "regex": "/releases/download/v([\\d.]+)/CapsWriter-Offline-(?<date>\\d+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HaujetZhao/CapsWriter-Offline/releases/download/v$version/CapsWriter-Offline-$matchDate.zip"
+            }
+        }
+    }
+}
