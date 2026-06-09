@@ -1,19 +1,19 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Blazing-fast tool to grab screenshots of webpages/URLs right from terminal.",
     "homepage": "https://github.com/pwnwriter/haylxon",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.0/haylxon-1.2.0-x86_64-pc-windows-msvc.zip",
-            "hash": "b24bbd7d9fbb2956aa047da9bfb0e7bbac959be27e961fad5ee7715d64f3867e"
+            "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-x86_64-pc-windows-msvc.zip",
+            "hash": "07e34e7b95537ff381a30f5e3fa9411277d29ba18cb13853a69bd330d7f09ab2"
         },
         "32bit": {
-            "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.0/haylxon-1.2.0-i686-pc-windows-msvc.zip",
-            "hash": "b77d13d3cfe0e8597529d82aaa6a0fa574f4833dc5e3afc317a8ecc4b2a8c397"
+            "url": "https://github.com/pwnwriter/haylxon/releases/download/v1.2.1/haylxon-1.2.1-i686-pc-windows-msvc.zip",
+            "hash": "0b7bd263906ef72ba1247385cc409f15cbf5bc21943bfcd8118e563fe1794a8c"
         }
     },
-    "extract_dir": "haylxon-1.2.0",
+    "extract_dir": "haylxon-1.2.1",
     "bin": "hxn.exe",
     "checkver": {
         "url": "https://github.com/pwnwriter/haylxon/releases/latest",
