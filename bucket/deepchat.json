@@ -8,6 +8,11 @@
             "url": "https://cdn.deepchatai.cn/download/v1.0.5/DeepChat-1.0.5-windows-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
             "hash": "8db9c5740a284f743022a0e2c4fa0b411abe37d706bee44500a4f5e546d85db2"
+        },
+        "arm64": {
+            "url": "https://cdn.deepchatai.cn/download/v1.0.5/DeepChat-1.0.5-windows-arm64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+            "hash": "84c435b5fc572e0eb3e03467a581a12822f418727068edd87a67cac71b261576"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
@@ -28,6 +33,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://cdn.deepchatai.cn/download/v$version/DeepChat-$version-windows-x64.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://cdn.deepchatai.cn/download/v$version/DeepChat-$version-windows-arm64.exe#/dl.7z"
             }
         }
     }
