@@ -2,7 +2,10 @@
     "version": "146.0.7680.177.5",
     "description": "(BINARY ONLY) Stealth Chromium that passes every bot detection test.",
     "homepage": "https://github.com/CloakHQ/CloakBrowser",
-    "license": "MIT",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://raw.githubusercontent.com/CloakHQ/CloakBrowser/refs/heads/main/BINARY-LICENSE.md"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/CloakHQ/CloakBrowser/releases/download/chromium-v146.0.7680.177.5/cloakbrowser-windows-x64.zip",
