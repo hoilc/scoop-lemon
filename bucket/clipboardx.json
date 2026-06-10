@@ -1,0 +1,27 @@
+{
+    "version": "1.7.1",
+    "description": "轻量级 Windows 剪贴板历史 + 文件对话框跳转二合一工具：剪贴板弹窗不抢焦点（WS_EX_NOACTIVATE），并支持在「打开 / 保存」等窗口中一键跳转到资源管理器或常用目录（默认 Ctrl+G）",
+    "homepage": "https://github.com/chaojimct/clipboardx",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chaojimct/clipboardx/releases/download/v1.7.1/ClipboardX-1.7.1-win-x64-self-contained.zip",
+            "hash": "aacd8c83257c2e9afacd300bda12cf0fa610b39d617a1f43153d590b10881cba"
+        }
+    },
+    "shortcuts": [
+        [
+            "ClipboardX.exe",
+            "ClipboardX"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chaojimct/clipboardx/releases/download/v$version/ClipboardX-$version-win-x64-self-contained.zip"
+            }
+        }
+    }
+}
