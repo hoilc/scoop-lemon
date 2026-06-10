@@ -1,0 +1,33 @@
+{
+    "version": "146.0.7680.177.5",
+    "description": "(BINARY ONLY) Stealth Chromium that passes every bot detection test.",
+    "homepage": "https://github.com/CloakHQ/CloakBrowser",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/CloakHQ/CloakBrowser/releases/download/chromium-v146.0.7680.177.5/cloakbrowser-windows-x64.zip",
+            "hash": "b213795cb32c3169f766c74ce1d0275fc89d3df256de39c04da7fb4c23b7fdbe"
+        }
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "cloakbrowser"
+        ]
+    ],
+    "notes": [
+        "Basic Usage: cloakbrowser --fingerprint=1000 --user-data-dir=\"$env:TEMP\\1000\" ",
+        "Set local binary for wrapper: $env:CLOAKBROWSER_BINARY_PATH = \"$dir\\chrome.exe\" "
+    ],
+    "checkver": {
+        "url": "https://github.com/CloakHQ/CloakBrowser/releases.atom",
+        "regex": "Repository/\\d+/chromium-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/CloakHQ/CloakBrowser/releases/download/chromium-v$version/cloakbrowser-windows-x64.zip"
+            }
+        }
+    }
+}
