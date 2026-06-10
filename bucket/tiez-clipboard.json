@@ -1,0 +1,33 @@
+{
+    "version": "0.3.3",
+    "description": "A cross-platform clipboard manager with history, tags, sync, privacy protection, and fast daily workflows.",
+    "homepage": "https://github.com/jimuzhe/tiez-clipboard",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jimuzhe/tiez-clipboard/releases/download/v0.3.3/TieZ_0.3.3-portable.zip",
+            "extract_dir": "TieZ_0.3.3-portable",
+            "hash": "74a4cc2561b5ee48fc3788794d157ab45802e1e8fffaae49cfa3574c66e39548"
+        }
+    },
+    "shortcuts": [
+        [
+            "tiez-app.exe",
+            "TieZ"
+        ]
+    ],
+    "persist": "data",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.tiez.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "url": "https://github.com/jimuzhe/tiez-clipboard/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jimuzhe/tiez-clipboard/releases/download/v$version/TieZ_$version-portable.zip",
+                "extract_dir": "TieZ_$version-portable"
+            }
+        }
+    }
+}
