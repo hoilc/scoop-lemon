@@ -1,12 +1,12 @@
 {
-    "version": "2.3.2",
+    "version": "2.3.3",
     "description": "A build system and monorepo management tool for the web ecosystem, written in Rust.",
     "homepage": "https://moonrepo.dev/moon",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moonrepo/moon/releases/download/v2.3.2/moon_cli-x86_64-pc-windows-msvc.zip",
-            "hash": "4b6667bf33281956325bb00bbdba87fdb91e94b39c5b2741cd287c48c411c3ee"
+            "url": "https://github.com/moonrepo/moon/releases/download/v2.3.3/moon_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "5dafe242f0ed923cb6f76ada8757ad5800ced13df606eaf2399bc80daab37e6f"
         }
     },
     "bin": [
