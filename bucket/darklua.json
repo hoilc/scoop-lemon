@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "0.19.0",
     "description": "A command line tool that transforms Lua 5.1 and Roblox Lua scripts using rules.",
     "homepage": "https://github.com/seaofvoices/darklua",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/seaofvoices/darklua/releases/download/v0.18.0/darklua-windows-x86_64.zip",
-            "hash": "e29d308c48df4679db69eea7a237b382ee5dbb8a7d0bd6f8f86fc4a96f522a78"
+            "url": "https://github.com/seaofvoices/darklua/releases/download/v0.19.0/darklua-windows-x86_64.zip",
+            "hash": "e099313a768a0628bce861123dff6959f0c7dc49b5c353d9523a144c1fa2124e"
         }
     },
     "bin": "darklua.exe",
