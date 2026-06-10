@@ -1,18 +1,18 @@
 {
-    "version": "1.1.29",
+    "version": "1.1.32",
     "description": "A beautiful, feature-rich SSH workspace built with Electron, React, and xterm.js.",
     "homepage": "https://netcatty.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.29/Netcatty-1.1.29-win-x64.exe#/dl.7z",
+            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.32/Netcatty-1.1.32-win-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "9ac143d3fb73baf4be6bca310b1de63829bd6157b06f099825315fb06e2c5aaa"
+            "hash": "3899825c68e5139670aeee8b7d5c754391ba1633da2045e76ec320e8819fc4ec"
         },
         "arm64": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.29/Netcatty-1.1.29-win-arm64.exe#/dl.7z",
+            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.32/Netcatty-1.1.32-win-arm64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-            "hash": "ebf730bae95866bfa1bc3e1fa111c10c1444f3f61f180dc4be5c63c7f59492de"
+            "hash": "5a3b3e12fb1fade9cdaa4b3a31ce34b8fe762eb1ee8dac69a700614aea0acab4"
         }
     },
     "shortcuts": [
