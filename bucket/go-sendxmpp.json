@@ -1,12 +1,12 @@
 {
-    "version": "0.15.8",
+    "version": "0.16.0-beta2",
     "description": "A tool to send messages or files to an XMPP contact or MUC.",
     "homepage": "https://salsa.debian.org/mdosch/go-sendxmpp",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/9585437/artifacts/raw/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe",
-            "hash": "888cd4dd31b878456b94955a40e343d655859fb044ca559bc76705ebd8a6d6b5"
+            "url": "https://salsa.debian.org/mdosch/go-sendxmpp/-/jobs/9764630/artifacts/raw/win64/go-sendxmpp.exe?inline=false#/go-sendxmpp.exe",
+            "hash": "17c36673d56f8bef42f90a626e2c0c388f03a338faa9bf3aecaca654634e3e14"
         }
     },
     "bin": "go-sendxmpp.exe",
