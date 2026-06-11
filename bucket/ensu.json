@@ -1,0 +1,32 @@
+{
+    "version": "0.1.17",
+    "description": "A private, personal LLM app that runs on your device and grows with you over time.",
+    "homepage": "https://ente.com/ensu/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ente-io/ente/releases/download/ensu-v0.1.17/Ensu_0.1.17_x64-setup.exe#/dl.7z",
+            "hash": "9c8857df387410adcbeba2c1d6fae5fd9958b1d0e95c83b39f091d5a11b2a945"
+        }
+    },
+    "shortcuts": [
+        [
+            "Ensu.exe",
+            "Ensu"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\io.ente.ensu\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "Ensu is NOT portable.",
+    "checkver": {
+        "url": "https://github.com/ente-io/ente/releases?q=ensu",
+        "regex": "/ente/tree/ensu-v([^/]+?)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ente-io/ente/releases/download/ensu-v$version/Ensu_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
