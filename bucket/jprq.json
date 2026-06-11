@@ -15,7 +15,8 @@
     },
     "bin": "jprq.exe",
     "checkver": {
-        "github": "https://github.com/azimjohn/jprq"
+        "url": "https://github.com/azimjohn/jprq/releases.atom",
+        "regex": "Repository/\\d+/([\\d.]+?)<"
     },
     "autoupdate": {
         "architecture": {
