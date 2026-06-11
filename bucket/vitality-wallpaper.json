@@ -1,0 +1,30 @@
+{
+    "version": "0.2.22.0",
+    "description": "元气壁纸是一款简约优雅的壁纸应用，提供海量丰富精美壁纸",
+    "homepage": "http://bizhi.soutushenqi.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://download-installer.soutushenqi.com/pc/yqbz_pc_0.2.22.0.exe",
+            "hash": "12e46ce83069fcb3e01740f9c96ab849afa61905cba4495c72375ca41e9d01a7"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "VitalityWallpaper.exe",
+            "元气壁纸"
+        ]
+    ],
+    "checkver": {
+        "url": "https://wallpaper.soutushenqi.com/api/productVersion/common/checkForUpdate?product_id=102&version_code=0",
+        "regex": "yqbz_pc_([\\d.]+)\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download-installer.soutushenqi.com/pc/yqbz_pc_$version.exe"
+            }
+        }
+    }
+}
