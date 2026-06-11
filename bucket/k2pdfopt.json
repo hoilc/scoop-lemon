@@ -22,7 +22,8 @@
     ],
     "checkver": {
         "url": "https://www.willus.com/k2pdfopt/src/",
-        "regex": "k2pdfopt_v([^_]+)_src.zip"
+        "regex": "k2pdfopt_v([^_]+)_src.zip",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
