@@ -1,16 +1,16 @@
 {
-    "version": "0.289.0",
+    "version": "0.290.0",
     "description": "The CLI for PlanetScale Database.",
     "homepage": "https://github.com/planetscale/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/planetscale/cli/releases/download/v0.289.0/pscale_0.289.0_windows_amd64.zip",
-            "hash": "ad2e536544eb2cc73e036288f51c797443e778f60b095000fe5bd2c98e903546"
+            "url": "https://github.com/planetscale/cli/releases/download/v0.290.0/pscale_0.290.0_windows_amd64.zip",
+            "hash": "6965598e7a0655b7ad0d6379cdc974bb1e25aed2cf75bb56260593d49dad4828"
         },
         "32bit": {
-            "url": "https://github.com/planetscale/cli/releases/download/v0.289.0/pscale_0.289.0_windows_386.zip",
-            "hash": "156c461cbb650aa98f86873dc36837e69acdf12105f4de2715be79c63128c1f0"
+            "url": "https://github.com/planetscale/cli/releases/download/v0.290.0/pscale_0.290.0_windows_386.zip",
+            "hash": "52ca8566beaf98caa8b0d1787db1c80b57fe8b95a210e72fc6f224930c65a8b5"
         }
     },
     "bin": "pscale.exe",
