@@ -1,12 +1,12 @@
 {
-    "version": "2025-01-20",
+    "version": "2026-06-12",
     "description": "A small utility for quickly adjusting the brightness of external monitors using the DDC/CI protocol.",
     "homepage": "https://github.com/sidit77/rusty-twinkle-tray",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sidit77/rusty-twinkle-tray/releases/download/release-2025-01-20/rusty-twinkle-tray.exe",
-            "hash": "ebeac743f5c3b525197baddff86289cbff4f591a4af6c830e8439ff1703fdb6e"
+            "url": "https://github.com/sidit77/rusty-twinkle-tray/releases/download/release-2026-06-12/rusty-twinkle-tray.exe",
+            "hash": "be69e63fff934229fd8f50d33597ad3d8218fe5336a3c1617235966eaafdde86"
         }
     },
     "shortcuts": [
