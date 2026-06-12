@@ -1,12 +1,12 @@
 {
-    "version": "4.6.0",
+    "version": "4.7.0",
     "description": "An app to download novels from online sources and generate e-books.",
     "homepage": "https://github.com/dipu-bd/lightnovel-crawler",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dipu-bd/lightnovel-crawler/releases/download/v4.6.0/lncrawl.exe",
-            "hash": "1845dffcc530c8ff98163d2a785c6000c6f5d8a8a955b75d91de9aa9aca9acd5"
+            "url": "https://github.com/dipu-bd/lightnovel-crawler/releases/download/v4.7.0/lncrawl.exe",
+            "hash": "310252b07a919b1a58222272626622e0aac132bc6796e55342314a050b595b35"
         }
     },
     "bin": [
