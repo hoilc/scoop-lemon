@@ -1,12 +1,12 @@
 {
-    "version": "0.38.6",
+    "version": "0.39.1",
     "description": "A fully standalone Spotify client for the terminal.",
     "homepage": "https://github.com/LargeModGames/spotatui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LargeModGames/spotatui/releases/download/v0.38.6/spotatui-windows-x86_64.zip",
-            "hash": "65f76cf17aeb6cd81e887d80b48671ec4c8bfaf32fd252c11f4fb59e059de8ed"
+            "url": "https://github.com/LargeModGames/spotatui/releases/download/v0.39.1/spotatui-windows-x86_64.zip",
+            "hash": "d2062ca08b69421960267a48e54da82e82330d76829414c593bf83f94a000492"
         }
     },
     "bin": "spotatui.exe",
