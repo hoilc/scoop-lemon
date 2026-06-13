@@ -1,12 +1,12 @@
 {
-    "version": "1.2.6",
+    "version": "1.2.7",
     "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable.",
     "homepage": "https://github.com/BigPizzaV3/CodexPlusPlus",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BigPizzaV3/CodexPlusPlus/releases/download/v1.2.6/CodexPlusPlus-1.2.6-windows-x64-setup.exe#/dl.7z",
-            "hash": "fa506c8b884ef6f8b27d73d4015540118448f33f9946935533dedd699f5858bf"
+            "url": "https://github.com/BigPizzaV3/CodexPlusPlus/releases/download/v1.2.7/CodexPlusPlus-1.2.7-windows-x64-setup.exe#/dl.7z",
+            "hash": "8987cd87b1b87a0851a251fec9560c31aaa6a32fc34f3e3673fd148b5ac457b7"
         }
     },
     "shortcuts": [
