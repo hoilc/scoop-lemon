@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/lightvector/KataGo/releases/download/v1.16.5/katago-v1.16.5-opencl-windows-x64.zip",
-            "hash": "600f5f0bcb707d74c24d2047272b30821b0351839e218afe3595d752680c8809"
+            "hash": "7a9ca46567a95051fd74bc5677eec24a17dafb25638a929bffada65d3c6744ff"
         }
     },
     "bin": "katago.exe",
