@@ -1,0 +1,28 @@
+{
+    "version": "1.1.0",
+    "description": "花笺 (Floral Notepaper) 是一款轻量、优雅、现代化的桌面便签工具，支持 Markdown 编辑与预览",
+    "homepage": "https://github.com/Achilng/floral-notepaper",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Achilng/floral-notepaper/releases/download/v1.1.0/floral-notepaper_1.1.0_x64-setup.exe#/dl.7z",
+            "hash": "ba8363bd93df8e3e6f15e8e88af4ec2eb0d1e98862664e250dbc0acbdde3011a"
+        }
+    },
+    "shortcuts": [
+        [
+            "floral-notepaper.exe",
+            "Floral Notepaper"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.floral-notepaper.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Achilng/floral-notepaper/releases/download/v$version/floral-notepaper_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
