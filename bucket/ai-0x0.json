@@ -1,0 +1,36 @@
+{
+    "version": "3.4.4-alpha",
+    "description": "多模态多模型通用型的全能 AI 查询生成桌面悬浮助手应用",
+    "homepage": "https://github.com/mushan0x0/AI0x0.com",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mushan0x0/AI0x0.com/releases/download/v3.4.4-alpha/AI-0x0_3.4.4-alpha_x64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "1877e2082cfa567314041d9e97bdec2fa84272e44b9f3b31ac5e947d131cbc07"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "AI 0x0.exe",
+            "AI 0x0"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\AI0x0\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "AI 0x0 is NOT portable.",
+        "Settings are stored in '%APPDATA%\\AI0x0', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": {
+        "url": "https://github.com/mushan0x0/AI0x0.com/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mushan0x0/AI0x0.com/releases/download/v$version/AI-0x0_$version_x64.exe#/dl.7z"
+            }
+        }
+    }
+}
