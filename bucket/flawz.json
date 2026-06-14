@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.1",
     "description": "A Terminal UI for browsing security vulnerabilities (CVEs).",
     "homepage": "https://github.com/orhun/flawz",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/orhun/flawz/releases/download/v0.3.0/flawz-x86_64-pc-windows-msvc.zip",
-            "hash": "8fe5cf89af5c03816926d4b0603b329cc536a50eb09fd80b53c4c1390f43771c"
+            "url": "https://github.com/orhun/flawz/releases/download/v0.4.1/flawz-x86_64-pc-windows-msvc.zip",
+            "hash": "06211cd87e3159955f01628a9494250f9f32154dd78759d77e8ba76cc3f11f99"
         }
     },
     "bin": "flawz.exe",
