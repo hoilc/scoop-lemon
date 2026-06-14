@@ -1,11 +1,11 @@
 {
-    "version": "20260613-c624314",
+    "version": "20260614-0be4f1f",
     "description": "Geosite rule set for sing-box.",
     "homepage": "https://sing-box.sagernet.org/configuration/rule-set/",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/SagerNet/sing-geosite/archive/c62431488f39d5a8089571dda29670c8d1d92d8f.zip",
-    "hash": "88f0bd37b469ff59e6eb1bcedf65731f630af4291f24257a45079c7989a307a4",
-    "extract_dir": "sing-geosite-c62431488f39d5a8089571dda29670c8d1d92d8f",
+    "url": "https://github.com/SagerNet/sing-geosite/archive/0be4f1ff76a5c198e8afa06f36b3299d2aeca9ae.zip",
+    "hash": "c71e63f19609ed7843ef233a6beda5c94060116756b7d699932eb8847d974c8b",
+    "extract_dir": "sing-geosite-0be4f1ff76a5c198e8afa06f36b3299d2aeca9ae",
     "checkver": {
         "url": "https://api.github.com/repos/SagerNet/sing-geosite/branches/rule-set",
         "jsonpath": "$..['sha','date']",
