@@ -9,8 +9,10 @@
             "hash": "eefbb0ab9055dca1356dc99781f9f3416f1f4089658ffaab4fa4e92b7d8fdf2b"
         }
     },
-    "extract_dir": "src-tauri\\target\\release",
-    "bin": "uniclip.exe",
+    "bin": [
+        "uniclip.exe",
+        "uniclipd.exe"
+    ],
     "checkver": {
         "github": "https://github.com/UniClipboard/UniClipboard"
     },
