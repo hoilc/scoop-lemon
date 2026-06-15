@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "A quick launcher in autohotkey.",
     "homepage": "https://github.com/Nigh/ahko",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nigh/ahko/releases/download/v1.1.1/ahko.zip",
-            "hash": "9a1d8540b15e05b8cf26716f4bf9f535b1c341810c05f4c13f585081065087aa"
+            "url": "https://github.com/Nigh/ahko/releases/download/v1.2.0/ahko.zip",
+            "hash": "11c805aef1404dd4ca957f986718920b70b4656884420a71def87ff0b9a91815"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\setting.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\setting.ini\" -Value '[update]','autoupdate=0' }",
