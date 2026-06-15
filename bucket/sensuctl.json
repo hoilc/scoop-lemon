@@ -1,16 +1,16 @@
 {
-    "version": "6.14.1",
+    "version": "6.14.2",
     "description": "The command line tool for managing resources within Sensu, a complete solution for monitoring and observability at scale.",
     "homepage": "https://docs.sensu.io/sensu-go/latest/sensuctl/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.1/sensu-go_6.14.1_windows_amd64.zip",
-            "hash": "af39334c1a799d6f39df09600bb0761a0cfe3d95ad72e0e177d4c6f366781268"
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.2/sensu-go_6.14.2_windows_amd64.zip",
+            "hash": "e934f019ecc401bf86b3b30bf2cce8ef7037cc93ef0527878f44de08a4337383"
         },
         "32bit": {
-            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.1/sensu-go_6.14.1_windows_386.zip",
-            "hash": "2306c0332e452886ae5a6b32c6049488e7cc68143b968e1ad371e532235ae9cc"
+            "url": "https://s3-us-west-2.amazonaws.com/sensu.io/sensu-go/6.14.2/sensu-go_6.14.2_windows_386.zip",
+            "hash": "b81e8e39aa1b9adf49bec37e900dbc40ec19e844c099c23ca06e66c9908efaa2"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'sensu-agent.exe' | Remove-Item",
