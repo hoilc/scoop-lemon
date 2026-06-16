@@ -1,13 +1,13 @@
 {
-    "version": "1.2.1",
+    "version": "0.19.0",
     "description": "(GUI Version) A modified version of Perfare's AssetStudio, mainly focused on UI optimization and some functionality enhancements.",
     "homepage": "https://github.com/aelurum/AssetStudio",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v1.2.1/SimpMusic-1.2.1.msi",
+            "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModGUI_net472_win32_64.zip",
             "extract_dir": "AssetStudioModGUI_net472_win32_64",
-            "hash": "0d0cda1e0126851c61b634a07c06e6e493e8b85b55f9858c534f4b3c611f4919"
+            "hash": "9d70ea2c2a24391cf8f6449d351d25b006a762deca1d5771bc402455d62843c0"
         }
     },
     "shortcuts": [
