@@ -1,10 +1,10 @@
 {
-    "version": "0.62.1",
+    "version": "0.62.2",
     "description": "Metabase is the easy, open source way for everyone in your company to ask questions and learn from data.",
     "homepage": "https://github.com/metabase/metabase",
     "license": "AGPL-3.0-only",
-    "url": "https://downloads.metabase.com/v0.62.1/metabase.jar",
-    "hash": "f22bff97ab7faa360251779a6bdb0506364289ca95c190a8005d432cbe728d74",
+    "url": "https://downloads.metabase.com/v0.62.2/metabase.jar",
+    "hash": "caa3986d7cd30fc075dea8c65837c085f62b0de01721b0ba82b28a21a9d825eb",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "metabase.bat",
     "suggest": {
