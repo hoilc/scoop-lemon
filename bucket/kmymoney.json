@@ -1,12 +1,12 @@
 {
-    "version": "5.2-5788",
+    "version": "5.2-5809",
     "description": "A personal finance manager developed by KDE.",
     "homepage": "https://kmymoney.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/kmymoney-5.2-5788-windows-cl-msvc2022-x86_64.7z",
-            "hash": "cac5576f292cf8bcf914e796e0892cf7b089695a58aa5cd96bd62c0e00a4752c"
+            "url": "https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/kmymoney-5.2-5809-windows-cl-msvc2022-x86_64.7z",
+            "hash": "2770ffc9ee124c45785d2e0cfae6722e1f144bbfe37248d114f8ae43cf5be103"
         }
     },
     "shortcuts": [
