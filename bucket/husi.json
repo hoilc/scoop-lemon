@@ -1,18 +1,18 @@
 {
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "Husi(虎兕) is a non-professional and recreational proxy tool integration for the weird beliefs and free software spirit.",
     "homepage": "https://codeberg.org/xchacha20-poly1305/husi",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.3/fr.husi-1.2.3-windows-amd64.zip",
-            "extract_dir": "Husi-1.2.3-windows-amd64",
-            "hash": "42a04900c6d10c1914f108192ddcfac09da77e55336cdc59708f79d609749813"
+            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.4/fr.husi-1.2.4-windows-amd64.zip",
+            "extract_dir": "Husi-1.2.4-windows-amd64",
+            "hash": "ee6a59c6d59d8350518026bc1f1ac8966d23534f693c57a886f31daaecf21fee"
         },
         "arm64": {
-            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.3/fr.husi-1.2.3-windows-arm64.zip",
-            "extract_dir": "Husi-1.2.3-windows-arm64",
-            "hash": "3269598adff882be83bc7e6f362d351246a78dcbf8e3525c7c13c07db2141b17"
+            "url": "https://codeberg.org/xchacha20-poly1305/husi/releases/download/v1.2.4/fr.husi-1.2.4-windows-arm64.zip",
+            "extract_dir": "Husi-1.2.4-windows-arm64",
+            "hash": "a4b57079460889148e48764074e266c429c62ad85d369e2dbffefc5299acafd5"
         }
     },
     "shortcuts": [
