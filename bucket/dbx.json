@@ -1,12 +1,12 @@
 {
-    "version": "0.5.34",
+    "version": "0.5.35",
     "description": "A lightweight database client with support for MySQL, PostgreSQL, Redis, MongoDB, DuckDB, ClickHouse, SQL Server, and more.",
     "homepage": "https://github.com/t8y2/dbx",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.34/DBX_0.5.34_x64-portable.zip",
-            "hash": "8c73207fa7c58a99f886df4e297143be136ea533874dca9e3080c1b616bd35a9"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.35/DBX_0.5.35_x64-portable.zip",
+            "hash": "291ee92ece124af7b6870084f10c2300b28dd688f7716139e0530f8a693f01d0"
         }
     },
     "shortcuts": [
