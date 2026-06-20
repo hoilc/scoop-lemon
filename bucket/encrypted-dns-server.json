@@ -1,12 +1,12 @@
 {
-    "version": "0.9.20",
+    "version": "0.9.21",
     "description": "An easy to install, high-performance, zero maintenance proxy to run an encrypted DNS server.",
     "homepage": "https://github.com/DNSCrypt/encrypted-dns-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DNSCrypt/encrypted-dns-server/releases/download/0.9.20/encrypted-dns_0.9.20_win-x86_64-msvc.zip",
-            "hash": "5564634b6b5bf984c856a3136302dfdc5e5f8984ee96b44391ce3c22ad2694cd"
+            "url": "https://github.com/DNSCrypt/encrypted-dns-server/releases/download/0.9.21/encrypted-dns_0.9.21_win-x86_64-msvc.zip",
+            "hash": "2c9a0258e36ebec3767e91844252ce047cb6b578fa27cc120957f3dfa81fa10a"
         }
     },
     "extract_dir": "encrypted-dns",
