@@ -1,12 +1,12 @@
 {
-    "version": "0.22.2",
+    "version": "0.22.4",
     "description": "A markdown viewer for the terminal that renders images and big headers.",
     "homepage": "https://github.com/benjajaja/mdfried",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/benjajaja/mdfried/releases/download/v0.22.2/mdfried.exe",
-            "hash": "b0e98d490d0e7be32ccb496f7774e3caeb08219013ec064c39e1d5335bb0e5ef"
+            "url": "https://github.com/benjajaja/mdfried/releases/download/v0.22.4/mdfried.exe",
+            "hash": "81d50b53ea9163758fc54ad7fb92b67af1c043fd05cc17497acb8d991f3761ee"
         }
     },
     "bin": "mdfried.exe",
