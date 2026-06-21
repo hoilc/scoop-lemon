@@ -1,12 +1,12 @@
 {
-    "version": "0.0.13",
+    "version": "0.0.14-alpha",
     "description": "A native whiteboard application.",
     "homepage": "https://github.com/pickle-prick/ink",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pickle-prick/ink/releases/download/v0.0.13/ink_win_x64.zip",
-            "hash": "3bb6b79770ec06b81d39acb9099876426389f99b44e01840a5f36738fb6aef47"
+            "url": "https://github.com/pickle-prick/ink/releases/download/v0.0.14-alpha/ink_win_x64.zip",
+            "hash": "3a0df1a2ad96ec1c3258f13564931b5909185bd2a8674e5571f6b4f574750699"
         }
     },
     "shortcuts": [
