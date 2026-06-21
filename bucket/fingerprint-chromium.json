@@ -1,13 +1,13 @@
 {
-    "version": "144.0.7559.132",
+    "version": "148.0.7778.215",
     "description": "An open source fingerprint browser based on Ungoogled Chromium.",
     "homepage": "https://github.com/adryfish/fingerprint-chromium",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/adryfish/fingerprint-chromium/releases/download/144.0.7559.132/ungoogled-chromium_144.0.7559.132-1.1_windows_x64.zip",
-            "extract_dir": "ungoogled-chromium_144.0.7559.132-1.1_windows_x64",
-            "hash": "ab409667ca7ec3d67a060f1ffea8bd3a450b71ed54d17b361024986e7edd0996"
+            "url": "https://github.com/adryfish/fingerprint-chromium/releases/download/148.0.7778.215/ungoogled-chromium_148.0.7778.215-1.1_windows_x64.zip",
+            "extract_dir": "ungoogled-chromium_148.0.7778.215-1.1_windows_x64",
+            "hash": "9ef3f471b7a6641b4224532522b29141ce3746e27d55788d88e2fd951f362579"
         }
     },
     "bin": [
