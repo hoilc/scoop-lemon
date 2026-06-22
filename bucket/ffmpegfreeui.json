@@ -1,25 +1,19 @@
 {
-    "version": "5.2",
+    "version": "6.0.9",
     "description": "FFmpegFreeUI（简称 3FUI）是在 Windows 上的 FFmpeg 的专业交互外壳，收录大量参数，界面美观，交互友好",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/5.2/FFmpegFreeUI.SelfContained.x64.7z",
-            "extract_dir": "FFmpegFreeUI SelfContained x64",
-            "hash": "47c142499bfc3d3692406cf36327526bec1dca56e718c0fc99228ec9abc671d5"
-        },
-        "32bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/5.2/FFmpegFreeUI.SelfContained.x86.7z",
-            "extract_dir": "FFmpegFreeUI SelfContained x86",
-            "hash": "9f79d1253a520628ef8f89f46c14573365f731f5635843dd5bd38eed21fc849c"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.0.9/FFmpegFreeUI.x64.exe#/FFmpegFreeUI.exe",
+            "hash": "3d89dc9899c64018c31223a8508c679699e873c396a5e69abd19c72a4df1309f"
         },
         "arm64": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/5.2/FFmpegFreeUI.SelfContained.arm64.7z",
-            "extract_dir": "FFmpegFreeUI SelfContained arm64",
-            "hash": "fa9c447a61812292eaf6c0d7b34bac7906fd861084a43bb3b2d23b60214d322a"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.0.9/FFmpegFreeUI.arm64.exe#/FFmpegFreeUI.exe",
+            "hash": "a00de1fb9a804124df99c065ccf2f64bf9a24181584622e6f05ca043c73aca5a"
         }
     },
+    "bin": "FFmpegFreeUI.exe",
     "shortcuts": [
         [
             "FFmpegFreeUI.exe",
@@ -33,13 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.SelfContained.x64.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.SelfContained.x86.7z"
+                "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.x64.exe#/FFmpegFreeUI.exe"
             },
             "arm64": {
-                "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.SelfContained.arm64.7z"
+                "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.arm64.exe#/FFmpegFreeUI.exe"
             }
         }
     }
