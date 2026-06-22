@@ -17,7 +17,7 @@
         "32bit": {
             "installer": {
                 "script": [
-                    "Rename-Item -Path \"$dir\\Regshot-x86-Unicode.exe\" -NewName 'malm.exe'",
+                    "Rename-Item -Path \"$dir\\Regshot-x86-Unicode.exe\" -NewName 'Regshot.exe'",
                     "Remove-Item \"$dir\\Regshot?*.exe\" -Force"
                 ]
             }
