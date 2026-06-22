@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "regex": "(?sm)<li>(?:版本|Ver|Version)[：:] ?([\\d.]+)</li>\\s*<li>(?:内核|Kernel)[：:] ?(?<kernelmajor>\\d+)[\\d.]+</li>"
+        "regex": "(?sm)(?:版本|Ver|Version)[：:].+?>([\\d.]+)<.+?(?:内核|Kernel)[：:].+?>(?<kernelmajor>\\d+)[\\d.]+<"
     },
     "persist": [
         "User Data",
