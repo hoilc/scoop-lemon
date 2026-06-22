@@ -23,6 +23,9 @@
     "suggest": {
         "ffmpeg": "ffmpeg"
     },
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include 'Settings.json' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include 'Settings.json' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
