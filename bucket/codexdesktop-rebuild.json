@@ -1,12 +1,12 @@
 {
-    "version": "26.602.30954",
+    "version": "26.616.51431",
     "description": "A cross-platform Electron build for OpenAI Codex Desktop App.",
     "homepage": "https://github.com/Haleclipse/CodexDesktop-Rebuild",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Haleclipse/CodexDesktop-Rebuild/releases/download/v26.602.30954/Codex-win-x64-26.602.30954.zip",
-            "hash": "ab6a71cf9aab3616e634343302518399871dde95d8d74dc35f8f2eaf5f4dec85"
+            "url": "https://github.com/Haleclipse/CodexDesktop-Rebuild/releases/download/v26.616.51431/Codex-win-x64-26.616.51431.zip",
+            "hash": "6516c1b4051ca9ef4a22e91f53cdb13343ebe817cd0fb824919bc52f57a14140"
         }
     },
     "shortcuts": [
