@@ -1,12 +1,12 @@
 {
-    "version": "2.3.2",
+    "version": "2.4.0-LTS",
     "description": "A powerful LaTeX formula recognition tool powered by pix2text. Features real-time MathJax preview, multi-format export (LaTeX, Markdown, MathML, HTML, OMML, SVG), and one-click copy to Word/Office. Offline-first, privacy-focused portable executable.",
     "homepage": "https://github.com/SakuraMathcraft/LaTeXSnipper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v2.3.2/LaTeXSnipper_setup_v2.3.2.exe",
-            "hash": "822db0aca9c171e1eb29c652ef824514e66ba0e028c03505bfbe3b507b37fff4"
+            "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v2.4.0-LTS/LaTeXSnipperSetup-2.4.0.exe",
+            "hash": "861ee6d500fb7f50662abc041824f4822eaff28f71bd2885715e66c5c93ca5e3"
         }
     },
     "innosetup": true,
@@ -18,11 +18,14 @@
     ],
     "persist": "_internal\\models",
     "notes": "LaTeXSnipper is NOT portable.",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v$version/LaTeXSnipper_setup_v$version.exe"
+                "url": "https://github.com/SakuraMathcraft/LaTeXSnipper/releases/download/v$version/LaTeXSnipperSetup-$matchHead.exe"
             }
         }
     }
