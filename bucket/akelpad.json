@@ -1,16 +1,16 @@
 {
-    "version": "4.10.0.8",
+    "version": "4.10.0.9",
     "description": "A simple notepad-like text editor with many features.",
     "homepage": "http://akelpad.sourceforge.net/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ssrlive/akelpad/releases/download/v4.10.0.8/akelpad-x64.zip",
-            "hash": "d4604bd6fe5287ac83719017805d31bc4aaedf51a0c033da3ad1c1e5c124b9b2"
+            "url": "https://github.com/ssrlive/akelpad/releases/download/v4.10.0.9/akelpad-x64.zip",
+            "hash": "167be6df1473ebde965074de804d1a26da87990c651b9ede47a6c37790f567a0"
         },
         "32bit": {
-            "url": "https://github.com/ssrlive/akelpad/releases/download/v4.10.0.8/akelpad-Win32.zip",
-            "hash": "e40c5e67d6fa3a8bfeb37c74f3384e5b9499d97997e0f7f5743d6c284be2c3d3"
+            "url": "https://github.com/ssrlive/akelpad/releases/download/v4.10.0.9/akelpad-Win32.zip",
+            "hash": "6e7874a6c9d11da45351d02d95285063a967cfc47b35e4a1dbe92adf7e9871dd"
         }
     },
     "bin": "AkelPad.exe",
