@@ -1,12 +1,12 @@
 {
-    "version": "142.0.1",
+    "version": "152.0.1",
     "description": "Portable Runtime For Iceweasel (Firefox), an independent browser derived from Firefox/Mozilla community code.",
     "homepage": "https://sourceforge.net/projects/libportable",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/142.x/x86_64/Iceweasel-v142.0.1.en_US_win64_clang_pgo.7z",
-            "hash": "sha1:c152a00b0523d83f36ab03bdab3ef15803127ea9",
+            "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/152.x/x86_64/Iceweasel-v152.0.1.l10n_win64_pgo.7z",
+            "hash": "sha1:d23034a736198dc0dd55c5f1d8e9905a141ba759",
             "extract_dir": "Iceweasel_x64"
         }
     },
@@ -25,12 +25,12 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/libportable/rss",
-        "regex": "/Iceweasel/Stable/(?<main>[\\d\\w.]+)/x86_64/Iceweasel-v([\\d.]+).en_US_win64_clang_pgo.7z"
+        "regex": "/Iceweasel/Stable/(?<main>[\\d\\w.]+)/x86_64/Iceweasel-v([\\d.]+).l10n_win64_pgo.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/$matchMain/x86_64/Iceweasel-v$version.en_US_win64_clang_pgo.7z"
+                "url": "https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/$matchMain/x86_64/Iceweasel-v$version.l10n_win64_pgo.7z"
             }
         }
     }
