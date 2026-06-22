@@ -1,12 +1,12 @@
 {
-    "version": "0.15.0",
+    "version": "0.16.0",
     "description": "(CLI Version) A privacy-first, cross-device clipboard synchronization tool.",
     "homepage": "https://uniclipboard.app/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.15.0/uniclipboard-cli-0.15.0-x86_64-pc-windows-msvc.zip",
-            "hash": "eefbb0ab9055dca1356dc99781f9f3416f1f4089658ffaab4fa4e92b7d8fdf2b"
+            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.16.0/uniclipboard-cli-0.16.0-x86_64-pc-windows-msvc.zip",
+            "hash": "4341d4d4d769822bafb96a7259d94e800d0dbc833dc1bc49421b804da0ed9544"
         }
     },
     "bin": [
