@@ -1,27 +1,27 @@
 {
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "A toolkit that enables setting up a cluster of thousands of Kubernetes Nodes in seconds.",
     "homepage": "https://kwok.sigs.k8s.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.7.0/kwok-windows-amd64.exe#/kwok.exe",
-                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.7.0/kwokctl-windows-amd64.exe#/kwokctl.exe"
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.8.0/kwok-windows-amd64.exe#/kwok.exe",
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.8.0/kwokctl-windows-amd64.exe#/kwokctl.exe"
             ],
             "hash": [
-                "4a90e5dae3171af28d81b07ab502d7c4e70a911a14801dbe19684643158febcf",
-                "6fcb3e8050967aa74b034031c7511a1c85619933ce16356544c2b71c0799faa3"
+                "82ae828df35e82be1a5b301fd5c1abe20f533ab0e1fac7f0c9da95c62abc6758",
+                "13a5b782aaa2c8413dca8903b1e3deaeacfa5da1da66cd565a1842ecf010bf09"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.7.0/kwok-windows-arm64.exe#/kwok.exe",
-                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.7.0/kwokctl-windows-arm64.exe#/kwokctl.exe"
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.8.0/kwok-windows-arm64.exe#/kwok.exe",
+                "https://github.com/kubernetes-sigs/kwok/releases/download/v0.8.0/kwokctl-windows-arm64.exe#/kwokctl.exe"
             ],
             "hash": [
-                "481cbd203eceea368cbee63e47b0b0cc2fc51920350689edf6a77d166c5a2e29",
-                "882d14a765a92f1edd0cee487e54af5442e4b8bcb53b60e76ab1a50a416b4901"
+                "d6c4b577184656cb509f6c8cfb758a5046a9be53bfd3fd65175ad48a188fa1ed",
+                "4d9a2edb9c36f856af189e14f6748a8534e83f7179dd69bf2d60741f7dd1f98f"
             ]
         }
     },
