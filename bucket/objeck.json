@@ -1,5 +1,5 @@
 {
-    "version": "2026.6.1",
+    "version": "2026.6.2",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.6.1/objeck-windows-x64_2026.6.1.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.6.2/objeck-windows-x64_2026.6.2.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "ac7a385093127051d7e705f7cbb1da81148484fc838e6fbbd3cc2160746034de"
+            "hash": "3f3388c19dc09cd2dd870106534d47ec62ada07fd0b4e802634587116ed2ee1e"
         },
         "arm64": {
-            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.6.1/objeck-windows-arm64_2026.6.1.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.6.2/objeck-windows-arm64_2026.6.2.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "59324056102bb217e3eca2b4d927ba4e2051438aec941350b51cddcb81232a39"
+            "hash": "650b3ed53a40ed6876a5a4573fdeadbc4654327c607f16ad3bbd45cbed5d0eb1"
         }
     },
     "shortcuts": [
