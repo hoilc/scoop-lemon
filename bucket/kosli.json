@@ -1,16 +1,16 @@
 {
-    "version": "2.28.1",
+    "version": "2.28.2",
     "description": "A CLI client for reporting DevOps change events to Kosli and querying them.",
     "homepage": "https://github.com/kosli-dev/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kosli-dev/cli/releases/download/v2.28.1/kosli_2.28.1_windows_amd64.zip",
-            "hash": "0bad92fb0a9567b88b1235538362a7cbe9432595a8931337cfe07bea2d3f40d9"
+            "url": "https://github.com/kosli-dev/cli/releases/download/v2.28.2/kosli_2.28.2_windows_amd64.zip",
+            "hash": "3cd956238f58d318e1b5ae981cbc9f6763f56cf4d4332408f01875045509bc5f"
         },
         "arm64": {
-            "url": "https://github.com/kosli-dev/cli/releases/download/v2.28.1/kosli_2.28.1_windows_arm64.zip",
-            "hash": "1e271914a165e8f865a81a7a8df0aea3810e82e9f61ae673c1b961427df05e27"
+            "url": "https://github.com/kosli-dev/cli/releases/download/v2.28.2/kosli_2.28.2_windows_arm64.zip",
+            "hash": "c6419dcc7c61869858909ef820b5cad0cb841f26cf020cdf063f0e8691d28753"
         }
     },
     "bin": "kosli.exe",
