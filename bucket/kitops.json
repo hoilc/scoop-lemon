@@ -1,20 +1,20 @@
 {
-    "version": "1.14.0",
+    "version": "1.15.0",
     "description": "An open source DevOps tool for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI artifact.",
     "homepage": "https://kitops.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.14.0/kitops-offline-windows-x86_64.zip",
-            "hash": "350ba3a5d9da9f15652fd742dc8c4ed1617361423be9ec3cb4cfa9e3cbdeee01"
+            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.15.0/kitops-offline-windows-x86_64.zip",
+            "hash": "a8ab84c51dda20c4ed74de02f364d390992341fb4d54e5e391a2a61e5056450f"
         },
         "32bit": {
-            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.14.0/kitops-offline-windows-i386.zip",
-            "hash": "99d56c3a065afe2f4f21ac262326d1bdf200b801a3ec904b0c4a981a064d63cb"
+            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.15.0/kitops-offline-windows-i386.zip",
+            "hash": "6e92276d4f4c948bca404776caf0bcfe0233f4e6a75e04dde77b2076becfd8e5"
         },
         "arm64": {
-            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.14.0/kitops-offline-windows-arm64.zip",
-            "hash": "f9f41eb7643bda88f7fd9679bcb150e74e5c3c21ccf5d472ae4ad2eb86271b36"
+            "url": "https://github.com/kitops-ml/kitops/releases/download/v1.15.0/kitops-offline-windows-arm64.zip",
+            "hash": "328aa0c0a3704893cd9f34522012d361a986ced244be2525d45e0379afdc4e1a"
         }
     },
     "bin": "kit.exe",
