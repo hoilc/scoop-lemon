@@ -1,0 +1,45 @@
+{
+    "version": "1.3.2",
+    "description": "图吧工具箱是一款开源、现代、免费的PC 硬件检测与系统维护工具集",
+    "homepage": "https://tubawinui3.cn/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.3.2/TubaWinUi3_Portable_1.3.2_x64.zip",
+            "hash": "b190fad45b5c2b54ebea4cb2c39387c2b1ea27015c601e154ff527e5cffb3428"
+        },
+        "32bit": {
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.3.2/TubaWinUi3_Portable_1.3.2_x86.zip",
+            "hash": "8e2655cbe1a7e58bbb33f2bdf63cf60b4131f1f61904d16f3ee67d8026321488"
+        },
+        "arm64": {
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.3.2/TubaWinUi3_Portable_1.3.2_arm64.zip",
+            "hash": "703343d153c029552512df60f27db92b9bb91dcae470a3ecbee7d3cfdc033ab1"
+        }
+    },
+    "extract_dir": "src",
+    "shortcuts": [
+        [
+            "TubaWinUi3.exe",
+            "图吧工具箱"
+        ]
+    ],
+    "post_install": "if (!(Test-Path \"$dir\\Data\\.config_location\")) { Set-Content -Encoding ASCII -Path \"$dir\\Data\\.config_location\" -Value 'AppRoot' }",
+    "persist": "Data",
+    "checkver": {
+        "github": "https://github.com/luolangaga/tubatools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/luolangaga/tubatools/releases/download/v$version/TubaWinUi3_Portable_$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/luolangaga/tubatools/releases/download/v$version/TubaWinUi3_Portable_$version_x86.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/luolangaga/tubatools/releases/download/v$version/TubaWinUi3_Portable_$version_arm64.zip"
+            }
+        }
+    }
+}
