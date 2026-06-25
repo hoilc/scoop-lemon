@@ -1,16 +1,16 @@
 {
-    "version": "0.1.29",
+    "version": "0.1.30",
     "description": "A modern, cross platform IDE for .NET, built with .NET & Godot.",
     "homepage": "https://github.com/MattParkerDev/SharpIDE",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MattParkerDev/SharpIDE/releases/download/v0.1.29/sharpide-win-x64-0.1.29.zip",
-            "hash": "334f822259351f6085ba099c35fafb1299f5047d1aaee87689d11750d6a35154"
+            "url": "https://github.com/MattParkerDev/SharpIDE/releases/download/v0.1.30/sharpide-win-x64-0.1.30.zip",
+            "hash": "b2163bc7e3612c17c0e851abd37ce40f81090959f68fb1a948d45d12df85afb6"
         },
         "arm64": {
-            "url": "https://github.com/MattParkerDev/SharpIDE/releases/download/v0.1.29/sharpide-win-arm64-0.1.29.zip",
-            "hash": "0ee97a4269082e7dda905cd68f95500643d2d5aea9661048f595f96b488a4cdb"
+            "url": "https://github.com/MattParkerDev/SharpIDE/releases/download/v0.1.30/sharpide-win-arm64-0.1.30.zip",
+            "hash": "0ac5ac7ed06cbb7310ad8903d58f8b3d8936b228a1067398b53bbbf38e34ae1f"
         }
     },
     "shortcuts": [
