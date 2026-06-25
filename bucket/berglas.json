@@ -1,16 +1,16 @@
 {
-    "version": "2.0.13",
+    "version": "2.0.14",
     "description": "A tool for managing secrets on Google Cloud.",
     "homepage": "https://github.com/GoogleCloudPlatform/berglas",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.13/berglas_2.0.13_windows_amd64.zip",
-            "hash": "sha512:26689a7edb03a5002d1cf6209a00ba7f64cf4a91cad09d136174e25475ac75d0084112b5378a362a93131a25a35eb74c4bac75bf90515ef23e35cb4d6f4d38d5"
+            "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.14/berglas_2.0.14_windows_amd64.zip",
+            "hash": "sha512:e016969d9aec597525b24d85d561a347bc38e1e77b1bb0f350a6023d2b14f76d88eceb80ce9ef8121e944eb6e1b9b060215729c67f2bd4ec3df18807cfe0a998"
         },
         "arm64": {
-            "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.13/berglas_2.0.13_windows_arm64.zip",
-            "hash": "sha512:2ed8a8e1965008405a7f51b2377f76d5b6d886531d5cd5a9ebf3f532761eb8eaeb5ab7443b0753783fbab7b903c964b1ba343e16e3ff368c4f9a72164653f77a"
+            "url": "https://github.com/GoogleCloudPlatform/berglas/releases/download/v2.0.14/berglas_2.0.14_windows_arm64.zip",
+            "hash": "sha512:479c32398241db066951539d7cfeff5dcbaece704386dc34074ea713cda0eb1d2accc182a775263eba95cd3b786b648c312fd0daca174d7da44c25de99112208"
         }
     },
     "bin": "berglas.exe",
