@@ -1,13 +1,13 @@
 {
-    "version": "1.2.13",
+    "version": "1.2.14",
     "description": "Encrypt/decrypt using ssh keys.",
     "homepage": "https://github.com/ssh-vault/ssh-vault",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ssh-vault/ssh-vault/releases/download/1.2.13/ssh-vault--x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/ssh-vault/ssh-vault/releases/download/1.2.14/ssh-vault--x86_64-pc-windows-msvc.zip",
             "extract_dir": "ssh-vault--x86_64-pc-windows-msvc",
-            "hash": "68ba78a565f921c80f4267679bd9bf8575c9de55fec98e0bed98d5b194280df4"
+            "hash": "ad3d2625a4635dab8d604a45da09ffe9354b2010ee10436660be49abb60a5ca9"
         }
     },
     "bin": "ssh-vault.exe",
