@@ -1,12 +1,12 @@
 {
-    "version": "2.12.0",
+    "version": "2.12.1",
     "description": "Feels like Cloud Foundry. Runs on Kubernetes.",
     "homepage": "https://kf.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/kf-releases/v2.12.0/kf-windows.exe#/kf.exe",
-            "hash": "d9e27fb77af4feec5cbd56ac190f9277ab342d2b03c4154066b23e5f1bed77be"
+            "url": "https://storage.googleapis.com/kf-releases/v2.12.1/kf-windows.exe#/kf.exe",
+            "hash": "5ed5e40f7e66616520a2134fc556a48ac461fad65053e53b35eab84cb5d2ceb3"
         }
     },
     "bin": "kf.exe",
