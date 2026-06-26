@@ -1,16 +1,16 @@
 {
-    "version": "0.76.6",
+    "version": "0.77.1",
     "description": "An advanced digital forensic and incident response tool that enhances your visibility into your endpoints.",
     "homepage": "https://docs.velociraptor.app/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.76/velociraptor-v0.76.6-windows-amd64.exe#/velociraptor.exe",
-            "hash": "1e82175822aa9ffdfd7bc177599642f3db55159d0a2f38bb0fcc6722f15573cd"
+            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.1/velociraptor-v0.77.1-windows-amd64.exe#/velociraptor.exe",
+            "hash": "c91cf8a32731c4c45c148393bc7d2af688c392194a9fffc4535e8b583260d55e"
         },
         "32bit": {
-            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.76/velociraptor-v0.76.6-windows-386.exe#/velociraptor.exe",
-            "hash": "4c329cb5b1d881ef7681e4faea9dc8f8e081bb579739d557ca0dc5bc57a8ef12"
+            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.1/velociraptor-v0.77.1-windows-386.exe#/velociraptor.exe",
+            "hash": "4d3eb4960d464a1c3b3232818f151ee1e000e5de21c5b4b91b3e34444cf2e94a"
         }
     },
     "bin": "velociraptor.exe",
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Velocidex/velociraptor/releases/download/v$majorVersion.$minorVersion/velociraptor-v$version-windows-amd64.exe#/velociraptor.exe"
+                "url": "https://github.com/Velocidex/velociraptor/releases/download/v$version/velociraptor-v$version-windows-amd64.exe#/velociraptor.exe"
             },
             "32bit": {
-                "url": "https://github.com/Velocidex/velociraptor/releases/download/v$majorVersion.$minorVersion/velociraptor-v$version-windows-386.exe#/velociraptor.exe"
+                "url": "https://github.com/Velocidex/velociraptor/releases/download/v$version/velociraptor-v$version-windows-386.exe#/velociraptor.exe"
             }
         }
     }
