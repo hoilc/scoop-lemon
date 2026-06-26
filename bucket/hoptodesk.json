@@ -2,7 +2,7 @@
     "version": "1.46.2",
     "description": "A free and secure remote desktop software to easily screen share, transfer files, and securely manage devices with end-to-end encryption.",
     "homepage": "https://www.hoptodesk.com/",
-    "license": "Freeware",
+    "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://download.hoptodesk.com/HopToDesk64.exe#/HopToDesk.exe",
