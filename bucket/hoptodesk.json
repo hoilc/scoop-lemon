@@ -1,0 +1,43 @@
+{
+    "version": "1.46.2",
+    "description": "A free and secure remote desktop software to easily screen share, transfer files, and securely manage devices with end-to-end encryption.",
+    "homepage": "https://www.hoptodesk.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.hoptodesk.com/HopToDesk64.exe#/HopToDesk.exe",
+            "hash": "73af6edfd76b4ea81652ac81a85d402ff85c0cc3b72992794be3fa2c35402f0f"
+        },
+        "32bit": {
+            "url": "https://download.hoptodesk.com/HopToDesk.exe",
+            "hash": "0095efb1a15fd21f74f11992e1cee90f7f47a517eb341ec699d3f3d41fbdba60"
+        },
+        "arm64": {
+            "url": "https://download.hoptodesk.com/hoptodesk-arm64.exe#/HopToDesk.exe",
+            "hash": "721f39581417147ca82a839a7186b2d4b270638624e6efd12d05fcd3fc3ee023"
+        }
+    },
+    "shortcuts": [
+        [
+            "HopToDesk.exe",
+            "HopToDesk"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/hoptodesk/state.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.hoptodesk.com/HopToDesk64.exe#/HopToDesk.exe"
+            },
+            "32bit": {
+                "url": "https://download.hoptodesk.com/HopToDesk.exe"
+            },
+            "arm64": {
+                "url": "https://download.hoptodesk.com/hoptodesk-arm64.exe#/HopToDesk.exe"
+            }
+        }
+    }
+}
