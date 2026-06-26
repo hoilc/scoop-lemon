@@ -1,12 +1,12 @@
 {
-    "version": "1.6",
+    "version": "1.7",
     "description": "A BPF-based tool for tunneling UDP traffic over ICMP, serving as an alternative to udp2raw's ICMP mode.",
     "homepage": "https://github.com/hrimfaxi/tutuicmptunnel",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hrimfaxi/tutuicmptunnel/releases/download/1.6/tutuicmptunnel-win32-mingw64-binaries.zip",
-            "hash": "814d2a718647aa03814be8401f426aba4daf365bbb5e202c6c0fafa4cafa5320"
+            "url": "https://github.com/hrimfaxi/tutuicmptunnel/releases/download/1.7/tutuicmptunnel-win32-mingw64-binaries.zip",
+            "hash": "d3795dac30bc0a8e782d8661dc40373acacc77dfa82eb94de3f3dc6213dfdadf"
         }
     },
     "bin": [
