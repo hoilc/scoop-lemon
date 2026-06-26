@@ -1,39 +1,30 @@
 {
-    "version": "1.42.1",
-    "description": "Astronomer's open source CLI is the easy way to run Apache Airflow on your machine.",
-    "homepage": "https://docs.astronomer.io/software/cli-quickstart",
+    "version": "1.43.0",
+    "description": "Astro CLI makes it easy to create, test and deploy Airflow DAGs to Astronomer.",
+    "homepage": "https://github.com/astronomer/astro-cli",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/astronomer/astro-cli/blob/main/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.42.1/astro_1.42.1_windows_amd64.exe#/astro.exe",
-            "hash": "31951f8a17d6ba7273ac5bdd743c2efd647820a4dc83aebee7237cf8385dbb11"
-        },
-        "32bit": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.42.1/astro_1.42.1_windows_386.exe#/astro.exe",
-            "hash": "30ed927a736ac9e3903e89e612e627571212cb7b0f22f0941cc445317932574d"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.43.0/astro_1.43.0_windows_amd64.zip",
+            "hash": "e6eff0a9b1ec59730f6d8333a25d82c96ef8b2051b2d4bbd4ac2762c436f705b"
         },
         "arm64": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.42.1/astro_1.42.1_windows_arm64.exe#/astro.exe",
-            "hash": "ef093c15eca0f8bef324b3006a96cbec5d0e1ef4edd2bc18c1f25b8d6b125955"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.43.0/astro_1.43.0_windows_arm64.zip",
+            "hash": "b2059a473ba1383094cacedf49259c05cc1abd4e20c2df5f45d14f4ba1e3b8d9"
         }
     },
     "bin": "astro.exe",
-    "checkver": {
-        "github": "https://github.com/astronomer/astro-cli"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/astronomer/astro-cli/releases/download/v$version/astro_$version_windows_amd64.exe#/astro.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/astronomer/astro-cli/releases/download/v$version/astro_$version_windows_386.exe#/astro.exe"
+                "url": "https://github.com/astronomer/astro-cli/releases/download/v$version/astro_$version_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/astronomer/astro-cli/releases/download/v$version/astro_$version_windows_arm64.exe#/astro.exe"
+                "url": "https://github.com/astronomer/astro-cli/releases/download/v$version/astro_$version_windows_arm64.zip"
             }
         },
         "hash": {
