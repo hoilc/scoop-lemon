@@ -1,16 +1,16 @@
 {
-    "version": "2.1.0.0",
+    "version": "2.1.0.1",
     "description": "一款功能强、可定制、跨平台，适用于班级多媒体屏幕的课表信息显示工具，可以一目了然地显示各种信息",
     "homepage": "https://classisland.tech",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.1/2.1.0.0/ClassIsland_app_windows_x64_selfContained_folder.zip",
-            "hash": "f86f409ecbaaaf7a18365ed83bee415c5e2e50324083d103cd3dee3d69cb9a04"
+            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.1/2.1.0.1/ClassIsland_app_windows_x64_selfContained_folder.zip",
+            "hash": "3015b07976be6b16b96f4862e2917859f23b0275d6da18a38e0e947c87b10ccf"
         },
         "arm64": {
-            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.1/2.1.0.0/ClassIsland_app_windows_arm64_selfContained_folder.zip",
-            "hash": "41f44e8ea668369d920b8351a9523556f6bf4186791c26fd763b7e7f63e68cd9"
+            "url": "https://get.classisland.tech/d/ClassIsland-Ningbo-S3/classisland/distribution-v2/2.1/2.1.0.1/ClassIsland_app_windows_arm64_selfContained_folder.zip",
+            "hash": "af15e17b35394492c7ca610d87f38c14cb8a3500c67febfbb285901315030abe"
         }
     },
     "shortcuts": [
