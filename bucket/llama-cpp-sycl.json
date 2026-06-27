@@ -10,15 +10,13 @@
         }
     },
     "bin": [
+        "llama.exe",
         "llama-cli.exe",
         "llama-server.exe",
-        "llama-perplexity.exe",
         "llama-bench.exe",
-        "llama-imatrix.exe",
-        "llama-quantize.exe",
-        "llama-tokenize.exe",
-        "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-completion.exe",
+        "llama-mtmd-cli.exe",
+        "ggml-rpc-server.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
