@@ -9,7 +9,7 @@
             "hash": "8a2e2d53e6ae461f116cbe85236487534c1b9e6bd9aeb784d4672aa4c30a08b8"
         }
     },
-    "extract_dir": "Shutter Encoder 20.2 Windows 64bits",
+    "extract_dir": "Shutter Encoder",
     "shortcuts": [
         [
             "Shutter Encoder.exe",
@@ -24,7 +24,6 @@
             "64bit": {
                 "url": "https://www.shutterencoder.com/Shutter%20Encoder%20$version%20Windows%2064bits.zip"
             }
-        },
-        "extract_dir": "Shutter Encoder $version Windows 64bits"
+        }
     }
 }
