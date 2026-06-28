@@ -1,10 +1,10 @@
 {
-    "version": "13.6.0",
+    "version": "13.7.0",
     "description": "A development tool to help programmers write Java code that adheres to a coding standard.",
     "homepage": "https://checkstyle.org/cmdline.html",
     "license": "LGPL-2.1-only",
-    "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-13.6.0/checkstyle-13.6.0-all.jar#!/checkstyle.jar",
-    "hash": "de6d1d3fd253f2baea30c7eb5ab76a504838277f741a9e5f8015e6e14a3d9ad2",
+    "url": "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-13.7.0/checkstyle-13.7.0-all.jar#!/checkstyle.jar",
+    "hash": "747ab9c718d601b93a89947eb69e17693e522631ba323cfed4453b30be630b78",
     "pre_install": [
         "Set-Content -Encoding ASCII -Path \"$dir\\checkstyle-gui.bat\" -Value '@start javaw.exe -cp \"%~dp0checkstyle.jar\" com.puppycrawl.tools.checkstyle.gui.Main'",
         "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }"
