@@ -1,12 +1,12 @@
 {
-    "version": "2710",
+    "version": "2717",
     "description": "(Nightly Build) An RSS feed reader developed by KDE.",
     "homepage": "https://apps.kde.org/akregator/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/pim/akregator/master/windows/akregator-master-2710-windows-cl-msvc2022-x86_64.7z",
-            "hash": "dfe64ae524af1a11675f375f4f985510d76d90227fa4c08a6c16ee83d167f4bc"
+            "url": "https://cdn.kde.org/ci-builds/pim/akregator/master/windows/akregator-master-2717-windows-cl-msvc2022-x86_64.7z",
+            "hash": "63dab6120a0cddcaa81032b7326f243b1bb79af3d9c5ff5a491bc2b56d0260d3"
         }
     },
     "shortcuts": [
