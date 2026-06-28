@@ -1,16 +1,16 @@
 {
-    "version": "0.13.4",
+    "version": "0.14",
     "description": "A free tool to handle DWG files.",
     "homepage": "http://www.gnu.org/software/libredwg",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.13.4/libredwg-0.13.4-win64.zip",
-            "hash": "cb46bce034296e91cb1a982cd53ec1928b11f4f7f70512dd21513a27959688b5"
+            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.14/libredwg-0.14-win64.zip",
+            "hash": "1ad7e15344d20b3426c3435b078d82fb84b35062815946b2cca9c5fc9810fea8"
         },
         "32bit": {
-            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.13.4/libredwg-0.13.4-win32.zip",
-            "hash": "fd6e4c050e5165b15af5142107da4984f0d68e7dfea5081fdc4e221f0effbfa3"
+            "url": "https://github.com/LibreDWG/libredwg/releases/download/0.14/libredwg-0.14-win32.zip",
+            "hash": "b6ca1f60c7848df67cd19aa8a44684dde6108fc8852e16b58fa934982ab1e6c6"
         }
     },
     "bin": [
