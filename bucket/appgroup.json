@@ -1,0 +1,28 @@
+{
+    "version": "1.5.0",
+    "description": "App Group lets you organize, customize, and launch your apps from the Windows taskbar.",
+    "homepage": "https://github.com/iandiv/AppGroup",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iandiv/AppGroup/releases/download/v1.5.0/AppGroup_v1.5.0.win-x64-Bundled.zip",
+            "extract_dir": "AppGroup_v1.5.0.win-x64-Bundled",
+            "hash": "7807f841089ea9e7d6c88816825af0b1d748cdbc7877650918c89417186e551e"
+        }
+    },
+    "shortcuts": [
+        [
+            "AppGroup.exe",
+            "App Group"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iandiv/AppGroup/releases/download/v$version/AppGroup_v$version.win-x64-Bundled.zip",
+                "extract_dir": "AppGroup_v$version.win-x64-Bundled"
+            }
+        }
+    }
+}
