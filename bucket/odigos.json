@@ -1,16 +1,16 @@
 {
-    "version": "1.30.0",
+    "version": "1.30.1",
     "description": "A tool for managing odigos, an open-source observability control plane.",
     "homepage": "https://odigos.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/odigos-io/odigos/releases/download/v1.30.0/cli_1.30.0_windows_amd64.tar.gz",
-            "hash": "d992d2b7cff4d2d50a41d9306dc88e028167449f6cada90ab8fedd3b4b5c1c6e"
+            "url": "https://github.com/odigos-io/odigos/releases/download/v1.30.1/cli_1.30.1_windows_amd64.tar.gz",
+            "hash": "6abe08d168a15a077059c8ecab99b1bbdbda3d044cb6156a470b98738cc85666"
         },
         "arm64": {
-            "url": "https://github.com/odigos-io/odigos/releases/download/v1.30.0/cli_1.30.0_windows_arm64.tar.gz",
-            "hash": "2012607c11910633b389daf79fc4ad3d0e5b4b779d1a057b315a11c13d13c6cc"
+            "url": "https://github.com/odigos-io/odigos/releases/download/v1.30.1/cli_1.30.1_windows_arm64.tar.gz",
+            "hash": "88354703e853bb1c0d42ec412e5fbf3c6b9252ef947d4ad9b12f7855a1472faa"
         }
     },
     "bin": "odigos.exe",
