@@ -1,19 +1,19 @@
 {
-    "version": "3.02rc12-20260628",
+    "version": "3.02-20260629",
     "description": "(Snapshot Build) 80x86 and x86-64 assembler designed for portability and modularity.",
     "homepage": "https://www.nasm.us",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.nasm.us/pub/nasm/snapshots/20260628/win64/nasm-3.02rc12-20260628-win64.zip",
-            "hash": "638a702c2382e56c9834e781a854971ab79b1f4e66ac91a30a6d9e21fb0f6f0f"
+            "url": "https://www.nasm.us/pub/nasm/snapshots/20260629/win64/nasm-3.02-20260629-win64.zip",
+            "hash": "95256663b796bd429c440b6249b1922988a2a465cbb489cd1b6fb8afb5eeb87f"
         },
         "32bit": {
-            "url": "https://www.nasm.us/pub/nasm/snapshots/20260628/win32/nasm-3.02rc12-20260628-win32.zip",
-            "hash": "5a79694297a9ceccf46101ffd274803e0be63889cf7be4ec37975e22683f5df7"
+            "url": "https://www.nasm.us/pub/nasm/snapshots/20260629/win32/nasm-3.02-20260629-win32.zip",
+            "hash": "0359b85c35fc00b11b11451262a4fe00f323accd52d010bdd7ced6c0f712db71"
         }
     },
-    "extract_dir": "nasm-3.02rc12-20260628",
+    "extract_dir": "nasm-3.02-20260629",
     "bin": [
         "nasm.exe",
         "ndisasm.exe"
