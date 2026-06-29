@@ -1,0 +1,37 @@
+{
+    "version": "1.1.10",
+    "description": "A desktop terminal client for SSH, serial connections, and local command-line work.",
+    "homepage": "https://nyaterm.app/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nyakang/nyaterm/releases/download/v1.1.10/NyaTerm_1.1.10_windows_x64_portable.zip",
+            "hash": "1b86b22ecd6a134ec399a6080403ae523d1439093cfabb44efc243dea6501605"
+        },
+        "arm64": {
+            "url": "https://github.com/nyakang/nyaterm/releases/download/v1.1.10/NyaTerm_1.1.10_windows_arm64_portable.zip",
+            "hash": "f91545aafec3fd324b31c18436440a036ee8f4c75994d93f7dff2a200fc5121b"
+        }
+    },
+    "extract_dir": "NyaTerm-portable",
+    "shortcuts": [
+        [
+            "NyaTerm.exe",
+            "NyaTerm"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/nyakang/nyaterm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nyakang/nyaterm/releases/download/v$version/NyaTerm_$version_windows_x64_portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/nyakang/nyaterm/releases/download/v$version/NyaTerm_$version_windows_arm64_portable.zip"
+            }
+        }
+    }
+}
