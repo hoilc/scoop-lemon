@@ -1,13 +1,13 @@
 {
-    "version": "0.2.9",
+    "version": "0.2.10",
     "description": "A SSH connection manager with a desktop GUI and built-in CLI.",
     "homepage": "https://github.com/shihuili1218/rssh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shihuili1218/rssh/releases/download/v0.2.9/rssh-0.2.9-windows-x86_64-portable.zip",
-            "extract_dir": "rssh-0.2.9-windows-x86_64-portable",
-            "hash": "ee7da3e82478d2fc056442411b99a06534b99af1ba2f9110ac85c1e34e51bf11"
+            "url": "https://github.com/shihuili1218/rssh/releases/download/v0.2.10/rssh-0.2.10-windows-x86_64-portable.zip",
+            "extract_dir": "rssh-0.2.10-windows-x86_64-portable",
+            "hash": "122365ad32cab4b859f145ef691d3bfb0e0311889f58ab3df7d8bb3af9bdadb8"
         }
     },
     "bin": "rssh-cli.exe",
