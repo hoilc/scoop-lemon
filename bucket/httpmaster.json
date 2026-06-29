@@ -1,0 +1,42 @@
+{
+    "version": "7.0.0",
+    "description": "A professional test tool for HTTP applications, with special focus on RESTful web services and web API applications.",
+    "homepage": "https://www.httpmaster.net",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.httpmaster.net/license/professional_license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.httpmaster.net/downloads/httpmaster_x64_7.0.0.zip",
+            "hash": "3b77bd275f4ad84f3be48f6ffbef31a26c9d02e29c2a6ad391f723d05c11ba7c"
+        },
+        "arm64": {
+            "url": "https://www.httpmaster.net/downloads/httpmaster_arm64_7.0.0.zip",
+            "hash": "03756c1e8745254f97bf452f74be96614760e1bbfc121a46f20c7c7d0c9dcb83"
+        }
+    },
+    "bin": "HttpMaster.Command.exe",
+    "shortcuts": [
+        [
+            "HttpMaster.Windows.exe",
+            "HttpMaster Professional"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\HttpMaster.Settings.xml\")) { Set-Content -Encoding ASCII -Path \"$dir\\HttpMaster.Settings.xml\" -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><Settings></Settings>' }",
+    "persist": "HttpMaster.Settings.xml",
+    "checkver": {
+        "url": "https://www.httpmaster.net/download",
+        "regex": "/downloads/httpmaster_x64_([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.httpmaster.net/downloads/httpmaster_x64_$version.zip"
+            },
+            "arm64": {
+                "url": "https://www.httpmaster.net/downloads/httpmaster_arm64_$version.zip"
+            }
+        }
+    }
+}
