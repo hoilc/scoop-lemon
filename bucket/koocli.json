@@ -1,12 +1,12 @@
 {
-    "version": "7.2.2",
+    "version": "7.2.12",
     "description": "华为云命令行工具服务（Koo Command Line Interface，原名HCloud CLI）是华为云云服务API的命令行管理工具",
     "homepage": "https://support.huaweicloud.com/productdesc-hcli/hcli_01.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://cn-north-4-hdn-koocli.obs.cn-north-4.myhuaweicloud.com/cli/7.2.2/huaweicloud-cli-windows-amd64.zip",
-            "hash": "d9837454e28c32be654474758d1bdfd6aa49b6a46a68dd621a4675bbf596e6f3"
+            "url": "https://cn-north-4-hdn-koocli.obs.cn-north-4.myhuaweicloud.com/cli/7.2.12/huaweicloud-cli-windows-amd64.zip",
+            "hash": "747e41c0765121b3fb57be69e0c4201785dfd769370fb19e9272ff28bd6f5336"
         }
     },
     "bin": "hcloud.exe",
