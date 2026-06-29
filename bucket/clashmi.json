@@ -1,12 +1,12 @@
 {
-    "version": "1.0.26.1200",
+    "version": "1.0.26.1201",
     "description": "又一款mihomo核心的代理工具",
     "homepage": "https://clashmi.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KaringX/clashmi/releases/download/1.0.26.1200/clashmi_1.0.26.1200_windows_x64.zip",
-            "hash": "aa2e3ed39af40987e9d69a7a4496eb2ee640a99e07cf2ace0d94abed0ce29781"
+            "url": "https://github.com/KaringX/clashmi/releases/download/1.0.26.1201/clashmi_1.0.26.1201_windows_x64.zip",
+            "hash": "65367eb6937b6d7994f1c12f18a451059dfd50ea182257d965cb48432ee4dc5e"
         }
     },
     "shortcuts": [
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/KaringX/clashmi/releases/download/v$version/clashmi_$version_windows_x64.zip"
+                "url": "https://github.com/KaringX/clashmi/releases/download/$version/clashmi_$version_windows_x64.zip"
             }
         }
     }
