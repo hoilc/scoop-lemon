@@ -1,12 +1,12 @@
 {
-    "version": "2.16.0",
+    "version": "2.17.0",
     "description": "Zoomable image downloader for Google Arts & Culture, Zoomify, IIIF, and others.",
     "homepage": "https://github.com/lovasoa/dezoomify-rs",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lovasoa/dezoomify-rs/releases/download/v2.16.0/dezoomify-rs.exe",
-            "hash": "d3c641b1fba4a8a77aa93da93c801b9c020c422525c63424da28345f0f26b2fe"
+            "url": "https://github.com/lovasoa/dezoomify-rs/releases/download/v2.17.0/dezoomify-rs.exe",
+            "hash": "664b005f838bba5b46ac1473778ff9f175f91bc077976557222aed3a582e8ee9"
         }
     },
     "bin": "dezoomify-rs.exe",
