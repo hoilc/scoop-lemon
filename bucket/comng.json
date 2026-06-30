@@ -1,12 +1,12 @@
 {
-    "version": "3.3.0",
+    "version": "3.3.1",
     "description": "现代且强大的串口助手",
     "homepage": "https://gitee.com/xenkuo/comNG",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/xenkuo/comNG/releases/download/v3.3.0/comNG-3.3.0%20Setup.exe#/dl.7z",
-            "hash": "c812abde908e79dc38f80033c7fb38c98a2d6f10cf4874fb106b1936300b661f"
+            "url": "https://gitee.com/xenkuo/comNG/releases/download/v3.3.1/comNG-3.3.1%20Setup.exe#/dl.7z",
+            "hash": "dfa53f9f3337283f4f2b0391b405e228d6938e5202267f4f2f61f48d62ae2aa6"
         }
     },
     "pre_install": [
