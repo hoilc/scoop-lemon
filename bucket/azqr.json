@@ -1,18 +1,18 @@
 {
-    "version": "3.2.0-preview.7",
+    "version": "3.2.0-preview.8",
     "description": "Azure Quick Review (azqr) is a CLI tool specifically designed to analyze Azure resources and identify whether they comply with Azure's best practices and recommendations.",
     "homepage": "https://azure.github.io/azqr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Azure/azqr/releases/download/v.3.2.0-preview.7/azqr-win-amd64.zip",
+            "url": "https://github.com/Azure/azqr/releases/download/v.3.2.0-preview.8/azqr-win-amd64.zip",
             "extract_dir": "bin\\windows_amd64",
-            "hash": "c94752b04e3280374c544d67538e2f267daa4b9106084cc9c9fc74ce45d411eb"
+            "hash": "ca5ff8354af4072d088905ab2ee1ce82f1533689106852b1de017c3d553d27fa"
         },
         "arm64": {
-            "url": "https://github.com/Azure/azqr/releases/download/v.3.2.0-preview.7/azqr-win-arm64.zip",
+            "url": "https://github.com/Azure/azqr/releases/download/v.3.2.0-preview.8/azqr-win-arm64.zip",
             "extract_dir": "bin\\windows_arm64",
-            "hash": "541ade9e1b0566b48243cc5894a6d1944af58841018843744df36168f3fab67c"
+            "hash": "40b8f0f168b2805782fec7a8d70dc3f4ea5b9f508391f18060b723d9b0f901fe"
         }
     },
     "bin": "azqr.exe",
