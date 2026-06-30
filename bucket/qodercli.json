@@ -1,12 +1,12 @@
 {
-    "version": "1.0.33",
+    "version": "1.0.34",
     "description": "Qoder AI CLI tool - Terminal-based AI assistant for code development.",
     "homepage": "https://qoder.com/cli",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://download.qoder.com/qodercli/releases/1.0.33/qodercli-windows-x64.zip",
-            "hash": "481fa5c64ed914236394bbf29074da0468978e9e6449913e68a4e1e0d1d88760"
+            "url": "https://download.qoder.com/qodercli/releases/1.0.34/qodercli-windows-x64.zip",
+            "hash": "c4b236e5c374f7ed74441dabb8cebc5f81fd576b0c701d512a08ed0f76da9d2a"
         }
     },
     "bin": "qodercli.exe",
