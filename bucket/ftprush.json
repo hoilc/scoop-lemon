@@ -1,10 +1,10 @@
 {
-    "version": "3.6.6",
+    "version": "3.6.7",
     "description": "FTP Rush is a free file transfer software that supports FTP, FTPS, SFTP, WebDAV, Google Drive, DropBox, OneDrive, and Amazon S3.",
     "homepage": "https://www.wftpserver.com/ftprush.htm",
     "license": "Freeware",
     "url": "https://www.wftpserver.com/download/FTPRush.zip",
-    "hash": "912962ff71472fd7a304c3cba2189467ac5672eb6b7e3918de415817c5e87d05",
+    "hash": "31d4a67935d894616e2311a64d8ccae792a3bb9865c9035d8c5e64de70cd04be",
     "extract_dir": "FTPRush",
     "bin": "FTPRush.exe",
     "shortcuts": [
