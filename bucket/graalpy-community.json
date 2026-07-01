@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/oracle/graalpython/releases/download/graal-25.1.3/graalpy3.12-community-25.1.3-windows-amd64.zip",
-            "extract_dir": "graalpy3.12-community-25.1.3-windows-amd64",
+            "extract_dir": "graalpy-community3.12-25.1.3-windows-amd64",
             "hash": "87bbbe0204796f2501ac62d156ed628574641c55192ea922927dbb968a6f13df"
         }
     },
@@ -19,7 +19,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/oracle/graalpython/releases/download/graal-$version/graalpy3.12-community-$version-windows-amd64.zip",
-                "extract_dir": "graalpy3.12-community-$version-windows-amd64"
+                "extract_dir": "graalpy-community3.12-$version-windows-amd64"
             }
         },
         "hash": {
