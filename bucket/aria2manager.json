@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "description": "A cross-platform desktop manager for Aria2.",
+    "homepage": "https://github.com/Ftbom/Aria2Manager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Ftbom/Aria2Manager/releases/download/avalonia-v2.0.0/Aria2Manager.Avalonia.2.0.0.win-x64-bundle.zip",
+            "hash": "cd111f34e3fb2fc2ac14f7c0e20d94eda8ce629b24c5ca3d67d194e0daa5598c"
+        },
+        "arm64": {
+            "url": "https://github.com/Ftbom/Aria2Manager/releases/download/avalonia-v2.0.0/Aria2Manager.Avalonia.2.0.0.win-arm64.zip",
+            "hash": "0ad18db8f948739275b56be207fef8357e76db18149f73cee158e542ab66f490"
+        }
+    },
+    "shortcuts": [
+        [
+            "Aria2Manager.exe",
+            "Aria2Manager"
+        ]
+    ],
+    "persist": [
+        "Aria2",
+        "Configurations",
+        "Logs"
+    ],
+    "checkver": {
+        "url": "https://github.com/Ftbom/Aria2Manager/releases.atom",
+        "regex": "Repository/\\d+/avalonia-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Ftbom/Aria2Manager/releases/download/avalonia-v$version/Aria2Manager.Avalonia.$version.win-x64-bundle.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Ftbom/Aria2Manager/releases/download/avalonia-v$version/Aria2Manager.Avalonia.$version.win-arm64.zip"
+            }
+        }
+    }
+}
