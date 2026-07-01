@@ -1,0 +1,21 @@
+{
+    "version": "2.3.5",
+    "description": "A powerful, extremely lightweight, encrypted port forwarder built on a reliable UDP transport.",
+    "homepage": "https://github.com/hexian000/kcptun-libev",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hexian000/kcptun-libev/releases/download/v2.3.5/kcptun-libev-win32.x86_64-pc-cygwin.zip",
+            "hash": "64a0b49ed302fc62152673daafa7ed2531716e8888061328ae9796debd32eebb"
+        }
+    },
+    "bin": "kcptun-libev.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hexian000/kcptun-libev/releases/download/v$version/kcptun-libev-win32.x86_64-pc-cygwin.zip"
+            }
+        }
+    }
+}
