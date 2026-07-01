@@ -1,18 +1,18 @@
 {
-    "version": "10.16.0.3-202606302139",
+    "version": "10.16.0.4",
     "description": "LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.16.0.3/LunaTranslator_x64_win10.zip",
-            "extract_dir": "LunaTranslator_x64_win10",
-            "hash": "203eb269b884f9a1c88182a7374f8e08ac2f06c1df8c9279484cc03b921bab43"
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.16.0.4/LunaTranslator_x64.zip",
+            "extract_dir": "LunaTranslator_x64",
+            "hash": "d74d23d3fed8616bc4fbc5ca771a78cb72fdd8933f7e688ab9f44d292a232ea1"
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.16.0.3/LunaTranslator_x86_win7.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v10.16.0.4/LunaTranslator_x86_win7.zip",
             "extract_dir": "LunaTranslator_x86_win7",
-            "hash": "fb12965676b2ac875a72ca93a29ce02b0f05050ed0617ff6a98ee08e4175c1f7"
+            "hash": "88d1d2f3019f547d8e2c7952a2586b48bc018418d76b66d929108c31e15e5eaa"
         }
     },
     "shortcuts": [
@@ -30,23 +30,14 @@
         "translation_record",
         "cache"
     ],
-    "checkver": {
-        "script": [
-            "try { $detail = Invoke-WebRequest 'https://github.com/HIllya51/LunaTranslator/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "$atom = [xml]$detail.Content",
-            "$latest = $atom.feed.entry | Select-Object -First 1",
-            "$result =  $latest.id + '-' + ([DateTime]$latest.updated).ToUniversalTime().AddHours(8).ToString('yyyyMMddHHmm')",
-            "return $result"
-        ],
-        "regex": "v((?<main>[\\d.]+)-\\d+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x64_win10.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$matchMain/LunaTranslator_x86_win7.zip"
+                "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86_win7.zip"
             }
         }
     }
