@@ -1,25 +1,25 @@
 {
-    "version": "25.0.3",
+    "version": "25.1.3",
     "description": "(Community Edition) A high-performance embeddable Python 3 runtime for Java.",
     "homepage": "https://www.graalvm.org/python/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oracle/graalpython/releases/download/graal-25.0.3/graalpy-community-25.0.3-windows-amd64.zip",
-            "extract_dir": "graalpy-community-25.0.3-windows-amd64",
-            "hash": "8ae4e8a87a9fbe883cf555cead7f53901810ae212c1ec7e0bef6b05da17f58b1"
+            "url": "https://github.com/oracle/graalpython/releases/download/graal-25.1.3/graalpy3.12-community-25.1.3-windows-amd64.zip",
+            "extract_dir": "graalpy3.12-community-25.1.3-windows-amd64",
+            "hash": "87bbbe0204796f2501ac62d156ed628574641c55192ea922927dbb968a6f13df"
         }
     },
     "bin": "bin\\graalpy.exe",
     "checkver": {
         "url": "https://github.com/oracle/graalpython/releases.atom",
-        "regex": "<title>GraalPy ([\\d.]+)"
+        "regex": "Repository/\\d+/graal-(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oracle/graalpython/releases/download/graal-$version/graalpy-community-$version-windows-amd64.zip",
-                "extract_dir": "graalpy-community-$version-windows-amd64"
+                "url": "https://github.com/oracle/graalpython/releases/download/graal-$version/graalpy3.12-community-$version-windows-amd64.zip",
+                "extract_dir": "graalpy3.12-community-$version-windows-amd64"
             }
         },
         "hash": {
