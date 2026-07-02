@@ -1,5 +1,5 @@
 {
-    "version": "6.33",
+    "version": "6.40",
     "description": "StereoPhoto Maker (SPM) is a program for editing and viewing stereo images。",
     "homepage": "https://suto.bex.jp/eng/stphmkr/index.html",
     "license": "Freeware",
@@ -11,8 +11,8 @@
                     "StereoPhoto Maker"
                 ]
             ],
-            "url": "https://suto.bex.jp/eng/stphmkr/file/stphmkrpro_e_633.zip",
-            "hash": "a82537cce46848721ddec9fce102ee26e056a2a8dc44c3db3cbdb37a118d05f1"
+            "url": "https://suto.bex.jp/eng/stphmkr/file/stphmkrpro_e_640.zip",
+            "hash": "ac3f31d89eaba2a36c5fd0369d7c21ad74dcda8d67f722b58a71494e9f1fbfd2"
         },
         "32bit": {
             "shortcuts": [
@@ -21,8 +21,8 @@
                     "StereoPhoto Maker"
                 ]
             ],
-            "url": "https://suto.bex.jp/eng/stphmkr/file/stphmkre633.zip",
-            "hash": "8c21426ab54ec72e195962dcc39425d45d22f4889c6ec616a6750edcdc63ed3f"
+            "url": "https://suto.bex.jp/eng/stphmkr/file/stphmkre640.zip",
+            "hash": "a6426f673f19a87b3ae9974b416b96c932b41fb355e7e8707647f6f9e49181c8"
         }
     },
     "notes": "StereoPhoto Maker is NOT portable.",
