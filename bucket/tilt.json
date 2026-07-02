@@ -1,12 +1,12 @@
 {
-    "version": "0.37.4",
+    "version": "0.37.5",
     "description": "Define your dev environment as code. For microservice apps on Kubernetes.",
     "homepage": "https://tilt.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tilt-dev/tilt/releases/download/v0.37.4/tilt.0.37.4.windows.x86_64.zip",
-            "hash": "41d38b2ecd569e9b0ec73bc7d753fdb67bd24fcf1e434610b72d59c9a22c3041"
+            "url": "https://github.com/tilt-dev/tilt/releases/download/v0.37.5/tilt.0.37.5.windows.x86_64.zip",
+            "hash": "2b7536b38f09d4eee1851352fef4c6e25c15d49b10d1349bca428748615eed54"
         }
     },
     "bin": "tilt.exe",
