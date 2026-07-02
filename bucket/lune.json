@@ -1,12 +1,12 @@
 {
-    "version": "0.10.4",
+    "version": "0.10.5",
     "description": "A standalone Luau runtime.",
     "homepage": "https://lune-org.github.io/docs",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lune-org/lune/releases/download/v0.10.4/lune-0.10.4-windows-x86_64.zip",
-            "hash": "7f0161867fe1f39a7b3d4dc5854d2ddc2dfe64794a184c253953b0e4ff5f0813"
+            "url": "https://github.com/lune-org/lune/releases/download/v0.10.5/lune-0.10.5-windows-x86_64.zip",
+            "hash": "ad0305f5cc6d7ff20996644b40bf7de0de613812f431ca241456e16f9fc89cda"
         }
     },
     "bin": "lune.exe",
