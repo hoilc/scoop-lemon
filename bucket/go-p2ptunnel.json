@@ -1,16 +1,16 @@
 {
-    "version": "0.2.36",
+    "version": "0.2.37",
     "description": "基于p2p的tcp内网加密穿透隧道工具",
     "homepage": "https://github.com/chenjia404/go-p2ptunnel",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chenjia404/go-p2ptunnel/releases/download/v0.2.36/go-p2ptunnel_0.2.36_windows_amd64.zip",
-            "hash": "sha512:86189a73d91c007c0bff23d8eeca5777fd496b5074e450dacb530c145a3e84d4230801fcc21e55d6adf97b2ab0e58875636855e69f1943f7905bdc707d419de0"
+            "url": "https://github.com/chenjia404/go-p2ptunnel/releases/download/v0.2.37/go-p2ptunnel_0.2.37_windows_amd64.zip",
+            "hash": "sha512:f6fc5fd34000207b2ff4786132b71dee62c698e8fa44d3791620aea5b4b9a9699cdc2128f0c0c19e760ac90ce8ae8a6f454da9c260fc6dd6f2eb6b958455177b"
         },
         "32bit": {
-            "url": "https://github.com/chenjia404/go-p2ptunnel/releases/download/v0.2.36/go-p2ptunnel_0.2.36_windows_386.zip",
-            "hash": "sha512:78a639eb86729cbd37691e88f416c25e56a7adbc05ce39512a60f9538ba3817cec420aa8cd72214096af864bd0dff3cf882a9edfcafbfbcc613318ea2a15c108"
+            "url": "https://github.com/chenjia404/go-p2ptunnel/releases/download/v0.2.37/go-p2ptunnel_0.2.37_windows_386.zip",
+            "hash": "sha512:65e7eec9cedbae65ea8306e5d198b3a002c5a0b38851f248c1defb149fd547c7e50c7ef870619828b00713200937174f585db021da24f6a05ad8389c766c8123"
         }
     },
     "bin": "go-p2ptunnel.exe",
