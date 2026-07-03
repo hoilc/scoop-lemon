@@ -1,12 +1,12 @@
 {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Query anything (GitHub, Notion, +40 more) with SQL and let LLMs (ChatGPT, Claude) connect to using MCP.",
     "homepage": "https://github.com/julien040/anyquery",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/julien040/anyquery/releases/download/0.4.5/anyquery_0.4.5_windows_amd64.zip",
-            "hash": "3b31e7474255b1af227a806c94ff89de332c5cb79a03a15e5073eeb3faa73c86"
+            "url": "https://github.com/julien040/anyquery/releases/download/0.4.6/anyquery_0.4.6_windows_amd64.zip",
+            "hash": "6bc372a0b8853188b5c7ef94cd8b7e90189094c22293d931e6bf8e5b302aa9cd"
         }
     },
     "bin": "anyquery.exe",
