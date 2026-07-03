@@ -1,12 +1,12 @@
 {
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "Enable dynamic and seamless Kubernetes multi-cluster topologies.",
     "homepage": "https://liqo.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/liqotech/liqo/releases/download/v1.1.2/liqoctl-windows-amd64.tar.gz",
-            "hash": "7a002dd87d547ac54104cc95efb6ca6a0b1db6237a28d2182e28496fbad5c133"
+            "url": "https://github.com/liqotech/liqo/releases/download/v1.2.0/liqoctl-windows-amd64.tar.gz",
+            "hash": "52d9b7773de40cce05bb32bc3b9e78c247f674002f597abdd8e29b1a168b12dd"
         }
     },
     "pre_install": "if (Test-Path \"$dir\\liqoctl\") { Rename-Item -Path \"$dir\\liqoctl\" -NewName \"$dir\\liqoctl.exe\" }",
