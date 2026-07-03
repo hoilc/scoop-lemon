@@ -1,10 +1,10 @@
 {
-    "version": "2.83.02",
+    "version": "2.83.03",
     "description": "A feature-rich Internet email client.",
     "homepage": "https://www.rimarts.co.jp/becky.htm",
     "license": "Shareware",
-    "url": "https://www.rimarts.jp/downloads/B2/bk28302.zip",
-    "hash": "686e838eb62ccae6cb5176f8e328606e2cb7dd5193ee51fea3ccff3e861a747e",
+    "url": "https://www.rimarts.jp/downloads/B2/bk28303.zip",
+    "hash": "59d6f9c88c16c032153ead98d5598d44bd87d22e5888979b92b0ef10b1260faf",
     "shortcuts": [
         [
             "B2.exe",
