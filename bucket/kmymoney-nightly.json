@@ -1,12 +1,12 @@
 {
-    "version": "5844",
+    "version": "5849",
     "description": "(Nightly Build) A personal finance manager developed by KDE.",
     "homepage": "https://kmymoney.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/office/kmymoney/master/windows/kmymoney-master-5844-windows-cl-msvc2022-x86_64.7z",
-            "hash": "3dcaff425173fd6d485a463dd90d087b1cbc2ade29e5cb72303cb45179e06fe2"
+            "url": "https://cdn.kde.org/ci-builds/office/kmymoney/master/windows/kmymoney-master-5849-windows-cl-msvc2022-x86_64.7z",
+            "hash": "c38490f3e2cc67ee6fdfe3a903074c7da97fbff0e8ceb0666bd0d31c881d260a"
         }
     },
     "shortcuts": [
