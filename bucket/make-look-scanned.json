@@ -1,0 +1,22 @@
+{
+    "version": "1.1.0",
+    "description": "A CLI that takes a PDF and degrades it to look like a physical scan of a printout — skew, grayscale, warm paper tone, scanner grain, defocus, edge shadow, and JPEG compression artifacts.",
+    "homepage": "https://github.com/overflowy/make-look-scanned",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/overflowy/make-look-scanned/releases/download/v1.1.0/make-look-scanned_windows_amd64.tar.gz",
+            "extract_dir": "make-look-scanned_windows_amd64",
+            "hash": "484c12d0ca55b023a9834126c76fe51e86da34829990dace53168c7833609b3a"
+        }
+    },
+    "bin": "make-look-scanned.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/overflowy/make-look-scanned/releases/download/v$version/make-look-scanned_windows_amd64.tar.gz"
+            }
+        }
+    }
+}
