@@ -1,5 +1,5 @@
 {
-    "version": "9.07",
+    "version": "9.08",
     "description": "An AMD VCE hardware codec based command line video encoder.",
     "homepage": "https://github.com/rigaya/VCEEnc",
     "license": {
@@ -9,12 +9,12 @@
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" 'VCEEncC64.exe' | Select-Object -First 1 | Rename-Item -NewName 'VCEEncC.exe'",
-            "url": "https://github.com/rigaya/VCEEnc/releases/download/9.07/VCEEncC_9.07_x64.7z",
-            "hash": "e907c5e826610c687a43f7238eb4a9698280d437249e9e6c1b3aff553ca5aea7"
+            "url": "https://github.com/rigaya/VCEEnc/releases/download/9.08/VCEEncC_9.08_x64.7z",
+            "hash": "794feb2a2eb6f51169d5f5c454c995ed1feab25a5dffd946bbb6dd7f316fc376"
         },
         "32bit": {
-            "url": "https://github.com/rigaya/VCEEnc/releases/download/9.07/VCEEncC_9.07_Win32.7z",
-            "hash": "e8bf4b97b68d10c06622c1d06b0ffe0b63bdc946a3dc29675ecbc644036ff68c"
+            "url": "https://github.com/rigaya/VCEEnc/releases/download/9.08/VCEEncC_9.08_Win32.7z",
+            "hash": "3649ee3ecb50a49088be7dd5cad90b08568bdb1d843308527c732eae6f284854"
         }
     },
     "bin": "VCEEncC.exe",
