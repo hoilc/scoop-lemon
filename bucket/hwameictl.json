@@ -1,16 +1,16 @@
 {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "CLI for HwameiStor, an HA local storage system for cloud-native stateful workloads.",
     "homepage": "https://hwameistor.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hwameistor/hwameistor/releases/download/v1.0.2/hwameictl-windows-amd64.exe#/hwameictl.exe",
-            "hash": "d65235f3a1f694d901385842e4ee346ccfe31d4884197a6e1c8544382ab7eb66"
+            "url": "https://github.com/hwameistor/hwameistor/releases/download/v1.1.0/hwameictl-windows-amd64.exe#/hwameictl.exe",
+            "hash": "bb4da12af64c772e713a24a9948459540a36ce74a1ff64fa707ccd899b568718"
         },
         "arm64": {
-            "url": "https://github.com/hwameistor/hwameistor/releases/download/v1.0.2/hwameictl-windows-arm64.exe#/hwameictl.exe",
-            "hash": "f18c9eccb76e344d66b7e7b3e51e263294979b7e9bcbb909a11107378178f81e"
+            "url": "https://github.com/hwameistor/hwameistor/releases/download/v1.1.0/hwameictl-windows-arm64.exe#/hwameictl.exe",
+            "hash": "c4c694b7a13d04ab53d7bc531a4e23608d2d8094e48bb2c2a8048b9e485d5874"
         }
     },
     "bin": "hwameictl.exe",
