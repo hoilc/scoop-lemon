@@ -6,17 +6,6 @@
     "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v1.8.0/TaskExplorer-v1.8.0.exe",
     "hash": "e40af0d5cfd43091e626eda631cbc53d4804db129b602180d05d47be137cf744",
     "innosetup": true,
-    "architecture": {
-        "64bit": {
-            "extract_dir": "x64"
-        },
-        "32bit": {
-            "extract_dir": "x86"
-        },
-        "arm64": {
-            "extract_dir": "ARM64"
-        }
-    },
     "shortcuts": [
         [
             "TaskExplorer.exe",
