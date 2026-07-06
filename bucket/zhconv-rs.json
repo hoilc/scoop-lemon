@@ -1,23 +1,23 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.1-1",
     "description": "Convert Chinese text among Trad/Simp and regional variants | 中文简繁及地區詞轉換",
     "homepage": "https://github.com/Gowee/zhconv-rs",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Gowee/zhconv-rs/releases/download/v0.4.1/zhconv-x86_64-pc-windows-gnu.exe#/zhconv.exe",
-            "hash": "45c9a8374dae9e1a00efb540f5989430f6f95a6ccfe311e7d5c2859fc0ca6a16"
+            "url": "https://github.com/Gowee/zhconv-rs/releases/download/v0.4.1-1/zhconv-x86_64-pc-windows-msvc.exe#/zhconv.exe",
+            "hash": "977bb9f9cfe6e38f26be6e262a81ecf5da5931b222334ba20ace665bd02f6252"
         }
     },
     "bin": "zhconv.exe",
     "checkver": {
-        "url": "https://github.com/Gowee/zhconv-rs/releases/latest",
-        "regex": "/Gowee/zhconv-rs/releases/tag/v([^/]+?)\""
+        "url": "https://github.com/Gowee/zhconv-rs/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Gowee/zhconv-rs/releases/download/v$version/zhconv-x86_64-pc-windows-gnu.exe#/zhconv.exe"
+                "url": "https://github.com/Gowee/zhconv-rs/releases/download/v$version/zhconv-x86_64-pc-windows-msvc.exe#/zhconv.exe"
             }
         }
     }
