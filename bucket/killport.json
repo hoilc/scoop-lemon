@@ -6,6 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jkfran/killport/releases/download/v2.0.1/killport-x86_64-pc-windows-gnu.tar.gz",
+            "extract_dir": "killport-x86_64-pc-windows-gnu",
             "hash": "1c157d2b62a8d3bca8da224f8dc6a952fbefbd84e4140badd5280489612413fa"
         }
     },
