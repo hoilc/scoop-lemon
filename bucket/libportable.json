@@ -1,10 +1,10 @@
 {
-    "version": "20260706-64873001",
+    "version": "20260707-64894107",
     "description": "Portable Runtime For Firefox.",
     "homepage": "https://github.com/adonais/libportable",
     "license": "BSD-3-Clause",
     "url": "https://sourceforge.net/projects/libportable/files/Tools/portable_bin.7z",
-    "hash": "sha1:19084841c0ee76bf5fcb8969d0b3a00b1dbb1a43",
+    "hash": "sha1:e26b9ff0dc913a689c2264172ac81e7f6844be62",
     "checkver": {
         "script": [
             "try { $detail = Invoke-WebRequest 'https://sourceforge.net/projects/libportable/rss?path=/Tools' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
