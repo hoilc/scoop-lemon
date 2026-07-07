@@ -1,16 +1,16 @@
 {
-    "version": "1.4.8",
+    "version": "1.4.9",
     "description": "A CLI tool to help manage KubeArmor.",
     "homepage": "https://kubearmor.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubearmor/kubearmor-client/releases/download/v1.4.8/karmor_1.4.8_windows_amd64.tar.gz",
-            "hash": "82aff9f8c525739b4336fad5b351b8fb12d4e1a816b4e5238dcaee22242e32f9"
+            "url": "https://github.com/kubearmor/kubearmor-client/releases/download/v1.4.9/karmor_1.4.9_windows_amd64.tar.gz",
+            "hash": "ea6d6cebc2149229d2451ca0c0aad42ef157131f57ca0c400c87b9ed79acf4b7"
         },
         "arm64": {
-            "url": "https://github.com/kubearmor/kubearmor-client/releases/download/v1.4.8/karmor_1.4.8_windows_arm64.tar.gz",
-            "hash": "90a70e6ac1208db46dcf0002123ce81839d6a4ea8039c24e71c6910db63fb432"
+            "url": "https://github.com/kubearmor/kubearmor-client/releases/download/v1.4.9/karmor_1.4.9_windows_arm64.tar.gz",
+            "hash": "f8abc90d432da76bd171a73014f00ba11eaddd41e0f09c5d06c4e8c511651470"
         }
     },
     "bin": "karmor.exe",
