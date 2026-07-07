@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "Command line tools for DICOM compliant systems.",
     "homepage": "https://github.com/Enet4/dicom-rs#tools",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.9.0/dicom-rs-tools-v0.9.0-x86_64-windows-msvc.zip",
-            "hash": "ee4ec35b06c61369527b756ca3cfb62ac2b8eb8a1ce3406ea1c664fc974d82ed"
+            "url": "https://github.com/Enet4/dicom-rs/releases/download/v0.10.0/dicom-rs-tools-v0.10.0-x86_64-windows-msvc.zip",
+            "hash": "d22dd9e3644d6f8c84a156b176253660e449b91ab7f6db6114b99c1c58955250"
         }
     },
     "bin": [
