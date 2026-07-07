@@ -1,0 +1,34 @@
+{
+    "version": "1.2.2",
+    "description": "A local-first, open-source Markdown editor that brings AI into the writing flow.",
+    "homepage": "https://markra.app/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/markrahq/markra/releases/download/v1.2.2/Markra_1.2.2_windows_x64_portable.zip",
+            "hash": "0f0cae8a9945b2944ea85a456345326109fa62f8a50fb798cb65ab91d0c44955"
+        }
+    },
+    "extract_dir": "Markra",
+    "shortcuts": [
+        [
+            "Markra.exe",
+            "Markra"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\dev.markra.app\", \"$env:LOCALAPPDATA\\dev.markra.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Markra is NOT portable.",
+        "Settings are stored in '%APPDATA%\\dev.markra.app', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": {
+        "github": "https://github.com/markrahq/markra"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/markrahq/markra/releases/download/v$version/Markra_$version_windows_x64_portable.zip"
+            }
+        }
+    }
+}
