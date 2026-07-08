@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EricZimmerman/LECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/LECmd.zip",
-    "hash": "108978991d13bca15cde95a2ec2c2a23f175171d62de802e394b54933a190450",
+    "hash": "34b6af4b09fe307aaf4f359da8a4e6727fd16c5c4023991aa515292b355edc5b",
     "bin": "LECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
