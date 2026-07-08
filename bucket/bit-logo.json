@@ -1,16 +1,16 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export.",
     "homepage": "https://github.com/superstarryeyes/bit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Windows_x86_64.tar.gz",
-            "hash": "9aa05ee6a4cff5f319f1ac23368d7c5cfecf6633c20e552d74ec258b38458533"
+            "url": "https://github.com/superstarryeyes/bit/releases/download/v0.4.0/bit_0.4.0_Windows_x86_64.tar.gz",
+            "hash": "2f82e4121c36c6d7df504dbc0882321448d1a0fda65570276111bed9181906b8"
         },
         "arm64": {
-            "url": "https://github.com/superstarryeyes/bit/releases/download/v0.3.0/bit_0.3.0_Windows_arm64.tar.gz",
-            "hash": "954bb988de5387bffa54692fdf6594ab4b16e15e737b2b9a8838628831cee215"
+            "url": "https://github.com/superstarryeyes/bit/releases/download/v0.4.0/bit_0.4.0_Windows_arm64.tar.gz",
+            "hash": "92814d1d73dde52d8a3bbe98e56300043b140db2fc9540f7a973a159d24c5046"
         }
     },
     "bin": "bit.exe",
