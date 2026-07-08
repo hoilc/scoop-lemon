@@ -1,5 +1,5 @@
 {
-    "version": "5.0.0",
+    "version": "5.0",
     "description": "Access files and folders on Ext, UFS, HFS, ReiserFS, or APFS file systems from Windows.",
     "homepage": "https://www.diskinternals.com/linux-reader/",
     "license": "Freeware",
@@ -23,11 +23,11 @@
             ]
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "persist": "fsm.ini",
     "checkver": {
-        "url": "https://chocolatey.org/packages/linux-reader",
-        "regex": "Linux Reader\\s*([\\d.]+)"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/linux-reader/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "url": "https://eu.diskinternals.com/download/Linux_Reader.exe#/dl.7z"
