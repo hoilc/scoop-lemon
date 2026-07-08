@@ -9,6 +9,12 @@
             "hash": "4e7aa7ec649b8108c3f0eb89d067503c81d28cc38de356a81ebc3ff1bd0095c9"
         }
     },
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\" 'pinga.exe' | Select-Object -First 1 | Rename-Item -NewName 'installer.exe'",
+            "Expand-InnoArchive -Path \"$dir\\installer.exe\" -DestinationPath \"$dir\" -ExtractDir '{app}' -Removal"
+        ]
+    },
     "shortcuts": [
         [
             "pinga.exe",
@@ -16,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "regex": "v([\\d.]+) — "
+        "regex": ">v([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
