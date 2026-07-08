@@ -23,6 +23,10 @@
         "jsonpath": "$.version"
     },
     "autoupdate": {
-        "url": "https://eu.diskinternals.com/download/Linux_Writer.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://eu.diskinternals.com/download/Linux_Writer.exe#/dl.7z"
+            }
+        }
     }
 }
