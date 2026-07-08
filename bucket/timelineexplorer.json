@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip",
-            "hash": "4b6fc408599353316637ce7c547a9ac117efb3162823e12cabd283f0e88a95c2"
+            "hash": "4c79248786cc6ea342f66e105588f72fc8d571b5bc89acdb5178a392416d93e9"
         }
     },
     "extract_dir": "TimelineExplorer",
