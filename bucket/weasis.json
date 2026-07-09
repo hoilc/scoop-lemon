@@ -1,12 +1,12 @@
 {
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "A powerful, multifunctional, and open-source DICOM viewer.",
     "homepage": "https://weasis.org/",
     "license": "EPL-2.0|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nroduit/Weasis/releases/download/v4.7.0/Weasis-4.7.0-x86-64.msi",
-            "hash": "b429756f9282dd9bec45dcd669ff83ba5f28c91ca73a36ef049f23ae749de7ea"
+            "url": "https://github.com/nroduit/Weasis/releases/download/v4.7.1/Weasis-4.7.1-x86-64.msi",
+            "hash": "e2af585492e4f6954cc8cbc6938d841fc8824ace7fa138add3f2fdd134e9609a"
         }
     },
     "extract_dir": "Weasis",
