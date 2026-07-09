@@ -1,16 +1,16 @@
 {
-    "version": "20260419-9f95d9e",
+    "version": "20260709-cbf536a",
     "description": "（命令行版）DanmakuFactory 是一款弹幕文件转换工具，支持弹幕姬的礼物读取，支持特殊弹幕，支持多格式互转，支持自定义输入模板",
     "homepage": "https://github.com/hihkm/DanmakuFactory",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-x64-CLI.zip",
-            "hash": "9f95d9e18163a7bd1c4e20c8378a81401ba6bb50aac98910f3a7749b07303784"
+            "hash": "cbf536a676997b10f2b5dd6e0a4dc2a8684ad9bb77d85b0d3a7e3226ad0385df"
         },
         "arm64": {
             "url": "https://github.com/hihkm/DanmakuFactory/releases/download/dev/DanmakuFactory-dev-windows-arm64-CLI.zip",
-            "hash": "6625b826aae740136c460dbd483c4187850e5ae72d76785c06786c2ff636cef2"
+            "hash": "458529e3924973da523d0f4def8bdfe415e6176275e9002d980096f97e219826"
         }
     },
     "bin": "DanmakuFactory.exe",
