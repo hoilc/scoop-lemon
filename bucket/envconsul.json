@@ -1,16 +1,16 @@
 {
-    "version": "0.13.4",
+    "version": "0.14.0",
     "description": "Launch a subprocess with environment variables using data from Hashicorp Consul and Vault.",
     "homepage": "https://github.com/hashicorp/envconsul",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.hashicorp.com/envconsul/0.13.4/envconsul_0.13.4_windows_amd64.zip",
-            "hash": "3a429b1dca67aa19113c425d7e793c589e025f739e3e4d9a97f860920ea20382"
+            "url": "https://releases.hashicorp.com/envconsul/0.14.0/envconsul_0.14.0_windows_amd64.zip",
+            "hash": "10ae15031632b7dfb29529ca39d3c16cf71e11b49d0a75b0a586dcfcdb884466"
         },
         "32bit": {
-            "url": "https://releases.hashicorp.com/envconsul/0.13.4/envconsul_0.13.4_windows_386.zip",
-            "hash": "6f40a2d240d10e0008b363e9c1cab120d908edc3494ae7af3c87d1373eca518d"
+            "url": "https://releases.hashicorp.com/envconsul/0.14.0/envconsul_0.14.0_windows_386.zip",
+            "hash": "08546563108e14ddd5a25c432e1626bdb39ba130c6a4269ffe4a70d752d6b6fe"
         }
     },
     "bin": "envconsul.exe",
