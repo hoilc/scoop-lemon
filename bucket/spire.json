@@ -1,15 +1,15 @@
 {
-    "version": "1.15.1",
+    "version": "1.15.2",
     "description": "SPIRE (the SPIFFE Runtime Environment) is a toolchain of APIs for establishing trust between software systems across a wide variety of hosting platforms.",
     "homepage": "https://github.com/spiffe/spire",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spiffe/spire/releases/download/v1.15.1/spire-1.15.1-windows-amd64.zip",
-            "hash": "a1028afd0221ce8749beae390a91f4b9a9e2d70ed57ad4164a25d8edcb18888e"
+            "url": "https://github.com/spiffe/spire/releases/download/v1.15.2/spire-1.15.2-windows-amd64.zip",
+            "hash": "95501c9bd802656eeb72eb394b875dc71489fcbe77dd83bb56d1a61fcc134890"
         }
     },
-    "extract_dir": "spire-1.15.1",
+    "extract_dir": "spire-1.15.2",
     "bin": [
         "bin\\spire-server.exe",
         "bin\\spire-agent.exe"
