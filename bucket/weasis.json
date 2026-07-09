@@ -9,7 +9,7 @@
             "hash": "e2af585492e4f6954cc8cbc6938d841fc8824ace7fa138add3f2fdd134e9609a"
         }
     },
-    "extract_dir": "Weasis",
+    "extract_dir": "PFiles64\\Weasis",
     "shortcuts": [
         [
             "Weasis.exe",
@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/nroduit/Weasis/"
+        "github": "https://github.com/nroduit/Weasis"
     },
     "autoupdate": {
         "architecture": {
