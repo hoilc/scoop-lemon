@@ -1,5 +1,5 @@
 {
-    "version": "1.112",
+    "version": "1.113",
     "description": "Kindle Create is a free desktop application that helps you turn a completed manuscript into a professional looking eBook.",
     "homepage": "https://www.amazon.com/Kindle-Create/b?node=18292298011",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://d2bzeorukaqrvt.cloudfront.net/KindleCreateInstaller.exe#/dl.7z",
-            "hash": "e15170eaf16a6ba2acb3b58441236d2e801eeca3b90fc046a66339f8ab8221f1"
+            "hash": "45b29db9ad3dd0091dd1fa706bc872969097b35a89cecf7dda8fb77ef00d8770"
         }
     },
     "shortcuts": [
