@@ -1,20 +1,20 @@
 {
-    "version": "26.02-v1.5.7-R1",
+    "version": "26.02-v1.5.7-R2",
     "description": "7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard.",
     "homepage": "https://github.com/mcmilk/7-Zip-zstd",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R1/7z26.02-zstd-x64.exe#/dl.7z",
-            "hash": "e6b3728f0ed2f6fd9f18c11d793ff67a8b1553555f1f8d9b916fe2e7f748ae27"
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R2/7z26.02-zstd-x64.exe#/dl.7z",
+            "hash": "22dc4608d911d7c831437b969db66a42d0477cd3f5d93987cae9f59774857fc1"
         },
         "32bit": {
-            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R1/7z26.02-zstd-x86.exe#/dl.7z",
-            "hash": "19c0609e79c0c00a00914f1edf598dd65a67c6d48d422ea0cdb73c78f0dbd4bf"
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R2/7z26.02-zstd-x86.exe#/dl.7z",
+            "hash": "9d509425fdbea2a85b77beaa246dfb63a71c0ac70dd443cf2ed3cddcf1b4992d"
         },
         "arm64": {
-            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R1/7z26.02-zstd-arm64.exe#/dl.7z",
-            "hash": "880d663a10456e213c70107816941113a4260b167c61c79c5fe49235c33fc36e"
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v26.02-v1.5.7-R2/7z26.02-zstd-arm64.exe#/dl.7z",
+            "hash": "9749af751056e203286175527e906acc1ad0ed7b0ccc1a22de05141d77170961"
         }
     },
     "bin": [
