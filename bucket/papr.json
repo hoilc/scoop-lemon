@@ -1,0 +1,32 @@
+{
+    "version": "0.13.0",
+    "description": "A fast, native and offline-first RSS reader.",
+    "homepage": "https://github.com/l0ng-ai/papr",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/l0ng-ai/papr/releases/download/v0.13.0/Papr_0.13.0_x64-setup.exe#/dl.7z",
+            "hash": "1acfa108ee8466bf6b193871ecf080e7d6129632c989a39a6f300c50565f0d32"
+        }
+    },
+    "shortcuts": [
+        [
+            "papr-desktop.exe",
+            "Papr"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.thomas.papr\", \"$env:LOCALAPPDATA\\com.thomas.papr\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Papr is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.thomas.papr', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/l0ng-ai/papr/releases/download/v$version/Papr_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
