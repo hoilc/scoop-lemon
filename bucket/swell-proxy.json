@@ -2,7 +2,7 @@
     "version": "3.3.0",
     "description": "一款使用 WinUI 3 构建的 Windows 原生代理管理客户端",
     "homepage": "https://github.com/yaog6700-bit/Swell-Proxy",
-    "license": "MIT",
+    "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://github.com/yaog6700-bit/Swell-Proxy/releases/download/v3.3.0/Swell-win-x64.zip",
