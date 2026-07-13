@@ -1,12 +1,12 @@
 {
-    "version": "3.10",
+    "version": "4",
     "description": "本地硬盘千万级图库以图搜图",
     "homepage": "https://github.com/ldqk/ImageSearch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ldqk/ImageSearch/releases/download/3.10/ImageSearch_win-x64_3.10.7z",
-            "hash": "cef6e97d0918a168d239128a754a145828b700a6299221a24a9a981babd3afb8"
+            "url": "https://github.com/ldqk/ImageSearch/releases/download/4/ImageSearch_win_x64_4.0.7z",
+            "hash": "ee7c1a8ba5709ebbc59177024379b64098c2d83bf0ca03e0d480ba2184459fdc"
         }
     },
     "shortcuts": [
@@ -17,11 +17,12 @@
     ],
     "pre_install": [
         "Get-ChildItem \"$dir\" 'ImageSearch_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ImageSearch.exe'",
-        "Get-ChildItem \"$dir\" '以图搜图*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ImageSearch.exe'",
-        "if (!(Test-Path \"$persist_dir\\index.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\index.json\" -Value '{}' }"
+        "Get-ChildItem \"$dir\" '以图搜图*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ImageSearch.exe'"
     ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
     "persist": [
-        "index.json",
+        "backup",
         "logs"
     ],
     "checkver": "github",
