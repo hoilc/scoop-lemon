@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "GUI for LLM-Subtrans, an open source subtitle translator that uses LLMs as a translation service.",
     "homepage": "https://github.com/machinewrapped/llm-subtrans",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/machinewrapped/llm-subtrans/releases/download/v1.6.0/gui-subtrans-1.6.0.zip",
-            "hash": "b1eaf8c24d99c13b1193cbe70b4627a776afccb42c1e179d8b7fae10ac1a8290"
+            "url": "https://github.com/machinewrapped/llm-subtrans/releases/download/v1.6.1/gui-subtrans-1.6.1.zip",
+            "hash": "075188131705fed402848ceb162274b79c3a56d3ea0ad840d3f1743ab0315789"
         }
     },
     "extract_dir": "gui-subtrans",
