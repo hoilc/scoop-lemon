@@ -1,37 +1,34 @@
 {
     "##": "The shortcut will be created when adding the Appx package",
-    "version": "26.3.5.912",
+    "version": "26.7.10.1209",
     "description": "A Windows Event Log viewer for tech support and IT professionals.",
     "homepage": "https://github.com/microsoft/EventLogExpert",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/microsoft/EventLogExpert/releases/download/v26.3.5.912/EventLogExpert_26.3.5.912_x64.msix#/EventLogExpert.msix",
-            "hash": "fc5dc8c44487bf0a9531fa5dab90466be91dd8d66b6691e655e2cb220d601223"
-        }
+    "url": "https://github.com/microsoft/EventLogExpert/releases/download/v26.7.10.1209/EventLogExpert_26.7.10.1209.msixbundle#/EventLogExpert.msixbundle",
+    "hash": "0bea34b5699c2788934cb60cb3a5cc06668fcf25eecfd5ddc2bf2fc01a9f4499",
+    "installer": {
+        "script": [
+            "if ($env:CI -eq \"true\") { Return }",
+            "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+            "Add-AppxPackage \"$dir\\EventLogExpert.msixbundle\" -ForceTargetApplicationShutdown"
+        ]
     },
-    "pre_install": [
-        "if ($env:CI -eq \"true\") { Return }",
-        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
-        "Add-AppxPackage \"$dir\\EventLogExpert.msix\" -ForceTargetApplicationShutdown"
-    ],
-    "pre_uninstall": [
-        "if ($env:CI -eq \"true\") { Return }",
-        "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
-        "$package = Get-AppxPackage 'eventlogexpert'",
-        "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
-        "if ($purge) {",
-        "    Remove-AppxPackage $package",
-        "} else {",
-        "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
-        "}"
-    ],
+    "uninstaller": {
+        "script": [
+            "if ($env:CI -eq \"true\") { Return }",
+            "if ($cmd -eq \"update\") { Write-Host \"Skipping uninstallation because of update operation...\" ; Return }",
+            "if ($PSVersionTable.PSVersion.Major -ge 6) { Import-Module Appx -UseWindowsPowershell 3>$null }",
+            "$package = Get-AppxPackage 'eventlogexpert'",
+            "if (!$package) { warn \"$app is already uninstalled out of scoop.\" ; return }",
+            "if ($purge) {",
+            "    Remove-AppxPackage $package",
+            "} else {",
+            "    Remove-AppxPackage $package -PreserveRoamableApplicationData",
+            "}"
+        ]
+    },
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/microsoft/EventLogExpert/releases/download/v$version/EventLogExpert_$version_x64.msix#/EventLogExpert.msix"
-            }
-        }
+        "url": "https://github.com/microsoft/EventLogExpert/releases/download/v$version/EventLogExpert_$version.msixbundle#/EventLogExpert.msixbundle"
     }
 }
