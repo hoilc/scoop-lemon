@@ -1,0 +1,36 @@
+{
+    "version": "3.2.2",
+    "description": "A full-featured JSON/BSON viewer and editor.",
+    "homepage": "https://www.mitec.cz/wp/mjsonv/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/JSONView.zip",
+    "hash": "9c6d38bc040bae98e9847539220611e4dea915d27314463e602b880c3f845b21",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "JSONView64.exe",
+                    "MiTeC JSON Viewer"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "JSONView.exe",
+                    "MiTeC JSON Viewer"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"JSONVVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/JSONView.zip"
+    }
+}
