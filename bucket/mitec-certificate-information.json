@@ -15,7 +15,7 @@
         ]
     ],
     "checkver": {
-        "regex": "<b>([\\d.]+)</b>.+?<b>\\d{1,2}\\.\\d{1,2}\\.\\d{4}</b>"
+        "regex": "changelog-scroll-wrapper.*?<b>([\\d.]+)</b>.+?<b>\\d{1,2}\\.\\d{1,2}\\.\\d{4}</b>"
     },
     "autoupdate": {
         "url": "https://www.mitec.cz/wp/files/CertInfo.zip"
