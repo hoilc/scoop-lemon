@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "version": "1.5.0",
     "description": "A tool that provides detailed information about certificates and signed files.",
     "homepage": "https://www.mitec.cz/wp/mci/",
     "license": {
@@ -15,8 +15,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.mitec.cz/webupdate.html",
-        "regex": "<META NAME=\"CERTINFOVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+        "regex": "<b>([\\d.]+)</b>.+?<b>\\d{1,2}\\.\\d{1,2}\\.\\d{4}</b>"
     },
     "autoupdate": {
         "url": "https://www.mitec.cz/wp/files/CertInfo.zip"
