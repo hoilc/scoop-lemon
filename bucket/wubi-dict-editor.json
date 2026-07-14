@@ -1,19 +1,15 @@
 {
-    "version": "1.32",
+    "version": "1.33",
     "description": "五笔码表助手 for Rime，主要服务于 rime-wubi86-jidian 方案",
     "homepage": "https://github.com/KyleBing/wubi-dict-editor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.32/WubiDictEditor-1.3.2.Setup.exe#/dl.7z",
-            "hash": "075a31a0235c4814563bc2a48724b663912fc5a5bf38e0ea21470271f16da131"
+            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.33/wubi-dict-editor-v1.33-win32-x64.zip",
+            "extract_dir": "五笔码表助手-v1.33-win32-x64",
+            "hash": "7a044943cd3ace288f593e5f2ef60a35aa4082f4b3056b20416493f6b6d11766"
         }
     },
-    "pre_install": [
-        "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.nupkg' } | Remove-Item",
-        "Get-ChildItem \"$dir\" '*.nupkg' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -ExtractDir \"lib\\net45\" -Destination \"$dir\" -Removal",
-        "Remove-Item \"$dir\\*_ExecutionStub.exe\", \"$dir\\squirrel.exe\" -Force -ErrorAction SilentlyContinue"
-    ],
     "shortcuts": [
         [
             "WubiDictEditor.exe",
@@ -22,14 +18,12 @@
         ]
     ],
     "persist": "User Data",
-    "checkver": {
-        "url": "https://github.com/KyleBing/wubi-dict-editor/releases.atom",
-        "regex": "Repository/\\d+/v((?<main>\\d)\\.(?<minor>\\d)(?<patch>\\d))<"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v$version/WubiDictEditor-$matchMain.$matchMinor.$matchPatch.Setup.exe#/dl.7z"
+                "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v$version/wubi-dict-editor-v$version-win32-x64.zip",
+                "extract_dir": "五笔码表助手-v$version-win32-x64"
             }
         }
     }
