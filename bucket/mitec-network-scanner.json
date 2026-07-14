@@ -1,0 +1,36 @@
+{
+    "version": "6.1.0",
+    "description": "A multi-threaded ICMP, Port, IP, NetBIOS/NetBT, ActiveDirectory and SNMP scanner with many advanced features.",
+    "homepage": "https://www.mitec.cz/wp/mns/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/NetScanner.zip",
+    "hash": "02fbf13ffcc8bfd3b3ef907b265cc4d2338309e99039f1384f2c6cd370995c66",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "NetScanner64.exe",
+                    "MiTeC Network Scanner"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "NetScanner.exe",
+                    "MiTeC Network Scanner"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"NETSCANVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/NetScanner.zip"
+    }
+}
