@@ -1,0 +1,36 @@
+{
+    "version": "1.11.0",
+    "description": "Morphe Desktop is a command-line and GUI application that uses Morphe Patcher to patch Android apps.",
+    "homepage": "https://github.com/MorpheApp/morphe-desktop",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/MorpheApp/morphe-desktop/releases/download/v1.11.0/morphe-desktop-1.11.0-all.jar#/morphe-desktop.jar",
+    "hash": "85c222421f07bb67098d191b9870323199fea871ddab53fcd6de915ca70e5fe6",
+    "pre_install": [
+        "Set-Content -Encoding ASCII -Path \"$dir\\morphe-desktop.bat\" -Value '@start javaw.exe -jar \"%~dp0morphe-desktop.jar\"'",
+        "Set-Content -Encoding ASCII -Path \"$dir\\morphe-cli.bat\" -Value \"@java -jar `\"%~dp0morphe-desktop.jar`\" %*\""
+    ],
+    "bin": "morphe-cli.bat",
+    "shortcuts": [
+        [
+            "morphe-desktop.bat",
+            "Morphe Desktop",
+            "",
+            "morphe_logo.ico"
+        ]
+    ],
+    "persist": "morphe-data",
+    "suggest": {
+        "JDK 11+": [
+            "java/temurin17-jdk",
+            "java/temurin11-jdk",
+            "java/zulu17-jdk",
+            "java/zulu11-jdk"
+        ],
+        "Android Debug Bridge": "main/adb"
+    },
+    "notes": "You need to have JRE 11 installed on your computer to use Morphe CLI.",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/MorpheApp/morphe-desktop/releases/download/v$version/morphe-desktop-$version-all.jar#/morphe-desktop.jar"
+    }
+}
