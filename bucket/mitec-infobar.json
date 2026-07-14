@@ -1,9 +1,9 @@
 {
     "version": "4.6.2",
-    "description": "A versatile tool not only for programmers but also for ordinary geeks.",
-    "homepage": "https://mitec.cz/infobar.html",
+    "description": "MiTeC InfoBar is a versatile tool not only for programmers but also for ordinary geeks.",
+    "homepage": "https://www.mitec.cz/wp/mib/",
     "license": "Proprietary",
-    "url": "https://mitec.cz/Downloads/InfoBar_Setup.exe",
+    "url": "https://www.mitec.cz/wp/files/InfoBar_Setup.exe",
     "hash": "6808673eb693870150e06b650e27b89785c8a21a01b2b067891685563e549a3a",
     "innosetup": true,
     "architecture": {
@@ -26,10 +26,10 @@
     },
     "notes": "InfoBar is NOT portable.",
     "checkver": {
-        "url": "https://mitec.cz/Data/XML/data_infobarvh.xml",
-        "regex": "(?sm)<VERSION>([\\d.]+)</VERSION>\\s+<DATE>\\d+.\\d+.\\d+</DATE>"
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"INFOBARVersion\" CONTENT=\"([\\d.]+)\\.0\">"
     },
     "autoupdate": {
-        "url": "https://mitec.cz/Downloads/InfoBar_Setup.exe"
+        "url": "https://www.mitec.cz/wp/files/InfoBar_Setup.exe"
     }
 }
