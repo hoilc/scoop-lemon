@@ -1,5 +1,5 @@
 {
-    "version": "0.15.0",
+    "version": "2026.6.100",
     "description": "(Desktop Version) A self-hosted, local-first web archive application.",
     "homepage": "https://hamsterbase.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hamsterbase/hamsterbase/releases/download/0.15.0/hamsterbase-desktop-0.15.0-win-x64.zip",
-            "hash": "e31819f2680eaa73c7bcbaa436ba65fb5d1b3ed107dda428148dcddf0f388b21"
+            "url": "https://pub-847af7e579a04a77a4f8b612a78950ff.r2.dev/hamsterbase-release/2026-6-win-x64/hamsterbase-desktop-2026.6.100-win-x64.zip",
+            "hash": "05a779d33de21cb714e06c3d5849475b1dba9de0a6e07099fb002273fa8351d8"
         }
     },
     "shortcuts": [
@@ -19,13 +19,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/hamsterbase/hamsterbase/releases",
-        "regex": "/releases/tag/v?([^/]+?)\""
+        "url": "https://hamsterbase.com/docs/install/install.html",
+        "regex": "/hamsterbase-release/(?<tag>[^/]+)/hamsterbase-desktop-([\\d.]+?)-win-x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hamsterbase/hamsterbase/releases/download/$version/hamsterbase-desktop-$version-win-x64.zip"
+                "url": "https://pub-847af7e579a04a77a4f8b612a78950ff.r2.dev/hamsterbase-release/$matchTag/hamsterbase-desktop-$version-win-x64.zip"
             }
         }
     }
