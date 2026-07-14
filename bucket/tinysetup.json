@@ -3,7 +3,7 @@
     "description": "A lightweight installer written in C. Setup loader is only 24KB, small, simple and straightforward.",
     "homepage": "https://yubsoft.com/tinysetup.html",
     "license": "Freeware",
-    "url": "https://download.yubsoft.com/tinysetup.zip",
+    "url": "https://scoop-lemon.tari.xyz/hosted/tinysetup/tinysetup_v1.4.0.zip",
     "hash": "b8dffcc7a2a8cbcdf24aebf24037d195572b26254a94ad921957964faff65fca",
     "bin": "tsc.exe",
     "checkver": {
