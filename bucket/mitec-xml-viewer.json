@@ -1,5 +1,5 @@
 {
-    "version": "6.4.0",
+    "version": "6.5.0",
     "description": "A full-featured XML viewer and editor.",
     "homepage": "https://www.mitec.cz/wp/mxmlv/",
     "license": {
@@ -27,8 +27,8 @@
         }
     },
     "checkver": {
-        "url": "https://www.mitec.cz/webupdate.html",
-        "regex": "<META NAME=\"XMLVVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+        "url": "https://www.mitec.cz/Data/XML/data_xmlvvh.xml",
+        "regex": "(?sm)<VERSION>([\\d.]+)</VERSION>\\s+<DATE>\\d+.\\d+.\\d+</DATE>"
     },
     "autoupdate": {
         "url": "https://www.mitec.cz/wp/files/XMLView.zip"
