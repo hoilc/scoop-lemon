@@ -1,12 +1,12 @@
 {
-    "version": "0.111",
+    "version": "0.2.1",
     "description": "A music recognition application, or music identifier, like Shazam but for PC.",
     "homepage": "https://mra.jadquir.com/",
     "license": "Liteware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jadquir/mra-files/releases/download/0.111/MRA_0111_x64.zip",
-            "hash": "15b43dd6260384e5cf78b43c88e540adece9af9e7237a419593be4c5ef789635"
+            "url": "https://downloads.mra.jadquir.com/downloads/0.2.1%20Alpha/MRA_021Alpha_x64.zip",
+            "hash": "8fb564c375e27d659369bca02754dd43ef1e77c274aad09ea30d91a006b6fc1b"
         }
     },
     "shortcuts": [
@@ -15,18 +15,16 @@
             "MRA"
         ]
     ],
-    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\MRA\" -Force -Recurse -ErrorAction SilentlyContinue }",
-    "notes": [
-        "MRA is NOT portable.",
-        "Settings are stored in '%APPDATA%\\MRA', and can be purged using 'scoop uninstall --purge mra'."
-    ],
+    "persist": "data",
     "checkver": {
-        "github": "https://github.com/Jadquir/mra-files"
+        "url": "https://downloads.mra.jadquir.com/updates.json",
+        "jsonpath": "$.AutoUpdateUrl",
+        "regex": "/downloads/([\\d.]+)(?<suffix>[^/]*)/MRA_(?<clean>.+?)_x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Jadquir/mra-files/releases/download/$version/MRA_$cleanVersion_x64.zip"
+                "url": "https://downloads.mra.jadquir.com/downloads/$version$matchSuffix/MRA_$matchClean_x64.zip"
             }
         }
     }
