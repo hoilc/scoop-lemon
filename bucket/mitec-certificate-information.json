@@ -1,0 +1,23 @@
+{
+    "version": "1.5.0",
+    "description": "A tool that provides detailed information about certificates and signed files.",
+    "homepage": "https://www.mitec.cz/wp/mci/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/CertInfo.zip",
+    "hash": "6183172dc2277111b3019460716b4f57ad5b5f09d3bf3584620bdaff033e7c7b",
+    "shortcuts": [
+        [
+            "CertInfo.exe",
+            "MiTeC Certificate Information"
+        ]
+    ],
+    "checkver": {
+        "regex": "changelog-scroll-wrapper.*?<b>([\\d.]+)</b>.+?<b>\\d{1,2}\\.\\d{1,2}\\.\\d{4}</b>"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/CertInfo.zip"
+    }
+}
