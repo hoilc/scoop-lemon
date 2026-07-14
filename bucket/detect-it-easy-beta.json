@@ -1,16 +1,16 @@
 {
-    "version": "3.22-20260609",
+    "version": "4.0.0-20260714",
     "description": "(BETA Version) Detect It Easy (DiE) is a powerful tool for file type identification.",
     "homepage": "https://github.com/horsicq/Detect-It-Easy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_portable_3.22_x64.zip",
-            "hash": "0dc1cbca9179b9d181e42fea34394624bf743d50d7114cba6cbf20f7b2b99eb6"
+            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_4.0.0.zip",
+            "hash": "f945cb1d830cc8ca620a9c15252aa1ffd3170a46c8377828f8415cbdfd5d3033"
         },
         "32bit": {
-            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_portable_3.22_x86.zip",
-            "hash": "fd5b3ac14dbb0683ebcfbb4284406558e87fd7f1b0fb90d857d4f1437ad78bd2"
+            "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_4.0.0.zip",
+            "hash": "1bd7de4acf68ae9712209f491463795acfc9c93ade2f1e818290e91f22508e95"
         }
     },
     "extract_dir": "die",
@@ -30,17 +30,17 @@
     "persist": "backup",
     "checkver": {
         "url": "https://github.com/horsicq/DIE-engine/releases/expanded_assets/Beta",
-        "regex": "(?sm)die_win64_portable_(?<main>[\\d.]+)_x64.zip.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
+        "regex": "(?sm)die_win64_(?<main>[\\d.]+).zip.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
         "replace": "${main}-${year}${month}${day}",
         "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_portable_$matchMain_x64.zip"
+                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win64_$matchMain.zip"
             },
             "32bit": {
-                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_portable_$matchMain_x86.zip"
+                "url": "https://github.com/horsicq/DIE-engine/releases/download/Beta/die_win32_$matchMain.zip"
             }
         }
     }
