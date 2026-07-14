@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A blazingly fast, minimalist directory tree viewer, written in Rust.",
     "homepage": "https://github.com/bgreenwell/lstr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bgreenwell/lstr/releases/download/v0.3.0/lstr-x86_64-pc-windows-msvc.zip",
-            "hash": "421f4020571b68517d41ce6073b6977289d8449f2c01271a9fd58b3a84857761"
+            "url": "https://github.com/bgreenwell/lstr/releases/download/v0.4.0/lstr-x86_64-pc-windows-msvc.zip",
+            "hash": "92be741d5868abb3ae5a3cff109a8679b674c65fa53186cf044968e026c13282"
         }
     },
     "bin": "lstr.exe",
