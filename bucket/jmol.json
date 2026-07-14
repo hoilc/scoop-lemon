@@ -1,17 +1,17 @@
 {
-    "version": "16.4.13",
+    "version": "16.4.15",
     "description": "An interactive viewer for chemical structures in 3D with features for chemicals, crystals, materials and biomolecules.",
     "homepage": "http://jmol.sourceforge.net/",
     "license": "LGPL-2.0-only",
     "url": [
-        "https://sourceforge.net/projects/jmol/files/Jmol/Version%2016.4/Jmol%2016.4.13/Jmol-16.4.13-binary.zip",
+        "https://sourceforge.net/projects/jmol/files/Jmol/Version%2016.4/Jmol%2016.4.15/Jmol-16.4.15-binary.zip",
         "http://wiki.jmol.org/images/0/07/Jmol_icon_13.ico.zip"
     ],
     "hash": [
-        "sha1:59ae752852d4bdb843268b6e3603fa08f677fe43",
+        "sha1:b7e5b6304585b693017317d36d3e94a5debb0983",
         "195aa14d65039bc904cfc42faa8629e881d76871ae68492a4b69359e7c19f1fb"
     ],
-    "extract_dir": "jmol-16.4.13",
+    "extract_dir": "jmol-16.4.15",
     "pre_install": [
         "Set-Content -Encoding ASCII -Path \"$dir\\JmolData.bat\" -Value \"@java -jar `\"%~dp0JmolData.jar`\" %*\"",
         "Set-Content -Encoding ASCII -Path \"$dir\\Jmol.bat\" -Value \"@set JMOL_HOME=$dir\", '@start javaw.exe -Xmx512m -jar \"%~dp0Jmol.jar\"'",
