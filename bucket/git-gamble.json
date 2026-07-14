@@ -1,12 +1,12 @@
 {
-    "version": "2.14.2",
+    "version": "2.14.6",
     "description": "A tool that blends TDD (Test Driven Development) + TCR (test && commit || revert) to make sure to develop the right thing.",
     "homepage": "https://git-gamble.is-cool.dev",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/api/v4/projects/15761766/packages/nuget/download/git-gamble.portable/2.14.2/git-gamble.portable.2.14.2.nupkg#/dl.zip",
-            "hash": "efa05517064209274b1c16fd54f42592232d84ed0f027fea3bd030bd17ce7bd8"
+            "url": "https://gitlab.com/api/v4/projects/15761766/packages/nuget/download/git-gamble.portable/2.14.6/git-gamble.portable.2.14.6.nupkg#/dl.zip",
+            "hash": "ddbbe1dbb6bd09b5607d4447268bac77750f0892d6b83df5affda1c29130a46b"
         }
     },
     "extract_dir": "tools",
