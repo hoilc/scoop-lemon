@@ -1,12 +1,12 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A GPU-rendered, daemon-backed terminal in pure Rust.",
     "homepage": "https://github.com/l0ng-ai/tty7",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/l0ng-ai/tty7/releases/download/v0.13.0/tty7-0.13.0-windows-x86_64.zip",
-            "hash": "88e89f7dac54072639f66a30b60f5abe569696d3c05ed0ea1788eae1f8cca09a"
+            "url": "https://github.com/l0ng-ai/tty7/releases/download/v0.14.0/tty7-0.14.0-windows-x86_64.zip",
+            "hash": "cb82549c67727ba68f349fac6df171c5f61880b38e330ec1e25889f16c24379d"
         }
     },
     "shortcuts": [
