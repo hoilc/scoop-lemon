@@ -1,0 +1,24 @@
+{
+    "version": "7.1.0",
+    "description": "A powerful hexadecimal editor with many features.",
+    "homepage": "https://www.mitec.cz/wp/mhex/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/HEXEdit.zip",
+    "hash": "cfe264a121c560d69e2bb95512be407f374164f2f79d0ddc4ceb7a8d0a09c788",
+    "shortcuts": [
+        [
+            "HEXEdit.exe",
+            "MiTeC HexEdit"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"HEXVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/HEXEdit.zip"
+    }
+}
