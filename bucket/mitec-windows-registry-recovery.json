@@ -2,7 +2,10 @@
     "version": "3.1.3",
     "description": "A tool for crashed machine registry configuration data recovery and registry backup.",
     "homepage": "https://www.mitec.cz/wp/mwrr/",
-    "license": "Proprietary",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
     "url": "https://www.mitec.cz/wp/files/WRR.zip",
     "hash": "bc0785fbf3184a5f1c83d791bb759363d58d47fe249e77e54ef41e5fc7cb6aa9",
     "architecture": {
@@ -10,7 +13,7 @@
             "shortcuts": [
                 [
                     "WRR64.exe",
-                    "Windows Registry Recovery"
+                    "MiTeC Windows Registry Recovery"
                 ]
             ]
         },
@@ -18,7 +21,7 @@
             "shortcuts": [
                 [
                     "WRR.exe",
-                    "Windows Registry Recovery"
+                    "MiTeC Windows Registry Recovery"
                 ]
             ]
         }
