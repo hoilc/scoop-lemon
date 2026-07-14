@@ -1,0 +1,36 @@
+{
+    "version": "6.4.0",
+    "description": "A full-featured XML viewer and editor.",
+    "homepage": "https://www.mitec.cz/wp/mxmlv/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/XMLView.zip",
+    "hash": "c64a87ee9d26096d3a2efc63d2c1b38fb5440a825fa5b1bdc0d50cbb2d6b7960",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "XMLView64.exe",
+                    "MiTeC XML Viewer"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "XMLView.exe",
+                    "MiTeC XML Viewer"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"XMLVVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/XMLView.zip"
+    }
+}
