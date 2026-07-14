@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "description": "An application that helps you to generate self-signed certificate in X509 format (pem,cer) or PKCS#12 format (pfx).",
+    "homepage": "https://www.mitec.cz/wp/cg/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.mitec.cz/wp/files/CG.zip",
+            "hash": "dab3421d6ca9629c938b86e267ce139d4f2ce54758f1125008bf7da158f28666"
+        }
+    },
+    "shortcuts": [
+        [
+            "CG.exe",
+            "MiTeC Certificate Generator"
+        ]
+    ],
+    "checkver": {
+        "regex": "changelog-scroll-wrapper.*?<b>([\\d.]+)</b>.+?<b>\\d{1,2}\\.\\d{1,2}\\.\\d{4}</b>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.mitec.cz/wp/files/CG.zip"
+            }
+        }
+    }
+}
