@@ -13,9 +13,7 @@
     "shortcuts": [
         [
             "morphe-desktop.bat",
-            "Morphe Desktop",
-            "",
-            "morphe_logo.ico"
+            "Morphe Desktop"
         ]
     ],
     "persist": "morphe-data",
