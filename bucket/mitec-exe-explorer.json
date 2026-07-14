@@ -1,0 +1,36 @@
+{
+    "version": "3.7.5",
+    "description": "An executable file explorer for OS/2, NE, PE32, PE32+ and VxD file types.",
+    "homepage": "https://www.mitec.cz/wp/mee/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
+    },
+    "url": "https://www.mitec.cz/wp/files/EXE.zip",
+    "hash": "87b3bbf80301de96b871da5f1d4ce742c38182ee2fbc4414a28a2e7133011c78",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "EXE64.exe",
+                    "MiTeC EXE Explorer"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "EXE.exe",
+                    "MiTeC EXE Explorer"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"EXEVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/EXE.zip"
+    }
+}
