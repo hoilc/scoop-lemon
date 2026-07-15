@@ -1,0 +1,27 @@
+{
+    "version": "1.2.2",
+    "description": "A fast and light GUI for usbipd-win. Manage connecting USB devices to WSL.",
+    "homepage": "https://github.com/nickbeth/wsl-usb-manager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v1.2.2/wsl-usb-manager.exe",
+            "hash": "095f81b6953011d8bf9a53a47de42733925dfd078f8cc42d4969c43d96657afa"
+        }
+    },
+    "shortcuts": [
+        [
+            "wsl-usb-manager.exe",
+            "WSL USB Manager"
+        ]
+    ],
+    "notes": "You can install usbipd-win via winget by running `winget install usbipd`",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v$version/wsl-usb-manager.exe"
+            }
+        }
+    }
+}
