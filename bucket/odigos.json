@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/odigos-io/odigos/releases/download/v1.31.2/cli_1.31.2_windows_amd64.tar.gz",
-            "hash": "0f6cd82fe0ea52089f341e1c9ea81738e3a6acadbd04f5a4f4057e0d3b8ea7e7"
+            "hash": "3fef10456ca047def1dc6979740bab80959c160a4a2a4605d32f53366d43f6fa"
         },
         "arm64": {
             "url": "https://github.com/odigos-io/odigos/releases/download/v1.31.2/cli_1.31.2_windows_arm64.tar.gz",
-            "hash": "3a86398925fda1a7f5303a94f1700ff0e4dfc9c78654dfbab8ee2d0f53c64acc"
+            "hash": "9937a4105600f6758abecdd313c5557ece078915a8f4254743969bdc5bab59a5"
         }
     },
     "bin": "odigos.exe",
