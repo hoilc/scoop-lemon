@@ -1,0 +1,26 @@
+{
+    "version": "2.52",
+    "description": "A tool for updating firmware on legacy 8BitDo devices. | 八位堂固件升级助手，专为早期发布的设备设计",
+    "homepage": "https://support.8bitdo.com/firmware-updater.html",
+    "license": "Proprietary",
+    "url": "https://support.8bitdo.com/bd-uploads/files/old/5cab19c3-4efe-455b-a969-e457694c8224.zip",
+    "extract_dir": "8BitDoFirmwareUpdater_V2.52",
+    "hash": "b17e3d49da22acd92412d1ed6d7f55cc0c32c417d972eb62a3638cc485926e3f",
+    "shortcuts": [
+        [
+            "8BitDo Firmware Updater.exe",
+            "8BitDo Firmware Updater"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$data = Invoke-RestMethod -Method POST 'https://support.8bitdo.com/restapi/link/v1/client/soft/checkversion?soft_type=1&version=250'",
+            "return ($data.data[0].fileName + '|' + $data.data[0].fileURL)"
+        ],
+        "regex": "8BitDoFirmwareUpdater_V([\\d.]+\\d).*/(?<uuid>[^/]+?).zip"
+    },
+    "autoupdate": {
+        "url": "https://support.8bitdo.com/bd-uploads/files/old/$matchUuid.zip",
+        "extract_dir": "8BitDoFirmwareUpdater_V$version"
+    }
+}
