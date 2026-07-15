@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://LTspice.analog.com/download/26.0.2/LTspice64.msi",
+            "url": "https://ltspice.analog.com/download/26.0.2/LTspice64.msi",
             "hash": "485dabd2d7d8293de733a399719f6538efda4a54b48b181a14e07271186984d3"
         },
         "arm64": {
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://LTspice.analog.com/download/$version/LTspice64.msi"
+                "url": "https://ltspice.analog.com/download/$version/LTspice64.msi"
             },
             "arm64": {
                 "url": "https://ltspice.analog.com/software/LTspice64_arm.msi"
