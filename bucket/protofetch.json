@@ -1,12 +1,12 @@
 {
-    "version": "0.1.19",
+    "version": "0.1.21",
     "description": "A source dependency management tool for Protobuf modules.",
     "homepage": "https://github.com/coralogix/protofetch",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.19/protofetch_x86_64-pc-windows-msvc.tar.gz",
-            "hash": "fcfcf1f3e113c4a77375c8f27068a8ace901f5b02ed669f04bc78810ab76bd55"
+            "url": "https://github.com/coralogix/protofetch/releases/download/v0.1.21/protofetch_x86_64-pc-windows-msvc.tar.gz",
+            "hash": "590afdf9a0cb25f430426ffdca2887329005d6de9a5e26239446bfb57af3e113"
         }
     },
     "extract_dir": "bin",
