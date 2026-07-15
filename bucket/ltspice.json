@@ -1,0 +1,40 @@
+{
+    "version": "26.0.2",
+    "description": "A powerful, fast and free SPICE simulator software, schematic capture and waveform viewer with enhancements and models for improving the simulation of analog circuits.",
+    "homepage": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.analog.com/en/support/software-license-agreement.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://LTspice.analog.com/download/26.0.2/LTspice64.msi",
+            "hash": "485dabd2d7d8293de733a399719f6538efda4a54b48b181a14e07271186984d3"
+        },
+        "arm64": {
+            "url": "https://ltspice.analog.com/software/LTspice64_arm.msi",
+            "hash": "ed02e6a9e12ba17eb647364369268ee983773629a6508c8bfb51ca38fa8479da"
+        }
+    },
+    "extract_dir": "APPDIR",
+    "shortcuts": [
+        [
+            "LTspice.exe",
+            "LTspice"
+        ]
+    ],
+    "checkver": {
+        "url": "https://ltspice.analog.com/download/updates.txt",
+        "regex": "Version = ([\\d.]+)\\.\\d+"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://LTspice.analog.com/download/$version/LTspice64.msi"
+            },
+            "arm64": {
+                "url": "https://ltspice.analog.com/software/LTspice64_arm.msi"
+            }
+        }
+    }
+}
