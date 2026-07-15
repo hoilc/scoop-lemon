@@ -1,12 +1,12 @@
 {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "description": "A command-line tool to display the status of multiple Git repositories in a clear, tabular format.",
     "homepage": "https://github.com/bircni/git-statuses",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bircni/git-statuses/releases/download/0.8.1/git-statuses-0.8.1-x86_64-pc-windows-msvc.zip",
-            "hash": "734e28c31bdf4810a2b57e5835392573d6dc4e50089809bf0094933e64f39bd4"
+            "url": "https://github.com/bircni/git-statuses/releases/download/0.8.2/git-statuses-0.8.2-x86_64-pc-windows-msvc.zip",
+            "hash": "f101e88951c0de08b3600b4c8656e654b3f64fdb317870a78e6c50421bc1ad2f"
         }
     },
     "bin": "git-statuses.exe",
