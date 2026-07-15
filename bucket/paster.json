@@ -1,12 +1,12 @@
 {
-    "version": "1.3.5",
+    "version": "1.3.6",
     "description": "轻量高效的剪贴板增强工具，自动保存你复制过的文本、图片、文件、链接和代码",
     "homepage": "https://gitee.com/aiexporter/paster",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/aiexporter/paster/releases/download/v1.3.5/PasterInstallerV1.3.5.exe",
-            "hash": "a94c379052bc549afc092d88ad2d4e5838ea1fe2c464d460f3d2053e50671f0d"
+            "url": "https://gitee.com/aiexporter/paster/releases/download/v1.3.6/PasterInstallerV1.3.6.exe",
+            "hash": "202dfd14c4e481a45d891b098eeec00a9707c579c38ae920bdf168e2a26dd85a"
         }
     },
     "innosetup": true,
