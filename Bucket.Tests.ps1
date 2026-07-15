@@ -71,6 +71,9 @@ function install() {
     $result = @(Invoke-Expression "$command *>&1")
     $exit = $LASTEXITCODE
 
+    Write-Host "Directory:"
+    Write-Host (Get-ChildItem -Depth 1 "$env:SCOOP\apps\$manifest")
+
     log
     log "Manifest: $manifest"
     log "Arch: $architecture"
