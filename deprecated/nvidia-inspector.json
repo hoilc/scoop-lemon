@@ -1,0 +1,14 @@
+{
+    "version": "1.9.8.7",
+    "description": "A utility to read all GPU relevant data from the NVIDIA driver.",
+    "homepage": "https://orbmu2k.de/tools/nvidia-inspector-tool",
+    "license": "Freeware",
+    "url": "https://download.orbmu2k.de/files/nvidiaInspector.zip",
+    "hash": "107c7255a4304d178db8fccebc637930ef3f8806d0bb72b4cbe0b64573a7079b",
+    "shortcuts": [
+        [
+            "nvidiaInspector.exe",
+            "NVIDIA Inspector"
+        ]
+    ]
+}
