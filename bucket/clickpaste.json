@@ -1,0 +1,18 @@
+{
+    "version": "1.4.4",
+    "description": "An application that can paste clipboard contents as keystrokes to whatever location you click.",
+    "homepage": "https://github.com/Collective-Software/ClickPaste",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/Collective-Software/ClickPaste/releases/download/v1.4.4/ClickPaste_v1.4.4.zip",
+    "hash": "d524d0ab54b5f9b5795c24d29d8cdddd6146c494b50ffc74be46e4ef53ef0225",
+    "shortcuts": [
+        [
+            "ClickPaste.exe",
+            "ClickPaste"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Collective-Software/ClickPaste/releases/download/v$version/ClickPaste_v$version.zip"
+    }
+}
