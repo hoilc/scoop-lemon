@@ -71,9 +71,6 @@ function install() {
     $result = @(Invoke-Expression "$command *>&1")
     $exit = $LASTEXITCODE
 
-    Write-Host "Directory:"
-    Write-Host (Get-ChildItem -Depth 1 "$env:SCOOP\apps\$manifest")
-
     log
     log "Manifest: $manifest"
     log "Arch: $architecture"
@@ -194,8 +191,6 @@ Describe 'Changed manifests installation' {
                         It $64 {
                             install $toInstall $64 | Should -Be 0
                         }
-                        Write-Host "Directory1:"
-                        Write-Host (Get-ChildItem -Depth 3 "$env:SCOOP\apps\$noExt")
                         uninstall $noExt
                     }
                     if ($json.architecture.$32) {
@@ -208,8 +203,6 @@ Describe 'Changed manifests installation' {
                         It $arm64 {
                             install $toInstall $arm64 | Should -Be 0
                         }
-                        Write-Host "Directory2:"
-                        Write-Host (Get-ChildItem -Depth 3 "$env:SCOOP\apps\$noExt")
                         uninstall $noExt
                     }
                 } else {
