@@ -1,7 +1,7 @@
 {
     "version": "1.34",
-    "description": "Easily customize your 8BitDo controllers and keyboards with Ultimate Software V2. | 通过精英软件V2，为您的八位堂外设提供更个性化的操控体验",
-    "homepage": "https://app.8bitdo.com/",
+    "description": "A one-stop solution for your 8BitDo devices. | 为您的八位堂设备提供一站式解决方案",
+    "homepage": "https://app.8bitdo.com/Ultimate-Software-V2/",
     "license": "Proprietary",
     "url": "https://support.8bitdo.com/bd-uploads/files/ultimate_soft/8BitDo_Ultimate_Software_V2_Windows_V1.34.zip",
     "extract_dir": "8BitDo_Ultimate_Software_V2_Windows_V1.34",
