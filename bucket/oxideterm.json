@@ -6,18 +6,19 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.1/OxideTerm_2.0.1_windows_x64-setup.exe#/dl.7z",
+            "bin": "resources\\cli-bin\\x86_64-pc-windows-msvc\\oxideterm.exe",
             "hash": "ca2962994acd19c7efb5409b649164fa72a65f3d3d698c09b79a1fa37005e225"
         },
         "arm64": {
             "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.1/OxideTerm_2.0.1_windows_arm64-setup.exe#/dl.7z",
+            "bin": "resources\\cli-bin\\aarch64-pc-windows-msvc\\oxideterm.exe",
             "hash": "243b60a4909a20726e22e80a78e034714f8f6a1e32c7bbe7c6993c96b30d2b55"
         }
     },
-    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
-    "bin": "cli-bin\\oxt.exe",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\tools\\oxideterm-update-helper.exe\"  -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
-            "oxideterm.exe",
+            "oxideterm-native.exe",
             "OxideTerm"
         ]
     ],
