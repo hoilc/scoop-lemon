@@ -14,7 +14,7 @@
         },
         "arm64": {
             "url": "https://download.hoptodesk.com/hoptodesk-arm64.exe#/HopToDesk.exe",
-            "hash": "739278cacd9bd9957671f1cdfc9fba102856063b79668cd95474f73e6e20ce11"
+            "hash": "e35af1e8fbcf3c249ccf6c3895d218412a6bd13f6cb31ca31c590fc9ae618816"
         }
     },
     "shortcuts": [
