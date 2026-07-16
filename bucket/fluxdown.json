@@ -28,7 +28,8 @@
         "if ($purge) { if ((Get-ItemProperty 'HKCU:\\Software\\Classes\\.torrent' -ErrorAction SilentlyContinue).'(default)' -eq 'FluxDown.TorrentFile') { Remove-Item 'HKCU:\\Software\\Classes\\.torrent', 'HKCU:\\Software\\Classes\\FluxDown.TorrentFile' -Recurse -ErrorAction SilentlyContinue } }"
     ],
     "checkver": {
-        "github": "https://github.com/zerx-lab/FluxDown"
+        "url": "https://github.com/zerx-lab/FluxDown/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
@@ -38,6 +39,9 @@
             "arm64": {
                 "url": "https://github.com/zerx-lab/FluxDown/releases/download/v$version/FluxDown-$version-windows-arm64-portable.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
         }
     }
 }
