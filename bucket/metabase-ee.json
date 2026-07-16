@@ -1,13 +1,13 @@
 {
-    "version": "1.62.5",
+    "version": "1.63.1",
     "description": "Metabase Enterprise Edition is the easy way for everyone in your company to ask questions and learn from data.",
     "homepage": "https://www.metabase.com/enterprise/",
     "license": {
         "identifier": "Metabase Commercial License",
         "url": "https://www.metabase.com/license/commercial/"
     },
-    "url": "https://downloads.metabase.com/enterprise/v1.62.5/metabase.jar",
-    "hash": "ddfede02b469e1ad6797363f6cc304b9a6e468a886cf1d66f2f234bf8a3a4404",
+    "url": "https://downloads.metabase.com/enterprise/v1.63.1/metabase.jar",
+    "hash": "83a86f3aee6edbbfe78b280084a70d667387fb3b740de71bcf30040fc2b9fc3c",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "metabase.bat",
     "suggest": {
