@@ -1,0 +1,43 @@
+{
+    "version": "0.2.2",
+    "description": "A blazing fast, multi-protocol download manager. | 极速多协议下载管理器",
+    "homepage": "https://fluxdown.zerx.dev/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.2.2/FluxDown-0.2.2-windows-x64-portable.zip",
+            "hash": "e6af033a62edeb8b9d55564d14f8a89baaff2273cbc05f6aa96e5d0de45fe215"
+        },
+        "arm64": {
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.2.2/FluxDown-0.2.2-windows-arm64-portable.zip",
+            "hash": "6028fae84936996c8a5749f90bdd7768b47a325135a3f7b030c6a7f02094adfc"
+        }
+    },
+    "shortcuts": [
+        [
+            "flux_down.exe",
+            "FluxDown"
+        ]
+    ],
+    "persist": "portable_data",
+    "post_install": "Remove-Item \"$dir\\fluxdown_updater.exe\" -Force -ErrorAction SilentlyContinue",
+    "post_uninstall": [
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Google\\Chrome\\NativeMessagingHosts\\com.fluxdown.nmh', 'HKCU:\\Software\\Microsoft\\Edge\\NativeMessagingHosts\\com.fluxdown.nmh', 'HKCU:\\Software\\Mozilla\\NativeMessagingHosts\\com.fluxdown.nmh' -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'FluxDown' -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Classes\\fluxdown' -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { if ((Get-ItemProperty 'HKCU:\\Software\\Classes\\.torrent' -ErrorAction SilentlyContinue).'(default)' -eq 'FluxDown.TorrentFile') { Remove-Item 'HKCU:\\Software\\Classes\\.torrent', 'HKCU:\\Software\\Classes\\FluxDown.TorrentFile' -Recurse -ErrorAction SilentlyContinue } }"
+    ],
+    "checkver": {
+        "github": "https://github.com/zerx-lab/FluxDown"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zerx-lab/FluxDown/releases/download/v$version/FluxDown-$version-windows-x64-portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/zerx-lab/FluxDown/releases/download/v$version/FluxDown-$version-windows-arm64-portable.zip"
+            }
+        }
+    }
+}
