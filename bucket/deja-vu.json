@@ -1,16 +1,16 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write.",
     "homepage": "https://github.com/vshulcz/deja-vu",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vshulcz/deja-vu/releases/download/v0.11.0/deja-vu_0.11.0_windows_amd64.zip",
-            "hash": "d961d2a6718ee2e086d61af26a684a50f0a3acf9a863caa7d0478abb9c4f782e"
+            "url": "https://github.com/vshulcz/deja-vu/releases/download/v0.12.0/deja-vu_0.12.0_windows_amd64.zip",
+            "hash": "fd32a9d1ef0ba07407b3045c84b5596893999028300c9e1c37c973e85be8f209"
         },
         "arm64": {
-            "url": "https://github.com/vshulcz/deja-vu/releases/download/v0.11.0/deja-vu_0.11.0_windows_arm64.zip",
-            "hash": "d9a2e32accb6016c6146bc929be6152328ebe74cf95e06e46e616f4083e4de31"
+            "url": "https://github.com/vshulcz/deja-vu/releases/download/v0.12.0/deja-vu_0.12.0_windows_arm64.zip",
+            "hash": "84d1bb250e59b9f07ea535cfde08dd10985ab4db953e64fbe5b5a081a7cb81cd"
         }
     },
     "bin": "deja.exe",
