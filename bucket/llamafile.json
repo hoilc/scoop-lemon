@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/mozilla-ai/llamafile/releases/download/0.10.4/llamafile-0.10.4.zip",
-            "extract_dir": "llamafile-0.10.4\\bin",
+            "extract_dir": "home\\mala\\releases\\0.10.4\\llamafile-0.10.4\\bin",
             "hash": "498ef0b06e0f6ec700ad2e96d13d7db264a70fef9ca099c133b56330ef96b4f0"
         }
     },
@@ -27,7 +27,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/mozilla-ai/llamafile/releases/download/$version/llamafile-$version.zip",
-                "extract_dir": "llamafile-$version\\bin"
+                "extract_dir": "home\\mala\\releases\\$version\\llamafile-$version\\bin"
             }
         }
     }
