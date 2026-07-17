@@ -11,12 +11,13 @@
         }
     },
     "pre_install": [
-        "$names = @('llamafile', 'whisperfile', 'zipalign')",
+        "$names = @('llamafile', 'whisperfile', 'diffusionfile', 'zipalign')",
         "$names | ForEach-Object { Get-ChildItem \"$dir\" $_ | Select-Object -First 1 | Rename-Item -NewName \"$_.exe\"  }"
     ],
     "bin": [
         "llamafile.exe",
         "whisperfile.exe",
+        "diffusionfile.exe",
         [
             "zipalign.exe",
             "llamafile-zipalign"
