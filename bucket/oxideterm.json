@@ -1,18 +1,18 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary.",
     "homepage": "https://oxideterm.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.2/OxideTerm_2.0.2_windows_x64-setup.exe#/dl.7z",
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.3/OxideTerm_2.0.3_windows_x64-setup.exe#/dl.7z",
             "bin": "resources\\cli-bin\\x86_64-pc-windows-msvc\\oxideterm.exe",
-            "hash": "1640552e523d997ae76076303d5b5bf770c418840542ec33acb44bd6b36d8be9"
+            "hash": "36cb40562ca60b2096c072a1dcc79ae0a493f407313944800dade6841d65b179"
         },
         "arm64": {
-            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.2/OxideTerm_2.0.2_windows_arm64-setup.exe#/dl.7z",
+            "url": "https://github.com/AnalyseDeCircuit/oxideterm/releases/download/v2.0.3/OxideTerm_2.0.3_windows_arm64-setup.exe#/dl.7z",
             "bin": "resources\\cli-bin\\aarch64-pc-windows-msvc\\oxideterm.exe",
-            "hash": "a0f56a29e886a2f95e02197cb4bdc7671162d04a4e51421a209950d23f6fa1c7"
+            "hash": "f7fcf6dd59fca27990a03747a78298ec241dd3381ee2a37fda4cf237ee5eec43"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\tools\\oxideterm-update-helper.exe\"  -Force -Recurse -ErrorAction SilentlyContinue",
