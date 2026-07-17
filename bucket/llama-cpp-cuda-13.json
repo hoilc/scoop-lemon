@@ -1,16 +1,16 @@
 {
-    "version": "b10059",
+    "version": "b10064",
     "description": "(CUDA 13 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b10059/llama-b10059-bin-win-cuda-13.3-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b10059/cudart-llama-bin-win-cuda-13.3-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b10064/llama-b10064-bin-win-cuda-13.3-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b10064/cudart-llama-bin-win-cuda-13.3-x64.zip"
             ],
             "hash": [
-                "d2b312f435f5529ff2d43240db9a54b0cfbcf65ef3eca23f1abcbbb4399c3b2e",
+                "7e5a978c9dea2e40222ea8138e9b2352fdda46e2e134d1ef70ed106de3b7341f",
                 "1462a050eb4c684921ba51dcc4cc488a036674c3e73e9945ee705b854808d03e"
             ]
         }
