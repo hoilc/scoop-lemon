@@ -1,16 +1,16 @@
 {
-    "version": "6.8.1",
+    "version": "6.22.3",
     "description": "A fast Windows image viewer combining a borderless geek UI with GPU-accelerated Direct2D rendering and multi-threaded JXL/AVIF decoding.",
     "homepage": "https://github.com/justnullname/QuickView",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justnullname/QuickView/releases/download/v6.8.1/QuickView_v6.8.1_X64.zip",
-            "hash": "8ceea1855d94b37dd66d2186e436f2c0af2161bcdb1e7db4f0306484bf1ec579"
+            "url": "https://github.com/justnullname/QuickView/releases/download/v6.22.3/QuickView_v6.22.3_X64.zip",
+            "hash": "0926ea421d65f51765df37340e05e7eff61216690b52a06203010c9e7fea10de"
         },
         "arm64": {
-            "url": "https://github.com/justnullname/QuickView/releases/download/v6.8.1/QuickView_v6.8.1_ARM64.zip",
-            "hash": "c0bf9238f809169ef8abd80831abacc9c729d0fe5d2a7a0e8e48ea0ecb3522ef"
+            "url": "https://github.com/justnullname/QuickView/releases/download/v6.22.3/QuickView_v6.22.3_ARM64.zip",
+            "hash": "d2929217ef889d97db8cf0057d0c1b1c90abf7610c2c80ba497cf8f79826135a"
         }
     },
     "bin": "QuickView.exe",
