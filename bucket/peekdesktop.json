@@ -1,0 +1,33 @@
+{
+    "version": "0.9.7",
+    "description": "Click empty desktop wallpaper (or empty taskbar area) to reveal your desktop — just like macOS Sonoma.",
+    "homepage": "https://github.com/shanselman/PeekDesktop",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shanselman/PeekDesktop/releases/download/v0.9.7/PeekDesktop-v0.9.7-win-x64.zip",
+            "hash": "c14bf965ce65e3418a0434377926f18b5c31a9fd5c741eb0d4d1ade2a8c3d006"
+        },
+        "arm64": {
+            "url": "https://github.com/shanselman/PeekDesktop/releases/download/v0.9.7/PeekDesktop-v0.9.7-win-arm64.zip",
+            "hash": "2865356f10b1616d342cd2203952eacb081fd681e71a93c0307df024016d28e9"
+        }
+    },
+    "shortcuts": [
+        [
+            "PeekDesktop.exe",
+            "PeekDesktop"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shanselman/PeekDesktop/releases/download/v$version/PeekDesktop-v$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/shanselman/PeekDesktop/releases/download/v$version/PeekDesktop-v$version-win-arm64.zip"
+            }
+        }
+    }
+}
