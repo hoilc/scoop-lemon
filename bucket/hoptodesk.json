@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.hoptodesk.com/HopToDesk64.exe#/HopToDesk.exe",
-            "hash": "b19bc0da596bfe449409e9eeca1dbaf4566d58a6838972c6696da11db8c4efb1"
+            "hash": "0b4667d5df488b73a1bd3ec166a970707c548f45de929e39c2c6b08c857e87df"
         },
         "32bit": {
             "url": "https://download.hoptodesk.com/HopToDesk.exe",
