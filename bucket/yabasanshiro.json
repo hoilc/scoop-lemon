@@ -1,13 +1,13 @@
 {
-    "version": "1.20.11",
+    "version": "1.20.25",
     "description": "Yaba Sanshiro is a Sega Saturn emulator.",
     "homepage": "https://www.yabasanshiro.com/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://d1t36rsydvwkyk.cloudfront.net/yabasanshiro-1.20.11-b7b8e7.zip",
-            "extract_dir": "yabasanshiro-1.20.11-b7b8e7",
-            "hash": "0d537aa1d104ec6e89dd3faecc4e5934f6d0ace078d37aca18ac8736795ea98d"
+            "url": "https://d1t36rsydvwkyk.cloudfront.net/yabasanshiro-1.20.25-54de78.zip",
+            "extract_dir": "yabasanshiro-1.20.25-54de78",
+            "hash": "abeded7d4af4e112fcd742137e155610d5ee176f1e0ad9782e01692d8454a353"
         }
     },
     "shortcuts": [
