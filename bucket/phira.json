@@ -1,16 +1,16 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A non-commercial community-driven rhythm game, inspired by Phigros, developed with Rust / 一款玩法基于音游Phigros的社区属性音游",
     "homepage": "https://phira.moe/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TeamFlos/phira/releases/download/v0.8.0/Phira-windows-x86_64-v0.8.0.zip",
-            "hash": "54b01c5be25a6a060629c9f3dc0fafa99d39478f2bd5ee4b20cb99c001d194e8"
+            "url": "https://github.com/TeamFlos/phira/releases/download/v0.8.1/Phira-windows-x86_64-v0.8.1.zip",
+            "hash": "40af4628a13b13327e0c469a9a5b6c4a7061509e4b8697ca1c6f42753fcd1b90"
         },
         "arm64": {
-            "url": "https://github.com/TeamFlos/phira/releases/download/v0.8.0/Phira-windows-aarch64-v0.8.0.zip",
-            "hash": "fadcc746dd1a46076a6f602edffff4a03f378f0c3ac308f1f790463115202748"
+            "url": "https://github.com/TeamFlos/phira/releases/download/v0.8.1/Phira-windows-aarch64-v0.8.1.zip",
+            "hash": "717e56c1f6642b6d047e37d705039c5e73e8440a809aacfa4f53ad943d03eb59"
         }
     },
     "shortcuts": [
