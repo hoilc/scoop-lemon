@@ -1,0 +1,15 @@
+{
+    "version": "2.5b1-modern-2026-07",
+    "description": "Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat client released in 1996 that rendered conversations as automatically generated comic strips.",
+    "homepage": "https://github.com/microsoft/comic-chat",
+    "license": "MIT",
+    "url": "https://github.com/microsoft/comic-chat/releases/download/unofficial-modern-builds-2026-07/ComicChat-2.5-beta-1-unofficial-modern.zip",
+    "extract_dir": "ComicChat-2.5-beta-1-unofficial-modern",
+    "hash": "549ff517b80f29c4c12ceb7348a631e9c17d7b135a3a57c4e091a58b2a19d056",
+    "shortcuts": [
+        [
+            "CChat.exe",
+            "Microsoft Comic Chat"
+        ]
+    ]
+}
