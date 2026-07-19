@@ -1,12 +1,12 @@
 {
-    "version": "b1639",
+    "version": "b1641",
     "description": "(Nightly Build) A work-in-progress tool to reverse unity's IL2CPP toolchain.",
     "homepage": "https://github.com/SamboyCoding/Cpp2IL",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/SamboyCoding/Cpp2IL/actions/runs/29691272475/Cpp2IL-net9-win-x64.zip",
-            "hash": "569eb5112549e31b207db1487703362f1814fac57a86d99cecd4037392de2265"
+            "url": "https://nightly.link/SamboyCoding/Cpp2IL/actions/runs/29695731106/Cpp2IL-net9-win-x64.zip",
+            "hash": "019a398bb781babb36b6446613aab8a20a1ab3d03e812e5f55110de4f4ada7d2"
         }
     },
     "bin": "Cpp2IL.exe",
