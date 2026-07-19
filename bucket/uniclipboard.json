@@ -1,16 +1,16 @@
 {
-    "version": "0.19.0",
+    "version": "0.19.1",
     "description": "A privacy-first, cross-device clipboard synchronization tool.",
     "homepage": "https://uniclipboard.app/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.19.0/UniClipboard_0.19.0_x64-portable.zip",
-            "hash": "accbfdc59999333d83b4482651e15cbab456b79d9c144ab78bef16306aa597f3"
+            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.19.1/UniClipboard_0.19.1_x64-portable.zip",
+            "hash": "283108b517f3dcfe96d0e6f97fc0ec0bcd36214cf2d3a92e010afc958e4dd107"
         },
         "arm64": {
-            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.19.0/UniClipboard_0.19.0_arm64-portable.zip",
-            "hash": "b95682b1fa264a9032addfcd5fb7f37e46ae9318eed2d16259cd7860e6c7641b"
+            "url": "https://github.com/UniClipboard/UniClipboard/releases/download/v0.19.1/UniClipboard_0.19.1_arm64-portable.zip",
+            "hash": "195326304afc30f6f4a0b9b8dd6b0489c95f40d1772a5b10c5032e38e9b3e5f7"
         }
     },
     "shortcuts": [
