@@ -16,7 +16,10 @@
             "FluentCleaner"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/builtbybel/FluentCleaner/releases.atom",
+        "regex": "Repository/\\d+/(?!classic)(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
