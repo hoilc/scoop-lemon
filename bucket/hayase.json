@@ -1,0 +1,40 @@
+{
+    "version": "6.4.83",
+    "description": "A bring-your-own-content torrent streaming client for anime.",
+    "homepage": "https://hayase.watch/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://api.hayase.watch/files/win-hayase-6.4.83-installer.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "sha512:fa90cfb3d4c2a9896e3eb553a5a39355828fffaeb9b6f268bd839596b1edd2fd7a83dc71c6ac51c9ba3ccb3b21cdcb1ab8428a70a8433d0b969928e764d9df8e"
+        }
+    },
+    "shortcuts": [
+        [
+            "Hayase.exe",
+            "Hayase"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\hayase\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Hayase is NOT portable.",
+        "Settings are stored in '%APPDATA%\\hayase', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": {
+        "url": "https://api.hayase.watch/files/latest.yml",
+        "regex": "version:\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://api.hayase.watch/files/win-hayase-$version-installer.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s*$base64"
+        }
+    }
+}
