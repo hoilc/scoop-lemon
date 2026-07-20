@@ -11,7 +11,7 @@
     },
     "shortcuts": [
         [
-            "bin\\idea64.exe",
+            "bin\\rebased64.exe",
             "Rebased"
         ]
     ],
