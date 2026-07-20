@@ -1,13 +1,13 @@
 {
-    "version": "2026.06.12.1403-5c43e3d",
+    "version": "2026.07.20.0701-a7d1f2f",
     "description": "MCP for 小红书 / xiaohongshu.com",
     "homepage": "https://github.com/xpzouying/xiaohongshu-mcp",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2026.06.12.1403-5c43e3d/xiaohongshu-mcp-windows-amd64.zip",
+            "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2026.07.20.0701-a7d1f2f/xiaohongshu-mcp-windows-amd64.zip",
             "pre_install": "Get-ChildItem \"$dir\" '*-windows-amd64.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64') }",
-            "hash": "47648605a52bd91036cc938e524235e2f6f1274d99930337fa39eb08078e39c1"
+            "hash": "3b94080d2a43197b1e3cd7372a51a2557ad4c280a03f53684d66b7cb281ed918"
         }
     },
     "bin": [
