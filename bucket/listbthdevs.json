@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "description": "ListBthDevs lists all remembered or currently seen Bluetooth devices with their Name, MAC address, connection state and some other information.",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#listbthdevs",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/ListBthDevs_x64.zip",
+            "hash": "252e88fc14f9ee10ae287663947702b2f2f1c3ea75b1b3adde85baa04c641c38"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/ListBthDevs_Win32.zip",
+            "hash": "1ea77c3fa4dab56be3632f7e1806b0fa6637b65774ac3bdbd6d535e325fd9962"
+        }
+    },
+    "bin": "ListBthDevs.exe",
+    "checkver": {
+        "regex": "ListBthDevs V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/ListBthDevs_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/ListBthDevs_Win32.zip"
+            }
+        }
+    }
+}
