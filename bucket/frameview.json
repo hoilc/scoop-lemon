@@ -1,0 +1,30 @@
+{
+    "version": "1.9.0",
+    "description": "An application for measuring frame rates, frame times, power, and performance-per-watt on a wide range of graphics cards.",
+    "homepage": "https://www.nvidia.com/en-us/geforce/technologies/frameview/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://images.nvidia.com/content/geforce/technologies/frameview/FrameView_1.9.0/FrameViewSetup.exe#/dl.7z",
+            "hash": "3b80047cc110dfbb49502ec352db2da543a348ef3c6561a5835090120e41564d"
+        }
+    },
+    "extract_dir": "FrameView",
+    "shortcuts": [
+        [
+            "FrameView_x64.exe",
+            "FrameView"
+        ]
+    ],
+    "persist": "Settings.ini",
+    "checkver": {
+        "regex": "/FrameView_([\\d.]+?)/FrameViewSetup"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://images.nvidia.com/content/geforce/technologies/frameview/FrameView_$version/FrameViewSetup.exe#/dl.7z"
+            }
+        }
+    }
+}
