@@ -1,6 +1,6 @@
 {
     "version": "1.9.0",
-    "description": "An application for measuring frame rates, frame times, power, and performance-per-watt on a wide range of graphics cards. ",
+    "description": "An application for measuring frame rates, frame times, power, and performance-per-watt on a wide range of graphics cards.",
     "homepage": "https://www.nvidia.com/en-us/geforce/technologies/frameview/",
     "license": "Freeware",
     "architecture": {
