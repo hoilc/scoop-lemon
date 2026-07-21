@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A minimal OBS CLI for obs-websocket v5.",
     "homepage": "https://github.com/grigio/obs-cmd",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grigio/obs-cmd/releases/download/v1.0.0/obs-cmd-x64-windows.tar.gz",
-            "hash": "cf284591da8e77ecf073937d810315730c5c7d1692064370fa2ca561bcc400ab"
+            "url": "https://github.com/grigio/obs-cmd/releases/download/v1.0.1/obs-cmd-x64-windows.tar.gz",
+            "hash": "37c65b0fe15749a380a40f0e3f069e1f4f124044da20b26fa6bf513ffa97ecb8"
         }
     },
     "bin": "obs-cmd.exe",
