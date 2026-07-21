@@ -1,0 +1,23 @@
+{
+    "version": "1.2.1",
+    "description": "RestartUsbPort performs a USB port restart by commandline.",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#restartusbport",
+    "license": "Freeware",
+    "url": "https://www.uwe-sieber.de/files/RestartUsbPort.zip",
+    "hash": "7b36d0d0a2c4e82b9bfc220a2be62154f1af8300e68a3f724b6b21d9156ef85b",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "x64"
+        },
+        "32bit": {
+            "extract_dir": "Win32"
+        }
+    },
+    "bin": "RestartUsbPort.exe",
+    "checkver": {
+        "regex": "RestartUsbPort V([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.uwe-sieber.de/files/RestartUsbPort.zip"
+    }
+}
