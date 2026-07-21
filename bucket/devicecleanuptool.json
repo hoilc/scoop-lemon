@@ -1,0 +1,37 @@
+{
+    "version": "1.5.1",
+    "description": "Device Cleanup Tool allows you to remove non-present devices from the Windows device management.",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#devicecleanup",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/DeviceCleanup151_x64.zip",
+            "hash": "c59f6cb9d8cc0942a692481701bd0588d7ac5ebee476093119b56982f8ef1734"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/DeviceCleanup151_Win32.zip",
+            "hash": "bb75ebf3475653583c144c2be8d680ef3aaf816d2915ef077699ed75668b0291"
+        }
+    },
+    "shortcuts": [
+        [
+            "DeviceCleanup.exe",
+            "Device Cleanup Tool"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\DeviceCleanup.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\DeviceCleanup.ini\" -Value $null }",
+    "persist": "DeviceCleanup.ini",
+    "checkver": {
+        "regex": "Device Cleanup Tool V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/DeviceCleanup$cleanVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/DeviceCleanup$cleanVersion_Win32.zip"
+            }
+        }
+    }
+}
