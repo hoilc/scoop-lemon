@@ -1,0 +1,30 @@
+{
+    "version": "1.5.1",
+    "description": "Command line version of DeviceCleanup, which allows you to remove non-present devices from the Windows device management.",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#devicecleanupcmd",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/DeviceCleanupCmd151_x64.zip",
+            "hash": "d4addf00c28d7cd58fc2d0559678cb282e8bfb45f0d4464a5e3e839022aa2631"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/DeviceCleanupCmd151_Win32.zip",
+            "hash": "0b96a196e4c886f96221ef2cdfaef6270fab7a2cd822e5e00ff01f39b8a9842d"
+        }
+    },
+    "bin": "DeviceCleanupCmd.exe",
+    "checkver": {
+        "regex": "Device Cleanup Cmd V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/DeviceCleanupCmd$cleanVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/DeviceCleanupCmd$cleanVersion_Win32.zip"
+            }
+        }
+    }
+}
