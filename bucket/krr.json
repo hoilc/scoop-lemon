@@ -1,12 +1,12 @@
 {
-    "version": "1.28.0",
+    "version": "1.29.0",
     "description": "Robusta KRR (Kubernetes Resource Recommender) is a prometheus-based tool for optimizing resource allocation in Kubernetes clusters.",
     "homepage": "https://github.com/robusta-dev/krr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/robusta-dev/krr/releases/download/v1.28.0/krr-windows-latest-v1.28.0.zip",
-            "hash": "1fa679ddb02ecb1b10924367859abb36682a95645a52e4ec25fd8a608c0e65b7"
+            "url": "https://github.com/robusta-dev/krr/releases/download/v1.29.0/krr-windows-latest-v1.29.0.zip",
+            "hash": "a8b53ad5ba3cbe944adece6fad08638670c41856d9ddec633cd3dd17f5917cbb"
         }
     },
     "extract_dir": "krr",
