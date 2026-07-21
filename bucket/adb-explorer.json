@@ -1,0 +1,39 @@
+{
+    "version": "1.0.26070",
+    "description": "An interface to ADB that allows browsing, transferring, and editing of files with ease, in a modern and fluent Windows app, built in WPF.",
+    "homepage": "https://github.com/Alex4SSB/ADB-Explorer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.0.26070/ADB_Explorer_1.0.26070_x64.7z",
+            "hash": "d0222a51f24a2cd6740df667f37b1615d1f2bcada646d5f71be204a373a74853"
+        },
+        "arm64": {
+            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.0.26070/ADB_Explorer_1.0.26070_ARM64.7z",
+            "hash": "2878af5eff379dc6deee37d1fa9a3ddb5cc5a000b1fed8a0dc56597ccd748dc0"
+        }
+    },
+    "shortcuts": [
+        [
+            "ADB Explorer.exe",
+            "ADB Explorer"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" \"net*\" -Directory | Get-ChildItem | Move-Item -Destination \"$dir\\\"",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\AdbExplorer\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "ADB Explorer is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\AdbExplorer', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v$version/ADB_Explorer_$version_x64.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v$version/ADB_Explorer_$version_ARM64.7z"
+            }
+        }
+    }
+}
