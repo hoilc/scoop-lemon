@@ -1,0 +1,30 @@
+{
+    "version": "1.2.0",
+    "description": "A command-line duplicate file finder that can remove duplicates or replace them with hard links.",
+    "homepage": "https://www.uwe-sieber.de/filetools_e.html#fsf",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/FSF_x64.zip",
+            "hash": "19c22ef8fe52fa1969c25257369e11a80a4be1549a167a5760b48729924967d0"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/FSF_Win32.zip",
+            "hash": "5d0c01f06d69ab3de905a3c353212c529d98bca0e03712f5d7347dce5ff3f964"
+        }
+    },
+    "bin": "FSF.exe",
+    "checkver": {
+        "regex": "FSF V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/FSF_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/FSF_Win32.zip"
+            }
+        }
+    }
+}
