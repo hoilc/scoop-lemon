@@ -1,0 +1,37 @@
+{
+    "version": "0.6.17",
+    "description": "The Image Comparison & Analysis Tool (ICAT) is an application which allows you to make image quality comparisons with speed and ease.",
+    "homepage": "https://www.nvidia.com/en-us/geforce/technologies/icat/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://icat-public-releases.s3.amazonaws.com/ICAT-0.6.17.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "sha512:183c72082e7b18d96647d14838f422ee04a77127cdb84cab4614bc38deb00066f00bbb22b3c512efaa87544f78f0d126db57e40a91fc5917d10a6a13d8609572"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "ICAT.exe",
+            "NVIDIA ICAT",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://icat-public-releases.s3.amazonaws.com/latest.yml",
+        "regex": "version:\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://icat-public-releases.s3.amazonaws.com/ICAT-$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s*$base64"
+        }
+    }
+}
