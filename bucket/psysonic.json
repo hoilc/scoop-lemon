@@ -1,0 +1,34 @@
+{
+    "version": "1.50.0",
+    "description": "A gorgeous, modern, and blazing fast Navidrome desktop client.",
+    "homepage": "https://www.psysonic.de/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.50.0/Psysonic_1.50.0_x64-setup.exe",
+            "hash": "cd1ff4cc7184cc966efd9e6e4ed33ae5e6acedc9e6fbcb484c1c9b054a450cae"
+        }
+    },
+    "shortcuts": [
+        [
+            "psysonic.exe",
+            "PsySonic"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\dev.psysonic.player\", \"$env:LOCALAPPDATA\\dev.psysonic.player\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "PsySonic is NOT portable.",
+        "Settings are stored in '%APPDATA%\\dev.psysonic.player', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": {
+        "url": "https://github.com/Psychotoxical/psysonic/releases.atom",
+        "regex": "Repository/\\d+/app-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe"
+            }
+        }
+    }
+}
