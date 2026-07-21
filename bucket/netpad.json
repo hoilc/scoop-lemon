@@ -1,0 +1,34 @@
+{
+    "version": "0.12.0",
+    "description": "A cross-platform C# editor and playground.",
+    "homepage": "https://github.com/tareqimbasher/NetPad",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tareqimbasher/NetPad/releases/download/v0.12.0/netpad-0.12.0-win-x64.zip",
+            "hash": "08dec3b0f1ab45c40dc0ed947a59c265172b23c1cee10415653a1a4d7af85d7d"
+        },
+        "arm64": {
+            "url": "https://github.com/tareqimbasher/NetPad/releases/download/v0.12.0/netpad-0.12.0-win-arm64.zip",
+            "hash": "91630cc5106870c95b50e59b7d87e9ae612285fabe11892bbdd4feb8b92b1fb8"
+        }
+    },
+    "shortcuts": [
+        [
+            "NetPad.exe",
+            "NetPad"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\NetPad\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tareqimbasher/NetPad/releases/download/v$version/netpad-$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/tareqimbasher/NetPad/releases/download/v$version/netpad-$version-win-arm64.zip"
+            }
+        }
+    }
+}
