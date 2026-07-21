@@ -1,0 +1,24 @@
+{
+    "version": "0.21.0",
+    "description": "A semantic version control tool that works on top of Git.",
+    "homepage": "https://github.com/Ataraxy-Labs/sem",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Ataraxy-Labs/sem/releases/download/v0.21.0/sem-windows-x86_64.zip",
+            "hash": "8ead28b095b829dba340e77d8d184394918223bd62a3fcd7cd634df50246fc9b"
+        }
+    },
+    "bin": "sem.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Ataraxy-Labs/sem/releases/download/v$version/sem-windows-x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
