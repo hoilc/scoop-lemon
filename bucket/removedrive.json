@@ -5,11 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.uwe-sieber.de/files/RemoveDrive_x64.zip",
+            "url": "https://www.uwe-sieber.de/files/RemoveDrive348_x64.zip",
             "hash": "d5de60aeb38411eb02305aae670da897673f7ed2bd211f998706f4e1e903acbb"
         },
         "32bit": {
-            "url": "https://www.uwe-sieber.de/files/RemoveDrive_Win32.zip",
+            "url": "https://www.uwe-sieber.de/files/RemoveDrive348_Win32.zip",
             "hash": "ed1404a4b2b78511f2f828a63cac3c32660a3c6b7206f3800b23d4aeb9f43bdb"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.uwe-sieber.de/files/RemoveDrive_x64.zip"
+                "url": "https://www.uwe-sieber.de/files/RemoveDrive$cleanVersion_x64.zip"
             },
             "32bit": {
-                "url": "https://www.uwe-sieber.de/files/RemoveDrive_Win32.zip"
+                "url": "https://www.uwe-sieber.de/files/RemoveDrive$cleanVersion_Win32.zip"
             }
         }
     }
