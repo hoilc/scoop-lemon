@@ -1,0 +1,31 @@
+{
+    "version": "5.4.2",
+    "description": "A tool for converting dictionary files aka glossaries.",
+    "homepage": "https://github.com/ilius/pyglossary",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ilius/pyglossary/releases/download/5.4.2/PyGlossary-5.4.2-Windows-X64-dist.zip",
+            "hash": "f1d9ef34b78750c9d63da940be1ab6ff2882cd3adff5a5dcd9438f876c36ff98"
+        }
+    },
+    "shortcuts": [
+        [
+            "PyGlossary.exe",
+            "PyGlossary"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\PyGlossary\", \"$env:LOCALAPPDATA\\PyGlossary\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "PyGlossary is NOT portable.",
+        "Settings are stored in '%APPDATA%\\PyGlossary', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ilius/pyglossary/releases/download/$version/PyGlossary-$version-Windows-X64-dist.zip"
+            }
+        }
+    }
+}
