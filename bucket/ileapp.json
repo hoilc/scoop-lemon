@@ -1,17 +1,27 @@
 {
-    "version": "2026.1.0",
+    "version": "2026.2.0",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.1.0/ileapp-2026.1.0-Windows_x64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.1.0/ileappGUI-2026.1.0-Windows_x64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileapp-v2026.2.0-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileappGUI-v2026.2.0-Windows_x86_64.zip"
             ],
             "hash": [
-                "7bb77e5c93c97ef206f2e06f64bd10dec60c7f7b07ecdf73fc65831eb0757e03",
-                "a7714a14cefb4488277ab8d11f86c125f2e48843f3b27230fdf9d3b5b89f46b3"
+                "a65e8a73da04b59c7697157ce5ccc4bdc4ac675ee0a7c05dd1fe75a157a9d0c4",
+                "f63749aef80b174dc98f857240630629533327ad6277b51b0fdb7a0a9a596d67"
+            ]
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileapp-v2026.2.0-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileappGUI-v2026.2.0-Windows_arm64.zip"
+            ],
+            "hash": [
+                "5c300fbaa1197d98d42446fc8e96d9a6b07c71319e31ff7b7b674da69d01c85a",
+                "0efb9e559a84aa1ac5fa38f94879bbf08cc968dc2d73cedea304eca932c9f82b"
             ]
         }
     },
@@ -27,8 +37,14 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileapp-v$version-Windows_x64.zip",
-                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileappGUI-v$version-Windows_x64.zip"
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileapp-v$version-Windows_x86_64.zip",
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileappGUI-v$version-Windows_x86_64.zip"
+                ]
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileapp-v$version-Windows_arm64.zip",
+                    "https://github.com/abrignoni/iLEAPP/releases/download/v$version/ileappGUI-v$version-Windows_arm64.zip"
                 ]
             }
         }
