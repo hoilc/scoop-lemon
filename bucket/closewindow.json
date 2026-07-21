@@ -1,0 +1,33 @@
+{
+    "version": "1.2.1",
+    "description": "CloseWindow closes windows by commandline.",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#closewindow",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.uwe-sieber.de/files/CloseWindow_x64.zip",
+            "hash": "6f26bf748e780f85dc0e9d90a62f3ff7645860591d510e7a3fd49c32a2ab52bd"
+        },
+        "32bit": {
+            "url": "https://www.uwe-sieber.de/files/CloseWindow_Win32.zip",
+            "hash": "4f604a30e283a68b3a828e9d63701006790a7099523690ea3fd9319a35e70fd6"
+        }
+    },
+    "bin": [
+        "CloseWindow.exe",
+        "CloseWindowCmd.exe"
+    ],
+    "checkver": {
+        "regex": "CloseWindow V([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.uwe-sieber.de/files/CloseWindow_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.uwe-sieber.de/files/CloseWindow_Win32.zip"
+            }
+        }
+    }
+}
