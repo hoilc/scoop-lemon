@@ -1,16 +1,16 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "An open source platform that helps development teams and open source communities build more secure software, and prove to others that what they’ve built is secure.",
     "homepage": "https://minder-docs.stacklok.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stacklok/minder/releases/download/v0.2.1/minder_0.2.1_windows_amd64.zip",
-            "hash": "fa4964e34415d327ce552ada7b7509f3ecb930c22e8d100880d180799af9a938"
+            "url": "https://github.com/stacklok/minder/releases/download/v0.2.2/minder_0.2.2_windows_amd64.zip",
+            "hash": "c18485459c49d221c99239befc492f9893464950e862b297fc93b26b572ef905"
         },
         "arm64": {
-            "url": "https://github.com/stacklok/minder/releases/download/v0.2.1/minder_0.2.1_windows_arm64.zip",
-            "hash": "370ad7c2077f84da8160a9cc73722ac447e5d6c69ce2f36a204684d4888a38fb"
+            "url": "https://github.com/stacklok/minder/releases/download/v0.2.2/minder_0.2.2_windows_arm64.zip",
+            "hash": "04944f844d7c95e381fcac01ab66bff6d9dc78d7c4f00d73ad3200417f65207b"
         }
     },
     "bin": "minder.exe",
