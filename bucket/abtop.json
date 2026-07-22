@@ -1,0 +1,31 @@
+{
+    "version": "0.5.3",
+    "description": "Like htop, but for AI coding agents.",
+    "homepage": "https://github.com/graykode/abtop",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/graykode/abtop/releases/download/v0.5.3/abtop-x86_64-pc-windows-msvc.zip",
+            "hash": "36d0bf6d55f7662ed34fc73b6b1e31d206549beb6530c7bf1f45d4f2c3170f31"
+        },
+        "arm64": {
+            "url": "https://github.com/graykode/abtop/releases/download/v0.5.3/abtop-aarch64-pc-windows-msvc.zip",
+            "hash": "92557f9e66e6b5a986800c6454da53a86a407d2c363fecc53efebc1cff53b1b7"
+        }
+    },
+    "bin": "abtop.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/graykode/abtop/releases/download/v$version/abtop-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/graykode/abtop/releases/download/v$version/abtop-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
