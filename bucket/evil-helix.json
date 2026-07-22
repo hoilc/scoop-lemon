@@ -1,0 +1,31 @@
+{
+    "version": "20250915",
+    "description": "A soft fork of Helix which introduces Vim keybindings and more.",
+    "homepage": "https://github.com/usagi-flow/evil-helix",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/usagi-flow/evil-helix/releases/download/release-20250915/evil-helix-amd64-windows.zip",
+            "hash": "43f2265cbcd67f70d961b13c03b20e21d68cce03753da679174df1c1514f378e"
+        }
+    },
+    "extract_dir": "helix",
+    "bin": [
+        "hx.exe",
+        [
+            "hx.exe",
+            "evil-helix"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/usagi-flow/evil-helix/releases.atom",
+        "regex": "Repository/\\d+/release-(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/usagi-flow/evil-helix/releases/download/release-$version/evil-helix-amd64-windows.zip"
+            }
+        }
+    }
+}
