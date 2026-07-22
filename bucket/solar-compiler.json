@@ -1,6 +1,6 @@
 {
     "version": "0.2.0",
-    "description": "A fast, modular and contributor-riendly Solidity compiler, written in Rust.",
+    "description": "A fast, modular and contributor-friendly Solidity compiler, written in Rust.",
     "homepage": "https://github.com/paradigmxyz/solar",
     "license": "Apache-2.0|MIT",
     "architecture": {
