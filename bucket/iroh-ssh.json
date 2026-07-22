@@ -1,0 +1,21 @@
+{
+    "version": "0.2.12",
+    "description": "SSH to any machine without ip, behind a NAT/firewall without port forwarding or VPN setup.",
+    "homepage": "https://github.com/rustonbsd/iroh-ssh",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rustonbsd/iroh-ssh/releases/download/0.2.12/iroh-ssh.exe",
+            "hash": "d50813aea4425c2113edcb889ffcc1a97f5a0d85517a35ef56114de45d8bda64"
+        }
+    },
+    "bin": "iroh-ssh.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rustonbsd/iroh-ssh/releases/download/$version/iroh-ssh.exe"
+            }
+        }
+    }
+}
