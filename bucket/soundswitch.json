@@ -1,10 +1,10 @@
 {
-    "version": "7.1.1-beta.4",
+    "version": "7.2.0-beta.1",
     "description": "A C# application to switch default playing device.",
     "homepage": "https://soundswitch.aaflalo.me/",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/Belphemur/SoundSwitch/releases/download/v7.1.1-beta.4/SoundSwitch-v7.1.1-beta.4.zip",
-    "hash": "2c09191a8cd25982b8d01b1beb2bc37433f8c5cc092ad18898854074cb1635c8",
+    "url": "https://github.com/Belphemur/SoundSwitch/releases/download/v7.2.0-beta.1/SoundSwitch-v7.2.0-beta.1.zip",
+    "hash": "9d7f91b635f8e5ce194664831248eae98aafaa56f678b12f72abed9b78ea82a6",
     "architecture": {
         "64bit": {
             "extract_dir": "win-x64"
