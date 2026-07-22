@@ -1,0 +1,25 @@
+{
+    "version": "0.1.13-beta",
+    "description": "An efficient, procedural, and pragmatic programming language.",
+    "homepage": "https://onyxlang.io/",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/onyx-lang/onyx/releases/download/v0.1.13-beta/onyx-windows-wasmer-amd64.zip",
+            "hash": "207e35a1a7c9f093b3f15ce037f35d92cedad93dc5445ade56e083ae2a48ca0b"
+        }
+    },
+    "extract_dir": "dist",
+    "bin": "onyx.exe",
+    "checkver": {
+        "url": "https://github.com/onyx-lang/onyx/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/onyx-lang/onyx/releases/download/v$version/onyx-windows-wasmer-amd64.zip"
+            }
+        }
+    }
+}
