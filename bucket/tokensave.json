@@ -1,0 +1,31 @@
+{
+    "version": "7.6.0",
+    "description": "A comprehensive code intelligence MCP server for AI coding agents.",
+    "homepage": "https://github.com/aovestdipaperino/tokensave",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aovestdipaperino/tokensave/releases/download/v7.6.0/tokensave-v7.6.0-x86_64-windows.zip",
+            "hash": "4876db76be97588805d2c8e874c5802b2230cb7c3b9ea7211f4d2a9ec550c08f"
+        },
+        "arm64": {
+            "url": "https://github.com/aovestdipaperino/tokensave/releases/download/v7.6.0/tokensave-v7.6.0-aarch64-windows.zip",
+            "hash": "a1bbbcc827fc6238dd391f4048f92b3d3ab32d04ee95c3bedba4fa9c581501ac"
+        }
+    },
+    "bin": "tokensave.exe",
+    "checkver": {
+        "url": "https://github.com/aovestdipaperino/tokensave/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aovestdipaperino/tokensave/releases/download/v$version/tokensave-v$version-x86_64-windows.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/aovestdipaperino/tokensave/releases/download/v$version/tokensave-v$version-aarch64-windows.zip"
+            }
+        }
+    }
+}
