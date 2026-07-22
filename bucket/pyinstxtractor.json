@@ -1,11 +1,11 @@
 {
-    "version": "2026.04",
+    "version": "2026.07",
     "description": "A Python script to extract the contents of a PyInstaller generated executable file.",
     "homepage": "https://github.com/extremecoders-re/pyinstxtractor",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/extremecoders-re/pyinstxtractor/archive/refs/tags/2026.04.zip",
-    "hash": "173bbdf0465327479c537f608278e94ce23b166fe9b99bfed82cb67c118b1346",
-    "extract_dir": "pyinstxtractor-2026.04",
+    "url": "https://github.com/extremecoders-re/pyinstxtractor/archive/refs/tags/2026.07.zip",
+    "hash": "19aa22c2dd743af02f305dda366dd1c49181e1ef6f9cacc6c18239a4e3e84a57",
+    "extract_dir": "pyinstxtractor-2026.07",
     "bin": "pyinstxtractor.py",
     "suggest": {
         "python3": "python"
