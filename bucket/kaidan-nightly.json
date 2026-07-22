@@ -1,12 +1,12 @@
 {
-    "version": "6819",
+    "version": "6828",
     "description": "(Nightly Build) A user-friendly and modern chat app developed by KDE.",
     "homepage": "https://kaidan.im/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-6819-windows-cl-msvc2022-x86_64.7z",
-            "hash": "5104bf4f45f9b494c9cfdb7dab717395304fd798090956a153c62e194319b0b3"
+            "url": "https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-6828-windows-cl-msvc2022-x86_64.7z",
+            "hash": "ca33ed4b92bb8c47cd2bc19b49d0fd204cd66a2d87447828967d2b4a559d5c6f"
         }
     },
     "shortcuts": [
