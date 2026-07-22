@@ -1,12 +1,12 @@
 {
-    "version": "3.4.1.13",
+    "version": "3.4.2.2",
     "description": "(OSS Version) An open-source big data platform designed and optimized for the Internet of Things (IoT).",
     "homepage": "https://www.taosdata.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.taosdata.com/tdengine-tsdb-oss/3.4.1.13/tdengine-tsdb-oss-client-3.4.1.13-windows-x64.exe#/setup.exe",
-            "hash": "ca241f7c3c8c11ad8349cb647400d4f5da8aec1b8d888b7eac761a6f1f1253c6"
+            "url": "https://downloads.taosdata.com/tdengine-tsdb-oss/3.4.2.2/tdengine-tsdb-oss-client-3.4.2.2-windows-x64.exe#/setup.exe",
+            "hash": "cb7ce9bdd5aae0f4aa700173ab581542247f04421a7187fee4cd68e27712c858"
         }
     },
     "installer": {
