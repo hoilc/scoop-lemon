@@ -1,0 +1,27 @@
+{
+    "version": "0.5.4",
+    "description": "A beautiful, fast, real-time system monitor for Windows.",
+    "homepage": "https://github.com/psmux/pstop",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/psmux/pstop/releases/download/v0.5.4/pstop-windows-x86_64.zip",
+            "hash": "58da4fa5b6a7370e4b14ead14df0c43546de6404812fcdc100a4b0cf4071af0b"
+        }
+    },
+    "bin": [
+        "pstop.exe",
+        "htop.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/psmux/pstop/releases/download/v$version/pstop-windows-x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
