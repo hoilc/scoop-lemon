@@ -1,0 +1,29 @@
+{
+    "version": "1.4.0",
+    "description": "A parametric 3D CAD application that supports STEP import/export, fillets and chamfers.",
+    "homepage": "https://dune3d.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dune3d/dune3d/releases/download/v1.4.0/dune3d-1.4.0-x64.msi",
+            "hash": "3b011518631206bfb80b7b512a68a1fcac3c623de16fcc812bbf48ecd603ed95"
+        }
+    },
+    "extract_dir": "PFiles\\Dune 3D",
+    "shortcuts": [
+        [
+            "dune3d.exe",
+            "Dune 3D"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/dune3d/dune3d"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dune3d/dune3d/releases/download/v$version/dune3d-$version-x64.msi"
+            }
+        }
+    }
+}
