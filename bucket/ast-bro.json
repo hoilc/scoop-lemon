@@ -1,0 +1,24 @@
+{
+    "version": "3.0.0",
+    "description": "A fast, AST-based code navigation toolkit that maps file shapes, public APIs, and call graphs across coding languages.",
+    "homepage": "https://github.com/aeroxy/ast-bro",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-3.0.0/ast-bro-3.0.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "4511c03f5acffe28f00f005fb902c228a0d7a3d76308c24fe1b94135d5eb2a35"
+        }
+    },
+    "bin": "ast-bro.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/ast-bro?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-$version/ast-bro-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
