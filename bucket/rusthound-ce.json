@@ -1,0 +1,24 @@
+{
+    "version": "2.4.91",
+    "description": "Active Directory data ingestor for BloodHound Community Edition written in Rust.",
+    "homepage": "https://github.com/g0h4n/RustHound-CE",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v2.4.91/rusthound-ce-Windows-msvc-x86_64.zip",
+            "hash": "f0546811131a69b17cd708ebe26db4afe5e6d5a5f54b5c83e6c3aa2ba3aef7b8"
+        }
+    },
+    "bin": "rusthound-ce.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/g0h4n/RustHound-CE/releases/download/v$version/rusthound-ce-Windows-msvc-x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
