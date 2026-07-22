@@ -1,20 +1,20 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "A third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.",
     "homepage": "https://github.com/dragonflylee/switchfin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.1/Switchfin-windows-x64.zip",
-            "hash": "02d9d962bcfec36b7e94ce2e7dcf455d1281efd86a600c14cd321fadff070b9d"
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.2/Switchfin-windows-x64.zip",
+            "hash": "5f3c9fbd894d04c5af47a65112ed8d5d875d2f9f64f53b93ca613ac0fbac3f02"
         },
         "32bit": {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.1/Switchfin-windows-x86.zip",
-            "hash": "2cbd314727840be7eeda683c52267f310682aa881c9e6862378f4a0222cb2aae"
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.2/Switchfin-windows-x86.zip",
+            "hash": "b4b703c595cefa2f5948db821c702fdc643ebf3fed9aa822507821ad633cd068"
         },
         "arm64": {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.1/Switchfin-windows-arm64.zip",
-            "hash": "1205ff542a99d3b2b07f2aa048c0cf64b62fa166100af5c0c5461a92cf396a7e"
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.2/Switchfin-windows-arm64.zip",
+            "hash": "2b7c1fbb56a139ffcef45566a8912eaf46f34352f84317abe2c3a0997aed90ce"
         }
     },
     "shortcuts": [
