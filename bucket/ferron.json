@@ -1,0 +1,42 @@
+{
+    "version": "2.8.1",
+    "description": "A fast, modern, and easily configurable web server with automatic TLS.",
+    "homepage": "https://ferron.sh/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ferronweb/ferron/releases/download/2.8.1/ferron-2.8.1-x86_64-pc-windows-msvc.zip",
+            "hash": "aa1d083d38452b358c1e0badadf4cf49a52242fe942a4e4e4d7fb715af2793c8"
+        },
+        "32bit": {
+            "url": "https://github.com/ferronweb/ferron/releases/download/2.8.1/ferron-2.8.1-i686-pc-windows-msvc.zip",
+            "hash": "8ed5b1bf7c5d5525597c13bafca69a2e87b0364bd8ec4274dda0167aa4084cf2"
+        },
+        "arm64": {
+            "url": "https://github.com/ferronweb/ferron/releases/download/2.8.1/ferron-2.8.1-aarch64-pc-windows-msvc.zip",
+            "hash": "245e6355c569b909995a7ab7120f979ca5de15cae0062acec8315bc547a8917f"
+        }
+    },
+    "bin": [
+        "ferron.exe",
+        "ferron-passwd.exe",
+        "ferron-precompress.exe",
+        "ferron-yaml2kdl.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/ferronweb/ferron"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ferronweb/ferron/releases/download/$version/ferron-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ferronweb/ferron/releases/download/$version/ferron-$version-i686-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ferronweb/ferron/releases/download/$version/ferron-$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
