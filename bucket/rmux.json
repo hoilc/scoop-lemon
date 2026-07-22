@@ -1,0 +1,28 @@
+{
+    "version": "0.9.0",
+    "description": "An async, typed terminal multiplexer engine written in Rust.",
+    "homepage": "https://rmux.io/",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Helvesec/rmux/releases/download/v0.9.0/rmux-0.9.0-windows-x86_64.zip",
+            "extract_dir": "rmux-0.9.0-windows-x86_64",
+            "hash": "3887f8f0bb810831bfb86460ea917b5b2425f77b161374de2c32fb42347a008d"
+        }
+    },
+    "bin": "rmux.exe",
+    "checkver": {
+        "github": "https://github.com/Helvesec/rmux"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Helvesec/rmux/releases/download/v$version/rmux-$version-windows-x86_64.zip",
+                "extract_dir": "rmux-$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
