@@ -1,8 +1,11 @@
 {
-    "version": "4.003",
+    "version": "4.009",
     "description": "Mi Sans 字体笔型平直有力，设计更加简约，减少视觉负担，更有利于屏幕显示，供全社会免费商用",
     "homepage": "https://hyperos.mi.com/font",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://hyperos.mi.com/font-download/MiSans%E5%AD%97%E4%BD%93%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.pdf"
+    },
     "url": "https://hyperos.mi.com/font-download/MiSans.zip",
     "extract_dir": "MiSans\\ttf",
     "hash": "b6aa1fc827035922612df8edf36e5609bca1c5441e25cd57572204569b7b81d9",
