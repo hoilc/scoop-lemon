@@ -1,20 +1,20 @@
 {
-    "version": "1.22.4",
+    "version": "1.22.5",
     "description": "A CLI client for the Sakura Cloud.",
     "homepage": "https://github.com/sacloud/usacloud",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.4/usacloud_windows-amd64.zip",
-            "hash": "c2894037832bd8e0943948bf66a94c74c42f90d5b2d22946608aa0e6aa3b8025"
+            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.5/usacloud_windows-amd64.zip",
+            "hash": "ab09f9f896a4f404ab71521fb178dabce51760d93f9e4a404830fb4f45e92c87"
         },
         "32bit": {
-            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.4/usacloud_windows-386.zip",
-            "hash": "a9abe5acbd9c80cf6d8aa2c7463d40a3cd45af1441a827d56565f3e53a0ea9cf"
+            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.5/usacloud_windows-386.zip",
+            "hash": "5c1a5e37617695140543dfe2330fa294979eb3feaea5b165c81c2d4aa6170d8f"
         },
         "arm64": {
-            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.4/usacloud_windows-arm64.zip",
-            "hash": "5439f3a4c536dcb37c57283ad31f5a3c8cb83d42654be14c567e4a8adb7e23cc"
+            "url": "https://github.com/sacloud/usacloud/releases/download/v1.22.5/usacloud_windows-arm64.zip",
+            "hash": "6651eb5e23d541a20ee8b5da844db272934dc64318c90ba4a18d22cc16d30f63"
         }
     },
     "bin": "usacloud.exe",
