@@ -1,12 +1,12 @@
 {
-    "version": "0.0.0+4052.gd0a203ca08",
+    "version": "0.0.0+4057.g56bd071ee2",
     "description": "A darktable fork minus the bloat plus some design vision.",
     "homepage": "https://ansel.photos/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-0.0.0+4052.gd0a203ca08-win64.exe#/dl.7z",
-            "hash": "3d3528ce2867da1828676bbbd6fe4ae44245ee5247b3405b4c5ae779348dc0bd"
+            "url": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/ansel-0.0.0+4057.g56bd071ee2-win64.exe#/dl.7z",
+            "hash": "b6754cb2357b4d9897f3e524be803b37c79315842eef253bbecf861eeb218913"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
