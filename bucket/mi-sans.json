@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://hyperos.mi.com/font-download/MiSans.zip",
     "extract_dir": "MiSans\\ttf",
-    "hash": "8fb800d83691e152e48ed0eb255c91e15ebbdb93104bbff02a75cad26fbce9cb",
+    "hash": "b6aa1fc827035922612df8edf36e5609bca1c5441e25cd57572204569b7b81d9",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
