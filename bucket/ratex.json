@@ -1,0 +1,39 @@
+{
+    "version": "0.1.13",
+    "description": "A KaTeX-compatible math rendering engine in pure Rust — no JavaScript, no WebView, no DOM.",
+    "homepage": "https://ratex.lites.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.13/ratex-cli-v0.1.13-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "ratex-cli-v0.1.13-x86_64-pc-windows-msvc",
+            "hash": "76a01c68dc85043a95bc3038f0e91808dcbc6eed7ad30d9738ae05335788f77e"
+        },
+        "arm64": {
+            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.13/ratex-cli-v0.1.13-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "ratex-cli-v0.1.13-aarch64-pc-windows-msvc",
+            "hash": "05837d46ee25b1f71a5b8a039f974749b0fba66e8d35251be096d5dad3e37f6e"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" '*.exe' | Rename-Item -NewName { \"ratex-$($_.Name)\" }",
+    "bin": [
+        "ratex-render.exe",
+        "ratex-render-pdf.exe",
+        "ratex-render-svg.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/erweixin/RaTeX"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/erweixin/RaTeX/releases/download/v$version/ratex-cli-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "ratex-cli-v$version-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/erweixin/RaTeX/releases/download/v$version/ratex-cli-v$version-aarch64-pc-windows-msvc.zip",
+                "extract_dir": "ratex-cli-v$version-aarch64-pc-windows-msvc"
+            }
+        }
+    }
+}
