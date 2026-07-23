@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://css-ig.net/bin/pinga-win64.zip",
-            "hash": "de09ddf97fd98388098afb17103e6dc1584539f7c4f5c397a469d488fe08158b"
+            "hash": "70c4d256154ca98de3078dabc8183ba937266942ebf6225de009f880d1625beb"
         }
     },
     "installer": {
