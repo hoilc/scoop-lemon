@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmjs.org/@wecom/cli-win32-x64/-/cli-win32-x64-0.1.9.tgz",
+            "url": "https://registry.npmmirror.com/@wecom/cli-win32-x64/-/cli-win32-x64-0.1.9.tgz",
             "hash": "9803e8deab1e5ad6877fc21679a07c562fda0d3b389c4839dfdaf0ea49ef549c"
         }
     },
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://registry.npmjs.org/@wecom/cli-win32-x64/-/cli-win32-x64-$version.tgz"
+                "url": "https://registry.npmmirror.com/@wecom/cli-win32-x64/-/cli-win32-x64-$version.tgz"
             }
         }
     }
