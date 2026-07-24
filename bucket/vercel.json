@@ -1,12 +1,12 @@
 {
-    "version": "56.5.0",
+    "version": "57.0.0",
     "description": "Native CLI for Vercel, a unified platform for building modern applications.",
     "homepage": "https://vercel.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vercel/vercel/releases/download/vercel%4056.5.0/vercel-windows-x64.exe#/vercel.exe",
-            "hash": "b86e69cdb22391ca3ca6bfdde88052580e29f37e111c985fef6ff31a086d3b62"
+            "url": "https://github.com/vercel/vercel/releases/download/vercel%4057.0.0/vercel-windows-x64.exe#/vercel.exe",
+            "hash": "29340a8ee6e9cd7a5b280b0a74582186e6fc9ec59f59924f8c454d165d050ab8"
         }
     },
     "bin": "vercel.exe",
