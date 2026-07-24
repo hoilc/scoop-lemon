@@ -1,0 +1,21 @@
+{
+    "version": "1.4.1",
+    "description": "A TUI budget tracker app built in Rust to track income and expenses and visualize insights from your transactions.",
+    "homepage": "https://github.com/Feromond/budget_tracker_tui",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v1.4.1/Budget_Tracker.exe",
+            "hash": "bbcf6dadf3dfe99a4ac4c1d28b35d512c9246d1e9e0251af70c2741c38eac665"
+        }
+    },
+    "bin": "Budget_Tracker.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v$version/Budget_Tracker.exe"
+            }
+        }
+    }
+}
