@@ -1,0 +1,31 @@
+{
+    "version": "26.0.3",
+    "description": "(LTS Version) A database that's engineered for modern software applications and event-driven architectures.",
+    "homepage": "https://www.kurrent.io/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/kurrent-io/KurrentDB/blob/master/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://packages.kurrent.io/public/kurrent-lts/nuget/kurrentdb/26.0.3/kurrentdb.26.0.3.nupkg#/dl.zip",
+            "hash": "1d6acdf6a510981a8df7cc4751b585fac59ff6bcbcbb42d7e78203205230c6bc",
+            "pre_install": "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike 'kurrentdb-*.zip' } | Remove-Item -Recurse"
+        }
+    },
+    "installer": {
+        "script": "Get-ChildItem \"$dir\" 'kurrentdb-*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal"
+    },
+    "bin": "KurrentDB.exe",
+    "checkver": {
+        "url": "https://nuget.eventstore.com/kurrent-lts/v3/search/query?q=kurrentdb",
+        "jsonpath": "$.data[0].version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://packages.kurrent.io/public/kurrent-lts/nuget/kurrentdb/$version/kurrentdb.$version.nupkg#/dl.zip"
+            }
+        }
+    }
+}
