@@ -1,0 +1,26 @@
+{
+    "version": "0.8.0.3",
+    "description": "A GUI frontend for lpac, the eSIM Local Profile Assistant.",
+    "homepage": "https://github.com/creamlike1024/EasyLPAC",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/0.8.0.3/EasyLPAC-windows-x86_64-with-lpac.zip",
+            "hash": "76357b922201fe7d14d5ac4409136d5ac08bc94cc0cd2820e93e98b0c4d0270f"
+        }
+    },
+    "shortcuts": [
+        [
+            "EasyLPAC.exe",
+            "EasyLPAC"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/$version/EasyLPAC-windows-x86_64-with-lpac.zip"
+            }
+        }
+    }
+}
