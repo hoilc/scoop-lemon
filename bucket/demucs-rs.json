@@ -1,0 +1,21 @@
+{
+    "version": "0.3.4",
+    "description": "A native Rust implementation of HTDemucs v4 for state-of-the-art music source separation, splitting songs into individual stems (drums, bass, vocals, etc.).",
+    "homepage": "https://github.com/nikhilunni/demucs-rs",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-x86_64-pc-windows-msvc.zip",
+            "hash": "67e77186295a00758df0b760f3345fd0b9081b328f923ecc35307f6190f472d1"
+        }
+    },
+    "bin": "demucs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v$version/demucs-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
