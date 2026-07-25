@@ -10,7 +10,10 @@
         }
     },
     "bin": "snarkos.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/ProvableHQ/snarkOS/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
