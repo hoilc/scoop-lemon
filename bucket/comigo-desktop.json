@@ -1,0 +1,34 @@
+{
+    "version": "1.3.3",
+    "description": "(Desktop Version) A simple and efficient comic reader.",
+    "homepage": "https://github.com/yumenaka/comigo",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.3/comigo-desktop_v1.3.3_Windows_x86_64.zip",
+            "hash": "fec6f907f9b32134f0c7a12905f3fa3491e11568dd3219b4309e57edb05409a8"
+        },
+        "arm64": {
+            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.3/comigo-desktop_v1.3.3_Windows_arm64.zip",
+            "hash": "3ce753dfe0873d0fe4624663240b973fdde8c2fd67e10f1eea417fd6294d6d13"
+        }
+    },
+    "shortcuts": [
+        [
+            "comigo-desktop.exe",
+            "ComiGo Desktop"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\comigo-desktop.exe\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yumenaka/comigo/releases/download/v$version/comigo-desktop_v$version_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/yumenaka/comigo/releases/download/v$version/comigo-desktop_v$version_Windows_arm64.zip"
+            }
+        }
+    }
+}
