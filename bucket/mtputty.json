@@ -1,9 +1,9 @@
 {
     "version": "1.8.5.261",
     "description": "MTPuTTY (Multi-Tabbed PuTTY) is a small utility enabling you to wrap unlimited number of PuTTY applications in one tabbed GUI interface.",
-    "homepage": "https://ttyplus.com/multi-tabbed-putty/",
+    "homepage": "https://web.archive.org/web/20260713132334/https://ttyplus.com/multi-tabbed-putty/",
     "license": "Freeware",
-    "url": "https://ttyplus.com/download/mtputty.exe",
+    "url": "https://scoop-lemon.tari.xyz/hosted/mtputty/mtputty_v1.8.5.261.exe#/mtputty.exe",
     "hash": "8abaab9eb197f196e3c4adcf9c3e3d62489b7fe9e29349abfd1d278c73df5e6d",
     "bin": "mtputty.exe",
     "shortcuts": [
@@ -26,12 +26,5 @@
             "putty",
             "kitty"
         ]
-    },
-    "checkver": {
-        "url": "https://ttyplus.com/multi-tabbed-putty/changelog/",
-        "regex": "Ver ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://ttyplus.com/download/mtputty.exe"
     }
 }
