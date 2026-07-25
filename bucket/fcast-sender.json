@@ -1,0 +1,30 @@
+{
+    "version": "0.0.3-beta",
+    "description": "Mirror your screen or system audio, videos, music or pictures to your external device running an FCast receiver.",
+    "homepage": "https://fcast.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.fcast.org/sender/desktop/win-x64/FCastSender-0.0.3-win64-installer.msi",
+            "hash": "9cc3e5a5cee2697d046989d7f33f1ce2e580a1cd3a7b8f7c26fe2e5b912a28aa"
+        }
+    },
+    "extract_dir": "PFiles64\\FCastSender",
+    "shortcuts": [
+        [
+            "fcast-sender.exe",
+            "FCast Sender"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/futo-org/fcast/releases.atom",
+        "regex": "Repository/\\d+/sender-(\\d.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.fcast.org/sender/desktop/win-x64/FCastSender-$matchHead-win64-installer.msi"
+            }
+        }
+    }
+}
