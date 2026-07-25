@@ -1,0 +1,21 @@
+{
+    "version": "0.4.0",
+    "description": "Clean up stale git branches safely.",
+    "homepage": "https://github.com/armgabrielyan/deadbranch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/armgabrielyan/deadbranch/releases/download/v0.4.0/deadbranch-0.4.0-x86_64-pc-windows-msvc.zip",
+            "hash": "bb77ea3b10cbe305bd4c0a6491ae412a04172c2b7958c73cb5e852769e978565"
+        }
+    },
+    "bin": "deadbranch.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/armgabrielyan/deadbranch/releases/download/v$version/deadbranch-$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
