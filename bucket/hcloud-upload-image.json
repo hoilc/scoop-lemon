@@ -1,0 +1,40 @@
+{
+    "version": "1.5.0",
+    "description": "A CLI to quickly upload raw disk images into Hetzner Cloud projects.",
+    "homepage": "https://apricote.github.io/hcloud-upload-image",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v1.5.0/hcloud-upload-image_Windows_x86_64.zip",
+            "hash": "03fb7ab8d80282124a7f5e7a06b914aae99b374810df87311b2066ec1c800636"
+        },
+        "32bit": {
+            "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v1.5.0/hcloud-upload-image_Windows_i386.zip",
+            "hash": "f1e8f48ea8c46945d9786af2f7afb1973dc58fae1ecc8dbb0f34c2d05689aa2b"
+        },
+        "arm64": {
+            "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v1.5.0/hcloud-upload-image_Windows_arm64.zip",
+            "hash": "c5cab5d24965d6112dffbc811a3f6954f2ba7c13916e207b4f1f836f308a913a"
+        }
+    },
+    "bin": "hcloud-upload-image.exe",
+    "checkver": {
+        "github": "https://github.com/apricote/hcloud-upload-image"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v$version/hcloud-upload-image_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v$version/hcloud-upload-image_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/apricote/hcloud-upload-image/releases/download/v$version/hcloud-upload-image_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/hcloud-upload-image_$version_checksums.txt"
+        }
+    }
+}
