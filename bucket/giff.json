@@ -1,0 +1,28 @@
+{
+    "version": "1.2.0",
+    "description": "A terminal UI for git diffs with interactive rebase support.",
+    "homepage": "https://github.com/bahdotsh/giff",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bahdotsh/giff/releases/download/v1.2.0/giff-x86_64-pc-windows-msvc.zip",
+            "hash": "1882bc598ab234863238a91e6d357934eec3a87c3d46faedadac78cf89d46c0a"
+        },
+        "arm64": {
+            "url": "https://github.com/bahdotsh/giff/releases/download/v1.2.0/giff-aarch64-pc-windows-msvc.zip",
+            "hash": "5d8c80d3e964d1f1747d5b2efe3c18477243043535ff10198cac4e1faee301e7"
+        }
+    },
+    "bin": "giff.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bahdotsh/giff/releases/download/v$version/giff-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/bahdotsh/giff/releases/download/v$version/giff-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
