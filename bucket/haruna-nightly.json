@@ -1,12 +1,12 @@
 {
-    "version": "1934",
+    "version": "1939",
     "description": "(Nightly Build) An open source media player built with Qt/QML and libmpv.",
     "homepage": "https://apps.kde.org/haruna/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/haruna/master/windows/haruna-master-1934-windows-gcc-x86_64.7z",
-            "hash": "e8c2033218b5b9f5c3ec7116b2f548a1b9bee7c0a36cf7b6b9cb3f0b10f8082d"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/haruna/master/windows/haruna-master-1939-windows-gcc-x86_64.7z",
+            "hash": "6969d95573535744123b600347d9df3e96fc5194b203257ce06a07a7dad8d772"
         }
     },
     "bin": "bin\\haruna.exe",
