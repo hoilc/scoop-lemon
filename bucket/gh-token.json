@@ -1,0 +1,35 @@
+{
+    "version": "2.0.10",
+    "description": "A CLI to manage installation access tokens for GitHub Apps from your terminal.",
+    "homepage": "https://github.com/Link-/gh-token",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Link-/gh-token/releases/download/v2.0.10/windows-amd64.exe#/gh-token.exe",
+            "hash": "b471559d2dc141a06f71fd71cb37e6282cecdfa3757c3ca29404db1c02adc909"
+        },
+        "32bit": {
+            "url": "https://github.com/Link-/gh-token/releases/download/v2.0.10/windows-386.exe#/gh-token.exe",
+            "hash": "9647c48121c4ebe0c5982819ff6a36907a68f5579b896e49d3b58c6387ee8db2"
+        },
+        "arm64": {
+            "url": "https://github.com/Link-/gh-token/releases/download/v2.0.10/windows-arm64.exe#/gh-token.exe",
+            "hash": "b707086123fbd1bb469fc79cf09b3390cf23a023932a8e2f13c804457f5063b3"
+        }
+    },
+    "bin": "gh-token.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Link-/gh-token/releases/download/v$version/windows-amd64.exe#/gh-token.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Link-/gh-token/releases/download/v$version/windows-386.exe#/gh-token.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Link-/gh-token/releases/download/v$version/windows-arm64.exe#/gh-token.exe"
+            }
+        }
+    }
+}
