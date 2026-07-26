@@ -1,0 +1,21 @@
+{
+    "version": "0.3",
+    "description": "A blazingly fast, multi-threaded TUI malware analysis tool built in Rust with deep PE parsing, YARA scanning, and heuristic risk scoring.",
+    "homepage": "https://github.com/Rhacknarok/hacksguard",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Rhacknarok/hacksguard/releases/download/0.3/x86_64-pc-windows-gnu-hacksguard.exe#/hacksguard.exe",
+            "hash": "b0ab26744c8bb25f10ef36be8107b42c93cb12e87a3cb272a2fe28b1e51c582d"
+        }
+    },
+    "bin": "hacksguard.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Rhacknarok/hacksguard/releases/download/$version/x86_64-pc-windows-gnu-hacksguard.exe#/hacksguard.exe"
+            }
+        }
+    }
+}
