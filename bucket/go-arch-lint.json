@@ -1,0 +1,38 @@
+{
+    "version": "1.16.0",
+    "description": "A Go architecture linter that enforces project structure and validates top-level architecture layers against rules defined in a YAML file.",
+    "homepage": "https://github.com/fe3dback/go-arch-lint",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_windows_amd64.zip",
+            "hash": "47a7781884ba3120087cdf3e1d37fec09aa16e923b8740bab115329697d2c1b9"
+        },
+        "32bit": {
+            "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_windows_386.zip",
+            "hash": "1cff269009a40175218d457a7dcbdb22ef8710d30210d3b568138da91b0d36ff"
+        },
+        "arm64": {
+            "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v1.16.0/go-arch-lint_1.16.0_windows_arm64.zip",
+            "hash": "75b4abe9da2c7e9e67eb676ff7b73ef38f27acfb531913c630304b5296af98cb"
+        }
+    },
+    "bin": "go-arch-lint.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v$version/go-arch-lint_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v$version/go-arch-lint_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/fe3dback/go-arch-lint/releases/download/v$version/go-arch-lint_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
