@@ -1,0 +1,21 @@
+{
+    "version": "2.4.5",
+    "description": "一个下载飞书文档为 Markdown 文件的工具，使用 Go 语言实现",
+    "homepage": "https://github.com/Wsine/feishu2md",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Wsine/feishu2md/releases/download/v2.4.5/feishu2md-v2.4.5-windows-amd64.zip",
+            "hash": "3f200ac8af42b1191cb092de79de0289edc3259d77b656dedc4ef421c36f441d"
+        }
+    },
+    "bin": "feishu2md.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Wsine/feishu2md/releases/download/v$version/feishu2md-v$version-windows-amd64.zip"
+            }
+        }
+    }
+}
