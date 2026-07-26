@@ -1,0 +1,36 @@
+{
+    "version": "0.5.1",
+    "description": "A CLI tool that analyzes GitHub enterprises, organizations, and repositories to ensure compliance with GitHub best practices and security recommendations.",
+    "homepage": "https://microsoft.github.io/ghqr/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/ghqr/releases/download/v.0.5.1/ghqr-win-amd64.zip",
+            "hash": "f008ff9967425887b71e2504f1b6e7f6cd9407d265dff486cf42607f68fc82e5",
+            "extract_dir": "bin\\windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/microsoft/ghqr/releases/download/v.0.5.1/ghqr-win-arm64.zip",
+            "hash": "b2baa6b718cf7234b53b750da8b8084b1cb18781aa3fbdf332313c22ebf790e9",
+            "extract_dir": "bin\\windows_arm64"
+        }
+    },
+    "bin": "ghqr.exe",
+    "checkver": {
+        "url": "https://github.com/microsoft/ghqr/releases.atom",
+        "regex": "Repository/\\d+/v\\.([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/ghqr/releases/download/v.$version/ghqr-win-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/microsoft/ghqr/releases/download/v.$version/ghqr-win-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
