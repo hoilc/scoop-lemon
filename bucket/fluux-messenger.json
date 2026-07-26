@@ -1,0 +1,32 @@
+{
+    "version": "0.17.2",
+    "description": "A fast, modern, cross-platform XMPP client for communities and organizations.",
+    "homepage": "https://github.com/processone/fluux-messenger",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/processone/fluux-messenger/releases/download/v0.17.2/Fluux-Messenger_0.17.2_Windows_x64-setup.exe#/dl.7z",
+            "hash": "869f7595e6d9d4839bbd003e1921e0e6d28e1430aae0d953eff28554edd3a2d6"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "fluux.exe",
+            "Fluux Messenger"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\com.processone.fluux\", \"$env:LOCALAPPDATA\\com.processone.fluux\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": [
+        "Fluux Messenger is NOT portable.",
+        "Settings are stored in '%APPDATA%\\com.processone.fluux', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/processone/fluux-messenger/releases/download/v$version/Fluux-Messenger_$version_Windows_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
