@@ -1,16 +1,16 @@
 {
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "A configurable, fast, and thorough secrets scanner.",
     "homepage": "https://betterleaks.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/betterleaks/betterleaks/releases/download/v1.7.0/betterleaks_1.7.0_windows_x64.zip",
-            "hash": "e8cdd774fc3bdf221dc5abd07dc7fe317fc4847f9d8f2cfca47e93d99d410b4e"
+            "url": "https://github.com/betterleaks/betterleaks/releases/download/v1.7.1/betterleaks_1.7.1_windows_x64.zip",
+            "hash": "41696e5f4a2d3b01a4ba028512f061e6731588fb14de6529c2c2fefe8927a13e"
         },
         "arm64": {
-            "url": "https://github.com/betterleaks/betterleaks/releases/download/v1.7.0/betterleaks_1.7.0_windows_arm64.zip",
-            "hash": "9c19c55011c2b7876821bccc95f3de89082ca02e21c4e49120dd8f58b399a531"
+            "url": "https://github.com/betterleaks/betterleaks/releases/download/v1.7.1/betterleaks_1.7.1_windows_arm64.zip",
+            "hash": "f35b5231a34e317c2ba9abf09b8e443f29bd7b6219a1f73c8178d3cc068c0411"
         }
     },
     "bin": "betterleaks.exe",
