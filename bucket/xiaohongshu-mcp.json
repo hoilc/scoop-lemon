@@ -1,19 +1,25 @@
 {
-    "version": "2026.07.26.1327-b8412a2",
+    "version": "2.1.1",
     "description": "MCP for 小红书 / xiaohongshu.com",
     "homepage": "https://github.com/xpzouying/xiaohongshu-mcp",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2026.07.26.1327-b8412a2/xiaohongshu-mcp-windows-amd64.zip",
-            "pre_install": "Get-ChildItem \"$dir\" '*-windows-amd64.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64') }",
-            "hash": "a00c5dd2bb0a50928c2043a3db499193e137790a9b3b35e1d400cb8e67cbb35c"
+            "url": [
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.1.1/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.1.1/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
+            ],
+            "hash": [
+                "884396ec85fb304e97db7da689099c075c7b5366254d1e97a578242b70399623",
+                "59ee1c3fe8d355a50c516a83d3cbfdfad91cd70290d3858bbf3c11720dc33e5a"
+            ]
         }
     },
     "bin": [
         "xiaohongshu-mcp.exe",
         "xiaohongshu-login.exe"
     ],
+    "notes": "首次运行时会自动下载无头浏览器（约 150MB），请确保网络连接正常",
     "checkver": {
         "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases.atom",
         "regex": "Repository/\\d+/[vV]?(.+?)<"
@@ -21,7 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v$version/xiaohongshu-mcp-windows-amd64.zip"
+                "url": [
+                    "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v$version/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
+                    "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v$version/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
+                ]
             }
         }
     }
