@@ -1,27 +1,27 @@
 {
-    "version": "2026.2.0",
+    "version": "2026.2.1",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileapp-v2026.2.0-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileappGUI-v2026.2.0-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileapp-v2026.2.1-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileappGUI-v2026.2.1-Windows_x86_64.zip"
             ],
             "hash": [
-                "a65e8a73da04b59c7697157ce5ccc4bdc4ac675ee0a7c05dd1fe75a157a9d0c4",
-                "f63749aef80b174dc98f857240630629533327ad6277b51b0fdb7a0a9a596d67"
+                "19fd8ccc5eb1180f57b915ca6f1cfa8154c13995b0c139ce1bcae38bef0c02f3",
+                "69acf9828275dc155e4b3e8b89b764b8143f37e430833e4f5c5f97522fb7ba3f"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileapp-v2026.2.0-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.0/ileappGUI-v2026.2.0-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileapp-v2026.2.1-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileappGUI-v2026.2.1-Windows_arm64.zip"
             ],
             "hash": [
-                "5c300fbaa1197d98d42446fc8e96d9a6b07c71319e31ff7b7b674da69d01c85a",
-                "0efb9e559a84aa1ac5fa38f94879bbf08cc968dc2d73cedea304eca932c9f82b"
+                "f28b6ec1c7ca886a091b73e233eeebf47378549cd1189b372a4d933726a64294",
+                "70060b3abbbcde3377c207975d8963ad981e350d318e2adc4d2e8bed994717c8"
             ]
         }
     },
