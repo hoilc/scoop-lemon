@@ -1,20 +1,20 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "An integration plugin designed to connect Gitea with Model Context Protocol (MCP) systems.",
     "homepage": "https://gitea.com/gitea/gitea-mcp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.4.0/gitea-mcp_Windows_x86_64.zip",
-            "hash": "f208251d7ffbac1018cfdebeb6e6497dde041de80c5be5900f748f50cde889e1"
+            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.5.0/gitea-mcp_Windows_x86_64.zip",
+            "hash": "668cc1546f1e4e291e4695f65100a4b76d3570f7510a13217125d0f6cdc6073c"
         },
         "32bit": {
-            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.4.0/gitea-mcp_Windows_i386.zip",
-            "hash": "71401708618d25bf570c3cf29da3b9a48fa45d7d57877af9e81107acaea709ce"
+            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.5.0/gitea-mcp_Windows_i386.zip",
+            "hash": "c8cf4474dd8a45a81245046676a54e324cf6799d4422a32ec378b17a5a479078"
         },
         "arm64": {
-            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.4.0/gitea-mcp_Windows_arm64.zip",
-            "hash": "b733094eec4a188b384ae952c19ab9d209279b84ba777f1f3575d52c7ad0f988"
+            "url": "https://gitea.com/gitea/gitea-mcp/releases/download/v1.5.0/gitea-mcp_Windows_arm64.zip",
+            "hash": "0db2383b0ab7803d83ec14bb32b9b8530f6614a35770f356e9e0b355138d28b4"
         }
     },
     "bin": "gitea-mcp.exe",
