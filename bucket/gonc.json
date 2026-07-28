@@ -1,16 +1,16 @@
 {
-    "version": "2.6.8",
+    "version": "2.6.9",
     "description": "Netcat with automated NAT traversal, secure P2P, and advanced features for shell access, file transfer, and network proxying.",
     "homepage": "https://github.com/threatexpert/gonc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/threatexpert/gonc/releases/download/v2.6.8/gonc_windows_amd64.exe#/gonc.exe",
-            "hash": "33cb144be6d27992557bc87cd39d9f70d70f8dd3ff46d28b17027ba0b7516211"
+            "url": "https://github.com/threatexpert/gonc/releases/download/v2.6.9/gonc_windows_amd64.exe#/gonc.exe",
+            "hash": "a836238b19cc072909c325738cab7d6fae6745a1ede135dbee1be22a173a9b8c"
         },
         "arm64": {
-            "url": "https://github.com/threatexpert/gonc/releases/download/v2.6.8/gonc_windows_arm64.exe#/gonc.exe",
-            "hash": "216a82d366f08af59b9e349ea00c0628b0fcb3375861a6eae870b5b85af85155"
+            "url": "https://github.com/threatexpert/gonc/releases/download/v2.6.9/gonc_windows_arm64.exe#/gonc.exe",
+            "hash": "fcc3e1991835d78ed800696ef3be159a88df547cd73c3a2cbad510bc96d9f669"
         }
     },
     "bin": "gonc.exe",
