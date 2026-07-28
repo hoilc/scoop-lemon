@@ -1,0 +1,30 @@
+{
+    "version": "0.13.1",
+    "description": "A bare-bones graphical editor for Typst files, with a strong bias for Right-to-Left editing.",
+    "homepage": "https://katvan.app",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/IgKh/katvan/releases/download/v0.13.1/katvan-0.13.1-windows-x64-portable.zip",
+            "hash": "49125a8f3b11888f36a79c233f653503eb8ed0d64dc19be7c9d7b6701e985eae"
+        }
+    },
+    "extract_dir": "Katvan",
+    "shortcuts": [
+        [
+            "katvan.exe",
+            "Katvan"
+        ]
+    ],
+    "persist": "Katvan",
+    "checkver": {
+        "github": "https://github.com/IgKh/katvan"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/IgKh/katvan/releases/download/v$version/katvan-$version-windows-x64-portable.zip"
+            }
+        }
+    }
+}
