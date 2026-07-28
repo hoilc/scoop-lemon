@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://dln1.ncdn.ec/general-files/soft/desktop/Z-Library-portable-latest.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "e3660eb38f2624d95392a06e0695e9cdb804c2578daaf8ab6e4cff0790d2c2ea"
+            "hash": "351a0fd80773c1d66626ab6ee19bfa5965acc65015483a7dfc517023e31dc93b"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
