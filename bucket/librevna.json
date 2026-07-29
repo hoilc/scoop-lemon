@@ -1,0 +1,27 @@
+{
+    "version": "1.6.5",
+    "description": "A 100kHz to 6GHz 2-port USB based Vector Network Analyzer application.",
+    "homepage": "https://github.com/jankae/LibreVNA",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jankae/LibreVNA/releases/download/v1.6.5/LibreVNA-GUI_Windows-v1.6.5.zip",
+            "hash": "af9d83d7c590a9c934f53c97bfe3561fe10d82ca990363f5b47a5b22d2d549d2"
+        }
+    },
+    "extract_dir": "release",
+    "shortcuts": [
+        [
+            "LibreVNA-GUI.exe",
+            "LibreVNA"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jankae/LibreVNA/releases/download/v$version/LibreVNA-GUI_Windows-v$version.zip"
+            }
+        }
+    }
+}
