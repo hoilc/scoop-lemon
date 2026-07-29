@@ -1,0 +1,33 @@
+{
+    "version": "0.3.4",
+    "description": "A modern CLI to discover, group, and control Sonos speakers over your local network.",
+    "homepage": "https://sonoscli.sh",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/steipete/sonoscli/releases/download/v0.3.4/sonoscli_0.3.4_windows_amd64.zip",
+            "hash": "3c4685fe7cf766638436b05c860924e89c74387c741fdcbd02d9b7c2b2cf820a"
+        },
+        "arm64": {
+            "url": "https://github.com/steipete/sonoscli/releases/download/v0.3.4/sonoscli_0.3.4_windows_arm64.zip",
+            "hash": "308cf8f9e1a415abca78723cc8bc3ed45622a398809d10f07416dd652e4a7191"
+        }
+    },
+    "bin": "sonos.exe",
+    "checkver": {
+        "github": "https://github.com/steipete/sonoscli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/steipete/sonoscli/releases/download/v$version/sonoscli_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/steipete/sonoscli/releases/download/v$version/sonoscli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
