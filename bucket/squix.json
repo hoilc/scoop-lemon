@@ -1,0 +1,27 @@
+{
+    "version": "0.5.2-beta",
+    "description": "A CLI tool for managing and executing SQL queries across multiple databases.",
+    "homepage": "https://github.com/eduardofuncao/squix",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/eduardofuncao/squix/releases/download/v0.5.2-beta/squix-windows-amd64.exe#/squix.exe",
+            "hash": "4772eb028038f8fccba55b62ab0e9367635c445a48f2115c5776584ce6dc75f1"
+        }
+    },
+    "bin": "squix.exe",
+    "checkver": {
+        "url": "https://github.com/eduardofuncao/squix/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/eduardofuncao/squix/releases/download/v$version/squix-windows-amd64.exe#/squix.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
