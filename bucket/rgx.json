@@ -1,0 +1,24 @@
+{
+    "version": "0.14.2",
+    "description": "A regex debugger for the terminal with step-through execution, ReDoS analysis, 3 engines, code generation, and live stream filtering.",
+    "homepage": "https://github.com/brevity1swos/rgx",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/brevity1swos/rgx/releases/download/v0.14.2/rgx-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "0de8497a22c4d992649364312a975e1043a998f76e2201d0e086dabe580e21b8"
+        }
+    },
+    "bin": "rgx.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/brevity1swos/rgx/releases/download/v$version/rgx-cli-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
