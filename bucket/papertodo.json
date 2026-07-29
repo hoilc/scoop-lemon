@@ -1,0 +1,29 @@
+{
+    "version": "3.1",
+    "description": "A minimalist Windows desktop sticky note tool. | 极简 Windows 桌面便签工具",
+    "homepage": "https://github.com/snownico0722/PaperTodo",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/snownico0722/PaperTodo/releases/download/v3.1/PaperTodo-v3.1-win-x64-self-contained.exe#/PaperTodo.exe",
+            "hash": "7e1aed5c2155029c59b34df092bfa074149e5472817d509a7ae8a01da2a2b25f"
+        }
+    },
+    "shortcuts": [
+        [
+            "PaperTodo.exe",
+            "PaperTodo"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.json', '*.lmdb' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.json', '*.lmdb' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/snownico0722/PaperTodo/releases/download/v$version/PaperTodo-v$version-win-x64-self-contained.exe#/PaperTodo.exe"
+            }
+        }
+    }
+}
