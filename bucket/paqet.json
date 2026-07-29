@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0-alpha.20",
+    "description": "A bidirectional packet-level proxy built with raw sockets using KCP for secure, reliable transport.",
+    "homepage": "https://github.com/hanselime/paqet",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hanselime/paqet/releases/download/v1.0.0-alpha.20/paqet-windows-amd64-v1.0.0-alpha.20.zip",
+            "hash": "2a59fec9d486d0d910f423cd33701adfc9de7ab9642565da7e05639ba9c18780"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'paqet?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'paqet.exe'",
+    "bin": "paqet.exe",
+    "notes": "This application requires Npcap to function. Download Npcap here, https://npcap.com/#download",
+    "checkver": {
+        "url": "https://github.com/hanselime/paqet/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hanselime/paqet/releases/download/v$version/paqet-windows-amd64-v$version.zip"
+            }
+        }
+    }
+}
