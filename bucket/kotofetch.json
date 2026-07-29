@@ -1,0 +1,21 @@
+{
+    "version": "0.2.22",
+    "description": "A small, configurable CLI tool that displays Japanese quotes in the terminal.",
+    "homepage": "https://github.com/hxpe-dev/kotofetch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hxpe-dev/kotofetch/releases/download/v0.2.22/kotofetch.exe",
+            "hash": "8d4a7a88daaf3b0eb4c2d927d2aae664a706a612fb513741a0cb88555681a403"
+        }
+    },
+    "bin": "kotofetch.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hxpe-dev/kotofetch/releases/download/v$version/kotofetch.exe"
+            }
+        }
+    }
+}
