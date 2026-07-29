@@ -1,0 +1,26 @@
+{
+    "version": "0.2.6",
+    "description": "A terminal-based LDAP server explorer for browsing directory trees, viewing records, and executing custom queries.",
+    "homepage": "https://ericschmar.github.io/moribito",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ericschmar/moribito/releases/download/v0.2.6/moribito_Windows_x86_64.zip",
+            "hash": "459dd6446f41390c6b46981ab06599f801040a595d9486ad8e3cdc7c6cbe78a5"
+        }
+    },
+    "bin": "moribito.exe",
+    "checkver": {
+        "github": "https://github.com/ericschmar/moribito"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ericschmar/moribito/releases/download/v$version/moribito_Windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
