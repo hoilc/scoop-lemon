@@ -1,0 +1,21 @@
+{
+    "version": "0.9.29",
+    "description": "A terminal markdown viewer and editor with image support, focused on fast navigation and clear rendering for long documents.",
+    "homepage": "https://github.com/jvanderberg/markless",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jvanderberg/markless/releases/download/v0.9.29/markless-x86_64-pc-windows-msvc.zip",
+            "hash": "bbcaa055ace745627c33eea85d656de396a638100c46e30e906904770b29248d"
+        }
+    },
+    "bin": "markless.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jvanderberg/markless/releases/download/v$version/markless-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
