@@ -1,0 +1,40 @@
+{
+    "version": "1.10.0.318",
+    "description": "A cross-platform MQTT client for MQTT debugging and message inspection based on the MQTTnet library.",
+    "homepage": "https://github.com/chkr1011/mqttMultimeter",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v1.10.0.318/mqttMultimeter-windows-x64.zip",
+            "hash": "01bef003ea259070812f1f216a02318a473bc275abcf799eeb40c406e9d0f17a"
+        },
+        "32bit": {
+            "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v1.10.0.318/mqttMultimeter-windows-x86.zip",
+            "hash": "4666a9365d0aa09ac2f5e0f62cdcafdb2b2de784ee39950780ccf5ac9c9b4643"
+        },
+        "arm64": {
+            "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v1.10.0.318/mqttMultimeter-windows-arm64.zip",
+            "hash": "27a9bbbccde79c5756706ed52b7c7a3b0539021c340b4137a9d4bd1320928ea8"
+        }
+    },
+    "shortcuts": [
+        [
+            "mqttMultimeter.exe",
+            "mqttMultimeter"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v$version/mqttMultimeter-windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v$version/mqttMultimeter-windows-x86.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/chkr1011/mqttMultimeter/releases/download/v$version/mqttMultimeter-windows-arm64.zip"
+            }
+        }
+    }
+}
