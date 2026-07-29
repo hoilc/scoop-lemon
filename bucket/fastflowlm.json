@@ -10,6 +10,7 @@
         }
     },
     "bin": "flm.exe",
+    "pre_install": "Get-ChildItem \"$dir\" \"fastflowlm-windows-*\" -Directory | Get-ChildItem | Move-Item -Destination \"$dir\\\"",
     "checkver": {
         "github": "https://github.com/FastFlowLM/FastFlowLM"
     },
