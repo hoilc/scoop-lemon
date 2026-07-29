@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "description": "A terminal-based Markdown viewer written in Rust with syntax highlighting, styled formatting, and interactive navigation.",
+    "homepage": "https://github.com/bahdotsh/mdterm",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bahdotsh/mdterm/releases/download/v2.0.0/mdterm-x86_64-pc-windows-msvc.zip",
+            "hash": "b3e90f0c7ad589c399991d54027a89a15e8e3e560e93d7254c0b75280a690836"
+        },
+        "arm64": {
+            "url": "https://github.com/bahdotsh/mdterm/releases/download/v2.0.0/mdterm-aarch64-pc-windows-msvc.zip",
+            "hash": "63e7340902b05f19b69c578751988bdf7a549a684dea9ac7d25f8da55e465654"
+        }
+    },
+    "bin": "mdterm.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bahdotsh/mdterm/releases/download/v$version/mdterm-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/bahdotsh/mdterm/releases/download/v$version/mdterm-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
