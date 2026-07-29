@@ -1,0 +1,31 @@
+{
+    "version": "2026-06-18T00-00-00Z",
+    "description": "A conservatively maintained MinIO fork.",
+    "homepage": "https://silo.pigsty.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-06-18T00-00-00Z/minio_20260618000000.0.0_windows_amd64.tar.gz",
+            "hash": "50963bd9a1880f0f92a1e32523161ea4c35678f8c02aa4a1c20b49186ae9e516"
+        },
+        "arm64": {
+            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-06-18T00-00-00Z/minio_20260618000000.0.0_windows_arm64.tar.gz",
+            "hash": "f661a7a88600dc084ab9eb187d89ec75ec98e0a90f078a5161a8aefea6468675"
+        }
+    },
+    "bin": "minio.exe",
+    "checkver": {
+        "url": "https://github.com/pgsty/minio/releases.atom",
+        "regex": "Repository/\\d+/RELEASE\\.((?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T(?<hour>\\d{2})-(?<minute>\\d{2})-(?<second>\\d{2})Z)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pgsty/minio/releases/download/RELEASE.$version/minio_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/pgsty/minio/releases/download/RELEASE.$version/minio_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
+            }
+        }
+    }
+}
