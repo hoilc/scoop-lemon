@@ -1,0 +1,31 @@
+{
+    "version": "1.4.0",
+    "description": "A simple tool to generate self-signed certificates with SAN DNS and IP entries.",
+    "homepage": "https://github.com/minio/certgen",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/minio/certgen/releases/download/v1.4.0/certgen-windows-amd64.exe#/certgen.exe",
+            "hash": "58fa7d85a634cb433063c8e4101c904600ef22d61b8acd95422558cb491889fa"
+        },
+        "arm64": {
+            "url": "https://github.com/minio/certgen/releases/download/v1.4.0/certgen-windows-arm64.exe#/certgen.exe",
+            "hash": "fdf76c147c5d9bc0beac9dd72b9cf27b208d277deb95a82c2776cf7fdd63d046"
+        }
+    },
+    "bin": "certgen.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/minio/certgen/releases/download/v$version/certgen-windows-amd64.exe#/certgen.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/minio/certgen/releases/download/v$version/certgen-windows-arm64.exe#/certgen.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/certgen_$version_checksums.txt"
+        }
+    }
+}
