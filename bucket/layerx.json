@@ -1,0 +1,31 @@
+{
+    "version": "1.6.0",
+    "description": "An open-source terminal tool for inspecting, comparing, and CI-gating Docker, Podman, and OCI container images.",
+    "homepage": "https://github.com/deveshctl/layerx",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/deveshctl/layerx/releases/download/v1.6.0/layerx_windows_amd64.zip",
+            "hash": "87717d71acb03ba18e768ee291b59f3f865a56d320f59b7d7cd5dc010a935a3c"
+        },
+        "arm64": {
+            "url": "https://github.com/deveshctl/layerx/releases/download/v1.6.0/layerx_windows_arm64.zip",
+            "hash": "d4de725c05c9baee1be9dca8a85046e5c169f0b465a85ce1f18eee02089bd7c3"
+        }
+    },
+    "bin": "layerx.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/deveshctl/layerx/releases/download/v$version/layerx_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/deveshctl/layerx/releases/download/v$version/layerx_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
