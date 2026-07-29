@@ -1,0 +1,35 @@
+{
+    "version": "0.0.10",
+    "description": "A simple TUI for serving local LLM models with pluggable backends.",
+    "homepage": "https://github.com/AlexsJones/llmserve",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AlexsJones/llmserve/releases/download/v0.0.10/llmserve-v0.0.10-x86_64-pc-windows-msvc.zip",
+            "hash": "7fa2ba72670df5d30c2fad9061c53ae920f5148f0c27f53f7bcdcbf9e71cc4af",
+            "extract_dir": "llmserve-v0.0.10-x86_64-pc-windows-msvc"
+        },
+        "arm64": {
+            "url": "https://github.com/AlexsJones/llmserve/releases/download/v0.0.10/llmserve-v0.0.10-aarch64-pc-windows-msvc.zip",
+            "hash": "b0963ac9d2ee4149d45f84a59c8a0fb150756f361b85803ddedaa940f6237851",
+            "extract_dir": "llmserve-v0.0.10-aarch64-pc-windows-msvc"
+        }
+    },
+    "bin": "llmserve.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AlexsJones/llmserve/releases/download/v$version/llmserve-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "llmserve-v$version-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/AlexsJones/llmserve/releases/download/v$version/llmserve-v$version-aarch64-pc-windows-msvc.zip",
+                "extract_dir": "llmserve-v$version-aarch64-pc-windows-msvc"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
