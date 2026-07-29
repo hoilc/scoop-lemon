@@ -15,8 +15,8 @@
             "PaperTodo"
         ]
     ],
-    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
-    "pre_uninstall": "Get-ChildItem \"$dir\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.json', '*.lmdb' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.json', '*.lmdb' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
     "persist": "backup",
     "checkver": "github",
     "autoupdate": {
