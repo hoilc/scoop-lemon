@@ -1,0 +1,31 @@
+{
+    "version": "1.2.0",
+    "description": "A local-first MCP server providing AI agents with comprehensive access to Microsoft Fabric's public APIs, item definitions, and best practices.",
+    "homepage": "https://github.com/microsoft/mcp/blob/main/servers/Fabric.Mcp.Server/README.md",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/mcp/releases/download/Fabric.Mcp.Server-1.2.0/Fabric.Mcp.Server-win-x64.zip",
+            "hash": "af182751f4f2dfdc88be6d726d393a19a302163b40a9284ee1eee1e17eb3dfee"
+        },
+        "arm64": {
+            "url": "https://github.com/microsoft/mcp/releases/download/Fabric.Mcp.Server-1.2.0/Fabric.Mcp.Server-win-arm64.zip",
+            "hash": "e8e5c0945a608819ca03321f38436d537417faf9993e456f6bdbeb16ccabafc6"
+        }
+    },
+    "bin": "fabmcp.exe",
+    "checkver": {
+        "url": "https://github.com/microsoft/mcp/releases.atom",
+        "regex": "Repository/\\d+/Fabric\\.Mcp\\.Server-(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/mcp/releases/download/Fabric.Mcp.Server-$version/Fabric.Mcp.Server-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/microsoft/mcp/releases/download/Fabric.Mcp.Server-$version/Fabric.Mcp.Server-win-arm64.zip"
+            }
+        }
+    }
+}
