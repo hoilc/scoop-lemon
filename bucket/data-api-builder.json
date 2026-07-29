@@ -1,0 +1,29 @@
+{
+    "version": "2.0.9",
+    "description": "Data API builder (DAB) is an open-source, no-code tool that creates secure, full-featured REST and GraphQL endpoints for your database.",
+    "homepage": "https://aka.ms/dab/docs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Azure/data-api-builder/releases/download/v2.0.9/dab_net8.0_win-x64-2.0.9.zip",
+            "hash": "b9f4778c991099322fd4ee6da5802d1fa750498310ba4dd224a57fca7412706f"
+        }
+    },
+    "bin": [
+        [
+            "Microsoft.DataApiBuilder.exe",
+            "dab"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Azure/data-api-builder/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Azure/data-api-builder/releases/download/v$version/dab_net8.0_win-x64-$version.zip"
+            }
+        }
+    }
+}
