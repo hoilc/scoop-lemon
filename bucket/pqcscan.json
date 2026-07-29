@@ -1,0 +1,23 @@
+{
+    "version": "0.8.0",
+    "description": "A post-quantum cryptography scanner for SSH/TLS servers.",
+    "homepage": "https://github.com/anvilsecure/pqcscan",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/anvilsecure/pqcscan/releases/download/0.8.0/pqcscan-0.8.0-x86_64-pc-windows-gnu.zip",
+            "hash": "c09ea0d0387b834a5c2a66b145aa4244279f04439788a3a8959f955b605a15b9",
+            "extract_dir": "pqcscan-0.8.0-x86_64-pc-windows-gnu"
+        }
+    },
+    "bin": "pqcscan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/anvilsecure/pqcscan/releases/download/$version/pqcscan-$version-x86_64-pc-windows-gnu.zip",
+                "extract_dir": "pqcscan-$version-x86_64-pc-windows-gnu"
+            }
+        }
+    }
+}
