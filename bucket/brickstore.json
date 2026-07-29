@@ -1,16 +1,16 @@
 {
-    "version": "2026.3.2",
+    "version": "2026.7.1",
     "description": "An offline BrickLink inventory management tool.",
     "homepage": "https://www.brickstore.dev/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.3.2/Windows-x64-BrickStore-2026.3.2.exe",
-            "hash": "4cf6a2b7d4885e49c83d6f87304b038d34662f633bebf99c4791c93b4a3aacb0"
+            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.7.1/Windows-x64-BrickStore-2026.7.1.exe",
+            "hash": "2243ecb2e2a92fc78006b30a07eaa95f08e11d33e3c1e6cf6720e84b09c412e8"
         },
         "arm64": {
-            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.3.2/Windows-ARM64-BrickStore-2026.3.2.exe",
-            "hash": "455351af701a53ca038a881d8dcab8cd03373aabfaf775dc06364944c9493db1"
+            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.7.1/Windows-ARM64-BrickStore-2026.7.1.exe",
+            "hash": "e43ffbe7561ac56be0df94b7c84124e42390e2f919758c0baa3d25622193e9b5"
         }
     },
     "shortcuts": [
