@@ -1,0 +1,24 @@
+{
+    "version": "0.1.11",
+    "description": "A Talos TUI for real-time node monitoring, log streaming, etcd health, and diagnostics.",
+    "homepage": "https://github.com/Handfish/talos-pilot",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Handfish/talos-pilot/releases/download/v0.1.11/talos-pilot-x86_64-pc-windows-msvc.zip",
+            "hash": "42c69b89f3d5ab529921cffdaa6764f77fd5762e432e2ff2e7926caa5f513bae"
+        }
+    },
+    "bin": "talos-pilot.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Handfish/talos-pilot/releases/download/v$version/talos-pilot-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256.sum"
+        }
+    }
+}
