@@ -1,0 +1,24 @@
+{
+    "version": "1.0.2",
+    "description": "A multi-platform CI/CD vulnerability detection and attack automation tool for identifying security weaknesses in pipeline configurations.",
+    "homepage": "https://github.com/praetorian-inc/trajan",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/praetorian-inc/trajan/releases/download/v1.0.2/trajan_1.0.2_windows_amd64.zip",
+            "hash": "c75bb3326f6654d6f452543d35021422c32114624473757a545738a0a103715b"
+        }
+    },
+    "bin": "trajan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/praetorian-inc/trajan/releases/download/v$version/trajan_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
