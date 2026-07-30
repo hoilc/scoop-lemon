@@ -1,0 +1,26 @@
+{
+    "version": "1.2.1",
+    "description": "A TUI for managing containers, images, volumes, networks, and logs.",
+    "homepage": "https://cruise-org.github.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cruise-org/cruise/releases/download/v1.2.1/cruise_Windows_x86_64.zip",
+            "hash": "33f5ae0d677e3783d429a491dd3426177453c70f85da9d64f388de3ec9da4773"
+        }
+    },
+    "bin": "cruise.exe",
+    "checkver": {
+        "github": "https://github.com/cruise-org/cruise"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cruise-org/cruise/releases/download/v$version/cruise_Windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/cruise_$version_checksums.txt"
+        }
+    }
+}
