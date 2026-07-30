@@ -1,0 +1,24 @@
+{
+    "version": "2.1.0",
+    "description": "A terminal-based Excel and CSV viewer and editor.",
+    "homepage": "https://github.com/CodeOne45/vex-tui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/CodeOne45/vex-tui/releases/download/v2.1.0/vex-tui_2.1.0_windows_amd64.zip",
+            "hash": "29c637d6e1aecd73d3c5b150dbbab1fd8cce681e2a12d4fe521cc6a2fb1b3a29"
+        }
+    },
+    "bin": "vex.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/CodeOne45/vex-tui/releases/download/v$version/vex-tui_$version_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
