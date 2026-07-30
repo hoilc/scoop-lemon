@@ -20,11 +20,12 @@
     "persist": [
         "History",
         "Data",
-        "Config"
+        "Config",
+        "OcrModel"
     ],
     "checkver": {
-        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=1&sys=win&ver=1.8.2.0",
-        "jsonpath": "$.ver_info.version"
+        "url": "https://upgrade.pixpin.cn/api/check/1/3.4.1.3/windows/x64/intl/zh-cn/.zip",
+        "jsonpath": "$.[0].version"
     },
     "autoupdate": {
         "architecture": {
