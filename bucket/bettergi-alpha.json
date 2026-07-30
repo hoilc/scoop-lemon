@@ -1,12 +1,12 @@
 {
-    "version": "0.62.2-alpha.2",
+    "version": "0.62.2-alpha.3",
     "description": "（测试版）BetterGI · 更好的原神 - UI Automation Testing Tools For Genshin Impact",
     "homepage": "https://bettergi.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cnb.cool/bettergi/better-genshin-impact/-/releases/download/v0.62.2-alpha.2/BetterGI_v0.62.2-alpha.2.7z",
-            "hash": "52cac3f3fe68397b8a124c4df30d6e54342beac57ead8830525d7fac868f67b6"
+            "url": "https://cnb.cool/bettergi/better-genshin-impact/-/releases/download/v0.62.2-alpha.3/BetterGI_v0.62.2-alpha.3.7z",
+            "hash": "183ffafb76c7d8869b9b3aff9751d4369ca6b375ae6b2f68b619841f98d095a6"
         }
     },
     "post_install": "Remove-Item \"$dir\\BetterGI.update.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
