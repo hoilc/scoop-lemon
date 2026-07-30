@@ -1,0 +1,38 @@
+{
+    "version": "0.0.2",
+    "description": "A streamlined tool for discovering private TLDs for security research.",
+    "homepage": "https://github.com/projectdiscovery/tldfinder",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v0.0.2/tldfinder_0.0.2_windows_amd64.zip",
+            "hash": "2bf2c7d0eac7ae090a351c17f96ce92077dc4f00caef202370ea1fabd41b4214"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v0.0.2/tldfinder_0.0.2_windows_386.zip",
+            "hash": "1e6336fdc05cf6160983f8c45ba44dcf05e99d7c8f79b25700350e704fb8710e"
+        },
+        "arm64": {
+            "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v0.0.2/tldfinder_0.0.2_windows_arm64.zip",
+            "hash": "5a26eaff64f9b77e9bbc280735c76f53d9ee6132ec3cba89aab6d9f6349c7eaa"
+        }
+    },
+    "bin": "tldfinder.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v$version/tldfinder_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v$version/tldfinder_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/projectdiscovery/tldfinder/releases/download/v$version/tldfinder_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/tldfinder_$version_checksums.txt"
+        }
+    }
+}
