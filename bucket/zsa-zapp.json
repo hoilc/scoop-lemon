@@ -1,0 +1,31 @@
+{
+    "version": "1.0.2",
+    "description": "Flash ZSA keyboards from your terminal.",
+    "homepage": "https://github.com/zsa/zapp",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/zsa/zapp/raw/refs/heads/main/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zsa/zapp/releases/download/v1.0.2/zapp-windows-x86_64.zip",
+            "hash": "c81f4c73ce823c7554cbb0896422d27351de3eb096548c5500a8394b7e8136fd"
+        },
+        "arm64": {
+            "url": "https://github.com/zsa/zapp/releases/download/v1.0.2/zapp-windows-aarch64.zip",
+            "hash": "719f01602dfc1446389f93ae9bb1620b7d9fb79468411b90038afbc9a2584cd2"
+        }
+    },
+    "bin": "zapp.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zsa/zapp/releases/download/v$version/zapp-windows-x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/zsa/zapp/releases/download/v$version/zapp-windows-aarch64.zip"
+            }
+        }
+    }
+}
