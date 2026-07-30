@@ -1,13 +1,13 @@
 {
     "##": "#updateManually",
-    "version": "1.8.1",
+    "version": "2.2.1.121",
     "description": "Flix 快传，像聊天一样传文件",
     "homepage": "https://flix.center/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.tari.xyz/hosted/flix/Flix_1.8.1.zip",
-            "hash": "4a7f1be0bd3ee3b2fcf7f32c0b2342890237a94d8b9f801638586627e0aaa1a8"
+            "url": "https://scoop-lemon.tari.xyz/hosted/flix/Flix_2.2.1.121.zip",
+            "hash": "56a47962a0924ca1c13751c7dceeb2b74f57f3561f099fce8844969cdb3962f6"
         }
     },
     "extract_dir": "flix",
