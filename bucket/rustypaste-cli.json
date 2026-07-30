@@ -1,19 +1,19 @@
 {
-    "version": "0.9.5",
+    "version": "0.10.0",
     "description": "A CLI tool for rustypaste, a minimal file upload/pastebin service.",
     "homepage": "https://github.com/orhun/rustypaste-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.9.5/rustypaste-cli-0.9.5-x86_64-pc-windows-msvc.zip",
-            "hash": "887d90f391d8affe0a0224f093d7d973e226b3e313aa5ba4b654eb776a3cfd74"
+            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-x86_64-pc-windows-msvc.zip",
+            "hash": "e104cb393f7bb61ab2fa0a7b2dc7222f47dc9b3cfa14d61aa2d302f01e8c08cd"
         },
         "32bit": {
-            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.9.5/rustypaste-cli-0.9.5-i686-pc-windows-msvc.zip",
-            "hash": "9960c2b8595ce1608c81d4a9b8244a3bc4dc365945519be314c39707f025f9f6"
+            "url": "https://github.com/orhun/rustypaste-cli/releases/download/v0.10.0/rustypaste-cli-0.10.0-i686-pc-windows-msvc.zip",
+            "hash": "eaae30ec26b83c988b479b45e764ea452eb50a73ec5e047d2b61d10114437cb5"
         }
     },
-    "extract_dir": "rustypaste-cli-0.9.5",
+    "extract_dir": "rustypaste-cli-0.10.0",
     "bin": "rpaste.exe",
     "checkver": "github",
     "autoupdate": {
