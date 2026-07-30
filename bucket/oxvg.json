@@ -1,0 +1,21 @@
+{
+    "version": "0.0.6",
+    "description": "An SVG toolchain for optimisation, minification, linting, and actions.",
+    "homepage": "https://github.com/noahbald/oxvg",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/noahbald/oxvg/releases/download/v0.0.6/oxvg.exe",
+            "hash": "bb15578a88bc55885cc4d1efc646449caeec623d1767498714aa6b327e380445"
+        }
+    },
+    "bin": "oxvg.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/noahbald/oxvg/releases/download/v$version/oxvg.exe"
+            }
+        }
+    }
+}
