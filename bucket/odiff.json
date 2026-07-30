@@ -1,0 +1,28 @@
+{
+    "version": "4.5.0",
+    "description": "A fast SIMD-first image comparison tool.",
+    "homepage": "https://github.com/dmtrKovalenko/odiff",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dmtrKovalenko/odiff/releases/download/v4.5.0/odiff-windows-x64.exe#/odiff.exe",
+            "hash": "d2d38dfbdeff70c6d6a2f48ea41c9fe702f866c1f836c6896a677bf97652e4f1"
+        },
+        "arm64": {
+            "url": "https://github.com/dmtrKovalenko/odiff/releases/download/v4.5.0/odiff-windows-arm64.exe#/odiff.exe",
+            "hash": "8fbc0d41d92ddee7790691a61e175845878824cc3851e9c69fe5d630223897d7"
+        }
+    },
+    "bin": "odiff.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dmtrKovalenko/odiff/releases/download/v$version/odiff-windows-x64.exe#/odiff.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/dmtrKovalenko/odiff/releases/download/v$version/odiff-windows-arm64.exe#/odiff.exe"
+            }
+        }
+    }
+}
