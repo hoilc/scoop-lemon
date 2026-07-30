@@ -1,0 +1,31 @@
+{
+    "version": "1.5.6",
+    "description": "A GitHub Actions linter for security best practices.",
+    "homepage": "https://github.com/suzuki-shunsuke/ghalint",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/suzuki-shunsuke/ghalint/releases/download/v1.5.6/ghalint_1.5.6_windows_amd64.zip",
+            "hash": "109ea9b39c8e263cef924bd3b4fe5505964204f934ca60d986f4090d01a99ba5"
+        },
+        "arm64": {
+            "url": "https://github.com/suzuki-shunsuke/ghalint/releases/download/v1.5.6/ghalint_1.5.6_windows_arm64.zip",
+            "hash": "c1219cae104ea418a1cb4e7a02526a3fad384c0788fa3540a86b316bb074d0d8"
+        }
+    },
+    "bin": "ghalint.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/suzuki-shunsuke/ghalint/releases/download/v$version/ghalint_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/suzuki-shunsuke/ghalint/releases/download/v$version/ghalint_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/ghalint_$version_checksums.txt"
+        }
+    }
+}
