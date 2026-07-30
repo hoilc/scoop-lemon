@@ -1,0 +1,26 @@
+{
+    "version": "0.7.3",
+    "description": "Fetch source code for npm packages to give AI coding agents deeper context.",
+    "homepage": "https://opensrc.sh",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vercel-labs/opensrc/releases/download/v0.7.3/opensrc-win32-x64.exe#/opensrc.exe",
+            "hash": "c43465dd6e5b344a57dd073ac6432fd270d586e461ca28a56f5db3aa1c1f85ac"
+        }
+    },
+    "bin": "opensrc.exe",
+    "checkver": {
+        "github": "https://github.com/vercel-labs/opensrc"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vercel-labs/opensrc/releases/download/v$version/opensrc-win32-x64.exe#/opensrc.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/CHECKSUMS.txt"
+        }
+    }
+}
