@@ -1,0 +1,31 @@
+{
+    "version": "2.10.6",
+    "description": "A tool to download YouTube videos.",
+    "homepage": "https://github.com/kkdai/youtube",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kkdai/youtube/releases/download/v2.10.6/youtubedr_2.10.6_windows_amd64.tar.gz",
+            "hash": "95c663eeb7a048ce4bfd01d6f5c0c716304cacc130982aa6f522cc79d5f6e828"
+        },
+        "arm64": {
+            "url": "https://github.com/kkdai/youtube/releases/download/v2.10.6/youtubedr_2.10.6_windows_arm64.tar.gz",
+            "hash": "e1c7d0aa21630a5f3aa72793d8455b93ca05d94b6dde5a9d31c6d8bdac39607a"
+        }
+    },
+    "bin": "youtubedr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kkdai/youtube/releases/download/v$version/youtubedr_$version_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/kkdai/youtube/releases/download/v$version/youtubedr_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/youtubedr_$version_checksums.txt"
+        }
+    }
+}
