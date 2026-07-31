@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/qualcomm/GenieX/releases/download/v0.3.17/geniex-cli-setup-windows-arm64-v0.3.17.exe",
-            "pre_install": "throw 'You are trying to install the 64-bit (x64) version, but this manifest only supports ARM64.'",
+            "pre_install": "warn 'You are trying to install the 64-bit (x64) version, but this manifest only supports ARM64.'; Exit",
             "hash": "acc8a8c4e085a132d7a8df41b633650cecc098e10e3702fa2a84f26d067dc3a7"
         },
         "arm64": {
