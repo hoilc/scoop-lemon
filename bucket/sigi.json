@@ -1,12 +1,12 @@
 {
-    "version": "3.7.1",
+    "version": "3.8.0",
     "description": "An organizing tool for terminal lovers who hate organizing.",
     "homepage": "https://sigi-cli.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sigi-cli/sigi/releases/download/v3.7.1/sigi_v3.7.1_x86_64-pc-windows-gnu.zip",
-            "hash": "8daa442c0cc305d1f668d3027587e99f241442d2132ff41429ec5f0e880ab74d"
+            "url": "https://github.com/sigi-cli/sigi/releases/download/v3.8.0/sigi_v3.8.0_x86_64-pc-windows-gnu.zip",
+            "hash": "372bd8e819a08d490b90f070211514a76a208cbe5cbf0b4386662cc7dd32ff95"
         }
     },
     "bin": "sigi.exe",
