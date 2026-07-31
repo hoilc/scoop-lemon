@@ -1,0 +1,27 @@
+{
+    "version": "1.0.15985488",
+    "description": "A command-line interface that enables you to more easily and efficiently build for Android using any tool of your choice.",
+    "homepage": "https://developer.android.com/tools/agents/android-cli",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://developer.android.com/studio/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/android/cli/1.0.15985488/windows_x86_64/android-cli.exe#/android.exe",
+            "hash": "74d2f03f0e837bcac58a551a30b34f2228f6ed2f45ec128967ff5f87a913513d"
+        }
+    },
+    "bin": "android.exe",
+    "checkver": {
+        "url": "https://dl.google.com/android/cli/latest/windows_x86_64/METADATA",
+        "regex": "version=([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/android/cli/$version/windows_x86_64/android-cli.exe#/android.exe"
+            }
+        }
+    }
+}
