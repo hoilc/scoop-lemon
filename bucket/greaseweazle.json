@@ -1,0 +1,30 @@
+{
+    "version": "1.23",
+    "description": "A tool for accessing a floppy drive at the raw flux level.",
+    "homepage": "https://github.com/keirf/greaseweazle",
+    "license": "Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/keirf/greaseweazle/releases/download/v1.23/greaseweazle-1.23-win64.zip",
+            "hash": "f409ae2411506eacecd60915c361c7bfa7293795e3e488fad4927ddd7d146464"
+        },
+        "32bit": {
+            "url": "https://github.com/keirf/greaseweazle/releases/download/v1.23/greaseweazle-1.23-win32.zip",
+            "hash": "bda6d75dbcb0df6e7d6d08a4a90c71e03fa3332c77ff005c885aeea6d5f7ddbe"
+        }
+    },
+    "extract_dir": "greaseweazle-1.23",
+    "bin": "gw.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/keirf/greaseweazle/releases/download/v$version/greaseweazle-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/keirf/greaseweazle/releases/download/v$version/greaseweazle-$version-win32.zip"
+            }
+        },
+        "extract_dir": "greaseweazle-$version"
+    }
+}
