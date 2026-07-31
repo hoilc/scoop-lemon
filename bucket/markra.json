@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0",
+    "version": "2.3.2",
     "description": "A local-first, open-source Markdown editor that brings AI into the writing flow.",
     "homepage": "https://markra.app/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/markrahq/markra/releases/download/v2.3.0/Markra_2.3.0_windows_x64_portable.zip",
-            "hash": "b185582034746a2184e3b892b085fa9af95392335b8c68775a2b548a102c893b"
+            "url": "https://github.com/markrahq/markra/releases/download/v2.3.2/Markra_2.3.2_windows_x64_portable.zip",
+            "hash": "b0d51fb671e557b56d332a73540fa3bcd4610fc52141148f7f60a8aff35cc6ae"
         }
     },
     "extract_dir": "Markra",
