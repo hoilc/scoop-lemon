@@ -1,0 +1,41 @@
+{
+    "version": "0.7.0",
+    "description": "Command-line interface for AtomGit.",
+    "homepage": "https://atomgit.com/hust-open-atom-club/atomgit-cli",
+    "license": "MulanPSL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.0/ag_windows_amd64.zip",
+            "hash": "b48e00fb6d16b19addf65fd42d8c2a7b5121f33c4550f327b0322c5416900c5a"
+        },
+        "arm64": {
+            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.0/ag_windows_arm64.zip",
+            "hash": "7c4e8bba5073d48e4cea08dc8bb2baa7c3e4842825576d93d0424372ba073d6f"
+        }
+    },
+    "bin": [
+        "ag.exe",
+        [
+            "ag.exe",
+            "atomgit"
+        ]
+    ],
+    "checkver": {
+        "url": "https://atomgit.com/api/v5/repos/hust-open-atom-club/atomgit-cli/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v$version/ag_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v$version/ag_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
