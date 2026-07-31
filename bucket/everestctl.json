@@ -1,12 +1,12 @@
 {
-    "version": "1.16.1",
+    "version": "1.16.2",
     "description": "CLI for Percona Everest, a cloud-native database platform to deploy and manage enterprise-grade PostgreSQL, MongoDB and MySQL database clusters.",
     "homepage": "https://docs.percona.com/everest/index.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/percona/everest/releases/download/v1.16.1/everestctl.exe",
-            "hash": "d6661395ea349bf5d34db47715ea755f5b1b108fabb862b73a2241415466e149"
+            "url": "https://github.com/percona/everest/releases/download/v1.16.2/everestctl.exe",
+            "hash": "1bc068302d7870dae7c4cbe3f968236df546d5d123454ced00eac24d3c734c74"
         }
     },
     "bin": "everestctl.exe",
