@@ -1,0 +1,23 @@
+{
+    "version": "0.18.1",
+    "description": "A streaming platform for event stream processing.",
+    "homepage": "https://www.fluvio.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fluvio-community/fluvio/releases/download/v0.18.1/fluvio.exe-x86_64-pc-windows-gnu.zip",
+            "hash": "4d074e1411084acdb07e989164e592041b35b8c175c63a2062231f0f98a5fce6"
+        }
+    },
+    "bin": "fluvio.exe",
+    "checkver": {
+        "github": "https://github.com/fluvio-community/fluvio"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fluvio-community/fluvio/releases/download/v$version/fluvio.exe-x86_64-pc-windows-gnu.zip"
+            }
+        }
+    }
+}
