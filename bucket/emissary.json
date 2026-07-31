@@ -1,0 +1,23 @@
+{
+    "version": "0.4.0",
+    "description": "A Rust implementation of the I2P protocol stack.",
+    "homepage": "https://eepnet.github.io/emissary",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/eepnet/emissary/releases/download/v0.4.0/emissary-cli.exe",
+            "hash": "e99118b7b37aafd68b10cf4f566bcd446e1c5c44b83840f169b5381aaeda1f34"
+        }
+    },
+    "bin": "emissary-cli.exe",
+    "checkver": {
+        "github": "https://github.com/eepnet/emissary"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/eepnet/emissary/releases/download/v$version/emissary-cli.exe"
+            }
+        }
+    }
+}
