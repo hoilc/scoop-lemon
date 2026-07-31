@@ -1,0 +1,24 @@
+{
+    "version": "1.0.12",
+    "description": "A TUI client for Bilibili. | 一个基于终端用户界面（TUI）的 Bilibili 客户端",
+    "homepage": "https://github.com/MareDevi/bilibili-tui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MareDevi/bilibili-tui/releases/download/v1.0.12/bilibili-tui-x86_64-pc-windows-msvc.zip",
+            "hash": "d69b56a00b94875cd6e1ee8bc26026bc86b46c1bd2ca4c9eda84654658dc4c39"
+        }
+    },
+    "bin": "bilibili-tui.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MareDevi/bilibili-tui/releases/download/v$version/bilibili-tui-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256.sum"
+        }
+    }
+}
