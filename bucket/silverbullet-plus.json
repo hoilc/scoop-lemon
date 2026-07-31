@@ -1,0 +1,34 @@
+{
+    "version": "2.10.0",
+    "description": "SilverBullet+ is a personal knowledge database built on markdown files.",
+    "homepage": "https://silverbullet.plus/",
+    "license": {
+        "identifier": "Liteware",
+        "url": "https://silverbullet.plus/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.silverbullet.plus/releases/2.10.0/SilverBullet_2.10.0_x64-setup.exe#/dl.7z",
+            "hash": "1f4163ae5233239590d011c8da02a2965faf2c6d04a43b84254b07f9169e4b48"
+        }
+    },
+    "bin": "sb.exe",
+    "shortcuts": [
+        [
+            "silverbullet-app.exe",
+            "SilverBullet+"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "url": "https://silverbullet.plus/download",
+        "regex": "SilverBullet_([\\d.]+)_x64-setup\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.silverbullet.plus/releases/$version/SilverBullet_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
