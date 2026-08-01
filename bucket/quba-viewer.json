@@ -1,0 +1,29 @@
+{
+    "version": "1.5.1",
+    "description": "An open-source application to display structured (i.e., XML) and hybrid (Factur-X/ZUGFeRD PDF) electronic invoices.",
+    "homepage": "https://github.com/ZUGFeRD/quba-viewer",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ZUGFeRD/quba-viewer/releases/download/v1.5.1/Quba.Setup.1.5.1.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "78cbc7c39a9c2515510c5bd4b5f41c94bc5cb8dec45a6d81496a1e0c96e7bde9"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "Quba.exe",
+            "Quba"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\Quba\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ZUGFeRD/quba-viewer/releases/download/v$version/Quba.Setup.$version.exe#/dl.7z"
+            }
+        }
+    }
+}
