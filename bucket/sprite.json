@@ -13,7 +13,7 @@
             "hash": "dc21dc0a91d0a0bac9f3d3a9412ff57c4f32cb1e248edaa4dca462bab9a583d7"
         }
     },
-    "bin": "sprites.exe",
+    "bin": "sprite.exe",
     "checkver": {
         "url": "https://sprites-binaries.t3.storage.dev/client/rc.txt",
         "regex": "v(.+)"
