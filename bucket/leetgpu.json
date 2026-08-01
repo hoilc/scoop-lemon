@@ -1,0 +1,31 @@
+{
+    "version": "1.2.0",
+    "description": "Run CUDA kernels from your terminal.",
+    "homepage": "https://leetgpu.com/cli",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://cli.leetgpu.com/dist/1.2.0/leetgpu-windows-amd64.exe#/leetgpu.exe",
+            "hash": "64ff3ad2d06ae6afb3e11cf1865d736036c4b34e962f215c1e79cb866e1f1b06"
+        },
+        "arm64": {
+            "url": "https://cli.leetgpu.com/dist/1.2.0/leetgpu-windows-arm64.exe#/leetgpu.exe",
+            "hash": "f73f632fbe69673cc5a70584ced0107a4d6dc6a75b1f4d72d36f323c89f0e035"
+        }
+    },
+    "bin": "leetgpu.exe",
+    "checkver": {
+        "url": "https://cli.leetgpu.com/latest",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cli.leetgpu.com/dist/$version/leetgpu-windows-amd64.exe#/leetgpu.exe"
+            },
+            "arm64": {
+                "url": "https://cli.leetgpu.com/dist/$version/leetgpu-windows-arm64.exe#/leetgpu.exe"
+            }
+        }
+    }
+}
