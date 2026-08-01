@@ -1,0 +1,25 @@
+{
+    "version": "1.2.2",
+    "description": "A warmup program that facilitates restoring archived objects from Amazon S3 Glacier storage classes:",
+    "homepage": "https://gitlab.com/philipmw/warmup-s3-archives",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitlab.com/philipmw/warmup-s3-archives/-/releases/v1.2.2/downloads/warmup-s3-archives-v1.2.2-windows-x86_64.exe#/warmup-s3-archives.exe",
+            "hash": "b8e6d0a77df7816d6ca62b22a48ed97c7120fd4a705bbc5eab3f718fd65b2af6"
+        }
+    },
+    "bin": "warmup-s3-archives.exe",
+    "checkver": {
+        "url": "https://gitlab.com/api/v4/projects/philipmw%2Fwarmup-s3-archives/releases/?per_page=1",
+        "jsonpath": "$.[0].tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitlab.com/philipmw/warmup-s3-archives/-/releases/v$version/downloads/warmup-s3-archives-v$version-windows-x86_64.exe#/warmup-s3-archives.exe"
+            }
+        }
+    }
+}
