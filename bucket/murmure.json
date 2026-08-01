@@ -1,0 +1,30 @@
+{
+    "version": "1.10.1",
+    "description": "A privacy-first, open-source speech-to-text application that runs entirely on your machine.",
+    "homepage": "https://www.murmure.app/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kieirra/murmure/releases/download/1.10.1/Murmure_x64-setup.exe#/dl.7z",
+            "hash": "c9b62a0b3849087d54d202f8088cf61e1881a8d186a8e9a9cee74da5b0eb48b5"
+        }
+    },
+    "shortcuts": [
+        [
+            "murmure.exe",
+            "Murmure"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.al1x-ai.murmure\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "github": "https://github.com/Kieirra/murmure"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kieirra/murmure/releases/download/$version/Murmure_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
