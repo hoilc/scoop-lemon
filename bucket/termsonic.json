@@ -1,0 +1,26 @@
+{
+    "version": "0.3-20260405",
+    "description": "A TUI client for any Subsonic-compatible server.",
+    "homepage": "https://git.sixfoisneuf.fr/termsonic/about/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://git.sixfoisneuf.fr/releases/termsonic/20260405-v0.3/termsonic-windows-amd64.exe#/termsonic.exe",
+            "hash": "a329d41d7af78a22c0ac866f9d0ecdad78d8d9f6c802812cc142915fa3262156"
+        }
+    },
+    "bin": "termsonic.exe",
+    "checkver": {
+        "url": "https://git.sixfoisneuf.fr/releases/termsonic/",
+        "regex": "<a href=\"\\./(?<date>\\d{8})-v(?<main>[\\d.]+)/\">",
+        "replace": "${main}-${date}",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://git.sixfoisneuf.fr/releases/termsonic/$matchDate-v$matchMain/termsonic-windows-amd64.exe#/termsonic.exe"
+            }
+        }
+    }
+}
