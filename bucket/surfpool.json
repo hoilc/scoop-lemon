@@ -1,0 +1,23 @@
+{
+    "version": "1.5.0",
+    "description": "A local Solana development environment and drop-in replacement for solana-test-validator.",
+    "homepage": "https://surfpool.run",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/solana-foundation/surfpool/releases/download/v1.5.0/surfpool-windows-x64.tar.gz",
+            "hash": "7f845185abe793fab8f48df0ced49d2cad2ae1bed85b9e5ce5d8e55fc3086d21"
+        }
+    },
+    "bin": "surfpool.exe",
+    "checkver": {
+        "github": "https://github.com/solana-foundation/surfpool"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/solana-foundation/surfpool/releases/download/v$version/surfpool-windows-x64.tar.gz"
+            }
+        }
+    }
+}
