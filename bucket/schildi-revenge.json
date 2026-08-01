@@ -1,0 +1,29 @@
+{
+    "version": "26.07.13",
+    "description": "A desktop Matrix client written in kotlin.",
+    "homepage": "https://schildi.chat/revenge/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SchildiChat/schildi-revenge/releases/download/v26.07.13/SchildiChatRevenge-26.07.13.msi",
+            "hash": "e95f74782df43836706dda50aa3112037461110a2e08ea94eb1adf0981d14c54"
+        }
+    },
+    "extract_dir": "SchildiChatRevenge",
+    "shortcuts": [
+        [
+            "SchildiChatRevenge.exe",
+            "SchildiChat Revenge"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/SchildiChat/schildi-revenge"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SchildiChat/schildi-revenge/releases/download/v$version/SchildiChatRevenge-$version.msi"
+            }
+        }
+    }
+}
