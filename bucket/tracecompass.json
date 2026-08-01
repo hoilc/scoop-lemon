@@ -1,0 +1,30 @@
+{
+    "version": "12.0.0-20260610-0816",
+    "description": "Eclipse Trace Compass is an open source application to solve performance and reliability issues by reading and analyzing traces and logs of a system.",
+    "homepage": "https://eclipse.dev/tracecompass/",
+    "license": "EPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.eclipse.org/tracecompass/releases/12.0.0/rcp/trace-compass-12.0.0-20260610-0816-win32.win32.x86_64.zip",
+            "hash": "f0e7882ea2181ae90fef7095d1c1a05200cdf30a4d1f6d22090ce02fb29bda21"
+        }
+    },
+    "extract_dir": "trace-compass",
+    "bin": "tracecompassc.exe",
+    "shortcuts": [
+        [
+            "tracecompass.exe",
+            "Trace Compass"
+        ]
+    ],
+    "checkver": {
+        "regex": "/releases/(?<release>[^/]+?)/rcp/trace-compass-(.+?)-win32\\.win32\\.x86_64\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.eclipse.org/tracecompass/releases/$matchRelease/rcp/trace-compass-$version-win32.win32.x86_64.zip"
+            }
+        }
+    }
+}
