@@ -1,16 +1,16 @@
 {
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "A fast, AST-based code navigation toolkit that maps file shapes, public APIs, and call graphs across coding languages.",
     "homepage": "https://github.com/aeroxy/ast-bro",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-3.0.0/ast-bro-3.0.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "4511c03f5acffe28f00f005fb902c228a0d7a3d76308c24fe1b94135d5eb2a35"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-4.0.0/ast-bro-4.0.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "248c3cdab6bb503a67582dc48b9d5913989838ee34dd164c1d3de87966f1c570"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-3.0.0/ast-bro-3.0.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "a1ee83719767ac9aea2aa3ed4dbfdbccd20cb2eeedc1193b114bfcfbae7b913c"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ast-bro-4.0.0/ast-bro-4.0.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "fb764f455ec85a5860640652ad90a0df32b03fc2081c0ede9fe1676c4d496299"
         }
     },
     "bin": "ast-bro.exe",
