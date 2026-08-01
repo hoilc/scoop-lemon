@@ -1,0 +1,27 @@
+{
+    "version": "1.3.2",
+    "description": "A desktop application for creating and validating ZUGFeRD invoices.",
+    "homepage": "https://github.com/OpenIndex/ZUGFeRD-Manager",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenIndex/ZUGFeRD-Manager/releases/download/v1.3.2/ZUGFeRD-Manager-1.3.2-windows-x64.zip",
+            "hash": "77ea11d1036d37cc74b77ea51e607cc05e0327f53ef58ae40d434400fcbba215"
+        }
+    },
+    "extract_dir": "ZUGFeRD-Manager",
+    "shortcuts": [
+        [
+            "ZUGFeRD-Manager.exe",
+            "OpenIndex ZUGFeRD Manager"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/OpenIndex/ZUGFeRD-Manager/releases/download/v$version/ZUGFeRD-Manager-$version-windows-x64.zip"
+            }
+        }
+    }
+}
