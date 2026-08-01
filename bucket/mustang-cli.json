@@ -1,0 +1,25 @@
+{
+    "version": "2.24.0",
+    "description": "A commandline tool to read, write, validate and/or convert electronic invoices with ZUGFeRD metadata.",
+    "homepage": "https://www.mustangproject.org/",
+    "license": "Apache-2.0",
+    "url": "https://www.mustangproject.org/deploy/Mustang-CLI-2.24.0.jar#/mustang-cli.jar",
+    "hash": "e4904ffa0afdce3f5836dceb927c440a05ed5d60386fdd37e17a4b2f7652edbf",
+    "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -Dfile.encoding=UTF-8 -jar `\"%~dp0$n.jar`\" %*\" }",
+    "bin": "mustang-cli.bat",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.mustangproject.org/commandline/",
+        "regex": "Mustang-CLI-([\\d.]+).jar"
+    },
+    "autoupdate": {
+        "url": "https://www.mustangproject.org/deploy/Mustang-CLI-$version.jar#/mustang-cli.jar"
+    }
+}
