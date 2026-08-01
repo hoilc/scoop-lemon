@@ -5,22 +5,22 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hypostasis-Cat/HypoMux/releases/download/v2.5.1/HypoMux_Setup_2.5.1.exe",
+            "url": "https://github.com/Hypostasis-Cat/HypoMux/releases/download/v2.5.1/HypoMux_Setup_2.5.1.exe#/dl.7z",
             "hash": "27e751f4e4938813a8daccf401bc91ea3550d56fdf2d4801ea3508c6fd5b2e7e"
         }
     },
-    "innosetup": true,
     "shortcuts": [
         [
-            "HypoMux.exe",
+            "hypomux.exe",
             "HypoMux"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Hypostasis-Cat/HypoMux/releases/download/v$version/HypoMux_Setup_$version.exe"
+                "url": "https://github.com/Hypostasis-Cat/HypoMux/releases/download/v$version/HypoMux_Setup_$version.exe#/dl.7z"
             }
         }
     }
