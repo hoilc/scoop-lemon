@@ -1,0 +1,30 @@
+{
+    "version": "2.1-0",
+    "description": "A Java program for drawing Feynman diagrams.",
+    "homepage": "https://jaxodraw.sourceforge.io/",
+    "license": "GPL-2.0-or-later",
+    "url": "http://jaxodraw.sourceforge.net/download/pkgs/jaxodraw-2.1-0-install.exe#/dl.7z",
+    "hash": "76c8e9a7bec0b5745d98c369d86cd345284f96eedf27435d3df1b0a604b94bb2",
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'jaxodraw?*.jar' | Select-Object -First 1 | Rename-Item -NewName 'jaxodraw.jar'",
+        "Get-ChildItem \"$dir\" 'jaxoicon?*.ico' | Select-Object -First 1 | Rename-Item -NewName 'jaxoicon.ico'",
+        "Set-Content -Encoding ASCII -Path \"$dir\\jaxodraw.bat\" -Value '@start javaw.exe -jar \"%~dp0jaxodraw.jar\"'"
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "jaxodraw.bat",
+            "JaxoDraw",
+            "",
+            "jaxoicon.ico"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    }
+}
