@@ -2,7 +2,7 @@
     "version": "4.06",
     "description": "A free PDF viewer.",
     "homepage": "https://www.xpdfreader.com/",
-    "license": "GPL-2.0-or-later",
+    "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://dl.xpdfreader.com/XpdfReader-win32-4.06.exe#/dl.7z",
