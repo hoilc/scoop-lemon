@@ -1,12 +1,12 @@
 {
-    "version": "150.0.7871.52",
+    "version": "150.0.7871.53",
     "description": "一款纯粹的高效浏览器，启动快，跑分高，适合希望继续留在 Chromium 生态、又需要更强效率与迁移体验的用户",
     "homepage": "https://tbrowser.cn/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.tbrowser.cn/download/Turbo_150.0.7871.52_portable.7z",
-            "hash": "f4568e3b985d9c21dd8e4173f6b68925d8344ac24710dfcd58228dad7d453b20"
+            "url": "https://dl.tbrowser.cn/download/Turbo_150.0.7871.53_portable.7z",
+            "hash": "95b6d08c2c9cc65cbae2c0890fdfd01f05d108e43447e3941cd42372219c4ba7"
         }
     },
     "shortcuts": [
