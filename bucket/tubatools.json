@@ -1,20 +1,20 @@
 {
-    "version": "1.4.1",
+    "version": "1.5.0",
     "description": "图吧工具箱是一款开源、现代、免费的PC 硬件检测与系统维护工具集",
     "homepage": "https://tubawinui3.cn/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.4.1/TubaWinUi3_Portable_1.4.1_x64.zip",
-            "hash": "3cb5fd6c6d138e0c7ca35fe459b0db661ffe380a2db4696717b0bc3bc30847fa"
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.0/TubaWinUi3_Portable_1.5.0_x64.zip",
+            "hash": "fa700d8e256678e90339d34d371a964f2d6a4f81e731ca262396ba14efaff4c1"
         },
         "32bit": {
-            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.4.1/TubaWinUi3_Portable_1.4.1_x86.zip",
-            "hash": "2ed2ffd4ad80df1ea89e5982272f93ba59c2d4c78e41dc2bd902ac29fe7dc2d8"
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.0/TubaWinUi3_Portable_1.5.0_x86.zip",
+            "hash": "2b08a4dcc596048d5a46b84cd34ec0a4de9bb092cdeaccdb887bd7600b91c394"
         },
         "arm64": {
-            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.4.1/TubaWinUi3_Portable_1.4.1_arm64.zip",
-            "hash": "7bc91e3e0da6b31cae228e7814d1ab6ea2d0f8d56e0cddcdf925cb6367e7577c"
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.0/TubaWinUi3_Portable_1.5.0_arm64.zip",
+            "hash": "c6b6f9431dca8fd917ddf5b37bc6605bdde19df0eeeb2c267bf71b2540d47d3f"
         }
     },
     "extract_dir": "src",
