@@ -1,0 +1,34 @@
+{
+    "version": "1.4.2",
+    "description": "CLI client for Plik, a temporary file upload system.",
+    "homepage": "https://plik.root.gg",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/root-gg/plik/releases/download/1.4.2/plik-1.4.2-windows-amd64.exe#/plik.exe",
+            "hash": "d8991561b05cd9ffb242179876073e1964f1297ba1c9beebb864c041b512fc19"
+        },
+        "32bit": {
+            "url": "https://github.com/root-gg/plik/releases/download/1.4.2/plik-1.4.2-windows-386.exe#/plik.exe",
+            "hash": "6e718532a875cd1b0d79fa94ba5d16de7150f5c073761485ea8a8e6c256f83c8"
+        }
+    },
+    "bin": "plik.exe",
+    "checkver": {
+        "url": "https://github.com/root-gg/plik/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/root-gg/plik/releases/download/$version/plik-$version-windows-amd64.exe#/plik.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/root-gg/plik/releases/download/$version/plik-$version-windows-386.exe#/plik.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
