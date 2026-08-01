@@ -2,7 +2,7 @@
     "version": "2.1-0",
     "description": "A Java program for drawing Feynman diagrams.",
     "homepage": "https://jaxodraw.sourceforge.io/",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "url": "http://jaxodraw.sourceforge.net/download/pkgs/jaxodraw-2.1-0-install.exe#/dl.7z",
     "hash": "76c8e9a7bec0b5745d98c369d86cd345284f96eedf27435d3df1b0a604b94bb2",
     "pre_install": [
