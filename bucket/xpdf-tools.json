@@ -1,0 +1,42 @@
+{
+    "version": "4.06",
+    "description": "A collection of PDF command line tools, including a text extractor, image converter, HTML converter, and more.",
+    "homepage": "https://www.xpdfreader.com/",
+    "license": "GPL-2.0-or-later",
+    "url": "https://dl.xpdfreader.com/xpdf-tools-win-4.06.zip",
+    "hash": "2b6ca45da794e7854a6468fd6c8063fde62701f001ce03fa4f603eab7e15a0b6",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "xpdf-tools-win-4.06\\bin64"
+        },
+        "32bit": {
+            "extract_dir": "xpdf-tools-win-4.06\\bin32"
+        }
+    },
+    "bin": [
+        "pdfdetach.exe",
+        "pdffonts.exe",
+        "pdfimages.exe",
+        "pdfinfo.exe",
+        "pdftohtml.exe",
+        "pdftopng.exe",
+        "pdftoppm.exe",
+        "pdftops.exe",
+        "pdftotext.exe"
+    ],
+    "checkver": {
+        "url": "https://www.xpdfreader.com/download.html",
+        "regex": "xpdf-tools-win-([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://dl.xpdfreader.com/xpdf-tools-win-$version.zip",
+        "architecture": {
+            "64bit": {
+                "extract_dir": "xpdf-tools-win-$version\\bin64"
+            },
+            "32bit": {
+                "extract_dir": "xpdf-tools-win-$version\\bin32"
+            }
+        }
+    }
+}
