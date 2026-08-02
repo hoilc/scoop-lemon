@@ -1,0 +1,23 @@
+{
+    "version": "4.0.0",
+    "description": "(CUDA Backend) A primality proving program for numbers of the form N = k*b^n +/- 1,  (k < b^n).",
+    "homepage": "http://jpenne.free.fr/index2.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://jpenne.free.fr/llr4/llrcuda400win64.zip",
+            "hash": "f2f4992f6dbc5c98f0400fccb8e16d24ff61a6bd8f776567d2c927d62d836595"
+        }
+    },
+    "bin": "llrCUDA.exe",
+    "checkver": {
+        "regex": "(?sm)>\\s*llrCUDA Version ([\\d.]+.*?)\\s*<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://jpenne.free.fr/llr$majorVersion/llrcuda$cleanVersionwin64.zip"
+            }
+        }
+    }
+}
