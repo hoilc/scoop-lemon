@@ -1,0 +1,39 @@
+{
+    "version": "4.0.7b3",
+    "description": "A primality proving program for numbers of the form N = k*b^n +/- 1,  (k < b^n).",
+    "homepage": "http://jpenne.free.fr/index2.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "http://jpenne.free.fr/llr4/llr407b3win64.zip",
+                "http://jpenne.free.fr/llr4/cllr407b3win64.zip"
+            ],
+            "hash": [
+                "1f5ddcfa0d69e8ac192f73e6a0e1d0fa21039f4e26b31206bfb75e10726ef12d",
+                "ba310fdb97494cd93cbfa8b4bc4a5e160539470562685e881da935f9051ef8b1"
+            ]
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" '*64.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '64') }",
+    "bin": "cllr.exe",
+    "shortcuts": [
+        [
+            "llr.exe",
+            "LLR"
+        ]
+    ],
+    "checkver": {
+        "regex": "(?sm)>\\s*LLR Version ([\\d.]+.*?)\\s*<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "http://jpenne.free.fr/llr$majorVersion/llr$cleanVersionwin64.zip",
+                    "http://jpenne.free.fr/llr$majorVersion/cllr$cleanVersionwin64.zip"
+                ]
+            }
+        }
+    }
+}
