@@ -1,0 +1,31 @@
+{
+    "version": "1.0.1",
+    "description": "A static site generator for video publishing.",
+    "homepage": "https://hyper8.org/",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://hyper8.org/packages/hyper8-1.0.1-windows-x64.exe#/dl.7z",
+            "hash": "5864637993ecf5ea86173a321ef1ef845cc21b121219caf5c2acb51b1314d814"
+        }
+    },
+    "shortcuts": [
+        [
+            "hyper8.exe",
+            "Hyper 8"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.simonrepp.hyper8\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "url": "https://hyper8.org/download.html",
+        "regex": "hyper8-([\\d.]+)-windows-x64\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://hyper8.org/packages/hyper8-$version-windows-x64.exe#/dl.7z"
+            }
+        }
+    }
+}
