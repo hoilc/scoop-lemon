@@ -1,16 +1,16 @@
 {
-    "version": "0.06-20260323",
+    "version": "0.06-20260803",
     "description": "(BETA Version) A PE file viewer/editor.",
     "homepage": "https://github.com/horsicq/XPEViewer",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/horsicq/XPEViewer/releases/download/Beta/xpeviewer_win64_portable_0.06_x64.zip",
-            "hash": "2c956c17586339811cbabb456d9d94f088d8b92d31c0bbb31c6fac60828bc47a"
+            "hash": "9de225fa0dfc59949480d93df7ce236686c1295534070b0f9563fcbac83a5cb9"
         },
         "32bit": {
             "url": "https://github.com/horsicq/XPEViewer/releases/download/Beta/xpeviewer_win32_portable_0.06_x86.zip",
-            "hash": "939333681d9d0350668d88fa771afd734edf4638c5252fef088d4666cb82801d"
+            "hash": "6ee569b40e779b69ee718bec4850fb35f998e8ead7d6e8687ff0bcf0bbee0bf7"
         }
     },
     "shortcuts": [
