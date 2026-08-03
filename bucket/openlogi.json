@@ -1,16 +1,16 @@
 {
-    "version": "0.6.22",
+    "version": "0.6.23",
     "description": "A native, local-first alternative to Logitech Options+, written in Rust.",
     "homepage": "https://openlogi.org/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.6.22/OpenLogi-v0.6.22-windows-x86_64.zip",
-            "hash": "e8620acddce2807ebd1c0edc060a9c303363d085327b0cdf9f7bcfbf1cf8d6d4"
+            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.6.23/OpenLogi-v0.6.23-windows-x86_64.zip",
+            "hash": "d7b7fa2f6198f08119f40b458938abe207ba8d5c4386c207f88aeb5740ff7319"
         },
         "arm64": {
-            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.6.22/OpenLogi-v0.6.22-windows-arm64.zip",
-            "hash": "5effd58dab53fa2bcc594ca038a78d0cbba4a9a10e60862197747d483db81e66"
+            "url": "https://github.com/AprilNEA/OpenLogi/releases/download/v0.6.23/OpenLogi-v0.6.23-windows-arm64.zip",
+            "hash": "f20762341e55c020ad9f4f2fdc6e30c695d7d712ef224a6561e693e069db7cbf"
         }
     },
     "shortcuts": [
