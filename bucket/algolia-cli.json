@@ -1,20 +1,20 @@
 {
-    "version": "1.15.0",
+    "version": "1.15.1",
     "description": "Algolia’s official CLI devtool.",
     "homepage": "https://www.algolia.com/doc/tools/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.15.0/algolia_1.15.0_windows_amd64.zip",
-            "hash": "a47337dd39ae4bdfbf3c51bc61acd6a1ced0b54d059d829230cbc3dda3df10f6"
+            "url": "https://github.com/algolia/cli/releases/download/v1.15.1/algolia_1.15.1_windows_amd64.zip",
+            "hash": "345ec869f33c420b20129466f997f81a5876e7a07457107a052d6383c64255f7"
         },
         "32bit": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.15.0/algolia_1.15.0_windows_386.zip",
-            "hash": "0b53d532d04d3e146b9aada2ffc33e2aa77e329408d32119a93d4b7a56705885"
+            "url": "https://github.com/algolia/cli/releases/download/v1.15.1/algolia_1.15.1_windows_386.zip",
+            "hash": "47b03c740a5b6cb05fa6e24f1d0cf04e26720a1efc9132c27826ba1d5c9fe338"
         },
         "arm64": {
-            "url": "https://github.com/algolia/cli/releases/download/v1.15.0/algolia_1.15.0_windows_arm64.zip",
-            "hash": "17b10f9293c80ef45f929c5e507574d06df3ee2e3176804d6347d3d369401b0f"
+            "url": "https://github.com/algolia/cli/releases/download/v1.15.1/algolia_1.15.1_windows_arm64.zip",
+            "hash": "b9a9a8f1cc0a9a7f77d1d646ab5be65113cb943a22bf9d6b236137876795c0cc"
         }
     },
     "bin": "algolia.exe",
