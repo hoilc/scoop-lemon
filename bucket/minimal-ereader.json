@@ -1,13 +1,13 @@
 {
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "Minimal eReader is a lightweight, blazing fast, portable, and open-source document viewer and annotator for Windows.",
     "homepage": "https://github.com/deminimis/Minimal-eReader",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deminimis/Minimal-eReader/releases/download/v1.1/Minimal-eReader_Portable_v1.1_x64.zip",
-            "extract_dir": "Minimal eReader v1.1",
-            "hash": "fda7ecf133c11a40f9fc72ec15a30c233548cd65f13d7379d916a02c6bc5e01b"
+            "url": "https://github.com/deminimis/Minimal-eReader/releases/download/v1.1.1/Minimal-eReader_Portable_v1.1.1_x64.zip",
+            "extract_dir": "Minimal eReader v1.1.1",
+            "hash": "c644206bedcaaad40ace46e60c5fe9785fa20ce929912672199a0fe248bfb926"
         }
     },
     "shortcuts": [
