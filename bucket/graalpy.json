@@ -1,19 +1,19 @@
 {
-    "version": "25.1.3",
+    "version": "25.2.4",
     "description": "A high-performance embeddable Python 3 runtime for Java.",
     "homepage": "https://www.graalvm.org/python/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oracle/graalpython/releases/download/graal-25.1.3/graalpy3.12-25.1.3-windows-amd64.zip",
-            "extract_dir": "graalpy3.12-25.1.3-windows-amd64",
-            "hash": "2958b86e28cb820e918c8f20a94e84740ed5b65158587b35337d438b0869de41"
+            "url": "https://github.com/oracle/graalpython/releases/download/graal-25.2.4/graalpy3.12-25.2.4-windows-amd64.zip",
+            "extract_dir": "graalpy3.12-25.2.4-windows-amd64",
+            "hash": "b5f9aaec93b2771ef58ea10113cc26ab8291e2748e6c265a6b9538f771d543d0"
         }
     },
     "bin": "bin\\graalpy.exe",
     "checkver": {
-        "url": "https://github.com/oracle/graalpython/releases.atom",
-        "regex": "Repository/\\d+/graal-(.+?)<"
+        "url": "https://repo1.maven.org/maven2/org/graalvm/polyglot/python/maven-metadata.xml",
+        "regex": "<latest>([\\d.]+)</latest>"
     },
     "autoupdate": {
         "architecture": {
