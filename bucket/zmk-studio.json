@@ -1,0 +1,28 @@
+{
+    "version": "0.3.1",
+    "description": "A tool for runtime keymap updates on ZMK-powered devices without reflashing firmware.",
+    "homepage": "https://github.com/zmkfirmware/zmk-studio",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zmkfirmware/zmk-studio/releases/download/v0.3.1/ZMK.Studio_0.3.1_x64-setup.exe#/dl.7z",
+            "hash": "117970bfd24b3f1bd7171a228250eeec685ded939d10252d4ba2c2fb90197d5a"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "zmk-studio.exe",
+            "ZMK Studio"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\dev.zmk.studio\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zmkfirmware/zmk-studio/releases/download/v$version/ZMK.Studio_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
