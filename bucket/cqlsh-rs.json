@@ -1,13 +1,13 @@
 {
-    "version": "0.5.16",
+    "version": "0.5.17",
     "description": "A ground-up Rust re-implementation of the Python cqlsh — the official interactive CQL shell for Apache Cassandra and compatible databases (ScyllaDB, Amazon Keyspaces, Astra DB).",
     "homepage": "https://scylladb.github.io/cqlsh-rs/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scylladb/cqlsh-rs/releases/download/v0.5.16/cqlsh-rs-0.5.16-x86_64-pc-windows-msvc.zip",
-            "hash": "3af18f58aad9595b4d273fae84fb2575883e7d406827306ef054b6dd9d60ac8c",
-            "extract_dir": "cqlsh-rs-0.5.16-x86_64-pc-windows-msvc"
+            "url": "https://github.com/scylladb/cqlsh-rs/releases/download/v0.5.17/cqlsh-rs-0.5.17-x86_64-pc-windows-msvc.zip",
+            "hash": "9be8dcfd9e4873eeef93543688628c7907384602a757c8d2283a91f1597e6148",
+            "extract_dir": "cqlsh-rs-0.5.17-x86_64-pc-windows-msvc"
         }
     },
     "bin": "cqlsh-rs.exe",
