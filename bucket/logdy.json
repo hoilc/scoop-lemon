@@ -1,0 +1,30 @@
+{
+    "version": "0.17.1",
+    "description": "A realtime log viewer with web UI, tail -f for logs with a web interface browser.",
+    "homepage": "https://logdy.dev",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/logdyhq/logdy-core/releases/download/v0.17.1/logdy_windows_amd64.exe#/logdy.exe",
+            "hash": "13edbec7cb479b21bc20e7198de2711166247e1cf508f749f325e6d11ed73a0f"
+        },
+        "32bit": {
+            "url": "https://github.com/logdyhq/logdy-core/releases/download/v0.17.1/logdy_windows_386.exe#/logdy.exe",
+            "hash": "753ff8855a60a22401a1f982040ff564dc656f79274f2b7f0b751c21e6aaeb36"
+        }
+    },
+    "bin": "logdy.exe",
+    "checkver": {
+        "github": "https://github.com/logdyhq/logdy-core"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/logdyhq/logdy-core/releases/download/v$version/logdy_windows_amd64.exe#/logdy.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/logdyhq/logdy-core/releases/download/v$version/logdy_windows_386.exe#/logdy.exe"
+            }
+        }
+    }
+}
