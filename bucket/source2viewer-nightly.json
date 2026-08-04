@@ -1,12 +1,12 @@
 {
-    "version": "b6759-20260803-2dca84f",
+    "version": "b6762-20260804-d3345e7",
     "description": "(Dev Builds) An all-in-one tool to browse VPK archives, view, extract, and decompile Source 2 assets.",
     "homepage": "https://s2v.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ValveResourceFormat/ValveResourceFormat/actions/runs/30858541255/Source2Viewer.zip",
-            "hash": "2619aeb1cfd5b255240d973042935f0eb904222c31c34430f7dd96ee963dfb5b"
+            "url": "https://nightly.link/ValveResourceFormat/ValveResourceFormat/actions/runs/30908262847/Source2Viewer.zip",
+            "hash": "5ed6f035eaff95b04ad1e8c3063048bc60f910e31a1e53bd9d70ee313f58714c"
         }
     },
     "shortcuts": [
