@@ -1,12 +1,12 @@
 {
-    "version": "3.7.22",
+    "version": "3.7.23",
     "description": "Unofficial fork of SumatraPDF, a document reader (PDF, EPUB, MOBI, and more) with improvements for Chinese ebooks, offline lookup, themes, and smart PDF dark mode.",
     "homepage": "https://github.com/dengxibo/sumatrapdf-plus",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.22/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
-            "hash": "5dadfbdb483bd8ccfda19b4723195b213cfaf87e9284b7ca8a5fb272a1c4868c"
+            "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.23/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
+            "hash": "6a7b018315d13c6cee5e3484b9b9590f817e12179d0c750d4b169317cf255a5a"
         }
     },
     "shortcuts": [
