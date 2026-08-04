@@ -1,0 +1,26 @@
+{
+    "version": "0.1.8",
+    "description": "Official Elixir Language Server Protocol implementation.",
+    "homepage": "https://www.expert-lsp.org",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/expert-lsp/expert/releases/download/v0.1.8/expert_windows_amd64.exe#/expert.exe",
+            "hash": "6214f1663ab634a76b662ceb9431bf5804821254052cdfa2d950d300e436e8c5"
+        }
+    },
+    "bin": "expert.exe",
+    "checkver": {
+        "github": "https://github.com/expert-lsp/expert"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/expert-lsp/expert/releases/download/v$version/expert_windows_amd64.exe#/expert.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/expert_checksums.txt"
+        }
+    }
+}
