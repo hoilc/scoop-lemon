@@ -1,0 +1,27 @@
+{
+    "version": "5.37.2",
+    "description": "A tiny, portable, and fully isolated crypto VM for building privacy-preserving applications, smart contracts, and secure data workflows.",
+    "homepage": "https://dev.zenroom.org",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dyne/Zenroom/releases/download/v5.37.2/zenroom-win64.zip",
+            "hash": "184ff9dee0bdb3f7058c748c243e6c78bddfea13054add0385fae0d54b74b2b8",
+            "extract_dir": "zenroom-win64"
+        }
+    },
+    "bin": [
+        "zenroom.exe",
+        "zencode-exec.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/dyne/Zenroom"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dyne/Zenroom/releases/download/v$version/zenroom-win64.zip"
+            }
+        }
+    }
+}
