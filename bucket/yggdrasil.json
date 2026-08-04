@@ -2,7 +2,10 @@
     "version": "0.5.14",
     "description": "An early-stage implementation of a fully end-to-end encrypted IPv6 networking protocol.",
     "homepage": "https://yggdrasil-network.github.io/",
-    "license": "MPL-2.0",
+    "license": {
+        "identifier": "LGPL-3.0-only",
+        "url": "https://github.com/yggdrasil-network/yggdrasil-go/blob/develop/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.14/yggdrasil-0.5.14-x64.msi",
