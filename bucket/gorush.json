@@ -1,0 +1,31 @@
+{
+    "version": "1.22.0",
+    "description": "A push notification server written in Go.",
+    "homepage": "https://github.com/appleboy/gorush",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/appleboy/gorush/releases/download/v1.22.0/gorush-1.22.0-windows-amd64.exe#/gorush.exe",
+            "hash": "bfd8d0060bc005461728521b7fcbfb767d7c6461ebb8efd2370b26212e355367"
+        },
+        "32bit": {
+            "url": "https://github.com/appleboy/gorush/releases/download/v1.22.0/gorush-1.22.0-windows-386.exe#/gorush.exe",
+            "hash": "74def81905a471f44868336b0531afbab59272a54e571b365cf3be86f61c3f14"
+        }
+    },
+    "bin": "gorush.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/appleboy/gorush/releases/download/v$version/gorush-$version-windows-amd64.exe#/gorush.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/appleboy/gorush/releases/download/v$version/gorush-$version-windows-386.exe#/gorush.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
