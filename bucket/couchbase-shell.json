@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Couchbase Shell (cbsh) is a modern, productive and fun shell for Couchbase Server and Cloud.",
     "homepage": "http://couchbase.sh/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v1.3.0/cbsh-x86_64-pc-windows-msvc.zip",
-            "hash": "81e1376032bf578ea50f6632875f9d3e7616e87bfaed54193cdb746e767f4fe6"
+            "url": "https://github.com/couchbaselabs/couchbase-shell/releases/download/v1.4.0/cbsh-x86_64-pc-windows-msvc.zip",
+            "hash": "c0e5fc038cac4a919dd6f7763cd42fd5325425e5a82815a75bdb5488a6d00556"
         }
     },
     "bin": "cbsh.exe",
