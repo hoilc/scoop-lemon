@@ -1,0 +1,21 @@
+{
+    "version": "0.1.16",
+    "description": "A command-line tool for managing Taubyte projects, resources, and cloud workflows.",
+    "homepage": "https://github.com/taubyte/tau-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/taubyte/tau-cli/releases/download/v0.1.16/tau-cli_0.1.16_windows_amd64.tar.gz",
+            "hash": "639b9979aad2169ff6711592e848f2924cdac0e95f7745a2a1b35cd350059d04"
+        }
+    },
+    "bin": "tau.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/taubyte/tau-cli/releases/download/v$version/tau-cli_$version_windows_amd64.tar.gz"
+            }
+        }
+    }
+}
