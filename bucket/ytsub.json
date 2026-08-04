@@ -1,0 +1,27 @@
+{
+    "version": "0.10.0",
+    "description": "A subscriptions only TUI YouTube client.",
+    "homepage": "https://github.com/sarowish/ytsub",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sarowish/ytsub/releases/download/v0.10.0/ytsub-0.10.0-x86_64-pc-windows-msvc.zip",
+            "hash": "793c13d7fa5b3918c0932f13e0e1a9e5ef8aebf47d1d44275659aaa0fbd5f436"
+        }
+    },
+    "extract_dir": "ytsub-0.10.0",
+    "bin": "ytsub.exe",
+    "suggest": {
+        "mpv": "mpv",
+        "yt-dlp": "versions/yt-dlp-nightly"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sarowish/ytsub/releases/download/v$version/ytsub-$version-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "extract_dir": "ytsub-$version"
+    }
+}
