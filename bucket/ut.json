@@ -1,0 +1,24 @@
+{
+    "version": "0.7.0",
+    "description": "A Rust based utility toolbox for developers.",
+    "homepage": "https://github.com/ksdme/ut",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ksdme/ut/releases/download/v0.7.0/ut-x86_64-pc-windows-msvc.zip",
+            "hash": "2df988cb2e1c0448662187428ab20a95a1b5453b00145cdbf51a8074b64545a5"
+        }
+    },
+    "bin": "ut.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ksdme/ut/releases/download/v$version/ut-x86_64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256.sum"
+        }
+    }
+}
