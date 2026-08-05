@@ -1,0 +1,29 @@
+{
+    "version": "1.4.0",
+    "description": "A visual MIPS64 CPU simulator written in Java.",
+    "homepage": "https://edumips.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/EduMIPS64/edumips64/releases/download/v1.4.0/EduMIPS64-1.4.0.msi",
+            "hash": "08831280620c8f1697a0e5867a0dd1ad67d6539f528163aaa453537159f20d98"
+        }
+    },
+    "extract_dir": "EduMIPS64",
+    "shortcuts": [
+        [
+            "EduMIPS64.exe",
+            "EduMIPS64"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/EduMIPS64/edumips64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/EduMIPS64/edumips64/releases/download/v$version/EduMIPS64-$version.msi"
+            }
+        }
+    }
+}
