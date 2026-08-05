@@ -1,0 +1,27 @@
+{
+    "version": "1.0.14",
+    "description": "The game 2048, built using JavaFX.",
+    "homepage": "https://github.com/brunoborges/fx2048",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/brunoborges/fx2048/releases/download/v1.0.14/fx2048-v1.0.14-windows-x64.msi",
+            "hash": "c7f8cc8d7a0ec4150bff292c86436be7b2cec6cafc27c9add1ffb2f00724b40a"
+        }
+    },
+    "extract_dir": "fx2048",
+    "shortcuts": [
+        [
+            "fx2048.exe",
+            "FX2048"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/brunoborges/fx2048/releases/download/v$version/fx2048-v$version-windows-x64.msi"
+            }
+        }
+    }
+}
