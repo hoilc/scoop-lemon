@@ -1,16 +1,16 @@
 {
-    "version": "2026-06-18T00-00-00Z",
+    "version": "2026-08-04T00-00-00Z",
     "description": "A conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-06-18T00-00-00Z/minio_20260618000000.0.0_windows_amd64.tar.gz",
-            "hash": "50963bd9a1880f0f92a1e32523161ea4c35678f8c02aa4a1c20b49186ae9e516"
+            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-08-04T00-00-00Z/minio_20260804000000.0.0_windows_amd64.tar.gz",
+            "hash": "c2160a4ccbb80ce1d45f69cc35137cb5ba68f638cc2f86ebfb3d0523ce3e0d74"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-06-18T00-00-00Z/minio_20260618000000.0.0_windows_arm64.tar.gz",
-            "hash": "f661a7a88600dc084ab9eb187d89ec75ec98e0a90f078a5161a8aefea6468675"
+            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-08-04T00-00-00Z/minio_20260804000000.0.0_windows_arm64.tar.gz",
+            "hash": "4d406f7f1a6b317d80d817f07ffacd7fc397495c6ee4a00915fbe965a7b95a6a"
         }
     },
     "bin": "minio.exe",
