@@ -1,12 +1,12 @@
 {
-    "version": "3.2",
+    "version": "3.2.1",
     "description": "A minimalist Windows desktop sticky note tool. | 极简 Windows 桌面便签工具",
     "homepage": "https://github.com/snownico0722/PaperTodo",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/snownico0722/PaperTodo/releases/download/v3.2/PaperTodo-v3.2-win-x64-self-contained.exe#/PaperTodo.exe",
-            "hash": "a026678465f4349021f2f87357035817101ecdc9d2cfbc603c89b74fe0972e4f"
+            "url": "https://github.com/snownico0722/PaperTodo/releases/download/v3.2.1/PaperTodo-v3.2.1-win-x64-self-contained.exe#/PaperTodo.exe",
+            "hash": "0c7745744d326acc77a2f17ae150705a746e99d9cda9abc8b12c84126303228f"
         }
     },
     "shortcuts": [
