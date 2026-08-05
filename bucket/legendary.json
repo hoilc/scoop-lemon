@@ -1,12 +1,16 @@
 {
-    "version": "0.20.34",
+    "version": "0.21.0",
     "description": "A free and open-source replacement for the Epic Games Launcher.",
     "homepage": "https://github.com/derrod/legendary",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derrod/legendary/releases/download/0.20.34/legendary.exe",
-            "hash": "bba6cd5bd25b2550266517f4da7b56287273f46a5cd73cd74f9ac8eea0145c3b"
+            "url": "https://github.com/legendary-gl/legendary/releases/download/0.21.0/legendary_windows_x64.exe#/legendary.exe",
+            "hash": "4c01a14c0acb0c46069b197ae7212ea4ea6b861661126ca0593cdac31658fb01"
+        },
+        "arm64": {
+            "url": "https://github.com/legendary-gl/legendary/releases/download/0.21.0/legendary_windows_arm64.exe#/legendary.exe",
+            "hash": "839e0d2298f9126608b0c851b9231055e8fa907c624a8bce0a58278efb221068"
         }
     },
     "bin": "legendary.exe",
@@ -14,7 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe"
+                "url": "https://github.com/legendary-gl/legendary/releases/download/$version/legendary_windows_x64.exe#/legendary.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/legendary-gl/legendary/releases/download/$version/legendary_windows_arm64.exe#/legendary.exe"
             }
         }
     }
