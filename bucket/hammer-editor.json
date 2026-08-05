@@ -1,0 +1,34 @@
+{
+    "version": "3.8.0",
+    "description": "A simple tool for building stories.",
+    "homepage": "https://hammer.ink/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.8.0/hammer.exe#/dl.exe",
+            "hash": "0e321baf695dc4cff0b974fc31ed456d6a912236503d1266c91bc003b3e09065"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\dl.exe\" -DestinationPath \"$dir\" -Removal -Switches '-t# *.msi'",
+            "Get-ChildItem \"$dir\" '*.msi' | Select-Object -First 1 -ExpandProperty FullName | Expand-MsiArchive -DestinationPath \"$dir\" -ExtractDir 'hammer' -Removal"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Hammer.exe",
+            "Hammer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Darkrock-Studios/hammer-editor"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v$version/hammer.exe#/dl.exe"
+            }
+        }
+    }
+}
