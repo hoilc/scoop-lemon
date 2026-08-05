@@ -9,6 +9,7 @@
             "hash": "3623ddbd71b32623692db563f3d78f9359c484330a983f9e5e480b624984d338"
         }
     },
+    "extract_dir": "chainsaw",
     "bin": "chainsaw.exe",
     "checkver": "github",
     "autoupdate": {
