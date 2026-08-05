@@ -1,0 +1,35 @@
+{
+    "version": "3.9",
+    "description": "A desktop application for fast UML diagramming.",
+    "homepage": "https://www.jetuml.org/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/prmr/JetUML/releases/download/v3.9/JetUML-3.9-win.exe",
+            "hash": "941a5b80ba40d7948fb651e09e8adbfb87fe811ece3f147a973cb65d7c4a9a73"
+        }
+    },
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\" 'JetUML-*-win.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal -Switches '-t# *.msi'",
+            "Get-ChildItem \"$dir\" '*.msi' | Select-Object -First 1 -ExpandProperty FullName | Expand-MsiArchive -DestinationPath \"$dir\" -ExtractDir 'JetUML' -Removal"
+        ]
+    },
+    "bin": "JetUML.exe",
+    "shortcuts": [
+        [
+            "JetUML.exe",
+            "JetUML"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/prmr/JetUML"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prmr/JetUML/releases/download/v$version/JetUML-$version-win.exe"
+            }
+        }
+    }
+}
