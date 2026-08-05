@@ -1,0 +1,22 @@
+{
+    "version": "1.1.1",
+    "description": "Go implementation of noisy HTTP/DNS traffic generator.",
+    "homepage": "https://github.com/calpa/urusai",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/calpa/urusai/releases/download/v1.1.1/urusai-windows-amd64.zip",
+            "hash": "60896eaebec8b05b77666d975e56f3410ff47dbb3212afdb45842d2c68a76aef"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'urusai?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'urusai.exe'",
+    "bin": "urusai.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/calpa/urusai/releases/download/v$version/urusai-windows-amd64.zip"
+            }
+        }
+    }
+}
