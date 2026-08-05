@@ -9,7 +9,8 @@
             "hash": "e49e393e7f8b664b690b0334b613439b68baac713090b7e26144536f6d116d97"
         },
         "arm64": {
-            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.3.3/sshamble-v0.3.3-windows-arm64.zip"
+            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.3.3/sshamble-v0.3.3-windows-arm64.zip",
+            "hash": "c2b55d6341949ae132c7a56a599f6bcebd7a3e4a7502513e303cf238f8b24bdc"
         }
     },
     "extract_dir": "sshamble",
