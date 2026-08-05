@@ -14,7 +14,10 @@
         }
     },
     "bin": "shell-use.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/microsoft/shell-use/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
