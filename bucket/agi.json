@@ -1,0 +1,40 @@
+{
+    "version": "3.3.3",
+    "description": "Android GPU Inspector is a powerful graphics profiler that will help you analyze the impact your game has on Android devices.",
+    "homepage": "https://developer.android.com/agi",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/google/agi/releases/download/v3.3.3/agi-3.3.3-windows.zip",
+            "hash": "3fad329ede78ee3d8fb9947906b138afa851c851ad22b20fb47d5388e25500c2"
+        }
+    },
+    "extract_dir": "agi",
+    "shortcuts": [
+        [
+            "agi.exe",
+            "Android GPU Inspector",
+            "",
+            "agi.ico"
+        ]
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ],
+        "Android Debug Bridge": "main/adb"
+    },
+    "checkver": {
+        "github": "https://github.com/google/agi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/google/agi/releases/download/v$version/agi-$version-windows.zip"
+            }
+        }
+    }
+}
