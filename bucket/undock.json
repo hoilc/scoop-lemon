@@ -1,0 +1,33 @@
+{
+    "version": "0.14.0",
+    "description": "Extract contents of a container image in a local folder.",
+    "homepage": "https://crazymax.dev/undock/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/crazy-max/undock/releases/download/v0.14.0/undock_0.14.0_windows_amd64.zip",
+            "hash": "b4dbb6948298ed129add68af966b69a1d0e97ee1b141199ceba26de83c7724e9"
+        },
+        "arm64": {
+            "url": "https://github.com/crazy-max/undock/releases/download/v0.14.0/undock_0.14.0_windows_arm64.zip",
+            "hash": "1df5d18b0581312f4a77ca6f355bedf03a14e1bef564de4d391703e1727b0fa8"
+        }
+    },
+    "bin": "undock.exe",
+    "checkver": {
+        "github": "https://github.com/crazy-max/undock"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/crazy-max/undock/releases/download/v$version/undock_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/crazy-max/undock/releases/download/v$version/undock_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
