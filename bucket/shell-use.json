@@ -1,0 +1,31 @@
+{
+    "version": "0.0.1-beta.6",
+    "description": "Make the terminal/shell accessible for AI agents to automate tasks with ease.",
+    "homepage": "https://github.com/microsoft/shell-use",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/microsoft/shell-use/releases/download/v0.0.1-beta.6/shell-use-x86_64-pc-windows-msvc.zip",
+            "hash": "c48df4c0bb179c1ca3f6c1b9747d5fb9f286d19b89b48d879d053d30a10f3b95"
+        },
+        "arm64": {
+            "url": "https://github.com/microsoft/shell-use/releases/download/v0.0.1-beta.6/shell-use-aarch64-pc-windows-msvc.zip",
+            "hash": "be341dde121c463fad08ab479aaafd6fa37bcc80e3a3d3bdf7045cbe9e9dbf1a"
+        }
+    },
+    "bin": "shell-use.exe",
+    "checkver": {
+        "url": "https://github.com/microsoft/shell-use/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/microsoft/shell-use/releases/download/v$version/shell-use-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/microsoft/shell-use/releases/download/v$version/shell-use-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
