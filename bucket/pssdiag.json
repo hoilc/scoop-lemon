@@ -1,0 +1,15 @@
+{
+    "version": "16.23.08.08",
+    "description": "A graphic interface that provides customization capabilities to collect data for SQL Server using sqldiag collector engine.",
+    "homepage": "https://github.com/microsoft/DiagManager",
+    "license": "MIT",
+    "url": "https://github.com/microsoft/DiagManager/releases/download/Win16.23.08.08/PSSDIAG_v_16_23_08_08.zip",
+    "hash": "7f348e880bf16fdd90d65789fc8d9342c1b57aa824ee102db6f55f6775827afb",
+    "shortcuts": [
+        [
+            "DiagManager.exe",
+            "Pssdiag/Sqldiag Configuration Manager"
+        ]
+    ],
+    "notes": "The pssdiag Configuration Manager utility is no longer in active development and will not receive future updates."
+}
