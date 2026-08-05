@@ -1,16 +1,16 @@
 {
-    "version": "4.9.0",
+    "version": "4.10.0",
     "description": "Track token usage across AI coding agents from your terminal.",
     "homepage": "https://github.com/junhoyeo/tokscale",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/@tokscale/cli-win32-x64-msvc/-/cli-win32-x64-msvc-4.9.0.tgz",
-            "hash": "5067a032724a505813af577afd188a8e9b61e96a93e0f31fe3ffed7eb3024a81"
+            "url": "https://registry.npmmirror.com/@tokscale/cli-win32-x64-msvc/-/cli-win32-x64-msvc-4.10.0.tgz",
+            "hash": "5d50c7284e9c3a2abbbef945636fed15868522dfa02ade3715d93421c6e77769"
         },
         "arm64": {
-            "url": "https://registry.npmmirror.com/@tokscale/cli-win32-arm64-msvc/-/cli-win32-arm64-msvc-4.9.0.tgz",
-            "hash": "fd5b41971d56b79d05278c364582219c45f00dd02991ab522ea3992407b884b9"
+            "url": "https://registry.npmmirror.com/@tokscale/cli-win32-arm64-msvc/-/cli-win32-arm64-msvc-4.10.0.tgz",
+            "hash": "9700fcb158926a9a5366cbec25fd85205772d8d00fd246827329bc6d19ae606e"
         }
     },
     "extract_dir": "package\\bin",
