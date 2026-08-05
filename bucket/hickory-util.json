@@ -1,0 +1,37 @@
+{
+    "version": "0.26.1",
+    "description": "Utilities that complement Hickory DNS.",
+    "homepage": "https://hickory-dns.org/",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/hickory-util-0.26.1/hickory-util-0.26.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "af7e8cce8e2802d4b2db0e60900d6c71d520d5478cabf42b455e30bffcb0366b"
+        }
+    },
+    "bin": [
+        [
+            "dns.exe",
+            "hickory-client"
+        ],
+        [
+            "recurse.exe",
+            "hickory-recurse"
+        ],
+        [
+            "resolve.exe",
+            "hickory-resolve"
+        ]
+    ],
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/hickory-util?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/hickory-util-$version/hickory-util-$version-x86_64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
