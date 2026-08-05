@@ -1,0 +1,42 @@
+{
+    "version": "0.21.1",
+    "description": "An archiving tool with an IM-style interface that integrates various archival services including Internet Archive, archive.today, Ghostarchive, IPFS, and Telegraph.",
+    "homepage": "https://docs.wabarc.eu.org",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wabarc/wayback/releases/download/v0.21.1/wayback-windows-amd64-0.21.1.zip",
+            "hash": "80c5b353d8fc180d725d76a44758ad6c3fa6dc381c2bd56b0e21ce785b9f15e2"
+        },
+        "32bit": {
+            "url": "https://github.com/wabarc/wayback/releases/download/v0.21.1/wayback-windows-386-0.21.1.zip",
+            "hash": "862d7f81b6f4865ef9f750bce72c6d288e52715c4b1d58c9f392398b569cb32f"
+        },
+        "arm64": {
+            "url": "https://github.com/wabarc/wayback/releases/download/v0.21.1/wayback-windows-arm64-0.21.1.zip",
+            "hash": "bfb8a6707ae3ceaa3a24640252425b8af6e83770c09932172bf213066809660d"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'wayback?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'wayback.exe'",
+    "bin": "wayback.exe",
+    "checkver": {
+        "url": "https://github.com/wabarc/wayback/releases.atom",
+        "regex": "Repository/\\d+/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wabarc/wayback/releases/download/v$version/wayback-windows-amd64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/wabarc/wayback/releases/download/v$version/wayback-windows-386-$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/wabarc/wayback/releases/download/v$version/wayback-windows-arm64-$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/wayback-$version-checksums.txt"
+        }
+    }
+}
