@@ -1,0 +1,40 @@
+{
+    "version": "0.35.3",
+    "description": "An immutable, decentralized, statically built P2P VPN without any central server and automatic discovery.",
+    "homepage": "https://mudler.github.io/edgevpn",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.35.3/edgevpn-v0.35.3-Windows-x86_64.tar.gz",
+            "hash": "7199a0c16e442fccc5e9438a838219ddcb94762b5ac205bdf72704d8a94013be"
+        },
+        "32bit": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.35.3/edgevpn-v0.35.3-Windows-i386.tar.gz",
+            "hash": "adac8ed55f6e6623b82172a7bf74651fd1ad80fdb522e0c8e4b72043c567fcd1"
+        },
+        "arm64": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.35.3/edgevpn-v0.35.3-Windows-arm64.tar.gz",
+            "hash": "15059e2a37cbb7b7a9ca884650f473416a88e710cd8a2d87fd02403f577f3414"
+        }
+    },
+    "bin": "edgevpn.exe",
+    "checkver": {
+        "github": "https://github.com/mudler/edgevpn"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-i386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/edgevpn-v$version-checksums.txt"
+        }
+    }
+}
