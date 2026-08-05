@@ -1,12 +1,18 @@
 {
-    "version": "3.7.23",
+    "version": "3.7.25",
     "description": "Unofficial fork of SumatraPDF, a document reader (PDF, EPUB, MOBI, and more) with improvements for Chinese ebooks, offline lookup, themes, and smart PDF dark mode.",
     "homepage": "https://github.com/dengxibo/sumatrapdf-plus",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.23/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
-            "hash": "6a7b018315d13c6cee5e3484b9b9590f817e12179d0c750d4b169317cf255a5a"
+            "url": [
+                "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.23/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
+                "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.25/SumatraPDF.exe#/SumatraPDF.override.exe"
+            ],
+            "hash": [
+                "6a7b018315d13c6cee5e3484b9b9590f817e12179d0c750d4b169317cf255a5a",
+                "bb24fbafd2f99ead58a49c9dd36dce74a1d5f0d6edae02282897fa25af672d41"
+            ]
         }
     },
     "shortcuts": [
@@ -15,7 +21,10 @@
             "Sumatra PDF Plus"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\SumatraPDF-settings.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\SumatraPDF-settings.txt\" -Value 'CheckForUpdates = false' }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\SumatraPDF-settings.txt\")) { Set-Content -Encoding ASCII -Path \"$dir\\SumatraPDF-settings.txt\" -Value 'CheckForUpdates = false' }",
+        "if (Test-Path \"$dir\\SumatraPDF.override.exe\") { Move-Item \"$dir\\SumatraPDF.override.exe\" \"$dir\\SumatraPDF.exe\" -Force }"
+    ],
     "persist": [
         "SumatraPDF-settings.txt",
         "sumatrapdfcache"
