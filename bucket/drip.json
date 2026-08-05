@@ -1,0 +1,40 @@
+{
+    "version": "0.7.11",
+    "description": "A self-hosted tunneling solution to expose localhost securely with unlimited bandwidth and no third-party servers.",
+    "homepage": "https://driptunnel.app",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Gouryella/drip/releases/download/v0.7.11/drip_0.7.11_windows_amd64.tar.gz",
+            "hash": "6869557f6f2f2bf263f0364b53a791a0f6e5f2807bdd9e6ccd951f40bbcdc032"
+        },
+        "32bit": {
+            "url": "https://github.com/Gouryella/drip/releases/download/v0.7.11/drip_0.7.11_windows_386.tar.gz",
+            "hash": "e57142b72f774e3466ce84ae150a347a3dc3565948c6ae2c88b3bbca43ad1b5d"
+        },
+        "arm64": {
+            "url": "https://github.com/Gouryella/drip/releases/download/v0.7.11/drip_0.7.11_windows_arm64.tar.gz",
+            "hash": "ece4fecabc3cb48c4287c164fa09eb1803ff7aa993c41487b21b6ebcb623fb59"
+        }
+    },
+    "bin": "drip.exe",
+    "checkver": {
+        "github": "https://github.com/Gouryella/drip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Gouryella/drip/releases/download/v$version/drip_$version_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/Gouryella/drip/releases/download/v$version/drip_$version_windows_386.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/Gouryella/drip/releases/download/v$version/drip_$version_windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/drip_$version_checksums.txt"
+        }
+    }
+}
