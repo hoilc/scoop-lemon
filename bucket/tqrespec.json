@@ -1,0 +1,31 @@
+{
+    "version": "1.2.1",
+    "description": "A tool for Titan Quest game that helps you to change your character at any time.",
+    "homepage": "https://github.com/epinter/tqrespec",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/epinter/tqrespec/releases/download/v1.2.1/TQRespec-1.2.1.zip",
+            "hash": "8153d4e93417c2e539f61b43070bbd89e7754c7f6ebbd095fde7fed36c606a9f"
+        }
+    },
+    "extract_dir": "TQRespec",
+    "bin": [
+        "texconverter-cli.exe",
+        "tqextract-cli.exe"
+    ],
+    "shortcuts": [
+        [
+            "TQRespec.exe",
+            "TQ Respec"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/epinter/tqrespec/releases/download/v$version/TQRespec-$version.zip"
+            }
+        }
+    }
+}
