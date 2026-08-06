@@ -1,12 +1,12 @@
 {
-    "version": "1.8.8.2",
+    "version": "1.8.8.3",
     "description": "公文格式自动处理工具，能够智能识别文档中的标点、排版和字体问题，并可以根据国家标准（GB/T 9704-2012）进行一键自动化修复",
     "homepage": "https://github.com/KaguraNanaga/docformat-gui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KaguraNanaga/docformat-gui/releases/download/v1.8.8.2/docformat_windows.exe#/docformat.exe",
-            "hash": "2a3de66ee6d71ffb3c21e1671abea65f97b642818500c6ec40eb67a85bde8b68"
+            "url": "https://github.com/KaguraNanaga/docformat-gui/releases/download/v1.8.8.3/docformat_windows.exe#/docformat.exe",
+            "hash": "5004305d82a2dc254784bfcb84984bc13afbf002cc05b8edda74a2bd1db1d0c8"
         }
     },
     "shortcuts": [
