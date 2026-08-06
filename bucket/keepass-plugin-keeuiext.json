@@ -5,7 +5,7 @@
     "license": "Freeware",
     "depends": "extras/keepass",
     "url": "https://keepass.info/extensions/v2/keeuiext/KeeUIExt-1.5.zip",
-    "hash": "fbd0f4519a842f33a3c793b23b4b67f289794ce9133677e8ce396e93b1b72a9f",
+    "hash": "3f9e5daff550299717a2c2ea3bb83636a110efdf38445d16279de6a202124947",
     "checkver": {
         "regex": "KeeUIExt-([\\d.]+).zip"
     },
