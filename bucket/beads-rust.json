@@ -1,12 +1,12 @@
 {
-    "version": "0.2.21",
+    "version": "0.2.22",
     "description": "A Rust port of Steve Yegge's beads, frozen at the \"classic\" SQLite + JSONL architecture.",
     "homepage": "https://github.com/Dicklesworthstone/beads_rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dicklesworthstone/beads_rust/releases/download/v0.2.21/br-0.2.21-windows_amd64.zip",
-            "hash": "acab4fe463a6da862577ef5bab56d7d33d7e36804ffddb5426747767ae8fb238"
+            "url": "https://github.com/Dicklesworthstone/beads_rust/releases/download/v0.2.22/br-0.2.22-windows_amd64.zip",
+            "hash": "4595ad4cb6cd10a6f41856058ca682c40cc493b1bc2aade9e6afc47fbc6f3174"
         }
     },
     "bin": "br.exe",
