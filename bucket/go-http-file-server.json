@@ -1,20 +1,16 @@
 {
-    "version": "1.21.5",
+    "version": "1.21.6",
     "description": "A simple command line based HTTP file server to share local file system.",
     "homepage": "https://github.com/mjpclab/go-http-file-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.21.5/ghfs-1.21.5-windows-amd64.zip",
-            "hash": "71a981b0a2401ace0aeadfc68ea7fb20b2f7816e5f8d8a2422aa6d83f4fcc0ff"
-        },
-        "32bit": {
-            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.21.5/ghfs-1.21.5-windows-7-8-386.zip",
-            "hash": "dfe2c8ed6c6270aed6bdc12a46fbdf186b13703061abce63e6af499be25b71fd"
+            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.21.6/ghfs-1.21.6-windows-amd64v2.zip",
+            "hash": "689496ba3af17cef66ab72193dd5fc44fec610cfc45e16ce43a275fb0af50039"
         },
         "arm64": {
-            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.21.5/ghfs-1.21.5-windows-arm64.zip",
-            "hash": "8e55103983cc4eb3525119fa1c0be2376c646bf4f7270a9564eb16c54f1a2a0c"
+            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.21.6/ghfs-1.21.6-windows-arm64.zip",
+            "hash": "123edf82641158c1e38e95d130977d548502ba5d94f9c76363905cb8c607885f"
         }
     },
     "bin": "ghfs.exe",
@@ -22,10 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v$version/ghfs-$version-windows-amd64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v$version/ghfs-$version-windows-7-8-386.zip"
+                "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v$version/ghfs-$version-windows-amd64v2.zip"
             },
             "arm64": {
                 "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v$version/ghfs-$version-windows-arm64.zip"
