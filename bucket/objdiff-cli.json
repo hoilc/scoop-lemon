@@ -1,20 +1,20 @@
 {
-    "version": "3.7.3",
+    "version": "3.8.0",
     "description": "(CLI Version) A local diffing tool for decompilation projects.",
     "homepage": "https://github.com/encounter/objdiff",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/encounter/objdiff/releases/download/v3.7.3/objdiff-cli-windows-x86_64.exe#/objdiff-cli.exe",
-            "hash": "933bc75fdc526ef7149534b74282efc3e02dc0f1010512accb5463e68f68e07f"
+            "url": "https://github.com/encounter/objdiff/releases/download/v3.8.0/objdiff-cli-windows-x86_64.exe#/objdiff-cli.exe",
+            "hash": "3023818f7fdd2f2dc6ade16e68d2c37f5f5754f96881d18d68ddfce77ced15e1"
         },
         "32bit": {
-            "url": "https://github.com/encounter/objdiff/releases/download/v3.7.3/objdiff-cli-windows-x86.exe#/objdiff-cli.exe",
-            "hash": "1e14a877c13aeaf21d4c085c4a3e7cf844868d019a253f49e52984e668ddfb6a"
+            "url": "https://github.com/encounter/objdiff/releases/download/v3.8.0/objdiff-cli-windows-x86.exe#/objdiff-cli.exe",
+            "hash": "293c76762bdbb4585a65acc6dba68d5dd84a200e72c35645a20def894a3b5eaf"
         },
         "arm64": {
-            "url": "https://github.com/encounter/objdiff/releases/download/v3.7.3/objdiff-cli-windows-arm64.exe#/objdiff-cli.exe",
-            "hash": "352d4431544ae1f7da03d46f719ba44d6211a200efbb501d716740a8173dca74"
+            "url": "https://github.com/encounter/objdiff/releases/download/v3.8.0/objdiff-cli-windows-arm64.exe#/objdiff-cli.exe",
+            "hash": "36e3fc59bfbe6de2b70c5cd18415e8114520dde16fc7fe5138ed0e8d8fbc8750"
         }
     },
     "bin": "objdiff-cli.exe",
