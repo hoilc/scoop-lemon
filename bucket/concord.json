@@ -1,12 +1,12 @@
 {
-    "version": "2.5.3",
+    "version": "2.5.4",
     "description": "A feature-rich TUI client for Discord.",
     "homepage": "https://github.com/chojs23/concord",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chojs23/concord/releases/download/v2.5.3/concord-x86_64-pc-windows-msvc.zip",
-            "hash": "d58756a56f9c164188073dee272c8e000f19838f116b01b5b014f869c025921f"
+            "url": "https://github.com/chojs23/concord/releases/download/v2.5.4/concord-x86_64-pc-windows-msvc.zip",
+            "hash": "ec369821dcc64ec05db69e827ab778a2e354a981e731d0e0dbfadfc70267926e"
         }
     },
     "bin": "concord.exe",
