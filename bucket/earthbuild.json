@@ -1,12 +1,12 @@
 {
-    "version": "0.8.17",
+    "version": "0.8.18",
     "description": "A simple build framework with fast, repeatable builds and a familiar syntax.",
     "homepage": "https://www.earthbuild.dev/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EarthBuild/earthbuild/releases/download/v0.8.17/earth-windows-amd64.exe#/earth.exe",
-            "hash": "f177fbae9ca852888b352eaaea23b9e03a819bb2aee7fd200ffb00625b486a15"
+            "url": "https://github.com/EarthBuild/earthbuild/releases/download/v0.8.18/earth-windows-amd64.exe#/earth.exe",
+            "hash": "9e4bfe6ccffb1cb90ff5448ab8fe1f4f4941095dbd9911da8f997dec746c73f5"
         }
     },
     "bin": "earth.exe",
