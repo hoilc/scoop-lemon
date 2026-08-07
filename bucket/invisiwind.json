@@ -1,12 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "An application that allows you to hide certain windows when sharing your full screen.",
     "homepage": "https://github.com/radiantly/Invisiwind",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.0.0/Invisiwind.zip",
-            "hash": "276c61931a6d58cee12b9e6dba120d9af0d425bac42cadf235375591105bcf1f"
+            "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.1.0/Invisiwind.zip",
+            "hash": "1df9b206fbbb03a5485f796c02a8f7267691bbb7a3cc025fe634208526286fb9"
         }
     },
     "bin": "Invisiwind.exe",
