@@ -1,16 +1,16 @@
 {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "description": "A fast all-in-one toolkit that augments Node.js instead of replacing it.",
     "homepage": "https://nubjs.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nubjs/nub/releases/download/v0.7.2/nub-win32-x64.zip",
-            "hash": "95419bc5d78329f1f2e73a102762222c45537c7fbf8e38d0c85ae7d4ee2cdabe"
+            "url": "https://github.com/nubjs/nub/releases/download/v0.7.3/nub-win32-x64.zip",
+            "hash": "543943543827924ce57405b9ccf29c7160bbe0abb1b237af053586b2ec4298b6"
         },
         "arm64": {
-            "url": "https://github.com/nubjs/nub/releases/download/v0.7.2/nub-win32-arm64.zip",
-            "hash": "b591425a7d27c9dfcf83ed4f864a2d593086a6294edb517bdf8789a1ab0eec79"
+            "url": "https://github.com/nubjs/nub/releases/download/v0.7.3/nub-win32-arm64.zip",
+            "hash": "7158978211b165b8ac1a9635d206c8d8505747f35101b18acc58770afd4a72c4"
         }
     },
     "bin": [
