@@ -1,12 +1,12 @@
 {
-    "version": "0.1.11",
+    "version": "0.2.0",
     "description": "A headless browser for AI agents and web scraping.",
     "homepage": "https://obscura.sh",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/h4ckf0r0day/obscura/releases/download/v0.1.11/obscura-x86_64-windows-stealth.zip",
-            "hash": "e42514179d3a478374dfaba4282b2414e07666a5e2d915c9c404beff0395f233"
+            "url": "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.0/obscura-x86_64-windows-stealth.zip",
+            "hash": "d4b1ec92812a1cc9c3a0cf78c3b6ce91b0863b21041182d75b2f2ea580b272cd"
         }
     },
     "bin": [
