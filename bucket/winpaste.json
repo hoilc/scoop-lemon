@@ -1,12 +1,12 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.6",
     "description": "快速、轻量且功能强大的 Windows 剪贴板增强工具，无缝替换系统自带的Win+V历史功能，无需学习即可上手",
     "homepage": "https://github.com/eq1024/WinPaste",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eq1024/WinPaste/releases/download/v1.6.5/WinPaste_1.6.5_x64-setup.exe#/dl.7z",
-            "hash": "3b5cd86d2756eb1f720d7ec157f2f72cc1f9435b9348fb0cce91c87482f698c4"
+            "url": "https://github.com/eq1024/WinPaste/releases/download/v1.6.6/WinPaste_1.6.6_x64-setup.exe#/dl.7z",
+            "hash": "5474a5bbcb35304f25885d5a481f7ef312f656c3f5cd7423824e8333813a3bb4"
         }
     },
     "shortcuts": [
