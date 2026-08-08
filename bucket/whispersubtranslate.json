@@ -1,12 +1,12 @@
 {
-    "version": "2.4.3",
+    "version": "2.4.4",
     "description": "A free, local desktop app to extract subtitles (SRT) from video and translate them into any language — unlimited use, no signup, no cloud.",
     "homepage": "https://github.com/Blue-B/WhisperSubTranslate",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Blue-B/WhisperSubTranslate/releases/download/v2.4.3/WhisperSubTranslate-v2.4.3-win-x64.zip",
-            "hash": "0b526f2a661b5b38bc94981ebcc11ab4085fdabba7bebe2f436263d15f2d2aac"
+            "url": "https://github.com/Blue-B/WhisperSubTranslate/releases/download/v2.4.4/WhisperSubTranslate-v2.4.4-win-x64.zip",
+            "hash": "d62f69096b9cfbed57e12e23072ddbf3947aed65b7f2e7dec315f38612e597d5"
         }
     },
     "shortcuts": [
