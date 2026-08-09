@@ -3,19 +3,31 @@
     "description": "An application that allows you to hide certain windows when sharing your full screen.",
     "homepage": "https://github.com/radiantly/Invisiwind",
     "license": "MIT",
+    "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.1.0/Invisiwind.zip",
+    "hash": "1df9b206fbbb03a5485f796c02a8f7267691bbb7a3cc025fe634208526286fb9",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/radiantly/Invisiwind/releases/download/v2.1.0/Invisiwind.zip",
-            "hash": "1df9b206fbbb03a5485f796c02a8f7267691bbb7a3cc025fe634208526286fb9"
+            "pre_install": [
+                    "Remove-Item -Force \"$dir\\Invisiwind32.exe\" -ErrorAction SilentlyContinue",
+                    "Rename-Item -Path \"$dir\\Invisiwind64.exe\" -NewName 'Invisiwind.exe' -ErrorAction SilentlyContinue"
+                ]
+        },
+        "32bit": {
+            "pre_install": [
+                    "Remove-Item -Force \"$dir\\Invisiwind64.exe\" -ErrorAction SilentlyContinue",
+                    "Rename-Item -Path \"$dir\\Invisiwind32.exe\" -NewName 'Invisiwind.exe' -ErrorAction SilentlyContinue"
+                ]
         }
     },
     "bin": "Invisiwind.exe",
+    "shortcuts": [
+        [
+            "Invisiwind.exe",
+            "Invisiwind"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/radiantly/Invisiwind/releases/download/v$version/Invisiwind.zip"
-            }
-        }
+         "url": "https://github.com/radiantly/Invisiwind/releases/download/v$version/Invisiwind.zip"
     }
 }
