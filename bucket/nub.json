@@ -13,6 +13,7 @@
             "hash": "b5057366e920aba6226c368026578855d19439f5d1493bea577247709e46a3a0"
         }
     },
+    "pre_install": "if (!(Test-Path \"$dir\\bin\\nubx.exe\")) { Copy-Item \"$dir\\bin\\nub.exe\" \"$dir\\bin\\nubx.exe\" -ErrorAction SilentlyContinue }",
     "bin": [
         "bin\\nub.exe",
         "bin\\nubx.exe"
