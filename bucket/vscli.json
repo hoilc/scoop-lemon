@@ -1,17 +1,17 @@
 {
-    "version": "1.3.2",
+    "version": "1.3.3",
     "description": "A CLI/TUI which makes it easy to launch vscode projects, with a focus on dev containers.",
     "homepage": "https://github.com/michidk/vscli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michidk/vscli/releases/download/v1.3.2/vscli-x86_64-pc-windows-msvc.zip",
-            "hash": "939901d49e8a0737f12d838689ce2f3dcd8b053d220d4ba54dc7c0de8bf129ad",
+            "url": "https://github.com/michidk/vscli/releases/download/v1.3.3/vscli-x86_64-pc-windows-msvc.zip",
+            "hash": "8927e9e8d3cca38692432caf4ab4dff373bc4c442b67a95eef7bcbe872119795",
             "extract_dir": "vscli-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://github.com/michidk/vscli/releases/download/v1.3.2/vscli-i686-pc-windows-msvc.zip",
-            "hash": "9dc4e9b91e3c3c3086b0eb273c110a784459c033c17dd3d2ed77189a248c1166",
+            "url": "https://github.com/michidk/vscli/releases/download/v1.3.3/vscli-i686-pc-windows-msvc.zip",
+            "hash": "c502b8543c900228ce4035ac99a56a55ac0055ee5ef9ff48cd2af3155ec4543d",
             "extract_dir": "vscli-i686-pc-windows-msvc"
         }
     },
