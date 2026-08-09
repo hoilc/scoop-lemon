@@ -1,16 +1,16 @@
 {
-    "version": "0.7.4",
+    "version": "0.7.5",
     "description": "A fast all-in-one toolkit that augments Node.js instead of replacing it.",
     "homepage": "https://nubjs.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nubjs/nub/releases/download/v0.7.4/nub-win32-x64.zip",
-            "hash": "70002fa46598417e57f532d50c650f2fc42c0c9eb31c2ebf0592cebf52d6e3f9"
+            "url": "https://github.com/nubjs/nub/releases/download/v0.7.5/nub-win32-x64.zip",
+            "hash": "061956457776121ec8a4de43da47a85eebb9e3c26111ff39fc5c55865836de43"
         },
         "arm64": {
-            "url": "https://github.com/nubjs/nub/releases/download/v0.7.4/nub-win32-arm64.zip",
-            "hash": "b5057366e920aba6226c368026578855d19439f5d1493bea577247709e46a3a0"
+            "url": "https://github.com/nubjs/nub/releases/download/v0.7.5/nub-win32-arm64.zip",
+            "hash": "e46b42266ab42c6a57b43b2472d970de4dd337ed633305f857905c7e1b1e69a3"
         }
     },
     "pre_install": "if (!(Test-Path \"$dir\\bin\\nubx.exe\")) { Copy-Item \"$dir\\bin\\nub.exe\" \"$dir\\bin\\nubx.exe\" -ErrorAction SilentlyContinue }",
