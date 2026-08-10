@@ -1,16 +1,16 @@
 {
-    "version": "0.77.1",
+    "version": "0.77.2",
     "description": "An advanced digital forensic and incident response tool that enhances your visibility into your endpoints.",
     "homepage": "https://docs.velociraptor.app/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.1/velociraptor-v0.77.1-windows-amd64.exe#/velociraptor.exe",
-            "hash": "c91cf8a32731c4c45c148393bc7d2af688c392194a9fffc4535e8b583260d55e"
+            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.2/velociraptor-v0.77.2-windows-amd64.exe#/velociraptor.exe",
+            "hash": "686e4f5888fdd66d07ace3b6c1cbd7d2dd0d8d5fb4d3b5d905a7df3341dfb86f"
         },
         "32bit": {
-            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.1/velociraptor-v0.77.1-windows-386.exe#/velociraptor.exe",
-            "hash": "4d3eb4960d464a1c3b3232818f151ee1e000e5de21c5b4b91b3e34444cf2e94a"
+            "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.77.2/velociraptor-v0.77.2-windows-386.exe#/velociraptor.exe",
+            "hash": "294e0fdc9e0cc623ad7f615b1b8772c9a7feb9e8bda9e50e3fe8041c8f0b934f"
         }
     },
     "bin": "velociraptor.exe",
