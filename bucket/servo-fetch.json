@@ -1,13 +1,13 @@
 {
-    "version": "0.13.1",
+    "version": "0.14.0",
     "description": "A self-contained browser engine that fetches, renders, and extracts web content as Markdown, JSON, or screenshots — no Chromium, no API key, no setup.",
     "homepage": "https://github.com/konippi/servo-fetch",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/konippi/servo-fetch/releases/download/v0.13.1/servo-fetch-v0.13.1-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "servo-fetch-v0.13.1-x86_64-pc-windows-msvc",
-            "hash": "802eeb2a653feb69cb463af88566c7362131680cd48ddb3c174077325e504d0a"
+            "url": "https://github.com/konippi/servo-fetch/releases/download/v0.14.0/servo-fetch-v0.14.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "servo-fetch-v0.14.0-x86_64-pc-windows-msvc",
+            "hash": "90d039d05c99abaf9f0f313e4267f85dbadf8e7a09bf2e91f95baf1b09c494bd"
         }
     },
     "bin": "servo-fetch.exe",
