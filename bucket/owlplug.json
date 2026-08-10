@@ -1,12 +1,12 @@
 {
-    "version": "1.33.1",
+    "version": "2.0.0",
     "description": "A desktop application that simplifies audio plugins management and installation.",
     "homepage": "https://owlplug.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-win-x64.msi",
-            "hash": "819a4c98806fb2b9202f413622ea68a56e3ea4e063afb9ee1a7e49d153cf9330"
+            "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.0.0/OwlPlug-2.0.0-win-x64.msi",
+            "hash": "620c2101a9e413a606b8477939e967003f7b27003b1931d40b50e827ee022c0e"
         }
     },
     "extract_dir": "OwlPlug",
