@@ -2,7 +2,7 @@
     "version": "2026-08-06T00-00-00Z",
     "description": "CLI client for Silo, a conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-08-06T00-00-00Z/mcli_20260806000000.0.0_windows_amd64.tar.gz",
