@@ -1,18 +1,13 @@
 {
-    "version": "1.1.75",
+    "version": "1.1.78",
     "description": "A beautiful, feature-rich SSH workspace built with Electron, React, and xterm.js.",
     "homepage": "https://netcatty.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.75/Netcatty-1.1.75-win-x64.exe#/dl.7z",
+            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.78/Netcatty-1.1.78-win-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "3b6cbe0404fe42068f738c827f8fae9188e456ae0c61df6317f30bd46f3125ff"
-        },
-        "arm64": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.75/Netcatty-1.1.75-win-arm64.exe#/dl.7z",
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-            "hash": "6d46f66f97e7ec0946fc4baabb3ae4a813d5cb9c1cb467d6a8a1c2fd35805386"
+            "hash": "3b5f29313a48590d49a8faeed2f859e789f5526ae6fd82229adf0efa7c3b0223"
         }
     },
     "shortcuts": [
@@ -25,7 +20,7 @@
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\netcatty\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "Netcatty is NOT portable.",
-        "Settings are stored in '%APPDATA%\\netcatty', and can be purged using 'scoop uninstall --purge netcatty'."
+        "Settings are stored in '%APPDATA%\\netcatty', and will be purged during uninstallation with --purge flag."
     ],
     "checkver": {
         "url": "https://github.com/binaricat/Netcatty/releases.atom",
@@ -35,9 +30,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win-x64.exe#/dl.7z"
-            },
-            "arm64": {
-                "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win-arm64.exe#/dl.7z"
             }
         }
     }
