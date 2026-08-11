@@ -1,30 +1,30 @@
 {
-    "version": "2026-08-04T00-00-00Z",
+    "version": "2026-08-06T00-00-00Z",
     "description": "A conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-08-04T00-00-00Z/minio_20260804000000.0.0_windows_amd64.tar.gz",
-            "hash": "c2160a4ccbb80ce1d45f69cc35137cb5ba68f638cc2f86ebfb3d0523ce3e0d74"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-08-06T00-00-00Z/silo_20260806000000.0.0_windows_amd64.tar.gz",
+            "hash": "9b34316ab8ac083e9f7e3d0b8d5cad9e01aee09de6a63186a5b94af478ee298f"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/minio/releases/download/RELEASE.2026-08-04T00-00-00Z/minio_20260804000000.0.0_windows_arm64.tar.gz",
-            "hash": "4d406f7f1a6b317d80d817f07ffacd7fc397495c6ee4a00915fbe965a7b95a6a"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-08-06T00-00-00Z/silo_20260806000000.0.0_windows_arm64.tar.gz",
+            "hash": "ada5e95a555b2a27bc1a2db94bbb3ce231300d08c35e77423de9005699893c40"
         }
     },
-    "bin": "minio.exe",
+    "bin": "silo.exe",
     "checkver": {
-        "url": "https://github.com/pgsty/minio/releases.atom",
+        "url": "https://github.com/pgsty/silo/releases.atom",
         "regex": "Repository/\\d+/RELEASE\\.((?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T(?<hour>\\d{2})-(?<minute>\\d{2})-(?<second>\\d{2})Z)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pgsty/minio/releases/download/RELEASE.$version/minio_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
+                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/pgsty/minio/releases/download/RELEASE.$version/minio_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
+                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
             }
         }
     }
