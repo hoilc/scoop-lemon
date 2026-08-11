@@ -1,0 +1,31 @@
+{
+    "version": "2026-08-06T00-00-00Z",
+    "description": "CLI client for Silo, a conservatively maintained MinIO fork.",
+    "homepage": "https://silo.pigsty.io/",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-08-06T00-00-00Z/mcli_20260806000000.0.0_windows_amd64.tar.gz",
+            "hash": "50ef476ce48a61fff73a120c4ecbe6e6dee38847e7f5a5362cf7202a5b8e59c0"
+        },
+        "arm64": {
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-08-06T00-00-00Z/mcli_20260806000000.0.0_windows_arm64.tar.gz",
+            "hash": "6efa2faa24dfbabdf1911a72f75b2f3e5c5edddd6c27bbf5509cad9ee7e90b3c"
+        }
+    },
+    "bin": "mcli.exe",
+    "checkver": {
+        "url": "https://github.com/pgsty/mc/releases.atom",
+        "regex": "Repository/\\d+/RELEASE\\.((?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T(?<hour>\\d{2})-(?<minute>\\d{2})-(?<second>\\d{2})Z)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
+            }
+        }
+    }
+}
