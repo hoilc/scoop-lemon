@@ -2,6 +2,12 @@ name: Quickinstall Request
 
 on:
   workflow_dispatch:
+    inputs:
+      extra_crates:
+        description: "Additional crates to request (space or comma separated)"
+        required: false
+        default: ""
+        type: string
   schedule:
     - cron: '30 0 * * *'
 
@@ -33,7 +39,7 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          EXTRA_CRATES: ${{ vars.QUICKINSTALL_REQUEST_EXTRA_CRATES }}
+          EXTRA_CRATES: ${{ github.event.inputs.extra_crates }}
         run: |
           $base = 'https://github.com/cargo-bins/cargo-quickinstall'
           $files = Get-ChildItem -Path 'bucket' -Recurse -Filter '*.json'
@@ -77,7 +83,7 @@ jobs:
           if ($env:EXTRA_CRATES) {
             $extra = ($env:EXTRA_CRATES -split '[\s,]+') | Where-Object { $_ }
             foreach ($c in $extra) { $crates.Add($c) | Out-Null }
-            Write-Host "Extra crates from QUICKINSTALL_REQUEST_EXTRA_CRATES: $([string]::Join(', ', $extra))"
+            Write-Host "Extra crates: $([string]::Join(', ', $extra))"
           }
 
           Write-Host "Crates to request: $([string]::Join(', ', $crates))"
