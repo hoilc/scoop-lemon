@@ -33,6 +33,7 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          EXTRA_CRATES: ${{ vars.QUICKINSTALL_REQUEST_EXTRA_CRATES }}
         run: |
           $base = 'https://github.com/cargo-bins/cargo-quickinstall'
           $files = Get-ChildItem -Path 'bucket' -Recurse -Filter '*.json'
@@ -68,9 +69,15 @@ jobs:
             }
           }
 
-          if ($crates.Count -eq 0) {
+          if ($crates.Count -eq 0 -and -not $env:EXTRA_CRATES) {
             Write-Host "No crates found pointing to $base."
             exit 0
+          }
+
+          if ($env:EXTRA_CRATES) {
+            $extra = ($env:EXTRA_CRATES -split '[\s,]+') | Where-Object { $_ }
+            foreach ($c in $extra) { $crates.Add($c) | Out-Null }
+            Write-Host "Extra crates from QUICKINSTALL_REQUEST_EXTRA_CRATES: $([string]::Join(', ', $extra))"
           }
 
           Write-Host "Crates to request: $([string]::Join(', ', $crates))"
