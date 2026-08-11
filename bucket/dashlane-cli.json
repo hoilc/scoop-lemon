@@ -1,12 +1,12 @@
 {
-    "version": "6.2633.0",
+    "version": "6.2633.2",
     "description": "A command line interface for Dashlane.",
     "homepage": "https://cli.dashlane.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dashlane/dashlane-cli/releases/download/v6.2633.0/dcli-win-x64-signed.exe#/dcli.exe",
-            "hash": "90be8c87fbc6ce03c0ebc42d62d97deefbbb72fa913fee28501aed3a8d6871d0"
+            "url": "https://github.com/Dashlane/dashlane-cli/releases/download/v6.2633.2/dcli-win-x64-signed.exe#/dcli.exe",
+            "hash": "34513f2d443870958c87261b153d6c544a76691823784d34cd1e5447fc95bc7b"
         }
     },
     "bin": "dcli.exe",
