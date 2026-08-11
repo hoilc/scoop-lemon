@@ -7,7 +7,7 @@ jobs:
     name: IssueHandler
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v7
       with:
         ssh-key: "${{secrets.DEPLOY_KEY}}"
     - run: |

@@ -8,7 +8,7 @@ jobs:
     name: makeIndex
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v7
     - run: |
         bin/makeindex.ps1
     - uses: EndBug/add-and-commit@v9
