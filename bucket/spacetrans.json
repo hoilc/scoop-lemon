@@ -1,12 +1,12 @@
 {
-    "version": "0.3",
+    "version": "0.5.1",
     "description": "A fast translation tool activated by triple-space hotkey.",
     "homepage": "https://github.com/netcaty/SpaceTrans",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netcaty/SpaceTrans/releases/download/v0.3/SpaceTrans-Tray-v1.0.0-win-x64.zip",
-            "hash": "f18d0d39ccae863fe97cbd0f276108ead30fd0cd34f52959002f29b7ec1040c9"
+            "url": "https://github.com/netcaty/SpaceTrans/releases/download/v0.5.1/SpaceTrans-Tray-v0.5.1-win-x64.zip",
+            "hash": "f804d3d0be892dca5d3019f01b8145ae837a3e97cc50c4b61006606949d3bb2c"
         }
     },
     "shortcuts": [
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/netcaty/SpaceTrans/releases/download/v$version/SpaceTrans-Tray-v1.0.0-win-x64.zip"
+                "url": "https://github.com/netcaty/SpaceTrans/releases/download/v$version/SpaceTrans-Tray-v$version-win-x64.zip"
             }
         }
     }
