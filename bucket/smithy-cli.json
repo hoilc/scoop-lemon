@@ -1,12 +1,12 @@
 {
-    "version": "1.72.1",
+    "version": "1.73.0",
     "description": "A CLI for the Smithy interface definition language and code generation tools.",
     "homepage": "https://smithy.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/smithy-lang/smithy/releases/download/1.72.1/smithy-cli-windows-x64.zip",
-            "hash": "d7285a415c2271706becb6c8e62e645746b1802733a471a7c308a463bdc564d2",
+            "url": "https://github.com/smithy-lang/smithy/releases/download/1.73.0/smithy-cli-windows-x64.zip",
+            "hash": "32e00abc06f6d1ac9201d8f574bd7a2d62d65eaeb2ea16b3877be18d8febafc2",
             "extract_dir": "smithy-cli-windows-x64"
         }
     },
