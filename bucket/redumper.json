@@ -1,23 +1,23 @@
 {
-    "version": "741",
+    "version": "742",
     "description": "A low level CD dumper utility.",
     "homepage": "https://github.com/superg/redumper",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/superg/redumper/releases/download/b741/redumper-b741-windows-x64.zip",
-            "extract_dir": "redumper-b741-windows-x64\\bin",
-            "hash": "e1f3debc1eeee389d8254d4143a26cbe5aa4f1cfee47e24173a7b3b23859dfde"
+            "url": "https://github.com/superg/redumper/releases/download/b742/redumper-b742-windows-x64.zip",
+            "extract_dir": "redumper-b742-windows-x64\\bin",
+            "hash": "86f0a3d71793f4eb977133e635858b79badc7d6007c1554214cc74ac65d53847"
         },
         "32bit": {
-            "url": "https://github.com/superg/redumper/releases/download/b741/redumper-b741-windows-x86.zip",
-            "extract_dir": "redumper-b741-windows-x86\\bin",
-            "hash": "f5371f53140b3bae54a9ef2310ad285256048069a6087b5d3030fd5fee978dc5"
+            "url": "https://github.com/superg/redumper/releases/download/b742/redumper-b742-windows-x86.zip",
+            "extract_dir": "redumper-b742-windows-x86\\bin",
+            "hash": "b60ce3569562b15916e1cb55b258d681cd7bac97107db8bf7b82314a4e4dcbe6"
         },
         "arm64": {
-            "url": "https://github.com/superg/redumper/releases/download/b741/redumper-b741-windows-arm64.zip",
-            "extract_dir": "redumper-b741-windows-arm64\\bin",
-            "hash": "2db0890690d13d6832fa6314a9f70de191cbef18cbb7a0b4417c11df914e49e4"
+            "url": "https://github.com/superg/redumper/releases/download/b742/redumper-b742-windows-arm64.zip",
+            "extract_dir": "redumper-b742-windows-arm64\\bin",
+            "hash": "b259e6e5db9a0c4de8166c11b2f1c671316a1f68bf0341807b2199f570b97295"
         }
     },
     "bin": "redumper.exe",
