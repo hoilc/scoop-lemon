@@ -1,20 +1,30 @@
 {
-    "version": "0.0.6",
-    "description": "An SVG toolchain for optimisation, minification, linting, and actions.",
+    "version": "0.0.7",
+    "description": "A fast SVG toolchain for optimisation, minification, linting, and actions.",
     "homepage": "https://github.com/noahbald/oxvg",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/noahbald/oxvg/releases/download/v0.0.6/oxvg.exe",
-            "hash": "bb15578a88bc55885cc4d1efc646449caeec623d1767498714aa6b327e380445"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.7/oxvg-0.0.7-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "97e126c9dad5a02d221877de22f279de23acbb77a6e76747d4f744b6e7b7fc90"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.7/oxvg-0.0.7-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "1870e4093de84cb9ecc61fbf1094dedbbaedb29cb4b95087eea7b850660ed035"
         }
     },
     "bin": "oxvg.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/oxvg?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/noahbald/oxvg/releases/download/v$version/oxvg.exe"
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-$version/oxvg-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-$version/oxvg-$version-aarch64-pc-windows-msvc.tar.gz"
             }
         }
     }
