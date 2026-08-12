@@ -1,10 +1,10 @@
 {
-    "version": "9.3.0",
+    "version": "9.3.1",
     "description": "The CLI for Simple Java Mail, a mailing library with a super clean API.",
     "homepage": "https://www.simplejavamail.org/",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/org/simplejavamail/cli-module/9.3.0/cli-module-9.3.0-standalone-cli.zip",
-    "hash": "sha1:d4e2a2f9644e7d919590cebcd6042f54ff30cb3f",
+    "url": "https://repo1.maven.org/maven2/org/simplejavamail/cli-module/9.3.1/cli-module-9.3.1-standalone-cli.zip",
+    "hash": "sha1:da11303d5e1977d071d757c7b06ab21020524b78",
     "bin": "bin\\sjm.bat",
     "suggest": {
         "JDK": [
