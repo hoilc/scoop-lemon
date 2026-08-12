@@ -1,0 +1,36 @@
+{
+    "version": "3.4.12",
+    "description": "A standalone proxy which allows players to join EVERY Minecraft server version (Classic, Alpha, Beta, Release, Bedrock).",
+    "homepage": "https://github.com/ViaVersion/ViaProxy",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/ViaVersion/ViaProxy/releases/download/v3.4.12/ViaProxy-3.4.12.jar#/ViaProxy.jar",
+    "hash": "32ce9ad871aeb03286823c29da262ebd75992864e7857db283f103525c7fc0cb",
+    "pre_install": [
+        "Set-Content -Encoding ASCII -Path \"$dir\\ViaProxy-GUI.bat\" -Value 'cd /d \"%~dp0data\"', '@start javaw.exe -jar \"%~dp0ViaProxy.jar\"'",
+        "Set-Content -Encoding ASCII -Path \"$dir\\viaproxy.bat\" -Value \"@java -jar `\"%~dp0ViaProxy.jar`\" %*\"",
+        "$iconDir = $null ; if ($bucket) { $iconDir = \"$bucketsdir\\$bucket\\icon\\unformatted\" } else { $iconDir = Convert-Path \"$url\\..\\..\\icon\\unformatted\" }",
+        "Copy-Item \"$iconDir\\viaproxy.ico\" \"$dir\" -Force"
+    ],
+    "bin": "viaproxy.bat",
+    "shortcuts": [
+        [
+            "ViaProxy-GUI.bat",
+            "ViaProxy",
+            "",
+            "viaproxy.ico"
+        ]
+    ],
+    "persist": "data",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ViaVersion/ViaProxy/releases/download/v$version/ViaProxy-$version.jar#/ViaProxy.jar"
+    }
+}
