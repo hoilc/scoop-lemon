@@ -10,10 +10,16 @@
             "hash": "879101be60a87f4f8ca55e9d38d4c6ada6cc054d6876cb6cdb019f4146b8ca65"
         }
     },
+    "pre_install": [
+        "$iconDir = $null ; if ($bucket) { $iconDir = \"$bucketsdir\\$bucket\\icon\\unformatted\" } else { $iconDir = Convert-Path \"$url\\..\\..\\icon\\unformatted\" }",
+        "Copy-Item \"$iconDir\\ballonstranslator.ico\" \"$dir\" -Force"
+    ],
     "shortcuts": [
         [
             "launch_win.bat",
-            "BallonsTranslator"
+            "BallonsTranslator",
+            "",
+            "ballonstranslator.ico"
         ]
     ],
     "persist": [
