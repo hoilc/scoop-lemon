@@ -1,0 +1,29 @@
+{
+    "version": "3.7.3",
+    "description": "A professional-grade attack surface scanner for penetration testing.",
+    "homepage": "https://lonkero.bountyy.fi/en",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/bountyyfi/lonkero/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bountyyfi/lonkero/releases/download/v3.7.3/lonkero-windows-x64.zip",
+            "hash": "91efecc22d2135fa9dae34df9e8dc4cebf19fcbecf7ae3e1d8801b81a1571260"
+        }
+    },
+    "bin": "lonkero.exe",
+    "checkver": {
+        "github": "https://github.com/bountyyfi/lonkero"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bountyyfi/lonkero/releases/download/v$version/lonkero-windows-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
