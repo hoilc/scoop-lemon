@@ -1,0 +1,25 @@
+{
+    "version": "0.5.5",
+    "description": "A Nostr public key mining tool.",
+    "homepage": "https://github.com/grunch/rana",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/grunch/rana/releases/download/v0.5.5/rana-x86_64-pc-windows-gnu.tar.gz",
+            "hash": "29e58d02a3500d957a4dca8445cced01e2e3b8316f2811b6777120e5728e0e14",
+            "extract_dir": "x86_64-pc-windows-gnu"
+        }
+    },
+    "bin": "rana.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/grunch/rana/releases/download/v$version/rana-x86_64-pc-windows-gnu.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/manifest.txt"
+        }
+    }
+}
