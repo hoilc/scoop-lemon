@@ -3,7 +3,7 @@
     "description": "A professional-grade attack surface scanner for penetration testing.",
     "homepage": "https://lonkero.bountyy.fi/en",
     "license": {
-        "identifier": "Freeware",
+        "identifier": "Proprietary",
         "url": "https://github.com/bountyyfi/lonkero/blob/main/LICENSE"
     },
     "architecture": {
