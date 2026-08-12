@@ -1,0 +1,47 @@
+{
+    "version": "b9970-20260812-449c716",
+    "description": "A Minecraft server built entirely in Rust, offering a fast, efficient, and customizable experience.",
+    "homepage": "https://pumpkinmc.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/31608755099/pumpkin-X64-Windows.zip",
+            "hash": "ff40475d221a08e408b701e035859c80e6c595b73b86b0a845a16e2e0e1fffb6"
+        },
+        "arm64": {
+            "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/31608755099/pumpkin-ARM64-Windows.zip",
+            "hash": "dc1c9486e255e2dca479b43b4ac7dcaf541b312cfc1dba9e98d186743b67aa14"
+        }
+    },
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'pumpkin?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pumpkin.exe'",
+        "Set-Content -Encoding ASCII -Path \"$dir\\start_pumpkin.bat\" -Value 'cd \"%~dp0data\"', '\"%~dp0pumpkin.exe\"'",
+        "$iconDir = $null ; if ($bucket) { $iconDir = \"$bucketsdir\\$bucket\\icon\\unformatted\" } else { $iconDir = Convert-Path \"$url\\..\\..\\icon\\unformatted\" }",
+        "Copy-Item \"$iconDir\\pumpkin.ico\" \"$dir\" -Force"
+    ],
+    "bin": "pumpkin.exe",
+    "shortcuts": [
+        [
+            "start_pumpkin.bat",
+            "Pumpkin (Nightly)",
+            "",
+            "pumpkin.ico"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "url": "https://github.com/Pumpkin-MC/Pumpkin/actions/workflows/rust.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/$matchRun/pumpkin-X64-Windows.zip"
+            },
+            "arm64": {
+                "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/$matchRun/pumpkin-ARM64-Windows.zip"
+            }
+        }
+    }
+}
