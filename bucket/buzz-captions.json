@@ -1,0 +1,36 @@
+{
+    "version": "1.4.4",
+    "description": "Transcribe and translate audio offline on your personal computer. | 在个人电脑上离线转录和翻译音频",
+    "homepage": "https://github.com/chidiwilliams/buzz",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/buzz-captions/files/Buzz-1.4.4-Windows-X64.zip",
+            "hash": "sha1:668dd721aae24a5fb4760cceafc5476601f315f8"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'Buzz-*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -DestinationPath \"$dir\" -Removal",
+    "bin": "Buzz.exe",
+    "shortcuts": [
+        [
+            "Buzz.exe",
+            "Buzz"
+        ]
+    ],
+    "post_uninstall": [
+        "if ($purge) { Remove-Item -Path \"$env:LOCALAPPDATA\\Buzz\" -Force -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Buzz' -Force -Recurse -ErrorAction SilentlyContinue }"
+    ],
+    "notes": [
+        "Buzz is NOT portable.",
+        "Settings are stored in '%LOCALAPPDATA%\\Buzz' and 'HKCU:\\Software\\Buzz', and will be purged during uninstallation with --purge flag."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/buzz-captions/files/Buzz-$version-Windows-X64.zip"
+            }
+        }
+    }
+}
