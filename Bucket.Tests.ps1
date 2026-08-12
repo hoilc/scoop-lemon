@@ -150,7 +150,12 @@ Describe 'Changed manifests installation' {
     } elseif ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -and $env:GITHUB_PUSH_EVENT_AFTER_SHA -and ($env:GITHUB_PUSH_EVENT_BEFORE_SHA -ne "0000000000000000000000000000000000000000"))
     {
         Write-Host "[Push] Get changed file from $env:GITHUB_PUSH_EVENT_BEFORE_SHA to $env:GITHUB_PUSH_EVENT_AFTER_SHA"
-        $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PUSH_EVENT_BEFORE_SHA -RightRevision $env:GITHUB_PUSH_EVENT_AFTER_SHA -Include '*.json'
+        try {
+            $changedFiles = Get-GitChangedFile -LeftRevision $env:GITHUB_PUSH_EVENT_BEFORE_SHA -RightRevision $env:GITHUB_PUSH_EVENT_AFTER_SHA -Include '*.json'
+        } catch {
+            Write-Host "Symmetric difference failed, falling back to $env:GITHUB_SHA"
+            $changedFiles = Get-GitChangedFile -Commit $env:GITHUB_SHA -Include '*.json'
+        }
     } else {
         Write-Host "Get changed file in $env:GITHUB_SHA"
         $changedFiles = Get-GitChangedFile -Commit $env:GITHUB_SHA -Include '*.json'
