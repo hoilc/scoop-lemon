@@ -1,13 +1,13 @@
 {
-    "version": "0.0-4135-g7807ee1a",
+    "version": "0.0-4137-ga207d621",
     "description": "A suite of SystemVerilog developer tools, including a parser, style-linter, formatter and language server.",
     "homepage": "https://github.com/chipsalliance/verible",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chipsalliance/verible/releases/download/v0.0-4135-g7807ee1a/verible-v0.0-4135-g7807ee1a-win64.zip",
-            "extract_dir": "verible-v0.0-4135-g7807ee1a-win64",
-            "hash": "2e7098e6e60783062edd10701f8a10620b226050caea39fe092e8fbd8f35e2c5"
+            "url": "https://github.com/chipsalliance/verible/releases/download/v0.0-4137-ga207d621/verible-v0.0-4137-ga207d621-win64.zip",
+            "extract_dir": "verible-v0.0-4137-ga207d621-win64",
+            "hash": "7c5dd42e08dd1915ce3297abad68ef682a256a946b703e271b8bb544fd35aa70"
         }
     },
     "bin": [
