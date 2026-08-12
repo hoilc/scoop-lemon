@@ -17,10 +17,13 @@
             "Buzz"
         ]
     ],
-    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Buzz\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "post_uninstall": [
+        "if ($purge) { Remove-Item -Path \"$env:LOCALAPPDATA\\Buzz\" -Force -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Buzz' -Force -Recurse -ErrorAction SilentlyContinue }"
+    ],
     "notes": [
         "Buzz is NOT portable.",
-        "Settings are stored in '%LOCALAPPDATA%\\Buzz', and will be purged during uninstallation with --purge flag."
+        "Settings are stored in '%LOCALAPPDATA%\\Buzz' and 'HKCU:\\Software\\Buzz', and will be purged during uninstallation with --purge flag."
     ],
     "checkver": "github",
     "autoupdate": {
