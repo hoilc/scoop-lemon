@@ -1,19 +1,19 @@
 {
-    "version": "0.3.6",
+    "version": "0.5.0",
     "description": "Entity-level semantic merge driver for Git.",
     "homepage": "https://github.com/Ataraxy-Labs/weave",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.3.6/weave-cli-x86_64-pc-windows-msvc.zip",
-                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.3.6/weave-driver-x86_64-pc-windows-msvc.zip",
-                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.3.6/weave-mcp-x86_64-pc-windows-msvc.zip"
+                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.5.0/weave-cli-x86_64-pc-windows-msvc.zip",
+                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.5.0/weave-driver-x86_64-pc-windows-msvc.zip",
+                "https://github.com/Ataraxy-Labs/weave/releases/download/v0.5.0/weave-mcp-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
-                "3c4eb3772a3924724bf8b28efcaf100434875ba3d196c3ccd9aec0f7a1332eec",
-                "645855687ba8bd4ca858a0637fa252071cf52d965daa1185c3cd6f9e2d04599d",
-                "df3fe0dd878a4be9f0379320a8fd53a627c0bb6064b2f3de81443c24467c6ff6"
+                "41e8bdb9f8aac33308c2f8e0b520eabf4f80aa3e93469328a2846f9d302ddc14",
+                "542008e249516959fc135b895edbe8b9f85b1a4e89166c334125f040a218f30c",
+                "26b6b92f0fed073520cd0246b6edcc14ec63ee9388aec2dc66fac74bbd38a178"
             ]
         }
     },
