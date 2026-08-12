@@ -3,9 +3,10 @@
     "description": "Apache Tika is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
     "homepage": "https://tika.apache.org/",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/4.0.0-beta-1/tika-app-4.0.0-beta-1.jar#/tika-app.jar",
-    "hash": "sha1:017ea954c3303c5ee88cf73960af44dfe8048e4b",
+    "url": "https://dlcdn.apache.org/tika/4.0.0-beta-1/tika-app-4.0.0-beta-1.zip",
+    "hash": "sha512:cc435ebbb2a5088402c473a2df6fda5eb1797b8d3f84f6d1d27123cb034c20693b84a2d18e3869c0f82860f6d07a2593f130d4d21be990efcfcf720bb1b5b957",
     "pre_install": [
+        "Get-ChildItem \"$dir\" 'tika-app?*.jar' | Select-Object -First 1 | Rename-Item -NewName 'tika-app.jar'",
         "Set-Content -Encoding ASCII -Path \"$dir\\tika.bat\" -Value \"@java -jar `\"%~dp0tika-app.jar`\" %*\"",
         "Set-Content -Encoding ASCII -Path \"$dir\\tika-app.bat\" -Value '@start javaw.exe -jar \"%~dp0tika-app.jar\" --gui'"
     ],
@@ -29,9 +30,9 @@
         "regex": "<latest>(.+?)</latest>"
     },
     "autoupdate": {
-        "url": "https://repo1.maven.org/maven2/org/apache/tika/tika-app/$version/tika-app-$version.jar#/tika-app.jar",
+        "url": "https://dlcdn.apache.org/tika/$version/tika-app-$version.zip",
         "hash": {
-            "url": "$url.sha1"
+            "url": "$url.sha512"
         }
     }
 }
