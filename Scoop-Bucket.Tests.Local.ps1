@@ -19,6 +19,7 @@ $MANIFEST_FILES = Get-ChildItem $BUCKET_DIRECTORY -File
 $PROJECT_FILES_EXCLUSIONS = @(
     [Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)\.git(\\|/).*$',
     [Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)bin(\\|/).*$',
+    [Regex]::Escape($REPOSITORY_DIRECTORY) + '(\\|/)icon(\\|/).*$',
     '\.sublime-workspace$',
     '\.DS_Store$',
     'supporting(\\|/)validator(\\|/)packages(\\|/)*'
@@ -38,7 +39,7 @@ Describe 'Style constraints for non-binary project files' {
     # gather all files except '*.exe', '*.zip', or any .git repository files
     $files = $REPOSITORY_FILES |
         Where-Object { $_.FullName -inotmatch $PROJECT_FILES_EXCLUSIONS } |
-        Where-Object { $_.FullName -inotmatch '(.exe|.zip|.dll)$' }
+        Where-Object { $_.FullName -inotmatch '(.exe|.zip|.dll|.ico)$' }
 
     $filesExist = ($files.Count -gt 0)
 
