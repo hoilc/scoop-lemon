@@ -15,7 +15,7 @@
     },
     "pre_install": [
         "Get-ChildItem \"$dir\" 'pumpkin?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pumpkin.exe'",
-        "Set-Content -Encoding ASCII -Path \"$dir\\start_pumpkin.bat\" -Value 'cd \"%~dp0data\"', '\"%~dp0pumpkin.exe\"'",
+        "Set-Content -Encoding ASCII -Path \"$dir\\start_pumpkin.bat\" -Value 'cd /d \"%~dp0data\"', '\"%~dp0pumpkin.exe\"'",
         "$iconDir = $null ; if ($bucket) { $iconDir = \"$bucketsdir\\$bucket\\icon\\unformatted\" } else { $iconDir = Convert-Path \"$url\\..\\..\\icon\\unformatted\" }",
         "Copy-Item \"$iconDir\\pumpkin.ico\" \"$dir\" -Force"
     ],
