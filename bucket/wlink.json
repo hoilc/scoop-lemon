@@ -1,0 +1,30 @@
+{
+    "version": "0.1.2",
+    "description": "An open-source WCH-Link command line tool.",
+    "homepage": "https://github.com/ch32-rs/wlink",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x64.zip",
+            "hash": "59b3989137a9d22c9c1e8c04fd9371af3f54fa43b4cb63c59d6fb4286a34c78a",
+            "extract_dir": "wlink-win-x64"
+        },
+        "32bit": {
+            "url": "https://github.com/ch32-rs/wlink/releases/download/v0.1.2/wlink-v0.1.2-win-x86.zip",
+            "hash": "5dbde89affb60c085169d9ec65cfe7566699f84b8d65619001b594686937122a",
+            "extract_dir": "wlink-win-x86"
+        }
+    },
+    "bin": "wlink.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ch32-rs/wlink/releases/download/v$version/wlink-v$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ch32-rs/wlink/releases/download/v$version/wlink-v$version-win-x86.zip"
+            }
+        }
+    }
+}
