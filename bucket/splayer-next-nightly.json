@@ -1,0 +1,37 @@
+{
+    "version": "b184-20260811-20b7993",
+    "description": "（开发版）跨平台桌面音乐播放器，支持丰富歌词与多种音频格式 | (Nightly Build) A desktop music player with rich lyric support and wide audio format compatibility.",
+    "homepage": "https://github.com/SPlayer-Dev/SPlayer-Next",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/SPlayer-Dev/SPlayer-Next/actions/runs/31481383132/SPlayer-Next-Windows-setup-x64.zip",
+            "hash": "b24cc9d2dcbb11a5db3959b5673a0392da0b2bff05ab2945e3bc89f8c059cc84",
+            "pre_install": [
+                "Get-ChildItem \"$dir\" 'SPlayer-Next-*-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            ]
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\SPlayer-Next?*.exe\", \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "SPlayer-Next.exe",
+            "SPlayer Next (Nightly)",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://github.com/SPlayer-Dev/SPlayer-Next/actions/workflows/dev.yml?query=branch%3Adev+event%3Apush+is%3Asuccess",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/SPlayer-Dev/SPlayer-Next/actions/runs/$matchRun/SPlayer-Next-Windows-setup-x64.zip"
+            }
+        }
+    }
+}
