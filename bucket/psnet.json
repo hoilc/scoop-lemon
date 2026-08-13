@@ -1,0 +1,21 @@
+{
+    "version": "1.1.0",
+    "description": "A real-time TUI network monitor for Windows PowerShell.",
+    "homepage": "https://github.com/psmux/psnet",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/psmux/psnet/releases/download/v1.1.0/psnet-1.1.0-x86_64-windows.zip",
+            "hash": "9cd9380b532d53874fc82508820930f7919bb95a153f0b02306f0ab4788b3277"
+        }
+    },
+    "bin": "psnet.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/psmux/psnet/releases/download/v$version/psnet-$version-x86_64-windows.zip"
+            }
+        }
+    }
+}
