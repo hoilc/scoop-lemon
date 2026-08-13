@@ -1,12 +1,12 @@
 {
-    "version": "1.6.7",
+    "version": "1.6.8",
     "description": "快速、轻量且功能强大的 Windows 剪贴板增强工具，无缝替换系统自带的Win+V历史功能，无需学习即可上手",
     "homepage": "https://github.com/eq1024/WinPaste",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/eq1024/WinPaste/releases/download/v1.6.7/WinPaste_1.6.7_x64-setup.exe#/dl.7z",
-            "hash": "145dbc4b50b2060a82c15f07ae1bf99b800c334321aefe6608c4c111f68ff6a1"
+            "url": "https://github.com/eq1024/WinPaste/releases/download/v.1.6.8/WinPaste_1.6.8_x64-setup.exe#/dl.7z",
+            "hash": "88f683f67d7d1d4c7008abcab89422aa90d61ab726111d214ebf224ac22e8136"
         }
     },
     "shortcuts": [
@@ -17,11 +17,14 @@
     ],
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.winpaste.app\" -Force -Recurse -ErrorAction SilentlyContinue }",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/eq1024/WinPaste/releases.atom",
+        "regex": "Repository/\\d+/v(?<dot>\\.?)(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/eq1024/WinPaste/releases/download/v$version/WinPaste_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/eq1024/WinPaste/releases/download/v$matchDot$version/WinPaste_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
