@@ -1,0 +1,24 @@
+{
+    "version": "0.1.2",
+    "description": "An installation and configuration manager for Oh My Posh.",
+    "homepage": "https://github.com/psmux/omp-manager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/psmux/omp-manager/releases/download/v0.1.2/omp-manager-x86_64-pc-windows-msvc.zip",
+            "hash": "4edbb0ed64cbd17a0957e5b5420960f41af597a1d7b42e9505abe80f01d5fc52"
+        }
+    },
+    "bin": "omp-manager.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/psmux/omp-manager/releases/download/v$version/omp-manager-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
