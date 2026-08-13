@@ -1,12 +1,12 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "A Git sidecar for teams where AI agents write code alongside humans.",
     "homepage": "https://h5i.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/h5i-dev/h5i/releases/download/v0.3.2/h5i-v0.3.2-x86_64-pc-windows-msvc.zip",
-            "hash": "1a7bf36de90212507656fce9f9ba6ed336c56785e5a36bbd47c0564733bdfe69"
+            "url": "https://github.com/h5i-dev/h5i/releases/download/v0.3.3/h5i-v0.3.3-x86_64-pc-windows-msvc.zip",
+            "hash": "659e947bf96bf5ce3bcee0c238451621dba6f4e55adcdbfc1806b59d06a7bd31"
         }
     },
     "bin": "h5i.exe",
