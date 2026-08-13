@@ -1,0 +1,30 @@
+{
+    "version": "b325-20260812-31711f4",
+    "description": "（开发版）一个支持免代理直连及查看动图的第三方Pixiv flutter客户端",
+    "homepage": "https://github.com/Notsfsssf/pixez-flutter",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/Notsfsssf/pixez-flutter/actions/runs/31584032707/windows-x86_64-release.zip",
+            "hash": "0000ef6706133693470fa5517b01da3f5137f29cac0ed52888a9e8db45975d83"
+        }
+    },
+    "shortcuts": [
+        [
+            "pixez.exe",
+            "PixEz (Nightly)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Notsfsssf/pixez-flutter/actions/workflows/build_windows.yml?query=branch%3Amaster+event%3Apush",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/Notsfsssf/pixez-flutter/actions/runs/$matchRun/windows-x86_64-release.zip"
+            }
+        }
+    }
+}
