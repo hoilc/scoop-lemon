@@ -1,12 +1,12 @@
 {
-    "version": "1.29.0",
+    "version": "1.30.0-rc1",
     "description": "A static analysis tool for GitHub Actions.",
     "homepage": "https://docs.zizmor.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.29.0/zizmor-x86_64-pc-windows-msvc.zip",
-            "hash": "68a6bc6888f10bf0d53658c75885e7c1b7a0588d4c1fbc3f0ca280ad7324bf06"
+            "url": "https://github.com/zizmorcore/zizmor/releases/download/v1.30.0-rc1/zizmor-x86_64-pc-windows-msvc.zip",
+            "hash": "6ab2487e42a791f37a2fc76e98a028e0ea62fe04acbb108f524d1399065df0ea"
         }
     },
     "bin": "zizmor.exe",
