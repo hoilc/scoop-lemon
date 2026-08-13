@@ -1,0 +1,23 @@
+{
+    "##": "#updateManually",
+    "version": "2024.11.7.0",
+    "description": "金山词霸是一款准确、便捷的查词翻译软件",
+    "homepage": "https://cp.iciba.com/",
+    "license": "Proprietary",
+    "url": "https://download.iciba.com/pc/personal2016/PowerWord.800.12012.exe#/dl.exe",
+    "hash": "5b85fd644cfecf09c03b183bd9a4c38dffbbd955ea930857d8067f32ce9fa2a4",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\dl.exe\" -DestinationPath \"$dir\" -Removal -Switches '-t# *.7z'",
+            "Get-ChildItem \"$dir\" '*.7z' | Sort-Object Length -Descending | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal"
+        ]
+    },
+    "post_install": "Remove-Item \"$dir\\pwupdater.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "notes": "KingSoft PowerWord is NOT portable.",
+    "shortcuts": [
+        [
+            "PowerWord.exe",
+            "金山词霸"
+        ]
+    ]
+}
