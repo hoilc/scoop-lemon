@@ -1,0 +1,31 @@
+{
+    "version": "0.5.1",
+    "description": "A tool to write, edit, and publish blogs from the terminal.",
+    "homepage": "https://github.com/bahdotsh/blogr",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/blogr-cli-0.5.1/blogr-cli-0.5.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "8f3880859c5ea4812626402efb24d961a3743935c7edd92bea09eb96598e5fc8"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/blogr-cli-0.5.1/blogr-cli-0.5.1-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "5f88b4c8c0318f28a68631d63c84ed990c9515fa4830c49f78017a2fd49e2c2f"
+        }
+    },
+    "bin": "blogr.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/blogr-cli?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/blogr-cli-$version/blogr-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/blogr-cli-$version/blogr-cli-$version-aarch64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
