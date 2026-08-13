@@ -16,9 +16,6 @@
             "64bit": {
                 "url": "https://github.com/psmux/psnet/releases/download/v$version/psnet-$version-x86_64-windows.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/checksums.txt"
         }
     }
 }
