@@ -1,0 +1,21 @@
+{
+    "version": "1.0.1",
+    "description": "A git powered terminal-based todo and note manager.",
+    "homepage": "https://github.com/naggie/dstask",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/naggie/dstask/releases/download/v1.0.1/dstask-windows-amd64.exe#/dstask.exe",
+            "hash": "74ec4b7adfcd6931fc3c9559cd9181cf36f901cc9cc702b32e112d4dfafffd84"
+        }
+    },
+    "bin": "dstask.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/naggie/dstask/releases/download/v$version/dstask-windows-amd64.exe#/dstask.exe"
+            }
+        }
+    }
+}
