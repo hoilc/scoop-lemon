@@ -1,0 +1,24 @@
+{
+    "version": "2.0.2",
+    "description": "An analyzer of security features in executable binaries.",
+    "homepage": "https://codeberg.org/koutheir/binary-security-check",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://codeberg.org/koutheir/binary-security-check/releases/download/v2.0.2/binary-security-check-v2.0.2-x86_64-windows.tar.xz",
+            "hash": "ace4754cac8cd08599a120934b0c8458c00084eb506cce5d1da81e6d08bf052e"
+        }
+    },
+    "bin": "binary-security-check.exe",
+    "checkver": {
+        "url": "https://codeberg.org/koutheir/binary-security-check/releases.rss",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://codeberg.org/koutheir/binary-security-check/releases/download/v$version/binary-security-check-v$version-x86_64-windows.tar.xz"
+            }
+        }
+    }
+}
