@@ -1,0 +1,36 @@
+{
+    "version": "26.8.1",
+    "description": "欧路词典是一款英语词典软件，支持学习笔记、生词本多平台同步，让你随时随地学英语",
+    "homepage": "https://www.eudic.net/v4/en/app/eudic",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://static.eudic.net/pkg/update_en_win32_full.exe?v=26.8.1#/dl.7z",
+            "hash": "6996b73c722afd3ddc90557f209eb217b69905655c75f9380371f3f10b078a56"
+        }
+    },
+    "shortcuts": [
+        [
+            "eudic.exe",
+            "欧路词典"
+        ]
+    ],
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\" -Removal"
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Francochinois\\eudic\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "notes": "请避免使用内置自动更新，否则将直接安装到 Scoop 以外的目录",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/eudic/state.json",
+        "jsonpath": "$.version",
+        "regex": "([\\d.]+)\\.0"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://static.eudic.net/pkg/update_en_win32_full.exe?v=$version#/dl.7z"
+            }
+        }
+    }
+}
