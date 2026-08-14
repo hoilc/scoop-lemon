@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "(CPU Backend) mistral.rs is a single binary for local inference, OpenAI-compatible serving, Anthropic-compatible Messages serving, and agentic workloads.",
     "homepage": "https://github.com/EricLBuehler/mistral.rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EricLBuehler/mistral.rs/releases/download/v0.9.0/mistralrs-cpu-x86_64-pc-windows-msvc.zip",
-            "hash": "5d86e276d21f013cbb5c514f73791a8954235cf91ab722f9f2a073332f76ac3b"
+            "url": "https://github.com/EricLBuehler/mistral.rs/releases/download/v0.9.1/mistralrs-cpu-x86_64-pc-windows-msvc.zip",
+            "hash": "377bb0f67f2ec42506959abd230f30fe360a605df9ccc4b2841dc93f1d847daf"
         }
     },
     "bin": "mistralrs.exe",
