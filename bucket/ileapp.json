@@ -1,27 +1,27 @@
 {
-    "version": "2026.2.1",
+    "version": "2026.3.0",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileapp-v2026.2.1-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileappGUI-v2026.2.1-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileapp-v2026.3.0-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileappGUI-v2026.3.0-Windows_x86_64.zip"
             ],
             "hash": [
-                "19fd8ccc5eb1180f57b915ca6f1cfa8154c13995b0c139ce1bcae38bef0c02f3",
-                "69acf9828275dc155e4b3e8b89b764b8143f37e430833e4f5c5f97522fb7ba3f"
+                "31ea651701bc41a2c124c9d3556980dd1c8e63d51a29d2c25929316f6c9d05c2",
+                "e9c947135f4762c7ca9538509f0905e50ce3212b436a90a900d91f30694380fc"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileapp-v2026.2.1-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.2.1/ileappGUI-v2026.2.1-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileapp-v2026.3.0-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileappGUI-v2026.3.0-Windows_arm64.zip"
             ],
             "hash": [
-                "f28b6ec1c7ca886a091b73e233eeebf47378549cd1189b372a4d933726a64294",
-                "70060b3abbbcde3377c207975d8963ad981e350d318e2adc4d2e8bed994717c8"
+                "bc275667ae23795614fa01f1a3f27e39627b809fad1d9f391b6f7189c3b9b8fb",
+                "1289691ff075e4cc46d5618eee302ad97f935c20233765c4e0ec4855b13f64e1"
             ]
         }
     },
