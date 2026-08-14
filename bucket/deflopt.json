@@ -1,0 +1,9 @@
+{
+    "version": "2.07",
+    "description": "Reduce the size of GZIP (extensions .gz and .tgz), PNG, and ZIP files.",
+    "homepage": "https://web.archive.org/web/20140209022101/https://www.walbeehm.com/download/#DeflOpt",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/deflopt/DeflOpt207.7z",
+    "hash": "cd37417818c7a8046a5b12d5630f6ab5f323747e7295354fea5c0e3749fead3f",
+    "bin": "DeflOpt.exe"
+}
