@@ -22,11 +22,9 @@
     "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\Francochinois\\eudic\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": "请避免使用内置自动更新，否则将直接安装到 Scoop 以外的目录",
     "checkver": {
-        "script": [
-            "try { $data = Invoke-WebRequest -Headers @{'EudicUserAgent'='/eusoft_eudic_en_win32/26.6.11/E1676597/'} 'https://api.frdic.com/api/v2/appsupport/checkversion' } catch { $_.Exception.Response }",
-            "return \"$data.Content\""
-        ],
-        "regex": "\\?v=([\\d.]+)"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/eudic/state.json",
+        "jsonpath": "$.version",
+        "regex": "([\\d.]+)\\.0"
     },
     "autoupdate": {
         "architecture": {
