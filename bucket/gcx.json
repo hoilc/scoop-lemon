@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A CLI for managing Grafana and Grafana Cloud resources, optimized for agentic usage.",
     "homepage": "https://github.com/grafana/gcx",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/gcx/releases/download/v1.0.0/gcx_1.0.0_windows_amd64.zip",
-            "hash": "9c8dcccbc1712463ebce92b8c9f07f05ca55d6d096b2219dcc7e0761f832fef9"
+            "url": "https://github.com/grafana/gcx/releases/download/v1.1.0/gcx_1.1.0_windows_amd64.zip",
+            "hash": "21039e34896c0bafaf044cee0de7545d3ccda2f05ed0f13404685b1e09fd3cb0"
         },
         "arm64": {
-            "url": "https://github.com/grafana/gcx/releases/download/v1.0.0/gcx_1.0.0_windows_arm64.zip",
-            "hash": "d49bc3c704c8b8f8303690ec9180ed77f02262a0158cc6f96cd85d500140cec4"
+            "url": "https://github.com/grafana/gcx/releases/download/v1.1.0/gcx_1.1.0_windows_arm64.zip",
+            "hash": "81419dd2d3dc867d885ff34d4232abef26986e0d5f398b6cb6a7a989c3bd7b4a"
         }
     },
     "bin": "gcx.exe",
