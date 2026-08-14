@@ -1,16 +1,16 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "description": "A blazing fast, multi-protocol download manager. | 极速多协议下载管理器",
     "homepage": "https://fluxdown.zerx.dev/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.3/FluxDown-0.4.3-windows-x64-portable.zip",
-            "hash": "2bd116d0e2ae392a4fe1b7a2fe9f6cdf021e84c762ba9a2ac2eb19aef1e54730"
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.4/FluxDown-0.4.4-windows-x64-portable.zip",
+            "hash": "b4eb8f86e959e6ead77adf3417a46f5844db7306598e21d396ab72018354cccd"
         },
         "arm64": {
-            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.3/FluxDown-0.4.3-windows-arm64-portable.zip",
-            "hash": "d34a1688e6d1895fb1f329241dea63a1f8fd76b3b95edf31afdaf739ef14250d"
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.4/FluxDown-0.4.4-windows-arm64-portable.zip",
+            "hash": "de785e4c71b7e8769a8925bd7faad4f6bbf596a3a76cbd16b836bdb6a2e0eb08"
         }
     },
     "shortcuts": [
