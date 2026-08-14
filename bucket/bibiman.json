@@ -1,0 +1,31 @@
+{
+    "version": "0.19.3",
+    "description": "A TUI for fast and simple interacting with your BibLaTeX database.",
+    "homepage": "https://codeberg.org/lukeflo/bibiman",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.3/bibiman-0.19.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "e161ae63e745a292e87d6687628d0228a088ed165ddc245139f082ec39f9cb89"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.3/bibiman-0.19.3-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4b98c8d27462c08d7e0a1071f92187ef24ef1c25a41a5518f59d50d34f626572"
+        }
+    },
+    "bin": "bibiman.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/bibiman?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-$version/bibiman-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-$version/bibiman-$version-aarch64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
