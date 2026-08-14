@@ -1,12 +1,12 @@
 {
-    "version": "0.29.0",
+    "version": "0.29.1",
     "description": "A Git subcommand that makes `git worktree` simple.",
     "homepage": "https://github.com/k1LoW/git-wt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k1LoW/git-wt/releases/download/v0.29.0/git-wt_v0.29.0_windows_amd64.tar.gz",
-            "hash": "908a7f73ef7a00323bc7d09037fd0bc6992e16bab79d00c3bd2cfb6873c1a895"
+            "url": "https://github.com/k1LoW/git-wt/releases/download/v0.29.1/git-wt_v0.29.1_windows_amd64.tar.gz",
+            "hash": "54c22befa874dcdadb0f14bceb6faecd6b47b25cb90f5bad42776f8f4d7dfb24"
         }
     },
     "bin": "git-wt.exe",
