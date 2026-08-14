@@ -1,5 +1,5 @@
 {
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "Poolside’s coding agent that runs in your terminal or integrates with any ACP-compatible editor.",
     "homepage": "https://docs.poolside.ai/cli/pool",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/poolsideai/pool/releases/download/v1.0.15/pool-windows-amd64.tar.gz",
-            "hash": "296a828390cbc4ff6d6a61410cfd3e25d86ecdf6152b479ab26402ead2c78d4d"
+            "url": "https://github.com/poolsideai/pool/releases/download/v1.0.16/pool-windows-amd64.tar.gz",
+            "hash": "3e324f1a4b5855ba5363232c06461ec9d6d2ae1a341c827221e79779f8f2bc6f"
         },
         "arm64": {
-            "url": "https://github.com/poolsideai/pool/releases/download/v1.0.15/pool-windows-arm64.tar.gz",
-            "hash": "b6e7b204ac6e928fb05a409bfe9327f74945d75f684e4a0e43568cc159647316"
+            "url": "https://github.com/poolsideai/pool/releases/download/v1.0.16/pool-windows-arm64.tar.gz",
+            "hash": "8dc7d014ced3e9d3ced240bbc7dabaf696bf59f118bd271d9f4e8561e415d75b"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'pool-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pool.exe'",
