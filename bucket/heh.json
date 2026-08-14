@@ -1,0 +1,31 @@
+{
+    "version": "0.6.3",
+    "description": "A terminal UI to edit bytes by the nibble.",
+    "homepage": "https://github.com/ndd7xv/heh",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/heh-0.6.3/heh-0.6.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "a2404279c87bd60ee64f802dfd58e465a4e7807bfdc4dcfb9e2486fcd7cdb511"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/heh-0.6.3/heh-0.6.3-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "e1659ba05f64455ceccce6613c1cf55dd0b6f4108587a148b8a8ad1efe5bfa25"
+        }
+    },
+    "bin": "heh.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/heh?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/heh-$version/heh-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/heh-$version/heh-$version-aarch64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
