@@ -1,20 +1,20 @@
 {
-    "version": "0.25.0",
+    "version": "0.25.1",
     "description": "A language server for emmylua.",
     "homepage": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.0/emmylua_ls-win32-x64.zip",
-            "hash": "947023855a6cd4b7d81c6a6df489cb9a96359bbb5e9c89f48e982d03d2970ae9"
+            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_ls-win32-x64.zip",
+            "hash": "82efa133287f67be09e1a624d8efecd8063832ec2b9bf9279c37afc5f42118bd"
         },
         "32bit": {
-            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.0/emmylua_ls-win32-ia32.zip",
-            "hash": "f0e5469a81ea828062b136b9f8f3964a748096eed7bd46927fc9564ca5955eff"
+            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_ls-win32-ia32.zip",
+            "hash": "cbe4693e66447be56b4a8fd5450afc5be23e980deff3985668210a2e88541de4"
         },
         "arm64": {
-            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.0/emmylua_ls-win32-arm64.zip",
-            "hash": "9b4df61822f8bdea34e53322aaf4e085d2fd8ee23a473f5f1b06cb36fadc8870"
+            "url": "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/releases/download/0.25.1/emmylua_ls-win32-arm64.zip",
+            "hash": "f6f335f01fccca6f000a6240fb78c6fbab069230b1bb4347361ef3f64550390a"
         }
     },
     "bin": "emmylua_ls.exe",
