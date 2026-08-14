@@ -1,0 +1,33 @@
+{
+    "version": "24.05.12",
+    "description": "Shrinks images and documents losslessly by optimizing existing compression.",
+    "homepage": "https://papas-best.com/optimizer_en",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://papas-best.com/downloads/optimizer/license"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://papas-best.com/downloads/optimizer/stable/x64/Best%20Optimizer.7z",
+            "hash": "15c53d85f8be2c72bdc8ac698d0160c29db52885344e332fc5a6000776b88e6c"
+        }
+    },
+    "shortcuts": [
+        [
+            "Best Optimizer.exe",
+            "Papa’s Best Optimizer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://papas-best.com/downloads/optimizer/changes.txt",
+        "regex": "20(?<year>\\d{2})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "${year}.${month}.${day}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://papas-best.com/downloads/optimizer/stable/x64/Best%20Optimizer.7z"
+            }
+        }
+    }
+}
