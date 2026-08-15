@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/erikjuhani/basalt/releases/download/basalt%2Fv0.12.7/basalt-0.12.7-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "target\\x86_64-pc-windows-msvc\\release",
+            "extract_dir": "basalt-0.12.7-x86_64-pc-windows-msvc",
             "hash": "8b5e1138f64ddd5c994f86f003d70a9e672d5cfef8dededc8e0d0aa09da62e03"
         }
     },
@@ -18,7 +18,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/erikjuhani/basalt/releases/download/basalt%2Fv$version/basalt-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/erikjuhani/basalt/releases/download/basalt%2Fv$version/basalt-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "basalt-$version-x86_64-pc-windows-msvc"
             }
         },
         "hash": {
