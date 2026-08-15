@@ -1,12 +1,12 @@
 {
-    "version": "0.67.2",
+    "version": "0.69.0",
     "description": "ML-powered manga translator, written in Rust.",
     "homepage": "https://github.com/mayocream/koharu",
     "license": "GPL-3.0-only|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mayocream/koharu/releases/download/0.67.2/koharu_0.67.2_x64-setup.exe#/dl.7z",
-            "hash": "435d3b74d6f0d59262c970973b46a43c77ddb0bb08c9e2a536e6ec31304f7f71"
+            "url": "https://github.com/mayocream/koharu/releases/download/0.69.0/koharu_0.69.0_x64-setup.exe#/dl.7z",
+            "hash": "0e49ce7662a5da26b0f0027129f8e97b7aed7a2acf5ce27e4e3bf27a7933398e"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
