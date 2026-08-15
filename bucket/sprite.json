@@ -1,16 +1,16 @@
 {
-    "version": "0.0.1-rc47",
+    "version": "0.0.1-rc48",
     "description": "CLI for sprites, stateful sandbox environments with checkpoint & restore",
     "homepage": "https://fly.io/sprites",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://sprites-binaries.t3.storage.dev/client/v0.0.1-rc47/sprite-windows-amd64.zip",
-            "hash": "b1c7b4623c597275ba9afa46702f33bbe860a25928387297143066b17949b6ab"
+            "url": "https://sprites-binaries.t3.storage.dev/client/v0.0.1-rc48/sprite-windows-amd64.zip",
+            "hash": "72021246158bfd8e5fa6afde6a6af3d87e82859f106949ccc802265ba5ce12db"
         },
         "arm64": {
-            "url": "https://sprites-binaries.t3.storage.dev/client/v0.0.1-rc47/sprite-windows-arm64.zip",
-            "hash": "ce2f10495868367a213087953a936fd5322e9b50c3da618744fd56dd8484134c"
+            "url": "https://sprites-binaries.t3.storage.dev/client/v0.0.1-rc48/sprite-windows-arm64.zip",
+            "hash": "f7b5abf8f642a601ae75c8732f8eb6863f1234296f0546ba591529142cf014af"
         }
     },
     "bin": "sprite.exe",
