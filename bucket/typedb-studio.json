@@ -1,0 +1,30 @@
+{
+    "version": "3.12.2",
+    "description": "An interactive visual environment for TypeDB.",
+    "homepage": "https://typedb.com/docs/tools/studio/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-windows-x86_64/versions/3.12.2/typedb-studio-windows-x86_64-3.12.2.msi",
+            "hash": "22c6b80de90fe8a09d3fc78c5ad8eb22ebd186aa67a5b86e47c4bfc59f98c695",
+            "extract_dir": "PFiles\\typedb-studio"
+        }
+    },
+    "shortcuts": [
+        [
+            "typedb-studio.exe",
+            "TypeDB Studio"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.typedb.studio\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "github": "https://github.com/typedb/typedb-studio"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-windows-x86_64/versions/$version/typedb-studio-windows-x86_64-$version.msi"
+            }
+        }
+    }
+}
