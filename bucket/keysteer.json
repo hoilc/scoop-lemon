@@ -1,0 +1,41 @@
+{
+    "version": "0.9.1",
+    "description": "A native keyboard-driven mouse control tool.",
+    "homepage": "https://dccif.github.io/KeySteer/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dccif/KeySteer/releases/download/v0.9.1/KeySteer-v0.9.1-x86_64-pc-windows-msvc.zip",
+            "hash": "53c206994e5862408fc90a6ae5e6cbcf6af3f51305b2bf3b68264ecf753853ba",
+            "extract_dir": "KeySteer"
+        },
+        "arm64": {
+            "url": "https://github.com/dccif/KeySteer/releases/download/v0.9.1/KeySteer-v0.9.1-aarch64-pc-windows-msvc.zip",
+            "hash": "5586775d630fd81634cb8108668a67faaad3c913d0c0f7317e7351fdd54685ff",
+            "extract_dir": "KeySteer"
+        }
+    },
+    "bin": "KeySteer.exe",
+    "shortcuts": [
+        [
+            "KeySteer.exe",
+            "KeySteer"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*\" -Include '*.toml' | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.toml' | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "github": "https://github.com/dccif/KeySteer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dccif/KeySteer/releases/download/v$version/KeySteer-v$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/dccif/KeySteer/releases/download/v$version/KeySteer-v$version-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
