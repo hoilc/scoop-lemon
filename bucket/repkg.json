@@ -12,7 +12,7 @@
     "bin": "RePKG.exe",
     "checkver": {
         "url": "https://github.com/notscuffed/repkg/releases.atom",
-        "regex": "Repository/\\d+/v([^<]+)"
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
