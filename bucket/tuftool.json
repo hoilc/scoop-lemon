@@ -1,0 +1,31 @@
+{
+    "version": "0.17.0",
+    "description": "A utility to create and manage The Update Framework (TUF) repositories.",
+    "homepage": "https://github.com/awslabs/tough",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tuftool-0.17.0/tuftool-0.17.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "f55b7fef47ad5404e191329bc60286a56abc4a79e6c8fabb26c5888078459afe"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tuftool-0.17.0/tuftool-0.17.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "26e22e90f6f700667a89477701985d25edfc353de727768d97384426c333d8f5"
+        }
+    },
+    "bin": "tuftool.exe",
+    "checkver": {
+        "url": "https://github.com/awslabs/tough/releases.atom",
+        "regex": "Repository/\\d+/tuftool-v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tuftool-$version/tuftool-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/tuftool-$version/tuftool-$version-aarch64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
