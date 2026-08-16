@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A Qt 6, KDE framework and scintilla-based cross-platform Notepad++ alternative.",
     "homepage": "https://github.com/BLumia/pineapple-notepad",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BLumia/pineapple-notepad/releases/download/1.0.0-freeware/pineapple-notepad-windows-amd64-1.0.0.zip",
-            "hash": "140797165d42d861da1d2d523fbc1143ebcbd6999844b063c326e2ac7ee5c68f"
+            "url": "https://github.com/BLumia/pineapple-notepad/releases/download/1.1.0-freeware/pineapple-notepad-windows-amd64-1.1.0.zip",
+            "hash": "0ee5877d8b575f756e6074d7d5c471c4a6ca36f9344f29c73dfd031da0748cc7"
         }
     },
     "bin": "pnotepad.exe",
