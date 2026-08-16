@@ -1,16 +1,16 @@
 {
-    "version": "1.3.0-alpha.1.1024+067c3ad",
+    "version": "1.3.0-alpha.1.1025+abd8687",
     "description": "(Nightly Build) A free, open source, multiplatform digital audio workstation.",
     "homepage": "https://lmms.io/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://lmms.io/download/artifact/8901463671#/dl.7z",
-            "hash": "cecb26505173173dd62decbccf305a1ffe7e429f6dd7487b308712a972bcfc69"
+            "url": "https://lmms.io/download/artifact/9262312562#/dl.7z",
+            "hash": "ac275644385481bb666fcbdfc4a5e0d498031e54d4f0fe93f470ec8802e672a6"
         },
         "arm64": {
-            "url": "https://lmms.io/download/artifact/8901336333#/dl.7z",
-            "hash": "b4701c8a72914a93f39e0161a01ac58047b798d1e77c4c97c788dd354900d3da"
+            "url": "https://lmms.io/download/artifact/9262301364#/dl.7z",
+            "hash": "34a1be32d124a0d770485fa0e19638c0d17b54daf666c09569980c5f921f4028"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
