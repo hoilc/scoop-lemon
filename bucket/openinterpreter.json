@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://github.com/openinterpreter/openinterpreter/releases.atom",
-        "regex": "Repository/\\d+/rust-v([\\d.]+)"
+        "regex": "Repository/\\d+/rust-v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
