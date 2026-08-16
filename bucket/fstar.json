@@ -1,12 +1,12 @@
 {
-    "version": "2026.08.09",
+    "version": "2026.08.16",
     "description": "A proof-oriented programming language.",
     "homepage": "https://fstar-lang.org",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FStarLang/FStar/releases/download/v2026.08.09/fstar-v2026.08.09-Windows_NT-x86_64.zip",
-            "hash": "aa59f6e797b932c7c6bb2e57ce3d4faa463ed09eea255cfbaa8ebdbdd9f99238"
+            "url": "https://github.com/FStarLang/FStar/releases/download/v2026.08.16/fstar-v2026.08.16-Windows_NT-x86_64.zip",
+            "hash": "e44067eb3a413854c911bb2285375b50cca170e32847a5537d441c04f04e7d4f"
         }
     },
     "extract_dir": "fstar",
