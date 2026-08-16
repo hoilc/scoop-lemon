@@ -1,17 +1,17 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "Compress LLM context to save tokens and reduce costs.",
     "homepage": "https://github.com/ojuschugh1/sqz",
     "license": "Elastic-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ojuschugh1/sqz/releases/download/v1.6.0/sqz-v1.6.0-x86_64-pc-windows-msvc.zip",
-                "https://github.com/ojuschugh1/sqz/releases/download/v1.6.0/sqz-mcp-v1.6.0-x86_64-pc-windows-msvc.zip"
+                "https://github.com/ojuschugh1/sqz/releases/download/v1.6.1/sqz-v1.6.1-x86_64-pc-windows-msvc.zip",
+                "https://github.com/ojuschugh1/sqz/releases/download/v1.6.1/sqz-mcp-v1.6.1-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
-                "c947b3c293ff23246d985cd40b33e7b3259d0656ccd55234c9f8792025c8bb2a",
-                "b4d678e2a5978f0bc8ac676df726430f8d41eaf0cf8f42c83be8518a3a827ab8"
+                "313c3bec18c73cf2ea35988841b12b1b241d70261e92224b1bd2afa94f01a0e1",
+                "784a086bd9a320fcd67eb4b5f3fb12a15b38ae93d206db783ec987d11b52feb6"
             ]
         }
     },
