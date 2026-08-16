@@ -1,0 +1,31 @@
+{
+    "version": "54.1.0",
+    "description": "A CLI for Ballista, the distributed query engine powered by Apache DataFusion.",
+    "homepage": "https://datafusion.apache.org/ballista",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ballista-cli-54.1.0/ballista-cli-54.1.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "3ffcfc9f44d66cf9009dd63ad022c998baa7de3a1bc05550cdfc67ef23db0d17"
+        },
+        "arm64": {
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ballista-cli-54.1.0/ballista-cli-54.1.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "b503ce70ee66d96f3076a56001674a72d166dfe2284572841c430ae7783bd587"
+        }
+    },
+    "bin": "ballista-cli.exe",
+    "checkver": {
+        "url": "https://crates.io/api/v1/crates/ballista-cli?include=default_version",
+        "jsonpath": "$.crate.default_version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ballista-cli-$version/ballista-cli-$version-x86_64-pc-windows-msvc.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/ballista-cli-$version/ballista-cli-$version-aarch64-pc-windows-msvc.tar.gz"
+            }
+        }
+    }
+}
