@@ -1,12 +1,12 @@
 {
-    "version": "2.5.1",
+    "version": "2.6.0",
     "description": "A tool for structural variant discovery by integrated paired-end and split-read analysis.",
     "homepage": "https://github.com/dellytools/delly",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dellytools/delly/releases/download/v2.5.1/delly-v2.5.1-windows-amd64.exe#/delly.exe",
-            "hash": "32fb9e27326c36fed19d0e2fab6998a347c11ea52f4646b42ccd047fe0cbb687"
+            "url": "https://github.com/dellytools/delly/releases/download/v2.6.0/delly-v2.6.0-windows-amd64.exe#/delly.exe",
+            "hash": "799334ad5ac6eabc47144ebfa43c500d30cb4568c176a09e9d7539dd9301854b"
         }
     },
     "bin": "delly.exe",
