@@ -1,16 +1,16 @@
 {
-    "version": "2.3.4",
+    "version": "2.3.5",
     "description": "Redpanda Minion (KMinion) is a feature-rich and flexible Prometheus Exporter to monitor your Redpanda or Kafka cluster.",
     "homepage": "https://github.com/redpanda-data/kminion",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/redpanda-data/kminion/releases/download/v2.3.4/kminion_2.3.4_windows_amd64.tar.gz",
-            "hash": "d674878e423af687093835f19565ebcdd4382bbb76479e3ddc3af4d3a20ac76c"
+            "url": "https://github.com/redpanda-data/kminion/releases/download/v2.3.5/kminion_2.3.5_windows_amd64.tar.gz",
+            "hash": "d78060ad5bce5d0d0f9c641fb41119763832927fca7aeb661d3259134734538b"
         },
         "arm64": {
-            "url": "https://github.com/redpanda-data/kminion/releases/download/v2.3.4/kminion_2.3.4_windows_arm64.tar.gz",
-            "hash": "5cc63f0fb4fa5eef65d45bfdb68ce0766067678236ba06fedef6a128f03f528d"
+            "url": "https://github.com/redpanda-data/kminion/releases/download/v2.3.5/kminion_2.3.5_windows_arm64.tar.gz",
+            "hash": "608a30d9fd18a7028e6e601262df34d066278264a78d4b7082f929a5ecfe40f8"
         }
     },
     "bin": "kminion.exe",
