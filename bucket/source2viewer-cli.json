@@ -1,16 +1,16 @@
 {
-    "version": "19.2",
+    "version": "20.0",
     "description": "Command-line version of Source 2 Viewer, an all-in-one tool to browse VPK archives, view, extract, and decompile Source 2 assets.",
     "homepage": "https://s2v.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/19.2/cli-windows-x64.zip",
-            "hash": "53e7e8dac1ddd876078346de709c8dbe613a967e94cd0c969aa34c61ec07680d"
+            "url": "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/20.0/cli-windows-x64.zip",
+            "hash": "d32ab327b8bbb42a2528866afb03bb582bdb779d0005488da32b90292afd3ff5"
         },
         "arm64": {
-            "url": "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/19.2/cli-windows-arm64.zip",
-            "hash": "7d93a4639b6b9c31e0c3e2ed0f9254480a537dbda6fba95ce465ff278f0ffdd5"
+            "url": "https://github.com/ValveResourceFormat/ValveResourceFormat/releases/download/20.0/cli-windows-arm64.zip",
+            "hash": "df2a52372fee1ce8284abd2cd8a09f65e7259778290b5facfcfa07ef75f4ea1a"
         }
     },
     "bin": "Source2Viewer-CLI.exe",
