@@ -1,18 +1,21 @@
 {
     "version": "1.7.3",
-    "description": "Another Redis Desktop Manager is a faster and stable redis desktop manager [GUI client]， which won't crash when loading massive keys.",
+    "description": "A fast and stable redis desktop manager.",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.3/Another-Redis-Desktop-Manager.1.7.3.exe#/dl.7z",
-            "hash": "sha512:0cc3fbe4ac26e5fd2289ae20b13ed0faa29232711e90e56c5c7f864f3fbac9dae834492bedbe8da0909ccd4a5a711a4dc9671dc9226fbb450a9a55c6e989ae2e",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
-            ]
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.3/Another-Redis-Desktop-Manager-win-1.7.3-x64.exe#/dl.7z",
+            "hash": "cd8575ac7bedb4aac16af5621baa3a426ade6abe06a51567ab7d83e591745aeb",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        },
+        "arm64": {
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.3/Another-Redis-Desktop-Manager-win-1.7.3-arm64.exe#/dl.7z",
+            "hash": "b7a38d4c830c012f6b06f45af8252984c693c4f076cb36f0cf44367cb4bf269c",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
         }
     },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "Another Redis Desktop Manager.exe",
@@ -20,17 +23,16 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases",
-        "regex": "/tree/v([\\d.]+)"
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/latest.yml",
-                    "regex": "sha512:\\s*$base64"
-                }
+                "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-x64.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager-win-$version-arm64.exe#/dl.7z"
             }
         }
     }
