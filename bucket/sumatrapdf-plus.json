@@ -5,14 +5,8 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.27/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
-                "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.26/SumatraPDF.exe#/SumatraPDF.override.exe"
-            ],
-            "hash": [
-                "6cd8f1d863a0e61317d46cdf95dbdbc861e2aa1cb0787bfbbbaca2a545749a18",
-                "6488c75cbbc189b5af27c2bfb72837229a8d7ce00d7440471290e18c7b771179"
-            ]
+            "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/3.7.27/Sumatra.PDF.Plus.MainProgram+dictionary.zip",
+            "hash": "6cd8f1d863a0e61317d46cdf95dbdbc861e2aa1cb0787bfbbbaca2a545749a18"
         }
     },
     "shortcuts": [
