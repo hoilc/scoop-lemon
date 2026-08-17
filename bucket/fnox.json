@@ -1,16 +1,16 @@
 {
-    "version": "1.33.0",
+    "version": "1.33.1",
     "description": "A secrets management tool that works with both encrypted secrets in git and remote cloud providers.",
     "homepage": "https://fnox.jdx.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jdx/fnox/releases/download/v1.33.0/fnox-x86_64-pc-windows-msvc.zip",
-            "hash": "e185feb2d126866d1f22e66483762662a2ce7d391a13ac5791675c98b282bc35"
+            "url": "https://github.com/jdx/fnox/releases/download/v1.33.1/fnox-x86_64-pc-windows-msvc.zip",
+            "hash": "b59d04c326315cacbded505685205e501a0cee106a01d92fd860cb6661f9aacb"
         },
         "arm64": {
-            "url": "https://github.com/jdx/fnox/releases/download/v1.33.0/fnox-aarch64-pc-windows-msvc.zip",
-            "hash": "0d9200c05d0fa57930cc039de463e64025b689ad2dedb877dc5dc3e1d2cb3b07"
+            "url": "https://github.com/jdx/fnox/releases/download/v1.33.1/fnox-aarch64-pc-windows-msvc.zip",
+            "hash": "d0d038c7e1c7c2d0e37d1da1d403c1073f4a650cad3fe09598351495abcc5153"
         }
     },
     "bin": "fnox.exe",
