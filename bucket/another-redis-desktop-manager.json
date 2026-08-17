@@ -1,17 +1,17 @@
 {
-    "version": "1.7.3",
+    "version": "1.7.2",
     "description": "A fast and stable redis desktop manager.",
     "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.3/Another-Redis-Desktop-Manager-win-1.7.3-x64.exe#/dl.7z",
-            "hash": "cd8575ac7bedb4aac16af5621baa3a426ade6abe06a51567ab7d83e591745aeb",
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.2/Another-Redis-Desktop-Manager-win-1.7.2-x64.exe#/dl.7z",
+            "hash": "6fe90477216437907d5d107ae9fffd3d9445a988fcfc7a1aee313faa693f1b1a",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         },
         "arm64": {
-            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.3/Another-Redis-Desktop-Manager-win-1.7.3-arm64.exe#/dl.7z",
-            "hash": "b7a38d4c830c012f6b06f45af8252984c693c4f076cb36f0cf44367cb4bf269c",
+            "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.2/Another-Redis-Desktop-Manager-win-1.7.2-arm64.exe#/dl.7z",
+            "hash": "e7c192f0afc7668962c941e0b81f02b4da6a5e8dea84682f68069594b9a28ee4",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
         }
     },
