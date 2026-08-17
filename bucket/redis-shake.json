@@ -1,16 +1,16 @@
 {
-    "version": "4.6.1",
+    "version": "4.6.2",
     "description": "RedisShake is a Redis data processing and migration tool.",
     "homepage": "https://github.com/tair-opensource/RedisShake",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tair-opensource/RedisShake/releases/download/v4.6.1/redis-shake-v4.6.1-windows-amd64.tar.gz",
-            "hash": "ca41897c90a034bec7e891751dfb4cc7957bb97ff6465cbf41411d666e8467c1"
+            "url": "https://github.com/tair-opensource/RedisShake/releases/download/v4.6.2/redis-shake-v4.6.2-windows-amd64.tar.gz",
+            "hash": "c576d78f248d7fcf318e65b49a151a5ff4d526bf4dbb65cd5f24e8b392d85d8b"
         },
         "arm64": {
-            "url": "https://github.com/tair-opensource/RedisShake/releases/download/v4.6.1/redis-shake-v4.6.1-windows-arm64.tar.gz",
-            "hash": "0e2911b24d25a1fe2932c94eaf3de584354a88c5e3e4e1f978f95b391bc2e681"
+            "url": "https://github.com/tair-opensource/RedisShake/releases/download/v4.6.2/redis-shake-v4.6.2-windows-arm64.tar.gz",
+            "hash": "b474eb041817bbebdc28b2f20c5df7db1a2ce3d7970db7f0ba25f7b2863afeed"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'redis-shake' | Select-Object -First 1 | Rename-Item -NewName 'redis-shake.exe'",
