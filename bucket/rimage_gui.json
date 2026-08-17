@@ -1,25 +1,32 @@
 {
-    "version": "2.0.0.12",
+    "version": "3.0.0",
     "description": "A GUI software use rimage to compress images batchly without affecting the look and feel.",
     "homepage": "https://github.com/Mikachu2333/rimage_gui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/2.0.0.12/rimage_gui.exe",
-            "hash": "49ce3e53e7f827acb3464876005dc2078171d5918c422f6069c06cc1a91bae82"
+            "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/3.0.0/rimage-gui_x64.exe#/rimage_gui.exe",
+            "hash": "df3047d2044875ce7d40b8cbdcee90c16b80492c9a3ba59640623af553ccdb5c"
+        },
+        "32bit": {
+            "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/3.0.0/rimage-gui_x86.exe#/rimage_gui.exe",
+            "hash": "78d3496872c86fda95fa8e818ef9882b8b805361d23ef38530b2b82eeec5a28a"
         }
     },
     "shortcuts": [
         [
             "rimage_gui.exe",
-            "rimage_gui"
+            "Rimage GUI"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/$version/rimage_gui.exe"
+                "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/$version/rimage-gui_x64.exe#/rimage_gui.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Mikachu2333/rimage_gui/releases/download/$version/rimage-gui_x86.exe#/rimage_gui.exe"
             }
         }
     }
