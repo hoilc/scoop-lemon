@@ -1,16 +1,16 @@
 {
-    "version": "1.5.2",
+    "version": "1.5.3",
     "description": "图吧工具箱是一款开源、现代、免费的PC 硬件检测与系统维护工具集",
     "homepage": "https://tubawinui3.cn/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.2/TubaWinUi3_Portable_1.5.2_x64.zip",
-            "hash": "86ed90c315d50918b3697b996ffd65e274e3b0963f0d00ff5432e99a7970414b"
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.3/TubaWinUi3_Portable_1.5.3_x64.zip",
+            "hash": "e1378d440681231d235df06ed36fca5b6213aa94aab7bace190f8c304ce361dc"
         },
         "arm64": {
-            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.2/TubaWinUi3_Portable_1.5.2_arm64.zip",
-            "hash": "428ae22d6a34802119065b0951163022905caa2c1c523949de23c7eb5352b8ab"
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.5.3/TubaWinUi3_Portable_1.5.3_arm64.zip",
+            "hash": "a9167f9394a0d90b2a0440853cc2fa358438f704e3b87cccc5f2b1cd1210c7eb"
         }
     },
     "extract_dir": "src",
