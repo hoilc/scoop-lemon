@@ -1,10 +1,10 @@
 {
-    "version": "4.530",
+    "version": "4.540",
     "description": "A free text editor which can be used to edit text and HTML files.",
     "homepage": "https://www.alternate-tools.com/pages/c_textbrowser.php?lang=ENG",
     "license": "Freeware",
     "url": "https://www.alternate-tools.com/files/TextBrowser_Portable.zip",
-    "hash": "32fea40d022007978d52458b5d205f31c39a32d07c6e8f6307802150b96deb57",
+    "hash": "9f766b26fbb41fd1ec9a5207ad50e08a9c27062be1e3b1907a8b3d1cb89c55dd",
     "extract_dir": "TextBrowser",
     "shortcuts": [
         [
