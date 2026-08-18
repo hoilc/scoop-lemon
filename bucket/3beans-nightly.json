@@ -1,0 +1,30 @@
+{
+    "version": "b277-20260805-c5ce9ee",
+    "description": "A low-level 3DS emulator.",
+    "homepage": "https://github.com/Hydr8gon/3Beans",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/Hydr8gon/3Beans/actions/runs/31044365176/3beans-windows.zip",
+            "hash": "32794b84face644c070ee9e4b5fd7499ded9512f8b45de4c395ce626fe8b0670"
+        }
+    },
+    "shortcuts": [
+        [
+            "3beans.exe",
+            "3Beans (Nightly)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Hydr8gon/3Beans/actions/workflows/autobuild.yml?query=event%3Apush+is%3Asuccess+branch%3Amain",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/Hydr8gon/3Beans/actions/runs/$matchRun/3beans-windows.zip"
+            }
+        }
+    }
+}
