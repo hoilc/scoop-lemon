@@ -1,16 +1,16 @@
 {
-    "version": "1.6.14",
+    "version": "1.6.15",
     "description": "(Active Fork) A command-line downloader for Bilibili.",
     "homepage": "https://github.com/AliverAnme/BBDown",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AliverAnme/BBDown/releases/download/v1.6.14/BBDown_v1.6.14_win-x64.zip",
-            "hash": "d8a139ec4de2412573fe102152829baec521d399f0f1d1503d2c7acc3aa0340e"
+            "url": "https://github.com/AliverAnme/BBDown/releases/download/v1.6.15/BBDown_v1.6.15_win-x64.zip",
+            "hash": "e43e4d5e76b885222d715aa53081b263c71fda26156f6fcec6875ec4e1c20a86"
         },
         "arm64": {
-            "url": "https://github.com/AliverAnme/BBDown/releases/download/v1.6.14/BBDown_v1.6.14_win-arm64.zip",
-            "hash": "5f16633e6443b32d194ff72b144e07ed84b8f2bbab8363e891b07ac15085e8ff"
+            "url": "https://github.com/AliverAnme/BBDown/releases/download/v1.6.15/BBDown_v1.6.15_win-arm64.zip",
+            "hash": "34160cd0e0ba9fe2fbe23a446e68ff400e8e4e59cca139f0664d8a4f4bc5f843"
         }
     },
     "bin": "BBDown.exe",
