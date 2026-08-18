@@ -1,0 +1,26 @@
+{
+    "version": "0.9.1.2",
+    "description": "A complete tool for modding, decompiling and unpacking Undertale and other GameMaker games.",
+    "homepage": "https://github.com/UnderminersTeam/UndertaleModTool",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/0.9.1.2/UndertaleModTool_v0.9.1.2-Windows.zip",
+            "hash": "0f9ad0b81c8b3074537100544a6a9e5bb7092fa923459e6ba3bb22b8c7cc08b3"
+        }
+    },
+    "shortcuts": [
+        [
+            "UndertaleModTool.exe",
+            "UndertaleModTool"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/$version/UndertaleModTool_v$version-Windows.zip"
+            }
+        }
+    }
+}
