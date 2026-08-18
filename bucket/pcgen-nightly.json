@@ -1,12 +1,12 @@
 {
-    "version": "6.09.08.RC1-NIGHTLY.20260817",
+    "version": "6.09.08.RC1-NIGHTLY.20260818",
     "description": "A program that help you build characters for role-playing games like Pathfinder and D&D.",
     "homepage": "https://github.com/PCGen/pcgen",
     "license": "LGPL-2.1-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PCGen/pcgen/releases/download/v6.09.08.RC1-NIGHTLY.20260817/pcgen-6.09.08.RC1-NIGHTLY.20260817-windows-x64-portable.zip",
-            "hash": "34fa7643e0a39bed3328cd5764de0ba48b40019df2fc0aa2a1b30a9a5b67ea4e"
+            "url": "https://github.com/PCGen/pcgen/releases/download/v6.09.08.RC1-NIGHTLY.20260818/pcgen-6.09.08.RC1-NIGHTLY.20260818-windows-x64-portable.zip",
+            "hash": "c633879a49e1c93ca76bf26faac00effd19ddc63956b51d9669dadb4e838602f"
         }
     },
     "extract_dir": "PcGen",
