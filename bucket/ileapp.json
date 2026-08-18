@@ -1,27 +1,27 @@
 {
-    "version": "2026.3.0",
+    "version": "2026.3.1",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileapp-v2026.3.0-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileappGUI-v2026.3.0-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileapp-v2026.3.1-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileappGUI-v2026.3.1-Windows_x86_64.zip"
             ],
             "hash": [
-                "31ea651701bc41a2c124c9d3556980dd1c8e63d51a29d2c25929316f6c9d05c2",
-                "e9c947135f4762c7ca9538509f0905e50ce3212b436a90a900d91f30694380fc"
+                "f5f62b0a4c14c13c50d1e8dedb2d577250679fa2d65bca396fb99b649a68abaf",
+                "ff319f72f17cb09f4eef6dd63e7b26071731a3b7c5507f63a158b2217870180e"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileapp-v2026.3.0-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.0/ileappGUI-v2026.3.0-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileapp-v2026.3.1-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileappGUI-v2026.3.1-Windows_arm64.zip"
             ],
             "hash": [
-                "bc275667ae23795614fa01f1a3f27e39627b809fad1d9f391b6f7189c3b9b8fb",
-                "1289691ff075e4cc46d5618eee302ad97f935c20233765c4e0ec4855b13f64e1"
+                "f05985bcdfadd440ff0bfb03c0cea6cfaaeabe2f21e7eb349cbbf2b3c372b28e",
+                "00af18159e7577f37055c9a9de93471c0e8c9fcc6ac6f96caf017031857d32af"
             ]
         }
     },
