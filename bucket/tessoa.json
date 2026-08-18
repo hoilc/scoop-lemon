@@ -1,0 +1,30 @@
+{
+    "version": "0.19.0",
+    "description": "A GPU-accelerated file manager.",
+    "homepage": "https://tessoa.com",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.tessoa.com/tessoa/v0.19.0/tessoa-windows-x86_64.exe#/tessoa.exe",
+            "hash": "957c38abacc870e1767242fa5715c7b3dfb266ea4443ef19f72305160641b42b"
+        }
+    },
+    "bin": "tessoa.exe",
+    "shortcuts": [
+        [
+            "tessoa.exe",
+            "tessoa"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download.tessoa.com/tessoa/latest.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.tessoa.com/tessoa/v$version/tessoa-windows-x86_64.exe#/tessoa.exe"
+            }
+        }
+    }
+}
