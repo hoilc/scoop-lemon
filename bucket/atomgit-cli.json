@@ -1,16 +1,16 @@
 {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "description": "Command-line interface for AtomGit.",
     "homepage": "https://atomgit.com/hust-open-atom-club/atomgit-cli",
     "license": "MulanPSL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.1/ag_windows_amd64.zip",
-            "hash": "5cb1184819e014786ad6d5b00faaee88c50d46f95e0be3038e1c409f9f5bb744"
+            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.2/ag_windows_amd64.zip",
+            "hash": "f34ea6981933e39ab699bcf69fc0c00ebe3f66a3af7f82f124611720c92e56d1"
         },
         "arm64": {
-            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.1/ag_windows_arm64.zip",
-            "hash": "dd334ac2f819c76d0c38e822f14d20b9be4d0d4d7d33fe3fa4fafaa49c429e00"
+            "url": "https://atomgit.com/hust-open-atom-club/atomgit-cli/releases/download/v0.7.2/ag_windows_arm64.zip",
+            "hash": "40cc7f8d1d9b269c39880868835cd7df289d986d34e4266be81d21f34bdd8562"
         }
     },
     "bin": [
