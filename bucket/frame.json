@@ -1,0 +1,30 @@
+{
+    "version": "0.33.0",
+    "description": "A native media conversion utility built in Rust.",
+    "homepage": "https://www.framegui.app",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/66HEX/frame/releases/download/0.33.0/Frame-x86_64.exe",
+            "hash": "3bbbe6bbae9f89107e4927d16359118c4ac5438e6f2fa86db06edf07f3c2082b"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Frame.exe",
+            "Frame"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\frame-update-helper.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": {
+        "github": "https://github.com/66HEX/frame"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/66HEX/frame/releases/download/$version/Frame-x86_64.exe"
+            }
+        }
+    }
+}
