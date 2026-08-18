@@ -1,0 +1,24 @@
+{
+    "version": "0.15.0",
+    "description": "A tool to securely generate API tokens for third-party access to your Tesla.",
+    "homepage": "https://github.com/adriankumpf/tesla_auth",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v0.15.0/tesla_auth-x86_64-pc-windows-msvc.zip",
+            "hash": "4e5d1a6fd1aebff9b0603ad17080bf67d113a503da417b93c94dd30f47ab5769"
+        }
+    },
+    "bin": "tesla_auth.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v$version/tesla_auth-x86_64-pc-windows-msvc.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
