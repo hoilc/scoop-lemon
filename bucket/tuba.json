@@ -1,16 +1,16 @@
 {
-    "version": "b1850",
+    "version": "b1719",
     "description": "Browse the Fediverse.",
     "homepage": "https://tuba.geopjr.dev/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/31648548235/tuba_windows_portable.zip",
-            "hash": "735c1ead01da7faec3ba3e82d5d13f24b17268de4afbc230ef6eeb3d3bd84402"
+            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/29681525701/tuba_windows_portable.zip",
+            "hash": "1100ff726ff3b31aed93a80d7603df7da25da3dc29ae266ebc155614ab5120d3"
         },
         "arm64": {
-            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/31648548235/tuba_windows_portable_aarch64.zip",
-            "hash": "be1763a5fb98417547f51fddc32d030b011d50f325fd4db0b936ab1b9a4025ff"
+            "url": "https://nightly.link/GeopJr/Tuba/actions/runs/29681525701/tuba_windows_portable_aarch64.zip",
+            "hash": "4c44a54f6ea78ce37fc20795b93460633d1e1ccf40dd585f9265360a8ba8108f"
         }
     },
     "shortcuts": [
