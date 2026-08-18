@@ -6,18 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://gitee.com/konyshe/goodlink/releases/download/v3.0.0/goodlink-windows-amd64.zip",
-            "hash": "7f0bc4509253758874b52a55111ad104d69a594332d8ae82b5c0330a8a493919",
-            "extract_dir": "goodlink-windows-amd64",
-            "pre_install": [
-                "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64') }",
-                "Get-ChildItem \"$dir\" 'goodlink-cmd.exe' | Select-Object -First 1 | Rename-Item -NewName 'goodlink.exe'"
-            ]
+            "hash": "4be6b86c0efdbced112453b99f7008fe7bb549b884465de7f54f347b28df0046"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'goodlink?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'goodlink.exe'",
     "bin": "goodlink.exe",
     "shortcuts": [
         [
-            "goodlink-ui.exe",
+            "goodlink.exe",
             "GoodLink"
         ]
     ],
