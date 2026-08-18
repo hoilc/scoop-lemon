@@ -26,6 +26,7 @@
         "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Classes\\lertaro' -Recurse -ErrorAction SilentlyContinue }",
         "if ($purge) { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'Lertaro' -ErrorAction SilentlyContinue }"
     ],
+    "persist": "Data",
     "checkver": {
         "github": "https://github.com/Lertaro/Lertaro"
     },
