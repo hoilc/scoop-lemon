@@ -1,8 +1,8 @@
 {
     "version": "0.27.30",
-    "description": "A cross-platform system tray app that manages and synchronizes kubectl port-forward configurations with ease.",
+    "description": "A desktop app with tray integration for managing and synchronizing kubectl port-forward configurations with ease.",
     "homepage": "https://kftray.app/",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/hcavarsan/kftray/releases/download/v0.27.30/kftray_0.27.30_x64-setup.exe#/dl.7z",
@@ -23,7 +23,8 @@
             "kftray"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.hcavarsan.kftray\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "checkver": {
         "github": "https://github.com/hcavarsan/kftray"
     },
