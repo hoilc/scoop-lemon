@@ -1,22 +1,25 @@
 {
-    "version": "0.8",
-    "description": "Rootless implementation of LSPosed framework, integrating Xposed API by inserting dex and so into the target APK.",
+    "version": "1.0",
+    "description": "A rootless Xposed framework that embeds Vector into an app by patching its APK — no root, no Zygisk.",
     "homepage": "https://github.com/JingMatrix/LSPatch",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/JingMatrix/LSPatch/releases/download/v0.8/lspatch.jar",
-    "hash": "b81094ac3d088849d9781e2678a87562936f8e0d78c4d136a9072dce40f72208",
+    "url": "https://github.com/JingMatrix/LSPatch/releases/download/v1.0/lspatch-v1.0-455-release.jar#/lspatch.jar",
+    "hash": "405e466336d89dcdeca0a5faebc7a5bcc17470a03f9de1ac047647a80febf351",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "lspatch.bat",
     "suggest": {
-        "JDK 21+": [
+        "JDK": [
             "java/openjdk",
             "java/temurin-jdk",
+            "java/oraclejdk",
             "java/zulu-jdk"
         ]
     },
-    "notes": "You need to have JRE 21 installed on your computer to use LSPatch CLI.",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/JingMatrix/LSPatch/releases/latest",
+        "regex": "\"lspatch-v([\\d.]+)-(?<count>\\d+)-release.jar\""
+    },
     "autoupdate": {
-        "url": "https://github.com/JingMatrix/LSPatch/releases/download/v$version/lspatch.jar"
+        "url": "https://github.com/JingMatrix/LSPatch/releases/download/v$version/lspatch-v$version-$matchCount-release.jar#/lspatch.jar"
     }
 }
