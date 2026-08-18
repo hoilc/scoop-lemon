@@ -1,0 +1,31 @@
+{
+    "version": "0.9.0",
+    "description": "A QR code generator for text terminals (ANSI color, Unicode, Sixel).",
+    "homepage": "https://github.com/fumiyas/qrc",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fumiyas/qrc/releases/download/v0.9.0/qrc_0.9.0_windows_amd64.zip",
+            "hash": "b84a97ae59d1654eb2a7a4aeefb3fff14fd98c854985ffffbe388548d05ab275"
+        },
+        "arm64": {
+            "url": "https://github.com/fumiyas/qrc/releases/download/v0.9.0/qrc_0.9.0_windows_arm64.zip",
+            "hash": "4c1488678cd36d04f5a15fbe242a33ea74ac12ab000af1b42d4dd65695782a6c"
+        }
+    },
+    "bin": "qrc.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fumiyas/qrc/releases/download/v$version/qrc_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/fumiyas/qrc/releases/download/v$version/qrc_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
