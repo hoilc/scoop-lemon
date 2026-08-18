@@ -1,0 +1,26 @@
+{
+    "version": "0.1.7",
+    "description": "An agentic coding CLI for builders who ship.",
+    "homepage": "https://claurst.kuber.studio/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kuberwastaken/claurst/releases/download/v0.1.7/claurst-windows-x86_64.zip",
+            "hash": "1de3b45200a35b42ef0e8712340942d54d05c8f1a5d6f709e733b46097af3f45"
+        }
+    },
+    "bin": "claurst.exe",
+    "checkver": {
+        "github": "https://github.com/Kuberwastaken/claurst"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kuberwastaken/claurst/releases/download/v$version/claurst-windows-x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
