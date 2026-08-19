@@ -1,16 +1,16 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "A CLI that hooks into your Git workflow to capture and index AI agent sessions alongside commits.",
     "homepage": "https://entire.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/entireio/cli/releases/download/v0.10.1/entire_windows_amd64.zip",
-            "hash": "d3f6afcc28f568665ec2c2586fd0a7917dba5c1fbec5c5ab36ff7a8aec7648cf"
+            "url": "https://github.com/entireio/cli/releases/download/v0.10.2/entire_windows_amd64.zip",
+            "hash": "5a14ac87ec3f43e0d99f3262c3eeacf802be5c8934252d44558afb6de1431cec"
         },
         "arm64": {
-            "url": "https://github.com/entireio/cli/releases/download/v0.10.1/entire_windows_arm64.zip",
-            "hash": "f876fdb32ed8329294b287ba9a847e33b470590e31c1f5bbb4187fea57c86b00"
+            "url": "https://github.com/entireio/cli/releases/download/v0.10.2/entire_windows_arm64.zip",
+            "hash": "3c3240e1371cf9007865567e07568c56d0e2e4638a4afd13a16b7178118e4c6b"
         }
     },
     "bin": [
