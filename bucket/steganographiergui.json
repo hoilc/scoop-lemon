@@ -6,19 +6,18 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v1.3.10/SteganographierGUI_v1.3.10_portable.zip",
-            "extract_dir": "SteganographierGUI_v1.3.10_portable",
             "hash": "75512c4425b16ac5f16be79dbedc2e0062e84a12f9e937b0852ae1599fe6028b"
         }
     },
     "bin": [
         [
-            "Steganographiergui.exe",
+            "SteganographierGUI.exe",
             "steg"
         ]
     ],
     "shortcuts": [
         [
-            "Steganographiergui.exe",
+            "SteganographierGUI.exe",
             "隐写者"
         ]
     ],
@@ -34,8 +33,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v$version/SteganographierGUI_v$version_portable.zip",
-                "extract_dir": "SteganographierGUI_v$version_portable"
+                "url": "https://github.com/cenglin123/SteganographierGUI/releases/download/v$version/SteganographierGUI_v$version_portable.zip"
             }
         }
     }
