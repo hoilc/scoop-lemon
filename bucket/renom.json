@@ -1,0 +1,21 @@
+{
+    "version": "1.5.1",
+    "description": "A simple tool to rename Unreal Engine projects.",
+    "homepage": "https://github.com/UnrealisticDev/Renom",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/UnrealisticDev/Renom/releases/download/1.5.1/renom.exe",
+            "hash": "200680f83d1610ce8cbec388ecb7d3145f6219992bf2a39d8999ebd7783ed076"
+        }
+    },
+    "bin": "renom.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/UnrealisticDev/Renom/releases/download/$version/renom.exe"
+            }
+        }
+    }
+}
