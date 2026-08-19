@@ -1,12 +1,12 @@
 {
-    "version": "1.10.3",
+    "version": "1.10.4",
     "description": "CLI for the Sidero Omni Kubernetes management platform.",
     "homepage": "https://omni.siderolabs.com/",
     "license": "BUSL-1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siderolabs/omni/releases/download/v1.10.3/omnictl-windows-amd64.exe#/omnictl.exe",
-            "hash": "bbc5bdace438296861faa2d038162ef99683e16ae260ea0ae4e98747f2abe922"
+            "url": "https://github.com/siderolabs/omni/releases/download/v1.10.4/omnictl-windows-amd64.exe#/omnictl.exe",
+            "hash": "33e228b5c85fd3447f2363e08e5ca39dd8c319aab91909b845f53bc1f1f4aa45"
         }
     },
     "bin": "omnictl.exe",
