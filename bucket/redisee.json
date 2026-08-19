@@ -1,16 +1,16 @@
 {
-    "version": "1.1.9",
+    "version": "1.1.10",
     "description": "A modern and beautiful GUI for Redis.",
     "homepage": "https://redisee.com/",
     "license": "Liteware",
     "architecture": {
         "64bit": {
-            "url": "https://download.redisee.com/1.1.9/Redisee-win-x64-stable-Portable.zip",
-            "hash": "33130157c00f86ed1e33f4bdc9bfc6e422db024542bec16c55974a43e506e76b"
+            "url": "https://download.redisee.com/1.1.10/Redisee-win-x64-stable-Portable.zip",
+            "hash": "38ecc1b2af2f617af6b48202b7e5aae801d95c2785899ffb3be69b54c348a7f3"
         },
         "arm64": {
-            "url": "https://download.redisee.com/1.1.9/Redisee-win-arm64-stable-Portable.zip",
-            "hash": "6b16efb45c82aee487769c851ec6ef8a5e77344fde91c347ae629bab8dbbc098"
+            "url": "https://download.redisee.com/1.1.10/Redisee-win-arm64-stable-Portable.zip",
+            "hash": "1a1e381f8fc9baf154e85bda3456e174be8e249586904ee39af6094bcb9fca10"
         }
     },
     "shortcuts": [
