@@ -1,0 +1,28 @@
+{
+    "version": "3.14.0",
+    "description": "A source code editor in pure Go.",
+    "homepage": "https://github.com/jmigpin/editor",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jmigpin/editor/releases/download/v3.14.0/editor3.14.0-win-amd64.zip",
+            "hash": "d58e8205eb6cf2f7db5e47fb0d15e07dbcd9d39e294d0a2155e6eaccec0b6f56"
+        }
+    },
+    "pre_install": "Rename-Item -Path \"$dir\\editor_win.exe\" -NewName 'editor.exe' -ErrorAction SilentlyContinue",
+    "bin": "editor.exe",
+    "shortcuts": [
+        [
+            "editor.exe",
+            "Editor"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jmigpin/editor/releases/download/v$version/editor$version-win-amd64.zip"
+            }
+        }
+    }
+}
