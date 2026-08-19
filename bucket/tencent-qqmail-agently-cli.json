@@ -1,16 +1,16 @@
 {
-    "version": "1.0.16",
+    "version": "1.0.17",
     "description": "QQ 邮箱 Agent Mail 命令行工具，支持发送、回复、转发、搜索、读取邮件、下载附件、管理收件箱",
     "homepage": "https://agent.qq.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/@tencent-qqmail/agently-cli-win32-x64/-/agently-cli-win32-x64-1.0.16.tgz",
-            "hash": "a55f211ee7e4f4381ec487ebf82962420d558b76b40ce34c32671f2a0ca9bb03"
+            "url": "https://registry.npmmirror.com/@tencent-qqmail/agently-cli-win32-x64/-/agently-cli-win32-x64-1.0.17.tgz",
+            "hash": "983415399896514fd141a6d38f3731fb0d5fc51136867cd287357d6a4814a9f4"
         },
         "arm64": {
-            "url": "https://registry.npmmirror.com/@tencent-qqmail/agently-cli-win32-arm64/-/agently-cli-win32-arm64-1.0.16.tgz",
-            "hash": "022163f71cccd86b57b7bcb8a0f980c72292b451de789f116460a395236516c0"
+            "url": "https://registry.npmmirror.com/@tencent-qqmail/agently-cli-win32-arm64/-/agently-cli-win32-arm64-1.0.17.tgz",
+            "hash": "5596bfd03bd6eaf38425d232d32bb3701d3bd11ff67685ec54169c5b06f94a27"
         }
     },
     "extract_dir": "package\\bin",
