@@ -1,0 +1,57 @@
+{
+    "version": "26.3.9686",
+    "description": "An application packaging tool to create and edit Microsoft Windows Installer (MSI) files and repackage other installation to MSI format.",
+    "homepage": "https://www.masterpackager.com/",
+    "license": {
+        "identifier": "Liteware",
+        "url": "https://www.masterpackager.com/eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.masterpackager.com/installer/mp/26.3.9686/master_packager_suite_26.3.9686.msi#/dl.msi.dontautoexpand",
+            "hash": "7b1bb7c4c80cf0bbba04975adaa6c9662343608be9a38dd584c13ab3cfd7c62a"
+        }
+    },
+    "installer": {
+        "script": [
+            "if ((get_config USE_LESSMSI)) {",
+            "  Expand-MsiArchive \"$dir\\dl.msi.dontautoexpand\" -DestinationPath \"$dir\" -ExtractDir $manifest.extract_dir -Removal",
+            "} else {",
+            "  # Workaround for msiexec 1063 longpath issue",
+            "  Remove-Item \"$env:TEMP\\_mps\" -Force -Recurse -ErrorAction SilentlyContinue; New-Item -Path \"$env:TEMP\\_mps\" -ItemType Directory | Out-Null",
+            "  Expand-MsiArchive \"$dir\\dl.msi.dontautoexpand\" -DestinationPath \"$env:TEMP\\_mps\" -ExtractDir $manifest.extract_dir -Removal",
+            "  movedir \"$env:TEMP\\_mps\" \"$dir\" | Out-Null ; Remove-Item \"$env:TEMP\\_mps\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "extract_dir": "program files\\Master Packager Ltd\\Master Packager Suite",
+    "shortcuts": [
+        [
+            "MasterPackager.exe",
+            "Master Packager"
+        ],
+        [
+            "MasterRepackager.exe",
+            "Master Repackager"
+        ],
+        [
+            "MasterWrapper\\MasterWrapper.exe",
+            "Master Wrapper"
+        ],
+        [
+            "MasterPackagerToolbox\\MasterPackager.Toolbox.exe",
+            "Master Packager Toolbox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.masterpackager.com/api/latest-version/mp",
+        "jsonpath": "$.Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.masterpackager.com/installer/mp/$version/master_packager_suite_$version.msi#/dl.msi.dontautoexpand"
+            }
+        }
+    }
+}
