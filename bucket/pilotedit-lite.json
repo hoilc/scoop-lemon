@@ -1,10 +1,10 @@
 {
-    "version": "21.1.0",
+    "version": "21.2.0",
     "description": "A handy text editor you can use for working with plain text files, as well as for coding projects in a bunch of popular programming languages.",
     "homepage": "https://www.pilotedit.com/",
     "license": "Liteware",
-    "url": "https://www.pilotedit.com/uploads/PilotEdit_Lite_21.1.0.zip",
-    "hash": "913e523fa8e4681abdc500da04a13eabcdd67bcb5668a528a47c3630a3bd691f",
+    "url": "https://www.pilotedit.com/uploads/PilotEdit_Lite_21.2.0.zip",
+    "hash": "2b77d204123ee81ca79c222450b46ca9972311870248de3d29902231d30df068",
     "extract_dir": "EXE",
     "installer": {
         "script": "Get-ChildItem \"$dir\" '*-Installer.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -Destination \"$dir\" -Removal"
