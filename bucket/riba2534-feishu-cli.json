@@ -1,13 +1,13 @@
 {
-    "version": "1.38.4",
+    "version": "1.39.0",
     "description": "飞书开放平台命令行工具 — Markdown 与飞书文档双向转换，AI Agent 的飞书操控引擎",
     "homepage": "https://github.com/riba2534/feishu-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/riba2534/feishu-cli/releases/download/v1.38.4/feishu-cli_v1.38.4_windows-amd64.tar.gz",
-            "hash": "333e3f7eb92103ce7771fd9a293cfea30ccc4e4d610cca9f90deff931d9e315b",
-            "extract_dir": "feishu-cli_v1.38.4_windows-amd64"
+            "url": "https://github.com/riba2534/feishu-cli/releases/download/v1.39.0/feishu-cli_v1.39.0_windows-amd64.tar.gz",
+            "hash": "300c0d9c54e5aab96062099643db1bbf602c7196694f20d9931c974193e6054d",
+            "extract_dir": "feishu-cli_v1.39.0_windows-amd64"
         }
     },
     "bin": "feishu-cli.exe",
