@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A command-line converter for \"Quite OK Image\" (QOI) format.",
     "homepage": "https://github.com/pfusik/qoi-fu",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pfusik/qoi-fu/releases/download/qoi-fu-3.0.0/qoi-fu-3.0.0-win64.msi",
-            "hash": "afb2c9774c96a399dce324f21d709b1950dec31e8169005ae5139ba498471c3e"
+            "url": "https://github.com/pfusik/qoi-fu/releases/download/qoi-fu-3.1.0/qoi-fu-3.1.0-win64.msi",
+            "hash": "016f41387e288a83853a873e61d8d322017ab2eb2009581560981661b00adb8d"
         }
     },
     "extract_dir": "PFiles64\\qoi-fu",
