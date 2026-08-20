@@ -1,12 +1,12 @@
 {
-    "version": "1.9.4",
+    "version": "1.9.5",
     "description": "A tool for running operations following a scenario.",
     "homepage": "https://runn.run",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k1LoW/runn/releases/download/v1.9.4/runn_v1.9.4_windows_amd64.tar.gz",
-            "hash": "000db87d9b5973449e3b45ca1c2ec7b94026db12b202190c7401bf2ddeb3e137"
+            "url": "https://github.com/k1LoW/runn/releases/download/v1.9.5/runn_v1.9.5_windows_amd64.tar.gz",
+            "hash": "e6f1d93f32b849f2a96f6c403904ec1bafafdb060d845217931d91c4d4739ff3"
         }
     },
     "bin": "runn.exe",
