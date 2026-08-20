@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0.1",
+    "description": "A free Windows application that blocks your keyboard and mouse without \"locking\" the screen.",
+    "homepage": "https://www.keyfreeze.com/",
+    "license": "Freeware",
+    "url": "https://www.keyfreeze.com/install/Application%20Files/KeyFreeze_1_0_0_1/KeyFreeze.exe.deploy#/KeyFreeze.exe",
+    "hash": "c99f16ef02672992fb01106bc6b6ea9cd2a4bcdee32eedc9d27539d8cdb0afae",
+    "shortcuts": [
+        [
+            "KeyFreeze.exe",
+            "KeyFreeze"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.keyfreeze.com/install/KeyFreeze.application",
+        "regex": "name=\"KeyFreeze.exe\"\\s*version=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://www.keyfreeze.com/install/Application%20Files/KeyFreeze_$underscoreVersion/KeyFreeze.exe.deploy#/KeyFreeze.exe"
+    }
+}
