@@ -1,13 +1,13 @@
 {
-    "version": "0.57.1",
+    "version": "0.58.0",
     "description": "Caido aims to help security professionals and enthusiasts audit web applications with efficiency and ease.",
     "homepage": "https://www.caido.io/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://caido.download/releases/v0.57.1/caido-desktop-v0.57.1-win-x86_64.exe#/dl.7z",
+            "url": "https://caido.download/releases/v0.58.0/caido-desktop-v0.58.0-win-x86_64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "a25a2673d837b759aa73fc1e1d150b5f2538330326e9cadb9eae18b150a1814c"
+            "hash": "968a6bffd60f83d0a94bb83d292ab7400d498a0bd3206acb7a4f9a78950e028c"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
