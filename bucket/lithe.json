@@ -1,0 +1,31 @@
+{
+    "version": "0.3.1",
+    "description": "A lightweight, cross-platform IDE for the AI era, with on-demand tools and services.",
+    "homepage": "https://github.com/1lck/Lithe-IDEA",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v0.3.1/Lithe-0.3.1-windows-x64.exe#/dl.7z",
+            "hash": "8661c924d82e1020d2cbfd192c322b588a8703543650c17eb00845e0e8b9cbce"
+        }
+    },
+    "shortcuts": [
+        [
+            "lithe.exe",
+            "Lithe"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'lithe-windows.exe' | Select-Object -First 1 | Rename-Item -NewName 'lithe.exe'",
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v$version/Lithe-$version-windows-x64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
