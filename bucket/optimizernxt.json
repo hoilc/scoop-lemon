@@ -1,0 +1,21 @@
+{
+    "version": "1.0.1",
+    "description": "A powerful, YAML-driven CLI tool for automating Windows tweaks, managing system services, controlling processes, and optimizing workflows.",
+    "homepage": "https://github.com/hellzerg/optimizerNXT",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hellzerg/optimizerNXT/releases/download/v1.0.1/optimizerNXT.exe",
+            "hash": "397a7374cff9b23f9ddabfd0d36ff71a20cff46f6df57eb929f6c1dd7842fc7f"
+        }
+    },
+    "bin": "optimizerNXT.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hellzerg/optimizerNXT/releases/download/v$version/optimizerNXT.exe"
+            }
+        }
+    }
+}
