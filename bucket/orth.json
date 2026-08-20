@@ -1,11 +1,11 @@
 {
-    "version": "92.3.0",
+    "version": "92.4.0",
     "description": "A CLI helper for ort, a suite of tools to automate software compliance checks.",
     "homepage": "https://oss-review-toolkit.org/",
     "license": "Apache-2.0",
-    "url": "https://github.com/oss-review-toolkit/ort/releases/download/92.3.0/orth-92.3.0.zip",
-    "hash": "8676458588a0983d3a094c61cde32557477271d1a8ee7daf5010c98ee29a00d2",
-    "extract_dir": "orth-92.3.0",
+    "url": "https://github.com/oss-review-toolkit/ort/releases/download/92.4.0/orth-92.4.0.zip",
+    "hash": "7116ce78fc7c539e91e77483ffeff8733543808c788b6d79db153e0fa466486d",
+    "extract_dir": "orth-92.4.0",
     "bin": "bin\\orth.bat",
     "suggest": {
         "JDK 21+": [
