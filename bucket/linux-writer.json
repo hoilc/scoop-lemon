@@ -1,12 +1,12 @@
 {
-    "version": "2.0",
+    "version": "2.1",
     "description": "DiskInternals Linux Writer is a unique utility to read and write files on Ext4 partitions directly from Windows.",
     "homepage": "https://www.diskinternals.com/linux-writer/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://eu.diskinternals.com/download/Linux_Writer.exe#/dl.7z",
-            "hash": "08fe664ac0e31ee8ed47a99a2ae7fbb0a281be0c51d64d2e3e0226a60335f6fb"
+            "hash": "8fdcaac0a03e9e33556fa3fa75b590d24c8a6944f9ab83b017889337de46a596"
         }
     },
     "shortcuts": [
