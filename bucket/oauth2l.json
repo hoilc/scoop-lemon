@@ -1,13 +1,13 @@
 {
-    "version": "1.3.4",
+    "version": "1.3.5",
     "description": "A simple CLI for interacting with Google API authentication.",
     "homepage": "https://github.com/google/oauth2l",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/oauth2l/1.3.4/windows_amd64.tgz",
+            "url": "https://storage.googleapis.com/oauth2l/1.3.5/windows_amd64.tgz",
             "extract_dir": "windows_amd64",
-            "hash": "13e7cc6e154e64fb916158f656ee3441bff29426fcfc071b87cf1128657f9d4a"
+            "hash": "50ebdf1cd07847f329b97e4b049165c11bcdf87fecc73118fa61e31de3d4ed45"
         }
     },
     "bin": "oauth2l.exe",
