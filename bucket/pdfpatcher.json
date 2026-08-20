@@ -1,0 +1,34 @@
+{
+    "version": "1.1.3.4663",
+    "description": "PDF补丁丁是一个多功能PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等",
+    "homepage": "https://www.cnblogs.com/pdfpatcher",
+    "license": {
+        "identifier": "AGPL-3.0-only",
+        "url": "https://github.com/wmjordan/PDFPatcher/blob/master/%E6%8E%88%E6%9D%83%E5%8D%8F%E8%AE%AE.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://drfs.ctcontents.com/file/12751606/8419127345/dbf2b7/PDFPatcher/PDFPatcher.1.1.3.4663.7z",
+            "hash": "75216b1befdb0ceb2d062fd4ff3cfc2e5f273ac85bb7ac25c549e3eb60d378a5"
+        }
+    },
+    "shortcuts": [
+        [
+            "PDFPatcher.exe",
+            "PDF 补丁丁"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\AppConfig.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\AppConfig.json\" -Value $null }",
+    "persist": "AppConfig.json",
+    "checkver": {
+        "url": "https://www.cnblogs.com/pdfpatcher/archive/2011/02/25/Index.html",
+        "regex": "https://drfs.ctcontents.com/file/12751606/(?<id1>[^/]+)/(?<id2>[^/]+)/PDFPatcher/PDFPatcher\\.([\\d.]+)\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://drfs.ctcontents.com/file/12751606/$matchId1/$matchId2/PDFPatcher/PDFPatcher.$version.7z"
+            }
+        }
+    }
+}
