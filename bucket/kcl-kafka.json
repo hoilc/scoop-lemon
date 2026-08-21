@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "0.19.0",
     "description": "A complete, pure Go command-line Kafka client for producing, consuming, administering, transactions, and ACLs.",
     "homepage": "https://github.com/twmb/kcl",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/twmb/kcl/releases/download/v0.18.0/kcl_windows_amd64.exe.gz",
-            "hash": "cae77dd97df21fa0ed13f4fd07e4ec57d7295ff2ac8577857a995133283280af"
+            "url": "https://github.com/twmb/kcl/releases/download/v0.19.0/kcl_windows_amd64.exe.gz",
+            "hash": "bb04fe2d9260f913c63ce39254c3cdbbfe48f02a2d4d074a3b01d8b3a5cbc020"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'kcl?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'kcl.exe'",
