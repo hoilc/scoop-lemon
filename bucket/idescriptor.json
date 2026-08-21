@@ -1,12 +1,12 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "A free, open-source, and cross-platform iDevice management tool written in Rust and Qt.",
     "homepage": "https://idescriptor.github.io",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iDescriptor/iDescriptor/releases/download/v0.6.1/iDescriptor-v0.6.1-Windows_x86_64.portable.zip",
-            "hash": "2bbe387a5737645b6c18d3931aed6c5c8ceca37349791b4affab4e82df039557"
+            "url": "https://github.com/iDescriptor/iDescriptor/releases/download/v0.6.2/iDescriptor-v0.6.2-Windows_x86_64.portable.zip",
+            "hash": "2b8e9f1d47854fab6608ba232e6500708d0c94c03f42d86c686f0044013ab734"
         }
     },
     "shortcuts": [
