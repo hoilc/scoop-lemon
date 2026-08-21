@@ -1,13 +1,13 @@
 {
-    "version": "0.13.2",
+    "version": "0.13.3",
     "description": "Code intelligence system with semantic search.",
     "homepage": "https://github.com/bartolli/codanna",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bartolli/codanna/releases/download/v0.13.2/codanna-0.13.2-windows-x64.zip",
-            "extract_dir": "codanna-0.13.2-windows-x64",
-            "hash": "1425f5fddd93e3d1b226a651793e1f6b13761e2c8adc00158ae3f54a2727f36b"
+            "url": "https://github.com/bartolli/codanna/releases/download/v0.13.3/codanna-0.13.3-windows-x64.zip",
+            "extract_dir": "codanna-0.13.3-windows-x64",
+            "hash": "39301368c37315756322f06d9b5870b4c90c68db8b27b4dfd9504a71c3b7942d"
         }
     },
     "bin": "codanna.exe",
