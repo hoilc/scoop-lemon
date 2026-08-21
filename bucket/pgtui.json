@@ -1,12 +1,12 @@
 {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "description": "A Postgres TUI client that handles basic CRUD operations, utilizing your terminal editor for inserts and updates.",
     "homepage": "https://codeberg.org/kdwarn/pgtui",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/kdwarn/pgtui/releases/download/v0.16.0/pgtui-windows.exe#/pgtui.exe",
-            "hash": "01a26cfd8dd1930d4346d8885a37ee8308c0bdeed52a25ca561df52b359a12ff"
+            "url": "https://codeberg.org/kdwarn/pgtui/releases/download/v0.17.0/pgtui-windows.exe#/pgtui.exe",
+            "hash": "f83c4fe044742224104a80170e7de5489bf841a64a23dd5f94a1a58f3731c4a4"
         }
     },
     "bin": "pgtui.exe",
