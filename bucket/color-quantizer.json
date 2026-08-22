@@ -1,0 +1,14 @@
+{
+    "version": "0.7.4.4",
+    "description": "A color quantizer and image converter.",
+    "homepage": "https://x128.ho.ua/color-quantizer.html",
+    "license": "Freeware",
+    "url": "https://x128.ho.ua/cq0744.zip",
+    "hash": "9676fa4c0187779921249ddff6f09eea0bbe66733aa784e628e854ac8d4ad4a2",
+    "shortcuts": [
+        [
+            "cq.exe",
+            "Color Quantizer"
+        ]
+    ]
+}
