@@ -1,20 +1,20 @@
 {
-    "version": "4.7.3",
+    "version": "4.7.4",
     "description": "USB Device Tree Viewer is an USB information tool for Windows.",
     "homepage": "https://www.uwe-sieber.de/usbtreeview_e.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.uwe-sieber.de/files/UsbTreeView473_x64.zip",
-            "hash": "35afbe3e801180a813e9560feb2ec95ab544e4302fb5d5e9eb717043d23ef1fc"
+            "url": "https://www.uwe-sieber.de/files/UsbTreeView474_x64.zip",
+            "hash": "ec8e8e973f6f3e35e0188294c530e5ff584fd7a004f01d6c0f6adfbf46d543eb"
         },
         "32bit": {
-            "url": "https://www.uwe-sieber.de/files/UsbTreeView473_Win32.zip",
-            "hash": "e4f564c6cd3089eb2332f7d542750a0448579531e240dc448ced126d6ed7839c"
+            "url": "https://www.uwe-sieber.de/files/UsbTreeView474_Win32.zip",
+            "hash": "9c0f4fdd5a5ff3bd4aad11c476b273d9a9d7cf3427a16647a45027949899fb8a"
         },
         "arm64": {
-            "url": "https://www.uwe-sieber.de/files/UsbTreeView473_arm64.zip",
-            "hash": "e4dd7f12224afa9fef57388599fc89535016e0d4ae460ec20489fa339ca446b4"
+            "url": "https://www.uwe-sieber.de/files/UsbTreeView474_arm64.zip",
+            "hash": "83988d147e6f100a465ce9957109eea3cf7cc8cddb834cd7adad1bcd21840a46"
         }
     },
     "shortcuts": [
