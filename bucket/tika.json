@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0-beta-1",
+    "version": "4.0.0",
     "description": "Apache Tika is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
     "homepage": "https://tika.apache.org/",
     "license": "Apache-2.0",
-    "url": "https://dlcdn.apache.org/tika/4.0.0-beta-1/tika-app-4.0.0-beta-1.zip",
-    "hash": "sha512:cc435ebbb2a5088402c473a2df6fda5eb1797b8d3f84f6d1d27123cb034c20693b84a2d18e3869c0f82860f6d07a2593f130d4d21be990efcfcf720bb1b5b957",
+    "url": "https://dlcdn.apache.org/tika/4.0.0/tika-app-4.0.0.zip",
+    "hash": "sha512:59970cecd51dbd22f51eec1f14bfdefdf660dd9cd6f726dd7ec5dfafcd089d80927d6034c7514f8d87571a05715126e984e5e07dbf6d9033d54075a19884b92a",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'tika-app?*.jar' | Select-Object -First 1 | Rename-Item -NewName 'tika-app.jar'",
         "Set-Content -Encoding ASCII -Path \"$dir\\tika.bat\" -Value \"@java -jar `\"%~dp0tika-app.jar`\" %*\"",
