@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-alpha.20",
+    "version": "1.0.0-alpha.21",
     "description": "A bidirectional packet-level proxy built with raw sockets using KCP for secure, reliable transport.",
     "homepage": "https://github.com/hanselime/paqet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hanselime/paqet/releases/download/v1.0.0-alpha.20/paqet-windows-amd64-v1.0.0-alpha.20.zip",
-            "hash": "2a59fec9d486d0d910f423cd33701adfc9de7ab9642565da7e05639ba9c18780"
+            "url": "https://github.com/hanselime/paqet/releases/download/v1.0.0-alpha.21/paqet-windows-amd64-v1.0.0-alpha.21.zip",
+            "hash": "5d21b097dc56c3cdc48db95133e74c804d8df6c771838b440285bd1e27109620"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'paqet?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'paqet.exe'",
