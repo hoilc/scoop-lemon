@@ -1,0 +1,9 @@
+{
+    "version": "0.6.2.5",
+    "description": "A PNG image optimizer.",
+    "homepage": "https://x128.ho.ua/pngutils.html",
+    "license": "Freeware",
+    "url": "https://x128.ho.ua/TruePNG_0625.zip",
+    "hash": "a20d7121bf377e9ddb2d7d04995bb4b032d523caeb7f7ea3360acad6bc5901ab",
+    "bin": "TruePNG.exe"
+}
