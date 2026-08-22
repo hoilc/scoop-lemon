@@ -1,12 +1,12 @@
 {
-    "version": "9.3.5",
+    "version": "9.0.6",
     "description": "A powerful, feature-rich GUI application for downloading content from a wide array of sites, including Kemono, Coomer, Bunkr, Erome, Saint2.su, and nhentai.",
     "homepage": "https://github.com/Yuvi9587/Kemono-Downloader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Yuvi9587/Kemono-Downloader/releases/download/v9.3.5/Kemono.Downloader.rar",
-            "hash": "03e18646c54a9037de479c7d74bff551f2b7b0359b5d32237330f515b51e8846"
+            "url": "https://github.com/Yuvi9587/Kemono-Downloader/releases/download/9.0.6/Kemono.Downloader.rar",
+            "hash": "e91f82bfc044bc638159533c3609d819329cfa9ed8c2dfb4aeae852a27a2aaf9"
         }
     },
     "shortcuts": [
