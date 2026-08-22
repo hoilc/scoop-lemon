@@ -14,11 +14,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v$version/tesla_auth-x86_64-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
+                "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v$version/tesla_auth-x86_64-pc-windows-msvc.zip"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
