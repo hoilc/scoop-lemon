@@ -1,5 +1,5 @@
 {
-    "version": "0.9.9",
+    "version": "1.0.0",
     "description": "A tiny free proxy server.",
     "homepage": "https://3proxy.org/",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/3proxy/3proxy/releases/download/0.9.9/3proxy-0.9.9-x64.zip",
-            "hash": "7fbcbcef719a526e55a1a58380993312c1e5164c212df7033d67a768cac38c76"
+            "url": "https://github.com/3proxy/3proxy/releases/download/1.0.0/3proxy-1.0.0-x64.zip",
+            "hash": "b60886aade8d133269828a1f4edcf539fe178fbd1d729b12b6fde81f4a4bbe47"
         },
         "32bit": {
-            "url": "https://github.com/3proxy/3proxy/releases/download/0.9.9/3proxy-0.9.9-x86.zip",
-            "hash": "008af48c2d95856f89720c1567b9800f0d2b5f0b630706dc079b11249cd91817"
+            "url": "https://github.com/3proxy/3proxy/releases/download/1.0.0/3proxy-1.0.0-x86.zip",
+            "hash": "aafb88b2db5c61401173f65b14af1f2da089a622a766e94387b848bd43e5ab5c"
         },
         "arm64": {
-            "url": "https://github.com/3proxy/3proxy/releases/download/0.9.9/3proxy-0.9.9-arm64.zip",
-            "hash": "c327639ebd1f0c80d7effa770b9435c401f84b60bd755e7cdf7bbc0f352ac9f2"
+            "url": "https://github.com/3proxy/3proxy/releases/download/1.0.0/3proxy-1.0.0-arm64.zip",
+            "hash": "215c96cc0a8c4bf45654dbba58e78e3a8e9c29e432be2f730cab1f3c30856169"
         }
     },
     "extract_dir": "3proxy",
