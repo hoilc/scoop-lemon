@@ -1,16 +1,16 @@
 {
-    "version": "3.8.12",
+    "version": "3.8.13",
     "description": "A Game Boy / Game Boy Color / Super Game Boy emulator, debugger and embedded MCP server.",
     "homepage": "https://github.com/drhelius/Gearboy",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/drhelius/Gearboy/releases/download/3.8.12/Gearboy-3.8.12-desktop-windows-x64.zip",
-            "hash": "4b592e4c1a94fc79f3ce7202093e68cb7bcc442403e3379d12abd8e1c03ad832"
+            "url": "https://github.com/drhelius/Gearboy/releases/download/3.8.13/Gearboy-3.8.13-desktop-windows-x64.zip",
+            "hash": "4c5d3cb27c6293466bc9f3656664014f6e35acc56b6b0044614a56e075b0a3c2"
         },
         "arm64": {
-            "url": "https://github.com/drhelius/Gearboy/releases/download/3.8.12/Gearboy-3.8.12-desktop-windows-arm64.zip",
-            "hash": "67d4b8ce9ee8178a88a385222796f67e88097ec6660bca1ec15cc14ea2c14e02"
+            "url": "https://github.com/drhelius/Gearboy/releases/download/3.8.13/Gearboy-3.8.13-desktop-windows-arm64.zip",
+            "hash": "2d489bc3c53963627631073929de01f3bef08b14d4448d7f860f7014cf8bf751"
         }
     },
     "shortcuts": [
