@@ -1,12 +1,12 @@
 {
-    "version": "1.11.2",
+    "version": "1.11.3",
     "description": "A simple SSL/TLS proxy with mutual authentication for securing non-TLS services.",
     "homepage": "https://github.com/ghostunnel/ghostunnel",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ghostunnel/ghostunnel/releases/download/v1.11.2/ghostunnel-windows-amd64.exe#/ghostunnel.exe",
-            "hash": "5045be16395261cf7d7f9c91cf666b60f3a1306271e96cd68d6ec955ead76520"
+            "url": "https://github.com/ghostunnel/ghostunnel/releases/download/v1.11.3/ghostunnel-windows-amd64.exe#/ghostunnel.exe",
+            "hash": "672177314629c54b3382fd44b1a5d8b217de52b11328323f5306e12bd610acc3"
         }
     },
     "bin": "ghostunnel.exe",
