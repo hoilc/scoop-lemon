@@ -1,11 +1,12 @@
 {
     "version": "20240711",
     "description": "轻量级自建网盘软件，无依赖，速度快，资源占用低",
-    "homepage": "https://webd.cf",
-    "license": "Unknown",
-    "url": "https://webd.cf/webd/webd_dl/20240223/webd-20240711-win32.7z",
+    "homepage": "https://github.com/webd90kb/webd",
+    "license": "Freeware",
+    "url": "https://webd90kb.github.io/webd/webd/webd_dl/20240223/webd-20240711-win32.7z",
     "hash": "0273464dc11c060e842967fae380fd381f3a9e257245769869edf8c71017d771",
     "extract_dir": "webd",
+    "bin": "webd.exe",
     "shortcuts": [
         [
             "webd.exe",
@@ -18,11 +19,11 @@
     ],
     "notes": "Edit the default configuration file $dir\\webd.conf before starting.",
     "checkver": {
-        "url": "https://webd.cf/webd/webd_dl/changelog.txt",
+        "url": "https://webd90kb.github.io/webd/webd/webd_dl/changelog.txt",
         "regex": "(\\d{4})/(\\d{2})/(\\d{2})",
         "replace": "${1}${2}${3}"
     },
     "autoupdate": {
-        "url": "https://webd.cf/webd/webd_dl/$version/webd-$version-win32.7z"
+        "url": "https://webd90kb.github.io/webd/webd/webd_dl/$version/webd-$version-win32.7z"
     }
 }
