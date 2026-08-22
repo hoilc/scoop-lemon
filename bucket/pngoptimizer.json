@@ -1,0 +1,60 @@
+{
+    "version": "2.7",
+    "description": "A graphics and command line tools to optimize PNGs and convert other lossless formats (GIF, BMP, TGA) into optimized PNGs.",
+    "homepage": "https://psydk.org/pngoptimizer",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://psydk.org/download/pngoptimizer-2.7-win-x64.zip",
+                "https://psydk.org/download/pngoptimizercl-2.7-win-x64.zip"
+            ],
+            "hash": [
+                "01d3e9561dfe6d75fe32a23135abbbb7533ca5ded309f105f384232c9dec272f",
+                "d8ffdb042e778b0b7f1789af1bbdc06322a4cce17f2761d6391828629743aac7"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://psydk.org/download/pngoptimizer-2.7-win-x86.zip",
+                "https://psydk.org/download/pngoptimizercl-2.7-win-x86.zip"
+            ],
+            "hash": [
+                "819ce366c3e108d648dcbead13fc4652cce95b9c1bccb6f0a140d11d1a2f415d",
+                "7686e5df30792cee7fb506d0e878593bc68e3e852f964d01e0dcd7338c815253"
+            ]
+        }
+    },
+    "extract_dir": [
+        "PngOptimizer",
+        "PngOptimizerCL"
+    ],
+    "bin": "PngOptimizerCL.exe",
+    "shortcuts": [
+        [
+            "PngOptimizer.exe",
+            "PngOptimizer"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\PngOptimizer.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\PngOptimizer.ini\" -Value $null }",
+    "persist": "PngOptimizer.ini",
+    "checkver": {
+        "regex": "pngoptimizer-([\\d.]+)-win-x64\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://psydk.org/download/pngoptimizer-$version-win-x64.zip",
+                    "https://psydk.org/download/pngoptimizercl-$version-win-x64.zip"
+                ]
+            },
+            "32bit": {
+                "url": [
+                    "https://psydk.org/download/pngoptimizer-$version-win-x86.zip",
+                    "https://psydk.org/download/pngoptimizercl-$version-win-x86.zip"
+                ]
+            }
+        }
+    }
+}
