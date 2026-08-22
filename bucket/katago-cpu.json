@@ -1,12 +1,12 @@
 {
-    "version": "1.17.1",
+    "version": "1.18.0",
     "description": "(CPU AVX2 Backend) GTP engine and self-play learning in Go.",
     "homepage": "https://github.com/lightvector/KataGo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lightvector/KataGo/releases/download/v1.17.1/katago-v1.17.1-eigenavx2-windows-x64.zip",
-            "hash": "f13f1126575a22dc728e931011b1b2e404ce2d02b566876a44a01aea3d27e293"
+            "url": "https://github.com/lightvector/KataGo/releases/download/v1.18.0/katago-v1.18.0-eigenavx2-windows-x64.zip",
+            "hash": "6b861f7391efa3381218d5fbd227c44d3065d9fb38cf4b315e1b5dee9f3ac13f"
         }
     },
     "bin": "katago.exe",
