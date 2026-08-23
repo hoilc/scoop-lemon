@@ -1,10 +1,10 @@
 {
-    "version": "1.1",
+    "version": "1.2",
     "description": "A rootless Xposed framework that embeds Vector into an app by patching its APK — no root, no Zygisk.",
     "homepage": "https://github.com/JingMatrix/LSPatch",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/JingMatrix/LSPatch/releases/download/v1.1/lspatch-v1.1-474-release.jar#/lspatch.jar",
-    "hash": "2bd285c6ac6e8878d04304f8d761e0d3c56ab05e6ef0c04da7f94f0419e8ce75",
+    "url": "https://github.com/JingMatrix/LSPatch/releases/download/v1.2/lspatch-v1.2-487-release.jar#/lspatch.jar",
+    "hash": "d238fdc414d121b7fa454d8b4ccf420df3a8c97d563761861ff92bd9c5da2165",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "lspatch.bat",
     "suggest": {
