@@ -188,9 +188,9 @@ def process_cache_files():
             'filename': filename
         })
 
-    for manifest_name, files in files_to_process.items():
+    for index, (manifest_name, files) in enumerate(files_to_process.items(), start=1):
         identifier = f'scoop-lemon-{manifest_name}'
-        print(f'::group::Archiving {manifest_name}')
+        print(f'::group::[{index}/{len(files_to_process)}] Archiving {manifest_name}')
 
         item = None
         try:
