@@ -1,12 +1,12 @@
 {
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "Transcribe and translate audio offline on your personal computer. | 在个人电脑上离线转录和翻译音频",
     "homepage": "https://github.com/chidiwilliams/buzz",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/buzz-captions/files/Buzz-1.4.4-Windows-X64.zip",
-            "hash": "sha1:668dd721aae24a5fb4760cceafc5476601f315f8"
+            "url": "https://sourceforge.net/projects/buzz-captions/files/Buzz-1.4.5-Windows-X64.zip",
+            "hash": "sha1:77aaa7d7efbb0fe393401c2d2f637da73ef5a2d5"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'Buzz-*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -DestinationPath \"$dir\" -Removal",
