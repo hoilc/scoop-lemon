@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SaboZhang/EasyTidy/releases/download/1.4.7.823/EasyTidy_1.4.7.823_win-x64_7z.7z",
+            "extract_dir": "win-x64",
             "hash": "c4773e5428bbab285f8c2291392590bdc442c06486fd51e1a124d8059b50f0df"
         }
     },
-    "extract_dir": "EasyTidy",
     "shortcuts": [
         [
             "EasyTidy.exe",
