@@ -46,25 +46,22 @@ def parse_size(size_str):
     if not size_str:
         return None
 
+    match = re.fullmatch(r'(\d+(?:\.\d+)?)\s*(B|KB|MB|GB|TB|KIB|MIB|GIB|TIB|K|M|G|T)?', size_str)
+    if not match:
+        return None
+
     units = {
+        None: 1,
         'B': 1,
-        'KB': 1024,
-        'MB': 1024 ** 2,
-        'GB': 1024 ** 3,
-        'TB': 1024 ** 4,
+        'K': 1024, 'KIB': 1024,
+        'M': 1024 ** 2, 'MIB': 1024 ** 2,
+        'G': 1024 ** 3, 'GIB': 1024 ** 3,
+        'T': 1024 ** 4, 'TIB': 1024 ** 4,
+        'KB': 1000, 'MB': 1000 ** 2, 'GB': 1000 ** 3, 'TB': 1000 ** 4,
     }
 
-    for unit, multiplier in units.items():
-        if size_str.endswith(unit):
-            try:
-                return int(size_str[:-len(unit)]) * multiplier
-            except ValueError:
-                return None
-
-    try:
-        return int(size_str)
-    except ValueError:
-        return None
+    value, unit = match.groups()
+    return int(float(value) * units[unit])
 
 def is_manifest_blacklisted(manifest_name):
     blacklist_env = os.environ.get('ARCHIVE_BLACKLIST_MANIFESTS', '')
