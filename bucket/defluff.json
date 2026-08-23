@@ -1,0 +1,9 @@
+{
+    "version": "0.3.2",
+    "description": "A deflate huffman optimizer.",
+    "homepage": "https://encode.su/threads/1214-defluff-a-deflate-huffman-optimizer",
+    "license": "Freeware",
+    "url": "https://scoop-lemon.tari.xyz/hosted/defluff/defluff-0.3.2-windows-i686.zip",
+    "hash": "73a0a9bf52c7465b8af71db1d7b9f5872b7f1014e67812fcc883c048a5b2775f",
+    "bin": "defluff.exe"
+}
