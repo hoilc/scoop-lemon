@@ -1,12 +1,12 @@
 {
-    "version": "0.12.23",
+    "version": "0.12.24",
     "description": "The miniature, embeddable R7RS Scheme implementation in Rust.",
     "homepage": "https://github.com/raviqqe/stak",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/raviqqe/stak/releases/download/v0.12.23/stak_0.12.23_windows_amd64.tar.gz",
-            "hash": "97999497add6f0547d2754c9d37b7213f48d16659fcdf9301a673f1bcf5e572d"
+            "url": "https://github.com/raviqqe/stak/releases/download/v0.12.24/stak_0.12.24_windows_amd64.tar.gz",
+            "hash": "e9d9788a3bad5283683248ffd442dd10ba288e82e2205bff9708db94fb71ce77"
         }
     },
     "bin": [
