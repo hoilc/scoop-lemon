@@ -1,12 +1,12 @@
 {
-    "version": "0.9.1.2",
+    "version": "0.9.2.0",
     "description": "CLI version of UndertaleModTool, a tool for modding, decompiling and unpacking Undertale and other GameMaker games.",
     "homepage": "https://github.com/UnderminersTeam/UndertaleModTool",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/0.9.1.2/UTMT_CLI_v0.9.1.2-Windows.zip",
-            "hash": "e17637750c9c5bd074e799de99e69e1aa58c19cbbd9cbaa8868bbc387da04345"
+            "url": "https://github.com/UnderminersTeam/UndertaleModTool/releases/download/0.9.2.0/UTMT_CLI_v0.9.2.0-Windows.zip",
+            "hash": "e7573e45d107be34f81f955c6e4afc3c7c8f2628e5a6f307a871e3825b3dfb40"
         }
     },
     "bin": "UndertaleModCli.exe",
