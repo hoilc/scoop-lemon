@@ -1,7 +1,7 @@
 {
     "version": "1.23.1",
     "description": "CLI for Firecrawl - Add scrape, search, and browsing capabilities to your AI agents.",
-    "homepage": "http://docs.firecrawl.dev/cli",
+    "homepage": "https://docs.firecrawl.dev/cli",
     "license": "ISC",
     "architecture": {
         "64bit": {
