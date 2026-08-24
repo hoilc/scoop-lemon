@@ -1,13 +1,13 @@
 {
-    "version": "0.60.0",
+    "version": "0.61.0",
     "description": "A language binding generator for WebAssembly interface types.",
     "homepage": "https://github.com/bytecodealliance/wit-bindgen",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.60.0/wit-bindgen-0.60.0-x86_64-windows.zip",
-            "extract_dir": "wit-bindgen-0.60.0-x86_64-windows",
-            "hash": "2fde023ff42d395a6ed0120d38cdf5eed2b8c2b9da2a5123740294088dd7d8d0"
+            "url": "https://github.com/bytecodealliance/wit-bindgen/releases/download/v0.61.0/wit-bindgen-0.61.0-x86_64-windows.zip",
+            "extract_dir": "wit-bindgen-0.61.0-x86_64-windows",
+            "hash": "696dfa72feeafdc456a9c6bc7e8dd0243a0df380f5e6400aa69291f9cdc33c8f"
         }
     },
     "bin": "wit-bindgen.exe",
