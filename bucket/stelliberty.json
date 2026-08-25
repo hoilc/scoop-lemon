@@ -1,0 +1,50 @@
+{
+    "version": "2.0.25",
+    "description": "A high-performance, visually appealing, and modern cross-platform network client.",
+    "homepage": "https://github.com/Kindness-Kismet/stelliberty",
+    "license": {
+        "identifier": "WTFPL",
+        "url": "https://github.com/Kindness-Kismet/stelliberty/blob/stable/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.25/stelliberty-v2.0.25-win-x64.zip",
+            "hash": "a6c4db7d9af3fc5a3e34c632b2b832472f5e9819df1a53ced6f7c7a3890a007d"
+        },
+        "arm64": {
+            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.25/stelliberty-v2.0.25-win-arm64.zip",
+            "hash": "6de5e6dd0b445e584345877cf2519bac4963e13ae7ccd646cee5cd32ba2a70c4"
+        }
+    },
+    "shortcuts": [
+        [
+            "stelliberty.exe",
+            "Stelliberty"
+        ]
+    ],
+    "post_install": [
+        "if (Test-Path \"$dir\\data.original\") {",
+        "    Get-ChildItem -Path \"$dir\\data.original\" -Directory | ForEach-Object {",
+        "        info \"Updating directory $_\"",
+        "        $dest = Join-Path \"$dir\\data\" $_.Name",
+        "        if (Test-Path $dest) {",
+        "            Remove-Item -Path $dest -Recurse -Force",
+        "        }",
+        "        Move-Item -Path $_.FullName -Destination $dest -Force",
+        "    }",
+        "    Remove-Item -Path \"$dir\\data.original\" -Recurse -Force",
+        "}"
+    ],
+    "persist": "data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v$version/stelliberty-v$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v$version/stelliberty-v$version-win-arm64.zip"
+            }
+        }
+    }
+}
