@@ -14,7 +14,7 @@
     "shortcuts": [
         [
             "project-graph.exe",
-            "Project Graph Nightly"
+            "Project Graph (Nightly)"
         ]
     ],
     "checkver": {

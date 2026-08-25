@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\akregator.exe",
-            "Akregator Nightly"
+            "Akregator (Nightly)"
         ]
     ],
     "notes": "Akregator is NOT portable.",

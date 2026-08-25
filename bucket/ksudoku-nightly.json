@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\ksudoku.exe",
-            "KSudoku Nightly"
+            "KSudoku (Nightly)"
         ]
     ],
     "notes": "KSudoku is NOT portable.",

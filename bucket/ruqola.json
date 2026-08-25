@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\ruqola.exe",
-            "Ruqola Nightly"
+            "Ruqola"
         ]
     ],
     "notes": "Ruqola is NOT portable.",

@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\kaidan.exe",
-            "Kaidan Nightly"
+            "Kaidan (Nightly)"
         ]
     ],
     "notes": "Kaidan is NOT portable.",

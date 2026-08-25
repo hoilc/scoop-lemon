@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\kstars.exe",
-            "KStars Nightly"
+            "KStars (Nightly)"
         ]
     ],
     "notes": "KStars is NOT portable.",

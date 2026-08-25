@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\tellico.exe",
-            "Tellico Nightly"
+            "Tellico (Nightly)"
         ]
     ],
     "notes": "Tellico is NOT portable.",

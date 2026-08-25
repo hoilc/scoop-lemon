@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\ark.exe",
-            "Ark Nightly"
+            "Ark (Nightly)"
         ]
     ],
     "notes": "Ark is NOT portable.",

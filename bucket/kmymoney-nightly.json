@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\kmymoney.exe",
-            "KMyMoney Nightly"
+            "KMyMoney (Nightly)"
         ]
     ],
     "notes": "KMyMoney is NOT portable.",

@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "PcGen.exe",
-            "PCGen Nightly"
+            "PCGen (Nightly)"
         ]
     ],
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\config.ini\" -Value 'settingsPath=pcgen' }",

@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\drawy.exe",
-            "Drawy Nightly"
+            "Drawy (Nightly)"
         ]
     ],
     "checkver": {

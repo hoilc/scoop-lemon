@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "bin\\Gajim.exe",
-            "Gajim Nightly"
+            "Gajim (Nightly)"
         ]
     ],
     "persist": "UserData",
