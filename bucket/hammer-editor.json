@@ -1,12 +1,12 @@
 {
-    "version": "3.9.2",
+    "version": "3.9.4+google-play+fdroid",
     "description": "A simple tool for building stories.",
     "homepage": "https://hammer.ink/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.2/hammer.exe#/dl.exe",
-            "hash": "66c4a3d5dc49885be8b8c39ddb49d61756eebc268f39080f7cc2da660949f9f4"
+            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.4+google-play+fdroid/hammer.exe#/dl.exe",
+            "hash": "41da78838edd68a7bb378b9a65d9bd03e74b4c54edb5678e068bd11e6a26b5aa"
         }
     },
     "installer": {
@@ -22,7 +22,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Darkrock-Studios/hammer-editor"
+        "url": "https://github.com/Darkrock-Studios/hammer-editor/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
