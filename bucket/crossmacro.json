@@ -1,16 +1,16 @@
 {
-    "version": "1.3.1",
+    "version": "1.4.0",
     "description": "A cross-platform desktop automation app for recording, editing, scheduling, and replaying mouse/keyboard workflows.",
     "homepage": "https://github.com/alper-han/CrossMacro",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alper-han/CrossMacro/releases/download/v1.3.1/CrossMacro-1.3.1-win-x64.exe#/CrossMacro.exe",
-            "hash": "22a2f98bbc702104f844f199d1f26a1af222b4cd89a015b12dce78c81a8f78d5"
+            "url": "https://github.com/alper-han/CrossMacro/releases/download/v1.4.0/CrossMacro-1.4.0-win-x64.exe#/CrossMacro.exe",
+            "hash": "83b711f3d149f5acf86ab6900d0464b5640c2aab5805e159cd3f484d5f9abb9a"
         },
         "arm64": {
-            "url": "https://github.com/alper-han/CrossMacro/releases/download/v1.3.1/CrossMacro-1.3.1-win-arm64.exe#/CrossMacro.exe",
-            "hash": "350da2eb98abf29f7b94b3ab2ea8ac2fbf374b671b16361300ec6a706721a144"
+            "url": "https://github.com/alper-han/CrossMacro/releases/download/v1.4.0/CrossMacro-1.4.0-win-arm64.exe#/CrossMacro.exe",
+            "hash": "07f6b049657911a88aed81f60a008e55d68ac47b0375a78bf3f6e5119d0f4697"
         }
     },
     "bin": "CrossMacro.exe",
