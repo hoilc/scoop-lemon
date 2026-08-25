@@ -1,0 +1,30 @@
+{
+    "version": "1.0-alpha16",
+    "description": "A vector graphics application for structured SVG editing.",
+    "homepage": "https://godsvg.com",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MewPurPur/GodSVG/releases/download/v1.0-alpha16/GodSVG_v1.0-alpha16.Windows.zip",
+            "hash": "3db610af11006e7a7e524669901fd845385ff9e5d9c012f54224e60aba4342e1"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'GodSVG?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'GodSVG.exe'",
+    "shortcuts": [
+        [
+            "GodSVG.exe",
+            "GodSVG"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/MewPurPur/GodSVG/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MewPurPur/GodSVG/releases/download/v$version/GodSVG_v$version.Windows.zip"
+            }
+        }
+    }
+}
