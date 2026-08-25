@@ -1,0 +1,30 @@
+{
+    "version": "2.0.16",
+    "description": "流氓软件克星是一个专门揪 Windows 右键菜单、自启动、计划任务、服务、浏览器插件和文件关联残留的小工具",
+    "homepage": "https://github.com/aakk007/RogueCleaner",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aakk007/RogueCleaner/releases/download/v2.0.16/RogueCleaner-v2.0.16-20260813-085854.exe#/RogueCleaner.exe",
+            "hash": "e57b9c2eb085bf6201b32ca7c2692e7e313ac3d44a97d42866090045ee5b7e52"
+        }
+    },
+    "shortcuts": [
+        [
+            "RogueCleaner.exe",
+            "流氓软件克星"
+        ]
+    ],
+    "persist": "流氓软件克星数据",
+    "checkver": {
+        "url": "https://api.github.com/repos/aakk007/RogueCleaner/releases/latest",
+        "regex": "/download/(?<tag>[^/]+)/RogueCleaner-v([\\d.]+)-(?<stamp>[\\d-]+)\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aakk007/RogueCleaner/releases/download/$matchTag/RogueCleaner-v$version-$matchStamp.exe#/RogueCleaner.exe"
+            }
+        }
+    }
+}
