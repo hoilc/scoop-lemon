@@ -6,10 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/fooyin/fooyin/releases/download/v0.12.6/fooyin-0.12.6-windows-x64-portable.zip",
+            "extract_dir": "fooyin-0.12.6-windows-x64-portable",
             "hash": "e458024146b23655db30a4372e1c815def03b8a7d4662327b7b8ac44a9ff9f64"
         },
         "arm64": {
             "url": "https://github.com/fooyin/fooyin/releases/download/v0.12.6/fooyin-0.12.6-windows-arm64-portable.zip",
+            "extract_dir": "fooyin-0.12.6-windows-arm64-portable",
             "hash": "3359e68a114fa2ed41b0b296aca017b74872f61f11042dbdb53e172592a4d65f"
         }
     },
