@@ -1,10 +1,10 @@
 {
-    "version": "1.13.2",
+    "version": "1.14.0",
     "description": "Morphe Desktop is a command-line and GUI application that uses Morphe Patcher to patch Android apps.",
     "homepage": "https://github.com/MorpheApp/morphe-desktop",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/MorpheApp/morphe-desktop/releases/download/v1.13.2/morphe-desktop-1.13.2-all.jar#/morphe-desktop.jar",
-    "hash": "abc2f829a1c1fa6126c1dcae5cd68af631265ddcc2013e778df9bef08fcd8fe0",
+    "url": "https://github.com/MorpheApp/morphe-desktop/releases/download/v1.14.0/morphe-desktop-1.14.0-all.jar#/morphe-desktop.jar",
+    "hash": "d0579df359c75335d7d79927fa52e351c476bb43a66e43f352a85e943e511131",
     "pre_install": [
         "Set-Content -Encoding ASCII -Path \"$dir\\morphe-desktop.bat\" -Value '@start javaw.exe -jar \"%~dp0morphe-desktop.jar\"'",
         "Set-Content -Encoding ASCII -Path \"$dir\\morphe-cli.bat\" -Value \"@java -jar `\"%~dp0morphe-desktop.jar`\" %*\""
