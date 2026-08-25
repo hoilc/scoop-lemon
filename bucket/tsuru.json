@@ -1,12 +1,12 @@
 {
-    "version": "1.35.0",
+    "version": "1.36.0",
     "description": "tsuru-client is a tsuru command line tool for application developers.",
     "homepage": "https://tsuru.io",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsuru/tsuru-client/releases/download/1.35.0/tsuru_1.35.0_windows_amd64.zip",
-            "hash": "064cd2c400a7fb05375af93a63daab89bceb8430297c0a7639ddd3e39aed175e"
+            "url": "https://github.com/tsuru/tsuru-client/releases/download/1.36.0/tsuru_1.36.0_windows_amd64.zip",
+            "hash": "7b58c70a41903bffddbaa0360a0dac9ee8e28fde660b3e967c18aa8e9c872028"
         }
     },
     "bin": "tsuru.exe",
