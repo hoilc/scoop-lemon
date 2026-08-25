@@ -1,0 +1,28 @@
+{
+    "version": "170.4.83.3",
+    "description": "A command-line utility that automates the database development tasks by exposing some of the public Data-Tier Application Framework (DacFx) APIs.",
+    "homepage": "https://aka.ms/sqlpackage-ref",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.microsoft.com/download/46a13f8c-5548-42fb-b547-7e69ebc3fcca/sqlpackage-win-x64-en-170.4.83.3.zip",
+            "hash": "f1c80c38a6c4e55fe2b8787de9119ee52313b900a05873be9d0084102344666a"
+        }
+    },
+    "bin": "sqlpackage.exe",
+    "checkver": {
+        "script": [
+            "try { $response = Invoke-WebRequest -Method HEAD -UseBasicParsing 'https://aka.ms/sqlpackage-windows' } catch { Write-Host $_.Exception.Message }",
+            "$finalUrl = if ($response.BaseResponse.ResponseUri) { $response.BaseResponse.ResponseUri.AbsoluteUri } else { $response.BaseResponse.RequestMessage.RequestUri.AbsoluteUri }",
+            "return $finalUrl"
+        ],
+        "regex": "/download/(?<uuid>[\\d\\w-]+)/sqlpackage-win-x64-en-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.microsoft.com/download/$matchUuid/sqlpackage-win-x64-en-$version.zip"
+            }
+        }
+    }
+}
