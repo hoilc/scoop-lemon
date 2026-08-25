@@ -1,20 +1,20 @@
 {
-    "version": "1.46.32",
+    "version": "1.46.38",
     "description": "A free and secure remote desktop software to easily screen share, transfer files, and securely manage devices with end-to-end encryption.",
     "homepage": "https://www.hoptodesk.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://download.hoptodesk.com/HopToDesk64.exe#/HopToDesk.exe",
-            "hash": "ebd51e0d22e96278a2d7e90bb3fc86a8be28d0a3538b18e8a141226b56fc9534"
+            "hash": "8e6a6c715d43ab6fc5d5bd1b4bb50e0cc987da63a64d4d8e30c1ee9efedbcc3a"
         },
         "32bit": {
             "url": "https://download.hoptodesk.com/HopToDesk.exe",
-            "hash": "a3266477956442dec0f28653aff3381ec8ea060cb381bafeba8b6ca9ebc1d854"
+            "hash": "abc3a3a1277115503a6ab50727e75c5e24fce56c13a2a1f0f5b9abc856f91e66"
         },
         "arm64": {
             "url": "https://download.hoptodesk.com/hoptodesk-arm64.exe#/HopToDesk.exe",
-            "hash": "88fb5d1c95b5a3ac51173db6c75ee62023149203c675d7b9d3c698fcb086fb60"
+            "hash": "839a1beae02c0ff4c6223e997bc030c4c279a30f99890f4661bf326961f5319c"
         }
     },
     "shortcuts": [
