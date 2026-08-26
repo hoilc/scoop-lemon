@@ -1,12 +1,12 @@
 {
-    "version": "20260824.01",
+    "version": "20260826.01",
     "description": "A secure persistent personal agent server in Rust.",
     "homepage": "https://github.com/moltis-org/moltis",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moltis-org/moltis/releases/download/20260824.01/moltis-20260824.01-x86_64-pc-windows-msvc.exe#/moltis.exe",
-            "hash": "d62f349247a8de034bdd567b84c0206a4d13b4fec8b472ea7fa2dfe1958fb291"
+            "url": "https://github.com/moltis-org/moltis/releases/download/20260826.01/moltis-20260826.01-x86_64-pc-windows-msvc.exe#/moltis.exe",
+            "hash": "36fcdb137226dccf9f85cfb64c0241e8e2dc19d8d554162b92d0f9779c8580ba"
         }
     },
     "bin": "moltis.exe",
