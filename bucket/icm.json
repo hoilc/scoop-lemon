@@ -1,12 +1,12 @@
 {
-    "version": "0.10.61",
+    "version": "0.10.63",
     "description": "Permanent memory for AI agents as a single binary with zero dependencies and native MCP support.",
     "homepage": "https://github.com/rtk-ai/icm",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rtk-ai/icm/releases/download/icm-v0.10.61/icm-x86_64-pc-windows-msvc.zip",
-            "hash": "ed31daeec9f368cc388412fb8a6a5070065fd7fab0b45c82ee2ae2657ee5b261"
+            "url": "https://github.com/rtk-ai/icm/releases/download/icm-v0.10.63/icm-x86_64-pc-windows-msvc.zip",
+            "hash": "1c8c898b07674ab4467bdb7d4bce398493eb36ff99c5c479e7e8b6f8a655a8c1"
         }
     },
     "bin": "icm.exe",
