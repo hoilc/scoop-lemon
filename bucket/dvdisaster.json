@@ -1,0 +1,34 @@
+{
+    "version": "0.79.10-pl6",
+    "description": "A tool providing additional ECC protection for optical media (unofficial version).",
+    "homepage": "https://github.com/speed47/dvdisaster",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/speed47/dvdisaster/releases/download/v0.79.10-pl6/dvdisaster-v0.79.10-pl6-win64-portable.zip",
+            "hash": "8d8146b448d11f81b03ff8f8ba697637d9e3cc9f6b49932ac9f4fd6a944c98de",
+            "extract_dir": "dvdisaster-v0.79.10-pl6-win64-portable"
+        }
+    },
+    "bin": "dvdisaster.exe",
+    "shortcuts": [
+        [
+            "dvdisaster.exe",
+            "dvdisaster"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\dvdisaster.cfg\")) { Set-Content -Encoding ASCII -Path \"$dir\\dvdisaster.cfg\" -Value $null }",
+    "persist": "dvdisaster.cfg",
+    "checkver": {
+        "url": "https://github.com/speed47/dvdisaster/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/speed47/dvdisaster/releases/download/v$version/dvdisaster-v$version-win64-portable.zip",
+                "extract_dir": "dvdisaster-v$version-win64-portable"
+            }
+        }
+    }
+}
