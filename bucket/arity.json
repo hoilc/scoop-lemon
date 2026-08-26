@@ -1,16 +1,16 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "A language server, formatter, and linter for R.",
     "homepage": "https://arity.cc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jolars/arity/releases/download/v0.20.0/arity-x86_64-pc-windows-msvc.zip",
-            "hash": "219fcdaac0cb1a71144e6dbc6339dd41e69c7861486c0637924016c623b32aaa"
+            "url": "https://github.com/jolars/arity/releases/download/v0.21.0/arity-x86_64-pc-windows-msvc.zip",
+            "hash": "7296b24b92826b6d838bb3c03a7621100b7eea49487dfe0c572960c39ef1bd95"
         },
         "arm64": {
-            "url": "https://github.com/jolars/arity/releases/download/v0.20.0/arity-aarch64-pc-windows-msvc.zip",
-            "hash": "b64febbf9c104a28d93ff93e5d58a5a1237ba0a105f5e8f415751c171e6f72be"
+            "url": "https://github.com/jolars/arity/releases/download/v0.21.0/arity-aarch64-pc-windows-msvc.zip",
+            "hash": "8baf4ce1d9f66f716b1c909bfa7bf96362c7ef5ad80ce8523dd85258a210f4be"
         }
     },
     "bin": "arity.exe",
