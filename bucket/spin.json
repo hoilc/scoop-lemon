@@ -1,12 +1,12 @@
 {
-    "version": "4.0.2",
+    "version": "4.1.0",
     "description": "A framework for building, deploying, and running fast, secure, and composable cloud microservices with WebAssembly.",
     "homepage": "https://spinframework.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spinframework/spin/releases/download/v4.0.2/spin-v4.0.2-windows-amd64.zip",
-            "hash": "fbcd6b2817c7ee74a69365559ce0c582647205dd9667f418cf90b0345b1dba18"
+            "url": "https://github.com/spinframework/spin/releases/download/v4.1.0/spin-v4.1.0-windows-amd64.zip",
+            "hash": "02fd143a9a965f64d24c7d15f158e91458d0c564546e888283d43802a599beca"
         }
     },
     "bin": "spin.exe",
