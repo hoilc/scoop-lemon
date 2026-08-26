@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "odo is the official CLI for managing Hostodo VPS instances.",
     "homepage": "https://github.com/hostodo/odo-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hostodo/odo-cli/releases/download/v2.2.0/odo-cli_2.2.0_Windows_x86_64.tar.gz",
-            "hash": "8b080713ab13635761167e176c65bc9e36be7e5ff13343092783c646ce43491b"
+            "url": "https://github.com/hostodo/odo-cli/releases/download/v2.2.1/odo-cli_2.2.1_Windows_x86_64.tar.gz",
+            "hash": "f3b1261eb1677736680ef8c60845433affb9787ca125dff206afed6e763d3caf"
         }
     },
     "bin": "odo.exe",
