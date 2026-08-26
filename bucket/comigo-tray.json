@@ -1,16 +1,16 @@
 {
-    "version": "1.3.3",
+    "version": "1.3.4",
     "description": "(Tray Version) A simple and efficient comic reader.",
     "homepage": "https://github.com/yumenaka/comigo",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.3/comigo-tray_v1.3.3_Windows_x86_64.zip",
-            "hash": "1e3f62c4e131efe86c3f29f758e29300c53240ceca32828e5388467c69c2f5ea"
+            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.4/comigo-tray_v1.3.4_Windows_x86_64.zip",
+            "hash": "36ba7d0f22ebda9473f34bdd7a4a0568a07a5331da56984692987b724b0c7738"
         },
         "arm64": {
-            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.3/comigo-tray_v1.3.3_Windows_arm64.zip",
-            "hash": "8eff5a01356e850831e160295e39a68958fc648d3bca94b440eb5aba09b5de0c"
+            "url": "https://github.com/yumenaka/comigo/releases/download/v1.3.4/comigo-tray_v1.3.4_Windows_arm64.zip",
+            "hash": "e47dd9893895e506952065b52d998764c1d39116a5c3f4e89b3f27f24a1cc13c"
         }
     },
     "shortcuts": [
