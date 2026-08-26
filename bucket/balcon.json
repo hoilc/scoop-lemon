@@ -4,7 +4,7 @@
     "homepage": "https://www.cross-plus-a.com/bconsole.htm",
     "license": "Freeware",
     "url": "https://www.cross-plus-a.com/balcon.zip",
-    "hash": "032b380621c1887ac3674b7d7c22286b45176cd750482197af42338170cd40e1",
+    "hash": "26c8618c78aafbd9db71017ab8eb95429ea6ef40eb1ac12270a438446713ec02",
     "bin": "balcon.exe",
     "checkver": {
         "url": "https://www.cross-plus-a.com/balcon/changelog.txt",
