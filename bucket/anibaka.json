@@ -1,12 +1,12 @@
 {
-    "version": "5.0.7",
+    "version": "5.1.0",
     "description": "跨平台番剧聚合、媒体播放与弹幕客户端",
     "homepage": "https://github.com/AniBakaBaka/AniBaka",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.0.7%2B0811/baka-5.0.7+0811-windows-x64.zip",
-            "hash": "2f37715434e8d1093fd17f3a56e7311f1367d6edac23c9857c0ff2261e79eee8"
+            "url": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.1.0%2B0823/baka-5.1.0+0823-windows-x64.zip",
+            "hash": "d67f2cd014aabe78f4f0b619d799a2b2965337c7581508a8396ed566b382df00"
         }
     },
     "shortcuts": [
