@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Official command-line interface for Floci — the free, open-source local cloud emulator for AWS, GCP, and Azure.",
     "homepage": "https://floci.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/floci-io/floci-cli/releases/download/0.2.0/floci-windows-amd64.exe#/floci.exe",
-            "hash": "089273ce7547d3c0969306ff14e06fca132587093408cb86c18641cf2f19151b"
+            "url": "https://github.com/floci-io/floci-cli/releases/download/0.2.1/floci-windows-amd64.exe#/floci.exe",
+            "hash": "7f49c2d001f405c9502bfc67711c0c693b1443e212da1fcd30f4f0291134dcac"
         }
     },
     "bin": "floci.exe",
