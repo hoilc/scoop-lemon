@@ -1,12 +1,12 @@
 {
-    "version": "b10642",
+    "version": "b10653",
     "description": "(OpenVINO Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10642/llama-b10642-bin-win-openvino-2026.3-x64.zip",
-            "hash": "c29c56ab3b93dca98e935241a206ab281de4fbbbc5b0319a7804a421680bc8d3"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10653/llama-b10653-bin-win-openvino-2026.3-x64.zip",
+            "hash": "5ab307dcb2693ee6b8a0a533332a893b756aebdf1b42f2e2574e3408ffc8493e"
         }
     },
     "bin": [
