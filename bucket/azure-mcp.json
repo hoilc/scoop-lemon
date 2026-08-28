@@ -1,16 +1,16 @@
 {
-    "version": "3.0.0-beta.38",
+    "version": "3.0.0-beta.39",
     "description": "The official Azure MCP Server for AI-powered access to Azure services and resources.",
     "homepage": "https://github.com/microsoft/mcp/blob/main/servers/Azure.Mcp.Server/README.md",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/mcp/releases/download/Azure.Mcp.Server-3.0.0-beta.38/Azure.Mcp.Server-win-x64.zip",
-            "hash": "819c1a4f3a1b1bfd7153016848fe08cf5087f07725417e12853f2f5c8648bd48"
+            "url": "https://github.com/microsoft/mcp/releases/download/Azure.Mcp.Server-3.0.0-beta.39/Azure.Mcp.Server-win-x64.zip",
+            "hash": "590270ef5d3e54a93ac06fb4937cdea4853aa4696a936e77288371f8eaaa0dc1"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/mcp/releases/download/Azure.Mcp.Server-3.0.0-beta.38/Azure.Mcp.Server-win-arm64.zip",
-            "hash": "1fa2a17f6aad54e8a73f1c87c485345cb3b805a0c113a4af2c4118829ced73c5"
+            "url": "https://github.com/microsoft/mcp/releases/download/Azure.Mcp.Server-3.0.0-beta.39/Azure.Mcp.Server-win-arm64.zip",
+            "hash": "dda0dc8978cecc4bece1316cb6f874b140333bc41a5ca228c50223206aa7769d"
         }
     },
     "bin": "azmcp.exe",
