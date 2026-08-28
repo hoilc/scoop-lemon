@@ -1,0 +1,46 @@
+{
+    "version": "0.13.1",
+    "description": "A cross platform local DNS server (Dnsmasq like) to obtain the fastest website IP for the best Internet experience, supports DoT, DoQ, DoH, DoH3.",
+    "homepage": "https://github.com/mokeyish/smartdns-rs",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v0.13.1/smartdns-x86_64-pc-windows-msvc-v0.13.1.zip",
+            "hash": "3257a903ec82a8bd7a02104788a321d512c8cef618ac82b7a4cf68ab8f0fa529",
+            "extract_dir": "smartdns-x86_64-pc-windows-msvc"
+        },
+        "arm64": {
+            "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v0.13.1/smartdns-aarch64-pc-windows-msvc-v0.13.1.zip",
+            "hash": "90700a8c047e9dcc9fe5060fdb7d7424fc1c333313ef653921da569dab5f94d5",
+            "extract_dir": "smartdns-aarch64-pc-windows-msvc"
+        },
+        "32bit": {
+            "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v0.13.1/smartdns-i686-pc-windows-msvc-v0.13.1.zip",
+            "hash": "cd51e5e4b53fc47a471fd7d3e900a897b06479ade6c5bb4d71f0eb3e452f0777",
+            "extract_dir": "smartdns-i686-pc-windows-msvc"
+        }
+    },
+    "bin": "smartdns.exe",
+    "checkver": {
+        "github": "https://github.com/mokeyish/smartdns-rs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v$version/smartdns-x86_64-pc-windows-msvc-v$version.zip",
+                "extract_dir": "smartdns-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v$version/smartdns-aarch64-pc-windows-msvc-v$version.zip",
+                "extract_dir": "smartdns-aarch64-pc-windows-msvc"
+            },
+            "32bit": {
+                "url": "https://github.com/mokeyish/smartdns-rs/releases/download/v$version/smartdns-i686-pc-windows-msvc-v$version.zip",
+                "extract_dir": "smartdns-i686-pc-windows-msvc"
+            }
+        },
+        "hash": {
+            "url": "$url-sha256sum.txt"
+        }
+    }
+}
