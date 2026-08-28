@@ -1,27 +1,27 @@
 {
-    "version": "2026.3.1",
+    "version": "2026.3.2",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileapp-v2026.3.1-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileappGUI-v2026.3.1-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.2/ileapp-v2026.3.2-Windows_x86_64.zip.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.2/ileappGUI-v2026.3.2-Windows_x86_64.zip"
             ],
             "hash": [
-                "f5f62b0a4c14c13c50d1e8dedb2d577250679fa2d65bca396fb99b649a68abaf",
-                "ff319f72f17cb09f4eef6dd63e7b26071731a3b7c5507f63a158b2217870180e"
+                "a7bb986ccb79ef9d089cfed0b5fa5f4c2000e0c9b51c75c60d956968f34356ba",
+                "1e82b5d680ec1427174074394403772f14e1a8ae46efdaeeb9bf9f709db83686"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileapp-v2026.3.1-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.1/ileappGUI-v2026.3.1-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.2/ileapp-v2026.3.2-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.2/ileappGUI-v2026.3.2-Windows_arm64.zip"
             ],
             "hash": [
-                "f05985bcdfadd440ff0bfb03c0cea6cfaaeabe2f21e7eb349cbbf2b3c372b28e",
-                "00af18159e7577f37055c9a9de93471c0e8c9fcc6ac6f96caf017031857d32af"
+                "1a820095db8b6ef4540be01507e8b5eeb340a413946f68aefb1b1e6a7fd7e0c1",
+                "9b61af9e4e165e0658d150a4650fff630d13b3aae4fb36d810d200443aecd9c7"
             ]
         }
     },
