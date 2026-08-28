@@ -1,12 +1,12 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Run LLMs on AMD Ryzen™ AI NPUs in minutes.",
     "homepage": "https://fastflowlm.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FastFlowLM/FastFlowLM/releases/download/v1.0.2/fastflowlm_1.0.2_windows_amd64.zip",
-            "hash": "f98596a6d71cc6697e7ce88832365dca1f3d0ae3c115e2794e0ece669d178c83"
+            "url": "https://github.com/FastFlowLM/FastFlowLM/releases/download/v1.0.3/fastflowlm_1.0.3_windows_amd64.zip",
+            "hash": "ca92eaf5f01909391100a1e7fde47240489a3a9b93ef5f52ea01b648f46f8a55"
         }
     },
     "bin": "flm.exe",
