@@ -5,11 +5,11 @@
     "license": "Liteware",
     "architecture": {
         "64bit": {
-            "url": "https://download.redisee.com/1.1.10/Redisee-win-x64-stable-Portable.zip",
+            "url": "https://github.com/tiny-craft/redisee-app/releases/download/v1.1.10/Redisee-win-x64-stable-Portable.zip",
             "hash": "38ecc1b2af2f617af6b48202b7e5aae801d95c2785899ffb3be69b54c348a7f3"
         },
         "arm64": {
-            "url": "https://download.redisee.com/1.1.10/Redisee-win-arm64-stable-Portable.zip",
+            "url": "https://github.com/tiny-craft/redisee-app/releases/download/v1.1.10/Redisee-win-arm64-stable-Portable.zip",
             "hash": "1a1e381f8fc9baf154e85bda3456e174be8e249586904ee39af6094bcb9fca10"
         }
     },
@@ -21,16 +21,15 @@
     ],
     "persist": "Data",
     "checkver": {
-        "url": "https://pkg.redisee.com/assets/releases.win-x64-stable.json",
-        "regex": "Redisee-([\\d.]+)-win"
+        "github": "https://github.com/tiny-craft/redisee-app"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.redisee.com/$version/Redisee-win-x64-stable-Portable.zip"
+                "url": "https://github.com/tiny-craft/redisee-app/releases/download/v$version/Redisee-win-x64-stable-Portable.zip"
             },
             "arm64": {
-                "url": "https://download.redisee.com/$version/Redisee-win-arm64-stable-Portable.zip"
+                "url": "https://github.com/tiny-craft/redisee-app/releases/download/v$version/Redisee-win-arm64-stable-Portable.zip"
             }
         }
     }
