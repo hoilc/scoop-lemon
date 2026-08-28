@@ -1,27 +1,27 @@
 {
-    "version": "2026.3.1",
+    "version": "2026.3.2",
     "description": "Android Logs Events And Protobuf Parser",
     "homepage": "https://github.com/abrignoni/ALEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.1/aleapp-v2026.3.1-Windows_x86_64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.1/aleappGUI-v2026.3.1-Windows_x86_64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.2/aleapp-v2026.3.2-Windows_x86_64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.2/aleappGUI-v2026.3.2-Windows_x86_64.zip"
             ],
             "hash": [
-                "2a9c3f1987b22ba675a22f04e8d099d1c3d550b629a8d17a0c04c75f6a5dba97",
-                "52fd9ddc744eb455b1e2bbbe5bac7bb5c604d967259ba82902ea61e85077e9dc"
+                "5ee0253671b6a17167c4941ee11a30c4e0c836806c4cbc36d842087a5642e143",
+                "89810211cfb09b509ad7153b8b458392e3c1ea94221ff1967f26774117befaa6"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.1/aleapp-v2026.3.1-Windows_arm64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.1/aleappGUI-v2026.3.1-Windows_arm64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.2/aleapp-v2026.3.2-Windows_arm64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.2/aleappGUI-v2026.3.2-Windows_arm64.zip"
             ],
             "hash": [
-                "310238ffc143c67348df1bb2870fa4f83d83b5e7542afc5256a0717096cf01ee",
-                "ccdb2faed8507ef2ad545936638584b01f9679de2853e14a8454e9cbfc463328"
+                "0a36a7f95a390dc62b8d0f47c366b9e532a04eab09acdebb51ce47714409c38d",
+                "067b576e64447b36f1a5c86e7ace9b7869d66f440de6ec67c3167cf56815bdae"
             ]
         }
     },
