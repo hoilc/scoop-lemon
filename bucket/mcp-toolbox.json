@@ -1,12 +1,12 @@
 {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
     "homepage": "https://mcp-toolbox.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/mcp-toolbox-for-databases/v1.9.0/windows/amd64/toolbox.exe",
-            "hash": "cab08bf7ce933b040cc2b86f59d97433c82e3e5b5d944348df37336fd63c7f99"
+            "url": "https://storage.googleapis.com/mcp-toolbox-for-databases/v1.10.0/windows/amd64/toolbox.exe",
+            "hash": "734783941cb5864c0e5d4d78be625f8b12be23b01d94781d7fa7db9b3c25aac6"
         }
     },
     "bin": "toolbox.exe",
