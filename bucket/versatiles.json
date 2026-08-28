@@ -25,9 +25,6 @@
             "arm64": {
                 "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v$version/versatiles-windows-aarch64.tar.gz"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
