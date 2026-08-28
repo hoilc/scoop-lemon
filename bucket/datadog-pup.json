@@ -1,12 +1,12 @@
 {
-    "version": "1.15.1",
+    "version": "1.15.2",
     "description": "A CLI companion for AI agents with 200+ commands across 33+ Datadog products.",
     "homepage": "https://github.com/DataDog/pup",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DataDog/pup/releases/download/v1.15.1/pup_1.15.1_Windows_x86_64.zip",
-            "hash": "054b072f66294b327c6623c4fa8e7037593beb081312f5ff4be59763c7f62111"
+            "url": "https://github.com/DataDog/pup/releases/download/v1.15.2/pup_1.15.2_Windows_x86_64.zip",
+            "hash": "fc280d7ed281ea81cb9cac1f2ca5b32d776e637bc935cc7bdf7d76dd43b3e012"
         }
     },
     "bin": "pup.exe",
