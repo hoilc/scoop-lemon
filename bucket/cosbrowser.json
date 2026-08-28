@@ -1,10 +1,10 @@
 {
-    "version": "2.12.2",
+    "version": "2.13.1",
     "description": "COSBrowser 是腾讯云对象存储 COS 推出的可视化界面工具，让您可以使用更简单的交互轻松实现对 COS 资源的查看、传输和管理",
     "homepage": "https://cloud.tencent.com/document/product/436/11366",
     "license": "Proprietary",
-    "url": "https://cos5.cloud.tencent.com/cosbrowser/cosbrowser-setup-2.12.2.exe#/dl.7z",
-    "hash": "sha512:9d55b96a1c8565c1b07556fddbdc1d221089a971941e9705432e226e706e7814c869aad59ca19d8447a2324479f3f1ba14fa623748a632d120852970c84d0220",
+    "url": "https://cos5.cloud.tencent.com/cosbrowser/cosbrowser-setup-2.13.1.exe#/dl.7z",
+    "hash": "sha512:a3240100515ad1e04edf438cc6b8af08308b17a94e6d217add65cbcc564d7adcfef5e0eee473f5b4265eb3a70db214f3138f3adda099e3b0d5c38c62e1273550",
     "architecture": {
         "64bit": {
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
