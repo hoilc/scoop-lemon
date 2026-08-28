@@ -1,29 +1,23 @@
 {
-    "version": "4.15.1",
+    "version": "5.0.0",
     "description": "A command-line client for the Crowdin API.",
     "homepage": "https://crowdin.github.io/crowdin-cli/",
     "license": "MIT",
-    "url": "https://github.com/crowdin/crowdin-cli/releases/download/4.15.1/crowdin-cli.zip",
-    "hash": "6e09860ecb127f05d6111b87ad3fb921e77e9d7dbac7f2d21f94b7519e160948",
-    "extract_dir": "4.15.1",
-    "pre_install": "Set-Content -Encoding ASCII -Path \"$dir\\crowdin.bat\" -Value \"@java -jar `\"%~dp0crowdin-cli.jar`\" %*\"",
-    "bin": "crowdin.bat",
-    "suggest": {
-        "JDK": [
-            "java/temurin17-jdk",
-            "java/temurin11-jdk",
-            "java/zulu17-jdk",
-            "java/zulu11-jdk"
-        ]
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/crowdin/crowdin-cli/releases/download/5.0.0/crowdin.exe",
+            "hash": "2eb743d89243e0762ec4230730a4825690365b295b3d2718f5bd2e8b8687a4cb"
+        }
     },
+    "bin": "crowdin.exe",
     "checkver": {
         "github": "https://github.com/crowdin/crowdin-cli"
     },
     "autoupdate": {
-        "url": "https://github.com/crowdin/crowdin-cli/releases/download/$version/crowdin-cli.zip",
-        "extract_dir": "$version",
-        "hash": {
-            "url": "$baseurl/crowdin-cli_checksum.sha256"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/crowdin/crowdin-cli/releases/download/$version/crowdin.exe"
+            }
         }
     }
 }
