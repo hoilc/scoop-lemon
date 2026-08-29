@@ -37,4 +37,4 @@ jobs:
           ssh-keygen -t rsa -b 4096 -C "Excavator" -f $HOME/.ssh/id_rsa -N ''
           ssh-keyscan github.com >> $HOME/.ssh/known_hosts
           cd ./my_bucket
-          pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Push
+          pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Push -Upstream $GITHUB_REPOSITORY:$GITHUB_REF_NAME
