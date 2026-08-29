@@ -44,5 +44,5 @@ jobs:
           fi
           ssh-keyscan github.com >> $HOME/.ssh/known_hosts
           cd ./my_bucket
-          pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Dir ./bucket -Push -Upstream $GITHUB_REPOSITORY:$GITHUB_REF_NAME
+          pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Dir ./bucket -Push -Upstream $GITHUB_REPOSITORY:$GITHUB_REF_NAME -OriginBranch testci3
 
