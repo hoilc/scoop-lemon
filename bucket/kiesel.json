@@ -1,20 +1,20 @@
 {
-    "version": "202608291403",
+    "version": "202608291529",
     "description": "A small, well-rounded JS engine written in Zig.",
     "homepage": "https://kiesel.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://files.kiesel.dev/kiesel-windows-x86_64.exe#/kiesel.exe",
-            "hash": "1684be9cb3d0213b76f820ff8f534561c017532b0f1a225d7081d1df2c58cd4d"
+            "hash": "68b2455de030559604669eeb2d0f5dca0ac3f35222a3efe9b2f634881c227a13"
         },
         "32bit": {
             "url": "https://files.kiesel.dev/kiesel-windows-x86.exe#/kiesel.exe",
-            "hash": "af63b98a12628ae8b5c2a096b71a5dc2286f4cdf2121f6139c0ae0e3d610aebe"
+            "hash": "675750d6727d781bb27f4c351df7b88683e5369d174db1dd42fa41cea0940f49"
         },
         "arm64": {
             "url": "https://files.kiesel.dev/kiesel-windows-aarch64.exe#/kiesel.exe",
-            "hash": "7f89bfec7702c6c90a8e12712add27b30837c81713ab4bcbd95d13a0ca8287a7"
+            "hash": "9113c8e756be921558bc18adb5908ef0bfb0b39b4a073c4b3b72ed2d8ad40ad2"
         }
     },
     "bin": "kiesel.exe",
