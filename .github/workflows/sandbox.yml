@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'hoilc@foxmail.com'
+          ssh-keygen -t rsa -b 4096 -C "Excavator" -f $HOME/.ssh/id_rsa -N ''
           ssh-keyscan github.com >> $HOME/.ssh/known_hosts
-          ssh-keygen -t rsa -b 4096 -C "Excavator" -f $HOME/.ssh/id_rsa -N ''i
           cd ./my_bucket
           pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Push
