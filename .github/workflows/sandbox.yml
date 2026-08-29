@@ -15,8 +15,6 @@ jobs:
       - job-${{ github.run_id }}-${{ github.job }}
     timeout-minutes: 30
     steps:
-      - name: Prepare Git
-        run: git config --global core.autocrlf true
       - name: Checkout Scoop
         uses: actions/checkout@v7
         with:
