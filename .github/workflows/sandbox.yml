@@ -1,0 +1,25 @@
+# Copy into YOUR_REPO/.github/workflows/
+# Pool labels must match Runner.create(labels=...); keep the unique pin.
+name: Sandbox
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on:
+      - self-hosted
+      - modal
+      - ci
+      - job-${{ github.run_id }}-${{ github.job }}
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Run tests
+        run: |
+          # Replace with your project test command, e.g.:
+          #   uv sync && uv run pytest
+          #   npm test
+          echo "runner-modal basic pool is ready"
