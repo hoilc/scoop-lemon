@@ -1,12 +1,13 @@
 {
-    "version": "2.2.5",
+    "version": "2.9.15",
     "description": "An independent, enhanced reimplementation of PowerToys Crop And Lock.",
     "homepage": "https://github.com/melody0709/zencrop",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/melody0709/zencrop/releases/download/v2.2.5/ZenCrop.exe",
-            "hash": "f11705f7b7139e3c04dd833aa0db6adb8035bf1f1bcc83c509862aecabc5e04f"
+            "url": "https://github.com/melody0709/zencrop/releases/download/v2.9.15/ZenCrop-v2.9.15-win-x64-portable-unsigned.7z",
+            "hash": "83c4bc13c6be9da87c1c2846b16a704c631351b002cc384bc247fa92119f6a16",
+            "extract_dir": "ZenCrop-v2.9.15-win-x64-portable-unsigned"
         }
     },
     "shortcuts": [
@@ -15,12 +16,22 @@
             "ZenCrop"
         ]
     ],
+    "post_install": "Get-ChildItem \"$persist_dir\\*\" -Include '*.json', '*.ini' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include '*.json', '*.ini' | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\"",
+    "persist": [
+        "models",
+        "ocr_images"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/melody0709/zencrop/releases/download/v$version/ZenCrop.exe"
+                "url": "https://github.com/melody0709/zencrop/releases/download/v$version/ZenCrop-v$version-win-x64-portable-unsigned.7z",
+                "extract_dir": "ZenCrop-v$version-win-x64-portable-unsigned"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
