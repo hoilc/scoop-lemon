@@ -1,12 +1,12 @@
 {
-    "version": "3.8.0",
+    "version": "3.8.1",
     "description": "A local diffing tool for decompilation projects.",
     "homepage": "https://github.com/encounter/objdiff",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/encounter/objdiff/releases/download/v3.8.0/objdiff-windows-x86_64.exe#/objdiff.exe",
-            "hash": "d575555a84961cbd6981da836dd819507ba0ce9d06f2a0b10778fb6c68db5cf8"
+            "url": "https://github.com/encounter/objdiff/releases/download/v3.8.1/objdiff-windows-x86_64.exe#/objdiff.exe",
+            "hash": "43300c37c7c4b02127f80ce9a371e43ea7ec9ed3f7bd09274c0dc735f57ea26e"
         }
     },
     "shortcuts": [
