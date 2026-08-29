@@ -23,3 +23,4 @@ jobs:
           #   uv sync && uv run pytest
           #   npm test
           echo "runner-modal basic pool is ready"
+          echo "OK"
