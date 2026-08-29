@@ -1,12 +1,12 @@
 {
-    "version": "0.23.1",
+    "version": "0.23.2",
     "description": "The missing CLI for downloading your Humble Bundle purchases.",
     "homepage": "https://github.com/smbl64/humble-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/smbl64/humble-cli/releases/download/v0.23.1/humble-cli-windows-amd64.exe.zip",
-            "hash": "8d3f79c4e5a40f1c5a6de86db62b254140ae562a92e400304543f99c7390df3d"
+            "url": "https://github.com/smbl64/humble-cli/releases/download/v0.23.2/humble-cli-windows-amd64.exe.zip",
+            "hash": "882b74c7d5788208870125766fa3dbd368975b26156afa104cb32a025a2b69e9"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'humble-cli-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'humble-cli.exe'",
