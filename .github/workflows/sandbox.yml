@@ -23,5 +23,6 @@ jobs:
           #   uv sync && uv run pytest
           #   npm test
           echo "runner-modal basic pool is ready"
+          pwsh -NoProfile -Command "Write-Host pwsh ready"
           sleep 30
           echo "DONE"
