@@ -28,8 +28,8 @@ jobs:
           path: 'my_bucket'
       - name: Setup upterm session
         uses: owenthereal/action-upterm@v1
-        with:
-          detached: true
+#        with:
+#          detached: true
       - name: Run Excavator
         env:
           SCOOP: ${{ github.workspace }}\scoop
