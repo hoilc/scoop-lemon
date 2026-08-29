@@ -1,12 +1,12 @@
 {
-    "version": "0.1.7",
+    "version": "0.2.0",
     "description": "A desktop SSH / SFTP client for macOS and Windows. | 跨平台 SSH / SFTP 桌面客户端 · 终端 · 连接管理 · 文件传输",
     "homepage": "https://github.com/lyu0805/pixshell",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyu0805/pixshell/releases/download/v0.1.7/PixShell-0.1.7-win-x64.zip",
-            "hash": "39e8e0d9c25fe6e2ea4aab998873d82590b3ddda05a9585f22fb74e39017e257"
+            "url": "https://github.com/lyu0805/pixshell/releases/download/v0.2.0/PixShell-0.2.0-win-x64.zip",
+            "hash": "e33504d1b93348038e39848d99007e69acebe8fe886d2af0b51705ce0373ebd0"
         }
     },
     "shortcuts": [
