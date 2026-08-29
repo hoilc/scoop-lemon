@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-alpha.3",
+    "version": "1.0.0-alpha.4",
     "description": "An open source software to convert raster images (like jpg & png) into vector graphics (svg).",
     "homepage": "https://github.com/visioncortex/vtracer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/visioncortex/vtracer/releases/download/1.0.0-alpha.3/vtracer-x86_64-pc-windows-msvc.zip",
-            "hash": "26fb07c440aa6dd0a9ac57a83db6ee2924ddf308bccf451e76b324bb61780dba"
+            "url": "https://github.com/visioncortex/vtracer/releases/download/1.0.0-alpha.4/vtracer-x86_64-pc-windows-msvc.zip",
+            "hash": "8eadb5529864265f003f791ad9cb128e1b9b8b8af8c21016f38b04706bcf3531"
         }
     },
     "bin": "vtracer.exe",
