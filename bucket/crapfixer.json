@@ -1,12 +1,12 @@
 {
-    "version": "2.00.10",
+    "version": "2.01.41",
     "description": "A fine-tuning app for Windows.",
     "homepage": "https://github.com/builtbybel/Crapfixer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/CrapFixer/releases/download/2.00.10/CrapFixer-net48.zip",
-            "hash": "718040cbd4a1e6d2b40e7efc5b467d2f404bedea772170ecd14542f8ef231482"
+            "url": "https://github.com/builtbybel/CrapFixer/releases/download/2.01.41/CrapFixer-net48.zip",
+            "hash": "6dd208a7d5759636c68b67a8eb6a10ffc82017e1da5439e181930d08b159bfcb"
         }
     },
     "extract_dir": "CrapFixer-net48",
