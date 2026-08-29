@@ -15,14 +15,30 @@ jobs:
       - job-${{ github.run_id }}-${{ github.job }}
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v7
-
-      - name: Run tests
+      - name: Prepare Git
+        run: git config --global core.autocrlf true
+      - name: Checkout Scoop
+        uses: actions/checkout@v7
+        with:
+          repository: ScoopInstaller/Scoop
+          path: 'scoop_core'
+      - name: Checkout Bucket
+        uses: actions/checkout@v7
+        with:
+          path: 'my_bucket'
+      - name: Run Excavator
+        env:
+          SCOOP: ${{ github.workspace }}\scoop
+          SCOOP_HOME: ${{ github.workspace }}\scoop_core
+          SCOOP_CACHE: ${{ github.workspace }}\scoop_cache
         run: |
-          # Replace with your project test command, e.g.:
-          #   uv sync && uv run pytest
-          #   npm test
-          echo "runner-modal basic pool is ready"
-          pwsh -NoProfile -Command "Write-Host pwsh ready"
-          sleep 30
-          echo "DONE"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'hoilc@foxmail.com'
+          if [ -z "`grep "$(ssh-keyscan github.com 2>/dev/null)" $HOME/.ssh/known_hosts`" ]; then
+            ssh-keyscan github.com >> $HOME/.ssh/known_hosts
+          fi
+          if [ ! -f $HOME/.ssh/id_rsa ]; then
+            ssh-keygen -t rsa -b 4096 -C "Excavator" -f $HOME/.ssh/id_rsa -N ''
+          fi
+          cd ./my_bucket
+          pwsh $SCOOP_HOME/bin/auto-pr.ps1 -App pumpkin-nightly -Push
