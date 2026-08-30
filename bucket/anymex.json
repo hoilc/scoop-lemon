@@ -1,12 +1,12 @@
 {
-    "version": "3.1.6",
+    "version": "3.1.7",
     "description": "A multiservice tracking client designed exclusively for managing and tracking anime and manga progress across AniList, MyAnimeList, and Simkl.",
     "homepage": "https://github.com/RyanYuuki/AnymeX",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.6/AnymeX-Windows.zip",
-            "hash": "b36f684b69582480e190e2b15c4ecabba18e9044708dde31cd71df20fccce41a"
+            "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.7/AnymeX-Windows.zip",
+            "hash": "4777e6bc19df964e0d2d1c9411bb1ba23a4ca7c09ff947844d0ccb594d73bb8b"
         }
     },
     "shortcuts": [
