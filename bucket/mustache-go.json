@@ -1,16 +1,16 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.2",
     "description": "CLI for the mustache template language in Go.",
     "homepage": "https://github.com/cbroglie/mustache",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cbroglie/mustache/releases/download/v1.4.0/mustache_1.4.0_windows_amd64.tar.gz",
-            "hash": "eac1c3b258ae08efc2ce0538ee2f676b7f54e9a1945054e09df44a9b223b8baa"
+            "url": "https://github.com/cbroglie/mustache/releases/download/v1.4.2/mustache_1.4.2_windows_amd64.tar.gz",
+            "hash": "fafafdc6e9d5b73538659c441f27224c34364777240f14694733548356dbe234"
         },
         "arm64": {
-            "url": "https://github.com/cbroglie/mustache/releases/download/v1.4.0/mustache_1.4.0_windows_arm64.tar.gz",
-            "hash": "4a48312ce9708dee348366fd97af5f934faeb0c030d9048ed129b00780cd7703"
+            "url": "https://github.com/cbroglie/mustache/releases/download/v1.4.2/mustache_1.4.2_windows_arm64.tar.gz",
+            "hash": "a38e8aef648d26a33c6c4463b1038da4f1d6b074a34e86ca9b03922c9d9e3ba6"
         }
     },
     "bin": "mustache.exe",
