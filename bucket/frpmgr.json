@@ -1,16 +1,16 @@
 {
-    "version": "1.27.1",
+    "version": "1.27.2",
     "description": "FRP Manager is a multi-node, graphical reverse proxy tool designed for FRP on Windows.",
     "homepage": "https://github.com/koho/frpmgr",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/koho/frpmgr/releases/download/v1.27.1/frpmgr-1.27.1-x64.zip",
-            "hash": "acd546f0758f8765d9b088954039dc8844bdaea315fe2916d9ee2b3f03e08841"
+            "url": "https://github.com/koho/frpmgr/releases/download/v1.27.2/frpmgr-1.27.2-x64.zip",
+            "hash": "a95a8637ae25398d90e5b993058d046164ba40a547bb5aafc088ea6c081632df"
         },
         "32bit": {
-            "url": "https://github.com/koho/frpmgr/releases/download/v1.27.1/frpmgr-1.27.1-x86.zip",
-            "hash": "a97229dbaa0507a455e77902eb29a1c5c3b099a9747a3e670a4900d3eadbe98f"
+            "url": "https://github.com/koho/frpmgr/releases/download/v1.27.2/frpmgr-1.27.2-x86.zip",
+            "hash": "cfb1c26fe6b2cd034c75b5d270c52fe82f512589a8c8be28fd78b339b2e6cd68"
         }
     },
     "shortcuts": [
