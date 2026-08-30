@@ -1,12 +1,12 @@
 {
-    "version": "1.5.5",
+    "version": "1.8.0",
     "description": "A PNG/JPEG to AVIF converter in rust.",
     "homepage": "https://github.com/kornelski/cavif-rs",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.5.5/cavif-1.5.5.zip",
-            "hash": "114d18553ff97ed14e754c3e42f02db769f3b9c294d7e0d7cf1cea8208919e48"
+            "url": "https://github.com/kornelski/cavif-rs/releases/download/v1.8.0/cavif-1.8.0.zip",
+            "hash": "ac8aef061a4c5a01c65ffd545927597f0f060cb6f0856ea161e18222a1bff23c"
         }
     },
     "extract_dir": "win",
