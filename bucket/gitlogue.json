@@ -1,12 +1,12 @@
 {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
     "homepage": "https://github.com/unhappychoice/gitlogue",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/unhappychoice/gitlogue/releases/download/v0.10.0/gitlogue-v0.10.0-x86_64-pc-windows-msvc.zip",
-            "hash": "ed8ecf39586225ce61955fff0146239490b20b9ae25d16d20b5187304dae846f"
+            "url": "https://github.com/unhappychoice/gitlogue/releases/download/v0.11.0/gitlogue-v0.11.0-x86_64-pc-windows-msvc.zip",
+            "hash": "47858f7c496a47bec47fbd53614c9a8cd9268b76cfdb01ebf9bd2f3e568f2042"
         }
     },
     "bin": "gitlogue.exe",
