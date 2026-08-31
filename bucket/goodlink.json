@@ -1,12 +1,12 @@
 {
-    "version": "3.3.8",
+    "version": "3.3.9",
     "description": "简单、无中转的内网穿透",
     "homepage": "https://gitee.com/konyshe/goodlink",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/konyshe/goodlink/releases/download/v3.3.8/goodlink-windows-amd64.zip",
-            "hash": "ec41d16c4f68f071f0f6a4d8533ef3a9bc27848fdd9e4ea78391533e9dcd67fe"
+            "url": "https://gitee.com/konyshe/goodlink/releases/download/v3.3.9/goodlink-windows-amd64.zip",
+            "hash": "187dd624788d59d5595001d4ebcb4018df5ba3e10f32e6fc11aea963882eca1f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'goodlink?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'goodlink.exe'",
