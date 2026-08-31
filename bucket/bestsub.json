@@ -1,5 +1,5 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "一个高性能的节点检测，订阅转换服务，支持多种检测项目，多种订阅格式转换，为用户提供便捷的订阅管理解决方案",
     "homepage": "https://github.com/bestruirui/BestSub",
     "license": "GPL-3.0-only",
