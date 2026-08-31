@@ -1,11 +1,11 @@
 {
-    "version": "1.15",
+    "version": "1.16",
     "description": "PPEE (puppy) is a Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.",
     "homepage": "https://mzrst.com/",
     "license": "Freeware",
-    "url": "https://mzrst.com/puppy/PPEE(puppy)%201.15.zip",
-    "extract_dir": "PPEE(puppy) 1.15",
-    "hash": "81973d3db6806e201ef25db364ba68575814e73d03ce95564d77ec8b1860ffff",
+    "url": "https://mzrst.com/puppy/PPEE(puppy)%201.16.zip",
+    "extract_dir": "PPEE(puppy) 1.16",
+    "hash": "be4d0f95e425070f61dff5631394345d42429484f045d10353b246628bcd0d0e",
     "shortcuts": [
         [
             "PPEE.exe",
