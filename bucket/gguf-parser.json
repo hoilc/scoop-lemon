@@ -1,16 +1,16 @@
 {
-    "version": "0.26.1",
+    "version": "0.26.2",
     "description": "Review/Check GGUF files and estimate the memory usage and maximum tokens per second.",
     "homepage": "https://github.com/gpustack/gguf-parser-go",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.26.1/gguf-parser-windows-amd64.exe#/gguf-parser.exe",
-            "hash": "6ce21decb7ef510eb3f219d067aa0409ba51eed1eca34f544e443ba865d94314"
+            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.26.2/gguf-parser-windows-amd64.exe#/gguf-parser.exe",
+            "hash": "0a2d53fe2e88296fdd934144739dce201a8d4f32be0ad828be9a07f21603dbac"
         },
         "arm64": {
-            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.26.1/gguf-parser-windows-arm64.exe#/gguf-parser.exe",
-            "hash": "86a3fa710501b5b910fdf561f20288e8713182a2fada983c4f880043b4a72956"
+            "url": "https://github.com/gpustack/gguf-parser-go/releases/download/v0.26.2/gguf-parser-windows-arm64.exe#/gguf-parser.exe",
+            "hash": "619f2ac238f373056c4992a04ed88f62b34478ce0a7e78f824f61d29a1c5f52a"
         }
     },
     "bin": "gguf-parser.exe",
