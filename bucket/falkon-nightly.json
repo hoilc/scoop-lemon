@@ -1,12 +1,12 @@
 {
-    "version": "2735",
+    "version": "2745",
     "description": "(Nightly Build) A KDE web browser using QtWebEngine rendering engine, previously known as QupZilla.",
     "homepage": "https://www.falkon.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/network/falkon/master/windows/falkon-master-2735-windows-cl-msvc2022-x86_64.7z",
-            "hash": "5bcc82a395b3ae35c718acef680a1c23cd2fe43bddc671db9e548dcf2e7c9206"
+            "url": "https://cdn.kde.org/ci-builds/network/falkon/master/windows/falkon-master-2745-windows-cl-msvc2022-x86_64.7z",
+            "hash": "78c69a04a49fa486046b531846981a4016142ed1694bae642a008cfceb6a56d8"
         }
     },
     "shortcuts": [
