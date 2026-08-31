@@ -1,18 +1,18 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A feature-rich open-source AI chat platform with powerful search enhancement and tool calling capabilities.",
     "homepage": "https://deepchat.thinkinai.xyz/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.0/DeepChat-1.1.0-windows-x64.exe#/dl.7z",
+            "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.1/DeepChat-1.1.1-windows-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "026f3098cfc79f13a2908b9af252ba33f2b0c7fa161401f709120f444a3659b6"
+            "hash": "79f0c23d61b083dad046c895740970dcbc142dee32bff2d112caa98c99216931"
         },
         "arm64": {
-            "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.0/DeepChat-1.1.0-windows-arm64.exe#/dl.7z",
+            "url": "https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.1/DeepChat-1.1.1-windows-arm64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
-            "hash": "3c2f7d3dc8e3dc1aeb4d050dfa69be651eaedebe7efd6908446cb0f8499b3b16"
+            "hash": "bb61c74af79c89125f90fca601be7afd60d2036ad6b673c3999e463bedb2719a"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
