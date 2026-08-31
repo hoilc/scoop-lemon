@@ -1,23 +1,23 @@
 {
-    "version": "1.14.0-rc.5",
+    "version": "1.14.0",
     "description": "(Pre-release) The universal proxy platform.",
     "homepage": "https://sing-box.sagernet.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0-rc.5/sing-box-1.14.0-rc.5-windows-amd64.zip",
-            "extract_dir": "sing-box-1.14.0-rc.5-windows-amd64",
-            "hash": "d16f1f8593065f102a91294d3e95a121322466b9d04e006f3d12a9f0a7146b46"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0/sing-box-1.14.0-windows-amd64.zip",
+            "extract_dir": "sing-box-1.14.0-windows-amd64",
+            "hash": "3ffb56267da14e287be48bd10cf7e6505260125bad940b75101fbb4d5d58e5d6"
         },
         "32bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0-rc.5/sing-box-1.14.0-rc.5-windows-386.zip",
-            "extract_dir": "sing-box-1.14.0-rc.5-windows-386",
-            "hash": "aa8e9d22293d4c192c9528b61cd6d2d471070fe8fe425baf175800f3293fbaa5"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0/sing-box-1.14.0-windows-386.zip",
+            "extract_dir": "sing-box-1.14.0-windows-386",
+            "hash": "4029547987ecd23efc551d65ea086714a2191415175201782c427048cc8615c6"
         },
         "arm64": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0-rc.5/sing-box-1.14.0-rc.5-windows-arm64.zip",
-            "extract_dir": "sing-box-1.14.0-rc.5-windows-arm64",
-            "hash": "7643310219263ee947b900be9eeb96552ee8b6a9a4b5b4a2c7dd08ef9b8a818f"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.0/sing-box-1.14.0-windows-arm64.zip",
+            "extract_dir": "sing-box-1.14.0-windows-arm64",
+            "hash": "f58dff882b2feb022da8de41943804b38681ecab5e1f490f23602fc37e9d5dd4"
         }
     },
     "bin": "sing-box.exe",
