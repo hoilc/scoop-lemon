@@ -1,5 +1,5 @@
 {
-    "version": "2026-08-23-0bed409",
+    "version": "2026-09-01-0033340",
     "description": "An all-purpose AV1 video encoder designed for visually-optimal SDR and HDR image and video encoding.",
     "homepage": "https://github.com/juliobbv-p/svt-av1-hdr",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/juliobbv-p/svt-av1-hdr/releases/download/pgo-build-2026-08-23-0bed409/Windows_x86-64_x86-64-v3+znver2.tar.xz",
-            "hash": "dbbecd063959b62fb233f0744330f66695f2ee21882da5d9e42690ce16d4242a"
+            "url": "https://github.com/juliobbv-p/svt-av1-hdr/releases/download/pgo-build-2026-09-01-0033340/Windows_x86-64_x86-64-v3+znver2.tar.xz",
+            "hash": "f79a637d829d2b4c976e76fb35fa0fad8e55169b4f9c56371c5351e4c15b16db"
         },
         "arm64": {
-            "url": "https://github.com/juliobbv-p/svt-av1-hdr/releases/download/pgo-build-2026-08-23-0bed409/Windows_arm64_armv8.7-a+crypto+sm4+sha3+fp16+sve+sve2+oryon-1.tar.xz",
-            "hash": "6a51ad774d1e2419f21a2273b4e7a41126cd1fc4cc047596c7340896e650a71d"
+            "url": "https://github.com/juliobbv-p/svt-av1-hdr/releases/download/pgo-build-2026-09-01-0033340/Windows_arm64_armv8.7-a+crypto+sm4+sha3+fp16+sve+sve2+oryon-1.tar.xz",
+            "hash": "0dca368445c62fe58d06edda0fc5637f71a7f11f41f116cfba6f191fb908477a"
         }
     },
     "bin": "SvtAv1EncApp.exe",
