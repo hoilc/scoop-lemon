@@ -1,10 +1,10 @@
 {
-    "version": "4.54.0",
+    "version": "4.55.0",
     "description": "A useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1.",
     "homepage": "https://github.com/hivemq/mqtt-cli",
     "license": "Apache-2.0",
-    "url": "https://github.com/hivemq/mqtt-cli/releases/download/v4.54.0/mqtt-cli-4.54.0.jar#/mqtt-cli.jar",
-    "hash": "4c09d2780da0de38de8b39d8218806d956931aa3d7072254a1f4aa7407c0039b",
+    "url": "https://github.com/hivemq/mqtt-cli/releases/download/v4.55.0/mqtt-cli-4.55.0.jar#/mqtt-cli.jar",
+    "hash": "6eaa80d75449d386728dcba24023f4ec6eeecfa0d2071392b28e30ca7c919462",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "mqtt-cli.bat",
     "suggest": {
