@@ -1,0 +1,26 @@
+{
+    "version": "1.11.8",
+    "description": "A GUI tool that downloads Spotify playlists and songs along with metadata (from YouTube).",
+    "homepage": "https://github.com/WilliamSchack/Spotify-Downloader",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/WilliamSchack/Spotify-Downloader/releases/download/v1.11.8/Spotify.Downloader.Portable.Windows.zip",
+            "hash": "794de0135997702d7373cdd95fe03d248e74f1612d2916e6d4beca10a7c25e4f"
+        }
+    },
+    "shortcuts": [
+        [
+            "Spotify Downloader.exe",
+            "Spotify Downloader"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/WilliamSchack/Spotify-Downloader/releases/download/v$version/Spotify.Downloader.Portable.Windows.zip"
+            }
+        }
+    }
+}
