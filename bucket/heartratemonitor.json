@@ -1,0 +1,28 @@
+{
+    "version": "4.9.2",
+    "description": "基于 BLE（蓝牙低功耗）技术的心率监测应用",
+    "homepage": "https://github.com/XiaochangXu/HeartRateMonitor-composeui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/XiaochangXu/HeartRateMonitor-composeui/releases/download/v4.9.2/HeartRateMonitor-v4.9.2-win-x64.zip",
+            "hash": "4ecee52b39ccb784f1ca6cb7345c317651c3d244942b6e8bc6c061f085b8d842",
+            "extract_dir": "HeartRateMonitor-v4.9.2-win-x64"
+        }
+    },
+    "shortcuts": [
+        [
+            "HeartRate.exe",
+            "HeartRateMonitor"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/XiaochangXu/HeartRateMonitor-composeui/releases/download/v$version/HeartRateMonitor-v$version-win-x64.zip",
+                "extract_dir": "HeartRateMonitor-v$version-win-x64"
+            }
+        }
+    }
+}
