@@ -1,6 +1,6 @@
 {
     "version": "1.5.2",
-    "description": "Moy's ASR Workflow (MAW) 是一个以 API 转写为主的字幕生成与编辑工作流",
+    "description": "Moy's ASR Workflow 是一个以 API 转写为主的字幕生成与编辑工作流",
     "homepage": "https://moyf.github.io/moys-asr-workflow/",
     "license": "AGPL-3.0-only",
     "architecture": {
@@ -13,7 +13,7 @@
     "shortcuts": [
         [
             "MAW.exe",
-            "Moy's ASR Workflow"
+            "MAW"
         ]
     ],
     "checkver": {
