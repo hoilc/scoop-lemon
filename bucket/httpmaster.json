@@ -1,5 +1,5 @@
 {
-    "version": "7.1.0",
+    "version": "7.1.1",
     "description": "A professional test tool for HTTP applications, with special focus on RESTful web services and web API applications.",
     "homepage": "https://www.httpmaster.net",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.httpmaster.net/downloads/httpmaster_x64_7.1.0.zip",
-            "hash": "af3ff139ea9e4faffcc21af30a0ea83666c0b30671bbdf74c0d69827a946f171"
+            "url": "https://www.httpmaster.net/downloads/httpmaster_x64_7.1.1.zip",
+            "hash": "161117868a57e190397a35c92dc710e2c1d2d88907982a4e17afaf83176b036e"
         },
         "arm64": {
-            "url": "https://www.httpmaster.net/downloads/httpmaster_arm64_7.1.0.zip",
-            "hash": "bceb111d811c9d0a524a175b710acbea4363b558bd24075ec992c9b1bb1b27f9"
+            "url": "https://www.httpmaster.net/downloads/httpmaster_arm64_7.1.1.zip",
+            "hash": "1ba3a3ff38ab17b13744a89cff39732507ab0bdebc02132c87c5f3557e66e03c"
         }
     },
     "bin": "HttpMaster.Command.exe",
