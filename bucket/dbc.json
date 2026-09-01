@@ -1,0 +1,26 @@
+{
+    "version": "0.3.0",
+    "description": "A command-line tool for installing and managing ADBC drivers.",
+    "homepage": "https://docs.columnar.tech/dbc",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/columnar-tech/dbc/releases/download/v0.3.0/dbc-windows-amd64-0.3.0.zip",
+            "hash": "f216869a2e7f6312ff8bee9c91936aef9f95d700018f68dc7ced3ea8fc286418"
+        }
+    },
+    "bin": "dbc.exe",
+    "checkver": {
+        "github": "https://github.com/columnar-tech/dbc"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/columnar-tech/dbc/releases/download/v$version/dbc-windows-amd64-$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/dbc_$version_checksums.txt"
+        }
+    }
+}
