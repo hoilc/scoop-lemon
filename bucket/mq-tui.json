@@ -1,0 +1,26 @@
+{
+    "version": "0.3.1",
+    "description": "A TUI for the mq Markdown processor.",
+    "homepage": "https://mqlang.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/harehare/mq-tui/releases/download/v0.3.1/mq-tui-x86_64-pc-windows-msvc.exe#/mq-tui.exe",
+            "hash": "b18965bc63d25fd6b4577ff77e14f65812ac4c2db3567c8a0772829421ab3bd5"
+        }
+    },
+    "bin": "mq-tui.exe",
+    "checkver": {
+        "github": "https://github.com/harehare/mq-tui"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/harehare/mq-tui/releases/download/v$version/mq-tui-x86_64-pc-windows-msvc.exe#/mq-tui.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
