@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.5.4/FlyingMouse-Format-Setup-0.5.4-x64.exe#/dl.7z",
+            "url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.5.4/FlyingMouse.Format-Setup-0.5.4-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
             "hash": "sha512:0ab3f1a4420faa4a76a8b67a33b4abba55faabacc84fb88028d2967835c1d0ef8671b7460dbeac7ddaafd49ae158487a5257b4714076426725438da5d96117a1"
         }
