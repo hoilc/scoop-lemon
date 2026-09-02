@@ -1,12 +1,12 @@
 {
-    "version": "3.9.4+google-play+fdroid",
+    "version": "3.9.5+mac-app-store",
     "description": "A simple tool for building stories.",
     "homepage": "https://hammer.ink/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.4+google-play+fdroid/hammer.exe#/dl.exe",
-            "hash": "41da78838edd68a7bb378b9a65d9bd03e74b4c54edb5678e068bd11e6a26b5aa"
+            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.5+mac-app-store/hammer.exe#/dl.exe",
+            "hash": "abd0950580e65d29c906bfe8602c0316b97fcc991b0cbbf3e49c97e2cc179b2d"
         }
     },
     "installer": {
