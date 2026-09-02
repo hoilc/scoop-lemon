@@ -1,12 +1,12 @@
 {
-    "version": "10.5",
+    "version": "10.7",
     "description": "A free development tool for desktop, server and IoT solutions.",
     "homepage": "https://www.b4x.com/b4j.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://www.b4x.com/b4j/files/B4J.exe",
-            "hash": "dfad445339d3a29cad02475c8447815ef1fa7ab1eeb1ab22f6f18d972ec3f692"
+            "hash": "f2f551ce8be77005ac91e13eb083674c5d0fdda71bdf35e7b17247c47ec58477"
         }
     },
     "innosetup": true,
