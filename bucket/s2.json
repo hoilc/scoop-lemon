@@ -1,5 +1,5 @@
 {
-    "version": "1.19.2",
+    "version": "1.20.0",
     "description": "The commandline tool for S2, an extension of Snappy.",
     "homepage": "https://github.com/klauspost/compress/tree/master/s2#s2-compression",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/klauspost/compress/releases/download/v1.19.2/s2-windows_amd64.zip",
-            "hash": "1246c967ddc8f0fc364e39c1e09458ca2a87a2120cb31949232386076d64b298"
+            "url": "https://github.com/klauspost/compress/releases/download/v1.20.0/s2-windows_amd64.zip",
+            "hash": "8f970021a027d2baaa405b0457e5f886911138ccad2a6197f0695f04cef3cdbc"
         },
         "32bit": {
-            "url": "https://github.com/klauspost/compress/releases/download/v1.19.2/s2-windows_386.zip",
-            "hash": "0d733dcd7cbdf62bcd0f7883b3e197bd5ea32c83d1cec6e5d44422a1c7f35a87"
+            "url": "https://github.com/klauspost/compress/releases/download/v1.20.0/s2-windows_386.zip",
+            "hash": "46a5fe970af8bd3858994fb4b9abdb783d92a9ee0774ee947636ec8f948b2b81"
         },
         "arm64": {
-            "url": "https://github.com/klauspost/compress/releases/download/v1.19.2/s2-windows_arm64.zip",
-            "hash": "60101929b54730e2edf693e662d35b8d7a8ca499a19f11f12980de0fd1cfde1e"
+            "url": "https://github.com/klauspost/compress/releases/download/v1.20.0/s2-windows_arm64.zip",
+            "hash": "ae848ebc1947c0556a26a13d8614a653b7ae9f29f7dc2c43c0f64889a8ae3e77"
         }
     },
     "bin": [
