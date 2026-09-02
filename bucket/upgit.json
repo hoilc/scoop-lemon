@@ -1,51 +1,35 @@
 {
-    "version": "0.2.25",
+    "version": "0.3.0",
     "description": "A native & lightweight tool to helps you upload any file to your Github repository and then get a raw URL for it, also useful with Typora as an image uploader.",
     "homepage": "https://github.com/pluveto/upgit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_win_amd64.exe#/upgit.exe",
-                "https://github.com/pluveto/upgit/raw/v0.2.25/config.sample.toml"
-            ],
-            "hash": [
-                "5d091ea77c69b0145ae80ba9db1c359f9a5730977247bbc8130bad5f57f5de78",
-                "a0a7a35308750cbdd901eb4c2f5e3c5061f6034e0c2ebf36e76f724f17cbcc4c"
-            ]
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.3.0/upgit_win_amd64.zip",
+            "hash": "4e90d8b65b712102022f5f8d7005cff74d750771b07ea33943415c75f3d052b6"
         },
         "32bit": {
-            "url": [
-                "https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_win_386.exe#/upgit.exe",
-                "https://github.com/pluveto/upgit/raw/v0.2.25/config.sample.toml"
-            ],
-            "hash": [
-                "6c9b2752ecbf754ff6ceac3584b1eacca6930581aa4a67a39dcca47f6a3074a7",
-                "a0a7a35308750cbdd901eb4c2f5e3c5061f6034e0c2ebf36e76f724f17cbcc4c"
-            ]
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.3.0/upgit_win_386.zip",
+            "hash": "d156d398b22f8b268d5f323427283f3dc9a75abf44b1072ad05b69e8ad72bae8"
+        },
+        "arm64": {
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.3.0/upgit_win_arm64.zip",
+            "hash": "b8b5fade70fcd435130edfe0d32f953416469f48acb4c19951aaf9f22f77d13e"
         }
     },
     "bin": "upgit.exe",
-    "pre_install": "if (!(Test-Path \"$persist_dir\\config.toml\")) { Copy-Item \"$dir\\config.sample.toml\" \"$dir\\config.toml\"  | Out-Null }",
-    "persist": [
-        "config.toml",
-        "extensions"
-    ],
-    "notes": "Edit the configuration file $dir\\config.toml before using upgit.",
+    "persist": "config.toml",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": [
-                    "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_amd64.exe#/upgit.exe",
-                    "https://github.com/pluveto/upgit/raw/v$version/config.sample.toml"
-                ]
+                "url": "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_amd64.zip"
             },
             "32bit": {
-                "url": [
-                    "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_386.exe#/upgit.exe",
-                    "https://github.com/pluveto/upgit/raw/v$version/config.sample.toml"
-                ]
+                "url": "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_arm64.zip"
             }
         }
     }
