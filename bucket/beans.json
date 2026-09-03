@@ -1,0 +1,38 @@
+{
+    "version": "0.4.2",
+    "description": "A CLI-based, flat-file issue tracker for humans and robots.",
+    "homepage": "https://github.com/hmans/beans",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hmans/beans/releases/download/v0.4.2/beans_Windows_x86_64.zip",
+            "hash": "b302b35c46856df18dcc3f55c3b6b7d022674710811755e219d1d9404c540f7d"
+        },
+        "32bit": {
+            "url": "https://github.com/hmans/beans/releases/download/v0.4.2/beans_Windows_i386.zip",
+            "hash": "d9dc3dacb4b98b96dbe0ff1a192a6a026d953fdce8a12d2f06ad96151932db25"
+        },
+        "arm64": {
+            "url": "https://github.com/hmans/beans/releases/download/v0.4.2/beans_Windows_arm64.zip",
+            "hash": "59544a5d59487d6f40043d820e5d96fded5f990a3e52397572f64203583e42c5"
+        }
+    },
+    "bin": "beans.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hmans/beans/releases/download/v$version/beans_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/hmans/beans/releases/download/v$version/beans_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/hmans/beans/releases/download/v$version/beans_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/beans_$version_checksums.txt"
+        }
+    }
+}
