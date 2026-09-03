@@ -1,0 +1,20 @@
+{
+    "version": "20260903-d65cb64",
+    "description": "A compact, single-file Python agent for command-line work.",
+    "homepage": "https://github.com/usepr/eva",
+    "license": "MIT",
+    "url": "https://raw.githubusercontent.com/usepr/eva/d65cb643e93106a365b7c66eb2717e4415f786f6/eva.py",
+    "hash": "89e38900300bd8289e537cb8d8ef44d2edda5dba3814f94c13836f86ed55f7d0",
+    "bin": "eva.py",
+    "suggest": {
+        "python3": "python"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/usepr/eva/commits?path=eva.py&per_page=1",
+        "regex": "(?sm)\"sha\":\\s*\"(?<commit>(?<short>[a-f0-9]{7})[a-f0-9]+)\".*?\"committer\".*?\"date\":\\s*\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "${year}${month}${day}-${short}"
+    },
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/usepr/eva/$matchCommit/eva.py"
+    }
+}
