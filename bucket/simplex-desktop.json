@@ -1,12 +1,12 @@
 {
-    "version": "7.0.1",
+    "version": "7.0.2",
     "description": "The official desktop application for SimpleX Chat, a messaging network operating without user identifiers of any kind.",
     "homepage": "https://simplex.chat/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.1/simplex-desktop-windows-x86_64.msi",
-            "hash": "bcb227c15189615a3dd67193e1cb5842f4873c24e53d2e33284dbcae48dbb810"
+            "url": "https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.2/simplex-desktop-windows-x86_64.msi",
+            "hash": "d6514e01e95c9f6f8b9e4001f7eb505519f068c77e1edba1dabbf3f076bb8cb2"
         }
     },
     "extract_dir": "SimpleX",
