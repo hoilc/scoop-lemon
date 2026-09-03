@@ -1,12 +1,12 @@
 {
-    "version": "1.6",
+    "version": "1.7",
     "description": "A security auditor for Tailscale configurations. Scans your tailnet for misconfigurations, overly permissive access controls, and security best practice violations.",
     "homepage": "https://github.com/Adversis/tailsnitch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Adversis/tailsnitch/releases/download/v1.6/tailsnitch-windows-amd64.exe#/tailsnitch.exe",
-            "hash": "91a976f807055fd16fa8fbfd111b73afae94b8551c2fa53406128ae1f5512070"
+            "url": "https://github.com/Adversis/tailsnitch/releases/download/v1.7/tailsnitch-windows-amd64.exe#/tailsnitch.exe",
+            "hash": "c7c1771836f9ba554395a429b6a676fd8f3f60ab0127ef28bf059ecdef4ab692"
         }
     },
     "bin": "tailsnitch.exe",
