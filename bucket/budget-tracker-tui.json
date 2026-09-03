@@ -1,21 +1,26 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "A TUI budget tracker app built in Rust to track income and expenses and visualize insights from your transactions.",
     "homepage": "https://github.com/Feromond/budget_tracker_tui",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v1.5.0/Budget_Tracker.exe",
-            "hash": "a296b0197653b6e4cd7271a5a2425251f0f881e4671fa2e58d7f5b44d1371fbb"
+            "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v1.5.1/budget-tracker-1.5.1-x86_64-pc-windows-msvc.zip",
+            "hash": "3c09e0c93fb3373c2e7798bf35c14bcad28f2636383b0e6cc13ec977497d271e",
+            "extract_dir": "budget-tracker-1.5.1-x86_64-pc-windows-msvc"
         }
     },
-    "bin": "Budget_Tracker.exe",
+    "bin": "budget-tracker.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v$version/Budget_Tracker.exe"
+                "url": "https://github.com/Feromond/budget_tracker_tui/releases/download/v$version/budget-tracker-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "budget-tracker-$version-x86_64-pc-windows-msvc"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
         }
     }
 }
