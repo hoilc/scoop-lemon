@@ -1,12 +1,12 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "Change image formats in one click.",
     "homepage": "https://global.kilho.net/imageconverter",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://down.kilho.net/ImageConverter-1.6.2.zip",
-            "hash": "995d963edd20c7507b8292c2bddcc930479e9d52b038787e984a56dc66ddacdf"
+            "url": "https://down.kilho.net/ImageConverter-1.6.3.zip",
+            "hash": "dd1b088b6d00ab2110134e52d484a83a65d5add2e63a4083f6c743574a1d4268"
         }
     },
     "shortcuts": [
