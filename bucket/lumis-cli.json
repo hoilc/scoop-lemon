@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "CLI for Lumis, a syntax highlighter powered by Tree-sitter and Neovim themes.",
     "homepage": "https://lumis.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leandrocp/lumis/releases/download/cargo-lumis-cli%2Fv0.5.0/lumis-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "70db5b44f9e3f42e3bb4aea84032aaa2d41f3d3e30d355930f44c12314ed6289"
+            "url": "https://github.com/leandrocp/lumis/releases/download/cargo-lumis-cli%2Fv0.5.1/lumis-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "b5d84610c3d3aebfc060263826e2e98b5ad5e21995b6f2cc029f7a1632fb2ddf"
         }
     },
     "bin": "lumis.exe",
