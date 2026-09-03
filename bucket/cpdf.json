@@ -1,16 +1,16 @@
 {
-    "version": "2.9.1",
+    "version": "2.9.2",
     "description": "Coherent PDF Command Line Tools.",
     "homepage": "https://www.coherentpdf.com/",
     "license": "AGPL-3.0-only|Non-commercial",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/refs/tags/v2.9.1/Windows-64bit/cpdf.exe",
-            "hash": "daceacaa3ffc6626fec8a2540312f2e419f380b31f0517d5a0fc03fd39e89860"
+            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/refs/tags/v2.9.2/Windows-64bit/cpdf.exe",
+            "hash": "91f51d30c063233e0b8a23b8bb459e4acbbd577559a0da52fcdbec37d3237351"
         },
         "32bit": {
-            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/refs/tags/v2.9.1/Windows-32bit/cpdf.exe",
-            "hash": "7bdf8fac018f69d7145f29078df7d563a00ababbfdb4c9421b718677ef7d1cd0"
+            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/refs/tags/v2.9.2/Windows-32bit/cpdf.exe",
+            "hash": "69bcec54ee5174af32ed2539a5f3d5b7d9b3f198f99e4a84f8c620da04e5720a"
         }
     },
     "bin": "cpdf.exe",
