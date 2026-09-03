@@ -1,12 +1,12 @@
 {
-    "version": "4.4.66",
+    "version": "4.4.67",
     "description": "A lightweight, S3-compatible object storage server with built-in web dashboard.",
     "homepage": "https://www.vaults3.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kodiqa-Solutions/VaultS3/releases/download/v4.4.66/vaults3-windows-amd64.tar.gz",
-            "hash": "c9c3ecc510e866d21355fd8cde57e4859e7c125e89c4da15c95e6616b0ee7c00",
+            "url": "https://github.com/Kodiqa-Solutions/VaultS3/releases/download/v4.4.67/vaults3-windows-amd64.tar.gz",
+            "hash": "cf822095fd123b2cc6d83d5267a260959be4b3ac98bfb84ffc53082fbaf04e53",
             "pre_install": "Get-ChildItem \"$dir\" '*.exe' | ForEach-Object { Rename-Item $_.Fullname ($_.Name -Replace '-windows-amd64') }"
         }
     },
