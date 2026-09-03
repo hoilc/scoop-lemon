@@ -1,12 +1,12 @@
 {
-    "version": "1.0.68",
+    "version": "1.0.69",
     "description": "Command-line utility for Meshery, the cloud native management plane.",
     "homepage": "https://meshery.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/meshery/meshery/releases/download/v1.0.68/mesheryctl_1.0.68_Windows_x86_64.zip",
-            "hash": "bfcd7f3db6da1cceb83c2be7c9891fb61a15c4cdafb750a846d2d6ad315d8454"
+            "url": "https://github.com/meshery/meshery/releases/download/v1.0.69/mesheryctl_1.0.69_Windows_x86_64.zip",
+            "hash": "0607c751664148fdd5f76af1ecd41483dfb8f02566d55d1fd63c051e3989b4f2"
         }
     },
     "bin": "mesheryctl.exe",
