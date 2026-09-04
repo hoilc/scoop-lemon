@@ -10,7 +10,7 @@
             "hash": "92f3130eefb15a5f7afa3f3d682ee3cd6d4d53f2127684565b7249aa20b8bda8"
         }
     },
-    "bin": "bin\\xpipe.exe",
+    "bin": "xpipe.exe",
     "shortcuts": [
         [
             "xpiped.exe",
