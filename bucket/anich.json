@@ -1,12 +1,12 @@
 {
-    "version": "1.5.23",
+    "version": "1.5.24",
     "description": "支持超分辨率的在线动漫弹幕APP",
     "homepage": "https://anich.emmmm.eu.org/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Sle2p/AniCh/releases/download/1.5.23/anich-windows-1.5.23.zip",
-            "hash": "5014aa09005016d3d2066a096d956442a81fc86ebe0020717fb705a99e06f2a0"
+            "url": "https://github.com/Sle2p/AniCh/releases/download/1.5.24/anich-windows-1.5.24.zip",
+            "hash": "041df9008f8aa454fb31ae574ee57f1e7ee4dadedbd6f5e3a356746d92e68e08"
         }
     },
     "shortcuts": [
