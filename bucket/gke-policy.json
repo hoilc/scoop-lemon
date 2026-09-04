@@ -1,16 +1,16 @@
 {
-    "version": "1.4.7",
+    "version": "1.4.8",
     "description": "A tool for reviewing Google Kubernetes Engine clusters against best practices.",
     "homepage": "https://github.com/google/gke-policy-automation",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_windows_amd64.zip",
-            "hash": "f5ad83a4d9499089e363b541e248dbee4704b3f888403cecbcc38b25b945cfcf"
+            "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.8/gke-policy-automation_v1.4.8_windows_amd64.zip",
+            "hash": "1092e8a0fb926cbe55755e68b3c0434c644598306a5572c5bbcfb31632c2174b"
         },
         "arm64": {
-            "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_windows_arm64.zip",
-            "hash": "5420fb01ff76b10c20813c958ad77292bec353aea16fd1ef7a3f21c9cf8789a2"
+            "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.8/gke-policy-automation_v1.4.8_windows_arm64.zip",
+            "hash": "47f9bd12094342b5d4e728537ce0977d7135b3c95781f3fdc238f12ddf8d8158"
         }
     },
     "bin": "gke-policy.exe",
