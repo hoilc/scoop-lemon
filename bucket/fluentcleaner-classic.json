@@ -1,13 +1,13 @@
 {
-    "version": "1.14.158",
+    "version": "1.16.206",
     "description": "A lightweight portable desktop cleaner built on .NET Framework 4.8 with Winapp2.ini and Winapp3.ini support.",
     "homepage": "https://github.com/builtbybel/FluentCleaner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/FluentCleaner/releases/download/classic-1.14.158/FluentCleaner-Classic-net48.zip",
+            "url": "https://github.com/builtbybel/FluentCleaner/releases/download/classic-1.16.206/FluentCleaner-Classic-net48.zip",
             "extract_dir": "FluentCleaner-Classic-net48",
-            "hash": "b129d61e77a59c73ddcc7f0fe8be55aae5bd5f389054aac720975bc8cb832a0b"
+            "hash": "f4f34cba10716cd3ace8766c0a65fc9d5fc1d930b95fd7140e681d97f78103ca"
         }
     },
     "shortcuts": [
