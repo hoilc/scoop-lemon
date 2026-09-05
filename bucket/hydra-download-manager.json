@@ -1,0 +1,53 @@
+{
+    "version": "0.4.1",
+    "description": "A fast, resilient, multi-source download manager and accelerator with browser integration.",
+    "homepage": "https://hydra.javad.dev",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.1/hydra-0.4.1-windows-amd64.zip",
+            "hash": "7fa5234536cbd55e014e0784f3e4f22903915186dd0fd82e0698a1e6729023c7",
+            "extract_dir": "hydra-0.4.1-windows-amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.1/hydra-0.4.1-windows-arm64.zip",
+            "hash": "f23bd3ed40ff8f39ee58fded17ef5a8541118fe90f1a27f0d8717fcbfca44974",
+            "extract_dir": "hydra-0.4.1-windows-arm64"
+        }
+    },
+    "bin": "hydra.exe",
+    "shortcuts": [
+        [
+            "hydra-gui.exe",
+            "Hydra Download Manager"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\hydra-updater.exe\" -Force -ErrorAction SilentlyContinue",
+    "post_uninstall": [
+        "if ($purge) { Remove-Item -Path 'HKCU:\\Software\\Google\\Chrome\\NativeMessagingHosts\\com.hydra.host', 'HKCU:\\Software\\Microsoft\\Edge\\NativeMessagingHosts\\com.hydra.host', 'HKCU:\\Software\\Mozilla\\NativeMessagingHosts\\com.hydra.host' -Recurse -ErrorAction SilentlyContinue }",
+        "if ($purge) { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'Hydra Download Manager' -ErrorAction SilentlyContinue }"
+    ],
+    "notes": [
+        "Browser Extensions:",
+        "Chrome Web Store: https://chromewebstore.google.com/detail/hydra-download-manager-in/oieelfilllghmbnhofajpgpmmilfihmo",
+        "Firefox Add-ons (AMO): https://addons.mozilla.org/en-US/firefox/addon/hdm-integration/"
+    ],
+    "checkver": {
+        "github": "https://github.com/ja7ad/hydra"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ja7ad/hydra/releases/download/v$version/hydra-$version-windows-amd64.zip",
+                "extract_dir": "hydra-$version-windows-amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/ja7ad/hydra/releases/download/v$version/hydra-$version-windows-arm64.zip",
+                "extract_dir": "hydra-$version-windows-arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
