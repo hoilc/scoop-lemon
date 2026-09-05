@@ -1,0 +1,36 @@
+{
+    "version": "3.999.9",
+    "description": "A fast, open-source timeseries data visualization tool for robotics.",
+    "homepage": "https://www.plotjuggler.io/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PlotJuggler/PlotJuggler/releases/download/3.999.9/PlotJuggler-3.999.9-Windows-x64.exe",
+            "hash": "eb366d98a47d03d4608deba3b5427ce82f542c1edea4b0bde5ec2cdafa6bd226"
+        }
+    },
+    "installer": {
+        "script": [
+            "Get-ChildItem \"$dir\" 'PlotJuggler-*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal -Switches '-t# *.7z'",
+            "Get-ChildItem \"$dir\" '*.7z' | ForEach-Object { Expand-7zipArchive -Path $_.Fullname -DestinationPath \"$dir\" -Removal }",
+            "Get-ChildItem \"$dir\\bin\\PlotJuggler?.exe\" | Select-Object -First 1 | Rename-Item -NewName 'PlotJuggler.exe'"
+        ]
+    },
+    "bin": "bin\\PlotJuggler.exe",
+    "shortcuts": [
+        [
+            "bin\\PlotJuggler.exe",
+            "PlotJuggler"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/PlotJuggler/PlotJuggler"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PlotJuggler/PlotJuggler/releases/download/$version/PlotJuggler-$version-Windows-x64.exe"
+            }
+        }
+    }
+}
