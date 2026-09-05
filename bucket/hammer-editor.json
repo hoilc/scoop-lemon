@@ -1,12 +1,12 @@
 {
-    "version": "3.9.6+ios-app-store",
+    "version": "3.9.7+ios-app-store",
     "description": "A simple tool for building stories.",
     "homepage": "https://hammer.ink/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.6+ios-app-store/hammer.exe#/dl.exe",
-            "hash": "a6e918785b741ca5ae1c262a227f81a70904731224de5ae24435e9bf36a9af44"
+            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.9.7+ios-app-store/hammer.exe#/dl.exe",
+            "hash": "097d843dda39f87879395f69627ae5f417b1b6a2d6c6a1f64e9d8be31d04c0a4"
         }
     },
     "installer": {
