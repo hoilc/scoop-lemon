@@ -1,40 +1,34 @@
 {
-    "version": "31.3.2",
+    "version": "31.4.2",
     "description": "A diagramming app for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
     "homepage": "https://www.diagrams.net/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/draw.io-31.3.2-windows-installer.exe#/dl.7z",
-            "hash": "4ce9f1d4b6cc058caecd1423b3f7a94c7520e2c743fc203841b738e002ac75d6",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
-            ]
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v31.4.2/draw.io-31.4.2-windows-installer.exe#/dl.7z",
+            "hash": "d36ee721d46e254e1467dab55981b18f65ca0008dc3bf2eb5946d548c7a7dc29",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
         },
-        "32bit": {
-            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/draw.io-ia32-31.3.2-windows-32bit-installer.exe#/dl.7z",
-            "hash": "d3a2eae436b2a5f08861e2727abd49370da45a5fe932d973daad19e43993dc8a",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
-            ]
+        "arm64": {
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v31.4.2/draw.io-arm64-31.4.2-windows-arm64-installer.exe#/dl.7z",
+            "hash": "c9a1e52c88631608fcd42aa4bb7bf40d07c907173b9883360b61f4194b9efcd4",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\" -Removal"
         }
     },
     "bin": [
         [
             "draw.io.exe",
-            "draw.io",
-            "--user-data-dir=\"$dir\\User Data\""
+            "drawio"
         ]
     ],
     "shortcuts": [
         [
             "draw.io.exe",
             "Draw.io",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\" --disable-update"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
     "persist": "User Data",
     "checkver": {
         "github": "https://github.com/jgraph/drawio-desktop"
@@ -44,8 +38,8 @@
             "64bit": {
                 "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version-windows-installer.exe#/dl.7z"
             },
-            "32bit": {
-                "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-ia32-$version-windows-32bit-installer.exe#/dl.7z"
+            "arm64": {
+                "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-arm64-$version-windows-arm64-installer.exe#/dl.7z"
             }
         }
     }
