@@ -1,16 +1,16 @@
 {
-    "version": "0.14.0",
+    "version": "0.14.1",
     "description": "A fast, stateless CLI for web search and scrape.",
     "homepage": "https://chain.sh/ketch/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1broseidon/ketch/releases/download/v0.14.0/ketch_0.14.0_windows_x86_64.zip",
-            "hash": "7b93f5313bb6fbe9a945a57fa014333f3427dc5c04d7f4f7503bcc80b04bf9d7"
+            "url": "https://github.com/1broseidon/ketch/releases/download/v0.14.1/ketch_0.14.1_windows_x86_64.zip",
+            "hash": "4b6685bc86ef5986f15d750396c921b19b9e6dea5aeca45a563db9f4bca7e8b0"
         },
         "arm64": {
-            "url": "https://github.com/1broseidon/ketch/releases/download/v0.14.0/ketch_0.14.0_windows_arm64.zip",
-            "hash": "0e4be9b98eafdc6b3289c97688ffac6e2e787de2161d0e3f2e7da73e0c017024"
+            "url": "https://github.com/1broseidon/ketch/releases/download/v0.14.1/ketch_0.14.1_windows_arm64.zip",
+            "hash": "f12dc0b118d0dcb329682ab92cbe178a7c02589a38661e469dda57cef9562f49"
         }
     },
     "bin": "ketch.exe",
