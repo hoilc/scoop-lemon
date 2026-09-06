@@ -1,16 +1,16 @@
 {
-    "version": "6.7.1",
+    "version": "6.8.0",
     "description": "A specification for CLIs.",
     "homepage": "https://usage.jdx.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jdx/usage/releases/download/v6.7.1/usage-x86_64-pc-windows-msvc.zip",
-            "hash": "8e106b9b98dc6f789cc11b00bf9d438884128ebc4b94d0fc115e13c466c02260"
+            "url": "https://github.com/jdx/usage/releases/download/v6.8.0/usage-x86_64-pc-windows-msvc.zip",
+            "hash": "f97cf597bef4a2a643b38abcb02e2d47622e658fccf17fd5d1a97df9fac17b78"
         },
         "arm64": {
-            "url": "https://github.com/jdx/usage/releases/download/v6.7.1/usage-aarch64-pc-windows-msvc.zip",
-            "hash": "e5186abfb9c973e1bb3dae69e42658512d180480f0a8650ddec53070d92cac51"
+            "url": "https://github.com/jdx/usage/releases/download/v6.8.0/usage-aarch64-pc-windows-msvc.zip",
+            "hash": "d4c94bc6403073f4ab1c03864dd1e5714e35cf9ea65ec184c62efd6eab5d3f4f"
         }
     },
     "bin": "usage.exe",
