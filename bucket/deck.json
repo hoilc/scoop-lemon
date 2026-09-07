@@ -1,7 +1,7 @@
 {
     "version": "1.66.0",
     "description": "A command line tool for managing Konnect and Kong Gateway configuration declaratively.",
-    "homepage": "https://docs.konghq.com/deck/overview",
+    "homepage": "https://developer.konghq.com/deck/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
