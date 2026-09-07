@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "将 CapsLock 键用于切换输入法",
     "homepage": "https://github.com/alex3236/Capsense",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alex3236/Capsense/releases/download/v0.2.0/Capsense.exe",
-            "hash": "955a4854809a12f830d680b17aacfe57b4e2d1a7e7cb38c05e957bd0629ae388"
+            "url": "https://github.com/alex3236/Capsense/releases/download/v0.3.0/Capsense.exe",
+            "hash": "84eac2b39327bfb41191861659dbd3a78e32db8041f3ec99b92adb49da1832fb"
         }
     },
     "bin": "Capsense.exe",
