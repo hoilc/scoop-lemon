@@ -1,12 +1,12 @@
 {
-    "version": "1.29.0",
+    "version": "1.30.0",
     "description": "A static code analysis engine to find security issues in code.",
     "homepage": "https://github.com/opengrep/opengrep",
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/opengrep/opengrep/releases/download/v1.29.0/opengrep_windows_x86.exe#/opengrep.exe",
-            "hash": "ee485b31912704dc6410bc43f04b5c6ad896697db56e360a98204abf95fa1025"
+            "url": "https://github.com/opengrep/opengrep/releases/download/v1.30.0/opengrep_windows_x86.exe#/opengrep.exe",
+            "hash": "b5cf4f8fe9f44e030aab2d579d96bd395c139db1f1ba66633676ff4d5ebc7c39"
         }
     },
     "bin": "opengrep.exe",
