@@ -1,16 +1,16 @@
 {
-    "version": "0.32.0",
+    "version": "0.33.0",
     "description": "A minimalist terminal user interface (TUI) for following football (soccer) matches in real-time.",
     "homepage": "https://thegolazo.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/0xjuanma/golazo/releases/download/v0.32.0/golazo-windows-amd64.exe#/golazo.exe",
-            "hash": "5d914fcecdee7a64927425862cf45f605fe409c61d44e8453de4dbdf38caaf67"
+            "url": "https://github.com/0xjuanma/golazo/releases/download/v0.33.0/golazo-windows-amd64.exe#/golazo.exe",
+            "hash": "7c6b4a9eeddd2e0f212724740e609ef441fc689a85b531cb0eb204275077baa1"
         },
         "arm64": {
-            "url": "https://github.com/0xjuanma/golazo/releases/download/v0.32.0/golazo-windows-arm64.exe#/golazo.exe",
-            "hash": "9eab14db66d713afb9a1f8016fb0c51dd001f53f9f4b0242757cd49ce8a39b28"
+            "url": "https://github.com/0xjuanma/golazo/releases/download/v0.33.0/golazo-windows-arm64.exe#/golazo.exe",
+            "hash": "c1f7ac534759cf17bea7ef7cf1ca45106b30d9accd2107f7d05feb45a53a4474"
         }
     },
     "bin": "golazo.exe",
