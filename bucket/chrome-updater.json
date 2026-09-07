@@ -1,20 +1,20 @@
 {
-    "version": "2.6",
+    "version": "2.7",
     "description": "A tool for updating Chrome offline and making it portable.",
     "homepage": "https://github.com/libsgh/chrome_updater",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.6/chrome_updater-windows-amd64.zip",
-            "hash": "927b19423ed43d4457724f4ded18127988ceae38b83bbfb7284b1c214e6f1a8f"
+            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.7/chrome_updater-windows-amd64.zip",
+            "hash": "aa0e18568544d8581c7f8a21a1217275f704c39bf70e5919bb8e0a17732579ef"
         },
         "32bit": {
-            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.6/chrome_updater-windows-386.zip",
-            "hash": "57dcd1137fafd39648d660b25b636ca76e1a79acc28fdf1c366d39c7e3aa5285"
+            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.7/chrome_updater-windows-386.zip",
+            "hash": "b63890927fae7689d7a831c5de2c46cf1ab03c5f1eb81859f6f49c707f9b9aba"
         },
         "arm64": {
-            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.6/chrome_updater-windows-arm64.zip",
-            "hash": "79f678869171ae575e4a47a2da9b9fdafe7620fbf31a0fab930169e5a48556ca"
+            "url": "https://github.com/libsgh/chrome_updater/releases/download/v2.7/chrome_updater-windows-arm64.zip",
+            "hash": "142c2f7c7140b6f4e6e5e5ea3d97b716806b95eead5334ec4fe60e5c3eb54cb3"
         }
     },
     "shortcuts": [
