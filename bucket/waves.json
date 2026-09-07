@@ -1,12 +1,12 @@
 {
-    "version": "0.1.46",
+    "version": "0.1.48",
     "description": "A terminal music player with Soulseek integration, MusicBrainz tagging, Last.fm scrobbling, and radio mode.",
     "homepage": "https://github.com/llehouerou/waves",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/llehouerou/waves/releases/download/v0.1.46/waves_0.1.46_windows_amd64.zip",
-            "hash": "f87e062bf41bdd1bdc1311de047efed9c6a0a8ddbb356e0f69aed43fcf079958"
+            "url": "https://github.com/llehouerou/waves/releases/download/v0.1.48/waves_0.1.48_windows_amd64.zip",
+            "hash": "26dcb5091a890dbc1f98f5590d9854078246662f710b2cfa4129796c9547b490"
         }
     },
     "bin": "waves.exe",
