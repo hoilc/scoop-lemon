@@ -1,13 +1,13 @@
 {
-    "version": "3.2.0",
+    "version": "3.3.0",
     "description": "Live terminal diffs while files change.",
     "homepage": "https://github.com/SoCkEt7/Livediff",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SoCkEt7/Livediff/releases/download/v3.2.0/livediff-v3.2.0-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "livediff-v3.2.0-x86_64-pc-windows-msvc",
-            "hash": "89568e85edb1905d2b90deee28518c9b77c273477ceb92dbec7ef460397b8c0a"
+            "url": "https://github.com/SoCkEt7/Livediff/releases/download/v3.3.0/livediff-v3.3.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "livediff-v3.3.0-x86_64-pc-windows-msvc",
+            "hash": "18b7256a24a6989bbc76e31272c13adcb3fab79851b9695603a0adfbfb25e911"
         }
     },
     "bin": "livediff.exe",
