@@ -1,6 +1,6 @@
 {
     "version": "3.0.6229",
-    "description": "A utility to easily refresh embedded resources in a .NET assembly.",
+    "description": "Resource .NET is a utility to easily refresh embedded resources in a .NET assembly.",
     "homepage": "https://fishcodelib.com/Resource.htm",
     "license": {
         "identifier": "Shareware",
