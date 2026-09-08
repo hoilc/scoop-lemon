@@ -5,7 +5,7 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://css-ig.net/bin/pinga-win64.zip",
+            "url": "https://css-ig.net/bin/pinga.zip",
             "hash": "71b0407de554edd233ca39c292093f67e6b5eee3284a7297d0025834756c3f0c"
         }
     },
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://css-ig.net/bin/pinga-win64.zip"
+                "url": "https://css-ig.net/bin/pinga.zip"
             }
         }
     }
