@@ -1,12 +1,12 @@
 {
-    "version": "0.3.77",
+    "version": "0.3.78",
     "description": "A command-line tool for PDF text extraction, markdown conversion, search, merge, split, image extraction, and more.",
     "homepage": "https://oxide.fyi/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.77/pdf_oxide-windows-x86_64-0.3.77.zip",
-            "hash": "d04001bfd5af76856c22e9dda5784ed6d19bacdc38d427166e9cf460ace26cb4"
+            "url": "https://github.com/yfedoseev/pdf_oxide/releases/download/v0.3.78/pdf_oxide-windows-x86_64-0.3.78.zip",
+            "hash": "f0e3e36d88ac70d25336650edcd538efc30f90a25e223a117fa952fe093a9462"
         }
     },
     "bin": [
