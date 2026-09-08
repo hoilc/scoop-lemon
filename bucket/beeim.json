@@ -1,0 +1,24 @@
+{
+    "version": "0.29",
+    "description": "An experimental lossless and lossy image processor (PNG) designed to transform the image data for Web.",
+    "homepage": "https://css-ig.net/beeim",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://css-ig.net/bin/beeim.zip",
+            "hash": "10d4965eb33b6fe7608faf7830de5ab2196fe8fe50db5cfbb3adbf9e3ff13bcf"
+        }
+    },
+    "bin": "beeim.exe",
+    "checkver": {
+        "regex": "changelog.*?>v(?<main>[\\d.]+)\\s*(?<suffix>.*?)</a>",
+        "replace": "${main}${suffix}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://css-ig.net/bin/beeim.zip"
+            }
+        }
+    }
+}
