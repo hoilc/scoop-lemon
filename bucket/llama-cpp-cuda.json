@@ -1,16 +1,16 @@
 {
-    "version": "b10852",
+    "version": "b10855",
     "description": "(CUDA 12 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ggml-org/llama.cpp/releases/download/b10852/llama-b10852-bin-win-cuda-12.4-x64.zip",
-                "https://github.com/ggml-org/llama.cpp/releases/download/b10852/cudart-llama-bin-win-cuda-12.4-x64.zip"
+                "https://github.com/ggml-org/llama.cpp/releases/download/b10855/llama-b10855-bin-win-cuda-12.4-x64.zip",
+                "https://github.com/ggml-org/llama.cpp/releases/download/b10855/cudart-llama-bin-win-cuda-12.4-x64.zip"
             ],
             "hash": [
-                "9b979ec5ceec2f76ec0067bd216cf043502fc0db53d952da7ad9f613beff1305",
+                "4f1e2505e5c3ce0126b2f44c5b87af375960428a4ff98535dfeee8a5fbed8a5b",
                 "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
             ]
         }
@@ -26,14 +26,14 @@
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
-        "regex": "Repository/\\d+/(b\\d+)<"
+        "regex": "llama-(b\\d+)-bin-win-cuda-(?<cuda>12[\\d.]+)-x64.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-12.4-x64.zip",
-                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda-12.4-x64.zip"
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-$matchCuda-x64.zip",
+                    "https://github.com/ggml-org/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda-$matchCuda-x64.zip"
                 ]
             }
         }
