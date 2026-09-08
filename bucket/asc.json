@@ -1,12 +1,12 @@
 {
-    "version": "5.0.0",
+    "version": "5.1.0",
     "description": "A fast, scriptable CLI for App Store Connect and Apple Ads.",
     "homepage": "https://asccli.sh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rorkai/App-Store-Connect-CLI/releases/download/5.0.0/asc_5.0.0_windows_amd64.exe#/asc.exe",
-            "hash": "8f0f043f1dda876406bfb16a9756d2d1acb1d8f6a618bef2604291849604a7b3"
+            "url": "https://github.com/rorkai/App-Store-Connect-CLI/releases/download/5.1.0/asc_5.1.0_windows_amd64.exe#/asc.exe",
+            "hash": "19d7ebcdb4e88b88c8decb600b9d9cebae1c9ffe5179d77427a786d960781f49"
         }
     },
     "bin": "asc.exe",
