@@ -1,18 +1,18 @@
 {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "A fast, resilient, multi-source download manager and accelerator with browser integration.",
     "homepage": "https://hydra.javad.dev",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.2/hydra-0.4.2-windows-amd64.zip",
-            "hash": "9f0d862a84953cb97cac578663483f10307689c9f255fc2cfd958f7b719800fa",
-            "extract_dir": "hydra-0.4.2-windows-amd64"
+            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.3/hydra-0.4.3-windows-amd64.zip",
+            "hash": "ae86c68eccf4e6496a3723c20337349a087a6bb5d3a1e9dfdfce7d1d17107894",
+            "extract_dir": "hydra-0.4.3-windows-amd64"
         },
         "arm64": {
-            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.2/hydra-0.4.2-windows-arm64.zip",
-            "hash": "bd24762a51c1efd0cf07d1bc2c13f4686f8c29d2fe94aa71abb4835f02091ab7",
-            "extract_dir": "hydra-0.4.2-windows-arm64"
+            "url": "https://github.com/ja7ad/hydra/releases/download/v0.4.3/hydra-0.4.3-windows-arm64.zip",
+            "hash": "41036db9e9de8ef4848f8d6167c7aeb62b9e1874b68a4109f7dab607eb18cdca",
+            "extract_dir": "hydra-0.4.3-windows-arm64"
         }
     },
     "bin": "hydra.exe",
