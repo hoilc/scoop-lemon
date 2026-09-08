@@ -31,14 +31,14 @@
     ],
     "checkver": {
         "url": "https://github.com/Thireus/ik_llama.cpp/releases.atom",
-        "regex": "Repository/\\d+/main-(.+?)<"
+        "regex": "ik_llama-main-(b.+?)-bin-win-cuda-(?<cuda>13[\\d.]+)-x64-avx2.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-main-$version-bin-win-cuda-13.3-x64-avx2.zip",
-                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-cudart-main-$version-bin-win-cuda-13.3-x64-avx2.zip"
+                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-main-$version-bin-win-cuda-$matchCuda-x64-avx2.zip",
+                    "https://github.com/Thireus/ik_llama.cpp/releases/download/main-$version/ik_llama-cudart-main-$version-bin-win-cuda-$matchCuda-x64-avx2.zip"
                 ]
             }
         },
