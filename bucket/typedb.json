@@ -1,13 +1,13 @@
 {
-    "version": "3.13.0-rc0",
+    "version": "3.13.0",
     "description": "A strongly-typed database with a rich type system and TypeQL query language.",
     "homepage": "https://typedb.com",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-all-windows-x86_64/versions/3.13.0-rc0/typedb-all-windows-x86_64-3.13.0-rc0.zip",
-            "hash": "6dd3ea385742ed5d654b602e42d3acbf29b3f636c99b0051082cc4d28aa4faa5",
-            "extract_dir": "typedb-all-windows-x86_64-3.13.0-rc0"
+            "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-all-windows-x86_64/versions/3.13.0/typedb-all-windows-x86_64-3.13.0.zip",
+            "hash": "285d42c9f14e26423c13e693fa018288cfb0f64b78d32ae1ec9401fed3186712",
+            "extract_dir": "typedb-all-windows-x86_64-3.13.0"
         }
     },
     "bin": "typedb.bat",
