@@ -1,12 +1,12 @@
 {
-    "version": "8.3.0",
+    "version": "9.0.1",
     "description": "A JSON Query Language CLI tool.",
     "homepage": "https://github.com/yamafaktory/jql",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yamafaktory/jql/releases/download/jql-v8.3.0/jql-v8.3.0-x86_64-pc-windows-msvc.zip",
-            "hash": "86f0c8cff2f414a11145dd2b5017f396ad07cfa82f6c07dc903664b5df32fb45"
+            "url": "https://github.com/yamafaktory/jql/releases/download/jql-v9.0.1/jql-v9.0.1-x86_64-pc-windows-msvc.zip",
+            "hash": "45e7908df463216fd50dcbf46b1e5aca4eecce8f50281614b526ed34f2b5e000"
         }
     },
     "bin": "jql.exe",
