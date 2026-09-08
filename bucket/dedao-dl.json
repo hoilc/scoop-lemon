@@ -1,12 +1,12 @@
 {
-    "version": "1.2.33",
+    "version": "1.2.34",
     "description": "得到 APP 课程下载工具，可在终端查看文章内容，可生成 PDF，音频文件，markdown 文稿",
     "homepage": "https://github.com/yann0917/dedao-dl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yann0917/dedao-dl/releases/download/v1.2.33/dedao-dl-windows-amd64.zip",
-            "hash": "c5a351983442dc800544066eff0cf0cb5de247e3f7c149d03619a4faddaf76ae"
+            "url": "https://github.com/yann0917/dedao-dl/releases/download/v1.2.34/dedao-dl-windows-amd64.zip",
+            "hash": "dd81dd0362a399803f6297c0a40795c5a5fda820a445648619a44bbc94a3984e"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'dedao-dl?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'dedao-dl.exe'",
