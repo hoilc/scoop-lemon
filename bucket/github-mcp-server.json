@@ -1,20 +1,20 @@
 {
-    "version": "1.12.0",
+    "version": "1.12.1",
     "description": "GitHub's official MCP Server.",
     "homepage": "https://github.com/github/github-mcp-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.0/github-mcp-server_Windows_x86_64.zip",
-            "hash": "bc8782deda12dc1f36a182d0205bb4f11b05aee0eec7e2c8c109bb8f622fb4b4"
+            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.1/github-mcp-server_Windows_x86_64.zip",
+            "hash": "5d8a8b69262c5026c94a1fdb063960b5a0bdf32632a4ebd5ba4a314d9b4157fa"
         },
         "32bit": {
-            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.0/github-mcp-server_Windows_i386.zip",
-            "hash": "12c55f8b295d86782bf352abbb895c0e7092adac7a74c3640a60c80d52eba22e"
+            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.1/github-mcp-server_Windows_i386.zip",
+            "hash": "f657b018b44921fb27914b95faeed6f327b67ed14297aeaa5f454b6eca726ad2"
         },
         "arm64": {
-            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.0/github-mcp-server_Windows_arm64.zip",
-            "hash": "e3da02b023e9266becb6d517f26e1974f6a4ffa14ffb2786bfd7d5c4d4a84bc8"
+            "url": "https://github.com/github/github-mcp-server/releases/download/v1.12.1/github-mcp-server_Windows_arm64.zip",
+            "hash": "ee186aaf895d36fdf6786506fa73b43ea706172d95dacad6355278121a0155ee"
         }
     },
     "bin": "github-mcp-server.exe",
