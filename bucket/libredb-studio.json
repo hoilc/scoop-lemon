@@ -1,12 +1,12 @@
 {
-    "version": "0.14.1",
+    "version": "0.15.0",
     "description": "A web-based SQL IDE for PostgreSQL, MySQL, MongoDB, Redis, SQLite and more, with SSO, audit trail and AI-assisted queries.",
     "homepage": "https://libredb.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libredb/libredb-studio/releases/download/0.14.1/libredb-studio-standalone-0.14.1-win32-x64.zip",
-            "hash": "f67755033c22bc04d3688fff10d0fc9ecf5769e9fdf8f353c868ca1d4feea7d2"
+            "url": "https://github.com/libredb/libredb-studio/releases/download/0.15.0/libredb-studio-standalone-0.15.0-win32-x64.zip",
+            "hash": "0d0776bdae5000c8d273fd8312616568678db1d0b5fc71e84d43e3dd061afa1c"
         }
     },
     "bin": "libredb-studio.exe",
