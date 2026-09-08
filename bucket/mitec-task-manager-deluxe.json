@@ -1,5 +1,5 @@
 {
-    "version": "5.1.0",
+    "version": "5.1.1",
     "description": "MiTeC Task Manager DeLuxe (TMX) is a full-featured task manager replacement that offers powerful features with many more enhancements.",
     "homepage": "https://www.mitec.cz/wp/tmx/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.mitec.cz/wp/support/"
     },
     "url": "https://www.mitec.cz/wp/files/TMX.zip",
-    "hash": "6016ab678fd6624d4ca7716395f6bb4f8b3e3e3a788d8c7f2db3d50fda58eda0",
+    "hash": "3dd111519325ecf18ed9202649c4f8740a2c195382cd4337fc701056d2234f3b",
     "architecture": {
         "64bit": {
             "bin": [
