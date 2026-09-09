@@ -1,16 +1,16 @@
 {
-    "version": "5.0.4",
+    "version": "5.0.5",
     "description": "A command line utility for launching Minecraft quickly and reliably with included support for Mojang versions and popular mod loaders.",
     "homepage": "https://github.com/theorzr/portablemc",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.4/portablemc-5.0.4-windows-x86_64-msvc.zip",
-            "hash": "4482bb5325f9e09573ebe578ff5e9984e5205c45962cbc08d2524e1b51ab6315"
+            "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.5/portablemc-5.0.5-windows-x86_64-msvc.zip",
+            "hash": "c1ad577e9441040e65a55b521c6ab0fc4c32ec0c6f114d169ae6eee7d3d9fda6"
         },
         "32bit": {
-            "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.4/portablemc-5.0.4-windows-i686-msvc.zip",
-            "hash": "1f504b5f77788063d98b7d7c724df684c26ec3baa49e4b2255c64502ecd3d170"
+            "url": "https://github.com/theorzr/portablemc/releases/download/v5.0.5/portablemc-5.0.5-windows-i686-msvc.zip",
+            "hash": "d3b41f3660abdae4f765ed25d65cc472fff6d71766f00e2e03eca544d7851401"
         }
     },
     "bin": "portablemc.exe",
