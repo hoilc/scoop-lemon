@@ -7,30 +7,46 @@ on:
 name: Excavator
 jobs:
   check_skip:
+    name: Check recent run
     runs-on: ubuntu-latest
     env:
       # Skip window (only applies to schedule and repository_dispatch events):
       # If a successful run exists within this many seconds, the run will be skipped.
-      SKIP_WINDOW_SECONDS: 3600
+      SKIP_WINDOW_SECONDS: 5400
     outputs:
       should_skip: ${{ steps.decide.outputs.should_skip }}
     steps:
       - id: decide
+        name: Decide skip
         run: |
-          trap 'echo "should_skip=false" >> $GITHUB_OUTPUT; exit 0' ERR
+          set -euo pipefail
+          trap 'echo "::error::Unexpected failure in check_skip, falling back to should_skip=false" >&2; echo "should_skip=false" >> $GITHUB_OUTPUT; exit 0' ERR
+
+          echo "Event: $GITHUB_EVENT_NAME"
+          echo "Repository: $GITHUB_REPOSITORY"
+          echo "Workflow ref: $GITHUB_WORKFLOW_REF"
 
           if [[ "$GITHUB_EVENT_NAME" != "schedule" && "$GITHUB_EVENT_NAME" != "repository_dispatch" ]]; then
+            echo "Event is not schedule/repository_dispatch, skipping check (should_skip=false)"
             echo "should_skip=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
           LIMIT=${{ env.SKIP_WINDOW_SECONDS }}
-          RESPONSE=$(curl -f -s -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/${{ github.workflow }}/runs?per_page=1&status=success")
-          LAST_RUN=$(echo "$RESPONSE" | jq -r '.workflow_runs[0].created_at')
+          WORKFLOW_FILE=$(echo "$GITHUB_WORKFLOW_REF" | sed -E 's|.*/workflows/([^@/]+)@.*|\1|')
+          echo "Skip window: ${LIMIT}s, workflow file: $WORKFLOW_FILE"
 
-          if [ -z "$LAST_RUN" ] || [ "$LAST_RUN" = "null" ]; then
+          echo "Querying latest successful run..."
+          HTTP_CODE=$(curl -s -w '%{http_code}' -o /tmp/runs.json -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/$WORKFLOW_FILE/runs?per_page=1&status=success") || true
+          echo "API responded with HTTP $HTTP_CODE"
+
+          LAST_RUN=$(jq -r '.workflow_runs[0].created_at // empty' /tmp/runs.json)
+          jq -r '.workflow_runs[0] | "Last successful run: #\(.run_number) \(.html_url) (\(.created_at), event: \(.event))"' /tmp/runs.json || true
+
+          if [ -z "$LAST_RUN" ]; then
+            echo "No successful run found, not skipping (should_skip=false)"
             echo "should_skip=false" >> $GITHUB_OUTPUT
             exit 0
           fi
@@ -38,10 +54,13 @@ jobs:
           LAST_EPOCH=$(date -d "$LAST_RUN" +%s)
           NOW_EPOCH=$(date +%s)
           DIFF=$((NOW_EPOCH - LAST_EPOCH))
+          echo "Last success was ${DIFF}s ago (window: ${LIMIT}s)"
 
           if [ $DIFF -lt $LIMIT ]; then
+            echo "Within skip window (should_skip=true)"
             echo "should_skip=true" >> $GITHUB_OUTPUT
           else
+            echo "Outside skip window (should_skip=false)"
             echo "should_skip=false" >> $GITHUB_OUTPUT
           fi
         env:
