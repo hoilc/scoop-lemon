@@ -1,5 +1,5 @@
 {
-    "version": "r29",
+    "version": "r30",
     "description": "Android Native Development Kit allows Android application developers to include native code in their Android application packages, compiled as JNI shared libraries.",
     "homepage": "https://developer.android.com/ndk/",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/android/repository/android-ndk-r29-windows.zip",
-            "extract_dir": "android-ndk-r29",
-            "hash": "4f83a1a87ea0d33ae2b43812ce27b768be949bc78acf90b955134d19e3068f1c"
+            "url": "https://dl.google.com/android/repository/android-ndk-r30-windows.zip",
+            "extract_dir": "android-ndk-r30",
+            "hash": "b830098aaf18b67a42eb831c404e15e5f2990a474f054ac145b0bc957ac6d729"
         }
     },
     "checkver": {
