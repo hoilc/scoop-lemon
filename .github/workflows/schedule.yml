@@ -3,7 +3,7 @@ on:
   repository_dispatch:
     types: [Excavate]
   schedule:
-  - cron: '0 */3 * * *'
+  - cron: '30 1,13 * * *'
 name: Excavator
 jobs:
   check_skip:
