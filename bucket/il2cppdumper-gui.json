@@ -1,10 +1,10 @@
 {
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "Simple GUI version of Il2CppDumper, a versatile reverse engineering tool designed specifically for handling Unity's il2cpp binaries.",
     "homepage": "https://github.com/AndnixSH/Il2CppDumper-GUI",
     "license": "MIT",
-    "url": "https://github.com/AndnixSH/Il2CppDumper-GUI/releases/download/3.1.0/Il2CppDumper.GUI.3.1.0.zip",
-    "hash": "1776b55d3cd46cac56a36410949f6a015c1d077fba1d7555092d6879be651ca1",
+    "url": "https://github.com/AndnixSH/Il2CppDumper-GUI/releases/download/3.2.0/Il2CppDumper.GUI.3.2.0.zip",
+    "hash": "c01b3b191faccad466fc59dde25d5718ddf6cc76edcab05aac595f7e9a605378",
     "architecture": {
         "64bit": {
             "pre_install": [
