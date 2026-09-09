@@ -1,5 +1,7 @@
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [make_index]
   schedule:
   - cron: '0 0 * * *'
 name: Make Index

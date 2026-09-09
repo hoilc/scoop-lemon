@@ -1,5 +1,7 @@
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [excavate]
   schedule:
   - cron: '0 */3 * * *'
 name: Excavator
