@@ -36,14 +36,16 @@ jobs:
           WORKFLOW_FILE=$(echo "$GITHUB_WORKFLOW_REF" | sed -E 's|.*/workflows/([^@/]+)@.*|\1|')
           echo "Skip window: ${LIMIT}s, workflow file: $WORKFLOW_FILE"
 
-          echo "Querying latest successful run..."
+          echo "Querying recent runs..."
           HTTP_CODE=$(curl -s -w '%{http_code}' -o /tmp/runs.json -H "Authorization: token $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/$WORKFLOW_FILE/runs?per_page=1&status=success") || true
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/$WORKFLOW_FILE/runs?per_page=20") || true
           echo "API responded with HTTP $HTTP_CODE"
 
-          LAST_RUN=$(jq -r '.workflow_runs[0].created_at // empty' /tmp/runs.json)
-          jq -r '.workflow_runs[0] | "Last successful run: #\(.run_number) \(.html_url) (\(.created_at), event: \(.event))"' /tmp/runs.json || true
+          # Do not use the server-side status filter: its index can be stale.
+          # Instead, find the newest successful run among the most recent runs.
+          LAST_RUN=$(jq -r '[.workflow_runs[] | select(.conclusion == "success")] | first | .created_at // empty' /tmp/runs.json)
+          jq -r '[.workflow_runs[] | select(.conclusion == "success")] | first | "Last successful run: #\(.run_number) \(.html_url) (\(.created_at), event: \(.event))"' /tmp/runs.json || true
 
           if [ -z "$LAST_RUN" ]; then
             echo "No successful run found, not skipping (should_skip=false)"
