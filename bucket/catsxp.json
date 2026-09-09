@@ -1,16 +1,16 @@
 {
-    "version": "6.9.3",
+    "version": "6.9.4",
     "description": "猫眼浏览器是一款以简约安全为目标Chrome内核增强版浏览器",
     "homepage": "https://www.catsxp.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://b2.catsxp.com/catsxp_portable/win_x64/portable_x64_release_153_6_9_3.zip",
-            "hash": "fa5ad3c6fd4fa129f7f52e533d5214dfbf4174f7e7d89a29c52ad869509af8ed"
+            "url": "https://b2.catsxp.com/catsxp_portable/win_x64/portable_x64_release_153_6_9_4.zip",
+            "hash": "560f41ded2c4d08dedd0ff165607772741f22adc3080dcf69216e053d906f56d"
         },
         "32bit": {
-            "url": "https://b2.catsxp.com/catsxp_portable/win_x86/portable_x86_release_153_6_9_3.zip",
-            "hash": "16ae0bb610d68d109359fc178c13406a6f9966e6e1fca0d11e6de5d1089bc511"
+            "url": "https://b2.catsxp.com/catsxp_portable/win_x86/portable_x86_release_153_6_9_4.zip",
+            "hash": "f99fa685d5e96ba1be6cab3a64351c341742e7de3026c20910c7a9269879a648"
         }
     },
     "shortcuts": [
