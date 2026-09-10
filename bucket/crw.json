@@ -1,31 +1,31 @@
 {
-    "version": "0.34.0",
+    "version": "0.34.1",
     "description": "fastCRW is a fast, lightweight Firecrawl/Tavily alternative in Rust: web scraper, crawler and search API with an MCP server for AI agents.",
     "homepage": "https://fastcrw.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-win32-x64.zip",
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-mcp-win32-x64.zip",
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-server-win32-x64.zip"
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-win32-x64.zip",
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-mcp-win32-x64.zip",
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-server-win32-x64.zip"
             ],
             "hash": [
-                "42d66f05fda1c2fcb1d0fa750e2b4d1434cb03d08489f1134befc674f04412e1",
-                "98193c8d0fa9a1975295f42351746b5bf922074eb0bb9247f13295c5ad621c91",
-                "7e6ed86b0a81d20a0f13da8a21fd441270fa336aafa8ec8753a8e49ed308e2cb"
+                "6be26b2382d544033e4c45ab827e395a4888d89be2580af6335e40600130f14c",
+                "bb0c7c434b1820294568e530cfa31fbbbde39235bfbb5ad8ed6c735cefc33f29",
+                "a34c3615c4f9e3ab99b4bba241f2f9c4903e286b12bf5e828ffb25ff19d7fdc4"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-win32-arm64.zip",
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-mcp-win32-arm64.zip",
-                "https://github.com/us/crw/releases/download/v0.34.0/crw-server-win32-arm64.zip"
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-win32-arm64.zip",
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-mcp-win32-arm64.zip",
+                "https://github.com/us/crw/releases/download/v0.34.1/crw-server-win32-arm64.zip"
             ],
             "hash": [
-                "483312b84fe66d97aadc6aaabca609553eea214ec29a89974be9c197256dc5ad",
-                "99e50e5021542b4e21d00b21bdcdae748ec93aca6c09e82cb6a4c7741367148d",
-                "f3ddd69aa8af39c1d3cab4613cd452ffb015f9562ceb0aac984fadb141d5ed7d"
+                "74fe40a8d5282e3e97c0cdfb748f921f5494424ea7b776c0100bf799255973ce",
+                "0040e794bd6613338c11d68c6b3882348621ce98845fe3b462704fb1c524676d",
+                "760668626f7e62f823ea938b12df647d78549912e00e523f597af56a929c8efb"
             ]
         }
     },
