@@ -1,16 +1,16 @@
 {
-    "version": "7.6.0",
+    "version": "7.6.2",
     "description": "Kilo Code is an AI coding agent built for the terminal.",
     "homepage": "https://kilo.ai/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kilo-Org/kilocode/releases/download/v7.6.0/kilo-windows-x64.zip",
-            "hash": "713ff8610103ffe574558b51e5996408ee1b0792431c2b96d80902d05fea7367"
+            "url": "https://github.com/Kilo-Org/kilocode/releases/download/v7.6.2/kilo-windows-x64.zip",
+            "hash": "bfc2daae05ef7e44584928aab87b53d5cedd9e19d32af4a01903e08d36900dcf"
         },
         "arm64": {
-            "url": "https://github.com/Kilo-Org/kilocode/releases/download/v7.6.0/kilo-windows-arm64.zip",
-            "hash": "e1a49260cd3e29252b7c5000effa3515f296c785dc8be51b8ec2666ff3867102"
+            "url": "https://github.com/Kilo-Org/kilocode/releases/download/v7.6.2/kilo-windows-arm64.zip",
+            "hash": "26897b7da17434142eee2dae8196436255c8bf072fa01dabb00ca7277046691d"
         }
     },
     "bin": "kilo.exe",
