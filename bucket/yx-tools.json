@@ -1,0 +1,32 @@
+{
+    "version": "3.0.6",
+    "description": "Cloudflare 优选 IP 测速工具",
+    "homepage": "https://github.com/byJoey/yx-tools",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/byJoey/yx-tools/releases/download/v3.0.6/yx_windows_amd64.zip",
+            "hash": "c597075a6e79019724ae64729b88ed8993691910582afafccc4a4ff82015e6f4"
+        },
+        "arm64": {
+            "url": "https://github.com/byJoey/yx-tools/releases/download/v3.0.6/yx_windows_arm64.zip",
+            "hash": "12368482ad5a2dabe5b9647511be3c25bff1fd13f456cf7d8751998533557bb2"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'yx?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'yx.exe'",
+    "bin": "yx.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/byJoey/yx-tools/releases/download/v$version/yx_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/byJoey/yx-tools/releases/download/v$version/yx_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
