@@ -5,17 +5,17 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.53.0-rc.1/Psysonic_1.53.0-rc.1_x64-setup.exe",
+            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.53.0-rc.1/Psysonic_1.53.0-rc.1_x64-setup.exe#/dl.7z",
             "hash": "e910497d50469fecec06554bb0ae5114e1f4b6b91c80bd3bfb327990e77d7ac2"
         }
     },
-    "innosetup": true,
     "shortcuts": [
         [
             "psysonic.exe",
             "PsySonic"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\dev.psysonic.player\", \"$env:LOCALAPPDATA\\dev.psysonic.player\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "PsySonic is NOT portable.",
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe"
+                "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
