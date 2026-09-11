@@ -1,16 +1,16 @@
 {
-    "version": "2.19.12",
+    "version": "2.19.13",
     "description": "Shell Tools for Qiniu Cloud.",
     "homepage": "https://github.com/qiniu/qshell",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qiniu/qshell/releases/download/v2.19.12/qshell-v2.19.12-windows-amd64.zip",
-            "hash": "md5:6b27c47208660cdfcc08e9ac01f66ce3"
+            "url": "https://github.com/qiniu/qshell/releases/download/v2.19.13/qshell-v2.19.13-windows-amd64.zip",
+            "hash": "md5:74233d2f9721bab7f7ef91abc627823f"
         },
         "32bit": {
-            "url": "https://github.com/qiniu/qshell/releases/download/v2.19.12/qshell-v2.19.12-windows-386.zip",
-            "hash": "md5:43445d568bd11fb0cc2145722e853036"
+            "url": "https://github.com/qiniu/qshell/releases/download/v2.19.13/qshell-v2.19.13-windows-386.zip",
+            "hash": "md5:c51d013a2440e63cb12f5e4997113886"
         }
     },
     "bin": "qshell.exe",
