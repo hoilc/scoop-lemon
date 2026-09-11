@@ -1,16 +1,16 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "easy-conflict is a 3-way terminal-native Git merge conflict resolver.",
     "homepage": "https://github.com/chojs23/ec",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chojs23/ec/releases/download/v0.4.1/ec-windows-amd64.exe#/ec.exe",
-            "hash": "14bc73af8e23822325585712e8c769cfad45c41ae596f88f3b63fa80bd45217f"
+            "url": "https://github.com/chojs23/ec/releases/download/v0.4.2/ec-windows-amd64.exe#/ec.exe",
+            "hash": "70f19f2d770ad692449f6af20f6c83e34a6618c718323a52355deb90c9d484cf"
         },
         "arm64": {
-            "url": "https://github.com/chojs23/ec/releases/download/v0.4.1/ec-windows-arm64.exe#/ec.exe",
-            "hash": "9517df9f85f3c3c598e766e32f024d8c3c167f6a81200f6bb125d639016b8ef4"
+            "url": "https://github.com/chojs23/ec/releases/download/v0.4.2/ec-windows-arm64.exe#/ec.exe",
+            "hash": "c15ac4ec63d3d16390a0e66cf823ed2af32848dd6a21bdbbc3d0f1520354fc74"
         }
     },
     "bin": "ec.exe",
