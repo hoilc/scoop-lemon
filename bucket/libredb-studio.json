@@ -12,7 +12,7 @@
     "bin": "libredb-studio.exe",
     "checkver": {
         "url": "https://github.com/libredb/libredb-studio/releases.atom",
-        "regex": "Repository/\\d+/(.+?)<"
+        "regex": "Repository/\\d+/(\\d.+?)<"
     },
     "autoupdate": {
         "architecture": {
