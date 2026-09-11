@@ -1,12 +1,12 @@
 {
-    "version": "2.24.2",
+    "version": "2.24.3",
     "description": "A skinnable, easy-to-use calendar that resides on your desktop and shows the days of the current month.",
     "homepage": "https://www.rainlendar.net/",
     "license": "Liteware",
     "architecture": {
         "64bit": {
-            "url": "https://www.rainlendar.net/download/2.24.2/Rainlendar-Lite-2.24.2-64bit.exe#/dl.7z",
-            "hash": "7626989588617467258a42423ca884c37724405e4eb507cc64e7cf9cd56534a2"
+            "url": "https://www.rainlendar.net/download/2.24.3/Rainlendar-Lite-2.24.3-64bit.exe#/dl.7z",
+            "hash": "b81981be844775f4935293c7d7fa06a32d708def4b832ab7ff5bebb50c50bbd8"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\"  -Force -Recurse",
