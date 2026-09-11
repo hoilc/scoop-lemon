@@ -1,12 +1,12 @@
 {
-    "version": "0.26.2",
+    "version": "0.26.3",
     "description": "Utilities that complement Hickory DNS.",
     "homepage": "https://hickory-dns.org/",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/hickory-util-0.26.2/hickory-util-0.26.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "42753a3cafdcd828a7850b2b28382fe91ccce8854d812deef23cd14b7571e80f"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/hickory-util-0.26.3/hickory-util-0.26.3-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "d384d2472283f619cf68345342316066ecf4e40880420f22925d247e8a98bab0"
         }
     },
     "bin": [
