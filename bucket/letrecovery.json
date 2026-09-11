@@ -1,0 +1,32 @@
+{
+    "version": "2026.9.7",
+    "description": "A source-available Windows reinstallation tool free for noncommercial use. | 一款免费用于非商业场景、源代码公开的 Windows 系统重装工具",
+    "homepage": "https://github.com/NORMAL-EX/LetRecovery",
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NORMAL-EX/LetRecovery/releases/download/2026.9.7/LetRecovery.7z",
+            "hash": "211e98342ac9ceba7bfcced56593b7a7919e2854377dd5137b0895e1588bb99e"
+        }
+    },
+    "shortcuts": [
+        [
+            "LetRecovery.exe",
+            "LetRecovery"
+        ]
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": "backup",
+    "checkver": {
+        "url": "https://github.com/NORMAL-EX/LetRecovery/releases.atom",
+        "regex": "Repository/\\d+/(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NORMAL-EX/LetRecovery/releases/download/$version/LetRecovery.7z"
+            }
+        }
+    }
+}
