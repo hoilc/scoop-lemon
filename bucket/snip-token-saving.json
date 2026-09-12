@@ -1,16 +1,16 @@
 {
-    "version": "0.25.1",
+    "version": "0.25.2",
     "description": "A CLI proxy that reduces LLM token usage by 60-90% with declarative YAML filters.",
     "homepage": "https://edouard-claude.github.io/snip/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/edouard-claude/snip/releases/download/v0.25.1/snip_0.25.1_windows_amd64.zip",
-            "hash": "e945f78b1d15eac34d8fa3c0b2b0961e1574812504a0e33b2c82e62a3ba53f3d"
+            "url": "https://github.com/edouard-claude/snip/releases/download/v0.25.2/snip_0.25.2_windows_amd64.zip",
+            "hash": "5bd0d71aea0ae82485e4b5c52f17664b4ca59f37463dc57aec3929399207b051"
         },
         "arm64": {
-            "url": "https://github.com/edouard-claude/snip/releases/download/v0.25.1/snip_0.25.1_windows_arm64.zip",
-            "hash": "b2e8b56e8ed65bfffd1033e83c9e77c7a08eba1574631f05e32a1c8b7b25a37f"
+            "url": "https://github.com/edouard-claude/snip/releases/download/v0.25.2/snip_0.25.2_windows_arm64.zip",
+            "hash": "caf829f12cb467cbdac3b6c58c527ac2ab96bea19b7f061ebe572a66e5ddf29e"
         }
     },
     "bin": "snip.exe",
