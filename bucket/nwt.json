@@ -12,7 +12,7 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\uninst.exe\", \"$dir\\LiveUpdate.exe\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
-    "post_uninstall": "if ($purge) { Remove-Item \"$env:PUBLIC\\Desktop\\内网通.lnk\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "post_uninstall": "if ($env:PUBLIC) { Remove-Item \"$env:PUBLIC\\Desktop\\内网通.lnk\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "checkver": {
         "url": "https://update.51nwt.com/update/update.php",
         "regex": "<Ver>([\\d.]+)</Ver>"
