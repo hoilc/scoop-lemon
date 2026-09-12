@@ -1,0 +1,23 @@
+{
+    "version": "3.4.3055",
+    "description": "内网通是专为中小企业打造的局域网办公沟通软件",
+    "homepage": "https://www.51nwt.com/",
+    "license": "Proprietary",
+    "url": "https://scoop-lemon.tari.xyz/hosted/nwt/nwt_setup_3.4.3055.exe#/dl.7z",
+    "hash": "5e61fa1c736572f1fc0f27b1121629315e3dffa800e7a9599348038241ed986c",
+    "shortcuts": [
+        [
+            "ShiYeLine.exe",
+            "内网通"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\uninst.exe\", \"$dir\\LiveUpdate.exe\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:PUBLIC\\Desktop\\内网通.lnk\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "url": "https://update.51nwt.com/update/update.php",
+        "regex": "<Ver>([\\d.]+)</Ver>"
+    },
+    "autoupdate": {
+        "url": "https://scoop-lemon.tari.xyz/hosted/nwt/nwt_setup_$version.exe#/dl.7z"
+    }
+}
