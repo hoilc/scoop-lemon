@@ -1,0 +1,38 @@
+{
+    "version": "0.57.0",
+    "description": "Chat and transfer files across a LAN, with no Internet connection or server. | 茶话间是一个纯内网、基于 IP 的局域网即时通讯与文件传输工具",
+    "homepage": "https://github.com/skyjt/teahouse",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/skyjt/teahouse/releases/download/v0.57.0/Teahouse-0.57.0-win-x64-setup.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "3a396eae521f906b38a71668542a8a5a13df4401ecfcf12394893697c20a7df3"
+        },
+        "32bit": {
+            "url": "https://github.com/skyjt/teahouse/releases/download/v0.57.0/Teahouse-0.57.0-win-ia32-setup.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+            "hash": "5ffe99dc1eff13af1af620b9e93bd6cadb79e5df2d19ba22812cc4ccc43afdba"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "Teahouse.exe",
+            "Teahouse",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/skyjt/teahouse/releases/download/v$version/Teahouse-$version-win-x64-setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/skyjt/teahouse/releases/download/v$version/Teahouse-$version-win-ia32-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
