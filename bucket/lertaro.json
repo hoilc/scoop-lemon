@@ -1,16 +1,16 @@
 {
-    "version": "5.5.8",
+    "version": "5.5.9",
     "description": "A modern, high-performance local file search and productivity launcher for Windows. | 超轻量、极速、高度可扩展的 Windows 全局搜索与效率启动工具",
     "homepage": "https://lertaro.github.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.5.8/Lertaro-Portable.zip",
-            "hash": "669e5b0beb0b95687797d2dd2877e35a5975fc785d709f735cee63b3c69b2ca4"
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.5.9/Lertaro-Portable.zip",
+            "hash": "f74511d505f0dfd95364301f5ac6a7d32c73895d20681671c9a5152212a53ef7"
         },
         "arm64": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.5.8/Lertaro-Portable-arm64.zip",
-            "hash": "47bcb26068a96f6e4540ee7990330967e0c53dc1a5f6bcdc2018a0a6822e5047"
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.5.9/Lertaro-Portable-arm64.zip",
+            "hash": "608cf48483accedd18646221f9fdde5818fe7ba89d9f859aa69f157eb0c204d8"
         }
     },
     "extract_dir": "Lertaro",
