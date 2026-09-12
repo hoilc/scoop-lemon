@@ -1,0 +1,33 @@
+{
+    "version": "b204-20260829-61830b5",
+    "description": "(Nightly Build) A LAN communication software.",
+    "homepage": "https://github.com/iptux-src/iptux",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://nightly.link/iptux-src/iptux/actions/runs/33265917312/iptux-portable-windows.zip",
+            "hash": "789eed91e483bd82c17b3d18ff3a6fc2960a334330fbf8db572a975d404c37ec"
+        }
+    },
+    "pre_install": "Expand-7zipArchive -Path \"$dir\\iptux-portable.zip\" -DestinationPath \"$dir\" -ExtractDir 'iptux-portable' -Removal",
+    "shortcuts": [
+        [
+            "iptux-portable.cmd",
+            "iptux",
+            "",
+            "bin\\iptux.exe"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/iptux-src/iptux/actions/workflows/windows.yml?query=event%3Apush+is%3Asuccess+branch%3Amain",
+        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "b${build}-${year}${month}${day}-${commit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nightly.link/iptux-src/iptux/actions/runs/$matchRun/iptux-portable-windows.zip"
+            }
+        }
+    }
+}
