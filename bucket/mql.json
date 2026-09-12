@@ -1,6 +1,6 @@
 {
     "##": "TODO: remove cnquery manifest",
-    "version": "14.0.0-rc.3",
+    "version": "14.0.0-rc.4",
     "description": "A cloud-native tool for querying your entire infrastructure.",
     "homepage": "https://github.com/mondoohq/cnquery",
     "license": {
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mondoohq/cnquery/releases/download/v14.0.0-rc.3/mql_14.0.0-rc.3_windows_amd64.zip",
-            "hash": "a8dd527e8649b48c5c31ee8f581550e2c6583b17d36a89db9c62582c08cb99ec"
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v14.0.0-rc.4/mql_14.0.0-rc.4_windows_amd64.zip",
+            "hash": "6b01398c3e90431fbc84494cfa691746f403dace0542a286c01ab5816b1e58e9"
         },
         "arm64": {
-            "url": "https://github.com/mondoohq/cnquery/releases/download/v14.0.0-rc.3/mql_14.0.0-rc.3_windows_arm64.zip",
-            "hash": "7d15610a4add8c421a15b8736ef01af334d04c5317c3bc580996c53a0f4425a5"
+            "url": "https://github.com/mondoohq/cnquery/releases/download/v14.0.0-rc.4/mql_14.0.0-rc.4_windows_arm64.zip",
+            "hash": "c705c7f6699d1c50836a5931aa240945fe4b3625b3b96f5c489421f23fdf36b1"
         }
     },
     "bin": "mql.exe",
