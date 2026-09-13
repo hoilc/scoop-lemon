@@ -1,27 +1,27 @@
 {
-    "version": "2026.3.3",
+    "version": "2026.4.0",
     "description": "Android Logs Events And Protobuf Parser",
     "homepage": "https://github.com/abrignoni/ALEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.3/aleapp-v2026.3.3-Windows_x86_64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.3/aleappGUI-v2026.3.3-Windows_x86_64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleapp-v2026.4.0-Windows_x86_64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleappGUI-v2026.4.0-Windows_x86_64.zip"
             ],
             "hash": [
-                "1169ac9abd1b691ef5937db56302746b9aa86d07dad49b10a3d422764ac0be8c",
-                "8e54f818ac0bbc33980b52108046af60f6b3a471dab9839f188bf489f4b96d75"
+                "0cfa8d3485bce0a33b6c51391e0386bc26738e8fc439aa01e9704d1d5f563871",
+                "31b9c3196f0c0dc52f80f5a4cfe0c5445b861c1c4ec478bded42a60df2f6bc9b"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.3/aleapp-v2026.3.3-Windows_arm64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.3.3/aleappGUI-v2026.3.3-Windows_arm64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleapp-v2026.4.0-Windows_arm64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleappGUI-v2026.4.0-Windows_arm64.zip"
             ],
             "hash": [
-                "f094909b12a10688d102204d7cccb4b28adfaefcd4ba030cb71c1c69ecdde963",
-                "e616924912fde7e26863be050359be97407b8090aab95f8a167f03a8458f2ced"
+                "14075c5a6d53820f743ea94799279097fd11891fdfa366f3808b1a999e36d7cf",
+                "0c09da2523207cea7e8a0e43b5b9d72cd1dac079ed5935e8643589a76c22a7c9"
             ]
         }
     },
