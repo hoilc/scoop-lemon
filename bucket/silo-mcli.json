@@ -1,16 +1,16 @@
 {
-    "version": "2026-09-03T07-13-05Z",
+    "version": "2026-09-13T00-00-00Z",
     "description": "CLI client for Silo, a conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-09-03T07-13-05Z/mcli_20260903071305.0.0_windows_amd64.tar.gz",
-            "hash": "353445027a69d483a818b45c6798d88b435031974f21a446bfc61c76bdc16695"
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-09-13T00-00-00Z/mcli_20260913000000.0.0_windows_amd64.tar.gz",
+            "hash": "18f166018527cdafe55b176d65660cbb19044bbea1d1e4069937d25d18b2804a"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-09-03T07-13-05Z/mcli_20260903071305.0.0_windows_arm64.tar.gz",
-            "hash": "93d2b002481c83b0d7f65dae0b7ed7dd5727fea749b93645668c9c5e1a774600"
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-09-13T00-00-00Z/mcli_20260913000000.0.0_windows_arm64.tar.gz",
+            "hash": "9cde617e946c85f58de66ff25a9fbdb5fbf0b4a5df3d3a31de226ac8f55d9287"
         }
     },
     "bin": "mcli.exe",
