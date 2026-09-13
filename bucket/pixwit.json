@@ -1,12 +1,12 @@
 {
-    "version": "1.16.3",
+    "version": "1.17.0",
     "description": "好用的截图录屏软件，支持区域截图、屏幕录制、视频剪辑、OCR 文字识别、AI 图片翻译、表格提取、智能解读等功能",
     "homepage": "https://pixwit.cn/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/bjs1999/PixWit/releases/download/v1.16.3/PixWit-1.16.3-Portable.7z",
-            "hash": "fc91c8aae1906bc8bcfc472bb80c8ce166e41f0f672874b15e225fdeb51988be"
+            "url": "https://gitee.com/bjs1999/PixWit/releases/download/v1.17.0/PixWit-1.17.0-Portable.7z",
+            "hash": "1648c23baec0b665426795f828b712ecf2c381530a80351acc39d9e23297ac67"
         }
     },
     "extract_dir": "PixWit",
