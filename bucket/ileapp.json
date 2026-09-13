@@ -1,27 +1,27 @@
 {
-    "version": "2026.3.3",
+    "version": "2026.4.0",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.3/ileapp-v2026.3.3-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.3/ileappGUI-v2026.3.3-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileapp-v2026.4.0-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileappGUI-v2026.4.0-Windows_x86_64.zip"
             ],
             "hash": [
-                "0c7a09e62b68ac510d635360b812e0e55d07f35c9b0ac5e19e1521f6db50c9eb",
-                "ef945a6a238707348b1c7fdff3999c0e331410878e897e273b890235c792d839"
+                "3fe7ee55cd8891d494fcd527a9a550a1912db82a66d11c6f1e5a2cd47c22471f",
+                "7b7b547de4ed1d4e645b72fe3447ea6e8b4541d71b03270fbb0ff285f86f63c7"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.3/ileapp-v2026.3.3-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.3.3/ileappGUI-v2026.3.3-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileapp-v2026.4.0-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileappGUI-v2026.4.0-Windows_arm64.zip"
             ],
             "hash": [
-                "7ca6b4c2092986909054adfe91916a13acc75d46c2f4ec4eb5775e9b651ef551",
-                "dceb891bfd6c553cce320e513614649028134d5a650b5215fea5bab5d89ceec5"
+                "80b0f0d33144afb8953289f2280b1f4bd277d5d103a15a5ca6133f221ecaf350",
+                "85adcb1966b0c05dd3f46d8ccf2dd5e3fa0412e03856529fea43c30f47bd460c"
             ]
         }
     },
