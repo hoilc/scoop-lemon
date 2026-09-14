@@ -1,12 +1,12 @@
 {
-    "version": "1099",
+    "version": "1102",
     "description": "(Nightly Build) A logic-based symbol placement puzzle developed by KDE.",
     "homepage": "https://apps.kde.org/ksudoku/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/games/ksudoku/master/windows/ksudoku-master-1099-windows-cl-msvc2022-x86_64.7z",
-            "hash": "1d5e85b961d2b55a5e59577288d25321b8729c7ad8d4c13400f408a07690ce32"
+            "url": "https://cdn.kde.org/ci-builds/games/ksudoku/master/windows/ksudoku-master-1102-windows-cl-msvc2022-x86_64.7z",
+            "hash": "0087445590c9394837ec695c5981ff3c1c1d63de8b98ab6b7b4055e6d4cd5209"
         }
     },
     "shortcuts": [
