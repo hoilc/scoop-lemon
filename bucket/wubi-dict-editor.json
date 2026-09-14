@@ -12,13 +12,14 @@
     "extract_dir": "lib\\net45",
     "shortcuts": [
         [
-            "五笔码表助手.exe",
+            "WubiDictEditor.exe",
             "五笔码表助手",
             "--user-data-dir=\"User Data\""
         ]
     ],
-    "persist": "User Data",
+    "pre_install": "Get-ChildItem \"$dir\" '五笔码表助手.exe' | Select-Object -First 1 | Rename-Item -NewName 'WubiDictEditor.exe'",
     "post_install": "Remove-Item \"$dir\\*_ExecutionStub.exe\", \"$dir\\squirrel.exe\" -Force -ErrorAction SilentlyContinue",
+    "persist": "User Data",
     "checkver": {
         "url": "https://github.com/KyleBing/wubi-dict-editor/releases.atom",
         "regex": "Repository/\\d+/v(.+?)<"
