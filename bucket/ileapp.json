@@ -1,27 +1,27 @@
 {
-    "version": "2026.4.0",
+    "version": "2026.4.1",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileapp-v2026.4.0-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileappGUI-v2026.4.0-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileapp-v2026.4.1-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileappGUI-v2026.4.1-Windows_x86_64.zip"
             ],
             "hash": [
-                "3fe7ee55cd8891d494fcd527a9a550a1912db82a66d11c6f1e5a2cd47c22471f",
-                "7b7b547de4ed1d4e645b72fe3447ea6e8b4541d71b03270fbb0ff285f86f63c7"
+                "dc4c98f41ce293bf953701a6da98c587aabe9acccf56225b494f9339cb930608",
+                "e4fc708053de4e4e7000d85d7e81da7a8e7bf9dda5a0242d979e0febc5285909"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileapp-v2026.4.0-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.0/ileappGUI-v2026.4.0-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileapp-v2026.4.1-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileappGUI-v2026.4.1-Windows_arm64.zip"
             ],
             "hash": [
-                "80b0f0d33144afb8953289f2280b1f4bd277d5d103a15a5ca6133f221ecaf350",
-                "85adcb1966b0c05dd3f46d8ccf2dd5e3fa0412e03856529fea43c30f47bd460c"
+                "67325d0b35181f5877e8184bbe6031c2700b33b77c512bd7e8e67abc0e2cbada",
+                "06c2fd1fc9aa8c108c419124b7e7954deb1df3e4a77d7d0aad3cee62f98d90b1"
             ]
         }
     },
