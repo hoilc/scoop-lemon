@@ -1,0 +1,28 @@
+{
+    "version": "0.12.0",
+    "description": "A portable, Rust-based WinGet-compatible package manager CLI.",
+    "homepage": "https://github.com/Devolutions/pinget",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Devolutions/pinget/releases/download/v0.12.0/pinget-windows-x64.zip",
+            "hash": "1ac7f55e8ccb1f1a737f848c812fbdd500ea687df047a4c8e97ffb59dd9dcf7e"
+        },
+        "arm64": {
+            "url": "https://github.com/Devolutions/pinget/releases/download/v0.12.0/pinget-windows-arm64.zip",
+            "hash": "b584ecdd33da2effcce0ab33861f8846a8ebac3a587b51ef6c424aa9930e052a"
+        }
+    },
+    "bin": "pinget.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Devolutions/pinget/releases/download/v$version/pinget-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Devolutions/pinget/releases/download/v$version/pinget-windows-arm64.zip"
+            }
+        }
+    }
+}
