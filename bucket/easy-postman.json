@@ -1,12 +1,12 @@
 {
-    "version": "6.1.0",
+    "version": "6.1.1",
     "description": "An open-source API debugging and stress testing tool inspired by Postman and a simplified JMeter, optimized for developers with a clean UI and powerful features.",
     "homepage": "https://github.com/lakernote/easy-postman",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lakernote/easy-postman/releases/download/v6.1.0/EasyPostman-6.1.0-windows-x64-portable.zip",
-            "hash": "f570514abca8faba6f68f04cbc6b08f3427711fad877f94622909ff1f0ee8195"
+            "url": "https://github.com/lakernote/easy-postman/releases/download/v6.1.1/EasyPostman-6.1.1-windows-x64-portable.zip",
+            "hash": "3c68442c0ddc4137ea3dd4c967200a91ffe0d9a941e051beb04e753e2e016283"
         }
     },
     "extract_dir": "EasyPostman",
