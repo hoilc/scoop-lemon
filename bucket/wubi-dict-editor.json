@@ -1,35 +1,32 @@
 {
-    "version": "1.35",
+    "version": "1.4.0",
     "description": "五笔码表助手 for Rime，主要服务于 rime-wubi86-jidian 方案",
     "homepage": "https://github.com/KyleBing/wubi-dict-editor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.35/WubiDictEditor-1.3.5-Windows-Setup.exe#/dl.7z",
-            "hash": "1adad58add88f2c851989c3932f182edab86f565a4eccea329c81e1aa60cb1c5"
+            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.4.0/WubiDictEditor-1.4.0-full.nupkg",
+            "hash": "50ddc185cb31e2f1dbc31b273d3a62af6ee678de566c3ee2d5dfeec789a1520e"
         }
     },
-    "installer": {
-        "script": [
-            "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike '*.nupkg' } | Remove-Item",
-            "Get-ChildItem \"$dir\" '*.nupkg' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -ExtractDir \"lib\\net45\" -Destination \"$dir\" -Removal",
-            "Remove-Item \"$dir\\*_ExecutionStub.exe\", \"$dir\\squirrel.exe\" -Force -ErrorAction SilentlyContinue"
-        ]
-    },
+    "extract_dir": "lib\\net45",
     "shortcuts": [
         [
-            "WubiDictEditor.exe",
-            "五笔码表助手"
+            "五笔码表助手.exe",
+            "五笔码表助手",
+            "--user-data-dir=\"User Data\""
         ]
     ],
+    "persist": "User Data",
+    "post_install": "Remove-Item \"$dir\\*_ExecutionStub.exe\", \"$dir\\squirrel.exe\" -Force -ErrorAction SilentlyContinue",
     "checkver": {
         "url": "https://github.com/KyleBing/wubi-dict-editor/releases.atom",
-        "regex": "Repository/\\d+/v((?<main>\\d)\\.(?<minor>\\d)(?<patch>\\d))<"
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v$version/WubiDictEditor-$matchMain.$matchMinor.$matchPatch-Windows-Setup.exe#/dl.7z"
+                "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v$version/WubiDictEditor-$version-full.nupkg"
             }
         }
     }
