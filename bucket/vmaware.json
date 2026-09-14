@@ -1,16 +1,16 @@
 {
-    "version": "2.8.1",
+    "version": "2.8.2",
     "description": "A cross-platform virtual machine detection CLI tool.",
     "homepage": "https://github.com/NotRequiem/VMAware",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NotRequiem/VMAware/releases/download/v2.8.1/vmaware.exe",
-            "hash": "32384a27b44f6d7e5b19d06e74aa6fafcb40278e20dc7511a580929ea1cc1078"
+            "url": "https://github.com/NotRequiem/VMAware/releases/download/v2.8.2/vmaware.exe",
+            "hash": "bc5954ecc5c87f0490915a7b7141bbc0ca9a317ccc9c89cf0bdc2f75445987c7"
         },
         "32bit": {
-            "url": "https://github.com/NotRequiem/VMAware/releases/download/v2.8.1/vmaware32.exe#/vmaware.exe",
-            "hash": "2ef3ab422690340b5cf38c83a5d3c894d8fc2633ebcea708ce477e97ac3f379c"
+            "url": "https://github.com/NotRequiem/VMAware/releases/download/v2.8.2/vmaware32.exe#/vmaware.exe",
+            "hash": "131a13eac73b8d34d36ef84c2b8192fef0bc1075b58ba3182e314685eb9769df"
         }
     },
     "bin": "vmaware.exe",
