@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "0.9.0",
     "description": "A (TUI/CLI) markdown navigator with tree-based structural navigation.",
     "homepage": "https://github.com/Epistates/treemd",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Epistates/treemd/releases/download/v0.8.2/treemd-x86_64-pc-windows-msvc.exe.zip",
-            "hash": "faa0c9e929df5a433f067c1e9ffb2a8a234ec8c204b97221862b94bb8d0d2583"
+            "url": "https://github.com/Epistates/treemd/releases/download/v0.9.0/treemd-x86_64-pc-windows-msvc.exe.zip",
+            "hash": "147921d88cff4a95784aaded0e3f498639fc8f46c333b6c941231bbd7150ad45"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'treemd-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'treemd.exe'",
