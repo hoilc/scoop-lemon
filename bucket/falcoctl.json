@@ -1,16 +1,16 @@
 {
-    "version": "0.14.1",
+    "version": "0.14.2",
     "description": "The official CLI tool for working with Falco and its ecosystem components.",
     "homepage": "https://github.com/falcosecurity/falcoctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/falcosecurity/falcoctl/releases/download/v0.14.1/falcoctl_0.14.1_windows_amd64.zip",
-            "hash": "ccd634edcbee3de6c2a6c3f77167cdff4ab9d26fd53ee3d7865d009636ca472e"
+            "url": "https://github.com/falcosecurity/falcoctl/releases/download/v0.14.2/falcoctl_0.14.2_windows_amd64.zip",
+            "hash": "e21200dc81a788eebc6860b9e1aee22327b8307fe9785328e7e283cfb2ad37d9"
         },
         "arm64": {
-            "url": "https://github.com/falcosecurity/falcoctl/releases/download/v0.14.1/falcoctl_0.14.1_windows_arm64.zip",
-            "hash": "a62ce581eb461a383769527d5315849fa0591f6f2a4a4850a8d408d6e7a570a7"
+            "url": "https://github.com/falcosecurity/falcoctl/releases/download/v0.14.2/falcoctl_0.14.2_windows_arm64.zip",
+            "hash": "142225e85b8c9365697c69359e077e689c2df85fa22000b82ef549e1b64478ae"
         }
     },
     "bin": "falcoctl.exe",
