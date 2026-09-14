@@ -1,16 +1,16 @@
 {
-    "version": "1.0.00_Pre_5",
+    "version": "1.0.00_Pre_6",
     "description": "A lightweight, powerful file organizer. | 轻量强大的文件收纳管理工具",
     "homepage": "https://pogget.vilinko.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://down1.vilinko.com/download/pogget.zip",
-            "hash": "525f3be271038b944e154a7c8f111e5c5cb9fd2c48ed0a8fd7e90373179026fb"
+            "hash": "ed7a3b17cbd13e233ff2f7dbafdd0f3380cf6a8902e43698ab384e8cef618b01"
         },
         "arm64": {
             "url": "https://down1.vilinko.com/download/pogget_arm64.zip",
-            "hash": "502d6b1f86d24bc943c368d2a78915d9ce9075d37757bbe575ea820a6a35d63d"
+            "hash": "6b25b9867506b0a8c9479a7207ec57fc94c09c9ce35d830d3b73e757b657712f"
         }
     },
     "shortcuts": [
