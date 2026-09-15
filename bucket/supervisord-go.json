@@ -1,16 +1,16 @@
 {
-    "version": "0.7.4",
+    "version": "0.7.5",
     "description": "A go-lang supervisor implementation.",
     "homepage": "https://github.com/ochinchina/supervisord",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ochinchina/supervisord/releases/download/v0.7.4/supervisord_windows_amd64.exe#/supervisord.exe",
-            "hash": "f447dbe49843a1c2e00fef9c8e8ce92e7647976f471c5a27ca224820bd869e79"
+            "url": "https://github.com/ochinchina/supervisord/releases/download/v0.7.5/supervisord_windows_amd64.exe#/supervisord.exe",
+            "hash": "5ccb250ee978b9de45bda84d8c644ce662fdea332dd7d01018c852ad18d5931b"
         },
         "32bit": {
-            "url": "https://github.com/ochinchina/supervisord/releases/download/v0.7.4/supervisord_windows_i386.exe#/supervisord.exe",
-            "hash": "fce964a2072e7bcf659d8d92993f7d4b3ec9204a9c4de0ec81fa419dcb0bebca"
+            "url": "https://github.com/ochinchina/supervisord/releases/download/v0.7.5/supervisord_windows_i386.exe#/supervisord.exe",
+            "hash": "ead85fe7540ee813e2a28b6d200de4ca3bad3912dfd7124c1d2d05bfa0355ff4"
         }
     },
     "bin": "supervisord.exe",
