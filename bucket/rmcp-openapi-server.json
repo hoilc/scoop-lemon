@@ -1,16 +1,16 @@
 {
-    "version": "0.31.4",
+    "version": "0.31.5",
     "description": "An MCP server that exposes OpenAPI definition endpoints as MCP tools.",
     "homepage": "https://gitlab.com/lx-industries/rmcp-openapi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rmcp-openapi-server-0.31.4/rmcp-openapi-server-0.31.4-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "3c2a1b028f6f744d7198cb63a86ffd71edb1cf05a7d3fd6c8e2a399be59f24ce"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rmcp-openapi-server-0.31.5/rmcp-openapi-server-0.31.5-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7aadc241048a0027a5f1d11b19bfa455926295bd783d5d503607b0cfb84e85d2"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rmcp-openapi-server-0.31.4/rmcp-openapi-server-0.31.4-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "9787d4ae1fb3c589ea9a4b053d35e29e3dc6f0268599e549a2a4c69c7ec6d0fb"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rmcp-openapi-server-0.31.5/rmcp-openapi-server-0.31.5-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "7c2d0457b372a6bc62e7f22f7cd6a5477a1eeb07c58dbdaad12d2972fcd50d47"
         }
     },
     "bin": "rmcp-openapi-server.exe",
