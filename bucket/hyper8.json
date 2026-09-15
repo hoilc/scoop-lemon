@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A static site generator for video publishing.",
     "homepage": "https://hyper8.org/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://hyper8.org/packages/hyper8-1.0.1-windows-x64.exe#/dl.7z",
-            "hash": "5864637993ecf5ea86173a321ef1ef845cc21b121219caf5c2acb51b1314d814"
+            "url": "https://hyper8.org/packages/hyper8-1.1.0-windows-x64.exe#/dl.7z",
+            "hash": "7e49f5e8ee4c22203dea320300d8d104ff4060e0af2031a5ed26420cba3a0dff"
         }
     },
     "shortcuts": [
