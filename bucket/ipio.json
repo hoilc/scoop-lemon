@@ -1,16 +1,16 @@
 {
-    "version": "20250808",
+    "version": "20270101",
     "description": "The CLI version of Brook GUI that can convert Network/IPv4/IPv6 layer packets to Transport/TCP/UDP layer packets.",
     "homepage": "https://github.com/txthinking/ipio",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/txthinking/ipio/releases/download/v20250808/ipio_windows_amd64.exe#/ipio.exe",
-            "hash": "4752c00c7374bd4b347280085778d1e9ba545132f47a00905ce31a1ed6d38da1"
+            "url": "https://github.com/txthinking/ipio/releases/download/v20270101/ipio_windows_amd64.exe#/ipio.exe",
+            "hash": "5ef930a98746ed3ae5eb8ee6ac6987f335e69ded270b90dd4212c2e657b4e3d9"
         },
         "arm64": {
-            "url": "https://github.com/txthinking/ipio/releases/download/v20250808/ipio_windows_arm64.exe#/ipio.exe",
-            "hash": "3619a460257eed66ecc4b72a63a42a5ff395a5f066e6b3f118a7b53b4d92eb0a"
+            "url": "https://github.com/txthinking/ipio/releases/download/v20270101/ipio_windows_arm64.exe#/ipio.exe",
+            "hash": "f48d5bb10abe33cf74ad9d45b515184ab4d1c665df240ae7d9e1d13dc62e9279"
         }
     },
     "bin": "ipio.exe",
