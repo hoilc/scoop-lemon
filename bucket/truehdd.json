@@ -1,16 +1,16 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "A tool for inspecting and decoding Dolby TrueHD bitstreams.",
     "homepage": "https://github.com/truehdd/truehdd",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/truehdd/truehdd/releases/download/0.6.1/truehdd-0.6.1-x86_64-pc-windows-msvc.zip",
-            "hash": "65f17f49e1c8a2247dd34c873cbe29d333566972f1d5d6bee5340019b3f97c79"
+            "url": "https://github.com/truehdd/truehdd/releases/download/0.6.2/truehdd-0.6.2-x86_64-pc-windows-msvc.zip",
+            "hash": "d1c1920d2da8aec42ffe1c6df1d653dd0dc51c77a576df8704c666bf008e156e"
         },
         "arm64": {
-            "url": "https://github.com/truehdd/truehdd/releases/download/0.6.1/truehdd-0.6.1-aarch64-pc-windows-msvc.zip",
-            "hash": "1a8e0570a11cc2a41cd2e67e978d2b333be21f79579aaab750de974bd0d30f74"
+            "url": "https://github.com/truehdd/truehdd/releases/download/0.6.2/truehdd-0.6.2-aarch64-pc-windows-msvc.zip",
+            "hash": "879041bebaf9b417631bcfa0e325523ddbb5ede6edd2294efe018919d23689c7"
         }
     },
     "bin": "truehdd.exe",
