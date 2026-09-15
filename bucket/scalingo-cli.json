@@ -1,5 +1,5 @@
 {
-    "version": "1.48.0",
+    "version": "1.49.0",
     "description": "The command Line client for Scalingo, a PaaS cloud hosting for developers.",
     "homepage": "https://doc.scalingo.com/platform/cli/start",
     "license": {
@@ -8,19 +8,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cli-dl.scalingo.com/release/scalingo_1.48.0_windows_amd64.zip",
-            "extract_dir": "scalingo_1.48.0_windows_amd64",
-            "hash": "496a3f091f9fde4d7b46aeb81e9051468b1b4ff181fcb6a8e21fed7f37361b31"
+            "url": "https://cli-dl.scalingo.com/release/scalingo_1.49.0_windows_amd64.zip",
+            "extract_dir": "scalingo_1.49.0_windows_amd64",
+            "hash": "2473cb4058b932abf81f816000b4ef9ee3d23e44f1b87e9017ff08700f488c8a"
         },
         "32bit": {
-            "url": "https://cli-dl.scalingo.com/release/scalingo_1.48.0_windows_386.zip",
-            "extract_dir": "scalingo_1.48.0_windows_386",
-            "hash": "05739c802f8f6122ffcb389f4d61f21172c0263d2a532ea535bbe48c6b174d06"
+            "url": "https://cli-dl.scalingo.com/release/scalingo_1.49.0_windows_386.zip",
+            "extract_dir": "scalingo_1.49.0_windows_386",
+            "hash": "72d53df69c6ff83443d0f5dde26f4fc9ba64a8fbf55b9d8d372f81efb6ed6b86"
         },
         "arm64": {
-            "url": "https://cli-dl.scalingo.com/release/scalingo_1.48.0_windows_arm64.zip",
-            "extract_dir": "scalingo_1.48.0_windows_arm64",
-            "hash": "a011899d3d267b1222e1f37e3e771cc5a9f4cb8bb7f203b4a23943834d081e1c"
+            "url": "https://cli-dl.scalingo.com/release/scalingo_1.49.0_windows_arm64.zip",
+            "extract_dir": "scalingo_1.49.0_windows_arm64",
+            "hash": "b89d52e46f67223b9f8863206b9043783b7301168f0e31dbda66c785db3f1176"
         }
     },
     "bin": "scalingo.exe",
