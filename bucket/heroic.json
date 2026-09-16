@@ -7,24 +7,16 @@
         "64bit": {
             "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.3/Heroic-2.22.3-Setup-x64.exe#/dl.7z",
             "hash": "3c74b3f1727a005d9d578880a97e0b94c8ce04c94c6e08f99e644b072878360b",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse"
-            ]
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
-    "bin": [
-        [
-            "Heroic.exe",
-            "Heroic"
-        ]
-    ],
     "shortcuts": [
         [
             "Heroic.exe",
             "Heroic"
         ]
     ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
     "notes": "Heroic is NOT portable.",
     "checkver": {
         "github": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
@@ -34,10 +26,6 @@
             "64bit": {
                 "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v$version/Heroic-$version-Setup-x64.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "(?sm)$basename\\s+sha512: $sha512"
         }
     }
 }
