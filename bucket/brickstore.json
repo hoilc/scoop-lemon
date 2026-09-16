@@ -1,18 +1,19 @@
 {
-    "version": "2026.8.1",
+    "version": "2026.9.1",
     "description": "An offline BrickLink inventory management tool.",
     "homepage": "https://www.brickstore.dev/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.8.1/Windows-x64-BrickStore-2026.8.1.exe",
-            "hash": "14145e8bc92a7e6bdcdc85f85c0d86200319d11b489466357b1761a83c38cf54"
+            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.9.1/Windows-x64-only-BrickStore-2026.9.1.exe",
+            "hash": "d9f9847646a3accde29a355543b3a09ab0045ce36c82a1d0643ef8794478e938"
         },
         "arm64": {
-            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.8.1/Windows-ARM64-BrickStore-2026.8.1.exe",
-            "hash": "5bbf1c95e0d5353997cd45d0bb235b2c2781ea10246b281d2e79e9c9d8416f38"
+            "url": "https://github.com/rgriebl/brickstore/releases/download/v2026.9.1/Windows-ARM64-only-BrickStore-2026.9.1.exe",
+            "hash": "4673df83cae068400bf4bd3de243267ad848592b2b371a59fe35f29bbfb3682d"
         }
     },
+    "innosetup": true,
     "shortcuts": [
         [
             "BrickStore.exe",
@@ -25,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rgriebl/brickstore/releases/download/v$version/Windows-x64-BrickStore-$version.exe"
+                "url": "https://github.com/rgriebl/brickstore/releases/download/v$version/Windows-x64-only-BrickStore-$version.exe"
             },
             "arm64": {
-                "url": "https://github.com/rgriebl/brickstore/releases/download/v$version/Windows-ARM64-BrickStore-$version.exe"
+                "url": "https://github.com/rgriebl/brickstore/releases/download/v$version/Windows-ARM64-only-BrickStore-$version.exe"
             }
         }
     }
