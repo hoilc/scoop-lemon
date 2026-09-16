@@ -1,12 +1,12 @@
 {
-    "version": "0.17.3",
+    "version": "0.17.4",
     "description": "A fast, modern, cross-platform XMPP client for communities and organizations.",
     "homepage": "https://github.com/processone/fluux-messenger",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/processone/fluux-messenger/releases/download/v0.17.3/Fluux-Messenger_0.17.3_Windows_x64-setup.exe#/dl.7z",
-            "hash": "8d0e85115080e1f9f6533a2c6867740571ac2edf9b3dce5880fca1fa81279c2a"
+            "url": "https://github.com/processone/fluux-messenger/releases/download/v0.17.4/Fluux-Messenger_0.17.4_Windows_x64-setup.exe#/dl.7z",
+            "hash": "767c987624d4882e79ba00161b01da0ff6475a51c47d2f199b72fa4a42565616"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
