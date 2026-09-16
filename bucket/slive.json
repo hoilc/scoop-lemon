@@ -1,0 +1,29 @@
+{
+    "version": "1.8.9",
+    "description": "简简单单的看直播（Slive版）",
+    "homepage": "https://github.com/SlotSun/dart_simple_live",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SlotSun/dart_simple_live/releases/download/v1.8.9/Slive-1.8.9+10809-windows.zip",
+            "hash": "45499d9ae85aadd95dc8f42ec307fbd77017f3466402c1b7c76e02c2c76f1e4f"
+        }
+    },
+    "shortcuts": [
+        [
+            "slive.exe",
+            "Slive"
+        ]
+    ],
+    "checkver": {
+        "url": "https://cdn.jsdelivr.net/gh/slotsun/dart_simple_live@master/assets/app_version.json",
+        "regex": "(?sm)\"version\":\\s*\"([\\d.]+)\".*\"version_num\":\\s*(?<num>\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SlotSun/dart_simple_live/releases/download/v$version/Slive-$version+$matchNum-windows.zip"
+            }
+        }
+    }
+}
