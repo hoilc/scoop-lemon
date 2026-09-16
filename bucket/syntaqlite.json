@@ -1,16 +1,16 @@
 {
-    "version": "0.10.0",
+    "version": "0.10.1",
     "description": "A fast parser, formatter, static analyzer, and language server for SQLite SQL.",
     "homepage": "https://github.com/LalitMaganti/syntaqlite",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LalitMaganti/syntaqlite/releases/download/v0.10.0/syntaqlite-windows-x64.zip",
-            "hash": "0facfac54645246aa1885bda73ebc1629e7cbbeb570cc0d3e2684ca4843a306b"
+            "url": "https://github.com/LalitMaganti/syntaqlite/releases/download/v0.10.1/syntaqlite-windows-x64.zip",
+            "hash": "75ab52efe6b8c42ec1ffe5afb66086fedaaa3668f562d845d15fd3f4300707d4"
         },
         "arm64": {
-            "url": "https://github.com/LalitMaganti/syntaqlite/releases/download/v0.10.0/syntaqlite-windows-arm64.zip",
-            "hash": "8c30f52eab0575cd49f32b5d5b115c43f9564b6f75c14c126ee699830cf3f428"
+            "url": "https://github.com/LalitMaganti/syntaqlite/releases/download/v0.10.1/syntaqlite-windows-arm64.zip",
+            "hash": "11126807326d26da1036cb798d5628883034ea306709c12e16a7974104625f05"
         }
     },
     "bin": "syntaqlite.exe",
