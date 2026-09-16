@@ -1,16 +1,16 @@
 {
-    "version": "5.0.4",
+    "version": "5.1.0",
     "description": "Synchronize your DNS to multiple providers from a simple DSL.",
     "homepage": "https://stackexchange.github.io/dnscontrol/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/StackExchange/dnscontrol/releases/download/v5.0.4/dnscontrol_5.0.4_windows_amd64.zip",
-            "hash": "c271c4086a2f39bfe5803ad27ec312b9877d5936841a2be24b30825b3af1b5d8"
+            "url": "https://github.com/StackExchange/dnscontrol/releases/download/v5.1.0/dnscontrol_5.1.0_windows_amd64.zip",
+            "hash": "b18f2ec5b29c522c749b035737393892e1cc229bf9c10a76ac7394b39e6aacaf"
         },
         "arm64": {
-            "url": "https://github.com/StackExchange/dnscontrol/releases/download/v5.0.4/dnscontrol_5.0.4_windows_arm64.zip",
-            "hash": "a0c05c2a953b5d8e6260117397108f424185b437d086e093acebda0f30038852"
+            "url": "https://github.com/StackExchange/dnscontrol/releases/download/v5.1.0/dnscontrol_5.1.0_windows_arm64.zip",
+            "hash": "41d4e00484d8093454607e7962ea640dbecc08a64c2030401a740381eabfcb7e"
         }
     },
     "bin": "dnscontrol.exe",
