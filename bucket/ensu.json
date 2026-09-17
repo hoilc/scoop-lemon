@@ -1,12 +1,12 @@
 {
-    "version": "0.1.19",
+    "version": "0.1.20",
     "description": "A private, personal LLM app that runs on your device and grows with you over time.",
     "homepage": "https://ente.com/ensu/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ente-io/ente/releases/download/ensu-v0.1.19/Ensu_0.1.19_x64-setup.exe#/dl.7z",
-            "hash": "aad20aed9d2a83b0467cbe8231f234471d7c2d1863086783c833310b67aab353"
+            "url": "https://github.com/ente-io/ente/releases/download/ensu-v0.1.20/Ensu_0.1.20_x64-setup.exe#/dl.7z",
+            "hash": "e4ca886021d58201a97333a3dfb785b2c7e3a1167de29e58d16492fec1e33d5d"
         }
     },
     "shortcuts": [
