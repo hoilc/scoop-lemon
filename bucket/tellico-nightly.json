@@ -1,12 +1,12 @@
 {
-    "version": "2204",
+    "version": "2229",
     "description": "(Nightly Build) A collection management software developed by KDE.",
     "homepage": "https://tellico-project.org/",
     "license": "GPL-2.0-only|GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/office/tellico/master/windows/tellico-master-2204-windows-cl-msvc2022-x86_64.7z",
-            "hash": "2446aedfa6291140f8df0051b3f80808fbd150982b41a44c55af76286c2d670c"
+            "url": "https://cdn.kde.org/ci-builds/office/tellico/master/windows/tellico-master-2229-windows-cl-msvc2022-x86_64.7z",
+            "hash": "fe6c8117275850520575fb5f53d8271ddd4d9e860bb6bde715f6399e5207f545"
         }
     },
     "shortcuts": [
