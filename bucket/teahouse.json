@@ -1,18 +1,18 @@
 {
-    "version": "0.60.0",
+    "version": "0.60.2",
     "description": "Chat and transfer files across a LAN, with no Internet connection or server. | 茶话间是一个纯内网、基于 IP 的局域网即时通讯与文件传输工具",
     "homepage": "https://github.com/skyjt/teahouse",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skyjt/teahouse/releases/download/v0.60.0/Teahouse-0.60.0-win-x64-setup.exe#/dl.7z",
+            "url": "https://github.com/skyjt/teahouse/releases/download/v0.60.2/Teahouse-0.60.2-win-x64-setup.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "c32b5a69636e14393ca7acad2caa2b4ed4150929f3c14fd82e63c1140ee21895"
+            "hash": "86541131235033d372db9d6bc84994932c50ea624ba54cdcd01daac342e17e1a"
         },
         "32bit": {
-            "url": "https://github.com/skyjt/teahouse/releases/download/v0.60.0/Teahouse-0.60.0-win-ia32-setup.exe#/dl.7z",
+            "url": "https://github.com/skyjt/teahouse/releases/download/v0.60.2/Teahouse-0.60.2-win-ia32-setup.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "97d7177ef962ab738239153ab672da5b5bffd87bb6dafc03c1440aae4d7e3a1e"
+            "hash": "98ce4cc4a137747d03785b0f603fb1e644525f9aff41083fe9b28d4f9b89e038"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
