@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "http://static.ltr-data.se/files/win64/fdf64.zip",
-            "hash": "c92469159e28ccccf44b2ffcd21d530e082a26ade751515e267fc349bc256c39"
+            "hash": "df647eefc285304fde96a2499e8149485f349783060d7d19d72400bdfd3fef32"
         },
         "32bit": {
             "url": "http://static.ltr-data.se/files/fdf.zip",
-            "hash": "d7d6e54cd015992d4da5c5d483bd522ae86bfe688624c62e08c816a00d4d5dfa"
+            "hash": "a217bcd19dc461bd3889c12cd25ac2684d257b52ce5b81316fd2d440dea8289d"
         },
         "arm64": {
             "url": "http://static.ltr-data.se/files/winarm64/fdf.zip",
-            "hash": "ba9cf139aa28df649a02140c453cd37a0ee4b4a0adf7513b74700e78258917cf"
+            "hash": "01cb6e4432be5ee36943e9cf17b73ec8d5b525c948c59bab086df1e277d3aa7b"
         }
     },
     "bin": "fdf.exe",
