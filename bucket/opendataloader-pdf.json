@@ -1,10 +1,10 @@
 {
-    "version": "2.5.9",
+    "version": "2.5.10",
     "description": "A PDF parser for AI-ready data extraction and accessibility automation.",
     "homepage": "https://opendataloader.org",
     "license": "Apache-2.0",
-    "url": "https://github.com/opendataloader-project/opendataloader-pdf/releases/download/v2.5.9/opendataloader-pdf-cli-2.5.9.zip",
-    "hash": "80585dad486f2b6eff9cfa9e115a4253e9549d63519504546e6871267c70f81f",
+    "url": "https://github.com/opendataloader-project/opendataloader-pdf/releases/download/v2.5.10/opendataloader-pdf-cli-2.5.10.zip",
+    "hash": "b2c821129000fb0f2bed39eb13778942718a6342022a961773619ec2a4ffc92a",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'opendataloader-pdf-cli*.jar' | Select-Object -First 1 | Rename-Item -NewName 'opendataloader-pdf.jar'",
         "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }"
