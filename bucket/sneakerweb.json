@@ -1,16 +1,16 @@
 {
-    "version": "1.0.1",
+    "version": "1.2.0",
     "description": "A parallel web updated through physical media.",
     "homepage": "https://sneakerweb.org",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://sneakerweb.org/assets/downloads/1.0.1/x86_64-pc-windows-msvc/sneakerweb.exe",
-            "hash": "1d8eb5539f11d5da38de9c732bf57169f8e85378e9f18a4dcb49db8f350c6b7c"
+            "url": "https://sneakerweb.org/assets/downloads/1.2.0/x86_64-pc-windows-msvc/sneakerweb.exe",
+            "hash": "df7e55ac3b99ab29935c96bbed41d62737c0d98d412491c16fd25bbb95c294fa"
         },
         "32bit": {
-            "url": "https://sneakerweb.org/assets/downloads/1.0.1/i686-pc-windows-gnu/sneakerweb.exe",
-            "hash": "fb934c866d5ae99956c2c7aba1cf7dbd826d589aa0122457f428df9923a4459c"
+            "url": "https://sneakerweb.org/assets/downloads/1.2.0/i686-pc-windows-gnu/sneakerweb.exe",
+            "hash": "d80d6a71062664319d912bf98ef4ab5abb94cb7ed72e99e3b315f6a29d989ae4"
         }
     },
     "bin": "sneakerweb.exe",
