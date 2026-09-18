@@ -9,15 +9,15 @@
     "architecture": {
         "64bit": {
             "url": "http://static.ltr-data.se/files/win64/strarc64.zip",
-            "hash": "6b055cc65daf34fe04fedfd10959dbbac655d7d2c7039be75e24a9736b6b9b41"
+            "hash": "2aa219658710e9c816ba3a07c0bad54574c7b45ba151cdff26d8dd637a6efd71"
         },
         "32bit": {
             "url": "http://static.ltr-data.se/files/strarc.zip",
-            "hash": "5a38db602e80cea70307e10a0f025b5c2e96100179f0af3d7098b3735a5200fe"
+            "hash": "1932e6d3b561b830850bb1ce1beb1d6627ff1368324a8e49cf56471fdf627740"
         },
         "arm64": {
             "url": "http://static.ltr-data.se/files/winarm64/strarc.zip",
-            "hash": "bd5a0a821d4ef9d48a89e0d4b816dbd751fe5f546649b5ba580c17c9a91315d6"
+            "hash": "b331730c4254815753f7080d7024d2098498319899ca37853663ff048bb9f533"
         }
     },
     "bin": "strarc.exe",
