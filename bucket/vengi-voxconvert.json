@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "A tool to convert voxel volume, image or polygon formats between each other.",
     "homepage": "https://github.com/vengi-voxel/vengi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vengi-voxel/vengi/releases/download/v0.5.0/win-voxconvert.zip",
-            "hash": "77be07173b4e9e65d48bb3ab746f2a2979697240975a36daa8df3dd12700d8d3"
+            "url": "https://github.com/vengi-voxel/vengi/releases/download/v0.6.0/win-voxconvert.zip",
+            "hash": "ad00f299b6b5012f8dee97aea4f0d355d40690d2334908d0de9b57e27a07d10d"
         }
     },
     "extract_dir": "voxconvert",
