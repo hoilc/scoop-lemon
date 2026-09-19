@@ -1,12 +1,12 @@
 {
-    "version": "3.00.01",
+    "version": "3.00.20",
     "description": "A Windows 11 setup assistant.",
     "homepage": "https://github.com/builtbybel/FlyOOBE",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/FlyOOBE/releases/download/3.00.01/FlyoobeApp.zip",
-            "hash": "28f851afc9bf859b9962ed7893ccdd5565e00992edad151b2b2d6bdc33e68153"
+            "url": "https://github.com/builtbybel/FlyOOBE/releases/download/3.00.20/FlyoobeApp.zip",
+            "hash": "959b2044fbedf079268ac49595cd05e44447edd7ee619cb33f404f732e01c5a6"
         }
     },
     "shortcuts": [
