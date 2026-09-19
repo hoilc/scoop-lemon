@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "A free and open-source, cross-platform voxel volume editor with scripting and animation support.",
     "homepage": "https://github.com/vengi-voxel/vengi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vengi-voxel/vengi/releases/download/v0.5.0/win-voxedit.zip",
-            "hash": "b2e6e87d418f7f04a4ab70634254ea588fc5bb4b58aab1bcdec0463024d46511"
+            "url": "https://github.com/vengi-voxel/vengi/releases/download/v0.6.0/win-voxedit.zip",
+            "hash": "9f9b59cd73955274c7b3d9c18dbff1878c3a317738d158defc1d84e5bfa1fe52"
         }
     },
     "extract_dir": "voxedit",
