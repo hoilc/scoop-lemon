@@ -1,16 +1,16 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Listen to your keyboard typing and echo pleasant sounds.",
     "homepage": "https://github.com/ZacharyL2/KeyEcho",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.0/KeyEcho_1.1.0_x64-setup.exe#/dl.7z",
-            "hash": "318e6e46ae2d17c699d15b686e14cb9fee3ec17200d79ca538128c32a1c7f0b3"
+            "url": "https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.1/KeyEcho_1.1.1_x64-setup.exe#/dl.7z",
+            "hash": "934f20b31112cd096b189d7433799daca3a1267f5b8cc6ed532a2a9610734a25"
         },
         "arm64": {
-            "url": "https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.0/KeyEcho_1.1.0_arm64-setup.exe#/dl.7z",
-            "hash": "5396eb97cf906bbabd839e1ae17d566cf031970b109f590c5783617d719d1c5c"
+            "url": "https://github.com/ZacharyL2/KeyEcho/releases/download/v1.1.1/KeyEcho_1.1.1_arm64-setup.exe#/dl.7z",
+            "hash": "fa2bd324b67c4a927612a4ed2883633b683fd4b99721d2c72a8fbadfdc89c4ee"
         }
     },
     "shortcuts": [
