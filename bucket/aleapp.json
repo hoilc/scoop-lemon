@@ -1,27 +1,27 @@
 {
-    "version": "2026.4.0",
+    "version": "2026.4.1",
     "description": "Android Logs Events And Protobuf Parser",
     "homepage": "https://github.com/abrignoni/ALEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleapp-v2026.4.0-Windows_x86_64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleappGUI-v2026.4.0-Windows_x86_64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleapp-v2026.4.1-Windows_x86_64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleappGUI-v2026.4.1-Windows_x86_64.zip"
             ],
             "hash": [
-                "0cfa8d3485bce0a33b6c51391e0386bc26738e8fc439aa01e9704d1d5f563871",
-                "31b9c3196f0c0dc52f80f5a4cfe0c5445b861c1c4ec478bded42a60df2f6bc9b"
+                "8eb1ad25f9fdc89af345277ad6ff748636e3552490e39a4fd379debde0af70fa",
+                "e266a3a1f1496f803d4df792c7ae038ebdd06b8bdcb7453bc86c0571319477a6"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleapp-v2026.4.0-Windows_arm64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.0/aleappGUI-v2026.4.0-Windows_arm64.zip"
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleapp-v2026.4.1-Windows_arm64.zip",
+                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleappGUI-v2026.4.1-Windows_arm64.zip"
             ],
             "hash": [
-                "14075c5a6d53820f743ea94799279097fd11891fdfa366f3808b1a999e36d7cf",
-                "0c09da2523207cea7e8a0e43b5b9d72cd1dac079ed5935e8643589a76c22a7c9"
+                "fa52fdcc81fdfa1617c5aa87e02dea2d241d5ea9b891da36076ad27082c16325",
+                "db7ae5a198a912f2d0b841f8549024b67fe7f53aab86883f17bd06f887c0a2e8"
             ]
         }
     },
