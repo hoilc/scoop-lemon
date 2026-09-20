@@ -1,5 +1,5 @@
 {
-    "version": "0.5.5",
+    "version": "0.7.10",
     "description": "飞鼠格式是一款鼠鼠主题、可离线使用的 Windows 文件格式转换工具 | A mouse-themed, offline Windows file converter.",
     "homepage": "https://github.com/LaoFeng-mouse/flyingmouse-format",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.5.5/FlyingMouse-Format-Setup-0.5.5-x64.exe#/dl.7z",
+            "url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.7.10/FlyingMouse-Format-Setup-0.7.10-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "ff60fc0209fe8142f764e7316e08b4a1b4e05ac677c1273e87e71e5e79e491e7"
+            "hash": "56c022bc5ec1904300c8ffe77f892d0bea09fe157fbbf402589a64decab2587b"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
