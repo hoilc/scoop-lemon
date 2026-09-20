@@ -1,27 +1,27 @@
 {
-    "version": "2026.4.1",
+    "version": "2026.4.2",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileapp-v2026.4.1-Windows_x86_64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileappGUI-v2026.4.1-Windows_x86_64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.2/ileapp-v2026.4.2-Windows_x86_64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.2/ileappGUI-v2026.4.2-Windows_x86_64.zip"
             ],
             "hash": [
-                "dc4c98f41ce293bf953701a6da98c587aabe9acccf56225b494f9339cb930608",
-                "e4fc708053de4e4e7000d85d7e81da7a8e7bf9dda5a0242d979e0febc5285909"
+                "805fa3e4324f7422589bdb5704a42ebd6822b17ddd180efbd124cb01af86af53",
+                "2d863dff5832356b45096a5e489c19b291094a2aff6fe6c3fa93186f11ed6b79"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileapp-v2026.4.1-Windows_arm64.zip",
-                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.1/ileappGUI-v2026.4.1-Windows_arm64.zip"
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.2/ileapp-v2026.4.2-Windows_arm64.zip",
+                "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.2/ileappGUI-v2026.4.2-Windows_arm64.zip"
             ],
             "hash": [
-                "67325d0b35181f5877e8184bbe6031c2700b33b77c512bd7e8e67abc0e2cbada",
-                "06c2fd1fc9aa8c108c419124b7e7954deb1df3e4a77d7d0aad3cee62f98d90b1"
+                "4f5d45e46643d8247cc3020569bdb269643ff3321052270d9be57627cf878b8a",
+                "9d3dbc85843cd1e6f07761d1ce0db56377139dc48a2c8af13c750a34d149a608"
             ]
         }
     },
