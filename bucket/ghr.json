@@ -1,16 +1,16 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "A fast terminal workspace for staying on top of GitHub.",
     "homepage": "https://github.com/chenyukang/ghr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chenyukang/ghr/releases/download/v0.9.0/ghr-v0.9.0-x86_64-pc-windows-msvc.zip",
-            "hash": "4d9423ed332638e911aeae589d2c2d28a111ee555eb84f2bfd6e70b90b0eee97"
+            "url": "https://github.com/chenyukang/ghr/releases/download/v0.9.1/ghr-v0.9.1-x86_64-pc-windows-msvc.zip",
+            "hash": "4ac52d0cfbb0e97aa44d3a576c902470634c67d5ad6d99b008aa4e0511f14b5d"
         },
         "arm64": {
-            "url": "https://github.com/chenyukang/ghr/releases/download/v0.9.0/ghr-v0.9.0-aarch64-pc-windows-msvc.zip",
-            "hash": "76126594e5f0d607020aacfc02212cf14c869c68acf4db1a4a5b7d676202f313"
+            "url": "https://github.com/chenyukang/ghr/releases/download/v0.9.1/ghr-v0.9.1-aarch64-pc-windows-msvc.zip",
+            "hash": "1c43be29aeb790a8c30082171c252dcba00634924731a232a330a94cdb294a26"
         }
     },
     "bin": "ghr.exe",
