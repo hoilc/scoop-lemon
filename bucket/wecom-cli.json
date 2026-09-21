@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.2",
     "description": "企业微信命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信",
     "homepage": "https://github.com/WecomTeam/wecom-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/@wecom/cli-win32-x64/-/cli-win32-x64-1.3.0.tgz",
-            "hash": "1f5373c4a1d112b1c03edd2a7ee283a0e64f71502782f138a711f5da6a8b35a6"
+            "url": "https://registry.npmmirror.com/@wecom/cli-win32-x64/-/cli-win32-x64-1.3.2.tgz",
+            "hash": "0ef73dd55d33c83df1291bd49abb41b0c110b19bdcaeebe570bfad56820464b5"
         }
     },
     "extract_dir": "package\\bin",
