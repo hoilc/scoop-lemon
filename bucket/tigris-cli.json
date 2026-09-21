@@ -1,12 +1,12 @@
 {
-    "version": "3.12.1",
+    "version": "3.12.2",
     "description": "Command line interface for Tigris object storage.",
     "homepage": "https://www.tigrisdata.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata%2Fcli%403.12.1/tigris-windows-x64.zip",
-            "hash": "d0502ad386b54233f08688c4ed6ba42b3d263d74fc534c81f2ca3f4a03671eef"
+            "url": "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata%2Fcli%403.12.2/tigris-windows-x64.zip",
+            "hash": "80f036edc6c2df8aa79402a6bca581288f3b5ffc1b1b4073f2fb6230d34def89"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'tigris?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'tigris.exe'",
