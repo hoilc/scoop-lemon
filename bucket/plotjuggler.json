@@ -1,12 +1,12 @@
 {
-    "version": "3.999.9",
+    "version": "4.0.0",
     "description": "A fast, open-source timeseries data visualization tool for robotics.",
     "homepage": "https://www.plotjuggler.io/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PlotJuggler/PlotJuggler/releases/download/3.999.9/PlotJuggler-3.999.9-Windows-x64.exe",
-            "hash": "eb366d98a47d03d4608deba3b5427ce82f542c1edea4b0bde5ec2cdafa6bd226"
+            "url": "https://github.com/PlotJuggler/PlotJuggler/releases/download/4.0.0/PlotJuggler-4.0.0-Windows-x64.exe",
+            "hash": "701b3debf355f2107ec58363f6da630e07e6633f9d8756dddbd7ac7dfc98a407"
         }
     },
     "installer": {
