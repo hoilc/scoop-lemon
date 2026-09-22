@@ -1,12 +1,12 @@
 {
-    "version": "2.11.0",
+    "version": "2.11.1",
     "description": "A CLI for the SilverBullet personal productivity platform.",
     "homepage": "https://silverbullet.md",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/silverbulletmd/silverbullet/releases/download/2.11.0/sb-windows-x86_64.zip",
-            "hash": "aa76fa1943c7f85109f28c6ec5d9755ca59e428c968939cc1ad846e01d5b8b22"
+            "url": "https://github.com/silverbulletmd/silverbullet/releases/download/2.11.1/sb-windows-x86_64.zip",
+            "hash": "83036cccfb4836991d49d5869d148098d243891c71914ca2107b0b0dd7757c2f"
         }
     },
     "bin": "sb.exe",
