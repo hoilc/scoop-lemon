@@ -1,12 +1,12 @@
 {
-    "version": "b898-2bb7294",
+    "version": "b900-c92d73c",
     "description": "(CPU Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-898-2bb7294/sd-master-2bb7294-bin-win-cpu-x64.zip",
-            "hash": "ae344e272aabf9be51ce8732ef0d079cbd1a977a58d472c221a633791978e987"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-900-c92d73c/sd-master-c92d73c-bin-win-cpu-x64.zip",
+            "hash": "e7cd9df94ffe33704762a9e7458d36a2c7213a16b87ddbdd828cba9563a6cc46"
         }
     },
     "bin": [
