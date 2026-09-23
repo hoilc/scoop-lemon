@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "A local music, radio, television and podcast player.",
     "homepage": "https://github.com/ubuntu-flutter-community/musicpod",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v3.0.0/musicpod.exe#/dl.exe",
-            "hash": "3064e5fc711bfaad5e08413b5d3449806a0110ccb020680ac401851064b155fd"
+            "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v3.0.1/musicpod.exe#/dl.exe",
+            "hash": "bb0b050d6d898462eb78c99e5e117e2b879c7af57c59edcf75f926116d48801c"
         }
     },
     "innosetup": true,
