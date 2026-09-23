@@ -1,12 +1,12 @@
 {
-    "version": "4.10.6",
+    "version": "4.10.89",
     "description": "An open-source software for mass spectrometry data processing.",
     "homepage": "https://mzio.io/mzmine-news/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mzmine/mzmine/releases/download/v4.10.6/mzmine_Windows_portable-4.10.6.zip",
-            "hash": "c2d553b1480b7d8332d17a94039983d151881923c1b4008ff4cc8f9c7ab3b7ac"
+            "url": "https://github.com/mzmine/mzmine/releases/download/v4.10.89/mzmine_Windows_portable-4.10.89.zip",
+            "hash": "1a180706491305018e7f02883dfd3155f7242c953a58e2c6eb8804612b410575"
         }
     },
     "bin": "mzmine_console.exe",
