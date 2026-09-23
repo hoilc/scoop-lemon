@@ -1,16 +1,16 @@
 {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "description": "A command-line tool for the Kong Konnect API and AI Platform that provides developer and AI agent friendly capabilities for managing Konnect resources programmatically.",
     "homepage": "https://developer.konghq.com/kongctl/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kong/kongctl/releases/download/v1.16.0/kongctl_windows_amd64.zip",
-            "hash": "ade8026dc2394b3dc72b43ac8880816d283fb9d66acfcc4b299e04d2761d137d"
+            "url": "https://github.com/Kong/kongctl/releases/download/v1.17.0/kongctl_windows_amd64.zip",
+            "hash": "d5e3420cec2fa768d2c2b5c5ff1877bd52b13e8599f07a0320388565c0fcf4c4"
         },
         "arm64": {
-            "url": "https://github.com/Kong/kongctl/releases/download/v1.16.0/kongctl_windows_arm64.zip",
-            "hash": "39ccdfa3b1fe89b1a46a2d6c5180583ba5829f1a93b1c45e085dbc7e2c4a405f"
+            "url": "https://github.com/Kong/kongctl/releases/download/v1.17.0/kongctl_windows_arm64.zip",
+            "hash": "a6c5ac1463b4b0beaf5f628abd8d35e9188a8935f978d1165fc324f8817f4b15"
         }
     },
     "bin": "kongctl.exe",
