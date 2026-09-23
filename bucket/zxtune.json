@@ -1,16 +1,16 @@
 {
-    "version": "r5100",
+    "version": "r5110",
     "description": "A cross-platform chiptunes player.",
     "homepage": "https://zxtune.bitbucket.io/",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://storage.zxtune.ru/builds/public/r5100/mingw/x86_64/zxtune_r5100_mingw_x86_64.zip",
-            "hash": "2aa6ef152fb4f851434780964a60042ad0e423565f8df1feca092fc13954bd45"
+            "url": "https://storage.zxtune.ru/builds/public/r5110/mingw/x86_64/zxtune_r5110_mingw_x86_64.zip",
+            "hash": "0a0e628e5457ef49d0803a84f36e71c2a153dc26f06f36195c88b93afc65af68"
         },
         "arm64": {
-            "url": "https://storage.zxtune.ru/builds/public/r5100/mingw/arm64/zxtune_r5100_mingw_arm64.zip",
-            "hash": "1172c6762f2b06be38ab088092086f79ac32f0e2dc8a3ec0ad91b7cc9de5d137"
+            "url": "https://storage.zxtune.ru/builds/public/r5110/mingw/arm64/zxtune_r5110_mingw_arm64.zip",
+            "hash": "f4cbd674783dc2d4e8893fd88af8273680c383565f60a356cbd2ca78fb26f3a5"
         }
     },
     "bin": "zxtune123.exe",
