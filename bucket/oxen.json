@@ -1,12 +1,12 @@
 {
-    "version": "0.57.0",
+    "version": "0.58.0",
     "description": "CLI for Oxen, a lightning fast data version control system for structured and unstructured machine learning datasets.",
     "homepage": "https://oxen.ai/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Oxen-AI/Oxen/releases/download/v0.57.0/oxen-windows-x86_64.exe.zip",
-            "hash": "cc6ae4f473cca4afd84be1d962a05682af9bbbdc090a3b84f59a01ed4910f701"
+            "url": "https://github.com/Oxen-AI/Oxen/releases/download/v0.58.0/oxen-windows-x86_64.exe.zip",
+            "hash": "9e9540701ddee32d23d022d6dc610b252fd37c3f163313c64f5413ebf49b1ef3"
         }
     },
     "bin": "oxen.exe",
