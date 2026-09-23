@@ -1,12 +1,12 @@
 {
-    "version": "0.15.0",
+    "version": "0.16.1",
     "description": "A fast, native and offline-first RSS reader.",
     "homepage": "https://github.com/l0ng-ai/papr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/l0ng-ai/papr/releases/download/v0.15.0/Papr_0.15.0_x64-setup.exe#/dl.7z",
-            "hash": "70aeefb7a5f7042d4e2e50a132da54761d61c30e001a72a3e9fc664cd2d022d9"
+            "url": "https://github.com/l0ng-ai/papr/releases/download/v0.16.1/Papr_0.16.1_x64-setup.exe#/dl.7z",
+            "hash": "5616da206ae32cfe2c393c04a3db4a30ac9d73201f196d27ee455a108a86200d"
         }
     },
     "shortcuts": [
