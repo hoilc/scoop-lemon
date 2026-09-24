@@ -21,7 +21,10 @@
         "plugins",
         "logs"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/lakernote/easy-postman/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
