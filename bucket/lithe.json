@@ -1,12 +1,12 @@
 {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "A lightweight, cross-platform IDE for the AI era, with on-demand tools and services.",
     "homepage": "https://github.com/1lck/Lithe-IDEA",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v0.5.3/Lithe-0.5.3-windows-x64.exe#/dl.7z",
-            "hash": "f601c2b86ad0b02b22c6b0503a0a18598589214ce5b0d094cd2bb18ba6ec390e"
+            "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v0.5.4/Lithe-0.5.4-windows-x64.exe#/dl.7z",
+            "hash": "18c10fdfa8ed23f3e04b63f97b589b4a97c945802618633511039ff1052f2ea2"
         }
     },
     "shortcuts": [
