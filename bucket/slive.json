@@ -1,12 +1,12 @@
 {
-    "version": "1.8.12",
+    "version": "1.8.13",
     "description": "简简单单的看直播（Slive版）",
     "homepage": "https://github.com/SlotSun/dart_simple_live",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SlotSun/dart_simple_live/releases/download/v1.8.12/Slive-1.8.12+10812-windows.zip",
-            "hash": "7249bfd8124d22809fc944ba398361d3c4ebd9945793f08f4f4784708002fd39"
+            "url": "https://github.com/SlotSun/dart_simple_live/releases/download/v1.8.13/Slive-1.8.13+10813-windows.zip",
+            "hash": "9accd647ea29b7ad44b41324adc6343651e8ecaef0372e0d16b6ce4e6399a163"
         }
     },
     "shortcuts": [
