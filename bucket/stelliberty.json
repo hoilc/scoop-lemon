@@ -1,5 +1,5 @@
 {
-    "version": "2.0.34",
+    "version": "2.0.35",
     "description": "A high-performance, visually appealing, and modern cross-platform network client.",
     "homepage": "https://github.com/Kindness-Kismet/stelliberty",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.34/stelliberty-v2.0.34-win-x64.zip",
-            "hash": "e881ab03b720e308c3b28092d2f5575e2beac473dfc50bc12c2ba0ba19da41e1"
+            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.35/stelliberty-v2.0.35-win-x64.zip",
+            "hash": "40ba639d001657497442a0b16a450a5025a5260a598affe63c3cd7962a4da6e1"
         },
         "arm64": {
-            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.34/stelliberty-v2.0.34-win-arm64.zip",
-            "hash": "62595c0dab0c2a05dbdf71d6cbd182c01a33ac2cafedfede6787b2aac2fcc465"
+            "url": "https://github.com/Kindness-Kismet/stelliberty/releases/download/v2.0.35/stelliberty-v2.0.35-win-arm64.zip",
+            "hash": "7d885ac3b8448f38d617c9a5528ae5fad6cca5328a6c5119b9b214a26ddcd6e0"
         }
     },
     "shortcuts": [
