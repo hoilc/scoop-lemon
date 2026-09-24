@@ -1,10 +1,10 @@
 {
-    "version": "2.80",
+    "version": "2.81",
     "description": "MDB Viewer Plus is a freeware viewer plus editor for opening Microsoft Access MDB and ACCDB database files.",
     "homepage": "http://www.alexnolan.net/software/mdb_viewer_plus.htm",
     "license": "Freeware",
     "url": "http://www.alexnolan.net/software/MDBPlus.zip",
-    "hash": "68a9be6c260b5fe0d84003f7c81abca03cf8890924b0ec18105f4431e757bd6e",
+    "hash": "9bfe5aba363d127667ed5bf5b612ffb3f40e836dbbf638bf51f13149d28f255e",
     "shortcuts": [
         [
             "MDBPlus.exe",
