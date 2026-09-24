@@ -1,16 +1,20 @@
 {
     "version": "0.10.8",
     "description": "A custom protocol, rule based network proxy software.",
-    "homepage": "https://github.com/Watfaq/clash-rs",
+    "homepage": "https://github.com/ibigbug/clash-rs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.10.8/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe",
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.8/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe",
             "hash": "894063ed649daf8e52551bab27ef73e8d6016e6e4afa77182ff02cc22241cde6"
         },
         "32bit": {
-            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.10.8/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe",
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.8/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe",
             "hash": "347be3d6934df23a01cd8f344983de6253c4565ee2ec8ca45e18d85e0699c3de"
+        },
+        "arm64": {
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.8/clash-rs-aarch64-pc-windows-msvc.exe#/clash-rs.exe",
+            "hash": "1703b13c491ed44678affd91943ed9f6c53033f49d1028c7b69dbf2c2e4f1569"
         }
     },
     "bin": "clash-rs.exe",
@@ -22,13 +26,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Watfaq/clash-rs/releases/download/v$version/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe"
+                "url": "https://github.com/ibigbug/clash-rs/releases/download/v$version/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe"
             },
             "32bit": {
-                "url": "https://github.com/Watfaq/clash-rs/releases/download/v$version/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe"
+                "url": "https://github.com/ibigbug/clash-rs/releases/download/v$version/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe"
             },
             "arm64": {
-                "url": "https://github.com/Watfaq/clash-rs/releases/download/v$version/clash-rs-aarch64-pc-windows-msvc.exe#/clash-rs.exe"
+                "url": "https://github.com/ibigbug/clash-rs/releases/download/v$version/clash-rs-aarch64-pc-windows-msvc.exe#/clash-rs.exe"
             }
         }
     }
