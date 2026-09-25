@@ -1,12 +1,12 @@
 {
-    "version": "3.10.1+google-play",
+    "version": "3.11.0",
     "description": "A simple tool for building stories.",
     "homepage": "https://hammer.ink/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.10.1+google-play/hammer.exe#/dl.exe",
-            "hash": "aa04d8a3b704c23e72299d8b93bd992c7650306169954287d07fc94dd59cba9d"
+            "url": "https://github.com/Darkrock-Studios/hammer-editor/releases/download/v3.11.0/hammer.exe#/dl.exe",
+            "hash": "9d8d1e932814c6a2770e201ac81d109b449caf49e2fd69898d493c2254b46c71"
         }
     },
     "installer": {
