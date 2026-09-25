@@ -1,7 +1,7 @@
 {
-    "version": "2.73p1",
+    "version": "2.74",
     "description": "A clock and other information display tool that stick to the window in use.",
-    "homepage": "http://toro.d.dooo.jp/slwin4.html#cpod",
+    "homepage": "https://toro.d.dooo.jp/slwin4.html#cpod",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -21,8 +21,8 @@
             ]
         }
     },
-    "url": "http://toro.d.dooo.jp/clockpod273p1.zip",
-    "hash": "eda315dde51efc2e7c347ba0ae58763ffd4ab3907c3dda89311e86f138601347",
+    "url": "https://toro.d.dooo.jp/clockpod274.zip",
+    "hash": "bc81146c77a3f91f3f4c595fd84b37052af3727339219e7accde8ca71c2c514f",
     "persist": "CLOCKPOD.CFG",
     "checkver": {
         "regex": "clockpod(?<major>\\d)(?<rest>.+).zip\"",
@@ -30,6 +30,6 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "http://toro.d.dooo.jp/clockpod$cleanVersion.zip"
+        "url": "https://toro.d.dooo.jp/clockpod$cleanVersion.zip"
     }
 }
