@@ -1,13 +1,12 @@
 {
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "A Matrix client for Vim addicts.",
     "homepage": "https://iamb.chat/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ulyssa/iamb/releases/download/v0.0.11/iamb-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "iamb-x86_64-pc-windows-msvc",
-            "hash": "e3b03084abf9fb1bf7b2b1e8b27f01b9701d76b1aaa5eb82102181043a76211e"
+            "url": "https://github.com/ulyssa/iamb/releases/download/v0.0.12/iamb-x86_64-pc-windows-msvc-binary.zip",
+            "hash": "84f8f8f70b8784edabf6b624ee6950da7a861d7e54741dcf3b4c85e4e25c4482"
         }
     },
     "bin": "iamb.exe",
@@ -17,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ulyssa/iamb/releases/download/v$version/iamb-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/ulyssa/iamb/releases/download/v$version/iamb-x86_64-pc-windows-msvc-binary.zip"
             }
         }
     }
