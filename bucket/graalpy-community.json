@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/oracle/graalpython/releases/download/graal-25.4.4/graalpy3.13-community-25.4.4-windows-amd64.zip",
-            "extract_dir": "graalpy-community3.13-25.4.4-windows-amd64",
+            "extract_dir": "graalpy-community3.13-25.4.4.1.1-windows-amd64",
             "hash": "8639dcbc10ec27dce7619a5e80e2f7cfba5f2eba7c1476b1381eebc2fee898b7"
         }
     },
