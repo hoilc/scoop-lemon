@@ -1,16 +1,16 @@
 {
-    "version": "0.4.10",
+    "version": "1.0.0-beta3",
     "description": "A lightweight alternative to elasticsearch that requires minimal resources, written in Go.",
-    "homepage": "https://docs.zinclabs.io/",
+    "homepage": "https://zincsearch-docs.zinc.dev/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prabhatsharma/zinc/releases/download/v0.4.10/zincsearch_0.4.10_Windows_x86_64.tar.gz",
-            "hash": "d85d18398e9abab5c0f09b8400eb7ebec8f4e6dcbe28104e2734cdf91dc584ce"
+            "url": "https://github.com/zincsearch/zincsearch/releases/download/v1.0.0-beta3/zincsearch_1.0.0-beta3_windows_x86_64.tar.gz",
+            "hash": "bf7918394b7e6eb683ec46da0d71ad46115242e9e3e3ac95fef44a6c26a38fff"
         },
         "arm64": {
-            "url": "https://github.com/prabhatsharma/zinc/releases/download/v0.4.10/zincsearch_0.4.10_Windows_arm64.tar.gz",
-            "hash": "864a993350ccf6f963de20f2619d4f8c49ef05ca4dcf76b16ff1c1eed6379947"
+            "url": "https://github.com/zincsearch/zincsearch/releases/download/v1.0.0-beta3/zincsearch_1.0.0-beta3_windows_arm64.tar.gz",
+            "hash": "1b767d5fe911e683a59a8e90d7881c757d318042f7a1fda859a3b4e21a729bce"
         }
     },
     "bin": "zincsearch.exe",
@@ -29,15 +29,16 @@
         "Now point your browser to http://localhost:4080 and login."
     ],
     "checkver": {
-        "github": "https://github.com/zincsearch/zincsearch"
+        "url": "https://github.com/zincsearch/zincsearch/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/prabhatsharma/zinc/releases/download/v$version/zincsearch_$version_Windows_x86_64.tar.gz"
+                "url": "https://github.com/zincsearch/zincsearch/releases/download/v$version/zincsearch_$version_windows_x86_64.tar.gz"
             },
             "arm64": {
-                "url": "https://github.com/prabhatsharma/zinc/releases/download/v$version/zincsearch_$version_Windows_arm64.tar.gz"
+                "url": "https://github.com/zincsearch/zincsearch/releases/download/v$version/zincsearch_$version_windows_arm64.tar.gz"
             }
         },
         "hash": {
