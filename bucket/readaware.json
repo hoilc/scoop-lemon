@@ -1,12 +1,12 @@
 {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "description": "An agent-first reader with a plugin system at its core.",
     "homepage": "https://github.com/ahpxex/read-aware",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ahpxex/read-aware/releases/download/v0.6.3/ReadAware-windows-x64-portable.zip",
-            "hash": "db10f783fb66b662335bfac38272eadb9d9825ff6365bbfb176f1ae0d89e2413"
+            "url": "https://github.com/ahpxex/read-aware/releases/download/v0.6.4/ReadAware-windows-x64-portable.zip",
+            "hash": "f543dbb043d2d8b42ef62a20a03a3a9fbe4879528a4973e8687b74cbf6c96ac7"
         }
     },
     "shortcuts": [
