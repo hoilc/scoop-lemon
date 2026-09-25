@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0",
+    "version": "4.1.0",
     "description": "A cross-platform software for keeping your notes in a tree.",
     "homepage": "http://jenyay.net/Outwiker/English",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Jenyay/outwiker/releases/download/4.0.0-stable/outwiker_4.0.0_win_all_plugins.7z",
-    "hash": "20d3c797b6ad249f6b8359eb56560e17a9a8800058d2d4ae92c83c59cb052a3b",
+    "url": "https://github.com/Jenyay/outwiker/releases/download/4.1.0-stable/outwiker_4.1.0_win_all_plugins.7z",
+    "hash": "7b86db2e2ee5abcdc62bc24312cf5a0431430383ab5d531973dfb05736fff6a3",
     "shortcuts": [
         [
             "outwiker.exe",
