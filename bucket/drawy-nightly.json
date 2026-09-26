@@ -1,12 +1,12 @@
 {
-    "version": "2500",
+    "version": "2505",
     "description": "(Nightly Build) A lightweight infinite whiteboard built for simplicity and high performance.",
     "homepage": "https://apps.kde.org/drawy/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/graphics/drawy/master/windows/drawy-master-2500-windows-cl-msvc2022-x86_64.7z",
-            "hash": "3a9d2d68aff13aab6be02658a24477385a654923181114030ae2b62db463dd18"
+            "url": "https://cdn.kde.org/ci-builds/graphics/drawy/master/windows/drawy-master-2505-windows-cl-msvc2022-x86_64.7z",
+            "hash": "42b7ce126a4ad64eeab00f107353eac6c8d356b2dd7cee95b5454b184e6c631e"
         }
     },
     "shortcuts": [
