@@ -1,16 +1,16 @@
 {
-    "version": "1.459.410.0",
+    "version": "1.459.412.0",
     "description": "A scan tool designed to find and remove malware from Windows computers.",
     "homepage": "https://learn.microsoft.com/en-us/defender-endpoint/safety-scanner-download",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.459.410.0&arch=amd64",
-            "hash": "e79b08c9a79a58112b809651fb316e3ba91c307df49deb54a94b83dcc935585f"
+            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.459.412.0&arch=amd64",
+            "hash": "35fc44d4b6bebdaf58203613dfdc9ffbf8d71d97c41ccd2d9108e4021419c0d4"
         },
         "32bit": {
-            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.459.410.0&arch=x86",
-            "hash": "3e4e88a6451cb87bff91ade13d6c65fc20012e222b7b53e3584e6b23865964bd"
+            "url": "https://definitionupdates.microsoft.com/packages/content/msert.exe?packageType=Scanner&packageVersion=1.459.412.0&arch=x86",
+            "hash": "8d9f018baa570c3ef7c670028b3b96ef59bdbfd7fc01c8f4115e2218955bb24f"
         }
     },
     "bin": "msert.exe",
