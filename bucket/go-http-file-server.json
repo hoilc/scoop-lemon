@@ -1,16 +1,16 @@
 {
-    "version": "1.22.0",
+    "version": "1.22.1",
     "description": "A simple command line based HTTP file server to share local file system.",
     "homepage": "https://github.com/mjpclab/go-http-file-server",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.22.0/ghfs-1.22.0-windows-amd64v2.zip",
-            "hash": "c60ac6dc74aa8c07378bb224a5c1d0529e112c105fb8566c842bada88b2b5618"
+            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.22.1/ghfs-1.22.1-windows-amd64v2.zip",
+            "hash": "113c565dcca2258600331eced9db12cdd7ae8b801e0581638f147f14d8c50e22"
         },
         "arm64": {
-            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.22.0/ghfs-1.22.0-windows-arm64.zip",
-            "hash": "8736f6e7e67913fa5e7b597679d09a9b5b8f2cd291a515afebcc28e597112d28"
+            "url": "https://github.com/mjpclab/go-http-file-server/releases/download/v1.22.1/ghfs-1.22.1-windows-arm64.zip",
+            "hash": "dfe29822c5e6b2e9ad2229af746e486b894867cf2cbf30c5ef20de32ce8a55ef"
         }
     },
     "bin": "ghfs.exe",
