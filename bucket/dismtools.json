@@ -1,12 +1,12 @@
 {
-    "version": "0.8.1_stable",
+    "version": "0.8.1_upd1",
     "description": "A front-end for DISM that lets you manage your Windows Imaging (WIM) files and a whole lot more.",
     "homepage": "https://github.com/CodingWonders/DISMTools",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CodingWonders/DISMTools/releases/download/v0.8.1_stable/DISMTools.zip",
-            "hash": "f653685338cf223d5f7ce70d073c154672000ffd0524a26e2199cc98e5cb6115"
+            "url": "https://github.com/CodingWonders/DISMTools/releases/download/v0.8.1_upd1/DISMTools.zip",
+            "hash": "030d75765d429224a724dc6796a33e19115caa7f14625ef9501828b1f2770098"
         }
     },
     "shortcuts": [
