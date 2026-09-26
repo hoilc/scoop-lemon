@@ -1,13 +1,13 @@
 {
-    "version": "2.9.29",
+    "version": "3.1.2",
     "description": "An independent, enhanced reimplementation of PowerToys Crop And Lock.",
     "homepage": "https://github.com/melody0709/zencrop",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/melody0709/zencrop/releases/download/v2.9.29/ZenCrop-v2.9.29-win-x64-portable-unsigned.7z",
-            "hash": "b6c03e97d4ab9c53cef5a72a49072b1cb15cf0ca24ea87af185c3ef8eb180483",
-            "extract_dir": "ZenCrop-v2.9.29-win-x64-portable-unsigned"
+            "url": "https://github.com/melody0709/zencrop/releases/download/v3.1.2/ZenCrop-v3.1.2-win-x64-portable-unsigned.7z",
+            "hash": "618ec357e1dc9c526f66150db7e6f59573b6cd423446ef6a6759e69d8367f48b",
+            "extract_dir": "ZenCrop-v3.1.2-win-x64-portable-unsigned"
         }
     },
     "shortcuts": [
