@@ -1,12 +1,12 @@
 {
-    "version": "0.0.4",
+    "version": "0.0.4-release.2",
     "description": "An experimental PlayStation 5 emulator.",
     "homepage": "https://sharpemu.app",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sharpemu/sharpemu/releases/download/v0.0.4/sharpemu-0.0.4-win-x64.zip",
-            "hash": "6819133ff0b04e51f1f697b9e42bd5161c792c5a2f24bfee473511a715c6877d"
+            "url": "https://github.com/sharpemu/sharpemu/releases/download/v0.0.4-release.2/sharpemu-0.0.4-release.2-win-x64.zip",
+            "hash": "ccbb5d9c7f2bee11f86114d510647e120a045dd1baf6cc99171ad10c213342d8"
         }
     },
     "bin": "SharpEmu.exe",
