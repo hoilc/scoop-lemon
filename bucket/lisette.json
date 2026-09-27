@@ -1,16 +1,16 @@
 {
-    "version": "0.12.2",
+    "version": "0.12.3",
     "description": "A little language inspired by Rust that compiles to Go.",
     "homepage": "https://lisette.run/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ivov/lisette/releases/download/lisette-v0.12.2/lisette-x86_64-pc-windows-msvc.zip",
-            "hash": "8f60ece7499cf588e3ee0e0b8ea92c148747528a928002a8b1dbe121f0408b16"
+            "url": "https://github.com/ivov/lisette/releases/download/lisette-v0.12.3/lisette-x86_64-pc-windows-msvc.zip",
+            "hash": "19793e2a9c980bbcfc703d492bcbd1dd0c2ccc1e825300d2c3cf89ccd900c2e1"
         },
         "arm64": {
-            "url": "https://github.com/ivov/lisette/releases/download/lisette-v0.12.2/lisette-aarch64-pc-windows-msvc.zip",
-            "hash": "4b635081f9b6a42514c18179bf2281ae3d702846d1966e025ba27ac2c8c5aa5a"
+            "url": "https://github.com/ivov/lisette/releases/download/lisette-v0.12.3/lisette-aarch64-pc-windows-msvc.zip",
+            "hash": "b241de16115b57e5271193e8398d480aaae0a26c87dd48ff1f11d0f98245f038"
         }
     },
     "bin": "lis.exe",
