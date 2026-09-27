@@ -1,16 +1,16 @@
 {
-    "version": "0.1.1",
+    "version": "0.2.1",
     "description": "A CLI tool to download specific folders from a git repository.",
     "homepage": "https://github.com/dagimg-dot/gitsnip",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dagimg-dot/gitsnip/releases/download/v0.1.1/gitsnip_Windows_x86_64.zip",
-            "hash": "6ee5811d3b4867c98f6b0418c26f6808d924827763ef97e2867efbfc9cfa8d4e"
+            "url": "https://github.com/dagimg-dot/gitsnip/releases/download/v0.2.1/gitsnip_Windows_x86_64.zip",
+            "hash": "f8b177ac28c66e4e7bbae73f64db709a9b7ce11b9b7d4202b52af7d67b98ae85"
         },
         "arm64": {
-            "url": "https://github.com/dagimg-dot/gitsnip/releases/download/v0.1.1/gitsnip_Windows_arm64.zip",
-            "hash": "b89c1239d2729eb0c695f6d9e2f5aad662da3108a4f42c95eb33269e17245cce"
+            "url": "https://github.com/dagimg-dot/gitsnip/releases/download/v0.2.1/gitsnip_Windows_arm64.zip",
+            "hash": "1a0e3b1984aa472f0dd7946c6a49d1d51992a72a6dafb920ee64e543d88832e7"
         }
     },
     "bin": "gitsnip.exe",
