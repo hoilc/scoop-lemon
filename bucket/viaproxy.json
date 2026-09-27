@@ -1,10 +1,10 @@
 {
-    "version": "3.4.13",
+    "version": "3.4.14",
     "description": "A standalone proxy which allows players to join EVERY Minecraft server version (Classic, Alpha, Beta, Release, Bedrock).",
     "homepage": "https://github.com/ViaVersion/ViaProxy",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/ViaVersion/ViaProxy/releases/download/v3.4.13/ViaProxy-3.4.13.jar#/ViaProxy.jar",
-    "hash": "4bbb6a6b9d3dd6a2028773ed44b97a98751e4a48e416aaad4bf6d9c860083be9",
+    "url": "https://github.com/ViaVersion/ViaProxy/releases/download/v3.4.14/ViaProxy-3.4.14.jar#/ViaProxy.jar",
+    "hash": "2894bbfb2f4342f8fde887af6c689313efd5b0e46a8006775eea0e21e2948ab5",
     "pre_install": [
         "Set-Content -Encoding ASCII -Path \"$dir\\ViaProxy-GUI.bat\" -Value 'cd /d \"%~dp0data\"', '@start javaw.exe -jar \"%~dp0ViaProxy.jar\"'",
         "Set-Content -Encoding ASCII -Path \"$dir\\viaproxy.bat\" -Value \"@java -jar `\"%~dp0ViaProxy.jar`\" %*\"",
