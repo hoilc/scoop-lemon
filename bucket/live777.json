@@ -1,33 +1,33 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "A very simple, high performance, edge WebRTC SFU for real-time video streaming.",
     "homepage": "https://github.com/binbat/live777",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/binbat/live777/releases/download/v0.9.0/live777-v0.9.0-x86_64-pc-windows-msvc.zip",
-                "https://github.com/binbat/live777/releases/download/v0.9.0/whepfrom-v0.9.0-x86_64-pc-windows-msvc.exe#/whepfrom.exe",
-                "https://github.com/binbat/live777/releases/download/v0.9.0/whipinto-v0.9.0-x86_64-pc-windows-msvc.exe#/whipinto.exe"
+                "https://github.com/binbat/live777/releases/download/v0.10.0/live777-v0.10.0-x86_64-pc-windows-msvc.zip",
+                "https://github.com/binbat/live777/releases/download/v0.10.0/whepfrom-v0.10.0-x86_64-pc-windows-msvc.exe#/whepfrom.exe",
+                "https://github.com/binbat/live777/releases/download/v0.10.0/whipinto-v0.10.0-x86_64-pc-windows-msvc.exe#/whipinto.exe"
             ],
-            "extract_dir": "live777-v0.9.0-x86_64-pc-windows-msvc",
+            "extract_dir": "live777-v0.10.0-x86_64-pc-windows-msvc",
             "hash": [
-                "3ad4a6aa455eb81c8607aeba1c6f73564e140917a77ff89021494f6948b37fb2",
-                "c70b67791cbfc6bd2dccfb9c7ca49bdeb9ee88fec34c9ad72e99edbc91fa1684",
-                "f82e8d9ad07ca2a76a430fe90cbdd5735ff9bd77ace40a37d4a24bc988fb1771"
+                "790e7659d8ff4ea78288285efedb92e04214475e9274df3447e74a87afcfe371",
+                "51c1e285a87e220bb8d4f0175901a01e7d267a2af9cf2f02591101708ccc37ac",
+                "57b7067956dfc177d3088035ae107fc6083d8bab53f209febeaa955e1a9f7809"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/binbat/live777/releases/download/v0.9.0/live777-v0.9.0-i686-pc-windows-msvc.zip",
-                "https://github.com/binbat/live777/releases/download/v0.9.0/whepfrom-v0.9.0-i686-pc-windows-msvc.exe#/whepfrom.exe",
-                "https://github.com/binbat/live777/releases/download/v0.9.0/whipinto-v0.9.0-x86_64-pc-windows-msvc.exe#/whipinto.exe"
+                "https://github.com/binbat/live777/releases/download/v0.10.0/live777-v0.10.0-i686-pc-windows-msvc.zip",
+                "https://github.com/binbat/live777/releases/download/v0.10.0/whepfrom-v0.10.0-i686-pc-windows-msvc.exe#/whepfrom.exe",
+                "https://github.com/binbat/live777/releases/download/v0.10.0/whipinto-v0.10.0-x86_64-pc-windows-msvc.exe#/whipinto.exe"
             ],
-            "extract_dir": "live777-v0.9.0-i686-pc-windows-msvc",
+            "extract_dir": "live777-v0.10.0-i686-pc-windows-msvc",
             "hash": [
-                "61000e7176ed04116fbe1594e7c3c13fe85e8a64cd2e236318aab174a4100039",
-                "7b1f930b28425e998c284fe0832d63e0d1cffc6ef7924776287c16d8eabb614c",
-                "f82e8d9ad07ca2a76a430fe90cbdd5735ff9bd77ace40a37d4a24bc988fb1771"
+                "8869dae2da8985acc7a37198357becee2cd21cfa2e055bd16a5e0b99a0f1d8fd",
+                "80575dd10b70dc9fa7729118726db9df77d7a1c7a25a7ed8fc7dd40bedde27cc",
+                "57b7067956dfc177d3088035ae107fc6083d8bab53f209febeaa955e1a9f7809"
             ]
         }
     },
