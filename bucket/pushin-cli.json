@@ -1,6 +1,6 @@
 {
     "version": "0.2.8",
-    "description": "pun — the CLI for the pushin.eu API.",
+    "description": "CLI for the pushin.eu API (pun), mirroring the gh GitHub CLI's noun-verb shape.",
     "homepage": "https://pushin.eu/pjullrich/pushin-cli",
     "license": "MIT",
     "architecture": {
@@ -12,9 +12,8 @@
     },
     "bin": "pun.exe",
     "checkver": {
-        "url": "https://pushin.eu/pjullrich/pushin-cli.git/info/refs?service=git-upload-pack",
-        "regex": "refs/tags/v([\\d.]+)",
-        "reverse": true
+        "url": "https://pushin.eu/pjullrich/pushin-cli/changelog",
+        "regex": "\"\\[?([\\d.]+)\\]?\\s*-\\s*\\d{4}-\\d{2}-\\d{2}\""
     },
     "autoupdate": {
         "architecture": {
