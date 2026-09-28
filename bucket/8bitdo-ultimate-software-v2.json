@@ -1,11 +1,11 @@
 {
-    "version": "1.35",
+    "version": "1.36",
     "description": "A one-stop solution for your 8BitDo devices. | 为您的八位堂设备提供一站式解决方案",
     "homepage": "https://app.8bitdo.com/Ultimate-Software-V2/",
     "license": "Proprietary",
-    "url": "https://support.8bitdo.com/bd-uploads/files/ultimate_soft/8BitDo_Ultimate_Software_V2_Windows_V1.35.zip",
-    "extract_dir": "8BitDo_Ultimate_Software_V2_Windows_V1.35",
-    "hash": "edd16569c66f526a3a90eaebe6eb8ddebc542ecdf47b64ad417ea919910bd919",
+    "url": "https://support.8bitdo.com/bd-uploads/files/ultimate_soft/8BitDo_Ultimate_Software_V2_Windows_V1.36.zip",
+    "extract_dir": "8BitDo_Ultimate_Software_V2_Windows_V1.36",
+    "hash": "edddbd407fabdc0d2264b8fd553b59f46f8d4d404e6d98c3fe171571ef204aa7",
     "shortcuts": [
         [
             "8BitDo Ultimate Software V2.exe",
