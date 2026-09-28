@@ -1,17 +1,17 @@
 {
-    "version": "3.8.0beta1-18",
+    "version": "3.8.0beta1-19",
     "description": "A simple, lightweight but featureful, and easy-to-use e-mail client.",
     "homepage": "https://sylpheed.sraoss.jp/en/",
     "license": "GPL-3.0-only",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-18/sylpheed-3.8.0beta1-arm64-clangarm64.zip",
-            "hash": "786001500c11e93b4b61764453aee8b19220fbd9e2e2d169e7078b2cd69c80ce",
+            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-19/sylpheed-3.8.0beta1-arm64-clangarm64.zip",
+            "hash": "04a3baf88340e2103d3b15ada3a0f141adac5b15918f4b519e71bd6d9c48d1d9",
             "extract_dir": "sylpheed-3.8.0beta1-arm64-clangarm64"
         },
         "64bit": {
-            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-18/sylpheed-3.8.0beta1-x64-clang64.zip",
-            "hash": "ba9c6df5ffbd0f89327a1318ba2a5a4cb7080baa1a0c41f5d6dd384f7c034ae4",
+            "url": "https://github.com/AlienCowEatCake/sylpheed-windows/releases/download/sylpheed-3.8.0beta1-19/sylpheed-3.8.0beta1-x64-clang64.zip",
+            "hash": "0bc7e98f5af4b0b0bdfca834e5945e75fa4ea54ad328dc58dbe95d4f21e152aa",
             "extract_dir": "sylpheed-3.8.0beta1-x64-clang64"
         },
         "32bit": {
