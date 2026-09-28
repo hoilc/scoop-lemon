@@ -1,12 +1,12 @@
 {
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "Grafana Alloy is an open source OpenTelemetry Collector distribution with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles.",
     "homepage": "https://github.com/grafana/alloy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/alloy/releases/download/v1.20.0/alloy-windows-amd64.exe.zip",
-            "hash": "0d22d71f213ae21195be14e54a1199809f1afdc15caa9e8e27d933ff99b1a264"
+            "url": "https://github.com/grafana/alloy/releases/download/v1.20.1/alloy-windows-amd64.exe.zip",
+            "hash": "4921238b7d45bbd8ec4429ee06af734deb9f7a2a0fd98e5652b15a1bec2ad653"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'alloy-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'alloy.exe'",
