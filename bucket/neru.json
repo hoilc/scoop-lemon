@@ -1,16 +1,16 @@
 {
-    "version": "1.55.0",
+    "version": "1.56.0",
     "description": "A tool to navigate your entire screen without touching the mouse.",
     "homepage": "https://github.com/y3owk1n/neru",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/y3owk1n/neru/releases/download/v1.55.0/neru-windows-amd64.zip",
-            "hash": "e108fbf8a61cd2d48585c096f88f133325de2f646c86f6d18464fbbf27dd8fb6"
+            "url": "https://github.com/y3owk1n/neru/releases/download/v1.56.0/neru-windows-amd64.zip",
+            "hash": "8c155b39174e239791020a463d7a420ed1ddf262ac06019931ecc9bfd2cbf729"
         },
         "arm64": {
-            "url": "https://github.com/y3owk1n/neru/releases/download/v1.55.0/neru-windows-arm64.zip",
-            "hash": "1682f84159e13b1c17501c7600c8e7c61455c6897173b49ef535153f2ce77b9d"
+            "url": "https://github.com/y3owk1n/neru/releases/download/v1.56.0/neru-windows-arm64.zip",
+            "hash": "2a8f4fe75669592e4a750860a50d309472100b4bf1937aaeb5b156181ba55175"
         }
     },
     "extract_dir": "bin",
