@@ -1,12 +1,12 @@
 {
-    "version": "3.4.0",
+    "version": "3.5.0",
     "description": "A desktop library manager for DLsite works.",
     "homepage": "https://github.com/AcrylicShrimp/dlsite-manager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AcrylicShrimp/dlsite-manager/releases/download/v3.4.0/dlsite-manager_3.4.0_x64-setup.exe#/dl.7z",
-            "hash": "f20d99cf2f0d7df0a1a0a420db7c7fd6c38395fd5975d99f5660fe00950bfd77"
+            "url": "https://github.com/AcrylicShrimp/dlsite-manager/releases/download/v3.5.0/dlsite-manager_3.5.0_x64-setup.exe#/dl.7z",
+            "hash": "5fb630ce45fe2298f87ca9e91356a13f3283b576d3d78812bda27bc2581aa150"
         }
     },
     "shortcuts": [
