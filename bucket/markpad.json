@@ -1,16 +1,16 @@
 {
-    "version": "2.8.0",
+    "version": "2.8.1",
     "description": "A lightweight, minimalist Markdown viewer and text editor built for productivity.",
     "homepage": "https://markpad.dev/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.8.0/Markpad_2.8.0_x64.exe#/Markpad.exe",
-            "hash": "3ccbc52e6b54ea43feb837b3f01cdc0f8aba417aff574bb1d78d247ef154220d"
+            "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.8.1/Markpad_2.8.1_x64.exe#/Markpad.exe",
+            "hash": "2d363d2889a78f0f0cff6cd4a43d731708641a04d6b68ecc4ec50d1e2e1c7f5e"
         },
         "arm64": {
-            "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.8.0/Markpad_2.8.0_arm64.exe#/Markpad.exe",
-            "hash": "d56faf1cc1a0be1cfc84a5d3d05de8313cd35520efc8660c25e4b6ad52be7ae4"
+            "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.8.1/Markpad_2.8.1_arm64.exe#/Markpad.exe",
+            "hash": "02823325421d3bba33c64fd734d87b2259e7a7d1bdca762c21af196ef52f0c2f"
         }
     },
     "bin": "Markpad.exe",
