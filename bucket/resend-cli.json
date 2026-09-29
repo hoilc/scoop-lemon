@@ -1,12 +1,12 @@
 {
-    "version": "2.22.0",
+    "version": "2.23.0",
     "description": "The official CLI for Resend.",
     "homepage": "https://resend.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/resend/resend-cli/releases/download/v2.22.0/resend-windows-x64.zip",
-            "hash": "6f760431de13f3e8ee188cfcbd708c6d24c0bb46f111a05138fa929a462e9def"
+            "url": "https://github.com/resend/resend-cli/releases/download/v2.23.0/resend-windows-x64.zip",
+            "hash": "7dba67ea2be94a7770aa0e91c6737816f14eb570d7742fe13966e7914fe0f22c"
         }
     },
     "bin": "resend.exe",
