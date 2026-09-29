@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A project to build the modern evolution of SQLite.",
     "homepage": "https://github.com/tursodatabase/turso",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tursodatabase/turso/releases/download/v0.8.0/turso_cli-x86_64-pc-windows-msvc.zip",
-            "hash": "23900305c0dc1511c3b157cf82c58cf3abfc14f220217f277e98275f180ba4d9"
+            "url": "https://github.com/tursodatabase/turso/releases/download/v0.8.1/turso_cli-x86_64-pc-windows-msvc.zip",
+            "hash": "f8373fc8a9b07d825a6a37ba6938db52023367b723112292e112a7801cab2c1f"
         }
     },
     "bin": "tursodb.exe",
