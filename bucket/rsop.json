@@ -1,16 +1,16 @@
 {
-    "version": "0.11.4",
+    "version": "0.11.5",
     "description": "A stateless OpenPGP (SOP) CLI tool based on rPGP and rpgpie.",
     "homepage": "https://codeberg.org/heiko/rsop",
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rsop-0.11.4/rsop-0.11.4-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "e1ffc22378c2390368e7c4e5ca767dbccf43fb34e352239266dace269edfb79b"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rsop-0.11.5/rsop-0.11.5-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "c14cad9447ec33b67b811db49ecff13896a881e98bf7778157199b4448a5ee76"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rsop-0.11.4/rsop-0.11.4-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "7b5703283fb367a2059d301ffb4426b0d019f75cbd8b668ec7a18775625e57a5"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/rsop-0.11.5/rsop-0.11.5-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "be7c1004ff0ece2dea6c5501c59c09cb1db698716a60158ec4c1a7acffe33a42"
         }
     },
     "bin": "rsop.exe",
