@@ -1,12 +1,12 @@
 {
-    "version": "1.55.0",
+    "version": "1.56.0-rc.1",
     "description": "A gorgeous, modern, and blazing fast Navidrome desktop client.",
     "homepage": "https://www.psysonic.de/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.55.0/Psysonic_1.55.0_x64-setup.exe#/dl.7z",
-            "hash": "45f87db9afe746fad3276da18149b565b6ecd5879e7eeaf10bd9366a6c58d044"
+            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.56.0-rc.1/Psysonic_1.56.0-rc.1_x64-setup.exe#/dl.7z",
+            "hash": "16aa84b3e99a0137c3892bfa6e70f40ef817ce74823aa339550bebc64e880383"
         }
     },
     "shortcuts": [
