@@ -1,20 +1,20 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "A Model Context Protocol (MCP) server for Grafana.",
     "homepage": "https://github.com/grafana/mcp-grafana",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.2/mcp-grafana_Windows_x86_64.zip",
-            "hash": "1f55aa43ac4f4b0ce91d3303fc2d11c16b4457c8783ddf925ab8dedc7e44aff5"
+            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.3/mcp-grafana_Windows_x86_64.zip",
+            "hash": "27ba614f64ed437fc76f54f441f6bbdc734d6a424477307625ae32de9373fbce"
         },
         "32bit": {
-            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.2/mcp-grafana_Windows_i386.zip",
-            "hash": "e3068edcebde05de8b7fcacce29eaa5efe79a7eddbd854ab26a534991569eddf"
+            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.3/mcp-grafana_Windows_i386.zip",
+            "hash": "f2b641c5c878e8eb7dffa6d5ff237d59e6ae948ec2a2aa85a94ca68544be4dd2"
         },
         "arm64": {
-            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.2/mcp-grafana_Windows_arm64.zip",
-            "hash": "75c47ac8fd53ddd2f6ef156afbfc6a925c5899ab1334caeee156f43bed1cd52d"
+            "url": "https://github.com/grafana/mcp-grafana/releases/download/v1.6.3/mcp-grafana_Windows_arm64.zip",
+            "hash": "09cff00e06eec974bca2b7fb3360a5c784376fb456c38ff191d8b2ca67c99c42"
         }
     },
     "bin": "mcp-grafana.exe",
