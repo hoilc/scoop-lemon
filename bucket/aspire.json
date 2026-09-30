@@ -1,16 +1,16 @@
 {
-    "version": "13.5.4",
+    "version": "13.6.0",
     "description": "A multi-language, code-first toolchain for building, running, and deploying distributed applications.",
     "homepage": "https://aspire.dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/aspire/releases/download/v13.5.4/aspire-cli-win-x64-13.5.4.zip",
-            "hash": "0eed355b8d04297c75ccc458b4e136f5522587459d2d361b26636381eac3e665"
+            "url": "https://github.com/microsoft/aspire/releases/download/v13.6.0/aspire-cli-win-x64-13.6.0.zip",
+            "hash": "76c76a78773e85820f5b870fdb260dd5c561c3fa22af302717969add7478f032"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/aspire/releases/download/v13.5.4/aspire-cli-win-arm64-13.5.4.zip",
-            "hash": "44b5a9f556f0f3784773cb1e781c9844b8b4dbe894b1710b68cfe14694a33890"
+            "url": "https://github.com/microsoft/aspire/releases/download/v13.6.0/aspire-cli-win-arm64-13.6.0.zip",
+            "hash": "c61d1581a0a9c4d828f2cb83eaa91b638c6a9df017657501a84ec7f4d969ea4e"
         }
     },
     "bin": "aspire.exe",
