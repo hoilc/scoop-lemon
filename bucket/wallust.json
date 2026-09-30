@@ -1,25 +1,25 @@
 {
-    "version": "3.5.2",
+    "version": "4.1.0-alpha",
     "description": "Generate a 16 color scheme based on an image.",
     "homepage": "https://codeberg.org/explosion-mental/wallust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/explosion-mental/wallust/releases/download/3.5.2/wallust-3.5.2-x86_64-pc-windows-gnu-with-assets.tar.gz",
-            "extract_dir": "wallust-3.5.2-x86_64-pc-windows-gnu-with-assets",
-            "hash": "fd0c5d640fa1669df715919089090c96b5e0ec464363ab2dc62bc9e3028e2f6a"
+            "url": "https://codeberg.org/explosion-mental/wallust/releases/download/4.1.0-alpha/wallust-4.1.0-alpha-x86_64-pc-windows-gnu.tar.gz",
+            "extract_dir": "wallust-4.1.0-alpha-x86_64-pc-windows-gnu",
+            "hash": "f4708b5eaff74f6f307921da9c2210d99da508a010753a5399064f87fce647ce"
         }
     },
     "bin": "wallust.exe",
     "checkver": {
         "url": "https://codeberg.org/explosion-mental/wallust/releases.rss",
-        "regex": "/releases/tag/([\\d.]+)"
+        "regex": "/releases/tag/(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://codeberg.org/explosion-mental/wallust/releases/download/$version/wallust-$version-x86_64-pc-windows-gnu-with-assets.tar.gz",
-                "extract_dir": "wallust-$version-x86_64-pc-windows-gnu-with-assets"
+                "url": "https://codeberg.org/explosion-mental/wallust/releases/download/$version/wallust-$version-x86_64-pc-windows-gnu.tar.gz",
+                "extract_dir": "wallust-$version-x86_64-pc-windows-gnu"
             }
         }
     }
