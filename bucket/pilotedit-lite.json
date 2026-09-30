@@ -1,10 +1,10 @@
 {
-    "version": "21.4.0",
+    "version": "21.5.0",
     "description": "A handy text editor you can use for working with plain text files, as well as for coding projects in a bunch of popular programming languages.",
     "homepage": "https://www.pilotedit.com/",
     "license": "Liteware",
-    "url": "https://www.pilotedit.com/uploads/PilotEdit_Lite_21.4.0.zip",
-    "hash": "966aa4181ad904733eb1fa856e71ae580451bbda1d3a6f0bdf793a5d2a3b742b",
+    "url": "https://www.pilotedit.com/uploads/PilotEdit-Lite-32Bit-21.5.0.zip",
+    "hash": "12c3dbc16e54b2a63a08685f27de7bef68da320df7040bb3bac5aea0cc0d0aeb",
     "extract_dir": "EXE",
     "installer": {
         "script": "Get-ChildItem \"$dir\" '*-Installer.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -Destination \"$dir\" -Removal"
@@ -17,9 +17,9 @@
     ],
     "notes": "PilotEdit Lite is NOT portable.",
     "checkver": {
-        "regex": "PilotEdit_Lite_([\\d.]+).zip"
+        "regex": "PilotEdit-Lite-32Bit-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://www.pilotedit.com/uploads/PilotEdit_Lite_$version.zip"
+        "url": "https://www.pilotedit.com/uploads/PilotEdit-Lite-32Bit-$version.zip"
     }
 }
