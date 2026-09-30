@@ -1,10 +1,10 @@
 {
-    "version": "16.30",
+    "version": "16.67",
     "description": "RJ TextEd is a full featured text and source editor with Unicode support.",
     "homepage": "https://www.rj-texted.se/",
     "license": "Freeware",
-    "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-16.30.exe",
-    "hash": "01c4f488ae1f5be582cc8391a88133d46de9774b3fc65a63c491b8e8363c892c",
+    "url": "https://www.rj-texted.se/downloads/rj-portable.exe",
+    "hash": "dc2c56fe65ac8d00c161d4fd46a6bbb0a89cfee2ee43ba520ba292c79943bedd",
     "innosetup": true,
     "architecture": {
         "64bit": {
@@ -31,10 +31,10 @@
         "TextEd.ini"
     ],
     "checkver": {
-        "url": "https://www.fosshub.com/RJ-TextEd.html",
-        "regex": "rj-portable-([\\d.]+).exe"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/rj-texted/state.json",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
-        "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-$version.exe"
+        "url": "https://www.rj-texted.se/downloads/rj-portable.exe"
     }
 }
