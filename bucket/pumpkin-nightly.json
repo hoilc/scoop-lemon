@@ -1,20 +1,19 @@
 {
-    "version": "b11563-20260916-e49a414",
-    "description": "A Minecraft server built entirely in Rust, offering a fast, efficient, and customizable experience.",
+    "version": "20260928-4426d11",
+    "description": "(Nightly Build) A Minecraft server built entirely in Rust, offering a fast, efficient, and customizable experience.",
     "homepage": "https://pumpkinmc.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/35044831227/pumpkin-X64-Windows.zip",
-            "hash": "d3b57824d6be94432306a01b1ddf5ed6634de801c317e1381654b6a97b78eed8"
+            "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-X64-Windows.exe#/pumpkin.exe",
+            "hash": "492efe6cac87ad7d87c36f59324f7d0459bc9af5e37f6bb43e748ff5c2080de2"
         },
         "arm64": {
-            "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/35044831227/pumpkin-ARM64-Windows.zip",
-            "hash": "2fb03e3904176d9fe07f29e2bbfa1ae2f7133005e09e9683c960f06c277e8fcf"
+            "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-ARM64-Windows.exe#/pumpkin.exe",
+            "hash": "027dddc7f61eb53a2181cfb7d3c5307372707fe780566b618a03637c1cc3ca11"
         }
     },
     "pre_install": [
-        "Get-ChildItem \"$dir\" 'pumpkin?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'pumpkin.exe'",
         "Set-Content -Encoding ASCII -Path \"$dir\\start_pumpkin.bat\" -Value 'cd /d \"%~dp0data\"', '\"%~dp0pumpkin.exe\"'",
         "$iconDir = $null ; if ($bucket) { $iconDir = \"$bucketsdir\\$bucket\\icon\\unformatted\" } else { $iconDir = Convert-Path \"$url\\..\\..\\icon\\unformatted\" }",
         "Copy-Item \"$iconDir\\pumpkin.ico\" \"$dir\" -Force"
@@ -30,17 +29,17 @@
     ],
     "persist": "data",
     "checkver": {
-        "url": "https://github.com/Pumpkin-MC/Pumpkin/actions/workflows/rust.yml?query=branch%3Amaster+event%3Apush+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
-        "replace": "b${build}-${year}${month}${day}-${commit}"
+        "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/tag/nightly",
+        "regex": "(?sm)From commit:\\s*.*?/commit/(?<commit>[a-f0-9]{7}).*?Generated on:\\s*(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+        "replace": "${year}${month}${day}-${commit}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/$matchRun/pumpkin-X64-Windows.zip"
+                "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-X64-Windows.exe#/pumpkin.exe"
             },
             "arm64": {
-                "url": "https://nightly.link/Pumpkin-MC/Pumpkin/actions/runs/$matchRun/pumpkin-ARM64-Windows.zip"
+                "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-ARM64-Windows.exe#/pumpkin.exe"
             }
         }
     }
