@@ -1,16 +1,16 @@
 {
-    "version": "2026.3.10.0",
+    "version": "2026.3.12.0",
     "description": "Devolutions Remote Desktop Manager is a remote connection management software for individual, MSPs, and IT professionals.",
     "homepage": "https://devolutions.net/remote-desktop-manager/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-x64.2026.3.10.0.7z",
-            "hash": "4feaa787084809d228c10237db02a6d89ea28b5563b9e4aa10ee2c2e4d0f1f4c"
+            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-x64.2026.3.12.0.7z",
+            "hash": "35cf4bfa178d1fee1ff09e62013fada0d80634e896c277cd82f1c0855a0f082e"
         },
         "arm64": {
-            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-arm64.2026.3.10.0.7z",
-            "hash": "99c63924e1736b6d951ec37b073bb42a3e2c77224aadbeb513841abd1f2c56e5"
+            "url": "https://cdn.devolutions.net/download/Devolutions.RemoteDesktopManager.win-arm64.2026.3.12.0.7z",
+            "hash": "9e1044f28fd0984b1d97a7da7e552fb7f9a0b8080e998fe23b12b6d2563898cc"
         }
     },
     "shortcuts": [
