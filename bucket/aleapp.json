@@ -1,34 +1,22 @@
 {
-    "version": "2026.4.1",
+    "version": "2026.4.2",
     "description": "Android Logs Events And Protobuf Parser",
     "homepage": "https://github.com/abrignoni/ALEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleapp-v2026.4.1-Windows_x86_64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleappGUI-v2026.4.1-Windows_x86_64.zip"
-            ],
-            "hash": [
-                "8eb1ad25f9fdc89af345277ad6ff748636e3552490e39a4fd379debde0af70fa",
-                "e266a3a1f1496f803d4df792c7ae038ebdd06b8bdcb7453bc86c0571319477a6"
-            ]
+            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.2/ALEAPP-2026.4.2-windows-x64-portable.zip",
+            "hash": "ddb811c232e6f3c99c27c66481af9fed54c45cac051e3b3a7a57a38dda4ad6c4"
         },
         "arm64": {
-            "url": [
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleapp-v2026.4.1-Windows_arm64.zip",
-                "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.1/aleappGUI-v2026.4.1-Windows_arm64.zip"
-            ],
-            "hash": [
-                "fa52fdcc81fdfa1617c5aa87e02dea2d241d5ea9b891da36076ad27082c16325",
-                "db7ae5a198a912f2d0b841f8549024b67fe7f53aab86883f17bd06f887c0a2e8"
-            ]
+            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.2/ALEAPP-2026.4.2-windows-arm64-portable.zip",
+            "hash": "4f6d9efc213163de5302a092673187ebba594b2394386f28c136b8ce914b0983"
         }
     },
     "bin": "aleapp.exe",
     "shortcuts": [
         [
-            "aleappGUI.exe",
+            "aleapp.exe",
             "ALEAPP"
         ]
     ],
@@ -36,17 +24,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": [
-                    "https://github.com/abrignoni/ALEAPP/releases/download/v$version/aleapp-v$version-Windows_x86_64.zip",
-                    "https://github.com/abrignoni/ALEAPP/releases/download/v$version/aleappGUI-v$version-Windows_x86_64.zip"
-                ]
+                "url": "https://github.com/abrignoni/ALEAPP/releases/download/v$version/ALEAPP-$version-windows-x64-portable.zip"
             },
             "arm64": {
-                "url": [
-                    "https://github.com/abrignoni/ALEAPP/releases/download/v$version/aleapp-v$version-Windows_arm64.zip",
-                    "https://github.com/abrignoni/ALEAPP/releases/download/v$version/aleappGUI-v$version-Windows_arm64.zip"
-                ]
+                "url": "https://github.com/abrignoni/ALEAPP/releases/download/v$version/ALEAPP-$version-windows-arm64-portable.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
         }
     }
 }
