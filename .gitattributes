@@ -1,3 +1,13 @@
 # retain windows line-endings in case checked out on mac or linux
 * text eol=crlf
+
+# binary files must never be line-ending converted
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.exe binary
+*.dll binary
 .git/hooks/* text eol=lf
