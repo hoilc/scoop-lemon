@@ -1,5 +1,5 @@
 {
-    "version": "26.1.2",
+    "version": "26.2.0",
     "description": "A database that's engineered for modern software applications and event-driven architectures.",
     "homepage": "https://www.kurrent.io/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://packages.kurrent.io/public/kurrent-latest/nuget/kurrentdb/26.1.2/kurrentdb.26.1.2.nupkg#/dl.zip",
-            "hash": "9dc2f053db46fd207b2f0abc09ddcb6d38d67dbcc20edf8bfe878bafddf623ef",
+            "url": "https://packages.kurrent.io/public/kurrent-latest/nuget/kurrentdb/26.2.0/kurrentdb.26.2.0.nupkg#/dl.zip",
+            "hash": "86bb17a9e7194b758bc4f94e65a6c4e8082321a80e9f1c3d7b3b1c87594035a5",
             "pre_install": "Get-ChildItem -Path \"$dir\" | Where-Object { $_.Name -NotLike 'kurrentdb-*.zip' } | Remove-Item -Recurse"
         }
     },
