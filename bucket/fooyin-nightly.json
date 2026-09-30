@@ -1,16 +1,16 @@
 {
-    "version": "b5391-20260906-4f5bf5d",
+    "version": "0.13.1.gd91e30a9-20260930",
     "description": "(Nightly Build) A customisable music player.",
     "homepage": "https://github.com/fooyin/fooyin",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/fooyin/fooyin/actions/runs/34003183748/windows-portable-amd64.zip",
-            "hash": "521439b42c500bd6f6d79b8a8868b35c04bfb3bfdf137b2379b0a9101cedbcd5"
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/36687675391/windows-portable-amd64.zip",
+            "hash": "f28e099d51bb6c2582945ccccdcad5c16f8479f4ba32f5a50e201877a20340a2"
         },
         "arm64": {
-            "url": "https://nightly.link/fooyin/fooyin/actions/runs/34003183748/windows-portable-arm64.zip",
-            "hash": "210d0a010b7c887f580d7601292ef7084f4470a0c69dfb26cb7347b40d818b98"
+            "url": "https://nightly.link/fooyin/fooyin/actions/runs/36687675391/windows-portable-arm64.zip",
+            "hash": "596bea8d6bab3b8ecbf66954731e1ddf060ca2af25593f015648ca60f0489828"
         }
     },
     "installer": {
@@ -33,9 +33,9 @@
         "cache"
     ],
     "checkver": {
-        "url": "https://github.com/fooyin/fooyin/actions/workflows/build.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
-        "replace": "b${build}-${year}${month}${day}-${commit}"
+        "url": "https://github.com/fooyin/fooyin/releases/tag/nightly",
+        "regex": "(?sm)Built from commit.*?on\\s*(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2}).*?/actions/runs/(?<run>\\d+).*?/download/nightly/fooyin-(?<main>[^-]+?)-windows-x64-portable",
+        "replace": "${main}-${year}${month}${day}"
     },
     "autoupdate": {
         "architecture": {
