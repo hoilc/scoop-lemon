@@ -1,12 +1,12 @@
 {
-    "version": "7.25.04.25",
+    "version": "8.26.09.24",
     "description": "SQL Nexus is a tool that helps you identify the root cause of SQL Server performance issues.",
     "homepage": "https://github.com/microsoft/SqlNexus",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/SqlNexus/releases/download/7.25.04.25/SQLNexus_7.25.04.25_Signed.zip",
-            "hash": "e8a7a305acecaba9fd4b62c326da5002d796c5bcb8f425318c10fda5668d7b49"
+            "url": "https://github.com/microsoft/SqlNexus/releases/download/8.26.09.24/SQLNexus_8.26.09.24_Signed.zip",
+            "hash": "1e6da0e39be734f51be45582cf95485ba49b0635542c2759d8da547c8cd7c071"
         }
     },
     "shortcuts": [
