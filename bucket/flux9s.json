@@ -1,12 +1,12 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "A K9s-inspired terminal UI for monitoring Flux resources in real-time.",
     "homepage": "https://flux9s.ca",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dgunzy/flux9s/releases/download/v1.1.0/flux9s-windows-x86_64.zip",
-            "hash": "7a8551f2033445a6fbe163aa893899be8ac9c770cda48fe6c90c9464634b0b18"
+            "url": "https://github.com/dgunzy/flux9s/releases/download/v1.2.0/flux9s-windows-x86_64.zip",
+            "hash": "acdabacef1cc8eefc601e7d3a506b2a11783457ad08801a47b6b830d08693ff9"
         }
     },
     "bin": "flux9s.exe",
