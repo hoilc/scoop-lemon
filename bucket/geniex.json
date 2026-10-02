@@ -1,18 +1,18 @@
 {
     "##": "The 64-bit version is just a placeholder to pass CI checks.",
-    "version": "0.7.1",
+    "version": "0.8.0",
     "description": "An on-device Gen AI inference runtime for Qualcomm devices.",
     "homepage": "https://github.com/qualcomm/GenieX",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qualcomm/GenieX/releases/download/v0.7.1/geniex-cli-setup-windows-arm64-v0.7.1.exe",
+            "url": "https://github.com/qualcomm/GenieX/releases/download/v0.8.0/geniex-cli-setup-windows-arm64-v0.8.0.exe",
             "pre_install": "warn 'You are trying to install the 64-bit (x64) version, but this manifest only supports ARM64.'; Exit",
-            "hash": "97d6842973508e8dd3a07acd755046c7eadfacc2c2dab398422c1fdc8610ecfd"
+            "hash": "fcc4d932f371a9b3ad3d08a1b34912fe21a7fdf7c54d47c869250b50d81ec734"
         },
         "arm64": {
-            "url": "https://github.com/qualcomm/GenieX/releases/download/v0.7.1/geniex-cli-setup-windows-arm64-v0.7.1.exe",
-            "hash": "97d6842973508e8dd3a07acd755046c7eadfacc2c2dab398422c1fdc8610ecfd"
+            "url": "https://github.com/qualcomm/GenieX/releases/download/v0.8.0/geniex-cli-setup-windows-arm64-v0.8.0.exe",
+            "hash": "fcc4d932f371a9b3ad3d08a1b34912fe21a7fdf7c54d47c869250b50d81ec734"
         }
     },
     "innosetup": true,
