@@ -1,12 +1,12 @@
 {
-    "version": "0.26.3",
+    "version": "0.27.0",
     "description": "A command-line utility for monitoring GPU and NPU hardware.",
     "homepage": "https://github.com/lablup/all-smi",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lablup/all-smi/releases/download/v0.26.3/all-smi-windows-x86_64.zip",
-            "hash": "98a52e9a99e92b6646d194ea0f8be6e3befb7beb13c17f8dc0f04479dba4cbf5"
+            "url": "https://github.com/lablup/all-smi/releases/download/v0.27.0/all-smi-windows-x86_64.zip",
+            "hash": "5798882243a14cea6fbb47965d60859c0cc3e83666e88c14c478d8390bfc2e59"
         }
     },
     "bin": "all-smi.exe",
