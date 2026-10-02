@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "1.3.2",
     "description": "A document intelligence CLI for extracting text, metadata, images, and structured data from 100+ file formats.",
     "homepage": "https://docs.xberg.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xberg-io/xberg/releases/download/v1.3.0/xberg-cli-x86_64-pc-windows-msvc.zip",
-            "hash": "9acd16fbc42ceaf01594c32034880d70088882ba2c08f427f7cf22bf20e7ee56",
+            "url": "https://github.com/xberg-io/xberg/releases/download/v1.3.2/xberg-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "76464e383ab03d0d02a8b59081c70a4d7363e0e0c8949c4723d64a73ac7435b3",
             "extract_dir": "xberg-cli-x86_64-pc-windows-msvc"
         }
     },
