@@ -1,16 +1,16 @@
 {
-    "version": "2.9.0",
+    "version": "2.9.1",
     "description": "An open-source secret scanner with live validation and 1,000+ rules for mapping blast radius across your stack.",
     "homepage": "https://mongodb.github.io/kingfisher/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mongodb/kingfisher/releases/download/v2.9.0/kingfisher-windows-x64.zip",
-            "hash": "eea23882fa18f4fd85a6a7b2a2c47c4f1915cdeb2e856aeb3fb47a1c658cd49f"
+            "url": "https://github.com/mongodb/kingfisher/releases/download/v2.9.1/kingfisher-windows-x64.zip",
+            "hash": "3c48bc94f0773345824c832c9db7b502da1ca63c964f2ce1bf64c6dbd851cd2f"
         },
         "arm64": {
-            "url": "https://github.com/mongodb/kingfisher/releases/download/v2.9.0/kingfisher-windows-arm64.zip",
-            "hash": "15351918168bb8b7855513767cb5afe320b253fb47a7d7a6c090af3f500875c7"
+            "url": "https://github.com/mongodb/kingfisher/releases/download/v2.9.1/kingfisher-windows-arm64.zip",
+            "hash": "35a08784686a56bfe836acbcd17ab25ba15f945adb1b2a0e10111e567977ff7f"
         }
     },
     "bin": "kingfisher.exe",
