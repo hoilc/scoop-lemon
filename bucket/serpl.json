@@ -1,12 +1,12 @@
 {
-    "version": "0.3.6",
+    "version": "0.3.9",
     "description": "A simple terminal UI for search and replace, ala VS Code.",
     "homepage": "https://github.com/yassinebridi/serpl",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yassinebridi/serpl/releases/download/0.3.6/serpl-0.3.6-windows-x86_64.tar.gz",
-            "hash": "8cafe689e490337e8d6c26e4704e16ee6f9c21fb9b315635d09de56937cbd3a1"
+            "url": "https://github.com/yassinebridi/serpl/releases/download/0.3.9/serpl-0.3.9-windows-x86_64.tar.gz",
+            "hash": "faf6db324401d2eb01ce9fd9c6c0fb76cf342973e23ed52f966f6b081ae24650"
         }
     },
     "bin": "serpl.exe",
