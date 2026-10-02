@@ -1,20 +1,20 @@
 {
-    "version": "0.7.2",
+    "version": "0.8.0",
     "description": "A terminal UI for GitHub Actions.",
     "homepage": "https://github.com/dlvhdr/gh-enhance",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.7.2/gh-enhance_v0.7.2_windows-amd64.exe#/gh-enhance.exe",
-            "hash": "ee48860dd99552ad16aa9d0e94ad7c5e836627ba06f3bff334e814b521c2a900"
+            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.8.0/gh-enhance_v0.8.0_windows-amd64.exe#/gh-enhance.exe",
+            "hash": "e48a41db623f2448e04e4a4b7e6ff502a721c211a2c387700de1afba16619e11"
         },
         "32bit": {
-            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.7.2/gh-enhance_v0.7.2_windows-386.exe#/gh-enhance.exe",
-            "hash": "3a803eb50d24e8c11c6c51f0aea8d11afa1415f73cd60d356c158aee96697b78"
+            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.8.0/gh-enhance_v0.8.0_windows-386.exe#/gh-enhance.exe",
+            "hash": "3037ce837678db84aa649dbeeb98e105707d40967c6983c3d8e42570cf4f034c"
         },
         "arm64": {
-            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.7.2/gh-enhance_v0.7.2_windows-arm64.exe#/gh-enhance.exe",
-            "hash": "151168403270b23ba92cdc016f6d9f6002dfaffa93319e8cbd247815cd8bd685"
+            "url": "https://github.com/dlvhdr/gh-enhance/releases/download/v0.8.0/gh-enhance_v0.8.0_windows-arm64.exe#/gh-enhance.exe",
+            "hash": "082213230d764656459466f5fb2d7f81c84a3d0b20cd8a3ee091ca6d64cd497d"
         }
     },
     "bin": "gh-enhance.exe",
