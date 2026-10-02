@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "A friendly programming language from the future.",
     "homepage": "https://unison-lang.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/unisonweb/unison/releases/download/release%2F1.4.0/ucm-windows-x64.zip",
-            "hash": "29b07eefe134ab025bbe655e7db9bb8a850fe2fcafae12e1a60fc2687eab3e55"
+            "url": "https://github.com/unisonweb/unison/releases/download/release%2F1.5.0/ucm-windows-x64.zip",
+            "hash": "d2d8378e4258fa176ba2671bc8e70e34af04c94fc202ecb4fa6a9265e16191af"
         }
     },
     "bin": "ucm.cmd",
