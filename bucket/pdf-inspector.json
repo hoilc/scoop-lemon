@@ -1,16 +1,16 @@
 {
-    "version": "1.25.0",
+    "version": "1.25.2",
     "description": "A fast PDF inspection, classification, and text extraction tool.",
     "homepage": "https://firecrawl.github.io/pdf-inspector/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/pdf-inspector-1.25.0/pdf-inspector-1.25.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "ca515dbb9f51289794dcf3bfdfc9bcfb18013c9c537f58f197e392530d4bfdfb"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/pdf-inspector-1.25.2/pdf-inspector-1.25.2-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "5aba3e3b6630617671b24414e05284478f87b5b6b261c11207aee18d85ce92b7"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/pdf-inspector-1.25.0/pdf-inspector-1.25.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "2fe2070fbf54afda5e10b43c48f56330b0dce9c0c87df1f89e3369d5857ca6f4"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/pdf-inspector-1.25.2/pdf-inspector-1.25.2-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4932c3f0c0170202d9187bcfb8fa9be9f0295eb0369784f112da95a0a7172435"
         }
     },
     "bin": [
