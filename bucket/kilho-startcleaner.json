@@ -1,10 +1,10 @@
 {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Easily organize autorun programs.",
     "homepage": "https://v2.kilho.net/en/startcleaner",
     "license": "Freeware",
-    "url": "https://down.kilho.net/StartCleaner-2.0.1.zip",
-    "hash": "2c7b38350287aaf4dc1ad8bb5c881776487e71bffff9c2930b7c6500e8b1b4e2",
+    "url": "https://down.kilho.net/StartCleaner-2.0.2.zip",
+    "hash": "1acd69f917a5a375417814e2cf3dee43fcc2dc9f555babaa36c576e6c22619d8",
     "shortcuts": [
         [
             "StartCleaner.exe",
