@@ -1,12 +1,12 @@
 {
-    "version": "0.3.9",
+    "version": "0.3.10",
     "description": "A fast configurable port scanner with reasonable defaults.",
     "homepage": "https://github.com/mrjackwills/havn",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.9/havn_windows_x86_64.zip",
-            "hash": "69a9aee24336901d58ea0c50fb558206d4d51469d94104da531b0064ab9b34ad"
+            "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.10/havn_windows_x86_64.zip",
+            "hash": "782c657d4ebe8461d7eeadc359205101dab058271ab1050df4e7c9c1013af2fe"
         }
     },
     "bin": "havn.exe",
