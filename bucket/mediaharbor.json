@@ -1,12 +1,12 @@
 {
-    "version": "2.1.0",
+    "version": "3.0.0",
     "description": "A cross-platform media ripping and browsing GUI.",
     "homepage": "https://mediaharbor.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v2.1.0/MediaHarbor_2.1.0_x64_en-US.msi",
-            "hash": "3a4e7cc77e22a6a7f8ef7e96918bc7f3747a09f5163a079166b66d33eaf2797e"
+            "url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_x64_en-US.msi",
+            "hash": "37cd81a6dc97e469e8c818a0bdae30b6424d865454babe5d8f80f5cb09f68a49"
         }
     },
     "extract_dir": "PFiles\\MediaHarbor",
