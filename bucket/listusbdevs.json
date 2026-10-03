@@ -4,7 +4,7 @@
     "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#listusbdevs",
     "license": "Freeware",
     "url": "https://www.uwe-sieber.de/files/ListUsbDevs.zip",
-    "hash": "e019aed32d8d29a74b05f0c16b856299df710e99a53105ffbf6f58748e03796c",
+    "hash": "c7e944be61c84b9afd0bf18ae2fe5bf4ee43667aa6e067295e00bd16bb60e5b0",
     "architecture": {
         "64bit": {
             "extract_dir": "x64"
