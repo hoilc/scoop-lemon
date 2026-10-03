@@ -1,12 +1,12 @@
 {
-    "version": "0.1.0-beta.5",
+    "version": "0.1.0",
     "description": "Make the terminal/shell accessible for AI agents to automate tasks with ease.",
     "homepage": "https://github.com/microsoft/tui-test",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/tui-test/releases/download/0.1.0-beta.5/tui-test-x86_64-pc-windows-msvc.zip",
-            "hash": "231a49600d596a1c34939f82c17f0337f27b18d2c39c38e67e348ad1958027b5"
+            "url": "https://github.com/microsoft/tui-test/releases/download/0.1.0/tui-test-x86_64-pc-windows-msvc.zip",
+            "hash": "7d93e534d7a6a5669d9444b1adf60d154281e2de6d6d5dd6035794cde753d4cf"
         }
     },
     "bin": "tui-test.exe",
