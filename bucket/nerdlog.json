@@ -1,20 +1,20 @@
 {
-    "version": "1.12.0",
+    "version": "1.13.0",
     "description": "A fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server.",
     "homepage": "https://github.com/dimonomid/nerdlog",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.12.0/nerdlog_1.12.0_windows_amd64.zip",
-            "hash": "09a5bc19af8805789dd50c104c4f5375386ee92ecb9151fe4e51e57e0079b3dc"
+            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.13.0/nerdlog_1.13.0_windows_amd64.zip",
+            "hash": "499d5dad9620eca4106ede54f180f125194dbfc45b0a524474f42d356761126c"
         },
         "32bit": {
-            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.12.0/nerdlog_1.12.0_windows_i386.zip",
-            "hash": "ba08d2ba8e1ca2524fb717ee5c68bf4e0230c9f21b43e35f901c0030da2db266"
+            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.13.0/nerdlog_1.13.0_windows_i386.zip",
+            "hash": "a01614d14fc8f03ee4acb8758d2768b5515d87a84d82f93752e20e7eff197f04"
         },
         "arm64": {
-            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.12.0/nerdlog_1.12.0_windows_arm64.zip",
-            "hash": "5b10eecfdebfad402bf5801cabfb4811f89b39609cf461b9564deef1e0573f52"
+            "url": "https://github.com/dimonomid/nerdlog/releases/download/v1.13.0/nerdlog_1.13.0_windows_arm64.zip",
+            "hash": "bd490e6b39803638509e10809405d5e4a94ed970ce70b809a5c19d4aa0ce6821"
         }
     },
     "bin": "nerdlog.exe",
