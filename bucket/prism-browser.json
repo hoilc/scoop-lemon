@@ -1,12 +1,12 @@
 {
-    "version": "0.3.19",
+    "version": "0.3.22",
     "description": "A local-first open-source multi-profile fingerprint browser. | 基于定制 Chromium 的本地指纹浏览器环境管理器",
     "homepage": "https://github.com/DFarm6/Prism-Browser-Community",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DFarm6/Prism-Browser-Community/releases/download/v0.3.19/Prism-Browser-0.3.19-windows-x64-portable.zip",
-            "hash": "3bec35cb4de4edebb6b95f48ef26a95090c9ac09de8b4f618dfaecbc5e2bd0b0"
+            "url": "https://github.com/DFarm6/Prism-Browser-Community/releases/download/v0.3.22/Prism-Browser-0.3.22-windows-x64-portable.zip",
+            "hash": "7c977d0c396fb5e0a098057f41d4cb963aed7bab0b793fd7a5ecaeea53652dc9"
         }
     },
     "shortcuts": [
