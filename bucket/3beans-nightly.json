@@ -1,12 +1,12 @@
 {
-    "version": "b277-20260805-c5ce9ee",
+    "version": "b276-20260724-968f65c",
     "description": "A low-level 3DS emulator.",
     "homepage": "https://github.com/Hydr8gon/3Beans",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/Hydr8gon/3Beans/actions/runs/31044365176/3beans-windows.zip",
-            "hash": "32794b84face644c070ee9e4b5fd7499ded9512f8b45de4c395ce626fe8b0670"
+            "url": "https://nightly.link/Hydr8gon/3Beans/actions/runs/30061702984/3beans-windows.zip",
+            "hash": "98fd729f6223b1f7d0859b844fc8bc88668ab054a035e5612bb3d2405628eb22"
         }
     },
     "shortcuts": [
