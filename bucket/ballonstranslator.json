@@ -1,13 +1,13 @@
 {
-    "version": "1.5.17",
+    "version": "1.5.18",
     "description": "深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑 | Yet another computer-aided comic/manga translation tool powered by deeplearning.",
     "homepage": "https://github.com/dmMaze/BallonsTranslator",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dmMaze/BallonsTranslator/releases/download/v1.5.17/Ballonstranslator_win_minium.zip",
+            "url": "https://github.com/dmMaze/BallonsTranslator/releases/download/v1.5.18/Ballonstranslator_win_minium.zip",
             "extract_dir": "Ballonstranslator_win_minium",
-            "hash": "fa8d0016860b8f89bc82f2854c94f0ac1657b742d2a74dfcb6399cb88e6ec401"
+            "hash": "bddb3fc34cf2fc53ebaf0e0c81a8678333619f7884b26377117fd9b9a0f1e364"
         }
     },
     "pre_install": [
