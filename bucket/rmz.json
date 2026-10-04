@@ -1,16 +1,16 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "A zippy alternative to rm that focuses on maximizing performance.",
     "homepage": "https://github.com/SUPERCILEX/fuc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.2.0/x86_64-pc-windows-msvc-rmz.exe#/rmz.exe",
-            "hash": "6b39cd48edaca94301e4c2534921d4ccfc865701e078cd54ef9da89a1ba7d4b6"
+            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.2.1/x86_64-pc-windows-msvc-rmz.exe#/rmz.exe",
+            "hash": "1469ff8e3a94ba7b927dcc1a8d85ec3cd6049f803c54abd60e3d2ecfa35bd862"
         },
         "arm64": {
-            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.2.0/aarch64-pc-windows-msvc-rmz.exe#/rmz.exe",
-            "hash": "42381d6d8962e5839d23cc94e1d712de95812c5c3b50bf8de302f75f1ae7539e"
+            "url": "https://github.com/SUPERCILEX/fuc/releases/download/3.2.1/aarch64-pc-windows-msvc-rmz.exe#/rmz.exe",
+            "hash": "d69b82888b72d276c6ba5b6c168cbe6cdd5f7a8ccfdced6ef70c64973a43271a"
         }
     },
     "bin": "rmz.exe",
