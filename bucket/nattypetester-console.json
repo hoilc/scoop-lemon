@@ -1,13 +1,13 @@
 {
-    "version": "10.0.8",
+    "version": "10.0.9",
     "description": "A commandline tool that tests out what your NAT type is. / 命令行版测试当前网络的 NAT 类型（STUN）",
     "homepage": "https://github.com/HMBSbige/NatTypeTester",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HMBSbige/NatTypeTester/releases/download/10.0.8/NatTypeTester.Console-10.0.8-win-x64.7z",
+            "url": "https://github.com/HMBSbige/NatTypeTester/releases/download/10.0.9/NatTypeTester.Console-10.0.9-win-x64.7z",
             "extract_dir": "NatTypeTester.Console-win-x64",
-            "hash": "b0fc6bfe67101e2ccb6e6e7c6052e9ffff7792162ff312de81d3840251b64044"
+            "hash": "0ae65bd8191e287b5a6773299275d45a92883c537049c365e3b7668921491ea8"
         }
     },
     "bin": "NatTypeTester.Console.exe",
