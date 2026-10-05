@@ -1,10 +1,10 @@
 {
-    "version": "4.4.0",
+    "version": "4.4.1",
     "description": "Indents, converts and relabels Fortran programs.",
     "homepage": "https://www.ratrabbit.nl/ratrabbit/findent/",
     "license": "BSD-3-Clause",
-    "url": "https://sourceforge.net/projects/findent/files/findent-4.4.0.zip",
-    "hash": "sha1:03b2abbf01215e3dea2bbcc73da5999a3c1ce169",
+    "url": "https://sourceforge.net/projects/findent/files/findent-4.4.1.zip",
+    "hash": "sha1:98dea73added7de082dc28442b6ea4167d87e756",
     "bin": [
         "findent.exe",
         "wfindent.bat"
