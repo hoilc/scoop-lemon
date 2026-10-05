@@ -1,20 +1,20 @@
 {
-    "version": "0.34.0",
+    "version": "0.35.0",
     "description": "A command-line tool for instant terminal sharing.",
     "homepage": "https://upterm.dev",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/owenthereal/upterm/releases/download/v0.34.0/upterm_windows_amd64.tar.gz",
-            "hash": "fed524e0299cfd4bbf4af77c2e20f0ef3ff1fd40c2955680cc5a10485144da6c"
+            "url": "https://github.com/owenthereal/upterm/releases/download/v0.35.0/upterm_windows_amd64.tar.gz",
+            "hash": "e9604d784872359f09a1ba206613c2183b07d4b37cfbdcde322344c87e1d769c"
         },
         "32bit": {
-            "url": "https://github.com/owenthereal/upterm/releases/download/v0.34.0/upterm_windows_386.tar.gz",
-            "hash": "3b19e282a3e67c1c7efccafd685b1a726cc9d765a5e492894c303bebd80fe28a"
+            "url": "https://github.com/owenthereal/upterm/releases/download/v0.35.0/upterm_windows_386.tar.gz",
+            "hash": "91ce5f440e90dc2d80894f9e210214481e51135cb7dfccf2ded3b291015c707f"
         },
         "arm64": {
-            "url": "https://github.com/owenthereal/upterm/releases/download/v0.34.0/upterm_windows_arm64.tar.gz",
-            "hash": "8394aacce387db4cc5524444266400df7d6744b41d1eb9bb1d19ba3bdcb40612"
+            "url": "https://github.com/owenthereal/upterm/releases/download/v0.35.0/upterm_windows_arm64.tar.gz",
+            "hash": "7efaf3724379c1200568dd1a8f40b160ceffd1cc6af9e41fc6da99b8d1d1772c"
         }
     },
     "bin": "upterm.exe",
