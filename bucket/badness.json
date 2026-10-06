@@ -1,16 +1,16 @@
 {
-    "version": "0.25.0",
+    "version": "0.26.0",
     "description": "A LaTeX language server, formatter, and linter.",
     "homepage": "https://badness.dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jolars/badness/releases/download/v0.25.0/badness-x86_64-pc-windows-msvc.zip",
-            "hash": "589e4c87a3e66d3b3d70d24f103501bc66575fd3ce6b85f4b96bfd0dd892b069"
+            "url": "https://github.com/jolars/badness/releases/download/v0.26.0/badness-x86_64-pc-windows-msvc.zip",
+            "hash": "6ccd6f3aa5e5d0db729e00f2bbc022dbd58fb39a027c90ea565ac5e5c8ce170e"
         },
         "arm64": {
-            "url": "https://github.com/jolars/badness/releases/download/v0.25.0/badness-aarch64-pc-windows-msvc.zip",
-            "hash": "316175fbbf7da0c2f10f3c178514c9d4c21b583fc9d804184c7e2186b95f56e0"
+            "url": "https://github.com/jolars/badness/releases/download/v0.26.0/badness-aarch64-pc-windows-msvc.zip",
+            "hash": "946a014ef57a7c73b76a32721203093195bd467e858ec55560a586d7b1f9f7ee"
         }
     },
     "bin": "badness.exe",
