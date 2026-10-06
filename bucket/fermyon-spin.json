@@ -1,12 +1,12 @@
 {
-    "version": "4.2.1",
+    "version": "4.2.2",
     "description": "An open source developer tool for building and running serverless applications powered by WebAssembly.",
     "homepage": "https://github.com/fermyon/spin",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fermyon/spin/releases/download/v4.2.1/spin-v4.2.1-windows-amd64.zip",
-            "hash": "77eb67a9cecd743d0d12efc2aa0f2c61e029d154d76da06f8a5b16741dd6d2be"
+            "url": "https://github.com/fermyon/spin/releases/download/v4.2.2/spin-v4.2.2-windows-amd64.zip",
+            "hash": "583d908fc399689031e216a597ac2a7308024b85bbbf507d0e52127f766f0db5"
         }
     },
     "bin": "spin.exe",
