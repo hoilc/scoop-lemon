@@ -1,16 +1,16 @@
 {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "description": "A language server, formatter, and linter for Julia that never has to run Julia itself.",
     "homepage": "https://fatou.dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jolars/fatou/releases/download/v0.22.0/fatou-x86_64-pc-windows-msvc.zip",
-            "hash": "8ddcc89b35dbd0ead7df2502bb5af891fa9a94928ae641524d267b9ebe983ef3"
+            "url": "https://github.com/jolars/fatou/releases/download/v0.23.0/fatou-x86_64-pc-windows-msvc.zip",
+            "hash": "5a29e20e0fc4f2acb66a9135d62aaa863ecdde51f82631932147b383ef56fd43"
         },
         "arm64": {
-            "url": "https://github.com/jolars/fatou/releases/download/v0.22.0/fatou-aarch64-pc-windows-msvc.zip",
-            "hash": "0b59140301744dd99d1a5ccd61f3df41aed1c03f7d1714ccca29f72362362247"
+            "url": "https://github.com/jolars/fatou/releases/download/v0.23.0/fatou-aarch64-pc-windows-msvc.zip",
+            "hash": "3f9021e6d13f34a209bf453969c183c701e5ebe91a66b504b72062cee1436d5f"
         }
     },
     "bin": "fatou.exe",
