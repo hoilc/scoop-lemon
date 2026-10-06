@@ -1,12 +1,12 @@
 {
-    "version": "0.25.0",
+    "version": "0.26.0",
     "description": "A high-performance PDF content extraction tool that converts to Markdown, text, and JSON.",
     "homepage": "https://github.com/iyulab/unpdf",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iyulab/unpdf/releases/download/v0.25.0/unpdf-windows-x86_64-v0.25.0.zip",
-            "hash": "3be66e7e0ec9a485dc04e2a2c279adea9e0585068957dea99f700777162b9328"
+            "url": "https://github.com/iyulab/unpdf/releases/download/v0.26.0/unpdf-windows-x86_64-v0.26.0.zip",
+            "hash": "8ae9a851219a431313203294e0be7605183dad4dcb62114ffed9c81a87f5e18b"
         }
     },
     "bin": "unpdf.exe",
