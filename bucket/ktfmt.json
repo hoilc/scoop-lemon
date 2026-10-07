@@ -1,10 +1,10 @@
 {
-    "version": "0.64",
+    "version": "0.65",
     "description": "A program that pretty-prints (formats) Kotlin code, based on google-java-format.",
     "homepage": "https://github.com/facebook/ktfmt",
     "license": "Apache-2.0",
-    "url": "https://github.com/facebook/ktfmt/releases/download/v0.64/ktfmt-0.64-with-dependencies.jar#/ktfmt.jar",
-    "hash": "b8fbb814808d8da33f74a7bbacb6d1748cef81c0202a7f829b87139520b51273",
+    "url": "https://github.com/facebook/ktfmt/releases/download/v0.65/ktfmt-0.65-with-dependencies.jar#/ktfmt.jar",
+    "hash": "aba9753b6ab387926179ab7318ba8e0c33dad483ebc72f633e79522265b15214",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "ktfmt.bat",
     "suggest": {
