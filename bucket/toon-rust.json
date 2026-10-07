@@ -1,16 +1,16 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.1",
     "description": "A full-featured command-line tool for working with the TOON format, written in Rust.",
     "homepage": "https://github.com/toon-format/toon-rust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/toon-format-0.5.0/toon-format-0.5.0-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "f8557f8eb7dd677c85b5a7445607ddd38a8357809fd703a135ff8590554c1b39"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/toon-format-0.6.1/toon-format-0.6.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "87ea2fb25676c1a6df4f8fcdd0ecc38bcca8550a65486069009c3f2402c6c59a"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/toon-format-0.5.0/toon-format-0.5.0-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "afcaf665ef093fb1e0e89c312bf2f8fa233d0d5dd8190dce99160d18c1b91d73"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/toon-format-0.6.1/toon-format-0.6.1-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "5d258629ca19837ad24f7c50df2cd75b3caa9ad23f331eedef2040c93a05b947"
         }
     },
     "bin": "toon.exe",
