@@ -1,16 +1,16 @@
 {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "A fast SVG toolchain for optimisation, minification, linting, and actions.",
     "homepage": "https://github.com/noahbald/oxvg",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.8/oxvg-0.0.8-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "dc96715a8b5495ab692deddaaf69531a1708966961ed1a19e60161c10613d18c"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.9/oxvg-0.0.9-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "8c58dbb63a5395d4f88f3f5c86bff9bb298d61a5fc2f8b066f01bf776ccb33a7"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.8/oxvg-0.0.8-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "6f6ab21727d9d55b63dd3598face1f0299c97ca81b12e996ead1144def685c1c"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/oxvg-0.0.9/oxvg-0.0.9-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "b952363edd6169a3faed35fc638f5a6c2dc46853df961f1155f770e67ada04de"
         }
     },
     "bin": "oxvg.exe",
