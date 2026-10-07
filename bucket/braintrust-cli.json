@@ -1,16 +1,16 @@
 {
-    "version": "0.23.0",
+    "version": "0.24.0",
     "description": "The command-line interface for Braintrust, an active observability platform for instrumenting, understanding, and improving agents.",
     "homepage": "https://www.braintrust.dev/docs/reference/cli/quickstart",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/braintrustdata/bt/releases/download/v0.23.0/bt-x86_64-pc-windows-msvc.zip",
-            "hash": "84c1db8a01a6410da72468caea1b3229bbe8d4df1240e78ffcaf701beff0f05c"
+            "url": "https://github.com/braintrustdata/bt/releases/download/v0.24.0/bt-x86_64-pc-windows-msvc.zip",
+            "hash": "621e0f7ce9997ef018f071941df6726ede3aff9e70c1d42382bbc8fb612eedf9"
         },
         "arm64": {
-            "url": "https://github.com/braintrustdata/bt/releases/download/v0.23.0/bt-aarch64-pc-windows-msvc.zip",
-            "hash": "aa08800737d001c2aca8394fd3bcd191887b8691a0f1f1165034845a32e7d366"
+            "url": "https://github.com/braintrustdata/bt/releases/download/v0.24.0/bt-aarch64-pc-windows-msvc.zip",
+            "hash": "b39af499931e09b5693fc8daed6507e3466192977698f660180869322f1f786b"
         }
     },
     "bin": "bt.exe",
