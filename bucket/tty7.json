@@ -15,7 +15,10 @@
             "tty7"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/l0ng-ai/tty7/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
