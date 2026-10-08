@@ -1,0 +1,30 @@
+{
+    "version": "0.6.0",
+    "description": "BeyondTranslate (formerly Biyi) is a fast, native-experience translation app, built with Flutter and Rust.",
+    "homepage": "https://beyondtranslate.com/",
+    "license": "Liteware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/beyondtranslate/beyondtranslate-ce/releases/download/v0.6.0/beyondtranslate-0.6.0+19-windows-setup.exe",
+            "hash": "c413ea8cd8a6ab0759b950c75592e05be2ae17edf808d713f2ed5b1bf83adf35"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "beyondtranslate.exe",
+            "BeyondTranslate"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/beyondtranslate/beyondtranslate-ce/releases/latest",
+        "regex": "beyondtranslate-([\\d.]+)\\+(?<build>\\d+)-windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/beyondtranslate/beyondtranslate-ce/releases/download/v$version/beyondtranslate-$version+$matchBuild-windows-setup.exe"
+            }
+        }
+    }
+}
