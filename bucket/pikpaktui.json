@@ -1,16 +1,16 @@
 {
-    "version": "0.0.58",
+    "version": "0.0.60",
     "description": "A TUI and CLI client for PikPak cloud storage.",
     "homepage": "https://app.snaix.homes/pikpaktui/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.58/pikpaktui-x86_64-windows.zip",
-            "hash": "1f8350d1d6c8f924325502987942d8efdcb360725cbe49fa4b991a72a350f143"
+            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.60/pikpaktui-x86_64-windows.zip",
+            "hash": "b43207241454568b8c257f216bd158f3f15689a2e2530d55725adaeba4be25ad"
         },
         "arm64": {
-            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.58/pikpaktui-aarch64-windows.zip",
-            "hash": "aa5f432e067e04a181d1a8989833ba8b2c39c0c82c43f27d1dcd3daa2513e86e"
+            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.60/pikpaktui-aarch64-windows.zip",
+            "hash": "599d4c1d0d69c689f180d0342101b82414c9ae86df241db2ba062bc67d4f4a53"
         }
     },
     "bin": "pikpaktui.exe",
