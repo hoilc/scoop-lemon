@@ -1,20 +1,20 @@
 {
-    "version": "2.16.0",
+    "version": "2.17.0",
     "description": "A subdomain discovery tool that returns valid subdomains for websites, using passive online sources.",
     "homepage": "https://github.com/projectdiscovery/subfinder",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.16.0/subfinder_2.16.0_windows_amd64.zip",
-            "hash": "ef760f0a064c22811100c75a61da35ba73d71398cb99ae85d32d0eed44496ab8"
+            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.17.0/subfinder_2.17.0_windows_amd64.zip",
+            "hash": "a3fd612928d591fb31c1e59a2e06055e364421ba32251e553073f5673a2d3103"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.16.0/subfinder_2.16.0_windows_386.zip",
-            "hash": "8c71dec8cd03b53a4128a962f2c51495ab26cbd7eda8c07f4bfceacaeb1e0472"
+            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.17.0/subfinder_2.17.0_windows_386.zip",
+            "hash": "ee46e9177013b45ccef3f848ac55209e0c5a6c669b5c0735b0dbb4c671fbcc5a"
         },
         "arm64": {
-            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.16.0/subfinder_2.16.0_windows_arm64.zip",
-            "hash": "442ab5a802953035767cddafc05a988df9625249e5695af9ee3a4d731c7ff60b"
+            "url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.17.0/subfinder_2.17.0_windows_arm64.zip",
+            "hash": "579f8dc7b5bb3da01672fb8b48ba1c232002fe20d1f22d3ddf4b952790f65fe9"
         }
     },
     "bin": "subfinder.exe",
