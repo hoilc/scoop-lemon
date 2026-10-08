@@ -1,12 +1,12 @@
 {
-    "version": "0.1.22",
+    "version": "0.2.0",
     "description": "Another free and open-source feed reader for macOS and Window.",
     "homepage": "https://zhanglun.github.io/lettura/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhanglun/lettura/releases/download/v0.1.22/Lettura_0.1.22_x64_en-US.msi",
-            "hash": "13a3e359349abf594af597e0f9b58a32bc9991d31e00de7b32922160bf5cdadd"
+            "url": "https://github.com/zhanglun/lettura/releases/download/v0.2.0/Lettura_0.2.0_x64_en-US.msi",
+            "hash": "b10446bb76d1c4a20932343418aad60f854be25a8fb97db56839a708c0d8bab4"
         }
     },
     "extract_dir": "PFiles\\Lettura",
