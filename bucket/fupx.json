@@ -1,15 +1,15 @@
 {
     "version": "3.2",
     "description": "An advanced graphical interface for the UPX (Ultimate Packer for eXecutables).",
-    "homepage": "https://www.fosshub.com/FUPX.html",
+    "homepage": "https://web.archive.org/web/20251013185951/https://www.pazera-software.com/products/free-upx/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.fosshub.com/FUPX.html/FUPX_64bit_PORTABLE.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/fupx/FUPX_64bit_PORTABLE_v3.2.zip",
             "hash": "5835d782c6fce9aa3d908e4c7577e1b6965adbb2220903fcc4c5141408e22e7f"
         },
         "32bit": {
-            "url": "https://www.fosshub.com/FUPX.html/FUPX_32bit_PORTABLE.zip",
+            "url": "https://scoop-lemon.tari.xyz/hosted/fupx/FUPX_32bit_PORTABLE_v3.2.zip",
             "hash": "255c064992912267aea2351fa6d20dce13dabf072ed5c68055efe0bdb7745db2"
         }
     },
@@ -21,18 +21,5 @@
             "fupx.exe",
             "FUPX"
         ]
-    ],
-    "checkver": {
-        "regex": "<dd itemprop=\"softwareVersion\">([^<>]+?)</dd>"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.fosshub.com/FUPX.html/FUPX_64bit_PORTABLE.zip"
-            },
-            "32bit": {
-                "url": "https://www.fosshub.com/FUPX.html/FUPX_32bit_PORTABLE.zip"
-            }
-        }
-    }
+    ]
 }
