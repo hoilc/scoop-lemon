@@ -1,12 +1,12 @@
 {
-    "version": "0.1.0-alpha.6",
+    "version": "0.1.0-alpha.7",
     "description": "A native email client focused on speed and low memory usage.",
     "homepage": "https://flectar.com/mail/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/flectar/mail/releases/download/v0.1.0-alpha.6/flectar-mail-0.1.0-alpha.6-windows-x64.zip",
-            "hash": "ff29de685ff83925700675d050b1416f8fd867c2f9ead55eb9163f135bd3f921"
+            "url": "https://github.com/flectar/mail/releases/download/v0.1.0-alpha.7/flectar-mail-0.1.0-alpha.7-windows-x64.zip",
+            "hash": "37d0366f3c20235097c7b59b733c347002e092b78c8b499b90e018c67282cc1a"
         }
     },
     "shortcuts": [
