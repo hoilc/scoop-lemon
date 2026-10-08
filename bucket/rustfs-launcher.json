@@ -1,12 +1,12 @@
 {
-    "version": "0.0.4",
-    "description": "A Tauri + Leptos application for launching RustFS.",
+    "version": "1.0.1",
+    "description": "A small desktop app that runs RustFS, an S3-compatible object storage server, on your own computer.",
     "homepage": "https://github.com/rustfs/launcher",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v0.0.4-setup.exe",
-            "hash": "741e4f3163b16149c178c05393c57bbac55d5f6e4e0e32d12f396340de5f6ea8"
+            "url": "https://github.com/rustfs/launcher/releases/download/1.0.1/rustfs-launcher-windows-x86_64-1.0.1-setup.exe#/dl.7z",
+            "hash": "dd8173f185310534531fcd5c66038e92649b68c8024b580829a317ae48b4d0f3"
         }
     },
     "shortcuts": [
@@ -19,15 +19,13 @@
     "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.dandan.rustfs-launcher\" -Force -Recurse -ErrorAction SilentlyContinue }",
     "notes": [
         "RustFS Launcher is NOT portable.",
-        "Settings are stored in '%LOCALAPPDATA%\\com.dandan.rustfs-launcher', and can be purged using 'scoop uninstall --purge rustfs-launcher'."
+        "Settings are stored in '%LOCALAPPDATA%\\com.dandan.rustfs-launcher', and will be purged during uninstallation with --purge flag."
     ],
-    "checkver": {
-        "github": "https://github.com/rustfs/launcher"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.rustfs.com/artifacts/rustfs-launcher/release/rustfs-launcher-windows-x86_64-v$version-setup.exe#/dl.7z"
+                "url": "https://github.com/rustfs/launcher/releases/download/$version/rustfs-launcher-windows-x86_64-$version-setup.exe#/dl.7z"
             }
         }
     }
