@@ -14,9 +14,9 @@
         }
     },
     "bin": [
-        "ag.exe",
+        "ag-cli.exe",
         [
-            "ag.exe",
+            "ag-cli.exe",
             "atomgit"
         ]
     ],
