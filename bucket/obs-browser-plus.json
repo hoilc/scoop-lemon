@@ -1,16 +1,16 @@
 {
-    "version": "3.26.3",
+    "version": "3.26.9",
     "description": "OBS Browser+ 是一款一款用于访问和管理华为云对象存储服务 OBS 的图形化工具，支持完善的桶管理和对象管理操作",
     "homepage": "https://support.huaweicloud.com/browsertg-obs/obs_03_1000.html",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win64/obs-browser-plus%20Setup%203.26.3.exe#/dl.7z",
-            "hash": "sha512:9dea25fdb65bcdfa692350143cea86b9435664694fb3510a1eb04f0139527c254f34f099cc20a55b3cd1a5c0525d17f6375719b80078b4f03dc05e643e65a1b0"
+            "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win64/obs-browser-plus%20Setup%203.26.9.exe#/dl.7z",
+            "hash": "sha512:acad14c18937610e1b84715891c8a0897062806f2498948d2309bb12f9f581b03ff1ab71ee600b619a9de698803914390507531d1c9019fd368d4298c3d23a0f"
         },
         "32bit": {
-            "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win32/obs-browser-plus%20Setup%203.26.3.exe#/dl.7z",
-            "hash": "sha512:c7b16ff169a74daa6a06ef6e7a67e6d3aefd2be7f52c80c477801f7271598fc98b999b6832503e083080768f8e12e95c35bd08afea2e2f6cce2ba0173b6b5f11"
+            "url": "https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsbrowserplus/win32/obs-browser-plus%20Setup%203.26.9.exe#/dl.7z",
+            "hash": "sha512:a28601162d2cfa270084dff83d8d2f5b62bdc12be2f6bfba2ff5d4c859daf982141995c0cfb3375619c22c4fa14afe814c0224678303a312adddddba2f70800f"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\`$PLUGINSDIR\\app-*.7z\" | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -DestinationPath \"$dir\\\" -Removal",
