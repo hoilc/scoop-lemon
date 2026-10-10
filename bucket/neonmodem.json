@@ -1,20 +1,20 @@
 {
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Neon Modem Overdrive is a BBS-style command line client that supports Hyperuplink, Discourse, Lemmy, Lobsters and Hacker News as backends.",
     "homepage": "https://neonmodem.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mrusme/neonmodem/releases/download/v1.1.0/neonmodem_1.1.0_windows_amd64.zip",
-            "hash": "7ae6d0476ea1dad65d3d856ea127aa0f1ab44d595b0459b95424f84a49ff0e61"
+            "url": "https://github.com/mrusme/neonmodem/releases/download/v2.0.0/neonmodem_2.0.0_windows_amd64.zip",
+            "hash": "6201edaa7b766d05a97f052df22cc4d441918a2e375069349d439492c2d97efc"
         },
         "32bit": {
-            "url": "https://github.com/mrusme/neonmodem/releases/download/v1.1.0/neonmodem_1.1.0_windows_386.zip",
-            "hash": "2aacb2810e96f95c62b8e919188572e72ab1edeac53329014124c0ee5531c3d0"
+            "url": "https://github.com/mrusme/neonmodem/releases/download/v2.0.0/neonmodem_2.0.0_windows_386.zip",
+            "hash": "6293703afc773fe94361d379683a307ca629db23a6ec2091e7ce84a5c74fd516"
         },
         "arm64": {
-            "url": "https://github.com/mrusme/neonmodem/releases/download/v1.1.0/neonmodem_1.1.0_windows_arm64.zip",
-            "hash": "570035f3a14acd2acd244030563cae741ee44bf930a1002b4b4f5b31e5b2381a"
+            "url": "https://github.com/mrusme/neonmodem/releases/download/v2.0.0/neonmodem_2.0.0_windows_arm64.zip",
+            "hash": "354ab322a178bfa4e26173d82af22efa753935f1c4311ebd8f490525573679ee"
         }
     },
     "bin": "neonmodem.exe",
