@@ -1,16 +1,16 @@
 {
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "A Qt-based, lightweight and cross-platform IDE specially designed for competitive programming.",
     "homepage": "https://cpeditor.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-windows-x64-portable.zip",
-            "hash": "2dcd30cc209bb7f4946faabe64f0e260f70ba4cbb2bdb2e0ea1294f589e08969"
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/7.0.3/cpeditor-7.0.3-windows-x64-portable.zip",
+            "hash": "23ae0f9a4e010a4a9769acec6209200d77a4247c13af46aaa3339c83627e519e"
         },
         "32bit": {
-            "url": "https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-windows-x86-portable.zip",
-            "hash": "7ac2b17a40e19f5de410774b02ed293d5a9ef985f4309d48f090075069aa9a8a"
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/7.0.3/cpeditor-7.0.3-windows-x86-portable.zip",
+            "hash": "3982a47e68a5ce51b12564dfffe99d485f67e78d43909c635cf42a8d1ed638f6"
         }
     },
     "bin": "cpeditor.exe",
