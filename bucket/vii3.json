@@ -1,12 +1,12 @@
 {
-    "version": "3.5.31_B2",
+    "version": "3.5.32_B1",
     "description": "A high-performance frameless image viewer based on Avalonia, delivering ultra-smooth switching experience, comprehensive format support.",
     "homepage": "https://github.com/vvyoko/Vii3",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vvyoko/Vii3/releases/download/3.5.31/Vii3_3.5.31_B2.zip",
-            "hash": "5959d3e75c0ce3a76742f1ede8f35d5f12f7ac4ff36e47c2cde73865b39aa707"
+            "url": "https://github.com/vvyoko/Vii3/releases/download/3.5.32/Vii3_3.5.32_B1.zip",
+            "hash": "1efebc135bf93f4363576c63090eb9d75972d1c564da1cd89c84794647737785"
         }
     },
     "extract_dir": "Vii3",
