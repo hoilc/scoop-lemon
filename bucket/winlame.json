@@ -1,0 +1,21 @@
+{
+    "version": "2.25.1.161",
+    "description": "An easy-to-use encoder for many audio formats, including MP3, Opus, Ogg Vorbis and more.",
+    "homepage": "https://winlame.sourceforge.io/",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/vividos/winLAME/releases/download/winlame-2025-release-1/winLAME-2.25.1.161.zip",
+    "hash": "1c64e1b88065e9491a121d01e70181b31dd9aec93668bb558c2546d853f2e154",
+    "shortcuts": [
+        [
+            "winLAME.exe",
+            "winLAME"
+        ]
+    ],
+    "checkver": {
+        "url": "https://winlame.sourceforge.io/download.html",
+        "regex": "/releases/download/(?<tag>[^/]+?)/winLAME-([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/vividos/winLAME/releases/download/$matchTag/winLAME-$version.zip"
+    }
+}
