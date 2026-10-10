@@ -1,0 +1,19 @@
+{
+    "version": "1.18.2",
+    "description": "Convert Audible aax files to mp3 and m4a/m4b.",
+    "homepage": "https://github.com/audiamus/AaxAudioConverter",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/audiamus/AaxAudioConverter/releases/download/v1.18.2/AaxAudioConverter-1.18.2-Setup.exe",
+    "hash": "e027849bdc8909749fa776d9332a20b44b1679582afc745278737f79464f30d6",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "AaxAudioConverter.exe",
+            "AAX Audio Converter"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/audiamus/AaxAudioConverter/releases/download/v$version/AaxAudioConverter-$version-Setup.exe"
+    }
+}
