@@ -1,0 +1,36 @@
+{
+    "version": "1.33.0",
+    "description": "基于 Tauri 2、Vue 3 和 Rust 构建的现代非官方酷安桌面客户端",
+    "homepage": "https://coolapk.123741.xyz/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.33.0/coolapk-desktop_1.33.0_x64-portable.exe#/coolapk-desktop.exe",
+            "hash": "9a8a8ca0b6bc63b5b68fe34aedbe8cec39e1c722d68f62e1ff149cb45f1fc1d3"
+        },
+        "arm64": {
+            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.33.0/coolapk-desktop_1.33.0_arm64-portable.exe#/coolapk-desktop.exe",
+            "hash": "ea86329d497809ca925c7d7c95aaf60398900ed36a78bdf862371e4f4ec6c6f1"
+        }
+    },
+    "shortcuts": [
+        [
+            "coolapk-desktop.exe",
+            "酷安"
+        ]
+    ],
+    "post_uninstall": "if ($purge) { Remove-Item \"$env:LOCALAPPDATA\\com.coolapk.desktop\" -Force -Recurse -ErrorAction SilentlyContinue }",
+    "checkver": {
+        "github": "https://github.com/daimiaopeng/coolapk-desktop"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v$version/coolapk-desktop_$version_x64-portable.exe#/coolapk-desktop.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v$version/coolapk-desktop_$version_arm64-portable.exe#/coolapk-desktop.exe"
+            }
+        }
+    }
+}
