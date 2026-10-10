@@ -1,0 +1,32 @@
+{
+    "version": "5.0.1",
+    "description": "An audio encoder that supports major codecs via FFMPEG, Opusenc, DeeZy (DEE), FDK-AAC, and QAAC.",
+    "homepage": "https://jessielw.github.io/FFMPEG-Audio-Encoder/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jessielw/FFMPEG-Audio-Encoder/releases/download/5.0.1/FFMPEGAudioEncoder-5.0.1-windows-x64.zip",
+            "hash": "1f75a23bf15294cc7c9e3919972933c7b20382babe4bb6484e6977e45e1a97cb"
+        }
+    },
+    "extract_dir": "FFMPEGAudioEncoder",
+    "shortcuts": [
+        [
+            "FFMPEGAudioEncoder.exe",
+            "FFMPEG Audio Encoder"
+        ]
+    ],
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "checkver": {
+        "github": "https://github.com/jessielw/FFMPEG-Audio-Encoder"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jessielw/FFMPEG-Audio-Encoder/releases/download/$version/FFMPEGAudioEncoder-$version-windows-x64.zip"
+            }
+        }
+    }
+}
