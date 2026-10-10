@@ -1,20 +1,20 @@
 {
-    "version": "0.30.1",
+    "version": "0.30.2",
     "description": "A TUI application that manages and synchronizes kubectl port-forward configurations with ease.",
     "homepage": "https://kftray.app/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.1/kftui_windows_x86_64.exe#/kftui.exe",
-            "hash": "841e8b22089ae6cd31febbb7b886c8c0ecae69ceef9cb3b94beed08db106b603"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.2/kftui_windows_x86_64.exe#/kftui.exe",
+            "hash": "3f655750841abc0abed549e514e67ad90bb5a78f5107064bbc3271f84e72a2b6"
         },
         "32bit": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.1/kftui_windows_x86.exe#/kftui.exe",
-            "hash": "80b4088273cde13940c3fa72c9bcb6948e6169b6b931b989ac6fbd0582bae2b2"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.2/kftui_windows_x86.exe#/kftui.exe",
+            "hash": "859fd9d8e7dcf7ea336fe9b0dfeaeb5ffb15cb48f02f1211a617b4a6cbf91af8"
         },
         "arm64": {
-            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.1/kftui_windows_arm64.exe#/kftui.exe",
-            "hash": "d18f02b61ef1229573ce1e4dad845ace3ef7ec74281b5d1ee17b6f7b5aaa02c6"
+            "url": "https://github.com/hcavarsan/kftray/releases/download/v0.30.2/kftui_windows_arm64.exe#/kftui.exe",
+            "hash": "20a9d4110e66f65ee0d232b02870ea3cbda9159eb5797c521009e04d5fe826ed"
         }
     },
     "bin": "kftui.exe",
