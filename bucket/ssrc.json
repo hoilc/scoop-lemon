@@ -1,0 +1,26 @@
+{
+    "version": "2.4.0",
+    "description": "Shibatch Sample Rate Converter (SSRC) is a fast and high-quality sample rate converter for PCM WAV files.",
+    "homepage": "https://github.com/shibatch/SSRC",
+    "license": "BSL-1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shibatch/SSRC/releases/download/v2.4.0/ssrc-2.4.0-windows.zip",
+            "extract_dir": "ssrc-2.4.0-windows",
+            "hash": "d018a43a8ca1fc69a5c7430c332f6f4114518273a97c0988fe0f47f39c9c596d"
+        }
+    },
+    "bin": [
+        "ssrc.exe",
+        "scsa.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shibatch/SSRC/releases/download/v$version/ssrc-$version-windows.zip",
+                "extract_dir": "ssrc-$version-windows"
+            }
+        }
+    }
+}
