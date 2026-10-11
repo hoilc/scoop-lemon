@@ -1,16 +1,16 @@
 {
-    "version": "20.0.28",
+    "version": "20.0.29",
     "description": "Analyze coding (agent) CLI token usage and costs from local data.",
     "homepage": "https://ccusage.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/@ccusage/ccusage-win32-x64/-/ccusage-win32-x64-20.0.28.tgz",
-            "hash": "f6df64b14aa241fd82e3963cdbc7fa58aadfcf7c4913a065905aba111511f5ab"
+            "url": "https://registry.npmmirror.com/@ccusage/ccusage-win32-x64/-/ccusage-win32-x64-20.0.29.tgz",
+            "hash": "980830b5a30aaad87fa63c7ee0840d03cf64e0a68b9d0b65a126300172533be2"
         },
         "arm64": {
-            "url": "https://registry.npmmirror.com/@ccusage/ccusage-win32-arm64/-/ccusage-win32-arm64-20.0.28.tgz",
-            "hash": "9132419b392edfda9728a33fbbe814114333fffd694b37bb7c3a45efbe247121"
+            "url": "https://registry.npmmirror.com/@ccusage/ccusage-win32-arm64/-/ccusage-win32-arm64-20.0.29.tgz",
+            "hash": "35a32aaf9ed98ce298bc29de368ab883587a895d14d7180d9e0ea97419891553"
         }
     },
     "extract_dir": "package\\bin",
