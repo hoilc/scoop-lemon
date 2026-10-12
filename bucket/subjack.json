@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "A DNS takeover scanner written in Go designed to scan a list of domains concurrently and identify ones that are able to be hijacked.",
     "homepage": "https://github.com/haccer/subjack",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/haccer/subjack/releases/download/v3.0.0/subjack-windows-amd64.exe#/subjack.exe",
-            "hash": "7f011ae31a5138f88056cbea275d42d6bddf668eff070d6ec6e348f51d62c8f9"
+            "url": "https://github.com/haccer/subjack/releases/download/v3.1.0/subjack-windows-amd64.exe#/subjack.exe",
+            "hash": "c53cd7de71f0fa3f5652fe9573828819224b507a73ff825264c8b9a9df63c1a7"
         }
     },
     "bin": "subjack.exe",
