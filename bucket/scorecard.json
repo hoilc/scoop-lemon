@@ -1,16 +1,16 @@
 {
-    "version": "5.5.0",
+    "version": "5.6.0",
     "description": "Quickly assess open source projects for risky practices.",
     "homepage": "https://github.com/ossf/scorecard",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ossf/scorecard/releases/download/v5.5.0/scorecard_5.5.0_windows_amd64.tar.gz",
-            "hash": "21ca42b37260785e670c58f602b483510099e7b1988e3c6eb5005f143dc2a2ab"
+            "url": "https://github.com/ossf/scorecard/releases/download/v5.6.0/scorecard_5.6.0_windows_amd64.tar.gz",
+            "hash": "f69b8b91f38c35f326c1e02085d4c2f189d5e22be0083bc952181faf767fcf67"
         },
         "arm64": {
-            "url": "https://github.com/ossf/scorecard/releases/download/v5.5.0/scorecard_5.5.0_windows_arm64.tar.gz",
-            "hash": "375ccf037552cf2ca105b9143311ed9128c669352d29faeb6bd11024e5d0be4a"
+            "url": "https://github.com/ossf/scorecard/releases/download/v5.6.0/scorecard_5.6.0_windows_arm64.tar.gz",
+            "hash": "b4e230805936fe246448393dc7113eba0a2aee3a04c2281113f21b77cf3b0375"
         }
     },
     "bin": "scorecard.exe",
