@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "A terminal UI tool that visualizes Git commit graphs.",
     "homepage": "https://github.com/trasta298/keifu",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/trasta298/keifu/releases/download/v0.6.0/keifu-v0.6.0-x86_64-pc-windows-msvc.zip",
-            "hash": "119d81b8ea31086036e0b4ddc4cae648f792f5b8b4cf659e85bb227d3eb8dce7"
+            "url": "https://github.com/trasta298/keifu/releases/download/v0.7.0/keifu-v0.7.0-x86_64-pc-windows-msvc.zip",
+            "hash": "0daceb49c741dfedab955bbc8a2c24dccc1a3d2b311379035c94041f94c87b06"
         }
     },
     "bin": "keifu.exe",
