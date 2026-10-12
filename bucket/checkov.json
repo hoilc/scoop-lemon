@@ -1,12 +1,12 @@
 {
-    "version": "3.3.26",
+    "version": "3.3.27",
     "description": "A static code analysis tool for infrastructure as code (IaC) and also a software composition analysis (SCA) tool for images and open source packages.",
     "homepage": "https://www.checkov.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bridgecrewio/checkov/releases/download/3.3.26/checkov_windows_X86_64.zip",
-            "hash": "1cb284017a7c86e17d53e600e26e3cb263754aa71d5d2aaec19d87e8582148a0"
+            "url": "https://github.com/bridgecrewio/checkov/releases/download/3.3.27/checkov_windows_X86_64.zip",
+            "hash": "3996218a8d610b7ab9910839da47cea5be675ca528afb7ea54ad91dda8e3935c"
         }
     },
     "extract_dir": "dist",
