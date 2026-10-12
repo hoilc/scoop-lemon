@@ -1,5 +1,5 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A TUI and CLI to manage your Servarrs.",
     "homepage": "https://github.com/Dark-Alex-17/managarr",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.0/managarr-windows.tar.gz",
-            "hash": "e5af8cf73e5b8033a2f10e430562d3de8dd9c198db3dbe7e45bcf9d4944eb414"
+            "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.1/managarr-windows.tar.gz",
+            "hash": "09047efa0ae1e179d6a3f8b3573ed44b574ad3a23818f056e1d5fe5a9f536f35"
         },
         "arm64": {
-            "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.0/managarr-windows-aarch64.tar.gz",
-            "hash": "2ef2bcbec96760e02f98ad1e95e2f5bf996947d7c4175efb9b36ac7886281d42"
+            "url": "https://github.com/Dark-Alex-17/managarr/releases/download/v0.8.1/managarr-windows-aarch64.tar.gz",
+            "hash": "6c1b8349dcd76b6862dd08f0939b470da19bb3c6af07b505d50ca2d7c17a0565"
         }
     },
     "bin": "managarr.exe",
