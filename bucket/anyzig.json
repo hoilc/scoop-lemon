@@ -1,20 +1,20 @@
 {
-    "version": "2026_03_26",
+    "version": "2026_10_13",
     "description": "A universal zig executable that lets you run any version of zig.",
     "homepage": "https://github.com/marler8997/anyzig",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_03_26/anyzig-x86_64-windows.zip",
-            "hash": "c0a87ae4b5bb02d035185747ffe5247b3cfae0d172ffed9d4f60ba86c962781c"
+            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_10_13/anyzig-x86_64-windows.zip",
+            "hash": "4e9bf6ab3e602a137c2adf84267940949c495da09ffacaa90bed09842d5a7863"
         },
         "32bit": {
-            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_03_26/anyzig-x86-windows.zip",
-            "hash": "bd238822afc645e8b8180cfde03ae8f598b58d5acf8875586280264f74b3f183"
+            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_10_13/anyzig-x86-windows.zip",
+            "hash": "cbda6d6a712d346ebb2e6ccc8a40be67a3c595d3d0e7a2b345a5f923dab3f25a"
         },
         "arm64": {
-            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_03_26/anyzig-aarch64-windows.zip",
-            "hash": "52a91da0b10bed421814fe92cb5afb75063f878f51dd8ae06801ad61afb5d986"
+            "url": "https://github.com/marler8997/anyzig/releases/download/v2026_10_13/anyzig-aarch64-windows.zip",
+            "hash": "3a41ed521b7ba26dab614d4972b3336c8bd1ec40c6a49a0de634a020b53ad005"
         }
     },
     "bin": "zig.exe",
