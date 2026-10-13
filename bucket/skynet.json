@@ -1,12 +1,12 @@
 {
-    "version": "16",
+    "version": "17",
     "description": "A fast, lightweight TUI coding agent — a single static binary, no runtime.",
     "homepage": "https://github.com/NeonMedusa/SkyNet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NeonMedusa/SkyNet/releases/download/v16/SkyNet.exe",
-            "hash": "644ad9a308fba78d30151b29736b2e47e2c8bc65bebc464c93efb73590f17bab"
+            "url": "https://github.com/NeonMedusa/SkyNet/releases/download/v17/SkyNet.exe",
+            "hash": "df64052a22181f74bd02f576d6fb8462d6847774febaa4b0814d0e16ab6efd09"
         }
     },
     "bin": "SkyNet.exe",
