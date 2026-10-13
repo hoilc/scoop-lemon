@@ -1,12 +1,12 @@
 {
-    "version": "0.28.2",
+    "version": "0.29.0",
     "description": "A local-first desktop app that transcribes meetings, calls, and voice memos on-device into markdown you own.",
     "homepage": "https://useminutes.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/silverstein/minutes/releases/download/v0.28.2/minutes-desktop-windows-x64.zip",
-            "hash": "4f27e185a89510166f01221fe83b4a38dfcd47689fafc923f0c9642fcf63a6f8"
+            "url": "https://github.com/silverstein/minutes/releases/download/v0.29.0/minutes-desktop-windows-x64.zip",
+            "hash": "29c85982f426aa435cc79304296bd761114859a408265f732fb7bcc6812b2176"
         }
     },
     "shortcuts": [
