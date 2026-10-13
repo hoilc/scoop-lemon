@@ -17,7 +17,7 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
-    "post_uninstall": "if ($purge) { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'com.lolping.app' -ErrorAction SilentlyContinue }",
+    "post_uninstall": "if ($cmd -eq 'uninstall') { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'com.lolping.app' -ErrorAction SilentlyContinue }",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
