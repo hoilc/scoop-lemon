@@ -1,13 +1,13 @@
 {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "CLI for the pushin.eu API (pun), mirroring the gh GitHub CLI's noun-verb shape.",
     "homepage": "https://pushin.eu/pjullrich/pushin-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://pushin.eu/pjullrich/pushin-cli/archive/v0.3.1.tar.gz",
-            "extract_dir": "pushin-cli-v0.3.1\\dist\\windows-x86_64",
-            "hash": "f4a854693e57be9fd870e537b1ab30a219c7f27e954abc73253b02ef1a428c34"
+            "url": "https://pushin.eu/pjullrich/pushin-cli/archive/v0.3.2.tar.gz",
+            "extract_dir": "pushin-cli-v0.3.2\\dist\\windows-x86_64",
+            "hash": "db95d2cce0b1ed3b62dacb6a7a14df1cf65f1ba13c44cac634162ec707c5df4e"
         }
     },
     "bin": "pun.exe",
