@@ -1,12 +1,12 @@
 {
-    "version": "3.13.1",
+    "version": "3.13.2",
     "description": "An interactive visual environment for TypeDB.",
     "homepage": "https://typedb.com/docs/tools/studio/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-windows-x86_64/versions/3.13.1/typedb-studio-windows-x86_64-3.13.1.msi",
-            "hash": "6681825013c77c0db251b01f1eab401a034bf5aae1fac1c8c13944a8b23c09bd",
+            "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-windows-x86_64/versions/3.13.2/typedb-studio-windows-x86_64-3.13.2.msi",
+            "hash": "b57f2f814c18a9dd6aa09101969b4eb093ff64233c107181d47ae8a415c0d4dd",
             "extract_dir": "PFiles\\typedb-studio"
         }
     },
