@@ -1,12 +1,12 @@
 {
-    "version": "2.13.1",
+    "version": "2.13.2",
     "description": "Songloft 跨平台音乐播放器，连接面向个人用户的自托管音乐服务器",
     "homepage": "https://songloft.hanxi.cc/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/songloft-org/songloft-player/releases/download/v2.13.1/songloft-windows-x64.zip",
-            "hash": "c920a79687e1e3946eff3cc897343a3d132ba1e31aaecd95ce1a6c8a8d5d1c75"
+            "url": "https://github.com/songloft-org/songloft-player/releases/download/v2.13.2/songloft-windows-x64.zip",
+            "hash": "2c8052c437715384872f4eef193ff5048a119564d2ff96f10441ac77bd92121c"
         }
     },
     "shortcuts": [
