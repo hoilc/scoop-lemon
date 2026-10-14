@@ -1,12 +1,12 @@
 {
-    "version": "2.16.5",
+    "version": "2.17.1",
     "description": "Rapidly search and hunt through Windows forensic artefacts.",
     "homepage": "https://github.com/WithSecureLabs/chainsaw",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WithSecureLabs/chainsaw/releases/download/v2.16.5/chainsaw_x86_64-pc-windows-msvc.zip",
-            "hash": "f47a724ea61547056a0128f201d160c0c4a81c02c481c80bd3c138669c44989a"
+            "url": "https://github.com/WithSecureLabs/chainsaw/releases/download/v2.17.1/chainsaw_x86_64-pc-windows-msvc.zip",
+            "hash": "1eafd1f4461b61692d62b50e8970c9986798e730396f4069678d25dee14a90d4"
         }
     },
     "extract_dir": "chainsaw",
