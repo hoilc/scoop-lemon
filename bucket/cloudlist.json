@@ -1,16 +1,16 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "A multi-cloud tool for getting assets from cloud providers.",
     "homepage": "https://docs.projectdiscovery.io/tools/cloudlist/overview",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/cloudlist/releases/download/v1.4.0/cloudlist_1.4.0_windows_amd64.zip",
-            "hash": "d873af89d8cf53a15ae7bc898922cc8698446826f45d122a4b1bb1675c5235c1"
+            "url": "https://github.com/projectdiscovery/cloudlist/releases/download/v1.5.0/cloudlist_1.5.0_windows_amd64.zip",
+            "hash": "7274df531df7627b0b5914cdf5c9db95906ac1c5ab838f0eda1d6ac59b8bd671"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/cloudlist/releases/download/v1.4.0/cloudlist_1.4.0_windows_386.zip",
-            "hash": "2db6a6f7309197a90ad5b5c3096afb8cf339ca0c92d3ca8f342cd5498191b365"
+            "url": "https://github.com/projectdiscovery/cloudlist/releases/download/v1.5.0/cloudlist_1.5.0_windows_386.zip",
+            "hash": "5871351009c63c1a4761514635175f0e7da33b277069d3f54c8be72fbfc35f7a"
         }
     },
     "bin": "cloudlist.exe",
