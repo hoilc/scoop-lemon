@@ -1,12 +1,12 @@
 {
-    "version": "0.29.0",
+    "version": "0.29.1",
     "description": "A CLI that transcribes meetings, calls, and voice memos on-device into markdown you own.",
     "homepage": "https://useminutes.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/silverstein/minutes/releases/download/v0.29.0/minutes-windows-x64.zip",
-            "hash": "bd98176419884d285018d073b5a229f122687ae9c7b3be62a6c101b5537d291c"
+            "url": "https://github.com/silverstein/minutes/releases/download/v0.29.1/minutes-windows-x64.zip",
+            "hash": "190e2f8d1bb87f0064a2b860a492875a8289bcfde64db411c3fecaba08e51df7"
         }
     },
     "bin": "minutes.exe",
