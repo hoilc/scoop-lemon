@@ -1,12 +1,12 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "A high-performance S3-compatible object storage system built in Go with an embedded web interface.",
     "homepage": "https://maxiofs.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MaxIOFS/MaxIOFS/releases/download/v1.7.0/maxiofs-windows-amd64-v1.7.0.exe#/maxiofs.exe",
-            "hash": "6d9dd613de1ffa7d3703f652618cd9a26aea1b2112e01b9822d5da83e3781072"
+            "url": "https://github.com/MaxIOFS/MaxIOFS/releases/download/v1.8.0/maxiofs-windows-amd64-v1.8.0.exe#/maxiofs.exe",
+            "hash": "e2d4bc6cc5d25d44eb6538b464d413340199ca5c07c0b62f74fc71f90cf46e7f"
         }
     },
     "bin": "maxiofs.exe",
