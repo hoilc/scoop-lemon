@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.0post1",
     "description": "A command-line application for converting IFC geometry into file formats such as OBJ, DAE, GLB, STP, IGS, XML, SVG, H5, TTL/WKT, and IFC-SPF itself.",
     "homepage": "https://docs.ifcopenshell.org/ifcconvert.html",
     "license": "LGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/IfcOpenShell/IfcOpenShell/releases/download/ifcconvert-0.9.0/ifcconvert-0.9.0-win64.zip",
-            "hash": "eab154be69904254b84647da200ed1f760d69dd1b8e5ca6cc5dbf8c839b764e3"
+            "url": "https://github.com/IfcOpenShell/IfcOpenShell/releases/download/ifcconvert-0.9.0post1/ifcconvert-0.9.0post1-win64.zip",
+            "hash": "963265186fec13ad2ba56edea614f32b715774ca1a5777fc8b84e5e5a35767ff"
         }
     },
     "bin": "IfcConvert.exe",
