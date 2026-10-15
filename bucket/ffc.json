@@ -1,16 +1,16 @@
 {
-    "version": "1.9.2",
+    "version": "1.9.5",
     "description": "A command-line file copy tool optimized for large files, direct disk I/O, and file verification.",
     "homepage": "https://www.uwe-sieber.de/filetools_e.html#ffc",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.uwe-sieber.de/files/FFC192_x64.zip",
-            "hash": "157b5f8c2f5ae9fb94395569579d304fdce0a26c60797a24f4a4d6c6e793b1f3"
+            "url": "https://www.uwe-sieber.de/files/FFC_x64.zip",
+            "hash": "fe95b34ce36765df247c4a0fd616038d52688a2920d0f2fc8f6f7544d82297c6"
         },
         "32bit": {
-            "url": "https://www.uwe-sieber.de/files/FFC192_Win32.zip",
-            "hash": "7da88424f95a47dbed684f914f589e92a9062ad0747a8e095452419a93669aa5"
+            "url": "https://www.uwe-sieber.de/files/FFC_Win32.zip",
+            "hash": "941916dd086182f4a4951d58436bf9a4898d1a0caaa0fdcfbf1421a92937b721"
         }
     },
     "bin": "FFC.exe",
