@@ -1,13 +1,18 @@
 {
-    "version": "2.5.14",
+    "version": "2.6.0",
     "description": "A field-theory motivated approach to computer algebra.",
     "homepage": "https://cadabra.science",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kpeeters/cadabra2/releases/download/2.5.14/cadabra2-2.5.14-win64.msi",
+            "url": "https://github.com/kpeeters/cadabra2/releases/download/2.6.0/cadabra2-2.6.0-windows-x86_64.msi",
             "extract_dir": "PFiles64\\Cadabra",
-            "hash": "bc4403730715b463f9a65cc93baf8a33edf57a6e47e29b5a2512b4f710a5dcfa"
+            "hash": "b1eab2088360b7f97ee46640b98e5c21392086c1bd5b69b24549ede65dfb230f"
+        },
+        "arm64": {
+            "url": "https://github.com/kpeeters/cadabra2/releases/download/2.6.0/cadabra2-2.6.0-windows-arm64.msi",
+            "extract_dir": "PFiles64\\Cadabra",
+            "hash": "1c9635979f374fe80ead7f336e1362d00c90ba96c1437a91ae9cb1bc9566470f"
         }
     },
     "shortcuts": [
@@ -22,7 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kpeeters/cadabra2/releases/download/$version/cadabra2-$version-win64.msi"
+                "url": "https://github.com/kpeeters/cadabra2/releases/download/$version/cadabra2-$version-windows-x86_64.msi"
+            },
+            "arm64": {
+                "url": "https://github.com/kpeeters/cadabra2/releases/download/$version/cadabra2-$version-windows-arm64.msi"
             }
         }
     }
