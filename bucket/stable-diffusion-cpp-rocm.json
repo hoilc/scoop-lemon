@@ -1,12 +1,12 @@
 {
-    "version": "b967-e47426c",
+    "version": "b968-8cd731e",
     "description": "(AMD ROCm/HIP Backend) stable-diffusion.cpp enables inference of Stable Diffusion and Flux in pure C/C++.",
     "homepage": "https://github.com/leejet/stable-diffusion.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-967-e47426c/sd-master-e47426c-bin-win-rocm-10.1.0-x64.zip",
-            "hash": "8543b230f5ffde4c5ab2ec2bd2eb2afad6b83008e762897deb0d75c8566e5a95"
+            "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-968-8cd731e/sd-master-8cd731e-bin-win-rocm-10.1.0-x64.zip",
+            "hash": "5c799b01d88da4a5cb4bc385710237ecacb6db08e2bf3fad6962be0a0a67715a"
         }
     },
     "bin": [
