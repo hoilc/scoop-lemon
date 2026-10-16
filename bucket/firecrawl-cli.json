@@ -1,12 +1,12 @@
 {
-    "version": "1.26.5",
+    "version": "1.26.7",
     "description": "CLI for Firecrawl - Add scrape, search, and browsing capabilities to your AI agents.",
     "homepage": "https://docs.firecrawl.dev/cli",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/firecrawl/cli/releases/download/v1.26.5/firecrawl-windows-x64.exe.zip",
-            "hash": "94985fcaacb23a6155b485056843587335b62b81164c2ddac3aaac6a258c45c7"
+            "url": "https://github.com/firecrawl/cli/releases/download/v1.26.7/firecrawl-windows-x64.exe.zip",
+            "hash": "4b8e54a1a7ab5cda0ed67ed636829eae1fef259e81b38e94629d722a6484a0ac"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'firecrawl?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'firecrawl.exe'",
