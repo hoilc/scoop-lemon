@@ -1,12 +1,12 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "轻量化剪贴板管理工具，使用 Rust + GPUI 构建 | Lightweight clipboard manager built with Rust and GPUI.",
     "homepage": "https://github.com/Ruszero01/clippi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ruszero01/clippi/releases/download/v0.5.1/clippi-x86_64-pc-windows-msvc.zip",
-            "hash": "dce260209161973d7adab68706bb369b2041d25983e9c59f4115c04eaa41964c"
+            "url": "https://github.com/Ruszero01/clippi/releases/download/v0.5.2/clippi-x86_64-pc-windows-msvc.zip",
+            "hash": "9e1e3895651c4c4627f79d7bbec6fee98cb6d4baf85e925bbffdbdb89828fd7c"
         }
     },
     "shortcuts": [
