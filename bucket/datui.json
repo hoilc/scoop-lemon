@@ -1,12 +1,12 @@
 {
-    "version": "0.4.10",
+    "version": "0.4.11",
     "description": "A high-performance terminal UI for exploring and analyzing tabular datasets.",
     "homepage": "https://github.com/derekwisong/datui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/derekwisong/datui/releases/download/v0.4.10/datui-v0.4.10-x86_64-pc-windows-msvc.zip",
-            "hash": "e1f66d47c751459f1218918dc335c9a68511a007089d969f5c5dc6830239972c"
+            "url": "https://github.com/derekwisong/datui/releases/download/v0.4.11/datui-v0.4.11-x86_64-pc-windows-msvc.zip",
+            "hash": "ed5ef773c377fb2ad443d933d24da63ddc1dc21920b93ff63416ca83e8892ac2"
         }
     },
     "bin": "datui.exe",
