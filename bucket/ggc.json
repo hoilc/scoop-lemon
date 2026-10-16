@@ -1,16 +1,16 @@
 {
-    "version": "8.7.4",
+    "version": "8.7.5",
     "description": "A modern Git CLI tool with both traditional command-line and interactive incremental-search UI.",
     "homepage": "https://github.com/bmf-san/ggc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bmf-san/ggc/releases/download/v8.7.4/ggc_8.7.4_windows_amd64.zip",
-            "hash": "6040a34b2271791be030d74d7a75ff83401dec096f530cdaad32d03e24fc2d00"
+            "url": "https://github.com/bmf-san/ggc/releases/download/v8.7.5/ggc_8.7.5_windows_amd64.zip",
+            "hash": "b8e1605293e704243734dd05ec7b48add1586d54668599071aadc941fbc96605"
         },
         "arm64": {
-            "url": "https://github.com/bmf-san/ggc/releases/download/v8.7.4/ggc_8.7.4_windows_arm64.zip",
-            "hash": "245a1ff4711093b4787d83e31b37b6660a4b5cc8a9def71b25d7b26d6f0b8723"
+            "url": "https://github.com/bmf-san/ggc/releases/download/v8.7.5/ggc_8.7.5_windows_arm64.zip",
+            "hash": "1f5c85f49d6318689ffb0fb4433ac6f75a624b7335e9a3d903a0f3de220c733e"
         }
     },
     "bin": "ggc.exe",
