@@ -1,12 +1,12 @@
 {
-    "version": "0.17.1",
+    "version": "0.18.0",
     "description": "A tool for installing and maintaining the required toolchains for developing applications in Rust for Espressif SoC's.",
     "homepage": "https://github.com/esp-rs/espup",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esp-rs/espup/releases/download/v0.17.1/espup-x86_64-pc-windows-msvc.zip",
-            "hash": "f3a2d372e6f04f67a2adb7ff310ad336d9d475a5c4ce2c0c7855792875981bf0"
+            "url": "https://github.com/esp-rs/espup/releases/download/v0.18.0/espup-x86_64-pc-windows-msvc.zip",
+            "hash": "efde4e4abc8e0df1f3058a5d6e3e872813631cd52b0c58b1ad70a1fe0318c204"
         }
     },
     "bin": "espup.exe",
