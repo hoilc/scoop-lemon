@@ -1,12 +1,12 @@
 {
-    "version": "10.6.0",
+    "version": "10.6.1",
     "description": "A lightweight, distributed relational database built on SQLite.",
     "homepage": "https://rqlite.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rqlite/rqlite/releases/download/v10.6.0/rqlite-v10.6.0-win64.zip",
-            "hash": "29efbe75f8aab19f03ee74dac8aa939ea43d5f8728c52b12c37a0d4e942c9054"
+            "url": "https://github.com/rqlite/rqlite/releases/download/v10.6.1/rqlite-v10.6.1-win64.zip",
+            "hash": "a04fe2498f8d50c980f087219c2e886fd3ae5c5320477adca2f731e3603567b5"
         }
     },
     "bin": [
