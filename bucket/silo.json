@@ -1,16 +1,16 @@
 {
-    "version": "2026-10-15T00-00-00Z",
+    "version": "2026-10-18T00-00-00Z",
     "description": "A conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-15T00-00-00Z/silo_20261015000000.0.0_windows_amd64.tar.gz",
-            "hash": "b9ab47bd2d81a2da081d2b3a6bfd268eca9f1259ed4656d58aa2aed42ec88820"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-18T00-00-00Z/silo_20261018000000.0.0_windows_amd64.tar.gz",
+            "hash": "b75361bc94b36527c4fe291330ea7e62522c6d19d5e767a7911eb846a227b8b7"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-15T00-00-00Z/silo_20261015000000.0.0_windows_arm64.tar.gz",
-            "hash": "4e0025fe8542f651fb6ef1010ee8b09a1081860b89c2cdc1a7bfe7778b6fbece"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-18T00-00-00Z/silo_20261018000000.0.0_windows_arm64.tar.gz",
+            "hash": "680f410f4dfc3c50d36f3e5d54639010168acbaaa6acb043eca6d25a331ea695"
         }
     },
     "bin": "silo.exe",
