@@ -1,5 +1,5 @@
 {
-    "version": "b1906",
+    "version": "b1906-20260929-02305ed",
     "description": "Browse the Fediverse.",
     "homepage": "https://tuba.geopjr.dev/",
     "license": "GPL-3.0-only",
@@ -20,9 +20,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/GeopJr/Tuba/actions/workflows/msys2.yml?query=event%3Apush+branch%3Amain+is%3Asuccess",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
-        "replace": "b${build}"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/tuba/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
