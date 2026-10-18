@@ -11,7 +11,10 @@
             "CleanMyWechat"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/blackboxo/CleanMyWechat/releases.atom",
+        "regex": "Repository/\\d+/v([^<]+)(?<!mac)<"
+    },
     "autoupdate": {
         "url": "https://github.com/blackboxo/CleanMyWechat/releases/download/v$version/CleanMyWechat.zip"
     }
