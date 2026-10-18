@@ -1,12 +1,12 @@
 {
-    "version": "2.1",
+    "version": "2.2",
     "description": "Xelitan PDF Reader is a fast and easy-to-use PDF viewer that allows users to export embedded images, extract pages to PDF, remove pages from PDF documents and convert to PNG images.",
     "homepage": "http://xelitan.com/app/xelitan-pdf-reader",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://xelitan.com/download/pdf_reader_v21.zip",
-            "hash": "262cc65ef9d8932c7420f077bc1d6e9eae43473ce8a272d982b820ee38caab9e"
+            "url": "http://xelitan.com/download/pdf_reader_v22.zip",
+            "hash": "6eed5de1837f4560abb5dc551f05ab8aa41029aec0e1497df23bd6804c271ebe"
         }
     },
     "bin": "XelitanPDF.exe",
