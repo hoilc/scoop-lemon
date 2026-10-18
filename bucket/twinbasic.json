@@ -1,10 +1,10 @@
 {
-    "version": "beta-1010",
+    "version": "beta-1011",
     "description": "A modern BASIC compiler that aims to be fully compatible with all existing VB6 and VBA code.",
     "homepage": "https://twinbasic.com/",
     "license": "Proprietary",
-    "url": "https://github.com/twinbasic/twinbasic/releases/download/beta-x-1010/twinBASIC_IDE_BETA_1010.zip",
-    "hash": "8781f2844e36d2070567e263505da023adbe23684299dd0b9dda8e3efa91e7a3",
+    "url": "https://github.com/twinbasic/twinbasic/releases/download/beta-x-1011/twinBASIC_IDE_BETA_1011.zip",
+    "hash": "f6a82d90867cc5ab8f0395b71ffc83ac49470fd5ee2e40eb60f3af3dbe3082a2",
     "shortcuts": [
         [
             "twinBASIC.exe",
