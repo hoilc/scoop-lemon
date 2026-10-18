@@ -1,5 +1,5 @@
 {
-    "version": "238",
+    "version": "b238-20261006-78e5eee",
     "description": "(Continuous Build) A console application for NVIDIA GPUs for high-performance JPEG image encoding and decoding.",
     "homepage": "https://github.com/CESNET/GPUJPEG",
     "license": "BSD-2-Clause",
@@ -12,8 +12,8 @@
     "extract_dir": "GPUJPEG",
     "bin": "bin\\gpujpegtool.exe",
     "checkver": {
-        "url": "https://github.com/CESNET/GPUJPEG/actions/workflows/ccpp.yml?query=branch%3Amaster+is%3Asuccess+event%3Apush",
-        "regex": "#(\\d+):"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/gpujpeg-nightly/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
