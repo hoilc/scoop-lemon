@@ -1,5 +1,5 @@
 {
-    "version": "b1743",
+    "version": "b1743-20260912-b5ad444",
     "description": "(Nightly Build) A work-in-progress tool to reverse unity's IL2CPP toolchain.",
     "homepage": "https://github.com/SamboyCoding/Cpp2IL",
     "license": "MIT",
@@ -11,9 +11,8 @@
     },
     "bin": "Cpp2IL.exe",
     "checkver": {
-        "url": "https://github.com/SamboyCoding/Cpp2IL/actions/workflows/dotnet-core.yml?query=event%3Apush+is%3Asuccess+branch%3Adevelopment",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
-        "replace": "b${build}"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/cpp2il-nightly/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
