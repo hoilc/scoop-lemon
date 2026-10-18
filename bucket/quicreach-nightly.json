@@ -1,5 +1,5 @@
 {
-    "version": "b1043",
+    "version": "b1043-20261012-f712407",
     "description": "(Nightly Build) A 'ping' equivalent tool for QUIC.",
     "homepage": "https://github.com/microsoft/quicreach",
     "license": "MIT",
@@ -22,9 +22,8 @@
     },
     "bin": "quicreach.exe",
     "checkver": {
-        "url": "https://github.com/microsoft/quicreach/actions/workflows/build.yml?query=branch%3Amain+is%3Asuccess+event%3Apush",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
-        "replace": "b${build}"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/quicreach-nightly/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
