@@ -19,9 +19,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/iptux-src/iptux/actions/workflows/windows.yml?query=event%3Apush+is%3Asuccess+branch%3Amain",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".+?#(?<build>\\d+):.+?/commit/(?<commit>[0-9a-f]{7})[0-9a-f]{33}\".+?datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
-        "replace": "b${build}-${year}${month}${day}-${commit}"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/iptux-nightly/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
