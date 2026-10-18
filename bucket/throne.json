@@ -1,20 +1,20 @@
 {
-    "version": "1.4.0-beta.2",
+    "version": "1.4.0-beta.3",
     "description": "A cross-platform GUI proxy utility (Empowered by sing-box)",
     "homepage": "https://github.com/throneproj/Throne",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.2/Throne-1.4.0-beta.2-windows64.zip",
-            "hash": "6b77ec889c0c460ccf8b8e4be21ec3e0a146529e9268151fa5b8d60a74a24ef8"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.3/Throne-1.4.0-beta.3-windows64.zip",
+            "hash": "6d469837c6c759d9accd57cfb5828c3c1ac797deb0ba40f1d2ccdc488ded196b"
         },
         "32bit": {
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.2/Throne-1.4.0-beta.2-windows32.zip",
-            "hash": "f1f7576258b3cf0498603ae9c55ecb79b108131487e74c6cfa05f59e5c7c7c59"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.3/Throne-1.4.0-beta.3-windows32.zip",
+            "hash": "f101bbd1ce5c38d6c32c978afd2d5ea22cd27db85a88f3f144998a0c19150aec"
         },
         "arm64": {
-            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.2/Throne-1.4.0-beta.2-windows-arm64.zip",
-            "hash": "6e3289861f6a5894a0aa32bc62f3892939f9e5afd70d4fc8c70304b10b2ca49a"
+            "url": "https://github.com/throneproj/Throne/releases/download/1.4.0-beta.3/Throne-1.4.0-beta.3-windows-arm64.zip",
+            "hash": "f79ff1477ed634d18434e1d3431e68ffd78d9b39d1847f3ed11a304fc73b1916"
         }
     },
     "extract_dir": "Throne",
