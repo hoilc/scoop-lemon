@@ -1,12 +1,12 @@
 {
-    "version": "3.0.3",
+    "version": "3.1.1",
     "description": "A local music, radio, television and podcast player.",
     "homepage": "https://github.com/ubuntu-flutter-community/musicpod",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v3.0.3/musicpod.exe#/dl.exe",
-            "hash": "e82806c9ae5972735057d50e27da3e8fea7e887e6a1098ce288a69dc8c2269a9"
+            "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v3.1.1/musicpod-setup.exe",
+            "hash": "9c6569bf20d210f74f0b797a40bab4511d0618141246412be8cb1d14d20573e9"
         }
     },
     "innosetup": true,
@@ -17,12 +17,12 @@
         ]
     ],
     "post_uninstall": "if ($purge) { Remove-Item \"$env:APPDATA\\org.feichtmeier\\musicpod\" -Force -Recurse -ErrorAction SilentlyContinue }",
-    "notes": "MusicPod is NOT portable. Settings are stored in '%APPDATA%\\org.feichtmeier\\musicpod', and will be purged during uninstallation.",
+    "notes": "MusicPod is NOT portable. Settings are stored in '%APPDATA%\\org.feichtmeier\\musicpod', and will be purged during uninstallation with --purge flag.",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v$version/musicpod.exe#/dl.exe"
+                "url": "https://github.com/ubuntu-flutter-community/musicpod/releases/download/v$version/musicpod-setup.exe"
             }
         }
     }
