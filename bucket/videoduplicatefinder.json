@@ -1,12 +1,16 @@
 {
-    "version": "3.0-474-4ab0e82",
+    "version": "4.1.1",
     "description": "A cross-platform software to find duplicated video (and image) files on hard disk based on similarity.",
     "homepage": "https://github.com/0x90d/videoduplicatefinder",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip",
-            "hash": "04dcc320f0caf076af4a7316b58f3f21521fd07859d92619a11344087d6028b3"
+            "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/v4.1.1/GUI-win-x64.zip",
+            "hash": "516be461af61a137fa355975971d7ee6645cfdd7d60b1bfa1a6f6f75bee457d1"
+        },
+        "arm64": {
+            "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/v4.1.1/GUI-win-arm64.zip",
+            "hash": "9afd882444eb405a086e78b0c4164866962bdc3432391a7aab7d393da40f03bd"
         }
     },
     "shortcuts": [
@@ -24,14 +28,16 @@
         "ffmpeg": "ffmpeg"
     },
     "checkver": {
-        "url": "https://github.com/0x90d/videoduplicatefinder/actions/workflows/releases.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):.*?/commit/(?<shortcommit>[0-9a-f]{7})(?<remainingcommit>[0-9a-f]+)\"",
-        "replace": "3.0-${build}-${shortcommit}"
+        "url": "https://github.com/0x90d/videoduplicatefinder/releases.atom",
+        "regex": "Repository/\\d+/v([^<]+)(?<!\\.x)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/GUI-win-x64.zip"
+                "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/v$version/GUI-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/v$version/GUI-win-arm64.zip"
             }
         }
     }
