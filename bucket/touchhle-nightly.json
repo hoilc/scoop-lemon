@@ -1,5 +1,5 @@
 {
-    "version": "b2346",
+    "version": "b2346-20261013-ca1de89",
     "description": "(Preview Builds) A high-level emulator for iPhone OS apps.",
     "homepage": "https://touchhle.org/",
     "license": "MPL-2.0",
@@ -22,9 +22,8 @@
         "touchHLE_sandbox"
     ],
     "checkver": {
-        "url": "https://github.com/touchHLE/touchHLE/actions/workflows/touchHLE_release.yml?query=event%3Apush+is%3Asuccess+branch%3Atrunk",
-        "regex": "(?sm)/actions/runs/(?<run>\\d+)\".*?#(?<build>\\d+):",
-        "replace": "b${build}"
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/touchhle-nightly/state.json",
+        "regex": "(?sm)\"version\":\\s*\"(.+?)\".*?\"runId\":\\s*\"(?<run>\\d+)\""
     },
     "autoupdate": {
         "architecture": {
