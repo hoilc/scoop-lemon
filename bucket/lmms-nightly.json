@@ -1,16 +1,16 @@
 {
-    "version": "1.3.0-alpha.2.14+a2f57e7",
+    "version": "1.3.0-alpha.2.16+fd7c496",
     "description": "(Nightly Build) A free, open source, multiplatform digital audio workstation.",
     "homepage": "https://lmms.io/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://lmms.io/download/artifact/10942597663#/dl.7z",
-            "hash": "92d52dc06380e44316cd72a41425b33626b94641b015a65c4d7e2db9b81c47c0"
+            "url": "https://lmms.io/download/artifact/12149602507#/dl.7z",
+            "hash": "9f1c23c497293ece4acf719ef64e7d9e76d721811b45b10a530556556d71c4fe"
         },
         "arm64": {
-            "url": "https://lmms.io/download/artifact/10942965100#/dl.7z",
-            "hash": "193853dbd48a4b6918f5fd989f1b8bceb61edd3a471a9b6bf2a05d60f7958144"
+            "url": "https://lmms.io/download/artifact/12149748590#/dl.7z",
+            "hash": "574c6911ceed57cc7cec78b091437489a81b9e95906954748ffd50d91548ee40"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninst*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
