@@ -1,12 +1,12 @@
 {
-    "version": "7",
+    "version": "8",
     "description": "A fast, simple and tiny DAW written in Zig — no runtime required.",
     "homepage": "https://github.com/NeonMedusa/Sawdust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NeonMedusa/Sawdust/releases/download/v7/Sawdust.exe",
-            "hash": "bd1ce2c5dd1bc1fdd88d62bcd0dc0be6612f3f093213ae47a42acfca38a47991"
+            "url": "https://github.com/NeonMedusa/Sawdust/releases/download/v8/Sawdust.exe",
+            "hash": "dec1cc5451a68247e5fe724ab64717bf0c14f787259de52a1cda3516f2e44ad3"
         }
     },
     "shortcuts": [
