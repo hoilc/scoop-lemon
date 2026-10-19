@@ -109,9 +109,9 @@ function Main {
                     if ($val -is [string]) {
                         $val = $val.Trim()
                     }
-                    if ($key -eq 'version') {
-                        $val = Get-Version $jsonContent
-                    }
+#                    if ($key -eq 'version') {
+#                        $val = Get-Version $jsonContent
+#                    }
                     $row[$key] = $val
                 }
                 else {
