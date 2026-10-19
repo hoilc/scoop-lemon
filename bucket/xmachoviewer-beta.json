@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0-20261012",
+    "version": "0.4.0-20261019",
     "description": "(BETA Version) A Mach-O viewer.",
     "homepage": "https://github.com/horsicq/XMachOViewer",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/horsicq/XMachOViewer/releases/download/Beta/XMachOViewer_win64_portable_0.4.0_x64.zip",
-            "hash": "3056aa1318ecaf8825c2c9bf4f4782ae94d2ea13f6962007acbdafaed056860a"
+            "hash": "f9830b9388b1d13c77c4f77d72f0d1b550774d6aabef75233852bdab2dcca92a"
         },
         "32bit": {
             "url": "https://github.com/horsicq/XMachOViewer/releases/download/Beta/XMachOViewer_win32_portable_0.4.0_x86.zip",
-            "hash": "e7046725797c2723ad25a4094396c6b53a39887be1dbeb62b2ea071485842bca"
+            "hash": "3270b705efa8550139b5ee3e5a7ba5a4465ab8a635c40415897e1ca100ceeddc"
         }
     },
     "shortcuts": [
