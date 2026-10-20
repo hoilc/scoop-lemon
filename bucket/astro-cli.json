@@ -1,5 +1,5 @@
 {
-    "version": "1.46.0",
+    "version": "1.46.1",
     "description": "Astro CLI makes it easy to create, test and deploy Airflow DAGs to Astronomer.",
     "homepage": "https://github.com/astronomer/astro-cli",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.46.0/astro_1.46.0_windows_amd64.zip",
-            "hash": "6844c24f6952f0f587745bd7a6c776dc5558c8f4f22dc50da32418eb01b4ab28"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.46.1/astro_1.46.1_windows_amd64.zip",
+            "hash": "daa554d2f30a68b6f73b509ec1c0a07307d062a8ed2ce2af179977b0afb94817"
         },
         "arm64": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.46.0/astro_1.46.0_windows_arm64.zip",
-            "hash": "481a299ad83593350529ce48fa46fb8ea06b274338b376e37192bc8eb6f8d158"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.46.1/astro_1.46.1_windows_arm64.zip",
+            "hash": "3f1645719e191c50293164ffed46aab04c3815edbf41060b97b0b57d9f62b9c5"
         }
     },
     "bin": "astro.exe",
