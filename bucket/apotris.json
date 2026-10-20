@@ -1,12 +1,12 @@
 {
-    "version": "4.1.0",
+    "version": "4.2.0",
     "description": "A free and multiplatform block stacking game.",
     "homepage": "https://akouzoukos.com/apotris",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.0Windows-x64.zip",
-            "hash": "898dc44b33c29a21af1dcc54b5bf9e3636d7e07fd7049be92f2410f03ec428bb"
+            "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.2.0Windows-x64.zip",
+            "hash": "73efd61633ec5f90e2e0ca0770d3bfb9230d0e2ff6e0c12c798071eb410a4cce"
         }
     },
     "shortcuts": [
