@@ -1,16 +1,16 @@
 {
-    "version": "0.2.19",
+    "version": "0.2.20",
     "description": "A CLI tool that unlocks encrypted music file.",
     "homepage": "https://git.um-react.app/um/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.19/um-windows-amd64-v0.2.19.zip",
-            "hash": "eed69413c7da4fd719f168fef8efe6a91f2beffc8360a4a12e143ef527941c35"
+            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.20/um-windows-amd64-v0.2.20.zip",
+            "hash": "a539b4f0ccb2c3238f977218693a99682d170eb700b012cf447f6f1cfe82cf88"
         },
         "arm64": {
-            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.19/um-windows-arm64-v0.2.19.zip",
-            "hash": "79c06c2eb89623b2df555fcdaaf5463b9aa6ad4d875e7484afcfb3c8fff90096"
+            "url": "https://git.um-react.app/um/cli/releases/download/v0.2.20/um-windows-arm64-v0.2.20.zip",
+            "hash": "6eaaec4bbddcdfcac62c2d665c35a7dbabb1ac761bb15b9f98b88994d0785595"
         }
     },
     "bin": "um.exe",
