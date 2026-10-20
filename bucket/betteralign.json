@@ -1,12 +1,12 @@
 {
-    "version": "0.15.3",
+    "version": "0.15.4",
     "description": "A tool that detects Go structs that would use less memory if their fields were reordered, and optionally rewrites them.",
     "homepage": "https://github.com/dkorunic/betteralign",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dkorunic/betteralign/releases/download/v0.15.3/betteralign_Windows_x86_64.zip",
-            "hash": "540d370bcb6dfc7e746573c434d50b44ce92881a07d604aae152cf1af28b0282"
+            "url": "https://github.com/dkorunic/betteralign/releases/download/v0.15.4/betteralign_Windows_x86_64.zip",
+            "hash": "c6962e84f4e90c11fc73e35c43e1635245a715ba783ddb110ac7d76c41feef81"
         }
     },
     "bin": "betteralign.exe",
