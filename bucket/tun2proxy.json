@@ -1,20 +1,20 @@
 {
-    "version": "0.8.5",
+    "version": "0.8.6",
     "description": "A tunnel interface for HTTP and SOCKS proxies.",
     "homepage": "https://github.com/tun2proxy/tun2proxy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.5/tun2proxy-x86_64-pc-windows-msvc.zip",
-            "hash": "323d3f899d9229b8d65983d5abf90cd1e77540ea96ac026deb63e9e38c860471"
+            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-x86_64-pc-windows-msvc.zip",
+            "hash": "197e6c6227b7267028dbe9eb4c7a00795b20ed604fedbbbd6451fddbfd2976f1"
         },
         "32bit": {
-            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.5/tun2proxy-i686-pc-windows-msvc.zip",
-            "hash": "ecc6f13dfd021c068985e64c0a8859bae5557d2b17c57e6ee0b2426ef5f8fed4"
+            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-i686-pc-windows-msvc.zip",
+            "hash": "4267c454f72f014b81abb2130d923ab8f446a5a17fb90ac6e16ea082137ab69d"
         },
         "arm64": {
-            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.5/tun2proxy-aarch64-pc-windows-msvc.zip",
-            "hash": "d0751c2d3156aa5ef6a1f8b2c36c051d2eeb15ec29689b621934af79a9d0d5ad"
+            "url": "https://github.com/tun2proxy/tun2proxy/releases/download/v0.8.6/tun2proxy-aarch64-pc-windows-msvc.zip",
+            "hash": "086f08c6558e09b44e498b5b2a02e1b114fa1bf01a39d046ef154d400a5c4c7a"
         }
     },
     "bin": [
