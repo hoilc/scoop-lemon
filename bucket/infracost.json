@@ -1,12 +1,12 @@
 {
-    "version": "0.10.46",
+    "version": "0.10.47",
     "description": "Infracost shows cloud cost estimates for Terraform.",
     "homepage": "https://infracost.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/infracost/infracost/releases/download/v0.10.46/infracost-windows-amd64.zip",
-            "hash": "3a7a59266c5a44d22f5f0a55fbae1c708fdbbe6b34a2c1557035f7aa528aa21d"
+            "url": "https://github.com/infracost/infracost/releases/download/v0.10.47/infracost-windows-amd64.zip",
+            "hash": "045c283fd97d7f5ab001cbc7036967c5b54eb9a811f79f8feae9cade99470d3e"
         }
     },
     "bin": "infracost.exe",
