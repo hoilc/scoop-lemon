@@ -1,16 +1,16 @@
 {
-    "version": "1.6.3",
+    "version": "1.6.4",
     "description": "Route traffic using a local SOCKS5 or HTTP proxy through a Tailscale exit node or a tailcat server.",
     "homepage": "https://github.com/ItalyPaleAle/tailsocks",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ItalyPaleAle/tailsocks/releases/download/v1.6.3/tailsocks-1.6.3-windows-x64.zip",
-            "hash": "36179b32cf98a31c9b4a314dfc6f026c5769ed9d6531404d210b955211afb118"
+            "url": "https://github.com/ItalyPaleAle/tailsocks/releases/download/v1.6.4/tailsocks-1.6.4-windows-x64.zip",
+            "hash": "8189dad42dc38fe4718ddb3d6832b89e4f4280d978ee5cd44f063d7575ddcba0"
         },
         "arm64": {
-            "url": "https://github.com/ItalyPaleAle/tailsocks/releases/download/v1.6.3/tailsocks-1.6.3-windows-arm64.zip",
-            "hash": "2bac9c7a413dcd20f9a50827b76798afcc670283111e4cfec62236309eb42e8f"
+            "url": "https://github.com/ItalyPaleAle/tailsocks/releases/download/v1.6.4/tailsocks-1.6.4-windows-arm64.zip",
+            "hash": "1f42b5630edf2a0f94c711fd5690a35e182bf770182192a13b88a180ddddc176"
         }
     },
     "bin": "tailsocks.exe",
