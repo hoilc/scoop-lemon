@@ -1,12 +1,12 @@
 {
-    "version": "0.7.30",
+    "version": "0.7.31",
     "description": "A CLI that lets AI coding agents message, watch, and spawn each other across terminals with integration for Claude Code, Codex, Gemini, and more.",
     "homepage": "https://github.com/aannoo/hcom",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aannoo/hcom/releases/download/v0.7.30/hcom-x86_64-pc-windows-msvc.zip",
-            "hash": "dba2098ded8faaef0865d4efe68daf120446bd4e9f7aefedec9fff174ad0170f"
+            "url": "https://github.com/aannoo/hcom/releases/download/v0.7.31/hcom-x86_64-pc-windows-msvc.zip",
+            "hash": "c88b645d1e091c81cac79e982bd1ad96a595bda6786f4cd1d9f2ed9187551acf"
         }
     },
     "bin": "hcom.exe",
