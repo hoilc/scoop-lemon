@@ -1,10 +1,10 @@
 {
-    "version": "2.4.52",
+    "version": "2.4.53",
     "description": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.",
     "homepage": "https://github.com/swagger-api/swagger-codegen",
     "license": "Apache-2.0",
-    "url": "https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.52/swagger-codegen-cli-2.4.52.jar#/swagger-codegen-cli.jar",
-    "hash": "f0cc2a0c63fa0365760749063935697faeb2386cd409ed5b14e3bf97e181ae66",
+    "url": "https://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.53/swagger-codegen-cli-2.4.53.jar#/swagger-codegen-cli.jar",
+    "hash": "b283b4bd858972be90858f36453e84cfe1cf97932e912dafa60113b46efd477a",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "swagger-codegen-cli.bat",
     "suggest": {
