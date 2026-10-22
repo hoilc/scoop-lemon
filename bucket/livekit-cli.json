@@ -1,16 +1,16 @@
 {
-    "version": "2.19.1",
+    "version": "2.19.2",
     "description": "The command line interface to LiveKit, an open source platform for developers building realtime media applications.",
     "homepage": "https://github.com/livekit/livekit-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/livekit/livekit-cli/releases/download/v2.19.1/lk_2.19.1_windows_amd64.zip",
-            "hash": "b823544f173dec611788ad4f19f99a9a9a57118375a3e96cd4c63e0511abf272"
+            "url": "https://github.com/livekit/livekit-cli/releases/download/v2.19.2/lk_2.19.2_windows_amd64.zip",
+            "hash": "3a76873bd0a593d03b1305499ae0e468a242742eb3bfbfac737f27f1d00be139"
         },
         "arm64": {
-            "url": "https://github.com/livekit/livekit-cli/releases/download/v2.19.1/lk_2.19.1_windows_arm64.zip",
-            "hash": "066bee5400eb8e91077dd850db4416211d66693993d47c8242ca0ee21c456409"
+            "url": "https://github.com/livekit/livekit-cli/releases/download/v2.19.2/lk_2.19.2_windows_arm64.zip",
+            "hash": "6ebd93f83a47632839ff65bb5d871bbd5348b938775df8a9e961112dd7111e2d"
         }
     },
     "bin": "lk.exe",
