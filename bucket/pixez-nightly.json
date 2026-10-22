@@ -1,12 +1,12 @@
 {
-    "version": "b476-20261019-2e3098b",
+    "version": "b482-20261021-406ced1",
     "description": "（开发版）一个支持免代理直连及查看动图的第三方Pixiv flutter客户端",
     "homepage": "https://github.com/Notsfsssf/pixez-flutter",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/Notsfsssf/pixez-flutter/actions/runs/39272686455/windows-x86_64-release.zip",
-            "hash": "cea086d1e7ff6047ef2a03e368313c4b9026b9001415d9948cf170988443bc40"
+            "url": "https://nightly.link/Notsfsssf/pixez-flutter/actions/runs/39624709984/windows-x86_64-release.zip",
+            "hash": "2cb3dd820d8b3f035f784260f604c5ff1922745e045f002cbee815a79994b282"
         }
     },
     "shortcuts": [
