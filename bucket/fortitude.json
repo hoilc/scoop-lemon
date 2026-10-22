@@ -1,20 +1,20 @@
 {
-    "version": "0.9.2",
+    "version": "0.10.0",
     "description": "A Fortran linter, written in Rust.",
     "homepage": "https://fortitude.readthedocs.io/en/stable/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.9.2/fortitude-x86_64-pc-windows-msvc.zip",
-            "hash": "5962a575701aca6555dcbd67b89aba6e894a8da99aa39cf1a4128fd2d23a690c"
+            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.10.0/fortitude-x86_64-pc-windows-msvc.zip",
+            "hash": "f2146fa8331c4accfb98f6844c80aa1cd74faf0c9effc977341a3546e0f702e2"
         },
         "32bit": {
-            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.9.2/fortitude-i686-pc-windows-msvc.zip",
-            "hash": "46053dd1d9768842a1fd305e83604b652af93173169c5904dbba1dd77934873a"
+            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.10.0/fortitude-i686-pc-windows-msvc.zip",
+            "hash": "a9632df91d23623953e50c929493fc25f87016cde7f62d30448b48c3f881da46"
         },
         "arm64": {
-            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.9.2/fortitude-aarch64-pc-windows-msvc.zip",
-            "hash": "7e3f7223f2fa6129690dfeb37423feaecea3354fec9dd25d8b2633af563be528"
+            "url": "https://github.com/PlasmaFAIR/fortitude/releases/download/v0.10.0/fortitude-aarch64-pc-windows-msvc.zip",
+            "hash": "61aca874ac0ea5c5d0485a9d7968bcc77ba30f0b8db98a0d9b02672d781b1a82"
         }
     },
     "bin": "fortitude.exe",
