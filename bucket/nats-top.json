@@ -1,20 +1,20 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.5",
     "description": "A top-like tool for monitoring NATS servers.",
     "homepage": "https://github.com/nats-io/nats-top",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.4/nats-top_0.6.4_windows_amd64.tar.gz",
-            "hash": "f1cbe7efa628b03378677a536b79f83ecdc6ce59d1371ad419f539234f1069fa"
+            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.5/nats-top_0.6.5_windows_amd64.tar.gz",
+            "hash": "48089bfc9bccb6b7dcc0a9f7c16e443ed61a24f72201919b39f6c137ca62aa5e"
         },
         "32bit": {
-            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.4/nats-top_0.6.4_windows_386.tar.gz",
-            "hash": "dbb548c327177a79acac10adedb8bdd5eb8377dbabfc614fd47cc963c491ea5e"
+            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.5/nats-top_0.6.5_windows_386.tar.gz",
+            "hash": "57810f9e7fac8311d9ba241ae82a42fa4a93060795b0a8f78f855ed5985f5c58"
         },
         "arm64": {
-            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.4/nats-top_0.6.4_windows_arm64.tar.gz",
-            "hash": "d71bd28f151bb7f91ae7c90415e2cc348dda064f34e6993b5bea438fdf858c2d"
+            "url": "https://github.com/nats-io/nats-top/releases/download/v0.6.5/nats-top_0.6.5_windows_arm64.tar.gz",
+            "hash": "e21c1091d4555ef5c1c53b2ddaa83f446d43101cba989e69009c70d71a538761"
         }
     },
     "bin": "nats-top.exe",
