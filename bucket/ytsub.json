@@ -1,15 +1,15 @@
 {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "A subscriptions only TUI YouTube client.",
     "homepage": "https://github.com/sarowish/ytsub",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sarowish/ytsub/releases/download/v0.11.0/ytsub-0.11.0-x86_64-pc-windows-msvc.zip",
-            "hash": "986b3227a203d0b7c0435ce8f5899144b4b94ae2b370872be77ecc60f6f1f63d"
+            "url": "https://github.com/sarowish/ytsub/releases/download/v0.11.1/ytsub-0.11.1-x86_64-pc-windows-msvc.zip",
+            "hash": "66ad17139bf037508c2fcee36c2f092d375408726a8c399266e5e075cc66db38"
         }
     },
-    "extract_dir": "ytsub-0.11.0",
+    "extract_dir": "ytsub-0.11.1",
     "bin": "ytsub.exe",
     "suggest": {
         "mpv": "mpv",
