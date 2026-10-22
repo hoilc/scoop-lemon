@@ -1,12 +1,12 @@
 {
-    "version": "2.7.1",
+    "version": "2.8.0",
     "description": "A chess game playable in the terminal.",
     "homepage": "https://thomas-mauran.github.io/chess-tui/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.7.1/chess-tui-2.7.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "a7ac6f122fca68aba6ae3f8e904e560acc09ca670f15e1ddd43c124d72d25b5e"
+            "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.8.0/chess-tui-2.8.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "6fb567411442739ab34e67610575f9054229b54fbd56c53a4482d2fd35068fb3"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'chess-tui' | Select-Object -First 1 | Rename-Item -NewName 'chess-tui.exe'",
