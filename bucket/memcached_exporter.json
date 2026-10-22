@@ -1,18 +1,18 @@
 {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "description": "A Prometheus exporter for Memcached.",
     "homepage": "https://github.com/prometheus/memcached_exporter",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prometheus/memcached_exporter/releases/download/v0.17.0/memcached_exporter-0.17.0.windows-amd64.tar.gz",
-            "hash": "8b07fb009652472842ca8e3911c40512812186a149958c0ff10837f32fcc2342",
-            "extract_dir": "memcached_exporter-0.17.0.windows-amd64"
+            "url": "https://github.com/prometheus/memcached_exporter/releases/download/v0.18.0/memcached_exporter-0.18.0.windows-amd64.tar.gz",
+            "hash": "49d435e01f4d000a5dce99baf7941fda69c54fc2dddb7102ab360c9c2d2e556e",
+            "extract_dir": "memcached_exporter-0.18.0.windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/prometheus/memcached_exporter/releases/download/v0.17.0/memcached_exporter-0.17.0.windows-386.tar.gz",
-            "hash": "89d31f53812dba2fcb29a44871c0cb10a7a9a42aeb10d4e79a9f4868b1e99830",
-            "extract_dir": "memcached_exporter-0.17.0.windows-386"
+            "url": "https://github.com/prometheus/memcached_exporter/releases/download/v0.18.0/memcached_exporter-0.18.0.windows-386.tar.gz",
+            "hash": "1045180bb26f3fa94ce9e6709b6563728edd501989f3a1e2998d9ec04511174f",
+            "extract_dir": "memcached_exporter-0.18.0.windows-386"
         }
     },
     "bin": "memcached_exporter.exe",
