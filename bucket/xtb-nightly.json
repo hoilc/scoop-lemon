@@ -1,12 +1,12 @@
 {
-    "version": "0.20261008.1212",
+    "version": "0.20261021.2043",
     "description": "(Nightly Version) Semiempirical extended tight-binding program package.",
     "homepage": "https://github.com/grimme-lab/xtb",
     "license": "LGPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/grimme-lab/xtb/releases/download/bleed/xtb-bleed-windows.zip",
-            "hash": "5569dfa2998f37d0dcbe0ed3ad712d2a155a68704400b12a8964953f43aafac6"
+            "hash": "b492a11e68f5f2327bbf9924faae8bc7e343aec5a6b25bf42b1c6b05d2f4ae97"
         }
     },
     "extract_dir": "xtb-bleed-windows",
