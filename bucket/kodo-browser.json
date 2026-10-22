@@ -1,16 +1,16 @@
 {
-    "version": "2.3.2",
+    "version": "2.3.3",
     "description": "七牛对象存储提供的图形化管理工具，支持用户通过可视化页面进行上传、下载等操作",
     "homepage": "https://developer.qiniu.com/kodo/5972/kodo-browser",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qiniu/kodo-browser/releases/download/v2.3.2/kodo-browser-win32-x64-v2.3.2.zip",
-            "hash": "75826c45f2daf28641eeec6354426a3e0a1bc0d141c9739e0a5654294dfa93c4"
+            "url": "https://github.com/qiniu/kodo-browser/releases/download/v2.3.3/kodo-browser-win32-x64-v2.3.3.zip",
+            "hash": "18feb802c2a2e99e7b310bb7e33fbb2b552fd9d67bdc049325c094bbdaa8d5ad"
         },
         "32bit": {
-            "url": "https://github.com/qiniu/kodo-browser/releases/download/v2.3.2/kodo-browser-win32-x86-v2.3.2.zip",
-            "hash": "5b085eb2e5e5b66a6c9a620a88b661a96fcca3cba7282cb637c3964ed7486f17"
+            "url": "https://github.com/qiniu/kodo-browser/releases/download/v2.3.3/kodo-browser-win32-x86-v2.3.3.zip",
+            "hash": "fbe21dad6c4bd74cac483f5db9725e4afadc30fe0801c54f9187769170a12c9c"
         }
     },
     "shortcuts": [
