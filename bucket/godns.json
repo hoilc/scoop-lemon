@@ -1,20 +1,20 @@
 {
-    "version": "3.4.5",
+    "version": "3.4.6",
     "description": "A dynamic DNS client tool that supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc.",
     "homepage": "https://github.com/TimothyYe/godns",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.5/godns_3.4.5_windows_amd64.tar.gz",
-            "hash": "9d9c0f1b750af5e67e9bb006261958978490a6ce4b66534934b35223f888fc1e"
+            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.6/godns_3.4.6_windows_amd64.tar.gz",
+            "hash": "e60c4cca05ae2da344426b5db0e274b5e488186849e940e0cc7ca4ffc89cf584"
         },
         "32bit": {
-            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.5/godns_3.4.5_windows_386.tar.gz",
-            "hash": "66dfaf18d961e09dfadc50740834139d39a87aa93cea0a4ccef27fd772425833"
+            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.6/godns_3.4.6_windows_386.tar.gz",
+            "hash": "1666e0595df15c1cb72c8a32c163496ff17ce28fae46804cc7e6b374086c37b2"
         },
         "arm64": {
-            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.5/godns_3.4.5_windows_arm64.tar.gz",
-            "hash": "9a3115f0d074d257cad5ecf3fb546fa68066e7a4f24a0d8f57ccb906db106552"
+            "url": "https://github.com/TimothyYe/godns/releases/download/v3.4.6/godns_3.4.6_windows_arm64.tar.gz",
+            "hash": "a0b6729e9395aacc88ea8944595148ca7135537f6e63a85112e2c28b34839607"
         }
     },
     "bin": "godns.exe",
