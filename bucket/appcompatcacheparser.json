@@ -1,10 +1,10 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "An AppCompatCache (shimcache) parser.",
     "homepage": "https://github.com/EricZimmerman/AppCompatCacheParser",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/AppCompatCacheParser.zip",
-    "hash": "c3af4e6f55d4ed962d59c9ba62224318a19b78c6d30bdb81d9d722cfa7c048b5",
+    "hash": "66044556e5e521c70328087f7a799d01b26c941afab2a4ca3f4c56203a46b547",
     "bin": "AppCompatCacheParser.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
