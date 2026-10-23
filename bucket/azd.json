@@ -1,12 +1,12 @@
 {
-    "version": "1.36.0",
+    "version": "1.37.1",
     "description": "A developer CLI that accelerates the time it takes for you to get started on Azure.",
     "homepage": "https://aka.ms/azure-dev/devhub",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://azuresdkartifacts.z5.web.core.windows.net/azd/standalone/release/1.36.0/azd-windows-amd64.zip",
-            "hash": "f14722f0d9e79b9d5f810a093f15fd233364c75f3ca0bde42c833d19c02f2fbb"
+            "url": "https://azuresdkartifacts.z5.web.core.windows.net/azd/standalone/release/1.37.1/azd-windows-amd64.zip",
+            "hash": "975d6d3bdceaca66752f725e1768a42beb2355a2e841b388905b33030016ce13"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'azd-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'azd.exe'",
