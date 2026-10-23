@@ -1,12 +1,12 @@
 {
-    "version": "0.1.25",
+    "version": "0.1.27",
     "description": "A simple, free desktop tool to automate mouse clicks.",
     "homepage": "https://actusclicker.com/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.actusclicker.com/v0.1.25/Actus-v0.1.25-windows-x86_64-setup.exe#/dl.7z",
-            "hash": "82dc5c0c7e950414532626bf9b0b1a253622a80ca1f75c8a65ef87db03e9e60b"
+            "url": "https://download.actusclicker.com/v0.1.27/Actus-v0.1.27-windows-x86_64-setup.exe#/dl.7z",
+            "hash": "b7b5826ea403eb5ebb5eabc601d82b30377903f809cd2431df454033a2410637"
         }
     },
     "shortcuts": [
