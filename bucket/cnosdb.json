@@ -1,12 +1,12 @@
 {
-    "version": "2.4.3.4",
+    "version": "2.5.0",
     "description": "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability.",
     "homepage": "https://www.cnosdb.com/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cnosdb/cnosdb/releases/download/v2.4.3.4/cnosdb-community-2.4.3.4-windows_x86_64.zip",
-            "hash": "ada8b44eded1af7c2c24bbe8e3af5a9fdf33bde2382a5482bce72f49226ca8e9"
+            "url": "https://github.com/cnosdb/cnosdb/releases/download/v2.5.0/cnosdb-community-2.5.0-windows_x86_64.zip",
+            "hash": "028c8f8003c64dedc2a8871d9bf6411a27f710bc3c7524409673898eb291ffaa"
         }
     },
     "bin": [
