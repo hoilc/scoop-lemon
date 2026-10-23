@@ -1,12 +1,12 @@
 {
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率",
     "homepage": "https://kazumi.app",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Predidit/Kazumi/releases/download/2.4.1/Kazumi_windows_2.4.1.zip",
-            "hash": "b38564313c06c5ae58736c8787d5a35d0fff42388d08e6b89548413e1abfa630"
+            "url": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_windows_2.4.2.zip",
+            "hash": "5e5e0e1e020aaf81a20917b845cd97038523979da37e98a0a81af447c33d9fee"
         }
     },
     "shortcuts": [
