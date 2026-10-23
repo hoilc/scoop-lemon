@@ -1,10 +1,10 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "Process SRUDB.dat and (optionally) SOFTWARE hive for network, process, and energy info.",
     "homepage": "https://github.com/EricZimmerman/Srum",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/SrumECmd.zip",
-    "hash": "f04a3a76de57896270704d7c657cddd53e58a8e5a0b40bdfeca423602e175fca",
+    "hash": "94746b4308434e83b2b62c43cee81b448ef5c70e55721b39e8db8e75675af82a",
     "bin": "SrumECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
