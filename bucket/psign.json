@@ -1,16 +1,16 @@
 {
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "A Rust port of the Windows SDK signtool.exe behavior.",
     "homepage": "https://github.com/Devolutions/psign",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Devolutions/psign/releases/download/v0.7.0/psign-tool-windows-x64.zip",
-            "hash": "39f147de8a31ab5da99b39cf115becea21788ffecd5e4d674c98d4b64198b365"
+            "url": "https://github.com/Devolutions/psign/releases/download/v0.8.0/psign-tool-windows-x64.zip",
+            "hash": "02986b8ea2a22e0e0a82ad9b7a7d87a47c78ad1314c356208f500ccf356a2ac4"
         },
         "arm64": {
-            "url": "https://github.com/Devolutions/psign/releases/download/v0.7.0/psign-tool-windows-arm64.zip",
-            "hash": "836456a6f320871bf595b55ece8c018e975fba45e7a2106b08ba305b9674fd35"
+            "url": "https://github.com/Devolutions/psign/releases/download/v0.8.0/psign-tool-windows-arm64.zip",
+            "hash": "df54be61705a5a14713d279c920911177d27350971f4002c9139a4de14960543"
         }
     },
     "bin": "psign-tool.exe",
