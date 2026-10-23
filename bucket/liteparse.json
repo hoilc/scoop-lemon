@@ -1,18 +1,18 @@
 {
-    "version": "2.16.0",
+    "version": "2.17.0",
     "description": "A fast, helpful, and open-source document parser.",
     "homepage": "https://github.com/run-llama/liteparse",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/run-llama/liteparse/releases/download/crates-v2.16.0/lit-windows-x64.tar.gz",
+            "url": "https://github.com/run-llama/liteparse/releases/download/crates-v2.17.0/lit-windows-x64.tar.gz",
             "extract_dir": "lit-windows-x64",
-            "hash": "1d3d1e1a818bd64bef8cc9c5d7d74fccbac93e1a21d3fc73223df445464f545f"
+            "hash": "de62d3b749b2ed86af598d21b956ef3ddef327f898b6506a9c0b274b31e51c28"
         },
         "arm64": {
-            "url": "https://github.com/run-llama/liteparse/releases/download/crates-v2.16.0/lit-windows-arm64.tar.gz",
+            "url": "https://github.com/run-llama/liteparse/releases/download/crates-v2.17.0/lit-windows-arm64.tar.gz",
             "extract_dir": "lit-windows-arm64",
-            "hash": "39b1b398b4a8b13ed1ed1b596fc711c98a2a0887ff1cd3655da21a68462bdef5"
+            "hash": "27b2b8afafb068a37af003c909cba897bd07f12f8414ad2af44c506dab494b94"
         }
     },
     "bin": "lit.exe",
