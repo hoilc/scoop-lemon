@@ -1,12 +1,12 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Automatically trim stale contexts from your KUBECONFIG.",
     "homepage": "https://github.com/alexellis/kubetrim",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alexellis/kubetrim/releases/download/v0.0.2/kubetrim.exe.tgz",
-            "hash": "aef7f6215402c0a9bc1de93d59c8df9312e226a73d231e229806a918d9ceb91e"
+            "url": "https://github.com/alexellis/kubetrim/releases/download/v0.0.3/kubetrim.exe.tgz",
+            "hash": "fb73491de69913f90694685828e8f188a9c4820de30bb50828efc7a714fe89e8"
         }
     },
     "bin": "kubetrim.exe",
