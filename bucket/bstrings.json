@@ -1,10 +1,10 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "A better strings utility.",
     "homepage": "https://github.com/EricZimmerman/bstrings",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/bstrings.zip",
-    "hash": "16e3608650330a36602ea54449d94adbef58e25debfc533ec92b80cec90f5738",
+    "hash": "a6e35bab20128b30f8ff495eece1f020a85c82f4a6750ac4f82b4f0c5e44c30f",
     "bin": "bstrings.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
