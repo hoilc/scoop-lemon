@@ -1,10 +1,10 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "A single purpose tool to replay transaction logs in Registry hives.",
     "homepage": "https://github.com/EricZimmerman/RECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/rla.zip",
-    "hash": "8bf1fcbd304c5fe749e463e51d5913ed75669655122185731ad41a1e5b270838",
+    "hash": "80dbb44c394e74cffed66cd5a114dc908dea9d9dfdce2d2c8e3ddcc8a773cb2a",
     "bin": "rla.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
