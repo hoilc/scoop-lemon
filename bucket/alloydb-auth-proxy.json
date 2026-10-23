@@ -1,16 +1,16 @@
 {
-    "version": "1.17.1",
+    "version": "1.17.2",
     "description": "A utility for connecting securely to your AlloyDB instances.",
     "homepage": "https://github.com/GoogleCloudPlatform/alloydb-auth-proxy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/alloydb-auth-proxy/v1.17.1/alloydb-auth-proxy-x64.exe#/alloydb-auth-proxy.exe",
-            "hash": "09ad1109e4e8edb71b4c13dbca4dc5a1dedf15ab0805d8c237c7b715216acc15"
+            "url": "https://storage.googleapis.com/alloydb-auth-proxy/v1.17.2/alloydb-auth-proxy-x64.exe#/alloydb-auth-proxy.exe",
+            "hash": "9c46763ef7a588fcaf3b6cbb60448397b96a64b750f3010cff0c4ff6aa7c7686"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/alloydb-auth-proxy/v1.17.1/alloydb-auth-proxy-x86.exe#/alloydb-auth-proxy.exe",
-            "hash": "10d8d6c380717fb47da27e84fcca506cf82f6b937695a2c2aa70e16e66dff63e"
+            "url": "https://storage.googleapis.com/alloydb-auth-proxy/v1.17.2/alloydb-auth-proxy-x86.exe#/alloydb-auth-proxy.exe",
+            "hash": "0fade3eb00beea857f213092b13cbd1107a0c67d928514df32167cd3791a380e"
         }
     },
     "bin": "alloydb-auth-proxy.exe",
