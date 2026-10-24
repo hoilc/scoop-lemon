@@ -1,20 +1,20 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "Anywherelan (awl for brevity) is a peer-to-peer mesh VPN for connecting your own devices to each other, at the IP level, from wherever they are.",
     "homepage": "https://anywherelan.com/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.19.0/awl-windows-amd64-v0.19.0.zip",
-            "hash": "02751a057ae5ad89d6b7a6f25e81d80a018790e714354110f040fce9c666bb73"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.20.0/awl-windows-amd64-v0.20.0.zip",
+            "hash": "7d149668cf45d1aa9439cef88e75c73dc323adfb5d8f099c5fdbebe438e17918"
         },
         "32bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.19.0/awl-windows-386-v0.19.0.zip",
-            "hash": "714e026734d46412a4ad282520e6ab7df49712b4867d9d465635816e31dbab71"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.20.0/awl-windows-386-v0.20.0.zip",
+            "hash": "02060df7bf935ccb86b975b7f9c615f7dd4d09430f50c37ed8253f200dcfe724"
         },
         "arm64": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.19.0/awl-windows-arm64-v0.19.0.zip",
-            "hash": "639eaa371f621c256ee416297d32760dcd9d3757e9d0a244bb9f7bed9720b5fe"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.20.0/awl-windows-arm64-v0.20.0.zip",
+            "hash": "2445876054a8e83ee5c7ac365831bf46db71287d752dc33d9bacf9bee14d9dba"
         }
     },
     "shortcuts": [
