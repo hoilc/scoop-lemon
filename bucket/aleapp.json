@@ -1,16 +1,16 @@
 {
-    "version": "2026.4.3",
+    "version": "2026.4.4",
     "description": "Android Logs Events And Protobuf Parser",
     "homepage": "https://github.com/abrignoni/ALEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.3/ALEAPP-2026.4.3-windows-x64-portable.zip",
-            "hash": "e0c1585969c180886d9f4b177bef6513685c4153c1f545962bb771f0f8fa518f"
+            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.4/ALEAPP-2026.4.4-windows-x64-portable.zip",
+            "hash": "9770533ac7399ebb17f3d68c33d22f2040a21ddfbe03b3ec1ee774c02ed6bb8a"
         },
         "arm64": {
-            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.3/ALEAPP-2026.4.3-windows-arm64-portable.zip",
-            "hash": "5887b244daf2fc8b39a5fed6ee7ca930decde497288b299dcdff4686177ba093"
+            "url": "https://github.com/abrignoni/ALEAPP/releases/download/v2026.4.4/ALEAPP-2026.4.4-windows-arm64-portable.zip",
+            "hash": "7947650270fc9ad65dfa9a0236fb190085a517dbc2f318aedd2c10e270012d2a"
         }
     },
     "bin": "aleapp.exe",
