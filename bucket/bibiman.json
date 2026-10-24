@@ -1,16 +1,16 @@
 {
-    "version": "0.19.3",
+    "version": "0.19.7",
     "description": "A TUI for fast and simple interacting with your BibLaTeX database.",
     "homepage": "https://codeberg.org/lukeflo/bibiman",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.3/bibiman-0.19.3-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "e161ae63e745a292e87d6687628d0228a088ed165ddc245139f082ec39f9cb89"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.7/bibiman-0.19.7-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "c260a534f4438297d108671e5fd0d2cba3f48da602b03f2865f40ffac2ec151a"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.3/bibiman-0.19.3-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "4b98c8d27462c08d7e0a1071f92187ef24ef1c25a41a5518f59d50d34f626572"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/bibiman-0.19.7/bibiman-0.19.7-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "554c70c85ab8c1aeb5d5e06f42f8c2e72d3335ef52c8e9188dd683dd51df5d75"
         }
     },
     "bin": "bibiman.exe",
