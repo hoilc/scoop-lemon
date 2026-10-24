@@ -1,12 +1,12 @@
 {
-    "version": "0.20.1",
+    "version": "1.0.0",
     "description": "CodeNomad transforms OpenCode from a terminal tool into a premium desktop workspace.",
     "homepage": "https://github.com/NeuralNomadsAI/CodeNomad",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NeuralNomadsAI/CodeNomad/releases/download/v0.20.1/CodeNomad-Electron-windows-x64-0.20.1.zip",
-            "hash": "ec22c33e1552bce585c21cea241921f1a8269491a851ae88216f5f50224bcc64"
+            "url": "https://github.com/NeuralNomadsAI/CodeNomad/releases/download/v1.0.0/CodeNomad-Electron-windows-x64-1.0.0.zip",
+            "hash": "5fcfd1d25c9f4dbd9099253f31fda4721207be571d5b20fd25a1e2e04cce60f3"
         }
     },
     "shortcuts": [
