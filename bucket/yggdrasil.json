@@ -1,5 +1,5 @@
 {
-    "version": "0.5.14",
+    "version": "0.5.15",
     "description": "An early-stage implementation of a fully end-to-end encrypted IPv6 networking protocol.",
     "homepage": "https://yggdrasil-network.github.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.14/yggdrasil-0.5.14-x64.msi",
-            "hash": "8a871a037040094c793b08447e98815ff90040fa6c4c0d094b64f7f8e3f3a93d"
+            "url": "https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.15/yggdrasil-0.5.15-x64.msi",
+            "hash": "ea92c8af1cb01909363ce0ecc219f4247fa278a9803fb6d4c4d55c30bdcf4c70"
         },
         "32bit": {
-            "url": "https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.14/yggdrasil-0.5.14-x86.msi",
-            "hash": "cde35c2a13c49dab4b85b4df9c2caa844cdbf8873866300982f1bc095c8bb439"
+            "url": "https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.5.15/yggdrasil-0.5.15-x86.msi",
+            "hash": "1423d1f08e49ddef8c9fc6c3f7f1a99a1be0c0f7ae90c037dbf4dd750118aa8b"
         }
     },
     "extract_dir": "PFiles\\Yggdrasil",
