@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "CLI tool to batch export LCSC components into formats supported by Altium Designer (AD) and KiCad. | 批量导出立创商城元件为 Altium Designer（AD）、KiCad 可用格式的命令行工具",
     "homepage": "https://github.com/ref42/npnp",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ref42/npnp/releases/download/v2.0.0/npnp-v2.0.0-windows-x86_64.zip",
-            "hash": "1e4c24d51697815628f913248d702d698709cff7865c65d15bc3c92b79ef0c1a"
+            "url": "https://github.com/ref42/npnp/releases/download/v3.0.0/npnp-v3.0.0-windows-x86_64.zip",
+            "hash": "f2f11e0c965ef271722ee642e6b751ad22e68fa84a212967801626511d35cdcb"
         },
         "arm64": {
-            "url": "https://github.com/ref42/npnp/releases/download/v2.0.0/npnp-v2.0.0-windows-aarch64.zip",
-            "hash": "4415fe6770e71ab739f51086f2ffa9cc4430b0aaf027fd0206bee5aca31a5a61"
+            "url": "https://github.com/ref42/npnp/releases/download/v3.0.0/npnp-v3.0.0-windows-aarch64.zip",
+            "hash": "5a0d444d7527c09cde119b8043132d3cff19912eaa96ec4de5a38da2ba4b10bc"
         }
     },
     "bin": "npnp.exe",
