@@ -1,17 +1,17 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A fast, universal domain availability checker supporting 1,200+ TLDs, pattern generation, and RDAP with WHOIS fallback.",
     "homepage": "https://github.com/saidutt46/domain-check",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/saidutt46/domain-check/releases/download/v1.2.0/domain-check-windows-x86_64.exe.zip",
-                "https://github.com/saidutt46/domain-check/releases/download/v1.2.0/domain-check-mcp-windows-x86_64.exe.zip"
+                "https://github.com/saidutt46/domain-check/releases/download/v1.2.1/domain-check-windows-x86_64.exe.zip",
+                "https://github.com/saidutt46/domain-check/releases/download/v1.2.1/domain-check-mcp-windows-x86_64.exe.zip"
             ],
             "hash": [
-                "97c76885bcd053f4ffbe9a5b2772646a0e7c49129c238579e0d739790900c785",
-                "eddc432251f2aaafa89eaf12d8482169e9e6bcf2511478b6842efe9d39e10660"
+                "56ef080457b4fbcf9e04dd3d24ff357e756d6401c31477162f1d6705c36fba12",
+                "df81181b00c0a95f6e4d8fbf09d1f65a362936fc60342d744c2ecead538c2238"
             ]
         }
     },
