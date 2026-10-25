@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Batch export LCSC components in formats supported by Altium Designer (AD) and KiCad. | 批量导出立创商城元件为Altium Designer（AD）、KiCad可用的格式",
     "homepage": "https://github.com/ref42/seex",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ref42/seex/releases/download/v2.0.0/seex-v2.0.0-windows-x86_64.zip",
-            "hash": "be728bd8f7a7fd65a90606c80d76f01cf16e4282f5caab9e30adf316e41594af"
+            "url": "https://github.com/ref42/seex/releases/download/v3.0.0/seex-v3.0.0-windows-x86_64.zip",
+            "hash": "ef7b4f8e178ef74e53792a51c96a04c5b2e759ffade84387cc5109d3c58bb968"
         },
         "arm64": {
-            "url": "https://github.com/ref42/seex/releases/download/v2.0.0/seex-v2.0.0-windows-aarch64.zip",
-            "hash": "1056b5e35ce977acb1692d568aff97096a08eaf0a452d3655160ce8fea0c9b98"
+            "url": "https://github.com/ref42/seex/releases/download/v3.0.0/seex-v3.0.0-windows-aarch64.zip",
+            "hash": "6ba030dff40c991f2e1d504d07826086aafd3954c4ec84148cd29f152b2148d0"
         }
     },
     "shortcuts": [
