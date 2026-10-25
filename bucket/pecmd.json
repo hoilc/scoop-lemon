@@ -1,10 +1,10 @@
 {
-    "version": "2026.10.2",
+    "version": "2026.10.3",
     "description": "A Prefetch parser for Windows.",
     "homepage": "https://github.com/EricZimmerman/PECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/PECmd.zip",
-    "hash": "58e2e31335183b2f85e63128eca9df21ea74772573c9a0b4e57c8c0a2427534c",
+    "hash": "0d5a0c9bd9aeba6738fabbb5bfa2ca360f924949eeb02fc55d9bc8bf3dcc88f3",
     "bin": "PECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
