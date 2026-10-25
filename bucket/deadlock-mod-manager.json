@@ -1,12 +1,12 @@
 {
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "A mod manager for the Valve game Deadlock.",
     "homepage": "https://deadlockmods.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deadlock-mod-manager/deadlock-mod-manager/releases/download/v2.1.1/Deadlock.Mod.Manager_2.1.1_x64-setup.exe#/dl.7z",
-            "hash": "fb2800ef00b33e0f14403c90de404b63a86df5bdf82b5ad580be6b5648e03ca1"
+            "url": "https://github.com/deadlock-mod-manager/deadlock-mod-manager/releases/download/v2.2.0/Deadlock.Mod.Manager_2.2.0_x64-setup.exe#/dl.7z",
+            "hash": "be810c70c00097e8b86f6a0250853b1518d77f708695fc064c27be4f09fcfa95"
         }
     },
     "shortcuts": [
