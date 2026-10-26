@@ -1,13 +1,13 @@
 {
-    "version": "0.5.3",
+    "version": "0.6.0",
     "description": "League of Legends pings and emotes for your whole desktop. | 把英雄联盟的信号和表情搬到整个桌面",
     "homepage": "https://github.com/darrenprx/lolPing",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/darrenprx/lolPing/releases/download/v0.5.3/lolPing-Setup-0.5.3.exe#/dl.7z",
+            "url": "https://github.com/darrenprx/lolPing/releases/download/v0.6.0/lolPing-Setup-0.6.0.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "6962fee2e2066260b66a98abf48308d975a8f0d2cbe3137f9657affdbeccc133"
+            "hash": "371f2c0544ab7160c8f531438c13e388d431b2cec2deedd3857d2c1b65e47b81"
         }
     },
     "shortcuts": [
