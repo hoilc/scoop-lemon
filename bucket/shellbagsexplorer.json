@@ -1,12 +1,12 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.1",
     "description": "A GUI for browsing Windows shellbags data.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip",
-            "hash": "56a5adbcb7649ca4b3f8740ea285fe814aea4cc8f185eafbf6a0051ece9b09ce"
+            "url": "https://download.ericzimmermanstools.com/net/ShellBagsExplorer.zip",
+            "hash": "23993c87c007d5e29e0c414572bef6178b15bda521d580e4b61eed9ce8cc0122"
         }
     },
     "extract_dir": "ShellBagsExplorer",
@@ -21,12 +21,12 @@
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
-        "regex": "ShellBags ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+        "regex": "ShellBags ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net\\/[^()]*\\)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip"
+                "url": "https://download.ericzimmermanstools.com/net/ShellBagsExplorer.zip"
             }
         }
     }
