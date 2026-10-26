@@ -1,16 +1,16 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.1",
     "description": "A Windows 10 Timeline database parser.",
     "homepage": "https://github.com/EricZimmerman/WxTCmd",
     "license": "MIT",
-    "url": "https://download.ericzimmermanstools.com/net9/WxTCmd.zip",
-    "hash": "aa08a020cc9daa22551edbf07bca336cb8249ce29830d67cf09bc3703dffec6d",
+    "url": "https://download.ericzimmermanstools.com/net/WxTCmd.zip",
+    "hash": "0a0c055ee467bd6800e4300dde5b650f28c11e7447205344fd3bbcd00832bc0e",
     "bin": "WxTCmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
         "regex": "WxTCmd.*?\\[([\\d.]+)\\]"
     },
     "autoupdate": {
-        "url": "https://download.ericzimmermanstools.com/net9/WxTCmd.zip"
+        "url": "https://download.ericzimmermanstools.com/net/WxTCmd.zip"
     }
 }
