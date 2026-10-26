@@ -1,12 +1,12 @@
 {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "五笔码表助手 for Rime，主要服务于 rime-wubi86-jidian 方案",
     "homepage": "https://github.com/KyleBing/wubi-dict-editor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.5.1/WubiDictEditor-1.5.1-full.nupkg",
-            "hash": "f88081291ba2f3d5f2f90592043da604dee26c7f7ccf69a65cd745899592edd9"
+            "url": "https://github.com/KyleBing/wubi-dict-editor/releases/download/v1.5.2/WubiDictEditor-1.5.2-full.nupkg",
+            "hash": "512647f5bceb2b2f26c2b8292762fde56c106cc27d10c195dc778e5fe3831abc"
         }
     },
     "extract_dir": "lib\\net45",
