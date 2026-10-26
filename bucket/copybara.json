@@ -1,10 +1,10 @@
 {
-    "version": "20261019",
+    "version": "20261026",
     "description": "A tool for transforming and moving code between repositories.",
     "homepage": "https://github.com/google/copybara",
     "license": "Apache-2.0",
-    "url": "https://github.com/google/copybara/releases/download/v20261019/copybara_deploy.jar#/copybara.jar",
-    "hash": "008fc31e299f119cdd6b731e2d69de1f7125b2ce390ec7b94f601df79ba0836c",
+    "url": "https://github.com/google/copybara/releases/download/v20261026/copybara_deploy.jar#/copybara.jar",
+    "hash": "1969f3417aa753226b53812705b1ab2a3f9564e4b964c0b0f7b6b71c75488923",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "copybara.bat",
     "suggest": {
