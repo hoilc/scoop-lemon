@@ -1,16 +1,16 @@
 {
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "A command-line tool for Z-Library to search, download, send to Kindle, and integrate with AI agents.",
     "homepage": "https://zlib.heartleo.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/heartleo/zlib/releases/download/v0.0.11/zlib_0.0.11_windows_x86_64.zip",
-            "hash": "38db6672bb781d70ffef754921c578c97a7a2d072d1ae34ec272d1af514b7d23"
+            "url": "https://github.com/heartleo/zlib/releases/download/v0.0.12/zlib_0.0.12_windows_x86_64.zip",
+            "hash": "7060b06e0f591f6d93e7e9a27a77259061a0f57b75579fd499fcc4ae0cf9df50"
         },
         "arm64": {
-            "url": "https://github.com/heartleo/zlib/releases/download/v0.0.11/zlib_0.0.11_windows_arm64.zip",
-            "hash": "6384fb232d020b42612fdea3d2fb85bd95dbd44008e6290ae6c56838106e7c75"
+            "url": "https://github.com/heartleo/zlib/releases/download/v0.0.12/zlib_0.0.12_windows_arm64.zip",
+            "hash": "a9e56441ebfc8272d2d98be0c70a26a44892084af3a5b3834f7f59b9df531580"
         }
     },
     "bin": "zlib.exe",
