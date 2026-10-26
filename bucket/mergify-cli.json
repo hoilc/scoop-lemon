@@ -1,12 +1,12 @@
 {
-    "version": "2026.10.8",
+    "version": "2026.10.9",
     "description": "The command-line tool for Mergify: stacked pull requests, CI insights, merge queue, scheduled freezes, and configuration management.",
     "homepage": "https://github.com/Mergifyio/mergify-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mergifyio/mergify-cli/releases/download/2026.10.8/mergify-2026.10.8-x86_64-pc-windows-msvc.zip",
-            "hash": "b5ab448acb1c51571055f5b07d5a7b9307628295347ea8278eb66ae1537e5da9"
+            "url": "https://github.com/Mergifyio/mergify-cli/releases/download/2026.10.9/mergify-2026.10.9-x86_64-pc-windows-msvc.zip",
+            "hash": "68d29775a3b5b36f75c300943c5e4e71da746c7dff22196fd966049760b46c42"
         }
     },
     "bin": "mergify.exe",
