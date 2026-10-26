@@ -1,18 +1,18 @@
 {
-    "version": "0.78.0",
+    "version": "0.79.0",
     "description": "A universal Conda package builder (like conda-build but faster).",
     "homepage": "https://github.com/prefix-dev/rattler-build",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prefix-dev/rattler-build/releases/download/v0.78.0/rattler-build-x86_64-pc-windows-msvc.zip",
+            "url": "https://github.com/prefix-dev/rattler-build/releases/download/v0.79.0/rattler-build-x86_64-pc-windows-msvc.zip",
             "extract_dir": "rattler-build-x86_64-pc-windows-msvc",
-            "hash": "3efbde3f16724c3fc9ea0ca6f4916bea4e47132ed6de1815b801b7f1874b5203"
+            "hash": "f8fb9d461c937cbbd64a40305e37ffe6cdf714855a9e30fce2ede194525866d3"
         },
         "arm64": {
-            "url": "https://github.com/prefix-dev/rattler-build/releases/download/v0.78.0/rattler-build-aarch64-pc-windows-msvc.zip",
+            "url": "https://github.com/prefix-dev/rattler-build/releases/download/v0.79.0/rattler-build-aarch64-pc-windows-msvc.zip",
             "extract_dir": "rattler-build-aarch64-pc-windows-msvc",
-            "hash": "b30ed785e5ab3d8f4fe206cdcd5ddb4053e8d6ff9d96c738c5a872b41446babb"
+            "hash": "6eb5614fd587ce9e2ff6d1bf095ce34c4fee6ea8e1eec7ca166721c63fb94261"
         }
     },
     "bin": "rattler-build.exe",
