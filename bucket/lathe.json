@@ -1,16 +1,16 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.5",
     "description": "Agentic-friendly CLI generator for APIs: turn Swagger, OpenAPI, and google.api.http protos into single-binary CLIs with catalogs and generated Skills.",
     "homepage": "https://github.com/lathe-cli/lathe",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lathe-cli/lathe/releases/download/v0.6.4/lathe_0.6.4_windows_amd64.zip",
-            "hash": "d09fecaba9481a9d02d12dc50bdf010b25954171eef1d2cbbccb570982a8b22b"
+            "url": "https://github.com/lathe-cli/lathe/releases/download/v0.6.5/lathe_0.6.5_windows_amd64.zip",
+            "hash": "0ce276284576b699980406c7a65e399be2ddf4db031f8433f719ef07db400118"
         },
         "arm64": {
-            "url": "https://github.com/lathe-cli/lathe/releases/download/v0.6.4/lathe_0.6.4_windows_arm64.zip",
-            "hash": "1535303e87da92b0755faf156041318f81356df1f31774b9322d915d32ac8f5d"
+            "url": "https://github.com/lathe-cli/lathe/releases/download/v0.6.5/lathe_0.6.5_windows_arm64.zip",
+            "hash": "33ca619c979c1b9408137815b012646e0adcce88eab73c1dd9d2cd4073056c0a"
         }
     },
     "bin": "lathe.exe",
