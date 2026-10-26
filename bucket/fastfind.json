@@ -1,12 +1,12 @@
 {
-    "version": "0.96.7",
+    "version": "0.97.0",
     "description": "A free file search for Windows with fast first-time queries and Korean initial-consonant search.",
     "homepage": "https://fastfind.kr/en",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://fastfind.kr/downloads/local/FastFind-0.96.7-x64.zip",
-            "hash": "2c9d2e60c03db1c3427ed3e7c52fc45b9569805036f13bc3831db3e0758a81df"
+            "url": "https://fastfind.kr/downloads/local/FastFind-0.97.0-x64.zip",
+            "hash": "5e237c9ac0a4a8fc7d96d7cbf0ea6d22b31a0af5694a5d5a15a5ac42e0c84488"
         }
     },
     "shortcuts": [
