@@ -1,16 +1,16 @@
 {
-    "version": "1.13.1",
+    "version": "1.13.2",
     "description": "A powerful and easy-to-use MQTT 5.0 command line tool.",
     "homepage": "https://mqttx.app/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.emqx.com/en/downloads/MQTTX/v1.13.1/mqttx-cli-win-x64.exe#/mqttx.exe",
-            "hash": "84ddd12765e339b70eee25ad319a0864f98fa7d3b5a833e65b30f9af743d1bde"
+            "url": "https://www.emqx.com/en/downloads/MQTTX/v1.13.2/mqttx-cli-win-x64.exe#/mqttx.exe",
+            "hash": "c84cef9a0d517a85c74fc54efdfffcff661caec88a10f1931b25342a7d97f916"
         },
         "arm64": {
-            "url": "https://www.emqx.com/en/downloads/MQTTX/v1.13.1/mqttx-cli-win-arm64.exe#/mqttx.exe",
-            "hash": "86ff91febc23d181ea9d89d08cbea2f1da3d459aab457a44ef14155bc5916874"
+            "url": "https://www.emqx.com/en/downloads/MQTTX/v1.13.2/mqttx-cli-win-arm64.exe#/mqttx.exe",
+            "hash": "e785c3b5ea2335a71552de48749f7866b8580763887b87d55ed18c60ea0593b7"
         }
     },
     "bin": "mqttx.exe",
