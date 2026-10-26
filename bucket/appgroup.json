@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/iandiv/AppGroup/releases/download/v1.6.0/AppGroup_v1.6.0.win-x64-Bundled.zip",
-            "extract_dir": "AppGroup_v1.6.0.win-x64-Bundled",
             "hash": "9a98a8c7101eff049f177e75ff7459421fd7b8458fab5ea4524441c53e0e8685"
         }
     },
@@ -20,8 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/iandiv/AppGroup/releases/download/v$version/AppGroup_v$version.win-x64-Bundled.zip",
-                "extract_dir": "AppGroup_v$version.win-x64-Bundled"
+                "url": "https://github.com/iandiv/AppGroup/releases/download/v$version/AppGroup_v$version.win-x64-Bundled.zip"
             }
         }
     }
