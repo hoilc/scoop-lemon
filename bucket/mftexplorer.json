@@ -1,12 +1,12 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "A graphical $MFT viewer",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.ericzimmermanstools.com/net9/MFTExplorer.zip",
-            "hash": "6266f057b3b8243931ff6533b0d72885f3d53976c44f2db531372117ca54ade9"
+            "url": "https://download.ericzimmermanstools.com/net/MFTExplorer.zip",
+            "hash": "f5d160d5a20d0d8a4432068504c3f7daf20412515877782f3549787e4887b065"
         }
     },
     "extract_dir": "MFTExplorer",
@@ -21,12 +21,12 @@
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
-        "regex": "MFTExplorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+        "regex": "MFTExplorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net\\/[^()]*\\)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.ericzimmermanstools.com/net9/MFTExplorer.zip"
+                "url": "https://download.ericzimmermanstools.com/net/MFTExplorer.zip"
             }
         }
     }
