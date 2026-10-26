@@ -1,12 +1,12 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.0",
     "description": "A GUI parser for Microsoft shim databases.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.ericzimmermanstools.com/net9/SDBExplorer.zip",
-            "hash": "c3ca7453f659bb0981bf2a573672b74bfffee5985e752cec35bda3abc20080de"
+            "url": "https://download.ericzimmermanstools.com/net/SDBExplorer.zip",
+            "hash": "5279f85cb87f3485a7a3ee71147cfd61cfe51ed5a8d45a12ee48f620eac66109"
         }
     },
     "extract_dir": "SDBExplorer",
@@ -21,12 +21,12 @@
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
-        "regex": "SDB ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+        "regex": "SDB ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net\\/[^()]*\\)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.ericzimmermanstools.com/net9/SDBExplorer.zip"
+                "url": "https://download.ericzimmermanstools.com/net/SDBExplorer.zip"
             }
         }
     }
