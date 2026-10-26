@@ -1,16 +1,16 @@
 {
-    "version": "0.2.18",
+    "version": "0.2.19",
     "description": "A command line editor for HCL.",
     "homepage": "https://github.com/minamijoyo/hcledit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/minamijoyo/hcledit/releases/download/v0.2.18/hcledit_0.2.18_windows_amd64.tar.gz",
-            "hash": "256595df80b616bf211eceef878cef1c443a2f87f1205ae9b22f1a7c32f247cc"
+            "url": "https://github.com/minamijoyo/hcledit/releases/download/v0.2.19/hcledit_0.2.19_windows_amd64.tar.gz",
+            "hash": "351ebdfd914e5c25032ea7141b88beb87e236889537b93a4d99d3d58f62b9055"
         },
         "arm64": {
-            "url": "https://github.com/minamijoyo/hcledit/releases/download/v0.2.18/hcledit_0.2.18_windows_arm64.tar.gz",
-            "hash": "a082ecf44126303169993028580c78cf242d5532577f9ed3678fce527f66ec15"
+            "url": "https://github.com/minamijoyo/hcledit/releases/download/v0.2.19/hcledit_0.2.19_windows_arm64.tar.gz",
+            "hash": "078d9ca645a129f49c14b44b2bac789d16fa2d7257a6801cb17e9fc56c8fbc0a"
         }
     },
     "bin": "hcledit.exe",
