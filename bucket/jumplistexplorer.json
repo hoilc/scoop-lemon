@@ -1,12 +1,12 @@
 {
-    "version": "2026.5.0",
+    "version": "2026.10.1",
     "description": "A GUI based Jump List viewer.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip",
-            "hash": "953c2d91c948e48f1f0731817033bd89b877f8dd163720d8c1d686ac6214d737"
+            "url": "https://download.ericzimmermanstools.com/net/JumpListExplorer.zip",
+            "hash": "5dfc260d8d14c2bab339e73a53eaa1ab3041b47608e0424c3fe886b5b568b44e"
         }
     },
     "extract_dir": "JumpListExplorer",
@@ -21,12 +21,12 @@
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
-        "regex": "JumpList ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net9\\/[^()]*\\)"
+        "regex": "JumpList ?Explorer.*?\\[([\\d.]+)\\]\\([^()]*\\/net\\/[^()]*\\)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip"
+                "url": "https://download.ericzimmermanstools.com/net/JumpListExplorer.zip"
             }
         }
     }
