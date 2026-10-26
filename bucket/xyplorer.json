@@ -6,8 +6,16 @@
         "identifier": "Shareware",
         "url": "https://www.xyplorer.com/LicenseXY.txt"
     },
-    "url": "https://www.xyplorer.com/download/xyplorer_full_noinstall.zip",
-    "hash": "5a6f158e39301d54a9c0669e4a6caf48fd9132ca24c3049038cfcf462529357e",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.xyplorer.com/download/xyplorer64_full_noinstall.zip",
+            "hash": "21e8169826c78e8460d2270438a9b69c951ef0c382e036f89073c88b5c45a8ed"
+        },
+        "32bit": {
+            "url": "https://www.xyplorer.com/download/xyplorer_full_noinstall.zip",
+            "hash": "5a6f158e39301d54a9c0669e4a6caf48fd9132ca24c3049038cfcf462529357e"
+        }
+    },
     "bin": "XYplorer.exe",
     "shortcuts": [
         [
@@ -21,6 +29,13 @@
         "regex": "([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://www.xyplorer.com/download/xyplorer_full_noinstall.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://www.xyplorer.com/download/xyplorer64_full_noinstall.zip"
+            },
+            "32bit": {
+                "url": "https://www.xyplorer.com/download/xyplorer_full_noinstall.zip"
+            }
+        }
     }
 }
