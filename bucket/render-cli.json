@@ -1,20 +1,20 @@
 {
-    "version": "2.32.0",
+    "version": "2.33.0",
     "description": "The official command-line interface for Render cloud hosting platform",
     "homepage": "https://render.com/docs/cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/render-oss/cli/releases/download/v2.32.0/cli_2.32.0_windows_amd64.zip",
-            "hash": "6022ad791294c3eac95afa0f004fd07a11599cd8501d21d07dc4606232777f8f"
+            "url": "https://github.com/render-oss/cli/releases/download/v2.33.0/cli_2.33.0_windows_amd64.zip",
+            "hash": "7a16d74c9f18ac9a1383d9a3a43c3c07b4374dbddb183f49a05810c130b5ca16"
         },
         "32bit": {
-            "url": "https://github.com/render-oss/cli/releases/download/v2.32.0/cli_2.32.0_windows_386.zip",
-            "hash": "1b51ad2dafe4758d8296cc0202d25852f89d5c81a73bb69bbbc29e8785ef698f"
+            "url": "https://github.com/render-oss/cli/releases/download/v2.33.0/cli_2.33.0_windows_386.zip",
+            "hash": "0be010a7432d45dfd6e0fd03de96e6a822fc2189acbec49fbf93fcf3ce361282"
         },
         "arm64": {
-            "url": "https://github.com/render-oss/cli/releases/download/v2.32.0/cli_2.32.0_windows_arm64.zip",
-            "hash": "a76469a887047477dfe99053e055166e7ab78d7e0bfe8d460bcf5950df42b0fc"
+            "url": "https://github.com/render-oss/cli/releases/download/v2.33.0/cli_2.33.0_windows_arm64.zip",
+            "hash": "857f154dda12c3eb1cc7366c65d38475a6e91af51ee59593ef98fce69f494ac7"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'cli?*.exe' | Select-Object -First 1 | Rename-Item -NewName 'render.exe'",
