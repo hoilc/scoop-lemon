@@ -1,16 +1,16 @@
 {
-    "version": "2.0.0-rc.1",
+    "version": "2.0.0-rc.2",
     "description": "Zero-copy, content-addressed build cache for Rust and C/C++ object compiles.",
     "homepage": "https://github.com/kunobi-ninja/kache",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.0.0-rc.1/kache-x86_64-pc-windows-msvc.zip",
-            "hash": "0bf64dd0c8fd7668392eb36db5d6f4142a3e5dd4b8640ef1b3501c75a819b976"
+            "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.0.0-rc.2/kache-x86_64-pc-windows-msvc.zip",
+            "hash": "f2c11b5fb9348e1b6dc887b6db9b3d4c1a007ce5f52d8b33a9beb08c87df44a1"
         },
         "arm64": {
-            "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.0.0-rc.1/kache-aarch64-pc-windows-msvc.zip",
-            "hash": "5b97b02243dc2443495dbedb3eaf4b75a4dd40b05fe776b8abc7c3c5c087aba6"
+            "url": "https://github.com/kunobi-ninja/kache/releases/download/v2.0.0-rc.2/kache-aarch64-pc-windows-msvc.zip",
+            "hash": "83b3e24a5a365d858c9cc7f62e0d2f325192117790d2e5edba9c9fe775ebe1de"
         }
     },
     "bin": "kache.exe",
