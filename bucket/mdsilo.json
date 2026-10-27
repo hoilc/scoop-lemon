@@ -1,12 +1,12 @@
 {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "A local-first mind silo for storing ideas, thought, knowledge with a powerful all-in-one writing tool.",
     "homepage": "https://mdsilo.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/danloh/mdSilo-app/releases/download/mdsilo-v0.6.1/mdsilo_0.6.1_x64_en-US.msi",
-            "hash": "9871cfef9db2128aaeaf974fa0c83593bd3236b42597d703e7459c8a672a4901"
+            "url": "https://github.com/danloh/mdSilo-app/releases/download/mdsilo-v0.6.2/mdsilo_0.6.2_x64_en-US.msi",
+            "hash": "ca5522172ac96aad9ea3e194602d159b7dbea4fc7e9fe077d4561cedd821caf7"
         }
     },
     "extract_dir": "PFiles\\mdsilo",
