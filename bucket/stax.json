@@ -1,12 +1,12 @@
 {
-    "version": "0.118.0",
+    "version": "0.118.1",
     "description": "Stacked Git branches and PRs, fast, safe, and built for humans and AI agents.",
     "homepage": "https://cesarferreira.com/stax/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cesarferreira/stax/releases/download/v0.118.0/stax-x86_64-pc-windows-msvc.zip",
-            "hash": "f8c50024fc8b0b443fd81204774abf2b979580fdd41161c599f0eee3162df894"
+            "url": "https://github.com/cesarferreira/stax/releases/download/v0.118.1/stax-x86_64-pc-windows-msvc.zip",
+            "hash": "207fee210b1144c6d151233c85fd38f4d5c436c43cf75b5519b90bca7819713a"
         }
     },
     "bin": [
