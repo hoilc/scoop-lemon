@@ -1,12 +1,12 @@
 {
-    "version": "1.17.1",
+    "version": "1.17.2",
     "description": "A manager for Guild Wars 2 arcdps EVTC logs.",
     "homepage": "https://gw2scratch.com/tools/manager",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gw2scratch/evtc/releases/download/manager-v1.17.1/Log.Manager.Windows.self-contained.zip",
-            "hash": "60795cd9841fc7d6c1cf24defcf3e37dd280aab0d0b21bc509dac777eb83ab54"
+            "url": "https://github.com/gw2scratch/evtc/releases/download/manager-v1.17.2/Log.Manager.Windows.self-contained.zip",
+            "hash": "f756e9be2dc3bf5508043652a5878ae9fa2b2eceaac2c56a2cc5ce2218c2a769"
         }
     },
     "shortcuts": [
