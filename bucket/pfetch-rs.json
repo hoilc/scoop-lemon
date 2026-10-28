@@ -1,12 +1,12 @@
 {
-    "version": "3.1.0",
+    "version": "3.1.1",
     "description": "A rewrite of the pfetch system information tool in Rust.",
     "homepage": "https://github.com/Gobidev/pfetch-rs",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.0/pfetch-windows-x86_64.exe#/pfetch.exe",
-            "hash": "81f87a790ae73886bd7b541963223cad782e77d262d19b7705c211fdb4a9d06c"
+            "url": "https://github.com/Gobidev/pfetch-rs/releases/download/v3.1.1/pfetch-windows-x86_64.exe#/pfetch.exe",
+            "hash": "395bd6f1a95947ed495f028cbda30ce284905856c9b21eb36bed70c5db54b563"
         }
     },
     "bin": "pfetch.exe",
