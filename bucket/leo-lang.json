@@ -1,19 +1,19 @@
 {
-    "version": "4.4.3",
+    "version": "4.4.6",
     "description": "An imperative, statically-typed programming language built for writing private applications.",
     "homepage": "https://leo-lang.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/ProvableHQ/leo/releases/download/leo-lang-v4.4.3/leo-lang-v4.4.3-x86_64-pc-windows-msvc.zip",
-                "https://github.com/ProvableHQ/leo/releases/download/leo-fmt-v4.4.3/leo-fmt-v4.4.3-x86_64-pc-windows-msvc.zip",
-                "https://github.com/ProvableHQ/leo/releases/download/leo-lsp-v4.4.3/leo-lsp-v4.4.3-x86_64-pc-windows-msvc.zip"
+                "https://github.com/ProvableHQ/leo/releases/download/leo-lang-v4.4.6/leo-lang-v4.4.6-x86_64-pc-windows-msvc.zip",
+                "https://github.com/ProvableHQ/leo/releases/download/leo-fmt-v4.4.6/leo-fmt-v4.4.6-x86_64-pc-windows-msvc.zip",
+                "https://github.com/ProvableHQ/leo/releases/download/leo-lsp-v4.4.6/leo-lsp-v4.4.6-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
-                "0612315825ce3202ed88d645491055997108dfe37c21fdceeec2cac635904d2b",
-                "5ac5cf8e476846e997c770f997a8f226805e44a170122492c0c7f05b6db08233",
-                "cb7f72e77f29e40edb13ec0663b3f7a21614211ecfff1f654d876d6a2b54ccce"
+                "10fda780f4a7b6f618e91be0109edc46df5286b3515a6241b056ba1781e256dd",
+                "6b69fadd84e2f508d89bcd0257843487b32ec3146635ca02e2f7b67f8f9e65c4",
+                "62d64197008bc724f52c5e8b9f0dce098829740b3adb14fd55fdb90d4a422ff7"
             ]
         }
     },
