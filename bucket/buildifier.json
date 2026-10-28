@@ -1,12 +1,12 @@
 {
-    "version": "10.1.0",
+    "version": "10.2.0",
     "description": "Format bazel BUILD files with a standard convention.",
     "homepage": "https://github.com/bazelbuild/buildtools",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bazelbuild/buildtools/releases/download/v10.1.0/buildifier-windows-amd64.exe#/buildifier.exe",
-            "hash": "931a6e9c3844b90ccdb1467ccacd8dd72457e308d2709d624a3c5880d835ac3c"
+            "url": "https://github.com/bazelbuild/buildtools/releases/download/v10.2.0/buildifier-windows-amd64.exe#/buildifier.exe",
+            "hash": "ae9b0632ff4bc56607b9c8512716b7fd63371387136005d25e94ec668f89361d"
         }
     },
     "bin": "buildifier.exe",
