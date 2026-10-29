@@ -1,16 +1,16 @@
 {
-    "version": "2026-10-18T00-00-00Z",
+    "version": "2026-10-26T00-00-00Z",
     "description": "A conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-18T00-00-00Z/silo_20261018000000.0.0_windows_amd64.tar.gz",
-            "hash": "b75361bc94b36527c4fe291330ea7e62522c6d19d5e767a7911eb846a227b8b7"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-26T00-00-00Z/silo_20261026000000.0.0_windows_amd64.zip",
+            "hash": "4c11b43c35d00111cdc6fa6aae6da6e695945cf77c7d8b3884059ba71c897db6"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-18T00-00-00Z/silo_20261018000000.0.0_windows_arm64.tar.gz",
-            "hash": "680f410f4dfc3c50d36f3e5d54639010168acbaaa6acb043eca6d25a331ea695"
+            "url": "https://github.com/pgsty/silo/releases/download/RELEASE.2026-10-26T00-00-00Z/silo_20261026000000.0.0_windows_arm64.zip",
+            "hash": "2a208bf5141284f8d51436a82f3068c0d18ac9610a5c62c92fd0729c86ac3fca"
         }
     },
     "bin": "silo.exe",
@@ -21,11 +21,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
+                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
+                "url": "https://github.com/pgsty/silo/releases/download/RELEASE.$version/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/silo_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_checksums.txt"
         }
     }
 }
