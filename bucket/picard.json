@@ -1,12 +1,12 @@
 {
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "A cross-platform music tagger written in Python.",
     "homepage": "https://picard.musicbrainz.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://data.musicbrainz.org/pub/musicbrainz/picard/MusicBrainz-Picard-3.0.2.exe#/MusicBrainz-Picard.exe",
-            "hash": "47838e04980c00a1336e3a5b7312b4e2481b9cc3f00da4b0c887ad22f7983139"
+            "url": "https://data.musicbrainz.org/pub/musicbrainz/picard/MusicBrainz-Picard-3.0.3.exe#/MusicBrainz-Picard.exe",
+            "hash": "dd85972c88efdec464efba7af2d0ffe7e398486f16aebb7ad214fb0f4e93a858"
         }
     },
     "persist": "MusicBrainz-Picard",
