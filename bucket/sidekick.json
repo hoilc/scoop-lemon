@@ -1,12 +1,12 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "A simple app to make Flutter development more delightful.",
     "homepage": "https://github.com/fluttertools/sidekick",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fluttertools/sidekick/releases/download/1.1.1/windows-1.1.1.zip",
-            "hash": "5abacb66921deb763a1ad80b2ccece08bd30bd956e968f18c15f6ed5bd8750fd"
+            "url": "https://github.com/fluttertools/sidekick/releases/download/1.2.0/windows-1.2.0.zip",
+            "hash": "4e55a7bce08434f1b2961239e7724707eac26c9bfb525596b3085041ed6e795e"
         }
     },
     "extract_dir": "build\\windows\\Runner\\release",
