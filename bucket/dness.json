@@ -1,13 +1,13 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "A cross-platform dynamic DNS client with zero runtime dependencies.",
     "homepage": "https://github.com/nickbabcock/dness",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nickbabcock/dness/releases/download/v0.6.0/dness-0.6.0-x86_64-pc-windows-msvc.zip",
-            "hash": "5ac484a8a4f12541caa85b3cd221a8a46a05d298f97f0bd0ae6951897988d05a",
-            "extract_dir": "dness-0.6.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/nickbabcock/dness/releases/download/v0.6.1/dness-0.6.1-x86_64-pc-windows-msvc.zip",
+            "hash": "d9e5c208f23f31a900c72658bddb3263dfc6c4a33f3110a8f5aa19d804a31ecb",
+            "extract_dir": "dness-0.6.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "dness.exe",
