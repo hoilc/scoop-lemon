@@ -1,16 +1,16 @@
 {
-    "version": "6.2.41",
+    "version": "6.2.42",
     "description": "FFmpegFreeUI（简称 3FUI）是在 Windows 上的 FFmpeg 的专业交互外壳，收录大量参数，界面美观，交互友好",
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.41/FFmpegFreeUI.x64.exe#/FFmpegFreeUI.exe",
-            "hash": "ffb09bb775d9ecd4272042a47fea92058625736d04278aac0eb52bd8bf8d6dcf"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.42/FFmpegFreeUI.x64.exe#/FFmpegFreeUI.exe",
+            "hash": "ff850de58389cb029c3b277e205285bb2832d349bc957913498318852fae719e"
         },
         "arm64": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.41/FFmpegFreeUI.arm64.exe#/FFmpegFreeUI.exe",
-            "hash": "6855aabefda27a092e598ff280ecc262aaa68137a51cf93406ac6348cded8f13"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.42/FFmpegFreeUI.arm64.exe#/FFmpegFreeUI.exe",
+            "hash": "e95d8340a3812eb186fb55f7e104c74ba84bca4ab334bae2c5de8603a2f90220"
         }
     },
     "bin": "FFmpegFreeUI.exe",
