@@ -1,12 +1,12 @@
 {
-    "version": "2026.10.1",
+    "version": "2026.10.2",
     "description": "A GUI based Jump List viewer.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net/JumpListExplorer.zip",
-            "hash": "5dfc260d8d14c2bab339e73a53eaa1ab3041b47608e0424c3fe886b5b568b44e"
+            "hash": "368a442c7c165d88d8a1365fab3f95e92a7a19b369c1b8f6b7746a739825a760"
         }
     },
     "extract_dir": "JumpListExplorer",
