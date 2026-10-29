@@ -1,16 +1,16 @@
 {
-    "version": "2026-10-18T00-00-00Z",
+    "version": "2026-10-26T00-00-00Z",
     "description": "CLI client for Silo, a conservatively maintained MinIO fork.",
     "homepage": "https://silo.pigsty.io/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-10-18T00-00-00Z/mcli_20261018000000.0.0_windows_amd64.tar.gz",
-            "hash": "d6689c8cb9ec901222065e86de4ee368a570c83b87541bcfe04bbaa8e4fe0b73"
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-10-26T00-00-00Z/mcli_20261026000000.0.0_windows_amd64.zip",
+            "hash": "0ab03f51b0f9cfa05a2e542cc782388de95ffd1cbce6e2dace7e76de098af7ec"
         },
         "arm64": {
-            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-10-18T00-00-00Z/mcli_20261018000000.0.0_windows_arm64.tar.gz",
-            "hash": "7005810ba0ac882bb2f9a60b93283e0c0ee9ca6820b0dfc114d79a24863185d3"
+            "url": "https://github.com/pgsty/mc/releases/download/RELEASE.2026-10-26T00-00-00Z/mcli_20261026000000.0.0_windows_arm64.zip",
+            "hash": "adaab203569b94f5676ac3876ff0d1596651de1bf730bc5bde014bb64def997d"
         }
     },
     "bin": "mcli.exe",
@@ -21,11 +21,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.tar.gz"
+                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.tar.gz"
+                "url": "https://github.com/pgsty/mc/releases/download/RELEASE.$version/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_windows_arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/mcli_$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond.0.0_checksums.txt"
         }
     }
 }
