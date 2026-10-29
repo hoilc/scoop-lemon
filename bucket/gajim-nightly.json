@@ -1,12 +1,12 @@
 {
-    "version": "2026-10-28",
+    "version": "2026-10-29",
     "description": "(Nightly Build) A free and fully featured chat app for XMPP.",
     "homepage": "https://gajim.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://gajim.org/downloads/snap/win/Gajim-Portable-2026-10-28-64bit.exe#/dl.7z",
-            "hash": "4561388e923fe536b4fe1f9d7fe567357b13d34524c422dace8cf86abc61aded"
+            "url": "https://gajim.org/downloads/snap/win/Gajim-Portable-2026-10-29-64bit.exe#/dl.7z",
+            "hash": "7c7536a70d51d004341c9f1f4e3f9762a5b62d3bba22fa476f9453e486d716f8"
         }
     },
     "shortcuts": [
