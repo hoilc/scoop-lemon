@@ -1,12 +1,12 @@
 {
-    "version": "65.5.0",
+    "version": "65.7.0",
     "description": "Native CLI for Vercel, a unified platform for building modern applications.",
     "homepage": "https://vercel.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/@vercel/vc-native-win32-x64/-/vc-native-win32-x64-65.5.0.tgz",
-            "hash": "fbd0b474da5c73b8df6b242bef0e2f3f424baf64b4b5099ebd2e1a67b95e45f1"
+            "url": "https://registry.npmmirror.com/@vercel/vc-native-win32-x64/-/vc-native-win32-x64-65.7.0.tgz",
+            "hash": "50ecd64093e7fbb4ca1dc8c9540050e646120a1cfbe5fcacf36cc84425431dfd"
         }
     },
     "extract_dir": "package\\bin",
