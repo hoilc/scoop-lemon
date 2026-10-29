@@ -1,0 +1,30 @@
+{
+    "version": "0.2.1",
+    "description": "Windows 剪贴板历史工具：单个 exe，不限条数，搜索、分组、编辑，局域网加密互传",
+    "homepage": "https://github.com/Fomovet/clipkeep",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Fomovet/clipkeep/releases/download/v0.2.1/clipkeep_0.2.1_x64.exe#/clipkeep.exe",
+            "hash": "ae5ea19ca0569cf7f1b9a6ce9cd1b4234059353e03970de47d8ca05cedd27c4b"
+        }
+    },
+    "shortcuts": [
+        [
+            "clipkeep.exe",
+            "clipkeep"
+        ]
+    ],
+    "post_uninstall": [
+        "if ($purge) { Get-ScheduledTask 'clipkeep-clipboard' -ErrorAction SilentlyContinue | Unregister-ScheduledTask -Confirm:$false }",
+        "if ($purge) { Remove-ItemProperty 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name clipkeep -ErrorAction SilentlyContinue }"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Fomovet/clipkeep/releases/download/v$version/clipkeep_$version_x64.exe#/clipkeep.exe"
+            }
+        }
+    }
+}
