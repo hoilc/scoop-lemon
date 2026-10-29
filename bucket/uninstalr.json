@@ -15,7 +15,8 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Uninstalr.dat\")) { Set-Content -Encoding ASCII -Path \"$dir\\Uninstalr.dat\" -Value $null }",
     "persist": "Uninstalr.dat",
     "checkver": {
-        "regex": "Latest version:\\s*([\\d.]+?)\\.?[ |<]"
+        "url": "https://uninstalr.com/version.php",
+        "regex": "\\[([\\d.]+)\\]"
     },
     "autoupdate": {
         "url": "https://uninstalr.com/Uninstalr_Portable.exe#/Uninstalr.exe"
