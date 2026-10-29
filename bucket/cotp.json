@@ -1,22 +1,32 @@
 {
-    "version": "1.9.10",
+    "version": "1.11.1-1",
     "description": "A command-line TOTP/HOTP authenticator app.",
     "homepage": "https://github.com/replydev/cotp",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/replydev/cotp/releases/download/v1.9.10/cotp-1.9.10-x86_64-win-msvc.zip",
-            "extract_dir": "cotp-1.9.10-x86_64-win-msvc",
-            "hash": "0f97ab76c2012c532d77f5334d1f1a4962a755e12d093bedfd91e2ae9bb9b10d"
+            "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-cotp-1.11.1-1-any.pkg.tar.zst",
+            "extract_dir": "ucrt64",
+            "hash": "e22489f62226dba67436586fb6769df1faac40d035e9e0bc1119266582ed8d04"
+        },
+        "arm64": {
+            "url": "https://mirror.msys2.org/mingw/clangarm64/mingw-w64-clang-aarch64-cotp-1.11.1-1-any.pkg.tar.zst",
+            "extract_dir": "clangarm64",
+            "hash": "198139cc78af3a6f53efffbe3a54253f9d7e6713971a18244ad655165398a7f1"
         }
     },
-    "bin": "cotp.exe",
-    "checkver": "github",
+    "bin": "bin\\cotp.exe",
+    "checkver": {
+        "url": "https://packages.msys2.org/api/search?query=mingw-w64-cotp",
+        "regex": "\"version\":\\s*\"([\\d.]+-\\d+)\""
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/replydev/cotp/releases/download/v$version/cotp-$version-x86_64-win-msvc.zip",
-                "extract_dir": "cotp-$version-x86_64-win-msvc"
+                "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-cotp-$version-any.pkg.tar.zst"
+            },
+            "arm64": {
+                "url": "https://mirror.msys2.org/mingw/clangarm64/mingw-w64-clang-aarch64-cotp-$version-any.pkg.tar.zst"
             }
         }
     }
