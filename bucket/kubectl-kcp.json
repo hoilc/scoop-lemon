@@ -1,31 +1,31 @@
 {
-    "version": "0.33.3",
+    "version": "0.33.4",
     "description": "The kubectl plugins that simplify the operations with KCP server, a Kubernetes-like control plane.",
     "homepage": "https://kcp.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-kcp-plugin_0.33.3_windows_amd64.tar.gz",
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-ws-plugin_0.33.3_windows_amd64.tar.gz",
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-create-workspace-plugin_0.33.3_windows_amd64.tar.gz"
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-kcp-plugin_0.33.4_windows_amd64.tar.gz",
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-ws-plugin_0.33.4_windows_amd64.tar.gz",
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-create-workspace-plugin_0.33.4_windows_amd64.tar.gz"
             ],
             "hash": [
-                "42328750f59f147f4b3342a875c4b5d91167800d6279a14c66b0d40f37aef380",
-                "32137172cff36db814d51cad6b3b337350e093ad315b23d852dc4c2c0911e93a",
-                "a1c9af71cf07205857368bc0e2b63e772976bbe694848068016893fd030f33dc"
+                "7bc5c281f4353a62830cef12083271b9b49cc976ad537e0d35b0e2bbca2fa38f",
+                "8322e28949b6f36908442f9c4c3414c55728cafba31293cfda30814695761a37",
+                "72bd56009938f74780e99e843712792c9bd9c0863dccac54f4efd0cc902f5e0d"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-kcp-plugin_0.33.3_windows_arm64.tar.gz",
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-ws-plugin_0.33.3_windows_arm64.tar.gz",
-                "https://github.com/kcp-dev/kcp/releases/download/v0.33.3/kubectl-create-workspace-plugin_0.33.3_windows_arm64.tar.gz"
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-kcp-plugin_0.33.4_windows_arm64.tar.gz",
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-ws-plugin_0.33.4_windows_arm64.tar.gz",
+                "https://github.com/kcp-dev/kcp/releases/download/v0.33.4/kubectl-create-workspace-plugin_0.33.4_windows_arm64.tar.gz"
             ],
             "hash": [
-                "085f790524ab0ee4cf06f9c4e7464b7ec4641e18defa7d002ca0bbcfec0a9b0f",
-                "924566513407d0345c7050dc3a8053a30602630c5a1c14861a8ef3760f4561bb",
-                "b54193277ad22139bc44e7e63e52e3d50e46307080feea1f11758279d17ce2b0"
+                "adced71dad3ad34ef2c257a616453e30772ae5bd3edbb310de9ef81e9c2094ee",
+                "09b7247230fab15f78fb6e2ad23263c75598be4d799cb793959c0ec9b88526bb",
+                "3d4409b3b0ad16db6811e1f88b91eedf625cec04bfea0019bf978bc6dba59361"
             ]
         }
     },
