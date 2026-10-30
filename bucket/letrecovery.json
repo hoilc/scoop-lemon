@@ -1,12 +1,12 @@
 {
-    "version": "2026.10.17",
+    "version": "2026.10.30",
     "description": "A source-available Windows reinstallation tool free for noncommercial use. | 一款免费用于非商业场景、源代码公开的 Windows 系统重装工具",
     "homepage": "https://github.com/NORMAL-EX/LetRecovery",
     "license": "PolyForm-Noncommercial-1.0.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NORMAL-EX/LetRecovery/releases/download/2026.10.17/LetRecovery.7z",
-            "hash": "c951c258d5d015e9c673b99d564424954a06a12d116d6e15d4cc71e0785b6c42"
+            "url": "https://github.com/NORMAL-EX/LetRecovery/releases/download/2026.10.30/LetRecovery.7z",
+            "hash": "abf2de3039886e2aded330a4ccebc713748ed1485a9b796454d2713287567995"
         }
     },
     "shortcuts": [
