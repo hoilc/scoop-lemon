@@ -1,18 +1,18 @@
 {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "description": "An aria2c-style command-line client for FluxDown. | aria2c 风格的 FluxDown 命令行客户端",
     "homepage": "https://fluxdown.zerx.dev/docs/en/api/cli/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.6.3/FluxDown-CLI-0.6.3-windows-x64.zip",
-            "extract_dir": "fluxdown-cli-0.6.3-windows-x64",
-            "hash": "d8e349a664373f7db1cdfaf10683356eb11646575b350cf63b160a571f083eae"
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.6.4/FluxDown-CLI-0.6.4-windows-x64.zip",
+            "extract_dir": "fluxdown-cli-0.6.4-windows-x64",
+            "hash": "92ace5a940173e173ed420255dfc076f15b642a3a4527947b7316ab3260042a7"
         },
         "arm64": {
-            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.6.3/FluxDown-CLI-0.6.3-windows-arm64.zip",
-            "extract_dir": "fluxdown-cli-0.6.3-windows-arm64",
-            "hash": "bc16f0e6f4646a4dde8b6278f92d1cc3233e44f579f10fddb68886a336812d96"
+            "url": "https://github.com/zerx-lab/FluxDown/releases/download/v0.6.4/FluxDown-CLI-0.6.4-windows-arm64.zip",
+            "extract_dir": "fluxdown-cli-0.6.4-windows-arm64",
+            "hash": "988a8fb8fd580b050232f0b32f2f153c1c2e6e537f6a93be20941fa2d3a5d1b2"
         }
     },
     "bin": "fluxdown.exe",
