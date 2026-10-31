@@ -1,5 +1,5 @@
 {
-    "version": "1.5",
+    "version": "1.5.1",
     "description": "An advanced scientific programmable calculator, based on Free42.",
     "homepage": "https://thomasokken.com/plus42/",
     "license": "MIT",
@@ -7,12 +7,12 @@
         "64bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows.zip",
             "extract_dir": "Plus42Windows",
-            "hash": "4987699b65102bade768fc325b1e8c77f09da9c18731b0158551c155ff25741f"
+            "hash": "9f70f904fd98cb25c472e97ecd1455e03d0904c3756f7f84fae8350ddbfae3fb"
         },
         "32bit": {
             "url": "https://thomasokken.com/plus42/download/Plus42Windows-32bit.zip",
             "extract_dir": "Plus42Windows-32bit",
-            "hash": "8ca5ded3192eb7995c3b1d1f7152eb61fa7ad633d8fa430af5e8747ae0780dd2"
+            "hash": "4cc784c10169ed8457d8f24393f63cbbb11988a08c6028ad59c9f97dcf68d140"
         }
     },
     "shortcuts": [
