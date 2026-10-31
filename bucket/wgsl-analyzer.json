@@ -1,0 +1,31 @@
+{
+    "version": "2026-09-30",
+    "description": "A language server implementation for WGSL and WESL.",
+    "homepage": "https://github.com/wgsl-analyzer/wgsl-analyzer",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/releases/download/2026-09-30/wgsl-analyzer-x86_64-pc-windows-msvc.zip",
+            "hash": "f9b9c0621149fcf989907787daeab9212035a42af45d4511b6ec50834a7e6b05"
+        },
+        "arm64": {
+            "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/releases/download/2026-09-30/wgsl-analyzer-aarch64-pc-windows-msvc.zip",
+            "hash": "eb5d5dc97329315dd6dbe63ea1093fb068f938a312a9ccaa834bf416e916d004"
+        }
+    },
+    "bin": "wgsl-analyzer.exe",
+    "checkver": {
+        "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/releases.atom",
+        "regex": "Repository/\\d+/(\\d{4}-\\d{2}-\\d{2})<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/releases/download/$version/wgsl-analyzer-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/releases/download/$version/wgsl-analyzer-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
