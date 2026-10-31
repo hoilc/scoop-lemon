@@ -1,0 +1,33 @@
+{
+    "version": "0.10.1-2",
+    "description": "A tool for bibliography management, written in Rust.",
+    "homepage": "https://github.com/typst/hayagriva",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-hayagriva-0.10.1-2-any.pkg.tar.zst",
+            "extract_dir": "ucrt64",
+            "hash": "54b2e658f4fc324ed278cfc60443f2e0b0a6f7d26edc30026cc211689e360a66"
+        },
+        "arm64": {
+            "url": "https://mirror.msys2.org/mingw/clangarm64/mingw-w64-clang-aarch64-hayagriva-0.10.1-2-any.pkg.tar.zst",
+            "extract_dir": "clangarm64",
+            "hash": "ae5535f3f5f3c243594f0fe43efaaea374633e3b4a6fa6fc8fa5624f14618fae"
+        }
+    },
+    "bin": "bin\\hayagriva.exe",
+    "checkver": {
+        "url": "https://packages.msys2.org/api/search?query=mingw-w64-hayagriva",
+        "jsonpath": "$.results.exact.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mirror.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-hayagriva-$version-any.pkg.tar.zst"
+            },
+            "arm64": {
+                "url": "https://mirror.msys2.org/mingw/clangarm64/mingw-w64-clang-aarch64-hayagriva-$version-any.pkg.tar.zst"
+            }
+        }
+    }
+}
