@@ -1,12 +1,12 @@
 {
-    "version": "2025.1",
+    "version": "2026.1",
     "description": "基于 Java Swing 开发的跨平台 Redis 客户端工具",
     "homepage": "https://gitee.com/dromara/RedisFront",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://gitee.com/dromara/RedisFront/releases/download/2025.1/RedisFront-2025.1-windows.zip",
-            "hash": "774f788f7b8c7cfb4ecbc3ad7f1593cccb93ac00692527624f9005afa00d81ca"
+            "url": "https://gitee.com/dromara/RedisFront/releases/download/2026.1/RedisFront-2026.1-windows.zip",
+            "hash": "f260300193a1b836867da12d99f38fb717b3b794ea2c367b946644a7fb3dc82a"
         }
     },
     "extract_dir": "RedisFront",
