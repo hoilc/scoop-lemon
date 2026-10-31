@@ -1,0 +1,32 @@
+{
+    "version": "0.5.31",
+    "description": "A command line linker for creating WebAssembly components.",
+    "homepage": "https://github.com/bytecodealliance/wasm-component-ld",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-x86_64-windows.zip",
+            "extract_dir": "wasm-component-ld-v0.5.31-x86_64-windows",
+            "hash": "8ac841bcd587aba34fe299675a1a7fa8d5d683ee73d25c7323589b7b8de5ef27"
+        },
+        "arm64": {
+            "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v0.5.31/wasm-component-ld-v0.5.31-aarch64-windows.zip",
+            "extract_dir": "wasm-component-ld-v0.5.31-aarch64-windows",
+            "hash": "6176404c60efa4ce66bfb4fd0d7aca01044fd7e56cd8ae286c31fd92ec9101a6"
+        }
+    },
+    "bin": "wasm-component-ld.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v$version/wasm-component-ld-v$version-x86_64-windows.zip",
+                "extract_dir": "wasm-component-ld-v$version-x86_64-windows"
+            },
+            "arm64": {
+                "url": "https://github.com/bytecodealliance/wasm-component-ld/releases/download/v$version/wasm-component-ld-v$version-aarch64-windows.zip",
+                "extract_dir": "wasm-component-ld-v$version-aarch64-windows"
+            }
+        }
+    }
+}
