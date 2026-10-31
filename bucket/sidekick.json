@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/fluttertools/sidekick/releases/download/1.2.0/windows-1.2.0.zip",
-            "hash": "4e55a7bce08434f1b2961239e7724707eac26c9bfb525596b3085041ed6e795e"
+            "hash": "4e55a7bce08434f1b2961239e7724707eac26c9bfb525596b3085041ed6e795e",
+            "extract_dir": "build\\windows\\x64\\runner\\Release"
         }
     },
-    "extract_dir": "build\\windows\\Runner\\release",
     "post_install": "Remove-Item \"$dir\\*.msix\" -Force -Recurse",
     "shortcuts": [
         [
