@@ -1,0 +1,32 @@
+{
+    "version": "0.6.1",
+    "description": "A cross-platform tool to keep your computer awake.",
+    "homepage": "https://github.com/segevfiner/keepawake-rs",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "4b8e3803fc333bf4cc1a445036ab036cdfdadcf35aaa8423ff9bfb07e9769a75",
+            "extract_dir": "keepawake-v0.6.1-x86_64-pc-windows-msvc"
+        },
+        "arm64": {
+            "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v0.6.1/keepawake-v0.6.1-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4e4dd5a6d9362e26604917908fbf88615f897a532f98c72b0fb37129cd1e1270",
+            "extract_dir": "keepawake-v0.6.1-aarch64-pc-windows-msvc"
+        }
+    },
+    "bin": "keepawake.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v$version/keepawake-v$version-x86_64-pc-windows-msvc.tar.gz",
+                "extract_dir": "keepawake-v$version-x86_64-pc-windows-msvc"
+            },
+            "arm64": {
+                "url": "https://github.com/segevfiner/keepawake-rs/releases/download/v$version/keepawake-v$version-aarch64-pc-windows-msvc.tar.gz",
+                "extract_dir": "keepawake-v$version-aarch64-pc-windows-msvc"
+            }
+        }
+    }
+}
