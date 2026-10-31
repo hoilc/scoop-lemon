@@ -1,0 +1,37 @@
+{
+    "version": "7.1",
+    "description": "媒鉴查重：本地硬盘百万级媒体毫秒级检索，分钟级查重比对",
+    "homepage": "https://github.com/ldqk/ImageSearch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ldqk/ImageSearch/releases/download/7.1/MediaTrace_win_x64_7.1_with-runtime.7z",
+            "hash": "bf9e97dd12877d037c8dd6cedef168e11c243749cdc1a4fa221cf0891d57b9de"
+        }
+    },
+    "shortcuts": [
+        [
+            "MediaTrace.exe",
+            "MediaTrace"
+        ]
+    ],
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'MediaTrace_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'MediaTrace.exe'",
+        "Get-ChildItem \"$dir\" '以图搜图*.exe' | Select-Object -First 1 | Rename-Item -NewName 'MediaTrace.exe'"
+    ],
+    "post_install": "Get-ChildItem \"$persist_dir\\backup\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json', 'scoop-manifest.json', 'scoop-install.json') } | Move-Item -Force -Destination \"$dir\"",
+    "pre_uninstall": "Get-ChildItem \"$dir\\*.json\" | Where-Object { $_.Name -notin @('manifest.json', 'install.json', 'scoop-manifest.json', 'scoop-install.json') } | Move-Item -Force -Destination \"$persist_dir\\backup\"",
+    "persist": [
+        "config.ini",
+        "backup",
+        "logs"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ldqk/ImageSearch/releases/download/$version/MediaTrace_win_x64_$version_with-runtime.7z"
+            }
+        }
+    }
+}
