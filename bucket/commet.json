@@ -1,12 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "A client for Matrix focused on providing a feature rich experience while maintaining a simple interface.",
     "homepage": "https://commet.chat/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/commetchat/commet/releases/download/v0.5.0/commet-windows.zip",
-            "hash": "beb4d86ed4f766bedddd48bee226cc53f8bf81b174347270c2335ceb48fb1f7b"
+            "url": "https://github.com/commetchat/commet/releases/download/v0.5.1/commet-windows.zip",
+            "hash": "0870d68fdbea79696d21b2dc00f616b8f7aee91f76e878026f4973659361117d"
         }
     },
     "extract_dir": "Release",
