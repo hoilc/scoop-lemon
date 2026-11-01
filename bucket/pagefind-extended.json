@@ -1,16 +1,16 @@
 {
-    "version": "1.5.2",
+    "version": "1.6.0",
     "description": "A static search engine with extended language support, including CJK tokenization.",
     "homepage": "https://pagefind.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind_extended-v1.5.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "7ba298054764dfb3c5b982a1eb92607bea8ecaec20a923fc8a4dfd68272ae8a2"
+            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind_extended-v1.6.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "e7abb1f50f89a2c96913bb18400d1fbcb2bbd7933d2589642fe6b5506ac5471b"
         },
         "arm64": {
-            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind_extended-v1.5.2-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "4fd44a27ecc7ac517e1293e8d9e31073d1cf16d457f3126c31374c69e836df43"
+            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind_extended-v1.6.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "d773f560aa259dddbc9bd2f94140d3a283e0a292f6e4bd1f60bd9496bc57f658"
         }
     },
     "bin": "pagefind_extended.exe",
