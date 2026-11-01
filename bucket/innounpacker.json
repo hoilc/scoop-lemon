@@ -4,7 +4,7 @@
     "homepage": "https://www.rathlev-home.de/index-e.html?tools/prog-e.html#unpack",
     "license": "GPL-2.0-or-later|MPL-1.0",
     "url": "https://www.rathlev-home.de/tools/download/innounpacker.zip",
-    "hash": "4f83dc55e33b9019734b1ff1c1148503215dcaeb1c40d61da42062069f7b35e4",
+    "hash": "3c1a97d6e778f5191c74f55fea03c5584008abded0fb3ea7498062744634376d",
     "bin": "InnoUnpack.exe",
     "shortcuts": [
         [
