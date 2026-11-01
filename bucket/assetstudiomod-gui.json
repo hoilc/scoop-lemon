@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/aelurum/AssetStudio/releases/download/v0.20.0/AssetStudioModGUI_net472_win32_64.zip",
-            "extract_dir": "AssetStudioModGUI_net472_win32_64",
             "hash": "0a755d267410bb1e081de4b1abc6a34d7c454ed1c045a173de6427e9b3ee9533"
         }
     },
