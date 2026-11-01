@@ -1,5 +1,5 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "SuperDB is an analytics database that puts JSON and relational tables on equal footing.",
     "homepage": "https://superdb.org",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brimdata/super/releases/download/v0.3.0/super-v0.3.0.windows-amd64.zip",
-            "hash": "bb9bceb775d6c0f8c5296747cc69d71a46a69082f11aff14ec432fe70ce695a3"
+            "url": "https://github.com/brimdata/super/releases/download/v0.4.0/super-v0.4.0.windows-amd64.zip",
+            "hash": "d38e48e106a146442e669ddca819525202f2d5c7a18dca8588aa0c8d83c87177"
         },
         "arm64": {
-            "url": "https://github.com/brimdata/super/releases/download/v0.3.0/super-v0.3.0.windows-arm64.zip",
-            "hash": "d741e77758bd395416d9f24b29105c6d20e3e35c7a59e9f99526f370900826bb"
+            "url": "https://github.com/brimdata/super/releases/download/v0.4.0/super-v0.4.0.windows-arm64.zip",
+            "hash": "eef233bdd32eefe52614c1873e4d275d33a61a6384332a61e3ece62146ec0e8e"
         }
     },
     "bin": "super.exe",
