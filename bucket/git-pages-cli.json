@@ -1,16 +1,16 @@
 {
-    "version": "1.12.1",
+    "version": "1.13.0",
     "description": "A command-line application for publishing sites to git-pages, a static site server for use with Git forges.",
     "homepage": "https://codeberg.org/git-pages/git-pages-cli",
     "license": "0BSD",
     "architecture": {
         "64bit": {
-            "url": "https://codeberg.org/git-pages/git-pages-cli/releases/download/v1.12.1/git-pages-cli.windows-amd64.exe#/git-pages-cli.exe",
-            "hash": "1ef2077c867612ea4e1ad6af307415bead27bd2c54939f3176d3224d1f9e05d5"
+            "url": "https://codeberg.org/git-pages/git-pages-cli/releases/download/v1.13.0/git-pages-cli.windows-amd64.exe#/git-pages-cli.exe",
+            "hash": "c39353c4f3f13961283753a5d40f6380e5ec2054c5c514f6f4687993e880d9d9"
         },
         "arm64": {
-            "url": "https://codeberg.org/git-pages/git-pages-cli/releases/download/v1.12.1/git-pages-cli.windows-arm64.exe#/git-pages-cli.exe",
-            "hash": "bd913a41fdd3048929a0f25208c7209b7fa2523788a5c77fc503fbaa1b9d6cb3"
+            "url": "https://codeberg.org/git-pages/git-pages-cli/releases/download/v1.13.0/git-pages-cli.windows-arm64.exe#/git-pages-cli.exe",
+            "hash": "097eb35b45db568a5f206d069af197ddabe2a24de0671141a1af8e8a3573e5b1"
         }
     },
     "bin": "git-pages-cli.exe",
