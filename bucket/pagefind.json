@@ -1,16 +1,16 @@
 {
-    "version": "1.5.2",
+    "version": "1.6.0",
     "description": "A fully static search engine that aims to perform well on large sites.",
     "homepage": "https://pagefind.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "fab125d5e8e2d3481ffe7d36dec6e101f54a6581cd51cf5e2e09220d4bc78e9c"
+            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind-v1.6.0-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "11fc76e8efec23bae11b7100fbf596438b59cc6da2097cf63f3a8ced3802f270"
         },
         "arm64": {
-            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "c4d869293a9cd5c14c2dff7e7f568b27a5f4acb1124a2097b638cffc0d82b840"
+            "url": "https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind-v1.6.0-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "579c02beb9c98edc096b30bb226566847c5779b1c0f4b3071286603552e236a0"
         }
     },
     "bin": "pagefind.exe",
