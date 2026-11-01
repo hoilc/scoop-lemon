@@ -1,12 +1,12 @@
 {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "description": "面向 Windows 的全盘清理工具，覆盖常规清理、大文件扫描、更多清理、应用强力卸载、定时任务和规则商店等常见场景",
     "homepage": "https://ccs.cxs.lat",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kiowx/c_cleaner_plus/releases/download/v0.8.2/c_cleaner_plus-v0.8.2-windows-x64.zip",
-            "hash": "f25460835d0e5bdffdcf83e56acccec07500df128c3df5a59cf61cc9c5b6e4bb"
+            "url": "https://github.com/Kiowx/c_cleaner_plus/releases/download/v0.8.3/c_cleaner_plus-v0.8.3-windows-x64.zip",
+            "hash": "8778c560abd55115e573eb6e5d5c0cfa299df9f75eeba59cd7f770c4bc534de9"
         }
     },
     "extract_dir": "c_cleaner_plus",
