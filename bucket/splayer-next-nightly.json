@@ -1,12 +1,12 @@
 {
-    "version": "b280-20261030-47d74cf",
+    "version": "b281-20261101-ba8dd9b",
     "description": "（开发版）跨平台桌面音乐播放器，支持丰富歌词与多种音频格式 | (Nightly Build) A desktop music player with rich lyric support and wide audio format compatibility.",
     "homepage": "https://github.com/SPlayer-Dev/SPlayer-Next",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/SPlayer-Dev/SPlayer-Next/actions/runs/41096823576/SPlayer-Next-windows-x64.zip",
-            "hash": "bc6a969d671fbc8c7f4a39434d074df3ae2d6b3e28f466eedb36757883ee2362",
+            "url": "https://nightly.link/SPlayer-Dev/SPlayer-Next/actions/runs/41332006649/SPlayer-Next-windows-x64.zip",
+            "hash": "52536cd1e7bf8063fee0ae738a34722e11215ea21fbc3dbed943b9acdfae1d8a",
             "pre_install": [
                 "Get-ChildItem \"$dir\" 'SPlayer-Next-*-setup.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
