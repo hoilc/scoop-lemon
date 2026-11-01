@@ -4,7 +4,7 @@
     "homepage": "https://www.rj-texted.se/",
     "license": "Freeware",
     "url": "https://www.rj-texted.se/downloads/rj-portable.exe",
-    "hash": "a392cb2c20cafc6446f4e74f994ab2dd4db45d8a7cc7af4ffd3516697da75cbf",
+    "hash": "d1d491cbe51399123bff8806129a64ccd757280159d43ac0a47fdfb765b4cc6f",
     "innosetup": true,
     "architecture": {
         "64bit": {
