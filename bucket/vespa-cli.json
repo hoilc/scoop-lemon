@@ -1,18 +1,18 @@
 {
-    "version": "8.778.45",
+    "version": "8.781.11",
     "description": "The command-line interface for the Vespa AI search platform.",
     "homepage": "https://vespa.ai",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vespa-engine/vespa/releases/download/v8.778.45/vespa-cli_8.778.45_windows_amd64.zip",
-            "hash": "016ce415cf1c38e278d1682609b1c4db85132bc28c7cd85b3d025fdd79dbb386",
-            "extract_dir": "vespa-cli_8.778.45_windows_amd64\\bin"
+            "url": "https://github.com/vespa-engine/vespa/releases/download/v8.781.11/vespa-cli_8.781.11_windows_amd64.zip",
+            "hash": "c109e87f629d192bb8e5790f5f9cef45c70c7ac73628a3f1d062afd40c63fb72",
+            "extract_dir": "vespa-cli_8.781.11_windows_amd64\\bin"
         },
         "32bit": {
-            "url": "https://github.com/vespa-engine/vespa/releases/download/v8.778.45/vespa-cli_8.778.45_windows_386.zip",
-            "hash": "869161e4551830b567733590646d72cc6273b4256e2e6501637adb136924baeb",
-            "extract_dir": "vespa-cli_8.778.45_windows_386\\bin"
+            "url": "https://github.com/vespa-engine/vespa/releases/download/v8.781.11/vespa-cli_8.781.11_windows_386.zip",
+            "hash": "3de91e00473468775cea9e1d315bc2e44bd334221f9b0c182cd28e2a5d9337a8",
+            "extract_dir": "vespa-cli_8.781.11_windows_386\\bin"
         }
     },
     "bin": "vespa.exe",
