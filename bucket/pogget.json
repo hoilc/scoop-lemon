@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://down1.vilinko.com/download/pogget.zip",
-            "hash": "263fdf5a55e95e8c85dacec66cb98749b423f9aa6eb199c5a87a87f28cbd3953"
+            "hash": "a6dad65446abd211f56d45845ae2e8e98189fa67ef2e1df8996c8d469443c93c"
         },
         "arm64": {
             "url": "https://down1.vilinko.com/download/pogget_arm64.zip",
-            "hash": "a253606c3b49755f8a3c0dbd05d47bec9223c3cd1ec24f56999cf37b3103315e"
+            "hash": "070c3d135b5177ff92a78e2a9cc54178f87c857072fba95b0491066b6291fe07"
         }
     },
     "shortcuts": [
