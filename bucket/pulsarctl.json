@@ -1,17 +1,17 @@
 {
-    "version": "5.0.0.106",
+    "version": "5.0.0.108",
     "description": "A CLI for Apache Pulsar written in Go.",
     "homepage": "https://github.com/streamnative/pulsarctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/streamnative/pulsarctl/releases/download/v5.0.0.106/pulsarctl-amd64-windows.tar.gz",
-            "hash": "f2fa582c1c5bdfc89612391fdfdda0b03dd047897948effcba9007614a4ee37d",
+            "url": "https://github.com/streamnative/pulsarctl/releases/download/v5.0.0.108/pulsarctl-amd64-windows.tar.gz",
+            "hash": "90dac11c69799978e876cc82efc6d0f335c6633a4162716af03f71c164ff8ace",
             "extract_dir": "pulsarctl-amd64-windows"
         },
         "32bit": {
-            "url": "https://github.com/streamnative/pulsarctl/releases/download/v5.0.0.106/pulsarctl-386-windows.tar.gz",
-            "hash": "1ca8dc59e104ea23c4bec63412d38ab24ef2200cc8a37ef936c7b421b8104d69",
+            "url": "https://github.com/streamnative/pulsarctl/releases/download/v5.0.0.108/pulsarctl-386-windows.tar.gz",
+            "hash": "0c041693bcd4c3f1888c4d0646fce7f06d120b7881205c5b2907bba20f97034d",
             "extract_dir": "pulsarctl-386-windows"
         }
     },
