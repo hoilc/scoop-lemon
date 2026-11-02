@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "A fast, modular and contributor-friendly Solidity compiler, written in Rust.",
     "homepage": "https://github.com/paradigmxyz/solar",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/paradigmxyz/solar/releases/download/v0.2.0/solar-x86_64-pc-windows-msvc.zip",
-            "hash": "a7f1d68f3fa57f45d78aca97fb29e79c0cd49cd4e47d450a50d3e776bfbf782a"
+            "url": "https://github.com/paradigmxyz/solar/releases/download/v0.3.0/solar-x86_64-pc-windows-msvc.zip",
+            "hash": "d3c75bc2d28c330f3c83b6a122a5490c4ad01d2afe64f4598238e75434affc0d"
         }
     },
     "bin": "solar.exe",
