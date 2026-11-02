@@ -1,16 +1,16 @@
 {
-    "version": "0.52.4",
+    "version": "0.52.5",
     "description": "A command-line tool which can move CloudFormation resources between stacks.",
     "homepage": "https://github.com/udondan/cfn-teleport",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.4/cfn-teleport-x86_64-pc-windows-msvc-v0.52.4.exe#/cfn-teleport.exe",
-            "hash": "df2b092fe86ba116656590e8844cab242474f2ef25087e9a22cc022077f62cc3"
+            "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.5/cfn-teleport-x86_64-pc-windows-msvc-v0.52.5.exe#/cfn-teleport.exe",
+            "hash": "c829c17baaca191e5be8e10cd3d46745b63545a2da549c73c9afb248132a9984"
         },
         "32bit": {
-            "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.4/cfn-teleport-i686-pc-windows-msvc-v0.52.4.exe#/cfn-teleport.exe",
-            "hash": "1fa7fd2760b4c6a6d8b0534fa9823323bd9f7d474d0d096115034bf253f7cc4e"
+            "url": "https://github.com/udondan/cfn-teleport/releases/download/v0.52.5/cfn-teleport-i686-pc-windows-msvc-v0.52.5.exe#/cfn-teleport.exe",
+            "hash": "f4e0d353988848de44b15c65373721aa2aa953b1bed3dc4e71648e9720fc982f"
         }
     },
     "bin": "cfn-teleport.exe",
