@@ -1,10 +1,10 @@
 {
-    "version": "20240711",
+    "version": "20261103",
     "description": "轻量级自建网盘软件，无依赖，速度快，资源占用低",
     "homepage": "https://github.com/webd90kb/webd",
     "license": "Freeware",
-    "url": "https://webd90kb.github.io/webd/webd/webd_dl/20240223/webd-20240711-win32.7z",
-    "hash": "0273464dc11c060e842967fae380fd381f3a9e257245769869edf8c71017d771",
+    "url": "https://webd90kb.github.io/webd/webd/webd_dl/20261103/webd-20261103-win32.7z",
+    "hash": "2e1d742b6f3209439f5dc5e57888230c8551265f5a772e463a41925bc854fb68",
     "extract_dir": "webd",
     "bin": "webd.exe",
     "shortcuts": [
