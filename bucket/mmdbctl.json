@@ -1,16 +1,16 @@
 {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "description": "An MMDB file management CLI supporting various operations on MMDB database files.",
     "homepage": "https://github.com/ipinfo/mmdbctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.5.1/mmdbctl_1.5.1_windows_amd64.zip",
-            "hash": "f62facccc2d1a1fcf1fbad57ca43c937c8f5f40642a795fdc571ac1e2ab2e139"
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.5.2/mmdbctl_1.5.2_windows_amd64.zip",
+            "hash": "44a21e4c763994d3acf6c078b0f93fb7b907d8f5ea0b76183d467d481c381345"
         },
         "32bit": {
-            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.5.1/mmdbctl_1.5.1_windows_386.zip",
-            "hash": "877bdc18078c76408ffc1f861b58f068f88d679fe16a0aa2e19e5d35c7c86422"
+            "url": "https://github.com/ipinfo/mmdbctl/releases/download/mmdbctl-1.5.2/mmdbctl_1.5.2_windows_386.zip",
+            "hash": "5c00b22c8f48c384f47d83736da04bd593547fdbad69c5ab0a46f7190d471404"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" 'mmdbctl_*.exe' | Select-Object -First 1 | Rename-Item -NewName 'mmdbctl.exe'",
