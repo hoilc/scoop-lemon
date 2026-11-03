@@ -1,16 +1,16 @@
 {
-    "version": "0.19.12",
+    "version": "0.19.13",
     "description": "A lightning-fast, keyboard-focused TUI for navigating and managing Kubernetes clusters with a three-column Miller columns layout.",
     "homepage": "https://github.com/janosmiko/lfk",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/janosmiko/lfk/releases/download/v0.19.12/lfk_0.19.12_windows_amd64.zip",
-            "hash": "66bcff9cd8ade7f86e24d2d58102f43f3a1eed99a97f39d861d57c0c84d508ef"
+            "url": "https://github.com/janosmiko/lfk/releases/download/v0.19.13/lfk_0.19.13_windows_amd64.zip",
+            "hash": "31e16684740e997e2c35084e9c1fe5afadd9b0a96a07876d1d31abcb47df257e"
         },
         "arm64": {
-            "url": "https://github.com/janosmiko/lfk/releases/download/v0.19.12/lfk_0.19.12_windows_arm64.zip",
-            "hash": "403a16a515590f6f81864eba202ded139607fab5050739bef98597b3e048f2e4"
+            "url": "https://github.com/janosmiko/lfk/releases/download/v0.19.13/lfk_0.19.13_windows_arm64.zip",
+            "hash": "2bc843f1b9ca5b20b2eee9fae88f5cf200e199c8d4b6abe0720aba7a0a3959c2"
         }
     },
     "bin": "lfk.exe",
