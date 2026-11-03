@@ -1,12 +1,12 @@
 {
-    "version": "0.30.0",
+    "version": "0.31.0",
     "description": "A desktop SQL workspace for PostgreSQL, MySQL, SQLite, and more.",
     "homepage": "https://tabularis.dev",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TabularisDB/tabularis/releases/download/v0.30.0/tabularis_0.30.0_x64-portable.zip",
-            "hash": "44b0e6a237d9d852eaff4651263ab9cc295c24f3f0acdc301926add275e443d5"
+            "url": "https://github.com/TabularisDB/tabularis/releases/download/v0.31.0/tabularis_0.31.0_x64-portable.zip",
+            "hash": "34c8a9f632b2bcd86579ac80e0d117109ba91ee992209a5ac37868f0b39fb033"
         }
     },
     "shortcuts": [
