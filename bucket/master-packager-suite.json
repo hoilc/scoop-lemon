@@ -1,5 +1,5 @@
 {
-    "version": "26.3.9686",
+    "version": "26.4.9803",
     "description": "An application packaging tool to create and edit Microsoft Windows Installer (MSI) files and repackage other installation to MSI format.",
     "homepage": "https://www.masterpackager.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.masterpackager.com/installer/mp/26.3.9686/master_packager_suite_26.3.9686.msi#/dl.msi.dontautoexpand",
-            "hash": "7b1bb7c4c80cf0bbba04975adaa6c9662343608be9a38dd584c13ab3cfd7c62a"
+            "url": "https://cdn.masterpackager.com/installer/mp/26.4.9803/master_packager_suite_26.4.9803.msi#/dl.msi.dontautoexpand",
+            "hash": "49080ddc6030993059861619bee5ec49551e6ecdca20dbb19aeaada60782403b"
         }
     },
     "installer": {
