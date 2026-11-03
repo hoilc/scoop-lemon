@@ -1,17 +1,17 @@
 {
-    "version": "2.7.0",
+    "version": "2.7.2",
     "description": "MCP for 小红书 / xiaohongshu.com",
     "homepage": "https://github.com/xpzouying/xiaohongshu-mcp",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.7.0/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
-                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.7.0/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.7.2/xiaohongshu-mcp-windows-amd64.exe#/xiaohongshu-mcp.exe",
+                "https://github.com/xpzouying/xiaohongshu-mcp/releases/download/v2.7.2/xiaohongshu-login-windows-amd64.exe#/xiaohongshu-login.exe"
             ],
             "hash": [
-                "0b03fa24b00f15fffa34fff3c10ef9d938a5f0c3e7fb51ee46c8fc6437dd622b",
-                "19d246ba2ddea1658215ced715a91fb2fd6104c3020063f859a900ae6fc3b6e4"
+                "1f62e1fe137d0293595197b3a76e280e4114293b425e9c4082a334d1f7fb5316",
+                "ebff1c00293bcc17af91626377ec930143e6c907c1f140de3c87749e928f1288"
             ]
         }
     },
