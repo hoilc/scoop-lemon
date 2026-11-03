@@ -1,19 +1,19 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "A lightweight Rust proxy that translates the OpenAI Responses API (used by Codex CLI) into the Chat Completions API.",
     "homepage": "https://github.com/MetaFARS/codex-relay",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://files.pythonhosted.org/packages/py3/c/codex-relay/codex_relay-0.6.0-py3-none-win_amd64.whl#/dl.zip",
-            "hash": "4f96a7391b8e446cd0795e6040dca0e9d7f8f1302b071821914fc41c8c50d115"
+            "url": "https://files.pythonhosted.org/packages/py3/c/codex-relay/codex_relay-0.6.1-py3-none-win_amd64.whl#/dl.zip",
+            "hash": "b8d2ea833381f9562fc56555308c45b291544a3de281f97a320cd9f09a212dc2"
         },
         "arm64": {
-            "url": "https://files.pythonhosted.org/packages/py3/c/codex-relay/codex_relay-0.6.0-py3-none-win_arm64.whl#/dl.zip",
-            "hash": "7b08da897e62a688dcf2edf7153894e6e15e96d6c6c6d7d861bb01846a6c9eb3"
+            "url": "https://files.pythonhosted.org/packages/py3/c/codex-relay/codex_relay-0.6.1-py3-none-win_arm64.whl#/dl.zip",
+            "hash": "49b7a783b60599383c747993fe828b644246a3981ca0d4ea32a9772a276cef79"
         }
     },
-    "extract_dir": "codex_relay-0.6.0.data\\scripts",
+    "extract_dir": "codex_relay-0.6.1.data\\scripts",
     "bin": "codex-relay.exe",
     "checkver": {
         "url": "https://pypi.org/rss/project/codex-relay/releases.xml",
