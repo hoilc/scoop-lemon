@@ -1,16 +1,16 @@
 {
-    "version": "2026.4.5",
+    "version": "2026.4.6",
     "description": "iOS Logs, Events, And Plist Parser",
     "homepage": "https://github.com/abrignoni/iLEAPP",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.5/iLEAPP-2026.4.5-windows-x64-portable.zip",
-            "hash": "fb6ed9fad9e6aed631cf8415b3f09ae820bbd7aac1abfb497d07aaf0a00cd8da"
+            "url": "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.6/iLEAPP-2026.4.6-windows-x64-portable.zip",
+            "hash": "531b1eecde0d71a10d6e5298ef565e3bc2110997ea5773761f4e46fcbe467e47"
         },
         "arm64": {
-            "url": "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.5/iLEAPP-2026.4.5-windows-arm64-portable.zip",
-            "hash": "c1cbf446e5831d89ab29553562005fa15f96ed9ca67f3364104c1b0474267312"
+            "url": "https://github.com/abrignoni/iLEAPP/releases/download/v2026.4.6/iLEAPP-2026.4.6-windows-arm64-portable.zip",
+            "hash": "1fe272bd3fc4dae70714cc13024b380f4ae1858483d7e3595a0a7dfacf085b4f"
         }
     },
     "bin": "ileapp.exe",
