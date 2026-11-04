@@ -1,12 +1,12 @@
 {
-    "version": "1.1.2",
+    "version": "1.2.0-rc1",
     "description": "A cloud native observability platform built specifically for logs, metrics, traces, analytics, RUM designed to work at petabyte scale.",
     "homepage": "https://openobserve.ai/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.openobserve.ai/releases/openobserve/v1.1.2/openobserve-v1.1.2-windows-amd64.zip",
-            "hash": "6beb3e4d0325319206b2b8cd7f291d081fe68487fb50a2c46bbfedf462c4fdbb"
+            "url": "https://downloads.openobserve.ai/releases/openobserve/v1.2.0-rc1/openobserve-v1.2.0-rc1-windows-amd64.zip",
+            "hash": "ffe626cc26669ce72a5667474323a6f4b735cc133f7a0d30fbc7c63228756301"
         }
     },
     "bin": "openobserve.exe",
