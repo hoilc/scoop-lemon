@@ -1,13 +1,13 @@
 {
-    "version": "2026-10-31-f7bef6b",
+    "version": "2026-11-02-847b82c",
     "description": "(Nightly Build) A fast, friendly, functional language.",
     "homepage": "https://roc-lang.org/",
     "license": "UPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roc-lang/nightlies/releases/download/nightly-2026-10-31-f7bef6b/roc_nightly-windows_x86_64-2026-10-31-f7bef6b.zip",
-            "hash": "6983e8604d4bcd42d91af80e09a97a274efd464c9baa4079f6749bbf2a1c5486",
-            "extract_dir": "roc_nightly-windows_x86_64-2026-10-31-f7bef6b"
+            "url": "https://github.com/roc-lang/nightlies/releases/download/nightly-2026-11-02-847b82c/roc_nightly-windows_x86_64-2026-11-02-847b82c.zip",
+            "hash": "d2fa2f1a33ed562b6f8791ba7927f1f1e2266ee6124b897201b6760815e181cf",
+            "extract_dir": "roc_nightly-windows_x86_64-2026-11-02-847b82c"
         }
     },
     "bin": "roc.exe",
