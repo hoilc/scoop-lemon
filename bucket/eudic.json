@@ -1,12 +1,12 @@
 {
-    "version": "26.9.1",
+    "version": "26.10.6",
     "description": "欧路词典是一款英语词典软件，支持学习笔记、生词本多平台同步，让你随时随地学英语",
     "homepage": "https://www.eudic.net/v4/en/app/eudic",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://static.eudic.net/pkg/update_en_win32_full.exe?v=26.9.1#/dl.7z",
-            "hash": "a45f74838393653ffac484116c33ac2becd6d3ca210191d705f33d48c9fc85cd"
+            "url": "https://static.eudic.net/pkg/update_en_win32_full.exe?v=26.10.6#/dl.7z",
+            "hash": "552843ea8a9d3e902682c33e2b8c2f171a5c990306ec71b8255e43822cef78fe"
         }
     },
     "shortcuts": [
