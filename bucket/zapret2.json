@@ -1,16 +1,16 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A packet manipulator primarily designed to bypass resource blocks or protocol restrictions.",
     "homepage": "https://github.com/bol-van/zapret2",
     "license": "MIT",
-    "url": "https://github.com/bol-van/zapret2/releases/download/v1.0.6/zapret2-v1.0.6.zip",
-    "hash": "e141b51b60c895fe9548f4d644365461dcad8155e068d284a9aae1724504237d",
+    "url": "https://github.com/bol-van/zapret2/releases/download/v1.0.7/zapret2-v1.0.7.zip",
+    "hash": "35e14e4e1f345b870c3b87269fa45353efd597241a25304d38375c46b9fd2967",
     "architecture": {
         "64bit": {
-            "extract_dir": "zapret2-v1.0.6\\binaries\\windows-x86_64"
+            "extract_dir": "zapret2-v1.0.7\\binaries\\windows-x86_64"
         },
         "32bit": {
-            "extract_dir": "zapret2-v1.0.6\\binaries\\windows-x86"
+            "extract_dir": "zapret2-v1.0.7\\binaries\\windows-x86"
         }
     },
     "bin": [
