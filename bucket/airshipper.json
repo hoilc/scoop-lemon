@@ -1,12 +1,12 @@
 {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "description": "The official game launcher for Veloren, an action-adventure role-playing game set in a vast fantasy world.",
     "homepage": "https://veloren.net/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/veloren/airshipper/-/releases/v0.17.0/downloads/binaries/windows-client-x86_64#/airshipper.exe",
-            "hash": "34e8116a4f756271d7728e3c75481033a4c4943558bc5d30e918cb0702049cc0"
+            "url": "https://gitlab.com/veloren/airshipper/-/releases/v0.18.0/downloads/binaries/windows-client-x86_64#/airshipper.exe",
+            "hash": "3bbb11a2f4d2a30a9d43b0a6cc4fd29d8690e1fbd804a2b7c664a661d317459a"
         }
     },
     "bin": "airshipper.exe",
