@@ -1,12 +1,12 @@
 {
-    "version": "1.84.1",
+    "version": "1.84.2",
     "description": "A fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP).",
     "homepage": "https://github.com/praetorian-inc/nerva",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/praetorian-inc/nerva/releases/download/v1.84.1/nerva_1.84.1_windows_amd64.zip",
-            "hash": "12e211e22f9eb07d8c5a42c0ecc4a47064008bd9d81c8b51b6adb191a98af458"
+            "url": "https://github.com/praetorian-inc/nerva/releases/download/v1.84.2/nerva_1.84.2_windows_amd64.zip",
+            "hash": "8030e94638ba881c10a28d9e79f0035ee5f31357221de6bf1e97fe7f676218bb"
         }
     },
     "bin": "nerva.exe",
