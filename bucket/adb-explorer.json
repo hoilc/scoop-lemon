@@ -1,16 +1,16 @@
 {
-    "version": "1.1.26100",
+    "version": "1.1.26110",
     "description": "An interface to ADB that allows browsing, transferring, and editing of files with ease, in a modern and fluent Windows app, built in WPF.",
     "homepage": "https://github.com/Alex4SSB/ADB-Explorer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.1.26100/ADB_Explorer_1.1.26100_x64.7z",
-            "hash": "207fc95e0b078bbaf337d71e1a4874a0d8c26802b5b8dbdf0daf7dca87e00b93"
+            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.1.26110/ADB_Explorer_1.1.26110_x64.7z",
+            "hash": "c6828d94afbe2fc1d1abb0f14be682bf165d473062339826bd899d48fb15bf2d"
         },
         "arm64": {
-            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.1.26100/ADB_Explorer_1.1.26100_ARM64.7z",
-            "hash": "d6f492bd9ea7e8dabcbcbedcbb11db67c7ebadc7cc7a6998af99428df7adfc9a"
+            "url": "https://github.com/Alex4SSB/ADB-Explorer/releases/download/v1.1.26110/ADB_Explorer_1.1.26110_ARM64.7z",
+            "hash": "d2265b7dad5b883660d8b0fcee774378835a2ed4ec73c7392f1f0a19b4741036"
         }
     },
     "shortcuts": [
