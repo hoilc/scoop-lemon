@@ -1,12 +1,12 @@
 {
-    "version": "5.5.0",
+    "version": "5.6.0",
     "description": "A command-line client for the Crowdin API.",
     "homepage": "https://crowdin.github.io/crowdin-cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crowdin/crowdin-cli/releases/download/5.5.0/crowdin.exe",
-            "hash": "334acbca13531036760d6c4e1a7be4848afe142e2f62af32cd657c093928fc9b"
+            "url": "https://github.com/crowdin/crowdin-cli/releases/download/5.6.0/crowdin.exe",
+            "hash": "2c2789ee8959bfa899112b888c2ce110ce219d61c4eea5d1b7c47008b20536ce"
         }
     },
     "bin": "crowdin.exe",
