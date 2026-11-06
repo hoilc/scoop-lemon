@@ -1,16 +1,16 @@
 {
-    "version": "1.49.0",
+    "version": "1.50.0",
     "description": "The CLI for Inngest, the durable execution and workflow orchestration platform for serverless step functions and AI workflows.",
     "homepage": "https://github.com/inngest/inngest",
     "license": "SSPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/inngest/inngest/releases/download/v1.49.0/inngest_1.49.0_windows_amd64.zip",
-            "hash": "b1eaf0806166085fcfb1a60393d1c0ed7cd137ae01ccb5b0c076971446a24e08"
+            "url": "https://github.com/inngest/inngest/releases/download/v1.50.0/inngest_1.50.0_windows_amd64.zip",
+            "hash": "26bb70a3790bee899d0ac32b341a3aa2a4e77bccc6af1002fbb66651706db668"
         },
         "arm64": {
-            "url": "https://github.com/inngest/inngest/releases/download/v1.49.0/inngest_1.49.0_windows_arm64.zip",
-            "hash": "12c750ad0292398ba532576952cd8551b5b72067806b0bb15449eed0c71b523c"
+            "url": "https://github.com/inngest/inngest/releases/download/v1.50.0/inngest_1.50.0_windows_arm64.zip",
+            "hash": "70226914a4c24af16a10521d30004d38e3fd6351929cb74203961fdd695d6d0e"
         }
     },
     "bin": "inngest.exe",
