@@ -14,18 +14,5 @@
         }
     },
     "bin": "kubergrunt.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v$version/kubergrunt_windows_amd64.exe#/kubergrunt.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/gruntwork-io/kubergrunt/releases/download/v$version/kubergrunt_windows_386.exe#/kubergrunt.exe"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/SHA256SUMS"
-        }
-    }
+    "notes": "Attention: kubergrunt was archived on Nov 4, 2026 and is no longer maintained."
 }
