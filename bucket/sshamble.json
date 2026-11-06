@@ -1,16 +1,16 @@
 {
-    "version": "0.3.3",
+    "version": "0.5.1",
     "description": "A tool to identify unexpected exposures in SSH.",
     "homepage": "https://github.com/runZeroInc/sshamble",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.3.3/sshamble-v0.3.3-windows-amd64.zip",
-            "hash": "e49e393e7f8b664b690b0334b613439b68baac713090b7e26144536f6d116d97"
+            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.5.1/sshamble-v0.5.1-windows-amd64.zip",
+            "hash": "c17f65adc84bad4086584700471fbb15a475d5afdcd7881758ff87c8802f8362"
         },
         "arm64": {
-            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.3.3/sshamble-v0.3.3-windows-arm64.zip",
-            "hash": "c2b55d6341949ae132c7a56a599f6bcebd7a3e4a7502513e303cf238f8b24bdc"
+            "url": "https://github.com/runZeroInc/sshamble/releases/download/v0.5.1/sshamble-v0.5.1-windows-arm64.zip",
+            "hash": "aeb93024fa26fb79d64242ea96e13a2d7b15988db628899ece4a82364e44d0a7"
         }
     },
     "extract_dir": "sshamble",
