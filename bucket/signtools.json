@@ -1,16 +1,16 @@
 {
-    "version": "3.0.12",
+    "version": "3.0.13",
     "description": "A free, self-hosted platform to sign and install iOS apps without a computer.",
     "homepage": "https://github.com/SignTools/SignTools",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SignTools/SignTools/releases/download/v3.0.12/SignTools_3.0.12_windows_amd64.exe#/SignTools.exe",
-            "hash": "608d5a92127ab0f62bb660559044f27280c259748aeb0f9a1f27d776598943c2"
+            "url": "https://github.com/SignTools/SignTools/releases/download/v3.0.13/SignTools_3.0.13_windows_amd64.exe#/SignTools.exe",
+            "hash": "fa0fe6e29ef4589bb4da7242a43c8360e4df085774c6a8676c357ceb42b81833"
         },
         "arm64": {
-            "url": "https://github.com/SignTools/SignTools/releases/download/v3.0.12/SignTools_3.0.12_windows_arm64.exe#/SignTools.exe",
-            "hash": "2307e8ed9a2575e04d688c37ad5bfa64f9629dd1f2beca42ed2ee154404c6240"
+            "url": "https://github.com/SignTools/SignTools/releases/download/v3.0.13/SignTools_3.0.13_windows_arm64.exe#/SignTools.exe",
+            "hash": "61bb1cab952095bc33e98c7d2dfda975b77c0c9e14b8685ba0c460d2e4396097"
         }
     },
     "bin": "SignTools.exe",
