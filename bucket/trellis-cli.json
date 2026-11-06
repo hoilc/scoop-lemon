@@ -1,30 +1,41 @@
 {
-    "version": "1.19.0",
+    "version": "1.19.0-wsl2.3",
     "description": "A CLI to manage Trellis projects.",
     "homepage": "https://roots.io/trellis/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roots/trellis-cli/releases/download/v1.19.0/trellis_Windows_x86_64.zip",
-            "hash": "1391d0a3bdb7349ea92cfa8e7a8ae4ea64540cf219f5e8a3d753f480b21d44b1"
+            "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v1.19.0-wsl2.3/trellis_Windows_x86_64.zip",
+            "hash": "7c227a6ab2591c7123a489e13488493c2db600ec0bc660f17cf49eda5742b39d"
         },
         "32bit": {
-            "url": "https://github.com/roots/trellis-cli/releases/download/v1.19.0/trellis_Windows_i386.zip",
-            "hash": "bd447481423d62642adbb8e8699cf1016ccd3228ca6302f70eb57b8e787d8929"
+            "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v1.19.0-wsl2.3/trellis_Windows_i386.zip",
+            "hash": "c9001ca2e16750095613d8c04033b2f4fe3f1a6ffa97ffa067ca1c270c8d86cd"
+        },
+        "arm64": {
+            "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v1.19.0-wsl2.3/trellis_Windows_arm64.zip",
+            "hash": "d4e79921a7dd5c9c7ccdf360c8c40017c028191ba6dd3d2456da9dc05a0e406d"
         }
     },
     "bin": "trellis.exe",
     "checkver": {
-        "github": "https://github.com/roots/trellis-cli"
+        "url": "https://github.com/qwatts-dev/trellis-cli/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/roots/trellis-cli/releases/download/v$version/trellis_Windows_x86_64.zip"
+                "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v$version/trellis_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/roots/trellis-cli/releases/download/v$version/trellis_Windows_i386.zip"
+                "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v$version/trellis_Windows_i386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/qwatts-dev/trellis-cli/releases/download/v$version/trellis_Windows_arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/trellis_checksums.txt"
         }
     }
 }
