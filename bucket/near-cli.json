@@ -1,13 +1,13 @@
 {
-    "version": "0.31.0",
+    "version": "0.31.1",
     "description": "A human-friendly companion that helps to interact with NEAR Protocol from command line.",
     "homepage": "https://github.com/near/near-cli-rs",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/near/near-cli-rs/releases/download/v0.31.0/near-cli-rs-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://github.com/near/near-cli-rs/releases/download/v0.31.1/near-cli-rs-x86_64-pc-windows-msvc.tar.gz",
             "extract_dir": "near-cli-rs-x86_64-pc-windows-msvc",
-            "hash": "5c6c3513f4edd6313fff3ca4cb3f39b4840084c4156efd467835915635f37431"
+            "hash": "8806ab0fe861e92979890707e4ce5a56e487554ba3fbdb3813ed96642b472b92"
         }
     },
     "bin": "near.exe",
