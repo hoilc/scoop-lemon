@@ -1,19 +1,19 @@
 {
-    "version": "7.3",
+    "version": "7.4",
     "description": "云音乐歌词获取处理工具，支持网易云音乐、QQ音乐两家音乐提供商",
     "homepage": "https://github.com/jitwxs/163MusicLyrics",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.3/MusicLyricApp-v7.3-win-x64.zip",
-            "hash": "266af56b6d46f1caab6b5b6050a3295df8ed179a1eb447b0c47e8f173051edf2"
+            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.4/MusicLyricApp-7.4.0-win-x64.zip",
+            "hash": "3f93121bd8d803caac076f6ca7ac30be0dc9fd8a8ad4f853ad27f778cfd3b344"
         },
         "32bit": {
-            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.3/MusicLyricApp-v7.3-win-x86.zip",
-            "hash": "d45fef8d0a91c72a60483ee9853482c43e7265e63d97650fdc9e9b792582af1d"
+            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.4/MusicLyricApp-7.4.0-win-x86.zip",
+            "hash": "c37874d57c67e131a366d4e46d52608a856b571e8c50a4cd23c5feb6e6c580e8"
         }
     },
-    "pre_install": "Get-ChildItem \"$dir\" 'MusicLyricApp-*.exe' | Select-Object -First 1 | Rename-Item -NewName '163MusicLyrics.exe'",
+    "pre_install": "Get-ChildItem \"$dir\" 'MusicLyricApp?*.exe' | Select-Object -First 1 | Rename-Item -NewName '163MusicLyrics.exe'",
     "shortcuts": [
         [
             "163MusicLyrics.exe",
