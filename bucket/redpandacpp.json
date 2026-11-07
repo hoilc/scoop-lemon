@@ -1,16 +1,16 @@
 {
-    "version": "3.4",
+    "version": "3.5",
     "description": "Red Panda C++ is a lightweight yet powerful C/C++/GNU Assembly IDE.",
     "homepage": "http://royqh.net/redpandacpp/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.4/RedPanda.C++.3.4.win64.MinGW64_11.5.0.Portable.7z",
-            "hash": "ba6b712802d5d28aa1a50f0225c01e59206d16c065730842ed7fae1e9cd925c5"
+            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.5/RedPanda.C++.3.5.0.win64.MinGW64_15.3.0.Portable.7z",
+            "hash": "8ebab1e723d25f2f8eef122afdd9e50a7540d409fc9a282286a89504da5e3238"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.4/RedPanda.C++.3.4.win32.MinGW32_11.5.0.Portable.7z",
-            "hash": "bf5aab90e4bcfcfe3a290f134960810d8926637b4fd45e536fc2aecb053130b6"
+            "url": "https://sourceforge.net/projects/redpanda-cpp/files/v3.5/RedPanda.C++.3.5.0.win32.MinGW32_15.3.0.Portable.7z",
+            "hash": "043b744c0d31a1f8b0970b48210c6bdef8e7b0d84a5d863088617b2e728bf362"
         }
     },
     "extract_dir": "RedPanda-CPP",
@@ -23,15 +23,15 @@
     "persist": "config",
     "checkver": {
         "url": "https://sourceforge.net/p/redpanda-cpp/activity/feed",
-        "regex": "RedPanda.C\\+\\+.([\\d.]+).win64.MinGW64"
+        "regex": "/v([\\d.]+)/RedPanda.C\\+\\+.(?<full>[\\d.]+).win64.MinGW64_(?<mingw>[\\d.]+)\\."
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win64.MinGW64_11.5.0.Portable.7z"
+                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$matchFull.win64.MinGW64_$matchMingw.Portable.7z"
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$version.win32.MinGW32_11.5.0.Portable.7z"
+                "url": "https://sourceforge.net/projects/redpanda-cpp/files/v$version/RedPanda.C++.$matchFull.win32.MinGW32_$matchMingw.Portable.7z"
             }
         }
     }
