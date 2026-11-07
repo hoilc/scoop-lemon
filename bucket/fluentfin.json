@@ -1,12 +1,12 @@
 {
-    "version": "0.3.7",
+    "version": "0.3.8",
     "description": "A simple and user-friendly native Jellyfin client built with Windows App SDK and C#.",
     "homepage": "https://github.com/insomniachi/FluentFin",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/insomniachi/FluentFin/releases/download/0.3.7/FluentFin.exe#/dl.exe",
-            "hash": "e6e693fe0104ddfc07cf49ffbc6621cf3236c4f55b2ef3d14cb2b04ea8d8e36e"
+            "url": "https://github.com/insomniachi/FluentFin/releases/download/0.3.8/FluentFin.exe#/dl.exe",
+            "hash": "f93b6a083616d04a1632b7b4013fd6023ca8841c005d3093a78377bfccdc924c"
         }
     },
     "innosetup": true,
