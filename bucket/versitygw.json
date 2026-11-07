@@ -1,18 +1,18 @@
 {
-    "version": "1.10.0",
+    "version": "1.11.0",
     "description": "A simple to deploy but feature rich S3 object storage server for your filesystem.",
     "homepage": "https://github.com/versity/versitygw",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/versity/versitygw/releases/download/v1.10.0/versitygw_v1.10.0_Windows_x86_64.zip",
-            "extract_dir": "versitygw_v1.10.0_Windows_x86_64",
-            "hash": "77746a0e998baf2a308343394465a47a58dbb33ca15f63c5abca0fafd83f72d2"
+            "url": "https://github.com/versity/versitygw/releases/download/v1.11.0/versitygw_v1.11.0_Windows_x86_64.zip",
+            "extract_dir": "versitygw_v1.11.0_Windows_x86_64",
+            "hash": "2c647cf9ed07ba9d35fdfbb38bb139bc8fde15dc0c94775cacfdf8ba4fdaf33a"
         },
         "arm64": {
-            "url": "https://github.com/versity/versitygw/releases/download/v1.10.0/versitygw_v1.10.0_Windows_arm64.zip",
-            "extract_dir": "versitygw_v1.10.0_Windows_arm64",
-            "hash": "84b59fa57c110ff7f89082fbb83ef464d00ca2cc908156a4c7d9cf4340d14467"
+            "url": "https://github.com/versity/versitygw/releases/download/v1.11.0/versitygw_v1.11.0_Windows_arm64.zip",
+            "extract_dir": "versitygw_v1.11.0_Windows_arm64",
+            "hash": "35b89c150d0b919a03da8abd0687f9f3a896f2d39bed35d5cfdeb9377d28e659"
         }
     },
     "bin": "versitygw.exe",
