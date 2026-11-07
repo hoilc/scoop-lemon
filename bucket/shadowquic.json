@@ -1,20 +1,20 @@
 {
-    "version": "0.4.8",
+    "version": "0.4.9",
     "description": "A 0-RTT QUIC Proxy with SNI camouflage.",
     "homepage": "https://github.com/spongebob888/shadowquic",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.8/shadowquic-x86_64-windows.exe#/shadowquic.exe",
-            "hash": "598a7ec7d72e3546c35c3b87284d53f0897866adafb91ca0733b734d94307b98"
+            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.9/shadowquic-x86_64-windows.exe#/shadowquic.exe",
+            "hash": "196f8911351723cf7b8346f4ae4df10d8f707ada06a8a21a634e53bee688a6d0"
         },
         "32bit": {
-            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.8/shadowquic-i686-windows.exe#/shadowquic.exe",
-            "hash": "fc55b2123b9d2794e0d40322eb1f0b848f7189416f5db40311f2ae262572e725"
+            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.9/shadowquic-i686-windows.exe#/shadowquic.exe",
+            "hash": "15322fd62412a7897786a65cdb82b5dad8289fa498b7df93848cff8d3ec4999d"
         },
         "arm64": {
-            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.8/shadowquic-aarch64-windows.exe#/shadowquic.exe",
-            "hash": "b196a29b3520c9a9ef4ca1cf668e9960b372708a783b4dde98e2ed390c0166d5"
+            "url": "https://github.com/spongebob888/shadowquic/releases/download/v0.4.9/shadowquic-aarch64-windows.exe#/shadowquic.exe",
+            "hash": "fed83ab96f2a607b2e6446197d625069b7bbfd6d8299694117e0c10668d867db"
         }
     },
     "bin": "shadowquic.exe",
