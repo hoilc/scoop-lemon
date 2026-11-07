@@ -1,12 +1,12 @@
 {
-    "version": "1.30.0-alpha.2",
+    "version": "1.30.0",
     "description": "专为复杂网络环境设计的本地代理工具，旨在为用户提供稳定的访问体验",
     "homepage": "https://github.com/coolapijust/SniShaper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SniShaper/SniShaper/releases/download/v1.30.0-alpha.2/snishaper-windows-amd64.7z",
-            "hash": "478ac99380d9da01b6ac2831fb66b6c43ae74240dd7f1070534d3fcc193e3d2d"
+            "url": "https://github.com/SniShaper/SniShaper/releases/download/v1.30.0/snishaper-windows-amd64.7z",
+            "hash": "e31c5bf1de8db92c0f97c9f5e2b3bc3ee08bd7f7ace7588c81e228e0566cac38"
         }
     },
     "shortcuts": [
