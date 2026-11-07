@@ -1,16 +1,16 @@
 {
-    "version": "9.5.0",
+    "version": "9.6.0",
     "description": "A CLI to deduplicate mails from mail boxes.",
     "homepage": "https://kdeldycke.github.io/mail-deduplicate",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kdeldycke/mail-deduplicate/releases/download/v9.5.0/mdedup-9.5.0-windows-x64.exe#/mdedup.exe",
-            "hash": "64f6a5c39201371340c293071ecd3c3aa07ed611bf094ee131b4c6b5e92b37ab"
+            "url": "https://github.com/kdeldycke/mail-deduplicate/releases/download/v9.6.0/mdedup-9.6.0-windows-x64.exe#/mdedup.exe",
+            "hash": "f89bc6911e2e495cc7c9e20fd27afbcbfbc771f13055b9a87e3210fceebbe8d6"
         },
         "arm64": {
-            "url": "https://github.com/kdeldycke/mail-deduplicate/releases/download/v9.5.0/mdedup-9.5.0-windows-arm64.exe#/mdedup.exe",
-            "hash": "742eec9294169137cfb5a95d8b38992f7563a9d94a667ceb6430c9939d317f7c"
+            "url": "https://github.com/kdeldycke/mail-deduplicate/releases/download/v9.6.0/mdedup-9.6.0-windows-arm64.exe#/mdedup.exe",
+            "hash": "4867f5b32c24f3d154e325859c1909176cef86560eaf1c78fd58d09d4b0d5bdc"
         }
     },
     "bin": "mdedup.exe",
