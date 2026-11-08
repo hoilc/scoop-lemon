@@ -1,13 +1,13 @@
 {
-    "version": "5.0.39",
+    "version": "5.0.40",
     "description": "小白羊网盘 BoxPlayer - 多网盘统一管理 + 智能媒体库 + 媒体服务器 + 高速下载",
     "homepage": "https://github.com/gaozhangmin/boxplayer",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gaozhangmin/boxplayer/releases/download/v5.0.39/boxplayer-5.0.39-win-x64.exe#/dl.7z",
+            "url": "https://github.com/gaozhangmin/boxplayer/releases/download/v5.0.40/boxplayer-5.0.40-win-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "d2492bb6c51310799d13ebf4bf9f19847bd83731cc56e9b30ea22b382546acad"
+            "hash": "87b72fd8f79c47190873b9c845359c0b15aa496c0386553cbb88c1cd3cfbbb68"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse -ErrorAction SilentlyContinue",
