@@ -1,17 +1,17 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Swiss army knife for World of Warships: browsing replays, extracting game files, and viewing armor models.",
     "homepage": "https://landaire.net/wows-toolkit/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/landaire/wows-toolkit/releases/download/v1.0.4/wows_toolkit_v1.0.4_windows.zip",
-                "https://github.com/landaire/wows-toolkit/releases/download/v1.0.4/wows_toolkit_tools_v1.0.4_win64.zip"
+                "https://github.com/landaire/wows-toolkit/releases/download/v1.0.5/wows_toolkit_v1.0.5_windows.zip",
+                "https://github.com/landaire/wows-toolkit/releases/download/v1.0.5/wows_toolkit_tools_v1.0.5_win64.zip"
             ],
             "hash": [
-                "6188a9ac91b5d3e78e83094e9cee38ed6cad86faaf5d73b745ab79a8426bd6f3",
-                "03f9be87b1670111e0f8e5a109e607f4e89d45423a3747abfd11787ce5be1542"
+                "d7e9fb7ee39bec4f5d78f336ea03598f5296400788802a2f0fde255a9483af7d",
+                "ee4c1aca5ccc03403ed783ea99c3ffeefc5531ec45a443ea324d530054d3d8d4"
             ]
         }
     },
