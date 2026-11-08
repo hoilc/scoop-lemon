@@ -1,16 +1,16 @@
 {
-    "version": "13.6.0",
+    "version": "13.7.0",
     "description": "CycloneDX Generator is a CLI tool to create a valid and compliant CycloneDX Bill of Materials (BOM).",
     "homepage": "https://cyclonedx.github.io/cdxgen/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CycloneDX/cdxgen/releases/download/v13.6.0/cdxgen-windows-amd64.exe#/cdxgen.exe",
-            "hash": "71c49545872f881b7c27655329d6e381e8a5837caddcdb017e3a09161d21dcfd"
+            "url": "https://github.com/CycloneDX/cdxgen/releases/download/v13.7.0/cdxgen-windows-amd64.exe#/cdxgen.exe",
+            "hash": "40c448644e4454efc020ef38c31cb4af578315be7549c99240f11d5759881dcc"
         },
         "arm64": {
-            "url": "https://github.com/CycloneDX/cdxgen/releases/download/v13.6.0/cdxgen-windows-arm64.exe#/cdxgen.exe",
-            "hash": "f7fe363cc86249ebda1de24deb0557234f64b87e5748075124bfeed6016d45f8"
+            "url": "https://github.com/CycloneDX/cdxgen/releases/download/v13.7.0/cdxgen-windows-arm64.exe#/cdxgen.exe",
+            "hash": "51ac6e473758e508a6423dd96f24f6b4b584169c92678f36ad5cd50a86b099a7"
         }
     },
     "bin": "cdxgen.exe",
