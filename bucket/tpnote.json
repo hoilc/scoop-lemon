@@ -1,12 +1,12 @@
 {
-    "version": "1.27.3",
+    "version": "1.27.4",
     "description": "Tp-Note is a minimalistic note taking tool that saves and edits clipboard content as a note file.",
     "homepage": "https://gitlab.com/getreu/tp-note",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getreu/tp-note/releases/download/v1.27.3/tpnote-1.27.3-x86_64-pc-windows-gnu.zip",
-            "hash": "88811b3e7d32f9697cef2808810c19805a4c577d0cf072e855a93b1d8b9bb201"
+            "url": "https://github.com/getreu/tp-note/releases/download/v1.27.4/tpnote-1.27.4-x86_64-pc-windows-gnu.zip",
+            "hash": "d90e36db154f1732722d53db32a8b13762e15277faa0d162a25f2e33f7353392"
         }
     },
     "bin": "tpnote.exe",
