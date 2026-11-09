@@ -1,20 +1,20 @@
 {
-    "version": "0.41.0",
+    "version": "0.41.1",
     "description": "A command line program which provides a suite of tools to create shopping lists and maintain recipes with Cooklang.",
     "homepage": "https://cooklang.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.0/cook-0.41.0-windows-x86_64.zip",
-            "hash": "bbd8167ef135ac5d2957f3b4f7dc8611574d6358a850a87de7a3d253237c7741"
+            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.1/cook-0.41.1-windows-x86_64.zip",
+            "hash": "0cf8b5d5d563d88ab2ee3d608cd9eea01d237210b5f7b893704ccfc2d47c97ac"
         },
         "32bit": {
-            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.0/cook-0.41.0-windows-i686.zip",
-            "hash": "35b8ed1b00b8998a95f7bf3c71dbdbca79592e3c3d142ed5b46fdbb2156032f8"
+            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.1/cook-0.41.1-windows-i686.zip",
+            "hash": "4ce0be5a88b6fe11a18c2304fb041302d4894451a65595ddd3332877f8c96f93"
         },
         "arm64": {
-            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.0/cook-0.41.0-windows-aarch64.zip",
-            "hash": "59be5e3d13816f2c3a48cd0512bb880ff87bfbf1bb109053a3482b841a606759"
+            "url": "https://github.com/cooklang/cookcli/releases/download/v0.41.1/cook-0.41.1-windows-aarch64.zip",
+            "hash": "b78fcf920af29de36933c4bd0605a8c887a44c539a6791f6a9924d4696d1cd62"
         }
     },
     "bin": "cook.exe",
