@@ -1,0 +1,32 @@
+{
+    "version": "0.4.4",
+    "description": "A lightweight, native Git and Subversion desktop client built with Go and Viva.",
+    "homepage": "https://github.com/1lck/viff",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/1lck/viff/releases/download/v0.4.4/viff-v0.4.4-windows-amd64.zip",
+            "hash": "9127bb69ec68a2b6e1a197e93091fa52b5797aceb417720d665f767402615b16",
+            "extract_dir": "viff-v0.4.4-windows-amd64"
+        }
+    },
+    "bin": "viff.exe",
+    "shortcuts": [
+        [
+            "viff.exe",
+            "Viff"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/1lck/viff/releases/download/v$version/viff-v$version-windows-amd64.zip",
+                "extract_dir": "viff-v$version-windows-amd64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
