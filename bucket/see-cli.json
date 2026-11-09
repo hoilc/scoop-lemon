@@ -1,16 +1,16 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.2",
     "description": "A command-line client for the S.EE content sharing platform, enabling users to create and manage short URLs and text snippets and other content efficiently.",
     "homepage": "https://s.ee/docs/developers/cli/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sdotee/cli/releases/download/v1.4.0/see_Windows_x86_64.zip",
-            "hash": "5a56f97161857d94b17d65e820ae55372bb5168f6272c1ad5f94bb6caa6b1e04"
+            "url": "https://github.com/sdotee/cli/releases/download/v1.4.2/see_Windows_x86_64.zip",
+            "hash": "de55f272f4899faadb9f903f1442a43c0d0da8858313d1ce03816eb5ae1ea837"
         },
         "arm64": {
-            "url": "https://github.com/sdotee/cli/releases/download/v1.4.0/see_Windows_arm64.zip",
-            "hash": "85ef9e7c01e8b29f06e1c950456fd5014a172b9f60dd7e597c3d87ea9a78e64d"
+            "url": "https://github.com/sdotee/cli/releases/download/v1.4.2/see_Windows_arm64.zip",
+            "hash": "2cd6ad2f7957471b52b5bdabb6c04cbc01a6120c54238db36fa941e4b2eed696"
         }
     },
     "bin": "see.exe",
