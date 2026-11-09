@@ -1,0 +1,29 @@
+{
+    "version": "0.2.29",
+    "description": "一个 Linux.do 第三方客户端",
+    "homepage": "https://github.com/Lingyan000/fluxdo",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.29/fluxdo-windows-x86_64.zip",
+            "hash": "be15a4b72048a5f26961ec67b9e94873b0a3335ac3b13925c0b540ba907d19d1"
+        }
+    },
+    "shortcuts": [
+        [
+            "fluxdo.exe",
+            "FluxDO"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Lingyan000/fluxdo/releases/download/v$version/fluxdo-windows-x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
