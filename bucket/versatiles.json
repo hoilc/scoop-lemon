@@ -1,16 +1,16 @@
 {
-    "version": "5.8.0",
+    "version": "5.9.0",
     "description": "A toolbox for converting, checking and serving map tiles in various formats.",
     "homepage": "https://versatiles.org/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.8.0/versatiles-windows-x86_64.tar.gz",
-            "hash": "1c4cfa67b852fdd2e14124dd038c21a8d490c1a11d9309a810d781cb6b6748a9"
+            "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.9.0/versatiles-windows-x86_64.tar.gz",
+            "hash": "740395f99bb9b7b1a18a75ee60e289a2fb306b280685b037bf60eff618922fdb"
         },
         "arm64": {
-            "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.8.0/versatiles-windows-aarch64.tar.gz",
-            "hash": "d46f3617922f1b5a3224d00b78934bea392636ca652d7c645c72ef86030d8feb"
+            "url": "https://github.com/versatiles-org/versatiles-rs/releases/download/v5.9.0/versatiles-windows-aarch64.tar.gz",
+            "hash": "d939e97b9eb3d48677196c5a5a5c112a032a144c9b44cc366bf10487f68b8310"
         }
     },
     "bin": "versatiles.exe",
