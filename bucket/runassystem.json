@@ -1,10 +1,10 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Starts a process in the SYSTEM context.",
     "homepage": "https://www.uwe-sieber.de/misc_tools_e.html#runassystem",
     "license": "Freeware",
     "url": "https://www.uwe-sieber.de/files/RunAsSystem.zip",
-    "hash": "3437a889a4861c02de52779ee68fc88eeedc57eb8ac7143319c25d2bfa606467",
+    "hash": "cf0258af71f0df4c99459b6cc9fc77701c20d510bb0a519a83592cdfd1b04e42",
     "architecture": {
         "64bit": {
             "extract_dir": "x64"
