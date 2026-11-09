@@ -1,16 +1,16 @@
 {
-    "version": "0.0.39",
+    "version": "0.0.40",
     "description": "A simple TUI for YouTube Music.",
     "homepage": "https://github.com/nick42d/youtui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/youtui-0.0.39/youtui-0.0.39-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "3866842d9cdcae5779d2c46655f50971ce04679745d54b6337b712584deed2ab"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/youtui-0.0.40/youtui-0.0.40-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "3c8b6423813531a6fa99e27c0d411d62825401acced0a6a24e0bf04af0cdc420"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/youtui-0.0.39/youtui-0.0.39-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "7921281eff2caf3bb366f8a00cd1348599e3ae278cfd129b97e646314e70cc8d"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/youtui-0.0.40/youtui-0.0.40-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "8cd43fd4d63476df17b4bc8d38fcbcc3a8b74fc53c8f93166bc5c8d5c78e1d06"
         }
     },
     "bin": "youtui.exe",
