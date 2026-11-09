@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A Wolfram Language / Mathematica reimplementation in Rust.",
     "homepage": "https://github.com/ad-si/Woxi",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ad-si/Woxi/releases/download/v0.3.0/woxi-v0.3.0-x86_64-pc-windows-msvc.zip",
-            "hash": "8df9e5a164132875396c920926d1cb57eee070593e5b9a099b85e401c10c589f"
+            "url": "https://github.com/ad-si/Woxi/releases/download/v0.4.0/woxi-v0.4.0-x86_64-pc-windows-msvc.zip",
+            "hash": "6213e7adbd4baacbc2417d5835287e5cb0c87570deab7feef8afa738a7b27a95"
         }
     },
     "bin": "woxi.exe",
