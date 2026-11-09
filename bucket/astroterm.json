@@ -1,0 +1,25 @@
+{
+    "version": "1.2.0",
+    "description": "A planetarium for your terminal to explore stars, planets, constellations, and more.",
+    "homepage": "https://github.com/da-luce/astroterm",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/da-luce/astroterm/releases/download/v1.2.0/astroterm-win-x86_64.exe#/astroterm.exe",
+            "hash": "397b3b9d61ae1d744cbcd2906985e8fcfd5dc13f3b2391ee56fda1c589b080b4"
+        }
+    },
+    "bin": "astroterm.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/da-luce/astroterm/releases/download/v$version/astroterm-win-x86_64.exe#/astroterm.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256",
+            "regex": "$sha256"
+        }
+    }
+}
