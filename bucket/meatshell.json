@@ -1,0 +1,30 @@
+{
+    "version": "0.8.2",
+    "description": "A lightweight, low-memory SSH / terminal client inspired by FinalShell. | 轻量级、低内存占用的 SSH / 终端客户端，灵感来自 FinalShell",
+    "homepage": "https://github.com/yituorou/meatshell",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yituorou/meatshell/releases/download/v0.8.2/meatshell-v0.8.2-windows-x86_64.zip",
+            "extract_dir": "meatshell-v0.8.2-windows-x86_64",
+            "hash": "ef1f8a989d22744ef7f7c23115cf11d983e030b6d67959b81252c8f7074203df"
+        }
+    },
+    "bin": "meatshell.exe",
+    "shortcuts": [
+        [
+            "meatshell.exe",
+            "meatshell"
+        ]
+    ],
+    "persist": "config",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yituorou/meatshell/releases/download/v$version/meatshell-v$version-windows-x86_64.zip",
+                "extract_dir": "meatshell-v$version-windows-x86_64"
+            }
+        }
+    }
+}
