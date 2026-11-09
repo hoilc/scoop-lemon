@@ -1,0 +1,23 @@
+{
+    "version": "0.1.18",
+    "description": "A lightweight, interactive TUI for Prometheus with Grafana dashboard support.",
+    "homepage": "https://fedexist.github.io/grafatui/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fedexist/grafatui/releases/download/v0.1.18/grafatui-x86_64-pc-windows-msvc.zip",
+            "hash": "73375fdab9e85f1777f64da530ed2ccb03cca374a646c0a64a925c08ea0f4e01"
+        }
+    },
+    "bin": "grafatui.exe",
+    "checkver": {
+        "github": "https://github.com/fedexist/grafatui"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/fedexist/grafatui/releases/download/v$version/grafatui-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
