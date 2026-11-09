@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.1",
     "description": "A compiler for fonts.",
     "homepage": "https://github.com/googlefonts/fontc",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-x86_64-pc-windows-msvc.zip",
-            "hash": "2c8b60198d80a02431860256406d48dff8c714534fce2e6a27180d93694869c1"
+            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-x86_64-pc-windows-msvc.zip",
+            "hash": "cf05ad4e70b922339e53561a236ed783c5555a885f5787500af82d185173c0ff"
         },
         "32bit": {
-            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v1.0.0/fontc-i686-pc-windows-msvc.zip",
-            "hash": "fd17690a5a3b4d6f5e3ad30a6b24eabbd609e1510c29e691e4b51c48f2c56584"
+            "url": "https://github.com/googlefonts/fontc/releases/download/fontc-v2.0.1/fontc-i686-pc-windows-msvc.zip",
+            "hash": "03e5d74482a8e368f862804f27ea6ca9eddc8f43d3cbf7c22fc5bd2a4fc70dad"
         }
     },
     "bin": "fontc.exe",
