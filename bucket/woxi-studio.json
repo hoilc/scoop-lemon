@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A GUI IDE for Woxi, the Wolfram Language reimplementation in Rust.",
     "homepage": "https://github.com/ad-si/Woxi",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ad-si/Woxi/releases/download/v0.3.0/woxi-studio-v0.3.0-x86_64-pc-windows-msvc.zip",
-            "hash": "e47c4367abfdf25cdc4b3b45f6bfa3763a7a0bb4f61250b0de556cd5c6cb7527"
+            "url": "https://github.com/ad-si/Woxi/releases/download/v0.4.0/woxi-studio-v0.4.0-x86_64-pc-windows-msvc.zip",
+            "hash": "472d004380ad044544062fbcb32e93817388c4bc307f4fffab1ad872c1a36811"
         }
     },
     "shortcuts": [
