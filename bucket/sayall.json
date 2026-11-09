@@ -1,6 +1,6 @@
 {
     "version": "1.8.0",
-    "description": "Turn a compatible Bluetooth voice remote into a wireless microphone. | 把兼容的蓝牙语音遥控器变成 Mac 的无线麦克风",
+    "description": "Turn a compatible Bluetooth voice remote into a wireless microphone. | 把兼容的蓝牙语音遥控器变成 Windows 的无线麦克风",
     "homepage": "https://github.com/GetSayAll/remote-mic-app-windows",
     "license": "GPL-3.0-only",
     "architecture": {
