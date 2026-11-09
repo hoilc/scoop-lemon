@@ -1,0 +1,26 @@
+{
+    "version": "1.3.0",
+    "description": "A lightweight Windows desktop floating monitor for battery power and runtime, CPU/GPU/memory usage and power, network speed, and real latency with disconnect alerts. | 轻量的 Windows 桌面悬浮监控：电池功耗与续航、CPU/GPU/内存占用与功耗、网速、真实延迟与断网提醒",
+    "homepage": "https://github.com/yftx888/Pulse",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yftx888/Pulse/releases/download/v1.3.0/Pulse-1.3.0-win-x64.zip",
+            "hash": "12a2c9dd8f74177ff50e91464b80561f7b62f64b9c26c95804d2dc9bab1cf4e5"
+        }
+    },
+    "shortcuts": [
+        [
+            "Pulse.exe",
+            "Pulse"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/yftx888/Pulse/releases/download/v$version/Pulse-$version-win-x64.zip"
+            }
+        }
+    }
+}
