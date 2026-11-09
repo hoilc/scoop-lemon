@@ -1,16 +1,16 @@
 {
-    "version": "20261108-3ea7d28",
+    "version": "20261109-ae36c3a",
     "description": "(Nightly Build) A Minecraft server built entirely in Rust, offering a fast, efficient, and customizable experience.",
     "homepage": "https://pumpkinmc.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-X64-Windows.exe#/pumpkin.exe",
-            "hash": "5f3f3a11bc73a8737aa1d42bd9fa658283cfbb8dc2563b93b58e66f70ff1818b"
+            "hash": "3318370eb0eb969c7885f4bcfde5d60a221d9a931db10f9d3758c1be96154a75"
         },
         "arm64": {
             "url": "https://github.com/Pumpkin-MC/Pumpkin/releases/download/nightly/pumpkin-ARM64-Windows.exe#/pumpkin.exe",
-            "hash": "b4d6742f2617ad7c8c1b3279d782a813a9c60db9af6d9e6c91c4990e61b16fa6"
+            "hash": "a86c842adfcfe8c953c55c712728d6cea12b11d7ed792a7738900dc5b1b55404"
         }
     },
     "pre_install": [
