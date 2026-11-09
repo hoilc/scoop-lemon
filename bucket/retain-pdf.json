@@ -1,0 +1,34 @@
+{
+    "version": "4.2.6",
+    "description": "A PDF translation tool that preserves layout, formulas, and structure, designed for scientific and technical documents. | 在保留版面、公式与结构的前提下进行 PDF 翻译，适用于科研与技术文档",
+    "homepage": "https://github.com/wxyhgk/retain-pdf",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wxyhgk/retain-pdf/releases/download/v4.2.6/RetainPDF-Windows-4.2.6-Setup.exe#/dl.7z",
+            "hash": "fffba3cc7b3cbdb635ee64272f709f371a10202b106850c308f21b3d248d8a22",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
+    "shortcuts": [
+        [
+            "RetainPDF.exe",
+            "RetainPDF"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/wxyhgk/retain-pdf/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wxyhgk/retain-pdf/releases/download/v$version/RetainPDF-Windows-$version-Setup.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
