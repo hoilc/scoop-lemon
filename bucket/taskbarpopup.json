@@ -1,0 +1,27 @@
+{
+    "version": "1.2.1",
+    "description": "A Windows 10/11 taskbar enhancement that hides the taskbar for maximized windows and shows a liquid-glass mini taskbar when Win is held. | Windows 10/11 任务栏增强：窗口最大化时自动藏起任务栏、铺满整块屏幕；长按 Win 弹出液态玻璃风格的迷你任务栏",
+    "homepage": "https://github.com/DM74164/TaskbarPopup",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v1.2.1/TaskbarPopup.zip",
+            "hash": "4b26a7f43c752429d2df50da934f6b2e51d5ce417af6432e1f23ecf2947764b9"
+        }
+    },
+    "extract_dir": "TaskbarPopup",
+    "shortcuts": [
+        [
+            "TaskbarPopup.exe",
+            "TaskbarPopup"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v$version/TaskbarPopup.zip"
+            }
+        }
+    }
+}
