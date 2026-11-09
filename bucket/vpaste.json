@@ -1,0 +1,32 @@
+{
+    "version": "1.7.0",
+    "description": "An open-source clipboard manager with searchable history for text, images, links, colors, and files.",
+    "homepage": "https://vpaste.app",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Loxonl/vPaste-desktop/releases/download/v1.7.0/vPaste_1.7.0_windows_x64_portable.zip",
+            "hash": "9d00e0a47320e579a604e8b83b37374e77de563c67c96d03aea7d9906b697b15"
+        }
+    },
+    "shortcuts": [
+        [
+            "vPaste.exe",
+            "vPaste"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/Loxonl/vPaste-desktop"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Loxonl/vPaste-desktop/releases/download/v$version/vPaste_$version_windows_x64_portable.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
