@@ -1,0 +1,34 @@
+{
+    "version": "1.5.4.3",
+    "description": "A modern, lightweight Steam Lua library manager built with WPF + Fluent Design.",
+    "homepage": "https://github.com/huanyuejue/Fluent-Steam-Lua",
+    "license": "Zlib",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/huanyuejue/Fluent-Steam-Lua/releases/download/1.5.4.3/Fluent-Steam-Lua-1.5.4.3-loose-file.zip",
+            "hash": "a4bc6bb53534070e3bb3f853a68e04cde08e953b31f1b5f11fc84ceaa8a05391"
+        }
+    },
+    "shortcuts": [
+        [
+            "SteamLuaManager.exe",
+            "Fluent Steam Lua"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\settings.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\settings.json\" -Value '{}' }",
+    "persist": [
+        "settings.json",
+        "cache"
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/huanyuejue/Fluent-Steam-Lua/releases/download/$version/Fluent-Steam-Lua-$version-loose-file.zip"
+            }
+        }
+    }
+}
