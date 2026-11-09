@@ -1,0 +1,30 @@
+{
+    "version": "0.3.2",
+    "description": "An offline Gemini image watermark removal tool using reverse alpha blending.",
+    "homepage": "https://github.com/allenk/GeminiWatermarkTool",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/allenk/GeminiWatermarkTool/releases/download/v0.3.2/GeminiWatermarkTool-Windows-x64.zip",
+            "hash": "1c6734a6503ee6e34a424e8bf6c8db2db18e2afb286cb0c8622b8a1015abb6eb"
+        }
+    },
+    "bin": "GeminiWatermarkTool.exe",
+    "shortcuts": [
+        [
+            "GeminiWatermarkTool.exe",
+            "Gemini Watermark Tool"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/allenk/GeminiWatermarkTool/releases/download/v$version/GeminiWatermarkTool-Windows-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
