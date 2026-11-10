@@ -1,12 +1,12 @@
 {
-    "version": "13722",
+    "version": "13728",
     "description": "(Nightly Build) A Rocket.Chat client developed by KDE.",
     "homepage": "https://apps.kde.org/ruqola/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/network/ruqola/master/windows/ruqola-master-13722-windows-cl-msvc2022-x86_64.7z",
-            "hash": "cf4317362044dd538ec624fba63ce30c89af3d959db00648d2bfc6e5a3705b97"
+            "url": "https://cdn.kde.org/ci-builds/network/ruqola/master/windows/ruqola-master-13728-windows-cl-msvc2022-x86_64.7z",
+            "hash": "1a8ff4a6c086c291fa0db4e8831589055c67ffaeea1699be72e88adc385dfd35"
         }
     },
     "shortcuts": [
