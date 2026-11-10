@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://globalcdn.nuget.org/packages/microsoft.codeanalysis.binskim.4.4.9.14.nupkg#/dl.zip",
-            "extract_dir": "tools\\net9.0\\win-x64",
+            "extract_dir": "tools\\win-x64",
             "hash": "ea2f48ed02e6d7ff569614d0895b80c2669fbc261c8b386639de551af049bcf4"
         }
     },
