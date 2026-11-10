@@ -1,12 +1,12 @@
 {
-    "version": "0.19.0",
+    "version": "0.19.1",
     "description": "A simple Lua framework for rapidly building VR experiences.",
     "homepage": "https://lovr.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bjornbytes/lovr/releases/download/v0.19.0/lovr-v0.19.0-win64.zip",
-            "hash": "677990376f3aa48ec791e1415fffba9efc2e3dacb22405087393ed2bf705dcbd"
+            "url": "https://github.com/bjornbytes/lovr/releases/download/v0.19.1/lovr-v0.19.1-win64.zip",
+            "hash": "51884c7c7b404216b90ed00f2a0b186e270f5e072c4214eb2a51004873469dcb"
         }
     },
     "bin": "lovrc.bat",
