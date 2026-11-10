@@ -2,7 +2,7 @@
     "version": "0.5.0",
     "description": "米家设备的 Windows 桌面控制端，基于 mijiaAPI 构建，扫码登录后即可在本地查看和控制设备",
     "homepage": "https://github.com/huanyuejue/MiHome-Windows",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
             "url": "https://github.com/huanyuejue/MiHome-Windows/releases/download/0.5.0/MiHome-Windows-0.5.0-x64-portable.zip",
@@ -16,6 +16,7 @@
             "MiHome-Windows"
         ]
     ],
+    "post_install": "if ($null -ne (Get-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'MiHome-Windows' -ErrorAction SilentlyContinue)) { Set-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'MiHome-Windows' -Value ('\"' + \"$dir\\MiHome-Windows.exe\" + '\"') }",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
