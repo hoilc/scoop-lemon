@@ -1,5 +1,5 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "An SSH client with FinalShell's layout and vertical session tabs, written in Go. | 布局和 FinalShell 一样、会话标签竖着排的 SSH 客户端，用 Go 编写",
     "homepage": "https://github.com/TooonyChen/finallyshell",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TooonyChen/finallyshell/releases/download/v0.3.0/finallyshell-0.3.0-windows-amd64.zip",
-            "hash": "6c13f04964a1991cda9ba7df5db38cc4d5d4ab8aec2f306f35aad064f319dbcd"
+            "url": "https://github.com/TooonyChen/finallyshell/releases/download/v0.4.0/finallyshell-0.4.0-windows-amd64.zip",
+            "hash": "c7eef8f6f1f4eb8cdb257f6ba2d2d9ea6296523b10813c1a9bf4e36dcd963923"
         }
     },
     "shortcuts": [
