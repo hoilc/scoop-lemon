@@ -1,16 +1,16 @@
 {
-    "version": "3.29.0",
+    "version": "3.30.0",
     "description": "A database migration tool. Supports SQL migrations and Go functions.",
     "homepage": "https://pressly.github.io/goose/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pressly/goose/releases/download/v3.29.0/goose_windows_x86_64.exe#/goose.exe",
-            "hash": "94310bf51677404bdb424895e60b24b1b9b8bebac77d88c58d7273be49f77a4b"
+            "url": "https://github.com/pressly/goose/releases/download/v3.30.0/goose_windows_x86_64.exe#/goose.exe",
+            "hash": "27e3dc872dfcb44980fb7042d45b08a91e368b55a87298f36bc5036fbf2cc7e3"
         },
         "arm64": {
-            "url": "https://github.com/pressly/goose/releases/download/v3.29.0/goose_windows_arm64.exe#/goose.exe",
-            "hash": "d0491bd5f901a1fa1d3b7b7e5670ea2d3804c0c1c3eb993a2b58d7c8dc14801c"
+            "url": "https://github.com/pressly/goose/releases/download/v3.30.0/goose_windows_arm64.exe#/goose.exe",
+            "hash": "fdc061d101428292e2da966a7382367c51856f85cb1606663baedd8940c638ba"
         }
     },
     "bin": "goose.exe",
