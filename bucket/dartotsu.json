@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A multiplatform tracking client based on Dantotsu.",
     "homepage": "https://github.com/aayush2622/Dartotsu",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aayush2622/Dartotsu/releases/download/v1.2.0/Dartotsu-x86_64-1.2.0-Installer.exe",
-            "hash": "ece4ad202947f9c57e58d115bc44de0bdaa32ea04ea2092cae0c4a3dbe85e7d9"
+            "url": "https://github.com/aayush2622/Dartotsu/releases/download/v1.2.1/Dartotsu-x86_64-1.2.1-Installer.exe",
+            "hash": "6bd017a2c46e87752a6a4fb578394397d8ef9d3aa6bfc610cebef625fecf0cce"
         }
     },
     "innosetup": true,
