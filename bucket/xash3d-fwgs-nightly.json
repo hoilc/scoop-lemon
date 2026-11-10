@@ -1,16 +1,16 @@
 {
-    "version": "0.20261106.0105",
+    "version": "0.20261110.1415",
     "description": "(Nightly Version) A game engine, aimed to provide compatibility with Half-Life Engine and extend it, as well as to give game developers well known workflow.",
     "homepage": "https://github.com/FWGS/xash3d-fwgs",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-win32-amd64.7z",
-            "hash": "22f89d6e9e21734978417a3fbab33e7c09d570fdd26d4b45be726638e40ca795"
+            "hash": "3579acb39621e3fbb881af7784ae2fa6ff545c1bdd92d860080e398600d23e43"
         },
         "32bit": {
             "url": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-win32-i386.7z",
-            "hash": "31836d376448a45d95c207d62db233091ae9609a100407c5364687e93573deac"
+            "hash": "40ee3990dd74e963a4f6cef1f8a8a59ea5e3adfb0c3894a4501afb81c074c5d1"
         }
     },
     "shortcuts": [
