@@ -17,6 +17,7 @@
         ]
     ],
     "post_install": "if ($null -ne (Get-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'MiHome-Windows' -ErrorAction SilentlyContinue)) { Set-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'MiHome-Windows' -Value ('\"' + \"$dir\\MiHome-Windows.exe\" + '\"') }",
+    "post_uninstall": "if ($cmd -eq 'uninstall') { Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' -Name 'MiHome-Windows' -ErrorAction SilentlyContinue }",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
