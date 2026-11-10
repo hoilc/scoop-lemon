@@ -1,13 +1,13 @@
 {
-    "version": "1.2026.10.10",
+    "version": "1.2026.11.11",
     "description": "Scan Tailor Experimental is an interactive post-processing tool for scanned pages.",
     "homepage": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2026.10.10/scantailor-experimental-1.2026.10.10-qt5_win64.zip",
-            "extract_dir": "scantailor-experimental-1.2026.10.10-qt5_win64",
-            "hash": "966636ecbe8da019aa85a21690abf0ab703be438f5a1a6613c6302c6b03a69ad"
+            "url": "https://github.com/ImageProcessing-ElectronicPublications/scantailor-experimental/releases/download/1.2026.11.11/scantailor-experimental-1.2026.11.11-qt5_win64.zip",
+            "extract_dir": "scantailor-experimental-1.2026.11.11-qt5_win64",
+            "hash": "10e1411b8b9e945a06cec4a3a1faa985b4a1083d5ef7f0384d45665dca22e114"
         }
     },
     "shortcuts": [
