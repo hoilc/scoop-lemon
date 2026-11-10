@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A local-first note-taking and whiteboard app with multidimensional tables. | Windows 桌面笔记 + 画板软件，支持多维表格与知识工作台",
     "homepage": "https://github.com/CrazyFigure/NoteBoard",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CrazyFigure/NoteBoard/releases/download/v0.8.0/NoteBoard_0.8.0_windows_x64_portable.exe#/NoteBoard.exe",
-            "hash": "8cd15597aec5901a62221b5d9b8e0e84a0d40afe7cf3182dca925662425c4c90"
+            "url": "https://github.com/CrazyFigure/NoteBoard/releases/download/v0.8.1/NoteBoard_0.8.1_windows_x64_portable.exe#/NoteBoard.exe",
+            "hash": "14cbeb24a300392117c34bbf5d64d775d0d32cedb116cbd9535524a5b3f3c805"
         }
     },
     "shortcuts": [
