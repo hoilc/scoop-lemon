@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://repo.typedb.com/public/public-release/raw/names/typedb-studio-windows-x86_64/versions/3.13.3/typedb-studio-windows-x86_64-3.13.3.msi",
             "hash": "3cefcb1c53e56e1721e67819b38a73128cedeb8e26b22bd0608499ed5dddaef1",
-            "extract_dir": "PFiles\\typedb-studio"
+            "extract_dir": "PFiles\\TypeDB Studio"
         }
     },
     "shortcuts": [
