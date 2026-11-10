@@ -1,20 +1,20 @@
 {
-    "version": "2.11.7",
+    "version": "2.11.8",
     "description": "A website link checker which scrapes and inspects all pages in a website recursively.",
     "homepage": "https://raviqqe.com/muffet",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.7/muffet_windows_amd64.zip",
-            "hash": "54de6e16e994a0d17b03d0d0ab6e39d563b9c5d564af64815af22e772af7315b"
+            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.8/muffet_windows_amd64.zip",
+            "hash": "364d6213d9d5341287833d65cd41bd228d19a58373b213851448217ca7b718e5"
         },
         "32bit": {
-            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.7/muffet_windows_386.zip",
-            "hash": "efc1ac8716276c820fc924c56d04a0d8d463c1a0527dfbb86198a867ac294c55"
+            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.8/muffet_windows_386.zip",
+            "hash": "c1f8c9f7a9e69d76464d2d7702503ed95179e380232d95854c06d2fab28feed9"
         },
         "arm64": {
-            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.7/muffet_windows_arm64.zip",
-            "hash": "579f264bb92b9cef1765d6e0da5b8cf129e6ecf42d96011af0c33cc7766c6cd3"
+            "url": "https://github.com/raviqqe/muffet/releases/download/v2.11.8/muffet_windows_arm64.zip",
+            "hash": "187b81c6e1f57673972537880d5bf6de38e04b953a0daf496d5c2b4790087044"
         }
     },
     "bin": "muffet.exe",
