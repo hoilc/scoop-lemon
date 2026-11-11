@@ -1,6 +1,6 @@
 {
     "version": "20.0.14.0-202601311546",
-    "description": "A free virus scanner that helps remove malware from your Windows PC if it has been compromised.",
+    "description": "A free virus scanner that helps remove malware from your Windows PC if it has been compromised. ",
     "homepage": "https://www.kaspersky.com/downloads/free-virus-removal-tool",
     "license": "Freeware",
     "url": "https://devbuilds.s.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe",
