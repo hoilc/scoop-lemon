@@ -1,12 +1,12 @@
 {
-    "version": "b240-20261106-ce041ca",
+    "version": "b241-20261111-f4d8559",
     "description": "(Continuous Build) A console application for NVIDIA GPUs for high-performance JPEG image encoding and decoding.",
     "homepage": "https://github.com/CESNET/GPUJPEG",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
             "url": "https://github.com/CESNET/GPUJPEG/releases/download/continuous/GPUJPEG-Windows-all.zip",
-            "hash": "320ac1dad9ae172684dfb15ccbe5cf92101247b8c936425ed42c1c0175781990"
+            "hash": "66e0a483ca82ae225193f1d86acffc999815ca6c1264a776b74c3b11942d4ab5"
         }
     },
     "extract_dir": "GPUJPEG",
