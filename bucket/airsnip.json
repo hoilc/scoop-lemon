@@ -1,12 +1,12 @@
 {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "description": "A lightweight Windows screenshot and annotation tool. | 小巧的 Windows 截图标注工具",
     "homepage": "https://airsnip.bddxg.top",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bd-dxg/airsnip/releases/download/v0.10.0/airsnip-v0.10.0-win-x64.zip",
-            "hash": "eb1515b440ac2267f22688e57d958c85154a2effd685e145790801fac9dea152"
+            "url": "https://github.com/bd-dxg/airsnip/releases/download/v0.11.0/airsnip-v0.11.0-win-x64.zip",
+            "hash": "1fcd2dadfdbfcbbaa69899b33890a130e0922afc78435cfac86a97bed1657747"
         }
     },
     "shortcuts": [
