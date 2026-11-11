@@ -1,16 +1,16 @@
 {
-    "version": "0.6.7",
+    "version": "0.6.8",
     "description": "A cross-platform git workflow improvement tool inspired by Magit.",
     "homepage": "https://codeberg.org/Piturnah/gex",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gex-0.6.7/gex-0.6.7-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "fd2203d1c28dede84fb666c5ae5b64d72c30afb2c0e79a26d13437873552758f"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gex-0.6.8/gex-0.6.8-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "7b1d2aafc13dc0cdfc48c6c92d19c688f4ee29d82be11f81fca68ab24132508e"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gex-0.6.7/gex-0.6.7-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "7979e10b1d127dfc85abdc82d9678f742fb0dc2924535b93ab5c9f7a423085b7"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/gex-0.6.8/gex-0.6.8-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "12134bb1573225fcfe7004abde22712a1796fc00644fecb5487c9d7bb7f66393"
         }
     },
     "bin": "gex.exe",
