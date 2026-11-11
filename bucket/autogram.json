@@ -1,12 +1,12 @@
 {
-    "version": "2.8.3",
+    "version": "2.9.0",
     "description": "A desktop application for signing and verifying documents in accordance with the European eIDAS regulation.",
     "homepage": "https://github.com/slovensko-digital/autogram",
     "license": "EUPL-1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/slovensko-digital/autogram/releases/download/v2.8.3/autogram-2.8.3-windows.msi",
-            "hash": "cfd4529fb5b07b22042005dc5d47647a94a5d1f9da8b799a19f58085eb8606c1"
+            "url": "https://github.com/slovensko-digital/autogram/releases/download/v2.9.0/autogram-2.9.0-windows.msi",
+            "hash": "a0e7f01169119e7f913861182899eadafc4552c2dbec2293f11b4aed89025abe"
         }
     },
     "extract_dir": "Autogram",
