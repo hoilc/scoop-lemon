@@ -1,12 +1,12 @@
 {
-    "version": "1.13.4-pre",
+    "version": "1.13.4-pre-1112",
     "description": "简简单单的看直播（SimpleLive续）",
     "homepage": "https://github.com/June6699/dart_simple_live",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.4-pre/SimpleLive-Windows-v1.13.4.zip",
-            "hash": "96a20e50bf939b623bf4cedb6a7dbe73f23b441b9f2ce084062b6a11bc7a307c"
+            "url": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.4-pre-1112/SimpleLive-Windows-v1.13.4.zip",
+            "hash": "c924b3b617e88496c0b67e032782af88e328bc99558e1080b7e74046f026b702"
         }
     },
     "shortcuts": [
