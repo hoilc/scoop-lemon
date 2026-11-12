@@ -1,20 +1,20 @@
 {
-    "version": "1.20.2",
+    "version": "1.21.0",
     "description": "The implementation of Model Context Protocol (MCP) server for VictoriaMetrics.",
     "homepage": "https://github.com/VictoriaMetrics/mcp-victoriametrics",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.20.2/mcp-victoriametrics_Windows_x86_64.zip",
-            "hash": "ba9ddedacc058bce46b0648b455071127463badd692d72006bdc1f57933af628"
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.21.0/mcp-victoriametrics_Windows_x86_64.zip",
+            "hash": "f07935c9c3776c3b8893417ab430a028eb4abc3aff479c9831c196c7bd3b2b51"
         },
         "32bit": {
-            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.20.2/mcp-victoriametrics_Windows_i386.zip",
-            "hash": "9ef96b0f6fefe052cc4f689da736123966e3075e50801eedd2d1148d15bf2338"
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.21.0/mcp-victoriametrics_Windows_i386.zip",
+            "hash": "8200ebdd287f0bc0d5c4af959c4ad25dec4f59f1b04116fbe2e860192a46884a"
         },
         "arm64": {
-            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.20.2/mcp-victoriametrics_Windows_arm64.zip",
-            "hash": "99a1b7cae24167039a566de9c293f329cbe7b65d67af429e16ffe204713a81e5"
+            "url": "https://github.com/VictoriaMetrics/mcp-victoriametrics/releases/download/v1.21.0/mcp-victoriametrics_Windows_arm64.zip",
+            "hash": "6c0a3c5bd9879fef9a23eb0e0d1d8e628ed0b614b55c85c9bcbe0e744a9a3d2e"
         }
     },
     "bin": "mcp-victoriametrics.exe",
