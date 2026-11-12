@@ -1,12 +1,12 @@
 {
-    "version": "11014",
+    "version": "11015",
     "description": "(Nightly Build) A feature-rich free astronomy software developed by KDE.",
     "homepage": "https://kstars.kde.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/education/kstars/master/windows/kstars-master-11014-windows-cl-msvc2022-x86_64.7z",
-            "hash": "398c4bb6b3c16359b039a7df323482cee48a9f8dd8d4bea9c3e73a17673f0676"
+            "url": "https://cdn.kde.org/ci-builds/education/kstars/master/windows/kstars-master-11015-windows-cl-msvc2022-x86_64.7z",
+            "hash": "4a1fd8c92835f9d872cb8a05f0bda5199f4275fb118f4285b427ad359c3cb8a1"
         }
     },
     "shortcuts": [
