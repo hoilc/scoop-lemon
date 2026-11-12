@@ -1,12 +1,12 @@
 {
-    "version": "1.1.87",
+    "version": "1.1.88",
     "description": "(国内版) Qoder CLI AI 编程助手，将强大的 AI 编程能力直接带入你的终端",
     "homepage": "https://qoder.com.cn/cli",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://static.qoder.com.cn/qoder-cli-cn/releases/1.1.87/qoderclicn-windows-x64.zip",
-            "hash": "1f434411a4de471bbdda38cd6f3361c67a2431417bd24eaf663418b3b7e77183"
+            "url": "https://static.qoder.com.cn/qoder-cli-cn/releases/1.1.88/qoderclicn-windows-x64.zip",
+            "hash": "057d339bf70b0849941aa68fffc5345d87a50592ced0a054c84ff1451f6f4ffa"
         }
     },
     "bin": "qoderclicn.exe",
