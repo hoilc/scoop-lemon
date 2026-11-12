@@ -1,16 +1,16 @@
 {
-    "version": "0.15.7",
+    "version": "0.16.0",
     "description": "A declarative schema-based Markdown validator that helps maintain consistent documentation structure across projects.",
     "homepage": "https://github.com/jackchuka/mdschema",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jackchuka/mdschema/releases/download/v0.15.7/mdschema_0.15.7_windows_amd64.zip",
-            "hash": "9c34e097ab5d96c2cc39018caef7a76ceeb845bfd8184312837378b9cf7e14ef"
+            "url": "https://github.com/jackchuka/mdschema/releases/download/v0.16.0/mdschema_0.16.0_windows_amd64.zip",
+            "hash": "366426eaefc02839fcf481068cd9681a4b242d4b49e0a4f7731276087911d9a6"
         },
         "arm64": {
-            "url": "https://github.com/jackchuka/mdschema/releases/download/v0.15.7/mdschema_0.15.7_windows_arm64.zip",
-            "hash": "269bf6b80a541057e8d12a30d7143b386267755c214053a8e22961459a2c56cd"
+            "url": "https://github.com/jackchuka/mdschema/releases/download/v0.16.0/mdschema_0.16.0_windows_arm64.zip",
+            "hash": "b69b6c33fcea9a5282898683876ea24e7a772a0294a688bb0c60eaebdbf19a3f"
         }
     },
     "bin": "mdschema.exe",
