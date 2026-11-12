@@ -1,16 +1,16 @@
 {
-    "version": "3.1.0",
+    "version": "3.1.1",
     "description": "The CLI tool to automate / manage GPU pods for runpod.io.",
     "homepage": "https://www.runpod.io/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/runpod/runpodctl/releases/download/v3.1.0/runpodctl-windows-amd64.zip",
-            "hash": "1866409bba3623e31a2b36ae96f217a24d1513cb3f6b3edc468854b565b0914a"
+            "url": "https://github.com/runpod/runpodctl/releases/download/v3.1.1/runpodctl-windows-amd64.zip",
+            "hash": "e15e62443c2270fdef4bd593f7b4303534aa4f0fdeaa411e58670423d85f740e"
         },
         "arm64": {
-            "url": "https://github.com/runpod/runpodctl/releases/download/v3.1.0/runpodctl-windows-arm64.zip",
-            "hash": "9e47d190e6453dd7b84b213e856e480e5a1a2df6d8758475b6a058e3109e55bb"
+            "url": "https://github.com/runpod/runpodctl/releases/download/v3.1.1/runpodctl-windows-arm64.zip",
+            "hash": "d7d19bdc60a0358a745ea3827664a01dd4aba61c58b6488427f950be5bf502f5"
         }
     },
     "bin": "runpodctl.exe",
