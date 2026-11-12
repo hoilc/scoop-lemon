@@ -1,18 +1,18 @@
 {
-    "version": "3.0.0.68",
+    "version": "3.0.0.69",
     "description": "Xbox 下载助手，支持Xbox、微软商店、PSN、NS、EA Desktop & Origin、战网国际服、Epic 下载加速。",
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.68/XboxDownload-windows-x64.zip",
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.69/XboxDownload-windows-x64.zip",
             "extract_dir": "XboxDownload-windows-x64",
-            "hash": "12d1383454d39dbd58ce3c5d79e04f5cbf1adf9144f88a4cf79e8df888197ebf"
+            "hash": "9c5706dc2ad1cc9491314a0904d465d76a201b4c360f9ae05107541b2d9a41eb"
         },
         "arm64": {
-            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.68/XboxDownload-windows-arm64.zip",
+            "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.69/XboxDownload-windows-arm64.zip",
             "extract_dir": "XboxDownload-windows-arm64",
-            "hash": "815251467a44406d46e7f75dd06c66de6b67b7fdb114649714e64e6e02a6ce22"
+            "hash": "24d7afe68a0f43e1adebec8912806b8ac9eced668d90c3dbfb51998177f41e02"
         }
     },
     "shortcuts": [
