@@ -1,20 +1,20 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "通过命令行调用火山引擎云服务的OpenAPI，便于自动、高效管理云上资源",
     "homepage": "https://www.volcengine.com/docs/83927/1176799",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.0/volcengine-cli_2.0.0_windows_amd64.zip",
-            "hash": "e3472a206339ba559a9a79c2e8c17d086d65092065e8a5ad2574b10fe3f9e77e"
+            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.1/volcengine-cli_2.0.1_windows_amd64.zip",
+            "hash": "0ec0d92080355f83b24342b892eddb4e300cd4d9f45648b57950b7cea068c46e"
         },
         "32bit": {
-            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.0/volcengine-cli_2.0.0_windows_386.zip",
-            "hash": "3b7133a7e6bebc557a4116d90b3552ff869263e5e94f26285f5fefa5efd8e88a"
+            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.1/volcengine-cli_2.0.1_windows_386.zip",
+            "hash": "d08bf6af497fa667b2505398692a445340105d37180447784f343c39e67dba69"
         },
         "arm64": {
-            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.0/volcengine-cli_2.0.0_windows_arm64.zip",
-            "hash": "3289c1be8d260aa823d4bd59b539f8b1d2c2b3ca728d3d9ff71168878f5d8b53"
+            "url": "https://github.com/volcengine/volcengine-cli/releases/download/v2.0.1/volcengine-cli_2.0.1_windows_arm64.zip",
+            "hash": "9ac44cba046d6eb13f5e68ad7925328e80216a71e5f32c65bd52ddc6343ed2d3"
         }
     },
     "bin": "ve.exe",
