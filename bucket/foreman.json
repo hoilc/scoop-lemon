@@ -1,12 +1,12 @@
 {
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "A toolchain manager for Roblox projects.",
     "homepage": "https://github.com/Roblox/foreman",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Roblox/foreman/releases/download/v1.7.0/foreman-win64.zip",
-            "hash": "358dfaca2f91b93aaf1c57e76094264c862fcd0f987e651cf35239fdcfddfeb5"
+            "url": "https://github.com/Roblox/foreman/releases/download/v1.7.1/foreman-win64.zip",
+            "hash": "8e0f343015ec15cd2e4d0e4c06779199effa65023f613255d4968989f3c2cba1"
         }
     },
     "bin": "foreman.exe",
