@@ -1,23 +1,23 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Look up records for one or more IPs/networks in one or more .mmdb databases.",
     "homepage": "https://github.com/maxmind/mmdbinspect",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_amd64.zip",
-            "extract_dir": "mmdbinspect_2.0.0_windows_amd64",
-            "hash": "8aa01679e75ce7aa8e41d4276a33039cd78a841db77a77f932614b68d543d8eb"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.1.0/mmdbinspect_2.1.0_windows_amd64.zip",
+            "extract_dir": "mmdbinspect_2.1.0_windows_amd64",
+            "hash": "15754b68628981a0aae43d1eadd71a6e4261382501058baae7f92a7a313ada72"
         },
         "32bit": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_386.zip",
-            "extract_dir": "mmdbinspect_2.0.0_windows_386",
-            "hash": "491b04518cabed6b5c1fdcaa820d76f1928ec03e926f5b227e82a3efba757594"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.1.0/mmdbinspect_2.1.0_windows_386.zip",
+            "extract_dir": "mmdbinspect_2.1.0_windows_386",
+            "hash": "40e8fbc40de784c863e0de620d98e0b2a4a78d3f9532ef7d5548f6b4b72aaa64"
         },
         "arm64": {
-            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_windows_arm64.zip",
-            "extract_dir": "mmdbinspect_2.0.0_windows_arm64",
-            "hash": "bf8c6fe530dbb7bce3b6d45078f3956600b7889c7036f7240a93920ad490d5c3"
+            "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.1.0/mmdbinspect_2.1.0_windows_arm64.zip",
+            "extract_dir": "mmdbinspect_2.1.0_windows_arm64",
+            "hash": "af72339b33dd77687cdee2f30e7ac9a3cd5269252f0c9ed371433f050237464c"
         }
     },
     "bin": "mmdbinspect.exe",
