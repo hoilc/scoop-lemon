@@ -1,17 +1,17 @@
 {
-    "version": "1.2.3",
+    "version": "2.0.0",
     "description": "A safety-first disk cleaner and disk space analyzer.",
     "homepage": "https://mangodisk.app/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/harry0703/MangoDisk/releases/download/v1.2.3/MangoDisk-1.2.3-windows.exe#/dl.7z",
-                "https://github.com/harry0703/MangoDisk/releases/download/v1.2.3/MangoDisk-1.2.3-windows-cli.exe#/mangodisk-cli.exe"
+                "https://github.com/harry0703/MangoDisk/releases/download/v2.0.0/MangoDisk-2.0.0-windows.exe#/dl.7z",
+                "https://github.com/harry0703/MangoDisk/releases/download/v2.0.0/MangoDisk-2.0.0-windows-cli.exe#/mangodisk-cli.exe"
             ],
             "hash": [
-                "b1f5c78aac2370895179b55779cc18da1d052081cc2ba7c8fbe7288e9b35d5b8",
-                "fc169711e83c5b65c3680b9085f0a8bce97ce86389c421c423c87094af5054c4"
+                "05117663abb026b1204fe1fcedf05d7b8d3d745f88b7b5a3ab5c2e3079148428",
+                "de5fe213baacf76de92f241e3d6deb4164bc8b687e256782fd981854b8410d42"
             ]
         }
     },
