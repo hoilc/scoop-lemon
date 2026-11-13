@@ -1,12 +1,12 @@
 {
-    "version": "0.1.21",
+    "version": "0.1.22",
     "description": "A lightweight Windows screenshot and annotation tool with long screenshots, screen recording, OCR, and pinning. | 轻量化的 Windows 截图与标注工具，支持长截图、录屏、OCR、贴图等功能",
     "homepage": "https://github.com/CM-idea/SnowAir",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CM-idea/SnowAir/releases/download/v0.1.21-lite/SnowAir-Lite.exe#/SnowAir.exe",
-            "hash": "721ab919597b5c395ad56be804cbe094a239dfd84acc9343bb3e6a5a3643b1ac"
+            "url": "https://github.com/CM-idea/SnowAir/releases/download/v0.1.22-lite/SnowAir-Lite.exe#/SnowAir.exe",
+            "hash": "90a1fc175d7d4e5e6ee486c1acdd2ef18eceba4039d32768df2883b6b19ef4b6"
         }
     },
     "bin": "SnowAir.exe",
