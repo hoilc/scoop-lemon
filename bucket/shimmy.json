@@ -1,16 +1,16 @@
 {
-    "version": "2.6.6",
+    "version": "2.6.7",
     "description": "Lightweight 5MB Ollama alternative with native SafeTensors support.",
     "homepage": "https://github.com/Michael-A-Kuykendall/shimmy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/shimmy-2.6.6/shimmy-2.6.6-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "48598f8294e9d00084eb82704b5ef7029130e407e7e05597e254854a8940dd93"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/shimmy-2.6.7/shimmy-2.6.7-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "33db10751f6507fdc648f5174557ee215f2f2760a11e6a5d7c3e0a9e88ae76b4"
         },
         "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/shimmy-2.6.6/shimmy-2.6.6-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "7b66ced7ccc19ae78d81603b2d7abde11c22e4eede42acdbbc66ba26188d57ca"
+            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/shimmy-2.6.7/shimmy-2.6.7-aarch64-pc-windows-msvc.tar.gz",
+            "hash": "4d95afbbcd2acf78ea4051e23a3903cc1f9fd47db649f99b36e40b38f833b104"
         }
     },
     "bin": "shimmy.exe",
