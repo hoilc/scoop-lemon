@@ -1,16 +1,16 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "A generic DTLS wrapper for UDP sessions.",
     "homepage": "https://github.com/Snawoot/dtlspipe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.9.0/dtlspipe.windows-amd64.exe#/dtlspipe.exe",
-            "hash": "11d5574213ac47fa2062103df2ea61ac789ffc57c9711d96942ecadbbd4c5720"
+            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.9.1/dtlspipe.windows-amd64.exe#/dtlspipe.exe",
+            "hash": "4c9e5cd39c9193135695d4aa5cb63d7388dcfa966028e5ea9c679f294f387256"
         },
         "32bit": {
-            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.9.0/dtlspipe.windows-386.exe#/dtlspipe.exe",
-            "hash": "24e86916089a5ba93ebea68b79e5191f21d6c466e7357687959f790470b38e14"
+            "url": "https://github.com/Snawoot/dtlspipe/releases/download/v1.9.1/dtlspipe.windows-386.exe#/dtlspipe.exe",
+            "hash": "900fa4ba9163a4f761e471aba76da19045610ded8b60051a64c0544272a40bf2"
         }
     },
     "bin": "dtlspipe.exe",
