@@ -1,12 +1,12 @@
 {
-    "version": "1.5.5.1",
+    "version": "1.5.5.2",
     "description": "A modern, lightweight Steam Lua library manager built with WPF + Fluent Design.",
     "homepage": "https://github.com/huanyuejue/Fluent-Steam-Lua",
     "license": "Zlib",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/huanyuejue/Fluent-Steam-Lua/releases/download/1.5.5.1/Fluent-Steam-Lua-1.5.5.1-loose-file.zip",
-            "hash": "2ea0dff39001b2581ea26f47ac63db6b3e589f3213de35a1262188fe8294d94b"
+            "url": "https://github.com/huanyuejue/Fluent-Steam-Lua/releases/download/1.5.5.2/Fluent-Steam-Lua-1.5.5.2-loose-file.zip",
+            "hash": "f1be650fbc92f433ff5b4d18bbcb9b113543e75f5509cea4c637e67e3fa0ce62"
         }
     },
     "shortcuts": [
