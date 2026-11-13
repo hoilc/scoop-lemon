@@ -1,12 +1,12 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A fast and convenient image viewer for images, archives, and PDF documents.",
     "homepage": "https://v2.kilho.net/en/worldview",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://down.kilho.net/WorldView-1.0.5.zip",
-            "hash": "f670e3d1434d714853af66f2704564dc7842ce9e4810d8701b58f2a08a5cc1e8"
+            "url": "https://down.kilho.net/WorldView-1.0.6.zip",
+            "hash": "5e20670f3b59560d188015f7abbdc8d8b86ef0e4227b10ac6e220323450b8701"
         }
     },
     "shortcuts": [
