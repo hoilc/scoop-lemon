@@ -1,12 +1,12 @@
 {
-    "version": "0.43.1",
+    "version": "0.43.2",
     "description": "CLI for Rerun, the time-aware multimodal data stack and visualizations.",
     "homepage": "https://rerun.io/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rerun-io/rerun/releases/download/0.43.1/rerun-cli-0.43.1-x86_64-pc-windows-msvc.exe#/rerun.exe",
-            "hash": "53e1d31edb5ce771ddf24c8c1c0da7850a8c348820db3f278a2beadeac7225db"
+            "url": "https://github.com/rerun-io/rerun/releases/download/0.43.2/rerun-cli-0.43.2-x86_64-pc-windows-msvc.exe#/rerun.exe",
+            "hash": "5268d2de2c11a74ef19dcbb51009d872de85a0fde4d8c382d64c047958c0b04b"
         }
     },
     "bin": "rerun.exe",
