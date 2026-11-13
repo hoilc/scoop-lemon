@@ -1,13 +1,13 @@
 {
-    "version": "6.9.1",
+    "version": "6.10.0",
     "description": "A personal anime library manager for watching and tracking your collection in real time.",
     "homepage": "https://github.com/RockinChaos/Shiru",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RockinChaos/Shiru/releases/download/v6.9.1/win-Shiru-v6.9.1-portable.exe#/dl.7z",
+            "url": "https://github.com/RockinChaos/Shiru/releases/download/v6.10.0/win-Shiru-v6.10.0-portable.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "052b0e85a20c970b61a278634b72766b55eec89ad48ea8a29b63951b24bdd592"
+            "hash": "11a703325f41bc255e12964fe28ad91f809ebe1c5083c76699f32bafd029a1c3"
         }
     },
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\", \"$dir\\resources\\app-update.yml\" -Force -Recurse -ErrorAction SilentlyContinue",
