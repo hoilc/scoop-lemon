@@ -1,12 +1,12 @@
 {
-    "version": "0.25.0",
+    "version": "0.26.0",
     "description": "A local-first Markdown editor with live rendering and lossless source editing.",
     "homepage": "https://github.com/AniChikage/open-markdown-lane",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AniChikage/open-markdown-lane/releases/download/v0.25.0/Open-Markdown-Lane-0.25.0-windows-x64.zip",
-            "hash": "63275bde54256b18cd6d2075463494c7e3b124fd6fe4d93fafc57d6553576645"
+            "url": "https://github.com/AniChikage/open-markdown-lane/releases/download/v0.26.0/Open-Markdown-Lane-0.26.0-windows-x64.zip",
+            "hash": "2b2c98e9f917d75e3f729cf6d3ab88ea5175c8a2f5fcff9cf542f00cd859a50b"
         }
     },
     "shortcuts": [
