@@ -1,13 +1,13 @@
 {
-    "version": "0.15.8",
+    "version": "0.15.9",
     "description": "A fast high compression read-only file system for Linux and Windows.",
     "homepage": "https://github.com/mhx/dwarfs",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mhx/dwarfs/releases/download/v0.15.8/dwarfs-0.15.8-Windows-AMD64.7z",
-            "extract_dir": "dwarfs-0.15.8-Windows-AMD64\\bin",
-            "hash": "49ffae19533b0c5b3dfc5516b19e97700f1197416062a5517f65bfb631631566"
+            "url": "https://github.com/mhx/dwarfs/releases/download/v0.15.9/dwarfs-0.15.9-Windows-AMD64.7z",
+            "extract_dir": "dwarfs-0.15.9-Windows-AMD64\\bin",
+            "hash": "cc888ef55da9f8af5f4aa7c73243b23e8da8d8a1bd194dcc20f5d2aac6ae5ec1"
         }
     },
     "bin": [
