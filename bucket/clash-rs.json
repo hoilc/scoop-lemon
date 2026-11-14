@@ -1,20 +1,20 @@
 {
-    "version": "0.10.11",
+    "version": "0.10.12",
     "description": "A custom protocol, rule based network proxy software.",
     "homepage": "https://github.com/ibigbug/clash-rs",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.11/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe",
-            "hash": "3c759653c4978f028de7b49eaf27144d5ac1c396f97679409eb4068d5da1aa2e"
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.12/clash-rs-x86_64-pc-windows-msvc.exe#/clash-rs.exe",
+            "hash": "f240565b4f96e1bece427af88b4436149b9858005a2b4e87db943cf0405cb2a0"
         },
         "32bit": {
-            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.11/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe",
-            "hash": "2cb7d18cfb22c15ef6cfdcf2b8fe44a4c00b4a4f4bd8691306b8a2516dfba36d"
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.12/clash-rs-i686-pc-windows-msvc.exe#/clash-rs.exe",
+            "hash": "ed75bcab40455e3023c92e9a5f061ec836c99693e200ab8b987b0634c6124455"
         },
         "arm64": {
-            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.11/clash-rs-aarch64-pc-windows-msvc.exe#/clash-rs.exe",
-            "hash": "5383f8358e4066638d6e1953d4e0b77e290f415d142fa81aa4859fb8ed935415"
+            "url": "https://github.com/ibigbug/clash-rs/releases/download/v0.10.12/clash-rs-aarch64-pc-windows-msvc.exe#/clash-rs.exe",
+            "hash": "c415a5d9a1e1604089d95744474db0efc44fdfc61937e1477abef0dbb3883270"
         }
     },
     "bin": "clash-rs.exe",
