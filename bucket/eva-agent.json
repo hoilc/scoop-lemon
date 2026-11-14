@@ -1,10 +1,10 @@
 {
-    "version": "20261101-d0e851a",
+    "version": "20261114-10906ab",
     "description": "A compact, single-file Python agent for command-line work.",
     "homepage": "https://github.com/usepr/eva",
     "license": "MIT",
-    "url": "https://raw.githubusercontent.com/usepr/eva/d0e851a516679f9b10ad31361111927fe2ec936f/eva.py",
-    "hash": "773d2982d0171ff0650307c00b9a8e7e3bb5d185f4f6f3e81d38e89d8df7caaf",
+    "url": "https://raw.githubusercontent.com/usepr/eva/10906abb089236c284c0f1442fefab913f970d47/eva.py",
+    "hash": "f87f64e5dbc3289fc1fd0c11ad810fa802dbe32b5a4c5326abc000431f3696fa",
     "bin": "eva.py",
     "suggest": {
         "python3": "python"
