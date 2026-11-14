@@ -1,12 +1,12 @@
 {
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "A cross-platform music app using YouTube Music for backend.",
     "homepage": "https://github.com/maxrave-dev/SimpMusic",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.5.0/SimpMusic-Windows-installer.zip",
-            "hash": "776d243e0669f3c0b21c8d4837840d6de1b1c626cb293d762064169b3e7d2e55"
+            "url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.6.0/SimpMusic-Windows-installer.zip",
+            "hash": "9d0911fe6443406bff2366b4bae1a3b04468972e791b99e2ec16a70ae48b91ec"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" '*.msix' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -Removal",
