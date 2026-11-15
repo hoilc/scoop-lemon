@@ -1,13 +1,13 @@
 {
-    "version": "1.59.0",
+    "version": "1.60.0",
     "description": "An extremely fast PHP linter, formatter, and static analyzer, written in Rust.",
     "homepage": "https://mago.carthage.software/",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/carthage-software/mago/releases/download/1.59.0/mago-1.59.0-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "mago-1.59.0-x86_64-pc-windows-msvc",
-            "hash": "ecdf756f45308e11ba23a37a4aa449394673c45031d29b9034257e48af2efa07"
+            "url": "https://github.com/carthage-software/mago/releases/download/1.60.0/mago-1.60.0-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "mago-1.60.0-x86_64-pc-windows-msvc",
+            "hash": "b9b9913ffeb154cada9dcfddcb16e534f0203a1e5bba4074d3e8fc01017b6ce7"
         }
     },
     "bin": "mago.exe",
