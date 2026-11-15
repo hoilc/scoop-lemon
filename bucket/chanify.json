@@ -1,12 +1,12 @@
 {
-    "version": "1.4.4",
+    "version": "1.5.0",
     "description": "A safe and simple notification tools.",
     "homepage": "https://www.chanify.net/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chanify/chanify/releases/download/v1.4.4/chanify_Windows_x86_64.zip",
-            "hash": "b279beefd3aed5b33031ac1b8982965868decd51c80565439e63beb36064cae8"
+            "url": "https://github.com/chanify/chanify/releases/download/v1.5.0/chanify_Windows_x86_64.zip",
+            "hash": "68b978fe8d27d9731e7014c1b7b9407560851ac2e2a79872a8de8e4405b61034"
         }
     },
     "bin": "chanify.exe",
