@@ -1,12 +1,12 @@
 {
-    "version": "5.4.2",
+    "version": "5.5.0",
     "description": "A tool for converting dictionary files aka glossaries.",
     "homepage": "https://github.com/ilius/pyglossary",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ilius/pyglossary/releases/download/5.4.2/PyGlossary-5.4.2-Windows-X64-dist.zip",
-            "hash": "f1d9ef34b78750c9d63da940be1ab6ff2882cd3adff5a5dcd9438f876c36ff98"
+            "url": "https://github.com/ilius/pyglossary/releases/download/5.5.0/PyGlossary-5.5.0-Windows-X64-dist.zip",
+            "hash": "082c3fbe91c73a4fa67412611936cbe850c3c43364b18eaecae1b46bdedda5f2"
         }
     },
     "shortcuts": [
