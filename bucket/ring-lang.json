@@ -1,16 +1,16 @@
 {
-    "version": "1.27",
+    "version": "1.28",
     "description": "A simple, lightweight, flexible, embeddable, portable and multi-paradigm dynamic programming language for developing applications, tools, and domain-specific languages.",
     "homepage": "https://ring-lang.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ring-lang/ring/releases/download/v1.27/Ring_1.27_Windows_64bit.exe#/dl.7z",
-            "hash": "6e8e0b1c7309372f58f2a16b48015d787539657f78f82212aae81f1dc29ade9d"
+            "url": "https://github.com/ring-lang/ring/releases/download/v1.28/Ring_1.28_Windows_64bit.exe#/dl.7z",
+            "hash": "76307222cdc1085ba5769e703a35732a9f882585f7147d07596efd9a82b4164d"
         },
         "32bit": {
-            "url": "https://github.com/ring-lang/ring/releases/download/v1.27/Ring_1.27_Windows_32bit.exe#/dl.7z",
-            "hash": "8026b17137d93734f0872154b0e07541d7432424451d0062f54a6492dc46bd09"
+            "url": "https://github.com/ring-lang/ring/releases/download/v1.28/Ring_1.28_Windows_32bit.exe#/dl.7z",
+            "hash": "fdbb6d166a6ae93d886e26fd98585f70f23ffeb417ce0b4da2d3465ab9f48268"
         }
     },
     "extract_dir": "ring",
