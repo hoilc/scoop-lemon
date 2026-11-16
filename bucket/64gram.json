@@ -13,15 +13,16 @@
         }
     },
     "persist": "tdata",
+    "post_install": "Remove-Item \"$dir\\Updater.exe\" -Force -ErrorAction SilentlyContinue",
     "bin": [
         [
-            "Telegram.exe",
+            "64Gram.exe",
             "64Gram"
         ]
     ],
     "shortcuts": [
         [
-            "Telegram.exe",
+            "64Gram.exe",
             "64Gram"
         ]
     ],
