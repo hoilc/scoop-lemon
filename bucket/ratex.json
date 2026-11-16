@@ -1,18 +1,18 @@
 {
-    "version": "0.1.15",
+    "version": "0.1.16",
     "description": "A KaTeX-compatible math rendering engine in pure Rust — no JavaScript, no WebView, no DOM.",
     "homepage": "https://ratex.lites.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-x86_64-pc-windows-msvc.zip",
-            "extract_dir": "ratex-cli-v0.1.15-x86_64-pc-windows-msvc",
-            "hash": "e0fbf75f495a2fbb51ec3d6b3124d35864643fcce39dfb3076faf199a862e3ce"
+            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.16/ratex-cli-v0.1.16-x86_64-pc-windows-msvc.zip",
+            "extract_dir": "ratex-cli-v0.1.16-x86_64-pc-windows-msvc",
+            "hash": "30c6f9374da978af7f6e361b4dbf1d722526e7098d7617c89dd793357dd68340"
         },
         "arm64": {
-            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.15/ratex-cli-v0.1.15-aarch64-pc-windows-msvc.zip",
-            "extract_dir": "ratex-cli-v0.1.15-aarch64-pc-windows-msvc",
-            "hash": "40217eeb0efa02598f4f33a2a5543f7a25460651a7afb1105ef52ee56362a18a"
+            "url": "https://github.com/erweixin/RaTeX/releases/download/v0.1.16/ratex-cli-v0.1.16-aarch64-pc-windows-msvc.zip",
+            "extract_dir": "ratex-cli-v0.1.16-aarch64-pc-windows-msvc",
+            "hash": "fd9fcc7cc0cca2eb4cbcd5da055000ab5106dae684d040a95370efda724d3543"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\" '*.exe' | Rename-Item -NewName { \"ratex-$($_.Name)\" }",
