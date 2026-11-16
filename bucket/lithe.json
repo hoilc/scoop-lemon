@@ -1,12 +1,12 @@
 {
-    "version": "0.6.7",
+    "version": "0.8.1",
     "description": "A lightweight, cross-platform IDE for the AI era, with on-demand tools and services.",
     "homepage": "https://github.com/1lck/Lithe-IDEA",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v0.6.7/Lithe-0.6.7-windows-x64.exe#/dl.7z",
-            "hash": "709d492ccad743a914b6cf51fb2c95ab5de3e319f3fa443ff9732a5c123a33fc"
+            "url": "https://github.com/1lck/Lithe-IDEA/releases/download/desktop-v0.8.1/lithe-0.8.1-windows-amd64.zip",
+            "hash": "6f6357f8f6a698d30c296fc180b6118c08c111db102aa31a9169f25376dfe91c"
         }
     },
     "shortcuts": [
@@ -15,13 +15,14 @@
             "Lithe"
         ]
     ],
-    "pre_install": "Get-ChildItem \"$dir\" 'lithe-windows.exe' | Select-Object -First 1 | Rename-Item -NewName 'lithe.exe'",
-    "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/1lck/Lithe-IDEA/releases.atom",
+        "regex": "Repository/\\d+/desktop-v([\\d.]+)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/1lck/Lithe-IDEA/releases/download/v$version/Lithe-$version-windows-x64.exe#/dl.7z"
+                "url": "https://github.com/1lck/Lithe-IDEA/releases/download/desktop-v$version/lithe-$version-windows-amd64.zip"
             }
         },
         "hash": {
