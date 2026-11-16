@@ -1,12 +1,12 @@
 {
-    "version": "0.60.10",
+    "version": "0.61.0",
     "description": "A CLI tool which helps users to observe and interact custom resources surfaced by kapp-controller effectively.",
     "homepage": "https://carvel.dev/kapp-controller/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/carvel-dev/kapp-controller/releases/download/v0.60.10/kctrl-windows-amd64.exe#/kctrl.exe",
-            "hash": "b568f0c67ee7ccd7d49d8095c9e6380a9d1905c9ca4b9aff0ad6dbbe0e538afe"
+            "url": "https://github.com/carvel-dev/kapp-controller/releases/download/v0.61.0/kctrl-windows-amd64.exe#/kctrl.exe",
+            "hash": "e6c540166c2829d2e9748bacac89f3a656a185671700bbeed397a66b381262fb"
         }
     },
     "bin": "kctrl.exe",
