@@ -1,13 +1,13 @@
 {
-    "version": "3.15.0-rc3",
+    "version": "3.15.0",
     "description": "A small CLI tool to validate TypeQL query syntax without sending it to a TypeDB server.",
     "homepage": "https://typedb.com/docs/tools/typeql-check/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://repo.typedb.com/public/public-release/raw/names/typeql-check-windows-x86_64/versions/3.15.0-rc3/typeql-check-windows-x86_64-3.15.0-rc3.zip",
-            "hash": "3f4d6691751cf9456484d91b97b76b1c9c5d9b03a816450532cf6f06163a4fac",
-            "extract_dir": "typeql-check-windows-x86_64-3.15.0-rc3"
+            "url": "https://repo.typedb.com/public/public-release/raw/names/typeql-check-windows-x86_64/versions/3.15.0/typeql-check-windows-x86_64-3.15.0.zip",
+            "hash": "024ee49b528b8a1efcf46ee5af7289a012751ed28e36844e40b171d78b41ebb5",
+            "extract_dir": "typeql-check-windows-x86_64-3.15.0"
         }
     },
     "bin": "typeql-check.exe",
