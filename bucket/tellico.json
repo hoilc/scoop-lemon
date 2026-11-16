@@ -20,7 +20,7 @@
     "notes": "Tellico is NOT portable.",
     "checkver": {
         "url": "https://tellico-project.org/download-tellico/",
-        "regex": "tellico-([\\d.]+).tar.xz"
+        "regex": "tellico-([\\d.]+)-windows"
     },
     "autoupdate": {
         "architecture": {
