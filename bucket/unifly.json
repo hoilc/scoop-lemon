@@ -1,12 +1,12 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "An elegant UniFi network management CLI and TUI.",
     "homepage": "https://hyperb1iss.github.io/unifly/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hyperb1iss/unifly/releases/download/v0.13.0/unifly-windows-amd64.exe#/unifly.exe",
-            "hash": "75066be2af636c4b16dea9f87a7e8fff74da453fa4d290dae877f2a9dcec660e"
+            "url": "https://github.com/hyperb1iss/unifly/releases/download/v0.14.0/unifly-windows-amd64.exe#/unifly.exe",
+            "hash": "6db9aa2acaa4dce25693a7d58315c3ee215457847242b45d4d9b1e28f39f0e86"
         }
     },
     "bin": "unifly.exe",
