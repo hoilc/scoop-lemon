@@ -15,6 +15,7 @@
             "hash": "2cc593dbe245f66c5683db265b43fd29579804aabc3803352a4b7d3192b0af08"
         }
     },
+    "bin": "Il2CppDumper.exe",
     "shortcuts": [
         [
             "Il2CppDumper GUI.exe",
