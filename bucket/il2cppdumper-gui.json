@@ -1,22 +1,18 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "Simple GUI version of Il2CppDumper, a versatile reverse engineering tool designed specifically for handling Unity's il2cpp binaries.",
-    "homepage": "https://github.com/AndnixSH/Il2CppDumper-GUI",
+    "homepage": "https://github.com/AndnixSH/Il2CppDumper",
     "license": "MIT",
-    "url": "https://github.com/AndnixSH/Il2CppDumper-GUI/releases/download/3.2.0/Il2CppDumper.GUI.3.2.0.zip",
-    "hash": "c01b3b191faccad466fc59dde25d5718ddf6cc76edcab05aac595f7e9a605378",
     "architecture": {
         "64bit": {
-            "pre_install": [
-                "Remove-Item -Force \"$dir\\Il2CppDumper GUI x86.exe\" -ErrorAction SilentlyContinue",
-                "Rename-Item -Path \"$dir\\Il2CppDumper GUI x86_64.exe\" -NewName 'Il2CppDumper GUI.exe' -ErrorAction SilentlyContinue"
-            ]
+            "url": "https://github.com/AndnixSH/Il2CppDumper/releases/download/3.2.1/Il2CppDumper-3.2.1-win-x64.zip",
+            "extract_dir": "Il2CppDumper-3.2.1-win-x64",
+            "hash": "ff970e9fa3da75aaa37157c7ac669a6c022500a4c3903c966ba17a7b890160ce"
         },
         "32bit": {
-            "pre_install": [
-                "Remove-Item -Force \"$dir\\Il2CppDumper GUI x86_64.exe\" -ErrorAction SilentlyContinue",
-                "Rename-Item -Path \"$dir\\Il2CppDumper GUI x86.exe\" -NewName 'Il2CppDumper GUI.exe' -ErrorAction SilentlyContinue"
-            ]
+            "url": "https://github.com/AndnixSH/Il2CppDumper/releases/download/3.2.1/Il2CppDumper-3.2.1-win-x86.zip",
+            "extract_dir": "Il2CppDumper-3.2.1-win-x86",
+            "hash": "2cc593dbe245f66c5683db265b43fd29579804aabc3803352a4b7d3192b0af08"
         }
     },
     "shortcuts": [
@@ -28,6 +24,15 @@
     "persist": "config.json",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AndnixSH/Il2CppDumper-GUI/releases/download/$version/Il2CppDumper.GUI.$version.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AndnixSH/Il2CppDumper/releases/download/$version/Il2CppDumper-$version-win-x64.zip",
+                "extract_dir": "Il2CppDumper-$version-win-x64"
+            },
+            "32bit": {
+                "url": "https://github.com/AndnixSH/Il2CppDumper/releases/download/$version/Il2CppDumper-$version-win-x86.zip",
+                "extract_dir": "Il2CppDumper-$version-win-x86"
+            }
+        }
     }
 }
