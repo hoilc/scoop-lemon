@@ -1,12 +1,12 @@
 {
-    "version": "1.8.23",
+    "version": "1.8.26",
     "description": "一款美观易用且无广告的哔咔漫画客户端",
     "homepage": "https://github.com/ComicSparks/pikapika",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ComicSparks/pikapika/releases/download/v1.8.23/pikapika-v1.8.23-windows-x86_64-flutter_2.10.3.zip",
-            "hash": "7d5f81ae096db23cfc87d84d381e7fe57f2afdd9bb3bf326e2949c742be5ac0b"
+            "url": "https://github.com/ComicSparks/pikapika/releases/download/v1.8.26/pikapika-v1.8.26-windows-x86_64-flutter_3.38.4.zip",
+            "hash": "0465b23929edde6761a8e17709838f210b55e10380f4a4d8137dae2d45c74ca0"
         }
     },
     "shortcuts": [
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ComicSparks/pikapika/releases/download/v$version/pikapika-v$version-windows-x86_64-flutter_2.10.3.zip"
+                "url": "https://github.com/ComicSparks/pikapika/releases/download/v$version/pikapika-v$version-windows-x86_64-flutter_3.38.4.zip"
             }
         }
     }
