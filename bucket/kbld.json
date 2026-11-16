@@ -1,16 +1,16 @@
 {
-    "version": "0.49.2",
+    "version": "0.50.0",
     "description": "kbld seamlessly incorporates image building and image pushing into your development and deployment workflows.",
     "homepage": "https://carvel.dev/kbld/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.49.2/kbld-windows-amd64.exe#/kbld.exe",
-            "hash": "b4984a18ce748f2f8ba39403ca0fcecd79d2e1086ba494ebe8fca1e24972522d"
+            "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.50.0/kbld-windows-amd64.exe#/kbld.exe",
+            "hash": "825f750730bdc96ebf528a08d538ab1b4dc748f1fe47afe63c0793eac0dabc94"
         },
         "arm64": {
-            "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.49.2/kbld-windows-arm64.exe#/kbld.exe",
-            "hash": "ee82e4b6bbc69e2638ec5294e9ce5c286240c851216e3ace38379e630be304f4"
+            "url": "https://github.com/vmware-tanzu/carvel-kbld/releases/download/v0.50.0/kbld-windows-arm64.exe#/kbld.exe",
+            "hash": "d1076d50b108b1009a59fb24cebf9de54c0c39b1663cf83762441e13d618e075"
         }
     },
     "bin": "kbld.exe",
