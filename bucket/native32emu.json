@@ -1,0 +1,23 @@
+{
+    "version": "1.4.0",
+    "description": "A Native32 game emulator written in Rust. | 用 Rust 编写的 Native32 游戏模拟器，完整支持 Sunplus DVD 芯片上的 84 款经典游戏",
+    "homepage": "https://aloyshf.github.io/Native32Emu/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AloysHF/Native32Emu/releases/download/v1.4.0/native32-emu-windows-x86_64.zip",
+            "hash": "d2722aee0d155b66c13a78c69fafc0484b9dd51dc8b867064124d5164e7e67da"
+        }
+    },
+    "bin": "native32-emu.exe",
+    "checkver": {
+        "github": "https://github.com/AloysHF/Native32Emu"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AloysHF/Native32Emu/releases/download/v$version/native32-emu-windows-x86_64.zip"
+            }
+        }
+    }
+}
