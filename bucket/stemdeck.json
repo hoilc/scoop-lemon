@@ -1,0 +1,32 @@
+{
+    "version": "0.21.0",
+    "description": "A stem extraction studio for musicians and producers that splits songs into vocals, drums, bass, guitar, piano and other parts for practice, transcription and remixing.",
+    "homepage": "https://stemdeck.app/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.21.0/StemDeck-Windows-x64.zip",
+            "hash": "7e330cc01a15101653e11a115758ef4b532cd6a8085e68799ad16e7afe312d1b"
+        }
+    },
+    "shortcuts": [
+        [
+            "StemDeck.exe",
+            "StemDeck"
+        ]
+    ],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/stemdeckapp/stemdeck"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v$version/StemDeck-Windows-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
