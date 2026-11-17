@@ -1,12 +1,12 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "A command-line interface for interacting with Anytype.",
     "homepage": "https://github.com/anyproto/anytype-cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anyproto/anytype-cli/releases/download/v0.5.2/anytype-cli-v0.5.2-windows-amd64.zip",
-            "hash": "9bd743bb375961e85b0c3ce15355792a3b3526e0a2d48423ef5796e8814d6775"
+            "url": "https://github.com/anyproto/anytype-cli/releases/download/v0.5.3/anytype-cli-v0.5.3-windows-amd64.zip",
+            "hash": "e56b225055e70973cc4b5ce642a0b732b223b845222f8a069579a148dbc3bfb9"
         }
     },
     "bin": "anytype.exe",
