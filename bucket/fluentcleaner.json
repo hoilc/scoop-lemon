@@ -1,13 +1,13 @@
 {
-    "version": "26.11.20",
+    "version": "26.11.99",
     "description": "A real WinUI desktop cleaner with terminal control and multi-database support.",
     "homepage": "https://github.com/builtbybel/FluentCleaner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/builtbybel/FluentCleaner/releases/download/26.11.20/FluentCleaner-win-x64.zip",
+            "url": "https://github.com/builtbybel/FluentCleaner/releases/download/26.11.99/FluentCleaner-win-x64.zip",
             "extract_dir": "FluentCleaner-win-x64",
-            "hash": "8fc8743d13be28cb5d8d17ef6a3c233f8f74014599906f2d6c3bb579f530a376"
+            "hash": "4aaabb059cbbb3fadddee24c579dfe3d46793735de4b6ca13a780e6bec964d99"
         }
     },
     "shortcuts": [
