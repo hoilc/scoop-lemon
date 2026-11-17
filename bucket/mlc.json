@@ -1,12 +1,12 @@
 {
-    "version": "1.3.0",
+    "version": "2.0.0",
     "description": "Markup Link Checker checks for broken links in markup files.",
     "homepage": "https://github.com/becheran/mlc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/becheran/mlc/releases/download/v1.3.0/mlc-x86_64-windows.exe#/mlc.exe",
-            "hash": "16b4535fa1bd746cbb5e3ee6f279fded1b36439105a826f90b232ad23704ab30"
+            "url": "https://github.com/becheran/mlc/releases/download/v2.0.0/mlc-x86_64-windows.exe#/mlc.exe",
+            "hash": "a2b9411c5679bfe599959e5fe509d9aa022afccd59f783d51abee98b074a2001"
         }
     },
     "bin": "mlc.exe",
