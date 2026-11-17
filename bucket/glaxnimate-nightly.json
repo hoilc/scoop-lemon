@@ -1,12 +1,12 @@
 {
-    "version": "3630",
+    "version": "3661",
     "description": "(Nightly Build) A simple vector graphics animation program developed by KDE.",
     "homepage": "https://glaxnimate.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/graphics/glaxnimate/master/windows/glaxnimate-master-3630-windows-cl-msvc2022-x86_64.7z",
-            "hash": "e766abd29f0cdbbfa78233795f3bd98e3d2bb0ea7027d82a45e57b3b97d72c8c"
+            "url": "https://cdn.kde.org/ci-builds/graphics/glaxnimate/master/windows/glaxnimate-master-3661-windows-cl-msvc2022-x86_64.7z",
+            "hash": "00fd28c0ed8505992cec3bf07446ecb6b73b852561ab8d908db55ebeb1446dcb"
         }
     },
     "shortcuts": [
