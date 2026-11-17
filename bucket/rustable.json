@@ -1,13 +1,13 @@
 {
-    "version": "0.4.30",
+    "version": "0.4.31",
     "description": "A native database client for PostgreSQL, MySQL, MariaDB, SQLite, and Redis.",
     "homepage": "https://rustable.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RustableApp/Rustable/releases/download/v0.4.30/Rustable-windows-x86_64.zip",
+            "url": "https://github.com/RustableApp/Rustable/releases/download/v0.4.31/Rustable-windows-x86_64.zip",
             "extract_dir": "Rustable-windows-x86_64",
-            "hash": "a5736bb23b64b9ad1649c05692ca9f71a487300823ab904bec091b8eb1c21691"
+            "hash": "9488a759837ac9b8e6f2c283129279c9acfdbd29325b81e946c320d30e31bb96"
         }
     },
     "shortcuts": [
