@@ -1,0 +1,27 @@
+{
+    "version": "6.7",
+    "description": "An automatic and manual subtitle synchronization tool.",
+    "homepage": "https://github.com/denizsafak/AutoSubSync",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/denizsafak/AutoSubSync/releases/download/v6.7/AutoSubSync-windows-amd64.zip",
+            "hash": "43c851fc05f33bdc9faf3e3ad56e210a21fdd7c3f31b1e09d74ab17a88b3e5bf"
+        }
+    },
+    "shortcuts": [
+        [
+            "AutoSubSync.exe",
+            "AutoSubSync"
+        ]
+    ],
+    "persist": "AutoSubSync_data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/denizsafak/AutoSubSync/releases/download/v$version/AutoSubSync-windows-amd64.zip"
+            }
+        }
+    }
+}
