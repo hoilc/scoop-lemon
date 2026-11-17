@@ -1,17 +1,17 @@
 {
-    "version": "2.4.5",
+    "version": "2.4.6",
     "description": "WebAssembly Micro Runtime (WAMR) is a lightweight standalone WebAssembly (Wasm) runtime with small footprint, high performance.",
     "homepage": "https://github.com/bytecodealliance/wasm-micro-runtime",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.5/iwasm-2.4.5-x86_64-windows-2022.zip",
-                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.5/wamrc-2.4.5-x86_64-windows-2022.zip"
+                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.6/iwasm-2.4.6-x86_64-windows-2022.zip",
+                "https://github.com/bytecodealliance/wasm-micro-runtime/releases/download/WAMR-2.4.6/wamrc-2.4.6-x86_64-windows-2022.zip"
             ],
             "hash": [
-                "4512b7c04acce79156e966b891ad67e5be32915466c37f073114324e13a0ab10",
-                "fd59e15f76357db9584ea2e24e62f028ddde9cec999ae22e5a0b1b1c07ee8787"
+                "c0d4905b9a9215e773c1a9d31ba607f71f0596fe48565881c614147c62827c67",
+                "8fe675713c8c81cccbcdff1db6660a545ed838d572a119d396ac62b064170f4a"
             ]
         }
     },
