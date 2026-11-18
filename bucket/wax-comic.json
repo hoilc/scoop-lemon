@@ -1,12 +1,12 @@
 {
-    "version": "1.3.20",
+    "version": "1.3.21",
     "description": "美观易用且无广告的的绅士漫画客户端",
     "homepage": "https://github.com/ComicSparks/wax",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ComicSparks/wax/releases/download/v1.3.20/wax-v1.3.20-windows-x86_64.zip",
-            "hash": "2097ff08cdef33e7974e5fa848c8d75cb2edbcb62a39497c33a4cf3cbd4f0e4f"
+            "url": "https://github.com/ComicSparks/wax/releases/download/v1.3.21/wax-v1.3.21-windows-x86_64.zip",
+            "hash": "39337b254d7f3bddb9e74de363193cbd25060a39f6827359e1c998b11f9bc05a"
         }
     },
     "shortcuts": [
