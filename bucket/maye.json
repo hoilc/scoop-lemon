@@ -3,12 +3,9 @@
     "description": "体积小巧、简单易用的快速启动工具",
     "homepage": "https://github.com/25H/Maya",
     "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/25H/Maya/releases/download/15.0.1.261118/Maye-15.0.1.261118.zip",
-            "hash": "910eb2c0b2c7f6ed17a233d2f8ceed1905a924e1cbea8bdb572eb2c82cfd9f9b"
-        }
-    },
+    "url": "https://github.com/25H/Maya/releases/download/15.0.1.261118/Maye-15.0.1.261118.zip",
+    "hash": "910eb2c0b2c7f6ed17a233d2f8ceed1905a924e1cbea8bdb572eb2c82cfd9f9b",
+    "extract_dir": "Maye-15.0.1.261118",
     "bin": "Maye.exe",
     "shortcuts": [
         [
@@ -27,6 +24,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/25H/Maya/releases/download/$version/Maye-$version.zip"
+        "url": "https://github.com/25H/Maya/releases/download/$version/Maye-$version.zip",
+        "extract_dir": "Maye-$version"
     }
 }
