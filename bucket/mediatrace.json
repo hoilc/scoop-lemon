@@ -1,12 +1,12 @@
 {
-    "version": "7.2",
+    "version": "7.3",
     "description": "媒鉴查重：本地硬盘百万级媒体毫秒级检索，分钟级查重比对",
     "homepage": "https://github.com/ldqk/ImageSearch",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ldqk/ImageSearch/releases/download/7.2/MediaTrace_win_x64_7.2_with-runtime.7z",
-            "hash": "c56bee61432d1346f3041559579aba1e1b80b7efb9566a6c64d29f03c1a2e832"
+            "url": "https://github.com/ldqk/ImageSearch/releases/download/7.3/MediaTrace_win_x64_7.3_with-runtime.7z",
+            "hash": "95398ef99e7d1e6806116112cee6f42de5cb7d13e4e7427cf2822d553cdec2ad"
         }
     },
     "shortcuts": [
