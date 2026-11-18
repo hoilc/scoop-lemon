@@ -1,10 +1,10 @@
 {
-    "version": "6.26.11.15",
+    "version": "6.26.11.18",
     "description": "A fully-featured and reliable e-mail client.",
     "homepage": "https://cy-email.com/",
     "license": "Shareware",
-    "url": "https://download.cy-email.cn/dmpro_setup6.26.11.15.exe",
-    "hash": "f09e494f93b3d0cdf407574c43c8619cf42c2c768e6f177f4246c3686735b16d",
+    "url": "https://download.cy-email.cn/dmpro_setup6.26.11.18.exe",
+    "hash": "c5450d486ec1dd8ec4873903072df1e4afc00328f315320821e11c6b372a5b5e",
     "innosetup": true,
     "persist": "User",
     "shortcuts": [
