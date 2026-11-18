@@ -1,10 +1,10 @@
 {
-    "version": "5.6.1",
+    "version": "5.6.2",
     "description": "Paste clipboard data into files and copy file contents directly via hotkey or context menu.",
     "homepage": "https://github.com/eltos/PasteIntoFile",
     "license": "MIT",
-    "url": "https://github.com/eltos/PasteIntoFile/releases/download/v5.6.1/PasteIntoFile_v5.6.1_portable_signed.zip",
-    "hash": "c1fadd3923f308c63771170188ee41ab35bcac473402f63e1bbdccc7926529f7",
+    "url": "https://github.com/eltos/PasteIntoFile/releases/download/v5.6.2/PasteIntoFile_v5.6.2_portable_signed.zip",
+    "hash": "568a9cf33baebf08a9b7d65fcac8bb1571fd165bf00fca282c2041542187e646",
     "bin": "PasteIntoFile.exe",
     "shortcuts": [
         [
