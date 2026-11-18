@@ -1,13 +1,13 @@
 {
-    "version": "4.1.7487",
+    "version": "4.2.7707",
     "description": "A typeless extension language with a C-like syntax.",
     "homepage": "https://www.compuphase.com/pawn/pawn.htm",
     "license": {
         "identifier": "Apache License 2.0",
         "url": "https://www.compuphase.com/pawn/pawn.htm#APACHE_EXCEPTION"
     },
-    "url": "https://www.compuphase.com/pawn/pawn-4.1.7487.exe#/dl.7z",
-    "hash": "106527794a995acd89881ca55985450af6ecde0376f525e7aa5f49314556cb40",
+    "url": "https://www.compuphase.com/pawn/pawn-4.2.7707.exe#/dl.7z",
+    "hash": "914eafe14d022209db425a65474d12d38bd3544054ec7a2494aeae960d92f76e",
     "bin": [
         "bin\\pawncc.exe",
         "bin\\pawnrun.exe",
