@@ -1,14 +1,14 @@
 {
-    "version": "6.2.2",
+    "version": "6.2.3",
     "description": "RisohEditor is a free Win32 resource editor.",
     "homepage": "https://katahiromz.web.fc2.com/re/en/",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/katahiromz/RisohEditor/blob/master/LICENSE.txt"
     },
-    "url": "https://github.com/katahiromz/RisohEditor/releases/download/6.2.2/RisohEditor-6.2.2-portable.zip",
-    "extract_dir": "RisohEditor-6.2.2-portable",
-    "hash": "aafc5fe6e1bc1552af7bb1e365ab87ce78789eb32a8f0a17b3eda5b9c0fa3288",
+    "url": "https://github.com/katahiromz/RisohEditor/releases/download/6.2.3/RisohEditor-6.2.3-portable.zip",
+    "extract_dir": "RisohEditor-6.2.3-portable",
+    "hash": "5243485899ecd021570fe877341960850a37cc9e8f2e12820b8370b8d4d6e1ae",
     "shortcuts": [
         [
             "RisohEditorPortable.exe",
