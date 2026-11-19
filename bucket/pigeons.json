@@ -1,12 +1,12 @@
 {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "SSH to any machine without an IP address, behind a NAT or firewall, with no port forwarding and no VPN setup.",
     "homepage": "https://pigeons.computer",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/n0-computer/pigeons/releases/download/v0.2.3/pigeons-v0.2.3-windows-x86_64.zip",
-            "hash": "a957100ffc96a1fbf72e45cf18786d1b7f0ea24820d2568965675d617b5e0e51"
+            "url": "https://github.com/n0-computer/pigeons/releases/download/v0.2.4/pigeons-v0.2.4-windows-x86_64.zip",
+            "hash": "7ded7b7362e74d3c327596e9f8ad145d94bebfa9592fd0ce4de15014852e6b8b"
         }
     },
     "bin": "pigeons.exe",
