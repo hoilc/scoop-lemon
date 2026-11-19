@@ -1,16 +1,16 @@
 {
-    "version": "4.3.1",
+    "version": "4.4.0",
     "description": "一款使用 WinUI 3 构建的 Windows 原生代理管理客户端",
     "homepage": "https://github.com/yaog6700-bit/Swell-Proxy",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yaog6700-bit/Swell-Proxy/releases/download/v4.3.1/Swell-win-x64.zip",
-            "hash": "1a73877867a52d8192dbcf804f5d236d86fd9b2ae4632b4e73f88e23f8039fb3"
+            "url": "https://github.com/yaog6700-bit/Swell-Proxy/releases/download/v4.4.0/Swell-win-x64.zip",
+            "hash": "72dc3ff9db0049a89be2eb77c5afe7623c2a62e2abebc7b3172613cf8d7e8ae2"
         },
         "arm64": {
-            "url": "https://github.com/yaog6700-bit/Swell-Proxy/releases/download/v4.3.1/Swell-win-arm64.zip",
-            "hash": "707ba0b97b14dcedaca977a45b5fbd158d1ae6f5df2f4dd793143ed95bf0cc7e"
+            "url": "https://github.com/yaog6700-bit/Swell-Proxy/releases/download/v4.4.0/Swell-win-arm64.zip",
+            "hash": "7ea259d3c12d6433939e680afd7088cd0906700a5e7075e8265386bc44dfd896"
         }
     },
     "shortcuts": [
