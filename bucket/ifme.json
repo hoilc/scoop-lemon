@@ -1,12 +1,12 @@
 {
-    "version": "8.7.0",
+    "version": "8.7.1",
     "description": "Internet Friendly Media Encoder is a lightweight, plugin-based multimedia encoder.",
     "homepage": "https://github.com/Anime4000/IFME",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Anime4000/IFME/releases/download/8.7.0/IFME-8.7.0_release-win64.7z",
-            "hash": "cbd96a9668eaf157fc5cd64e2062b338eeedda7125374c727d49f4e86f042ef1"
+            "url": "https://github.com/Anime4000/IFME/releases/download/8.7.1/IFME-8.7.1_release-win64.7z",
+            "hash": "cfbaeaa667179d012e10759c26459882add4320f4fd3409fb67e93bc303eae09"
         }
     },
     "shortcuts": [
