@@ -1,12 +1,12 @@
 {
-    "version": "3.0.6",
+    "version": "3.1.0",
     "description": "An advanced download tool for Soulseek, soon a client.",
     "homepage": "https://github.com/fiso64/sockseek",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fiso64/sockseek/releases/download/v3.0.6/sockseek_3.0.6_win-x64.zip",
-            "hash": "aa965bdf3bc9b04757380889e1ce96ce1d57fdf89423fb3f7ebf378e469e66c4"
+            "url": "https://github.com/fiso64/sockseek/releases/download/v3.1.0/sockseek_3.1.0_win-x64.zip",
+            "hash": "c41fffed99a79708c666dd199f54d2cee3c65dc80661b3c29f594487967da75a"
         }
     },
     "bin": "sockseek.exe",
