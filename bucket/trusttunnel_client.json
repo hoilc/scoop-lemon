@@ -17,22 +17,16 @@
             "hash": "4e1b0e02c806980e87f21f8d6e2f73da2376eb0cf748369a4e162ced38513571"
         }
     },
-    "bin": [
-        "trusttunnel_client.exe",
-        [
-            "setup_wizard.exe",
-            "trusttunnel_setup_wizard"
-        ]
-    ],
+    "bin": "trusttunnel_client.exe",
     "post_install": [
         "if ($cmd -eq 'install') { ",
         "   Write-Host \"\"",
         "   Write-Host \"---\"",
         "   Write-Host \"Client configuration wizard - Interactive mode (guided setup):\"",
-        "   Write-Host \"  trusttunnel_setup_wizard --settings `\"$dir\\config\\trusttunnel_client.toml`\"\"",
+        "   Write-Host \"  trusttunnel_client --setup-wizard --settings `\"$dir\\config\\trusttunnel_client.toml`\"\"",
         "   Write-Host \"\"",
         "   Write-Host \"Client configuration wizard - Non-interactive with endpoint config (recommended):\"",
-        "   Write-Host \"  trusttunnel_setup_wizard --mode non-interactive --endpoint_config <endpoint_config.toml> --settings `\"$dir\\config\\trusttunnel_client.toml`\"\"",
+        "   Write-Host \"  trusttunnel_client --setup-wizard --mode non-interactive --endpoint_config <endpoint_config.toml> --settings `\"$dir\\config\\trusttunnel_client.toml`\"\"",
         "   Write-Host \"\"",
         "   Write-Host \"Running client:\"",
         "   Write-Host \"  trusttunnel_client -c `\"$dir\\config\\trusttunnel_client.toml`\"\"",
