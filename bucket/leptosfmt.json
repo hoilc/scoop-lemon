@@ -1,12 +1,12 @@
 {
-    "version": "0.1.33",
+    "version": "0.1.34",
     "description": "A formatter for the leptos view! macro.",
     "homepage": "https://github.com/bram209/leptosfmt",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.33/leptosfmt-0.1.33-x86_64-pc-windows-msvc.zip",
-            "hash": "3e81a3af3f951cd7bdbbd5d655f69d2334c94ccec83a2bfc156efa2f3614dc5b"
+            "url": "https://github.com/bram209/leptosfmt/releases/download/0.1.34/leptosfmt-0.1.34-x86_64-pc-windows-msvc.zip",
+            "hash": "67be8c9062868c0366cdff6d3d27eaf4aac6e3a57943a038b714b9624f035977"
         }
     },
     "bin": "leptosfmt.exe",
