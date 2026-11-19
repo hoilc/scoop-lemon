@@ -1,16 +1,16 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "An unholy spell checker for code.",
     "homepage": "https://github.com/blopker/codebook",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/blopker/codebook/releases/download/v0.4.0/codebook-lsp-x86_64-pc-windows-msvc.zip",
-            "hash": "51f2c55bb266b502e57eccbb5f016989c7687f3b2d947b85ac5f9cd98fb0866c"
+            "url": "https://github.com/blopker/codebook/releases/download/v0.4.1/codebook-lsp-x86_64-pc-windows-msvc.zip",
+            "hash": "f74a06f22243533ae3071ef97c00c322fa406c313f2bc660018176813864d89a"
         },
         "arm64": {
-            "url": "https://github.com/blopker/codebook/releases/download/v0.4.0/codebook-lsp-aarch64-pc-windows-msvc.zip",
-            "hash": "4461ec81dd18a9785fada9573b58f6d4220874cf65e49e6a85dac8f0b92bc667"
+            "url": "https://github.com/blopker/codebook/releases/download/v0.4.1/codebook-lsp-aarch64-pc-windows-msvc.zip",
+            "hash": "c52fa1ee01c47b205dcfa452c40ac7cf82a54919912e1951cc5aa36a283078ae"
         }
     },
     "bin": "codebook-lsp.exe",
