@@ -1,12 +1,12 @@
 {
-    "version": "0.6.23",
+    "version": "0.6.24",
     "description": "A native Markdown reader and editor for Windows with WYSIWYG and rich table editing. | Windows 原生 Markdown 阅读与编辑器，打开就读、落笔就写，支持所见即所得与丰富的表格编辑",
     "homepage": "https://github.com/yakoye/Shazao-markdown",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yakoye/Shazao-markdown/releases/download/v0.6.23/Shazao-markdown.exe#/Shazao.exe",
-            "hash": "5d0130194d80daa346f0f186176c66311e02087dc98c0d50203c209bde363ade"
+            "url": "https://github.com/yakoye/Shazao-markdown/releases/download/v0.6.24/Shazao-markdown.exe#/Shazao.exe",
+            "hash": "e21d353f3e1fe29589fc7f92cc55410299014a82a8966e056634751fab573726"
         }
     },
     "shortcuts": [
