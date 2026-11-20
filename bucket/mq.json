@@ -1,29 +1,29 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "description": "A jq-like Markdown query language for command-line processing.",
     "homepage": "https://mqlang.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-x86_64-pc-windows-msvc.exe#/mq.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-check-x86_64-pc-windows-msvc.exe#/mq-check.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-crawl-x86_64-pc-windows-msvc.exe#/mq-crawl.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-dbg-x86_64-pc-windows-msvc.exe#/mq-dbg.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-fmt-x86_64-pc-windows-msvc.exe#/mq-fmt.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-lint-x86_64-pc-windows-msvc.exe#/mq-lint.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-lsp-x86_64-pc-windows-msvc.exe#/mq-lsp.exe",
-                "https://github.com/harehare/mq/releases/download/v0.10.1/mq-test-x86_64-pc-windows-msvc.exe#/mq-test.exe"
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-x86_64-pc-windows-msvc.exe#/mq.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-check-x86_64-pc-windows-msvc.exe#/mq-check.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-crawl-x86_64-pc-windows-msvc.exe#/mq-crawl.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-dbg-x86_64-pc-windows-msvc.exe#/mq-dbg.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-fmt-x86_64-pc-windows-msvc.exe#/mq-fmt.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-lint-x86_64-pc-windows-msvc.exe#/mq-lint.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-lsp-x86_64-pc-windows-msvc.exe#/mq-lsp.exe",
+                "https://github.com/harehare/mq/releases/download/v0.10.2/mq-test-x86_64-pc-windows-msvc.exe#/mq-test.exe"
             ],
             "hash": [
-                "3c2a1ea8bc27af55178045a4d5e1a987a380c2972477456303ac0a9a5d51801f",
-                "98d24c6a79acbab30f8d72371707757bed5aa38c76525b2fe6c785de6e44403c",
-                "68b2d070879c38ffeab9a5fb185932afd3af450de4afc195a44fc03f3ff9d65e",
-                "31314e63bd2fbfa565276dbc07d11ff9d3ad2f7e7e2fa239904a7bd51257b0ed",
-                "c1557942fa70c26e1d295ef84cb9565796ea481760194ce0d1bd3c10df3de728",
-                "73adf989a6ab6ceb68db70a0b6a861990bcee0c597d475d5ce3de783e2a04aa3",
-                "a1caee5d1d6a88e92adbf05821ea5903d4c2515596b6a3b1cddb98db637ab551",
-                "e5ae53dbc9228fe8463020b4f596efded125eceee8c371ddd8008cfb00406a5c"
+                "f0087fe659975131f962851e7bab21861b8797d678231b612888dccc07124082",
+                "b040c60e7c173d7b90243359dc8e3f4517a98958c6941329244142395a5debfe",
+                "4c07437d4b5b81529e68a684f0a838fd899a77caeb771b6ba87c3109fc3d850f",
+                "060f1cb8ba92e9b22841428ddd1c727d461ee8a86f1c00fbce6fd81c3fce507a",
+                "3a7d966f2920930fdf11edb3ef98d51fb950a9646edaac3f7175dc24731f5f46",
+                "c50a659e3a35c1d74c7e96c40093457ad4f3e6d4a9b900a38b3cffb0ef07a280",
+                "6af4fcb356767581ee6593a083f926355e47a210b5457a321d8beb7a083ef925",
+                "3172902b3187c96de685ee3fe86c72dd66915b3cb4a9020da602bd29d9f120b0"
             ]
         }
     },
