@@ -1,12 +1,12 @@
 {
-    "version": "0.1.38",
+    "version": "0.1.39",
     "description": "A S3-compatible command-line client written in Rust.",
     "homepage": "https://github.com/rustfs/cli",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://dl.rustfs.com/artifacts/rustfs-cli/release/rustfs-cli-windows-amd64-v0.1.38.zip",
-            "hash": "ca0b19bc07fd7940d77189c02f0d0820372036bdb3aa878c2d479bcb63fa81a1"
+            "url": "https://dl.rustfs.com/artifacts/rustfs-cli/release/rustfs-cli-windows-amd64-v0.1.39.zip",
+            "hash": "5639b4c81a80ac0be7afd9124c8ca673eda2526797f6566b72781315d9a9f9d2"
         }
     },
     "bin": "rc.exe",
