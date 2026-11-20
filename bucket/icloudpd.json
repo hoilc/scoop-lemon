@@ -1,12 +1,12 @@
 {
-    "version": "1.33.1",
+    "version": "1.34.0",
     "description": "iCloud Photos Downloader is a command-line tool to download photos from iCloud.",
     "homepage": "https://github.com/icloud-photos-downloader/icloud_photos_downloader",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/icloud-photos-downloader/icloud_photos_downloader/releases/download/v1.33.1/icloudpd-1.33.1-windows-amd64.exe#/icloudpd.exe",
-            "hash": "570a877e8388e827c86912bed662241d6ffe0e94dbb6dc8b40c2742a31483990"
+            "url": "https://github.com/icloud-photos-downloader/icloud_photos_downloader/releases/download/v1.34.0/icloudpd-1.34.0-windows-amd64.exe#/icloudpd.exe",
+            "hash": "caf79f990c00cae660fb5418b1f3bcecd2502a361a22263be63f26f879e95e27"
         }
     },
     "bin": "icloudpd.exe",
