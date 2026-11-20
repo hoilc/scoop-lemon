@@ -1,5 +1,5 @@
 {
-    "version": "1.53.2",
+    "version": "1.53.3",
     "description": "The GUI (Isolated Edition) for MongoDB, which allows you to make smarter decisions about document structure, querying, indexing, document validation, and more.",
     "homepage": "https://www.mongodb.com/products/compass",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mongodb.com/compass/mongodb-compass-isolated-1.53.2-win32-x64.zip",
-            "hash": "fc5fbe0ba28315c84c38bad43ba4f9d5fd6e592a82eb9a057c47352a720f67b5"
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-isolated-1.53.3-win32-x64.zip",
+            "hash": "48a64d3d9954dcbb260ce90ac78a42553dabbba6e7e57fe451fd10bc19e71cb2"
         }
     },
     "shortcuts": [
