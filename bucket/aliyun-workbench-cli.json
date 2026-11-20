@@ -1,0 +1,28 @@
+{
+    "version": "1.0.6",
+    "description": "An agent-native command-line tool for managing and connecting to Alibaba Cloud ECS instances without requiring public IP addresses.",
+    "homepage": "https://www.alibabacloud.com/help/ecs/user-guide/connect-to-an-instance-through-workbench-cli/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://workbench-cli.oss-cn-hangzhou.aliyuncs.com/releases/v1.0.6/workbench-windows-amd64.zip",
+            "hash": "95b356629ed071fa6c5887d3136f9d86d55dec3202b97b6b268c0b59f0cd4588",
+            "extract_dir": "workbench-windows-amd64"
+        }
+    },
+    "bin": "workbench.exe",
+    "checkver": {
+        "url": "https://workbench-cli.oss-cn-hangzhou.aliyuncs.com/latest/VERSION",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://workbench-cli.oss-cn-hangzhou.aliyuncs.com/releases/v$version/workbench-windows-amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.sha256"
+        }
+    }
+}
