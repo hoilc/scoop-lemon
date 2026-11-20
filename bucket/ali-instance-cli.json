@@ -1,0 +1,24 @@
+{
+    "version": "1.1.0.93",
+    "description": "Session Manager CLI (ali-instance-cli) is an Alibaba Cloud CLI tool that connects to ECS instances through Session Manager.",
+    "homepage": "https://www.alibabacloud.com/help/ecs/user-guide/connect-to-an-instance-by-using-ali-instance-cli/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://aliyun-client-assist.oss-accelerate.aliyuncs.com/session-manager/windows/ali-instance-cli.exe",
+            "hash": "9e6add1e1105c328210665476217fcb99f92f4d7f4ca19a9d5a978ab16feb078"
+        }
+    },
+    "bin": "ali-instance-cli.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/hoilc/scoop-juicer/main/manifests/ali-instance-cli/state.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://aliyun-client-assist.oss-accelerate.aliyuncs.com/session-manager/windows/ali-instance-cli.exe"
+            }
+        }
+    }
+}
