@@ -1,12 +1,12 @@
 {
-    "version": "2.7.0",
+    "version": "2.8.0",
     "description": "A free, open-source screen sharing tool for private live streams with friends. | 免费开源的私密屏幕共享，支持游戏直播、一起看电影与自部署",
     "homepage": "https://github.com/TNTcraftHIM/Piik",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TNTcraftHIM/Piik/releases/download/v2.7.0/piik-app-windows-amd64.zip",
-            "hash": "f9238c47f8a224d7994883d475afeae5eda923c4bf6ed035975f2838bf62617e"
+            "url": "https://github.com/TNTcraftHIM/Piik/releases/download/v2.8.0/piik-app-windows-amd64.zip",
+            "hash": "0af7182c79c8219d505c8e1293a2157ea48aa6fe18eaa9a52a1e9f21aa2d303d"
         }
     },
     "bin": "piik-app.exe",
