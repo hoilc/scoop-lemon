@@ -1,18 +1,18 @@
 {
-    "version": "1.11.1",
+    "version": "1.11.2",
     "description": "An application delivery platform to deploy and operate applications in hybrid, multi-cloud environments.",
     "homepage": "https://kubevela.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kubevela/kubevela/releases/download/v1.11.1/vela-v1.11.1-windows-amd64.zip",
+            "url": "https://github.com/kubevela/kubevela/releases/download/v1.11.2/vela-v1.11.2-windows-amd64.zip",
             "extract_dir": "windows-amd64",
-            "hash": "df4a68e7a334e96df15e9f6245592e6e6f00049074d76c421d6952e0c7671f1e"
+            "hash": "ee08fdb23df1da68bf663e65ed264e6a722aa3f1512b0803c0b4e2e28ee19274"
         },
         "arm64": {
-            "url": "https://github.com/kubevela/kubevela/releases/download/v1.11.1/vela-v1.11.1-windows-arm64.zip",
+            "url": "https://github.com/kubevela/kubevela/releases/download/v1.11.2/vela-v1.11.2-windows-arm64.zip",
             "extract_dir": "windows-arm64",
-            "hash": "1f9b34d70376499eafc07f4f32079ae7ff1c4f8054f5cc454ae134b62df737f9"
+            "hash": "b440cfb03e4cb693e3e5c5131347f513e0b3379a9cae0d56d4c3a4dd4ec22f73"
         }
     },
     "bin": [
