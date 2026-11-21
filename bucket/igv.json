@@ -1,10 +1,10 @@
 {
-    "version": "2.19.8",
+    "version": "2.19.9",
     "description": "Integrative Genomics Viewer is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.",
     "homepage": "https://igv.org/",
     "license": "MIT",
-    "url": "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.8-WithJava-installer.exe#/dl.7z",
-    "hash": "6152f8a3ee1ed6b35532fb6fa18155f858c559504287c1beab1b68946c265892",
+    "url": "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.9-WithJava-installer.exe#/dl.7z",
+    "hash": "dee736b413750ba2d6c34a9e8536913390cea39e7f617bfd7ad76bcd6ece934c",
     "shortcuts": [
         [
             "igv.bat",
