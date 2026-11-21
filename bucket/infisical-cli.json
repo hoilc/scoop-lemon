@@ -1,16 +1,16 @@
 {
-    "version": "0.45.13",
+    "version": "0.45.14",
     "description": "The official CLI of Infisical for secret management.",
     "homepage": "https://infisical.com/docs/cli/overview",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Infisical/cli/releases/download/v0.45.13/cli_0.45.13_windows_amd64.zip",
-            "hash": "7071a6465177036c0d91c19be150cef16139925b28f36a639555e49ddcaf55df"
+            "url": "https://github.com/Infisical/cli/releases/download/v0.45.14/cli_0.45.14_windows_amd64.zip",
+            "hash": "e6bfc76c983b748c260cca485896e6435e29c3a40aea83dfd0a90663e67b2ad0"
         },
         "arm64": {
-            "url": "https://github.com/Infisical/cli/releases/download/v0.45.13/cli_0.45.13_windows_arm64.zip",
-            "hash": "8c121fce4ae4b82d9b5cb7181dc9f044b97a1df1c5e10cc6a96da0e31a4b5a33"
+            "url": "https://github.com/Infisical/cli/releases/download/v0.45.14/cli_0.45.14_windows_arm64.zip",
+            "hash": "dc24a391423f9610784b6b7ac8d0ac13af9d80715721ed58e5cec0f6b5741708"
         }
     },
     "bin": "infisical.exe",
