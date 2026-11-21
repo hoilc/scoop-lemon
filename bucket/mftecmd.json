@@ -1,10 +1,10 @@
 {
-    "version": "2026.10.6",
+    "version": "2026.11.0",
     "description": "A command line $MFT parser.",
     "homepage": "https://github.com/EricZimmerman/MFTECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/MFTECmd.zip",
-    "hash": "cf5892102c75df6000e87aec5653046f453f65846f361ee48ed1ab2771b0f1e3",
+    "hash": "d08b3e3fea0a11f32e5075b8b6a0ace57c776457b21128f552537153b6c8058b",
     "bin": "MFTECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
