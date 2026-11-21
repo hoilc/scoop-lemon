@@ -1,12 +1,12 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "A fast, lightweight Markdown and TXT editor, just like Notepad.",
     "homepage": "https://github.com/Lahai-Roi/MDNote",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lahai-Roi/MDNote/releases/download/v2.5.1/MDNote-2.5.1-portable.zip",
-            "hash": "ce3ac960090b7756c56a235d5265aaf25918c80ae2ac34ae145ccc5b7cb4f816"
+            "url": "https://github.com/Lahai-Roi/MDNote/releases/download/v2.5.2/MDNote-2.5.2-portable.zip",
+            "hash": "9f8c437027d46944254dcd10f98326972e79fcb324e0d7340163af11751c3bb3"
         }
     },
     "shortcuts": [
