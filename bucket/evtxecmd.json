@@ -1,10 +1,10 @@
 {
-    "version": "2026.10.2",
+    "version": "2026.11.0",
     "description": "A C# based (Windows Event Log) evtx parser with lots of extras.",
     "homepage": "https://github.com/EricZimmerman/evtx",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/EvtxECmd.zip",
-    "hash": "2a78384d8389277331513319df5efdef37dd7c7658e5be972b400648eb1e0f10",
+    "hash": "29287efd58fdd2b60f3dcf593005ac3904ae00af6d35a7fccd2d9cd1b2db1ea0",
     "extract_dir": "EvtxeCmd",
     "bin": "EvtxECmd.exe",
     "checkver": {
