@@ -1,10 +1,10 @@
 {
-    "version": "2026.10.3",
+    "version": "2026.11.0",
     "description": "A ShellBags Explorer, command line edition, for exporting shellbag data.",
     "homepage": "https://github.com/EricZimmerman/SBECmd",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/SBECmd.zip",
-    "hash": "57a29963b30e902122eec2678245fb07db803ef1f98dbc91ef65fc27b9fea408",
+    "hash": "58526daf374dfdde3a13a8d3dd4a7746f0173231fb2f077b6b9c29bff0b882dc",
     "bin": "SBECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
