@@ -1,12 +1,12 @@
 {
-    "version": "2026.10.0",
+    "version": "2026.11.0",
     "description": "A GUI based Jump List viewer.",
     "homepage": "https://ericzimmerman.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://download.ericzimmermanstools.com/net/TimelineExplorer.zip",
-            "hash": "dfb9c3055feabaf57c05d0d380ac17e1f050b2628136caf8ba7be963fd3fed3e"
+            "hash": "2bf8c834c815adcc0a56d840cda765171d606a77f06ce6605a5579edd4f19bca"
         }
     },
     "extract_dir": "TimelineExplorer",
