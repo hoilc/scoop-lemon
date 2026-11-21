@@ -1,16 +1,16 @@
 {
-    "version": "302",
+    "version": "303",
     "description": "A general-purpose, multi-paradigm programming language.",
     "homepage": "https://www.nongnu.org/txr/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.kylheku.com/txr-downloads/txr-302/txr-302-Win64.exe#/dl.7z",
-            "hash": "78da1aca99d45c5976a231ce07764c3920cf33e172275bd0dd34d9816007d727"
+            "url": "https://www.kylheku.com/txr-downloads/txr-303/txr-303-Win64.exe#/dl.7z",
+            "hash": "f71a416abd9346937456874c9fa0df830d9e488c6e1e799f82c4c078a4935934"
         },
         "32bit": {
-            "url": "https://www.kylheku.com/txr-downloads/txr-302/txr-302-Win32.exe#/dl.7z",
-            "hash": "e8f3cb7cf6894cef8a9e008e6b9942f707f8bd651938388eb0c84494be010d59"
+            "url": "https://www.kylheku.com/txr-downloads/txr-303/txr-303-Win32.exe#/dl.7z",
+            "hash": "261f1fd54dc206aa01e0a427bf417400f71d3bc6c27379b6a21374d5dafe6bad"
         }
     },
     "extract_dir": "txr",
