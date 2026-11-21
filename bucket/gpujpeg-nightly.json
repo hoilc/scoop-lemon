@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/CESNET/GPUJPEG/releases/download/continuous/GPUJPEG-Windows-all.zip",
-            "hash": "6fa812c176c57e64aa8a3053e5eea85bcdca0eb00a81e10a9c5947dd3e0896a7"
+            "hash": "d63569f83aaab3a866cfc909833494d0a7cd6d5ad69270af8d3b78bec97646dc"
         }
     },
     "extract_dir": "GPUJPEG",
