@@ -1,10 +1,10 @@
 {
-    "version": "2026.10.1",
+    "version": "2026.11.0",
     "description": "Process Microsoft User Access Logs found under 'C:\\Windows\\System32\\LogFiles\\SUM'",
     "homepage": "https://github.com/EricZimmerman/Sum",
     "license": "MIT",
     "url": "https://download.ericzimmermanstools.com/SumECmd.zip",
-    "hash": "85b4694651b2059aac4ccfa5b8ae08c286435b433b86652452ad92bc20d1de64",
+    "hash": "7fcaad5f4e3585b4e961f99e69590e1099d73b7a4aeb64a53e61df9cb4dd15ea",
     "bin": "SumECmd.exe",
     "checkver": {
         "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/docs/index.md",
