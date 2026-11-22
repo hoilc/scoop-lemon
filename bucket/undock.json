@@ -1,16 +1,16 @@
 {
-    "version": "0.14.1",
+    "version": "0.15.0",
     "description": "Extract contents of a container image in a local folder.",
     "homepage": "https://crazymax.dev/undock/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crazy-max/undock/releases/download/v0.14.1/undock_0.14.1_windows_amd64.zip",
-            "hash": "f5f0869aabd6b96febb3f43b20c1fff728ad85f4e4a548f1eada12ccf1a5ee42"
+            "url": "https://github.com/crazy-max/undock/releases/download/v0.15.0/undock_0.15.0_windows_amd64.zip",
+            "hash": "5308a77f483a0a806d8bdfee521000d3f9ac2874f7a688c662657afa835d47d1"
         },
         "arm64": {
-            "url": "https://github.com/crazy-max/undock/releases/download/v0.14.1/undock_0.14.1_windows_arm64.zip",
-            "hash": "077176ed5479fa20108408d1a388e74ec545c80b2b2c77c0b800a7704b9b45ba"
+            "url": "https://github.com/crazy-max/undock/releases/download/v0.15.0/undock_0.15.0_windows_arm64.zip",
+            "hash": "140b61b460c83c6fe05730ac7b1f1e09c383c5d650e61fbee8b4003c6ed43907"
         }
     },
     "bin": "undock.exe",
