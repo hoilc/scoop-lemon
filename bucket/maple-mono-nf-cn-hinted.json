@@ -1,10 +1,10 @@
 {
-    "version": "8.0-beta.3",
+    "version": "8.0-beta.4",
     "description": "（1080P及以下分辨率适用）开源圆角的等宽和控制台字体",
     "homepage": "https://github.com/subframe7536/Maple-font",
     "license": "OFL-1.1",
-    "url": "https://github.com/subframe7536/maple-font/releases/download/v8.0-beta.3/MapleMono-NF-CN.zip",
-    "hash": "9612df30a4a9cc204099813b607ab5131e933dea4eb20f24ad20af82a6d24cff",
+    "url": "https://github.com/subframe7536/maple-font/releases/download/v8.0-beta.4/MapleMono-NF-CN.zip",
+    "hash": "60a138461e83d1261924432f96e308a7cd2333b54ef459a45114d2f1bbf75076",
     "checkver": {
         "url": "https://github.com/subframe7536/Maple-font/releases.atom",
         "regex": "Repository/\\d+/v(.+?)<"
