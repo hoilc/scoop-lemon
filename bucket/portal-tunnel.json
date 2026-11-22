@@ -1,16 +1,16 @@
 {
-    "version": "2.7.4",
+    "version": "2.8.0",
     "description": "Publishes localhost services to the agentic web through self-hostable, trustless relays with x402 payments.",
     "homepage": "https://gosuda.github.io/portal-tunnel/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gosuda/portal-tunnel/releases/download/v2.7.4/portal-windows-amd64.exe#/portal.exe",
-            "hash": "598033c2b11ef4789ab6f4509418b00b90c6752102847beccb197346baf794c9"
+            "url": "https://github.com/gosuda/portal-tunnel/releases/download/v2.8.0/portal-windows-amd64.exe#/portal.exe",
+            "hash": "6ca198d0242181a4ed9fb3b132a43a601b34db7279a96c0f56fb35c19679e73e"
         },
         "arm64": {
-            "url": "https://github.com/gosuda/portal-tunnel/releases/download/v2.7.4/portal-windows-arm64.exe#/portal.exe",
-            "hash": "6ddaabf18e43713e15103b52ec91b36f5a6c107eaef624c91bd405e37f63ddcf"
+            "url": "https://github.com/gosuda/portal-tunnel/releases/download/v2.8.0/portal-windows-arm64.exe#/portal.exe",
+            "hash": "95401e629733bce46b7cdeec61c5f0325820499e849524d19932e4cc95150b72"
         }
     },
     "bin": "portal.exe",
