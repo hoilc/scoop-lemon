@@ -1,12 +1,12 @@
 {
-    "version": "2.6.8",
+    "version": "2.7.0",
     "description": "一个跨平台的动漫视频播放应用，支持多数据源、支持实时视频4k超分辨率",
     "homepage": "https://github.com/openAnimeFlow/AnimeFlow",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.8/AnimeFlow-windows-2.6.8.zip",
-            "hash": "dfcc76915e7770c152eb03fbd4adad24844f8777edfd979e0f0658c67434724c"
+            "url": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.7.0/AnimeFlow-windows-2.7.0.zip",
+            "hash": "e4fb5d1f8293d29b791cf87ceb9f46a8237da1a19ef707f456acb31d785c12d5"
         }
     },
     "shortcuts": [
