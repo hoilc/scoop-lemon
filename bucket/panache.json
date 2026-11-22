@@ -1,0 +1,30 @@
+{
+    "version": "1.19.0",
+    "description": "Turns text, equations, tables, and circuit diagrams into handwritten pages.",
+    "homepage": "https://heliannuits.me/Panache/",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SXP-Simon/Panache/releases/download/v1.19.0/Flutter-Panache-1.19.0-windows-x64.zip",
+            "hash": "81f6e03ec3ab41d26ba677633066d6cd1e1ec902493c832851de94c6d5fa978d"
+        }
+    },
+    "extract_dir": "Panache",
+    "shortcuts": [
+        [
+            "handwriting_app.exe",
+            "Panache"
+        ]
+    ],
+    "notes": "Panache is NOT portable.",
+    "checkver": {
+        "github": "https://github.com/SXP-Simon/Panache"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SXP-Simon/Panache/releases/download/v$version/Flutter-Panache-$version-windows-x64.zip"
+            }
+        }
+    }
+}
