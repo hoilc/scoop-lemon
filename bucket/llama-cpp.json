@@ -1,16 +1,16 @@
 {
-    "version": "b12648",
+    "version": "b12651",
     "description": "(CPU Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12648/llama-b12648-bin-win-cpu-x64.zip",
-            "hash": "e22d946bd903047cf6339334cb3b0612ca7fafff52aa1ef64625f821e2020ed1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12651/llama-b12651-bin-win-cpu-x64.zip",
+            "hash": "b2d794fa7587aba29f654d717ff9b73e31caeabf50a7766692903008bbe0855d"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12648/llama-b12648-bin-win-cpu-arm64.zip",
-            "hash": "9e4addff09a7b9d66b2fd750947f08b1f0d5e1873464976857db57f651a2e707"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12651/llama-b12651-bin-win-cpu-arm64.zip",
+            "hash": "756a62761e476536f007c866d46fa14125f6ca32d98cee6af14685659bd9f244"
         }
     },
     "bin": [
