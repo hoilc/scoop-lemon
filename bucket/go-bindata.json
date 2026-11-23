@@ -1,12 +1,12 @@
 {
-    "version": "4.0.2",
+    "version": "4.0.3",
     "description": "A small utility which generates Go code from any file.",
     "homepage": "https://github.com/kevinburke/go-bindata",
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kevinburke/go-bindata/releases/download/v4.0.2/go-bindata-windows-amd64#/go-bindata.exe",
-            "hash": "084b3e1ced63724c0cb360eb184126ae76666de7302f821fadce2d406d77cc2e"
+            "url": "https://github.com/kevinburke/go-bindata/releases/download/v4.0.3/go-bindata-windows-amd64#/go-bindata.exe",
+            "hash": "3af47bd26e2ccc08a3b46b3fa942f4b71c20ba439380b7313c240ea2fabe3190"
         }
     },
     "bin": "go-bindata.exe",
