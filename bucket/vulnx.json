@@ -1,16 +1,16 @@
 {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "A modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.",
     "homepage": "https://github.com/projectdiscovery/vulnx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/projectdiscovery/vulnx/releases/download/v2.0.2/vulnx_2.0.2_windows_amd64.zip",
-            "hash": "407340915fa69c19c29c112c1095cfc86166e8370ce35588697e291f94cae694"
+            "url": "https://github.com/projectdiscovery/vulnx/releases/download/v2.1.0/vulnx_2.1.0_windows_amd64.zip",
+            "hash": "beed70cf047cef357e11adc464395ab2eb55a417a0178f9d77491d661f305835"
         },
         "32bit": {
-            "url": "https://github.com/projectdiscovery/vulnx/releases/download/v2.0.2/vulnx_2.0.2_windows_386.zip",
-            "hash": "50bab933998ae686d065c1047e43f6458e6c8fab456a932cfb158081543757c8"
+            "url": "https://github.com/projectdiscovery/vulnx/releases/download/v2.1.0/vulnx_2.1.0_windows_386.zip",
+            "hash": "b9b16d3ad3c73f94a347b397b12aea2bf2771d17ad1608230155c6e59b0b16be"
         }
     },
     "bin": "vulnx.exe",
