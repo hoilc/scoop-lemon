@@ -1,12 +1,12 @@
 {
-    "version": "2.15.0",
+    "version": "2.15.1",
     "description": "A tool for creating NATS account and user access configurations.",
     "homepage": "https://github.com/nats-io/nsc",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nats-io/nsc/releases/download/v2.15.0/nsc-windows-amd64.zip",
-            "hash": "b5866ee1166a671ec3fbe1577b4695ced492fbd6934db5596dbe0c2e89fb481f"
+            "url": "https://github.com/nats-io/nsc/releases/download/v2.15.1/nsc-windows-amd64.zip",
+            "hash": "6bdeac54da91374fdeccdf875ed2ba3d50501c2b8e82943a168032a2c9c0adaf"
         }
     },
     "bin": "nsc.exe",
