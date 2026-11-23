@@ -1,12 +1,12 @@
 {
-    "version": "b225-20261116-0afdd2d",
+    "version": "b242-20261123-15c8494",
     "description": "(Nightly Build) A LAN communication software.",
     "homepage": "https://github.com/iptux-src/iptux",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/iptux-src/iptux/actions/runs/43793646224/iptux-portable-windows.zip",
-            "hash": "a61a4757b7ccda1b90cc09c5dd9c3ede2dbc459a9cc84f37f5567329c3f5d684"
+            "url": "https://nightly.link/iptux-src/iptux/actions/runs/45115234579/iptux-portable-windows.zip",
+            "hash": "f1652b7987e57c133f0e780041beadcf651d8dca7c5d210b6cb495ed21164b6d"
         }
     },
     "pre_install": "Expand-7zipArchive -Path \"$dir\\iptux-portable.zip\" -DestinationPath \"$dir\" -ExtractDir 'iptux-portable' -Removal",
