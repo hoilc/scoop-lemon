@@ -1,16 +1,16 @@
 {
-    "version": "0.28.0",
+    "version": "0.28.1",
     "description": "CLI for organizing Tailwind CSS classes.",
     "homepage": "https://github.com/avencera/rustywind",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-x86_64-pc-windows-msvc.zip",
-            "hash": "db979e50246bc60d36832c0e37f3921abe0deadf7e00e2bf16bfc9cd175f3458"
+            "url": "https://github.com/avencera/rustywind/releases/download/v0.28.1/rustywind-v0.28.1-x86_64-pc-windows-msvc.zip",
+            "hash": "6bd5d362e8833f1169a7600aabccdda8749bfa48b24dc278c19e820e4fd20410"
         },
         "32bit": {
-            "url": "https://github.com/avencera/rustywind/releases/download/v0.28.0/rustywind-v0.28.0-i686-pc-windows-msvc.zip",
-            "hash": "55306fe41258f3fc0328c26dbf4d0eee2c04e55b126e919d58c3133ff3ee0e51"
+            "url": "https://github.com/avencera/rustywind/releases/download/v0.28.1/rustywind-v0.28.1-i686-pc-windows-msvc.zip",
+            "hash": "d3ee552d180a10e3875f480abb025914cc52af0a31c92dbfd5a22daa2b1eeffe"
         }
     },
     "bin": "rustywind.exe",
