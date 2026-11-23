@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A multi-platform GUI application to effortlessly visualize MIDI activity.",
     "homepage": "https://github.com/gbevin/ShowMIDI",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-Windows-1.0.1.exe",
-            "hash": "069e5ce0dc395c8d53111daa12c0f34d1425e2f39fa24a0222c727da04c46828"
+            "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.2/ShowMIDI-Windows-1.0.2.exe",
+            "hash": "0a82d1a9037db9da224905333a62b53e438257e5d45143a7e0b00e281b5f9aee"
         }
     },
     "innosetup": true,
