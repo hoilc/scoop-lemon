@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/stacklok/minder/releases/download/v0.4.0/minder_0.4.0_windows_amd64.zip",
-            "hash": "98f32398350732686171cda64385c3a5339068bf384767c1cd7c40bdc5581a2d"
+            "hash": "51a95d3c0201d9fdea4888a6afe143ba25acc183507c5650a1efdc9da5d3ca9b"
         },
         "arm64": {
             "url": "https://github.com/stacklok/minder/releases/download/v0.4.0/minder_0.4.0_windows_arm64.zip",
-            "hash": "306cff39e5bcfd0aa73cbb81987cd7360feee328cf675b7cc18b40ed78be8731"
+            "hash": "1d12d5cd3a49792b57521022ac3a2ec69ef9aaf4ba9d5d06e1ccdb92a5b1d5bc"
         }
     },
     "bin": "minder.exe",
