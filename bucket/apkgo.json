@@ -1,16 +1,16 @@
 {
-    "version": "4.2.7",
+    "version": "4.2.8",
     "description": "One command to publish an APK to every major Chinese Android app store. | 一行命令，将 APK 发布到所有主流安卓应用商店",
     "homepage": "https://apkgo.com.cn",
     "license": "PolyForm-Noncommercial-1.0.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KevinGong2013/apkgo/releases/download/v4.2.7/apkgo_Windows_x86_64.zip",
-            "hash": "30de17d6a830208728c6a64bf6d0bb5e0926b4838400d82c66abb562f39bf5e0"
+            "url": "https://github.com/KevinGong2013/apkgo/releases/download/v4.2.8/apkgo_Windows_x86_64.zip",
+            "hash": "4a770566cc27bda8acce65187f87e7b756c9df2c45b79a16fd392b3789892c5e"
         },
         "arm64": {
-            "url": "https://github.com/KevinGong2013/apkgo/releases/download/v4.2.7/apkgo_Windows_arm64.zip",
-            "hash": "c4083a5d64f56189a69830310f427f73035ee89705d4c9a8fcce5d503eb069bf"
+            "url": "https://github.com/KevinGong2013/apkgo/releases/download/v4.2.8/apkgo_Windows_arm64.zip",
+            "hash": "f61aa809ef4502b0a82be659294f5335a0de373ffeed40a9f37b8f94321ee7d0"
         }
     },
     "bin": "apkgo.exe",
