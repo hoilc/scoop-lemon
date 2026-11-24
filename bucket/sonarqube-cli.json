@@ -1,5 +1,5 @@
 {
-    "version": "1.13.0.18157",
+    "version": "1.13.1.18209",
     "description": "A CLI for SonarQube with AI agent integration for code quality and security scanning.",
     "homepage": "https://cli.sonarqube.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.13.0.18157/windows/sonarqube-cli-1.13.0.18157-windows-x86-64.exe#/sonar.exe",
-            "hash": "482fc54ab26c9f837bbabfcaee0d9cb4b5104a5b751a2c77a12834ea6461c60a"
+            "url": "https://binaries.sonarsource.com/Distribution/sonarqube-cli/1.13.1.18209/windows/sonarqube-cli-1.13.1.18209-windows-x86-64.exe#/sonar.exe",
+            "hash": "16504e7552fe15e1e064829fe5545f4c53673d189694be7453fc539ec15b29e2"
         }
     },
     "bin": "sonar.exe",
