@@ -1,12 +1,12 @@
 {
-    "version": "1.9.5",
+    "version": "1.9.7",
     "description": "Turn a compatible Bluetooth voice remote into a wireless microphone. | 把兼容的蓝牙语音遥控器变成 Windows 的无线麦克风",
     "homepage": "https://github.com/GetSayAll/remote-mic-app-windows",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GetSayAll/remote-mic-app-windows/releases/download/v1.9.5/SayAll-Windows-1.9.5-x64-setup.exe#/dl.7z",
-            "hash": "f4a96f3ff11fc0d5deb8d682e6ea337bd1bc56e0ac4cbacdfc0843866741acef"
+            "url": "https://github.com/GetSayAll/remote-mic-app-windows/releases/download/v1.9.7/SayAll-Windows-1.9.7-x64-setup.exe#/dl.7z",
+            "hash": "659de959f3bdaccbe0b5d8856e115efb3cae9b1a5ce58129a31e25ac8bcd6e34"
         }
     },
     "shortcuts": [
