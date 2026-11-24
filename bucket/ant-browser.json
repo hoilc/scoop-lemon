@@ -1,13 +1,13 @@
 {
-    "version": "1.9.4",
+    "version": "1.9.7",
     "description": "面向多账号隔离、代理绑定和本地环境管理的指纹浏览器",
     "homepage": "https://github.com/black-ant/Ant-Browser",
     "license": "PolyForm-Noncommercial-1.0.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/black-ant/Ant-Browser/releases/download/v1.9.4/AntBrowser-1.9.4-windows-amd64-portable.zip",
-            "extract_dir": "AntBrowser-1.9.4-windows-amd64-portable",
-            "hash": "1900fdf63c7e6cd401bb0b35403f5f0bd1c568894fd6890350f20d4f049ed793"
+            "url": "https://github.com/black-ant/Ant-Browser/releases/download/v1.9.7/AntBrowser-1.9.7-windows-amd64-portable.zip",
+            "extract_dir": "AntBrowser-1.9.7-windows-amd64-portable",
+            "hash": "e797b85caf8f8ee64be526e8411a5df38ca1bf59e92604ef44d967ff1d036403"
         }
     },
     "shortcuts": [
