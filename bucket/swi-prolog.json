@@ -1,12 +1,12 @@
 {
-    "version": "11.0.1-1",
+    "version": "11.0.1-2",
     "description": "A comprehensive Prolog implementation with many extensions.",
     "homepage": "https://www.swi-prolog.org",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-11.0.1-1.x64.exe#/dl.7z",
-            "hash": "8eb65df9f0e74d4d328ad648af50d20762f2e5e775494c7d5a49c88391cebfac"
+            "url": "https://www.swi-prolog.org/download/stable/bin/swipl-11.0.1-2.x64.exe#/dl.7z",
+            "hash": "6db556361b0cc8fea06c019c635785801409fa9cf12b3c2d2dc6a4cf0d8b72cb"
         }
     },
     "bin": "bin\\swipl.exe",
