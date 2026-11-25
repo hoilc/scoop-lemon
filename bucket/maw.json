@@ -1,12 +1,12 @@
 {
-    "version": "1.12.1",
+    "version": "1.13.0",
     "description": "Moy's ASR Workflow 是一个以 API 转写为主的字幕生成与编辑工作流",
     "homepage": "https://moyf.github.io/moys-asr-workflow/",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Moyf/moys-asr-workflow/releases/download/v1.12.1/MAW-Windows-x64-v1.12.1.zip",
-            "hash": "f845270fdd93920976effa10b1464c9e86fe2ba1550e1339e4fc8ca5bec23f73"
+            "url": "https://github.com/Moyf/moys-asr-workflow/releases/download/v1.13.0/MAW-Windows-x64-v1.13.0.zip",
+            "hash": "da27e460e623b39198c7c0300b4e1700d02f65e57a00698d0362901154ba0114"
         }
     },
     "extract_dir": "MAW",
