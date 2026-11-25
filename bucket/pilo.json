@@ -1,14 +1,15 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.1",
     "description": "A simple, lightweight desktop client for Pi Coding Agent.",
     "homepage": "https://github.com/hsingjui/pilo",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hsingjui/pilo/releases/download/v0.4.1/Pilo-v0.4.1-x64-Portable.zip",
-            "hash": "4322a3e988d71a5602b578f0e1df22bcb95003f6a00c9ce18d25831d92c81758"
+            "url": "https://github.com/hsingjui/pilo/releases/download/v0.5.1/Pilo-Portable-0.5.1-windows-x86_64.zip",
+            "hash": "c7d645ad1bd65247507e845abc961f5f3fb544cbeb1368722786547cd6248aad"
         }
     },
+    "extract_dir": "Pilo",
     "shortcuts": [
         [
             "Pilo.exe",
@@ -19,7 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hsingjui/pilo/releases/download/v$version/Pilo-v$version-x64-Portable.zip"
+                "url": "https://github.com/hsingjui/pilo/releases/download/v$version/Pilo-Portable-$version-windows-x86_64.zip",
+                "hash": {
+                    "url": "$baseurl/latest.json",
+                    "jsonpath": "$.platforms.windows-x86_64.sha256"
+                }
             }
         }
     }
