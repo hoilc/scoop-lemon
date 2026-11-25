@@ -1,30 +1,30 @@
 {
-    "version": "1.2.2",
+    "version": "1.3.9",
     "description": "A translation assistant for academic literature reading and fast cross-language communication. | 面向学术文献阅读与跨语言快捷交流的翻译助手",
     "homepage": "https://manggo.pylogmon.cn/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/1.2.2/Manggo-1.2.2-Windows-AMD64.exe#/dl.7z",
-            "hash": "d1beac2f2897da3868379720e30be2df1f76de04e557b49d544534cb59a9006f"
+            "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/1.3.9/manggo-setup-1.3.9-amd64.exe#/dl.7z",
+            "hash": "62672a7d334a409133819bbfa8fc0ccca74c2b986efd821a1dfdec7c520d085f"
         }
     },
     "shortcuts": [
         [
-            "bin\\Manggo.exe",
+            "Manggo.exe",
             "Manggo"
         ]
     ],
     "post_install": "Remove-Item \"$dir\\uninstall*\", \"$dir\\`$*\" -Force -Recurse -ErrorAction SilentlyContinue",
     "notes": "Manggo is NOT portable.",
     "checkver": {
-        "url": "https://manggo-update.pylogmon.cn",
-        "jsonpath": "$.version"
+        "url": "https://manggo.pylogmon.cn/api/v1/public/homepage",
+        "jsonpath": "$..download.items[?(@.platform == 'Windows' && @.architecture == 'x64')].version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/$version/Manggo-$version-Windows-AMD64.exe#/dl.7z"
+                "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/$version/manggo-setup-$version-amd64.exe#/dl.7z"
             }
         }
     }
