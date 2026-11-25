@@ -1,16 +1,16 @@
 {
-    "version": "1.6.2",
+    "version": "1.7.0",
     "description": "A native desktop SSH / SFTP client that brings terminals, file management and AI assistance into one app. | 桌面 SSH / SFTP 客户端，将终端、文件管理与 AI 助手集成于一体",
     "homepage": "https://sshyard.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Licoy/sshyard/releases/download/v1.6.2/sshyard-1.6.2-windows-amd64-portable.zip",
-            "hash": "341bbfd39ba869c352706f5abba0f5afb729bf496f25e73711563f8c778f15a5"
+            "url": "https://github.com/Licoy/sshyard/releases/download/v1.7.0/sshyard-1.7.0-windows-amd64-portable.zip",
+            "hash": "1e1aa3d3d6dee3d9fd1df164d5313491725938e5f0846c4415eea053a61e8c74"
         },
         "arm64": {
-            "url": "https://github.com/Licoy/sshyard/releases/download/v1.6.2/sshyard-1.6.2-windows-arm64-portable.zip",
-            "hash": "1fcd20c3cb5281283b77ae13fad9e3b012e177c03434d1a7e0eb0a147a500f0e"
+            "url": "https://github.com/Licoy/sshyard/releases/download/v1.7.0/sshyard-1.7.0-windows-arm64-portable.zip",
+            "hash": "6b32892858ab4281db6a6126ae1c002c56aa8d4771b28566d6b680e9bcef0c73"
         }
     },
     "shortcuts": [
