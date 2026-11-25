@@ -1,13 +1,13 @@
 {
-    "version": "0.7.3",
+    "version": "0.8.0",
     "description": "A fast, native, multi-engine database client built with Rust and GPUI.",
     "homepage": "https://dbdelve.github.io/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ShayanAbbas1/dbdelve/releases/download/v0.7.3/dbdelve-0.7.3-windows-x86_64.zip",
-            "hash": "8f0a1beb076dc4c2b3660d640dce81220114108dbc15b5457aca644bc0ac6d5a",
-            "extract_dir": "dbdelve-0.7.3-windows-x86_64"
+            "url": "https://github.com/ShayanAbbas1/dbdelve/releases/download/v0.8.0/dbdelve-0.8.0-windows-x86_64.zip",
+            "hash": "8ae16622b09e0a6f0ff8be4d6b8acbcb6f8c3291de7ef73765824d01954533b3",
+            "extract_dir": "dbdelve-0.8.0-windows-x86_64"
         }
     },
     "shortcuts": [
