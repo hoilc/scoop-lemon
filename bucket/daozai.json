@@ -1,13 +1,13 @@
 {
-    "version": "0.6.66",
+    "version": "0.6.70",
     "description": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛，音乐歌词、邮件验证码、日程提醒、待办与 AI 额度都轻轻出现在屏幕顶部",
     "homepage": "https://github.com/Renly1994/xiaotang-daozai",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Renly1994/xiaotang-daozai/releases/download/v0.6.66/Daozai-v0.6.66-windows-x64.zip",
-            "hash": "2b3a754be6250c5348c86e4962032d5143b8700a0af91258560fbf29fbd59ffd",
-            "extract_dir": "Daozai-v0.6.66-windows-x64"
+            "url": "https://github.com/Renly1994/xiaotang-daozai/releases/download/v0.6.70/Daozai-v0.6.70-windows-x64.zip",
+            "hash": "3a3c79ec4c1a10a7ed7ddb9b9889fd96cc03aadd8a297344be07f2f7cadc06af",
+            "extract_dir": "Daozai-v0.6.70-windows-x64"
         }
     },
     "shortcuts": [
