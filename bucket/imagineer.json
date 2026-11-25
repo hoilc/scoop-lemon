@@ -1,0 +1,23 @@
+{
+    "version": "0.25.1",
+    "description": "A command-line tool for image processing and conversion.",
+    "homepage": "https://github.com/foresterre/imagineer",
+    "license": "Apache-2.0|MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/foresterre/imagineer/releases/download/v0.25.1/imagineer-x86_64-pc-windows-msvc-v0.25.1.zip",
+            "extract_dir": "imagineer-x86_64-pc-windows-msvc-v0.25.1",
+            "hash": "6982111cd6a51c9a9ece89c6d52b38b8c51c80b388658c407eb287a5dd53a1e1"
+        }
+    },
+    "bin": "ig.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/foresterre/imagineer/releases/download/v$version/imagineer-x86_64-pc-windows-msvc-v$version.zip",
+                "extract_dir": "imagineer-x86_64-pc-windows-msvc-v$version"
+            }
+        }
+    }
+}
