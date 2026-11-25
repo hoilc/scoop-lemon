@@ -1,12 +1,12 @@
 {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "description": "A GUI LPA for managing eSIMs on removable eUICCs.",
     "homepage": "https://github.com/creamlike1024/EasyLPAC",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/0.9.2/easylpac-0.9.2-windows-amd64.exe#/EasyLPAC.exe",
-            "hash": "57d0483b0cb034869b720e26077871e4fb5df72026a7993d174ad9a36cbad3d1"
+            "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/v0.9.3/easylpac-0.9.3-windows-amd64.exe#/EasyLPAC.exe",
+            "hash": "ca3c3ffca004b0138c798894c4e39ab00bf09bf81eda1bed3898fe62391ec7d1"
         }
     },
     "shortcuts": [
@@ -19,8 +19,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/$version/easylpac-$version-windows-amd64.exe#/EasyLPAC.exe"
+                "url": "https://github.com/creamlike1024/EasyLPAC/releases/download/v$version/easylpac-$version-windows-amd64.exe#/EasyLPAC.exe"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
         }
     }
 }
