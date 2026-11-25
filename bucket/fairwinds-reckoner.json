@@ -1,16 +1,16 @@
 {
-    "version": "6.3.0",
+    "version": "6.3.1",
     "description": "Declaratively install and manage multiple Helm chart releases.",
     "homepage": "https://github.com/FairwindsOps/reckoner",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FairwindsOps/reckoner/releases/download/v6.3.0/reckoner_6.3.0_Windows_amd64.tar.gz",
-            "hash": "cbc5aca08b82f56c9ec6541e42690167f7ee4503068928722f48d74ad414fcdb"
+            "url": "https://github.com/FairwindsOps/reckoner/releases/download/v6.3.1/reckoner_6.3.1_Windows_amd64.tar.gz",
+            "hash": "62b877129863de8fae098c31dc811cbe7e1d21b25fa0080d69065ee7a30dfc35"
         },
         "arm64": {
-            "url": "https://github.com/FairwindsOps/reckoner/releases/download/v6.3.0/reckoner_6.3.0_Windows_arm64.tar.gz",
-            "hash": "af70202f9a035bc02e0c3b230613d3d6529f646002ca70d565d6e5baa11d6577"
+            "url": "https://github.com/FairwindsOps/reckoner/releases/download/v6.3.1/reckoner_6.3.1_Windows_arm64.tar.gz",
+            "hash": "7eb8498e99d383b76e2af0174f1c4881161059a00e175dda8da905ac09594e77"
         }
     },
     "bin": "reckoner.exe",
