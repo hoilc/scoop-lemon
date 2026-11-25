@@ -1,10 +1,10 @@
 {
-    "version": "20260721-38fd634",
+    "version": "1.2.0",
     "description": "An utility to extract and repack Android backups created with adb backup (ICS+).",
     "homepage": "https://github.com/nelenkov/android-backup-extractor",
     "license": "Apache-2.0",
-    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-38fd634.jar#/abe.jar",
-    "hash": "abcc1d6e8614cc3cd975f5626537492f87460c0658980a3deb29ecb393f83f8a",
+    "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/v1.2.0/abe-v1.2.0.jar#/abe.jar",
+    "hash": "3f42f011b6b567431ab8cd9d4ae5c36cf19a82da835168718d1735d995a3ba1a",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "abe.bat",
     "suggest": {
@@ -15,12 +15,11 @@
             "java/zulu11-jdk"
         ]
     },
-    "checkver": {
-        "url": "https://github.com/nelenkov/android-backup-extractor/releases/expanded_assets/latest",
-        "regex": "(?sm)abe-(?<commit>[a-f0-9]+).jar.+?(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T\\d{2}:\\d{2}:\\d{2}Z",
-        "replace": "${year}${month}${day}-${commit}"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/latest/abe-$matchCommit.jar#/abe.jar"
+        "url": "https://github.com/nelenkov/android-backup-extractor/releases/download/v$version/abe-v$version.jar#/abe.jar",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }
