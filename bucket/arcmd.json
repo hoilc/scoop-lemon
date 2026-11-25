@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A fast, native rich-text editor with colorful spaces, split views, and local-first notes.",
     "homepage": "https://github.com/Ciao1019/ArcMD",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ciao1019/ArcMD/releases/download/v0.3.0/arcmd-0.3.0-windows-amd64.zip",
-            "hash": "5b8924b37ddd65690f5621b674f62f534d488e014042a9a9adeec65e4f8a4c0b"
+            "url": "https://github.com/Ciao1019/ArcMD/releases/download/v0.4.0/arcmd-0.4.0-windows-amd64.zip",
+            "hash": "890452d64234acd43d0e5057397c1efb8a7792f5510c708c39c55e4020ca0117"
         }
     },
     "bin": "ArcMD.exe",
