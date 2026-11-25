@@ -1,16 +1,16 @@
 {
-    "version": "1.20.0",
+    "version": "1.20.1",
     "description": "A network debugging and rule-based traffic splitting client powered by the Mihomo",
     "homepage": "https://github.com/appshubcc/Bettbox",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.20.0/Bettbox-1.20.0-windows-amd64-setup.exe",
-            "hash": "66ff0644dc5b7b12429c1e31a65dc17d92c68ce0f173c2b241cfc99bcd904ec2"
+            "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.20.1/Bettbox-1.20.1-windows-amd64-setup.exe",
+            "hash": "23f6ff849d5fb1b7fe2e505ad372d9a1fb4e9a824f7e888a4f9f8fdc56e01713"
         },
         "arm64": {
-            "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.20.0/Bettbox-1.20.0-windows-arm64-setup.exe",
-            "hash": "fc65a21a5e8a86e02a8ede630b126a26aff92f510c91a8f288d2a4b6440f6b68"
+            "url": "https://github.com/appshubcc/Bettbox/releases/download/v1.20.1/Bettbox-1.20.1-windows-arm64-setup.exe",
+            "hash": "abdb6d8b8d15b64a9f7765751be3d92e2b2c4676ac2894768348884ff36e4abd"
         }
     },
     "innosetup": true,
