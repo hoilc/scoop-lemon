@@ -1,6 +1,6 @@
 {
     "##": "#updateManually",
-    "version": "9.1.1",
+    "version": "9.1.2",
     "description": "VMware OVF Tool is a command-line utility that helps you import and export OVF packages to and from many VMware products.",
     "homepage": "https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool/latest",
     "license": {
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://scoop-lemon.tari.xyz/hosted/ovftool/VMware-ovftool-9.1.1-25678992-win.x86_64.zip",
-            "hash": "3c72da44e283cc3e8871af6f5da411dc2948c9aa9572c3ab2f19614865b4aa7a"
+            "url": "https://scoop-lemon.tari.xyz/hosted/ovftool/VMware-ovftool-9.1.2-25877804-win.x86_64.zip",
+            "hash": "7a52813a7590c98e4d398a38e854b460017372ad0bab203a5d3398b87b8bd9b1"
         }
     },
     "extract_dir": "ovftool",
