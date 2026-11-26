@@ -1,12 +1,12 @@
 {
-    "version": "1.3.9",
+    "version": "1.3.10",
     "description": "A translation assistant for academic literature reading and fast cross-language communication. | 面向学术文献阅读与跨语言快捷交流的翻译助手",
     "homepage": "https://manggo.pylogmon.cn/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/1.3.9/manggo-setup-1.3.9-amd64.exe#/dl.7z",
-            "hash": "62672a7d334a409133819bbfa8fc0ccca74c2b986efd821a1dfdec7c520d085f"
+            "url": "https://gitcode.com/Pylogmon/Manggo/releases/download/1.3.10/manggo-setup-1.3.10-amd64.exe#/dl.7z",
+            "hash": "fa538b0d4b3b36ce6f38425faab7b3987e8eee7acd6f4c6cb6bf7e123704b77f"
         }
     },
     "shortcuts": [
