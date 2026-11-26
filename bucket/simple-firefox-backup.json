@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.3",
     "description": "Simple Firefox Backup is a lightweight application that helps users create backup copies of their Mozilla Firefox data.",
     "homepage": "https://www.sordum.org/12298/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/downloads.php?simple-firefox-backup#/dl.zip",
-    "hash": "53e879e53339ace248c29a87067426cbd4608e7a09c307315f55617bb4b1e88f",
+    "hash": "6e7c99a08515c1b697aef0b1971f5464dba2ee5a35127da2de93c741d933be69",
     "extract_dir": "fBackup",
     "shortcuts": [
         [
