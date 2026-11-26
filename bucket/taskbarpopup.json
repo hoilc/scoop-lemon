@@ -1,12 +1,16 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A Windows 10/11 taskbar enhancement that hides the taskbar for maximized windows and shows a liquid-glass mini taskbar when Win is held. | Windows 10/11 任务栏增强：窗口最大化时自动藏起任务栏、铺满整块屏幕；长按 Win 弹出液态玻璃风格的迷你任务栏",
     "homepage": "https://github.com/DM74164/TaskbarPopup",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v1.2.1/TaskbarPopup.zip",
-            "hash": "4b26a7f43c752429d2df50da934f6b2e51d5ce417af6432e1f23ecf2947764b9"
+            "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v1.2.2/TaskbarPopup_v1.2.2.zip",
+            "hash": "c72e31a5758cb7a0fa22914194b86ad7e7322d2f1f158f9ab0a552d5ba3c88ff"
+        },
+        "arm64": {
+            "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v1.2.2/TaskbarPopup-arm64_v1.2.2.zip",
+            "hash": "c937e8a5bcb394f1bca2473383c2507f47cbecba3e30a664d5666a1d824ac2a6"
         }
     },
     "extract_dir": "TaskbarPopup",
@@ -20,7 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v$version/TaskbarPopup.zip"
+                "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v$version/TaskbarPopup_v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/DM74164/TaskbarPopup/releases/download/v$version/TaskbarPopup-arm64_v$version.zip"
             }
         }
     }
