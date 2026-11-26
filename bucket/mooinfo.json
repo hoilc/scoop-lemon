@@ -1,0 +1,27 @@
+{
+    "version": "1.1.6",
+    "description": "A graphical system and hardware information viewer based on OSHI.",
+    "homepage": "https://github.com/rememberber/MooInfo",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rememberber/MooInfo/releases/download/v1.1.6/MooInfo-1.1.6-windows-x64.zip",
+            "hash": "ccd445fa368868137dced66d5ba5090b79fd233f4f9d1ca34c6d1cabab4bd875"
+        }
+    },
+    "extract_dir": "MooInfo",
+    "shortcuts": [
+        [
+            "MooInfo.exe",
+            "MooInfo"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rememberber/MooInfo/releases/download/v$version/MooInfo-$version-windows-x64.zip"
+            }
+        }
+    }
+}
