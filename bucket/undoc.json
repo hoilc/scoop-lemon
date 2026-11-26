@@ -1,12 +1,12 @@
 {
-    "version": "0.28.0",
+    "version": "0.29.0",
     "description": "A high-performance tool for extracting content from DOCX, XLSX, and PPTX into Markdown, plain text, or JSON.",
     "homepage": "https://github.com/iyulab/undoc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iyulab/undoc/releases/download/v0.28.0/undoc-windows-x86_64-v0.28.0.zip",
-            "hash": "18d0284de1971b66637fa017aeb0a8b692d3e5cb34dda7352225726e90a53c1f"
+            "url": "https://github.com/iyulab/undoc/releases/download/v0.29.0/undoc-windows-x86_64-v0.29.0.zip",
+            "hash": "90574faabc3ce5ddae94c5ab0c8d9271950789dfd85cc7e511b09fd45dca0b4c"
         }
     },
     "bin": "undoc.exe",
