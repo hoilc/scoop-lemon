@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "SilverBullet+ is a personal knowledge database built on markdown files.",
     "homepage": "https://silverbullet.md/desktop",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://release.silverbullet.md/electron/artifacts/3.0.0/win/x64/SilverBullet-3.0.0-x64-Setup.exe#/dl.7z",
-            "hash": "c049abcb0276f7a02f2b4ec6a725e2575be8942b123e0b699f5719b956ab86c4",
+            "url": "https://release.silverbullet.md/electron/artifacts/3.0.1/win/x64/SilverBullet-3.0.1-x64-Setup.exe#/dl.7z",
+            "hash": "a13aed7e614f6e0a55d59f992c4debc708a7d54cae9eac10da58b1efe169cea9",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
         }
     },
