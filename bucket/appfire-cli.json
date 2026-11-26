@@ -1,5 +1,5 @@
 {
-    "version": "12.0.0",
+    "version": "13.2.0",
     "description": "Appfire CLI (ACLI) is an integrated family of CLIs for Atlassian, Atlassian-related, and other applications.",
     "homepage": "https://appfire.atlassian.net/wiki/spaces/ACLI/overview",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://appfire.atlassian.net/wiki/download/attachments/60562669/acli-12.0.0-windows-amd64.zip",
-            "extract_dir": "acli-12.0.0",
-            "hash": "d61edc3be4ad06e092151502ef75779f6ec5ed4b58295b35e7d7eb2de26424fd"
+            "url": "https://appfire.atlassian.net/wiki/download/attachments/60562669/acli-13.2.0-windows-amd64.zip",
+            "extract_dir": "acli-13.2.0",
+            "hash": "ad8cfdbcb98ba7141d59a47605ce712ee54fd0a8d4f24547e2a9d46e829e25fb"
         }
     },
     "pre_install": [
@@ -23,8 +23,8 @@
     ],
     "bin": "acli.bat",
     "checkver": {
-        "url": "https://bitbucket.org/!api/2.0/repositories/appfire-public/docker-acli/refs/tags?pagelen=1&sort=-target.date&fields=-values.target.%2A%2C-values.tagger.%2A",
-        "jsonpath": "$.values[0].name"
+        "url": "https://hub.docker.com/v2/repositories/bobswiftapps/acli/tags?page_size=5",
+        "regex": "\"name\":\\s*\"([\\d.]+)\","
     },
     "autoupdate": {
         "architecture": {
