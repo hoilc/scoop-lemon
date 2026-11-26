@@ -1,16 +1,16 @@
 {
-    "version": "0.0.61",
+    "version": "0.0.64",
     "description": "Open Interpreter is a coding agent optimized for low-cost models.",
     "homepage": "http://openinterpreter.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openinterpreter/openinterpreter/releases/download/rust-v0.0.61/open-interpreter-package-x86_64-pc-windows-msvc.tar.zst",
-            "hash": "246b729ec0cf08bc145c0d445ecd08f9746c4a4f7435bcde5c17b6be9b3c6a20"
+            "url": "https://github.com/openinterpreter/openinterpreter/releases/download/rust-v0.0.64/open-interpreter-package-x86_64-pc-windows-msvc.tar.zst",
+            "hash": "123f24e98a967aa9e59ec38f2663ad9796448532a8b70c913f510b64c454a671"
         },
         "arm64": {
-            "url": "https://github.com/openinterpreter/openinterpreter/releases/download/rust-v0.0.61/open-interpreter-package-aarch64-pc-windows-msvc.tar.zst",
-            "hash": "7d178d3662ebcf6d779f368dae17cf44a67cad258ac285b365b35d81ab61101b"
+            "url": "https://github.com/openinterpreter/openinterpreter/releases/download/rust-v0.0.64/open-interpreter-package-aarch64-pc-windows-msvc.tar.zst",
+            "hash": "4737924acce12742b05618a90e49179aeaa7273cd27a5a337174cb3891f3ebc6"
         }
     },
     "bin": [
