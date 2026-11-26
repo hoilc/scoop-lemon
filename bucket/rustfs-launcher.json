@@ -1,12 +1,12 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A small desktop app that runs RustFS, an S3-compatible object storage server, on your own computer.",
     "homepage": "https://github.com/rustfs/launcher",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rustfs/launcher/releases/download/1.0.6/rustfs-launcher-windows-x86_64-1.0.6-setup.exe#/dl.7z",
-            "hash": "3858b0b4f37569219cb2934eacfc4f4ab7f1beab293e83bd600dad4ad2b58c3b"
+            "url": "https://github.com/rustfs/launcher/releases/download/1.0.7/rustfs-launcher-windows-x86_64-1.0.7-setup.exe#/dl.7z",
+            "hash": "97c0350677ff45d61566f9767baed13e53cfbac8204f26bfede1b82090b41028"
         }
     },
     "shortcuts": [
