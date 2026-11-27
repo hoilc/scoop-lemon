@@ -3,8 +3,8 @@
     "description": "BCTextEncoder is a free text encryption software to encrypt text files and securely email sensitive data to your friends.",
     "homepage": "https://www.jetico.com/free-security-tools/encrypt-text-bctextencoder",
     "license": "Freeware",
-    "url": "https://www.jetico.com/download/bctextencoder#/BCTextEncoder.exe",
-    "hash": "5937f60dccad1cba803aaa00ebb98963122d8b9a3975347c1b82cbe0f499d30f",
+    "url": "https://jetico.com/file-downloads/BCTextEncoder.exe",
+    "hash": "1b8ae3dc2d91ef635c96b7f6ac4eb01def2bf8e4568b7ff9c2fd87965ebf8614",
     "shortcuts": [
         [
             "BCTextEncoder.exe",
@@ -16,6 +16,6 @@
         "regex": "v.([\\d.]+)</strong>"
     },
     "autoupdate": {
-        "url": "https://www.jetico.com/download/bctextencoder#/BCTextEncoder.exe"
+        "url": "https://jetico.com/file-downloads/BCTextEncoder.exe"
     }
 }
