@@ -1,12 +1,12 @@
 {
-    "version": "0.10.2",
+    "version": "0.10.3",
     "description": "A cross-platform MPEG-TS editing and diagnostic toolkit.",
     "homepage": "https://github.com/nilaoda/TSCutter.GUI",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nilaoda/TSCutter.GUI/releases/download/v0.10.2/TSCutter.GUI_Beta_win-x64_0.10.2.zip",
-            "hash": "1da960bfe17ea241b1f2f23511c92e8abd973d6a18b9f4f3ab4c746a734b29e4"
+            "url": "https://github.com/nilaoda/TSCutter.GUI/releases/download/v0.10.3/TSCutter.GUI_Beta_win-x64_0.10.3.zip",
+            "hash": "868286e5d5f47ce819db6f28b882868b09c2e2692e59885d98994549e4804bcd"
         }
     },
     "shortcuts": [
