@@ -1,13 +1,13 @@
 {
-    "version": "6.5.10",
+    "version": "6.5.11",
     "description": "A bring-your-own-content torrent streaming client for anime.",
     "homepage": "https://hayase.watch/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://api.hayase.watch/files/win-hayase-6.5.10-installer.exe#/dl.7z",
+            "url": "https://api.hayase.watch/files/win-hayase-6.5.11-installer.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "sha512:b4f26be40e2a9e9d1e59fd2ebd484d7c67beeb82a95c4b82a73719d5864307b79619ff98ef20c13ba14c1e1d8ec6d3b4fcf6d3896c49aed4719f702e39577965"
+            "hash": "sha512:ff56f494652821cbcf451062f3689d25f0fb0212904b14f7b664ad76cfaf41bb1cc47905b3c05050b8e26e532aa1d8c6cceed5edff72c85b9ac796fb1e61e028"
         }
     },
     "shortcuts": [
