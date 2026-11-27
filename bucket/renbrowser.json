@@ -1,12 +1,12 @@
 {
-    "version": "0.5.1",
+    "version": "0.6.2",
     "description": "Ren Browser is a modern browser for Reticulum Network using Reticulum-Go and Micron-Parser-Go.",
     "homepage": "https://renbrowser.quad4.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Quad4-Software/Ren-Browser/releases/download/v0.5.1/renbrowser-windows-amd64.exe#/renbrowser.exe",
-            "hash": "897a3fb77aeaf2db8a43d2acfc416df665f34513b4ff450cb57d67945563e92b"
+            "url": "https://github.com/Quad4-Software/Ren-Browser/releases/download/v0.6.2/renbrowser-windows-amd64.exe#/renbrowser.exe",
+            "hash": "2f7305af3594fdeac19f2370373e0a206dc0b4e1a359d208377df1ef9cb78b36"
         }
     },
     "shortcuts": [
