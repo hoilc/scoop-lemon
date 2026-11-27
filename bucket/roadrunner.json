@@ -1,13 +1,13 @@
 {
-    "version": "3.0.1",
+    "version": "3.2.0",
     "description": "A high-performance PHP application server, process manager written in Go and powered with plugins.",
     "homepage": "https://docs.roadrunner.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roadrunner-server/roadrunner/releases/download/v3.0.1/roadrunner-3.0.1-windows-amd64.zip",
-            "extract_dir": "roadrunner-3.0.1-windows-amd64",
-            "hash": "a8c908c70fe82ccd824e7bbd8e4e95ac541b98e8aa1f13bb70b9a89994592408"
+            "url": "https://github.com/roadrunner-server/roadrunner/releases/download/v3.2.0/roadrunner-3.2.0-windows-amd64.zip",
+            "extract_dir": "roadrunner-3.2.0-windows-amd64",
+            "hash": "0c3d49d4b58b44a3ab6ceb9037e177b82985d1a72d225863d1d9ffe4eafba6cc"
         }
     },
     "bin": "rr.exe",
