@@ -1,12 +1,12 @@
 {
-    "version": "4.8.1",
+    "version": "4.9.0",
     "description": "A flexible GLSL and HLSL shader editor and IDE.",
     "homepage": "https://github.com/houmain/gpupad",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/houmain/gpupad/releases/download/4.8.1/GPUpad-4.8.1-win64.msi",
-            "hash": "55660f5c0abc7828f13b7bf99d80e9208fd5bd924cbe6952ef387de19f9711ee"
+            "url": "https://github.com/houmain/gpupad/releases/download/4.9.0/GPUpad-4.9.0-win64.msi",
+            "hash": "6cdbeac7b22f8f2483e6e05c06db8aaec0dc7146208a6ff0d9ac14176cd76679"
         }
     },
     "extract_dir": "GPUpad",
