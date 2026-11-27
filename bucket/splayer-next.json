@@ -1,17 +1,17 @@
 {
-    "version": "1.2.1-beta.2",
+    "version": "1.2.1-beta.3",
     "description": "跨平台桌面音乐播放器，支持丰富歌词与多种音频格式 | A desktop music player with rich lyric support and wide audio format compatibility.",
     "homepage": "https://github.com/SPlayer-Dev/SPlayer-Next",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/download/v1.2.1-beta.2/SPlayer-Next-1.2.1-beta.2-x64-setup.exe#/dl.7z",
-            "hash": "ba009e3f9a1f4225f387dcfeee90d686d34cfa2eec1b019438a4cc9633bbdd61",
+            "url": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/download/v1.2.1-beta.3/SPlayer-Next-1.2.1-beta.3-x64-setup.exe#/dl.7z",
+            "hash": "a9daa174a1b473b76c7e879448794630ee62cbf01daf2cb1f3c8562f4514aaa6",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         },
         "arm64": {
-            "url": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/download/v1.2.1-beta.2/SPlayer-Next-1.2.1-beta.2-arm64-setup.exe#/dl.7z",
-            "hash": "3a84c9224d39dcaac23bfbb5a759ebf6c9426c1c516b09a07082f6fdbd52062e",
+            "url": "https://github.com/SPlayer-Dev/SPlayer-Next/releases/download/v1.2.1-beta.3/SPlayer-Next-1.2.1-beta.3-arm64-setup.exe#/dl.7z",
+            "hash": "60254ae6c5e306ae36962fa209499b37149ffb87e2092735990704487b04c5d0",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
         }
     },
