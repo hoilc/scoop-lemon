@@ -1,0 +1,28 @@
+{
+    "version": "3.6.0",
+    "description": "A free, open-source Git GUI client with advanced search, diff and repository management features.",
+    "homepage": "https://github.com/iazarny/gitember",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://gitember.org/Gitember-3.6.0.zip",
+            "hash": "a67a46ffc2f18efc76d7b5277a18d73edbc4316b9c75426649f9fc5bf34aecaa"
+        }
+    },
+    "extract_dir": "Gitember",
+    "shortcuts": [
+        [
+            "Gitember.exe",
+            "Gitember"
+        ]
+    ],
+    "notes": "Gitember is NOT portable.",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gitember.org/Gitember-$version.zip"
+            }
+        }
+    }
+}
