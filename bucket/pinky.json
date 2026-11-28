@@ -1,12 +1,12 @@
 {
-    "version": "2026.1128.1",
+    "version": "2026.1128.3",
     "description": "A desktop app that lets AI agents use your phone, with you in the loop.",
     "homepage": "https://github.com/DIYgod/pinky",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DIYgod/pinky/releases/download/v2026.1128.1/pinky-2026.1128.1-windows-amd64.zip",
-            "hash": "be7bc2410800b939d40a44499a4fbd4334d798dc5d7ec575b6a98c9d950065a9"
+            "url": "https://github.com/DIYgod/pinky/releases/download/v2026.1128.3/pinky-2026.1128.3-windows-amd64.zip",
+            "hash": "6017e98976223d571183203040c5918e35073d4f3910e1b689f2d71d49caec2f"
         }
     },
     "shortcuts": [
