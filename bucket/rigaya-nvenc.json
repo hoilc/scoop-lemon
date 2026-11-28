@@ -1,5 +1,5 @@
 {
-    "version": "9.41",
+    "version": "9.42",
     "description": "Investigate performance and image quality of HW encoder (NVENC) of NVIDIA.",
     "homepage": "https://github.com/rigaya/NVEnc",
     "license": {
@@ -9,12 +9,12 @@
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" 'NVEncC64.exe' | Select-Object -First 1 | Rename-Item -NewName 'NVEncC.exe'",
-            "url": "https://github.com/rigaya/NVEnc/releases/download/9.41/NVEncC_9.41_x64.7z",
-            "hash": "5010e8ad241f3a1272f40b4b06921282c7565234f32b78b948f1878960ae2de4"
+            "url": "https://github.com/rigaya/NVEnc/releases/download/9.42/NVEncC_9.42_x64.7z",
+            "hash": "d465144495e7f41b1c09a16d5829be39d8f67b767349b425d9110792a348f7ac"
         },
         "32bit": {
-            "url": "https://github.com/rigaya/NVEnc/releases/download/9.41/NVEncC_9.41_Win32.7z",
-            "hash": "99c799b6539752f3347371fbf61cce4dc57bba9fed545c83d19a1f510fa23bca"
+            "url": "https://github.com/rigaya/NVEnc/releases/download/9.42/NVEncC_9.42_Win32.7z",
+            "hash": "54749cc4bcaa80b926cda1e20b3c31e1fe7aba70ccf58ecd1e233ef0618cd48d"
         }
     },
     "bin": "NVEncC.exe",
