@@ -1,10 +1,10 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "Task Explorer is an advanced Task Manager tool with emphasis on, not just monitoring what applications are running, but on finding out what applications are doing.",
     "homepage": "https://github.com/DavidXanatos/TaskExplorer",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v2.0.1/TaskExplorer-v2.0.1.exe",
-    "hash": "9bc3996ab828fb8d13cae2a2d405d9fa414925b202cc685dfdb81d5d2555522d",
+    "url": "https://github.com/DavidXanatos/TaskExplorer/releases/download/v2.1.0/TaskExplorer-v2.1.0.exe",
+    "hash": "7ee7e9813b8c9369eaf72e67aa35f0fa1e8e20b01af235ef8c352f7325735d23",
     "innosetup": true,
     "shortcuts": [
         [
