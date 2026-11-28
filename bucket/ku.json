@@ -1,16 +1,16 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "A fast, keyboard-driven Kubernetes TUI.",
     "homepage": "https://github.com/bjarneo/ku",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bjarneo/ku/releases/download/v0.13.0/ku-windows-amd64.exe#/ku.exe",
-            "hash": "f5c4e733f9983a1df0ebcbd2a1f784d80941a5ff685345350373bdbe4948a43c"
+            "url": "https://github.com/bjarneo/ku/releases/download/v0.14.0/ku-windows-amd64.exe#/ku.exe",
+            "hash": "ba24f5349191352ac6adb5256eaa2f6bdd34fcd8596c8fa18af2f29abe95ccd8"
         },
         "arm64": {
-            "url": "https://github.com/bjarneo/ku/releases/download/v0.13.0/ku-windows-arm64.exe#/ku.exe",
-            "hash": "5a5d2396ec00cc201013ad788de6a94cfcbc30b97bebd96836f8aca4603be46b"
+            "url": "https://github.com/bjarneo/ku/releases/download/v0.14.0/ku-windows-arm64.exe#/ku.exe",
+            "hash": "f98a7ecf3831841877294b84a36eb84a86104fa433da3ba3d9fd518cd23ac111"
         }
     },
     "bin": "ku.exe",
