@@ -1,10 +1,10 @@
 {
-    "version": "4.2.0",
+    "version": "4.3.0",
     "description": "Access other storage backends via the S3 API.",
     "homepage": "https://github.com/gaul/s3proxy",
     "license": "Apache-2.0",
-    "url": "https://github.com/gaul/s3proxy/releases/download/s3proxy-4.2.0/s3proxy#/s3proxy.jar",
-    "hash": "26882fd3125b45d83407984ca5d114c03dfaaeb8ddbe05e659b77f5bf19129c4",
+    "url": "https://github.com/gaul/s3proxy/releases/download/s3proxy-4.3.0/s3proxy#/s3proxy.jar",
+    "hash": "b3142e1af25654ff68c41d2e7b10d6821e099ffa0690c184e1257497f51229f9",
     "pre_install": "@($manifest.bin) | ForEach-Object { $n = [IO.Path]::GetFileNameWithoutExtension($_); Set-Content -Encoding ASCII -Path \"$dir\\$n.bat\" -Value \"@java -jar `\"%~dp0$n.jar`\" %*\" }",
     "bin": "s3proxy.bat",
     "suggest": {
